@@ -1,0 +1,368 @@
+/* Logistics Library — 사이트 틀(헤더·푸터·첫 화면). CTU 자료 화면 자체는 ctu-library.css 가 그린다. */
+:root {
+  --bg: #f7f8f6;
+  --paper: #fff;
+  --ink: #1d1d1f;
+  --body: #42464a;
+  --muted: #626a70;
+  --line: rgba(0, 0, 0, 0.1);
+  --blue: #0071e3;
+  --max: 1440px;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Pretendard', 'Noto Sans KR', 'Segoe UI', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 헤더: CubeStow와 같은 44px 구조, Logistics의 파란 계열 */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  height: 44px;
+  padding: 0 max(18px, calc((100% - 1440px) / 2));
+  background: rgba(25, 53, 88, 0.96);
+  color: #f5f8fc;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.topbar .brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-weight: 800;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.topbar .brand-mark {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: var(--blue);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 900;
+}
+.topbar nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-left: auto;
+}
+.topbar nav a,
+.topbar nav summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 0;
+  padding: 0;
+  border-radius: 8px;
+  color: rgba(245, 248, 252, 0.76);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+.topbar nav a:hover,
+.topbar nav summary:hover,
+.topbar nav a[aria-current='page'] {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+/* 패밀리 사이트 드롭다운 */
+.topbar details {
+  position: relative;
+}
+.topbar summary::-webkit-details-marker {
+  display: none;
+}
+.topbar summary::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: 2px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+}
+.topbar details[open] summary::after {
+  transform: translateY(2px) rotate(-135deg);
+}
+.topbar .menu-list {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  min-width: 240px;
+  padding: 6px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.14);
+}
+.topbar .menu-list a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  width: 100%;
+  min-height: 0;
+  padding: 8px 10px;
+  color: var(--ink);
+}
+.topbar .menu-list a:hover {
+  background: #f0f2f4;
+  color: var(--ink);
+}
+.topbar .menu-list small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+main {
+  width: min(calc(100% - 36px), var(--max));
+  min-height: calc(100vh - 44px - 106px);
+  margin: 0 auto;
+  padding: 28px 0 56px;
+}
+
+/* 첫 화면: 자료 목록 */
+.hub-head h1 {
+  margin: 10px 0 6px;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+}
+.hub-head p {
+  margin: 0;
+  max-width: 720px;
+  color: var(--body);
+}
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+.hub-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+}
+a.hub-card:hover {
+  border-color: var(--blue);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+.hub-card .tag {
+  align-self: flex-start;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: #e8f1fd;
+  color: #1b4f8f;
+  font-size: 12px;
+  font-weight: 700;
+}
+.hub-card b {
+  font-size: 17px;
+}
+.hub-card span {
+  color: var(--body);
+  font-size: 13.5px;
+}
+.hub-card .open {
+  margin-top: auto;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 13px;
+}
+.hub-card.soon {
+  border-style: dashed;
+}
+.hub-card.soon .tag {
+  background: #fff3cf;
+  color: #8a5a00;
+}
+.hub-card.soon b,
+.hub-card.soon span {
+  color: var(--muted);
+}
+
+/* CTU 자료 화면 틀 */
+.library-shell {
+  padding-top: 0;
+}
+.library-shell .library-view {
+  display: block !important;
+}
+
+/* 푸터: CubeStow와 같은 106px 밀도, Logistics의 짙은 네이비 */
+.site-footer {
+  position: relative;
+  display: flex;
+  min-height: 106px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 28px max(18px, calc((100% - 1440px) / 2 + 18px));
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  background: #142942;
+  color: #fff;
+  line-height: normal;
+}
+.site-footer .footer-copy {
+  display: grid;
+  gap: 8px;
+}
+.site-footer .footer-brand {
+  display: flex;
+  height: 24px;
+  align-items: baseline;
+  gap: 10px;
+  line-height: 24px;
+}
+.site-footer .footer-brand strong {
+  font-size: 18px;
+  line-height: 24px;
+}
+.site-footer .footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  color: #aabbd0;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+.site-footer .footer-visitors {
+  display: inline-flex;
+  gap: 8px;
+}
+.site-footer .footer-visitors b {
+  color: #eaf3ff;
+  font-variant-numeric: tabular-nums;
+}
+.site-footer .footer-meta i {
+  font-style: normal;
+  color: #6f86a2;
+}
+.site-footer .footer-meta small {
+  margin-left: 6px;
+  color: #8297b0;
+}
+.footer-family {
+  position: relative;
+  flex: 0 0 auto;
+}
+.footer-family summary {
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  border: 1px solid #526b89;
+  border-radius: 8px;
+  color: #d7e3f2;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+.footer-family summary::-webkit-details-marker {
+  display: none;
+}
+.footer-family summary::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+}
+.footer-family[open] summary::after {
+  transform: translateY(2px) rotate(-135deg);
+}
+.footer-family .menu-list {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 8px);
+  z-index: 30;
+  min-width: 250px;
+  padding: 6px;
+  border: 1px solid #cad7e5;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(10, 30, 54, 0.18);
+}
+.footer-family .menu-list a {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+}
+.footer-family .menu-list a:hover {
+  background: #edf4fb;
+}
+.footer-family .menu-list small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    height: 44px;
+    padding: 0 14px;
+  }
+  .topbar nav {
+    width: auto;
+    margin-left: auto;
+  }
+  .hub-grid {
+    grid-template-columns: 1fr;
+  }
+  .site-footer {
+    align-items: flex-end;
+    padding: 24px 14px;
+  }
+  .site-footer .footer-meta {
+    gap: 6px;
+  }
+  .site-footer .footer-meta small {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 520px) {
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer-family {
+    align-self: flex-end;
+  }
+}

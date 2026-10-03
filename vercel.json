@@ -1,0 +1,24 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/library/ctu-code", "destination": "/library" },
+    { "source": "/library/ctu-code/:id", "destination": "/library" }
+  ],
+  "headers": [
+    {
+      "source": "/ctu-library.js",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+      ]
+    },
+    {
+      "source": "/ctu-library.css",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+      ]
+    }
+  ]
+}
