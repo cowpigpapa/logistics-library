@@ -6,7 +6,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/eu-lithium-battery';
-  const DOCS_VERSION = '20261005-01';
+  const DOCS_VERSION = '20261005-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -225,8 +225,8 @@
     sections.forEach(d => d.addEventListener('toggle', sync));
     sync();
   }
-  // 원문과 대조한 날짜와 번역 기준본.
-  const CHECKED = '2026-10-05';
+  // 문서를 작성·갱신한 날짜와 번역 기준본. 전 문서를 조문 단위로 대조 검수한 날짜가 아니므로 '대조 확인'이라고 쓰지 않는다.
+  const UPDATED = '2026-10-05';
   const BASIS = {
     b: '번역 기준 2026-08-13 연결본(전문은 2023년 관보본)',
     w: '번역 기준 2024-04-30 관보본',
@@ -275,7 +275,7 @@
   }
   async function renderDoc(view, doc) {
     const head = `<nav class="lib-crumb"><a href="${home}">← EU Battery</a></nav>`;
-    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h2>${esc(doc.title)}</h2><p class="lib-checked">${esc(LAW_NAMES[doc.law])} · ${esc(BASIS[doc.law])} · 원문 대조 확인 ${CHECKED}</p>`;
+    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h2>${esc(doc.title)}</h2><p class="lib-checked">${esc(LAW_NAMES[doc.law])} · ${esc(BASIS[doc.law])} · 작성·갱신 ${UPDATED}</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
     try {
