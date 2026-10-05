@@ -1,0 +1,230 @@
+/* EU Battery 자료(/library/eu-lithium-battery): 목록·문서 화면의 기본 모양은 ctu-library.css를 그대로 쓰고,
+   여기에는 법령 번역과 체크리스트에만 필요한 것을 둔다. */
+.library-view .lib-doc > span:last-child {
+  font-size: 13px;
+  line-height: 1.55;
+  word-break: keep-all;
+}
+.library-view .lib-loading {
+  color: var(--lib-muted);
+}
+.library-view .lib-article {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+/* 문서 머리의 해설·전체 번역 이동 */
+.library-view .bat-jump {
+  display: flex;
+  gap: 8px;
+  margin: 0 0 18px;
+}
+.library-view .bat-jump a {
+  padding: 6px 14px;
+  border: 1px solid #c9d9ea;
+  border-radius: 999px;
+  background: #f5f9fd;
+  color: #0b4a99;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.library-view .bat-jump a:hover {
+  border-color: #0071e3;
+}
+.library-view .bat-commentary > p:first-child {
+  font-size: 15.5px;
+  line-height: 1.75;
+}
+.library-view .bat-commentary a,
+.library-view .lib-disclaimer a {
+  color: #0071e3;
+  font-weight: 600;
+}
+/* 체크리스트: 인쇄해서 표시할 수 있는 네모 칸 */
+.library-view .lib-article ul.lib-check {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0;
+  padding: 14px 16px;
+  border: 1px solid #cfe3d6;
+  border-radius: 12px;
+  background: #f6fbf7;
+  list-style: none;
+}
+.library-view ul.lib-check li {
+  position: relative;
+  padding-left: 26px;
+  line-height: 1.6;
+}
+.library-view ul.lib-check li::before {
+  content: '';
+  position: absolute;
+  top: 0.3em;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid #4f8a68;
+  border-radius: 4px;
+  background: #fff;
+}
+/* 전체 번역 구간 */
+.library-view .bat-translation {
+  margin-top: 36px;
+  padding-top: 8px;
+  border-top: 3px solid #1d1d1f;
+}
+.library-view .lib-article .bat-part-title {
+  margin: 14px 0 6px;
+  font-size: 21px;
+}
+.library-view .law-toc {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2px 16px;
+  margin: 14px 0 6px;
+  padding: 12px 14px;
+  border: 1px solid var(--lib-line);
+  border-radius: 12px;
+  background: #fafbfa;
+  font-size: 13px;
+}
+.library-view .law-toc a {
+  overflow: hidden;
+  color: #2b3230;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.library-view .law-toc a:hover {
+  color: #0071e3;
+}
+.library-view .law-toc b {
+  color: #0b4a99;
+}
+.library-view .lib-article h3.law-division {
+  margin: 34px 0 6px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #eef3f8;
+  color: #123d70;
+  font-size: 17px;
+  scroll-margin-top: 72px;
+}
+.library-view .lib-article h4.law-article {
+  margin: 28px 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--lib-line);
+  color: #0b4a99;
+  font-size: 16px;
+  scroll-margin-top: 72px;
+}
+.library-view .bat-translation h4 {
+  margin: 22px 0 6px;
+  font-size: 15.5px;
+}
+.library-view .bat-translation h5 {
+  margin: 16px 0 4px;
+  font-size: 14.5px;
+}
+.library-view .bat-translation p {
+  margin: 8px 0;
+  line-height: 1.8;
+}
+.library-view .bat-translation .law-pt {
+  padding-left: 1.6em;
+}
+.library-view .bat-translation .law-pt2 {
+  padding-left: 3.2em;
+}
+.library-view .bat-translation .law-pt3 {
+  padding-left: 4.8em;
+}
+.library-view .bat-translation .law-note {
+  color: var(--lib-muted);
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+.library-view .law-amend {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: #fff4d6;
+  color: #7a4d00;
+  font-size: 11.5px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.library-view .bat-translation table.lib-table {
+  margin: 10px 0;
+}
+.library-view .bat-translation table.lib-table td,
+.library-view .bat-translation table.lib-table th {
+  border: 1px solid var(--lib-line);
+}
+.library-view .bat-translation table.lib-table th:not(.lib-nowrap) {
+  white-space: normal;
+}
+.library-view .bat-translation table.lib-table p {
+  margin: 2px 0;
+  line-height: 1.6;
+}
+.library-view .bat-translation,
+.library-view .bat-commentary {
+  overflow-x: auto;
+}
+/* 이전·다음 문서 */
+.library-view .bat-pager {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 36px;
+}
+.library-view .bat-pager a {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 14px;
+  border: 1px solid var(--lib-line);
+  border-radius: 12px;
+  color: inherit;
+  text-decoration: none;
+}
+.library-view .bat-pager a:last-child {
+  text-align: right;
+}
+.library-view .bat-pager a:hover {
+  border-color: #0071e3;
+}
+.library-view .bat-pager small {
+  color: var(--lib-muted);
+  font-size: 12px;
+}
+.library-view .bat-pager b {
+  font-size: 14px;
+}
+@media (max-width: 640px) {
+  .library-view .bat-translation .law-pt {
+    padding-left: 1em;
+  }
+  .library-view .bat-translation .law-pt2 {
+    padding-left: 2em;
+  }
+  .library-view .bat-translation .law-pt3 {
+    padding-left: 3em;
+  }
+}
+@media print {
+  .topbar,
+  .site-footer,
+  .lib-crumb,
+  .bat-jump,
+  .bat-pager,
+  .law-toc {
+    display: none !important;
+  }
+  .library-view .lib-article {
+    border: 0;
+    padding: 0;
+  }
+}

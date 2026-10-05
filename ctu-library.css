@@ -547,6 +547,7 @@
 .library-view .lib-notice p {
   margin: 0;
   color: #3a4148;
+  word-break: keep-all;
 }
 .library-view .lib-summary-button {
   display: flex;
@@ -579,7 +580,7 @@
 /* 첫 화면 머리: 왼쪽 소개 카드 + 오른쪽 저작권·해설, 펼치기·접기 단추 둘 */
 .library-view .lib-head-row {
   display: grid;
-  grid-template-columns: minmax(0, .975fr) minmax(480px, 1.025fr);
+  grid-template-columns: minmax(0, .78fr) minmax(720px, 1.22fr);
   gap: 14px;
   margin: 10px 0 12px;
   align-items: start;
@@ -628,7 +629,7 @@
   font-size: 14px;
   color: var(--lib-muted);
 }
-@media (max-width: 760px) {
+@media (max-width: 980px) {
   .library-view .lib-head-row {
     grid-template-columns: 1fr;
   }
@@ -655,9 +656,9 @@
   opacity: 0.9;
 }
 .library-view .lib-head-row {
-  grid-template-columns: minmax(0, .975fr) minmax(480px, 1.025fr);
+  grid-template-columns: minmax(0, .78fr) minmax(720px, 1.22fr);
 }
-@media (max-width: 760px) {
+@media (max-width: 980px) {
   .library-view .lib-head-row {
     grid-template-columns: 1fr;
   }

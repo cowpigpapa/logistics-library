@@ -1,13 +1,16 @@
 /* Logistics Library — 사이트 틀(헤더·푸터·첫 화면). CTU 자료 화면 자체는 ctu-library.css 가 그린다. */
 :root {
-  --bg: #f7f8f6;
+  --bg: #f4f8fc;
   --paper: #fff;
-  --ink: #1d1d1f;
-  --body: #42464a;
-  --muted: #626a70;
-  --line: rgba(0, 0, 0, 0.1);
-  --blue: #0071e3;
+  --ink: #10243e;
+  --body: #40546c;
+  --muted: #6d7f92;
+  --line: #d9e3ed;
+  --blue: #1476d4;
+  --blue-deep: #0b4f91;
+  --blue-soft: #e8f3ff;
   --max: 1440px;
+  --content-max: 1320px;
 }
 * {
   box-sizing: border-box;
@@ -19,7 +22,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: 'Pretendard', 'Noto Sans KR', 'Segoe UI', sans-serif;
+  font-family: 'SUIT', 'Pretendard Variable', 'Pretendard', 'Noto Sans KR', 'Segoe UI', sans-serif;
   font-size: 15px;
   line-height: 1.6;
 }
@@ -38,28 +41,52 @@ a {
   gap: 38px;
   height: 44px;
   padding: 0 max(18px, calc((100% - 1440px) / 2));
-  background: rgba(25, 53, 88, 0.96);
-  color: #f5f8fc;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(14px);
 }
 .topbar .brand {
   display: flex;
   align-items: center;
-  gap: 11px;
-  font-weight: 800;
-  font-size: 15px;
+  gap: 10px;
   white-space: nowrap;
 }
 .topbar .brand-mark {
-  display: grid;
-  place-items: center;
-  width: 24px;
-  height: 24px;
-  border-radius: 6px;
-  background: var(--blue);
-  color: #fff;
-  font-size: 11px;
-  font-weight: 900;
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 2px 4px rgba(20, 118, 212, 0.2));
+}
+.topbar .brand-mark rect {
+  fill: #1476d4;
+}
+.topbar .brand-mark path:first-of-type {
+  fill: rgba(255, 255, 255, 0.16);
+  stroke: #fff;
+  stroke-width: 1.15;
+  stroke-linejoin: round;
+}
+.topbar .brand-mark path:last-of-type {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.05;
+  stroke-linecap: round;
+}
+.topbar .brand-wordmark {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font-size: 15px;
+  letter-spacing: -0.025em;
+}
+.topbar .brand-wordmark strong {
+  color: #10243e;
+  font-weight: 800;
+}
+.topbar .brand-wordmark span {
+  color: #60748a;
+  font-weight: 600;
 }
 .topbar nav {
   display: flex;
@@ -75,7 +102,7 @@ a {
   min-height: 0;
   padding: 0;
   border-radius: 8px;
-  color: rgba(245, 248, 252, 0.76);
+  color: #51657a;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
@@ -84,8 +111,8 @@ a {
 .topbar nav a:hover,
 .topbar nav summary:hover,
 .topbar nav a[aria-current='page'] {
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background: var(--blue-soft);
+  color: var(--blue-deep);
 }
 /* 패밀리 사이트 드롭다운 */
 .topbar details {
@@ -138,76 +165,132 @@ a {
 }
 
 main {
-  width: min(calc(100% - 36px), var(--max));
+  width: min(calc(100% - 36px), var(--content-max));
   min-height: calc(100vh - 44px - 106px);
   margin: 0 auto;
-  padding: 28px 0 56px;
+  padding: 0 0 48px;
 }
 
-/* 첫 화면: 자료 목록 */
-.hub-head h1 {
-  margin: 10px 0 6px;
-  font-size: 28px;
-  letter-spacing: -0.02em;
+/* 첫 화면: 자료를 한 항목씩 쌓는 포트폴리오형 목록 */
+.library-intro {
+  padding: 48px 0 34px;
 }
-.hub-head p {
+.library-intro h1 {
   margin: 0;
-  max-width: 720px;
-  color: var(--body);
+  font-size: 28px;
+  line-height: 1.25;
+  letter-spacing: -0.035em;
 }
-.hub-grid {
+.library-entry {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 22px;
+  grid-template-columns: minmax(360px, 0.95fr) minmax(0, 1.05fr);
+  gap: clamp(24px, 3vw, 44px);
+  align-items: center;
+  padding: 58px 0;
+  border-top: 1px solid var(--line);
 }
-.hub-card {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 18px;
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  background: var(--paper);
-}
-a.hub-card:hover {
-  border-color: var(--blue);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-}
-.hub-card .tag {
-  align-self: flex-start;
-  padding: 2px 9px;
-  border-radius: 999px;
-  background: #e8f1fd;
-  color: #1b4f8f;
-  font-size: 12px;
-  font-weight: 700;
-}
-.hub-card b {
-  font-size: 17px;
-}
-.hub-card span {
-  color: var(--body);
-  font-size: 13.5px;
-}
-.hub-card .open {
-  margin-top: auto;
+.entry-type {
+  margin: 0 0 8px;
   color: var(--blue);
-  font-weight: 700;
-  font-size: 13px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.09em;
 }
-.hub-card.soon {
-  border-style: dashed;
+.entry-copy h2 {
+  margin: 0 0 14px;
+  font-size: 26px;
+  line-height: 1.25;
+  letter-spacing: -0.035em;
 }
-.hub-card.soon .tag {
-  background: #fff3cf;
-  color: #8a5a00;
+.entry-copy > p:not(.entry-type) {
+  margin: 0 0 20px;
+  color: var(--body);
+  font-size: 14px;
+  word-break: keep-all;
 }
-.hub-card.soon b,
-.hub-card.soon span {
+.entry-facts {
+  margin: 0 0 24px;
+}
+.entry-facts div {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 14px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+.entry-facts dt {
   color: var(--muted);
+  font-size: 12px;
 }
-
+.entry-facts dd {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+.entry-link {
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentColor;
+  color: var(--blue-deep);
+  font-size: 13px;
+  font-weight: 800;
+}
+.entry-link span {
+  margin-left: 8px;
+}
+.entry-status {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 5px 11px;
+  border: 1px solid #b9c9d9;
+  border-radius: 999px;
+  color: #5c7187;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.entry-image {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  max-width: 660px;
+  justify-self: end;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #dce9f5;
+}
+.entry-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.entry-coming-art {
+  aspect-ratio: 660 / 372;
+  background: linear-gradient(145deg, #e7f1fb, #d6e6f5);
+}
+.entry-coming-art svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.entry-coming-art .eu-disc {
+  fill: #1476d4;
+}
+.entry-coming-art .eu-stars {
+  fill: #ffd84d;
+}
+.entry-coming-art .battery-symbol rect {
+  fill: #fff;
+}
+.entry-coming-art .battery-symbol path {
+  fill: none;
+  stroke: #1476d4;
+  stroke-width: 9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 /* CTU 자료 화면 틀 */
 .library-shell {
   padding-top: 0;
@@ -226,7 +309,7 @@ a.hub-card:hover {
   gap: 32px;
   padding: 28px max(18px, calc((100% - 1440px) / 2 + 18px));
   border-top: 1px solid rgba(255, 255, 255, 0.12);
-  background: #142942;
+  background: #173b61;
   color: #fff;
   line-height: normal;
 }
@@ -250,7 +333,7 @@ a.hub-card:hover {
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
-  color: #aabbd0;
+  color: #bed0e1;
   font-size: 12px;
   letter-spacing: 0.04em;
 }
@@ -268,7 +351,7 @@ a.hub-card:hover {
 }
 .site-footer .footer-meta small {
   margin-left: 6px;
-  color: #8297b0;
+  color: #9eb6cc;
 }
 .footer-family {
   position: relative;
@@ -341,8 +424,10 @@ a.hub-card:hover {
     width: auto;
     margin-left: auto;
   }
-  .hub-grid {
+  .library-entry {
     grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 44px 0;
   }
   .site-footer {
     align-items: flex-end;
@@ -358,6 +443,15 @@ a.hub-card:hover {
   }
 }
 @media (max-width: 520px) {
+  main {
+    width: min(calc(100% - 28px), var(--content-max));
+  }
+  .library-intro {
+    padding: 36px 0 28px;
+  }
+  .library-intro h1 {
+    font-size: 24px;
+  }
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
