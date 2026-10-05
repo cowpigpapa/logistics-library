@@ -1,0 +1,113 @@
+<p>실무에서 자주 보는 ULD 컨테이너·팔레트·온도관리 ULD·말 운송 스톨의 바닥 치수, 높이, 최대 총중량(MGW, Maximum Gross Weight), 자중(tare), 용적, 탑재 위치를 표로 정리합니다. 수치는 Boeing, ULD 제조사, 항공사(Lufthansa Cargo, 대한항공, 아시아나항공, 싱가포르항공, 베트남항공) 공개 자료로 교차 확인했고, 자료마다 다른 값은 그대로 밝혔습니다. 코드 읽는 법은 <a data-doc="uld-code">ULD 코드 읽는 법</a>에서 다룹니다.</p>
+
+<p class="lib-disclaimer">같은 형식 코드라도 최대 총중량, 자중, 용적은 제조사·제품·항공사와 실리는 위치(메인덱·로어덱, 기종)에 따라 다르게 공개됩니다. 아래 표는 공개 자료의 값을 비교한 것이며, 실제 예약·빌드업에는 이용하는 항공사의 최신 사양과 탑재 제한을 확인하시기 바랍니다.</p>
+
+<h3>통칭과 IATA 코드</h3>
+<p>LD3, M1 같은 통칭은 옛 ATA 체계에서 온 이름이고, 하나의 통칭에 IATA 코드가 여럿 대응합니다. 통칭을 쓰는 방식은 자료마다 조금씩 달라서 <b>예약과 서류에는 IATA 코드를 쓰는 것</b>이 안전합니다.</p>
+<table class="lib-table">
+<thead><tr><th>통칭</th><th>대표 IATA 코드</th><th>같은 계열로 묶이는 코드(Boeing 자료)</th><th>비고</th></tr></thead>
+<tbody>
+<tr><td>LD1</td><td>AKC</td><td>AVC, AVD, AVK, AVJ, 포크리프트형 AVY</td><td>B747·767·777·787, MD-11 로어덱</td></tr>
+<tr><td>LD2</td><td>DPE</td><td>APA, DPA, 포크리프트형 DPN</td><td>비인증(D)</td></tr>
+<tr><td>LD3</td><td>AKE</td><td>AVA, AVB, AVC, AVK, DVA, DVE, DVP, XKS, XKG, 포크리프트형 AKN, AVN, DKN, DVN, XKN</td><td>가장 흔한 반폭 컨테이너</td></tr>
+<tr><td>LD3-45</td><td>AKH</td><td>—</td><td>A320 계열용 낮은 LD3(Lufthansa·대한항공·아시아나 표기)</td></tr>
+<tr><td>LD6</td><td>ALF</td><td>AWA, AWF, 포크리프트형 AWC</td><td>LD3 두 개 폭</td></tr>
+<tr><td>LD7</td><td>P1P(PAG 등)</td><td>PAA, PAG, PAJ, PAP, PAX, P1A, P1C, P1D, P1G</td><td>Boeing은 88인치 팔레트를 LD7로 표기. Lufthansa는 AAY 컨테이너를 "LD7 컨테이너"로 부름</td></tr>
+<tr><td>LD8</td><td>DQF</td><td>ALE, ALN, DLE, DLF, DQP, MQP</td><td>B767용</td></tr>
+<tr><td>LD9</td><td>AAP</td><td>—</td><td>88인치 바닥의 로어덱 컨테이너</td></tr>
+<tr><td>LD11</td><td>ALP</td><td>ALD, AW2, AWB, AWD, AWZ, DLP, DWB, MWB</td><td>직육면체 전폭</td></tr>
+<tr><td>M1</td><td>AMA</td><td>AMF, AMG, AMK, AMP, AQA, AQD, AQ6</td><td>대한항공은 AMA를 "GM1"으로 표기. Lufthansa·SIA는 AMP를 높이 약 63인치의 별도 로어덱 컨테이너로 표기</td></tr>
+<tr><td>P1P / P6P</td><td>PAG / PMC</td><td>—</td><td>88인치 / 96인치 팔레트의 옛 이름</td></tr>
+<tr><td>M-6</td><td>PGA</td><td>PGE, PGF, PSA, PSG, P7A, P7E, P7F, P7G</td><td>Boeing은 20피트 팔레트와 자동차 랙용 16피트 팔레트(PRA)에 M-6을 씀</td></tr>
+</tbody>
+</table>
+<p>Boeing 자료는 "LD-4" 항목의 코드를 ALP로 적었는데 바닥이 60.4 × 96 in이어서 둘째 글자 규칙(Q)과 맞지 않습니다. 오기로 보이며, 이 문서는 LD4의 IATA 코드를 확정하지 않았습니다.</p>
+<p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
+<p class="lib-source">출처: Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a>, Unit Load Device(대한항공 카고) — <a href="https://cargo.koreanair.com/en/UnitLoadDevice" target="_blank" rel="noopener noreferrer">Korean Air Cargo</a></p>
+
+<h3>컨테이너</h3>
+<table class="lib-table">
+<thead><tr><th>코드(통칭)</th><th>바닥(길이 × 폭)</th><th>외부 높이</th><th>형태</th><th>최대 총중량</th><th>자중</th><th>위치·대표 기종</th></tr></thead>
+<tbody>
+<tr><td><b>AKE</b>(LD3)</td><td>61.5 × 60.4 in(156.2 × 153.4 cm)</td><td>64 in(162.6 cm)</td><td>반폭, 한쪽 경사(윤곽 E)</td><td>1,588 kg(3,500 lb)</td><td>75~114 kg</td><td>로어덱. B747·767·777·787, A330·340·350·380</td></tr>
+<tr><td><b>AKN</b>(LD3)</td><td>AKE와 같음</td><td>64 in(162.6 cm)</td><td>AKE에 포크리프트 포켓</td><td>Boeing LD-3 항목 1,588 kg(AKN 단독 자료 없음)</td><td>—</td><td>로어덱</td></tr>
+<tr><td><b>AKH</b>(LD3-45)</td><td>61.5 × 60.4 in(156.2 × 153.4 cm)</td><td>45 in(114.3 cm)</td><td>낮은 반폭(윤곽 H)</td><td>1,588 kg(Lufthansa) / 1,587 kg(Vietnam Airlines). A321에 실을 때 1,134 kg 제한(Vietnam Airlines). 대한항공 1,134 kg, 아시아나 1,000 kg</td><td>67~93 kg</td><td>로어덱. A320·A321</td></tr>
+<tr><td><b>DPE</b>(LD2)</td><td>60.4 × 47 in(153.4 × 119.4 cm)</td><td>64 in(162.6 cm)</td><td>반폭, 한쪽 경사, <b>비인증</b></td><td>1,225 kg(2,700 lb)</td><td>69~92 kg</td><td>로어덱. B767·777(Boeing은 747·787도 적합)</td></tr>
+<tr><td><b>ALF</b>(LD6)</td><td>125 × 60.4 in(317.5 × 153.4 cm)</td><td>64 in(162.6 cm)</td><td>전폭, 양쪽 경사(윤곽 F, 윗폭 160 in)</td><td>3,175 kg(7,000 lb)</td><td>170~230 kg</td><td>로어덱. B777, A330·350·380</td></tr>
+<tr><td><b>DQF</b>(LD8)</td><td>96 × 60.4 in(243.8 × 153.4 cm)</td><td>64 in(162.6 cm)</td><td>전폭, 양쪽 경사, <b>비인증</b></td><td>2,449 kg(Lufthansa) / 2,450 kg(Boeing)</td><td>107~127 kg</td><td>로어덱. B767·787</td></tr>
+<tr><td><b>ALP</b>(LD11)</td><td>125 × 60.4 in(317.5 × 153.4 cm)</td><td>64 in(162.6 cm)</td><td>직육면체 전폭(윤곽 P)</td><td>3,176 kg(Boeing 단일 출처)</td><td>185 kg(Boeing)</td><td>로어덱. B747·777·787</td></tr>
+<tr><td><b>AAP</b>(LD9)</td><td>125 × 88 in(317.5 × 223.5 cm)</td><td>64 in(162.6 cm)</td><td>88인치 바닥의 직육면체형(윤곽 P)</td><td>로어덱 4,624~4,626 kg, 메인덱 6,000~6,800 kg, 대한항공·VRR 6,033 kg</td><td>213~277 kg</td><td>로어덱(일부 메인덱). B747·767·777·787</td></tr>
+<tr><td><b>AMP</b></td><td>125 × 96 in(317.5 × 243.8 cm)</td><td>약 63 in(160 cm)</td><td>96인치 바닥의 로어덱 10피트(윤곽 P)</td><td>6,804 kg(15,000 lb)</td><td>242~303 kg</td><td>로어덱. B747·767·777·787, A330·340·350·380(Lufthansa)</td></tr>
+<tr><td><b>AMA</b>(M1)</td><td>125 × 96 in(317.5 × 243.8 cm)</td><td>96 in(243.8 cm)</td><td>메인덱 직육면체 10피트(윤곽 A)</td><td>6,804 kg(15,000 lb)</td><td>260~410 kg</td><td>메인덱. B747F, B777F(중앙 적재만)</td></tr>
+<tr><td><b>AMJ</b></td><td>125 × 96 in(317.5 × 243.8 cm)</td><td>96 in(243.8 cm)</td><td>메인덱 10피트(윤곽 J)</td><td>6,804 kg(15,000 lb)</td><td>260~320 kg</td><td>메인덱. B777F(Lufthansa 표기)</td></tr>
+</tbody>
+</table>
+<p>용적은 자료마다 기준이 달라 범위로만 적습니다. AKE는 Lufthansa의 "적재 용적" 약 3.8 m³부터 Boeing의 4.5 m³까지, AKH는 3.4~3.6 m³(Lufthansa, Vietnam Airlines), ALF는 8.8~8.9 m³, AAP는 10.6~10.8 m³, AMA는 17.5~17.6 m³입니다. AKE 자중의 폭이 큰 것은 일반형·의류 행거(GOH)형·경량형이 섞여 있기 때문입니다(아시아나 일반 75 kg·의류형 104 kg). 제조사 경량형은 이보다 가볍습니다(VRR AKE 54 kg부터).</p>
+<p>AKH는 A320 계열용이지만 Lufthansa는 B777을 뺀 다른 기종의 LD3 위치에도 실을 수 있고, 이때 맞은편 LD3 위치를 비워야 한다고 적습니다.</p>
+<p class="lib-source">출처: Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a>, Unit Load Device(대한항공 카고) — <a href="https://cargo.koreanair.com/en/UnitLoadDevice" target="_blank" rel="noopener noreferrer">Korean Air Cargo</a></p>
+<p class="lib-source">출처: ULD 컨테이너(아시아나 카고) — <a href="https://www.asianacargo.com/contents/container.do" target="_blank" rel="noopener noreferrer">Asiana Cargo</a>, AULD Containers &amp; Pallets(Singapore Airlines Cargo) — <a href="https://www.siacargo.com/about-us/auld-containers-pallets/" target="_blank" rel="noopener noreferrer">SIA Cargo</a>, ULD Specification(Vietnam Airlines Cargo) — <a href="https://cargo.vietnamairlines.com/be/en/shipping-guide/uld-specification" target="_blank" rel="noopener noreferrer">Vietnam Airlines Cargo</a></p>
+<p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, General Cargo containers(VRR) — <a href="https://vrr.aero/products/general-cargo-containers/" target="_blank" rel="noopener noreferrer">VRR</a></p>
+
+<h3>팔레트</h3>
+<p>팔레트는 바닥판만 있으므로 높이가 정해져 있지 않습니다. 쌓을 수 있는 높이와 외형은 실리는 위치의 컨투어(로어덱 64 in, 메인덱 96 in·118 in 등)가 정합니다(<a data-doc="uld-contour">컨투어</a>). 88인치와 96인치 팔레트의 차이와 네트는 <a data-doc="uld-pallets">88인치와 96인치 팔레트</a>에서 다룹니다.</p>
+<table class="lib-table">
+<thead><tr><th>코드(통칭)</th><th>바닥(길이 × 폭)</th><th>최대 총중량</th><th>자중</th><th>위치·대표 기종</th></tr></thead>
+<tbody>
+<tr><td><b>PAG</b>(P1P, 88인치)</td><td>125 × 88 in(317.5 × 223.5 cm)</td><td>4,626 kg(Boeing, SIA 로어덱) / 6,000 kg(SIA 메인덱) / 6,033 kg(대한항공, 아시아나) / 6,800 kg(Vietnam Airlines) / 6,804 kg(Lufthansa)</td><td>93~122 kg</td><td>로어덱·메인덱. B747·767·777·787, A330·350·380</td></tr>
+<tr><td><b>PAJ</b>(88인치)</td><td>125 × 88 in(317.5 × 223.5 cm)</td><td>Lufthansa는 PAG와 함께 6,804 kg으로 표기</td><td>—</td><td>PAG와 같은 바닥, 셋째 글자(고정·인증 구분)가 다름</td></tr>
+<tr><td><b>PMC</b>(P6P, 96인치)</td><td>125 × 96 in(317.5 × 243.8 cm)</td><td>6,804 kg(15,000 lb). SIA는 로어덱 5,035 kg</td><td>101~130 kg</td><td>로어덱·메인덱. B747·767·777·787, A330·350·380</td></tr>
+<tr><td><b>PLA</b>(하프 팔레트)</td><td>125 × 60.4 in(317.5 × 153.4 cm)</td><td>3,175 kg(7,000 lb). SIA 3,174 kg</td><td>89~110 kg</td><td>주로 로어덱. B747·777·787, A330·340·350·380</td></tr>
+<tr><td><b>PRA</b>(16피트)</td><td>196 × 96 in(497.8 × 243.8 cm)</td><td>11,300 kg(Boeing, SIA) / 11,340 kg(대한항공 PZA·PRA, Lufthansa PZA)</td><td>387~452 kg</td><td>메인덱. B747F, B777F</td></tr>
+<tr><td><b>PGA</b>(20피트)</td><td>238.5 × 96 in(605.8 × 243.8 cm)</td><td>11,340 kg(Boeing, Lufthansa PGE) / 11,300 kg(SIA) / 13,608 kg(대한항공 PGE·PGF)</td><td>500~555 kg</td><td>메인덱. B747F, B777F</td></tr>
+</tbody>
+</table>
+<ul>
+<li>자중은 네트 포함 여부가 출처마다 다릅니다(Lufthansa는 PAG 93 kg·PMC 101 kg을 "네트 제외"로 표기).</li>
+<li>Boeing 자료의 PMC(P6P) 적재 용적은 높이 64 in에서 11.5 m³, 96 in에서 17.0 m³, 118 in에서 21.2 m³(SAE AS1825 기준)입니다.</li>
+<li>16피트 바닥(둘째 글자 R)에는 PRA와 PZA가, 20피트 바닥(G)에는 PGA·PGE·PGF가 함께 쓰입니다. Boeing 자료상 자동차 랙(VRA)을 단 PRA는 8,900 kg으로 제한되고, 118 in 높이로 쌓은 20피트 팔레트는 B747F에 사이드 카고 도어로만 실립니다.</li>
+</ul>
+<p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a></p>
+<p class="lib-source">출처: Unit Load Device(대한항공 카고) — <a href="https://cargo.koreanair.com/en/UnitLoadDevice" target="_blank" rel="noopener noreferrer">Korean Air Cargo</a>, ULD 팔레트(아시아나 카고) — <a href="https://www.asianacargo.com/contents/pallet.do" target="_blank" rel="noopener noreferrer">Asiana Cargo</a>, AULD Containers &amp; Pallets(Singapore Airlines Cargo) — <a href="https://www.siacargo.com/about-us/auld-containers-pallets/" target="_blank" rel="noopener noreferrer">SIA Cargo</a>, ULD Specification(Vietnam Airlines Cargo) — <a href="https://cargo.vietnamairlines.com/be/en/shipping-guide/uld-specification" target="_blank" rel="noopener noreferrer">Vietnam Airlines Cargo</a></p>
+
+<h3>온도관리 ULD</h3>
+<p>첫째 글자 R은 인증 온도관리 컨테이너입니다. 크게 단열 상자에 드라이아이스 등을 넣는 방식과, 배터리로 냉난방 장치를 돌리는 <b>능동형(active)</b>으로 나뉩니다. FAA는 능동형 ULD를 온도 제어·화재 진압 같은 전원 장치를 갖추고 비행 중에도 작동하는 ULD로 설명하며, 비행 중에는 배터리로 돌고 지상에서만 충전합니다. 능동형 제품으로는 Envirotainer, CSafe 등의 제품이 항공사를 통해 제공됩니다.</p>
+<table class="lib-table">
+<thead><tr><th>코드(통칭)</th><th>바닥</th><th>최대 총중량</th><th>자중</th><th>비고</th></tr></thead>
+<tbody>
+<tr><td><b>RKN</b>(LD3 리퍼)</td><td>61.5 × 60.4 in(156.2 × 153.4 cm), 높이 64 in(162.6 cm)</td><td>1,588 kg(3,500 lb)</td><td>단열형 210 kg(Boeing), 대한항공 253·276 kg, 능동형 635~646 kg(Lufthansa의 Envirotainer RKN e1, CSafe RKN)</td><td>능동형은 외부 길이가 약 200 cm로 LD3 기본 치수보다 큽니다(장비부). Lufthansa 표기 유효 적재 용적 2.0~2.3 m³.</td></tr>
+<tr><td><b>RAP</b>(LD9 리퍼)</td><td>125 × 88 in(317.5 × 223.5 cm), 높이 64 in(162.6 cm)</td><td>4,626 kg(Boeing 로어덱) / 6,000 kg(Boeing 메인덱) / 6,033 kg(대한항공, Envirotainer RAP e2) / 4,625 kg(Envirotainer Releye RAP)</td><td>단열형 400~464 kg, 능동형 약 1,100 kg</td><td>Lufthansa는 능동형에 탑재 위치 제한이 있다고 표기.</td></tr>
+</tbody>
+</table>
+<p>대한항공은 RKN 쿨 컨테이너("Kooltainer")의 온도 범위를 −15~+15 ℃, 최소 과금 중량을 755 kg으로 안내하며, 외부 온도보다 낮추는 것만 가능하다고 적습니다. 온도 범위와 운영 조건은 제품과 항공사마다 다릅니다.</p>
+<p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, Unit Load Device(대한항공 카고) — <a href="https://cargo.koreanair.com/en/UnitLoadDevice" target="_blank" rel="noopener noreferrer">Korean Air Cargo</a></p>
+<p class="lib-source">출처: Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a>, AC 120-85B Carriage of Cargo, 2.4.3.5(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h3>특수 ULD — 말 운송 스톨</h3>
+<table class="lib-table">
+<thead><tr><th>코드</th><th>바닥</th><th>높이</th><th>최대 총중량</th><th>자중</th><th>위치</th></tr></thead>
+<tbody>
+<tr><td><b>HMA</b></td><td>125 × 96 in(317.5 × 243.8 cm), P6P 바닥</td><td>94 in(238.8 cm). 대한항공 94.5 in</td><td>3,500 kg(Boeing, SIA) / 6,804 kg(대한항공)</td><td>1,310 kg(Boeing, SIA) / 945 kg(대한항공)</td><td>메인덱. B747F, B777F(대한항공: 중앙 적재만)</td></tr>
+</tbody>
+</table>
+<p>첫째 글자 H가 인증 말 스톨입니다. Lufthansa는 세 마리용 HMJ(B777F 메인덱 전용)를 운영하는 등 항공사마다 쓰는 스톨 형식이 다릅니다.</p>
+<p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, AULD Containers &amp; Pallets(Singapore Airlines Cargo) — <a href="https://www.siacargo.com/about-us/auld-containers-pallets/" target="_blank" rel="noopener noreferrer">SIA Cargo</a>, Unit Load Device(대한항공 카고) — <a href="https://cargo.koreanair.com/en/UnitLoadDevice" target="_blank" rel="noopener noreferrer">Korean Air Cargo</a>, Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a></p>
+
+<h3>최대 총중량이 자료마다 다른 이유</h3>
+<p>같은 코드인데 최대 총중량이 다르게 적히는 것은 오류만은 아닙니다. 공개 자료에서 확인되는 사정은 다음과 같습니다.</p>
+<ul>
+<li><b>위치에 따라 다르다</b>: Boeing은 AAP·RAP의 최대 총중량을 로어덱 4,624~4,626 kg, 메인덱 6,000 kg으로 나눠 적고, SIA는 PAG를 로어덱 4,626 kg·메인덱 6,000 kg, PMC를 로어덱 5,035 kg·메인덱 6,800 kg으로 나눠 적습니다. Vietnam Airlines Cargo도 최대 총중량이 기종의 탑재 위치와 중량·균형 요건에 따라 달라진다고 주석을 붙입니다.</li>
+<li><b>기종에 따라 다르다</b>: Vietnam Airlines Cargo는 AKH의 최대 총중량을 1,587 kg(3,500 lb)으로 적으면서 A321에 실을 때는 1,134 kg(2,500 lb)으로 제한된다고 밝힙니다. 대한항공이 AKH를 1,134 kg으로 적는 것도 같은 값입니다. Lufthansa는 같은 바닥 크기의 PKC 팔레트를 1,588 kg, A320에서는 1,134 kg으로 나눠 적습니다.</li>
+<li><b>항공사마다 다르다</b>: AKH는 아시아나가 1,000 kg으로 적고, PAG는 Lufthansa 6,804 kg, Vietnam Airlines 6,800 kg, 대한항공·아시아나 6,033 kg입니다. 항공사가 운항 기종과 자사 기준에 맞춰 정한 값으로 보이며, 각 값의 근거는 공개 자료에 나와 있지 않습니다.</li>
+<li><b>제품에 따라 다르다</b>: 같은 RAP라도 Envirotainer RAP e2는 6,033 kg, Releye RAP는 4,625 kg으로 Lufthansa가 따로 적습니다. 같은 16·20피트 바닥에서도 형식(PRA·PZA, PGA·PGE·PGF)과 항공사에 따라 11,300~13,608 kg으로 공개됩니다(같은 PGA를 Cathay는 13,608 kg, Cargolux는 11,340 kg으로 적습니다).</li>
+<li><b>ULD 등급과 항공기 제한은 별개다</b>: FAA는 ULD 설계가 항공기 구조 능력을 넘을 수 있으며, 화물 구속 시스템 손상을 막으려면 기종 WBM의 요건을 지켜야 한다고 설명합니다. 즉 ULD에 표시된 최대 총중량은 그 ULD가 견디는 값이고, 실제로 얼마나 실을 수 있는지는 기종·위치별 제한이 정합니다.</li>
+</ul>
+<p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, AULD Containers &amp; Pallets(Singapore Airlines Cargo) — <a href="https://www.siacargo.com/about-us/auld-containers-pallets/" target="_blank" rel="noopener noreferrer">SIA Cargo</a>, ULD Specification(Vietnam Airlines Cargo) — <a href="https://cargo.vietnamairlines.com/be/en/shipping-guide/uld-specification" target="_blank" rel="noopener noreferrer">Vietnam Airlines Cargo</a></p>
+<p class="lib-source">출처: AC 120-85B Carriage of Cargo, 2.4.3.1(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a>, Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a></p>
+
+<ul class="lib-check">
+<li>예약할 때 통칭(LD3, LD7 등)이 아니라 IATA 코드(AKE, PMC 등)로 확인합니다.</li>
+<li>최대 총중량은 ULD 표시값이 아니라 항공사가 해당 기종·위치에 정한 값을 기준으로 삼습니다. 로어덱과 메인덱 값이 다를 수 있습니다.</li>
+<li>순 적재 가능 중량은 최대 총중량에서 자중(팔레트는 네트 포함)을 뺀 값입니다. 자중은 같은 코드라도 제품마다 다르므로 실제 ULD의 표시값을 봅니다.</li>
+<li>온도관리 ULD는 탑재 위치 제한, 최소 과금 중량, 온도 범위를 항공사에 따로 확인합니다.</li>
+<li>기종별 화물칸과 탑재 위치는 <a data-doc="uld-holds">항공기 화물칸</a>에서 다룹니다.</li>
+</ul>

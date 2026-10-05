@@ -1,0 +1,227 @@
+<p>ULD는 항공기의 화물 고정 시스템과 맞물려야 비로소 화물을 붙잡는 항공기 부품입니다. 이 문서는 ULD를 쓰기 전에 확인하는 손상 기준, 화물 고정·적재 위치·중량 오류로 일어난 사고를 조사보고서 기준으로 정리하고, 무거운 화물·차량·동물·온도관리 화물처럼 별도 절차가 필요한 화물을 ULD 관점에서 다룹니다. 끝에 관련 규정·지침 표와 포워더 체크리스트를 붙였습니다.</p>
+<figure class="lib-figure"><img src="/images/uld/uld-inspection.webp" alt="휘어진 팔레트 레일을 점검하는 작업자와 찌그러진 컨테이너에 걸린 빨간 태그" loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>AI 생성 도해</span> 쓰기 전 점검에서 손상이 발견된 ULD는 서비스 불가 태그를 붙여 따로 둡니다.</figcaption></figure>
+
+<p class="lib-disclaimer">손상 한계값, 특수화물 접수 조건, ULD 대여 조건은 항공사마다 다릅니다. 이 문서에서 "항공사 예"로 든 내용은 해당 항공사의 규정일 뿐 업계 공통 규칙이 아닙니다. 실제 선적 전에는 운송 항공사의 규정과 담당자 확인을 따르십시오.</p>
+
+<h3>1. ULD 상태와 손상(serviceability)</h3>
+
+<h4>손상된 ULD가 위험한 이유</h4>
+<p>인증된 ULD는 항공기 화물 고정 시스템(CLS, Cargo Loading System)의 팔레트 잠금장치(lock)와 측면 가이드에 물려 고정됩니다. 미국 연방항공청(FAA)은 인증 ULD가 항공기 중량·균형 매뉴얼(WBM)에 따라 CLS로 고정될 때에만 그 항공기에서 쓸 수 있는 ULD로 인정된다고 설명합니다. 또 팔레트 화물에서는 인증 팔레트와 인증 네트를 하나의 단위로 보며, 네트만이 화물 모양을 따라 감싸면서 모든 방향의 하중을 네트 피팅과 팔레트 가장자리 레일로 나눠 보내는 고정 장치라고 적고 있습니다.</p>
+<p>따라서 가장자리 레일이 휘었거나 바닥판이 갈라진 팔레트, 줄이 끊기거나 피팅이 빠진 네트는 잠금장치와 제대로 맞물리지 못하거나 하중을 버티지 못할 수 있습니다. 화물이 비행 중 움직이면 무게중심이 바뀌고, 심하면 동체 구조나 조종 계통을 손상시킵니다(아래 2장의 사고 사례).</p>
+<p class="lib-source">출처: FAA Advisory Circular 120-85B「Carriage of Cargo」 2.4.3항(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h4>손상 한계는 누가 정하나</h4>
+<ul>
+<li><b>IATA ULD 규정(ULDR, ULD Regulations)</b>: ULD의 제작·수리·정비·취급·운영에 관한 규제 요건과 업계 표준을 모은 IATA 매뉴얼입니다. 항공기 운용 한계와 서비스 가능 점검(serviceability check), ULD 등록·식별 코드, 팔레트·네트·컨테이너의 기술 사양, 내화 컨테이너·온도관리 컨테이너 같은 특수 ULD를 다룹니다. 매년 새 판이 나옵니다.</li>
+<li><b>운영 손상 한계 표지(ODLN, Operational Damage Limits Notice)</b>: IATA가 만든 주황색 스티커로 ULD에 붙어 있으며, 현장 직원이 그 자리에서 손상 한계를 확인할 수 있게 합니다. 서식과 내용은 ULDR에 정해져 있습니다.</li>
+<li><b>제조사 구성품 정비 매뉴얼(CMM, Component Maintenance Manual)</b>: FAA는 TSO 인증 ULD·팔레트·네트를 CMM 요건에 따라 정비하고, 수리도 CMM에 따라 하도록 권고합니다.</li>
+<li><b>항공사(운항사) 손상 한계</b>: FAA는 운항사가 자사 항공기에 싣는 ULD와 고정 장비의 손상 한계를 정해 두어야 하며, 공학적 근거가 없으면 ULD 형식별로 가장 엄격한 한계를 적용하라고 권고합니다.</li>
+</ul>
+<p class="lib-source">출처: IATA「ULD Regulations (ULDR)」 소개 — <a href="https://www.iata.org/en/publications/manuals/uld-regulations/" target="_blank" rel="noopener noreferrer">IATA</a> / IATA Knowledge Hub「How to conduct a ULD serviceability check」(IATA, 2022-10-24) — <a href="https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/how-to-conduct-a-uld-serviceability-check/" target="_blank" rel="noopener noreferrer">IATA</a> / FAA AC 120-85B 2.4.6·2.4.8항 — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h4>언제, 무엇을 확인하나</h4>
+<p>IATA는 서비스 가능 점검 시점을 빌드업 전, 항공기로 보내기 전, 항공기에 싣기 전, 항공기에서 내릴 때, 브레이크다운(해체) 뒤, 재고 점검 때, 그리고 다른 당사자에게 넘기거나 넘겨받을 때(인수 전)로 듭니다. 판정은 세 가지입니다. 손상이 없으면 사용 가능, 손상이 한계 안이면 사용 가능, 한계를 넘으면 서비스 불가(unserviceable)입니다. FAA도 ULD와 고정 장비를 이동·빌드업에 쓰기 전에 점검하고, 항공기에 싣기 전에 마지막으로 다시 점검하라고 권고합니다. 이 점검은 감항성을 판정하는 정비가 아니라 한계를 넘는 눈에 띄는 손상을 걸러 내는 것이므로, 교육받고 권한을 받은 직원이면 정비사 자격 없이도 할 수 있다고 설명합니다.</p>
+<p>아래 표는 부위별로 흔히 보는 항목입니다. 수치로 된 한계는 ULD에 붙은 ODLN과 해당 항공사 규정에서 확인해야 하며, 이 문서에서는 한계값을 싣지 않았습니다.</p>
+<table class="lib-table">
+<thead><tr><th>구분</th><th>확인할 부위</th><th>서비스 불가로 볼 수 있는 상태(예)</th></tr></thead>
+<tbody>
+<tr><td>팔레트</td><td>바닥판(base), 가장자리 레일(edge rail), 모서리, 네트·스트랩 고정 트랙</td><td>바닥판 휨·균열·구멍, 레일 휨·찌그러짐(잠금장치와 맞물리는 부분), 고정 트랙 손상</td></tr>
+<tr><td>컨테이너</td><td>문(door)과 잠금·커튼, 패널, 프레임, 바닥</td><td>문이 닫히거나 잠기지 않음, 패널 찢어짐·구멍, 프레임 변형, 바닥 손상</td></tr>
+<tr><td>네트</td><td>줄(rope), 모서리·가장자리 피팅, 훅</td><td>끊어지거나 손상된 줄, 빠지거나 손상된 피팅·훅</td></tr>
+<tr><td>스트랩</td><td>버클 잠금장치, 피팅·훅·링, 웨빙(띠)</td><td>버클이 잠기지 않음, 피팅 휨·균열·파손·누락, 웨빙 절단·찢어짐·매듭·풀림·봉제 누락, 환경 노화</td></tr>
+</tbody>
+</table>
+<p>스트랩 항목은 FAA가 제조사 한계가 없을 때 최소한 사용하지 말아야 할 상태로 든 것입니다. FAA는 또 컨테이너 외피(shell)가 손상된 ULD는 팔레트·네트 조합이 허용되는 경우 인가된 네트를 덮어 쓸 수 있되 중량을 낮춰야 할 수 있고, 바닥(base) 손상이 한계를 넘으면 신중한 평가가 필요하다고 적었습니다. 네트의 끊어진 줄이나 빠진 피팅은 교육받은 직원이 매뉴얼에 정한 범위에서 임시 고정끈(bridge strap 등)으로 보완할 수 있다고 설명합니다. 이런 처리는 항공사 절차에 따르는 일이며 포워더가 임의로 할 일이 아닙니다.</p>
+<p class="lib-source">출처: IATA Knowledge Hub「How to conduct a ULD serviceability check」(IATA, 2022-10-24) — <a href="https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/how-to-conduct-a-uld-serviceability-check/" target="_blank" rel="noopener noreferrer">IATA</a> / FAA AC 120-85B 2.4.8~2.4.12항 — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h4>서비스 불가 ULD의 처리</h4>
+<p>IATA가 안내하는 순서는 화물을 사용 가능한 ULD로 옮기고, "Unserviceable" ULD 태그를 붙이고(IATA 공항조업매뉴얼 AHM 420 참조), 즉시 사용에서 빼서 서비스 불가 ULD 전용 장소에 보관한 뒤, ULD 운영자(소유자)에게 알리는 것입니다. FAA도 점검에서 탈락한 ULD를 사용 가능한 장비와 분명히 구분되게 표시해, 항공사나 조업사가 실수로 다시 쓰지 않게 하라고 권고합니다.</p>
+<p class="lib-source">출처: IATA Knowledge Hub「How to conduct a ULD serviceability check」(IATA, 2022-10-24) — <a href="https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/how-to-conduct-a-uld-serviceability-check/" target="_blank" rel="noopener noreferrer">IATA</a> / FAA AC 120-85B 2.4.12.3항 — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h4>IATA ULD 안전 캠페인과 손상 비용</h4>
+<p>IATA는 ULD를 "항공사의 통제를 벗어났다가 규제받지 않는 여러 손을 거쳐 돌아오면서도 비행 안전에 영향을 주는 유일한 항공기 부품"으로 설명합니다. IATA ULD 안전 캠페인(ULD Safety Campaign)은 다섯 가지를 알리는 데 목적이 있습니다. ULD는 안전·감항 요건을 적용받는 항공기 부품이라는 점, 올바른 취급이 비행 안전에 기여한다는 점, 모든 관련자가 안전 책임과 교육 요건을 지켜야 한다는 점, 올바른 취급이 비용을 줄이고 효율을 높인다는 점, ULDR이 규정 준수를 돕는 수단이라는 점입니다.</p>
+<table class="lib-table">
+<thead><tr><th>항목(IATA 공개 수치)</th><th>값</th></tr></thead>
+<tbody>
+<tr><td>운용 중인 항공 ULD</td><td>약 100만 개</td></tr>
+<tr><td>교체 가치</td><td>10억 달러 이상</td></tr>
+<tr><td>연간 수리·분실 비용(추정)</td><td>3억3천만 달러(IATA ULD Regulations 소개 페이지는 약 4억 달러로 적음)</td></tr>
+<tr><td>올바른 취급으로 줄일 수 있는 업계 비용(추정)</td><td>4억7천5백만 달러. 항공기 손상, 지연·결항 비용은 제외</td></tr>
+</tbody>
+</table>
+<p>IATA와 별도로, IATA 위원회에서 출발해 2011년 독립 법인이 된 비영리단체 ULD CARE가 ULD 취급 교육 자료와 업계 지침을 내고 있습니다.</p>
+<p class="lib-source">출처: IATA「Unit Load Devices (ULD)」(IATA) — <a href="https://www.iata.org/en/programs/cargo/unit-load-devices/" target="_blank" rel="noopener noreferrer">IATA</a> / ULD CARE 소개 — <a href="https://www.uldcare.com/" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
+
+<h4>포워더가 BUP용 ULD를 받을 때 상태를 기록해야 하는 이유</h4>
+<p>포워더가 항공사 ULD를 빌려 자기 창고에서 BUP(Bulk Unitization Program — 화주·포워더가 ULD를 직접 짜서 넘기는 방식)를 짜는 경우, ULD는 반납할 때까지 포워더가 점유합니다. 이 기간의 손상 책임은 항공사 대여 조건에 따라 정해집니다. 예를 들어 Cargolux의 ULD 사용 일반조건은 고객(포워더 포함)이 ULD를 사용·점유하는 동안 생긴 손상을 책임지고 배상하며, 깨끗하고 사용 가능한 상태로 반납하도록 정하고 있습니다. 같은 조건에서 무료 대여 기간은 5일이고 6일째부터 지체료(demurrage)(demurrage)를 물릴 수 있으며, 180일 안에 반납하지 않으면 분실로 보고 교체 비용을 청구합니다. 이는 Cargolux의 조건이며 다른 항공사는 기간·금액·책임 범위가 다릅니다.</p>
+<p>받을 때 이미 있던 손상을 기록해 두지 않으면 반납 때 그 손상이 포워더 책임으로 돌아올 수 있습니다. 업계에는 ULD를 당사자 간에 넘길 때 쓰는 표준 서식으로 IATA ULD 인수증(UCR, ULD Control Receipt, 권고관행 RP 1654)이 있습니다. 또 IATA가 넘겨받기 전 점검을 점검 시점의 하나로 든 만큼, 인수 때 ULD 번호·상태를 확인해 사진과 함께 남기고 손상이 있으면 그 자리에서 항공사·조업사에 알리는 것이 분쟁을 줄이는 방법입니다. 손상된 ULD로 빌드업하면 항공사가 접수를 거절하거나 다시 짜야 할 수도 있습니다.</p>
+<p class="lib-source">출처: Cargolux「General Conditions of the use of ULD and other Auxiliary Equipment」(2022-09-26 개정) — <a href="https://www.cargolux.com/media/5y2nf5gy/gtc-for-use-of-uld_updated_26sep2022.pdf" target="_blank" rel="noopener noreferrer">Cargolux</a> / ULD CARE「White Paper on Demurrage Charges for ULD Equipment in Air Cargo」(2022) — <a href="https://uldcare.com/wp-content/uploads/2022/09/D-6566_ULDCARE_WhitePaper-Demurrage-V7.pdf" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
+<p>빌드업 방법과 태그는 <a data-doc="uld-buildup">빌드업과 선적</a>, 팔레트와 네트의 구성은 <a data-doc="uld-pallets">88인치와 96인치 팔레트</a>에서 다룹니다.</p>
+
+<h3>2. 화물 이동·고정·중량 오류 사고 사례</h3>
+<p>사고조사기관의 최종보고서(또는 공식 조사 결과)를 열어 확인한 사례만 실었습니다. 원인은 각 기관의 결론 표현을 따랐습니다. ULD 손상 자체가 원인으로 결론 난 사고는 이 문서에서 찾지 못했고, 실린 사례는 고정 방법, 적재 위치, 신고·기록된 중량의 오류에 관한 것입니다.</p>
+<table class="lib-table">
+<thead><tr><th>사고</th><th>일시·장소</th><th>기종</th><th>핵심(조사기관 결론)</th><th>조사기관</th></tr></thead>
+<tbody>
+<tr><td>Fine Air 101편</td><td>1997-08-07, 미국 마이애미</td><td>DC-8-61</td><td>잘못된 적재로 무게중심이 뒤로 치우치고 수평안정판 트림이 틀어져 이륙 회전 때 급상승·실속</td><td>NTSB</td></tr>
+<tr><td>MK Airlines 1602편</td><td>2004-10-14, 캐나다 핼리팩스</td><td>B747-244SF</td><td>원인은 이륙 성능 계산에 이전 구간 중량을 쓴 것. 위험 요인으로 포워더 신고 중량 누락(목재 받침), 위치별 중량 한계 초과 지적</td><td>캐나다 TSB</td></tr>
+<tr><td>National Airlines 102편</td><td>2013-04-29, 아프가니스탄 바그람</td><td>B747-400BCF</td><td>특수화물 고정 절차 부실로 차량이 뒤로 밀려 유압·수평안정판 구동계 손상, 조종 불능</td><td>NTSB</td></tr>
+<tr><td>B737 G-POWC(준사고)</td><td>2013-11-19, 영국 에든버러</td><td>B737-33A</td><td>ULD를 계획과 반대 순서로 실어 무게중심이 전방 한계 밖</td><td>영국 AAIB</td></tr>
+<tr><td>Aloha Air Cargo 601편</td><td>2014-10-16, 미국 하와이 라나이</td><td>B737-330</td><td>빈 팔레트를 겹쳐 스트랩으로만 묶어 한 위치에 실음. 이륙 뒤 밀려 후방 압력격벽 손상</td><td>NTSB</td></tr>
+<tr><td>Qantas VH-QPD(준사고)</td><td>2017-12-17, 호주 시드니</td><td>A330-303(여객기 화물칸)</td><td>교체 지시된 무거운 팔레트가 그대로 실려 최대이륙중량 494 kg 초과</td><td>호주 ATSB</td></tr>
+<tr><td>ATR 72 G-CLNK(준사고)</td><td>2021-04-16, 영국 건지</td><td>ATR 72-211 화물기</td><td>ULD 뒤쪽 잠금장치를 올리지 않아 이륙 때 ULD가 빈 칸으로 미끄러짐</td><td>영국 AAIB</td></tr>
+</tbody>
+</table>
+
+<h4>1. Fine Air 101편 (1997, 미국 마이애미)</h4>
+<ul>
+<li><b>일시·장소</b>: 1997년 8월 7일 12시 36분(미 동부), 마이애미 국제공항 27R 활주로에서 이륙 직후 추락. 승무원 3명, 보안요원 1명, 지상의 운전자 1명 사망.</li>
+<li><b>기종·운항</b>: Fine Air의 DC-8-61 화물기(N27UA), 도미니카공화국 산토도밍고행. 원래 다른 기체(N30UA)로 계획됐다가 지연으로 기체가 바뀌었습니다.</li>
+<li><b>화물</b>: 바지용 데님 재단 원단과 부자재. 88 × 125 in(223.5 × 317.5 cm) 팔레트 18개를 실을 수 있는 화물칸이었습니다. 화물은 항공기를 웻리스(wet lease)로 빌린 Aeromar가 자사 창고에서 팔레트로 짜고 실었습니다.</li>
+<li><b>원인(NTSB)</b>: 무게중심이 더 뒤로 가도록 잘못 실린 데다 그에 맞지 않는 수평안정판 트림이 설정돼 이륙 회전 때 급격히 기수가 들렸고, 그 원인은 Fine Air가 화물 적재 과정을 운항 통제하지 못한 것과 Aeromar가 Fine Air가 지정한 대로 싣지 않은 것이라고 결론지었습니다. 기여 요인으로 FAA의 감독 부실을 들었습니다.</li>
+<li><b>조사에서 드러난 점</b>: 기체 변경을 몰랐던 보안요원이 이전 기체(N30UA)용 중량 배분표로 적재를 지시했고, 최종 적재 상태는 두 기체의 어느 계획과도 맞지 않았습니다. 팔레트 적재표의 화물 중량 88,923 lb(약 40,335 kg)에는 팔레트·네트·덮개 무게가 빠져 있었고(팔레트당 약 275 lb, 약 125 kg), NTSB는 실제 화물 중량이 최소 94,119 lb(약 42,692 kg)로 신고보다 5,196 lb(약 2,357 kg) 많았을 수 있다고 보았습니다. Fine Air는 사고 전 받은 팔레트의 무게를 저울로 확인하지 않았습니다.</li>
+<li><b>교훈</b>: 팔레트 중량에는 팔레트·네트·포장재까지 넣어야 하고, 적재 위치 지시는 실제 기체 기준의 최신 계획이어야 합니다. 화물을 짠 쪽의 중량 자료를 운항사가 검증하지 않으면 그 오류가 그대로 항공기의 중량·균형 계산에 들어갑니다.</li>
+</ul>
+<p class="lib-source">출처: NTSB Aircraft Accident Report NTSB/AAR-98/02(1998) — <a href="https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR9802.pdf" target="_blank" rel="noopener noreferrer">NTSB</a></p>
+
+<h4>2. MK Airlines 1602편 (2004, 캐나다 핼리팩스)</h4>
+<ul>
+<li><b>일시·장소</b>: 2004년 10월 14일 03시 54분(대서양 일광시간), 핼리팩스 국제공항 24번 활주로. 활주로 끝을 지나 둔덕에 꼬리가 부딪혀 분리된 뒤 추락. 승무원 7명 전원 사망.</li>
+<li><b>기종·운항</b>: MK Airlines의 B747-244SF 화물기(9G-MKJ), 스페인 사라고사행 부정기 화물편.</li>
+<li><b>원인(TSB)</b>: 이전 구간(미국 브래들리)의 이륙 중량(약 240,000 kg)으로 핼리팩스 이륙 성능을 계산해, 실제 중량(계획 약 353,000 kg)에 비해 너무 낮은 이륙 속도와 추력이 설정됐다고 결론지었습니다. 화물 고정이나 ULD는 원인에 들지 않았습니다.</li>
+<li><b>포워더와 관련된 위험 요인(TSB 지적)</b>: 핼리팩스에서 실은 18개 팔레트(신선 수산물)는 현지 포워더가 짜서 넘긴 것이었습니다. 포워더가 적하목록에 적은 팔레트 총중량에는 화물을 받친 목재 스키드 86개의 무게가 빠져 있었고, TSB는 약 1,900~2,000 kg이 계산에서 누락됐다고 보았습니다. 포워더는 짜 놓은 팔레트를 계량하지 않았고, 조업사도 남이 짜 온 팔레트를 계량할 설비가 없었습니다. 이와 별도로 앞 구간에서 일부 화물 구동장치(PDU)가 고장 나, 20피트 팔레트에 실린 13,206 kg짜리 강철 롤이 제자리로 가지 못하고 위치별 중량 한계(8,528 kg)를 4,678 kg(약 55%, TSB 보고서 표기는 50%) 넘겨 실렸습니다.</li>
+<li><b>후속 조치</b>: TSB는 사고 직후 캐나다 교통부에 화물 중량 확인에 관한 안전 권고(Safety Advisory A040058-1)를 보냈고, 교통부는 화물 중량에는 내용물·포장재·팔레트나 ULD·스트랩·랩 등 함께 운송되는 모든 것이 들어가야 한다는 입장을 밝혔습니다.</li>
+<li><b>교훈</b>: 화물 고정 사고는 아니지만, 포워더가 신고한 BUP 중량이 검증 없이 그대로 쓰인다는 점을 보여 줍니다. 받침목·쇼어링 자재도 중량에 넣어야 합니다.</li>
+</ul>
+<p class="lib-source">출처: TSB Aviation Investigation Report A04H0004(캐나다 교통안전위원회, 2006) — <a href="https://www.tsb.gc.ca/eng/rapports-reports/aviation/2004/a04h0004/a04h0004.html" target="_blank" rel="noopener noreferrer">TSB</a></p>
+
+<h4>3. National Airlines 102편 (2013, 아프가니스탄 바그람)</h4>
+<ul>
+<li><b>일시·장소</b>: 2013년 4월 29일, 바그람 공군기지에서 아랍에미리트 두바이로 향해 이륙한 직후 급상승 뒤 추락. 탑승자 7명(운항승무원 4명, 로드마스터 1명, 정비사 2명) 전원 사망.</li>
+<li><b>기종</b>: B747-400BCF(여객기를 개조한 화물기, N949CA). 주갑판에 Telair 화물 취급 시스템이 설치돼 있었습니다.</li>
+<li><b>화물</b>: 지뢰방호차량(MRAP) 5대. 12톤급 M-ATV 2대와 18톤급 Cougar 3대를 팔레트와 쇼어링 위에 사슬로 묶었습니다(Cougar는 팔레트 두 장을 이은 받침 위). 팔레트는 238.5 × 96 in(605.8 × 243.8 cm)의 G 크기 팔레트였고, 항공기 잠금장치로 고정되지 않는 중앙선 적재(centerline-loaded) 팔레트를 5,000 lb(약 2,268 kg) 정격 스트랩으로 바닥에 묶었습니다. 이 항공사가 MRAP 5대를 한 번에 실은 것은 처음이었습니다.</li>
+<li><b>원인(NTSB)</b>: National Airlines의 특수화물 고정 절차가 부실해 로드마스터가 화물을 잘못 고정했고, 화물(뒤쪽 M-ATV)이 뒤로 밀려 1·2번 유압 계통과 수평안정판 구동장치를 손상시켜 조종이 불가능해졌다고 결론지었습니다. 기여 요인은 FAA의 감독 부실입니다.</li>
+<li><b>조사에서 드러난 점</b>: 이 항공사의 화물 운영 매뉴얼에는 항공기 제조사(Boeing)와 화물 취급 시스템 제조사(Telair)의 중량·균형 매뉴얼에 있는 필수 고정 정보가 빠져 있었고, 잘못된 고정 방법이 들어 있었습니다. NTSB는 제조사 매뉴얼을 따랐다면 이 적재 계획으로는 M-ATV 한 대까지만 제대로 고정할 수 있었다고 판단했습니다. 직전 구간에서 화물이 움직이고 스트랩 하나가 끊어졌지만 승무원들은 심각한 문제로 인식하지 못했습니다.</li>
+<li><b>교훈</b>: ULD로 CLS에 고정되지 않는 화물은 제조사 자료에 근거한 고정 계산(스트랩 수·각도·고정점 정격)이 필요한 특수화물입니다. 포워더는 차량·중장비의 정확한 중량, 치수, 무게중심, 고정점 위치를 미리 항공사에 넘겨야 항공사가 이 계산을 할 수 있습니다.</li>
+</ul>
+<p class="lib-source">출처: NTSB Aircraft Accident Report NTSB/AAR-15/01(2015-07-14 채택) — <a href="https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR1501.pdf" target="_blank" rel="noopener noreferrer">NTSB</a></p>
+
+<h4>4. B737 G-POWC 준사고 (2013, 영국 에든버러)</h4>
+<ul>
+<li><b>일시·장소</b>: 2013년 11월 19일 01시 12분(UTC), 에든버러 공항에서 런던 스탠스테드로 가는 화물편. 다친 사람 없음.</li>
+<li><b>기종</b>: B737-33A 화물기(G-POWC).</li>
+<li><b>화물</b>: 우편 화물 ULD 컨테이너 8개. 무거운 ULD를 뒤쪽부터 싣는 계획이었고 적재 지시서도 맞게 작성됐지만, 우편 회사의 적재 팀이 반대 순서로 실었습니다.</li>
+<li><b>원인(AAIB)</b>: ULD가 계획과 반대 순서로 실려 무게중심이 비행 한계보다 앞에 있었습니다. 계획대로라면 이륙 무게중심 지수가 38.8이었지만 실제는 3.8로, 전방 한계(약 16)를 벗어났습니다. 기장은 회전이 늦고 무거운 조종감을 겪었으나 목적지에 안전하게 착륙했습니다. 적재 팀도 운항승무원도 실제 배치가 지시서와 다른 것을 알아채지 못했습니다.</li>
+<li><b>후속 조치</b>: 운항사는 ULD가 실릴 때마다 운항승무원이 ULD 번호를 확인하게 하고, 무거운 ULD를 기체 중앙에 모으는 방식으로 바꿔 순서 오류의 영향을 줄였습니다.</li>
+<li><b>교훈</b>: ULD 번호와 적재 위치의 대조가 무게중심 관리의 출발점입니다. ULD 번호와 중량을 정확히 적은 태그·서류가 이 대조를 가능하게 합니다.</li>
+</ul>
+<p class="lib-source">출처: AAIB Bulletin 4/2014, EW/G2013/11/09(영국 항공사고조사국, 2014) — <a href="https://assets.publishing.service.gov.uk/media/5422f252ed915d13740003ed/Boeing_737-33A__G-POWC_04-14.pdf" target="_blank" rel="noopener noreferrer">GOV.UK</a></p>
+
+<h4>5. Aloha Air Cargo 601편 (2014, 미국 하와이)</h4>
+<ul>
+<li><b>일시·장소</b>: 2014년 10월 16일 14시 47분(현지), 라나이 공항에서 호놀룰루로 돌아오는 이륙 직후. 탑승자 3명 부상 없음.</li>
+<li><b>기종</b>: B737-330 화물기(N301KH). 주갑판 9개 위치 중 9번이 가장 뒤입니다.</li>
+<li><b>화물</b>: 목재를 내려놓고 돌아오는 길의 빈 LD7 팔레트 8장. 무게중심을 이유로 8장을 모두 9번 위치에 겹쳐, 7장을 맨 아래 1장에 스트랩으로 묶고 그 1장만 잠금장치에 물렸습니다. 현지에는 이 항공사 직원이 없었고, 적재 교육을 받지 않은 정비사가 적재를 도왔습니다.</li>
+<li><b>원인(NTSB)</b>: 화물 팔레트를 부적절하게 싣고 고정해 이륙 때 밀렸고, 후방 압력격벽이 크게 손상됐다고 결론지었습니다. 바닥 잠금장치는 맨 아래 팔레트만 잡을 뿐 위에 쌓인 팔레트는 잡지 못했고, 스트랩으로는 버티지 못했습니다. 8·9번 위치 사이의 잠금장치는 내려가 있었고 일부 잠금장치는 과부하로 뜯겨 나갔습니다. 기체는 여압이 되지 않아 10,000 ft에서 수평비행해 착륙했습니다.</li>
+<li><b>교훈</b>: 빈 팔레트도 화물입니다. FAA는 팔레트 위에 팔레트를 얹으면 위쪽 팔레트는 화물이 되며, 전체를 아래 팔레트에 네트로 덮어 고정하지 않으면 특수화물로 본다고 설명합니다.</li>
+</ul>
+<p class="lib-source">출처: NTSB Aviation Investigation Final Report DCA15LA011(2020-04-06 발행) — <a href="https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/90269/pdf" target="_blank" rel="noopener noreferrer">NTSB CAROL</a> / FAA AC 120-85B 2.8.4.9항 — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h4>6. Qantas VH-QPD 준사고 (2017, 호주 시드니)</h4>
+<ul>
+<li><b>일시·장소</b>: 2017년 12월 17일, 시드니발 베이징행 QF107 여객편.</li>
+<li><b>기종</b>: A330-303(VH-QPD). 화물은 로어덱 화물칸에 실렸습니다.</li>
+<li><b>경위</b>: 승무원이 연료를 더 싣기로 하면서 화물 탑재량이 줄었고, 탑재관리 부서는 2,005 kg짜리 PMC 팔레트를 1,130 kg짜리로 바꾸라는 적재 지시서를 다시 냈습니다. 현장 적재 감독자는 전자 메시지를 확인만 하고 제대로 해석하지 못해 교체가 이뤄지지 않았고, 최종 탑재 서류에는 교체된 것으로 반영됐습니다. 그 결과 최대이륙중량을 494 kg 넘긴 채 이륙했습니다. 이 사실은 베이징 도착 뒤 항공사 화물 대리인이 발견했습니다.</li>
+<li><b>조사 결과(ATSB)</b>: 감독자는 적재 변경이 구두 연락과 함께 온다는 경험에 영향을 받았을 가능성이 높고, 이상 사항이 절차대로 즉시 보고되지도 않았다고 판단했습니다. 항공사는 이후 바코드 휴대 스캐너를 도입하고 중량·균형 매뉴얼의 적재 변경 연락 절차를 공식화했습니다.</li>
+<li><b>교훈</b>: ULD 번호 단위의 확인이 무너지면 서류와 실물이 갈라집니다. 이 사례는 여객기 화물칸에 실린 ULD도 같은 위험을 안고 있음을 보여 줍니다.</li>
+</ul>
+<p class="lib-source">출처: ATSB Transport Safety Report AO-2018-003(호주 교통안전국, 2020-06-10) — <a href="https://www.atsb.gov.au/investigations/ao-2018-003" target="_blank" rel="noopener noreferrer">ATSB</a></p>
+
+<h4>7. ATR 72 G-CLNK 준사고 (2021, 영국 건지)</h4>
+<ul>
+<li><b>일시·장소</b>: 2021년 4월 16일 06시 30분(UTC), 건지 공항에서 저지로 가는 화물편. 다친 사람 없음.</li>
+<li><b>기종</b>: ATR 72-211 화물기(G-CLNK).</li>
+<li><b>경위</b>: 건지에서 ULD 5개 중 2개를 내리고 남은 3개를 다른 칸으로 옮겨 실었습니다. 이륙 가속 중 가운데 ULD가 뒤쪽 빈 칸으로 미끄러졌고, 착륙 제동 때 다시 앞으로 밀려 앞쪽 잠금장치를 부수고 앞의 빈 칸에 멈췄습니다. 화물 레일·롤러·잠금장치가 손상됐습니다.</li>
+<li><b>원인(AAIB, 조업사 조사 인용)</b>: ULD 뒤쪽 잠금장치가 올라가 있지 않았고, 적재 중 잠금장치가 제대로 올라갔는지 따로 확인하는 절차가 없었습니다.</li>
+<li><b>후속 조치</b>: 조업사는 적재 절차를 개선했고, 운항사는 빈 칸(void)을 두고 비행할 때의 위험을 알리는 교육을 모든 기단의 정기 심사에 넣었습니다.</li>
+<li><b>교훈</b>: ULD 상태가 멀쩡해도 잠금장치에 물리지 않으면 고정되지 않습니다. 빈 칸이 있으면 ULD가 움직일 공간이 생깁니다.</li>
+</ul>
+<p class="lib-source">출처: AAIB Bulletin 2/2022, AAIB-27205(영국 항공사고조사국, 2022-02-10) — <a href="https://www.gov.uk/aaib-reports/aaib-investigation-to-atr-72-211-g-clnk" target="_blank" rel="noopener noreferrer">GOV.UK</a></p>
+
+<h4>통계로 본 적재 관련 이상: 호주 ATSB</h4>
+<p>ATSB는 위 VH-QPD 보고서에서 2010~2019년 10년간 통보된 항공기 적재 관련 이상(Aircraft Loading) 1,135건을 분석했습니다. 대부분 여객 운항에서 나온 것입니다. 이 가운데 적재 관련(Loading Related) 408건을 세분하면 탑재 서류 오류 123건(누락 화물, 이륙 뒤 받은 새 탑재 서류, 잘못 기록된 수하물·화물 중량 등), 화물 고정(Load Restraint) 82건(대부분 컨테이너·팔레트 고정), 중량 오류 60건(대부분 목록에 없는 컨테이너·팔레트·수하물 탑재), 위치 오류 44건, 잠금장치 문제 37건이었습니다. 408건 중 25건(약 6%)은 무게중심이나 최대이륙중량에 영향을 준 것으로 기록됐습니다.</p>
+<p class="lib-source">출처: ATSB Transport Safety Report AO-2018-003(2020-06-10) — <a href="https://www.atsb.gov.au/investigations/ao-2018-003" target="_blank" rel="noopener noreferrer">ATSB</a></p>
+
+<h4>위험물 화재 사고와 ULD (참고)</h4>
+<p>리튬배터리 등 위험물이 관련된 화물기 화재는 위험물 카테고리의 <a href="/library/dangerous-goods/case-accident">위험물 사고 사례</a>에서 다룹니다. 여기서는 ULD 관점만 한 줄씩 적습니다.</p>
+<ul>
+<li><b>UPS 6편(2010-09-03, 두바이, B747-44AF)</b>: 아랍에미리트 민간항공청(GCAA) 최종보고서는 화물 컨테이너 재료가 수평 분젠버너 시험만 거치면 되고, 컨테이너·팔레트 자체가 화재 하중에 보태는 몫이 화물칸 방화 전략이나 인증에 반영돼 있지 않다고 지적했습니다.</li>
+<li><b>아시아나항공 991편(2011-07-28, 제주 서쪽 공해상, B747-400F)</b>: 항공철도사고조사위원회(ARAIB)는 위험물이 실린 팔레트 또는 그 근처에서 화재가 났다고 결론지었고, "화물기 전용(CAO)" 라벨이 붙은 인화성 액체(Class 3)와 리튬배터리를 분리해 서로 다른 ULD에 싣도록 항공사에 권고했습니다.</li>
+</ul>
+<p class="lib-source">출처: GCAA Air Accident Investigation Sector, Final Report AAIS Case 13/2010 — <a href="https://www.faa.gov/sites/faa.gov/files/2022-11/UPS6_Accident_Report.pdf" target="_blank" rel="noopener noreferrer">FAA 게시 사본</a> / 항공철도사고조사위원회 Aircraft Accident Report ARAIB/AAR1105(2015-07-24, 영문판) — <a href="https://skybrary.aero/bookshelf/books/2143.pdf" target="_blank" rel="noopener noreferrer">SKYbrary 게시 사본</a></p>
+
+<h3>3. 특수화물과 ULD</h3>
+<p>FAA는 CLS로 고정되는 인가 ULD가 아닌 다른 1차 고정 수단을 쓰는 화물은 모두 특수화물(special cargo)로 분류한다고 설명합니다. 예로 팔레트 둘레를 벗어나 놓인 화물(offset), 네트가 제 기능을 못 하게 삐져나온 화물(overhang), ULD 최대 컨투어를 넘어 CLS로 고정할 수 없는 대형 화물(outsized), 날카롭거나 찌를 수 있는 화물, 모양이 불규칙한 화물(크레이트에 든 중기계, 릴·스풀 등), 차량, 키 큰 화물, 겹친 팔레트(sandwich pallet), 여러 위치에 걸쳐 스트랩으로만 묶는 플로팅 팔레트(floating pallet)를 듭니다. 항공사는 특수화물마다 제조사 자료에 근거해 고정 방법을 정하고 고정 계획을 만들어야 합니다. 이 판단과 계산은 항공사 몫이고, 포워더의 몫은 판단에 필요한 정보를 정확하고 일찍 주는 것입니다.</p>
+<p class="lib-source">출처: FAA AC 120-85B 2.8항「Transport of Special Cargo」 — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h4>무거운 화물·긴 화물</h4>
+<ul>
+<li><b>바닥 하중</b>: 항공기 바닥과 일부 팔레트 바닥판에는 하중 한계가 있으며, 면적당 하중(area load)이나 길이당 하중(running load)으로 표시됩니다. 접지 면적이 작은 무거운 화물은 이 한계를 넘기 쉬워 쇼어링(shoring, 목재 판재·합판 등으로 하중을 넓게 분산)이 필요합니다. FAA는 쇼어링 자재의 무게도 총중량에 넣어야 한다고 명시합니다.</li>
+<li><b>여러 팔레트에 걸친 화물</b>: 한 장에 담기지 않는 긴 화물은 팔레트 여러 장을 이어 싣거나 20피트(G 크기) 팔레트를 씁니다. 항공사 특수취급코드 BIG은 팔레트 두 장 이상에 실리거나 크기·무게 때문에 특수 취급·장비가 필요한 화물에 쓰입니다(SAS Cargo 코드표 예). 여러 위치에 걸쳐 잠금장치로 고정되지 않고 스트랩으로만 묶이면 플로팅 팔레트, 곧 특수화물이 됩니다.</li>
+<li><b>키 큰 화물</b>: FAA는 높이 98 in(248.9 cm)을 넘는 화물을 키 큰 화물(tall cargo)로, 그중 98 in 위로 단단한 부분이 있는 것을 TRC(tall rigid cargo)로 정의하며, TRC 요건은 현재 B747에만 적용된다고 적고 있습니다. National Airlines 102편의 차량이 이 요건의 대상이었습니다.</li>
+</ul>
+<p class="lib-source">출처: FAA AC 120-85B 2.6.3.6·2.6.7·2.8.4항 — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a> / SAS Cargo「Special Handling Codes - Description」(2026-03-18) — <a href="https://edge.sitecorecloud.io/sascargo1-cargoweb-prod-ae6c/media/Files/Pdf/Special-Handling-Codes---Description_18MAR26.pdf" target="_blank" rel="noopener noreferrer">SAS Cargo</a></p>
+
+<h4>차량·기계·엔진</h4>
+<p>FAA는 무거운 차량과 바퀴 달린 화물을 위험도가 높은 화물로 보고 연료량, 쇼어링과 고정, 바퀴 고임(chocking), 고정점(tie-down point)을 거듭 확인하라고 권고합니다. 크레이트에 든 중기계처럼 모양이 불규칙한 화물은 구르거나 밀리기 쉽고, 무게가 좁은 면적에 몰려 바닥 하중 한계를 넘는 경우가 많다고 설명합니다. 항공기 엔진도 같은 범주로 다뤄지며, 운송용 스탠드나 크레이트의 고정점 위치와 정격, 총중량과 무게중심을 미리 항공사에 알려야 고정 계획을 세울 수 있습니다. 차량의 연료·배터리 관련 조건은 위험물 규정과 항공사 규정을 따릅니다.</p>
+<p class="lib-source">출처: FAA AC 120-85B 2.8.4.5·2.8.4.6항 — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h4>살아있는 동물</h4>
+<p>말·소처럼 큰 동물은 항공기 CLS로 고정되는 전용 용기·스톨(stall)이나 우리에 실어 운송합니다. FAA는 이 용기가 해당 항공기의 WBM에서 인가된 것인지, 동물을 제대로 붙잡는지 확인하라고 권고하며, 동물이 위로 움직이는 것을 막지 못하는 지붕 없는 스톨은 허용되지 않는다고 적었습니다. 말 운송용 스톨 ULD의 예로 P6P 팔레트 바닥에 스톨을 붙인 IATA 형식 코드 HMA가 있습니다. 살아있는 동물의 운송 조건은 IATA 생동물 규정(LAR, Live Animals Regulations)을 따릅니다.</p>
+<p class="lib-source">출처: FAA AC 120-85B 2.6항(취급 절차 목록 20) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a> / AirBridgeCargo「ULD Specifications」 — <a href="https://airbridgecargo.com/en/page/70/loading-devices" target="_blank" rel="noopener noreferrer">AirBridgeCargo</a></p>
+
+<h4>신선화물·의약품(온도관리 ULD)</h4>
+<p>FAA는 온도 제어·소화 장치처럼 전원으로 작동하는 장치를 갖춘 ULD를 능동형 ULD(active ULD)로 정의합니다. 대표적인 것이 단열 용기에 배터리로 움직이는 냉난방 장치를 단 온도관리 컨테이너이며, 비행 중에는 배터리로 작동하고 지상에서만 충전합니다. FAA는 운항사가 능동형 ULD를 쓰기 전에 그 위험을 평가하고 제조사의 표지·운용 지침을 따르게 하라고 권고합니다. 전원 장치 없이 단열재와 냉매로 일정 시간 온도를 유지하는 방식은 수동형(passive)으로 구분합니다. 의약품 항공 운송의 표준으로는 IATA 온도관리 규정(TCR, Temperature Control Regulations)이 있고, IATA는 항공사·조업사·포워더의 의약품 취급 역량을 인증하는 CEIV Pharma 제도를 운영합니다.</p>
+<p class="lib-source">출처: FAA AC 120-85B 2.4.3.5항 — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a> / IATA「Pharma &amp; Healthcare」 — <a href="https://www.iata.org/en/programs/cargo/pharma/" target="_blank" rel="noopener noreferrer">IATA</a></p>
+
+<h4>고가화물·외교행낭</h4>
+<p>고가화물은 특수취급코드 VAL(Valuable Cargo), 외교행낭은 DIP(Diplomatic mail)로 표시됩니다(SAS Cargo 코드표 예). 별도 보관, 호송, 적재 위치, ULD 봉인 같은 취급 방법은 항공사·공항마다 정해져 있으므로 예약 단계에서 항공사와 맞춰야 합니다. 이 문서에서는 업계 공통 기준을 확인하지 못했습니다.</p>
+<p class="lib-source">출처: SAS Cargo「Special Handling Codes - Description」(2026-03-18) — <a href="https://edge.sitecorecloud.io/sascargo1-cargoweb-prod-ae6c/media/Files/Pdf/Special-Handling-Codes---Description_18MAR26.pdf" target="_blank" rel="noopener noreferrer">SAS Cargo</a></p>
+
+<h4>항공 보안과 ULD</h4>
+<p>한국 항공보안법은 화물의 보안검색을 항공운송사업자의 의무로 정합니다(제15조제2항). 국토교통부장관이 지정한 상용화주(검색장비와 보안검색요원 등 기준을 갖춘 화주 또는 항공화물을 포장·보관·운송하는 자)가 보안검색을 한 화물은 항공사가 다시 검색하지 않지만, 상용화주가 아닌 자가 취급했거나, 취급 과정에서 통제를 벗어났거나, 훼손 흔적이 있거나, 허가받지 않은 자의 접촉이 있었거나 의심되는 경우 등에는 항공사가 보안검색을 해야 합니다(제17조의4제3항). 상용화주가 지켜야 할 화물보안통제절차는 국토교통부 고시인 항공화물보안기준에서 정합니다. 이 조문은 2026년 2월 27일 개정으로 제17조의2에서 제17조의4로 옮겨졌습니다.</p>
+<p>BUP를 짜는 포워더에게 이는 검색을 마친 ULD가 넘겨질 때까지 통제가 끊기지 않아야 하고, 손상·훼손 흔적이 재검색 사유가 된다는 뜻입니다. 고시가 정한 구체적인 봉인·보호 방법은 이 문서에서 확인하지 못했습니다.</p>
+<p class="lib-source">출처: 항공보안법(법률 제21414호, 2026-02-27 시행) 제15조·제17조의4 — <a href="https://www.law.go.kr/법령/항공보안법" target="_blank" rel="noopener noreferrer">국가법령정보센터</a></p>
+
+<h3>4. ULD·화물 고정을 다루는 국제 규정·지침</h3>
+<table class="lib-table">
+<thead><tr><th>문서</th><th>발행</th><th>무엇을 다루나</th></tr></thead>
+<tbody>
+<tr><td>AC 120-85B「Carriage of Cargo」</td><td>FAA, 2022-01-25(현행. 2005년 AC 120-85, 2015년 AC 120-85A「Air Cargo Operations」를 대체)</td><td>운항사의 중량·균형 관리, ULD와 고정 장치(손상 한계·점검·정비), 계량 저울 관리, 빌드업·적재 절차, 특수화물, 조업사·포워더 등 여러 주체가 관여할 때의 책임과 감사, 교육. 강제 규정이 아닌 권고 지침</td></tr>
+<tr><td>TSO-C90e「Cargo Pallets, Nets and Containers (Unit Load Devices)」</td><td>FAA, 2021년 7월</td><td>ULD의 설계·생산 승인 성능 기준. E판에 내화 컨테이너(FRC) 기준(SAE AS8992)이 추가됨</td></tr>
+<tr><td>ETSO-C90e</td><td>EASA, CS-ETSO Amendment 18(ED Decision 2025/017/R)</td><td>유럽의 ULD 기술표준. Type I은 NAS 3610 Rev. 10, Type 2는 SAE AS36100 Rev. C(2020-09)를 성능 기준으로 하고, 내화 컨테이너(FRC) 분류 요건을 포함</td></tr>
+<tr><td>TSO-C172「Cargo Restraint Strap Assemblies」</td><td>FAA</td><td>화물 고정용 스트랩의 성능 기준(AC 120-85B에서 인용)</td></tr>
+<tr><td>IATA ULD Regulations(ULDR)</td><td>IATA, 매년 개정(2026년 10월 현재 IATA 판매 페이지에 15판(2027) 게시)</td><td>ULD 관련 규제 요건과 업계 표준: 운용 한계와 서비스 가능 점검, 분류·승인, 식별 코드와 등록, 팔레트·네트·컨테이너 사양, 표지·서류, 보관·취급, 내화·온도관리 등 특수 ULD</td></tr>
+<tr><td>IATA Airport Handling Manual(AHM)</td><td>IATA</td><td>지상조업 표준. 서비스 불가(Unserviceable) ULD 태그는 AHM 420에서 정함</td></tr>
+<tr><td>ICAO 부속서 6 Part I 제15장「Cargo Compartment Safety」</td><td>ICAO, 2020년 11월 적용</td><td>화물칸에 싣는 물품에 대한 운항사의 정책·절차와 안전 위험평가 의무. 평가 항목에 ULD의 격납(containment) 특성 포함</td></tr>
+<tr><td>Doc 10102「Guidance for Safe Operations Involving Aeroplane Cargo Compartments」</td><td>ICAO, 2020(초판)</td><td>부속서 6 제15장 이행 지침. 위험평가 방법, 제조사·운항사·당국의 역할, 공급망 안전</td></tr>
+</tbody>
+</table>
+<p class="lib-source">출처: FAA AC 120-85B와 문서 정보 페이지 — <a href="https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.current/documentNumber/120-85" target="_blank" rel="noopener noreferrer">FAA</a> / FAA「Cargo Safety Enhancement Standards」(2023 TSO Workshop 발표, 2023-09-20) — <a href="https://www.faa.gov/aircraft/air_cert/design_approvals/dah/cargo" target="_blank" rel="noopener noreferrer">FAA</a> / EASA CS-ETSO ETSO-C90e — <a href="https://www.easa.europa.eu/en/downloads/142731/en" target="_blank" rel="noopener noreferrer">EASA</a> / IATA ULDR — <a href="https://www.iata.org/en/publications/manuals/uld-regulations/" target="_blank" rel="noopener noreferrer">IATA</a> / ICAO「Cargo Safety」 — <a href="https://www.icao.int/operational-safety/cargo-safety" target="_blank" rel="noopener noreferrer">ICAO</a> / ICAO Doc 10102 — <a href="https://store.icao.int/en/guidance-for-safe-operations-involving-aeroplane-cargo-compartments-doc-10102" target="_blank" rel="noopener noreferrer">ICAO Store</a></p>
+<p>인증 ULD와 비인증 ULD의 구분은 <a data-doc="uld-overview">ULD란</a>에서 다룹니다.</p>
+
+<h3>5. 포워더 체크리스트</h3>
+<ul class="lib-check">
+<li>화물 중량은 실제 계량값으로 신고하고, BUP 총중량에는 팔레트·네트·덮개·스트랩·받침목·쇼어링 자재 무게를 모두 넣는다.</li>
+<li>치수는 가장 튀어나온 부분 기준으로 재고, 높이와 컨투어 초과 여부를 미리 확인한다(<a data-doc="uld-contour">컨투어</a> 참고).</li>
+<li>무거운 화물, 긴 화물, 차량, 중기계, 엔진, 키 큰 화물은 예약 단계에서 항공사와 사전 협의하고 중량·치수·무게중심·고정점 위치와 정격 자료를 넘긴다.</li>
+<li>접지 면적이 작은 무거운 화물은 바닥 하중 한계와 쇼어링 필요 여부를 항공사에 확인한다.</li>
+<li>BUP용 ULD를 받을 때 ULD 번호와 상태(팔레트 레일·바닥판, 컨테이너 문·패널, 네트 줄·피팅)를 확인하고 사진으로 남기며, 인수증(UCR 등)에 기록한다.</li>
+<li>손상이 있는 ULD는 쓰지 말고 그 자리에서 항공사·조업사에 알리고 다른 ULD로 바꿔 받는다. 직접 수리하거나 임시로 보완하지 않는다.</li>
+<li>항공사의 ULD 대여 조건(무료 기간, 지체료(demurrage), 손상·분실 책임)을 확인하고 반납 기한을 관리한다.</li>
+<li>빌드업 뒤 네트·스트랩 고정 상태를 네 면 모두 사진으로 남기고, 탑재용 ULD 태그는 항공사·지상조업사가 붙이므로 ULD 번호·중량·목적지 정보를 정확히 넘긴다.</li>
+<li>빈 팔레트를 겹쳐 반납하거나 운송할 때도 항공사 절차에 따른다. 빈 팔레트도 화물이다.</li>
+<li>동물, 온도관리 화물, 고가화물, 외교행낭은 항공사가 요구하는 용기·서류·특수취급코드를 예약 전에 확인한다. 능동형 온도관리 컨테이너는 항공사 승인 여부를 확인한다.</li>
+<li>보안검색을 마친 화물은 항공사에 넘길 때까지 통제가 끊기지 않게 하고, 훼손 흔적이 생기지 않도록 보호한다.</li>
+<li>항공사로부터 받은 특수화물 접수 조건과 협의 내용(메일 등)을 선적 서류와 함께 보관한다.</li>
+</ul>
