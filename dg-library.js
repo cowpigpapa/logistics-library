@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261005-02';
+  const DOCS_VERSION = '20261005-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -41,11 +41,11 @@
     { id: 'dg-forwarder', tag: "포워더", level: 3, title: "포워더의 교육 대상 — 누가 어떤 교육을 받아야 하나", short: "포워더의 교육 대상", summary: "포워더 직원을 직무별로 나눠 항공·해상·도로 위험물 교육 대상과 시간을 근거 조문과 함께 정리." },
     { id: 'dg-penalty', tag: "제재", level: 3, title: "교육을 받지 않으면 — 벌칙·과태료와 실무상 불이익", short: "교육을 받지 않으면", summary: "교육 미이수·미신고 운송의 과태료·벌칙 조문과 금액, 선사 벌과금과 민사 책임." },
     { id: 'kr-system', tag: "법체계", level: 3, title: "국내 위험물 법체계 — 위험물안전관리법·화학물질관리법과 UN 분류의 관계", short: "국내 위험물 법체계", summary: "UN은 9개 등급 하나, 국내는 위험 종류와 부처별로 나뉜 법. 법령별 대상·행위와 UN 등급 대응표." },
-    { id: 'kr-mismatch', tag: "불일치 사례", level: 3, title: "국제 규칙과 국내법이 어긋나는 사례 — 윤활유·리튬배터리 등", short: "국제·국내 불일치 사례", summary: "윤활유는 국내만, 리튬배터리는 국제만 위험물. 15개 품목 대비표와 SDS 14·15항 확인 순서." },
+    { id: 'kr-mismatch', tag: "불일치 사례", level: 3, title: "국제 규칙과 국내법이 어긋나는 사례 — 윤활유·리튬배터리 등", short: "국제·국내 불일치 사례", summary: "윤활유는 국내만, 리튬배터리는 국제만 위험물. 15개 사례와 요약표, SDS 14·15항 확인 순서." },
     { id: 'kr-small', tag: "소량 기준", level: 3, title: "소량 기준 — 지정수량 미만과 시·도 조례, 화관법의 규정수량", short: "소량 기준", summary: "지정수량 미만은 시·도 조례 적용. 배수 합산, 조례 4곳 비교, 화관법 규정수량 3단계." },
     { id: 'case-inspection', tag: "단속 사례", level: 2, title: "점검·단속 적발 사례 — 소방·특사경·국토교통부", short: "점검·단속 적발 사례", summary: "소방·특사경·국토교통부 등이 실제 적발한 18건을 유형별로 정리하고 자가 점검표를 붙였습니다." },
     { id: 'case-accident', tag: "사고 사례", level: 2, title: "위험물 사고 사례 — 신고·분류·교육의 실패", short: "위험물 사고 사례", summary: "국내외 위험물 사고 19건을 조사보고서와 보도로 확인해 신고·분류·교육 실패 관점에서 정리." },
-    { id: 'case-litigation', tag: "판결 사례", level: 2, title: "위험물 소송·판결 사례 — 화주·포워더·운송인 중 누가 책임졌나", short: "소송·판결 사례", summary: "국내외 위험물 판결 17건의 쟁점과 결론. 포워더가 선적자로 책임지는 구조." }
+    { id: 'case-litigation', tag: "판결 사례", level: 2, title: "위험물 소송·판결 사례 — 화주·포워더·운송인 중 누가 책임졌나", short: "소송·판결 사례", summary: "국내외 위험물 판결 사례 17항목의 쟁점과 결론. 포워더가 선적자로 책임지는 구조." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
