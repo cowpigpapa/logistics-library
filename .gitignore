@@ -1,1 +1,6 @@
 .vercel
+
+# 로컬 전용: 리뷰 도구 산출물과 조사 노트
+.freebuff/
+FREEBUFF_CODE_REVIEW.md
+research/
