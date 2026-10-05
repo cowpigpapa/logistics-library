@@ -79,4 +79,16 @@
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx6-8</loc></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx9-10</loc></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx11-13</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-rules</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-treaties</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-kr-duty</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-forwarder</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-penalty</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/kr-system</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/kr-mismatch</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/kr-small</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-inspection</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-accident</loc></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-litigation</loc></url>
 </urlset>

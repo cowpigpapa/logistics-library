@@ -423,6 +423,11 @@ main {
   .topbar nav {
     width: auto;
     margin-left: auto;
+    gap: 12px;
+    min-width: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
   }
   .library-entry {
     grid-template-columns: 1fr;
@@ -443,6 +448,10 @@ main {
   }
 }
 @media (max-width: 520px) {
+  /* 메뉴가 세 개라 좁은 화면에서는 워드마크의 Library를 줄인다 */
+  .topbar .brand-wordmark span {
+    display: none;
+  }
   main {
     width: min(calc(100% - 28px), var(--content-max));
   }
