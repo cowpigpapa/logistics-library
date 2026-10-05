@@ -1,0 +1,5 @@
+# 배포에 올리지 않는 내부 파일
+FREEBUFF_CODE_REVIEW.md
+research/
+work-*.pdf
+.freebuff/
