@@ -1,0 +1,17 @@
+# Generated Illustration Manifest
+
+- `battery/battery-hero.webp` — A warehouse worker scans a strapped pallet of sealed cartons beside a separately palletized EV battery pack and an open blue container. Labels: none.
+- `battery/two-regulations.webp` — A split battery lifecycle scene contrasts factory and vehicle product use with collection, cross-border trucking, and recycling. Labels: `PRODUCT`, `WASTE`.
+- `battery/product-used-waste.webp` — Three lanes compare a new boxed battery with invoice, a tested used battery with records, and a worn battery with recovery paperwork before trucking. Labels: `NEW`, `USED`, `WASTE`.
+- `battery/used-battery-shipment.webp` — Individually protected and externally tagged used battery modules are strapped to pallets while a worker checks documents and an inset shows meter testing. Labels: `TEST`, `RECORD`, `PACKAGING`, `DOCUMENTS`.
+- `battery/waste-shipment-flow.webp` — A cloud-linked five-stage workflow moves from laptop notification and authority consent through container trucking, recycling-facility receipt, and recovered metal, with clear margins around the full composition. Labels: `NOTIFY`, `CONSENT`, `MOVE`, `RECEIVE`, `RECOVER`.
+- `dg/dg-hero.webp` — An instructor teaches five freight staff using pictogram-only hazard diamonds and safely arranged sample packages in a bright training room. Labels: none.
+- `dg/rules-tree.webp` — A globe and rulebook branch into cargo aircraft, container ship, road truck, and freight train scenes. Labels: `UN`, `AIR`, `SEA`, `ROAD`, `RAIL`.
+- `dg/intl-vs-domestic.webp` — Paired magnifiers compare a battery carton and oil drum against international airport/seaport and domestic warehouse contexts with reversed markings. Labels: `INTERNATIONAL`, `DOMESTIC`.
+- `dg/forwarder-roles.webp` — Four certificate-marked panels show a booking clerk, documentation clerk, warehouse worker, and truck driver. Labels: `BOOKING`, `DOCUMENTS`, `WAREHOUSE`, `DRIVER`.
+- `dg/small-quantity.webp` — A worker records quantities beside contained drums and pails while a balance scale compares several small containers with one reference weight. Labels: `SMALL QUANTITY`, `THRESHOLD`.
+- `dg/inspection.webp` — A fire-safety inspector and warehouse manager calmly examine pictogram-marked drums stored in a clear warehouse aisle. Labels: none.
+- `incoterms/incoterms-hero.webp` — A factory-to-warehouse route passes trucks, a port, and a container ship behind two businesspeople shaking hands over a contract. Labels: none.
+- `incoterms/journey-stages.webp` — A fully framed seven-stage door-to-door panorama follows a continuous route from seller factory and truck loading through export customs, port crane, ocean carriage, import customs, and buyer warehouse. Labels: `SELLER`, `EXPORT`, `MAIN CARRIAGE`, `IMPORT`, `BUYER`.
+- `incoterms/any-mode-vs-sea.webp` — A multimodal group of truck, train, aircraft, and container ship is contrasted with a bulk carrier and river barge at a quay. Labels: `ANY MODE`, `SEA & INLAND WATERWAY`.
+- `incoterms/cost-risk-documents.webp` — Seller and buyer figures flank three directional icons representing coins, a protected package, and approved documents. Labels: `SELLER`, `COSTS`, `RISK`, `DOCUMENTS`, `BUYER`.
