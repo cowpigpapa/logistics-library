@@ -15,3 +15,9 @@
 - `incoterms/journey-stages.webp` — A fully framed seven-stage door-to-door panorama follows a continuous route from seller factory and truck loading through export customs, port crane, ocean carriage, import customs, and buyer warehouse. Labels: `SELLER`, `EXPORT`, `MAIN CARRIAGE`, `IMPORT`, `BUYER`.
 - `incoterms/any-mode-vs-sea.webp` — A multimodal group of truck, train, aircraft, and container ship is contrasted with a bulk carrier and river barge at a quay. Labels: `ANY MODE`, `SEA & INLAND WATERWAY`.
 - `incoterms/cost-risk-documents.webp` — Seller and buyer figures flank three directional icons representing coins, a protected package, and approved documents. Labels: `SELLER`, `COSTS`, `RISK`, `DOCUMENTS`, `BUYER`.
+- `uld/uld-hero.webp` — Two cargo workers secure a rounded carton load under a net beside lower-deck containers and a widebody freighter nose in a bright terminal. Labels: none.
+- `uld/freighter-cutaway.webp` — A conceptual widebody freighter cutaway shows netted main-deck pallets, forward and aft lower holds, and a small rear bulk compartment. Labels: `MAIN DECK`, `LOWER DECK`, `FWD HOLD`, `AFT HOLD`, `BULK`.
+- `uld/uld-family.webp` — Four separated ULD examples compare a lower-deck container, netted pallet, tall main-deck container, and temperature-controlled container. Labels: `CONTAINER`, `PALLET`, `MAIN DECK CONTAINER`, `COOL CONTAINER`.
+- `uld/buildup.webp` — Two workers build and tension a netted pallet on a roller-bed scale in front of a fuselage contour gauge. Labels: `NET`, `CONTOUR GAUGE`, `SCALE`.
+- `uld/loading.webp` — A main-deck scissor loader and a smaller lower-deck loader safely deliver secured ULDs to separate freighter cargo doors. Labels: none.
+- `uld/uld-inspection.webp` — A worker checks a bent pallet edge rail beside a dented lower-deck container with a blank red tag and neatly stored folded nets. Labels: none.
