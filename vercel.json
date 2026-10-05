@@ -7,9 +7,18 @@
     { "source": "/library/eu-lithium-battery", "destination": "/battery-library" },
     { "source": "/library/eu-lithium-battery/:id", "destination": "/battery-library" },
     { "source": "/library/dangerous-goods", "destination": "/dg-library" },
-    { "source": "/library/dangerous-goods/:id", "destination": "/dg-library" }
+    { "source": "/library/dangerous-goods/:id", "destination": "/dg-library" },
+    { "source": "/library/incoterms-2020", "destination": "/incoterms-library" },
+    { "source": "/library/incoterms-2020/:id", "destination": "/incoterms-library" }
   ],
   "headers": [
+    {
+      "source": "/incoterms-docs/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex" },
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+      ]
+    },
     {
       "source": "/dg-docs/(.*)",
       "headers": [
