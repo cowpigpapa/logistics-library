@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/air-uld';
-  const DOCS_VERSION = '20261006-02';
+  const DOCS_VERSION = '20261006-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -34,12 +34,10 @@
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
     { id: 'uld-overview', tag: "기본", level: 3, title: "ULD란 — 정의, 인증 ULD와 비인증 ULD, 규정과 표준", short: "ULD란", summary: "ULD의 정의와 인증·비인증 차이, TSO-C90e와 IATA ULDR, 포워더가 빌린 ULD의 반납·손상 책임." },
-    { id: 'uld-code', tag: "코드", level: 3, title: "ULD 코드 읽는 법 — 형식 코드 세 글자, 일련번호, 소유자 코드", short: "ULD 코드 읽는 법", summary: "AKE 12345 KE를 글자별로 읽는 법. 범주·바닥 크기·윤곽·일련번호·소유자 코드와 ULD 태그의 차이." },
-    { id: 'uld-types', tag: "일람", level: 2, title: "대표 ULD 일람 — 컨테이너·팔레트·온도관리 ULD의 치수와 최대 중량", short: "대표 ULD 일람", summary: "LD3·LD9·M1·PAG·PMC·20피트 팔레트 등 주요 ULD의 치수·최대 중량·자중과 출처마다 값이 다른 이유." },
+    { id: 'uld-code', tag: "코드", level: 3, title: "ULD 코드와 대표 ULD — 형식 코드 읽는 법, 주요 ULD의 치수와 최대 중량", short: "ULD 코드와 대표 ULD", summary: "AKE 12345 KE를 글자별로 읽는 법과 ULD 태그와의 차이, LD3·PMC·20피트 팔레트 등 주요 ULD의 치수·최대 중량·자중과 출처마다 값이 다른 이유." },
     { id: 'uld-pallets', tag: "팔레트", level: 3, title: "88인치와 96인치 팔레트 — PAG·PMC·20피트 팔레트, 네트와 스트랩", short: "88·96인치 팔레트", summary: "PAG와 PMC의 치수·위치별 최대 중량, 같은 화물을 짤 때의 차이, 네트·오버행·바닥 하중." },
-    { id: 'uld-holds', tag: "화물칸", level: 3, title: "항공기 화물칸 — 메인덱, 로어덱 FWD·AFT 홀드, 벌크, 탑재 위치와 문", short: "항공기 화물칸", summary: "메인덱·로어덱 FWD/AFT·벌크 구성과 기종별 ULD 탑재 수·화물 문 크기, 위치 이름 읽는 법." },
-    { id: 'uld-contour', tag: "컨투어", level: 3, title: "컨투어 — 팔레트를 쌓을 수 있는 외형 한계와 높이", short: "컨투어", summary: "로어덱 64 in, 메인덱 96·118 in와 위치별 차이. 공개 치수로 새로 그린 단면도." },
-    { id: 'uld-buildup', tag: "빌드업", level: 3, title: "빌드업과 선적 — 포워더 BUP, 적재 원칙, 무게와 균형, 태그", short: "빌드업과 선적", summary: "반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트." },
+    { id: 'uld-holds', tag: "화물칸", level: 3, title: "항공기 화물칸과 탑재 배치 — 메인덱, 로어덱 FWD·AFT 홀드, 벌크, 탑재 위치와 문", short: "화물칸과 탑재 배치", summary: "메인덱·로어덱 FWD/AFT·벌크 구성과 기종별 ULD 탑재 수·화물 문 크기, 위치 이름 읽는 법과 위치별 하중 제한." },
+    { id: 'uld-buildup', tag: "빌드업", level: 3, title: "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형", short: "컨투어와 빌드업", summary: "로어덱 64 in, 메인덱 96·118 in와 위치별 컨투어 차이, 반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트." },
     { id: 'uld-safety', tag: "안전", level: 2, title: "안전과 사고 사례 — ULD 손상 기준, 화물 이동·중량 오류 사고, 특수화물", short: "안전과 사고 사례", summary: "ULD 손상 점검 기준, 화물 고정·적재 위치·중량 오류 사고·준사고 7건, 특수화물 취급과 관련 규정." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
@@ -52,16 +50,16 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "기본", sub: "ULD란 · 코드 읽는 법 · 대표 ULD", docs: ["uld-overview", "uld-code", "uld-types"] },
-    { title: "항공기와 팔레트", sub: "88·96인치 팔레트 · 화물칸 · 컨투어", docs: ["uld-pallets", "uld-holds", "uld-contour"] },
-    { title: "실무", sub: "빌드업과 선적 · 안전과 사고 사례", docs: ["uld-buildup", "uld-safety"] }
+    { title: "기본", sub: "ULD란 · 코드와 대표 ULD", docs: ["uld-overview", "uld-code"] },
+    { title: "장비와 항공기", sub: "88·96인치 팔레트 · 화물칸과 탑재 배치", docs: ["uld-pallets", "uld-holds"] },
+    { title: "작업과 안전", sub: "컨투어와 빌드업 · 안전과 사고 사례", docs: ["uld-buildup", "uld-safety"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
-    { name: "AKE 12345 KE는 무슨 뜻인가요", ids: ["uld-code", "uld-types"] },
-    { name: "88과 96 팔레트는 뭐가 다른가요", ids: ["uld-pallets", "uld-types"] },
-    { name: "메인덱·로어덱·벌크가 뭔가요", ids: ["uld-holds", "uld-contour"] },
-    { name: "화물 높이는 어디까지 되나요", ids: ["uld-contour", "uld-holds"] },
+    { name: "AKE 12345 KE는 무슨 뜻인가요", ids: ["uld-code"] },
+    { name: "88과 96 팔레트는 뭐가 다른가요", ids: ["uld-pallets", "uld-code"] },
+    { name: "메인덱·로어덱·벌크가 뭔가요", ids: ["uld-holds"] },
+    { name: "화물 높이는 어디까지 되나요", ids: ["uld-buildup", "uld-holds"] },
     { name: "BUP는 어떻게 짜나요", ids: ["uld-buildup", "uld-pallets"] },
     { name: "잘못 실으면 어떻게 되나요", ids: ["uld-safety", "uld-buildup"] }
   ];
@@ -191,7 +189,11 @@
   function show() {
     const view = document.getElementById('libraryView');
     if (!view) return;
-    const id = routed ? location.pathname.split('/')[3] : new URLSearchParams(location.search).get('doc');
+    const raw = routed ? location.pathname.split('/')[3] : new URLSearchParams(location.search).get('doc');
+    // 합친 문서의 예전 주소
+    const MOVED = { 'uld-types': 'uld-code', 'uld-contour': 'uld-buildup' };
+    const id = MOVED[raw] || raw;
+    if (MOVED[raw]) history.replaceState(null, '', link(id) + location.hash);
     const doc = byId(id);
     if (doc) {
       renderDoc(view, doc);

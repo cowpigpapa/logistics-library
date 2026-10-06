@@ -1,4 +1,4 @@
-<p>ULD(Unit Load Device, 단위 탑재 용기)는 화물·우편·수하물을 묶어 항공기에 싣는 컨테이너와 팔레트입니다. 이 문서는 ULD의 정의와 쓰는 이유, 형태 구분, 인증(certified) ULD와 비인증(non-certified) ULD의 차이, 관련 규정·표준(IATA ULD Regulations, FAA TSO-C90, EASA ETSO-C90)과 ULD를 소유·관리하는 방식, 그리고 ULD가 "항공기 부품"으로 취급된다는 점이 포워더에게 뜻하는 바를 정리합니다. 코드 읽는 법은 <a data-doc="uld-code">ULD 코드 읽는 법</a>, 개별 형식의 치수는 <a data-doc="uld-types">대표 ULD 일람</a>에서 다룹니다.</p>
+<p>ULD(Unit Load Device, 단위 탑재 용기)는 화물·우편·수하물을 묶어 항공기에 싣는 컨테이너와 팔레트입니다. 이 문서는 ULD의 정의와 쓰는 이유, 형태 구분, 인증(certified) ULD와 비인증(non-certified) ULD의 차이, 관련 규정·표준(IATA ULD Regulations, FAA TSO-C90, EASA ETSO-C90)과 ULD를 소유·관리하는 방식, 그리고 ULD가 "항공기 부품"으로 취급된다는 점이 포워더에게 뜻하는 바를 정리합니다. 코드 읽는 법과 형식별 치수·최대 중량은 <a data-doc="uld-code">ULD 코드와 대표 ULD</a>에서 다룹니다.</p>
 <figure class="lib-figure"><img src="/images/uld/uld-family.webp" alt="로어덱 컨테이너, 네트를 씌운 팔레트, 메인덱 컨테이너, 온도관리 컨테이너" loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>AI 생성 도해</span> ULD는 크게 컨테이너와 팔레트(네트와 한 세트)로 나뉘고, 온도관리 컨테이너처럼 특수 용도의 ULD도 있습니다.</figcaption></figure>
 
 <p class="lib-disclaimer">IATA ULD Regulations(ULDR)는 IATA의 유료 간행물이고 저작물입니다. 이 문서는 ULDR 본문을 옮기지 않고, IATA가 공개한 소개 자료와 FAA·EASA 공개 문서, 항공사·제조사 공개 자료로 확인한 사실만 정리했습니다. 실제 탑재 가능 여부와 제한은 항공사와 해당 기종의 중량·균형 매뉴얼(WBM)이 정합니다.</p>
@@ -20,7 +20,7 @@
 
 <h3>ULD를 쓰는 이유</h3>
 <ul>
-<li><b>탑재 효율</b>: 컨테이너의 윤곽(contour)은 실리는 위치(메인덱·로어덱)의 동체 단면에 맞춰 정해져 있어 화물칸 공간을 최대한 씁니다. 윤곽은 <a data-doc="uld-contour">컨투어</a>에서 다룹니다.</li>
+<li><b>탑재 효율</b>: 컨테이너의 윤곽(contour)은 실리는 위치(메인덱·로어덱)의 동체 단면에 맞춰 정해져 있어 화물칸 공간을 최대한 씁니다. 윤곽은 <a data-doc="uld-buildup">컨투어와 빌드업</a>에서 다룹니다.</li>
 <li><b>지상 조업 시간 단축</b>: 화물을 미리 ULD 단위로 짜 두면 항공기에는 몇 개의 단위만 싣고 내리면 됩니다. 항공사 사이 환적(interline)도 ULD째 넘길 수 있어 훨씬 간단해졌습니다.</li>
 <li><b>항공기 고정 시스템과의 결합</b>: ULD는 화물칸 바닥의 롤러, 사이드 가이드, 팔레트 락(lock) 등 항공기 화물 탑재 시스템에 직접 맞물려 고정됩니다. 인증 ULD는 이 고정 시스템에 물려 있어야 인증 ULD로서 기능합니다.</li>
 </ul>
@@ -30,15 +30,16 @@
 
 <h3>형태 구분</h3>
 <table class="lib-table">
-<thead><tr><th>형태</th><th>구성</th><th>특징</th><th>코드 첫 글자 예</th></tr></thead>
+<thead><tr><th>형태</th><th>구성</th><th>특징</th></tr></thead>
 <tbody>
-<tr><td>컨테이너(container)</td><td>바닥판과 벽·지붕이 일체인 상자형</td><td>그 자체로 화물을 가두고 고정합니다. 문은 천(canvas) 또는 단단한 패널입니다.</td><td>A(인증), D(비인증)</td></tr>
-<tr><td>팔레트(pallet)</td><td>알루미늄 평판</td><td>네트 없이는 화물을 고정하지 못합니다. 바닥판만 있으므로 적재 높이는 실리는 위치의 컨투어가 정합니다.</td><td>P(인증), F(비인증)</td></tr>
-<tr><td>팔레트 + 네트(pallet and net)</td><td>팔레트에 화물을 쌓고 네트를 씌워 가장자리 레일에 고정</td><td>FAA는 네트가 화물 모양을 따라가며 모든 방향으로 구속해 하중을 네트 고정구와 팔레트 레일로 분산하는 유일한 구속 장치라고 설명합니다. 인증 팔레트와 짝이 맞는 인증 네트가 하나의 인증 단위입니다.</td><td>네트: N(인증), G(비인증)</td></tr>
-<tr><td>이글루(igloo)</td><td>팔레트 위에 씌우는 덮개형 셸</td><td>ICAO 정의상 비구조(non-structural) 이글루는 팔레트+네트와 함께 쓰는 조합 단위의 일부이고, 구조(structural) 이글루 조립체는 컨테이너와 같은 완결 단위로 구분됩니다.</td><td>—</td></tr>
-<tr><td>특수 ULD</td><td>온도관리 컨테이너, 내화 컨테이너(FRC), 말·소 스톨, 차량 랙 등</td><td>IATA는 온도관리 컨테이너(TCC), 내화 컨테이너(FRC), 화재 차단 덮개(FCC), 말·소 스톨, 의류 행거(GOH) 컨테이너를 특수 용도 ULD로 듭니다.</td><td>R·M(온도관리), Q(내화), H(말), K(소), V(차량)</td></tr>
+<tr><td>컨테이너(container)</td><td>바닥판과 벽·지붕이 일체인 상자형</td><td>그 자체로 화물을 가두고 고정합니다. 문은 천(canvas) 또는 단단한 패널입니다.</td></tr>
+<tr><td>팔레트(pallet)</td><td>알루미늄 평판</td><td>네트 없이는 화물을 고정하지 못합니다. 바닥판만 있으므로 적재 높이는 실리는 위치의 컨투어가 정합니다.</td></tr>
+<tr><td>팔레트 + 네트(pallet and net)</td><td>팔레트에 화물을 쌓고 네트를 씌워 가장자리 레일에 고정</td><td>FAA는 네트가 화물 모양을 따라가며 모든 방향으로 구속해 하중을 네트 고정구와 팔레트 레일로 분산하는 유일한 구속 장치라고 설명합니다. 인증 팔레트와 짝이 맞는 인증 네트가 하나의 인증 단위입니다.</td></tr>
+<tr><td>이글루(igloo)</td><td>팔레트 위에 씌우는 덮개형 셸</td><td>ICAO 정의상 비구조(non-structural) 이글루는 팔레트+네트와 함께 쓰는 조합 단위의 일부이고, 구조(structural) 이글루 조립체는 컨테이너와 같은 완결 단위로 구분됩니다.</td></tr>
+<tr><td>특수 ULD</td><td>온도관리 컨테이너, 내화 컨테이너(FRC), 말·소 스톨, 차량 랙 등</td><td>IATA는 온도관리 컨테이너(TCC), 내화 컨테이너(FRC), 화재 차단 덮개(FCC), 말·소 스톨, 의류 행거(GOH) 컨테이너를 특수 용도 ULD로 듭니다.</td></tr>
 </tbody>
 </table>
+<p>형태마다 코드 첫 글자가 정해져 있습니다(인증 컨테이너 A, 인증 팔레트 P 등). 글자별 뜻과 대표 형식의 치수는 <a data-doc="uld-code">ULD 코드와 대표 ULD</a>에서 다룹니다.</p>
 <p class="lib-source">출처: AC 120-85B Carriage of Cargo, 2.4.3(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a>, ICAO Annex 18 용어 정의 — <a href="https://www2.anac.gov.br/anacpedia/ing-fra/tr857.htm" target="_blank" rel="noopener noreferrer">ANAC</a></p>
 <p class="lib-source">출처: Identifying a ULD(VRR) — <a href="https://vrr.aero/knowledge-center/everything-about-ulds/uld-id-code/" target="_blank" rel="noopener noreferrer">VRR</a>, What is aircraft ULD in air transport(IATA Knowledge Hub, 2021) — <a href="https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/what-is-aircraft-uld-in-air-transport/" target="_blank" rel="noopener noreferrer">IATA</a></p>
 
@@ -51,7 +52,7 @@
 <li>FAA는 인증 ULD 컨테이너와 팔레트+네트 조합이 <b>항공기 화물 구속 시스템의 일부</b>라고 설명합니다(AC 120-85A 3.3.1, 2015).</li>
 </ul>
 <h4>비인증(non-certified) ULD</h4>
-<p>비인증 ULD는 TSO-C90 또는 형식증명·STC 인증 요건을 충족하지 않는 ULD입니다. 코드 첫 글자 D(비인증 컨테이너), F(비인증 팔레트), G(비인증 네트), M(비인증 온도관리 컨테이너)로 표시됩니다. 예를 들어 Lufthansa Cargo는 LD2(DPE)와 LD8(DQF) 컨테이너를 인증 "아니오"로 표기합니다. 비인증 컨테이너에 대한 업계 표준으로 FAA는 ISO 4118(Non-Certified Lower Deck Containers), SAE AS1677(비인증 화물·수하물 컨테이너 일반 요건)을 참고 자료로 듭니다.</p>
+<p>비인증 ULD는 TSO-C90 또는 형식증명·STC 인증 요건을 충족하지 않는 ULD입니다. 코드 첫 글자로는 D(컨테이너)·F(팔레트)·G(네트)·M(온도관리 컨테이너)가 비인증입니다. 예를 들어 Lufthansa Cargo는 LD2(DPE)와 LD8(DQF) 컨테이너를 인증 "아니오"로 표기합니다. 비인증 컨테이너에 대한 업계 표준으로 FAA는 ISO 4118(Non-Certified Lower Deck Containers), SAE AS1677(비인증 화물·수하물 컨테이너 일반 요건)을 참고 자료로 듭니다.</p>
 <p><b>어디에 쓸 수 있는가</b>: FAA AC 120-85B는 운항자가 화물 전용기든 여객·화물 겸용기든 <b>어떤 화물칸에서도</b> 비인증 ULD를 쓰지 않도록 하되, ① 해당 ULD가 WBM에 허용되어 있거나 ② 그 ULD를 특수 화물(special cargo)로 묶어 고정하는 방법이 고정 지침에 있는 경우는 예외로 둡니다. 즉 비인증 ULD는 그 자체로 화물을 구속하는 장치로 인정되지 않으며, 쓸 수 있는 위치는 기종별 WBM과 항공사 지침이 정합니다. 이 문서에서 "비인증 ULD는 로어덱 어느 위치에나 쓸 수 있다"는 식의 일반 규칙은 확인하지 못했습니다.</p>
 <p class="lib-source">출처: AC 120-85B Carriage of Cargo, 2.4.3.2·2.4.3.4·2.4.5.7, Appendix B(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a>, AC 120-85A Air Cargo Operations, 3.3.1(FAA, 2015) — <a href="https://www.faa.gov/sites/faa.gov/files/2022-11/120-85A.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
 <p class="lib-source">출처: Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a></p>
@@ -60,7 +61,7 @@
 <table class="lib-table">
 <thead><tr><th>문서</th><th>발행처</th><th>현행 판과 내용</th></tr></thead>
 <tbody>
-<tr><td>TSO-C90 Cargo Pallets, Nets and Containers (Unit Load Devices)</td><td>FAA(미국)</td><td>현행 TSO-C90e, 2021년 7월 6일 발효. 적합성 근거 문서로 SAE AS36100C, AS36102B를 정하고, 내화 컨테이너(FRC) 기준으로 SAE AS8992를 참조합니다.</td></tr>
+<tr><td>TSO-C90 Cargo Pallets, Nets and Containers (Unit Load Devices)</td><td>FAA(미국)</td><td>현행 TSO-C90e, 2021년 7월 6일 발효. 적합성 근거 문서로 SAE AS36100C, AS36102B를 정하고, 내화 컨테이너(FRC) 기준으로 SAE AS8992를 참조합니다(e판에서 추가).</td></tr>
 <tr><td>ETSO-C90</td><td>EASA(유럽)</td><td>현행 ETSO-C90e, CS-ETSO 개정 18(ED Decision 2025/017/R 부속서). Type I ULD는 NAS 3610 Rev. 10, Type 2 ULD는 SAE AS36100 Rev. C(2020년 9월), 시험 방법은 AS36102B(2017년 3월), FRC는 AS8992를 최소 성능 기준으로 씁니다. ULD에는 NAS 3610 또는 AS36100의 코드 체계에 따른 식별 표시를 해야 합니다.</td></tr>
 <tr><td>NAS 3610</td><td>AIA(미국 항공우주산업협회)</td><td>Cargo Unit Load Devices — Specification For. 인증 ULD의 등급과 강도 능력을 정한 표준으로, TSO-C90이 참조해 왔습니다.</td></tr>
 <tr><td>SAE AS36100 / AS36102</td><td>SAE International</td><td>ULD 성능 요건·시험 조건(AS36100)과 시험 방법(AS36102).</td></tr>
@@ -68,6 +69,7 @@
 </tbody>
 </table>
 <p>개정판은 <b>새로 승인받는 설계</b>에 적용됩니다. 이전 판으로 승인받은 설계는 계속 유효하므로, 현장에서는 여러 판의 TSO 표시가 붙은 ULD가 섞여 쓰입니다. ULD에 붙은 TSO 명판(plate)에서 어느 판을 따랐는지 볼 수 있습니다.</p>
+<p class="lib-source">출처: Cargo Safety Enhancement Standards(FAA, 2023 TSO Workshop 발표, 2023-09-20) — <a href="https://www.faa.gov/aircraft/air_cert/design_approvals/dah/cargo" target="_blank" rel="noopener noreferrer">FAA</a></p>
 <p class="lib-source">출처: UK.ETSO-C90d(A1).DEV.001 의견수렴 문서(UK CAA) — <a href="https://consultations.caa.co.uk/safety-and-airspace-regulation-group/uk-etso-c90da1-dev-001/results/uk.etso-c90da1.dev.001issue01deviationconsultationpaper.pdf" target="_blank" rel="noopener noreferrer">UK CAA</a></p>
 <p class="lib-source">출처: CS-ETSO Amendment 18, ETSO-C90e(EASA, 2025) — <a href="https://www.easa.europa.eu/en/downloads/142731/en" target="_blank" rel="noopener noreferrer">EASA</a></p>
 <p class="lib-source">출처: ETSO-C90e: the implications for EASA-certified ULDs(VRR) — <a href="https://vrr.aero/this-is-vrr/blog/etso-c90e-the-implications-for-easa-certified-ulds" target="_blank" rel="noopener noreferrer">VRR</a>, AC 120-85A 3.3.1(FAA, 2015) — <a href="https://www.faa.gov/sites/faa.gov/files/2022-11/120-85A.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
@@ -84,7 +86,7 @@
 <tr><td>담는 내용</td><td>IATA ULD 식별 코드와 등록된 ULD 형식 코드, 인증·비인증 컨테이너 구분, 기술 사양, 표시, 취급·보관, 서류 등. ID 코드는 Standard Specification 40/1, 컨테이너 윤곽은 Standard Specification 50/0에 있다고 ULD CARE(2014)는 설명합니다.</td></tr>
 </tbody>
 </table>
-<p>IATA 안에서 ULD 표준은 화물서비스회의(Cargo Services Conference) 산하 IATA ULD Board가 만듭니다. IATA는 2010년 ULD를 핵심 화물 활동으로 다시 자리매김했고, 2016년 ULD 안전 캠페인을 시작했습니다. IATA는 ULD가 지상 항공기 손상의 주요 원인이며 업계가 수리와 손실로 해마다 약 4억 달러를 쓴다고 밝힙니다(IATA Knowledge Hub 2021년 글은 연간 수리비를 3억 3천만 달러, 손상의 80%는 올바른 취급으로 막을 수 있다고 적었습니다).</p>
+<p>IATA 안에서 ULD 표준은 화물서비스회의(Cargo Services Conference) 산하 IATA ULD Board가 만듭니다. IATA는 2010년 ULD를 핵심 화물 활동으로 다시 자리매김했고, 2016년 ULD 안전 캠페인을 시작했습니다. 캠페인 내용과 ULD 손상 비용은 <a data-doc="uld-safety">안전과 사고 사례</a>에서 다룹니다.</p>
 <p><b>ULD CARE는 IATA 기구가 아닙니다.</b> 1971년 IATA가 환적 ULD 추적을 위해 만든 위원회에서 출발해, 1988년 IATA 이익단체 IULDUG(Interline ULD User Group)가 되었고, 2010년 IATA와 합의해 분리한 뒤 2011년 ULD CARE로 이름을 바꾼 독립 비영리 단체입니다. 항공사 간 ULD 이동 기록 시스템을 운영하고, ULD 취급 교육 자료와 행동 강령(Code of Conduct)을 만듭니다. ULD CARE 스스로 IATA가 표준을 정하고 자신들은 그 표준을 현장 도구로 옮기는 역할이라고 설명합니다.</p>
 <p class="lib-source">출처: Unit Load Device Regulations 소개(IATA) — <a href="https://www.iata.org/en/publications/manuals/uld-regulations" target="_blank" rel="noopener noreferrer">IATA</a>, IATA ULD Regulations 14th Edition 2026 판매 안내(FMS London) — <a href="https://fmslondon.co.uk/products/publications/2026-publications/iata-uld-regulations-14th-edition-2026/" target="_blank" rel="noopener noreferrer">FMS London</a></p>
 <p class="lib-source">출처: IATA's 2026 ULD regulations bring major safety updates(Air Cargo Week) — <a href="https://aircargoweek.com/iatas-2026-uld-regulations-bring-major-safety-updates/" target="_blank" rel="noopener noreferrer">Air Cargo Week</a></p>
@@ -95,7 +97,7 @@
 <table class="lib-table">
 <thead><tr><th>방식</th><th>내용</th></tr></thead>
 <tbody>
-<tr><td>자체 소유</td><td>항공사가 ULD를 사서 자기 소유자 코드로 등록하고 직접 관리합니다. 코드 끝 두 글자가 소유자입니다(<a data-doc="uld-code">ULD 코드 읽는 법</a>).</td></tr>
+<tr><td>자체 소유</td><td>항공사가 ULD를 사서 자기 소유자 코드로 등록하고 직접 관리합니다. 코드 끝 두 글자가 소유자입니다(<a data-doc="uld-code">ULD 코드와 대표 ULD</a>).</td></tr>
 <tr><td>단기 임차</td><td>물량 변동에 맞춰 ULD 관리 회사에서 빌립니다.</td></tr>
 <tr><td>관리 위탁(아웃소싱)</td><td>ULD 공급, 위치 재배치, 추적, 수리를 전문 회사에 통째로 맡깁니다.</td></tr>
 <tr><td>항공사 간 환적</td><td>환적 화물과 함께 다른 항공사로 넘어간 ULD는 원래 소유 항공사로 돌려보내야 하며, 이 이동 기록을 ULD CARE(옛 IULDUG)가 회원 항공사 간에 관리해 왔습니다.</td></tr>
@@ -137,8 +139,8 @@
 
 <ul class="lib-check">
 <li>ULD를 받을 때 코드(형식·일련번호·소유자)와 ODLN 기준 손상 상태를 확인하고 기록해 둡니다. 받기 전부터 있던 손상과 사용 중 생긴 손상을 나중에 가리기 위해서입니다.</li>
-<li>예약한 기종·위치에 맞는 형식인지 확인합니다. 같은 88인치 팔레트라도 PAG와 PAJ는 인증 구분이 다를 수 있습니다(<a data-doc="uld-code">ULD 코드 읽는 법</a>).</li>
+<li>예약한 기종·위치에 맞는 형식인지 확인합니다. 같은 88인치 팔레트라도 PAG와 PAJ는 인증 구분이 다를 수 있습니다(<a data-doc="uld-code">ULD 코드와 대표 ULD</a>).</li>
 <li>네트는 팔레트와 짝이 맞는 인증 네트를 씁니다. FAA는 직원과 협력업체가 승인되지 않은 네트와 팔레트를 섞어 쓰지 않도록 하라고 운항자에게 권고합니다(AC 120-85B 2.4.5.8).</li>
-<li>빌드업 방법, 컨투어, 무게 배분은 <a data-doc="uld-buildup">빌드업과 선적</a>과 <a data-doc="uld-contour">컨투어</a>에서 다룹니다. 손상 기준과 사고 사례는 <a data-doc="uld-safety">안전과 사고 사례</a>에서 다룹니다.</li>
+<li>컨투어, 빌드업 방법, 무게 배분은 <a data-doc="uld-buildup">컨투어와 빌드업</a>에서 다룹니다. 손상 기준과 사고 사례는 <a data-doc="uld-safety">안전과 사고 사례</a>에서 다룹니다.</li>
 </ul>
 <p class="lib-source">출처: AC 120-85B Carriage of Cargo, 2.4.5(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a>, ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
