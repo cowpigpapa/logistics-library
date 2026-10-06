@@ -24,7 +24,7 @@
 
   // 방문 기록: 경로와 외부 유입 주소(쿼리 제외)만 보낸다. IP는 서버에서 읽고 30일 뒤 지운다.
   function logVisit() {
-    if (owner) return;
+    if (owner || location.hostname !== 'logistics.onharu.app') return;
     let referrer = null;
     try {
       if (document.referrer) {
