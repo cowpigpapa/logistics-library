@@ -35,6 +35,11 @@ begin
     return;
   end if;
 
+  -- 검색엔진 크롤러와 자동화 브라우저는 기록하지 않는다
+  if ua is null or ua ~* '(bot|crawl|spider|slurp|google(other|-inspectiontool)|headless|lighthouse|preview|facebookexternalhit|python|curl|wget)' then
+    return;
+  end if;
+
   raw_ip := coalesce(headers ->> 'cf-connecting-ip',
                      split_part(headers ->> 'x-forwarded-for', ',', 1),
                      headers ->> 'x-real-ip');
