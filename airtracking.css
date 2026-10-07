@@ -1,0 +1,269 @@
+/* 항공화물 AWB 추적 바로가기 */
+.at-main {
+  width: min(1100px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 40px 0 72px;
+}
+.at-hero {
+  padding: 34px 34px 30px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--paper);
+}
+.at-kicker {
+  margin: 0 0 8px;
+  color: var(--blue-deep);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.at-hero h1 {
+  margin: 0 0 10px;
+  font-size: clamp(26px, 4vw, 36px);
+  line-height: 1.25;
+}
+.at-lead {
+  max-width: 760px;
+  margin: 0 0 24px;
+  color: var(--body);
+  line-height: 1.7;
+}
+.at-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.at-input-row {
+  display: flex;
+  gap: 10px;
+  max-width: 560px;
+}
+.at-input-row input {
+  flex: 1;
+  min-width: 0;
+  padding: 14px 16px;
+  border: 1.5px solid #b9cbe0;
+  border-radius: 12px;
+  font: inherit;
+  font-size: 20px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+}
+.at-input-row input:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px var(--blue-soft);
+}
+.at-input-row button,
+.at-go {
+  padding: 0 22px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--blue);
+  color: #fff;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+.at-input-row button:hover,
+.at-go:hover {
+  background: var(--blue-deep);
+}
+.at-help {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+.at-result {
+  display: grid;
+  gap: 10px;
+  max-width: 760px;
+  margin-top: 22px;
+}
+.at-result p {
+  margin: 0;
+  line-height: 1.6;
+}
+.at-ok,
+.at-bad,
+.at-warn {
+  padding: 12px 14px;
+  border-radius: 10px;
+}
+.at-ok { background: #e9f7ef; color: #1d6b3b; }
+.at-bad { background: #fdecec; color: #a3261f; }
+.at-warn { background: #fff6e0; color: #7a5400; }
+.at-airline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 20px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #f9fbfe;
+}
+.at-airline-name {
+  font-size: 18px;
+  font-weight: 800;
+}
+.at-airline-name small,
+.at-table td small {
+  margin-left: 4px;
+  color: var(--muted);
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.at-airline-meta,
+.at-small {
+  color: var(--muted);
+  font-size: 13px;
+}
+.at-small { flex-basis: 100%; }
+.at-go {
+  display: inline-flex;
+  align-items: center;
+  min-height: 46px;
+  text-decoration: none;
+}
+.at-section {
+  margin-top: 40px;
+}
+.at-section h2 {
+  margin: 0;
+  font-size: 22px;
+}
+.at-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 20px;
+  margin-bottom: 12px;
+}
+.at-section-head input {
+  width: min(360px, 100%);
+  padding: 10px 14px;
+  border: 1px solid #b9cbe0;
+  border-radius: 10px;
+  font: inherit;
+}
+.at-note,
+.at-source {
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+.at-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--blue-soft);
+  color: var(--blue-deep);
+  font-size: 11.5px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.at-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+}
+.at-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+.at-table th,
+.at-table td {
+  padding: 11px 14px;
+  border-bottom: 1px solid #e6edf4;
+  text-align: left;
+  vertical-align: middle;
+}
+.at-table th {
+  background: #eef4fb;
+  color: var(--ink);
+  font-size: 13px;
+}
+.at-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+.at-table a {
+  color: var(--blue-deep);
+  font-weight: 700;
+}
+.at-prefix {
+  padding: 3px 9px;
+  border: 1px solid #b9cbe0;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+.at-prefix:hover {
+  border-color: var(--blue);
+  color: var(--blue-deep);
+}
+.at-muted {
+  color: var(--muted);
+  font-size: 13px;
+}
+.at-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+.at-guide-grid article {
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+}
+.at-guide-grid h3,
+.at-subhead {
+  margin: 0 0 10px;
+  font-size: 17px;
+}
+.at-subhead {
+  margin-top: 30px;
+}
+.at-guide-grid p {
+  margin: 0 0 10px;
+  color: var(--body);
+  line-height: 1.7;
+  font-size: 14.5px;
+}
+.at-awb-sample {
+  font-size: 26px !important;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+}
+.at-awb-sample span:first-child { color: var(--blue); }
+.at-awb-sample span:last-child { color: #d4380d; }
+.at-calc {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #f3f7fb;
+  font-variant-numeric: tabular-nums;
+}
+.at-codes td:first-child {
+  white-space: nowrap;
+}
+@media (max-width: 860px) {
+  .at-guide-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .at-main { padding-top: 22px; }
+  .at-hero { padding: 24px 18px; }
+  .at-input-row input { font-size: 18px; }
+  .at-input-row button { padding: 0 16px; }
+}
