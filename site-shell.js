@@ -1,3 +1,13 @@
+(() => {
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  if (!document.querySelector('script[src="/_vercel/insights/script.js"]')) {
+    const script = document.createElement('script');
+    script.defer = true;
+    script.src = '/_vercel/insights/script.js';
+    document.head.appendChild(script);
+  }
+})();
+
 (function () {
   document.addEventListener('click', event => {
     document.querySelectorAll('.footer-family[open]').forEach(menu => {
