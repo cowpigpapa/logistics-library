@@ -2,59 +2,136 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/library/ctu-code", "destination": "/library" },
-    { "source": "/library/ctu-code/:id", "destination": "/library" },
-    { "source": "/library/eu-lithium-battery", "destination": "/battery-library" },
-    { "source": "/library/eu-lithium-battery/:id", "destination": "/battery-library" },
-    { "source": "/library/dangerous-goods", "destination": "/dg-library" },
-    { "source": "/library/dangerous-goods/:id", "destination": "/dg-library" },
-    { "source": "/library/incoterms-2020", "destination": "/incoterms-library" },
-    { "source": "/library/incoterms-2020/:id", "destination": "/incoterms-library" },
-    { "source": "/library/air-uld", "destination": "/uld-library" },
-    { "source": "/library/air-uld/:id", "destination": "/uld-library" }
+    {
+      "source": "/library/ctu-code",
+      "destination": "/library"
+    },
+    {
+      "source": "/library/ctu-code/:id",
+      "destination": "/library"
+    },
+    {
+      "source": "/library/eu-lithium-battery",
+      "destination": "/battery-library"
+    },
+    {
+      "source": "/library/eu-lithium-battery/:id",
+      "destination": "/battery-library"
+    },
+    {
+      "source": "/library/dangerous-goods",
+      "destination": "/dg-library"
+    },
+    {
+      "source": "/library/dangerous-goods/:id",
+      "destination": "/dg-library"
+    },
+    {
+      "source": "/library/incoterms-2020",
+      "destination": "/incoterms-library"
+    },
+    {
+      "source": "/library/incoterms-2020/:id",
+      "destination": "/incoterms-library"
+    },
+    {
+      "source": "/library/air-uld",
+      "destination": "/uld-library"
+    },
+    {
+      "source": "/library/air-uld/:id",
+      "destination": "/uld-library"
+    }
   ],
   "headers": [
     {
       "source": "/uld-docs/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex" },
-        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
       ]
     },
     {
       "source": "/incoterms-docs/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex" },
-        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
       ]
     },
     {
       "source": "/dg-docs/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex" },
-        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
       ]
     },
     {
       "source": "/battery-docs/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex" },
-        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
       ]
     },
     {
       "source": "/ctu-library.js",
       "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
       ]
     },
     {
       "source": "/ctu-library.css",
       "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
       ]
+    }
+  ],
+  "functions": {
+    "api/check-links.js": {
+      "maxDuration": 90
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/check-links",
+      "schedule": "0 18 * * *"
     }
   ]
 }
