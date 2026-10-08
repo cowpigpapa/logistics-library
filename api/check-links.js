@@ -1,11 +1,13 @@
 // AWB 추적 페이지의 항공사 링크 점검. Vercel Cron(매일 03:00 KST)과 관리자 수동 실행이 부른다.
-// 결과는 방문자 DB(onharu-analytics)의 link_status에 쌓고, 이틀 연속 실패한 링크만 페이지에 "링크 깨짐"으로 보인다.
+// 결과는 방문자 DB(onharu-analytics)의 link_status에 쌓는다. 페이지는 404·410·도메인 없음이 이틀 연속일 때만 "링크 깨짐"으로 보인다.
 const SITE = 'https://logistics.onharu.app';
 const RPC = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/record_link_checks';
 const PUBLIC_KEY = 'sb_publishable_vgcDAWoOJRD8Xvp2p4Ew9A_exTmzuXM';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0 Safari/537.36';
 // 자동 접속을 막는 응답. 사람이 브라우저로 열면 열리므로 깨짐으로 보지 않는다.
-const BLOCKED = new Set([401, 403, 405, 406, 429, 503]);
+const BLOCKED = new Set([401, 403, 405, 406, 412, 429, 503]);
+// 서버 인증서 체인이 덜 갖춰진 경우. 브라우저는 스스로 채워 열기 때문에 깨짐으로 보지 않는다.
+const CERT_CHAIN = /UNABLE_TO_VERIFY_LEAF_SIGNATURE|UNABLE_TO_GET_ISSUER_CERT/;
 const TIMEOUT_MS = 12000;
 const CONCURRENCY = 24;
 
@@ -27,7 +29,9 @@ async function checkOne(url) {
     return { url, state: 'error', code, detail: `HTTP ${code}` };
   } catch (error) {
     if (error.name === 'AbortError') return { url, state: 'timeout', detail: `${TIMEOUT_MS / 1000}초 안에 응답 없음` };
-    return { url, state: 'error', detail: String(error.cause?.code || error.cause?.message || error.message).slice(0, 120) };
+    const detail = String(error.cause?.code || error.cause?.message || error.message).slice(0, 120);
+    if (CERT_CHAIN.test(detail)) return { url, state: 'blocked', detail: `인증서 체인 문제(${detail})` };
+    return { url, state: 'error', detail };
   } finally {
     clearTimeout(timer);
   }

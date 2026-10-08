@@ -1,6 +1,6 @@
 // 항공화물 AWB 추적 바로가기: 항공사별 Prefix와 공식 화물 추적 페이지 목록.
 // 각 항공사 사이트로 연결만 하고, 추적 정보는 가져오지 않는다.
-// 링크 점검 결과(매일 자동 + 관리자 수동)는 방문자 DB에서 읽어, 이틀 연속 실패한 링크를 "링크 깨짐"으로 보인다.
+// 링크 점검 결과(매일 자동 + 관리자 수동)는 방문자 DB에서 읽는다.
 (function () {
   const AIRLINES = window.AWB_AIRLINES || [];
   const STATUS_RPC = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/get_link_status';
@@ -19,9 +19,12 @@
   let lastRun = null;
   let problemsOnly = false;
 
+  // 공개 "링크 깨짐"은 확실한 경우만: 페이지 없음(404·410)이나 도메인 없음이 이틀 연속.
+  // 접속 거부·응답 지연은 접속하는 나라에 따라 달라서 관리자 화면에만 "실패"로 보인다.
   const isBroken = a => {
     const s = status[a.url];
-    return Boolean(s && (s.state === 'error' || s.state === 'timeout') && s.fail_streak >= BROKEN_STREAK);
+    if (!s || s.state !== 'error' || s.fail_streak < BROKEN_STREAK) return false;
+    return s.code === 404 || s.code === 410 || /ENOTFOUND/.test(s.detail || '');
   };
   const day = iso => new Date(iso).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 
