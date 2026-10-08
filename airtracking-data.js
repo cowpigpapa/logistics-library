@@ -1,4 +1,4 @@
-// 항공사별 AWB 접두번호와 공식 화물 추적 페이지. 각 항공사 공식 사이트에서 확인한 값.
+// 항공사별 AWB prefix와 공식 화물 추적 페이지. 각 항공사 공식 사이트에서 확인한 값.
 window.AWB_CHECKED = '2026년 10월';
 window.AWB_AIRLINES = [
  {
@@ -6,8 +6,8 @@ window.AWB_AIRLINES = [
   "name_ko": "대한항공",
   "iata": "KE",
   "prefix": "180",
-  "tracking_url": "https://cargo.koreanair.com/tracking",
-  "deeplink": null,
+  "url": "https://cargo.koreanair.com/tracking",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -15,8 +15,8 @@ window.AWB_AIRLINES = [
   "name_ko": "아시아나항공",
   "iata": "OZ",
   "prefix": "988",
-  "tracking_url": "https://www.asianacargo.com/tracking/viewTraceAirWaybill.do",
-  "deeplink": null,
+  "url": "https://www.asianacargo.com/tracking/viewTraceAirWaybill.do",
+  "tracking": true,
   "note_ko": "대한항공과 통합 중이라 추적 주소가 바뀔 수 있음"
  },
  {
@@ -24,8 +24,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에어제타(구 에어인천)",
   "iata": "KJ",
   "prefix": "994",
-  "tracking_url": "https://portal.airzetacargo.com/tracking/viewTraceAirWaybill.do",
-  "deeplink": null,
+  "url": "https://portal.airzetacargo.com/tracking/viewTraceAirWaybill.do",
+  "tracking": true,
   "note_ko": "2025년 8월 에어인천이 아시아나 화물사업부를 넘겨받으며 이름 변경"
  },
  {
@@ -33,8 +33,8 @@ window.AWB_AIRLINES = [
   "name_ko": "제주항공",
   "iata": "7C",
   "prefix": "806",
-  "tracking_url": "https://cargo.jejuair.net/cargo/main.do",
-  "deeplink": "https://cargo.jejuair.net/cargo/rsvflight/newTrackFlightList.do?routeType=I&airlinePfx={prefix}&awbSn={serial}",
+  "url": "https://cargo.jejuair.net/cargo/main.do",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -42,8 +42,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에어프레미아",
   "iata": "YP",
   "prefix": "350",
-  "tracking_url": "https://cargo.airpremia.com/en/track",
-  "deeplink": "https://cargo.airpremia.com/en/track?awb={awbdash}",
+  "url": "https://cargo.airpremia.com/en/track",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -51,35 +51,35 @@ window.AWB_AIRLINES = [
   "name_ko": "진에어",
   "iata": "LJ",
   "prefix": "718",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "공개 AWB 추적 없음. 항공사 화물 담당에 문의"
+  "url": "https://www.jinair.com/company/freight",
+  "tracking": false,
+  "note_ko": "화물 안내 페이지. 항공사 화물 담당에 문의"
  },
  {
   "name": "Trinity Airways (formerly T'way Air)",
   "name_ko": "트리니티항공(구 티웨이항공)",
   "iata": "TW",
   "prefix": "722",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "2026년 9월 티웨이항공에서 이름 변경. 공개 AWB 추적 없음"
+  "url": "https://www.trinityairways.com",
+  "tracking": false,
+  "note_ko": "2026년 9월 티웨이항공에서 이름 변경"
  },
  {
   "name": "Air Busan",
   "name_ko": "에어부산",
   "iata": "BX",
   "prefix": "982",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "공개 AWB 추적 없음. 항공사 화물 담당에 문의"
+  "url": "https://www.airbusan.com",
+  "tracking": false,
+  "note_ko": "항공사 화물 담당에 문의"
  },
  {
   "name": "Aer Lingus (IAG Cargo)",
   "name_ko": "에어링구스",
   "iata": "EI",
   "prefix": "053",
-  "tracking_url": "https://www.iagcargo.com/iagcargo/portlet/en/html/601",
-  "deeplink": "https://www.iagcargo.com/iagcargo/portlet/en/html/601/main/search?awb.cia={prefix}&awb.cod={serial}",
+  "url": "https://www.iagcargo.com/iagcargo/portlet/en/html/601",
+  "tracking": true,
   "note_ko": "IAG 카고에서 영국항공(125)·이베리아(075) AWB로 발행될 수 있음"
  },
  {
@@ -87,8 +87,8 @@ window.AWB_AIRLINES = [
   "name_ko": "아르헨티나항공",
   "iata": "AR",
   "prefix": "044",
-  "tracking_url": "https://cargo.aerolineas.com.ar/es-ar",
-  "deeplink": null,
+  "url": "https://cargo.aerolineas.com.ar/es-ar",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -96,8 +96,8 @@ window.AWB_AIRLINES = [
   "name_ko": "아에로멕시코",
   "iata": "AM",
   "prefix": "139",
-  "tracking_url": "https://amcargo.aeromexico.com/seguimiento",
-  "deeplink": null,
+  "url": "https://amcargo.aeromexico.com/seguimiento",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -105,8 +105,8 @@ window.AWB_AIRLINES = [
   "name_ko": "알제리항공",
   "iata": "AH",
   "prefix": "124",
-  "tracking_url": "https://airalgeriecargo.dz/tracking/",
-  "deeplink": null,
+  "url": "https://airalgeriecargo.dz/tracking/",
+  "tracking": true,
   "note_ko": "CHAMP의 freight.aero에서 조회"
  },
  {
@@ -114,8 +114,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에어아라비아",
   "iata": "G9",
   "prefix": "514",
-  "tracking_url": "https://cargo.airarabia.com/cargo-tracking/",
-  "deeplink": "https://cargo.airarabia.com/cargo-tracking/?awb={awbdash}",
+  "url": "https://cargo.airarabia.com/cargo-tracking/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -123,8 +123,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에어아스타나",
   "iata": "KC",
   "prefix": "465",
-  "tracking_url": "https://www.freight.aero/index.asp",
-  "deeplink": null,
+  "url": "https://www.freight.aero/index.asp",
+  "tracking": true,
   "note_ko": "freight.aero에서 항공사 KC를 고르고 8자리 입력"
  },
  {
@@ -132,8 +132,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에어캐나다",
   "iata": "AC",
   "prefix": "014",
-  "tracking_url": "https://www.aircanada.com/cargo/tracking",
-  "deeplink": "https://www.aircanada.com/cargo/tracking?awbnb={awbdash}",
+  "url": "https://www.aircanada.com/cargo/tracking",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -141,26 +141,26 @@ window.AWB_AIRLINES = [
   "name_ko": "중국국제항공",
   "iata": "CA",
   "prefix": "999",
-  "tracking_url": "https://www.airchinacargo.com/cargo_en/gzcx/hkyd/list/index_pc.html",
-  "deeplink": "https://www.airchinacargo.com/cargo_en/gzcx/hkyd/list/index_pc.html?waybillPrefix={prefix}&waybillContent={serial}",
-  "note_ko": "번호가 들어간 채 열리고, 보안 문자를 입력하면 조회"
+  "url": "https://www.airchinacargo.com/cargo_en/gzcx/hkyd/list/index_pc.html",
+  "tracking": true,
+  "note_ko": "조회할 때 보안 문자 입력 필요"
  },
  {
   "name": "Air Europa Cargo",
   "name_ko": "에어유로파",
   "iata": "UX",
   "prefix": "996",
-  "tracking_url": "https://www.crsairlines.aero/en/agents.html",
-  "deeplink": null,
-  "note_ko": "판매 대리점 CRS 사이트에서 조회(로그인 필요)"
+  "url": "https://www.crsairlines.aero/en/agents.html",
+  "tracking": true,
+  "note_ko": "판매 대리점 CRS 사이트. 로그인 필요"
  },
  {
   "name": "Air France (AF KLM Martinair Cargo)",
   "name_ko": "에어프랑스",
   "iata": "AF",
   "prefix": "057",
-  "tracking_url": "https://www.afklcargo.com/mycargo/shipment/singlesearch",
-  "deeplink": "https://www.afklcargo.com/mycargo/shipment/detail/{awbdash}",
+  "url": "https://www.afklcargo.com/mycargo/shipment/singlesearch",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -168,8 +168,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에어홍콩",
   "iata": "LD",
   "prefix": "288",
-  "tracking_url": "https://www.cathaycargo.com/en-us/track-and-trace.html",
-  "deeplink": null,
+  "url": "https://www.cathaycargo.com/en-us/track-and-trace.html",
+  "tracking": true,
   "note_ko": "캐세이 카고 추적 페이지에서 조회"
  },
  {
@@ -177,8 +177,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에어인디아",
   "iata": "AI",
   "prefix": "098",
-  "tracking_url": "https://aicargoportal.airindia.com/icargoneoportal/app/main/",
-  "deeplink": null,
+  "url": "https://aicargoportal.airindia.com/icargoneoportal/app/main/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -186,8 +186,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에어마카오",
   "iata": "NX",
   "prefix": "675",
-  "tracking_url": "https://www.infoccsp.com/iportal/servicecenter/cargotracking.aspx",
-  "deeplink": "https://www.infoccsp.com/iportal/servicecenter/cargotracking.aspx?ID={awbdash}",
+  "url": "https://www.infoccsp.com/iportal/servicecenter/cargotracking.aspx",
+  "tracking": true,
   "note_ko": "TravelSky 공용 화물 포털"
  },
  {
@@ -195,8 +195,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에어뉴질랜드",
   "iata": "NZ",
   "prefix": "086",
-  "tracking_url": "https://www.airnewzealandcargo.com/self-service/track-and-trace",
-  "deeplink": "https://www.airnewzealandcargo.com/self-service/track-and-trace?awb={awbdash}",
+  "url": "https://www.airnewzealandcargo.com/self-service/track-and-trace",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -204,8 +204,8 @@ window.AWB_AIRLINES = [
   "name_ko": "알래스카항공",
   "iata": "AS",
   "prefix": "027",
-  "tracking_url": "https://alaska-icargo.ibsplc.aero/icargoportal/portal/loginFlow",
-  "deeplink": null,
+  "url": "https://alaska-icargo.ibsplc.aero/icargoportal/portal/loginFlow",
+  "tracking": true,
   "note_ko": "알래스카 에어카고 포털에서 조회"
  },
  {
@@ -213,8 +213,8 @@ window.AWB_AIRLINES = [
   "name_ko": "아메리칸항공",
   "iata": "AA",
   "prefix": "001",
-  "tracking_url": "https://www.aacargo.com/AACargo/tracking",
-  "deeplink": null,
+  "url": "https://www.aacargo.com/AACargo/tracking",
+  "tracking": true,
   "note_ko": "조회 결과를 보려면 로그인을 요구할 수 있음"
  },
  {
@@ -222,8 +222,8 @@ window.AWB_AIRLINES = [
   "name_ko": "",
   "iata": "M6",
   "prefix": "810",
-  "tracking_url": "https://amerijet.com/air-waybill-tracking/",
-  "deeplink": null,
+  "url": "https://amerijet.com/air-waybill-tracking/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -231,8 +231,8 @@ window.AWB_AIRLINES = [
   "name_ko": "전일본공수",
   "iata": "NH",
   "prefix": "205",
-  "tracking_url": "https://www.anacargo.jp/en/int/",
-  "deeplink": null,
+  "url": "https://www.anacargo.jp/en/int/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -240,17 +240,17 @@ window.AWB_AIRLINES = [
   "name_ko": "",
   "iata": "3V",
   "prefix": "756",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": ""
+  "url": "https://www.aslairlines.be",
+  "tracking": false,
+  "note_ko": "전세·위탁 운항사"
  },
  {
   "name": "Atlas Air",
   "name_ko": "아틀라스항공",
   "iata": "5Y",
   "prefix": "369",
-  "tracking_url": "https://www.atlasair.com/cargo-services/track-and-trace/",
-  "deeplink": "https://www.atlasair.com/cargo-services/track-and-trace/?pe={prefix}&se={serial}",
+  "url": "https://www.atlasair.com/cargo-services/track-and-trace/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -258,8 +258,8 @@ window.AWB_AIRLINES = [
   "name_ko": "오스트리아항공",
   "iata": "OS",
   "prefix": "257",
-  "tracking_url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
-  "deeplink": "https://www.lufthansa-cargo.com/en/eservices/etracking/tracking/-/awb/{prefix}/{serial}",
+  "url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
+  "tracking": true,
   "note_ko": "현재 루프트한자 카고(020) AWB로 판매·조회"
  },
  {
@@ -267,8 +267,8 @@ window.AWB_AIRLINES = [
   "name_ko": "아비앙카항공",
   "iata": "QT",
   "prefix": "729",
-  "tracking_url": "https://www.aviancacargo.com/",
-  "deeplink": "https://cargoapps.aviancacargo.com/#/e-tracking/details/{awbdash}",
+  "url": "https://www.aviancacargo.com/",
+  "tracking": true,
   "note_ko": "아비앙카 여객편 화물도 이 사이트에서 조회"
  },
  {
@@ -276,8 +276,8 @@ window.AWB_AIRLINES = [
   "name_ko": "비만방글라데시항공",
   "iata": "BG",
   "prefix": "997",
-  "tracking_url": "https://www.freight.aero/tracking.asp",
-  "deeplink": null,
+  "url": "https://www.freight.aero/tracking.asp",
+  "tracking": true,
   "note_ko": "CHAMP의 freight.aero에서 조회(보안 문자)"
  },
  {
@@ -285,8 +285,8 @@ window.AWB_AIRLINES = [
   "name_ko": "영국항공",
   "iata": "BA",
   "prefix": "125",
-  "tracking_url": "https://www.iagcargo.com/iagcargo/portlet/en/html/601",
-  "deeplink": "https://www.iagcargo.com/iagcargo/portlet/en/html/601/main/search?awb.cia={prefix}&awb.cod={serial}",
+  "url": "https://www.iagcargo.com/iagcargo/portlet/en/html/601",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -294,8 +294,8 @@ window.AWB_AIRLINES = [
   "name_ko": "브뤼셀항공",
   "iata": "SN",
   "prefix": "082",
-  "tracking_url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
-  "deeplink": "https://www.lufthansa-cargo.com/en/eservices/etracking/tracking/-/awb/{prefix}/{serial}",
+  "url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
+  "tracking": true,
   "note_ko": "2018년부터 루프트한자 카고(020) AWB로 판매·조회"
  },
  {
@@ -303,26 +303,26 @@ window.AWB_AIRLINES = [
   "name_ko": "카고젯",
   "iata": "W8",
   "prefix": "489",
-  "tracking_url": "https://km.cargojet.com/ords/f?p=102:857",
-  "deeplink": "https://km.cargojet.com/ords/f?p=102:857:0::NO::P857_AWBPRE,P857_AWBNUM:{prefix},{serial}",
-  "note_ko": "번호가 들어간 채 열리고 Track을 눌러 조회"
+  "url": "https://km.cargojet.com/ords/f?p=102:857",
+  "tracking": true,
+  "note_ko": ""
  },
  {
   "name": "Cargolux",
   "name_ko": "카고룩스",
   "iata": "CV",
   "prefix": "172",
-  "tracking_url": "https://www.cargolux.com/track-and-Trace",
-  "deeplink": "https://www.cargolux.com/track-and-Trace#numbers={awbdash}",
-  "note_ko": "카고룩스 이탈리아는 접두번호 356"
+  "url": "https://www.cargolux.com/track-and-Trace",
+  "tracking": true,
+  "note_ko": "카고룩스 이탈리아는 prefix 356"
  },
  {
   "name": "Cathay Pacific",
   "name_ko": "캐세이퍼시픽항공",
   "iata": "CX",
   "prefix": "160",
-  "tracking_url": "https://www.cathaycargo.com/en-us/track-and-trace.html",
-  "deeplink": null,
+  "url": "https://www.cathaycargo.com/en-us/track-and-trace.html",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -330,8 +330,8 @@ window.AWB_AIRLINES = [
   "name_ko": "세부퍼시픽항공",
   "iata": "5J",
   "prefix": "203",
-  "tracking_url": "https://cebu.smartkargo.com/FrmAWBTracking.aspx",
-  "deeplink": "https://cebu.smartkargo.com/FrmAWBTracking.aspx?AWBPrefix={prefix}&AWBNo={serial}",
+  "url": "https://cebu.smartkargo.com/FrmAWBTracking.aspx",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -339,17 +339,17 @@ window.AWB_AIRLINES = [
   "name_ko": "중저우항공",
   "iata": "I9",
   "prefix": "959",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "추적 페이지가 IP 주소의 비보안(HTTP) 페이지라 링크하지 않음"
+  "url": "http://218.77.210.6:8082/",
+  "tracking": true,
+  "note_ko": "공식 조회 페이지가 IP 주소이고 보안 연결(HTTPS) 없음"
  },
  {
   "name": "China Airlines",
   "name_ko": "중화항공",
   "iata": "CI",
   "prefix": "297",
-  "tracking_url": "https://cargo.china-airlines.com/ccnetv2/content/manage/ShipmentTracking.aspx",
-  "deeplink": null,
+  "url": "https://cargo.china-airlines.com/ccnetv2/content/manage/ShipmentTracking.aspx",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -357,44 +357,44 @@ window.AWB_AIRLINES = [
   "name_ko": "중국화물항공",
   "iata": "CK",
   "prefix": "112",
-  "tracking_url": "https://www.ckair.com/cargo-tracking.html",
-  "deeplink": "https://www.ckair.com/cargo-tracking.html?waybillNum={awb}",
-  "note_ko": "번호가 들어간 채 열리고 보안 문자 입력 필요"
+  "url": "https://www.ckair.com/cargo-tracking.html",
+  "tracking": true,
+  "note_ko": "동방항공물류와 같은 시스템. 보안 문자 입력 필요"
  },
  {
   "name": "China Eastern Airlines (Eastern Air Logistics)",
   "name_ko": "중국동방항공",
   "iata": "MU",
   "prefix": "781",
-  "tracking_url": "https://www.eal-ceair.com/cargo-tracking.html",
-  "deeplink": "https://www.eal-ceair.com/cargo-tracking.html?waybillNum={awb}",
-  "note_ko": "동방항공물류 사이트. 번호가 들어간 채 열리고 보안 문자 입력 필요"
+  "url": "https://www.eal-ceair.com/cargo-tracking.html",
+  "tracking": true,
+  "note_ko": "동방항공물류 사이트. 조회할 때 보안 문자 입력 필요"
  },
  {
   "name": "China Southern Airlines (China Southern Air Logistics)",
   "name_ko": "중국남방항공",
   "iata": "CZ",
   "prefix": "784",
-  "tracking_url": "https://cargo.csair.com/pages/cargotrackingNew",
-  "deeplink": "https://tang.csair.com/EN/WebFace/Tang.WebFace.Cargo/AgentAwbBrower.aspx?awbprefix={prefix}&awbno={serial}",
-  "note_ko": "번호가 들어간 채 열리고 검색·보안 문자 입력 필요"
+  "url": "https://cargo.csair.com/pages/cargotrackingNew",
+  "tracking": true,
+  "note_ko": "조회할 때 보안 문자 입력 필요"
  },
  {
   "name": "Copa Airlines Cargo",
   "name_ko": "코파항공",
   "iata": "CM",
   "prefix": "230",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "공식 사이트가 자동 확인을 막아 링크를 확인하지 못함"
+  "url": "https://www.copacargo.com/homepage.aspx?lang=en",
+  "tracking": null,
+  "note_ko": "사이트가 자동 확인을 막아 조회 기능을 확인하지 못함"
  },
  {
   "name": "Delta Cargo",
   "name_ko": "델타항공",
   "iata": "DL",
   "prefix": "006",
-  "tracking_url": "https://www.deltacargo.com/Cargo/",
-  "deeplink": null,
+  "url": "https://www.deltacargo.com/Cargo/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -402,17 +402,17 @@ window.AWB_AIRLINES = [
   "name_ko": "이집트항공",
   "iata": "MS",
   "prefix": "077",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "공식 사이트가 자동 확인을 막아 링크를 확인하지 못함"
+  "url": "https://www.egyptair.com/en/about-egyptair/Pages/Cargo.aspx",
+  "tracking": null,
+  "note_ko": "사이트가 자동 확인을 막아 조회 기능을 확인하지 못함"
  },
  {
   "name": "Emirates (Emirates SkyCargo)",
   "name_ko": "에미레이트항공",
   "iata": "EK",
   "prefix": "176",
-  "tracking_url": "https://eskycargo.emirates.com/app/offerandorder/#/home/find-offer",
-  "deeplink": "https://eskycargo.emirates.com/app/offerandorder/#/shipments/list?type=D&values={awb}",
+  "url": "https://eskycargo.emirates.com/app/offerandorder/#/home/find-offer",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -420,8 +420,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에티오피아항공",
   "iata": "ET",
   "prefix": "071",
-  "tracking_url": "https://cargo.ethiopianairlines.com/my-cargo/track-your-shipment",
-  "deeplink": null,
+  "url": "https://cargo.ethiopianairlines.com/my-cargo/track-your-shipment",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -429,8 +429,8 @@ window.AWB_AIRLINES = [
   "name_ko": "에티하드항공",
   "iata": "EY",
   "prefix": "607",
-  "tracking_url": "https://www.etihadcargo.com/en/e-services/track-shipment",
-  "deeplink": null,
+  "url": "https://www.etihadcargo.com/en/e-services/track-shipment",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -438,17 +438,17 @@ window.AWB_AIRLINES = [
   "name_ko": "",
   "iata": "QY",
   "prefix": "615",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "DHL 네트워크 운항사. DHL 운송장 번호로 dhl.com에서 조회"
+  "url": "https://www.dhl.com/global-en/home/tracking.html",
+  "tracking": false,
+  "note_ko": "DHL 네트워크 운항사. DHL 운송장 번호로 조회"
  },
  {
   "name": "EVA Air",
   "name_ko": "에바항공",
   "iata": "BR",
   "prefix": "695",
-  "tracking_url": "https://www.brcargo.com/NEC_WEB/Tracking/QuickTracking/Index",
-  "deeplink": "https://www.brcargo.com/NEC_WEB/Tracking/QuickTracking/IndexJump?Prefix={prefix}&AWBNo={serial}",
+  "url": "https://www.brcargo.com/NEC_WEB/Tracking/QuickTracking/Index",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -456,17 +456,17 @@ window.AWB_AIRLINES = [
   "name_ko": "페덱스",
   "iata": "FX",
   "prefix": "023",
-  "tracking_url": "https://www.fedex.com/en-us/tracking.html",
-  "deeplink": null,
-  "note_ko": "FedEx는 AWB가 아니라 FedEx 운송장 번호로 fedex.com에서 조회"
+  "url": "https://www.fedex.com/en-us/tracking.html",
+  "tracking": true,
+  "note_ko": "AWB가 아니라 FedEx 운송장 번호로 조회"
  },
  {
   "name": "Finnair Cargo",
   "name_ko": "핀에어",
   "iata": "AY",
   "prefix": "105",
-  "tracking_url": "https://cargo.finnair.com/api/offerandorder/#/home/find-offer",
-  "deeplink": "https://cargo.finnair.com/api/offerandorder/#/shipments/list?type=D&values={awb}",
+  "url": "https://cargo.finnair.com/api/offerandorder/#/home/find-offer",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -474,8 +474,8 @@ window.AWB_AIRLINES = [
   "name_ko": "플라이두바이",
   "iata": "FZ",
   "prefix": "141",
-  "tracking_url": "https://cargo.flydubai.com/",
-  "deeplink": "https://prdonofz.accelya.io/app/offerandorder/#/shipments/list?type=D&values={awb}",
+  "url": "https://cargo.flydubai.com/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -483,8 +483,8 @@ window.AWB_AIRLINES = [
   "name_ko": "가루다인도네시아항공",
   "iata": "GA",
   "prefix": "126",
-  "tracking_url": "https://cargo.garuda-indonesia.com/",
-  "deeplink": null,
+  "url": "https://cargo.garuda-indonesia.com/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -492,26 +492,26 @@ window.AWB_AIRLINES = [
   "name_ko": "걸프항공",
   "iata": "GF",
   "prefix": "072",
-  "tracking_url": "https://ebooking.champ.aero/webtracking/gf/tracking.asp",
-  "deeplink": "https://ebooking.champ.aero/webtracking/gf/tracking.asp?Shipment={serial}",
-  "note_ko": "CHAMP 추적 페이지. 번호가 들어간 채 열리고 검색을 눌러 조회"
+  "url": "https://ebooking.champ.aero/webtracking/gf/tracking.asp",
+  "tracking": true,
+  "note_ko": "CHAMP 추적 페이지에서 조회"
  },
  {
   "name": "Hainan Airlines (HNA Cargo)",
   "name_ko": "하이난항공",
   "iata": "HU",
   "prefix": "880",
-  "tracking_url": "https://www.hnacargo.com/Portal2/AwbSearch.aspx",
-  "deeplink": null,
-  "note_ko": "하이난항공 그룹 화물 사이트(보안 문자)"
+  "url": "https://www.hnacargo.com/Portal2/AwbSearch.aspx",
+  "tracking": true,
+  "note_ko": "하이난항공 그룹 화물 사이트. 보안 문자 입력 필요"
  },
  {
   "name": "Hawaiian Airlines (Hawaiian Air Cargo)",
   "name_ko": "하와이안항공",
   "iata": "HA",
   "prefix": "173",
-  "tracking_url": "https://alaska-icargo.ibsplc.aero/icargoportal/portal/loginFlow",
-  "deeplink": null,
+  "url": "https://alaska-icargo.ibsplc.aero/icargoportal/portal/loginFlow",
+  "tracking": true,
   "note_ko": "알래스카 에어카고 포털로 통합되어 그곳에서 조회"
  },
  {
@@ -519,8 +519,8 @@ window.AWB_AIRLINES = [
   "name_ko": "홍콩항공",
   "iata": "HX",
   "prefix": "851",
-  "tracking_url": "https://www.hkaircargo.com/",
-  "deeplink": null,
+  "url": "https://www.hkaircargo.com/",
+  "tracking": true,
   "note_ko": "자매 항공사 홍콩에어카고 사이트에서 조회"
  },
  {
@@ -528,8 +528,8 @@ window.AWB_AIRLINES = [
   "name_ko": "이베리아항공",
   "iata": "IB",
   "prefix": "075",
-  "tracking_url": "https://www.iagcargo.com/iagcargo/portlet/en/html/601",
-  "deeplink": "https://www.iagcargo.com/iagcargo/portlet/en/html/601/main/search?awb.cia={prefix}&awb.cod={serial}",
+  "url": "https://www.iagcargo.com/iagcargo/portlet/en/html/601",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -537,8 +537,8 @@ window.AWB_AIRLINES = [
   "name_ko": "아이슬란드항공",
   "iata": "FI",
   "prefix": "108",
-  "tracking_url": "https://track.champ.aero/FI",
-  "deeplink": null,
+  "url": "https://track.champ.aero/FI",
+  "tracking": true,
   "note_ko": "CHAMP 추적 페이지에서 조회"
  },
  {
@@ -546,8 +546,8 @@ window.AWB_AIRLINES = [
   "name_ko": "인디고",
   "iata": "6E",
   "prefix": "312",
-  "tracking_url": "https://6ecargo.goindigo.in/",
-  "deeplink": "https://6ecargo.goindigo.in/FrmAWBTracking.aspx?AWBPrefix={prefix}&AWBNo={serial}",
+  "url": "https://6ecargo.goindigo.in/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -555,8 +555,8 @@ window.AWB_AIRLINES = [
   "name_ko": "ITA 항공",
   "iata": "AZ",
   "prefix": "055",
-  "tracking_url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
-  "deeplink": "https://www.lufthansa-cargo.com/en/eservices/etracking/tracking/-/awb/{prefix}/{serial}",
+  "url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
+  "tracking": true,
   "note_ko": "2025년 6월부터 루프트한자 카고(020) AWB로 옮기는 중"
  },
  {
@@ -564,8 +564,8 @@ window.AWB_AIRLINES = [
   "name_ko": "일본항공",
   "iata": "JL",
   "prefix": "131",
-  "tracking_url": "https://www.jal.co.jp/jp/en/jalcargo/",
-  "deeplink": null,
+  "url": "https://www.jal.co.jp/jp/en/jalcargo/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -573,17 +573,17 @@ window.AWB_AIRLINES = [
   "name_ko": "길상항공",
   "iata": "HO",
   "prefix": "018",
-  "tracking_url": "http://cargo.juneyaoair.com/",
-  "deeplink": "http://cargo.juneyaoair.com/NewWeb/NQueryFrameAwb.aspx?Billid={awb}",
-  "note_ko": "보안 연결(HTTPS)이 없는 페이지"
+  "url": "http://cargo.juneyaoair.com/",
+  "tracking": true,
+  "note_ko": "보안 연결(HTTPS) 없는 페이지"
  },
  {
   "name": "Kalitta Air",
   "name_ko": "칼리타항공",
   "iata": "K4",
   "prefix": "272",
-  "tracking_url": "https://www.kalittaair.com/utilities/track-cargo",
-  "deeplink": null,
+  "url": "https://www.kalittaair.com/utilities/track-cargo",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -591,8 +591,8 @@ window.AWB_AIRLINES = [
   "name_ko": "케냐항공",
   "iata": "KQ",
   "prefix": "706",
-  "tracking_url": "https://www.kqcargo.com/en/track--trace/",
-  "deeplink": "https://www.kqcargo.com/en/track--trace/?awb={awbdash}",
+  "url": "https://www.kqcargo.com/en/track--trace/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -600,8 +600,8 @@ window.AWB_AIRLINES = [
   "name_ko": "KLM 네덜란드항공",
   "iata": "KL",
   "prefix": "074",
-  "tracking_url": "https://www.afklcargo.com/mycargo/shipment/singlesearch",
-  "deeplink": "https://www.afklcargo.com/mycargo/shipment/detail/{awbdash}",
+  "url": "https://www.afklcargo.com/mycargo/shipment/singlesearch",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -609,8 +609,8 @@ window.AWB_AIRLINES = [
   "name_ko": "쿠웨이트항공",
   "iata": "KU",
   "prefix": "229",
-  "tracking_url": "https://www.kuwaitairways.com/en/cargo/pages/tracking.aspx",
-  "deeplink": null,
+  "url": "https://www.kuwaitairways.com/en/cargo/pages/tracking.aspx",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -618,8 +618,8 @@ window.AWB_AIRLINES = [
   "name_ko": "라탐항공",
   "iata": "LA",
   "prefix": "045",
-  "tracking_url": "https://www.latamcargo.com/en/trackshipment",
-  "deeplink": "https://www.latamcargo.com/en/trackshipment?docNumber={serial}&docPrefix={prefix}&soType=MAWB",
+  "url": "https://www.latamcargo.com/en/trackshipment",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -627,8 +627,8 @@ window.AWB_AIRLINES = [
   "name_ko": "LOT 폴란드항공",
   "iata": "LO",
   "prefix": "080",
-  "tracking_url": "https://cargo-tracking.lot.com/",
-  "deeplink": null,
+  "url": "https://cargo-tracking.lot.com/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -636,8 +636,8 @@ window.AWB_AIRLINES = [
   "name_ko": "루프트한자 카고",
   "iata": "LH",
   "prefix": "020",
-  "tracking_url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
-  "deeplink": "https://www.lufthansa-cargo.com/en/eservices/etracking/tracking/-/awb/{prefix}/{serial}",
+  "url": "https://www.lufthansa-cargo.com/en/eservices/etracking",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -645,8 +645,8 @@ window.AWB_AIRLINES = [
   "name_ko": "말레이시아항공",
   "iata": "MH",
   "prefix": "232",
-  "tracking_url": "https://www.maskargo.com/my/en/shipment-tracking.html",
-  "deeplink": "https://www.maskargo.com/my/en/shipment-tracking.html?prefixNumber={prefix}&awbNumber={serial}",
+  "url": "https://www.maskargo.com/my/en/shipment-tracking.html",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -654,8 +654,8 @@ window.AWB_AIRLINES = [
   "name_ko": "마틴에어",
   "iata": "MP",
   "prefix": "129",
-  "tracking_url": "https://www.afklcargo.com/mycargo/shipment/singlesearch",
-  "deeplink": "https://www.afklcargo.com/mycargo/shipment/detail/{awbdash}",
+  "url": "https://www.afklcargo.com/mycargo/shipment/singlesearch",
+  "tracking": true,
   "note_ko": "새 화물은 KLM(074) AWB로 발행"
  },
  {
@@ -663,17 +663,17 @@ window.AWB_AIRLINES = [
   "name_ko": "몽골항공",
   "iata": "OM",
   "prefix": "289",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "공개 AWB 추적 없음"
+  "url": "https://www.miat.com/en/page/cargo",
+  "tracking": false,
+  "note_ko": "화물 안내 페이지"
  },
  {
   "name": "National Airlines",
   "name_ko": "",
   "iata": "N8",
   "prefix": "416",
-  "tracking_url": "https://www.nationalairlines.com/track-your-shipment/",
-  "deeplink": "https://www.nationalairlines.com/track-your-shipment/track-and-trace/?query={awbdash}",
+  "url": "https://www.nationalairlines.com/track-your-shipment/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -681,8 +681,8 @@ window.AWB_AIRLINES = [
   "name_ko": "일본화물항공",
   "iata": "KZ",
   "prefix": "933",
-  "tracking_url": "https://www.nca.aero/e/index.html",
-  "deeplink": "https://www.nca.aero/icargoportal/portal/trackshipments?trkTxnValue={awbdash}",
+  "url": "https://www.nca.aero/e/index.html",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -690,8 +690,8 @@ window.AWB_AIRLINES = [
   "name_ko": "오만항공",
   "iata": "WY",
   "prefix": "910",
-  "tracking_url": "https://cargo.omanair.com/track-shipment",
-  "deeplink": "https://omanair.smartkargo.com/FrmAWBTracking.aspx?AWBPrefix={prefix}&AWBNo={serial}",
+  "url": "https://cargo.omanair.com/track-shipment",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -699,8 +699,8 @@ window.AWB_AIRLINES = [
   "name_ko": "파키스탄국제항공",
   "iata": "PK",
   "prefix": "214",
-  "tracking_url": "https://www.freight.aero/tracking.asp",
-  "deeplink": null,
+  "url": "https://www.freight.aero/tracking.asp",
+  "tracking": true,
   "note_ko": "CHAMP의 freight.aero에서 조회(보안 문자)"
  },
  {
@@ -708,8 +708,8 @@ window.AWB_AIRLINES = [
   "name_ko": "필리핀항공",
   "iata": "PR",
   "prefix": "079",
-  "tracking_url": "https://www.philippineairlines.com/ph/en/cargo.html",
-  "deeplink": "https://cargo.pal.com.ph/HtmlFiles/AWBTracking/AWBTracking.html?BasedOn=0&AWBNo={serial}&CarrierCode={prefix}",
+  "url": "https://www.philippineairlines.com/ph/en/cargo.html",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -717,8 +717,8 @@ window.AWB_AIRLINES = [
   "name_ko": "폴라에어카고",
   "iata": "PO",
   "prefix": "403",
-  "tracking_url": "https://www.polaraircargo.com/track-and-trace/",
-  "deeplink": "https://www.polaraircargo.com/track-and-trace/?pe={prefix}&se={serial}",
+  "url": "https://www.polaraircargo.com/track-and-trace/",
+  "tracking": true,
   "note_ko": "아틀라스항공과 같은 추적 시스템"
  },
  {
@@ -726,8 +726,8 @@ window.AWB_AIRLINES = [
   "name_ko": "콴타스항공",
   "iata": "QF",
   "prefix": "081",
-  "tracking_url": "https://freight.qantas.com/en-au/online-tracking",
-  "deeplink": null,
+  "url": "https://freight.qantas.com/en-au/online-tracking",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -735,8 +735,8 @@ window.AWB_AIRLINES = [
   "name_ko": "카타르항공",
   "iata": "QR",
   "prefix": "157",
-  "tracking_url": "https://www.qrcargo.com/s/track-your-shipment",
-  "deeplink": "https://www.qrcargo.com/s/track-your-shipment?documentType=MAWB&documentPrefix={prefix}&documentNumber={serial}",
+  "url": "https://www.qrcargo.com/s/track-your-shipment",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -744,17 +744,17 @@ window.AWB_AIRLINES = [
   "name_ko": "로열에어모로코",
   "iata": "AT",
   "prefix": "147",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "공식 화물 사이트에 접속되지 않아 링크를 확인하지 못함"
+  "url": "https://cargo.royalairmaroc.com/",
+  "tracking": null,
+  "note_ko": "사이트에 접속되지 않아 조회 기능을 확인하지 못함"
  },
  {
   "name": "Royal Brunei Airlines",
   "name_ko": "로열브루나이항공",
   "iata": "BI",
   "prefix": "672",
-  "tracking_url": "https://www.flyroyalbrunei.com/brunei/en/information/flight-cargo-information/",
-  "deeplink": null,
+  "url": "https://www.flyroyalbrunei.com/brunei/en/information/flight-cargo-information/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -762,8 +762,8 @@ window.AWB_AIRLINES = [
   "name_ko": "로열요르단항공",
   "iata": "RJ",
   "prefix": "512",
-  "tracking_url": "https://rj-cargo.com/track-and-trace",
-  "deeplink": null,
+  "url": "https://rj-cargo.com/track-and-trace",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -771,8 +771,8 @@ window.AWB_AIRLINES = [
   "name_ko": "르완다항공",
   "iata": "WB",
   "prefix": "459",
-  "tracking_url": "https://www.rwandair.com/business-solutions/cargo-tracking/",
-  "deeplink": null,
+  "url": "https://www.rwandair.com/business-solutions/cargo-tracking/",
+  "tracking": true,
   "note_ko": "조회 결과가 나오지 않을 수 있음"
  },
  {
@@ -780,8 +780,8 @@ window.AWB_AIRLINES = [
   "name_ko": "스칸디나비아항공",
   "iata": "SK",
   "prefix": "117",
-  "tracking_url": "https://booking.sascargo.com/app/offerandorder/#/home/find-offer",
-  "deeplink": "https://booking.sascargo.com/app/offerandorder/#/shipments/list?type=D&values={awb}",
+  "url": "https://booking.sascargo.com/app/offerandorder/#/home/find-offer",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -789,8 +789,8 @@ window.AWB_AIRLINES = [
   "name_ko": "사우디아항공",
   "iata": "SV",
   "prefix": "065",
-  "tracking_url": "https://www.saudiacargo.com/en/digital-services?tab=trackShipment",
-  "deeplink": null,
+  "url": "https://www.saudiacargo.com/en/digital-services?tab=trackShipment",
+  "tracking": true,
   "note_ko": "조회할 때 보안 문자 입력 필요"
  },
  {
@@ -798,8 +798,8 @@ window.AWB_AIRLINES = [
   "name_ko": "SF항공",
   "iata": "O3",
   "prefix": "921",
-  "tracking_url": "https://www.sf-airlines.com/track/index.html",
-  "deeplink": null,
+  "url": "https://www.sf-airlines.com/track/index.html",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -807,26 +807,26 @@ window.AWB_AIRLINES = [
   "name_ko": "선전항공",
   "iata": "ZH",
   "prefix": "479",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "공개 AWB 추적 없음"
+  "url": "https://cargo.shenzhenair.com/",
+  "tracking": false,
+  "note_ko": "화물 사이트에 조회 기능 없음"
  },
  {
   "name": "Sichuan Airlines (Sichuan Airlines Logistics)",
   "name_ko": "쓰촨항공",
   "iata": "3U",
   "prefix": "876",
-  "tracking_url": "https://cargonest.sal-sichuanair.com/processTracking",
-  "deeplink": null,
-  "note_ko": "쓰촨항공물류 사이트(보안 문자)"
+  "url": "https://cargonest.sal-sichuanair.com/processTracking",
+  "tracking": true,
+  "note_ko": "쓰촨항공물류 사이트. 보안 문자 입력 필요"
  },
  {
   "name": "Silk Way West Airlines",
   "name_ko": "실크웨이웨스트항공",
   "iata": "7L",
   "prefix": "501",
-  "tracking_url": "https://www.silkwaywest.com/e-services/shipment-tracking/",
-  "deeplink": "https://sww.enxt.solutions/enxt/iframe/track-and-trace/{awbdash}",
+  "url": "https://www.silkwaywest.com/e-services/shipment-tracking/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -834,8 +834,8 @@ window.AWB_AIRLINES = [
   "name_ko": "싱가포르항공",
   "iata": "SQ",
   "prefix": "618",
-  "tracking_url": "https://www.siacargo.com/e-services/quicksearch_public/",
-  "deeplink": null,
+  "url": "https://www.siacargo.com/e-services/quicksearch_public/",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -843,8 +843,8 @@ window.AWB_AIRLINES = [
   "name_ko": "남아프리카항공",
   "iata": "SA",
   "prefix": "083",
-  "tracking_url": "https://saa.ibsplc.aero/icargoneoportal/app/main/#/app",
-  "deeplink": null,
+  "url": "https://saa.ibsplc.aero/icargoneoportal/app/main/#/app",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -852,8 +852,8 @@ window.AWB_AIRLINES = [
   "name_ko": "스리랑카항공",
   "iata": "UL",
   "prefix": "603",
-  "tracking_url": "https://srilankancargo.ibsplc.aero/icargoneoportal/app/main/#/app",
-  "deeplink": null,
+  "url": "https://srilankancargo.ibsplc.aero/icargoneoportal/app/main/#/app",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -861,8 +861,8 @@ window.AWB_AIRLINES = [
   "name_ko": "스타럭스항공",
   "iata": "JX",
   "prefix": "189",
-  "tracking_url": "https://www.starluxcargo.com/en-Global/search-and-management/track-and-trace",
-  "deeplink": null,
+  "url": "https://www.starluxcargo.com/en-Global/search-and-management/track-and-trace",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -870,8 +870,8 @@ window.AWB_AIRLINES = [
   "name_ko": "스위스 월드카고",
   "iata": "LX",
   "prefix": "724",
-  "tracking_url": "https://offerandorder.swissworldcargo.com/app/offerandorder/#/home/find-offer",
-  "deeplink": "https://offerandorder.swissworldcargo.com/app/offerandorder/#/shipments/list?type=D&values={awb}",
+  "url": "https://offerandorder.swissworldcargo.com/app/offerandorder/#/home/find-offer",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -879,8 +879,8 @@ window.AWB_AIRLINES = [
   "name_ko": "TAP 포르투갈항공",
   "iata": "TP",
   "prefix": "047",
-  "tracking_url": "https://www.tapcargo.com/en#special-anchor-e-tracking",
-  "deeplink": "https://www.tapcargo.com/en/e-tracking-results?ciaCode={prefix}&awb={serial}",
+  "url": "https://www.tapcargo.com/en#special-anchor-e-tracking",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -888,8 +888,8 @@ window.AWB_AIRLINES = [
   "name_ko": "타이항공",
   "iata": "TG",
   "prefix": "217",
-  "tracking_url": "https://www.thaicargo.com/en/main",
-  "deeplink": "https://chorus.thaicargo.com/skychain/app?doc_typ=AWB&awb_pre={prefix}&awb_no={serial}&PID=WEB01-10",
+  "url": "https://www.thaicargo.com/en/main",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -897,26 +897,26 @@ window.AWB_AIRLINES = [
   "name_ko": "터키항공",
   "iata": "TK",
   "prefix": "235",
-  "tracking_url": "https://www.turkishcargo.com/en/cargo-tracking",
-  "deeplink": "https://www.turkishcargo.com/en/cargo-tracking?awbPrefix={prefix}&awbNumber={serial}",
-  "note_ko": "번호가 들어간 채 열리고 검색을 눌러 조회"
+  "url": "https://www.turkishcargo.com/en/cargo-tracking",
+  "tracking": true,
+  "note_ko": ""
  },
  {
   "name": "United Airlines (United Cargo)",
   "name_ko": "유나이티드항공",
   "iata": "UA",
   "prefix": "016",
-  "tracking_url": "https://www.unitedcargo.com/en/us/track/",
-  "deeplink": "https://www.unitedcargo.com/en/us/track/awb/{awbdash}",
+  "url": "https://www.unitedcargo.com/en/us/track/",
+  "tracking": true,
   "note_ko": ""
  },
  {
   "name": "UPS Airlines (UPS Air Cargo)",
-  "name_ko": "",
+  "name_ko": "UPS 항공",
   "iata": "5X",
   "prefix": "406",
-  "tracking_url": "https://www.aircargo.ups.com/en-us/tracking",
-  "deeplink": "https://aircargo.ups.com/en-US/Tracking/{awbdash}/{serial}",
+  "url": "https://www.aircargo.ups.com/en-us/tracking",
+  "tracking": true,
   "note_ko": "UPS Air Cargo(공항 간 화물) 추적. 일반 UPS 택배는 UPS 운송장 번호로 조회"
  },
  {
@@ -924,17 +924,17 @@ window.AWB_AIRLINES = [
   "name_ko": "우즈베키스탄항공",
   "iata": "HY",
   "prefix": "250",
-  "tracking_url": null,
-  "deeplink": null,
-  "note_ko": "공개 화물 추적 페이지를 찾지 못함"
+  "url": "https://www.uzairways.com",
+  "tracking": false,
+  "note_ko": "홈페이지에서 화물 조회 기능을 찾지 못함"
  },
  {
   "name": "Vietnam Airlines",
   "name_ko": "베트남항공",
   "iata": "VN",
   "prefix": "738",
-  "tracking_url": "https://track.champ.aero/vn",
-  "deeplink": null,
+  "url": "https://track.champ.aero/vn",
+  "tracking": true,
   "note_ko": "CHAMP 추적 페이지에서 조회"
  },
  {
@@ -942,8 +942,8 @@ window.AWB_AIRLINES = [
   "name_ko": "버진애틀랜틱",
   "iata": "VS",
   "prefix": "932",
-  "tracking_url": "https://myvs.virginatlanticcargo.com/app/offerandorder/#/home/find-offer",
-  "deeplink": "https://myvs.virginatlanticcargo.com/app/offerandorder/#/shipments/list?type=D&values={awb}",
+  "url": "https://myvs.virginatlanticcargo.com/app/offerandorder/#/home/find-offer",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -951,8 +951,8 @@ window.AWB_AIRLINES = [
   "name_ko": "버진오스트레일리아",
   "iata": "VA",
   "prefix": "795",
-  "tracking_url": "https://va-icargo.ibsplc.aero/icargoportal/portal/loginFlow",
-  "deeplink": "https://va-icargo.ibsplc.aero/icargoportal/portal/trackshipments?trkTxnValue={awbdash}",
+  "url": "https://va-icargo.ibsplc.aero/icargoportal/portal/loginFlow",
+  "tracking": true,
   "note_ko": "국제 화물 예약은 현재 받지 않음(호주 국내)"
  },
  {
@@ -960,8 +960,8 @@ window.AWB_AIRLINES = [
   "name_ko": "웨스트젯",
   "iata": "WS",
   "prefix": "838",
-  "tracking_url": "https://www.westjetcargo.com/en-ca/shipment-services/track-shipment",
-  "deeplink": "https://westjet.smartkargo.com/FrmAWBTracking.aspx?AWBPrefix={prefix}&AWBNo={serial}",
+  "url": "https://www.westjetcargo.com/en-ca/shipment-services/track-shipment",
+  "tracking": true,
   "note_ko": ""
  },
  {
@@ -969,8 +969,8 @@ window.AWB_AIRLINES = [
   "name_ko": "샤먼항공",
   "iata": "MF",
   "prefix": "731",
-  "tracking_url": "https://cargo.xiamenair.com/Cargo/DF/QuerySearch.html?status=1",
-  "deeplink": "https://cargo.xiamenair.com/Cargo/DF/QuerySearch.html?status=1&Ids={awb}",
+  "url": "https://cargo.xiamenair.com/Cargo/DF/QuerySearch.html?status=1",
+  "tracking": true,
   "note_ko": ""
  }
 ];
