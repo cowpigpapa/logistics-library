@@ -438,3 +438,19 @@
 .at-dir td {
   overflow-wrap: anywhere;
 }
+/* IATA·Prefix는 줄바꿈하지 않는다(모바일에서 180이 꺾이던 문제) */
+.at-dir td:nth-child(2),
+.at-dir td:nth-child(3) {
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+.at-dir .c-iata { min-width: 52px; }
+.at-dir .c-prefix { min-width: 72px; }
+@media (max-width: 760px) {
+  .at-dir { min-width: 820px; }
+  .at-dir .c-name { width: 200px; }
+  .at-dir .c-iata { width: 56px; }
+  .at-dir .c-prefix { width: 76px; }
+  .at-dir .c-url { width: 260px; }
+  .at-dir .c-remark { width: 228px; }
+}
