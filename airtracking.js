@@ -168,6 +168,11 @@
       search.focus();
       search.select();
       search.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      // 검색칸으로 왔다는 걸 분명히 보이게 잠깐 강조한다.
+      const box = search.parentElement;
+      box.classList.remove('at-search-hit');
+      void box.offsetWidth;
+      box.classList.add('at-search-hit');
     }
   });
 
