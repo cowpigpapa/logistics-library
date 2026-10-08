@@ -9,7 +9,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"항공화물 AWB 추적 바로가기","url":"https://logistics.onharu.app/airtracking","applicationCategory":"BusinessApplication","operatingSystem":"All","inLanguage":"ko","isAccessibleForFree":true,"description":"항공사 이름, IATA 코드, Prefix로 공식 화물 추적 페이지를 찾는 목록"}</script>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
   <link rel="stylesheet" href="/styles.css?v=20261006-01">
-  <link rel="stylesheet" href="/airtracking.css?v=20261008-06">
+  <link rel="stylesheet" href="/airtracking.css?v=20261008-07">
 </head>
 <body>
 <header class="topbar">
@@ -51,8 +51,9 @@
     <p class="at-note">링크는 모두 각 항공사의 공식 화물 사이트입니다(2026년 10월 확인). 공개 AWB 조회가 없는 항공사는 화물 안내 페이지나 홈페이지로 연결하고 비고에 적었습니다.</p>
   </section>
 
-  <section class="at-section at-guide" aria-labelledby="guide-title">
-    <h2 id="guide-title">AWB 번호 읽는 법</h2>
+  <section class="at-section at-guide" aria-label="AWB 참고">
+    <details class="at-fold">
+      <summary><h2>AWB 번호 구조</h2></summary>
     <div class="at-guide-grid">
       <article>
         <h3>11자리의 구조</h3>
@@ -70,7 +71,9 @@
         <p>항공사 추적 페이지에서 조회되는 것은 항공사가 발행한 <b>마스터 AWB</b>(MAWB)입니다. 포워더가 화주에게 발행한 <b>하우스 AWB</b>(HAWB) 번호는 항공사 시스템에 없으므로 그 포워더에게 조회해야 하고, 혼재 화물은 마스터 번호로 항공편 단위의 진행만 볼 수 있습니다.</p>
       </article>
     </div>
-    <h3 class="at-subhead">추적 결과에 자주 나오는 상태 코드</h3>
+    </details>
+    <details class="at-fold">
+      <summary><h2>추적 결과 상태 코드</h2></summary>
     <div class="at-table-wrap">
       <table class="at-table at-codes">
         <thead><tr><th scope="col">코드</th><th scope="col">뜻</th><th scope="col">실무에서는</th></tr></thead>
@@ -90,6 +93,7 @@
       </table>
     </div>
     <p class="at-source">상태 코드는 IATA 화물 전문(Cargo-IMP FSU, Cargo-XML Status Message)에서 쓰는 표준 코드이며, 항공사 화면에서는 코드 대신 문장으로 표시되기도 합니다.</p>
+    </details>
     <p class="at-source">이 페이지는 각 항공사 사이트로 연결만 하며, 추적 정보를 가져오거나 저장하지 않습니다. 항공사가 사이트 주소를 바꾸면 링크가 맞지 않을 수 있으니, 깨진 링크는 <a href="mailto:support@onharu.app">support@onharu.app</a>으로 알려 주세요.</p>
   </section>
 </main>

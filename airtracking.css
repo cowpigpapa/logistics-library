@@ -454,3 +454,49 @@
   .at-dir .c-url { width: 260px; }
   .at-dir .c-remark { width: 228px; }
 }
+
+/* 참고 접기: AWB 번호 구조 · 추적 결과 상태 코드 */
+.at-fold {
+  margin-top: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+}
+.at-fold summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 20px;
+  cursor: pointer;
+  list-style: none;
+}
+.at-fold summary::-webkit-details-marker { display: none; }
+.at-fold summary h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.at-fold summary::after {
+  content: '';
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: rotate(45deg);
+  transition: transform 0.15s;
+}
+.at-fold[open] summary::after {
+  transform: rotate(-135deg);
+}
+.at-fold[open] summary {
+  border-bottom: 1px solid #e6edf4;
+}
+.at-fold > .at-guide-grid,
+.at-fold > .at-table-wrap,
+.at-fold > .at-source {
+  margin: 16px 20px;
+}
+.at-fold > .at-guide-grid { margin-top: 18px; }
+.at-fold .at-guide-grid article {
+  background: #f9fbfe;
+}
