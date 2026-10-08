@@ -1,4 +1,4 @@
-// 항공화물 AWB 추적 바로가기: 항공사별 AWB prefix와 공식 화물 추적 페이지 목록.
+// 항공화물 AWB 추적 바로가기: 항공사별 Prefix와 공식 화물 추적 페이지 목록.
 // 각 항공사 사이트로 연결만 하고, 추적 정보는 가져오지 않는다.
 (function () {
   const AIRLINES = window.AWB_AIRLINES || [];

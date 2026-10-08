@@ -1,4 +1,4 @@
-// 항공사별 AWB prefix와 공식 화물 추적 페이지. 각 항공사 공식 사이트에서 확인한 값.
+// 항공사별 Prefix와 공식 화물 추적 페이지. 각 항공사 공식 사이트에서 확인한 값.
 window.AWB_CHECKED = '2026년 10월';
 window.AWB_AIRLINES = [
  {
