@@ -403,3 +403,5 @@
   color: var(--blue-deep);
   font-weight: 700;
 }
+.at-filter-all { font-weight: 800; }
+.at-lead { max-width: none; }

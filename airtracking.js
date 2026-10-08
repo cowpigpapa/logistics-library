@@ -14,10 +14,29 @@
     set: (key, value) => { try { localStorage.setItem(key, value); } catch (_) {} },
     del: key => { try { localStorage.removeItem(key); } catch (_) {} }
   };
+  // ?owner=1 / ?owner=0은 site-shell.js도 처리하지만 이 파일이 먼저 실행되므로 여기서도 읽는다.
+  const ownerFlag = new URLSearchParams(location.search).get('owner');
+  if (ownerFlag === '1') store.set('onharu-owner', '1');
+  if (ownerFlag === '0') store.del('onharu-owner');
   const owner = store.get('onharu-owner') === '1';
   let status = {};
   let lastRun = null;
-  let problemsOnly = false;
+  // 관리자 화면의 문제 종류별 거르기. 아무것도 고르지 않으면 전체 목록.
+  const PROBLEMS = [
+    ['broken', '링크 깨짐'],
+    ['failed', '실패'],
+    ['blocked', '자동 확인 불가'],
+    ['unchecked', '점검 전']
+  ];
+  const filters = new Set();
+  const problemOf = a => {
+    const s = status[a.url];
+    if (!s) return 'unchecked';
+    if (isBroken(a)) return 'broken';
+    if (s.state === 'error' || s.state === 'timeout') return 'failed';
+    if (s.state === 'blocked') return 'blocked';
+    return null;
+  };
 
   // 공개 "링크 깨짐"은 확실한 경우만: 페이지 없음(404·410)이나 도메인 없음이 이틀 연속.
   // 접속 거부·응답 지연은 접속하는 나라에 따라 달라서 관리자 화면에만 "실패"로 보인다.
@@ -57,10 +76,7 @@
     const q = String($('dirSearch').value || '').trim().toLowerCase();
     const digits = q.replace(/\D/g, '');
     const rows = AIRLINES.filter(a => {
-      if (problemsOnly) {
-        const s = status[a.url];
-        if (!s || s.state === 'ok') return false;
-      }
+      if (filters.size && !filters.has(problemOf(a))) return false;
       if (!q) return true;
       if (digits.length >= 3 && /^[\d\s-]+$/.test(q)) return a.prefix === digits.slice(0, 3);
       return [a.name, a.name_ko, a.iata, a.prefix].some(v => String(v || '').toLowerCase().includes(q));
@@ -89,19 +105,32 @@
   // 관리자(?owner=1로 표시한 브라우저)에게만 보이는 점검 막대
   function renderAdmin(message) {
     const bar = $('adminBar');
-    const all = Object.values(status);
-    const count = fn => all.filter(fn).length;
+    const count = key => AIRLINES.filter(a => problemOf(a) === key).length;
+    const counts = Object.fromEntries(PROBLEMS.map(([key]) => [key, count(key)]));
+    const shown = PROBLEMS.filter(([key]) => counts[key] > 0 || filters.has(key));
+    const allOn = shown.length > 0 && shown.every(([key]) => filters.has(key));
+    const okCount = AIRLINES.filter(a => status[a.url] && problemOf(a) === null).length;
     bar.hidden = false;
     bar.innerHTML =
-      `<b>관리자 · 링크 점검</b>` +
-      `<span>정상 ${count(s => s.state === 'ok')} · 자동 확인 불가 ${count(s => s.state === 'blocked')} · 실패 ${count(s => s.state === 'error' || s.state === 'timeout')} · 깨짐 표시 ${AIRLINES.filter(isBroken).length}</span>` +
-      `<label><input type="checkbox" id="problemsOnly"${problemsOnly ? ' checked' : ''}> 문제 있는 링크만</label>` +
+      `<b>관리자 · 링크 점검</b><span>정상 ${okCount}</span>` +
+      `<label class="at-filter-all"><input type="checkbox" data-filter="all"${allOn ? ' checked' : ''}> 문제 있는 링크 전체 (${shown.reduce((n, [key]) => n + counts[key], 0)})</label>` +
+      shown.map(([key, label]) => `<label><input type="checkbox" data-filter="${key}"${filters.has(key) ? ' checked' : ''}> ${label} (${counts[key]})</label>`).join('') +
       `<button type="button" id="runCheck">지금 점검</button>` +
       (message ? `<span class="at-admin-msg">${esc(message)}</span>` : '');
-    $('problemsOnly').onchange = event => {
-      problemsOnly = event.target.checked;
-      render();
-    };
+    bar.querySelectorAll('[data-filter]').forEach(box => {
+      box.onchange = () => {
+        const key = box.dataset.filter;
+        if (key === 'all') {
+          shown.forEach(([k]) => (box.checked ? filters.add(k) : filters.delete(k)));
+        } else if (box.checked) {
+          filters.add(key);
+        } else {
+          filters.delete(key);
+        }
+        render();
+        renderAdmin();
+      };
+    });
     $('runCheck').onclick = runCheck;
   }
 
