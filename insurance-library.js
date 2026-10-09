@@ -125,7 +125,7 @@
     sync();
   }
   // 자료를 확인한 날짜.
-  const CHECKED = '2026-10-05';
+  const CHECKED = '2026-10-09';
   const pager = doc => {
     const i = DOCS.indexOf(doc),
       prev = DOCS[i - 1],

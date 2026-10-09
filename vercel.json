@@ -49,9 +49,30 @@
     {
       "source": "/library/cargo-insurance/:id",
       "destination": "/insurance-library"
+    },
+    {
+      "source": "/library/bl-awb",
+      "destination": "/bl-library"
+    },
+    {
+      "source": "/library/bl-awb/:id",
+      "destination": "/bl-library"
     }
   ],
   "headers": [
+    {
+      "source": "/bl-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
     {
       "source": "/insurance-docs/(.*)",
       "headers": [
