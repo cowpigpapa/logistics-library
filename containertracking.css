@@ -1,0 +1,38 @@
+/* 컨테이너 추적: airtracking.css 위에 덧붙인다 */
+.ct-dir .c-prefix { width: 13%; }
+.ct-dir .c-name { width: 22%; }
+.ct-dir .c-url { width: 29%; }
+.ct-dir .c-remark { width: 30%; }
+.ct-dir .c-iata { width: 6%; }
+.ct-prefixes { white-space: normal !important; }
+.ct-prefixes .at-prefix { margin: 2px 2px 2px 0; }
+.ct-hit { border-color: var(--blue) !important; background: var(--blue) !important; color: #fff !important; }
+.at-flag-lessor { background: #eef2f6; color: var(--body); }
+.ct-check {
+  max-width: 620px;
+  margin: 12px 0 0;
+  padding: 10px 14px;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+.ct-ok { background: #e9f7ef; color: #1d6b3b; }
+.ct-bad { background: #fdecec; color: #a3261f; }
+.ct-warn { background: #fff6e0; color: #7a5400; }
+@media (max-width: 760px) {
+  .ct-dir .c-prefix { width: 110px; }
+}
+.at-fold-lead { margin: 16px 20px 0; color: var(--body); line-height: 1.7; font-size: 14.5px; }
+.at-fold > .ct-code-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 16px 20px; }
+.at-fold > .at-subhead { margin: 22px 20px 0; }
+.ct-calc, .ct-code-grid .at-table { min-width: 0; }
+.ct-equip { min-width: 720px; }
+.ct-equip td { white-space: nowrap; font-variant-numeric: tabular-nums; }
+@media (max-width: 760px) { .at-fold > .ct-code-grid { grid-template-columns: 1fr; } }
+/* Prefix 칸을 넓히고 칩을 옆으로 나란히 */
+.ct-dir .c-name { width: 20%; }
+.ct-dir .c-iata { width: 6%; }
+.ct-dir .c-prefix { width: 22%; }
+.ct-dir .c-url { width: 25%; }
+.ct-dir .c-remark { width: 27%; }
+.ct-prefixes .at-prefix { padding: 2px 7px; font-size: 12.5px; }
+@media (max-width: 760px) { .ct-dir .c-prefix { width: 180px; } }

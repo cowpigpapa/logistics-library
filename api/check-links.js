@@ -1,4 +1,4 @@
-// AWB 추적 페이지의 항공사 링크 점검. Vercel Cron(매일 03:00 KST)과 관리자 수동 실행이 부른다.
+// AWB·컨테이너 추적 페이지의 링크 점검. Vercel Cron(매일 03:00 KST)과 관리자 수동 실행이 부른다.
 // 결과는 방문자 DB(onharu-analytics)의 link_status에 쌓는다. 페이지는 404·410·도메인 없음이 이틀 연속일 때만 "링크 깨짐"으로 보인다.
 const SITE = 'https://logistics.onharu.app';
 const RPC = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/record_link_checks';
@@ -37,11 +37,19 @@ async function checkOne(url) {
   }
 }
 
+// AWB 추적과 컨테이너 추적 두 페이지의 링크를 함께 점검한다.
+const DATA_FILES = ['airtracking-data.js', 'containertracking-data.js'];
+
 async function loadUrls() {
-  const res = await fetch(`${SITE}/airtracking-data.js?check=${Date.now()}`);
-  const text = await res.text();
-  const rows = JSON.parse(text.slice(text.indexOf('['), text.lastIndexOf(']') + 1));
-  return [...new Set(rows.map(row => row.url).filter(Boolean))];
+  const urls = [];
+  for (const file of DATA_FILES) {
+    const res = await fetch(`${SITE}/${file}?check=${Date.now()}`);
+    if (!res.ok) continue;
+    const text = await res.text();
+    const rows = JSON.parse(text.slice(text.indexOf('['), text.lastIndexOf(']') + 1));
+    rows.forEach(row => row.url && urls.push(row.url));
+  }
+  return [...new Set(urls)];
 }
 
 module.exports = async function handler(req, res) {

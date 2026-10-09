@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>컨테이너 추적 — 선사별 Prefix와 공식 추적 페이지 · Logistics Library</title>
+  <meta name="description" content="컨테이너 번호의 Prefix(소유자 코드)나 선사 이름·SCAC로 찾아 각 선사의 공식 컨테이너 추적 페이지로 이동합니다. 컨테이너 번호 체크 디지트 확인, ISO 6346 크기·형식 코드 해설.">
+  <link rel="canonical" href="https://logistics.onharu.app/containertracking">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"컨테이너 추적 바로가기","url":"https://logistics.onharu.app/containertracking","applicationCategory":"BusinessApplication","operatingSystem":"All","inLanguage":"ko","isAccessibleForFree":true,"description":"선사별 컨테이너 Prefix와 공식 추적 페이지 목록, 컨테이너 번호 체크 디지트 확인"}</script>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+  <link rel="stylesheet" href="/styles.css?v=20261006-01">
+  <link rel="stylesheet" href="/airtracking.css?v=20261009-01">
+  <link rel="stylesheet" href="/containertracking.css?v=20261009-02">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="Logistics Library 홈">
+    <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="7"/><path d="M5.25 6.8c2.7-.35 4.9.35 6.75 2.05 1.85-1.7 4.05-2.4 6.75-2.05v10.35c-2.55-.25-4.75.35-6.75 1.85-2-1.5-4.2-2.1-6.75-1.85V6.8Z"/><path d="M12 8.85V19M7.6 10h2.25M7.6 12.8h2.25M14.15 10h2.25M14.15 12.8h2.25"/></svg>
+    <span class="brand-wordmark"><strong>Logistics</strong><span>Library</span></span>
+  </a>
+  <nav aria-label="주 메뉴">
+    <a href="/library/ctu-code">CTU Code</a>
+    <a href="/library/eu-lithium-battery">EU Battery</a>
+    <a href="/library/dangerous-goods">Dangerous Goods</a>
+    <a href="/library/incoterms-2020">Incoterms</a>
+    <a href="/library/air-uld">Air ULD</a>
+    <a href="/library/cargo-insurance">Cargo Insurance</a>
+    <a href="/airtracking">AWB Tracking</a>
+    <a href="/containertracking" aria-current="page">Container Tracking</a>
+  </nav>
+</header>
+<main class="at-main">
+  <section class="at-hero" aria-labelledby="ct-title">
+    <p class="at-kicker">CONTAINER TRACKING</p>
+    <h1 id="ct-title">컨테이너 추적 바로가기</h1>
+    <p class="at-lead">선사 이름, SCAC, Prefix(컨테이너 번호 앞 4글자)로 찾아 공식 추적 페이지로 이동합니다. 번호 전체를 넣으면 체크 디지트도 확인합니다.</p>
+    <div class="at-search">
+      <input id="dirSearch" type="search" placeholder="선사 이름, SCAC, Prefix 또는 컨테이너 번호" aria-label="선사 이름, SCAC, Prefix 또는 컨테이너 번호로 찾기" autocomplete="off">
+      <kbd class="at-kbd">Ctrl + F</kbd>
+    </div>
+    <p id="ctCheck" class="ct-check" aria-live="polite" hidden></p>
+    <p class="at-help" id="dirCount"></p>
+    <div id="adminBar" class="at-admin" hidden></div>
+  </section>
+
+  <section class="at-section" aria-label="선사별 Prefix와 추적 페이지">
+    <div class="at-table-wrap">
+      <table class="at-table at-dir ct-dir">
+        <colgroup><col class="c-name"><col class="c-iata"><col class="c-prefix"><col class="c-url"><col class="c-remark"></colgroup>
+        <thead><tr><th scope="col">선사</th><th scope="col">SCAC</th><th scope="col">Prefix</th><th scope="col">추적 페이지</th><th scope="col">비고</th></tr></thead>
+        <tbody id="dirBody"></tbody>
+      </table>
+    </div>
+    <p id="dirEmpty" class="at-note" hidden></p>
+    <p class="at-note">링크는 모두 각 선사의 공식 사이트입니다(2026년 10월 확인). 리스 회사 Prefix가 붙은 컨테이너는 그 컨테이너를 운항하는 선사의 사이트에서 B/L 번호나 컨테이너 번호로 조회합니다.</p>
+  </section>
+
+  <section class="at-section at-guide" aria-label="컨테이너 참고">
+<!--ct-guide-->
+    <details class="at-fold">
+      <summary><h2>컨테이너 번호 구조와 체크 디지트</h2></summary>
+      <div class="at-guide-grid">
+        <article>
+          <h3>11자리의 구조</h3>
+          <p class="at-awb-sample"><span>MSC</span>U 123456 <span>6</span></p>
+          <p>앞 세 글자는 <b>소유자 코드</b>로 BIC(국제컨테이너사무국)에 등록해 전 세계에서 겹치지 않습니다. 넷째 글자는 장비 구분으로 화물 컨테이너는 <b>U</b>, 컨테이너에 붙이는 장비는 J, 트레일러·섀시는 Z입니다. 실무에서는 이 네 글자를 합쳐 <b>Prefix</b>(BIC 코드)라고 부릅니다. 이어지는 여섯 자리가 일련번호, 마지막 한 자리가 <b>체크 디지트</b>입니다.</p>
+          <p>Prefix는 컨테이너 <b>소유자</b>를 나타냅니다. 리스 컨테이너는 리스 회사 코드가 붙어 있으므로, 실제로 운항하는 선사의 사이트에서 B/L 번호나 컨테이너 번호로 조회해야 합니다.</p>
+        </article>
+        <article>
+          <h3>체크 디지트 계산</h3>
+          <p>글자는 A=10부터 차례로 값을 매기되 11의 배수(11, 22, 33)는 건너뜁니다(B=12, L=23, V=34). 앞 10자리에 자리마다 1, 2, 4, 8 … 512를 곱해 더하고, 합계를 11로 나눈 <b>나머지</b>가 체크 디지트입니다. 나머지가 10이면 0입니다.</p>
+          <p class="at-calc">합계 5613 ÷ 11 … 나머지 <b>3</b> → KQXU 123456 3</p>
+          <p>ISO 6346은 나머지가 10이 나오는 일련번호를 쓰지 않도록 권고합니다. 위 검색칸에 번호 11자리를 넣으면 이 계산으로 오타를 확인합니다.</p>
+        </article>
+        <article>
+          <h3>계산 예시 (가상 코드 KQXU)</h3>
+          <div class="at-table-wrap"><table class="at-table ct-calc"><thead><tr><th>자리</th><th>값</th><th>가중치</th><th>곱</th></tr></thead><tbody><tr><td><b>K</b></td><td>21</td><td>×1</td><td>21</td></tr><tr><td><b>Q</b></td><td>28</td><td>×2</td><td>56</td></tr><tr><td><b>X</b></td><td>36</td><td>×4</td><td>144</td></tr><tr><td><b>U</b></td><td>32</td><td>×8</td><td>256</td></tr><tr><td><b>1</b></td><td>1</td><td>×16</td><td>16</td></tr><tr><td><b>2</b></td><td>2</td><td>×32</td><td>64</td></tr><tr><td><b>3</b></td><td>3</td><td>×64</td><td>192</td></tr><tr><td><b>4</b></td><td>4</td><td>×128</td><td>512</td></tr><tr><td><b>5</b></td><td>5</td><td>×256</td><td>1280</td></tr><tr><td><b>6</b></td><td>6</td><td>×512</td><td>3072</td></tr><tr><td colspan="3"><b>합계</b></td><td><b>5613</b></td></tr></tbody></table></div>
+          <p class="at-source">KQX는 설명용 가상 코드입니다(BIC 미등록 확인).</p>
+        </article>
+      </div>
+      <p class="at-source">출처: <a href="https://www.bic-code.org/identification-number/" target="_blank" rel="noopener noreferrer">BIC, Identification number</a>; 계산 방법 <a href="https://www.containerhandbuch.de/chb_e/stra/index.html?/chb_e/stra/stra_01_03_03.html" target="_blank" rel="noopener noreferrer">GDV Container Handbook 3.3</a>. BIC의 공식 계산기로 같은 결과를 확인했습니다.</p>
+    </details>
+    <details class="at-fold">
+      <summary><h2>크기·형식 코드 읽는 법 (ISO 6346)</h2></summary>
+      <p class="at-fold-lead">컨테이너 번호 아래에 붙은 네 자리입니다. 첫째 자리는 <b>길이</b>, 둘째 자리는 <b>높이(와 폭)</b>, 셋째·넷째 자리는 <b>형식</b>(그룹 문자 + 세부 숫자)입니다. 예를 들어 <b>45G1</b>은 40ft 길이(4), 9ft 6in 높이(5), 일반 건화물(G), 상부 통풍구(1)인 40ft 하이큐브 드라이 컨테이너입니다.</p>
+      <div class="ct-code-grid">
+        <div class="at-table-wrap"><table class="at-table"><thead><tr><th>첫째(길이)</th><th>뜻</th></tr></thead><tbody><tr><td><b>1</b></td><td>10ft (2991mm)</td></tr><tr><td><b>2</b></td><td>20ft (6058mm)</td></tr><tr><td><b>4</b></td><td>40ft (12192mm)</td></tr><tr><td><b>L</b></td><td>45ft (13716mm) - 실무 표기(L5G1 등). BIC 조회 도구도 45ft로 해석</td></tr><tr><td><b>5</b></td><td>45ft (13716mm) - BIC 웹 Table 1 및 ICHCA BP25 표에 이렇게 기재</td></tr><tr><td><b>M</b></td><td>48ft (14630mm)</td></tr><tr><td><b>P</b></td><td>53ft (16154mm)</td></tr></tbody></table></div>
+        <div class="at-table-wrap"><table class="at-table"><thead><tr><th>둘째(높이)</th><th>뜻</th></tr></thead><tbody><tr><td><b>0</b></td><td>8ft (2438mm)</td></tr><tr><td><b>2</b></td><td>8ft 6in (2591mm) - 표준</td></tr><tr><td><b>4</b></td><td>9ft (2742mm)</td></tr><tr><td><b>5</b></td><td>9ft 6in (2896mm) - 하이큐브</td></tr><tr><td><b>6</b></td><td>9ft 6in 초과</td></tr><tr><td><b>8</b></td><td>4ft 3in (1295mm, 하프하이트)</td></tr><tr><td><b>9</b></td><td>4ft(1219mm) 이하</td></tr></tbody></table></div>
+      </div>
+      <p class="at-source">45ft는 현장에서 &#x27;L&#x27;(예: L5G1, L5R1)로 표기된 것이 일반적이고 BIC 조회 도구도 L을 45ft/13716mm로 해석한다. 그런데 BIC 웹사이트 Table 1과 ICHCA BP25(2021) 표에는 45ft가 &#x27;5&#x27;, L은 &#x27;unassigned&#x27;로 적혀 있어 자료 간 표기가 엇갈린다. 설명문에서는 &#x27;L(또는 5) = 45ft&#x27;로 안내하는 것이 안전하다. 폭이 8ft보다 넓은 컨테이너는 둘째 자리에 숫자 대신 문자를 씁니다.</p>
+      <div class="at-table-wrap"><table class="at-table"><thead><tr><th>형식 그룹</th><th>뜻</th></tr></thead><tbody><tr><td><b>G</b></td><td>일반 건화물(통풍장치 없음). G0 한쪽/양쪽 끝 개구, G1 상부 패시브 벤트, G2/G3 측면 전체/부분 개구 추가, G9 벌크 적재 가능</td></tr><tr><td><b>V</b></td><td>통풍 컨테이너(벤틸레이티드)</td></tr><tr><td><b>R</b></td><td>기계식 냉동(리퍼). R0 냉동, R1 냉동·가열, R2/R3 자가발전식</td></tr><tr><td><b>H</b></td><td>탈착식 냉동/가열 장비 또는 단열 컨테이너(H5/H6 insulated)</td></tr><tr><td><b>U</b></td><td>오픈탑. U0 끝 개구, U1 끝 개구 + 끝 프레임 상부재(헤더) 탈착, U6 탈착식 하드탑</td></tr><tr><td><b>P</b></td><td>플랫폼·플랫랙. P0 플랫폼, P1 고정식 양 끝벽, P2 고정 기둥, P3 접이식 끝벽(콜랩서블 플랫랙), P4 접이식 기둥</td></tr><tr><td><b>T</b></td><td>탱크(ISO 6346:1995판). T0~T2 비위험 액체(TN), T3~T6 위험 액체(TD), T7~T9 가스(TG)</td></tr><tr><td><b>K</b></td><td>가압 탱크(액체·가스) - ISO 6346:2022 표(BIC 게시)에서 T 대신 사용</td></tr><tr><td><b>N</b></td><td>분체·건화물용 탱크(가압/비가압, 호퍼형) - ISO 6346:2022</td></tr><tr><td><b>B</b></td><td>건화물 벌크(박스형, 비가압)</td></tr><tr><td><b>S</b></td><td>특수(가축·자동차·활어 운반, 발전기 등 비화물용)</td></tr></tbody></table></div>
+      <h3 class="at-subhead">자주 보는 코드</h3>
+      <div class="at-table-wrap"><table class="at-table"><thead><tr><th>코드</th><th>뜻</th></tr></thead><tbody><tr><td><b>22G1</b></td><td>20ft 일반 드라이(20GP/20DV), 높이 8&#x27;6&quot;, 상부 패시브 벤트</td></tr><tr><td><b>22G0</b></td><td>20ft 일반 드라이, 높이 8&#x27;6&quot;, 끝(문) 개구만 있고 벤트 표기 없음</td></tr><tr><td><b>25G1</b></td><td>20ft 하이큐브 드라이(높이 9&#x27;6&quot;)</td></tr><tr><td><b>42G1</b></td><td>40ft 일반 드라이(40GP/40DV), 높이 8&#x27;6&quot;</td></tr><tr><td><b>42G0</b></td><td>40ft 일반 드라이, 끝 개구</td></tr><tr><td><b>45G1</b></td><td>40ft 하이큐브 드라이(40HC/40HQ), 높이 9&#x27;6&quot;</td></tr><tr><td><b>L5G1</b></td><td>45ft 하이큐브 드라이(45HC), 높이 9&#x27;6&quot;</td></tr><tr><td><b>22R1</b></td><td>20ft 냉동(20RF), 높이 8&#x27;6&quot;, 기계식 냉동·가열</td></tr><tr><td><b>42R1</b></td><td>40ft 냉동(일반 높이 8&#x27;6&quot;)</td></tr><tr><td><b>45R1</b></td><td>40ft 하이큐브 냉동(40RH/40RQ/40HR), 높이 9&#x27;6&quot;</td></tr><tr><td><b>L5R1</b></td><td>45ft 하이큐브 냉동</td></tr><tr><td><b>22U1</b></td><td>20ft 오픈탑(20OT), 높이 8&#x27;6&quot;, 끝 개구 + 끝 프레임 상부재(헤더) 탈착</td></tr><tr><td><b>42U1</b></td><td>40ft 오픈탑(40OT), 높이 8&#x27;6&quot;</td></tr><tr><td><b>45U1</b></td><td>40ft 하이큐브 오픈탑(높이 9&#x27;6&quot;)</td></tr><tr><td><b>45U6</b></td><td>40ft 하이큐브 오픈탑, 탈착식 하드탑</td></tr><tr><td><b>22P1</b></td><td>20ft 플랫랙, 양 끝벽 고정식</td></tr><tr><td><b>42P1</b></td><td>40ft 플랫랙, 양 끝벽 고정식</td></tr><tr><td><b>22P3</b></td><td>20ft 플랫랙, 끝벽 접이식(콜랩서블)</td></tr><tr><td><b>42P3</b></td><td>40ft 플랫랙, 끝벽 접이식(콜랩서블)</td></tr><tr><td><b>22T0~22T9</b></td><td>20ft 탱크(1995판 코드). T0~T2 비위험 액체, T3~T6 위험 액체, T7~T9 가스</td></tr><tr><td><b>22K1 / 22K2</b></td><td>20ft 가압 탱크(2022판 코드). K1 위험물 액체 2.65bar 이하, K2 위험물 액체 2.65~10bar</td></tr></tbody></table></div>
+      <p class="at-source">출처: <a href="https://www.bic-code.org/size-type-code/" target="_blank" rel="noopener noreferrer">BIC, Size and type codes</a>; <a href="https://ichca.com/" target="_blank" rel="noopener noreferrer">ICHCA BP25(2021)</a>; <a href="https://www.containerhandbuch.de/" target="_blank" rel="noopener noreferrer">GDV Container Handbook</a>. 탱크 코드 T0~T9는 1995년판 코드이며, 2022년판에서는 K(가압 탱크)·N(건화물 벌크) 그룹으로 바뀌었습니다.</p>
+    </details>
+    <details class="at-fold">
+      <summary><h2>주요 컨테이너 치수 예시</h2></summary>
+      <p class="at-fold-lead">같은 형식이라도 제작사와 선사마다 치수와 중량이 조금씩 다릅니다. 아래는 두 선사가 공개한 사양의 예시이며, 실제 적입 계획은 배정된 컨테이너의 CSC 판과 선사 사양으로 확인하세요. 단위는 mm·kg입니다.</p>
+      <div class="at-table-wrap"><table class="at-table ct-equip"><thead><tr><th>형식</th><th>예시 출처</th><th>내부 길이 × 폭 × 높이</th><th>문 폭 × 높이</th><th>최대 적재</th><th>자중</th></tr></thead><tbody><tr><td><b>20GP</b></td><td>ONE</td><td>5,898 × 2,350 × 2,390</td><td>2,340 × 2,280</td><td>28,330</td><td>2,150</td></tr><tr><td><b>20GP</b></td><td>Maersk</td><td>5,896 × 2,350 × 2,393</td><td>2,350 × 2,274</td><td>28,200</td><td>2,280</td></tr><tr><td><b>40GP</b></td><td>ONE</td><td>12,032 × 2,350 × 2,390</td><td>2,340 × 2,280</td><td>26,840</td><td>3,640</td></tr><tr><td><b>40GP</b></td><td>Maersk</td><td>12,032 × 2,350 × 2,393</td><td>2,340 × 2,274</td><td>28,800</td><td>3,700</td></tr><tr><td><b>40HC</b></td><td>ONE</td><td>12,032 × 2,350 × 2,695</td><td>2,340 × 2,585</td><td>28,800</td><td>3,700</td></tr><tr><td><b>40HC</b></td><td>Maersk</td><td>12,032 × 2,350 × 2,697</td><td>2,340 × 2,577</td><td>28,620</td><td>3,880</td></tr><tr><td><b>20RF</b></td><td>ONE</td><td>5,456 × 2,288 × 2,263</td><td>2,290 × 2,221</td><td>27,670</td><td>2,810</td></tr><tr><td><b>20RF</b></td><td>Maersk</td><td>5,451 × 2,290 × 2,167</td><td>2,290 × 2,212</td><td>27,490</td><td>2,990</td></tr><tr><td><b>40RH</b></td><td>ONE</td><td>11,590 × 2,284 × 2,544</td><td>2,290 × 2,502</td><td>30,510</td><td>4,490</td></tr><tr><td><b>40RH</b></td><td>Maersk</td><td>11,580 × 2,275 × 2,415</td><td>2,276 × 2,471</td><td>29,480</td><td>4,520</td></tr><tr><td><b>20OT</b></td><td>ONE</td><td>5,898 × 2,350 × 2,348</td><td>2,340 × 2,280</td><td>28,240</td><td>2,240</td></tr><tr><td><b>20OT</b></td><td>Maersk</td><td>5,898 × 2,352 × 2,348</td><td>—</td><td>28,310</td><td>2,170</td></tr><tr><td><b>40OT</b></td><td>ONE</td><td>12,022 × 2,350 × 2,348</td><td>2,340 × 2,280</td><td>26,600</td><td>3,880</td></tr><tr><td><b>40OT</b></td><td>Maersk</td><td>12,032 × 2,352 × 2,653</td><td>—</td><td>28,400</td><td>3,940</td></tr><tr><td><b>20FR</b></td><td>ONE</td><td>5,568 × 2,194 × 2,213</td><td>—</td><td>35,000</td><td>3,100</td></tr><tr><td><b>40FR</b></td><td>ONE</td><td>11,652 × 2,208 × 1,955</td><td>—</td><td>38,800</td><td>6,200</td></tr><tr><td><b>40FR</b></td><td>Maersk</td><td>11,652 × 2,374 × 2,260</td><td>—</td><td>47,300</td><td>5,200</td></tr></tbody></table></div>
+      <p class="at-source">출처: <a href="https://www.one-line.com/en/container-information" target="_blank" rel="noopener noreferrer">ONE, Container information</a>; <a href="https://www.maersk.com/~/media_sc9/maersk/local-information/files/africa/south-africa/important-information/container-type-and-sizes/dry-equipment-specifications-updated.pdf" target="_blank" rel="noopener noreferrer">Maersk, Dry equipment specifications</a> 등 각 선사 공개 사양(2026년 10월 확인). 플랫랙은 문이 없어 문 치수가 없습니다. Maersk의 내부 높이는 적재 한계선(load line)까지의 높이이고, Maersk 오픈탑·40ft 플랫랙은 하이큐브 사양입니다.</p>
+    </details>
+<!--/ct-guide-->
+    <p class="at-source">이 페이지는 각 선사 사이트로 연결만 하며, 추적 정보를 가져오거나 저장하지 않습니다.<br>선사가 사이트 주소를 바꾸면 링크가 맞지 않을 수 있으니, 깨진 링크는 <a href="mailto:support@onharu.app">support@onharu.app</a>으로 알려 주세요.</p>
+  </section>
+</main>
+<footer class="site-footer"><div class="footer-copy"><div class="footer-brand"><strong>Logistics Library</strong></div><div class="footer-meta"><span>MADE BY JUAN.HJLEE · WITH SUPPORT FROM MARU.DEV</span><small>© 2026 ONHARU. All rights reserved.</small><a class="footer-legal" href="/privacy">개인정보처리방침</a></div></div><details class="footer-family"><summary>Family Site</summary><div class="menu-list"><a href="https://cubestow.onharu.app/" target="_blank" rel="noopener">CubeStow<small>컨테이너 적재 시뮬레이션</small></a><a href="https://diary.onharu.app/" target="_blank" rel="noopener">온하루 다이어리<small>바탕화면 달력·일기</small></a><a href="https://lottolab.onharu.app/" target="_blank" rel="noopener">LottoLab<small>로또 통계·구매 기록</small></a><a href="https://onharu.app/" target="_blank" rel="noopener">ONHARU<small>포트폴리오</small></a></div></details></footer>
+<script src="/containertracking-data.js?v=20261009-02"></script>
+<script src="/containertracking.js?v=20261009-02"></script>
+<script src="/site-shell.js?v=20261008-01"></script>
+</body>
+</html>

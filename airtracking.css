@@ -500,3 +500,4 @@
 .at-fold .at-guide-grid article {
   background: #f9fbfe;
 }
+.at-admin[hidden] { display: none; }
