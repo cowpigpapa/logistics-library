@@ -591,7 +591,7 @@ window.AWB_AIRLINES = [
   "name_ko": "케냐항공",
   "iata": "KQ",
   "prefix": "706",
-  "url": "https://www.kqcargo.com/en/track--trace/",
+  "url": "https://www.kqcargo.com/en/track-and-trace/",
   "tracking": true,
   "note_ko": ""
  },
