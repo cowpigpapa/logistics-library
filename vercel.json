@@ -41,9 +41,30 @@
     {
       "source": "/library/air-uld/:id",
       "destination": "/uld-library"
+    },
+    {
+      "source": "/library/cargo-insurance",
+      "destination": "/insurance-library"
+    },
+    {
+      "source": "/library/cargo-insurance/:id",
+      "destination": "/insurance-library"
     }
   ],
   "headers": [
+    {
+      "source": "/insurance-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
     {
       "source": "/uld-docs/(.*)",
       "headers": [

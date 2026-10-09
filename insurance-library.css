@@ -1,0 +1,46 @@
+/* 화물보험 카테고리. uld-library.css와 같은 문서 화면 스타일. */
+/* Air ULD 자료(/library/air-uld): 치수로 새로 그린 SVG 도면(코드 해부도·팔레트 크기 비교·컨투어 단면)의 모양. */
+.library-view .uld-diagram {
+  margin: 20px 0 24px;
+  overflow: hidden;
+  border: 1px solid #c9d9ea;
+  border-radius: 14px;
+  background: #fff;
+}
+.library-view .uld-diagram .uld-svg-wrap {
+  overflow-x: auto;
+  padding: 14px 12px 6px;
+}
+.library-view .uld-diagram svg {
+  display: block;
+  width: 100%;
+  min-width: 620px;
+  height: auto;
+  font-family: inherit;
+}
+.library-view .uld-diagram figcaption {
+  padding: 10px 14px 12px;
+  border-top: 1px solid #e3ebf3;
+  background: #f7f9fb;
+  color: var(--lib-muted);
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+.library-view .uld-diagram figcaption span {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: #e3efff;
+  color: #0b4a99;
+  font-size: 11px;
+  font-weight: 700;
+}
+/* SVG 안의 공통 색 */
+.library-view .uld-diagram .ink { fill: #123d70; }
+.library-view .uld-diagram .muted { fill: #5f6763; }
+.library-view .uld-diagram .line { stroke: #123d70; fill: none; }
+.library-view .uld-diagram .grid { stroke: #e3ebf3; }
+@media print {
+  .library-view .uld-diagram svg { min-width: 0; }
+}
