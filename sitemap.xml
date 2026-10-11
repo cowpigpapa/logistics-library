@@ -125,4 +125,11 @@
   <url><loc>https://logistics.onharu.app/library/bl-awb/bl-release</loc></url>
   <url><loc>https://logistics.onharu.app/library/bl-awb/bl-special</loc></url>
   <url><loc>https://logistics.onharu.app/library/bl-awb/bl-cases</loc></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-basics</loc></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-air-passive</loc></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-air-active</loc></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-reefer</loc></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-reefer-practice</loc></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-cases</loc></url>
 </urlset>
