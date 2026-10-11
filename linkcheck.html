@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>문서 링크 점검 · Logistics Library</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+  <link rel="stylesheet" href="/styles.css?v=20261011-01">
+  <style>
+    /* 관리자 전용: 자료실 문서 출처 링크 점검 결과. 사이트맵·메뉴에 넣지 않는다. */
+    .lc-main { max-width: var(--content-max); margin: 0 auto; padding: 28px 16px 60px; }
+    .lc-main h1 { margin: 0 0 4px; font-size: 24px; }
+    .lc-lead { margin: 0 0 16px; color: var(--body); }
+    .lc-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding: 12px 14px; border: 1px dashed #b9cbe0; border-radius: 12px; background: #f7fafd; font-size: 13.5px; }
+    .lc-bar label { display: inline-flex; align-items: center; gap: 5px; }
+    .lc-bar .lc-all { font-weight: 800; }
+    .lc-bar button, .lc-key button { padding: 7px 14px; border: 0; border-radius: 8px; background: var(--ink); color: #fff; font: inherit; font-weight: 800; cursor: pointer; }
+    .lc-bar button.lc-quiet { background: #e3eaf2; color: var(--ink); }
+    .lc-bar button:disabled { opacity: .5; cursor: wait; }
+    .lc-msg { flex-basis: 100%; color: var(--blue-deep); font-weight: 700; }
+    .lc-msg:empty { display: none; }
+    .lc-runs { margin: 10px 0 0; color: var(--muted); font-size: 13px; }
+    .lc-search { width: 100%; max-width: 420px; margin: 14px 0 8px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 10px; font: inherit; background: #fff; }
+    .lc-count { margin: 0 0 8px; color: var(--muted); font-size: 13px; }
+    .lc-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); }
+    .lc-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+    .lc-table th, .lc-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    .lc-table th { background: #f2f6fa; font-size: 12.5px; white-space: nowrap; position: sticky; top: 0; }
+    .lc-table tr:last-child td { border-bottom: 0; }
+    .lc-url { min-width: 260px; max-width: 460px; word-break: break-all; }
+    .lc-url a { color: var(--blue-deep); }
+    .lc-docs a { display: block; color: var(--blue-deep); }
+    .lc-docs a:hover, .lc-url a:hover { text-decoration: underline; }
+    .lc-docs small { color: var(--muted); }
+    .lc-nowrap { white-space: nowrap; }
+    .lc-chip { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 12px; font-weight: 800; background: #eef2f6; color: var(--muted); white-space: nowrap; }
+    .lc-chip[data-p="broken"] { background: #fde8e8; color: #a11d1d; }
+    .lc-chip[data-p="suspect"] { background: #fff1e0; color: #8a4b00; }
+    .lc-chip[data-p="failed"] { background: #fff7d6; color: #6b5400; }
+    .lc-chip[data-p="ok"] { background: #e6f6ec; color: #1d6b3a; }
+    .lc-detail { display: block; margin-top: 3px; color: var(--muted); font-size: 12px; word-break: break-all; }
+    .lc-key { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); }
+    .lc-key input { flex: 1 1 240px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; font: inherit; }
+    .lc-empty { padding: 24px; color: var(--muted); text-align: center; }
+    .lc-main [hidden] { display: none; }
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="Logistics Library 홈">
+    <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="7"/><path d="M5.25 6.8c2.7-.35 4.9.35 6.75 2.05 1.85-1.7 4.05-2.4 6.75-2.05v10.35c-2.55-.25-4.75.35-6.75 1.85-2-1.5-4.2-2.1-6.75-1.85V6.8Z"/><path d="M12 8.85V19M7.6 10h2.25M7.6 12.8h2.25M14.15 10h2.25M14.15 12.8h2.25"/></svg>
+    <span class="brand-wordmark"><strong>Logistics</strong><span>Library</span></span>
+  </a>
+</header>
+<main class="lc-main">
+  <h1>문서 링크 점검</h1>
+  <p class="lc-lead">자료실 문서의 출처·공식 자료 링크를 매일 자동으로 점검한 결과입니다. 관리자만 볼 수 있습니다.</p>
+  <form id="keyForm" class="lc-key" hidden>
+    <label for="keyInput"><b>관리자 키</b></label>
+    <input id="keyInput" type="password" autocomplete="current-password" placeholder="관리자 키를 입력하세요">
+    <button type="submit">열기</button>
+    <span id="keyMsg" class="lc-msg"></span>
+  </form>
+  <section id="view" hidden>
+    <div id="bar" class="lc-bar"></div>
+    <p id="runs" class="lc-runs"></p>
+    <input id="search" class="lc-search" type="search" placeholder="주소나 문서 제목으로 찾기" aria-label="주소나 문서 제목으로 찾기" autocomplete="off">
+    <p id="count" class="lc-count"></p>
+    <div class="lc-wrap">
+      <table class="lc-table">
+        <thead><tr><th>링크</th><th>상태</th><th>코드</th><th>연속 실패</th><th>마지막 점검</th><th>인용 문서</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <p id="empty" class="lc-empty" hidden>조건에 맞는 링크가 없습니다.</p>
+    </div>
+  </section>
+</main>
+<script>
+(function () {
+  const DB = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/';
+  const PUBLIC_KEY = 'sb_publishable_vgcDAWoOJRD8Xvp2p4Ew9A_exTmzuXM';
+  const BROKEN_STREAK = 2;
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+  const store = {
+    get: key => { try { return localStorage.getItem(key); } catch (_) { return null; } },
+    set: (key, value) => { try { localStorage.setItem(key, value); } catch (_) {} },
+    del: key => { try { localStorage.removeItem(key); } catch (_) {} }
+  };
+  // 추적 페이지 관리자 막대와 같은 기준. 공개 "링크 깨짐"은 404·410·도메인 없음이 2회 연속일 때.
+  const PROBLEMS = [
+    ['broken', '링크 깨짐'],
+    ['suspect', '깨짐 의심(1회)'],
+    ['failed', '실패'],
+    ['blocked', '자동 확인 불가'],
+    ['unchecked', '점검 전'],
+    ['ok', '정상']
+  ];
+  const LABEL = Object.fromEntries(PROBLEMS);
+  const RANK = Object.fromEntries(PROBLEMS.map(([k], i) => [k, i]));
+  const filters = new Set(['broken', 'suspect', 'failed']);
+  let links = [];
+  let status = {};
+  let runs = [];
+  let key = store.get('ll-admin-key');
+
+  const notFound = s => s.code === 404 || s.code === 410 || /ENOTFOUND/.test(s.detail || '');
+  const problemOf = url => {
+    const s = status[url];
+    if (!s) return 'unchecked';
+    if (s.state === 'ok') return 'ok';
+    if (s.state === 'blocked') return 'blocked';
+    if (s.state === 'error' && notFound(s)) return s.fail_streak >= BROKEN_STREAK ? 'broken' : 'suspect';
+    return 'failed';
+  };
+  const when = iso => (iso ? new Date(iso).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '');
+  const rpc = async (name, body) => {
+    const res = await fetch(DB + name, { method: 'POST', headers: { apikey: PUBLIC_KEY, 'Content-Type': 'application/json' }, body: JSON.stringify(body), cache: 'no-store' });
+    const data = await res.json().catch(() => null);
+    if (!res.ok) throw Object.assign(new Error((data && data.message) || `HTTP ${res.status}`), { denied: /not allowed/.test(data?.message || '') });
+    return data;
+  };
+
+  function askKey(message) {
+    $('view').hidden = true;
+    $('keyForm').hidden = false;
+    $('keyMsg').textContent = message || '';
+    $('keyInput').focus();
+  }
+
+  async function load() {
+    try {
+      const [list, rows, recent] = await Promise.all([
+        fetch(`/doc-links.json?v=${Date.now()}`, { cache: 'no-store' }).then(r => {
+          if (!r.ok) throw new Error(`doc-links.json HTTP ${r.status}`);
+          return r.json();
+        }),
+        rpc('get_doc_link_status', { p_secret: key }),
+        rpc('get_doc_link_runs', { p_secret: key, p_limit: 5 })
+      ]);
+      store.set('ll-admin-key', key);
+      links = list;
+      status = {};
+      rows.forEach(s => (status[s.url] = s));
+      runs = recent;
+      $('keyForm').hidden = true;
+      $('view').hidden = false;
+      render();
+    } catch (error) {
+      if (error.denied) {
+        store.del('ll-admin-key');
+        key = null;
+        askKey('관리자 키가 맞지 않습니다');
+      } else {
+        askKey(`불러오지 못했습니다 (${error.message})`);
+      }
+    }
+  }
+
+  function renderBar(message) {
+    const counts = {};
+    links.forEach(l => {
+      const p = problemOf(l.url);
+      counts[p] = (counts[p] || 0) + 1;
+    });
+    const issues = PROBLEMS.filter(([k]) => k !== 'ok');
+    const allOn = issues.every(([k]) => filters.has(k) || !counts[k]);
+    const issueTotal = issues.reduce((n, [k]) => n + (counts[k] || 0), 0);
+    $('bar').innerHTML =
+      `<b>문서 링크 ${links.length}개</b>` +
+      `<label class="lc-all"><input type="checkbox" data-filter="issues"${allOn && issueTotal ? ' checked' : ''}> 문제 있는 링크 전체 (${issueTotal})</label>` +
+      PROBLEMS.map(([k, label]) => `<label><input type="checkbox" data-filter="${k}"${filters.has(k) ? ' checked' : ''}> ${label} (${counts[k] || 0})</label>`).join('') +
+      `<button type="button" id="runBatch">문서 링크 점검 실행</button>` +
+      `<button type="button" id="forget" class="lc-quiet">키 지우기</button>` +
+      `<span class="lc-msg" id="barMsg">${esc(message || '')}</span>`;
+    $('bar').querySelectorAll('[data-filter]').forEach(box => {
+      box.onchange = () => {
+        const k = box.dataset.filter;
+        if (k === 'issues') issues.forEach(([p]) => (box.checked ? filters.add(p) : filters.delete(p)));
+        else if (box.checked) filters.add(k);
+        else filters.delete(k);
+        render();
+      };
+    });
+    $('runBatch').onclick = runBatch;
+    $('forget').onclick = () => {
+      store.del('ll-admin-key');
+      key = null;
+      askKey('키를 지웠습니다');
+    };
+    const r = runs[0];
+    $('runs').textContent = r
+      ? `마지막 점검 ${when(r.ran_at)} (${r.trigger === 'cron' ? '자동' : '수동'}) · ${r.total}개 점검, 정상 ${r.ok} · 자동 확인 불가 ${r.blocked} · 실패 ${r.failed}` +
+        (r.remaining ? ` · 시간이 모자라 ${r.remaining}개는 다음 회차로` : '') +
+        ' · 매일 03:30(한국 시간) 자동 점검. 한 번에 다 못 돌면 오래된 것부터 이어서 보고, 3시간 안에 본 링크는 건너뜁니다.'
+      : '아직 점검 기록이 없습니다. "문서 링크 점검 실행"을 누르면 첫 점검을 합니다.';
+  }
+
+  function row(l) {
+    const s = status[l.url];
+    const p = problemOf(l.url);
+    const detail = s && s.state !== 'ok' && s.detail ? `<span class="lc-detail">${esc(s.detail)}${s.method ? ` · ${esc(s.method)}` : ''}</span>` : '';
+    const docs = l.docs.map(d => `<a href="${esc(d.path)}" target="_blank" rel="noopener">${esc(d.title)} <small>${esc(d.path)}</small></a>`).join('');
+    return `<tr><td class="lc-url"><a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${esc(l.url)}</a></td>` +
+      `<td><span class="lc-chip" data-p="${p}">${LABEL[p]}</span>${detail}</td>` +
+      `<td class="lc-nowrap">${s && s.code ? s.code : ''}</td>` +
+      `<td class="lc-nowrap">${s && s.fail_streak ? `${s.fail_streak}회` : ''}</td>` +
+      `<td class="lc-nowrap">${s ? when(s.checked_at) : ''}</td>` +
+      `<td class="lc-docs">${docs}</td></tr>`;
+  }
+
+  function render(message) {
+    renderBar(message);
+    const q = $('search').value.trim().toLowerCase();
+    const shown = links
+      .filter(l => !filters.size || filters.has(problemOf(l.url)))
+      .filter(l => !q || l.url.toLowerCase().includes(q) || l.docs.some(d => (d.title + ' ' + d.path).toLowerCase().includes(q)))
+      .sort((a, b) => RANK[problemOf(a.url)] - RANK[problemOf(b.url)] || (status[b.url]?.fail_streak || 0) - (status[a.url]?.fail_streak || 0) || a.url.localeCompare(b.url));
+    $('rows').innerHTML = shown.map(row).join('');
+    $('empty').hidden = shown.length > 0;
+    $('count').textContent = `${shown.length}개 표시`;
+  }
+
+  async function runBatch() {
+    const button = $('runBatch');
+    button.disabled = true;
+    $('barMsg').textContent = '점검 중… 최대 2분 걸립니다';
+    try {
+      const res = await fetch('/api/check-doc-links', { headers: { Authorization: `Bearer ${key}` }, cache: 'no-store' });
+      if (res.status === 401) {
+        store.del('ll-admin-key');
+        key = null;
+        askKey('관리자 키가 맞지 않습니다');
+        return;
+      }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const out = await res.json();
+      await load();
+      render(out.checked
+        ? `점검 완료: ${out.checked}개 점검(${out.seconds}초), 정상 ${out.ok} · 자동 확인 불가 ${out.blocked} · 실패 ${out.failed}` +
+          (out.remaining ? ` · 남은 ${out.remaining}개는 다음 회차에` : '') + (out.recent ? ` · 3시간 안에 본 ${out.recent}개는 건너뜀` : '')
+        : `지금 점검할 링크가 없습니다. ${out.recent}개 모두 3시간 안에 점검했습니다.`);
+    } catch (error) {
+      $('barMsg').textContent = `점검하지 못했습니다 (${error.message})`;
+      button.disabled = false;
+    }
+  }
+
+  $('keyForm').addEventListener('submit', event => {
+    event.preventDefault();
+    const value = $('keyInput').value.trim();
+    if (!value) return;
+    key = value;
+    $('keyInput').value = '';
+    load();
+  });
+  $('search').addEventListener('input', () => render());
+  if (key) load();
+  else askKey();
+})();
+</script>
+</body>
+</html>

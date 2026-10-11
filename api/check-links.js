@@ -8,6 +8,8 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const BLOCKED = new Set([401, 403, 405, 406, 412, 429, 503]);
 // 서버 인증서 체인이 덜 갖춰진 경우. 브라우저는 스스로 채워 열기 때문에 깨짐으로 보지 않는다.
 const CERT_CHAIN = /UNABLE_TO_VERIFY_LEAF_SIGNATURE|UNABLE_TO_GET_ISSUER_CERT/;
+// Node만 거부하는 응답(헤더가 너무 큼, 구식 TLS 재협상). 브라우저로는 열린다.
+const NODE_ONLY = /UND_ERR_HEADERS_OVERFLOW|UNSAFE_LEGACY_RENEGOTIATION/;
 const TIMEOUT_MS = 12000;
 const CONCURRENCY = 24;
 
@@ -31,6 +33,7 @@ async function checkOne(url) {
     if (error.name === 'AbortError') return { url, state: 'timeout', detail: `${TIMEOUT_MS / 1000}초 안에 응답 없음` };
     const detail = String(error.cause?.code || error.cause?.message || error.message).slice(0, 120);
     if (CERT_CHAIN.test(detail)) return { url, state: 'blocked', detail: `인증서 체인 문제(${detail})` };
+    if (NODE_ONLY.test(detail)) return { url, state: 'blocked', detail: `점검 서버만 못 여는 응답(${detail})` };
     return { url, state: 'error', detail };
   } finally {
     clearTimeout(timer);

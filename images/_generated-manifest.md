@@ -13,6 +13,7 @@
 - `dg/forwarder-roles.webp` — Four certificate-marked panels show a booking clerk, documentation clerk, warehouse worker, and truck driver. Labels: `BOOKING`, `DOCUMENTS`, `WAREHOUSE`, `DRIVER`.
 - `dg/small-quantity.webp` — A worker records quantities beside contained drums and pails while a balance scale compares several small containers with one reference weight. Labels: `SMALL QUANTITY`, `THRESHOLD`.
 - `dg/inspection.webp` — A fire-safety inspector and warehouse manager calmly examine pictogram-marked drums stored in a clear warehouse aisle. Labels: none.
+- `dg/msds-sections.webp` — A forwarder compares a tabbed 16-section SDS and its distinct GHS and class-3 transport flame labels with an invoice and packing list at an office desk. Labels: `SDS`, `14`, `INVOICE`, `PACKING LIST`, `3`.
 - `incoterms/incoterms-hero.webp` — A factory-to-warehouse route passes trucks, a port, and a container ship behind two businesspeople shaking hands over a contract. Labels: none.
 - `incoterms/journey-stages.webp` — A fully framed seven-stage door-to-door panorama follows a continuous route from seller factory and truck loading through export customs, port crane, ocean carriage, import customs, and buyer warehouse. Labels: `SELLER`, `EXPORT`, `MAIN CARRIAGE`, `IMPORT`, `BUYER`.
 - `incoterms/any-mode-vs-sea.webp` — A multimodal group of truck, train, aircraft, and container ship is contrasted with a bulk carrier and river barge at a quay. Labels: `ANY MODE`, `SEA & INLAND WATERWAY`.

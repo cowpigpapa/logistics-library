@@ -22,6 +22,7 @@ NAV = [
     ('도구', [
         ('/airtracking', 'AWB Tracking', '항공사별 화물 추적 바로가기'),
         ('/containertracking', 'Container Tracking', '선사별 컨테이너 추적 바로가기'),
+        ('/unnumber', 'UN Number', 'UN 번호로 위험물 조회'),
     ]),
 ]
 
@@ -40,6 +41,7 @@ PAGES = {
     'charges-library.html': '/library/charges',
     'airtracking.html': '/airtracking',
     'containertracking.html': '/containertracking',
+    'unnumber.html': '/unnumber',
 }
 
 E = html.escape

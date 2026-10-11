@@ -210,12 +210,19 @@
   "functions": {
     "api/check-links.js": {
       "maxDuration": 90
+    },
+    "api/check-doc-links.js": {
+      "maxDuration": 120
     }
   },
   "crons": [
     {
       "path": "/api/check-links",
       "schedule": "0 18 * * *"
+    },
+    {
+      "path": "/api/check-doc-links",
+      "schedule": "30 18 * * *"
     }
   ]
 }

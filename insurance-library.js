@@ -4,7 +4,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-insurance';
-  const DOCS_VERSION = '20261011-01';
+  const DOCS_VERSION = '20261012-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -27,7 +27,7 @@
     { title: "Institute Cargo Clauses 2009", org: "Lloyd's Market Association", kind: "보험 약관", note: "ICC (A)(B)(C)와 전쟁·파업 약관 등 런던 시장 표준 약관을 만드는 협회입니다. 약관 공개본은 보험사 사이트에서도 볼 수 있습니다.", url: "https://www.lmalloyds.com/" },
     { title: "Incoterms® 2020", org: "ICC", kind: "국제규칙 · 유료", note: "CIF·CIP 조건의 보험 의무(A5)가 담긴 규칙입니다. 본문은 싣지 않습니다.", url: "https://iccwbo.org/business-solutions/incoterms-rules/" },
     { title: "York-Antwerp Rules 2016", org: "CMI", kind: "국제규칙", note: "공동해손 정산의 국제 표준 규칙입니다.", url: "https://comitemaritime.org/work/york-antwerp-rules/" },
-    { title: "몬트리올 협약 책임한도", org: "ICAO", kind: "국제협약", note: "2024년 12월 28일부터 적용되는 몬트리올 협약 책임한도(화물 kg당 26 SDR) 공지입니다.", url: "https://www.icao.int/sites/default/files/secretariat/legal/LEB%20Treaty%20Collection%20Documents/2024_Revised_Limits_of_Liability_Under_the_Montreal_Convention_of_1999_en.pdf" },
+    { title: "몬트리올 협약 책임 한도", org: "ICAO", kind: "국제협약", note: "2024년 12월 28일부터 적용되는 몬트리올 협약 책임 한도(화물 kg당 26 SDR) 공지입니다.", url: "https://www.icao.int/sites/default/files/secretariat/legal/LEB%20Treaty%20Collection%20Documents/2024_Revised_Limits_of_Liability_Under_the_Montreal_Convention_of_1999_en.pdf" },
     { title: "상법 제4편 보험·제5편 해상", org: "법제처 국가법령정보센터", kind: "법령", note: "보험계약·해상보험·운송인 책임제한·공동해손에 관한 한국 법 규정입니다.", url: "https://www.law.go.kr/법령/상법" },
     { title: "보험업법", org: "법제처 국가법령정보센터", kind: "법령", note: "보험 모집과 보험대리점·중개사 등록에 관한 규정입니다.", url: "https://www.law.go.kr/법령/보험업법" }
   ];
@@ -195,7 +195,8 @@
     const id = raw;
     const doc = byId(id);
     if (doc) {
-      renderDoc(view, doc);
+      // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
+      if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
       document.title = `${doc.title} · 화물보험 · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {

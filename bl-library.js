@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/bl-awb';
-  const DOCS_VERSION = '20261010-01';
+  const DOCS_VERSION = '20261012-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -24,7 +24,7 @@
   // 공식 자료(배포처 링크만).
   const OFFICIAL = [
     { title: "상법 제5편 해상(선하증권)·제6편 항공운송", org: "법제처 국가법령정보센터", kind: "법령", note: "선하증권·항공화물운송장의 기재사항과 효력, 전자선하증권 규정입니다.", url: "https://www.law.go.kr/법령/상법" },
-    { title: "몬트리올 협약(1999)", org: "ICAO", kind: "국제협약", note: "항공화물운송장의 성격, 송하인의 처분권, 화물 인도를 정한 협약입니다.", url: "https://www.icao.int/secretariat/legal/List%20of%20Parties/Mtl99_EN.pdf" },
+    { title: "몬트리올 협약(1999)", org: "ICAO", kind: "국제협약", note: "항공화물운송장의 성격, 송하인의 처분권, 화물 인도를 정한 협약입니다.", url: "https://www.icao.int/sites/default/files/secretariat/legal/List%20of%20Parties/Mtl99_EN.pdf" },
     { title: "UCP 600", org: "ICC", kind: "국제규칙 · 유료", note: "신용장 거래에서 B/L(제20조)·해상화물운송장(제21조)·항공운송서류(제23조) 요건을 정합니다. 본문은 싣지 않습니다.", url: "https://iccwbo.org/business-solutions/trade-finance/" },
     { title: "e-AWB · ONE Record", org: "IATA", kind: "공식 안내", note: "전자 항공화물운송장과 항공화물 데이터 표준 안내입니다.", url: "https://www.iata.org/en/programs/cargo/e/eawb/" },
     { title: "MLETR", org: "UNCITRAL", kind: "모델법", note: "전자 양도가능 기록(전자 B/L 등)에 관한 모델법입니다.", url: "https://uncitral.un.org/en/texts/ecommerce/modellaw/electronic_transferable_records" },
@@ -192,7 +192,8 @@
     const id = raw;
     const doc = byId(id);
     if (doc) {
-      renderDoc(view, doc);
+      // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
+      if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
       document.title = `${doc.title} · B/L·AWB · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {

@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/temperature-cargo';
-  const DOCS_VERSION = '20261011-01';
+  const DOCS_VERSION = '20261012-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -193,7 +193,8 @@
     const id = raw;
     const doc = byId(id);
     if (doc) {
-      renderDoc(view, doc);
+      // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
+      if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
       document.title = `${doc.title} · 온도유지 화물 · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {

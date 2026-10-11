@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>4장·부속서 1 책임과 정보의 흐름 — 누가 무엇을 책임지고 넘기나 · CTU Code · Logistics Library</title>
+  <meta name="description" content="CTU 운영자·송하인·적입자·화주·운송인·수하인의 기능별 책임과, 화물 명세·검증된 총중량(VGM)·위험물 정보·봉인 번호가 공급망을 따라 누구에게 넘어가는지.">
+  <link rel="canonical" href="https://logistics.onharu.app/library/ctu-code/ch4-chain">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Logistics Library">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="4장·부속서 1 책임과 정보의 흐름 — 누가 무엇을 책임지고 넘기나 · CTU Code · Logistics Library">
+  <meta property="og:description" content="CTU 운영자·송하인·적입자·화주·운송인·수하인의 기능별 책임과, 화물 명세·검증된 총중량(VGM)·위험물 정보·봉인 번호가 공급망을 따라 누구에게 넘어가는지.">
+  <meta property="og:url" content="https://logistics.onharu.app/library/ctu-code/ch4-chain">
+  <meta property="og:image" content="https://logistics.onharu.app/images/ctu/collapsed-cargo-v2.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "@id": "https://logistics.onharu.app/library/ctu-code/ch4-chain#article", "headline": "4장·부속서 1 책임과 정보의 흐름 — 누가 무엇을 책임지고 넘기나", "name": "4장·부속서 1 책임과 정보의 흐름 — 누가 무엇을 책임지고 넘기나 · CTU Code · Logistics Library", "description": "CTU 운영자·송하인·적입자·화주·운송인·수하인의 기능별 책임과, 화물 명세·검증된 총중량(VGM)·위험물 정보·봉인 번호가 공급망을 따라 누구에게 넘어가는지.", "url": "https://logistics.onharu.app/library/ctu-code/ch4-chain", "mainEntityOfPage": "https://logistics.onharu.app/library/ctu-code/ch4-chain", "inLanguage": "ko", "image": ["https://logistics.onharu.app/images/ctu/collapsed-cargo-v2.webp"], "datePublished": "2026-10-03T18:10:15+09:00", "dateModified": "2026-10-11T23:57:35+09:00", "author": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "publisher": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "isPartOf": {"@type": "CollectionPage", "@id": "https://logistics.onharu.app/library/ctu-code", "name": "CTU Code", "url": "https://logistics.onharu.app/library/ctu-code"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Logistics Library", "item": "https://logistics.onharu.app/"}, {"@type": "ListItem", "position": 2, "name": "CTU Code", "item": "https://logistics.onharu.app/library/ctu-code"}, {"@type": "ListItem", "position": 3, "name": "4장·부속서 1 책임과 정보의 흐름", "item": "https://logistics.onharu.app/library/ctu-code/ch4-chain"}]}]}</script>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+  <link rel="stylesheet" href="/styles.css?v=20261011-01">
+  <link rel="stylesheet" href="/ctu-library.css?v=20261010-01">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="Logistics Library 홈">
+    <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="7"/><path d="M5.25 6.8c2.7-.35 4.9.35 6.75 2.05 1.85-1.7 4.05-2.4 6.75-2.05v10.35c-2.55-.25-4.75.35-6.75 1.85-2-1.5-4.2-2.1-6.75-1.85V6.8Z"/><path d="M12 8.85V19M7.6 10h2.25M7.6 12.8h2.25M14.15 10h2.25M14.15 12.8h2.25"/></svg>
+    <span class="brand-wordmark"><strong>Logistics</strong><span>Library</span></span>
+  </a>
+  <nav class="main-nav" aria-label="주 메뉴">
+    <details class="nav-group is-current"><summary>규정</summary><div class="menu-list">
+      <a href="/library/ctu-code" aria-current="page">CTU Code<small>컨테이너 적재·고박 국제 규범</small></a>
+      <a href="/library/incoterms-2020">Incoterms 2020<small>무역조건별 위험·비용 분기</small></a>
+      <a href="/library/dangerous-goods">Dangerous Goods<small>위험물 운송 규정과 교육</small></a>
+      <a href="/library/eu-lithium-battery">EU Battery<small>EU 배터리 규정 번역·해설</small></a>
+    </div></details>
+    <details class="nav-group"><summary>실무</summary><div class="menu-list">
+      <a href="/library/bl-awb">B/L · AWB<small>선하증권과 항공화물운송장</small></a>
+      <a href="/library/air-uld">Air ULD<small>항공 ULD·컨투어·빌드업</small></a>
+      <a href="/library/temperature-cargo">Cold Chain<small>온도유지 화물 항공·해상</small></a>
+      <a href="/library/cargo-insurance">Cargo Insurance<small>적하보험·책임 한도·클레임</small></a>
+      <a href="/library/charges">Charges<small>부대비용·DEM/DET·보관료</small></a>
+    </div></details>
+    <details class="nav-group"><summary>도구</summary><div class="menu-list">
+      <a href="/airtracking">AWB Tracking<small>항공사별 화물 추적 바로가기</small></a>
+      <a href="/containertracking">Container Tracking<small>선사별 컨테이너 추적 바로가기</small></a>
+      <a href="/unnumber">UN Number<small>UN 번호로 위험물 조회</small></a>
+    </div></details>
+  </nav>
+</header>
+<main class="library-shell">
+  <section class="library-view" id="libraryView" data-library-standalone="true" aria-label="CTU Code 자료" data-prerendered="ch4-chain@"><nav class="lib-crumb"><a href="/library/ctu-code">← CTU Code</a></nav><article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">4장·부속서 1</span><span class="lib-level" data-level="2">★★ 알아두면 좋음</span></span><h2>4장·부속서 1 책임과 정보의 흐름 — 누가 무엇을 책임지고 넘기나</h2><p class="lib-checked">원문 대조 확인 2026-10-01</p>
+              <p>4장은 CTU 운송에 관여하는 당사자를 회사 이름이 아니라 <b>기능</b>으로 나누고, 기능마다 할 일을 정합니다. 국내법이나 당사자 사이의 계약과 별개로 기능상의 책임을 밝히는 것이 목적이며(§4.1.1), 한 회사가 여러 기능을 겸할 수 있습니다(§4.1.6). 부속서 1은 그 기능들 사이에서 CTU 한 대가 출발지에서 목적지까지 가는 동안 주고받아야 할 정보를 다룹니다. 적입을 외주로 맡길 때 업무를 나누거나, 사고 뒤 원인을 따질 때 출발점이 되는 내용입니다.</p>
+          <figure class="lib-figure"><img src="/images/ctu/supply-chain-parties.webp" alt="화주·적입자·운송인·수하인으로 이어지는 운송 사슬과 그 위로 함께 흐르는 정보" loading="lazy" decoding="async"><figcaption><span>AI 생성 도해</span> 화물이 화주에서 수하인까지 가는 동안 당사자마다 맡은 책임이 있고, 화물 정보도 함께 다음 당사자에게 넘겨야 합니다.</figcaption></figure>
+              <h3>기본 원칙 (§4.1)</h3>
+              <ul>
+              <li>운송인은 받은 상태 그대로 화물을 인도할 책임을 집니다. 그러나 운송에 안전하고 알맞은 화물을 내놓는 것은 화주의 몫입니다. 그래서 부실한 적입·고정으로 생긴 CTU의 결함은 화주 책임으로 남습니다(§4.1.2).</li>
+              <li>화주가 직접 적입하거나 화물을 준비하지 않았다면, 적입자와 송하인이 화주에 대한 의무를 다해 CTU를 운송에 안전하게 만들어야 합니다. 그러지 못하면 화주는 적입·고정·취급·보고 잘못에 대해 그들에게 책임을 물을 수 있습니다.</li>
+              <li>모든 당사자는 자기 역할 안에서 CTU에 식물·곤충·동물이 묻어 가지 않게 하고, 불법 물품·밀입국자·밀수품, 신고하지 않았거나 잘못 신고한 화물이 실리지 않게 할 의무가 있습니다(§4.1.4).</li>
+              </ul>
+              <h3>기능별 책임 (§4.2)</h3>
+              <table class="lib-table"><thead><tr><th class="lib-nowrap">기능</th><th>주요 책임</th><th class="lib-nowrap">근거</th></tr></thead><tbody>
+              <tr><td class="lib-nowrap">CTU 운영자</td><td>목적에 맞고, 국제 구조 건전성·안전 규정에 맞으며, 깨끗하고 화물 잔재물·유해 물질·식물·눈에 보이는 해충이 없는 CTU 제공</td><td class="lib-nowrap">§4.2.1</td></tr>
+              <tr><td class="lib-nowrap">송하인</td><td>총적재중량을 포함한 화물의 정확한 기술. 무게중심 편심이나 넘지 말아야 할 온도 같은 특이 조건을 적입자·화주에게 알림. 포장과 단위 화물이 정상 운송 응력을 견디고 내용물이 고정되게 함. 적입에 필요한 정보 제공. 유해가스는 적입 전에 빼냄. 위험물 분류·포장·라벨과 위험물 운송서류 작성·전달</td><td class="lib-nowrap">§4.2.2</td></tr>
+              <tr><td class="lib-nowrap">적입자</td><td>적입 전 CTU 점검. 바닥 과응력 방지, 올바른 분포와 받침, 과적 금지, 충분한 고정. 작업이 멈춘 동안 문·방수포를 닫는 등 해충 유입 방지. 닫기와 봉인(국제운송 CTU는 봉인), 봉인 정보를 화주에게 보고. 위험물 표시·표찰, 훈증 표시. 총질량을 정확히 확정해 화주에게 전달. 혼재 불가 위험물 금지, 적입 증명서 제공. 허용 적층 질량 192,000kg 미만 컨테이너 정보 전달</td><td class="lib-nowrap">§4.2.3</td></tr>
+              <tr><td class="lib-nowrap">화주</td><td>적입·고정 업무 분담을 분명히 합의해 송하인과 운송인에게 알림. 화물과 운송에 맞는 CTU, 안전하고 깨끗한 CTU 요청, 알맞은 운송 방식 선택. 서류를 받아 화물을 빠짐없이 기술하고 총질량 확정. 화물 기술과 검증된 총중량(VGM), 위험물 서류·적입 증명서, 봉인 번호, 적층 능력 감소·규격 초과 같은 특성을 운송인이 요구하는 시점까지 전달. 온도 설정값 입력, 선적 지시와 마감 시각 준수, 수하인에게 정보 전달</td><td class="lib-nowrap">§4.2.4</td></tr>
+              <tr><td class="lib-nowrap">도로 운송업자</td><td>차량 총질량·길이·폭·높이를 도로 한도 안으로. 운전자 휴식. CTU를 샤시·트레일러에 고정. 비정상 응력 없는 운행</td><td class="lib-nowrap">§4.2.5</td></tr>
+              <tr><td class="lib-nowrap">철도 운송업자</td><td>화물을 상하지 않게 취급하고 CTU를 화차에 고정</td><td class="lib-nowrap">§4.2.6</td></tr>
+              <tr><td class="lib-nowrap">복합운송 운영자</td><td>진흙·흙 제거 같은 해충 방지 조치, 부속서 2(안전한 취급) 준수</td><td class="lib-nowrap">§4.2.7</td></tr>
+              <tr><td class="lib-nowrap">운송인</td><td>합의한 온도 감시와 대응, 운송수단에 CTU 고정, 합의·규정대로 운송, 훈련된 인력</td><td class="lib-nowrap">§4.2.8</td></tr>
+              <tr><td class="lib-nowrap">수하인</td><td>적출 중 바닥 과응력 방지. 들어가기 전 환기와 공기 안전 확인. CTU 손상을 운송인에게 알림. 달리 합의가 없으면 비우고 청소해 반환하고 이전 표시·표찰 제거</td><td class="lib-nowrap">§4.2.9</td></tr>
+              </tbody></table>
+              <p>빈 CTU를 보내는 화주와 운영자는 정말 비어 있는지 확인하는 체계를 갖추고(§4.2.10), 모든 당사자는 CTU가 자기 관리 아래 있는 동안 재오염을 막아야 합니다(§4.2.11, 부속서 6).</p>
+              <h3>공급망을 따라 넘겨야 할 정보 (§4.2.12)</h3>
+              <p>모든 당사자는 운송계약에 나온 당사자들에게 아래 정보가 공급망을 따라 전달되게 해야 합니다.</p>
+              <ul>
+              <li>위험성 평가로 찾은, 여정 중 CTU 건전성을 해칠 수 있는 위험</li>
+              <li>CTU 식별 번호와 필요한 경우 봉인 번호</li>
+              <li>검증된 총중량</li>
+              <li>화물과 위험물에 대한 정확한 기술. 물품과 포장을 함께 적습니다(예: 플렉시탱크에 담은 포도주, 포장 수와 종류). 나라에 따라 HS 코드 같은 추가 요구가 있을 수 있습니다.</li>
+              <li>올바른 운송서류, 그리고 안전·보안·식물검역·수의·세관 목적에 필요한 정보</li>
+              </ul>
+              <p>총질량은 어떤 운송이든 시작 전에, 즉 CTU가 적입자의 구내를 떠나기 전에 검증해야 합니다. 도로나 철도로만 가고 차량 자중을 모르면, 적입자는 화물과 포장재·고정재의 질량만 운송인에게 알려도 됩니다(§4.2.3 각주). 해상 구간이 있으면 컨테이너 총중량을 검증해 넘겨야 합니다.</p>
+              <h3>무엇이 누구에게 가나 (부속서 1 §1~§5)</h3>
+              <p>부속서 1의 요지는 분명합니다. 화물을 안전하게 옮기려면 정보가 끊기지 않고 제때, 국제적으로 통하는 용어로 전달되어야 합니다(§1, §4). 적입자는 실은 포장화물을 빠짐없이 확인해 서류에 올리고, 실제 총질량을 정하며, 운송 구간 어디에서든 생길 수 있는 위험을 알려야 합니다(§2, §3). 역할별 책임은 4장에 있고, 부속서 1은 그 사이의 정보 흐름을 그림으로 보여 줍니다(§5).</p>
+          <figure class="lib-figure"><img src="/images/ctu/information-flow-v2.webp" alt="화주에서 운송인과 항만으로 넘어가는 총질량(VGM), 봉인 번호, 화물 정보, 위험물 서류" loading="lazy" decoding="async"><figcaption><span>AI 생성 도해</span> 총질량(VGM), 봉인 번호, 화물 정보, 위험물 서류는 화물이 움직이기 전에 다음 당사자에게 넘어가야 합니다.</figcaption></figure>
+              <table class="lib-table"><thead><tr><th>보내는 쪽 → 받는 쪽</th><th>넘기는 정보</th><th class="lib-nowrap">근거</th></tr></thead><tbody>
+              <tr><td>송하인 → 적입자·화주</td><td>화물의 정확한 명세와 전체 적재 질량, 무게중심 치우침이나 넘지 말아야 할 온도 같은 특이 조건, 적입에 필요한 정보</td><td class="lib-nowrap">§4.2.2</td></tr>
+              <tr><td>송하인 → 적입자·포워더·화주·운송인</td><td>작성·서명한 위험물 운송서류(해당하는 곳에)</td><td class="lib-nowrap">§4.2.2</td></tr>
+              <tr><td>적입자 → 화주</td><td>봉인 정보, 정확히 정한 CTU 총질량, 컨테이너/차량 적입 증명서와 그 밖의 서류, 허용 적층 질량이 192,000kg 미만인 컨테이너라는 사실</td><td class="lib-nowrap">§4.2.3</td></tr>
+              <tr><td>화주 → 송하인·운송인</td><td>적입·고정 작업을 누가 맡는지에 대한 합의 내용</td><td class="lib-nowrap">§4.2.4</td></tr>
+              <tr><td>화주 → 운송인</td><td>화물 명세, 검증된 총중량(VGM), 위험물 운송서류와 (해상이면) 적입 증명서, 봉인 번호, 적층 능력 감소·규격 초과 같은 특이 사항, 온도 설정값, 선적 지시서. 모두 운송인이 요구하는 시점까지</td><td class="lib-nowrap">§4.2.4</td></tr>
+              <tr><td>화주 → 수하인</td><td>화물과 포장화물 명세, 컨테이너라면 검증된 총중량</td><td class="lib-nowrap">§4.2.4</td></tr>
+              <tr><td>모든 당사자 → 계약상 다음 당사자</td><td>위 §4.2.12 목록의 정보</td><td class="lib-nowrap">§4.2.12</td></tr>
+              </tbody></table>
+              <h3>계약의 중심은 화주와 운송인 (부속서 1 §6~§7)</h3>
+              <p>CTU Code에서 주된 계약은 화주와 운송인 사이에 있습니다. 터미널이나 도로 운송업자도 실제로 일을 하지만, 둘 중 한쪽에 대해 책임을 지는 위치입니다(§6). 화주는 송하인에게서 화물 정보를, 적입자·혼재업자에게서 적입 정보를 받아 운송인에게 넘기는 정보 처리자 역할을 할 수 있습니다(§7). 현장에서는 한 회사가 여러 역할을 겸하는 일이 많아, 원문은 조합을 셋으로 나눕니다.</p>
+              <ul>
+              <li>화주가 적입자·혼재업자를 겸함: 송하인에게서 물품을 받아 CTU에 싣고 운송인에게 보냅니다(§7.1). 포워더의 혼재 창고가 대표적입니다.</li>
+              <li>화주가 송하인을 겸함: 물품을 만들고 직접 적입한 뒤 운송인과 계약합니다(§7.2). 공장 적입이 여기에 해당합니다.</li>
+              <li>화주가 송하인·적입자·운송인을 모두 겸함(§7.3).</li>
+              </ul>
+              <p>역할을 겸해도 넘겨야 할 정보가 사라지지는 않습니다. 같은 회사 안에서 부서가 다를 뿐이므로, 누가 무엇을 확인하고 넘기는지 내부적으로 정해 두어야 합니다.</p>
+              <h3>책임이 넘어가는 지점 (부속서 1 §8)</h3>
+              <p>화주는 운송을 준비하고 화물 보험을 들 수 있습니다. 계약에 따라 화주의 책임이 끝나는 장소나 터미널이 정해져 있고, 그 뒤로는 수하인이나 그 대리인이 화주 역할을 넘겨받아 후속 운송을 준비하고 정보 사슬을 이어 갑니다(§8, §8.2). 원문은 당시 인코텀스의 DAT(터미널 인도)를 예로 들어, 수입항에서 양하될 때까지 화주가 운송 전반을 책임지는 경우를 보여 줍니다(§8.1). DAT는 2020년판 인코텀스에서 DPU로 바뀌었으므로, 실제 계약 조건을 기준으로 책임 구간을 확인합니다.</p>
+              <h3>현장 체크포인트</h3>
+              <ul>
+              <li>적입을 맡기거나 맡을 때 고정재를 누가 대고, 누가 고정하고, 누가 계량하는지 문서로 합의합니다. 화주 책임의 첫 항목입니다.</li>
+              <li>송하인에게 받을 정보(무게, 포장 안 무게중심 치우침, 온도 한계, 위험물 여부)를 적입 전에 요청해 받아 둡니다. 적입자는 이를 스스로 알 수 없고, 정보가 없으면 적입 계획을 세울 수 없습니다.</li>
+              <li>봉인 번호, CTU 번호, VGM은 적입자가 기록해 화주에게 넘기고, 화주는 선하증권·운송장 등 모든 서류에 같은 값이 들어가게 합니다. 적입자에서 운송인까지 같은 값이 가야 합니다.</li>
+              <li>"서류가 전자화되었다"는 이유로 확인을 생략하지 않습니다. 터미널도 반입 때 서류와 CTU를 대조합니다(부속서 2 §4.1).</li>
+              <li>받는 쪽도 책임이 있습니다. 환기와 측정 뒤에 들어가고, 손상은 운송인에게 알리며, 비우고 청소해 돌려줍니다.</li>
+              </ul>
+              
+              
+      </article></section>
+</main>
+<footer class="site-footer"><div class="footer-copy"><div class="footer-brand"><strong>Logistics Library</strong></div><div class="footer-meta"><span>MADE BY JUAN.HJLEE · WITH SUPPORT FROM MARU.DEV</span><small>© 2026 ONHARU. All rights reserved.</small><a class="footer-legal" href="/privacy">개인정보처리방침</a></div></div><details class="footer-family"><summary>Family Site</summary><div class="menu-list"><a href="https://cubestow.onharu.app/" target="_blank" rel="noopener">CubeStow<small>컨테이너 적재 시뮬레이션</small></a><a href="https://diary.onharu.app/" target="_blank" rel="noopener">온하루 다이어리<small>바탕화면 달력·일기</small></a><a href="https://lottolab.onharu.app/" target="_blank" rel="noopener">LottoLab<small>로또 통계·구매 기록</small></a><a href="https://onharu.app/" target="_blank" rel="noopener">ONHARU<small>포트폴리오</small></a></div></details></footer>
+<script src="/ctu-library.js?v=20261012-01"></script>
+<script src="/site-shell.js?v=20261011-02"></script>
+</body>
+</html>

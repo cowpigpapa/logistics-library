@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261005-04';
+  const DOCS_VERSION = '20261012-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -29,7 +29,7 @@
     { title: "선박안전법 · 위험물 선박운송 및 저장규칙", org: "해양수산부", kind: "법률 · 부령", note: "해상 위험물 운송과 교육의 국내 근거. IMDG Code를 받아들입니다.", url: "https://www.law.go.kr/법령/선박안전법" },
     { title: "위험물안전관리법", org: "소방청", kind: "법률", note: "국내 저장·취급·운반의 기준. 제1류~제6류와 지정수량을 정합니다.", url: "https://www.law.go.kr/법령/위험물안전관리법" },
     { title: "화학물질관리법", org: "기후에너지환경부", kind: "법률", note: "유해화학물질의 영업허가·신고와 취급 기준, 안전교육을 정합니다.", url: "https://www.law.go.kr/법령/화학물질관리법" },
-    { title: "ICAO 위험물 안전운송 기술지침(Doc 9284)", org: "ICAO", kind: "국제 기술규칙", note: "시카고협약 부속서 18에 따른 항공 위험물 규칙. IATA DGR의 바탕입니다.", url: "https://www.icao.int/safety/DangerousGoods/Pages/technical-instructions.aspx" },
+    { title: "ICAO 위험물 안전운송 기술지침(Doc 9284)", org: "ICAO", kind: "국제 기술규칙", note: "시카고협약 부속서 18에 따른 항공 위험물 규칙. IATA DGR의 바탕입니다.", url: "https://www.icao.int/Dangerous-Goods/Technical-Instructions" },
     { title: "IMDG Code", org: "IMO", kind: "국제 기술규칙", note: "SOLAS 제VII장에 따라 의무인 해상 위험물 규칙입니다.", url: "https://www.imo.org/en/OurWork/Safety/Pages/DangerousGoods-default.aspx" },
     { title: "ADR", org: "UNECE", kind: "국제 협정", note: "유럽 중심의 도로 위험물 운송 협정. 한국은 당사국이 아닙니다.", url: "https://unece.org/transport/dangerous-goods/adr-2025-files" }
   ];
@@ -43,6 +43,7 @@
     { id: 'kr-system', tag: "법체계", level: 3, title: "국내 위험물 법체계 — 위험물안전관리법·화학물질관리법과 UN 분류의 관계", short: "국내 위험물 법체계", summary: "UN은 9개 등급 하나, 국내는 위험 종류와 부처별로 나뉜 법. 법령별 대상·행위와 UN 등급 대응표." },
     { id: 'kr-mismatch', tag: "불일치 사례", level: 3, title: "국제 규칙과 국내법이 어긋나는 사례 — 윤활유·리튬배터리 등", short: "국제·국내 불일치 사례", summary: "윤활유는 국내만, 리튬배터리는 국제만 위험물. 15개 사례와 요약표, SDS 14·15항 확인 순서." },
     { id: 'kr-small', tag: "소량 기준", level: 3, title: "소량 기준 — 지정수량 미만과 시·도 조례, 화관법의 규정수량", short: "소량 기준", summary: "지정수량 미만은 시·도 조례 적용. 배수 합산, 조례 4곳 비교, 화관법 규정수량 3단계." },
+    { id: 'dg-msds', tag: "MSDS", level: 3, title: "MSDS(SDS) 읽는 법 — 포워더가 확인하는 항목과 운송 분류와의 관계", short: "MSDS(SDS) 읽는 법", summary: "14항을 1·3·9항과 대조하는 법, GHS 분류와 운송 분류의 차이, 오래된 SDS·Non-DG 확인서 등 위험 신호와 접수 체크리스트." },
     { id: 'case-inspection', tag: "단속 사례", level: 2, title: "점검·단속 적발 사례 — 소방·특사경·국토교통부", short: "점검·단속 적발 사례", summary: "소방·특사경·국토교통부 등이 실제 적발한 18건을 유형별로 정리하고 자가 점검표를 붙였습니다." },
     { id: 'case-accident', tag: "사고 사례", level: 2, title: "위험물 사고 사례 — 신고·분류·교육의 실패", short: "위험물 사고 사례", summary: "국내외 위험물 사고 19건을 조사보고서와 보도로 확인해 신고·분류·교육 실패 관점에서 정리." },
     { id: 'case-litigation', tag: "판결 사례", level: 2, title: "위험물 소송·판결 사례 — 화주·포워더·운송인 중 누가 책임졌나", short: "소송·판결 사례", summary: "국내외 위험물 판결 사례 17항목의 쟁점과 결론. 포워더가 선적자로 책임지는 구조." }
@@ -58,7 +59,7 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "위험물 교육", sub: "국제운송 · 규칙과 조약, 한국의 교육 의무", docs: ["dg-rules", "dg-treaties", "dg-kr-duty", "dg-forwarder", "dg-penalty"] },
-    { title: "국내법상 위험물", sub: "법체계 · 국제 규칙과의 차이 · 소량 기준", docs: ["kr-system", "kr-mismatch", "kr-small"] },
+    { title: "국내법상 위험물", sub: "법체계 · 국제 규칙과의 차이 · 소량 기준 · MSDS", docs: ["kr-system", "kr-mismatch", "kr-small", "dg-msds"] },
     { title: "사례", sub: "단속 · 사고 · 판결, 사례마다 출처", docs: ["case-inspection", "case-accident", "case-litigation"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
@@ -68,6 +69,7 @@
     { name: "교육을 안 받으면 어떻게 되나요", ids: ["dg-penalty", "case-litigation"] },
     { name: "수출 서류로는 위험물이 아닌데 창고에서는요", ids: ["kr-mismatch", "kr-system"] },
     { name: "소량이면 괜찮은가요", ids: ["kr-small", "case-inspection"] },
+    { name: "화주가 준 MSDS, 어디를 봐야 하나요", ids: ["dg-msds", "kr-mismatch"] },
     { name: "실제로 어떤 일이 있었나요", ids: ["case-accident", "case-inspection", "case-litigation"] }
   ];
   const stagePath = () =>
@@ -199,7 +201,8 @@
     const id = routed ? location.pathname.split('/')[3] : new URLSearchParams(location.search).get('doc');
     const doc = byId(id);
     if (doc) {
-      renderDoc(view, doc);
+      // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
+      if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
       document.title = `${doc.title} · Dangerous Goods · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {
