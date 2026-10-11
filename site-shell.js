@@ -27,6 +27,24 @@
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') document.querySelectorAll('.nav-group[open]').forEach(menu => (menu.open = false));
   });
+  // 마우스가 있는 화면에서는 올리면 열고 벗어나면 닫는다(터치 화면은 지금처럼 눌러서 연다).
+  if (window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.nav-group').forEach(group => {
+      let timer = null;
+      group.addEventListener('mouseenter', () => {
+        clearTimeout(timer);
+        group.open = true;
+      });
+      // 제목에서 목록으로 내려가는 사이에 닫히지 않게 잠깐 기다린다.
+      group.addEventListener('mouseleave', () => {
+        timer = setTimeout(() => (group.open = false), 180);
+      });
+      // 호버로 이미 열린 상태에서 제목을 눌러도 닫히지 않게 한다.
+      group.querySelector('summary').addEventListener('click', event => {
+        if (group.open) event.preventDefault();
+      });
+    });
+  }
 
   // ONHARU 방문 기록(방문자 DB). ?owner=1로 한 번 들른 브라우저는 빠지고(?owner=0으로 해제),
   // IP는 서버에서 읽어 30일 뒤 지운다. 화면에 방문자 수는 표시하지 않는다.
