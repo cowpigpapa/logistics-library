@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>용어 검수표 · Logistics Library</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+  <style>
+/* 레이아웃: 위에 진행 현황과 필터, 아래로 바뀐 용어 한 줄씩(전 → 후, 판정 버튼, 메모). 문서 검수 대장처럼 촘촘하게. */
+:root {
+  --bg: #f5f7fa; --surface: #ffffff; --ink: #14233a; --muted: #5b6b80; --line: #dde3eb;
+  --accent: #1f5fae; --accent-soft: #e6eef9;
+  --keep: #1d7a4a; --keep-soft: #e3f3ea; --revert: #b3261e; --revert-soft: #fbe7e5; --other: #9a5b00; --other-soft: #fdf0dc;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1621; --surface: #172131; --ink: #e6ecf4; --muted: #9aa8bb; --line: #2a3648;
+  --accent: #7fb0f0; --accent-soft: #1d2d45;
+  --keep: #6fcf97; --keep-soft: #16301f; --revert: #f28b82; --revert-soft: #3a1c1a; --other: #f2b45a; --other-soft: #352611; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f1621; --surface: #172131; --ink: #e6ecf4; --muted: #9aa8bb; --line: #2a3648;
+  --accent: #7fb0f0; --accent-soft: #1d2d45;
+  --keep: #6fcf97; --keep-soft: #16301f; --revert: #f28b82; --revert-soft: #3a1c1a; --other: #f2b45a; --other-soft: #352611; color-scheme: dark }
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55; padding-inline: 16px; padding-block: 24px 64px }
+.wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 18px }
+h1 { font-size: 24px; margin: 0; text-wrap: balance }
+.lead { margin: 4px 0 0; color: var(--muted); max-width: 70ch }
+.stats { display: flex; flex-wrap: wrap; gap: 8px }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; min-width: 96px }
+.stat b { display: block; font-size: 20px; font-variant-numeric: tabular-nums }
+.stat span { font-size: 12px; color: var(--muted); letter-spacing: .02em }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 8px; display: grid; gap: 8px; border-bottom: 1px solid var(--line) }
+.tabs, .filters { display: flex; flex-wrap: wrap; gap: 6px; align-items: center }
+.tab { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 13px; cursor: pointer }
+.tab[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface) }
+.tab small { opacity: .75; margin-left: 4px; font-variant-numeric: tabular-nums }
+input[type=search], select { font: inherit; font-size: 14px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); min-width: 0 }
+input[type=search] { flex: 1 1 220px }
+label.chk { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted) }
+.list { display: grid; gap: 8px }
+.row { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 8px }
+.row[data-v="keep"] { border-left-color: var(--keep) }
+.row[data-v="revert"] { border-left-color: var(--revert) }
+.row[data-v="other"] { border-left-color: var(--other) }
+.head { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; justify-content: space-between }
+.pair { font-size: 16px; font-weight: 600; min-width: 0; overflow-wrap: anywhere }
+.pair .from { color: var(--revert); text-decoration: line-through; text-decoration-thickness: 1px; font-weight: 500 }
+.pair .arrow { color: var(--muted); margin: 0 6px }
+.pair .to { color: var(--keep) }
+.meta { font-size: 12px; color: var(--muted); display: flex; gap: 10px; flex-wrap: wrap }
+.meta .id { font-family: var(--font-mono) }
+.note { font-size: 13px; color: var(--muted) }
+details.ex { font-size: 13px; color: var(--muted) }
+details.ex summary { cursor: pointer; width: fit-content }
+details.ex p { margin: 6px 0 0; overflow-wrap: anywhere }
+details.ex .b { color: var(--revert) } details.ex .a { color: var(--keep) }
+.ctl { display: flex; flex-wrap: wrap; gap: 6px; align-items: center }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden }
+.seg button { font: inherit; font-size: 13px; padding: 6px 12px; border: 0; background: var(--surface); color: var(--ink); cursor: pointer; border-right: 1px solid var(--line) }
+.seg button:last-child { border-right: 0 }
+.seg button[aria-pressed="true"][data-v="keep"] { background: var(--keep-soft); color: var(--keep); font-weight: 600 }
+.seg button[aria-pressed="true"][data-v="revert"] { background: var(--revert-soft); color: var(--revert); font-weight: 600 }
+.seg button[aria-pressed="true"][data-v="other"] { background: var(--other-soft); color: var(--other); font-weight: 600 }
+.ctl input[type=text] { font: inherit; font-size: 14px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); flex: 1 1 200px; min-width: 0 }
+.saved { font-size: 12px; color: var(--muted); min-width: 52px }
+button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 8px; padding: 28px; text-align: center; color: var(--muted) }
+.status { font-size: 13px; color: var(--muted) }
+.more { justify-self: center; font: inherit; padding: 8px 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); cursor: pointer }
+.keyform { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px }
+.keyform input { font: inherit; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); flex: 1 1 220px; min-width: 0 }
+.keyform button, .logout { font: inherit; font-size: 14px; padding: 7px 14px; border: 1px solid var(--accent); border-radius: 8px; background: var(--accent); color: var(--surface); cursor: pointer }
+.logout { background: transparent; color: var(--accent); font-size: 12px; padding: 4px 10px; margin-left: 6px }
+.home { font-size: 13px; color: var(--accent); text-decoration: none }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="home" href="/">← Logistics Library</a>
+    <h1>Logistics Library 용어 검수표</h1>
+    <p class="lead">10월 11~12일 밤에 바꾼 용어 전체입니다. 줄마다 <b>좋음</b>(그대로 둠), <b>되돌리기</b>(원래 말로), <b>다른 말로</b>(칸에 맞는 말 입력) 중 하나를 누르면 바로 저장됩니다. 메모는 칸을 벗어나면 저장됩니다. 다 고르시면 Claude에게 "검수표 반영해"라고만 말씀하세요. 이 페이지는 관리자 키가 있어야 열리고 검색엔진에 노출되지 않습니다.</p>
+  </header>
+
+  <form class="keyform" id="keyform" hidden>
+    <label for="key">관리자 키</label>
+    <input type="password" id="key" autocomplete="current-password" placeholder="링크 점검과 같은 관리자 키">
+    <button type="submit">열기</button>
+    <span class="status" id="keymsg"></span>
+  </form>
+  <section class="stats" id="stats" aria-label="진행 현황"></section>
+
+  <div class="bar">
+    <div class="tabs" id="tabs" role="group" aria-label="묶음"></div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="용어 검색 (예: 부킹, 젠셋, 씰)" aria-label="용어 검색">
+      <select id="cat" aria-label="카테고리"><option value="">모든 카테고리</option></select>
+      <label class="chk"><input type="checkbox" id="todo"> 아직 안 고른 것만</label>
+    </div>
+    <div class="status" id="status">목록을 불러오는 중입니다.</div>
+  </div>
+
+  <section class="list" id="list" aria-live="polite"></section>
+  <button class="more" id="more" hidden>더 보기</button>
+</div>
+
+<script>
+(() => {
+  // 관리자 전용 용어 검수표. 링크 점검과 같은 관리자 키로 Supabase RPC(get_term_review / save_term_review)를 부른다.
+  const RPC = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/';
+  const API_KEY = 'sb_publishable_vgcDAWoOJRD8Xvp2p4Ew9A_exTmzuXM';
+  const GROUPS = ['운영자 결정', '1차 문구 통일', '2차 실무 용어', '결정 필요'];
+  const PAGE = 60;
+  const store = {
+    get: k => { try { return localStorage.getItem(k); } catch (_) { return null; } },
+    set: (k, v) => { try { localStorage.setItem(k, v); } catch (_) {} },
+    del: k => { try { localStorage.removeItem(k); } catch (_) {} }
+  };
+  let key = store.get('ll-admin-key'), rows = [], group = '2차 실무 용어', shown = PAGE;
+  const $ = id => document.getElementById(id);
+  const pending = new Map();   // id -> 저장 중인 Promise (한 줄에 한 번에 한 저장)
+
+  function esc(s) { const d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
+  async function rpc(name, body) {
+    const res = await fetch(RPC + name, { method: 'POST', headers: { apikey: API_KEY, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    const data = await res.json().catch(() => null);
+    if (!res.ok) throw new Error((data && data.message) || ('HTTP ' + res.status));
+    return data;
+  }
+
+  function filtered() {
+    const q = $('q').value.trim().toLowerCase(), cat = $('cat').value, todo = $('todo').checked;
+    return rows.filter(r => r.group === group
+      && (!cat || (r.cats || '').includes(cat))
+      && (!todo || !r.verdict)
+      && (!q || [r.from, r.to, r.ex_from, r.ex_to, r.note, r.memo, r.alt].join(' ').toLowerCase().includes(q)));
+  }
+  function renderStats() {
+    const c = { all: rows.length, keep: 0, revert: 0, other: 0 };
+    rows.forEach(r => { if (c[r.verdict] !== undefined) c[r.verdict]++; });
+    const done = c.keep + c.revert + c.other;
+    $('stats').innerHTML = [['전체', c.all], ['고름', done], ['좋음', c.keep], ['되돌리기', c.revert], ['다른 말로', c.other], ['남음', c.all - done]]
+      .map(([k, v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`).join('');
+    $('tabs').innerHTML = GROUPS.map(g => {
+      const list = rows.filter(r => r.group === g), left = list.filter(r => !r.verdict).length;
+      return `<button class="tab" data-g="${esc(g)}" aria-pressed="${g === group}">${esc(g)}<small>${left}/${list.length}</small></button>`;
+    }).join('');
+  }
+  function rowHtml(r) {
+    const pend = r.group === '결정 필요';
+    const pair = pend ? `<span>${esc(r.from)}</span>`
+      : `<span class="from">${esc(r.from)}</span><span class="arrow">→</span><span class="to">${esc(r.to)}</span>`;
+    const ex = (r.ex_from && !pend) ? `<details class="ex"><summary>문장에서 보기</summary><p class="b">전: ${esc(r.ex_from)}</p><p class="a">후: ${esc(r.ex_to)}</p></details>` : '';
+    const labels = pend ? [['keep', '지금대로'], ['other', '이걸로 통일']] : [['keep', '좋음'], ['revert', '되돌리기'], ['other', '다른 말로']];
+    return `<article class="row" data-id="${r.id}" data-v="${esc(r.verdict || '')}">
+      <div class="head"><div class="pair">${pair}</div>
+        <div class="meta"><span class="id">${r.id}</span>${r.count ? `<span>${r.count}곳</span>` : ''}${r.cats ? `<span>${esc(r.cats)}</span>` : ''}</div></div>
+      ${r.note ? `<div class="note">${esc(r.note)}</div>` : ''}
+      ${ex}
+      <div class="ctl">
+        <div class="seg" role="group" aria-label="판정">${labels.map(([v, t]) => `<button type="button" data-v="${v}" aria-pressed="${r.verdict === v}">${t}</button>`).join('')}</div>
+        <input type="text" id="alt-${r.id}" data-f="alt" value="${esc(r.alt || '')}" placeholder="${pend ? '통일할 말' : '바꿀 말'}" aria-label="바꿀 말" ${r.verdict === 'other' ? '' : 'hidden'}>
+        <input type="text" id="memo-${r.id}" data-f="memo" value="${esc(r.memo || '')}" placeholder="메모 (선택)" aria-label="메모">
+        <span class="saved" id="sv-${r.id}">${r.updated_at ? '저장됨' : ''}</span>
+      </div>
+    </article>`;
+  }
+  function render() {
+    renderStats();
+    const list = filtered();
+    $('list').innerHTML = list.length ? list.slice(0, shown).map(rowHtml).join('') : `<div class="empty">조건에 맞는 용어가 없습니다.</div>`;
+    $('more').hidden = list.length <= shown;
+  }
+
+  function save(id) {
+    const r = rows.find(x => x.id === id); if (!r) return;
+    const sv = $('sv-' + id); if (sv) sv.textContent = '저장 중';
+    const prev = pending.get(id) || Promise.resolve();
+    const next = prev.then(() => rpc('save_term_review', { p_secret: key, p_id: id, p_verdict: r.verdict || '', p_alt: r.alt || '', p_memo: r.memo || '' }))
+      .then(t => { r.updated_at = t; const s = $('sv-' + id); if (s) s.textContent = '저장됨'; })
+      .catch(e => { const s = $('sv-' + id); if (s) s.textContent = '저장 실패'; $('status').textContent = '저장하지 못했습니다: ' + e.message; });
+    pending.set(id, next);
+  }
+
+  $('tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (!b) return; group = b.dataset.g; shown = PAGE; render(); });
+  ['q', 'cat', 'todo'].forEach(id => $(id).addEventListener('input', () => { shown = PAGE; render(); }));
+  $('more').addEventListener('click', () => { shown += PAGE; render(); });
+  $('list').addEventListener('click', e => {
+    const b = e.target.closest('.seg button'); if (!b) return;
+    const art = b.closest('.row'), id = art.dataset.id, r = rows.find(x => x.id === id);
+    r.verdict = r.verdict === b.dataset.v ? '' : b.dataset.v;   // 같은 버튼을 다시 누르면 선택 해제
+    art.dataset.v = r.verdict;
+    art.querySelectorAll('.seg button').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.v === r.verdict)));
+    const alt = art.querySelector('[data-f="alt"]'); alt.hidden = r.verdict !== 'other'; if (r.verdict === 'other') alt.focus();
+    save(id); renderStats();
+  });
+  $('list').addEventListener('change', e => {
+    const inp = e.target.closest('input[data-f]'); if (!inp) return;
+    const id = inp.closest('.row').dataset.id, r = rows.find(x => x.id === id);
+    if ((r[inp.dataset.f] || '') !== inp.value) { r[inp.dataset.f] = inp.value; save(id); }
+  });
+
+  async function load() {
+    $('status').textContent = '목록을 불러오는 중입니다.';
+    try {
+      const data = await rpc('get_term_review', { p_secret: key });
+      rows = data.map(d => ({ id: d.id, group: d.grp, from: d.frm, to: d.dst, count: d.count, cats: d.cats, ex_from: d.ex_from, ex_to: d.ex_to,
+        note: d.note, verdict: d.verdict, alt: d.alt, memo: d.memo, updated_at: d.updated_at }))
+        .sort((a, b) => GROUPS.indexOf(a.group) - GROUPS.indexOf(b.group) || (a.id < b.id ? -1 : 1));
+      store.set('ll-admin-key', key);
+      $('keyform').hidden = true;
+      const cats = [...new Set(rows.flatMap(r => (r.cats || '').split(' · ').filter(Boolean)))].sort();
+      $('cat').innerHTML = '<option value="">모든 카테고리</option>' + cats.map(c => `<option>${esc(c)}</option>`).join('');
+      $('status').innerHTML = `${rows.length}개 항목 · 고르면 바로 저장됩니다.<button type="button" class="logout" id="logout">키 지우기</button>`;
+      $('logout').onclick = () => { store.del('ll-admin-key'); location.reload(); };
+      render();
+    } catch (e) {
+      store.del('ll-admin-key'); key = null;
+      $('keyform').hidden = false;
+      $('keymsg').textContent = /not allowed/.test(e.message) ? '키가 맞지 않습니다.' : '불러오지 못했습니다: ' + e.message;
+      $('status').textContent = '관리자 키를 넣으면 목록이 열립니다.';
+    }
+  }
+  $('keyform').addEventListener('submit', e => { e.preventDefault(); key = $('key').value.trim(); if (key) load(); });
+  if (key) load();
+  else {
+    $('keyform').hidden = false;
+    $('status').textContent = '관리자 키를 넣으면 목록이 열립니다.';
+    $('list').innerHTML = '<div class="empty">관리자 키를 넣으면 바뀐 용어 327개가 줄마다 나타납니다.</div>';
+  }
+})();
+
+</script>
+</body>
+</html>
