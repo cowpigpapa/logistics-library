@@ -9,10 +9,23 @@
 })();
 
 (function () {
+  // 열린 드롭다운(상단 메뉴·패밀리 사이트)은 바깥을 누르면 닫는다.
   document.addEventListener('click', event => {
-    document.querySelectorAll('.footer-family[open]').forEach(menu => {
+    document.querySelectorAll('.footer-family[open], .nav-group[open]').forEach(menu => {
       if (!menu.contains(event.target)) menu.open = false;
     });
+  });
+  // 상단 메뉴는 한 번에 하나만 연다.
+  document.querySelectorAll('.nav-group').forEach(group => {
+    group.addEventListener('toggle', () => {
+      if (!group.open) return;
+      document.querySelectorAll('.nav-group[open]').forEach(other => {
+        if (other !== group) other.open = false;
+      });
+    });
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') document.querySelectorAll('.nav-group[open]').forEach(menu => (menu.open = false));
   });
 
   // ONHARU 방문 기록(방문자 DB). ?owner=1로 한 번 들른 브라우저는 빠지고(?owner=0으로 해제),

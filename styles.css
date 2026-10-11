@@ -490,3 +490,52 @@ main {
 .legal-main table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 14px; }
 .legal-main th, .legal-main td { padding: 9px 10px; border: 1px solid #d5dee8; text-align: left; vertical-align: top; }
 .legal-main th { background: #eef3f8; }
+
+/* 상단 메뉴: 규정·실무·도구 드롭다운 (tools/menu.py가 모든 페이지에 넣는다) */
+.topbar .main-nav {
+  gap: 26px;
+  overflow: visible;
+}
+.topbar .main-nav summary {
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.topbar .main-nav .nav-group.is-current > summary {
+  background: var(--blue-soft);
+  color: var(--blue-deep);
+}
+.topbar .main-nav .menu-list {
+  min-width: 250px;
+  z-index: 30;
+}
+.topbar .main-nav .menu-list a {
+  color: var(--ink);
+  font-size: 13.5px;
+  font-weight: 700;
+}
+.topbar .main-nav .menu-list a small {
+  color: var(--muted);
+  font-size: 11.5px;
+  font-weight: 500;
+}
+.topbar .main-nav .menu-list a[aria-current='page'] {
+  background: var(--blue-soft);
+  color: var(--blue-deep);
+}
+@media (max-width: 520px) {
+  .topbar .main-nav {
+    gap: 4px;
+    overflow: visible;
+  }
+  .topbar .main-nav summary {
+    padding: 6px 8px;
+  }
+  .topbar .main-nav .menu-list {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    top: 50px;
+    min-width: 0;
+  }
+}
