@@ -7,3 +7,4 @@ images/_generated-manifest.md
 supabase/
 tools/
 translate/
+CLAUDE_HANDOFF_*.md

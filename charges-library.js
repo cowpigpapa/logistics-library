@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/charges';
-  const DOCS_VERSION = '20261012-01';
+  const DOCS_VERSION = '20261012-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -25,18 +25,18 @@
   const OFFICIAL = [
     { title: "해운법 제28조·제31조", org: "법제처 국가법령정보센터", kind: "법령", note: "외항 정기화물운송사업자의 운임·요금 공표 의무입니다.", url: "https://www.law.go.kr/법령/해운법" },
     { title: "외항운송사업자 운임 및 요금의 공표등에 관한 규정", org: "해양수산부", kind: "고시", note: "공표할 요금 항목과 공표 방법을 정합니다.", url: "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000225094" },
-    { title: "FIATA D&D Best Practice Guide(2018)", org: "FIATA", kind: "업계 지침", note: "체화료·지체료·통합 요금의 정의를 정리한 발표 자료입니다.", url: "https://fiata.cdn.prismic.io/fiata/a48563de-3aaf-455b-ac6d-e87635ef7a6c_FIATA_World_Congress_2018_-_Presentation_New_Working_Group_Sea_-Best_Practice_Guide_on_demurrage_and_detention-.pdf" },
-    { title: "46 CFR Part 541", org: "U.S. FMC · eCFR", kind: "미국 규정", note: "미국 체화료·지체료 청구서 요건입니다.", url: "https://www.ecfr.gov/current/title-46/chapter-IV/subchapter-B/part-541" },
+    { title: "FIATA D&D Best Practice Guide(2018)", org: "FIATA", kind: "업계 지침", note: "Demurrage·Detention·통합 요금의 정의를 정리한 발표 자료입니다.", url: "https://fiata.cdn.prismic.io/fiata/a48563de-3aaf-455b-ac6d-e87635ef7a6c_FIATA_World_Congress_2018_-_Presentation_New_Working_Group_Sea_-Best_Practice_Guide_on_demurrage_and_detention-.pdf" },
+    { title: "46 CFR Part 541", org: "U.S. FMC · eCFR", kind: "미국 규정", note: "미국 Demurrage·Detention 청구서 요건입니다.", url: "https://www.ecfr.gov/current/title-46/chapter-IV/subchapter-B/part-541" },
     { title: "PNC 2026 Standard Tariff", org: "부산신항만(PNC)", kind: "터미널 요율표", note: "수입 경과보관료 구간 요율이 실려 있습니다.", url: "https://www.pncport.com/resources/homepage/kor/data/2026_PNC_Standard_Tariff.pdf" },
     { title: "관세법 제172조", org: "법제처 국가법령정보센터", kind: "법령", note: "지정장치장 보관료의 근거 조문입니다.", url: "https://www.law.go.kr/법령/관세법/제172조" }
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
     { id: 'ch-sea-charges', tag: "해상부대비용", level: 3, title: "해상 부대비용 지도 — 누가 받는 돈인가, 같은 이름이 선사·나라마다 다른 이유, 해운법 공표 제도", short: "해상 부대비용 지도", summary: "THC·서류비·D/O 비용·씰비·부두사용료(화물입출항료)·항만시설보안료·BAF·LSS·EBS·EIS·CFS 작업료·청소·수리비를 선사·항만공사·터미널·포워더 중 누가 받는지로 정리하고, Maersk·ONE·Hapag-Lloyd·장금상선의 2026년 한국 요율표로 부두사용료가 THC에 포함되거나 따로 붙는 차이(부산 4,429원/TEU), 2026년 7월 보안료 상한 145원/TEU, 공정위 의결의 THC 정의와 항만운송사업법상 하역료 구분, 미국·중국·일본·싱가포르의 다른 이름과 범위, 해운법 제28조·제31조와 해양수산부 운임공표 고시(요금 항목, ±10% 범위, PORT-MIS 공표), 포워더 견적에서 빠뜨리기 쉬운 항목을 다룹니다." },
-    { id: 'ch-dnd', tag: "DEM·DET", level: 3, title: "DEM·DET 제대로 읽기 — 같은 이름, 다른 시계와 계산법", short: "DEM·DET 제대로 읽기", summary: "체화료·지체료·통합 D&D·터미널 보관료를 FIATA 정의로 구분하고, Maersk·Hapag-Lloyd·ONE의 한국·미국·독일·중국 요율표(2026년 10월 확인)를 나란히 놓아 통합/분리, 달력일/영업일, 시계 시작·종료, 보관료 포함 여부, 구간 요율, 수입·수출과 COC·SOC 차이를 보여 줍니다. 요율표 읽는 6가지 질문, 미국 FMC 규정(46 CFR 545.5, Part 541 청구서 30일 규칙, 2025년 §541.4 무효·삭제, 2026년 Charge Complaint 규칙), 포워더 체크리스트를 정리합니다." },
+    { id: 'ch-dnd', tag: "DEM·DET", level: 3, title: "DEM·DET 제대로 읽기 — 같은 이름, 다른 시계와 계산법", short: "DEM·DET 제대로 읽기", summary: "Demurrage·Detention·통합 D&D·터미널 보관료를 FIATA 정의로 구분하고, Maersk·Hapag-Lloyd·ONE의 한국·미국·독일·중국 요율표(2026년 10월 확인)를 나란히 놓아 통합/분리, 달력일/영업일, 시계 시작·종료, 보관료 포함 여부, 구간 요율, 수입·수출과 COC·SOC 차이를 보여 줍니다. 요율표 읽는 6가지 질문, 미국 FMC 규정(46 CFR 545.5, Part 541 청구서 30일 규칙, 2025년 §541.4 무효·삭제, 2026년 Charge Complaint 규칙), 포워더 체크리스트를 정리합니다." },
     { id: 'ch-korea-storage', tag: "한국보관료", level: 3, title: "한국 해상: 시계가 두 개 — 터미널 경과보관료와 선사 D&D가 따로 쌓이는 구조, PNC 2026 계산 예시", short: "한국 해상: 시계가 두 개", summary: "2023년부터 PNC·HJIT·GWCT·BNCT의 수입 경과보관료를 터미널이 수입자에게 직접 청구한다는 선사 공지와 그 결과 따로 도는 두 시계(양하일~반출일 보관료, 양하일~빈 컨테이너 반납일 선사 통합 D&D), PNC 2026 요율표의 '최고 구간 요율을 전 기간에' 규칙과 15일 = 500,500원·14일 = 318,500원 계산, 오전 8시 양하 기준, BNCT 일괄 적용 공지와 HJNC 2026 요율 비교, 두 시계를 합친 계산 예시, D/O 조건과 반출·반납 일정 관리, 화주 안내 문구, 포워더 체크리스트." },
     { id: 'ch-air-storage', tag: "항공보관료", level: 3, title: "인천공항 보관료: 종가료·종량료 — 두 요금을 더하는 구조, 무료 시간과 자정 규칙, 고가 특수화물 계산", short: "인천공항 보관료: 종가료·종량료", summary: "인천공항 수입화물 보관료가 종가액(과세가격 + 관세 기준)과 종량액(중량 기준)을 합산하는 구조와 '기본요율 + 할증요율 × 보관일수' 계산법, 대한항공 화물터미널·아시아나에어포트(AAP) C터미널·스위스포트코리아의 공개 요율과 최저 금액, 특수·귀중화물 50% 할증과 터미널별로 다른 무료 시간(12시간·24시간·없음), 공개 계산기로 확인한 보관일수 계산(무료 시간 미만 기준, 날짜 차이 최소 1일, 10일 계단), 10억 원·500kg 특수화물을 13시간에 출고한 사례(보관료 2,406,750원 중 약 98%가 종가, THC 81,555원 별도), 같은 청구서의 THC·특송 심야 할증·보류화물 기준, 보세창고 고시 제16조와 관세법 제172조, 하루 치를 피하는 포워더 체크리스트를 2026년 10월 11일 확인 기준으로 정리합니다." },
-    { id: 'ch-cases', tag: "사례", level: 3, title: "부대비용·보관료 분쟁 사례 — 누가, 언제까지, 얼마나 내는가", short: "부대비용·보관료 분쟁 사례", summary: "포워더 명의 예약과 선사 컨테이너 요금 책임(대법원 2020다280685), 화물을 받지 않은 수하인의 체화료 의무, 부두 체화료 납부 의무자, 대납 비용과 상법 제814조 1년 제척기간, 수입자 회생 때 운송인의 유치권, 창고 보관료와 상사유치권 등 한국 판결 6건과 반납 예약 부족·merchant 조항·항만 폐쇄일 지체료에 관한 미국 FMC 사건 3건, 버려진 컨테이너 체화료의 한계를 다룬 영국 MSC v Cottonex를 사실관계, 쟁점, 결론, 실무 교훈으로 정리합니다." }
+    { id: 'ch-cases', tag: "사례", level: 3, title: "부대비용·보관료 분쟁 사례 — 누가, 언제까지, 얼마나 내는가", short: "부대비용·보관료 분쟁 사례", summary: "포워더 명의 예약과 선사 컨테이너 요금 책임(대법원 2020다280685), 화물을 받지 않은 수하인의 Demurrage 의무, 부두 Demurrage 납부 의무자, 대납 비용과 상법 제814조 1년 제척기간, 수입자 회생 때 운송인의 유치권, 창고 보관료와 상사유치권 등 한국 판결 6건과 반납 예약 부족·merchant 조항·항만 폐쇄일 Detention에 관한 미국 FMC 사건 3건, 버려진 컨테이너 Demurrage의 한계를 다룬 영국 MSC v Cottonex를 사실관계, 쟁점, 결론, 실무 교훈으로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -56,9 +56,9 @@
   const STAGES = [
     { name: "THC와 부두사용료는 누가 받는 돈인가요", ids: ["ch-sea-charges", "ch-korea-storage"] },
     { name: "DEM과 DET는 어떻게 다른가요", ids: ["ch-dnd", "ch-korea-storage"] },
-    { name: "부산에서 보관료와 체화료가 따로 나왔어요", ids: ["ch-korea-storage", "ch-dnd"] },
+    { name: "부산에서 보관료와 Demurrage가 따로 나왔어요", ids: ["ch-korea-storage", "ch-dnd"] },
     { name: "공항에서 몇 시간 늦었는데 보관료가 크게 나왔어요", ids: ["ch-air-storage"] },
-    { name: "지체료는 누가 내야 하나요", ids: ["ch-cases", "ch-dnd"] }
+    { name: "Detention은 누가 내야 하나요", ids: ["ch-cases", "ch-dnd"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -79,7 +79,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>같은 이름의 비용, 선사·터미널·나라마다 계산이 다르다</h2><p>THC, 부두사용료, 체화료(DEM)·지체료(DET), 터미널 보관료, 공항 보관료는 이름이 같아도 누가 받는지, 언제부터 세는지, 어떤 요율을 곱하는지가 회사와 나라마다 다릅니다. 실제 공개 요율표로 계산 방식을 보여 주고, 화주에게 설명할 때와 견적·일정을 잡을 때 확인할 것, 실제 분쟁 사례를 포워더 실무 관점에서 정리했습니다.</p><a class="lib-summary-button" href="${link('ch-sea-charges')}">부대비용 지도부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('해운법과 해양수산부 고시, 미국 FMC 규정, 선사·터미널·공항 화물터미널의 공개 요율표, 법원 판결과 FMC 결정문을 바탕으로 정리했습니다. 요율은 확인한 날짜를 함께 적었고 자주 바뀝니다. 요율표 전체는 옮기지 않고 계산에 필요한 값만 인용했습니다. 회사 이름은 비교를 위한 예시입니다. 해설은 AI가 작성했으며 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>같은 이름의 비용, 선사·터미널·나라마다 계산이 다르다</h2><p>THC, 부두사용료, Demurrage·Detention, 터미널 보관료, 공항 보관료는 이름이 같아도 누가 받는지, 언제부터 세는지, 어떤 요율을 곱하는지가 회사와 나라마다 다릅니다. 실제 공개 요율표로 계산 방식을 보여 주고, 화주에게 설명할 때와 견적·일정을 잡을 때 확인할 것, 실제 분쟁 사례를 포워더 실무 관점에서 정리했습니다.</p><a class="lib-summary-button" href="${link('ch-sea-charges')}">부대비용 지도부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('해운법과 해양수산부 고시, 미국 FMC 규정, 선사·터미널·공항 화물터미널의 공개 요율표, 법원 판결과 FMC 결정문을 바탕으로 정리했습니다. 요율은 확인한 날짜를 함께 적었고 자주 바뀝니다. 요율표 전체는 옮기지 않고 계산에 필요한 값만 인용했습니다. 회사 이름은 비교를 위한 예시입니다. 해설은 AI가 작성했으며 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;
