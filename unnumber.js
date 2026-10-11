@@ -122,7 +122,8 @@
   // ---------------------------------------------------------------- 검색
   function search(raw) {
     const q = String(raw || '').trim();
-    if (!q) return { rows: ROWS, q: '', kind: 'all' };
+    // 2,800여 행을 한꺼번에 펼치지 않는다. 검색어를 넣어야 결과가 나온다.
+    if (!q) return { rows: [], q: '', kind: 'none' };
     const num = q.replace(/\s+/g, '').match(/^(?:un)?(\d{1,4})$/i);
     if (num) {
       const d = num[1];
@@ -170,8 +171,11 @@
     const n = result.rows.length;
     const uns = new Set(result.rows.map(r => r.un)).size;
     const empty = $('unEmpty');
+    $('unList').hidden = n === 0;
     empty.hidden = n > 0;
-    if (!n) {
+    if (!n && result.kind === 'none') {
+      empty.innerHTML = 'UN 번호나 품명을 입력하면 결과가 나옵니다. 예: <button type="button" class="un-ex">1203</button> <button type="button" class="un-ex">UN3480</button> <button type="button" class="un-ex">리튬</button> <button type="button" class="un-ex">paint</button>';
+    } else if (!n) {
       if (result.un && ABSENT.has(result.un)) {
         empty.innerHTML = `<b>UN${esc(result.un)}</b>: 제7급(방사성물질) 항목으로, 고시 [별표 1] 위험물목록에 실려 있지 않습니다. IMDG Code 원문과 방사성물질 운반에 관한 국내 규정을 확인하세요.`;
       } else if (result.un) {
@@ -208,6 +212,13 @@
       panel.hidden = true;
     }
   }
+
+  $('unEmpty').addEventListener('click', event => {
+    const ex = event.target.closest('.un-ex');
+    if (!ex) return;
+    $('unSearch').value = ex.textContent;
+    render();
+  });
 
   body.addEventListener('click', event => {
     const btn = event.target.closest('.un-row');
@@ -247,11 +258,6 @@
     }
   });
 
-  // 출처 칸의 교차검증 수치
-  const check = META.check;
-  if (check && $('unCheck')) {
-    $('unCheck').textContent = `대조 결과 ${check.rows.toLocaleString('ko-KR')}행 모두 UN 번호·급·부위험성·용기등급이 BAM 데이터와 맞았습니다(이 가운데 ${check.notation}행은 부위험성을 '특별요건 181 참조'처럼 적은 표기 차이). EmS는 ${(check.rows - check.ems).toLocaleString('ko-KR')}행, 영문 품명은 ${check.psn}행이 BAM 표기와 달랐습니다. 영문 품명 차이는 원문 오기(ACETON → ACETONE 등)와 다른 이름을 함께 적는 방식의 차이가 섞여 있습니다.`;
-  }
 
   search_.value = new URLSearchParams(location.search).get('q') || '';
   render();

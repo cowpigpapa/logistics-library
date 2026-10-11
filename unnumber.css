@@ -335,3 +335,7 @@
   .un-main .at-lead { margin-bottom: 18px; font-size: 14.5px; }
   .un-role { margin-top: 14px; padding: 12px 13px; font-size: 13px; }
 }
+
+/* 빈 검색창일 때 예시 검색어 */
+.un-empty .un-ex { font: inherit; font-size: 13px; padding: 2px 10px; margin: 2px; border: 1px solid #c9d6e6; border-radius: 999px; background: #fff; color: #1f5fae; cursor: pointer; }
+.un-empty .un-ex:hover { background: #eef4fb; }

@@ -16,7 +16,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
   <link rel="stylesheet" href="/styles.css?v=20261011-01">
   <link rel="stylesheet" href="/airtracking.css?v=20261009-01">
-  <link rel="stylesheet" href="/unnumber.css?v=20261011-01">
+  <link rel="stylesheet" href="/unnumber.css?v=20261012-02">
 </head>
 <body>
 <header class="topbar">
@@ -61,7 +61,7 @@
   </section>
 
   <section class="at-section" aria-label="위험물목록 검색 결과">
-    <div class="un-list" role="list" aria-describedby="unCount">
+    <div class="un-list" id="unList" role="list" aria-describedby="unCount" hidden>
       <div class="un-head" aria-hidden="true"><span>UN</span><span>품명 (국문 / 영문 정식운송품명)</span><span>급</span><span>부위험성</span><span>용기등급</span><span>EmS</span><span></span></div>
       <div id="unBody"></div>
     </div>
@@ -69,45 +69,14 @@
     <div id="unMore" class="un-more" hidden><button type="button" id="unMoreBtn">더 보기</button></div>
   </section>
 
-  <section class="at-section at-guide" aria-label="참고">
-    <details class="at-fold">
-      <summary><h2>MSDS 14항과 대조하는 법</h2></summary>
-      <p class="un-fold-lead">MSDS(SDS) 14항(운송 정보)과 위험물 신고서의 기재 내용을 아래 칸과 하나씩 맞춰 봅니다. 값이 다르면 포워더가 고치지 말고 화주에게 근거를 받아 서류를 정정하게 합니다.</p>
-      <div class="at-table-wrap">
-        <table class="at-table un-guide">
-          <thead><tr><th scope="col">칸</th><th scope="col">MSDS 14항</th><th scope="col">무엇을 확인하나</th></tr></thead>
-          <tbody>
-            <tr><td><b>UN 번호</b></td><td>14.1</td><td>번호 네 자리가 같은지. 같은 번호에 행이 여러 개면(용기등급·상태별) 화주가 고른 행이 어느 것인지 확인합니다.</td></tr>
-            <tr><td><b>정식운송품명</b></td><td>14.2</td><td>영문 PSN이 목록의 표기와 같은지. N.O.S.(별도 품명이 없는 것) 항목은 대개 괄호 안에 기술명(성분명)을 함께 적어야 합니다(특별요건 274).</td></tr>
-            <tr><td><b>급 · 부위험성</b></td><td>14.3</td><td>주 위험성(정표찰)과 부위험성(부표찰)이 모두 적혀 있는지. 부위험성이 빠진 MSDS가 흔합니다.</td></tr>
-            <tr><td><b>용기등급</b></td><td>14.4</td><td>I(위험도 큼)·II·III. 목록에 여러 등급이 있으면 화주가 시험·판정한 등급이 서류에 있어야 합니다. 화약류, 가스 등은 용기등급이 없습니다.</td></tr>
-            <tr><td><b>해양오염물질</b></td><td>14.5</td><td>목록에 P 표시가 있거나 화주가 해양오염물질로 판정했다면 신고서에 MARINE POLLUTANT 표기가 필요합니다. 표시가 없어도 혼합물은 화주 판정에 따라 해당될 수 있습니다.</td></tr>
-            <tr><td><b>특별요건</b></td><td>14.6 · 14.7</td><td>번호가 가리키는 특별 규정(적용 제외, 추가 표기 등)이 있는지. 화주가 예외를 주장하면 어느 특별요건인지 근거를 받습니다.</td></tr>
-            <tr><td><b>소량 · 극소량</b></td><td>-</td><td>소량(LQ)은 내장용기 1개당 한도, 극소량(EQ)은 E 코드입니다. LQ 0, E0이면 그 규정을 쓸 수 없습니다.</td></tr>
-            <tr><td><b>포장 · IBC · 탱크</b></td><td>-</td><td>P·LP(포장), IBC, T(포터블탱크) 코드와 특별사항(PP·B·TP). 화주의 포장 사양이 허용되는 방식인지 확인합니다.</td></tr>
-            <tr><td><b>EmS</b></td><td>14.7 등</td><td>화재(F-)·누출(S-) 비상조치표 번호. 신고서와 선적 서류에 적는 값입니다.</td></tr>
-            <tr><td><b>적재 · 격리</b></td><td>-</td><td>적재방법(A~E, 화약류는 01~05)과 SW·H 코드, 격리군(SGG)·격리 코드(SG). 실제 적재 위치와 혼적 가능 여부는 선사가 판단합니다.</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="at-source">더 자세한 해설은 <a href="/library/dangerous-goods">Dangerous Goods 카테고리</a>와 <a href="/library/dangerous-goods/dg-msds">MSDS 읽는 법</a>에 있습니다.</p>
-    </details>
-    <details class="at-fold">
-      <summary><h2>데이터 출처와 기준판</h2></summary>
-      <div class="un-source" id="unSource">
-        <p><b>출처</b>: 해양수산부 「위험물 선박운송 기준」(<span data-meta="notice">해양수산부고시 제2026-67호</span>, <span data-meta="date">2026. 6. 21.</span> 시행) [별표 1] 위험물목록, <a href="https://www.law.go.kr/행정규칙/위험물선박운송기준" target="_blank" rel="noopener">국가법령정보센터</a>. IMDG Code 제42차 개정(Amdt. 42-24) 반영본입니다. 고시는 저작권법 제7조에 따라 보호받지 않는 저작물이며, 이 사이트가 검색용으로 다시 정리했습니다. 2026년 10월 11일에 현행 고시임을 확인했습니다.</p>
-        <p><b>다시 정리하며 바꾼 것</b>: 용기등급 숫자(1·2·3)를 로마자(I·II·III)로, 소량 단위(ℓ·㎏·㎖)를 L·kg·ml로 바꿨습니다. 'P112 (a) 또는 (b)'처럼 나뉜 포장 코드는 P112(a)·P112(b)로 풀어 썼고, 원문의 쉼표 빠진 EmS 표기와 '1,3C'(UN0343) 같은 명백한 오기는 바로잡았습니다. 특성란의 '상동'은 바로 위 항목의 내용으로 채웠습니다. 영문 품명의 철자는 고치지 않았고, BAM 데이터와 다른 행에 안내를 붙였습니다.</p>
-        <p><b>교차검증</b>: 모든 행의 UN 번호, 급, 부위험성, 용기등급, EmS를 독일 연방재료시험연구원(BAM)의 IMDG 데이터(Amdt. 42-24)와 대조했습니다. 화면의 값은 모두 고시 값이고, 두 자료가 다른 행에만 'BAM 데이터와 다름' 안내를 붙였습니다. <span id="unCheck"></span></p>
-        <p>제7급(방사성물질) 항목은 고시 [별표 1]에 실려 있지 않아 이 도구에서 찾을 수 없습니다. IMDG Code 원문과 방사성물질 운반에 관한 국내 규정을 확인하세요.</p>
-        <p class="un-bam">Source: Bundesanstalt für Materialforschung und -prüfung (BAM) – Datenbank GEFAHRGUT – URL: <a href="https://tes.bam.de/en/dangerous-goods-database" target="_blank" rel="noopener">https://tes.bam.de/en/dangerous-goods-database</a> · Licence: <a href="https://www.govdata.de/dl-de/by-2-0" target="_blank" rel="noopener">Datenlizenz Deutschland – Namensnennung – Version 2.0</a> · Dataset: IMDG Amdt. 42-24 (dgg-daten-imdg-un.zip). Changes: BAM 데이터는 화면에 그대로 싣지 않고, 고시 값과 대조해 다른 값만 'BAM 데이터와 다름' 안내로 옮겨 적었습니다(EmS의 특별사례 표시 '!'는 뺐습니다).</p>
-      </div>
-    </details>
-    <p class="at-source">위험물 운송 규정 전반은 <a href="/library/dangerous-goods">Dangerous Goods 카테고리</a>에서, 화주 MSDS를 읽는 법은 <a href="/library/dangerous-goods/dg-msds">MSDS 읽는 법</a>에서 볼 수 있습니다. 데이터 오류는 <a href="mailto:support@onharu.app">support@onharu.app</a>으로 알려 주세요.</p>
+  <section class="at-section un-foot" aria-label="출처">
+    <p class="at-source">출처: 해양수산부고시 제2026-67호 「위험물 선박운송 기준」(2026. 6. 21. 시행) [별표 1] 위험물목록 · <a href="https://www.law.go.kr/행정규칙/위험물선박운송기준" target="_blank" rel="noopener">국가법령정보센터</a>. MSDS 14항과 대조하는 법, 데이터 정리 방식과 교차검증은 <a href="/library/dangerous-goods/dg-msds">MSDS(SDS) 읽는 법</a>에 있습니다.</p>
+    <p class="at-source un-bam">Source: Bundesanstalt für Materialforschung und -prüfung (BAM) – Datenbank GEFAHRGUT – URL: <a href="https://tes.bam.de/en/dangerous-goods-database" target="_blank" rel="noopener">https://tes.bam.de/en/dangerous-goods-database</a> · Licence: <a href="https://www.govdata.de/dl-de/by-2-0" target="_blank" rel="noopener">dl-de/by-2-0</a> · Changes: 고시 값과 다른 행에만 'BAM 데이터와 다름' 안내로 옮겨 적음.</p>
   </section>
 </main>
 <footer class="site-footer"><div class="footer-copy"><div class="footer-brand"><strong>Logistics Library</strong></div><div class="footer-meta"><span>MADE BY JUAN.HJLEE · WITH SUPPORT FROM MARU.DEV</span><small>© 2026 ONHARU. All rights reserved.</small><a class="footer-legal" href="/privacy">개인정보처리방침</a></div></div><details class="footer-family"><summary>Family Site</summary><div class="menu-list"><a href="https://cubestow.onharu.app/" target="_blank" rel="noopener">CubeStow<small>컨테이너 적재 시뮬레이션</small></a><a href="https://diary.onharu.app/" target="_blank" rel="noopener">온하루 다이어리<small>바탕화면 달력·일기</small></a><a href="https://lottolab.onharu.app/" target="_blank" rel="noopener">LottoLab<small>로또 통계·구매 기록</small></a><a href="https://onharu.app/" target="_blank" rel="noopener">ONHARU<small>포트폴리오</small></a></div></details></footer>
 <script src="/unnumber-data.js?v=20261011-01"></script>
-<script src="/unnumber.js?v=20261011-01"></script>
+<script src="/unnumber.js?v=20261012-01"></script>
 <script src="/site-shell.js?v=20261011-02"></script>
 </body>
 </html>
