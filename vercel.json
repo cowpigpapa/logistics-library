@@ -65,9 +65,30 @@
     {
       "source": "/library/temperature-cargo/:id",
       "destination": "/tc-library"
+    },
+    {
+      "source": "/library/charges",
+      "destination": "/charges-library"
+    },
+    {
+      "source": "/library/charges/:id",
+      "destination": "/charges-library"
     }
   ],
   "headers": [
+    {
+      "source": "/ch-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
     {
       "source": "/tc-docs/(.*)",
       "headers": [

@@ -17,6 +17,7 @@ NAV = [
         ('/library/air-uld', 'Air ULD', '항공 ULD·컨투어·빌드업'),
         ('/library/temperature-cargo', 'Cold Chain', '온도유지 화물 항공·해상'),
         ('/library/cargo-insurance', 'Cargo Insurance', '적하보험·책임 한도·클레임'),
+        ('/library/charges', 'Charges', '부대비용·DEM/DET·보관료'),
     ]),
     ('도구', [
         ('/airtracking', 'AWB Tracking', '항공사별 화물 추적 바로가기'),
@@ -36,6 +37,7 @@ PAGES = {
     'uld-library.html': '/library/air-uld',
     'tc-library.html': '/library/temperature-cargo',
     'insurance-library.html': '/library/cargo-insurance',
+    'charges-library.html': '/library/charges',
     'airtracking.html': '/airtracking',
     'containertracking.html': '/containertracking',
 }
