@@ -14,7 +14,7 @@
   <meta property="og:url" content="https://logistics.onharu.app/library/ctu-code/ch6-ctu">
   <meta property="og:image" content="https://logistics.onharu.app/images/ctu/collapsed-cargo-v2.webp">
   <meta name="twitter:card" content="summary_large_image">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "@id": "https://logistics.onharu.app/library/ctu-code/ch6-ctu#article", "headline": "6장·IM3 CTU의 특성과 종류 — 강도·고정점·종류별 주의점", "name": "6장·IM3 CTU의 특성과 종류 — 강도·고정점·종류별 주의점 · CTU Code · Logistics Library", "description": "컨테이너 벽·바닥·고정점의 설계 강도와 무게 계산, 드라이·하이큐브·냉동·오픈탑·플랫랙 등 종류별 특징, 스왑바디·트레일러·화차까지 적입자가 알아야 할 숫자.", "url": "https://logistics.onharu.app/library/ctu-code/ch6-ctu", "mainEntityOfPage": "https://logistics.onharu.app/library/ctu-code/ch6-ctu", "inLanguage": "ko", "image": ["https://logistics.onharu.app/images/ctu/collapsed-cargo-v2.webp"], "datePublished": "2026-10-03T18:10:15+09:00", "dateModified": "2026-10-12T00:35:15+09:00", "author": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "publisher": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "isPartOf": {"@type": "CollectionPage", "@id": "https://logistics.onharu.app/library/ctu-code", "name": "CTU Code", "url": "https://logistics.onharu.app/library/ctu-code"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Logistics Library", "item": "https://logistics.onharu.app/"}, {"@type": "ListItem", "position": 2, "name": "CTU Code", "item": "https://logistics.onharu.app/library/ctu-code"}, {"@type": "ListItem", "position": 3, "name": "6장·IM3 CTU의 특성과 종류", "item": "https://logistics.onharu.app/library/ctu-code/ch6-ctu"}]}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "@id": "https://logistics.onharu.app/library/ctu-code/ch6-ctu#article", "headline": "6장·IM3 CTU의 특성과 종류 — 강도·고정점·종류별 주의점", "name": "6장·IM3 CTU의 특성과 종류 — 강도·고정점·종류별 주의점 · CTU Code · Logistics Library", "description": "컨테이너 벽·바닥·고정점의 설계 강도와 무게 계산, 드라이·하이큐브·냉동·오픈탑·플랫랙 등 종류별 특징, 스왑바디·트레일러·화차까지 적입자가 알아야 할 숫자.", "url": "https://logistics.onharu.app/library/ctu-code/ch6-ctu", "mainEntityOfPage": "https://logistics.onharu.app/library/ctu-code/ch6-ctu", "inLanguage": "ko", "image": ["https://logistics.onharu.app/images/ctu/collapsed-cargo-v2.webp"], "datePublished": "2026-10-03T18:10:15+09:00", "dateModified": "2026-10-12T01:14:59+09:00", "author": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "publisher": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "isPartOf": {"@type": "CollectionPage", "@id": "https://logistics.onharu.app/library/ctu-code", "name": "CTU Code", "url": "https://logistics.onharu.app/library/ctu-code"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Logistics Library", "item": "https://logistics.onharu.app/"}, {"@type": "ListItem", "position": 2, "name": "CTU Code", "item": "https://logistics.onharu.app/library/ctu-code"}, {"@type": "ListItem", "position": 3, "name": "6장·IM3 CTU의 특성과 종류", "item": "https://logistics.onharu.app/library/ctu-code/ch6-ctu"}]}]}</script>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
   <link rel="stylesheet" href="/styles.css?v=20261011-01">
   <link rel="stylesheet" href="/ctu-library.css?v=20261010-01">
@@ -49,9 +49,9 @@
 <main class="library-shell">
   <section class="library-view" id="libraryView" data-library-standalone="true" aria-label="CTU Code 자료" data-prerendered="ch6-ctu@"><nav class="lib-crumb"><a href="/library/ctu-code">← CTU Code</a></nav><article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">6장·IM3</span><span class="lib-level" data-level="3">★★★ 꼭 알아야 함</span></span><h2>6장·IM3 CTU의 특성과 종류 — 강도·고정점·종류별 주의점</h2><p class="lib-checked">원문 대조 확인 2026-10-01</p>
               <p>6장은 CTU 종류별 구조와 강도를 설명하고, 정보자료 3(MSC.1/Circ.1498 IM3)은 여기에 치수, 정격 질량, 대표 화물을 더해 종류별로 정리합니다. 이 해설은 두 내용을 함께 봅니다. 적입자가 꼭 알아야 할 것으로 원문은 실을 수 있는 질량, 바닥 강도, 고정점, 온도 유지 성능, 봉인, 풍우밀성 여섯 가지를 꼽습니다(§6.1.2). "벽이 얼마나 버티나", "바닥이 지게차를 견디나", "고리에 몇 톤까지 걸 수 있나"를 판단하는 숫자가 모두 여기에 있습니다. 겉모양이 비슷해도 종류마다 이 숫자가 다르므로 같은 고정 방법을 모든 CTU에 쓰면 안 됩니다. 화물과 경로에 가장 맞는 CTU를 고르는 일은 화주의 몫이며, 확신이 없으면 CTU 운영자에게 묻습니다(§6.1.1).</p>
-              <h3>일반 화물컨테이너의 무게와 강도 (§6.2.1~§6.2.6, IM3 §1.1)</h3>
-              <p>대부분의 화물컨테이너는 내·외부 치수가 ISO로 표준화되어 있습니다. 최대 총질량은 CSC 안전 승인 명판에, 자중과 적재중량은 문이나 뒤쪽 끝에 페인트로 적혀 있습니다(부속서 4 참고). 적재중량 P = 최대 총질량 R − 자중 T이며, 고정재와 더니지 무게도 P 안에 들어갑니다. ISO 기준 정격은 10ft를 빼고 30,480kg이고, 20·40·45ft 박스형은 32,500kg이나 34,000kg인 것도 있습니다(IM3 §1.1.7.2).</p>
-              <p>계획 단계에서 화물 무게 + 고정재·더니지 추정 무게 + 자중(20ft 일반 화물컨테이너 약 2,200kg ~ 40ft 접이식 플랫랙 5,300kg)이 30,480kg을 넘으면 운영자에게 더 높은 정격의 컨테이너를 문의합니다. 이 추정값을 VGM으로 쓰면 안 됩니다(IM3 §1.1.7.3).</p>
+              <h3>드라이 컨테이너의 무게와 강도 (§6.2.1~§6.2.6, IM3 §1.1)</h3>
+              <p>대부분의 화물컨테이너는 내·외부 치수가 ISO로 표준화되어 있습니다. 최대 총중량은 CSC 안전 승인 명판에, 자중과 적재중량은 문이나 뒤쪽 끝에 페인트로 적혀 있습니다(부속서 4 참고). 적재중량 P = 최대 총중량 R − 자중 T이며, 고정재와 더니지 무게도 P 안에 들어갑니다. ISO 기준 정격은 10ft를 빼고 30,480kg이고, 20·40·45ft 박스형은 32,500kg이나 34,000kg인 것도 있습니다(IM3 §1.1.7.2).</p>
+              <p>계획 단계에서 화물 무게 + 고정재·더니지 추정 무게 + 자중(20ft 드라이 컨테이너 약 2,200kg ~ 40ft 접이식 플랫랙 5,300kg)이 30,480kg을 넘으면 운영자에게 더 높은 정격의 컨테이너를 문의합니다. 이 추정값을 VGM으로 쓰면 안 됩니다(IM3 §1.1.7.3).</p>
           <figure class="lib-figure"><img src="/images/ctu/container-structure-v3.webp" alt="20ft 드라이 컨테이너 구조: 측벽, 앞벽, 문쪽 끝, 바닥, 코너 기둥, 래싱 고정점" loading="lazy" decoding="async"><figcaption><span>AI 생성 도해</span> 벽·바닥·고정점은 버틸 수 있는 힘이 정해져 있습니다. 측벽과 앞벽·문쪽 끝, 바닥과 고정점의 설계 강도는 아래 표에서 확인합니다.</figcaption></figure>
               <table class="lib-table"><thead><tr><th class="lib-nowrap">부위</th><th>설계 기준</th><th>현장에서의 뜻</th></tr></thead><tbody>
               <tr><td class="lib-nowrap">측벽</td><td>허용 적재중량의 60%(0.6P)에 해당하는 균일 하중</td><td>벽 면 전체에 고르게 기댈 때의 값입니다. 화물 모서리 하나가 벽 한 점을 미는 경우에는 이 값을 기대할 수 없습니다</td></tr>
@@ -60,22 +60,22 @@
               <tr><td class="lib-nowrap">바닥(지게차)</td><td>CSC 기준 축하중 5,460kg(바퀴당 2,730kg)</td><td>이 조건에 맞는 카운터밸런스 지게차로는 2,000~2,500kg 포장화물을 옮길 수 있고, 바퀴가 작은 지게차는 그보다 가벼운 것만 옮길 수 있습니다(IM3 §1.1.8). 더 튼튼하게 만든 컨테이너도 있으므로 무거운 지게차를 넣기 전에 CTU 운영자에게 확인합니다</td></tr>
               <tr><td class="lib-nowrap">바닥 고정점</td><td>래싱 링이 있으면 어느 방향이든 MSL 10kN(IM3 표기 1,000kg) 이상, 최근 제작품은 20kN(2,000kg)인 경우가 많음</td><td>링 수는 많지 않습니다. 표시를 확인하지 않았다면 최소값만 믿습니다</td></tr>
               <tr><td class="lib-nowrap">상부 측면 레일 고리</td><td>MSL 5kN(500kg) 이상</td><td>최소값 기준으로 바닥 고정점의 절반입니다. 무거운 화물을 위쪽 고리에만 맡기지 않습니다</td></tr>
-              <tr><td class="lib-nowrap">적층</td><td>플랫폼을 빼면 적입된 상태로 쌓을 수 있음. 허용 적층 질량은 명판에 표시</td><td>192,000kg 이상이면 제한 없이 운송하고, 그보다 낮으면 선박 적재에 특별한 주의가 필요합니다(§6.2.3)</td></tr>
+              <tr><td class="lib-nowrap">적층</td><td>플랫폼을 빼면 적입된 상태로 쌓을 수 있음. 허용 적층 중량은 명판에 표시</td><td>192,000kg 이상이면 제한 없이 운송하고, 그보다 낮으면 선박 적재에 특별한 주의가 필요합니다(§6.2.3)</td></tr>
               <tr><td class="lib-nowrap">포크 포켓</td><td>20ft는 중심 간격 2,050mm 포켓</td><td>이 포켓으로는 적입된 상태에서 들 수 있습니다. 900mm 간격 포켓과 30ft 이상 컨테이너의 포켓은 빈 상태에서만 씁니다(IM3 §1.1.9)</td></tr>
               </tbody></table>
               <p>벽 강도 값은 해당 벽 면에 고르게 걸리는 하중에 대한 것이며, 골조가 더 큰 힘을 받을 수 있는 가능성을 부정하지는 않습니다(§6.2.4). 반대로 말하면 고르게 기대지 않은 하중에는 이 값을 그대로 쓸 수 없습니다.</p>
               <h3>컨테이너 종류별 특징 (§6.2.7~§6.3, IM3 §1.2~§1.6)</h3>
           <figure class="lib-figure"><img src="/images/ctu/ctu-types-v3.webp" alt="같은 축척으로 그린 20ft 드라이, 40ft 하이큐브, 오픈탑(지붕 보와 말아 둔 방수포), 플랫랙, 앞벽에 냉동기가 있는 40ft 냉동 컨테이너, 탱크 컨테이너" loading="lazy" decoding="async"><figcaption><span>AI 생성 도해</span> CTU 종류마다 벽 강도, 고정점, 싣는 방법이 다릅니다.</figcaption></figure>
               <table class="lib-table"><thead><tr><th class="lib-nowrap">종류</th><th>구조 특징</th><th>적입자가 볼 점</th></tr></thead><tbody>
-              <tr><td class="lib-nowrap">일반 화물(드라이, GP)</td><td>완전 밀폐·방수. 해상 컨테이너의 약 90%(IM3 §1.2.1). 압력을 맞추는 미로형 통기구만 있음</td><td>바깥 공기와의 환기 효과는 거의 없습니다. 강도와 고정점은 위 표와 같습니다</td></tr>
+              <tr><td class="lib-nowrap">드라이 컨테이너(GP)</td><td>완전 밀폐·방수. 해상 컨테이너의 약 90%(IM3 §1.2.1). 압력을 맞추는 미로형 통기구만 있음</td><td>바깥 공기와의 환기 효과는 거의 없습니다. 강도와 고정점은 위 표와 같습니다</td></tr>
               <tr><td class="lib-nowrap">하이큐브(9ft 6in)</td><td>높이만 다른 GP. 45ft는 거의 모두 하이큐브(IM3 §1.1.6)</td><td>최소 문 높이 2,566mm(8ft 6in은 2,261mm), 폭 2,286mm. 문보다 내부가 높으므로 문 통과 높이로 화물 높이를 정합니다</td></tr>
               <tr><td class="lib-nowrap">팔레트와이드</td><td>측벽을 얇게 해 1,200mm 팔레트 두 줄이 들어감(IM3 §1.2.1.7)</td><td>바닥 고정점이 없고 래싱 고리도 적을 수 있습니다</td></tr>
               <tr><td class="lib-nowrap">통풍</td><td>모두 20ft·8ft 6in. 커피 원두, 농산물용(IM3 §1.2.3). 위아래 레일에 통풍 그릴</td><td>자연 대류로 공기와 습기를 일부 바꿉니다. 통풍구를 막지 않게 적입합니다</td></tr>
-              <tr><td class="lib-nowrap">오픈탑</td><td>강성 지붕 대신 방수포와 지붕 활대. 문 위 가로대(스윙 헤더)를 열거나 떼어 키 큰 화물을 넣음(IM3 §1.2.4)</td><td>헤더는 강도의 일부이므로 적입 뒤 반드시 제자리에 끼웁니다. 헤더는 핀 두 개를 모두 빼고 지게차로 내립니다. 방수포 고리와 TIR 와이어가 모두 맞아야 합니다</td></tr>
+              <tr><td class="lib-nowrap">오픈탑</td><td>강성 지붕 대신 방수포와 루프 보우. 문 위 가로대(스윙 헤더)를 열거나 떼어 키 큰 화물을 넣음(IM3 §1.2.4)</td><td>헤더는 강도의 일부이므로 적입 뒤 반드시 제자리에 끼웁니다. 헤더는 핀 두 개를 모두 빼고 지게차로 내립니다. 방수포 고리와 TIR 와이어가 모두 맞아야 합니다</td></tr>
               <tr><td class="lib-nowrap">오픈사이드</td><td>측면이 커튼·천이나 문, 지붕과 뒷문은 단단함. 내부 높이 약 2.4m. ISO 표준 대상이 아님(IM3 §1.2.5)</td><td>커튼 측면은 화물을 거의 붙잡지 못하며 강도가 0.3P이거나 없습니다. 하중 한도는 GP보다 약 10% 낮고 고정점 강도는 운영자에게 확인합니다</td></tr>
-              <tr><td class="lib-nowrap">냉동(리퍼·보온)</td><td>벽 강도는 일반 컨테이너와 비슷. 냉기를 T자형 바닥 홈으로 불어 넣어 순환(IM3 §1.3)</td><td>보통 고정점과 래싱 고리가 없습니다. 래싱이 필요하면 T형 격자 바닥에 전용 부착물을 붙입니다. 지게차 바퀴 폭은 T 홈 간격의 2배보다 넓어야 하고, 팔레트가 공기 통로를 만들어 줍니다</td></tr>
-              <tr><td class="lib-nowrap">탱크</td><td>탱크 동체와 CSC 기준 골조. 대부분 20ft, 용량 9,000~27,000L(IM3 §1.4)</td><td>최소 80% 이상 채우도록 탱크 용량을 고릅니다. 최대 총질량은 대개 34,000kg 이상입니다. 위험물이면 동체·밸브·압력 방출 장치가 위험물 규정을 따라야 합니다</td></tr>
-              <tr><td class="lib-nowrap">비가압 드라이 벌크</td><td>상자형(문 있음)과 호퍼형(문 없음). 단벽을 적재중량의 60%까지 견디게 보강, 측벽은 일반 컨테이너와 비슷(IM3 §1.5)</td><td>유럽의 30ft 벌크는 흔히 폭 2.5m라 스왑바디로 봐야 하고, 위에 가득 실린 컨테이너를 1개까지만 올릴 수 있는 것도 있습니다</td></tr>
+              <tr><td class="lib-nowrap">냉동(리퍼·보온)</td><td>벽 강도는 드라이 컨테이너와 비슷. 냉기를 T자형 바닥 홈으로 불어 넣어 순환(IM3 §1.3)</td><td>보통 고정점과 래싱 고리가 없습니다. 래싱이 필요하면 T형 격자 바닥에 전용 부착물을 붙입니다. 지게차 바퀴 폭은 T 홈 간격의 2배보다 넓어야 하고, 팔레트가 공기 통로를 만들어 줍니다</td></tr>
+              <tr><td class="lib-nowrap">탱크</td><td>탱크 동체와 CSC 기준 골조. 대부분 20ft, 용량 9,000~27,000L(IM3 §1.4)</td><td>최소 80% 이상 채우도록 탱크 용량을 고릅니다. 최대 총중량은 대개 34,000kg 이상입니다. 위험물이면 동체·밸브·압력 방출 장치가 위험물 규정을 따라야 합니다</td></tr>
+              <tr><td class="lib-nowrap">비가압 드라이 벌크</td><td>상자형(문 있음)과 호퍼형(문 없음). 단벽을 적재중량의 60%까지 견디게 보강, 측벽은 드라이 컨테이너와 비슷(IM3 §1.5)</td><td>유럽의 30ft 벌크는 흔히 폭 2.5m라 스왑바디로 봐야 하고, 위에 가득 실린 컨테이너를 1개까지만 올릴 수 있는 것도 있습니다</td></tr>
               <tr><td class="lib-nowrap">플랫랙·플랫폼</td><td>측벽 없이 H형강 거더 두 줄 이상에 목재 바닥. 규격 초과 화물·차량용. 40ft는 대부분 정격 45,000kg(IM3 §1.6)</td><td>측벽 시험이 없습니다. 거더 바깥 래싱 브래킷은 MSL 30kN 이상이고 50kN도 흔합니다. IM3는 바닥 고정점 최소 3,000kg, 래싱 고리 1,000kg으로 적습니다. 플랫랙은 단벽에 받침을 대 종방향을 막을 수 있습니다. 집중하중은 운영자에게 문의합니다</td></tr>
               <tr><td class="lib-nowrap">지역·국내 컨테이너</td><td>겉모양은 화물컨테이너와 비슷</td><td>유효한 CSC 명판이 없으면 국제운송에 쓰지 않습니다(§6.3)</td></tr>
               </tbody></table>
@@ -88,7 +88,7 @@
               </ul>
               <h3>현장 체크포인트</h3>
               <ul>
-              <li>컨테이너를 주문할 때 화물을 미리 알려 그 화물에 맞는 상태의 장비를 받습니다. 유제품처럼 새것 같은 내부가 필요한 화물도 있습니다(IM3 §1.2.1.6). 무거운 화물이면 정격이 높은 컨테이너가 있는지도 묻습니다(IM3 §1.1.7.3).</li>
+              <li>선사에 컨테이너를 요청할 때 화물을 미리 알려 그 화물에 맞는 상태의 장비를 받습니다. 유제품처럼 새것 같은 내부가 필요한 화물도 있습니다(IM3 §1.2.1.6). 무거운 화물이면 정격이 높은 컨테이너가 있는지도 묻습니다(IM3 §1.1.7.3).</li>
               <li>벽 강도는 "벽 전체에 고르게" 기댈 때의 값입니다. 무거운 화물이 벽을 점으로 밀지 않게 각재·더니지로 힘을 넓게 퍼뜨립니다.</li>
               <li>고정점은 표시를 확인하기 전까지 최소값(바닥 10kN, 위쪽 5kN)으로 계산합니다.</li>
               <li>무거운 화물을 지게차로 컨테이너 안에 넣을 때는 지게차 앞 축하중이 바닥 기준(5,460kg)을 넘지 않는지 봅니다.</li>
@@ -103,7 +103,7 @@
           </article></section>
 </main>
 <footer class="site-footer"><div class="footer-copy"><div class="footer-brand"><strong>Logistics Library</strong></div><div class="footer-meta"><span>MADE BY JUAN.HJLEE · WITH SUPPORT FROM MARU.DEV</span><small>© 2026 ONHARU. All rights reserved.</small><a class="footer-legal" href="/privacy">개인정보처리방침</a></div></div><details class="footer-family"><summary>Family Site</summary><div class="menu-list"><a href="https://cubestow.onharu.app/" target="_blank" rel="noopener">CubeStow<small>컨테이너 적재 시뮬레이션</small></a><a href="https://diary.onharu.app/" target="_blank" rel="noopener">온하루 다이어리<small>바탕화면 달력·일기</small></a><a href="https://lottolab.onharu.app/" target="_blank" rel="noopener">LottoLab<small>로또 통계·구매 기록</small></a><a href="https://onharu.app/" target="_blank" rel="noopener">ONHARU<small>포트폴리오</small></a></div></details></footer>
-<script src="/ctu-library.js?v=20261012-02"></script>
+<script src="/ctu-library.js?v=20261012-03"></script>
 <script src="/site-shell.js?v=20261011-02"></script>
 </body>
 </html>

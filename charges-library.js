@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/charges';
-  const DOCS_VERSION = '20261012-02';
+  const DOCS_VERSION = '20261012-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -36,7 +36,7 @@
     { id: 'ch-dnd', tag: "DEM·DET", level: 3, title: "DEM·DET 제대로 읽기 — 같은 이름, 다른 시계와 계산법", short: "DEM·DET 제대로 읽기", summary: "Demurrage·Detention·통합 D&D·터미널 보관료를 FIATA 정의로 구분하고, Maersk·Hapag-Lloyd·ONE의 한국·미국·독일·중국 요율표(2026년 10월 확인)를 나란히 놓아 통합/분리, 달력일/영업일, 시계 시작·종료, 보관료 포함 여부, 구간 요율, 수입·수출과 COC·SOC 차이를 보여 줍니다. 요율표 읽는 6가지 질문, 미국 FMC 규정(46 CFR 545.5, Part 541 청구서 30일 규칙, 2025년 §541.4 무효·삭제, 2026년 Charge Complaint 규칙), 포워더 체크리스트를 정리합니다." },
     { id: 'ch-korea-storage', tag: "한국보관료", level: 3, title: "한국 해상: 시계가 두 개 — 터미널 경과보관료와 선사 D&D가 따로 쌓이는 구조, PNC 2026 계산 예시", short: "한국 해상: 시계가 두 개", summary: "2023년부터 PNC·HJIT·GWCT·BNCT의 수입 경과보관료를 터미널이 수입자에게 직접 청구한다는 선사 공지와 그 결과 따로 도는 두 시계(양하일~반출일 보관료, 양하일~빈 컨테이너 반납일 선사 통합 D&D), PNC 2026 요율표의 '최고 구간 요율을 전 기간에' 규칙과 15일 = 500,500원·14일 = 318,500원 계산, 오전 8시 양하 기준, BNCT 일괄 적용 공지와 HJNC 2026 요율 비교, 두 시계를 합친 계산 예시, D/O 조건과 반출·반납 일정 관리, 화주 안내 문구, 포워더 체크리스트." },
     { id: 'ch-air-storage', tag: "항공보관료", level: 3, title: "인천공항 보관료: 종가료·종량료 — 두 요금을 더하는 구조, 무료 시간과 자정 규칙, 고가 특수화물 계산", short: "인천공항 보관료: 종가료·종량료", summary: "인천공항 수입화물 보관료가 종가액(과세가격 + 관세 기준)과 종량액(중량 기준)을 합산하는 구조와 '기본요율 + 할증요율 × 보관일수' 계산법, 대한항공 화물터미널·아시아나에어포트(AAP) C터미널·스위스포트코리아의 공개 요율과 최저 금액, 특수·귀중화물 50% 할증과 터미널별로 다른 무료 시간(12시간·24시간·없음), 공개 계산기로 확인한 보관일수 계산(무료 시간 미만 기준, 날짜 차이 최소 1일, 10일 계단), 10억 원·500kg 특수화물을 13시간에 출고한 사례(보관료 2,406,750원 중 약 98%가 종가, THC 81,555원 별도), 같은 청구서의 THC·특송 심야 할증·보류화물 기준, 보세창고 고시 제16조와 관세법 제172조, 하루 치를 피하는 포워더 체크리스트를 2026년 10월 11일 확인 기준으로 정리합니다." },
-    { id: 'ch-cases', tag: "사례", level: 3, title: "부대비용·보관료 분쟁 사례 — 누가, 언제까지, 얼마나 내는가", short: "부대비용·보관료 분쟁 사례", summary: "포워더 명의 예약과 선사 컨테이너 요금 책임(대법원 2020다280685), 화물을 받지 않은 수하인의 Demurrage 의무, 부두 Demurrage 납부 의무자, 대납 비용과 상법 제814조 1년 제척기간, 수입자 회생 때 운송인의 유치권, 창고 보관료와 상사유치권 등 한국 판결 6건과 반납 예약 부족·merchant 조항·항만 폐쇄일 Detention에 관한 미국 FMC 사건 3건, 버려진 컨테이너 Demurrage의 한계를 다룬 영국 MSC v Cottonex를 사실관계, 쟁점, 결론, 실무 교훈으로 정리합니다." }
+    { id: 'ch-cases', tag: "사례", level: 3, title: "부대비용·보관료 분쟁 사례 — 누가, 언제까지, 얼마나 내는가", short: "부대비용·보관료 분쟁 사례", summary: "포워더 명의 부킹과 선사 컨테이너 요금 책임(대법원 2020다280685), 화물을 받지 않은 수하인의 Demurrage 의무, 부두 체화료(항만시설사용료) 납부 의무자, 대납 비용과 상법 제814조 1년 제척기간, 수입자 회생 때 운송인의 유치권, 창고 보관료와 상사유치권 등 한국 판결 6건과 반납 예약 부족·merchant 조항·항만 폐쇄일 Detention에 관한 미국 FMC 사건 3건, 버려진 컨테이너 Demurrage의 한계를 다룬 영국 MSC v Cottonex를 사실관계, 쟁점, 결론, 실무 교훈으로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };

@@ -627,7 +627,7 @@ window.CTR_CARRIERS = [
  },
  {
   "name": "Emirates Shipping Line (ESL)",
-  "name_ko": "에미레이트 쉽핑 라인",
+  "name_ko": "에미레이츠 쉬핑 라인",
   "scac": "EMIV",
   "prefixes": [
    "ESDU",

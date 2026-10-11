@@ -6,7 +6,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/eu-lithium-battery';
-  const DOCS_VERSION = '20261012-02';
+  const DOCS_VERSION = '20261012-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -80,7 +80,7 @@
     { id: 'changes', law: 'g', tag: "달라진 점", level: 3, title: "이전 법령에서 달라진 점 — 2006/66/EC와 1013/2006에서 무엇이 바뀌었나", short: "이전 법령에서 달라진 점", summary: "구 배터리 지침과 구 폐기물운송규정에서 바뀐 것 가운데 물류에 영향이 큰 변화와 경과규정." },
     { id: 'timeline', law: 'g', tag: "일정", level: 2, title: "적용 일정 — 2023년부터 2031년까지", short: "적용 일정", summary: "이미 적용 중인 조항과 앞으로 적용될 조항을 날짜순으로 정리." },
     { id: 'checklist', law: 'g', tag: "체크리스트", level: 3, title: "포워더 종합 체크리스트 — 예약부터 완료 증명까지", short: "포워더 종합 체크리스트", summary: "예약·신품·중고·폐기물·수출입·창고·검사·완료 단계별 확인 항목과 근거 조문." },
-    { id: 'de-nl', law: 'g', tag: "참고 자료", level: 2, title: "독일·네덜란드 창고 — EU 규정 위에 얹히는 국내 요건", short: "독일·네덜란드 창고", summary: "독일의 허가 묶음과 네덜란드 PGS 37-2, 48시간 크로스독 예외." },
+    { id: 'de-nl', law: 'g', tag: "참고 자료", level: 2, title: "독일·네덜란드 창고 — EU 규정 위에 얹히는 국내 요건", short: "독일·네덜란드 창고", summary: "독일의 허가 묶음과 네덜란드 PGS 37-2, 48시간 크로스도킹 예외." },
     { id: 'b-recitals-a', law: 'b', tag: "전문", title: "전문 (1)~(72) — 범위·분류·제품 요건의 입법 이유", short: "전문 (1)~(72)", summary: "적용 범위, 배터리 분류, 중고품 수입, 수입자 책임을 왜 그렇게 정했는지 설명하는 전문 앞부분." },
     { id: 'b-recitals-b', law: 'b', tag: "전문", title: "전문 (73)~(143) — 유통·실사·폐배터리·여권의 입법 이유", short: "전문 (73)~(143)", summary: "유통자 책임, 공급망 실사, 폐배터리 수거와 역외 운송, 배터리 여권의 취지를 설명하는 전문 뒷부분." },
     { id: 'b-ch1', law: 'b', tag: "제1장", level: 3, title: "제1장 일반규정 — 적용 범위와 정의 (제1~5조)", short: "제1장 범위·정의", summary: "적용 대상 배터리와 5개 범주, 수입자·생산자·풀필먼트 서비스 제공자 등 핵심 용어." },
@@ -108,7 +108,7 @@
     { id: 'w-t1', law: 'w', tag: "제1편", level: 2, title: "제1편 일반규정 — 범위와 정의 (제1~3조)", short: "제1편 범위·정의", summary: "적용되는 폐기물 이동의 범위와 통지자·운송·불법 운송 등 핵심 용어." },
     { id: 'w-t2-1a', law: 'w', tag: "제2편 제4~9조", level: 3, title: "제2편 절차 구분과 통지·동의 ① (제4~9조)", short: "제4조 절차 구분, 통지·동의 ①", summary: "PIC 대상인지 부속서 VII 대상인지 가르는 기준과 통지·계약·재정보증·동의 절차." },
     { id: 'w-t2-1b', law: 'w', tag: "제2편 제10~17조", level: 2, title: "제2편 통지·동의 ② 동의 조건과 동의 후 요건 (제10~17조)", short: "통지·동의 ② 동의 후 요건", summary: "동의 조건과 이의 사유, 동의 후 이동서류·수령 확인, 변경 시 운송 정지." },
-    { id: 'w-t2-2', law: 'w', tag: "제2편 제18~21조", level: 3, title: "제2편 일반정보 요건과 부속서 VII 서류 (제18~21조)", short: "제18조 일반정보 요건", summary: "녹색목록 폐기물 운송의 서류: 출발 2근무일 전 작성, 수령 확인, 완료 증명, 5년 보관." },
+    { id: 'w-t2-2', law: 'w', tag: "제2편 제18~21조", level: 3, title: "제2편 일반정보 요건과 부속서 VII 서류 (제18~21조)", short: "제18조 일반정보 요건", summary: "녹색목록 폐기물 운송의 서류: 출발 2영업일 전 작성, 수령 확인, 완료 증명, 5년 보관." },
     { id: 'w-t2-4', law: 'w', tag: "제2편 제22~26조", level: 3, title: "제2편 반송 절차와 비용 (제22~26조)", short: "반송 절차와 비용", summary: "운송이 막히거나 불법일 때 누가 90일·30일 안에 반송하고 비용을 내는지." },
     { id: 'w-t2-5', law: 'w', tag: "제2편 제27~35조", level: 3, title: "제2편 전자 제출·분류 문제·제3국 경유 (제27~35조)", short: "전자 제출·중고품 구분", summary: "서류 전자 제출 의무, 중고품과 폐기물의 구분 기준, 제3국 경유 운송." },
     { id: 'w-t3', law: 'w', tag: "제3편", title: "제3편 회원국 내에서만 이루어지는 폐기물 수송 (제36조)", short: "제3편 회원국 내 수송", summary: "한 회원국 안에서만 움직이는 폐기물은 그 회원국의 제도를 따릅니다." },

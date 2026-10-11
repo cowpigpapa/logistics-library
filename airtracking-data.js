@@ -314,7 +314,7 @@ window.AWB_AIRLINES = [
   "prefix": "172",
   "url": "https://www.cargolux.com/track-and-Trace",
   "tracking": true,
-  "note_ko": "카고룩스 이탈리아는 prefix 356"
+  "note_ko": "카고룩스 이탈리아는 Prefix 356"
  },
  {
   "name": "Cathay Pacific",
@@ -570,7 +570,7 @@ window.AWB_AIRLINES = [
  },
  {
   "name": "Juneyao Air",
-  "name_ko": "길상항공",
+  "name_ko": "준야오항공",
   "iata": "HO",
   "prefix": "018",
   "url": "http://cargo.juneyaoair.com/",

@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261012-02';
+  const DOCS_VERSION = '20261012-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -46,7 +46,7 @@
     { id: 'dg-msds', tag: "MSDS", level: 3, title: "MSDS(SDS) 읽는 법 — 포워더가 확인하는 항목과 운송 분류와의 관계", short: "MSDS(SDS) 읽는 법", summary: "14항을 1·3·9항과 대조하는 법, GHS 분류와 운송 분류의 차이, 오래된 SDS·Non-DG 확인서 등 위험 신호와 접수 체크리스트." },
     { id: 'case-inspection', tag: "단속 사례", level: 2, title: "점검·단속 적발 사례 — 소방·특사경·국토교통부", short: "점검·단속 적발 사례", summary: "소방·특사경·국토교통부 등이 실제 적발한 18건을 유형별로 정리하고 자가 점검표를 붙였습니다." },
     { id: 'case-accident', tag: "사고 사례", level: 2, title: "위험물 사고 사례 — 신고·분류·교육의 실패", short: "위험물 사고 사례", summary: "국내외 위험물 사고 19건을 조사보고서와 보도로 확인해 신고·분류·교육 실패 관점에서 정리." },
-    { id: 'case-litigation', tag: "판결 사례", level: 2, title: "위험물 소송·판결 사례 — 화주·포워더·운송인 중 누가 책임졌나", short: "소송·판결 사례", summary: "국내외 위험물 판결 사례 17항목의 쟁점과 결론. 포워더가 선적자로 책임지는 구조." }
+    { id: 'case-litigation', tag: "판결 사례", level: 2, title: "위험물 소송·판결 사례 — 화주·포워더·운송인 중 누가 책임졌나", short: "소송·판결 사례", summary: "국내외 위험물 판결 사례 17항목의 쟁점과 결론. 포워더가 송하인으로 책임지는 구조." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };

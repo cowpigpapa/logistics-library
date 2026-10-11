@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/temperature-cargo';
-  const DOCS_VERSION = '20261012-02';
+  const DOCS_VERSION = '20261012-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -26,7 +26,7 @@
     { title: "EU GDP 가이드라인(2013/C 343/01)", org: "European Commission", kind: "공식 지침", note: "의약품 유통관리기준. 9장이 운송입니다.", url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52013XC1123(01)" },
     { title: "WHO TRS 961 Annex 9", org: "WHO", kind: "공식 지침", note: "온도·시간 민감 의약품의 보관·운송 모델 지침과 기술 보충서입니다.", url: "https://www.who.int/publications/m/item/trs961-annex9-modelguidanceforstoragetransport" },
     { title: "의약품 등의 안전에 관한 규칙(KGSP 별표 6)", org: "법제처 국가법령정보센터", kind: "법령", note: "한국 의약품 유통품질관리기준입니다.", url: "https://www.law.go.kr/법령/의약품등의안전에관한규칙" },
-    { title: "IATA 온도관리 규정(TCR)", org: "IATA", kind: "업계 규정 · 유료", note: "항공 온도유지 화물 취급 규정과 TTS 라벨 안내입니다.", url: "https://www.iata.org/en/publications/store/temperature-control-regulations/" },
+    { title: "IATA 온도관리규정(TCR)", org: "IATA", kind: "업계 규정 · 유료", note: "항공 온도유지 화물 취급 규정과 TTS 라벨 안내입니다.", url: "https://www.iata.org/en/publications/store/temperature-control-regulations/" },
     { title: "CEIV Pharma", org: "IATA", kind: "인증", note: "의약품 항공운송 품질 인증 제도입니다.", url: "https://www.iata.org/en/programs/cargo/pharma/ceiv-pharma/" },
     { title: "CTU Code", org: "IMO·ILO·UNECE", kind: "국제 규범", note: "컨테이너 적입 규범. 리퍼 화물 적입도 다룹니다.", url: "https://logistics.onharu.app/library/ctu-code" }
   ];
@@ -35,9 +35,9 @@
     { id: 'tc-basics', tag: "기초", level: 3, title: "온도유지 화물 기초와 규정 — 온도대, 일탈, GDP·KGSP, IATA TCR과 CEIV", short: "기초와 규정", summary: "온도대 표기(+2~+8℃, +15~+25℃ 등)와 항공 코드 PIL·COL·CRT·ERT·FRO, 온도 일탈의 뜻과 판단 주체, EU GDP 제9장·제7장, WHO TRS 961 부속서 9, 한국 의약품 유통품질 관리기준(별표 6)의 운송·기록 조항, IATA TCR과 Time and Temperature Sensitive 라벨 규칙, 수락 체크리스트, CEIV Pharma와 인천공항 커뮤니티 인증, 데이터로거와 기록 보관, 화주·포워더·운송인 역할을 정리합니다." },
     { id: 'tc-air-passive', tag: "패시브", level: 3, title: "항공 패시브 포장 — 단열재·냉매, 드라이아이스 위험물, 검증 시간과 팔레트 쉬퍼", short: "항공 패시브 포장", summary: "EPS·PUR·VIP 단열재와 젤팩·PCM·드라이아이스 냉매의 차이, UN1845 드라이아이스의 포장지침 954·포장당 200kg·운송장 기재와 항공사 한도, WHO 적격성 평가(DQ·OQ·PQ)와 계절용·사계절용 포장, ISTA 7D·7E, 팔레트형 패시브 제품의 공개 사양과 운임 중량, 선택 기준과 포워더 체크리스트를 다룹니다." },
     { id: 'tc-air-active', tag: "액티브", level: 3, title: "항공 액티브 컨테이너 — 사양 비교, 항공사 승인, 리스·예약, 배터리와 충전", short: "항공 액티브 컨테이너", summary: "압축기 냉각·전기 히터·배터리로 온도를 유지하는 RKN·RLP·RAP 액티브 ULD의 구조, Envirotainer·CSafe·DoKaSch·HB TempCon 공개 사양(온도 범위, 배터리 지속·충전 시간, 외형·내부 치수, 자중·최대 총중량), 대한항공·Emirates 등 항공사 수용 모델과 탑재 기종, 리스 계약과 예약·반납 절차, NiMH 배터리·데이터로거의 위험물 취급, 사전 조절 규칙, 패시브와 비교표, 포워더 체크리스트." },
-    { id: 'tc-reefer', tag: "리퍼", level: 3, title: "해상 리퍼 컨테이너 — 구조·공기 흐름, 종류, 공급·회수 공기 제어, 환기·전원·온도 기록", short: "해상 리퍼 컨테이너", summary: "하부 송풍과 T자형 바닥, 빨간 선, 공급·회수 공기 센서의 구조와 '유지하는 장비'라는 원리, 일반·CA·MA·초저온·저온 살균 처리·NOR 장비의 공개 사양, -10℃를 경계로 한 냉장(공급 공기)·냉동(회수 공기) 제어, 환기 ㎥/h 범위와 냉동 화물 환기 닫힘, 제습·제상, 리퍼 전원과 클립온·언더슬렁 발전기, 컨트롤러 온도 기록과 선사 원격 모니터링(Captain Peter, Hapag-Lloyd LIVE, ONE CONTAINER+, MSC iReefer)을 선사·제조사 자료와 CTU Code IM8로 정리." },
+    { id: 'tc-reefer', tag: "리퍼", level: 3, title: "해상 리퍼 컨테이너 — 구조·공기 흐름, 종류, 서플라이·리턴 에어 제어, 환기·전원·온도 기록", short: "해상 리퍼 컨테이너", summary: "하부 송풍과 T자형 바닥, 빨간 선, 서플라이·리턴 에어 센서의 구조와 '유지하는 장비'라는 원리, 일반·CA·MA·초저온·저온처리·NOR 장비의 공개 사양, -10℃를 경계로 한 냉장(서플라이 에어)·냉동(리턴 에어) 제어, 환기 ㎥/h 범위와 냉동 화물 환기 닫힘, 제습·제상, 리퍼 전원과 클립온·언더슬렁 젠셋, 컨트롤러 온도 기록과 선사 원격 모니터링(Captain Peter, Hapag-Lloyd LIVE, ONE CONTAINER+, MSC iReefer)을 선사·제조사 자료와 CTU Code IM8로 정리." },
     { id: 'tc-reefer-practice', tag: "리퍼실무", level: 3, title: "리퍼 실무 — 예약부터 인도까지, 화주 서류·설정 실수·전원 공백·사고 대응", short: "리퍼 실무: 예약부터 인도까지", summary: "화주가 정하는 운송 지시와 포워더의 서류 대조, 화주에게 받을 서류와 예약 확인 항목(ONE·Hapag-Lloyd 점검표), PTI, ℃/℉·+/- 부호·환기 열림 같은 설정 실수 표, 화물 예냉과 컨테이너 예냉을 하지 않는 이유(의약품 사전 조절 예외), 적입 원칙, 전원 공백 구간, 선상 모니터링, 컨트롤러 다운로드와 상법 제804조 통지 등 사고 대응과 단계별 체크리스트." },
-    { id: 'tc-cases', tag: "사례", level: 2, title: "온도 사고 사례 — 항공 램프·경유지와 리퍼 지시·전원 공백에서 난 온도 일탈", short: "온도 사고 사례", summary: "뮌헨 램프의 인슐린(Eli Lilly v DHL), 경유지 냉방 정지(Wealmoor v KLM), 인수 전 손상과 AWB 신고가액(Fleurigros v Air Canada), 도착지 비냉장 창고(Bayer v BA), 백신 과냉각, -18/+18 중립 지시와 부킹 확인서 오류(CMA CGM 사건 2건), 터미널 전원 공백, 냉동기 결빙과 감시 체계, 환기 설정 실수 등 10건을 사실관계·원인·결과·실무 교훈으로 정리하고 국내 독감 백신 상온 노출 사건을 덧붙임." }
+    { id: 'tc-cases', tag: "사례", level: 2, title: "온도 사고 사례 — 항공 램프·경유지와 리퍼 지시·전원 공백에서 난 온도 일탈", short: "온도 사고 사례", summary: "뮌헨 램프의 인슐린(Eli Lilly v DHL), 경유지 냉방 정지(Wealmoor v KLM), 인수 전 손상과 AWB 신고가액(Fleurigros v Air Canada), 도착지 비냉장 창고(Bayer v BA), 백신 과냉각, -18/+18 애매한 온도 지시와 부킹 확인서 오류(CMA CGM 사건 2건), 터미널 전원 공백, 냉동기 결빙과 감시 체계, 환기 설정 실수 등 10건을 사실관계·원인·결과·실무 교훈으로 정리하고 국내 독감 백신 상온 노출 사건을 덧붙임." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };

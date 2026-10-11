@@ -58,8 +58,8 @@
   function remark(a) {
     const flags = [];
     if (isBroken(a)) flags.push(`<b class="at-flag at-flag-bad">링크 깨짐</b>`);
-    if (a.tracking === false) flags.push('<b class="at-flag">AWB tracking 없음</b>');
-    if (a.tracking === null) flags.push('<b class="at-flag">AWB tracking 확인 못함</b>');
+    if (a.tracking === false) flags.push('<b class="at-flag">공개 AWB 조회 없음</b>');
+    if (a.tracking === null) flags.push('<b class="at-flag">AWB 조회 확인 못함</b>');
     const note = esc(a.note_ko || '');
     return flags.join(' ') + (note ? `${flags.length ? ' ' : ''}${note}` : '') + (owner ? ` ${adminChip(a)}` : '');
   }
