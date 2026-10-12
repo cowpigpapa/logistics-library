@@ -9,6 +9,10 @@ import json, re, sys
 from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / 'tools'))
+import images  # 그림 작은 판(srcset)·지연 로딩
+CARD_SIZES = '(max-width: 900px) calc(100vw - 72px), 400px'   # 카드 그림 칸 폭
+DOC_SIZES = '(max-width: 900px) calc(100vw - 40px), 920px'    # 문서 본문 폭
 V = '20261013-01'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
@@ -68,6 +72,7 @@ for gi, (group, items) in enumerate(NAV):
         continue
     blocks.append(f'<h2 class="li-home-group g{gi + 1}">{group}</h2>')
     for href, s in secs:
+        s = images.responsive(s, CARD_SIZES, eager=1 if not CARDS else 0)   # 맨 위 카드 그림만 바로 받는다
         CARDS[href.split('/')[2]] = s
         blocks.append(s)
 blocks += list(by_href.values())

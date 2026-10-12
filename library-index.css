@@ -271,3 +271,32 @@ mark.li-hit { background: #fff1a8; color: inherit; border-radius: 2px; padding: 
   .li-toggle::before { content: '☰'; margin-right: 6px; }
   .li-home .library-entry { grid-template-columns: minmax(0, 1fr); padding: 18px; }
 }
+
+/* ---------------------------------------------------------------- 휴대폰 마감 */
+@media (max-width: 640px) {
+  /* 그림이 본문 칸 밖으로 4px 나가 옆으로 흔들리던 것 */
+  .li-view .lib-figure { margin-left: 0; margin-right: 0; }
+  .li-view .bat-commentary, .li-view .bat-translation { overflow-x: clip; }
+  .li-view .bat-commentary .lib-table-wrap, .li-view .bat-translation .lib-table-wrap,
+  .li-view .bat-commentary .lib-table, .li-view .bat-translation .lib-table { overflow-x: auto; }
+  .li-view .law-amend { max-width: 100%; white-space: normal; }
+  /* 도해(SVG)는 화면 폭에 맞춰 줄이고, 누르면 크게 본다 */
+  .li-view .uld-diagram svg { min-width: 0; }
+  .li-view .uld-diagram .uld-svg-wrap { cursor: zoom-in; position: relative; }
+  .li-view .uld-diagram .uld-svg-wrap::after { content: '크게 보기'; position: absolute; right: 8px; bottom: 8px; padding: 2px 8px; border-radius: 999px; background: rgba(18, 50, 80, .78); color: #fff; font-size: 11px; font-weight: 600; pointer-events: none; }
+}
+@media (max-width: 480px) {
+  /* 두 칸짜리 표는 항목 아래에 설명을 쌓는다(설명 칸이 6~8글자마다 줄바꿈되던 것) */
+  .li-view .lib-article table:not(:has(th:nth-child(3), td:nth-child(3))) { display: block; }
+  .li-view .lib-article table:not(:has(th:nth-child(3), td:nth-child(3))) thead { display: none; }
+  .li-view .lib-article table:not(:has(th:nth-child(3), td:nth-child(3))) :is(tbody, tr, td, th) { display: block; width: auto; min-width: 0; white-space: normal; }
+  .li-view .lib-article table:not(:has(th:nth-child(3), td:nth-child(3))) tr { padding: 9px 2px; border-bottom: 1px solid var(--line); }
+  .li-view .lib-article table:not(:has(th:nth-child(3), td:nth-child(3))) :is(td, th) { padding: 0; border: 0; background: none; }
+  .li-view .lib-article table:not(:has(th:nth-child(3), td:nth-child(3))) :is(td, th):first-child { margin-bottom: 3px; color: var(--navy); font-weight: 700; }
+}
+/* 크게 보기 창 */
+.li-zoom { position: fixed; inset: 0; z-index: 100; display: flex; flex-direction: column; background: rgba(10, 22, 36, .92); }
+.li-zoom-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; color: #fff; font-size: 13px; }
+.li-zoom-bar button { border: 1px solid rgba(255, 255, 255, .5); border-radius: 999px; background: transparent; color: #fff; font: inherit; padding: 4px 12px; }
+.li-zoom-body { flex: 1; overflow: auto; -webkit-overflow-scrolling: touch; padding: 0 10px 16px; }
+.li-zoom-body svg { display: block; width: 760px; max-width: none; height: auto; background: #fff; border-radius: 10px; }

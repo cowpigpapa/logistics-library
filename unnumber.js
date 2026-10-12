@@ -264,6 +264,8 @@
   function fitScroll() {
     const box = document.querySelector('.at-scroll');
     if (!box) return;
+    // 좁은 화면: 표 안쪽 스크롤 없이 페이지가 스크롤된다(겹친 스크롤 방지).
+    if (window.matchMedia('(max-width: 900px)').matches) { box.style.maxHeight = ''; return; }
     const top = box.getBoundingClientRect().top + window.scrollY;
     const below = 96;
     box.style.maxHeight = Math.max(320, window.innerHeight - top - below) + 'px';

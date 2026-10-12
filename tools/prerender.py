@@ -456,12 +456,33 @@ def inner_of(markup):
 def doc_inner(inner):
     """문서 화면: 카테고리 페이지의 빵부스러기와 이전·다음 줄은 뺀다(색인이 대신한다)."""
     inner = drop_elements(inner, r'<nav class="lib-crumb"')
-    return drop_elements(inner, r'<nav class="bat-pager"')
+    inner = drop_elements(inner, r'<nav class="bat-pager"')
+    return frame.images.responsive(unique_svg_ids(inner), frame.DOC_SIZES)
+
+
+def unique_svg_ids(markup):
+    """한 문서에 같은 도해 생성기로 만든 SVG가 여럿이면 화살표 marker 등의 id가 겹친다. SVG마다 id 뒤에 번호를 붙인다."""
+    seen, out, pos, k = set(), [], 0, 0
+    for m in re.finditer(r'<svg\b', markup):
+        if m.start() < pos:
+            continue
+        end = element_end(markup, m.start())
+        svg = markup[m.start():end]
+        ids = re.findall(r'\sid="([^"]+)"', svg)
+        if any(i in seen for i in ids):
+            k += 1
+            for i in ids:
+                svg = re.sub(r'(\sid="|url\(#|href="#)' + re.escape(i) + r'(["\)])', lambda x: f'{x.group(1)}{i}-{k}{x.group(2)}', svg)
+        seen.update(re.findall(r'\sid="([^"]+)"', svg))
+        out.append(markup[pos:m.start()]); out.append(svg)
+        pos = end
+    out.append(markup[pos:])
+    return ''.join(out)
 
 
 def overview_inner(slug, landing, overview_doc):
     """개요 화면: 메인 카드(설명·그림) + 알림 + '설명 및 요약' 문서 + 원문과 공식 자료. library-index.js의 옛 개요 화면과 같은 구성."""
-    card = frame.CARDS.get(slug, '')
+    card = frame.CARDS.get(slug, '').replace(' loading="lazy"', '')   # 개요 맨 위 그림은 바로 받는다
     # 이 페이지의 제목은 카드 이름이다(h1).
     card = re.sub(r'<h2 (id="[^"]+" class="li-entry-h">.*?)</h2>', r'<h1 \1</h1>', card, count=1, flags=re.S)
     out = f'<div class="li-home">{card}</div>'
@@ -633,7 +654,11 @@ def main():
     entries.sort(key=lambda e: (order[e[0]], e[3] == '', pos[e[1]]))
     files[ROOT / 'sitemap.xml'] = sitemap([(loc, date, extra) for _, loc, date, extra in entries], ledger)
     files[DATES] = ledger.text()
-    files[ROOT / 'search-index.json'] = json.dumps(search, ensure_ascii=False, separators=(',', ':')) + chr(10)
+    # 본문 검색 데이터. 가장 큰 EU 배터리 번역은 따로 두어 나머지 결과가 먼저 나오게 한다.
+    big = [d for d in search if d['u'].startswith('/library/eu-lithium-battery/')]
+    rest = [d for d in search if d not in big]
+    files[ROOT / 'search-index.json'] = json.dumps(rest, ensure_ascii=False, separators=(',', ':')) + chr(10)
+    files[ROOT / 'search-index-2.json'] = json.dumps(big, ensure_ascii=False, separators=(',', ':')) + chr(10)
 
     stale = [p for p in OUT.rglob('*.html') if p not in files] if OUT.exists() else []
     changed = [p for p, text in files.items() if not p.is_file() or p.read_bytes() != text.encode('utf-8')]

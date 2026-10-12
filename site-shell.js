@@ -11,6 +11,18 @@
 (function () {
   // 색인 페이지 안에 끼워 열린 도구(?embed=1)는 머리줄·푸터 없이 보여 준다.
   try { if (new URLSearchParams(location.search).get('embed') === '1') document.documentElement.classList.add('is-embed'); } catch (_) {}
+  // 끼워 열린 도구는 내용 높이를 바깥 화면에 알린다(좁은 화면에서 바깥이 틀 높이를 내용에 맞춘다).
+  if (document.documentElement.classList.contains('is-embed') && window.parent !== window && window.ResizeObserver) {
+    let last = 0;
+    new ResizeObserver(() => {
+      const h = document.documentElement.scrollHeight;
+      if (Math.abs(h - last) > 2) { last = h; window.parent.postMessage({ llEmbedHeight: h }, location.origin); }
+    }).observe(document.body);
+  }
+  // 좁은 화면에서는 짧은 검색 안내 문구(data-short-placeholder)를 쓴다.
+  if (window.matchMedia('(max-width: 480px)').matches) {
+    document.querySelectorAll('input[data-short-placeholder]').forEach(i => { i.placeholder = i.dataset.shortPlaceholder; });
+  }
   // 열린 드롭다운(상단 메뉴·패밀리 사이트)은 바깥을 누르면 닫는다.
   document.addEventListener('click', event => {
     document.querySelectorAll('.footer-family[open], .nav-group[open]').forEach(menu => {

@@ -140,13 +140,23 @@
     const q = new URLSearchParams(location.search).get('q');
     view.innerHTML = `<p class="li-entry-h li-doc-head"><a href="/tool/${name}">${esc(t.name)}</a>${sub ? `<span class="li-kicker-sub g${GROUP['tool:' + name] || 3}">${sub}</span>` : ''}</p><iframe class="li-tool-frame" src="/${name}?embed=1${q ? '&q=' + encodeURIComponent(q) : ''}" title="${esc(t.name)}"></iframe>`;
     view.dataset.route = '/tool/' + name;
+    embedHeight = 0;
     document.title = `${t.name} · Logistics Library`;
     fitFrame();
     window.scrollTo({ top: 0 });
   }
+  let embedHeight = 0;   // 끼운 도구가 알려 준 내용 높이(site-shell.js)
+  const narrow = () => window.matchMedia('(max-width: 900px)').matches;
+  window.addEventListener('message', e => {
+    if (e.origin !== location.origin || !e.data || typeof e.data.llEmbedHeight !== 'number') return;
+    embedHeight = e.data.llEmbedHeight;
+    fitFrame();
+  });
   function fitFrame() {
     const f = view.querySelector('.li-tool-frame');
     if (!f) return;
+    // 좁은 화면: 틀을 내용 높이에 맞춰 페이지 하나만 스크롤되게 한다.
+    if (narrow() && embedHeight) { f.style.height = embedHeight + 'px'; return; }
     const top = f.getBoundingClientRect().top + window.scrollY;
     const foot = document.querySelector('.site-footer');
     f.style.height = Math.max(420, window.innerHeight - top - 16 - (foot ? foot.getBoundingClientRect().height : 0)) + 'px';
@@ -198,14 +208,37 @@
     if (parse(path).path === view.dataset.route && !url.hash) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
     go(path, url.hash);
   });
-  // 카테고리 줄의 '개요' 버튼: 이미 보고 있으면 한 번 더 눌러 접는다.
+  // 카테고리 줄의 '개요' 버튼
   tree.addEventListener('click', e => {
     const a = e.target.closest('.li-ov');
     if (!a) return;
     const cat = a.closest('.li-cat-wrap').querySelector('.li-cat');
-    if (cat.open && view.dataset.route === '/library/' + a.dataset.slug) { e.preventDefault(); e.stopPropagation(); cat.open = false; remember(); return; }
+    // 이미 그 개요를 보고 있으면 아무것도 바꾸지 않고 맨 위로만 간다(색인을 접으면 잘못 누른 것처럼 보인다).
+    if (view.dataset.route === '/library/' + a.dataset.slug) { e.preventDefault(); e.stopPropagation(); window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
     if (!cat.open) { cat.open = true; closeOthers(cat); remember(); }
   }, true);
+
+  // 좁은 화면: 화면 폭에 맞춰 줄인 도해(SVG)를 누르면 원래 크기로 크게 본다(옆으로 밀어 보기).
+  view.addEventListener('click', e => {
+    const wrap = e.target.closest('.uld-diagram .uld-svg-wrap');
+    if (!wrap || !window.matchMedia('(max-width: 640px)').matches || e.target.closest('a')) return;
+    const svg = wrap.querySelector('svg');
+    if (!svg) return;
+    const cap = wrap.closest('.uld-diagram').querySelector('figcaption');
+    const box = document.createElement('div');
+    box.className = 'li-zoom';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.innerHTML = `<div class="li-zoom-bar"><span>옆으로 밀어 보세요</span><button type="button">닫기</button></div><div class="li-zoom-body"></div>`;
+    box.querySelector('.li-zoom-body').append(svg.cloneNode(true));
+    if (cap) { const p = document.createElement('p'); p.style.cssText = 'color:#dfe7ef;font-size:12.5px;line-height:1.6;margin:10px 2px 0;max-width:760px'; p.textContent = cap.textContent; box.querySelector('.li-zoom-body').append(p); }
+    const close = () => { box.remove(); document.removeEventListener('keydown', onKey); };
+    const onKey = ev => { if (ev.key === 'Escape') close(); };
+    box.querySelector('button').addEventListener('click', close);
+    document.addEventListener('keydown', onKey);
+    document.body.append(box);
+    box.querySelector('button').focus();
+  });
 
   // 좁은 화면: 목차 버튼으로 색인을 열고 닫는다.
   $('liToggle').addEventListener('click', () => {
@@ -216,13 +249,16 @@
 
   // ---------------------------------------------------------------- 찾기(제목·요약·태그 + 본문)
   // 본문 글자는 두 글자 이상 처음 찾을 때 한 번만 받는다(약 0.8MB)(search-index.json, tools/prerender.py가 만든다).
+  // 두 파일로 나뉘어 있다(search-index-2.json은 가장 큰 EU 배터리 번역). 먼저 온 것부터 결과에 넣는다.
   let SEARCH = null, searchLoading = null;
   function loadSearch() {
-    if (SEARCH || searchLoading) return searchLoading;
-    searchLoading = fetch('/search-index.json').then(r => r.json()).then(list => {
-      SEARCH = {};
+    if (searchLoading) return searchLoading;
+    SEARCH = {};
+    const part = url => fetch(url).then(r => r.json()).then(list => {
       list.forEach(d => { SEARCH[d.u] = d.b; });
-    }).catch(() => { SEARCH = {}; });
+      if ($('liFilter').value.trim().length >= 2) applyFilter();
+    }).catch(() => {});
+    searchLoading = Promise.all([part('/search-index.json'), part('/search-index-2.json')]);
     return searchLoading;
   }
   const norm = s => s.toLowerCase();
@@ -239,7 +275,7 @@
     tree.querySelector('.li-empty')?.remove();
     tree.querySelectorAll('.li-snip').forEach(el => el.remove());
     if (!q) { renderTree(); markActive(parse(location.pathname)); clearHighlight(); return; }
-    if (q.length >= 2 && !SEARCH) loadSearch().then(() => { if (norm($('liFilter').value.trim()) === q) applyFilter(); });
+    if (q.length >= 2) loadSearch();
     let total = 0;
     tree.querySelectorAll('.li-cat').forEach(cat => {
       let hits = 0;
