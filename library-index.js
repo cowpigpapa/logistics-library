@@ -25,7 +25,7 @@
     box.innerHTML = HOME;
     box.querySelectorAll('.library-entry').forEach(sec => {
       const link = sec.querySelector('a.entry-link[href^="/library/"]');
-      const t = sec.querySelector('.entry-type');
+      const t = sec.querySelector('.li-entry-h .li-kicker-sub, .entry-type');
       if (link && t) TYPE[link.getAttribute('href').split('/')[2]] = t.textContent.trim();
     });
   })();
