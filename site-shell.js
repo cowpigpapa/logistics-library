@@ -9,6 +9,8 @@
 })();
 
 (function () {
+  // 색인 페이지 안에 끼워 열린 도구(?embed=1)는 머리줄·푸터 없이 보여 준다.
+  try { if (new URLSearchParams(location.search).get('embed') === '1') document.documentElement.classList.add('is-embed'); } catch (_) {}
   // 열린 드롭다운(상단 메뉴·패밀리 사이트)은 바깥을 누르면 닫는다.
   document.addEventListener('click', event => {
     document.querySelectorAll('.footer-family[open], .nav-group[open]').forEach(menu => {

@@ -239,3 +239,7 @@
 .li-home-group.g3 { color: #b45309; }
 .li-home .li-home-group + .library-entry { border-top: 0; padding-top: 14px; }
 .li-home .library-entry { padding-block: 30px; }
+/* 도구를 오른쪽 칸에 끼워 연 모습 */
+.li-tool-frame { display: block; width: 100%; border: 0; border-radius: 14px; background: transparent; }
+.li-tree a.li-tool.is-active { background: #fbe0bd; box-shadow: inset 3px 0 0 #b45309; }
+.li-tool::after { content: none; }

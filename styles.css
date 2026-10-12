@@ -539,3 +539,9 @@ main {
     min-width: 0;
   }
 }
+
+/* 색인 페이지 안에 끼워 연 도구 페이지(?embed=1): 머리줄·푸터를 숨기고 여백을 줄인다 */
+.is-embed .topbar, .is-embed .site-footer { display: none !important; }
+.is-embed body { background: transparent; }
+.is-embed .at-main { width: 100%; padding: 0 0 8px; }
+.is-embed .at-hero { border-radius: 14px; }
