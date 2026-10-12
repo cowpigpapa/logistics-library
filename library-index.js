@@ -14,6 +14,7 @@
 
   // 트리 순서대로 모든 문서를 한 줄로 펼친 목록(이전·다음 문서용)
   let fromTree = false;   // 색인 안에서 누른 이동인지
+  let allOpen = false;    // '모두 펼치기'를 누른 뒤에는 여러 카테고리를 함께 펼쳐 둔다
   const flat = [];
   const cats = {};
   DATA.forEach(g => g.cats.forEach(c => {
@@ -38,7 +39,16 @@
   function remember() {
     store.set([...tree.querySelectorAll('.li-cat[open]')].map(d => d.dataset.slug));
   }
-  tree.addEventListener('toggle', remember, true);
+  // 하나를 펼치면 나머지는 접는다('모두 펼치기' 상태가 아닐 때).
+  function closeOthers(keep) {
+    if (allOpen) return;
+    tree.querySelectorAll('.li-cat[open]').forEach(d => { if (d !== keep) d.open = false; });
+  }
+  tree.addEventListener('toggle', e => {
+    const d = e.target;
+    if (d.classList && d.classList.contains('li-cat') && d.open) closeOthers(d);
+    remember();
+  }, true);
   // 카테고리 줄의 '목록' 버튼: 줄을 접거나 펴지 않고 전체 목록만 연다.
   tree.addEventListener('click', e => {
     const a = e.target.closest('.li-cat-home');
@@ -58,7 +68,7 @@
     if (!a) return;
     a.classList.add('is-active');
     const cat = a.closest('.li-cat');
-    if (cat && !cat.open) { cat.open = true; remember(); }
+    if (cat && !cat.open) { cat.open = true; closeOthers(cat); remember(); }
     // 색인에서 직접 누른 것이면 색인을 움직이지 않는다. 주소로 바로 들어왔거나 본문 링크로 옮겨 갔을 때만
     // 고른 줄이 보이게 색인 상자 안에서 굴린다.
     if (fromTree) { fromTree = false; return; }
@@ -90,9 +100,14 @@
     scrollTopView();
   }
 
+  // 첫 화면(카테고리 소개). 페이지에 미리 들어 있는 HTML을 다시 보여 준다.
+  const HOME = view.innerHTML;
   function showWelcome() {
-    document.title = '자료 색인 · Logistics Library';
+    if (view.innerHTML !== HOME) view.innerHTML = HOME;
+    tree.querySelectorAll('a.is-active').forEach(a => a.classList.remove('is-active'));
+    document.title = HOME_TITLE;
   }
+  const HOME_TITLE = document.title;
 
   let seq = 0;
   async function showDoc(slug, id) {
@@ -183,8 +198,8 @@
     const [slug, id] = decodeURIComponent(location.hash.slice(1)).split('/');
     if (slug && cats[slug]) markActive(slug, id || null);
   }
-  $('liOpenAll').addEventListener('click', () => { tree.querySelectorAll('.li-cat').forEach(d => (d.open = true)); remember(); });
-  $('liCloseAll').addEventListener('click', () => { tree.querySelectorAll('.li-cat').forEach(d => (d.open = false)); remember(); });
+  $('liOpenAll').addEventListener('click', () => { allOpen = true; tree.querySelectorAll('.li-cat').forEach(d => (d.open = true)); remember(); });
+  $('liCloseAll').addEventListener('click', () => { allOpen = false; tree.querySelectorAll('.li-cat').forEach(d => (d.open = false)); remember(); });
 
   // 색인 상자 높이를 화면에 맞춘다(색인만 따로 스크롤된다).
   function fitSide() {
@@ -195,6 +210,7 @@
   window.addEventListener('resize', fitSide);
 
   renderTree();
+  allOpen = tree.querySelectorAll('.li-cat[open]').length > 1;
   fitSide();
   window.addEventListener('hashchange', route);
   route();
