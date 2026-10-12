@@ -78,7 +78,6 @@
     const c = cats[slug];
     if (!c) return showWelcome();
     view.innerHTML = `<div class="li-cat-page"><p class="li-kicker">${esc(c.name)}</p><h2>${esc(c.sub)}</h2>
-      <p class="li-cat-link"><a href="/library/${slug}">카테고리 첫 화면(공식 자료·질문으로 찾기) 열기 ↗</a></p>
       ${c.sections.map(s => `<section><h3>${esc(s.title)}</h3><ul class="li-doc-list">${s.docs.map(id => {
         const d = c.docs[id];
         return `<li><a href="#${slug}/${id}"><b>${esc(d.title)}</b><span>${esc(d.summary)}</span></a></li>`;
