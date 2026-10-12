@@ -243,3 +243,8 @@
 .li-tool-frame { display: block; width: 100%; border: 0; border-radius: 14px; background: transparent; }
 .li-tree a.li-tool.is-active { background: #fbe0bd; box-shadow: inset 3px 0 0 #b45309; }
 .li-tool::after { content: none; }
+/* 메인(색인) 화면: 푸터를 화면 아래에 늘 보이게 고정한다. 본문 끝이 푸터에 가리지 않게 아래 여백을 둔다. */
+@media (min-width: 901px) {
+  .li-body .site-footer { position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; }
+  .li-body .li-main { padding-bottom: 76px; }
+}
