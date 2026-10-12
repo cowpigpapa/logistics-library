@@ -27,7 +27,7 @@
     tree.innerHTML = DATA.map(g => `<div class="li-group"><p class="li-group-name">${esc(g.group)}</p>${g.cats.map(c => {
       const n = Object.keys(c.docs).length;
       return `<details class="li-cat" data-slug="${c.slug}" ${open.has(c.slug) ? 'open' : ''}>
-        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${n}</span><a class="li-cat-home" href="#${c.slug}" data-slug="${c.slug}" title="${esc(c.sub)} · 문서 전체 목록">목록</a></summary>
+        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${n}</span><a class="li-cat-home" href="#${c.slug}" data-slug="${c.slug}" title="${esc(c.name)} 요약: 설명과 그림">요약</a></summary>
         ${c.sections.map(s => `<div class="li-sec"><p class="li-sec-name">${esc(s.title)}</p><ul>${s.docs.map(id => {
           const d = c.docs[id];
           return `<li><a href="#${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}">${esc(d.short || d.title)}</a></li>`;
@@ -49,13 +49,13 @@
     if (d.classList && d.classList.contains('li-cat') && d.open) closeOthers(d);
     remember();
   }, true);
-  // 카테고리 줄의 '목록' 버튼: 줄을 접거나 펴지 않고 전체 목록만 연다.
+  // 카테고리 줄의 '요약' 버튼: 줄을 접거나 펴지 않고 그 카테고리의 설명과 그림을 연다.
   tree.addEventListener('click', e => {
     const a = e.target.closest('.li-cat-home');
     if (!a) return;
     e.preventDefault();
     const cat = a.closest('.li-cat');
-    // 이미 이 카테고리 목록을 보고 있고 펼쳐져 있으면 한 번 더 눌렀을 때 접는다.
+    // 이미 이 카테고리 요약을 보고 있고 펼쳐져 있으면 한 번 더 눌렀을 때 접는다.
     if (cat && cat.open && decodeURIComponent(location.hash.slice(1)) === a.dataset.slug) { cat.open = false; remember(); return; }
     if (cat && !cat.open) { cat.open = true; remember(); }
     location.hash = a.dataset.slug;
@@ -87,17 +87,49 @@
     return `<nav class="li-pager" aria-label="이전·다음 문서">${cell(flat[i - 1], '← 이전')}${cell(flat[i + 1], '다음 →')}</nav>`;
   }
 
+  // 요약: 첫 화면(홈)에 있는 그 카테고리의 소개(설명·수치·그림)를 그대로 보여 준다.
+  function entryFor(slug) {
+    const box = document.createElement('div');
+    box.innerHTML = HOME;
+    const link = box.querySelector(`.library-entry a.entry-link[href="/library/${slug}"]`);
+    return link ? link.closest('.library-entry').outerHTML : '';
+  }
   function showCategory(slug) {
     const c = cats[slug];
     if (!c) return showWelcome();
-    view.innerHTML = `<div class="li-cat-page"><p class="li-kicker">${esc(c.name)}</p><h2>${esc(c.sub)}</h2>
-      ${c.sections.map(s => `<section><h3>${esc(s.title)}</h3><ul class="li-doc-list">${s.docs.map(id => {
-        const d = c.docs[id];
-        return `<li><a href="#${slug}/${id}"><b>${esc(d.title)}</b><span>${esc(d.summary)}</span></a></li>`;
-      }).join('')}</ul></section>`).join('')}</div>`;
-    document.title = `${c.name} · 자료 색인 · Logistics Library`;
+    const entry = entryFor(slug);
+    view.innerHTML = `<p class="li-kicker">${esc(c.name)} · 요약</p><div class="li-home li-summary">${entry || `<h2>${esc(c.name)}</h2><p>${esc(c.sub)}</p>`}</div>`;
+    document.title = `${c.name} 요약 · Logistics Library`;
     markActive(slug, null);
     scrollTopView();
+  }
+
+  // 개요: 카테고리 첫 화면(정적 페이지)에서 소개·범위와 출처·공식 자료·질문으로 찾기만 가져온다.
+  // 문서 카드 목록은 왼쪽 색인과 겹치므로 뺀다.
+  async function showOverview(slug) {
+    const c = cats[slug];
+    if (!c) return showWelcome();
+    const my = ++seq;
+    markActive(slug, null);
+    view.classList.add('is-loading');
+    try {
+      const res = await fetch(`/library/${slug}`);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+      const body = doc.getElementById('libraryView');
+      if (!body) throw new Error('본문 없음');
+      body.querySelectorAll('details.lib-section:not(.lib-official):not(.lib-path)').forEach(el => el.remove());
+      body.querySelectorAll('details.lib-official, details.lib-path').forEach(el => el.setAttribute('open', ''));
+      if (my !== seq) return;
+      view.innerHTML = `<p class="li-kicker">${esc(c.name)} · 개요</p>${body.innerHTML}`;
+      document.title = `${c.name} 개요 · Logistics Library`;
+      scrollTopView();
+    } catch (e) {
+      if (my !== seq) return;
+      view.innerHTML = `<div class="li-error"><p>개요를 불러오지 못했습니다(${esc(e.message)}).</p><p><a href="/library/${slug}">카테고리 페이지에서 열기 ↗</a></p></div>`;
+    } finally {
+      if (my === seq) view.classList.remove('is-loading');
+    }
   }
 
   // 첫 화면(카테고리 소개). 페이지에 미리 들어 있는 HTML을 다시 보여 준다.
@@ -124,7 +156,7 @@
       if (!body) throw new Error('본문 없음');
       body.querySelectorAll('.lib-crumb, .bat-pager').forEach(el => el.remove());
       if (my !== seq) return;
-      view.innerHTML = `<p class="li-kicker"><a href="#${slug}">${esc(c.name)}</a></p>${body.innerHTML}${pagerHtml(slug, id)}`;
+      view.innerHTML = `<p class="li-kicker"><a href="#${slug}/overview">${esc(c.name)}</a></p>${body.innerHTML}${pagerHtml(slug, id)}`;
       document.title = `${d.title} · ${c.name} · Logistics Library`;
       scrollTopView();
     } catch (e) {
@@ -143,7 +175,7 @@
   function route() {
     const h = decodeURIComponent(location.hash.slice(1));
     const [slug, id] = h.split('/');
-    if (slug && cats[slug]) return id ? showDoc(slug, id) : showCategory(slug);
+    if (slug && cats[slug]) return id === 'overview' ? showOverview(slug) : id ? showDoc(slug, id) : showCategory(slug);
     showWelcome();
   }
 
@@ -155,7 +187,7 @@
     const m = href.match(/^\/library\/([a-z0-9-]+)(?:\/([a-z0-9-]+))?\/?(#.*)?$/i);
     if (m && cats[m[1]] && (!m[2] || cats[m[1]].docs[m[2]])) {
       e.preventDefault();
-      location.hash = m[2] ? `${m[1]}/${m[2]}` : m[1];
+      location.hash = m[2] ? `${m[1]}/${m[2]}` : `${m[1]}/overview`;
       return;
     }
     if (href.startsWith('#') && !href.slice(1).includes('/') && !cats[href.slice(1)]) {
@@ -196,7 +228,7 @@
   });
   function markFromHash() {
     const [slug, id] = decodeURIComponent(location.hash.slice(1)).split('/');
-    if (slug && cats[slug]) markActive(slug, id || null);
+    if (slug && cats[slug]) markActive(slug, id && id !== 'overview' ? id : null);
   }
   $('liOpenAll').addEventListener('click', () => { allOpen = true; tree.querySelectorAll('.li-cat').forEach(d => (d.open = true)); remember(); });
   $('liCloseAll').addEventListener('click', () => { allOpen = false; tree.querySelectorAll('.li-cat').forEach(d => (d.open = false)); remember(); });
