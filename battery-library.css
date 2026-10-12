@@ -89,11 +89,8 @@
   font-size: 13px;
 }
 .library-view .law-toc a {
-  overflow: hidden;
   color: #2b3230;
   text-decoration: none;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .library-view .law-toc a:hover {
   color: #0071e3;
@@ -156,6 +153,10 @@
   white-space: nowrap;
 }
 .library-view .bat-translation table.lib-table {
+  /* 넓은 번역 표는 표 자체가 가로로 스크롤된다(문단 전체가 옆으로 밀리지 않게) */
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
   margin: 10px 0;
 }
 .library-view .bat-translation table.lib-table td,

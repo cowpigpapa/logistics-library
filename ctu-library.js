@@ -1903,7 +1903,7 @@
   const checkedLine = doc =>
     `<p class="lib-checked">원문 대조 확인 ${esc(doc.checked || CHECKED)}${CHECK_NOTES[doc.id] ? ` · ${esc(CHECK_NOTES[doc.id])}` : ''}</p>`;
   function renderDoc(view, doc) {
-    view.innerHTML = `<nav class="lib-crumb"><a href="/library/ctu-code">← CTU Code</a></nav><article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc.id)}</span><h2>${esc(doc.title)}</h2>${checkedLine(doc)}${doc.body.replace('<!--lib-map-->', mapTable())}</article>`;
+    view.innerHTML = `<nav class="lib-crumb"><a href="/library/ctu-code">← CTU Code</a></nav><article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc.id)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1>${checkedLine(doc)}${doc.body.replace('<!--lib-map-->', mapTable())}</article>`;
     fitTableColumns(view);
   }
   // 표의 열 가운데 칸이 모두 짧은 열(항목 이름·근거·방식 등)은 한 줄로 둔다. 그러면 표가 그 열에 필요한 폭을 먼저 주고,

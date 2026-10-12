@@ -8,7 +8,7 @@ import re, sys
 from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
-V = '20261012-40'   # library-index.css/js, library-index-data.js 캐시 버전
+V = '20261012-41'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')
@@ -77,7 +77,7 @@ html = f'''<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {seo}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
-{css}  <link rel="stylesheet" href="/battery-library.css?v=20261005-02">
+{css}  <link rel="stylesheet" href="/battery-library.css?v=20261012-01">
   <link rel="stylesheet" href="/uld-library.css?v=20261006-01">
   <link rel="stylesheet" href="/incoterms-library.css?v=20261005-03">
   <link rel="stylesheet" href="/library-index.css?v={V}">

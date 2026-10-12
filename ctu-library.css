@@ -809,3 +809,17 @@
 .library-view .lib-table td:first-child { font-weight: 600; color: #1f3550; }
 .library-view .lib-source { background: #fafbfa; border-radius: 0 8px 8px 0; }
 .library-view .lib-summary { box-shadow: 0 1px 0 rgba(31, 95, 174, .06); }
+
+/* 문서 제목은 h1(검색엔진·스크린리더용). 모양은 예전 h2와 같다. */
+.library-view .lib-article h1.lib-doc-title { margin: 8px 0 12px; font-size: 24px; line-height: 1.3; }
+/* 좁은 화면: 가로로 넘치는 표에 좌우 그림자를 넣어 옆으로 밀 수 있다는 것을 알린다 */
+@media (max-width: 640px) {
+  .library-view .lib-table {
+    background:
+      linear-gradient(to right, #fff 30%, rgba(255, 255, 255, 0)) left / 40px 100% no-repeat local,
+      linear-gradient(to left, #fff 30%, rgba(255, 255, 255, 0)) right / 40px 100% no-repeat local,
+      radial-gradient(farthest-side at 0 50%, rgba(18, 50, 80, .18), rgba(18, 50, 80, 0)) left / 14px 100% no-repeat scroll,
+      radial-gradient(farthest-side at 100% 50%, rgba(18, 50, 80, .18), rgba(18, 50, 80, 0)) right / 14px 100% no-repeat scroll;
+  }
+  .library-view .lib-table tbody tr:nth-child(even) > td { background: transparent; }
+}

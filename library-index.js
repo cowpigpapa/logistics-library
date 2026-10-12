@@ -67,7 +67,8 @@
   }
   tree.addEventListener('toggle', e => {
     const d = e.target;
-    if (d.classList && d.classList.contains('li-cat') && d.open) closeOthers(d);
+    // 검색으로 여러 카테고리를 펼친 동안에는 다른 카테고리를 접지 않는다.
+    if (d.classList && d.classList.contains('li-cat') && d.open && !$('liFilter').value.trim()) closeOthers(d);
     remember();
   }, true);
 
