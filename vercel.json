@@ -258,5 +258,12 @@
       "path": "/api/check-doc-links",
       "schedule": "30 18 * * *"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/library-index",
+      "destination": "/",
+      "permanent": true
+    }
   ]
 }

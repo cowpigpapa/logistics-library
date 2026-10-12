@@ -29,7 +29,6 @@ NAV = [
 
 # 페이지 파일 → 지금 보고 있는 메뉴 주소
 PAGES = {
-    'index.html': None,
     'privacy.html': None,
     'library.html': '/library/ctu-code',
     'incoterms-library.html': '/library/incoterms-2020',

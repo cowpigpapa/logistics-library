@@ -23,6 +23,10 @@
   (() => {
     const box = document.createElement('div');
     box.innerHTML = HOME;
+    box.querySelectorAll('.li-tool-card').forEach(card => {
+      const t = card.querySelector('.li-kicker-sub');
+      if (t) TYPE['tool:' + card.getAttribute('href').slice(1)] = t.textContent.trim();
+    });
     box.querySelectorAll('.library-entry').forEach(sec => {
       const link = sec.querySelector('.li-entry-h a[href^="/"]');
       const t = sec.querySelector('.li-entry-h .li-kicker-sub, .entry-type');
@@ -45,13 +49,16 @@
   function renderTree() {
     const open = new Set(store.get());
     tree.innerHTML = DATA.map(g => `<div class="li-group"><p class="li-group-name">${esc(g.group)}</p>${g.cats.map(c => `
+      <div class="li-cat-wrap">
+      <a class="li-ov" href="#${c.slug}" data-slug="${c.slug}" title="${esc(c.name)} 개요 및 원문">개요</a>
       <details class="li-cat" data-slug="${c.slug}" ${open.has(c.slug) ? 'open' : ''}>
-        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${c.sections.reduce((n, s) => n + s.docs.length, 0)}</span><a class="li-ov" href="#${c.slug}" data-slug="${c.slug}" title="${esc(c.name)} 개요 및 원문">개요 및 원문</a></summary>
+        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${c.sections.reduce((n, s) => n + s.docs.length, 0)}</span></summary>
         ${c.sections.map(s => `<div class="li-sec"><p class="li-sec-name">${esc(s.title)}</p><ul>${s.docs.map(id => {
           const d = c.docs[id];
-          return `<li><a href="#${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}">${esc(d.short || d.title)}</a></li>`;
+          return `<li><a href="#${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}" data-s="${esc((d.tag || '') + ' ' + (d.summary || ''))}">${esc(d.short || d.title.split(' — ')[0])}</a></li>`;
         }).join('')}</ul></div>`).join('')}
-      </details>`).join('')}${(g.links || []).map(l => `<a class="li-tool" href="#tool${l.href}" data-tool="${l.href.slice(1)}"><span class="li-cat-name">${esc(l.name)}</span><small>${esc(l.sub)}</small></a>`).join('')}</div>`).join('');
+      </details>
+      </div>`).join('')}${(g.links || []).map(l => `<a class="li-tool" href="#tool${l.href}" data-tool="${l.href.slice(1)}"><span class="li-cat-name">${esc(l.name)}</span><small>${esc(l.sub)}</small></a>`).join('')}</div>`).join('');
   }
   function remember() { store.set([...tree.querySelectorAll('.li-cat[open]')].map(d => d.dataset.slug)); }
   function closeOthers(keep) {
@@ -70,7 +77,7 @@
     const a = tree.querySelector(id ? `a[data-slug="${slug}"][data-id="${id}"]` : `a.li-ov[data-slug="${slug}"]`);
     if (!a) return;
     a.classList.add('is-active');
-    const cat = a.closest('.li-cat');
+    const cat = a.closest('.li-cat') || a.closest('.li-cat-wrap').querySelector('.li-cat');
     if (cat && !cat.open) { cat.open = true; closeOthers(cat); remember(); }
     if (fromTree) { fromTree = false; return; }
     // 주소로 바로 들어왔거나 본문 링크로 옮겨 갔을 때만 고른 줄이 보이게 색인 상자 안에서 굴린다.
@@ -212,7 +219,7 @@
     const a = e.target.closest('.li-ov');
     if (!a) return;
     e.preventDefault();
-    const cat = a.closest('.li-cat');
+    const cat = a.closest('.li-cat-wrap').querySelector('.li-cat');
     if (cat.open && decodeURIComponent(location.hash.slice(1)) === a.dataset.slug) { cat.open = false; remember(); return; }
     if (!cat.open) { cat.open = true; closeOthers(cat); remember(); }
     fromTree = true;
@@ -232,21 +239,28 @@
     $('liToggle').setAttribute('aria-expanded', String(open));
   });
 
-  // 제목으로 거르기
+  // 제목·요약·태그로 거르기. 맞는 문서가 없으면 안내를 띄운다.
   $('liFilter').addEventListener('input', e => {
     const q = e.target.value.trim().toLowerCase();
+    tree.querySelector('.li-empty')?.remove();
     if (!q) { renderTree(); markFromHash(); return; }
+    let total = 0;
     tree.querySelectorAll('.li-cat').forEach(cat => {
       let hits = 0;
       cat.querySelectorAll('li').forEach(li => {
         const a = li.querySelector('a');
-        const ok = (a.textContent + ' ' + a.title).toLowerCase().includes(q);
+        const ok = (a.textContent + ' ' + a.title + ' ' + (a.dataset.s || '')).toLowerCase().includes(q);
         li.hidden = !ok; if (ok) hits++;
       });
       cat.querySelectorAll('.li-sec').forEach(s => { s.hidden = !s.querySelector('li:not([hidden])'); });
-      cat.hidden = !hits && !cat.querySelector('.li-cat-name').textContent.toLowerCase().includes(q);
+      const nameHit = cat.querySelector('.li-cat-name').textContent.toLowerCase().includes(q);
+      cat.closest('.li-cat-wrap').hidden = !hits && !nameHit;
       cat.open = hits > 0;
+      total += hits + (nameHit ? 1 : 0);
     });
+    tree.querySelectorAll('.li-tool').forEach(t => { const ok = t.textContent.toLowerCase().includes(q); t.hidden = !ok; if (ok) total++; });
+    tree.querySelectorAll('.li-group').forEach(g => { g.hidden = !g.querySelector('.li-cat-wrap:not([hidden]), .li-tool:not([hidden])'); });
+    if (!total) tree.insertAdjacentHTML('afterbegin', `<p class="li-empty">'${esc(e.target.value.trim())}'와 일치하는 문서가 없습니다.</p>`);
   });
   function markFromHash() {
     fromTree = false;
