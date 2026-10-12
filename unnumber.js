@@ -92,7 +92,7 @@
       `<div class="un-f un-props"><dt>특성</dt><dd>${props === null ? '<span class="un-extra un-loading">불러오는 중…</span>' : (props ? esc(props) : '<span class="un-none">-</span>')}</dd></div>` +
       '</dl>';
     if (r.x) {
-      html += `<p class="un-x"><b>BAM 데이터와 다름</b> ${esc(r.x)}<br>위 값은 고시 원문 그대로이고, BAM(IMDG Amdt. 42-24) 표기를 참고로 덧붙였습니다. 서류에 적을 때는 IMDG Code 원문을 확인하세요.<br><small class="un-bam">Source: Bundesanstalt für Materialforschung und -prüfung (BAM) – Datenbank GEFAHRGUT – URL: <a href="https://tes.bam.de/en/dangerous-goods-database" target="_blank" rel="noopener">https://tes.bam.de/en/dangerous-goods-database</a> · Licence: <a href="https://www.govdata.de/dl-de/by-2-0" target="_blank" rel="noopener">dl-de/by-2-0</a> · Changes: 고시 값과 다른 값만 옮겨 적음</small></p>`;
+      html += `<p class="un-x"><b>BAM 데이터와 다름</b> ${esc(r.x)}<br>위 값은 고시 원문 그대로이고, BAM(IMDG Amdt. 42-24) 표기를 참고로 덧붙였습니다. 서류에 적을 때는 IMDG Code 원문을 확인하세요.</p>`;
     }
     return html;
   }
