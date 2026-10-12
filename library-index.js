@@ -18,6 +18,18 @@
   let fromTree = false;              // 색인 안에서 누른 이동이면 색인을 굴리지 않는다
   let allOpen = false;               // '모두 펼치기' 뒤에는 여러 카테고리를 함께 펼쳐 둔다
   let seq = 0;                       // 늦게 도착한 응답이 화면을 덮지 않게
+  // 카테고리 이름 옆에 붙일 분류 줄(홈 카드의 'IMO · ILO · UNECE' 등)
+  const TYPE = {};
+  (() => {
+    const box = document.createElement('div');
+    box.innerHTML = HOME;
+    box.querySelectorAll('.library-entry').forEach(sec => {
+      const link = sec.querySelector('a.entry-link[href^="/library/"]');
+      const t = sec.querySelector('.entry-type');
+      if (link && t) TYPE[link.getAttribute('href').split('/')[2]] = t.textContent.trim();
+    });
+  })();
+  const kicker = (slug, name) => `<p class="li-kicker"><a href="#${slug}">${esc(name)}</a>${TYPE[slug] ? `<span class="li-kicker-sub">${esc(TYPE[slug])}</span>` : ''}</p>`;
 
   // 트리 순서대로 모든 문서(이전·다음 문서용)
   const flat = [], cats = {};
@@ -127,7 +139,7 @@
         src = `<section class="li-src"><h3>원문과 공식 자료</h3>${table ? table.outerHTML : ''}${notes}</section>`;
       }
       document.title = `${c.name} 개요 및 원문 · Logistics Library`;
-      return `<p class="li-kicker"><a href="#${slug}">${esc(c.name)}</a></p><div class="li-home li-overview">${entry ? entry.outerHTML : `<p>${esc(c.sub)}</p>`}</div>
+      return `${kicker(slug, c.name)}<div class="li-home li-overview">${entry ? entry.outerHTML : `<p>${esc(c.sub)}</p>`}</div>
         ${notice ? `<div class="li-notice">${notice.innerHTML}</div>` : ''}${summary}${src}`;
     });
   }
@@ -149,7 +161,7 @@
       const body = await page(`/library/${slug}/${id}`);
       body.querySelectorAll('.lib-crumb, .bat-pager').forEach(el => el.remove());
       document.title = `${d.title} · ${c.name} · Logistics Library`;
-      return `<p class="li-kicker"><a href="#${slug}">${esc(c.name)}</a></p>${body.innerHTML}${pagerHtml(slug, id)}`;
+      return `${kicker(slug, c.name)}${body.innerHTML}${pagerHtml(slug, id)}`;
     });
   }
 
