@@ -169,3 +169,9 @@
 .li-group:nth-child(2) .li-group-name { color: #0f7b6c; }
 .li-group:nth-child(3) .li-group-name { color: #b45309; }
 .li-sec-name { color: #2f6fb3; }
+
+/* 도구 바로가기: 펼치는 줄이 아니라 해당 도구 페이지로 이동 */
+.li-tool { display: flex; align-items: baseline; gap: 8px; margin-top: 4px; padding: 7px 8px; border-radius: 8px; background: #fdf4e7; color: #8a4a06; text-decoration: none; font-weight: 700; }
+.li-tool small { font-weight: 500; font-size: 12px; color: #a3672a; }
+.li-tool::after { content: '↗'; margin-left: auto; font-size: 12px; }
+.li-tool:hover { background: #fbe8cf; }

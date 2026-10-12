@@ -31,7 +31,7 @@
           return `<li><a href="#${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}">${esc(d.short || d.title)}</a></li>`;
         }).join('')}</ul></div>`).join('')}
       </details>`;
-    }).join('')}</div>`).join('');
+    }).join('')}${(g.links || []).map(l => `<a class="li-tool" href="${l.href}"><span class="li-cat-name">${esc(l.name)}</span><small>${esc(l.sub)}</small></a>`).join('')}</div>`).join('');
   }
 
   function remember() {

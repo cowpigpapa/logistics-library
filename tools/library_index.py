@@ -35,7 +35,7 @@ def menu_order():
     nav = src[src.index('NAV = ['):src.index('\n]\n', src.index('NAV = [')) + 2]
     ns = {}
     exec(nav, ns)
-    return [(g, href, name, sub) for g, items in ns['NAV'] for href, name, sub in items if href.startswith('/library/')]
+    return [(g, href, name, sub) for g, items in ns['NAV'] for href, name, sub in items]
 
 
 def main():
@@ -43,6 +43,12 @@ def main():
     cats = {c['base']: c for c in prerender.categories(vercel)}
     groups = []
     for g, href, name, sub in menu_order():
+        if not href.startswith('/library/'):
+            # 도구 페이지(AWB·Container Tracking, UN Number)는 본문이 아니라 바로가기로 둔다.
+            if not groups or groups[-1]['group'] != g:
+                groups.append({'group': g, 'cats': [], 'links': []})
+            groups[-1].setdefault('links', []).append({'href': href, 'name': name, 'sub': sub})
+            continue
         c = cats.get(href)
         if not c:
             print('skip (no category):', href)
