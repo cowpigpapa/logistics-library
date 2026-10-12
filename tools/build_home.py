@@ -4,11 +4,11 @@
 - 카테고리 카드 원본: tools/home-cards.html (순서는 tools/menu.py의 NAV를 따른다)
 - 색인 데이터: tools/library_index.py가 만드는 library-index-data.js
 카드나 메뉴를 바꾼 뒤 `python tools/library_index.py && python tools/build_home.py`를 실행한다."""
-import re, sys
+import json, re, sys
 from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
-V = '20261012-42'   # library-index.css/js, library-index-data.js 캐시 버전
+V = '20261012-43'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')
@@ -58,6 +58,7 @@ nav_src = menu[menu.index('NAV = ['):menu.index('\n]\n', menu.index('NAV = [')) 
 ns = {}
 exec(nav_src, ns)
 blocks = []
+tool_types = {}
 for gi, (group, items) in enumerate(ns['NAV']):
     secs = [by_href.pop(href) for href, _, _ in items if href in by_href]
     if not secs:
@@ -66,7 +67,11 @@ for gi, (group, items) in enumerate(ns['NAV']):
     # 카드의 기관명(분류 줄)은 그 묶음의 분류색으로
     secs = [s.replace('<span class="li-kicker-sub">', f'<span class="li-kicker-sub g{gi + 1}">') for s in secs]
     if all(not h.startswith('/library/') for h, _, _ in items):
-        blocks.append('<div class="li-tool-grid">' + ''.join(tool_card(s) for s in secs) + '</div>')
+        # 도구는 첫 화면에 카드로 두지 않는다(왼쪽 색인에 있다). 도구 화면 머리의 분류 줄만 넘겨 둔다.
+        blocks.pop()   # 방금 넣은 '도구' 묶음 이름
+        for s in secs:
+            href = re.search(r'<a href="/([^"]+)">', s).group(1)
+            tool_types[href] = re.search(r'<span class="li-kicker-sub[^"]*">(.*?)</span>', s).group(1)
     else:
         blocks += secs
 blocks += list(by_href.values())
@@ -96,7 +101,7 @@ html = f'''<!doctype html>
     </div>
     <nav class="li-tree" id="liTree"></nav>
   </aside>
-  <article class="li-view library-view" id="liView" tabindex="-1" aria-live="polite">
+  <article class="li-view library-view" id="liView" tabindex="-1" aria-live="polite" data-tool-types='{json.dumps(tool_types, ensure_ascii=False)}'>
     <div class="li-home">
       <header class="li-intro"><h1>Logistics Library</h1><p>물류 규정·운송 실무 자료를 주제별로 정리했습니다. 왼쪽 색인에서 고르면 이 자리에서 바로 읽을 수 있습니다.</p></header>
 {home}
@@ -111,4 +116,4 @@ html = f'''<!doctype html>
 </html>
 '''
 (ROOT / 'index.html').write_text(html, encoding='utf-8', newline='\n')
-print('index.html 생성: 카드', len(re.findall(r'class="library-entry"', home)), '도구', home.count('li-tool-card'))
+print('index.html 생성: 카드', len(re.findall(r'class="library-entry"', home)), '도구 분류 줄', len(tool_types))

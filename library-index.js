@@ -26,10 +26,7 @@
   (() => {
     const box = document.createElement('div');
     box.innerHTML = HOME;
-    box.querySelectorAll('.li-tool-card').forEach(card => {
-      const t = card.querySelector('.li-kicker-sub');
-      if (t) TYPE['tool:' + card.getAttribute('href').slice(1)] = t.textContent.trim();
-    });
+    try { Object.entries(JSON.parse(view.dataset.toolTypes || '{}')).forEach(([k, v]) => { TYPE['tool:' + k] = v; }); } catch (_) {}
     box.querySelectorAll('.library-entry').forEach(sec => {
       const link = sec.querySelector('.li-entry-h a[href^="/"]');
       const t = sec.querySelector('.li-entry-h .li-kicker-sub, .entry-type');
