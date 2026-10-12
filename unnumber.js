@@ -175,6 +175,7 @@
     body.innerHTML = result.rows.slice(start, start + PAGE).map(r => rowHtml(r, result.q)).join('');
     pager.innerHTML = pagerHtml();
     pager.hidden = pageCount() <= 1;
+    $('unScroll').scrollTop = 0;
   }
   pager.addEventListener('click', event => {
     const b = event.target.closest('button[data-page]');
@@ -258,4 +259,15 @@
 
   search_.value = new URLSearchParams(location.search).get('q') || '';
   render();
+
+  // 표 안쪽만 스크롤되게 높이를 화면에 맞춘다(검색창은 위에 그대로 보인다).
+  function fitScroll() {
+    const box = document.querySelector('.at-scroll');
+    if (!box) return;
+    const top = box.getBoundingClientRect().top + window.scrollY;
+    const below = 96;
+    box.style.maxHeight = Math.max(320, window.innerHeight - top - below) + 'px';
+  }
+  window.addEventListener('resize', fitScroll);
+  requestAnimationFrame(fitScroll);
 })();

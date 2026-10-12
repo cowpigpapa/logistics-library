@@ -73,9 +73,30 @@
     {
       "source": "/library/charges/:id",
       "destination": "/charges-library"
+    },
+    {
+      "source": "/library/container",
+      "destination": "/container-library"
+    },
+    {
+      "source": "/library/container/:id",
+      "destination": "/container-library"
     }
   ],
   "headers": [
+    {
+      "source": "/cn-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
     {
       "source": "/term-review",
       "headers": [

@@ -348,3 +348,14 @@
 
 /* BAM 출처 표시(라이선스 조건): 차이 안내 상자 안에 작게 */
 .un-x .un-bam { display: block; margin-top: 6px; font-size: 11.5px; color: #5f6b7a; overflow-wrap: anywhere; }
+/* 표 위 범례 */
+.un-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+.un-legend > span { display: inline-flex; align-items: center; gap: 6px; }
+.un-legend .un-warn { margin-left: 0; }
+.un-badge-ex { display: inline-block; padding: 1px 8px; border-radius: 6px; background: linear-gradient(90deg, #d4281d 0 33%, #f59e0b 33% 66%, #1f5fae 66%); color: #fff; font-size: 11px; font-weight: 800; }
+/* 목록 머리는 스크롤해도 위에 붙어 있다 */
+#unScroll .un-head { position: sticky; top: 0; z-index: 1; }
+
+/* 위쪽 여백 축소 */
+.un-role { margin-top: 14px; padding: 10px 14px; font-size: 13.5px; }
+.un-legend { margin-bottom: 8px; }

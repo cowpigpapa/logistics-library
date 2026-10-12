@@ -221,4 +221,15 @@
   render();
   if (owner) renderAdmin();
   loadStatus();
+
+  // 표 안쪽만 스크롤되게 높이를 화면에 맞춘다(검색창은 위에 그대로 보인다).
+  function fitScroll() {
+    const box = document.querySelector('.at-scroll');
+    if (!box) return;
+    const top = box.getBoundingClientRect().top + window.scrollY;
+    const below = 28;
+    box.style.maxHeight = Math.max(320, window.innerHeight - top - below) + 'px';
+  }
+  window.addEventListener('resize', fitScroll);
+  requestAnimationFrame(fitScroll);
 })();

@@ -501,3 +501,18 @@
   background: #f9fbfe;
 }
 .at-admin[hidden] { display: none; }
+
+/* 표 안쪽만 스크롤: 위의 검색창은 그대로 두고 목록만 넘긴다. 높이는 각 페이지 스크립트(fitScroll)가 화면에 맞춘다. */
+.at-scroll { overflow: auto; max-height: 70vh; overscroll-behavior: contain; }
+.at-scroll .at-table thead th { position: sticky; top: 0; z-index: 1; }
+.at-notice { display: grid; gap: 6px; margin-top: 18px; padding: 14px 16px; border-left: 4px solid #e0a100; border-radius: 10px; background: #fff8e6; color: #5c4300; font-size: 14px; line-height: 1.65; }
+.at-notice p { margin: 0; }
+.at-notice a { color: inherit; text-decoration: underline; }
+/* 목록을 화면 안에 담기 위해 도구 페이지의 위쪽 여백을 줄인다 */
+.at-main { padding-top: 24px; }
+.at-hero { padding: 24px 28px 22px; }
+.at-hero h1 { margin-bottom: 6px; font-size: clamp(24px, 3.2vw, 30px); }
+.at-lead { margin-bottom: 16px; }
+.at-notice { margin-top: 14px; padding: 10px 14px; font-size: 13.5px; }
+.at-section { margin-top: 20px; }
+.at-search input { padding-top: 12px; padding-bottom: 12px; }
