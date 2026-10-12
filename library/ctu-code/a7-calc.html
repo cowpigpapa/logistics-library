@@ -17,7 +17,7 @@
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "@id": "https://logistics.onharu.app/library/ctu-code/a7-calc#article", "headline": "고정 계산 — 각재·무게중심·더니지 백", "name": "고정 계산 — 각재·무게중심·더니지 백 · CTU Code · Logistics Library", "description": "가로 각재 저항력, 무게중심 위치, 더니지 백 계산을 정리합니다.", "url": "https://logistics.onharu.app/library/ctu-code/a7-calc", "mainEntityOfPage": "https://logistics.onharu.app/library/ctu-code/a7-calc", "inLanguage": "ko", "image": ["https://logistics.onharu.app/images/ctu/collapsed-cargo-v2.webp"], "datePublished": "2026-10-03T18:10:15+09:00", "dateModified": "2026-10-12T01:19:18+09:00", "author": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "publisher": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "isPartOf": {"@type": "CollectionPage", "@id": "https://logistics.onharu.app/library/ctu-code", "name": "CTU Code", "url": "https://logistics.onharu.app/library/ctu-code"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Logistics Library", "item": "https://logistics.onharu.app/"}, {"@type": "ListItem", "position": 2, "name": "CTU Code", "item": "https://logistics.onharu.app/library/ctu-code"}, {"@type": "ListItem", "position": 3, "name": "고정 계산", "item": "https://logistics.onharu.app/library/ctu-code/a7-calc"}]}]}</script>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
   <link rel="stylesheet" href="/styles.css?v=20261012-01">
-  <link rel="stylesheet" href="/ctu-library.css?v=20261012-01">
+  <link rel="stylesheet" href="/ctu-library.css?v=20261012-02">
 </head>
 <body>
 <header class="topbar">
@@ -51,15 +51,15 @@
   <section class="library-view" id="libraryView" data-library-standalone="true" aria-label="CTU Code 자료" data-prerendered="a7-calc@"><nav class="lib-crumb"><a href="/library/ctu-code">← CTU Code</a></nav><article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">부속서 7 부록 4</span><span class="lib-level" data-level="3">★★★ 꼭 알아야 함</span></span><h2>고정 계산 — 각재·무게중심·더니지 백</h2><p class="lib-checked">원문 대조 확인 2026-10-01</p>
       <p>부록 4는 부속서 7 본문에서 "계산으로 정할 수 있다"고 한 항목의 식을 모은 곳입니다. 가로 각재 울타리가 버티는 힘, 집중하중 받침, 화물 무게중심의 종방향 위치, 더니지 백(에어백)의 필요 힘과 허용 힘 네 가지이며, 현장에서 계산기로 바로 쓸 수 있는 형태입니다.</p>
       <figure class="lib-figure lib-drawing"><img src="/images/ctu/securing-calc.svg" alt="가로 각재 울타리의 저항력 식과 원문 예(5×10cm 각재 6개, 자유 길이 2.2m, 약 24kN), 더니지 백 계산 예(화물이 미는 힘 약 56kN, 백 허용 힘 약 48kN으로 부족)" loading="lazy" decoding="async"><figcaption><span>AI 생성 도해</span> 부록 4의 식으로 다시 계산한 값입니다. 각재는 두께가 제곱으로 들어가고, 더니지 백은 틈이 넓을수록 접촉 면적이 줄어듭니다.</figcaption></figure>
-      <h3>§1 가로 각재의 저항력</h3>
+      <h3 data-num="">§1 가로 각재의 저항력</h3>
       <p>문 앞이나 중간에서 화물 블록을 막는 가로 각재는 양 끝이 고정되고 전체 길이에 고르게 하중을 받는 보로 봅니다(부속서 7 §2.3.4). 저항력은 <b>F = n · w² · h / (28 · L) [kN]</b>이고, n은 각재 수, w는 두께 [cm], h는 높이 [cm], L은 자유 길이 [m]입니다. w가 제곱으로 들어가므로 두께가 저항력을 크게 좌우합니다.</p>
       <p>원문 예는 5 × 10 cm 각재 6개, 자유 길이 2.2 m로 24 kN을 얻고, 해상 C에서 μ 0.4인 7.5 t 화물을 막는 데 충분하다고 봅니다(29 &lt; 30 kN). 이 예의 균형식은 cx · m · g &lt; μ · m · (1 − cz) · g + F로 쓰여 있어 cz = 0.8은 1 g에서 빠지는 변동분이고, 실제 수직 하방은 0.2 g입니다. 제5장 표의 해상 C 종방향 수직 하방 0.2와 같은 뜻이니 표기 차이에 주의하세요.</p>
       <p>못 박은 각재·쐐기의 블로킹은 작은 고정 수요에만 쓰며, 못 크기에 따라 못 1개당 1~4 kN으로 봅니다. 밀폐형 CTU의 목재 바닥은 대개 못질에 맞지 않고, 플랫랙·플랫폼·오픈형 CTU의 바닥은 운영자 동의가 있으면 가능합니다(부속서 7 §2.3.5).</p>
-      <h3>§2 집중하중 받침</h3>
+      <h3 data-num="">§2 집중하중 받침</h3>
       <p>드라이 컨테이너나 플랫랙에서 무거운 화물 하나를 받치는 받침 배치는 CTU 운영자와 협의해 설계합니다. 부록에 식은 없습니다.</p>
-      <h3>§3 무게중심의 종방향 위치</h3>
+      <h3 data-num="">§3 무게중심의 종방향 위치</h3>
       <p><b>d = Σ(mn · dn) / Σmn</b>입니다. 적재 구역 앞쪽 끝에서 각 화물 무리의 무게중심까지 거리 dn [m]에 질량 mn [t]을 곱해 더하고 총중량으로 나눕니다. 원문 예는 20피트에 5개 무리 18.5 t로 d = 2.85 m입니다. 내부 길이 약 5.9 m의 절반보다 0.1 m가량 앞쪽입니다. 이 값은 하중 분포 도표(부속서 7 §3.1, IM6)와 함께 봅니다.</p>
-      <h3>§4 더니지 백</h3>
+      <h3 data-num="">§4 더니지 백</h3>
       <p>기본 조건은 <b>F_DUNNAGE BAG ≥ F_CARGO</b>입니다. 백이 파손 위험 없이 받아 낼 수 있는 힘이 화물이 백을 미는 힘보다 커야 합니다.</p>
       <table class="lib-table"><thead><tr><th class="lib-nowrap">항목</th><th>식</th><th>메모</th></tr></thead><tbody>
       <tr><td class="lib-nowrap">미끄럼</td><td>F_CARGO = m · g · (cx,y − μ · 0.75 · cz) [kN]</td><td>μ는 바닥과 단 사이 중 가장 낮은 값</td></tr>
@@ -69,7 +69,7 @@
       </tbody></table>
       <p>m에는 실제로 백을 미는 화물만 넣습니다. 급정거에 대비한 백이면 백 뒤쪽 화물, 횡방향이면 좌우 가운데 더 무거운 쪽입니다. 미끄럼과 전도, 운송 방식 가운데 가장 큰 F_CARGO를 씁니다. 원문은 F_CARGO의 단위를 [t]로 적었지만 식의 단위는 kN입니다. 채움 압력은 너무 낮으면 백이 빠지고, 너무 높으면 기온·기압 변화로 파열될 수 있습니다(§4.5).</p>
       <p>계산 예(가정값): 백 뒤 화물 10 t, 도로 종방향 0.8 g, cz 1.0, μ 0.3이면 F_CARGO = 10 × 9.81 × (0.8 − 0.225) ≈ 56 kN입니다. 1200 × 1800 mm 백이 200 mm 틈을 채우면 A = (1.2 − 0.314) × (1.8 − 0.314) ≈ 1.32 m²이고, 파열 압력 0.5 bar인 일회용 백이라면 F_DB = 1.32 × 10 × 9.81 × 0.5 × 0.75 ≈ 48 kN으로 모자랍니다. 파열 압력은 제조사 표시로 확인하고, 틈이 넓을수록 접촉 면적이 줄어든다는 점을 기억하세요.</p>
-      <h3>참고: 부록 5 경사 시험 각도</h3>
+      <h3 data-num="">참고: 부록 5 경사 시험 각도</h3>
       <p>부속서 7 §4.4.6의 경사 시험 각도는 부록 5 표에 있습니다(cz = 1.0 g). γ는 μ, B/(n · H), L/H 가운데 해당 값입니다. 해상 B 횡방향(0.7 g)에서 γ가 0.3이면 약 39°까지 기울여도 버텨야 합니다.</p>
       <table class="lib-table"><thead><tr><th class="lib-nowrap">γ</th><th class="lib-nowrap">0.8 g</th><th>0.7 g</th><th class="lib-nowrap">0.5 g</th></tr></thead><tbody>
       <tr><td class="lib-nowrap">0.00</td><td class="lib-nowrap">53.1°</td><td>44.4°</td><td class="lib-nowrap">30.0°</td></tr>
@@ -78,7 +78,7 @@
       <tr><td class="lib-nowrap">0.50</td><td class="lib-nowrap">42.1°</td><td>36.9°</td><td class="lib-nowrap">26.6°</td></tr>
       <tr><td class="lib-nowrap">1.00</td><td class="lib-nowrap">36.9°</td><td>32.8°</td><td class="lib-nowrap">24.3°</td></tr>
       </tbody></table>
-      <h3>현장 체크포인트</h3>
+      <h3 data-num="">현장 체크포인트</h3>
       <ul>
       <li>각재 울타리의 끝을 측벽 주름보다 코너 포스트·레일 같은 골조에 댔는지, 필요한 힘에 맞게 개수와 단면을 정했는지</li>
       <li>컨테이너 운영자(선사)가 바닥 못질을 허용하는지, 못 수를 1개 1 kN 하한으로 셌는지</li>
@@ -91,6 +91,6 @@
 </main>
 <footer class="site-footer"><div class="footer-copy"><div class="footer-brand"><strong>Logistics Library</strong></div><div class="footer-meta"><span>MADE BY JUAN.HJLEE · WITH SUPPORT FROM MARU.DEV</span><small>© 2026 ONHARU. All rights reserved.</small><a class="footer-legal" href="/privacy">개인정보처리방침</a></div></div><details class="footer-family"><summary>Family Site</summary><div class="menu-list"><a href="https://cubestow.onharu.app/" target="_blank" rel="noopener">CubeStow<small>컨테이너 적재 시뮬레이션</small></a><a href="https://diary.onharu.app/" target="_blank" rel="noopener">온하루 다이어리<small>바탕화면 달력·일기</small></a><a href="https://lottolab.onharu.app/" target="_blank" rel="noopener">LottoLab<small>로또 통계·구매 기록</small></a><a href="https://onharu.app/" target="_blank" rel="noopener">ONHARU<small>포트폴리오</small></a></div></details></footer>
 <script src="/ctu-library.js?v=20261012-03"></script>
-<script src="/site-shell.js?v=20261011-02"></script>
+<script src="/site-shell.js?v=20261012-01"></script>
 </body>
 </html>

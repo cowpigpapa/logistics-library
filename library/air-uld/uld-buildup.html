@@ -17,7 +17,7 @@
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "@id": "https://logistics.onharu.app/library/air-uld/uld-buildup#article", "headline": "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형", "name": "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형 · Air ULD · Logistics Library", "description": "로어덱 64 in, 메인덱 96·118 in와 위치별 컨투어 차이, 반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트.", "url": "https://logistics.onharu.app/library/air-uld/uld-buildup", "mainEntityOfPage": "https://logistics.onharu.app/library/air-uld/uld-buildup", "inLanguage": "ko", "image": ["https://logistics.onharu.app/images/uld/uld-hero.webp"], "datePublished": "2026-10-05T23:47:33+09:00", "dateModified": "2026-10-12T01:19:18+09:00", "author": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "publisher": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "isPartOf": {"@type": "CollectionPage", "@id": "https://logistics.onharu.app/library/air-uld", "name": "Air ULD", "url": "https://logistics.onharu.app/library/air-uld"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Logistics Library", "item": "https://logistics.onharu.app/"}, {"@type": "ListItem", "position": 2, "name": "Air ULD", "item": "https://logistics.onharu.app/library/air-uld"}, {"@type": "ListItem", "position": 3, "name": "컨투어와 빌드업", "item": "https://logistics.onharu.app/library/air-uld/uld-buildup"}]}]}</script>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
   <link rel="stylesheet" href="/styles.css?v=20261012-01">
-  <link rel="stylesheet" href="/ctu-library.css?v=20261012-01">
+  <link rel="stylesheet" href="/ctu-library.css?v=20261012-02">
   <link rel="stylesheet" href="/battery-library.css?v=20261005-02">
   <link rel="stylesheet" href="/uld-library.css?v=20261006-01">
 </head>
@@ -54,12 +54,12 @@
 
 <p class="lib-disclaimer">빌드업·BUP 기준은 IATA 표준(ULD Regulations, Cargo Handling Manual)을 바탕으로 항공사마다 따로 정합니다. 이 문서의 항공사 기준은 공개 지침에서 확인한 예시이며, 실제 작업에는 해당 항공사와 지상조업사의 최신 기준을 따라야 합니다. 위험물 자체의 분류·포장·표시는 위험물 카테고리를 참조하십시오.</p>
 
-<h3 id="s1">1. 컨투어란</h3>
+<h3 id="s1" data-num="1"><span class="lib-num">1</span>컨투어란</h3>
 <p>항공기 동체 단면이 둥글기 때문에 위치마다 쌓을 수 있는 높이와 모서리 모양이 다르고, 이 한계를 넘긴 팔레트는 문을 통과하지 못하거나 기내 위치에 들어가지 못합니다.</p>
 <p>동체 단면은 원에 가깝고, 그 안에 평평한 바닥을 깔아 위는 메인덱, 아래는 로어덱으로 씁니다. 메인덱은 바닥에서 위로 갈수록 측벽이 안쪽으로 굽어 들어오고, 로어덱은 반대로 바닥 쪽이 둥근 동체 바닥에 막혀 좁아집니다. 그래서 상자 모양으로 화물을 쌓으면 측벽 쪽 위 모서리(메인덱)나 아래 모서리(로어덱 컨테이너)가 동체에 닿습니다. 컨투어는 이 굽은 면을 피하도록 모서리를 깎아 낸 외형이고, 기종·덱·기내 위치마다 따로 정해집니다.</p>
 <p>같은 96×125 in 팔레트(PMC 등)라도 어떤 컨투어로 쌓았는지에 따라 실을 수 있는 기종과 위치가 달라집니다. 로어덱용으로 64 in 높이까지 쌓은 팔레트는 화물기 메인덱에도 실을 수 있지만, 메인덱용으로 118 in까지 쌓은 팔레트는 로어덱에 들어가지 않습니다. 그래서 항공사는 예약을 받을 때 어느 컨투어로 만들지를 함께 정합니다. 팔레트 자체의 치수는 <a data-doc="uld-pallets" href="/library/air-uld/uld-pallets">88인치와 96인치 팔레트</a>, 기종별 화물칸 구성은 <a data-doc="uld-holds" href="/library/air-uld/uld-holds">항공기 화물칸과 탑재 배치</a>에서 다룹니다.</p>
 
-<h3 id="s2">2. 높이 계열 한눈에 보기</h3>
+<h3 id="s2" data-num="2"><span class="lib-num">2</span>높이 계열 한눈에 보기</h3>
 <table class="lib-table"><thead><tr><th class="lib-nowrap">구분</th><th>높이</th><th>대표 기종·위치</th><th>근거</th></tr></thead><tbody>
 <tr><td class="lib-nowrap">로어덱(와이드바디)</td><td>64 in(163 cm)</td><td>747·777·787·A330·A350 로어덱. LD3·LD-1 컨테이너 높이도 64 in</td><td>Boeing 747-8·777 공항계획 문서</td></tr>
 <tr><td class="lib-nowrap">767 로어덱</td><td>칸 안쪽 66 in(168 cm), 문 부근 67 in(170 cm)</td><td>LD-2 컨테이너 높이 64 in(163 cm)</td><td>Boeing 767 공항계획 문서</td></tr>
@@ -71,7 +71,7 @@
 <p>"10 ft 팔레트"는 118 in(약 300 cm) 높이로 쌓은 메인덱 팔레트를, "8 ft 팔레트"는 96 in(244 cm) 높이 팔레트를 가리키는 말로 쓰입니다. Boeing의 747-8F 배치도와 Atlas Air의 777F 자료가 이 표현을 씁니다.</p>
 <p class="lib-source">출처: 747-8 Airplane Characteristics for Airport Planning, D6-58326-3 Rev E(Boeing, 2026) 2.4.2·2.6.1·2.7.7; 777-200LR/-300ER/-Freighter Airplane Characteristics for Airport Planning, D6-58329-2 Rev G(Boeing, 2024) 2.7.7; 767 Airplane Characteristics for Airport Planning, D6-58328 Rev K(Boeing, 2024) 2.4.6·2.6.3·2.7.4 — <a href="https://www.boeing.com/commercial/airports/plan-manuals" target="_blank" rel="noopener noreferrer">Boeing Airport Planning Manuals</a>; A350(Jul 01/26) 2-6-0, A330(Dec 01/25) 2-6-3 Aircraft Characteristics(Airbus) — <a href="https://aircraft.airbus.com/en/customer-care/fleet-wide-care/airport-operations-and-aircraft-characteristics/aircraft-characteristics" target="_blank" rel="noopener noreferrer">Airbus Aircraft Characteristics</a>; 777F·747-8F Specifications(Atlas Air, 2016) — <a href="https://www.atlasairworldwide.com/wp-content/uploads/2018/02/777_200F_One_Sheet.pdf" target="_blank" rel="noopener noreferrer">Atlas Air Worldwide</a></p>
 
-<h3 id="s3">3. 로어덱 컨투어</h3>
+<h3 id="s3" data-num="3"><span class="lib-num">3</span>로어덱 컨투어</h3>
 <p>와이드바디 로어덱의 높이 기준은 64 in(163 cm)입니다. 로어덱 컨테이너인 LD3(AKE)와 747용 LD-1의 높이가 64 in이고, Boeing 777 도면도 LD-3 높이를 5 ft 4 in(1.63 m), 앞 화물문의 클리어 높이를 5 ft 7 in(1.70 m)로 적습니다. 로어덱에 싣는 팔레트도 이 높이 안에서 쌓아야 합니다.</p>
 <h4>로어덱 외형: 바닥 쪽이 좁다</h4>
 <p>로어덱은 메인덱과 반대로 아래쪽이 좁습니다. 바닥 밑으로 둥근 동체 바닥이 이어지기 때문입니다. Boeing이 그린 747 로어덱 전폭 컨테이너(full-width container)는 바닥 폭이 125 in(3.18 m), 위쪽 폭이 186 in(4.72 m), 높이가 64 in(1.63 m)이고, 위에서 31.5 in(0.80 m)까지는 옆면이 수직이며 그 아래가 바닥 쪽으로 비스듬히 좁아집니다. 반폭 컨테이너 LD-1은 위쪽 폭 92 in(2.34 m), 바닥 폭 61.5 in(1.56 m), 높이 64 in로 한쪽 옆면만 같은 방식으로 깎여 있습니다. LD3가 한쪽 아래 모서리가 비스듬히 깎인 모양인 것도 이 때문입니다. 로어덱에 LD3를 두 개씩 나란히 놓으면 깎인 면이 각각 바깥쪽, 즉 동체 쪽으로 가서 둘을 합친 단면이 이 외형을 채웁니다.</p>
@@ -81,7 +81,7 @@
 <p class="lib-source">출처: 747-8 Airplane Characteristics for Airport Planning, D6-58326-3 Rev E(Boeing, 2026) 2.6.1; 777-200LR/-300ER/-Freighter Airplane Characteristics for Airport Planning, D6-58329-2 Rev G(Boeing, 2024) 2.7.7 — <a href="https://www.boeing.com/commercial/airports/plan-manuals" target="_blank" rel="noopener noreferrer">Boeing Airport Planning Manuals</a></p>
 <p>어느 기종의 로어덱이 88×125 in·96×125 in 팔레트를 받는지는 <a data-doc="uld-holds" href="/library/air-uld/uld-holds">항공기 화물칸과 탑재 배치</a>에서 다룹니다.</p>
 
-<h3 id="s4">4. 메인덱 컨투어</h3>
+<h3 id="s4" data-num="4"><span class="lib-num">4</span>메인덱 컨투어</h3>
 <p>화물기 메인덱에서는 팔레트를 두 가지 방식으로 놓습니다. 96 in 쪽을 가로로 두고 좌·우 2열로 나란히 놓는 배치(side-by-side)와, 125 in 쪽을 가로로 두고 가운데 1열로 놓는 배치(center loading)입니다. 나란히 놓으면 팔레트 한쪽은 기체 중심선 쪽, 다른 쪽은 측벽 쪽이 되므로 측벽 쪽 위 모서리만 크게 깎인 비대칭 외형이 됩니다. 가운데 1열이면 양쪽 측벽에서 같은 거리에 놓이므로 좌우 대칭으로 양쪽 위 모서리가 깎입니다.</p>
 <h4>A350F: 위치마다 다른 컨투어</h4>
 <p>Airbus는 A350F 공항계획 문서에서 메인덱 위치별 컨투어를 치수로 공개합니다. 같은 비행기 안에서도 동체가 좁아지는 앞뒤 끝으로 갈수록 높이가 낮아지고 깎인 부분이 커지는 것을 볼 수 있습니다.</p>
@@ -106,22 +106,22 @@
 <p class="lib-source">출처: 747-8 Airplane Characteristics for Airport Planning, D6-58326-3 Rev E(Boeing, 2026) 2.4.2·2.7.7·2.7.8 — <a href="https://www.boeing.com/commercial/airports/plan-manuals" target="_blank" rel="noopener noreferrer">Boeing Airport Planning Manuals</a>; 747-8F·777F Specifications(Atlas Air, 2016) — <a href="https://www.atlasairworldwide.com/wp-content/uploads/2018/02/747_8F_One_Sheet.pdf" target="_blank" rel="noopener noreferrer">Atlas Air Worldwide</a></p>
 <p>747 화물기 노즈 도어의 높이·폭 한계는 <a data-doc="uld-holds" href="/library/air-uld/uld-holds">항공기 화물칸과 탑재 배치</a>에서 다룹니다.</p>
 
-<h3 id="s5">5. 컨투어 표기: 형식 코드의 셋째 글자와 항공사 표기</h3>
+<h3 id="s5" data-num="5"><span class="lib-num">5</span>컨투어 표기: 형식 코드의 셋째 글자와 항공사 표기</h3>
 <p>컨투어와 관련된 표기는 두 층이 있습니다. 첫째는 IATA ULD 형식 코드의 셋째 글자입니다. 예를 들어 AKE의 E처럼, 세 글자 형식 코드의 셋째 글자는 컨테이너의 외형(contour)과, 팔레트·네트의 경우 어떤 고정 방식에 맞는지를 나타냅니다. ULD 제조사 VRR은 이 글자가 동체에 맞춘 외형을 나타내며 외형은 항공기 안의 위치(메인덱·로어덱)에 따라 정해진다고 설명합니다. 코드 읽는 법은 <a data-doc="uld-code" href="/library/air-uld/uld-code">ULD 코드와 대표 ULD</a>에서 다룹니다.</p>
 <p>둘째는 같은 팔레트를 어떤 높이·모양으로 쌓는지를 구분하는 표기입니다. 이 표기는 항공사 안내마다 다릅니다. 예를 들어 AirBridgeCargo의 ULD 안내는 같은 PMC 팔레트를 PMC LD(높이 64 in, 162.6 cm), PMC Q6(243.8 cm, 96 in, 17.0 m³), PMC Q7(299.7 cm, 118 in, 21.2 m³)으로 나누어 적습니다. 이런 Q6·Q7식 표기는 AirBridgeCargo·Cargolux·Emirates가 모두 쓰고, AirBridgeCargo와 Emirates는 Q6을 컨투어 문자 A, Q7을 D와 짝지어 적습니다. A(96 in)·D(118 in)는 ULD 코드 셋째 글자의 컨투어 문자와 같은 높이입니다. 다만 Q 표기 자체가 IATA가 정한 표준인지는 이 문서에서 1차 자료로 확인하지 못했습니다. 같은 이름이라도 항공사마다 높이와 모양이 다를 수 있으므로, 부킹 확인서나 항공사 지시에 적힌 컨투어 이름은 그 항공사의 컨투어 도면으로 확인해야 합니다.</p>
 <p class="lib-source">출처: Identifying a ULD — ULD ID code(VRR) — <a href="https://vrr.aero/knowledge-center/uld-info/uld-id-code/" target="_blank" rel="noopener noreferrer">VRR Knowledge Center</a>; ULD Specifications(AirBridgeCargo) — <a href="https://www.airbridgecargo.com/files/ULD_new2.pdf" target="_blank" rel="noopener noreferrer">AirBridgeCargo</a></p>
 
-<h3 id="s6">6. 컨투어를 확인하는 방법</h3>
+<h3 id="s6" data-num="6"><span class="lib-num">6</span>컨투어를 확인하는 방법</h3>
 <p>빌드업이 끝난 팔레트가 컨투어 안에 들어오는지는 출고 전에 확인합니다. 항공사·지상조업사 창고에서는 기종·위치별 외형을 본뜬 틀(contour frame, contour gauge)을 써서, 팔레트를 틀 안으로 통과시키거나 틀에 대어 보는 방식이 쓰입니다. 최근에는 카메라로 확인하는 방식도 나왔습니다. 지상조업사 WFS는 빌드업 구역 둘레에 3D 카메라를 두고 팔레트 위 화물의 3D 모델을 선택한 가상 컨투어와 실시간으로 비교하는 ContourSpect를 도입했다고 발표했습니다. 화물이 컨투어 밖으로 나오면 화면의 틀이 빨간색으로 바뀌어 작업자에게 알립니다.</p>
 <p>컨투어를 넘긴 팔레트(overbuilt ULD)는 그대로 실을 수 없어 다시 쌓아야 하고, 그만큼 출고가 늦어지거나 예약한 편에 실리지 못할 수 있습니다. 포워더가 BUP로 넘길 때는 항공사가 지정한 컨투어를 미리 받아 그 기준으로 쌓고, 사진과 치수를 남겨 두는 것이 좋습니다. 빌드업 방법은 10절에서 다룹니다.</p>
 <p class="lib-source">출처: WFS becomes first air cargo handler to implement CINDS ContourSpect 3D modelling software(Worldwide Flight Services, 2024) — <a href="https://www.wfs.aero/innovation-wfs-becomes-first-air-cargo-handler-to-implement-cinds-contourspect-3d-modeling-software-for-100-fit-to-fly-unit-load-devices/" target="_blank" rel="noopener noreferrer">WFS</a></p>
 
-<h3 id="s7">7. 여객기 벨리와 견적 시 주의</h3>
+<h3 id="s7" data-num="7"><span class="lib-num">7</span>여객기 벨리와 견적 시 주의</h3>
 <p>여객기는 메인덱에 화물을 싣지 않으므로(콤비 기종 같은 예외는 <a data-doc="uld-holds" href="/library/air-uld/uld-holds">항공기 화물칸과 탑재 배치</a> 참고), 여객기 편으로 보낼 수 있는 화물의 높이는 로어덱 컨투어가 정합니다. 와이드바디 로어덱의 기준 높이는 64 in(163 cm)이고, 777·787 로어덱 화물문의 클리어 높이는 67 in(170 cm)입니다. 이 높이를 넘는 화물은 여객기 벨리로는 보낼 수 없고 화물기 메인덱이 필요합니다. 내로바디 여객기는 88·96 in 팔레트를 받지 않으므로, 단거리 노선에서 내로바디가 투입되는지도 견적 전에 봐야 합니다.</p>
 <p>높이 기준을 실제로 얼마로 둘지는 항공사마다 다릅니다. 팔레트 바닥 두께와 네트, 고정용 여유를 빼면 쌓을 수 있는 화물 높이는 컨투어 높이보다 더 낮아집니다. 따라서 화주에게 받은 치수가 컨투어 경계에 가까우면 운항 항공사에 실을 수 있는지 미리 확인하는 것이 안전합니다.</p>
 <p class="lib-disclaimer">컨투어의 치수와 이름은 항공사와 기체 구성에 따라 다릅니다. 이 문서의 수치는 제조사 공개 문서와 항공사 공개 자료에 실린 값이며, 실제 빌드업은 운항 항공사가 제시하는 최신 컨투어를 기준으로 하십시오.</p>
 
-<h3 id="s8">8. 반입에서 탑재까지 — 단계와 역할</h3>
+<h3 id="s8" data-num="8"><span class="lib-num">8</span>반입에서 탑재까지 — 단계와 역할</h3>
 <p>FAA의 2015년 화물 운항 지침 AC 120-85A(2022년 AC 120-85B로 대체)는 화주, 포워더, 지상조업사, 관세사 등 여러 주체가 빌드업·보관·탑재에 관여하더라도 화물의 적재·고정과 비행 안전의 최종 책임은 운항사(항공사)에 있다고 밝힙니다. 운항사는 빌드업이나 탑재를 하는 외부 업체가 자사 절차대로 일하도록 교육·감독·감사해야 하고, 포워더도 정기 감사 대상에 넣으라고 합니다. 포워더가 BUP를 하더라도 그 팔레트가 항공사 기준을 만족하는지는 항공사가 접수 단계에서 다시 확인합니다.</p>
 <table class="lib-table">
 <thead><tr><th>단계</th><th>주로 하는 주체</th><th>포워더가 하는 일</th><th>포워더가 하지 않는 일</th></tr></thead>
@@ -143,12 +143,12 @@
 <p>IATA 화물조업위원회(ICHC)가 2023년 회원사를 조사한 결과 항공사 단계에서 BUP가 거절되는 비율은 지역에 따라 월 2%~20%였고, 2023년 6월 보고된 BUP 문제 사례의 33%가 사람의 실수와 표준 미준수와 관련됐습니다. IATA가 꼽은 주요 문제는 표준을 따르지 않은 빌드업, 항공기 컨투어 초과, 손상된 ULD 사용, 손상·비인증·유효기간 지난 네트 사용, 신고하지 않은 위험물(특히 리튬배터리) 은닉, 보관 조건이 다른 화물의 혼재, AWB 신고 무게와 실제 무게의 차이입니다.</p>
 <p class="lib-source">출처: IATA Standards Compliance — Bulk Unitization Program(BUP)(IATA Cargo Handling Council, 2026) — <a href="https://www.iata.org/contentassets/5db7bd93f76a45ae9ce5a47650f2a500/compliance-bup.pdf" target="_blank" rel="noopener noreferrer">IATA</a>; Shipper-Built Units Guidelines V2.0(Cargolux, 2025) — <a href="https://www.cargolux.com/media/mcsboozs/shipper-built-units-guidelines.pdf" target="_blank" rel="noopener noreferrer">Cargolux</a>; Operational Guidelines for BUP and SMU Shipments(AirBridgeCargo, 2020) — <a href="https://www.airbridgecargo.com/files/0420202BUP%20and%20SMU%20guidelines%20(06.02.2020).pdf" target="_blank" rel="noopener noreferrer">AirBridgeCargo</a></p>
 
-<h3 id="s9">9. 인천공항에서는</h3>
+<h3 id="s9" data-num="9"><span class="lib-num">9</span>인천공항에서는</h3>
 <p>인천국제공항공사는 일반화물터미널 운영 주체로 대한항공(1·2), 아시아나, AACT(1·2), 외항사 화물터미널을, 특송 터미널로 DHL과 FedEx를, 화물창고로 북측 항공화물창고와 인천항공 A·B를 안내합니다. 지상조업사 Swissport는 인천공항에서 화물창고 3개 동을 운영하며 일반·특수 화물, 온도관리 화물과 포워더 화물 처리를 한다고 밝힙니다. 어느 터미널을 쓰는지는 항공사가 계약한 터미널·지상조업사에 따라 정해집니다.</p>
 <p>대한항공·아시아나 등 국적 항공사와 인천공항 지상조업사가 BUP 허용 조건, 요금, ULD 반출 절차를 공식 문서로 공개한 자료는 이 문서에서 확인하지 못했습니다. 인천에서 BUP를 하려면 항공사(또는 총판대리점)와 해당 터미널에 BUP 허용 여부, ULD 수령·반납 장소와 기한, 사용료·Demurrage, 접수 마감 시각, 요구 서류를 사전에 받아 두어야 합니다. 이 조건은 항공사마다 다릅니다.</p>
 <p class="lib-source">출처: 신뢰할 수 있는 글로벌 물류 허브(인천국제공항공사) — <a href="https://www.airport.kr/co_ko/719/subview.do" target="_blank" rel="noopener noreferrer">인천국제공항공사</a>; Incheon (ICN)(Swissport) — <a href="https://www.swissport.com/network/asia/south-korea/icn" target="_blank" rel="noopener noreferrer">Swissport</a></p>
 
-<h3 id="s10">10. 빌드업 원칙</h3>
+<h3 id="s10" data-num="10"><span class="lib-num">10</span>빌드업 원칙</h3>
 <p>아래 원칙은 FAA AC 120-85A의 빌드업 지침과 항공사 BUP 지침에서 공통으로 확인되는 것입니다. 항공사 지침들은 세부 기준의 근거로 IATA ULDR 운영 사양 OS 6/01(무게·면적/길이당 하중·무게중심·컨투어, 적재, 밀림 방지, 네트 설치, 쇼어링, 고정)과 9.8절(빌드업과 해체)을 듭니다.</p>
 
 <figure class="lib-figure"><img src="/images/uld/buildup.webp" alt="롤러 위에서 팔레트에 화물을 쌓고 네트를 거는 작업자, 뒤쪽의 컨투어 게이지와 바닥 저울" loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>AI 생성 도해</span> 빌드업한 팔레트는 네트로 고정하고, 컨투어 게이지를 통과시켜 외형을 확인하고, 계량합니다.</figcaption></figure>
@@ -195,7 +195,7 @@
 <p>좌우 허용 범위는 팔레트 폭의 10%, 앞뒤 허용 범위는 PAG·PMC에서 길이의 10%, 16 ft·20 ft 팔레트에서 길이의 5%에 해당합니다(이 문서에서 계산한 비율).</p>
 <p class="lib-source">출처: AC 120-85A 2.6.2.1(FAA, 2015) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85A.pdf" target="_blank" rel="noopener noreferrer">FAA</a>; Operational Guidelines for BUP and SMU Shipments 4.6.1, 표 12.1(AirBridgeCargo, 2020) — <a href="https://www.airbridgecargo.com/files/0420202BUP%20and%20SMU%20guidelines%20(06.02.2020).pdf" target="_blank" rel="noopener noreferrer">AirBridgeCargo</a></p>
 
-<h3 id="s11">11. 무게와 균형의 기초</h3>
+<h3 id="s11" data-num="11"><span class="lib-num">11</span>무게와 균형의 기초</h3>
 <p>항공기는 제조사가 인증한 무게와 무게중심(CG, Center of Gravity) 범위 안에서만 운항할 수 있습니다. FAA의 중량·균형 지침 AC 120-27F는 운항사가 제조사 한계에 연료 소모, 탑재 오차 등을 감안해 여유를 둔 운용 탑재 범위(operational loading envelope)를 만들고 그 안에서 짐을 싣도록 합니다. 화물은 각 화물칸의 중심에 실린 것으로 가정할 수 있지만, 이는 화물이 고르게 실리고 다른 구역으로 밀리지 않게 고정된다는 전제가 있을 때입니다.</p>
 <ul>
 <li><b>위치·구역별 한계</b>: AC 120-85A는 위치별 ULD 최대 총중량, 바닥 하중, 구역별·누적 하중(<a data-doc="uld-holds" href="/library/air-uld/uld-holds">항공기 화물칸과 탑재 배치</a> 참고)에 더해 좌우 불균형 한계 등도 운항사가 지키도록 합니다. 탑재관리 담당자는 ULD 하나하나의 무게를 이 한계와 항공기 전체 CG에 맞춰 위치에 배정합니다.</li>
@@ -207,7 +207,7 @@
 <p>AC 120-85A는 운항사가 탑재 화물의 무게가 정확하도록 보장해야 하며, 저울 제조사가 정한 오차나 FAA가 인정한 근거의 오차를 쓸 수 있고, 그 오차를 중량·균형 프로그램에 반영하라고 합니다. 저울은 정기 교정과 함께, 무게를 아는 물체로 ±1% 이내인지 현장 점검하라고 권합니다. 달리(dolly)·슬레이브 팔레트·컨테이너 같은 장비의 자중은 알고 빼야 합니다. 항공사가 BUP 접수 때 신고 무게와 계량 무게의 차이를 몇 %까지 받아 주는지는 이 문서에서 공개 자료로 확인하지 못했으며, 항공사마다 다릅니다. AirBridgeCargo는 AWB의 개수·무게·부피가 실제 계량·측정값과 일치해야 한다고 정합니다.</p>
 <p class="lib-source">출처: AC 120-27F Aircraft Weight and Balance Control 2.3, 4장(FAA, 2019) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-27F.pdf" target="_blank" rel="noopener noreferrer">FAA</a>; AC 120-85A 2.4.5.4, 2.5, 2.7(FAA, 2015) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85A.pdf" target="_blank" rel="noopener noreferrer">FAA</a>; Operational Guidelines for BUP and SMU Shipments 4.9(AirBridgeCargo, 2020) — <a href="https://www.airbridgecargo.com/files/0420202BUP%20and%20SMU%20guidelines%20(06.02.2020).pdf" target="_blank" rel="noopener noreferrer">AirBridgeCargo</a></p>
 
-<h3 id="s12">12. ULD 태그, 라벨, BUP 서류</h3>
+<h3 id="s12" data-num="12"><span class="lib-num">12</span>ULD 태그, 라벨, BUP 서류</h3>
 <h4>ULD 태그</h4>
 <p>탑재용 ULD 태그는 8절 표처럼 항공사 또는 지상조업사가 발행해 붙입니다. ULD 몸체의 식별 코드와 태그의 차이는 <a data-doc="uld-code" href="/library/air-uld/uld-code">ULD 코드와 대표 ULD</a>에서 다룹니다. 네트를 씌운 팔레트는 바깥에서 ULD 번호가 잘 보이지 않으므로, AC 120-85A는 운항사가 항공기에 싣는 ULD, 특히 팔레트·네트 조합에 식별 태그를 붙이는 절차를 두라고 하고, 전자 태그는 해당 항공기에 승인된 경우에만 쓰라고 합니다. 탑재 확인 문서에 ULD 번호와 ULD별 무게가 들어가므로, 태그에 적힌 번호·무게가 로드시트와 일치해야 합니다. ULD 태그의 칸 구성(목적지, 무게, 내용물 구분 등)은 IATA 공항조업 매뉴얼(AHM)과 항공사 양식을 따르며, IATA 표준 양식의 원문은 이 문서에서 확인하지 못했습니다. 위험물이 실린 ULD에 붙이는 위험물 식별 태그는 위험물 카테고리를 참조하십시오.</p>
 <h4>포워더가 붙이는 라벨과 지울 것</h4>
@@ -228,7 +228,7 @@
 </tbody></table>
 <p class="lib-source">출처: AC 120-85A 2.6.2.4, 2.7.3(FAA, 2015) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85A.pdf" target="_blank" rel="noopener noreferrer">FAA</a>; IATA Standards Compliance — BUP(IATA ICHC, 2026) — <a href="https://www.iata.org/contentassets/5db7bd93f76a45ae9ce5a47650f2a500/compliance-bup.pdf" target="_blank" rel="noopener noreferrer">IATA</a>; Operational Guidelines for BUP and SMU Shipments 4.2, 4.3, 4.9(AirBridgeCargo, 2020) — <a href="https://www.airbridgecargo.com/files/0420202BUP%20and%20SMU%20guidelines%20(06.02.2020).pdf" target="_blank" rel="noopener noreferrer">AirBridgeCargo</a>; Shipper Built Unit Guidelines(United Cargo) — <a href="https://media.united.com/assets/m/11dcf126db4a96d7/original/ShipperBuiltULDGuidelines_UnitedCargo.pdf" target="_blank" rel="noopener noreferrer">United Cargo</a>; Shipper-Built Units Guidelines V2.0(Cargolux, 2025) — <a href="https://www.cargolux.com/media/mcsboozs/shipper-built-units-guidelines.pdf" target="_blank" rel="noopener noreferrer">Cargolux</a>; ULD Specification — Stacking guide(Cathay Cargo) — <a href="https://www.cathaycargo.com/en-us/help-and-support/uld-specifications.html" target="_blank" rel="noopener noreferrer">Cathay Cargo</a></p>
 
-<h3 id="s13">13. 항공사별 BUP 기준 비교</h3>
+<h3 id="s13" data-num="13"><span class="lib-num">13</span>항공사별 BUP 기준 비교</h3>
 <table class="lib-table">
 <thead><tr><th class="lib-nowrap">항목</th><th>Cargolux(B747F, 2025)</th><th>United Cargo(여객기)</th><th>AirBridgeCargo(B747F, 2020)</th></tr></thead>
 <tbody>
@@ -243,7 +243,7 @@
 <p>IATA 화물조업위원회도 ULD를 땅바닥에 두지 말 것, 화물이 실린 ULD는 잠금 장치가 있는 달리나 승인 장비로만 옮길 것, 지게차는 포크 구멍이 있는 ULD에만 쓸 것을 권고합니다.</p>
 <p class="lib-source">출처: Shipper-Built Units Guidelines V2.0(Cargolux, 2025) — <a href="https://www.cargolux.com/media/mcsboozs/shipper-built-units-guidelines.pdf" target="_blank" rel="noopener noreferrer">Cargolux</a>; Shipper Built Unit Guidelines(United Cargo) — <a href="https://media.united.com/assets/m/11dcf126db4a96d7/original/ShipperBuiltULDGuidelines_UnitedCargo.pdf" target="_blank" rel="noopener noreferrer">United Cargo</a>; Operational Guidelines for BUP and SMU Shipments(AirBridgeCargo, 2020) — <a href="https://www.airbridgecargo.com/files/0420202BUP%20and%20SMU%20guidelines%20(06.02.2020).pdf" target="_blank" rel="noopener noreferrer">AirBridgeCargo</a>; IATA Standards Compliance — BUP(IATA ICHC, 2026) — <a href="https://www.iata.org/contentassets/5db7bd93f76a45ae9ce5a47650f2a500/compliance-bup.pdf" target="_blank" rel="noopener noreferrer">IATA</a></p>
 
-<h3 id="s14">14. 포워더 체크리스트</h3>
+<h3 id="s14" data-num="14"><span class="lib-num">14</span>포워더 체크리스트</h3>
 <h4>견적 단계</h4>
 <ul class="lib-check">
 <li>화물기라도 위치에 따라 96 in·116 in·118 in로 높이가 다르다는 점을 감안해, 높은 화물은 항공사에 가능한 위치를 확인했다</li>
@@ -290,6 +290,6 @@
 </main>
 <footer class="site-footer"><div class="footer-copy"><div class="footer-brand"><strong>Logistics Library</strong></div><div class="footer-meta"><span>MADE BY JUAN.HJLEE · WITH SUPPORT FROM MARU.DEV</span><small>© 2026 ONHARU. All rights reserved.</small><a class="footer-legal" href="/privacy">개인정보처리방침</a></div></div><details class="footer-family"><summary>Family Site</summary><div class="menu-list"><a href="https://cubestow.onharu.app/" target="_blank" rel="noopener">CubeStow<small>컨테이너 적재 시뮬레이션</small></a><a href="https://diary.onharu.app/" target="_blank" rel="noopener">온하루 다이어리<small>바탕화면 달력·일기</small></a><a href="https://lottolab.onharu.app/" target="_blank" rel="noopener">LottoLab<small>로또 통계·구매 기록</small></a><a href="https://onharu.app/" target="_blank" rel="noopener">ONHARU<small>포트폴리오</small></a></div></details></footer>
 <script src="/uld-library.js?v=20261012-03"></script>
-<script src="/site-shell.js?v=20261011-02"></script>
+<script src="/site-shell.js?v=20261012-01"></script>
 </body>
 </html>

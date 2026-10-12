@@ -46,6 +46,33 @@
     });
   }
 
+  // 자료 본문의 큰 소제목 "1. 제목"의 번호를 배지로 바꾼다(문서는 나중에 불러오므로 화면 변화를 지켜본다).
+  (() => {
+    const RE = /^(\s*)(\d{1,2})[.)]\s+/;
+    const decorate = () => {
+      document.querySelectorAll('.lib-article h3:not([data-num])').forEach(h => {
+        h.dataset.num = '';
+        const first = h.firstChild;
+        if (!first || first.nodeType !== 3) return;
+        const m = first.textContent.match(RE);
+        if (!m) return;
+        h.dataset.num = m[2];
+        first.textContent = first.textContent.slice(m[0].length);
+        const badge = document.createElement('span');
+        badge.className = 'lib-num';
+        badge.textContent = m[2];
+        h.insertBefore(badge, first);
+      });
+    };
+    let queued = false;
+    new MutationObserver(() => {
+      if (queued) return;
+      queued = true;
+      requestAnimationFrame(() => { queued = false; decorate(); });
+    }).observe(document.body, { childList: true, subtree: true });
+    decorate();
+  })();
+
   // ONHARU 방문 기록(방문자 DB). ?owner=1로 한 번 들른 브라우저는 빠지고(?owner=0으로 해제),
   // IP는 서버에서 읽어 30일 뒤 지운다. 화면에 방문자 수는 표시하지 않는다.
   (() => {

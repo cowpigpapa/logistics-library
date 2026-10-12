@@ -716,3 +716,96 @@
 .library-view .lib-article p,
 .library-view .lib-article li { line-height: 1.85; }
 .library-view .law-toc a { white-space: normal; text-overflow: clip; line-height: 1.5; padding: 2px 0; }
+
+/* 2026-10-12 가독성 2차: 색과 카드로 구조를 보이게 한다(모든 자료 페이지 공통)
+   - 큰 소제목(h3): 번호 배지(site-shell.js가 "1. " 앞머리를 배지로 바꾼다) + 아래 선
+   - 작은 소제목(h4): 파란 글씨와 왼쪽 짧은 막대
+   - 본문 강조(b): 남색 글씨와 옅은 형광펜
+   - 목록 기호·번호: 파란색
+   - 고지(lib-disclaimer): ⓘ 아이콘이 있는 회색 카드
+   - 표: 머리 칸은 파란 바탕, 첫 칸은 굵게 */
+.library-view .lib-article h3:not(.law-division) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dbe7f5;
+  color: #0b2e57;
+  font-size: 19px;
+  line-height: 1.4;
+  scroll-margin-top: 72px;
+}
+.library-view .lib-num {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 8px;
+  border-radius: 9px;
+  background: #1f5fae;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+.library-view .lib-article h4:not(.law-article) {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 26px 0 8px;
+  color: #1f5fae;
+  font-size: 16.5px;
+  line-height: 1.45;
+  scroll-margin-top: 72px;
+}
+.library-view .lib-article h4:not(.law-article)::before {
+  content: '';
+  flex: none;
+  width: 4px;
+  height: .95em;
+  border-radius: 2px;
+  background: #7fa8dc;
+  transform: translateY(.12em);
+}
+.library-view .lib-article p b,
+.library-view .lib-article li b,
+.library-view .lib-article p strong,
+.library-view .lib-article li strong {
+  color: #0b2e57;
+  background: linear-gradient(transparent 64%, #fff0b3 64%);
+}
+.library-view .lib-summary b,
+.library-view .lib-disclaimer b,
+.library-view .lib-source b { background: none; }
+.library-view .lib-article ul:not(.lib-check) > li::marker { color: #1f5fae; }
+.library-view .lib-article ol > li::marker { color: #1f5fae; font-weight: 800; }
+.library-view .lib-article li + li { margin-top: 4px; }
+.library-view .lib-disclaimer {
+  position: relative;
+  padding: 11px 14px 11px 40px;
+  border: 1px solid #e4e7e2;
+  line-height: 1.7;
+}
+.library-view .lib-disclaimer::before {
+  content: 'i';
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  display: grid;
+  place-items: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #8a948f;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  font-style: italic;
+  font-family: Georgia, serif;
+}
+.library-view .lib-table th { background: #eaf2fb; color: #0b2e57; }
+.library-view .lib-table td:first-child { font-weight: 600; color: #1f3550; }
+.library-view .lib-source { background: #fafbfa; border-radius: 0 8px 8px 0; }
+.library-view .lib-summary { box-shadow: 0 1px 0 rgba(31, 95, 174, .06); }
