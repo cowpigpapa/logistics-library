@@ -372,3 +372,7 @@ insert into public.term_review (id, grp, frm, dst, count, cats, ex_from, ex_to, 
 ('p13','결정 필요','근무일 → 영업일 (배터리 규정 번역 97곳)','',0,'','','','이미 바꿈. EU 규정의 working days'),
 ('p14','결정 필요','영국 상원 → 귀족원','',0,'','','','이미 바꿈. House of Lords')
 on conflict (id) do nothing;
+
+-- 2026-10-13: 판정을 돕는 맥락(원어, 짧은 해석, 실제 문서 문장 전/후). 값은 scratchpad term_ctx.py·gloss 결과로 채웠다.
+alter table public.term_review add column if not exists src text not null default '',
+  add column if not exists gloss text not null default '', add column if not exists ctx jsonb not null default '[]'::jsonb;

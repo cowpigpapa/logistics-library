@@ -60,6 +60,20 @@ details.ex { font-size: 13px; color: var(--muted) }
 details.ex summary { cursor: pointer; width: fit-content }
 details.ex p { margin: 6px 0 0; overflow-wrap: anywhere }
 details.ex .b { color: var(--revert) } details.ex .a { color: var(--keep) }
+.src { display: inline-block; font-family: var(--font-mono); font-size: 12px; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 6px }
+.gloss { font-size: 13.5px; line-height: 1.6; color: var(--ink) }
+.gloss.warn { color: var(--other) }
+.ctx { display: grid; gap: 4px; font-size: 13.5px; line-height: 1.65; background: var(--bg); border-radius: 6px; padding: 9px 12px }
+.ctx p { margin: 0; overflow-wrap: anywhere }
+.ctx .lbl { display: inline-block; min-width: 34px; font-size: 11.5px; font-weight: 600; color: var(--muted); margin-right: 4px }
+.ctx .b { color: var(--muted) }
+.ctx mark { background: var(--keep-soft); color: var(--keep); font-weight: 600; border-radius: 3px; padding: 0 2px }
+.ctx .b mark { background: var(--revert-soft); color: var(--revert) }
+.ctx .doc { font-size: 12px; color: var(--muted) }
+.ctx .doc a { color: var(--accent); text-decoration: none }
+details.more-ctx { font-size: 12.5px; color: var(--muted) }
+details.more-ctx summary { cursor: pointer; width: fit-content }
+details.more-ctx .ctx { margin-top: 6px }
 .ctl { display: flex; flex-wrap: wrap; gap: 6px; align-items: center }
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden }
 .seg button { font: inherit; font-size: 13px; padding: 6px 12px; border: 0; background: var(--surface); color: var(--ink); cursor: pointer; border-right: 1px solid var(--line) }
@@ -85,7 +99,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   <header>
     <a class="home" href="/">← Logistics Library</a>
     <h1>Logistics Library 용어 검수표</h1>
-    <p class="lead">10월 11~12일 밤에 바꾼 용어 전체입니다. 줄마다 <b>좋음</b>(그대로 둠), <b>되돌리기</b>(원래 말로), <b>다른 말로</b>(칸에 맞는 말 입력) 중 하나를 누르면 바로 저장됩니다. 메모는 칸을 벗어나면 저장됩니다. 다 고르시면 Claude에게 "검수표 반영해"라고만 말씀하세요. 이 페이지는 관리자 키가 있어야 열리고 검색엔진에 노출되지 않습니다.</p>
+    <p class="lead">10월 11~12일 밤에 바꾼 용어 전체입니다. 줄마다 <b>좋음</b>(그대로 둠), <b>되돌리기</b>(원래 말로), <b>다른 말로</b>(칸에 맞는 말 입력) 중 하나를 누르면 바로 저장됩니다. 메모는 칸을 벗어나면 저장됩니다. 줄마다 원어(영문 용어), 짧은 해석, 실제 문서에서 쓰인 문장(지금 / 바꾸기 전)을 붙였습니다. 해석에 <b>주의</b>가 붙은 줄은 Claude도 다시 볼 만하다고 본 것입니다. 다 고르시면 Claude에게 "검수표 반영해"라고만 말씀하세요. 이 페이지는 관리자 키가 있어야 열리고 검색엔진에 노출되지 않습니다.</p>
   </header>
 
   <form class="keyform" id="keyform" hidden>
@@ -102,6 +116,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
       <input type="search" id="q" placeholder="용어 검색 (예: 부킹, 젠셋, 씰)" aria-label="용어 검색">
       <select id="cat" aria-label="카테고리"><option value="">모든 카테고리</option></select>
       <label class="chk"><input type="checkbox" id="todo"> 아직 안 고른 것만</label>
+      <label class="chk"><input type="checkbox" id="warn"> 주의 표시만</label>
     </div>
     <div class="status" id="status">목록을 불러오는 중입니다.</div>
   </div>
@@ -135,11 +150,12 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   }
 
   function filtered() {
-    const q = $('q').value.trim().toLowerCase(), cat = $('cat').value, todo = $('todo').checked;
+    const q = $('q').value.trim().toLowerCase(), cat = $('cat').value, todo = $('todo').checked, warn = $('warn').checked;
     return rows.filter(r => r.group === group
       && (!cat || (r.cats || '').includes(cat))
       && (!todo || !r.verdict)
-      && (!q || [r.from, r.to, r.ex_from, r.ex_to, r.note, r.memo, r.alt].join(' ').toLowerCase().includes(q)));
+      && (!warn || /^주의/.test(r.gloss || ''))
+      && (!q || [r.from, r.to, r.ex_from, r.ex_to, r.note, r.memo, r.alt, r.src, r.gloss].join(' ').toLowerCase().includes(q)));
   }
   function renderStats() {
     const c = { all: rows.length, keep: 0, revert: 0, other: 0 };
@@ -156,7 +172,16 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
     const pend = r.group === '결정 필요';
     const pair = pend ? `<span>${esc(r.from)}</span>`
       : `<span class="from">${esc(r.from)}</span><span class="arrow">→</span><span class="to">${esc(r.to)}</span>`;
-    const ex = (r.ex_from && !pend) ? `<details class="ex"><summary>문장에서 보기</summary><p class="b">전: ${esc(r.ex_from)}</p><p class="a">후: ${esc(r.ex_to)}</p></details>` : '';
+    // 문장 맥락: 실제 문서의 앞뒤 문장(지금 문장 / 바꾸기 전), 그 문서 링크
+    const mark = (text, hit) => { const t = esc(text), h = esc(hit || ''); const i = h ? t.indexOf(h) : -1; return i < 0 ? t : t.slice(0, i) + '<mark>' + h + '</mark>' + t.slice(i + h.length); };
+    const oldWord = pend ? '' : (r.from.split(' / ')[0] || '').replace(/<[^>]+>/g, '').trim();
+    const ctxHtml = c => `<div class="ctx">
+        <p><span class="lbl">${pend ? '문장' : '지금'}</span>${mark(c.text, c.hit)}</p>
+        ${c.before && c.before !== c.text ? `<p class="b"><span class="lbl">전</span>${mark(c.before, r.id === 't009' ? (c.hit || '').replace(/kg$/, ' kg') : oldWord)}</p>` : ''}
+        <span class="doc"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)} ↗</a></span></div>`;
+    const ctx = r.ctx && r.ctx.length ? ctxHtml(r.ctx[0]) + (r.ctx[1] ? `<details class="more-ctx"><summary>다른 문서의 문장 하나 더</summary>${ctxHtml(r.ctx[1])}</details>` : '')
+      : (r.ex_from && !pend) ? `<div class="ctx"><p class="b"><span class="lbl">전</span>${esc(r.ex_from)}</p><p><span class="lbl">지금</span>${esc(r.ex_to)}</p></div>` : '';
+    const ex = (r.src || r.gloss ? `<div class="gloss${/^주의/.test(r.gloss || '') ? ' warn' : ''}">${r.src ? `<span class="src">${esc(r.src)}</span>` : ''}${esc(r.gloss || '')}</div>` : '') + ctx;
     const labels = pend ? [['keep', '지금대로'], ['other', '이걸로 통일']] : [['keep', '좋음'], ['revert', '되돌리기'], ['other', '다른 말로']];
     return `<article class="row" data-id="${r.id}" data-v="${esc(r.verdict || '')}">
       <div class="head"><div class="pair">${pair}</div>
@@ -189,7 +214,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   }
 
   $('tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (!b) return; group = b.dataset.g; shown = PAGE; render(); });
-  ['q', 'cat', 'todo'].forEach(id => $(id).addEventListener('input', () => { shown = PAGE; render(); }));
+  ['q', 'cat', 'todo', 'warn'].forEach(id => $(id).addEventListener('input', () => { shown = PAGE; render(); }));
   $('more').addEventListener('click', () => { shown += PAGE; render(); });
   $('list').addEventListener('click', e => {
     const b = e.target.closest('.seg button'); if (!b) return;
@@ -211,7 +236,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
     try {
       const data = await rpc('get_term_review', { p_secret: key });
       rows = data.map(d => ({ id: d.id, group: d.grp, from: d.frm, to: d.dst, count: d.count, cats: d.cats, ex_from: d.ex_from, ex_to: d.ex_to,
-        note: d.note, verdict: d.verdict, alt: d.alt, memo: d.memo, updated_at: d.updated_at }))
+        note: d.note, src: d.src, gloss: d.gloss, ctx: d.ctx || [], verdict: d.verdict, alt: d.alt, memo: d.memo, updated_at: d.updated_at }))
         .sort((a, b) => GROUPS.indexOf(a.group) - GROUPS.indexOf(b.group) || (a.id < b.id ? -1 : 1));
       store.set('ll-admin-key', key);
       $('keyform').hidden = true;
