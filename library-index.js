@@ -31,8 +31,7 @@
     const open = new Set(store.get());
     tree.innerHTML = DATA.map(g => `<div class="li-group"><p class="li-group-name">${esc(g.group)}</p>${g.cats.map(c => `
       <details class="li-cat" data-slug="${c.slug}" ${open.has(c.slug) ? 'open' : ''}>
-        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${Object.keys(c.docs).length}</span></summary>
-        <a class="li-ov" href="#${c.slug}" data-slug="${c.slug}">개요 및 원문</a>
+        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${Object.keys(c.docs).length}</span><a class="li-ov" href="#${c.slug}" data-slug="${c.slug}" title="${esc(c.name)} 개요 및 원문">개요 및 원문</a></summary>
         ${c.sections.map(s => `<div class="li-sec"><p class="li-sec-name">${esc(s.title)}</p><ul>${s.docs.map(id => {
           const d = c.docs[id];
           return `<li><a href="#${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}">${esc(d.short || d.title)}</a></li>`;
@@ -167,6 +166,17 @@
       if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
     }
   });
+  // 카테고리 줄의 '개요 및 원문' 버튼: 줄을 접거나 펴지 않고 개요를 연다. 이미 보고 있으면 한 번 더 눌러 접는다.
+  tree.addEventListener('click', e => {
+    const a = e.target.closest('.li-ov');
+    if (!a) return;
+    e.preventDefault();
+    const cat = a.closest('.li-cat');
+    if (cat.open && decodeURIComponent(location.hash.slice(1)) === a.dataset.slug) { cat.open = false; remember(); return; }
+    if (!cat.open) { cat.open = true; closeOthers(cat); remember(); }
+    fromTree = true;
+    location.hash = a.dataset.slug;
+  });
   tree.addEventListener('click', e => {
     if (!e.target.closest('a[href^="#"]')) return;
     fromTree = true;
@@ -209,7 +219,10 @@
   function fitSide() {
     if (window.matchMedia('(max-width: 900px)').matches) { tree.style.maxHeight = ''; return; }
     const head = side.querySelector('.li-side-head').getBoundingClientRect().height;
-    tree.style.maxHeight = Math.max(240, window.innerHeight - 44 - 24 - head - 16) + 'px';
+    const foot = document.querySelector('.site-footer');
+    const footH = foot ? foot.getBoundingClientRect().height : 0;
+    // 색인 위 68px(머리줄+여백) + 색인 머리 + 색인 + 아래 여백 + 푸터가 화면 안에 들어가야 맨 아래까지 내려도 색인이 밀려 올라가지 않는다.
+    tree.style.maxHeight = Math.max(240, window.innerHeight - 68 - head - 2 - 16 - footH) + 'px';
   }
   window.addEventListener('resize', fitSide);
 

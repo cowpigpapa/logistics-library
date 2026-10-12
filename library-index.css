@@ -6,7 +6,7 @@
   /* 머리줄 로고와 같은 왼쪽 끝(styles.css .topbar 여백과 같은 계산) */
   width: min(1440px, calc(100% - 36px));
   margin: 0 auto;
-  padding-block: 24px 64px;
+  padding-block: 24px 16px;
   align-items: start;
 }
 .li-side {
@@ -200,3 +200,21 @@
 .li-src { margin-top: 28px; }
 .li-src h3 { margin: 0 0 10px; font-size: 18px; }
 .li-overview .library-entry { padding-bottom: 12px; }
+
+/* 2026-10-12: 개요 및 원문은 카테고리 줄 오른쪽 버튼 */
+.li-cat > summary .li-ov {
+  display: inline-block; margin: 0 0 0 6px; padding: 1px 9px; border: 1px solid #b9cfe8; border-left-width: 1px;
+  border-radius: 999px; background: #fff; color: #0b4a99; font-size: 11.5px; font-weight: 700; line-height: 1.6; text-decoration: none;
+}
+.li-cat > summary .li-ov::before { content: none; }
+.li-cat > summary .li-ov:hover { background: #0b4a99; border-color: #0b4a99; color: #fff; }
+.li-tree .li-cat > summary a.li-ov.is-active { background: #0b4a99; border-color: #0b4a99; color: #fff; }
+/* 머리줄의 패밀리 사이트(밝은 머리줄에 맞춘 색, 목록은 아래로 연다) */
+.topbar .header-family { margin-left: auto; }
+.topbar .header-family summary { min-height: 30px; border-color: #c9d6e6; color: #34506f; background: #fff; }
+.topbar .header-family .menu-list { top: calc(100% + 8px); bottom: auto; }
+/* 푸터 한 줄 */
+.li-body .site-footer { min-height: 0; padding-block: 10px; }
+.li-body .site-footer .footer-copy { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; }
+.li-body .site-footer .footer-brand { height: auto; }
+.li-body .site-footer .footer-brand strong { font-size: 14px; }
