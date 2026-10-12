@@ -8,7 +8,7 @@ import re, sys
 from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
-V = '20261012-41'   # library-index.css/js, library-index-data.js 캐시 버전
+V = '20261012-42'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')
@@ -46,10 +46,10 @@ def tool_card(sec):
     """도구는 그림 없는 작은 실행형 카드로."""
     href = re.search(r'<a href="([^"]+)">', sec).group(1)
     name = re.search(r'class="li-entry-h"><a href="[^"]+">(.*?)</a>', sec).group(1)
-    sub = re.search(r'<span class="li-kicker-sub">(.*?)</span>', sec).group(1)
+    sub = re.search(r'<span class="li-kicker-sub[^"]*">(.*?)</span>', sec).group(1)
     desc = re.search(r'</h2>\s*<p>(.*?)</p>', sec, re.S).group(1)
     return (f'<a class="li-tool-card" href="{href}"><span class="li-entry-h"><b>{name}</b>'
-            f'<span class="li-kicker-sub">{sub}</span></span><span class="li-tool-desc">{desc}</span></a>')
+            f'<span class="li-kicker-sub g3">{sub}</span></span><span class="li-tool-desc">{desc}</span></a>')
 
 
 # 순서는 왼쪽 색인(tools/menu.py NAV)과 같게, 묶음 이름(규정·실무·도구)을 단다.
@@ -63,6 +63,8 @@ for gi, (group, items) in enumerate(ns['NAV']):
     if not secs:
         continue
     blocks.append(f'<h2 class="li-home-group g{gi + 1}">{group}</h2>')
+    # 카드의 기관명(분류 줄)은 그 묶음의 분류색으로
+    secs = [s.replace('<span class="li-kicker-sub">', f'<span class="li-kicker-sub g{gi + 1}">') for s in secs]
     if all(not h.startswith('/library/') for h, _, _ in items):
         blocks.append('<div class="li-tool-grid">' + ''.join(tool_card(s) for s in secs) + '</div>')
     else:

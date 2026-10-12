@@ -18,6 +18,9 @@
   let fromTree = false;              // 색인 안에서 누른 이동이면 색인을 굴리지 않는다
   let allOpen = false;               // '모두 펼치기' 뒤에는 여러 카테고리를 함께 펼쳐 둔다
   let seq = 0;                       // 늦게 도착한 응답이 화면을 덮지 않게
+  // 분류 번호(1 규정, 2 실무, 3 도구): 기관명 색을 분류색으로
+  const GROUP = {};
+  DATA.forEach((g, gi) => { g.cats.forEach(c => { GROUP[c.slug] = gi + 1; }); (g.links || []).forEach(l => { GROUP['tool:' + l.href.slice(1)] = gi + 1; }); });
   // 카테고리 이름 옆에 붙일 분류 줄(홈 카드의 'IMO · ILO · UNECE' 등)
   const TYPE = {};
   (() => {
@@ -36,7 +39,7 @@
     });
   })();
   // 카테고리 머리(문서 화면 맨 위): 첫 화면 카드 제목과 같은 클래스(li-entry-h)를 쓴다.
-  const kicker = (slug, name) => `<p class="li-entry-h li-doc-head"><a href="#${slug}">${esc(name)}</a>${TYPE[slug] ? `<span class="li-kicker-sub">${esc(TYPE[slug])}</span>` : ''}</p>`;
+  const kicker = (slug, name) => `<p class="li-entry-h li-doc-head"><a href="#${slug}">${esc(name)}</a>${TYPE[slug] ? `<span class="li-kicker-sub g${GROUP[slug] || 1}">${esc(TYPE[slug])}</span>` : ''}</p>`;
 
   // 트리 순서대로 모든 문서(이전·다음 문서용)
   const flat = [], cats = {};
@@ -174,7 +177,7 @@
     const a = tree.querySelector(`a.li-tool[data-tool="${name}"]`);
     if (a) a.classList.add('is-active');
     const sub = TYPE['tool:' + name];
-    view.innerHTML = `<p class="li-entry-h li-doc-head"><a href="/${name}" target="_blank" rel="noopener" title="새 탭에서 열기">${esc(t.name)}</a>${sub ? `<span class="li-kicker-sub">${esc(sub)}</span>` : ''}</p><iframe class="li-tool-frame" src="/${name}?embed=1" title="${esc(t.name)}"></iframe>`;
+    view.innerHTML = `<p class="li-entry-h li-doc-head"><a href="/${name}" target="_blank" rel="noopener" title="새 탭에서 열기">${esc(t.name)}</a>${sub ? `<span class="li-kicker-sub g${GROUP['tool:' + name] || 3}">${esc(sub)}</span>` : ''}</p><iframe class="li-tool-frame" src="/${name}?embed=1" title="${esc(t.name)}"></iframe>`;
     document.title = `${t.name} · Logistics Library`;
     fitFrame();
     window.scrollTo({ top: 0 });
