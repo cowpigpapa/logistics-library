@@ -25,8 +25,7 @@
     tree.innerHTML = DATA.map(g => `<div class="li-group"><p class="li-group-name">${esc(g.group)}</p>${g.cats.map(c => {
       const n = Object.keys(c.docs).length;
       return `<details class="li-cat" data-slug="${c.slug}" ${open.has(c.slug) ? 'open' : ''}>
-        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${n}</span></summary>
-        <a class="li-cat-home" href="#${c.slug}" data-slug="${c.slug}">${esc(c.sub)} · 전체 목록</a>
+        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${n}</span><a class="li-cat-home" href="#${c.slug}" data-slug="${c.slug}" title="${esc(c.sub)} · 문서 전체 목록">목록</a></summary>
         ${c.sections.map(s => `<div class="li-sec"><p class="li-sec-name">${esc(s.title)}</p><ul>${s.docs.map(id => {
           const d = c.docs[id];
           return `<li><a href="#${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}">${esc(d.short || d.title)}</a></li>`;
@@ -39,6 +38,15 @@
     store.set([...tree.querySelectorAll('.li-cat[open]')].map(d => d.dataset.slug));
   }
   tree.addEventListener('toggle', remember, true);
+  // 카테고리 줄의 '목록' 버튼: 줄을 접거나 펴지 않고 전체 목록만 연다.
+  tree.addEventListener('click', e => {
+    const a = e.target.closest('.li-cat-home');
+    if (!a) return;
+    e.preventDefault();
+    const cat = a.closest('.li-cat');
+    if (cat && !cat.open) { cat.open = true; remember(); }
+    location.hash = a.dataset.slug;
+  });
 
   function markActive(slug, id) {
     tree.querySelectorAll('a.is-active').forEach(a => a.classList.remove('is-active'));

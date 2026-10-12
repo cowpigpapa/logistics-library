@@ -52,7 +52,7 @@
   const SECTIONS = [
     { title: "기본", sub: "한 장 정리 · 정의 · 변천 과정", docs: ["inco-chart", "inco-what", "inco-history"] },
     { title: "조건과 분기", sub: "조건별 해설 · 위험과 비용", docs: ["inco-rules", "inco-risk-cost"] },
-    { title: "실무", sub: "애매한 구간 · 조건 선택과 표기", docs: ["inco-gray", "inco-choose"] }
+    { title: "실무 가이드", sub: "애매한 구간 · 조건 선택과 표기", docs: ["inco-gray", "inco-choose"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [

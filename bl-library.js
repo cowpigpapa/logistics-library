@@ -50,7 +50,7 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "기본과 비교", sub: "B/L 기초 · AWB 기초 · B/L과 AWB 비교", docs: ["bl-basics", "awb-basics", "bl-vs-awb"] },
-    { title: "실무", sub: "화물 인도 · 특수 B/L과 전자화", docs: ["bl-release", "bl-special"] },
+    { title: "실무 가이드", sub: "화물 인도 · 특수 B/L과 전자화", docs: ["bl-release", "bl-special"] },
     { title: "사례", sub: "판례·분쟁 사례", docs: ["bl-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.

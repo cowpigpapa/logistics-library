@@ -146,3 +146,26 @@
 .li-cat > summary::before { border-color: #3d6fa8; }
 .li-count { color: #4b6a8c; }
 .li-sec ul { padding-left: 14px; }
+
+/* '목록' 버튼은 카테고리 줄 오른쪽 */
+.li-cat > summary .li-cat-home {
+  margin: 0 0 0 6px;
+  padding: 1px 9px;
+  border: 1px solid #b9cfe8;
+  border-radius: 999px;
+  background: #fff;
+  color: #0b4a99;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1.6;
+}
+.li-cat > summary .li-cat-home:hover { background: #0b4a99; border-color: #0b4a99; color: #fff; }
+.li-tree a.li-cat-home.is-active { background: #0b4a99; border-color: #0b4a99; color: #fff; }
+/* 큰 묶음(규정·실무)과 소분류에 회색 대신 색을 쓴다 */
+.li-group-name { display: flex; align-items: center; gap: 8px; margin: 16px 6px 6px; font-size: 12px; letter-spacing: 0.06em; }
+.li-group-name::after { content: ''; flex: 1; height: 2px; border-radius: 2px; background: currentColor; opacity: .25; }
+.li-group:nth-child(1) .li-group-name { color: #5b3fc4; }
+.li-group:nth-child(2) .li-group-name { color: #0f7b6c; }
+.li-group:nth-child(3) .li-group-name { color: #b45309; }
+.li-sec-name { color: #2f6fb3; }
