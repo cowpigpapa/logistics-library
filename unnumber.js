@@ -169,23 +169,22 @@
     out += `<span class="un-pos">${page} / ${total} 페이지</span>`;
     return out;
   }
-  function showPage(n, scroll) {
+  function showPage(n) {
     page = Math.min(Math.max(1, n), pageCount());
     const start = (page - 1) * PAGE;
     body.innerHTML = result.rows.slice(start, start + PAGE).map(r => rowHtml(r, result.q)).join('');
     pager.innerHTML = pagerHtml();
     pager.hidden = pageCount() <= 1;
-    if (scroll) $('unList').scrollIntoView({ block: 'start', behavior: 'smooth' });
   }
   pager.addEventListener('click', event => {
     const b = event.target.closest('button[data-page]');
-    if (b && !b.disabled) showPage(+b.dataset.page, true);
+    if (b && !b.disabled) showPage(+b.dataset.page);
   });
 
   function render() {
     const value = $('unSearch').value;
     result = search(value);
-    showPage(1, false);
+    showPage(1);
     const n = result.rows.length;
     const uns = new Set(result.rows.map(r => r.un)).size;
     const empty = $('unEmpty');
