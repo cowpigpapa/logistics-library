@@ -264,6 +264,39 @@
       "source": "/library-index",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/airtracking",
+      "missing": [
+        {
+          "type": "query",
+          "key": "embed"
+        }
+      ],
+      "destination": "/tool/airtracking",
+      "permanent": true
+    },
+    {
+      "source": "/containertracking",
+      "missing": [
+        {
+          "type": "query",
+          "key": "embed"
+        }
+      ],
+      "destination": "/tool/containertracking",
+      "permanent": true
+    },
+    {
+      "source": "/unnumber",
+      "missing": [
+        {
+          "type": "query",
+          "key": "embed"
+        }
+      ],
+      "destination": "/tool/unnumber",
+      "permanent": true
     }
   ]
 }

@@ -1,26 +1,26 @@
-"""메인 화면(index.html)을 만든다: 왼쪽 색인 + 오른쪽 화면(첫 화면은 카테고리 카드).
+"""사이트 화면 틀(왼쪽 색인 + 오른쪽 화면)을 만든다. 메인(index.html)도, 자료실 문서·개요 정적 페이지(tools/prerender.py)도 이 틀을 쓴다.
 - 머리줄·푸터: library.html에서 가져온다(머리줄의 규정·실무·도구 메뉴는 빼고, 패밀리 사이트는 푸터에 둔다).
-- 검색 설정(제목·설명·canonical·인증 태그·OG): tools/home-head.html
+- 메인 검색 설정(제목·설명·canonical·인증 태그·OG): tools/home-head.html
 - 카테고리 카드 원본: tools/home-cards.html (순서는 tools/menu.py의 NAV를 따른다)
 - 색인 데이터: tools/library_index.py가 만드는 library-index-data.js
-카드나 메뉴를 바꾼 뒤 `python tools/library_index.py && python tools/build_home.py`를 실행한다."""
+카드나 메뉴를 바꾼 뒤 `python tools/library_index.py && python tools/build_home.py && python tools/prerender.py`를 실행한다."""
+import html as _html
 import json, re, sys
 from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
-V = '20261012-43'   # library-index.css/js, library-index-data.js 캐시 버전
+V = '20261013-01'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')
-header = lib[lib.index('<header class="topbar">'):lib.index('</header>') + len('</header>')]
-header = re.sub(r'\s*<nav class="main-nav"[^>]*>.*?</nav>', '', header, count=1, flags=re.S)
-footer = lib[lib.index('<footer class="site-footer">'):lib.index('</footer>') + len('</footer>')]
-css = ''.join(f'  <link rel="stylesheet" href="{h}">\n' for h in re.findall(r'href="(/(?:styles|ctu-library)\.css\?v=[0-9-]+)"', lib))
-shell = re.search(r'/site-shell\.js\?v=[0-9-]+', lib).group(0)
-seo = re.sub(r'<!--.*?-->\s*', '', read('tools/home-head.html'), flags=re.S).strip()
+HEADER = lib[lib.index('<header class="topbar">'):lib.index('</header>') + len('</header>')]
+HEADER = re.sub(r'\s*<nav class="main-nav"[^>]*>.*?</nav>', '', HEADER, count=1, flags=re.S)
+FOOTER = lib[lib.index('<footer class="site-footer">'):lib.index('</footer>') + len('</footer>')]
+CSS = ''.join(f'  <link rel="stylesheet" href="{h}">\n' for h in re.findall(r'href="(/(?:styles|ctu-library)\.css\?v=[0-9-]+)"', lib))
+SHELL_JS = re.search(r'/site-shell\.js\?v=[0-9-]+', lib).group(0)
+HOME_SEO = re.sub(r'<!--.*?-->\s*', '', read('tools/home-head.html'), flags=re.S).strip()
 
 cards = re.sub(r'<!--.*?-->\s*', '', read('tools/home-cards.html'), flags=re.S)
-
 # 카드 머리를 개요·문서 화면과 같은 한 줄로: 이름 옆에 분류 줄(예: CTU Code  IMO · ILO · UNECE)
 cards = re.sub(r'<p class="entry-type">(.*?)</p>\s*<h2 id="([^"]+)">(.*?)</h2>',
                r'<h2 id="\2" class="li-entry-h">\3<span class="li-kicker-sub">\1</span></h2>', cards)
@@ -41,79 +41,146 @@ cards = re.sub(r'<section class="library-entry".*?</section>', link_title, cards
 by_href = {re.search(r'<a href="([^"]+)">', sec).group(1): sec
            for sec in re.findall(r'<section class="library-entry".*?</section>', cards, flags=re.S)}
 
-
-def tool_card(sec):
-    """도구는 그림 없는 작은 실행형 카드로."""
-    href = re.search(r'<a href="([^"]+)">', sec).group(1)
-    name = re.search(r'class="li-entry-h"><a href="[^"]+">(.*?)</a>', sec).group(1)
-    sub = re.search(r'<span class="li-kicker-sub[^"]*">(.*?)</span>', sec).group(1)
-    desc = re.search(r'</h2>\s*<p>(.*?)</p>', sec, re.S).group(1)
-    return (f'<a class="li-tool-card" href="{href}"><span class="li-entry-h"><b>{name}</b>'
-            f'<span class="li-kicker-sub g3">{sub}</span></span><span class="li-tool-desc">{desc}</span></a>')
-
-
 # 순서는 왼쪽 색인(tools/menu.py NAV)과 같게, 묶음 이름(규정·실무·도구)을 단다.
 menu = read('tools/menu.py')
 nav_src = menu[menu.index('NAV = ['):menu.index('\n]\n', menu.index('NAV = [')) + 2]
 ns = {}
 exec(nav_src, ns)
+NAV = ns['NAV']
+CARDS = {}        # 카테고리 slug -> 카드 마크업(분류색 적용)
+META = {}         # slug 또는 'tool:<이름>' -> (이름, 분류 줄, 묶음 번호)
+TOOL_TYPES = {}   # 도구 이름 -> 분류 줄(도구 화면 머리용)
 blocks = []
-tool_types = {}
-for gi, (group, items) in enumerate(ns['NAV']):
-    secs = [by_href.pop(href) for href, _, _ in items if href in by_href]
+for gi, (group, items) in enumerate(NAV):
+    secs = [(href, by_href.pop(href)) for href, _, _ in items if href in by_href]
+    secs = [(h, s.replace('<span class="li-kicker-sub">', f'<span class="li-kicker-sub g{gi + 1}">')) for h, s in secs]
+    for href, name, sub in items:
+        key = href.split('/')[2] if href.startswith('/library/') else 'tool:' + href.lstrip('/')
+        sec = dict(secs).get(href)
+        kind = re.search(r'<span class="li-kicker-sub[^"]*">(.*?)</span>', sec).group(1) if sec else ''
+        META[key] = (name, kind, gi + 1)
     if not secs:
         continue
-    blocks.append(f'<h2 class="li-home-group g{gi + 1}">{group}</h2>')
-    # 카드의 기관명(분류 줄)은 그 묶음의 분류색으로
-    secs = [s.replace('<span class="li-kicker-sub">', f'<span class="li-kicker-sub g{gi + 1}">') for s in secs]
     if all(not h.startswith('/library/') for h, _, _ in items):
         # 도구는 첫 화면에 카드로 두지 않는다(왼쪽 색인에 있다). 도구 화면 머리의 분류 줄만 넘겨 둔다.
-        blocks.pop()   # 방금 넣은 '도구' 묶음 이름
-        for s in secs:
-            href = re.search(r'<a href="/([^"]+)">', s).group(1)
-            tool_types[href] = re.search(r'<span class="li-kicker-sub[^"]*">(.*?)</span>', s).group(1)
-    else:
-        blocks += secs
+        for href, s in secs:
+            TOOL_TYPES[href.lstrip('/')] = META['tool:' + href.lstrip('/')][1]
+        continue
+    blocks.append(f'<h2 class="li-home-group g{gi + 1}">{group}</h2>')
+    for href, s in secs:
+        CARDS[href.split('/')[2]] = s
+        blocks.append(s)
 blocks += list(by_href.values())
-home = '\n'.join(blocks)
+HOME_INNER = ('    <div class="li-home">\n'
+              '      <header class="li-intro"><h1>Logistics Library</h1><p>물류 규정·운송 실무 자료를 주제별로 정리했습니다. '
+              '왼쪽 색인에서 고르면 이 자리에서 바로 읽을 수 있습니다.</p></header>\n'
+              + '\n'.join(blocks) + '\n    </div>')
 
-html = f'''<!doctype html>
+
+def kicker(slug):
+    """문서 화면 맨 위 카테고리 머리(첫 화면 카드 제목과 같은 li-entry-h). library-index.js의 kicker()와 같은 마크업."""
+    name, kind, g = META[slug]
+    sub = f'<span class="li-kicker-sub g{g}">{kind}</span>' if kind else ''   # kind는 카드에서 가져온 마크업(이미 이스케이프됨)
+    return f'<p class="li-entry-h li-doc-head"><a href="/library/{slug}">{_html.escape(name, quote=False)}</a>{sub}</p>'
+
+
+def index_data():
+    src = read('library-index-data.js')
+    return json.loads(src[src.index('=') + 1:src.rindex(';')])
+
+
+ACTIVE = ' class="is-active"'
+
+
+def tree_html(data, slug=None, doc_id=None, tool=None):
+    """왼쪽 색인 마크업(검색엔진·JS 없는 방문자용). library-index.js의 renderTree()와 같은 마크업이며, JS가 다시 그린다."""
+    e = lambda s: _html.escape(s or '', quote=True)
+    out = []
+    for g in data:
+        cats = []
+        for c in g['cats']:
+            n = sum(len(s['docs']) for s in c['sections'])
+            secs = ''.join(
+                f'<div class="li-sec"><p class="li-sec-name">{e(s["title"])}</p><ul>' + ''.join(
+                    f'<li><a href="/library/{c["slug"]}/{i}" data-slug="{c["slug"]}" data-id="{i}" title="{e(c["docs"][i]["title"])}"'
+                    f'{ACTIVE if c["slug"] == slug and i == doc_id else ""}>'
+                    f'{e(c["docs"][i]["short"] or c["docs"][i]["title"].split(" — ")[0])}</a></li>' for i in s['docs'])
+                + '</ul></div>' for s in c['sections'])
+            ov_active = ' is-active' if c['slug'] == slug and not doc_id else ''
+            cats.append(f'<div class="li-cat-wrap"><a class="li-ov{ov_active}" href="/library/{c["slug"]}" data-slug="{c["slug"]}" '
+                        f'title="{e(c["name"])} 개요 및 원문">개요</a><details class="li-cat" data-slug="{c["slug"]}"'
+                        f'{" open" if c["slug"] == slug else ""}><summary><span class="li-cat-name">{e(c["name"])}</span>'
+                        f'<span class="li-count">{n}</span></summary>{secs}</details></div>')
+        tools = ''.join(f'<a class="li-tool{" is-active" if l["href"][1:] == tool else ""}" href="/tool{l["href"]}" data-tool="{l["href"][1:]}"><span class="li-cat-name">{e(l["name"])}</span>'
+                        f'<small>{e(l["sub"])}</small></a>' for l in g.get('links', []))
+        out.append(f'<div class="li-group"><p class="li-group-name">{e(g["group"])}</p>{"".join(cats)}{tools}</div>')
+    return ''.join(out)
+
+
+def page(seo, inner, route='/', tree=''):
+    """화면 틀 한 장. seo: <head>에 넣을 제목·설명·canonical 등, inner: 오른쪽 화면(#liView) 내용, route: 이 페이지 주소."""
+    return f'''<!doctype html>
 <html lang="ko">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {seo}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
-{css}  <link rel="stylesheet" href="/battery-library.css?v=20261012-01">
+{CSS}  <link rel="stylesheet" href="/battery-library.css?v=20261012-01">
   <link rel="stylesheet" href="/uld-library.css?v=20261006-01">
   <link rel="stylesheet" href="/incoterms-library.css?v=20261005-03">
   <link rel="stylesheet" href="/library-index.css?v={V}">
 </head>
 <body class="li-body">
 <a class="li-skip" href="#liView">본문으로 건너뛰기</a>
-{header}
+{HEADER}
 <main class="li-main">
   <button type="button" class="li-toggle" id="liToggle" aria-controls="liSide" aria-expanded="false">목차</button>
   <aside class="li-side" id="liSide" aria-label="자료 색인">
     <div class="li-side-head">
-      <input type="search" id="liFilter" placeholder="제목·주제 검색…" aria-label="제목·요약·태그로 자료 찾기" autocomplete="off">
+      <input type="search" id="liFilter" placeholder="제목·본문 검색" aria-label="제목·본문으로 자료 찾기" autocomplete="off">
       <div class="li-side-tools"><button type="button" id="liOpenAll">모두 펼치기</button><button type="button" id="liCloseAll">모두 접기</button></div>
     </div>
-    <nav class="li-tree" id="liTree"></nav>
+    <nav class="li-tree" id="liTree">{tree}</nav>
   </aside>
-  <article class="li-view library-view" id="liView" tabindex="-1" aria-live="polite" data-tool-types='{json.dumps(tool_types, ensure_ascii=False)}'>
-    <div class="li-home">
-      <header class="li-intro"><h1>Logistics Library</h1><p>물류 규정·운송 실무 자료를 주제별로 정리했습니다. 왼쪽 색인에서 고르면 이 자리에서 바로 읽을 수 있습니다.</p></header>
-{home}
-    </div>
+  <article class="li-view library-view" id="liView" tabindex="-1" aria-live="polite" data-route="{route}" data-tool-types='{json.dumps(TOOL_TYPES, ensure_ascii=False)}'>
+{inner}
   </article>
 </main>
-{footer}
+{FOOTER}
 <script src="/library-index-data.js?v={V}"></script>
 <script src="/library-index.js?v={V}"></script>
-<script src="{shell}"></script>
+<script src="{SHELL_JS}"></script>
 </body>
 </html>
 '''
-(ROOT / 'index.html').write_text(html, encoding='utf-8', newline='\n')
-print('index.html 생성: 카드', len(re.findall(r'class="library-entry"', home)), '도구 분류 줄', len(tool_types))
+
+
+ORIGIN = 'https://logistics.onharu.app'
+
+
+def tool_inner(name):
+    """도구 화면: 카테고리 머리와 같은 줄 + 도구 페이지(머리줄·푸터 없이)를 끼운 틀. library-index.js의 showTool()과 같은 마크업."""
+    tname, kind, g = META['tool:' + name]
+    sub = f'<span class="li-kicker-sub g{g}">{kind}</span>' if kind else ''
+    return (f'<p class="li-entry-h li-doc-head"><a href="/tool/{name}">{_html.escape(tname, quote=False)}</a>{sub}</p>'
+            f'<iframe class="li-tool-frame" src="/{name}?embed=1" title="{_html.escape(tname, quote=True)}"></iframe>')
+
+
+def main():
+    data = index_data()
+    (ROOT / 'index.html').write_text(page(HOME_SEO, HOME_INNER, '/', tree_html(data)), encoding='utf-8', newline='\n')
+    # 도구 화면 /tool/<name>: 도구 페이지의 검색 설정을 그대로 쓰되 주소만 /tool/<name>으로.
+    # 도구 페이지(/<name>)는 vercel.json redirects로 이 주소로 넘어온다(?embed=1로 끼워 열 때만 그대로).
+    (ROOT / 'tool').mkdir(exist_ok=True)
+    for name in TOOL_TYPES:
+        src = read(f'{name}.html')
+        seo = src[src.index('<title>'):src.index('<link rel="icon"')].strip()
+        seo = seo.replace(f'{ORIGIN}/{name}"', f'{ORIGIN}/tool/{name}"')
+        (ROOT / 'tool' / f'{name}.html').write_text(page(seo, tool_inner(name), f'/tool/{name}', tree_html(data, tool=name)),
+                                                    encoding='utf-8', newline='\n')
+    print('index.html 생성: 카드', len(CARDS), '/ 도구 화면', len(TOOL_TYPES))
+
+
+if __name__ == '__main__':
+    main()

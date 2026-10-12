@@ -49,6 +49,8 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / 'tools'))
+import build_home as frame  # 화면 틀(메인과 같은 왼쪽 색인 + 오른쪽 화면)
 OUT = ROOT / 'library'
 DATES = ROOT / 'tools' / 'prerender-dates.json'
 ORIGIN = 'https://logistics.onharu.app'
@@ -261,6 +263,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const READY = `(() => {
   const v = document.getElementById('libraryView');
   if (document.readyState !== 'complete' || !v || !v.firstElementChild || v.querySelector('.lib-loading')) return null;
+  if (v.querySelector('.lib-article h3:not([data-num])')) return null;  // site-shell.js가 소제목 번호 배지를 단 뒤에
   return JSON.stringify({ title: document.title, html: v.innerHTML });
 })()`;
 (async () => {
@@ -398,6 +401,117 @@ def short_title(doc):
     return doc['short'] or doc['title'].split(' — ')[0]
 
 
+# ---------- 색인 화면 틀(메인과 같은 화면)로 옮기기 ----------
+# 카테고리 페이지 JS가 그린 #libraryView를 받아, 메인(index.html)과 같은 틀(왼쪽 색인 + 오른쪽 화면)에 넣는다.
+# 오른쪽 화면 내용은 library-index.js가 화면을 옮길 때 그대로 가져다 쓴다(이 페이지의 #liView).
+
+VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'track', 'wbr'}
+TAG = re.compile(r'<(/?)([a-zA-Z][a-zA-Z0-9-]*)\b[^>]*?(/?)>')
+
+
+def element_end(src, start):
+    """src[start]에서 시작하는 요소가 끝나는 위치(닫는 태그 뒤)."""
+    depth = 0
+    for m in TAG.finditer(src, start):
+        name = m.group(2).lower()
+        if name in VOID or m.group(3):
+            if depth == 0:
+                return m.end()
+            continue
+        depth += -1 if m.group(1) else 1
+        if depth == 0:
+            return m.end()
+    return len(src)
+
+
+def find_element(src, pattern):
+    """여는 태그가 pattern(정규식)에 맞는 첫 요소의 (시작, 끝). 없으면 None."""
+    m = re.search(pattern, src)
+    return (m.start(), element_end(src, m.start())) if m else None
+
+
+def drop_elements(src, pattern):
+    while (span := find_element(src, pattern)):
+        src = src[:span[0]] + src[span[1]:]
+    return src
+
+
+def children(src):
+    """맨 위 요소들을 (태그 이름, 마크업)으로."""
+    out, pos = [], 0
+    while (m := TAG.search(src, pos)):
+        if m.group(1):
+            pos = m.end()
+            continue
+        end = element_end(src, m.start())
+        out.append((m.group(2).lower(), src[m.start():end]))
+        pos = end
+    return out
+
+
+def inner_of(markup):
+    return markup[markup.index('>') + 1:markup.rindex('</')]
+
+
+def doc_inner(inner):
+    """문서 화면: 카테고리 페이지의 빵부스러기와 이전·다음 줄은 뺀다(색인이 대신한다)."""
+    inner = drop_elements(inner, r'<nav class="lib-crumb"')
+    return drop_elements(inner, r'<nav class="bat-pager"')
+
+
+def overview_inner(slug, landing, overview_doc):
+    """개요 화면: 메인 카드(설명·그림) + 알림 + '설명 및 요약' 문서 + 원문과 공식 자료. library-index.js의 옛 개요 화면과 같은 구성."""
+    card = frame.CARDS.get(slug, '')
+    # 이 페이지의 제목은 카드 이름이다(h1).
+    card = re.sub(r'<h2 (id="[^"]+" class="li-entry-h">.*?)</h2>', r'<h1 \1</h1>', card, count=1, flags=re.S)
+    out = f'<div class="li-home">{card}</div>'
+    span = find_element(landing, r'<div class="lib-notice"')
+    if span:
+        out += f'<div class="li-notice">{inner_of(landing[span[0]:span[1]])}</div>'
+    if overview_doc:
+        doc = doc_inner(overview_doc).replace('<h1 class="lib-doc-title">', '<h2 class="lib-doc-title">', 1)
+        doc = re.sub(r'(<h2 class="lib-doc-title">.*?)</h1>', r'\1</h2>', doc, count=1, flags=re.S)
+        out += f'<div class="li-ov-doc">{doc}</div>'
+    span = find_element(landing, r'<details class="[^"]*\blib-official\b')
+    if span:
+        kids = children(inner_of(landing[span[0]:span[1]]))
+        table = next((m for t, m in kids if 'class="lib-table-wrap' in m[:60]), '')
+        notes = ''.join(m for t, m in kids if t != 'summary' and 'class="lib-table-wrap' not in m[:60])
+        out += f'<section class="li-src"><h2>원문과 공식 자료</h2>{table}{notes}</section>'
+    return out
+
+
+def seo_head(*, title, description, url, image, og_type, ld):
+    meta = [
+        f'<title>{html.escape(title, quote=False)}</title>',
+        f'<meta name="description" content="{attr(description)}">',
+        f'<link rel="canonical" href="{attr(url)}">',
+        f'<meta property="og:type" content="{og_type}">',
+        f'<meta property="og:site_name" content="{SITE_NAME}">',
+        '<meta property="og:locale" content="ko_KR">',
+        f'<meta property="og:title" content="{attr(title)}">',
+        f'<meta property="og:description" content="{attr(description)}">',
+        f'<meta property="og:url" content="{attr(url)}">',
+    ]
+    if image:
+        meta += [f'<meta property="og:image" content="{attr(image)}">', '<meta name="twitter:card" content="summary_large_image">']
+    else:
+        meta.append('<meta name="twitter:card" content="summary">')
+    meta.append(json_ld(ld))
+    return '\n  '.join(meta)
+
+
+def shell_page(seo, inner, route, tree):
+    page = frame.page(seo, inner, route)
+    return page.replace('<nav class="li-tree" id="liTree"></nav>', f'<nav class="li-tree" id="liTree">{tree}</nav>', 1)
+
+
+def plain_text(markup):
+    markup = re.sub(r'<(svg|script|style)\b.*?</\1>', ' ', markup, flags=re.S)
+    markup = re.sub(r'<(?:br|/p|/li|/h[1-6]|/td|/th|/tr|/div|/figcaption)\b[^>]*>', ' ', markup)
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', markup))).strip()
+
+
 # ---------- 사이트맵 ----------
 
 def sitemap(library_entries, ledger):
@@ -454,6 +568,9 @@ def main():
     files = {}
     entries = []
     ledger = Ledger()
+    data = frame.index_data()
+    overview_id = {c['slug']: c.get('overview') for g in data for c in g['cats']}
+    search = []   # 본문 검색용(색인 검색칸): 문서마다 제목과 본문 글자
     for (cat, doc), (inner, title) in results:
         template = read(cat['page'])
         landing = ORIGIN + cat['base']
@@ -466,7 +583,8 @@ def main():
             source = cat['docs_dir'] / f"{doc['id']}.html" if cat['docs_dir'] else cat['js']
             url = f"{landing}/{doc['id']}"
             description = describe(doc['summary'] or doc['title'])
-            date, pub = ledger.stamp(url, template + title + description + (image or '') + inner, modified(source),
+            body = doc_inner(inner)
+            date, pub = ledger.stamp(url, 'shell1' + title + description + (image or '') + body, modified(source),
                                      published(source, modified(source)))
             ld = {'@context': 'https://schema.org', '@graph': [
                 {'@type': 'TechArticle', '@id': url + '#article', 'headline': doc['title'], 'name': title,
@@ -476,9 +594,11 @@ def main():
                  'author': ORG, 'publisher': ORG,
                  'isPartOf': {'@type': 'CollectionPage', '@id': landing, 'name': cat['name'], 'url': landing}},
                 breadcrumb([home, (cat['name'], landing), (short_title(doc), url)])]}
-            page = build_page(template, title=title, description=description, url=url, image=image,
-                              og_type='article', ld=ld, inner=inner, marker=f"{doc['id']}@{docs_version(cat)}")
+            seo = seo_head(title=title, description=description, url=url, image=image, og_type='article', ld=ld)
+            route = f"{cat['base']}/{doc['id']}"
+            page = shell_page(seo, frame.kicker(cat['slug']) + body, route, frame.tree_html(data, cat['slug'], doc['id']))
             files[OUT / cat['slug'] / f"{doc['id']}.html"] = page
+            search.append({'u': route, 't': doc['title'], 'b': plain_text(body)})
             entries.append((cat['base'], url, date, ''))
         else:
             dates = [modified(cat['js']), modified(cat['page'])]
@@ -487,7 +607,10 @@ def main():
                           if p.stem in {d['id'] for d in cat['docs']}]
             description = re.search(r'<meta name="description" content="([^"]*)">', template)
             description = html.unescape(description.group(1)) if description else cat['name']
-            date, _ = ledger.stamp(landing, template + title + description + (image or '') + inner,
+            ov = overview_id.get(cat['slug'])
+            ov_html = rendered.get(f"{local}{cat['base']}/{ov}", (None,))[0] if ov else None
+            body = overview_inner(cat['slug'], inner, ov_html)
+            date, _ = ledger.stamp(landing, 'shell1' + title + description + (image or '') + body,
                                    max(dates, key=lambda d: datetime.fromisoformat(d)))
             listed = [d for d in cat['docs'] if f"{cat['base']}/{d['id']}\"" in inner]
             ld = {'@context': 'https://schema.org', '@graph': [
@@ -499,8 +622,8 @@ def main():
                      {'@type': 'ListItem', 'position': i + 1, 'url': f"{landing}/{d['id']}", 'name': d['title']}
                      for i, d in enumerate(listed)]}},
                 breadcrumb([home, (cat['name'], landing)])]}
-            page = build_page(template, title=title, description=description, url=landing, image=image,
-                              og_type='website', ld=ld, inner=inner, marker=None)
+            seo = seo_head(title=title, description=description, url=landing, image=image, og_type='website', ld=ld)
+            page = shell_page(seo, body, cat['base'], frame.tree_html(data, cat['slug']))
             files[OUT / f"{cat['slug']}.html"] = page
             entries.append((cat['base'], landing, date, '<changefreq>weekly</changefreq><priority>0.9</priority>'))
 
@@ -510,6 +633,7 @@ def main():
     entries.sort(key=lambda e: (order[e[0]], e[3] == '', pos[e[1]]))
     files[ROOT / 'sitemap.xml'] = sitemap([(loc, date, extra) for _, loc, date, extra in entries], ledger)
     files[DATES] = ledger.text()
+    files[ROOT / 'search-index.json'] = json.dumps(search, ensure_ascii=False, separators=(',', ':')) + chr(10)
 
     stale = [p for p in OUT.rglob('*.html') if p not in files] if OUT.exists() else []
     changed = [p for p, text in files.items() if not p.is_file() or p.read_bytes() != text.encode('utf-8')]
