@@ -63,10 +63,13 @@ def main():
         extra = [i for i in out['extra'] if i in by_id and i not in used]
         if extra:
             sections.append({'title': '참고 자료', 'docs': extra}); used.update(extra)
-        # 어느 묶음에도 없는 문서(예: CTU 설명 및 요약)는 맨 앞 '개요'로 둔다.
+        # 어느 묶음에도 없는 문서(예: CTU 설명 및 요약)는 첫 묶음 맨 앞에 넣는다('개요 및 원문'과 이름이 겹치지 않게).
         rest = [d['id'] for d in out['docs'] if d['id'] not in used]
         if rest:
-            sections.insert(0, {'title': '개요' if sections else '문서', 'docs': rest})
+            if sections:
+                sections[0]['docs'] = rest + sections[0]['docs']
+            else:
+                sections.append({'title': '문서', 'docs': rest})
         if not groups or groups[-1]['group'] != g:
             groups.append({'group': g, 'cats': []})
         groups[-1]['cats'].append({'slug': href.rsplit('/', 1)[1], 'name': name, 'sub': sub, 'sections': sections,

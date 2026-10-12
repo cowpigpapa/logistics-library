@@ -186,3 +186,17 @@
 .li-view .lib-head-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
 .li-view .lib-intro-copy { max-width: none; }
 .li-view .lib-intro-copy h2 { font-size: 26px; }
+
+/* 2026-10-12 정리: 카테고리 첫 줄 '개요 및 원문' */
+.li-ov { display: block; margin: 4px 0 2px 6px; padding: 6px 8px 6px 10px; border-left: 2px solid transparent; border-radius: 7px; font-size: 13px; font-weight: 700; color: #0b4a99; text-decoration: none; }
+.li-ov::before { content: '◆'; margin-right: 6px; font-size: 9px; vertical-align: 2px; color: #6b93c7; }
+.li-ov:hover { background: #f1f6fc; }
+.li-tree a.li-ov.is-active { background: #e6f0fc; border-left-color: #1f5fae; }
+/* 개요 및 원문 화면 */
+.li-overview .library-entry { border-top: 0; padding-top: 4px; }
+.li-notice { margin: 8px 0 0; padding: 14px 16px; border: 1px solid #f1dfb3; border-radius: 12px; background: #fffaf0; color: #4a3a12; font-size: 14px; line-height: 1.7; }
+.li-notice b { display: block; margin-bottom: 4px; color: #2b2410; }
+.li-notice p { margin: 0; }
+.li-src { margin-top: 28px; }
+.li-src h3 { margin: 0 0 10px; font-size: 18px; }
+.li-overview .library-entry { padding-bottom: 12px; }
