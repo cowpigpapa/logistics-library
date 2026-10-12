@@ -44,6 +44,8 @@
     if (!a) return;
     e.preventDefault();
     const cat = a.closest('.li-cat');
+    // 이미 이 카테고리 목록을 보고 있고 펼쳐져 있으면 한 번 더 눌렀을 때 접는다.
+    if (cat && cat.open && decodeURIComponent(location.hash.slice(1)) === a.dataset.slug) { cat.open = false; remember(); return; }
     if (cat && !cat.open) { cat.open = true; remember(); }
     location.hash = a.dataset.slug;
   });
