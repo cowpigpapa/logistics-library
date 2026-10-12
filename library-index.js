@@ -115,8 +115,7 @@
         src = `<section class="li-src"><h3>원문과 공식 자료</h3>${table ? table.outerHTML : ''}${notes}</section>`;
       }
       document.title = `${c.name} 개요 및 원문 · Logistics Library`;
-      return `<p class="li-kicker">${esc(c.name)} · 개요 및 원문</p>
-        <div class="li-home li-overview">${entry ? entry.outerHTML : `<h2>${esc(c.name)}</h2><p>${esc(c.sub)}</p>`}</div>
+      return `<div class="li-home li-overview">${entry ? entry.outerHTML : `<h2>${esc(c.name)}</h2><p>${esc(c.sub)}</p>`}</div>
         ${notice ? `<div class="li-notice">${notice.innerHTML}</div>` : ''}${src}`;
     });
   }
