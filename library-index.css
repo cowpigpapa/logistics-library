@@ -177,5 +177,4 @@
 .li-tool:hover { background: #fbe8cf; }
 
 /* 스크롤바가 생기고 없어질 때 폭이 바뀌지 않게 자리를 늘 비워 둔다 */
-html:has(.li-body) { scrollbar-gutter: stable; }
 .li-tree { scrollbar-gutter: stable; }
