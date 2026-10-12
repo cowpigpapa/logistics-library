@@ -702,3 +702,17 @@
   margin-bottom: 2px;
   color: var(--blue-deep, #0b4f91);
 }
+
+/* 2026-10-12 가독성 개선(모든 자료 페이지 공통)
+   - 표: 한국어 낱말이 중간에서 끊기지 않게(keep-all), 첫 칸(구분·이름)에 최소 폭, 줄무늬로 행 구분
+   - 본문: 줄 간격을 조금 넓힌다
+   - 목차: 말줄임(…) 대신 두 줄까지 보여 준다 */
+.library-view .lib-table { font-size: 14px; line-height: 1.6; }
+.library-view .lib-table th,
+.library-view .lib-table td { padding: 9px 12px; word-break: keep-all; overflow-wrap: break-word; }
+.library-view .lib-table th:first-child,
+.library-view .lib-table td:first-child { min-width: 8.5em; }
+.library-view .lib-table tbody tr:nth-child(even) > td { background: #fafbfa; }
+.library-view .lib-article p,
+.library-view .lib-article li { line-height: 1.85; }
+.library-view .law-toc a { white-space: normal; text-overflow: clip; line-height: 1.5; padding: 2px 0; }

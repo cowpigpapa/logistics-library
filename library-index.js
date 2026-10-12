@@ -142,16 +142,6 @@
     });
   }
 
-  function pagerHtml(slug, id) {
-    const i = flat.findIndex(x => x.slug === slug && x.id === id);
-    const cell = (x, label) => {
-      if (!x) return '<span></span>';
-      const d = cats[x.slug].docs[x.id];
-      const other = x.slug !== slug ? ` <small>${esc(cats[x.slug].name)}</small>` : '';
-      return `<a href="#${x.slug}/${x.id}"><span>${label}</span>${esc(d.short || d.title)}${other}</a>`;
-    };
-    return `<nav class="li-pager" aria-label="이전·다음 문서">${cell(flat[i - 1], '← 이전')}${cell(flat[i + 1], '다음 →')}</nav>`;
-  }
 
   function showDoc(slug, id) {
     const c = cats[slug], d = c.docs[id];
@@ -159,7 +149,7 @@
       const body = await page(`/library/${slug}/${id}`);
       body.querySelectorAll('.lib-crumb, .bat-pager').forEach(el => el.remove());
       document.title = `${d.title} · ${c.name} · Logistics Library`;
-      return `${kicker(slug, c.name)}${body.innerHTML}${pagerHtml(slug, id)}`;
+      return `${kicker(slug, c.name)}${body.innerHTML}`;
     });
   }
 

@@ -230,3 +230,12 @@
 .li-view .li-entry-h a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .li-home .library-entry { align-items: center; }
 .li-home > .library-entry:first-child { border-top: 0; padding-top: 8px; }
+/* 첫 화면 묶음 이름(색인과 같은 색) */
+.li-home-group { display: flex; align-items: center; gap: 10px; margin: 26px 0 0; font-size: 13px; font-weight: 800; letter-spacing: .06em; }
+.li-home-group::after { content: ''; flex: 1; height: 2px; border-radius: 2px; background: currentColor; opacity: .25; }
+.li-home-group:first-child { margin-top: 0; }
+.li-home-group.g1 { color: #5b3fc4; }
+.li-home-group.g2 { color: #0f7b6c; }
+.li-home-group.g3 { color: #b45309; }
+.li-home .li-home-group + .library-entry { border-top: 0; padding-top: 14px; }
+.li-home .library-entry { padding-block: 30px; }
