@@ -4,7 +4,7 @@
   const META = window.UN_META || {};
   const RAW = window.UN_ROWS || [];
   const F = META.fields || [];
-  const PAGE = 60;
+  const PAGE = 100;
   const PROPS_SRC = '/unnumber-props.js?v=20261011-01';
   const $ = id => document.getElementById(id);
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -92,7 +92,7 @@
       `<div class="un-f un-props"><dt>특성</dt><dd>${props === null ? '<span class="un-extra un-loading">불러오는 중…</span>' : (props ? esc(props) : '<span class="un-none">-</span>')}</dd></div>` +
       '</dl>';
     if (r.x) {
-      html += `<p class="un-x"><b>BAM 데이터와 다름</b> ${esc(r.x)}<br>위 값은 고시 원문 그대로이고, BAM(IMDG Amdt. 42-24) 표기를 참고로 덧붙였습니다. 서류에 적을 때는 IMDG Code 원문을 확인하세요.</p>`;
+      html += `<p class="un-x"><b>BAM 데이터와 다름</b> ${esc(r.x)}<br>위 값은 고시 원문 그대로이고, BAM(IMDG Amdt. 42-24) 표기를 참고로 덧붙였습니다. 서류에 적을 때는 IMDG Code 원문을 확인하세요.<br><small class="un-bam">Source: Bundesanstalt für Materialforschung und -prüfung (BAM) – Datenbank GEFAHRGUT – URL: <a href="https://tes.bam.de/en/dangerous-goods-database" target="_blank" rel="noopener">https://tes.bam.de/en/dangerous-goods-database</a> · Licence: <a href="https://www.govdata.de/dl-de/by-2-0" target="_blank" rel="noopener">dl-de/by-2-0</a> · Changes: 고시 값과 다른 값만 옮겨 적음</small></p>`;
     }
     return html;
   }
@@ -122,8 +122,7 @@
   // ---------------------------------------------------------------- 검색
   function search(raw) {
     const q = String(raw || '').trim();
-    // 2,800여 행을 한꺼번에 펼치지 않는다. 검색어를 넣어야 결과가 나온다.
-    if (!q) return { rows: [], q: '', kind: 'none' };
+    if (!q) return { rows: ROWS, q: '', kind: 'all' };
     const num = q.replace(/\s+/g, '').match(/^(?:un)?(\d{1,4})$/i);
     if (num) {
       const d = num[1];
@@ -150,32 +149,48 @@
   }
 
   let result = { rows: [], q: '' };
-  let shown = 0;
+  let page = 1;
   const body = $('unBody');
-  const more = $('unMore');
+  const pager = $('unPager');
 
-  function appendPage() {
-    const next = result.rows.slice(shown, shown + PAGE);
-    body.insertAdjacentHTML('beforeend', next.map(r => rowHtml(r, result.q)).join(''));
-    shown += next.length;
-    more.hidden = shown >= result.rows.length;
-    if (!more.hidden) $('unMoreBtn').textContent = `더 보기 (${(result.rows.length - shown).toLocaleString('ko-KR')}행 남음)`;
+  // 100행씩 페이지로 나눠 보여 준다.
+  function pageCount() { return Math.max(1, Math.ceil(result.rows.length / PAGE)); }
+  function pagerHtml() {
+    const total = pageCount();
+    if (total <= 1) return '';
+    const nums = new Set([1, total, page - 2, page - 1, page, page + 1, page + 2].filter(n => n >= 1 && n <= total));
+    const list = [...nums].sort((a, b) => a - b);
+    let out = `<button type="button" data-page="${page - 1}" ${page === 1 ? 'disabled' : ''} aria-label="이전 페이지">‹ 이전</button>`;
+    list.forEach((n, i) => {
+      if (i && n - list[i - 1] > 1) out += '<span class="un-gap" aria-hidden="true">…</span>';
+      out += `<button type="button" data-page="${n}" ${n === page ? 'aria-current="page"' : ''}>${n}</button>`;
+    });
+    out += `<button type="button" data-page="${page + 1}" ${page === total ? 'disabled' : ''} aria-label="다음 페이지">다음 ›</button>`;
+    out += `<span class="un-pos">${page} / ${total} 페이지</span>`;
+    return out;
   }
+  function showPage(n, scroll) {
+    page = Math.min(Math.max(1, n), pageCount());
+    const start = (page - 1) * PAGE;
+    body.innerHTML = result.rows.slice(start, start + PAGE).map(r => rowHtml(r, result.q)).join('');
+    pager.innerHTML = pagerHtml();
+    pager.hidden = pageCount() <= 1;
+    if (scroll) $('unList').scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }
+  pager.addEventListener('click', event => {
+    const b = event.target.closest('button[data-page]');
+    if (b && !b.disabled) showPage(+b.dataset.page, true);
+  });
 
   function render() {
     const value = $('unSearch').value;
     result = search(value);
-    shown = 0;
-    body.innerHTML = '';
-    appendPage();
+    showPage(1, false);
     const n = result.rows.length;
     const uns = new Set(result.rows.map(r => r.un)).size;
     const empty = $('unEmpty');
-    $('unList').hidden = n === 0;
     empty.hidden = n > 0;
-    if (!n && result.kind === 'none') {
-      empty.innerHTML = 'UN 번호나 품명을 입력하면 결과가 나옵니다. 예: <button type="button" class="un-ex">1203</button> <button type="button" class="un-ex">UN3480</button> <button type="button" class="un-ex">리튬</button> <button type="button" class="un-ex">paint</button>';
-    } else if (!n) {
+    if (!n) {
       if (result.un && ABSENT.has(result.un)) {
         empty.innerHTML = `<b>UN${esc(result.un)}</b>: 제7급(방사성물질) 항목으로, 고시 [별표 1] 위험물목록에 실려 있지 않습니다. IMDG Code 원문과 방사성물질 운반에 관한 국내 규정을 확인하세요.`;
       } else if (result.un) {
@@ -184,9 +199,7 @@
         empty.innerHTML = '찾는 품명이 없습니다. 영문 정식운송품명의 일부(예: lithium, paint)나 UN 번호로 찾아 보세요.';
       }
     }
-    $('unCount').textContent = value.trim()
-      ? `${n.toLocaleString('ko-KR')}행 찾음 · UN 번호 ${uns.toLocaleString('ko-KR')}개`
-      : `위험물목록 ${ROWS.length.toLocaleString('ko-KR')}행 · UN 번호 ${new Set(ROWS.map(r => r.un)).size.toLocaleString('ko-KR')}개 · ${META.notice || ''}(${String(META.date || '').replace(/-0?/g, '. ')}.) 기준`;
+    $('unCount').textContent = value.trim() ? `${n.toLocaleString('ko-KR')}행 찾음 · UN 번호 ${uns.toLocaleString('ko-KR')}개` : '';
     // 한 행만 찾았으면 바로 펼친다.
     if (n === 1) toggle(body.querySelector('.un-item'), true);
     // 검색어를 주소에 남겨 공유할 수 있게 한다.
@@ -213,25 +226,10 @@
     }
   }
 
-  $('unEmpty').addEventListener('click', event => {
-    const ex = event.target.closest('.un-ex');
-    if (!ex) return;
-    $('unSearch').value = ex.textContent;
-    render();
-  });
-
   body.addEventListener('click', event => {
     const btn = event.target.closest('.un-row');
     if (btn) toggle(btn.parentElement);
   });
-  $('unMoreBtn').addEventListener('click', appendPage);
-  // 끝까지 내리면 다음 묶음을 자동으로 붙인다.
-  if ('IntersectionObserver' in window) {
-    new IntersectionObserver(entries => {
-      if (entries.some(e => e.isIntersecting) && shown < result.rows.length) appendPage();
-    }, { rootMargin: '600px 0px' }).observe(more);
-  }
-
   let timer = null;
   const search_ = $('unSearch');
   search_.addEventListener('input', () => {
