@@ -181,7 +181,6 @@
 .li-tree { scrollbar-gutter: stable; }
 
 /* 요약 화면: 홈의 카테고리 소개 한 칸 */
-.li-summary .library-entry { border-top: 0; padding-top: 8px; }
 /* 개요: 소개 글과 '범위와 출처'를 위아래로 쌓는다(색인 옆 좁은 칸에서 글이 눌리지 않게) */
 .li-view .lib-head-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
 .li-view .lib-intro-copy { max-width: none; }
@@ -193,13 +192,11 @@
 .li-ov:hover { background: #f1f6fc; }
 .li-tree a.li-ov.is-active { background: #e6f0fc; border-left-color: #1f5fae; }
 /* 개요 및 원문 화면 */
-.li-overview .library-entry { border-top: 0; padding-top: 4px; }
 .li-notice { margin: 8px 0 0; padding: 14px 16px; border: 1px solid #f1dfb3; border-radius: 12px; background: #fffaf0; color: #4a3a12; font-size: 14px; line-height: 1.7; }
 .li-notice b { display: block; margin-bottom: 4px; color: #2b2410; }
 .li-notice p { margin: 0; }
 .li-src { margin-top: 28px; }
 .li-src h3 { margin: 0 0 10px; font-size: 18px; }
-.li-overview .library-entry { padding-bottom: 12px; }
 
 /* 2026-10-12: 개요 및 원문은 카테고리 줄 오른쪽 버튼 */
 .li-cat > summary .li-ov {
@@ -220,17 +217,16 @@
 .li-body .site-footer .footer-brand strong { font-size: 14px; }
 
 /* 개요 머리: 카테고리 이름을 문서 화면과 같은 자리·크기로 */
-.li-overview .entry-type { margin-top: 0; }
 .li-view > .li-kicker { font-size: 15px; color: #0b4a99; }
 .li-ov-doc { margin-top: 26px; }
-.li-overview .library-entry { padding-top: 0; }
-/* 개요: 이름 바로 아래에 설명이 오게(그림과 위쪽을 맞춘다) */
-.li-overview .library-entry { align-items: start; padding-block: 6px 12px; }
-.li-overview .entry-copy > p:first-child { margin-top: 0; }
 /* 카테고리 이름 옆 분류 줄: 다른 색·작은 대문자 */
 .li-kicker { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
 .li-kicker-sub { font-size: 11.5px; font-weight: 800; letter-spacing: .08em; color: #b45309; }
 /* 첫 화면 카드·개요·문서의 머리를 같은 모양으로: 파란 이름 + 옆의 주황 분류 줄 */
-.li-view > .li-kicker, .li-home .li-entry-h { font-size: 18px; font-weight: 800; color: #0b4a99; }
-.li-home .li-entry-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 0 0 12px; line-height: 1.35; letter-spacing: 0; }
 .li-view > .li-kicker a { color: inherit; }
+/* 카테고리 제목은 이 규칙 하나로: 첫 화면 카드·개요·문서 머리가 늘 같은 모양 */
+.li-view .li-entry-h, .li-view .entry-copy h2.li-entry-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 0 0 12px; font-size: 18px; font-weight: 800; line-height: 1.35; letter-spacing: 0; color: #0b4a99; }
+.li-view .li-entry-h a { color: inherit; text-decoration: none; }
+.li-view .li-entry-h a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.li-home .library-entry { align-items: center; }
+.li-home > .library-entry:first-child { border-top: 0; padding-top: 8px; }

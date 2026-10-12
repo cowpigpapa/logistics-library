@@ -24,12 +24,13 @@
     const box = document.createElement('div');
     box.innerHTML = HOME;
     box.querySelectorAll('.library-entry').forEach(sec => {
-      const link = sec.querySelector('a.entry-link[href^="/library/"]');
+      const link = sec.querySelector('.li-entry-h a[href^="/library/"]');
       const t = sec.querySelector('.li-entry-h .li-kicker-sub, .entry-type');
       if (link && t) TYPE[link.getAttribute('href').split('/')[2]] = t.textContent.trim();
     });
   })();
-  const kicker = (slug, name) => `<p class="li-kicker"><a href="#${slug}">${esc(name)}</a>${TYPE[slug] ? `<span class="li-kicker-sub">${esc(TYPE[slug])}</span>` : ''}</p>`;
+  // 카테고리 머리(문서 화면 맨 위): 첫 화면 카드 제목과 같은 클래스(li-entry-h)를 쓴다.
+  const kicker = (slug, name) => `<p class="li-entry-h li-doc-head"><a href="#${slug}">${esc(name)}</a>${TYPE[slug] ? `<span class="li-kicker-sub">${esc(TYPE[slug])}</span>` : ''}</p>`;
 
   // 트리 순서대로 모든 문서(이전·다음 문서용)
   const flat = [], cats = {};
@@ -114,12 +115,8 @@
     return load(slug, null, async () => {
       const box = document.createElement('div');
       box.innerHTML = HOME;
-      const link = box.querySelector(`.library-entry a.entry-link[href="/library/${slug}"]`);
+      const link = box.querySelector(`.library-entry .li-entry-h a[href="/library/${slug}"]`);
       const entry = link ? link.closest('.library-entry') : null;
-      if (entry) {
-        // 문서 화면과 같은 머리: 맨 위 카테고리 이름 바로 아래에 설명. 큰 제목과 분류 줄(카테고리마다 형식이 달라)은 뺀다.
-        entry.querySelectorAll('.entry-link, .entry-copy > h2, .entry-type').forEach(a => a.remove());
-      }
       const body = await page(`/library/${slug}`);
       // '설명 및 요약' 문서가 있으면 그 본문을 개요 안에 넣는다.
       let summary = '';
@@ -139,7 +136,8 @@
         src = `<section class="li-src"><h3>원문과 공식 자료</h3>${table ? table.outerHTML : ''}${notes}</section>`;
       }
       document.title = `${c.name} 개요 및 원문 · Logistics Library`;
-      return `${kicker(slug, c.name)}<div class="li-home li-overview">${entry ? entry.outerHTML : `<p>${esc(c.sub)}</p>`}</div>
+      // 첫 화면 카드와 똑같은 마크업·스타일을 쓴다(그래서 두 화면이 항상 같다).
+      return `<div class="li-home">${entry ? entry.outerHTML : `<section class="library-entry"><div class="entry-copy">${kicker(slug, c.name)}<p>${esc(c.sub)}</p></div></section>`}</div>
         ${notice ? `<div class="li-notice">${notice.innerHTML}</div>` : ''}${summary}${src}`;
     });
   }
