@@ -13,6 +13,7 @@
   };
 
   // 트리 순서대로 모든 문서를 한 줄로 펼친 목록(이전·다음 문서용)
+  let fromTree = false;   // 색인 안에서 누른 이동인지
   const flat = [];
   const cats = {};
   DATA.forEach(g => g.cats.forEach(c => {
@@ -58,7 +59,9 @@
     a.classList.add('is-active');
     const cat = a.closest('.li-cat');
     if (cat && !cat.open) { cat.open = true; remember(); }
-    // 색인 상자 안에서만 보이게 굴린다(페이지 전체는 움직이지 않는다).
+    // 색인에서 직접 누른 것이면 색인을 움직이지 않는다. 주소로 바로 들어왔거나 본문 링크로 옮겨 갔을 때만
+    // 고른 줄이 보이게 색인 상자 안에서 굴린다.
+    if (fromTree) { fromTree = false; return; }
     const box = tree.getBoundingClientRect(), r = a.getBoundingClientRect();
     if (r.top < box.top || r.bottom > box.bottom) tree.scrollTop += r.top - box.top - box.height / 3;
   }
@@ -154,6 +157,7 @@
   });
   tree.addEventListener('click', e => {
     if (e.target.closest('a[href^="#"]')) {
+      fromTree = true;
       document.body.classList.remove('li-side-open');
       $('liToggle').setAttribute('aria-expanded', 'false');
     }
