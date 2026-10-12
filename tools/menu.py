@@ -44,6 +44,7 @@ PAGES = {
     'airtracking.html': '/airtracking',
     'containertracking.html': '/containertracking',
     'unnumber.html': '/unnumber',
+    'library-index.html': None,
 }
 
 E = html.escape
