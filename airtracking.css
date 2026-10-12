@@ -516,3 +516,12 @@
 .at-notice { margin-top: 14px; padding: 10px 14px; font-size: 13.5px; }
 .at-section { margin-top: 20px; }
 .at-search input { padding-top: 12px; padding-bottom: 12px; }
+
+/* 바깥 틀이 둥근 모서리를 지키고, 스크롤바는 머리줄 아래에서 시작한다 */
+.at-frame { overflow: hidden; }
+.at-scroll { scrollbar-width: thin; scrollbar-color: #b9c7d8 transparent; }
+.at-scroll::-webkit-scrollbar { width: 10px; height: 10px; }
+.at-scroll::-webkit-scrollbar-track { background: transparent; margin-top: 44px; margin-bottom: 6px; }
+.at-scroll::-webkit-scrollbar-thumb { background: #c3cfdd; border-radius: 999px; border: 2px solid var(--paper); }
+.at-scroll::-webkit-scrollbar-thumb:hover { background: #9fb1c6; }
+.at-scroll::-webkit-scrollbar-corner { background: transparent; }
