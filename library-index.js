@@ -31,7 +31,7 @@
     const open = new Set(store.get());
     tree.innerHTML = DATA.map(g => `<div class="li-group"><p class="li-group-name">${esc(g.group)}</p>${g.cats.map(c => `
       <details class="li-cat" data-slug="${c.slug}" ${open.has(c.slug) ? 'open' : ''}>
-        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${Object.keys(c.docs).length}</span><a class="li-ov" href="#${c.slug}" data-slug="${c.slug}" title="${esc(c.name)} 개요 및 원문">개요 및 원문</a></summary>
+        <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${c.sections.reduce((n, s) => n + s.docs.length, 0)}</span><a class="li-ov" href="#${c.slug}" data-slug="${c.slug}" title="${esc(c.name)} 개요 및 원문">개요 및 원문</a></summary>
         ${c.sections.map(s => `<div class="li-sec"><p class="li-sec-name">${esc(s.title)}</p><ul>${s.docs.map(id => {
           const d = c.docs[id];
           return `<li><a href="#${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}">${esc(d.short || d.title)}</a></li>`;
@@ -104,8 +104,20 @@
       box.innerHTML = HOME;
       const link = box.querySelector(`.library-entry a.entry-link[href="/library/${slug}"]`);
       const entry = link ? link.closest('.library-entry') : null;
-      if (entry) entry.querySelectorAll('.entry-link').forEach(a => a.remove());
+      if (entry) {
+        // 문서 화면과 같은 머리: 맨 위 카테고리 이름, 그 아래 분류 줄(예: CTU Code / IMO · ILO · UNECE). 큰 제목은 뺀다.
+        entry.querySelectorAll('.entry-link, .entry-copy > h2').forEach(a => a.remove());
+      }
       const body = await page(`/library/${slug}`);
+      // '설명 및 요약' 문서가 있으면 그 본문을 개요 안에 넣는다.
+      let summary = '';
+      if (c.overview) {
+        try {
+          const doc = await page(`/library/${slug}/${c.overview}`);
+          doc.querySelectorAll('.lib-crumb, .bat-pager').forEach(el => el.remove());
+          summary = `<div class="li-ov-doc">${doc.innerHTML}</div>`;
+        } catch (_) {}
+      }
       const notice = body.querySelector('.lib-notice');
       const official = body.querySelector('details.lib-official');
       let src = '';
@@ -115,8 +127,8 @@
         src = `<section class="li-src"><h3>원문과 공식 자료</h3>${table ? table.outerHTML : ''}${notes}</section>`;
       }
       document.title = `${c.name} 개요 및 원문 · Logistics Library`;
-      return `<div class="li-home li-overview">${entry ? entry.outerHTML : `<h2>${esc(c.name)}</h2><p>${esc(c.sub)}</p>`}</div>
-        ${notice ? `<div class="li-notice">${notice.innerHTML}</div>` : ''}${src}`;
+      return `<p class="li-kicker"><a href="#${slug}">${esc(c.name)}</a></p><div class="li-home li-overview">${entry ? entry.outerHTML : `<p>${esc(c.sub)}</p>`}</div>
+        ${notice ? `<div class="li-notice">${notice.innerHTML}</div>` : ''}${summary}${src}`;
     });
   }
 

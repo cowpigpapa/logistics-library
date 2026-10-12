@@ -55,6 +55,11 @@ def main():
             continue
         out = json.loads(subprocess.run(['node', '-e', NODE, str(c['js']), c['base']], capture_output=True, check=True, encoding='utf-8').stdout)
         by_id = {d['id']: d for d in out['docs']}
+        # '설명 및 요약' 문서는 색인에 따로 두지 않고 '개요 및 원문' 화면에 넣는다(이름이 겹치는 항목을 없앤다).
+        overview_doc = next((d['id'] for d in out['docs'] if '설명 및 요약' in d['title']), None)
+        if overview_doc:
+            out['sections'] = [{'title': s['title'], 'docs': [i for i in s['docs'] if i != overview_doc]} for s in out['sections']]
+            out['extra'] = [i for i in out['extra'] if i != overview_doc]
         sections, used = [], set()
         for s in out['sections']:
             ids = [i for i in s['docs'] if i in by_id]
@@ -64,7 +69,7 @@ def main():
         if extra:
             sections.append({'title': '참고 자료', 'docs': extra}); used.update(extra)
         # 어느 묶음에도 없는 문서(예: CTU 설명 및 요약)는 첫 묶음 맨 앞에 넣는다('개요 및 원문'과 이름이 겹치지 않게).
-        rest = [d['id'] for d in out['docs'] if d['id'] not in used]
+        rest = [d['id'] for d in out['docs'] if d['id'] not in used and d['id'] != overview_doc]
         if rest:
             if sections:
                 sections[0]['docs'] = rest + sections[0]['docs']
@@ -72,7 +77,7 @@ def main():
                 sections.append({'title': '문서', 'docs': rest})
         if not groups or groups[-1]['group'] != g:
             groups.append({'group': g, 'cats': []})
-        groups[-1]['cats'].append({'slug': href.rsplit('/', 1)[1], 'name': name, 'sub': sub, 'sections': sections,
+        groups[-1]['cats'].append({'slug': href.rsplit('/', 1)[1], 'name': name, 'sub': sub, 'sections': sections, 'overview': overview_doc,
                                    'docs': {i: {k: by_id[i][k] for k in ('title', 'short', 'tag', 'summary')} for i in by_id}})
     total = sum(len(c['docs']) for g in groups for c in g['cats'])
     js = '// tools/library_index.py가 만든 색인 트리 데이터. 직접 고치지 말고 스크립트를 다시 실행한다.\nwindow.LIB_INDEX = ' + json.dumps(groups, ensure_ascii=False, separators=(',', ':')) + ';\n'

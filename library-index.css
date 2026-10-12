@@ -218,3 +218,9 @@
 .li-body .site-footer .footer-copy { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; }
 .li-body .site-footer .footer-brand { height: auto; }
 .li-body .site-footer .footer-brand strong { font-size: 14px; }
+
+/* 개요 머리: 카테고리 이름을 문서 화면과 같은 자리·크기로 */
+.li-overview .entry-type { margin-top: 0; }
+.li-view > .li-kicker { font-size: 15px; color: #0b4a99; }
+.li-ov-doc { margin-top: 26px; }
+.li-overview .library-entry { padding-top: 0; }
