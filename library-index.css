@@ -224,3 +224,6 @@
 .li-view > .li-kicker { font-size: 15px; color: #0b4a99; }
 .li-ov-doc { margin-top: 26px; }
 .li-overview .library-entry { padding-top: 0; }
+/* 개요: 이름 바로 아래에 설명이 오게(그림과 위쪽을 맞춘다) */
+.li-overview .library-entry { align-items: start; padding-block: 6px 12px; }
+.li-overview .entry-copy > p:first-child { margin-top: 0; }

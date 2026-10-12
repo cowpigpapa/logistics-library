@@ -105,8 +105,8 @@
       const link = box.querySelector(`.library-entry a.entry-link[href="/library/${slug}"]`);
       const entry = link ? link.closest('.library-entry') : null;
       if (entry) {
-        // 문서 화면과 같은 머리: 맨 위 카테고리 이름, 그 아래 분류 줄(예: CTU Code / IMO · ILO · UNECE). 큰 제목은 뺀다.
-        entry.querySelectorAll('.entry-link, .entry-copy > h2').forEach(a => a.remove());
+        // 문서 화면과 같은 머리: 맨 위 카테고리 이름 바로 아래에 설명. 큰 제목과 분류 줄(카테고리마다 형식이 달라)은 뺀다.
+        entry.querySelectorAll('.entry-link, .entry-copy > h2, .entry-type').forEach(a => a.remove());
       }
       const body = await page(`/library/${slug}`);
       // '설명 및 요약' 문서가 있으면 그 본문을 개요 안에 넣는다.
