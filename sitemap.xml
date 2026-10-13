@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://logistics.onharu.app/</loc><lastmod>2026-10-13T10:34:21+09:00</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://logistics.onharu.app/tool/containertracking</loc><lastmod>2026-10-13T10:34:21+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://logistics.onharu.app/tool/airtracking</loc><lastmod>2026-10-13T10:34:21+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://logistics.onharu.app/tool/unnumber</loc><lastmod>2026-10-13T10:34:21+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://logistics.onharu.app/privacy</loc><lastmod>2026-10-13T10:34:20+09:00</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code</loc><lastmod>2026-10-12T20:24:41+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/</loc><lastmod>2026-10-13T19:58:10+09:00</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://logistics.onharu.app/tool/containertracking</loc><lastmod>2026-10-13T19:58:10+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://logistics.onharu.app/tool/airtracking</loc><lastmod>2026-10-13T19:58:10+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://logistics.onharu.app/tool/unnumber</loc><lastmod>2026-10-13T19:58:10+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://logistics.onharu.app/privacy</loc><lastmod>2026-10-13T19:58:09+09:00</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code</loc><lastmod>2026-10-13T19:58:09+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://logistics.onharu.app/library/ctu-code/ctu-overview</loc><lastmod>2026-10-12T20:24:41+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/ctu-code/ch3-key</loc><lastmod>2026-10-12T20:24:41+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/ctu-code/ch5-accel</loc><lastmod>2026-10-12T20:24:41+09:00</lastmod></url>
@@ -33,7 +33,7 @@
   <url><loc>https://logistics.onharu.app/library/ctu-code/im9-seals</loc><lastmod>2026-10-12T20:24:41+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/ctu-code/cargo-cases</loc><lastmod>2026-10-12T20:24:41+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/ctu-code/cubestow-application</loc><lastmod>2026-10-12T20:24:41+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery</loc><lastmod>2026-10-12T20:24:41+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery</loc><lastmod>2026-10-13T19:58:09+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/overview</loc><lastmod>2026-10-12T01:19:18+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/status</loc><lastmod>2026-10-12T01:19:18+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/changes</loc><lastmod>2026-10-12T01:19:18+09:00</lastmod></url>

@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 import images  # 그림 작은 판(srcset)·지연 로딩
 CARD_SIZES = '(max-width: 900px) calc(100vw - 72px), 400px'   # 카드 그림 칸 폭
 DOC_SIZES = '(max-width: 900px) calc(100vw - 40px), 920px'    # 문서 본문 폭
-V = '20261013-01'   # library-index.css/js, library-index-data.js 캐시 버전
+V = '20261013-02'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')
@@ -130,7 +130,7 @@ def page(seo, inner, route='/', tree=''):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {seo}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
-{CSS}  <link rel="stylesheet" href="/battery-library.css?v=20261012-01">
+{CSS}  <link rel="stylesheet" href="/battery-library.css?v=20261013-01">
   <link rel="stylesheet" href="/uld-library.css?v=20261006-01">
   <link rel="stylesheet" href="/incoterms-library.css?v=20261005-03">
   <link rel="stylesheet" href="/library-index.css?v={V}">
@@ -152,9 +152,9 @@ def page(seo, inner, route='/', tree=''):
   </article>
 </main>
 {FOOTER}
-<script src="/library-index-data.js?v={V}"></script>
-<script src="/library-index.js?v={V}"></script>
-<script src="{SHELL_JS}"></script>
+<script defer src="/library-index-data.js?v={V}"></script>
+<script defer src="/library-index.js?v={V}"></script>
+<script defer src="{SHELL_JS}"></script>
 </body>
 </html>
 '''

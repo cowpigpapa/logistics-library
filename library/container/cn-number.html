@@ -15,12 +15,12 @@
   <meta name="twitter:card" content="summary">
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "@id": "https://logistics.onharu.app/library/container/cn-number#article", "headline": "컨테이너 번호와 체크 디지트 — 소유자 코드, 장비 구분, 일련번호, 계산법", "name": "컨테이너 번호와 체크 디지트 — 소유자 코드, 장비 구분, 일련번호, 계산법 · Container · Logistics Library", "description": "컨테이너 번호 11자리(소유자 코드 3자리, 장비 구분 U·J·Z, 일련번호 6자리, 체크 디지트)의 뜻, 리스 컨테이너 Prefix와 조회 방법, ISO 6346 체크 디지트 계산법과 계산 예시.", "url": "https://logistics.onharu.app/library/container/cn-number", "mainEntityOfPage": "https://logistics.onharu.app/library/container/cn-number", "inLanguage": "ko", "datePublished": "2026-10-12T09:59:03+09:00", "dateModified": "2026-10-12T10:04:35+09:00", "author": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "publisher": {"@type": "Organization", "name": "ONHARU", "url": "https://onharu.app/"}, "isPartOf": {"@type": "CollectionPage", "@id": "https://logistics.onharu.app/library/container", "name": "Container", "url": "https://logistics.onharu.app/library/container"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Logistics Library", "item": "https://logistics.onharu.app/"}, {"@type": "ListItem", "position": 2, "name": "Container", "item": "https://logistics.onharu.app/library/container"}, {"@type": "ListItem", "position": 3, "name": "컨테이너 번호와 체크 디지트", "item": "https://logistics.onharu.app/library/container/cn-number"}]}]}</script>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
-  <link rel="stylesheet" href="/styles.css?v=20261013-01">
-  <link rel="stylesheet" href="/ctu-library.css?v=20261012-03">
-  <link rel="stylesheet" href="/battery-library.css?v=20261012-01">
+  <link rel="stylesheet" href="/styles.css?v=20261013-02">
+  <link rel="stylesheet" href="/ctu-library.css?v=20261013-01">
+  <link rel="stylesheet" href="/battery-library.css?v=20261013-01">
   <link rel="stylesheet" href="/uld-library.css?v=20261006-01">
   <link rel="stylesheet" href="/incoterms-library.css?v=20261005-03">
-  <link rel="stylesheet" href="/library-index.css?v=20261013-01">
+  <link rel="stylesheet" href="/library-index.css?v=20261013-02">
 </head>
 <body class="li-body">
 <a class="li-skip" href="#liView">본문으로 건너뛰기</a>
@@ -51,15 +51,15 @@
 <p class="li-entry-h li-doc-head"><a href="/library/container">Container</a><span class="li-kicker-sub g2">CONTAINER · ISO 6346</span></p><article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">번호</span><span class="lib-level" data-level="3">★★★ 꼭 알아야 함</span></span><h1 class="lib-doc-title">컨테이너 번호와 체크 디지트 — 소유자 코드, 장비 구분, 일련번호, 계산법</h1><p class="lib-checked">자료 확인 2026-10-12 · 장비 사양은 선사와 제작 시기마다 다르니 배정된 컨테이너의 명판과 선사 안내를 확인하세요.</p><div class="bat-commentary"><p>컨테이너 번호는 ISO 6346이 정한 11자리 식별번호입니다. 앞 네 글자로 소유자를, 마지막 한 자리로 오타 여부를 알 수 있어서 부킹·선적 서류·추적 조회에서 번호를 옮겨 적을 때 가장 먼저 확인하는 값입니다.</p>
 <p class="lib-summary"><b>핵심 3줄</b><br>① 앞 네 글자(소유자 코드 3자리 + 장비 구분 U)가 Prefix이고 BIC에 등록된 소유자를 나타냅니다.<br>② 리스 컨테이너는 리스 회사 Prefix가 붙어 있으므로 운항 선사 사이트에서 B/L 번호나 컨테이너 번호로 조회합니다.<br>③ 마지막 자리는 체크 디지트로, 번호를 잘못 옮겨 적으면 대부분 계산에서 걸립니다.</p>
 <p class="lib-disclaimer">이 문서는 AI가 공개 자료를 읽고 작성한 참고 자료이며 전문가가 검토한 것이 아닙니다. 실제 장비 사양은 배정된 컨테이너의 명판(CSC 판)과 선사 안내를 따릅니다.</p>
-<h3 data-num="1"><span class="lib-num">1</span>11자리의 구조</h3>
+<h3 aria-level="2" data-num="1"><span class="lib-num">1</span>11자리의 구조</h3>
 <table class="lib-table"><thead><tr><th class="lib-nowrap">자리</th><th class="lib-nowrap">예시</th><th>뜻</th></tr></thead><tbody><tr><td class="lib-nowrap">1~3</td><td class="lib-nowrap">MSC</td><td>소유자 코드(BIC 등록)</td></tr><tr><td class="lib-nowrap">4</td><td class="lib-nowrap">U</td><td>장비 구분(U 화물 컨테이너, J 부착 장비, Z 트레일러·샤시)</td></tr><tr><td class="lib-nowrap">5~10</td><td class="lib-nowrap">123456</td><td>일련번호</td></tr><tr><td class="lib-nowrap">11</td><td class="lib-nowrap">6</td><td>체크 디지트</td></tr></tbody></table>
 <p>앞 세 글자는 <b>소유자 코드</b>로 BIC(국제컨테이너사무국)에 등록해 전 세계에서 겹치지 않습니다. 넷째 글자는 장비 구분으로 화물 컨테이너는 <b>U</b>, 컨테이너에 붙이는 장비는 J, 트레일러·샤시는 Z입니다. 실무에서는 이 네 글자를 합쳐 <b>Prefix</b>(BIC 코드)라고 부릅니다. 이어지는 여섯 자리가 일련번호, 마지막 한 자리가 <b>체크 디지트</b>입니다.</p>
 <p>Prefix는 컨테이너 <b>소유자</b>를 나타냅니다. 리스 컨테이너는 리스 회사 코드가 붙어 있으므로, 실제로 운항하는 선사의 사이트에서 B/L 번호나 컨테이너 번호로 조회해야 합니다.</p>
-<h3 data-num="2"><span class="lib-num">2</span>체크 디지트 계산</h3>
+<h3 aria-level="2" data-num="2"><span class="lib-num">2</span>체크 디지트 계산</h3>
 <p>글자는 A=10부터 차례로 값을 매기되 11의 배수(11, 22, 33)는 건너뜁니다(B=12, L=23, V=34). 앞 10자리에 자리마다 1, 2, 4, 8 … 512를 곱해 더하고, 합계를 11로 나눈 <b>나머지</b>가 체크 디지트입니다. 나머지가 10이면 0입니다.</p>
 <p>합계 5613 ÷ 11 … 나머지 <b>3</b> → KQXU 123456 3</p>
 <p>ISO 6346은 나머지가 10이 나오는 일련번호를 쓰지 않도록 권고합니다. <a href="/containertracking">Container Tracking</a> 검색칸에 번호 11자리를 넣으면 이 계산으로 오타를 확인합니다.</p>
-<h3 data-num="3"><span class="lib-num">3</span>계산 예시 (가상 코드 KQXU)</h3>
+<h3 aria-level="2" data-num="3"><span class="lib-num">3</span>계산 예시 (가상 코드 KQXU)</h3>
 <table class="lib-table"><thead><tr><th class="lib-nowrap">자리</th><th class="lib-nowrap">값</th><th class="lib-nowrap">가중치</th><th class="lib-nowrap">곱</th></tr></thead><tbody><tr><td class="lib-nowrap"><b>K</b></td><td class="lib-nowrap">21</td><td class="lib-nowrap">×1</td><td class="lib-nowrap">21</td></tr><tr><td class="lib-nowrap"><b>Q</b></td><td class="lib-nowrap">28</td><td class="lib-nowrap">×2</td><td class="lib-nowrap">56</td></tr><tr><td class="lib-nowrap"><b>X</b></td><td class="lib-nowrap">36</td><td class="lib-nowrap">×4</td><td class="lib-nowrap">144</td></tr><tr><td class="lib-nowrap"><b>U</b></td><td class="lib-nowrap">32</td><td class="lib-nowrap">×8</td><td class="lib-nowrap">256</td></tr><tr><td class="lib-nowrap"><b>1</b></td><td class="lib-nowrap">1</td><td class="lib-nowrap">×16</td><td class="lib-nowrap">16</td></tr><tr><td class="lib-nowrap"><b>2</b></td><td class="lib-nowrap">2</td><td class="lib-nowrap">×32</td><td class="lib-nowrap">64</td></tr><tr><td class="lib-nowrap"><b>3</b></td><td class="lib-nowrap">3</td><td class="lib-nowrap">×64</td><td class="lib-nowrap">192</td></tr><tr><td class="lib-nowrap"><b>4</b></td><td class="lib-nowrap">4</td><td class="lib-nowrap">×128</td><td class="lib-nowrap">512</td></tr><tr><td class="lib-nowrap"><b>5</b></td><td class="lib-nowrap">5</td><td class="lib-nowrap">×256</td><td class="lib-nowrap">1280</td></tr><tr><td class="lib-nowrap"><b>6</b></td><td class="lib-nowrap">6</td><td class="lib-nowrap">×512</td><td class="lib-nowrap">3072</td></tr><tr><td colspan="3"><b>합계</b></td><td><b>5613</b></td></tr></tbody></table>
 <p class="lib-source">KQX는 설명용 가상 코드입니다(BIC 미등록 확인).</p>
 <p class="lib-source">출처: <a href="https://www.bic-code.org/identification-number/" target="_blank" rel="noopener noreferrer">BIC, Identification number</a>; 계산 방법 <a href="https://www.containerhandbuch.de/chb_e/stra/index.html?/chb_e/stra/stra_01_03_03.html" target="_blank" rel="noopener noreferrer">GDV Container Handbook 3.3</a>. BIC의 공식 계산기로 같은 결과를 확인했습니다.</p>
@@ -67,8 +67,8 @@
   </article>
 </main>
 <footer class="site-footer"><div class="footer-copy"><div class="footer-brand"><strong>Logistics Library</strong></div><div class="footer-meta"><span>MADE BY JUAN.HJLEE · WITH SUPPORT FROM MARU.DEV</span><small>© 2026 ONHARU. All rights reserved.</small><a class="footer-legal" href="/privacy">개인정보처리방침</a></div></div><details class="footer-family"><summary>Family Site</summary><div class="menu-list"><a href="https://cubestow.onharu.app/" target="_blank" rel="noopener">CubeStow<small>컨테이너 적재 시뮬레이션</small></a><a href="https://diary.onharu.app/" target="_blank" rel="noopener">온하루 다이어리<small>바탕화면 달력·일기</small></a><a href="https://lottolab.onharu.app/" target="_blank" rel="noopener">LottoLab<small>로또 통계·구매 기록</small></a><a href="https://onharu.app/" target="_blank" rel="noopener">ONHARU<small>포트폴리오</small></a></div></details></footer>
-<script src="/library-index-data.js?v=20261013-01"></script>
-<script src="/library-index.js?v=20261013-01"></script>
-<script src="/site-shell.js?v=20261013-01"></script>
+<script defer src="/library-index-data.js?v=20261013-02"></script>
+<script defer src="/library-index.js?v=20261013-02"></script>
+<script defer src="/site-shell.js?v=20261013-01"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@
   --blue-soft: #eaf2f8;
   --line: #e2e7ec;
   --text: #455568;
-  --muted: #7a8795;
+  --muted: #5d6a78;
   --value: #172f49;
   --g1: #6254a3;   /* 규정 */
   --g2: #397b70;   /* 실무 */
@@ -112,10 +112,13 @@
 .li-count { color: var(--muted); font-size: 11.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
 .li-ov {
   position: absolute;
-  top: 5px;
+  top: 3px;
   right: 6px;
   z-index: 1;
-  padding: 2px 8px;
+  min-height: 26px;
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 9px;
   border-radius: 6px;
   color: var(--blue);
   font-size: 12px;
@@ -300,3 +303,17 @@ mark.li-hit { background: #fff1a8; color: inherit; border-radius: 2px; padding: 
 .li-zoom-bar button { border: 1px solid rgba(255, 255, 255, .5); border-radius: 999px; background: transparent; color: #fff; font: inherit; padding: 4px 12px; }
 .li-zoom-body { flex: 1; overflow: auto; -webkit-overflow-scrolling: touch; padding: 0 10px 16px; }
 .li-zoom-body svg { display: block; width: 760px; max-width: none; height: auto; background: #fff; border-radius: 10px; }
+
+/* 검색 결과(색인 자리에 관련도 순으로) */
+.li-results { overflow-y: auto; padding: 6px 10px 12px; scrollbar-gutter: stable; }
+.li-res-head { margin: 6px 4px 8px; color: var(--muted); font-size: 12.5px; }
+.li-res-head b { color: var(--navy); }
+.li-res-head span { display: block; margin-top: 2px; }
+.li-res { display: block; padding: 8px 10px; border-radius: 8px; color: #2c4560; text-decoration: none; border-left: 2px solid transparent; }
+.li-res:hover { background: #f2f5f8; }
+.li-res[aria-current="page"] { background: var(--blue-soft); border-left-color: var(--blue); }
+.li-res > b { display: block; color: var(--navy); font-size: 13.5px; line-height: 1.4; }
+.li-res > small { display: block; margin-top: 1px; color: var(--g2); font-size: 11.5px; font-weight: 600; }
+.li-res .li-snip { margin: 3px 0 0; }
+.li-res-cat > b { color: var(--blue); }
+.li-res-more { margin: 10px 6px 0; color: var(--muted); font-size: 12px; }

@@ -55,7 +55,7 @@
 }
 .library-view .lib-doc:hover,
 .library-view .lib-card:hover {
-  border-color: #0071e3;
+  border-color: #0a62c2;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 .library-view .lib-doc b,
@@ -74,7 +74,7 @@
   margin-top: auto;
   font-size: 12.5px;
   font-weight: 700;
-  color: #0071e3 !important;
+  color: #0a62c2 !important;
 }
 .library-view .lib-tag {
   align-self: flex-start;
@@ -114,12 +114,12 @@
   color: #145c33;
 }
 .library-view .lib-plan a {
-  color: #0071e3;
+  color: #0a62c2;
 }
 .library-view .lib-crumb a {
   font-size: 14px;
   font-weight: 700;
-  color: #0071e3;
+  color: #0a62c2;
   text-decoration: none;
 }
 .library-view .lib-article {
@@ -204,7 +204,7 @@
   }
 }
 .library-view .lib-head a {
-  color: #0071e3;
+  color: #0a62c2;
   font-weight: 700;
 }
 .library-view .lib-article ol,
@@ -221,7 +221,7 @@
   background: #fff;
 }
 .library-view .lib-item[data-level='3'] {
-  border-left-color: #0071e3;
+  border-left-color: #0a62c2;
   background: #f7fbff;
 }
 .library-view .lib-item[data-level='2'] {
@@ -269,7 +269,7 @@
 }
 .library-view .lib-links a,
 .library-view .lib-article p a {
-  color: #0071e3;
+  color: #0a62c2;
   font-weight: 600;
 }
 /* 자료실 목록: 공식 원문 카드 표시와 준비 중 카드 */
@@ -459,7 +459,7 @@
 }
 .library-view .lib-intro {
   margin-left: 10px;
-  color: #0071e3;
+  color: #0a62c2;
   font-size: 13px;
   font-weight: 600;
   white-space: nowrap;
@@ -518,7 +518,7 @@
 }
 .library-view .lib-official-table a,
 .library-view .lib-translation-notes a {
-  color: #0071e3;
+  color: #0a62c2;
   font-weight: 700;
   text-decoration: none;
 }

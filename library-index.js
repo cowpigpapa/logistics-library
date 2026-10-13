@@ -47,7 +47,7 @@
         <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${c.sections.reduce((n, s) => n + s.docs.length, 0)}</span></summary>
         ${c.sections.map(s => `<div class="li-sec"><p class="li-sec-name">${esc(s.title)}</p><ul>${s.docs.map(id => {
           const d = c.docs[id];
-          return `<li><a href="/library/${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}" data-s="${esc((d.tag || '') + ' ' + (d.summary || ''))}">${esc(d.short || d.title.split(' — ')[0])}</a></li>`;
+          return `<li><a href="/library/${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}">${esc(d.short || d.title.split(' — ')[0])}</a></li>`;
         }).join('')}</ul></div>`).join('')}
       </details>
       </div>`).join('')}</div>`).join('');
@@ -145,7 +145,8 @@
   document.addEventListener('click', e => {
     const a = e.target.closest('a[href]');
     if (!a || e.defaultPrevented || e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey || a.target === '_blank' || a.hasAttribute('download')) return;
-    if (!view.contains(a) && !tree.contains(a) && !(a.closest('.topbar') && a.getAttribute('href') === '/')) return;
+    const inSide = tree.contains(a) || (typeof results !== 'undefined' && results.contains(a));
+    if (!view.contains(a) && !inSide && !(a.closest('.topbar') && a.getAttribute('href') === '/')) return;
     const href = a.getAttribute('href');
     if (href.startsWith('#')) {
       if (!view.contains(a)) return;
@@ -159,8 +160,8 @@
     const path = url.pathname;
     if (!parse(path)) return;
     e.preventDefault();
-    if (tree.contains(a)) {
-      fromTree = true;
+    if (inSide) {
+      fromTree = tree.contains(a);
       document.body.classList.remove('li-side-open');
       $('liToggle').setAttribute('aria-expanded', 'false');
     }
@@ -206,80 +207,136 @@
     $('liToggle').setAttribute('aria-expanded', String(open));
   });
 
-  // ---------------------------------------------------------------- 찾기(제목·요약·태그 + 본문)
-  // 본문 글자는 두 글자 이상 처음 찾을 때 한 번만 받는다(약 0.8MB)(search-index.json, tools/prerender.py가 만든다).
-  // 두 파일로 나뉘어 있다(search-index-2.json은 가장 큰 EU 배터리 번역). 먼저 온 것부터 결과에 넣는다.
+  // ---------------------------------------------------------------- 찾기(제목·요약·태그 + 본문, 비슷한 말, 관련도 순)
+  // 검색어가 있으면 색인 자리에 관련도 순 결과 목록을 보여 주고, 지우면 색인으로 돌아간다.
+  // 본문 글자는 두 글자 이상 처음 찾을 때 한 번만 받는다(search-index.json + search-index-2.json(EU 배터리 번역), tools/prerender.py가 만든다).
   let SEARCH = null, searchLoading = null;
   function loadSearch() {
     if (searchLoading) return searchLoading;
     SEARCH = {};
     const part = url => fetch(url).then(r => r.json()).then(list => {
       list.forEach(d => { SEARCH[d.u] = d.b; });
-      if ($('liFilter').value.trim().length >= 2) applyFilter();
+      if ($('liFilter').value.trim()) applyFilter();
     }).catch(() => {});
     searchLoading = Promise.all([part('/search-index.json'), part('/search-index-2.json')]);
     return searchLoading;
   }
-  const norm = s => s.toLowerCase();
-  function snippet(text, q) {
-    const i = norm(text).indexOf(q);
-    if (i < 0) return '';
-    const a = Math.max(0, i - 28), b = Math.min(text.length, i + q.length + 40);
-    return (a > 0 ? '…' : '') + esc(text.slice(a, i)) + '<b>' + esc(text.slice(i, i + q.length)) + '</b>' + esc(text.slice(i + q.length, b)) + (b < text.length ? '…' : '');
-  }
-  function countHits(text, q) { let n = 0, i = 0; const t = norm(text); while ((i = t.indexOf(q, i)) >= 0) { n++; i += q.length; } return n; }
 
+  // 비슷한 말: 한 묶음 안의 말은 서로 함께 찾는다(띄어쓰기·대소문자는 무시). 용어 기준은 tools/STYLE.md.
+  const SYNONYMS = [
+    ['고박', '고정', 'lashing', '래싱', 'securing'], ['고박점', '고정점', 'lashing point'],
+    ['Demurrage', 'DEM', '디머리지', '체화료'], ['Detention', 'DET', '디텐션', '지체료'], ['D&D', 'DEM/DET', 'DND'],
+    ['드라이 컨테이너', 'dry container', '건화물'], ['냉동 컨테이너', '리퍼', 'reefer', '냉장 컨테이너'], ['샤시', '섀시', 'chassis'],
+    ['위험물', 'DG', 'dangerous goods', 'hazmat'], ['UN 번호', 'UN number', 'UN No'], ['MSDS', 'SDS', '물질안전보건자료'],
+    ['LQ', '한정수량', 'limited quantity'], ['IMDG', 'IMDG Code', '국제해상위험물규칙'], ['DGR', 'IATA DGR', '항공위험물규정'], ['EmS', '비상조치표'],
+    ['선하증권', 'B/L', 'bill of lading'], ['항공화물운송장', 'AWB', 'air waybill'], ['House B/L', '하우스 B/L', 'HBL'], ['Master B/L', '마스터 B/L', 'MBL'],
+    ['ULD', '단위탑재용기', 'unit load device'], ['적하보험', 'cargo insurance', '화물보험'], ['공동해손', 'general average'],
+    ['인코텀스', 'Incoterms', '인코텀즈'], ['FOB', '본선인도'], ['CIF', '운임보험료포함인도'], ['EXW', '공장인도'], ['DDP', '관세지급인도'],
+    ['CTU', '화물운송단위', 'cargo transport unit'], ['컨테이너 번호', 'container number'], ['체크 디지트', 'check digit'],
+    ['THC', '터미널 화물처리비', 'terminal handling charge'], ['보관료', 'storage'], ['종가료', 'ad valorem'],
+    ['리튬 배터리', 'lithium battery', '리튬이온 배터리'], ['온도유지', '콜드체인', 'cold chain', '온도관리'],
+    ['VGM', '검증 총중량', 'verified gross mass'], ['CSC', 'CSC 명판', 'CSC plate'], ['결로', 'condensation', '컨테이너 비'],
+    ['무게중심', 'center of gravity', 'COG'], ['포워더', '운송주선인', 'freight forwarder'], ['송하인', 'shipper'], ['수하인', 'consignee'],
+    ['PTI', 'pre-trip inspection', '사전 점검'], ['젠셋', 'genset'], ['씰', 'seal', '봉인'], ['책임 한도', 'liability limit', '책임제한'],
+  ];
+  const squash = s => s.toLowerCase().replace(/\s+/g, '');
+  const SYN = new Map();
+  SYNONYMS.forEach(g => g.forEach(w => { const k = squash(w); SYN.set(k, [...new Set([...(SYN.get(k) || []), ...g.filter(x => squash(x) !== k)])]); }));
+  // 띄어쓰기를 무시하는 정규식(냉동컨테이너 = 냉동 컨테이너)
+  const pattern = w => new RegExp([...w.replace(/\s+/g, '')].map(c => c.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&')).join('\\s*'), 'gi');
+  function terms(raw) {
+    const main = { word: raw, re: pattern(raw), weight: 1 };
+    return [main, ...(SYN.get(squash(raw)) || []).map(w => ({ word: w, re: pattern(w), weight: 0.7 }))];
+  }
+  const count = (text, re) => { re.lastIndex = 0; const m = text.match(re); return m ? m.length : 0; };
+  const has = (text, re) => { re.lastIndex = 0; return re.test(text); };
+  function snippet(text, re) {
+    re.lastIndex = 0;
+    const m = re.exec(text);
+    if (!m) return '';
+    const i = m.index, j = i + m[0].length, a = Math.max(0, i - 30), b = Math.min(text.length, j + 44);
+    return (a > 0 ? '…' : '') + esc(text.slice(a, i)) + '<b>' + esc(m[0]) + '</b>' + esc(text.slice(j, b)) + (b < text.length ? '…' : '');
+  }
+
+  // 문서마다 점수: 제목 30 · 짧은 제목 10 · 태그 8 · 요약 6 · 본문 횟수(로그) 최대 20. 비슷한 말은 0.7배.
+  function rank(raw) {
+    const ts = terms(raw), out = [];
+    let order = 0;
+    DATA.forEach(g => g.cats.forEach(c => {
+      c.sections.forEach(s => s.docs.forEach(id => {
+        const d = c.docs[id], url = `/library/${c.slug}/${id}`, body = SEARCH && SEARCH[url];
+        let score = 0, n = 0, snip = '';
+        ts.forEach(t => {
+          let sc = 0;
+          if (has(d.title, t.re)) sc += 30;
+          if (d.short && has(d.short, t.re)) sc += 10;
+          if (d.tag && has(d.tag, t.re)) sc += 8;
+          if (d.summary && has(d.summary, t.re)) sc += 6;
+          const k = body ? count(body, t.re) : 0;
+          if (k) { sc += Math.min(20, 4 * Math.log2(1 + k)); n += k; if (!snip) snip = snippet(body, t.re); }
+          score += sc * t.weight;
+        });
+        if (score > 0) out.push({ c, id, d, url, score, n, snip: snip || (d.summary ? snippet(d.summary, ts[0].re) || esc(d.summary.slice(0, 80)) + '…' : ''), order: order++ });
+        else order++;
+      }));
+    }));
+    out.sort((x, y) => y.score - x.score || x.order - y.order);
+    const catsHit = [];
+    DATA.forEach(g => g.cats.forEach(c => { if (ts.some(t => has(c.name, t.re) || has(c.sub || '', t.re))) catsHit.push(c); }));
+    return { list: out, cats: catsHit, words: ts.slice(1).map(t => t.word) };
+  }
+
+  const results = document.createElement('div');
+  results.className = 'li-results';
+  results.id = 'liResults';
+  results.hidden = true;
+  results.setAttribute('aria-live', 'polite');
+  tree.before(results);
+  const LIMIT = 40;
   function applyFilter() {
-    const raw = $('liFilter').value.trim(), q = norm(raw);
-    tree.querySelector('.li-empty')?.remove();
-    tree.querySelectorAll('.li-snip').forEach(el => el.remove());
-    if (!q) { renderTree(); markActive(parse(location.pathname)); clearHighlight(); return; }
-    if (q.length >= 2) loadSearch();
-    let total = 0;
-    tree.querySelectorAll('.li-cat').forEach(cat => {
-      let hits = 0;
-      cat.querySelectorAll('li').forEach(li => {
-        const a = li.querySelector('a');
-        const meta = (a.textContent + ' ' + a.title + ' ' + (a.dataset.s || '')).toLowerCase().includes(q);
-        const body = q.length >= 2 && SEARCH && SEARCH[a.getAttribute('href')];
-        const n = body ? countHits(body, q) : 0;
-        const ok = meta || n > 0;
-        li.hidden = !ok; if (ok) hits++;
-        if (n > 0) a.insertAdjacentHTML('afterend', `<span class="li-snip"><em>본문 ${n}곳</em> ${snippet(body, q)}</span>`);
-      });
-      cat.querySelectorAll('.li-sec').forEach(s => { s.hidden = !s.querySelector('li:not([hidden])'); });
-      const nameHit = cat.querySelector('.li-cat-name').textContent.toLowerCase().includes(q);
-      cat.closest('.li-cat-wrap').hidden = !hits && !nameHit;
-      cat.open = hits > 0;
-      total += hits + (nameHit ? 1 : 0);
-    });
-    tree.querySelectorAll('.li-group').forEach(g => { g.hidden = !g.querySelector('.li-cat-wrap:not([hidden])'); });
-    if (!total) tree.insertAdjacentHTML('afterbegin', `<p class="li-empty">'${esc(raw)}'와 일치하는 문서가 없습니다.</p>`);
-    if (q.length >= 2 && view.querySelector('.lib-article')) highlight(raw);
+    const raw = $('liFilter').value.trim();
+    if (!raw) { results.hidden = true; tree.hidden = false; results.innerHTML = ''; clearHighlight(); fitSide(); return; }
+    if (raw.length >= 2) loadSearch();
+    const r = rank(raw);
+    const loading = raw.length >= 2 && !(SEARCH && Object.keys(SEARCH).length > 60);
+    results.innerHTML = `<p class="li-res-head"><b>${r.list.length}</b>건${loading ? ' · 본문 자료를 받는 중…' : ''}${r.words.length ? `<span>함께 찾은 말: ${r.words.map(esc).join(', ')}</span>` : ''}</p>`
+      + r.cats.map(c => `<a class="li-res li-res-cat" href="/library/${c.slug}"><b>${esc(c.name)}</b><small>개요 및 원문 · ${esc(c.sub || '')}</small></a>`).join('')
+      + r.list.slice(0, LIMIT).map(x => `<a class="li-res" href="${x.url}"${x.url === view.dataset.route ? ' aria-current="page"' : ''}><b>${esc(x.d.short || x.d.title.split(' — ')[0])}</b><small>${esc(x.c.name)}${x.n ? ` · 본문 ${x.n}곳` : ''}</small>${x.snip ? `<span class="li-snip">${x.snip}</span>` : ''}</a>`).join('')
+      + (r.list.length > LIMIT ? `<p class="li-res-more">관련도가 높은 ${LIMIT}건만 보여 줍니다. 검색어를 더 구체적으로 넣어 보세요.</p>` : '')
+      + (!r.list.length && !r.cats.length && !loading ? `<p class="li-empty">'${esc(raw)}'와 일치하는 문서가 없습니다.</p>` : '');
+    results.hidden = false;
+    tree.hidden = true;
+    fitSide();
+    if (raw.length >= 2 && view.querySelector('.lib-article')) highlight(raw);
   }
   let filterTimer = 0;
-  $('liFilter').addEventListener('input', () => { clearTimeout(filterTimer); filterTimer = setTimeout(applyFilter, 120); });
+  $('liFilter').addEventListener('input', () => { clearTimeout(filterTimer); filterTimer = setTimeout(applyFilter, 180); });
+  $('liFilter').addEventListener('keydown', e => { if (e.key === 'Escape') { e.target.value = ''; applyFilter(); } });
 
-  // 열린 문서 안에서 찾는 말 표시
+  // 열린 문서 안에서 찾는 말(비슷한 말 포함) 표시
   function clearHighlight() {
-    view.querySelectorAll('mark.li-hit').forEach(m => m.replaceWith(document.createTextNode(m.textContent)));
+    const marks = view.querySelectorAll('mark.li-hit');
+    if (!marks.length) return;
+    marks.forEach(m => m.replaceWith(document.createTextNode(m.textContent)));
     view.normalize();
   }
   function highlight(raw) {
     clearHighlight();
-    const q = norm(raw);
+    const re = new RegExp(terms(raw).map(t => t.re.source).join('|'), 'gi');
     const walker = document.createTreeWalker(view.querySelector('.lib-article') || view, NodeFilter.SHOW_TEXT, {
       acceptNode: n => n.parentElement.closest('script, style, svg, mark') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT
     });
     const nodes = [];
-    while (walker.nextNode()) if (norm(walker.currentNode.nodeValue).includes(q)) nodes.push(walker.currentNode);
+    while (walker.nextNode()) if (has(walker.currentNode.nodeValue, re)) nodes.push(walker.currentNode);
     nodes.slice(0, 300).forEach(node => {
       const text = node.nodeValue, frag = document.createDocumentFragment();
-      let i = 0, j;
-      while ((j = norm(text).indexOf(q, i)) >= 0) {
-        frag.append(text.slice(i, j));
-        const m = document.createElement('mark'); m.className = 'li-hit'; m.textContent = text.slice(j, j + q.length); frag.append(m);
-        i = j + q.length;
+      let i = 0, m;
+      re.lastIndex = 0;
+      while ((m = re.exec(text))) {
+        if (!m[0]) { re.lastIndex++; continue; }
+        frag.append(text.slice(i, m.index));
+        const mk = document.createElement('mark'); mk.className = 'li-hit'; mk.textContent = m[0]; frag.append(mk);
+        i = m.index + m[0].length;
       }
       frag.append(text.slice(i));
       node.replaceWith(frag);
@@ -291,12 +348,13 @@
 
   // 색인 상자 높이를 화면에 맞춘다(색인만 따로 스크롤된다).
   function fitSide() {
-    if (window.matchMedia('(max-width: 900px)').matches) { tree.style.maxHeight = ''; return; }
+    if (window.matchMedia('(max-width: 900px)').matches) { tree.style.maxHeight = ''; if (typeof results !== 'undefined') results.style.maxHeight = ''; return; }
     const head = side.querySelector('.li-side-head').getBoundingClientRect().height;
     const foot = document.querySelector('.site-footer');
     const footH = foot ? foot.getBoundingClientRect().height : 0;
     // 색인 위 68px(머리줄+여백) + 색인 머리 + 색인 + 아래 여백 + 푸터가 화면 안에 들어가야 맨 아래까지 내려도 색인이 밀려 올라가지 않는다.
     tree.style.maxHeight = Math.max(240, window.innerHeight - 68 - head - 2 - 16 - footH) + 'px';
+    if (typeof results !== 'undefined') results.style.maxHeight = tree.style.maxHeight;
   }
   window.addEventListener('resize', fitSide);
 
@@ -315,7 +373,7 @@
     if (target) { history.replaceState(null, '', target); }
   })();
 
-  renderTree();
+  if (!tree.querySelector('.li-cat')) renderTree();   // 정적 페이지에 미리 그려 둔 색인이 있으면 그대로 쓴다
   allOpen = tree.querySelectorAll('.li-cat[open]').length > 1;
   fitSide();
   const start = parse(location.pathname);

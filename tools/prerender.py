@@ -457,6 +457,10 @@ def doc_inner(inner):
     """문서 화면: 카테고리 페이지의 빵부스러기와 이전·다음 줄은 뺀다(색인이 대신한다)."""
     inner = drop_elements(inner, r'<nav class="lib-crumb"')
     inner = drop_elements(inner, r'<nav class="bat-pager"')
+    # 문서 제목(h1) 바로 아래 소제목이 h3이라 제목 단계가 건너뛴다. 모양(CSS)은 그대로 두고 화면 낭독기용 단계만 맞춘다.
+    if '<h2' not in inner:
+        inner = re.sub(r'<h3(?![^>]*aria-level)', '<h3 aria-level="2"', inner)
+        inner = re.sub(r'<h4(?![^>]*aria-level)', '<h4 aria-level="3"', inner)
     return frame.images.responsive(unique_svg_ids(inner), frame.DOC_SIZES)
 
 
@@ -619,7 +623,11 @@ def main():
             route = f"{cat['base']}/{doc['id']}"
             page = shell_page(seo, frame.kicker(cat['slug']) + body, route, frame.tree_html(data, cat['slug'], doc['id']))
             files[OUT / cat['slug'] / f"{doc['id']}.html"] = page
-            search.append({'u': route, 't': doc['title'], 'b': plain_text(body)})
+            # 검색용 본문: 문서 머리(분류·중요도·제목·확인 날짜)와 소제목 바로가기는 뺀다(미리보기에 같은 말이 먼저 걸리지 않게).
+            text = body
+            for pat in (r'<span class="lib-doc-head"', r'<h1 class="lib-doc-title"', r'<p class="lib-checked"', r'<[a-z]+ class="[^"]*\btoc\b|<[a-z]+ class="[a-z-]*-toc\b'):
+                text = drop_elements(text, pat)
+            search.append({'u': route, 't': doc['title'], 'b': plain_text(text)})
             entries.append((cat['base'], url, date, ''))
         else:
             dates = [modified(cat['js']), modified(cat['page'])]
