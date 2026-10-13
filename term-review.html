@@ -39,6 +39,7 @@ h1 { font-size: 24px; margin: 0; text-wrap: balance }
 .tabs, .filters { display: flex; flex-wrap: wrap; gap: 6px; align-items: center }
 .tab { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 13px; cursor: pointer }
 .tab[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface) }
+.tab.round { font-weight: 600 }
 .tab small { opacity: .75; margin-left: 4px; font-variant-numeric: tabular-nums }
 input[type=search], select { font: inherit; font-size: 14px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); min-width: 0 }
 input[type=search] { flex: 1 1 220px }
@@ -120,9 +121,9 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   <header>
     <a class="home" href="/">← Logistics Library</a>
     <h1>Logistics Library 용어 검수표</h1>
-    <p class="lead">10월 11~12일 밤에 바꾼 용어 전체입니다. 줄마다 <b>실제로 바꾸기 전 문장(전)</b>과 <b>바꾼 뒤 문장(후)</b>을 git 기록에서 그대로 꺼내 붙였고, 바뀐 부분은 빨강(빠진 말)과 초록(새 말)으로 표시했습니다. 그 아래에는 같은 문장을 <b>Codex</b>와 <b>Antigravity</b>가 따로 읽고 낸 의견이 있습니다. 둘의 의견이 갈린 줄은 위 '검토 의견'에서 모아 볼 수 있습니다.<br>
-    판정은 <b>좋음</b>(그대로 둠), <b>되돌리기</b>(원래 말로), <b>다른 말로</b>(칸에 맞는 말 입력) 중 하나를 누르면 바로 저장됩니다. 다 고르시면 Claude에게 "검수표 반영해"라고만 말씀하세요.<br>
-    영어가 영어로 바뀐 줄 가운데 undermount → underslung, Sanctions → Sanction 같은 줄은 영어 원어를 업계·약관에서 쓰는 표기로 고친 것이고, °C → ℃, prefix → Prefix 같은 줄은 표기만 통일한 것입니다.</p>
+    <p class="lead"><b>2차 검수(10/13 반영분)</b>: 1차 검수표를 반영하면서 실제로 바꾼 말을 한 줄씩 모았습니다. 줄마다 그 말이 바뀐 <b>문장 전체</b>(전 → 후)를 붙였고, 바뀐 부분은 빨강(빠진 말)과 초록(새 말)으로 표시했습니다. 회색 메모는 바꾼 근거(사장님 판정, Codex·Antigravity 의견, 병기 원칙)입니다.<br>
+    <b>확인 필요</b> 3줄은 사장님이 정해 주셔야 하는 것입니다. 나머지는 <b>좋음</b>(그대로), <b>되돌리기</b>(전 문장으로), <b>다른 말로</b>(칸에 입력) 중 하나를 누르면 바로 저장됩니다. 다 고르시면 Claude에게 "검수표 반영해"라고만 말씀하세요.<br>
+    병기 원칙: 한국어가 주된 말이면 한국어(약어) — 화물인도지시서(D/O). 영어가 주된 말이면 문서 첫 등장에 영어(한국어) — Demurrage(체화료).</p>
   </header>
 
   <form class="keyform" id="keyform" hidden>
@@ -134,6 +135,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   <section class="stats" id="stats" aria-label="진행 현황"></section>
 
   <div class="bar">
+    <div class="tabs" id="rounds" role="group" aria-label="검수 차수"></div>
     <div class="tabs" id="tabs" role="group" aria-label="묶음"></div>
     <div class="filters">
       <input type="search" id="q" placeholder="용어 검색 (예: 부킹, 젠셋, 씰)" aria-label="용어 검색">
@@ -153,14 +155,18 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   // 관리자 전용 용어 검수표. 링크 점검과 같은 관리자 키로 Supabase RPC(get_term_review / save_term_review)를 부른다.
   const RPC = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/';
   const API_KEY = 'sb_publishable_vgcDAWoOJRD8Xvp2p4Ew9A_exTmzuXM';
-  const GROUPS = ['운영자 결정', '1차 문구 통일', '2차 실무 용어', '결정 필요'];
+  // 차수별 묶음. 2차(10/13 반영분)가 기본이고, 1차(10/11~12 변경분)는 처리가 끝나 보관용으로 둔다.
+  const ROUNDS = { 2: ['확인 필요', '사장님 판정 반영', 'Claude 판단', '병기 원칙'], 1: ['운영자 결정', '1차 문구 통일', '2차 실무 용어', '결정 필요'] };
+  const ROUND_NAME = { 2: '2차 검수 · 10/13 반영분', 1: '1차 검수 · 10/11~12 변경분(처리 완료)' };
+  let round = 2;
+  const inRound = () => rows.filter(r => r.round === round);
   const PAGE = 60;
   const store = {
     get: k => { try { return localStorage.getItem(k); } catch (_) { return null; } },
     set: (k, v) => { try { localStorage.setItem(k, v); } catch (_) {} },
     del: k => { try { localStorage.removeItem(k); } catch (_) {} }
   };
-  let key = store.get('ll-admin-key'), rows = [], group = '2차 실무 용어', shown = PAGE;
+  let key = store.get('ll-admin-key'), rows = [], group = '확인 필요', shown = PAGE;
   const $ = id => document.getElementById(id);
   const pending = new Map();   // id -> 저장 중인 Promise (한 줄에 한 번에 한 저장)
 
@@ -174,20 +180,22 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
 
   function filtered() {
     const q = $('q').value.trim().toLowerCase(), cat = $('cat').value, todo = $('todo').checked, warn = $('warn').value;
-    return rows.filter(r => r.group === group
+    return inRound().filter(r => r.group === group
       && (!cat || (r.cats || '').includes(cat))
       && (!todo || !r.verdict)
       && (!warn || (warn === 'flag' ? ['revert', 'other'].some(v => [r.rev && r.rev.codex && r.rev.codex.verdict, r.rev && r.rev.agy && r.rev.agy.verdict].includes(v)) : agreement(r) === warn))
       && (!q || [r.from, r.to, r.note, r.memo, r.alt, r.src, ...(r.sents || []).map(c => c.before + ' ' + c.after), ...(r.ctx || []).map(c => c.text)].join(' ').toLowerCase().includes(q)));
   }
   function renderStats() {
-    const c = { all: rows.length, keep: 0, revert: 0, other: 0 };
-    rows.forEach(r => { if (c[r.verdict] !== undefined) c[r.verdict]++; });
+    const list0 = inRound(), c = { all: list0.length, keep: 0, revert: 0, other: 0 };
+    list0.forEach(r => { if (c[r.verdict] !== undefined) c[r.verdict]++; });
+    $('rounds').innerHTML = [2, 1].map(n => `<button class="tab round" data-r="${n}" aria-pressed="${n === round}">${ROUND_NAME[n]}</button>`).join('');
+    $('warn').hidden = round !== 1;
     const done = c.keep + c.revert + c.other;
     $('stats').innerHTML = [['전체', c.all], ['고름', done], ['좋음', c.keep], ['되돌리기', c.revert], ['다른 말로', c.other], ['남음', c.all - done]]
       .map(([k, v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`).join('');
-    $('tabs').innerHTML = GROUPS.map(g => {
-      const list = rows.filter(r => r.group === g), left = list.filter(r => !r.verdict).length;
+    $('tabs').innerHTML = ROUNDS[round].map(g => {
+      const list = list0.filter(r => r.group === g), left = list.filter(r => !r.verdict).length;
       return `<button class="tab" data-g="${esc(g)}" aria-pressed="${g === group}">${esc(g)}<small>${left}/${list.length}</small></button>`;
     }).join('');
   }
@@ -221,7 +229,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
     return 'split';
   }
   function rowHtml(r) {
-    const pend = r.group === '결정 필요';
+    const pend = r.group === '결정 필요' || r.group === '확인 필요';
     const docLink = c => c.url ? `<a class="doc" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title || '문서')} ↗</a>` : '';
     const pairHtml = c => { const [A, B] = wordDiff(c.before, c.after); return `<div class="sent"><p class="b"><span class="lbl">전</span>${A}</p><p class="a"><span class="lbl">후</span>${B}</p>${docLink(c)}</div>`; };
     const markWord = (text, words) => { let t = esc(text); words.filter(Boolean).forEach(w => { const e = esc(w); const i = t.indexOf(e); if (i >= 0) t = t.slice(0, i) + '<mark>' + e + '</mark>' + t.slice(i + e.length); }); return t; };
@@ -267,6 +275,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   }
 
   $('tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (!b) return; group = b.dataset.g; shown = PAGE; render(); });
+  $('rounds').addEventListener('click', e => { const b = e.target.closest('.tab'); if (!b) return; round = +b.dataset.r; group = ROUNDS[round][0]; shown = PAGE; render(); });
   ['q', 'cat', 'todo', 'warn'].forEach(id => { $(id).addEventListener('input', () => { shown = PAGE; render(); }); $(id).addEventListener('change', () => { shown = PAGE; render(); }); });
   $('more').addEventListener('click', () => { shown += PAGE; render(); });
   $('list').addEventListener('click', e => {
@@ -288,14 +297,14 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
     $('status').textContent = '목록을 불러오는 중입니다.';
     try {
       const data = await rpc('get_term_review', { p_secret: key });
-      rows = data.map(d => ({ id: d.id, group: d.grp, from: d.frm, to: d.dst, count: d.count, cats: d.cats, ex_from: d.ex_from, ex_to: d.ex_to,
+      rows = data.map(d => ({ id: d.id, round: d.round || 1, group: d.grp, from: d.frm, to: d.dst, count: d.count, cats: d.cats, ex_from: d.ex_from, ex_to: d.ex_to,
         note: d.note, src: d.src, ctx: d.ctx || [], sents: d.sents || [], rev: d.rev && Object.keys(d.rev).length ? d.rev : null, verdict: d.verdict, alt: d.alt, memo: d.memo, updated_at: d.updated_at }))
-        .sort((a, b) => GROUPS.indexOf(a.group) - GROUPS.indexOf(b.group) || (a.id < b.id ? -1 : 1));
+        .sort((a, b) => a.round - b.round || ROUNDS[a.round].indexOf(a.group) - ROUNDS[b.round].indexOf(b.group) || (a.id < b.id ? -1 : 1));
       store.set('ll-admin-key', key);
       $('keyform').hidden = true;
       const cats = [...new Set(rows.flatMap(r => (r.cats || '').split(' · ').filter(Boolean)))].sort();
       $('cat').innerHTML = '<option value="">모든 카테고리</option>' + cats.map(c => `<option>${esc(c)}</option>`).join('');
-      $('status').innerHTML = `${rows.length}개 항목 · 고르면 바로 저장됩니다.<button type="button" class="logout" id="logout">키 지우기</button>`;
+      $('status').innerHTML = `2차 ${rows.filter(r => r.round === 2).length}개 · 1차 ${rows.filter(r => r.round === 1).length}개 · 고르면 바로 저장됩니다.<button type="button" class="logout" id="logout">키 지우기</button>`;
       $('logout').onclick = () => { store.del('ll-admin-key'); location.reload(); };
       render();
     } catch (e) {
@@ -310,7 +319,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   else {
     $('keyform').hidden = false;
     $('status').textContent = '관리자 키를 넣으면 목록이 열립니다.';
-    $('list').innerHTML = '<div class="empty">관리자 키를 넣으면 바뀐 용어 327개가 줄마다 나타납니다.</div>';
+    $('list').innerHTML = '<div class="empty">관리자 키를 넣으면 검수할 용어가 줄마다 나타납니다.</div>';
   }
 })();
 

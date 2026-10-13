@@ -380,3 +380,6 @@ alter table public.term_review add column if not exists src text not null defaul
 -- 2026-10-13: 실제 전후 문장(sents: git a26f08e → a852f0e)과 Codex·Antigravity 문장 단위 의견(rev).
 alter table public.term_review add column if not exists sents jsonb not null default '[]'::jsonb,
   add column if not exists rev jsonb not null default '{}'::jsonb;
+
+-- 2026-10-13: 2차 검수(round=2). 검수표 반영 커밋 d36b94c에서 바뀐 말별로 묶은 59줄(scratchpad review/r2_build.py).
+alter table public.term_review add column if not exists round integer not null default 1;
