@@ -44,10 +44,7 @@ def main():
     groups = []
     for g, href, name, sub in menu_order():
         if not href.startswith('/library/'):
-            # 도구 페이지(AWB·Container Tracking, UN Number)는 본문이 아니라 바로가기로 둔다.
-            if not groups or groups[-1]['group'] != g:
-                groups.append({'group': g, 'cats': [], 'links': []})
-            groups[-1].setdefault('links', []).append({'href': href, 'name': name, 'sub': sub})
+            # 도구(AWB·Container Tracking, UN Number)는 색인에 두지 않는다(머리줄 메뉴 Tracking·UN No.).
             continue
         c = cats.get(href)
         if not c:

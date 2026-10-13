@@ -48,15 +48,33 @@ PAGES = {
 E = html.escape
 
 
+# 머리줄 메뉴(2026-10-13~): 자료실(왼쪽 색인 화면) · 추적 도구 · UN 번호. 자료 카테고리는 왼쪽 색인에만 둔다.
+TOP = [
+    ('/', 'Library', None),
+    ('Tracking', None, [('/tool/airtracking', 'AWB Tracking', '항공사별 화물 추적 바로가기'),
+                        ('/tool/containertracking', 'Container Tracking', '선사별 컨테이너 추적 바로가기')]),
+    ('/tool/unnumber', 'UN No.', None),
+]
+
+
 def render(current):
+    """current: 이 페이지의 메뉴 주소('/library/...'는 Library, '/airtracking' 등은 그 도구)."""
+    if current and current.startswith('/library'):
+        current = '/'
+    elif current and not current.startswith('/tool/'):
+        current = '/tool' + current
     out = ['<nav class="main-nav" aria-label="주 메뉴">']
-    for group, items in NAV:
-        here = any(href == current for href, _, _ in items)
-        out.append(f'    <details class="nav-group{" is-current" if here else ""}"><summary>{E(group)}</summary><div class="menu-list">')
-        for href, name, sub in items:
-            cur = ' aria-current="page"' if href == current else ''
-            out.append(f'      <a href="{href}"{cur}>{E(name)}<small>{E(sub)}</small></a>')
-        out.append('    </div></details>')
+    for first, name, items in TOP:
+        if items:
+            here = any(href == current for href, _, _ in items)
+            out.append(f'    <details class="nav-group{" is-current" if here else ""}"><summary>{E(first)}</summary><div class="menu-list">')
+            for href, iname, sub in items:
+                cur = ' aria-current="page"' if href == current else ''
+                out.append(f'      <a href="{href}"{cur}>{E(iname)}<small>{E(sub)}</small></a>')
+            out.append('    </div></details>')
+        else:
+            cur = ' aria-current="page"' if first == current else ''
+            out.append(f'    <a class="nav-link" href="{first}"{cur}>{E(name)}</a>')
     out.append('  </nav>')
     return '\n'.join(out)
 

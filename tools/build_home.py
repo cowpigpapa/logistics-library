@@ -1,5 +1,5 @@
 """사이트 화면 틀(왼쪽 색인 + 오른쪽 화면)을 만든다. 메인(index.html)도, 자료실 문서·개요 정적 페이지(tools/prerender.py)도 이 틀을 쓴다.
-- 머리줄·푸터: library.html에서 가져온다(머리줄의 규정·실무·도구 메뉴는 빼고, 패밀리 사이트는 푸터에 둔다).
+- 머리줄·푸터: library.html에서 가져온다(머리줄 메뉴 Library·Tracking·UN No.는 tools/menu.py가 넣는다).
 - 메인 검색 설정(제목·설명·canonical·인증 태그·OG): tools/home-head.html
 - 카테고리 카드 원본: tools/home-cards.html (순서는 tools/menu.py의 NAV를 따른다)
 - 색인 데이터: tools/library_index.py가 만드는 library-index-data.js
@@ -18,7 +18,6 @@ V = '20261013-01'   # library-index.css/js, library-index-data.js 캐시 버전
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')
 HEADER = lib[lib.index('<header class="topbar">'):lib.index('</header>') + len('</header>')]
-HEADER = re.sub(r'\s*<nav class="main-nav"[^>]*>.*?</nav>', '', HEADER, count=1, flags=re.S)
 FOOTER = lib[lib.index('<footer class="site-footer">'):lib.index('</footer>') + len('</footer>')]
 CSS = ''.join(f'  <link rel="stylesheet" href="{h}">\n' for h in re.findall(r'href="(/(?:styles|ctu-library)\.css\?v=[0-9-]+)"', lib))
 SHELL_JS = re.search(r'/site-shell\.js\?v=[0-9-]+', lib).group(0)
@@ -148,7 +147,7 @@ def page(seo, inner, route='/', tree=''):
     </div>
     <nav class="li-tree" id="liTree">{tree}</nav>
   </aside>
-  <article class="li-view library-view" id="liView" tabindex="-1" aria-live="polite" data-route="{route}" data-tool-types='{json.dumps(TOOL_TYPES, ensure_ascii=False)}'>
+  <article class="li-view library-view" id="liView" tabindex="-1" aria-live="polite" data-route="{route}">
 {inner}
   </article>
 </main>
@@ -161,29 +160,14 @@ def page(seo, inner, route='/', tree=''):
 '''
 
 
-ORIGIN = 'https://logistics.onharu.app'
-
-
-def tool_inner(name):
-    """도구 화면: 카테고리 머리와 같은 줄 + 도구 페이지(머리줄·푸터 없이)를 끼운 틀. library-index.js의 showTool()과 같은 마크업."""
-    tname, kind, g = META['tool:' + name]
-    sub = f'<span class="li-kicker-sub g{g}">{kind}</span>' if kind else ''
-    return (f'<p class="li-entry-h li-doc-head"><a href="/tool/{name}">{_html.escape(tname, quote=False)}</a>{sub}</p>'
-            f'<iframe class="li-tool-frame" src="/{name}?embed=1" title="{_html.escape(tname, quote=True)}"></iframe>')
-
-
 def main():
     data = index_data()
     (ROOT / 'index.html').write_text(page(HOME_SEO, HOME_INNER, '/', tree_html(data)), encoding='utf-8', newline='\n')
-    # 도구 화면 /tool/<name>: 도구 페이지의 검색 설정을 그대로 쓰되 주소만 /tool/<name>으로.
-    # 도구 페이지(/<name>)는 vercel.json redirects로 이 주소로 넘어온다(?embed=1로 끼워 열 때만 그대로).
+    # 도구 화면 /tool/<name>: 왼쪽 색인 없이 도구 페이지 그대로(머리줄 메뉴 Tracking·UN No.에서 연다).
+    # 원본은 <name>.html이고, 옛 주소 /<name>은 vercel.json redirects로 이 주소로 넘어온다.
     (ROOT / 'tool').mkdir(exist_ok=True)
     for name in TOOL_TYPES:
-        src = read(f'{name}.html')
-        seo = src[src.index('<title>'):src.index('<link rel="icon"')].strip()
-        seo = seo.replace(f'{ORIGIN}/{name}"', f'{ORIGIN}/tool/{name}"')
-        (ROOT / 'tool' / f'{name}.html').write_text(page(seo, tool_inner(name), f'/tool/{name}', tree_html(data, tool=name)),
-                                                    encoding='utf-8', newline='\n')
+        (ROOT / 'tool' / f'{name}.html').write_text(read(f'{name}.html'), encoding='utf-8', newline='\n')
     print('index.html 생성: 카드', len(CARDS), '/ 도구 화면', len(TOOL_TYPES))
 
 

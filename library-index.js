@@ -3,7 +3,7 @@
 //   /                       첫 화면(카테고리 소개)
 //   /library/<slug>         개요 및 원문(카드 설명·그림 + 설명 및 요약 + 원문과 공식 자료)
 //   /library/<slug>/<id>    문서
-//   /tool/<name>            도구(도구 페이지 /<name>?embed=1 을 오른쪽 칸에 끼워 연다)
+// 도구(/tool/<name>)는 왼쪽 색인 없는 따로 된 페이지다(머리줄 메뉴 Tracking·UN No.).
 // 화면을 옮길 때는 페이지를 새로 열지 않고 그 주소의 정적 페이지를 받아 #liView만 바꾼다(history API).
 (function () {
   const DATA = window.LIB_INDEX || [];
@@ -22,20 +22,13 @@
   cache.set(view.dataset.route || location.pathname, { html: view.innerHTML, title: document.title });
 
   // 분류 번호(1 규정, 2 실무, 3 도구)와 분류 줄(카테고리 이름 옆 'IMO · ILO · UNECE' 등)
-  const GROUP = {}, TYPE = {};
-  DATA.forEach((g, gi) => { g.cats.forEach(c => { GROUP[c.slug] = gi + 1; }); (g.links || []).forEach(l => { GROUP['tool:' + l.href.slice(1)] = gi + 1; }); });
-  try { Object.entries(JSON.parse(view.dataset.toolTypes || '{}')).forEach(([k, v]) => { TYPE['tool:' + k] = v; }); } catch (_) {}
   const cats = {};
   DATA.forEach(g => g.cats.forEach(c => { cats[c.slug] = c; }));
-  const TOOLS = {};
-  DATA.forEach(g => (g.links || []).forEach(l => { TOOLS[l.href.slice(1)] = l; }));
 
   // 주소 → 화면 종류
   function parse(path) {
     const p = path.replace(/\/+$/, '') || '/';
-    let m = p.match(/^\/tool\/([a-z]+)$/);
-    if (m && TOOLS[m[1]]) return { kind: 'tool', name: m[1], path: p };
-    m = p.match(/^\/library\/([a-z0-9-]+)(?:\/([a-z0-9-]+))?$/);
+    const m = p.match(/^\/library\/([a-z0-9-]+)(?:\/([a-z0-9-]+))?$/);
     if (m && cats[m[1]] && (!m[2] || cats[m[1]].docs[m[2]])) return { kind: m[2] ? 'doc' : 'overview', slug: m[1], id: m[2] || null, path: p };
     if (p === '/' || p === '/index.html') return { kind: 'home', path: '/' };
     return null;
@@ -57,7 +50,7 @@
           return `<li><a href="/library/${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}" data-s="${esc((d.tag || '') + ' ' + (d.summary || ''))}">${esc(d.short || d.title.split(' — ')[0])}</a></li>`;
         }).join('')}</ul></div>`).join('')}
       </details>
-      </div>`).join('')}${(g.links || []).map(l => `<a class="li-tool" href="/tool${l.href}" data-tool="${l.href.slice(1)}"><span class="li-cat-name">${esc(l.name)}</span><small>${esc(l.sub)}</small></a>`).join('')}</div>`).join('');
+      </div>`).join('')}</div>`).join('');
   }
   function remember() { store.set([...tree.querySelectorAll('.li-cat[open]')].map(d => d.dataset.slug)); }
   function closeOthers(keep) {
@@ -74,8 +67,7 @@
   function markActive(r) {
     tree.querySelectorAll('a.is-active').forEach(a => a.classList.remove('is-active'));
     if (!r || r.kind === 'home') return;
-    const a = r.kind === 'tool' ? tree.querySelector(`a.li-tool[data-tool="${r.name}"]`)
-      : tree.querySelector(r.id ? `a[data-slug="${r.slug}"][data-id="${r.id}"]` : `a.li-ov[data-slug="${r.slug}"]`);
+    const a = tree.querySelector(r.id ? `a[data-slug="${r.slug}"][data-id="${r.id}"]` : `a.li-ov[data-slug="${r.slug}"]`);
     if (!a) return;
     a.classList.add('is-active');
     const wrap = a.closest('.li-cat-wrap');
@@ -103,7 +95,6 @@
   async function show(r, opts = {}) {
     const my = ++seq;
     markActive(r);
-    if (r.kind === 'tool') return showTool(r.name);
     view.classList.add('is-loading');
     try {
       const out = await fetchView(r.path);
@@ -132,36 +123,6 @@
     }
   }
 
-  // 도구: 도구 페이지를 오른쪽 칸에 끼워 연다(머리줄·푸터 없이, 화면 높이에 맞춰).
-  function showTool(name) {
-    const t = TOOLS[name];
-    const sub = TYPE['tool:' + name];
-    // 검색어(?q=)는 도구 페이지로 넘긴다.
-    const q = new URLSearchParams(location.search).get('q');
-    view.innerHTML = `<p class="li-entry-h li-doc-head"><a href="/tool/${name}">${esc(t.name)}</a>${sub ? `<span class="li-kicker-sub g${GROUP['tool:' + name] || 3}">${sub}</span>` : ''}</p><iframe class="li-tool-frame" src="/${name}?embed=1${q ? '&q=' + encodeURIComponent(q) : ''}" title="${esc(t.name)}"></iframe>`;
-    view.dataset.route = '/tool/' + name;
-    embedHeight = 0;
-    document.title = `${t.name} · Logistics Library`;
-    fitFrame();
-    window.scrollTo({ top: 0 });
-  }
-  let embedHeight = 0;   // 끼운 도구가 알려 준 내용 높이(site-shell.js)
-  const narrow = () => window.matchMedia('(max-width: 900px)').matches;
-  window.addEventListener('message', e => {
-    if (e.origin !== location.origin || !e.data || typeof e.data.llEmbedHeight !== 'number') return;
-    embedHeight = e.data.llEmbedHeight;
-    fitFrame();
-  });
-  function fitFrame() {
-    const f = view.querySelector('.li-tool-frame');
-    if (!f) return;
-    // 좁은 화면: 틀을 내용 높이에 맞춰 페이지 하나만 스크롤되게 한다.
-    if (narrow() && embedHeight) { f.style.height = embedHeight + 'px'; return; }
-    const top = f.getBoundingClientRect().top + window.scrollY;
-    const foot = document.querySelector('.site-footer');
-    f.style.height = Math.max(420, window.innerHeight - top - 16 - (foot ? foot.getBoundingClientRect().height : 0)) + 'px';
-  }
-  window.addEventListener('resize', fitFrame);
 
   // 주소 옮기기
   function go(path, hash) {
@@ -195,9 +156,7 @@
     let url;
     try { url = new URL(href, location.href); } catch (_) { return; }
     if (url.origin !== location.origin) return;
-    // 도구 페이지 바로가기(/airtracking 등)도 이 화면 안에서 연다.
-    const tool = url.pathname.match(/^\/([a-z]+)$/);
-    const path = tool && TOOLS[tool[1]] ? '/tool/' + tool[1] : url.pathname;
+    const path = url.pathname;
     if (!parse(path)) return;
     e.preventDefault();
     if (tree.contains(a)) {
@@ -294,8 +253,7 @@
       cat.open = hits > 0;
       total += hits + (nameHit ? 1 : 0);
     });
-    tree.querySelectorAll('.li-tool').forEach(t => { const ok = t.textContent.toLowerCase().includes(q); t.hidden = !ok; if (ok) total++; });
-    tree.querySelectorAll('.li-group').forEach(g => { g.hidden = !g.querySelector('.li-cat-wrap:not([hidden]), .li-tool:not([hidden])'); });
+    tree.querySelectorAll('.li-group').forEach(g => { g.hidden = !g.querySelector('.li-cat-wrap:not([hidden])'); });
     if (!total) tree.insertAdjacentHTML('afterbegin', `<p class="li-empty">'${esc(raw)}'와 일치하는 문서가 없습니다.</p>`);
     if (q.length >= 2 && view.querySelector('.lib-article')) highlight(raw);
   }
@@ -351,8 +309,8 @@
     let target = null;
     if (here && here.kind === 'home') {
       const [a, b] = h.split('/');
-      if (a === 'tool' && b) target = '/tool/' + b;
-      else if (cats[a]) target = b && b !== 'overview' && cats[a].docs[b] ? `/library/${a}/${b}` : `/library/${a}`;
+      if (a === 'tool' && b) { location.replace('/tool/' + b); return; }
+      if (cats[a]) target = b && b !== 'overview' && cats[a].docs[b] ? `/library/${a}/${b}` : `/library/${a}`;
     } else if (here && here.kind === 'overview' && cats[here.slug].docs[h]) target = `/library/${here.slug}/${h}`;
     if (target) { history.replaceState(null, '', target); }
   })();
@@ -363,6 +321,5 @@
   const start = parse(location.pathname);
   try { history.replaceState({ scroll: window.scrollY }, ''); } catch (_) {}
   if (start && start.path !== (view.dataset.route || '/')) show(start);   // 예전 주소
-  else if (start && start.kind === 'tool' && location.search) { markActive(start); showTool(start.name); }   // ?q= 넘기기
-  else { markActive(start); fitFrame(); }
+  else markActive(start);
 })();
