@@ -165,8 +165,7 @@
     e.preventDefault();
     if (inSide) {
       fromTree = tree.contains(a);
-      document.body.classList.remove('li-side-open');
-      $('liToggle').setAttribute('aria-expanded', 'false');
+      setSide(false);
     }
     if (parse(path).path === view.dataset.route && !url.hash) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
     go(path, url.hash);
@@ -204,11 +203,13 @@
   });
 
   // 좁은 화면: 목차 버튼으로 색인을 열고 닫는다.
-  $('liToggle').addEventListener('click', () => {
-    const open = !document.body.classList.contains('li-side-open');
+  const setSide = open => {
     document.body.classList.toggle('li-side-open', open);
     $('liToggle').setAttribute('aria-expanded', String(open));
-  });
+    $('liToggle').textContent = open ? '닫기' : '목차';
+  };
+  $('liToggle').addEventListener('click', () => setSide(!document.body.classList.contains('li-side-open')));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && document.body.classList.contains('li-side-open')) setSide(false); });
 
   // ---------------------------------------------------------------- 찾기(제목·요약·태그 + 본문, 비슷한 말, 관련도 순)
   // 검색어가 있으면 색인 자리에 관련도 순 결과 목록을 보여 주고, 지우면 색인으로 돌아간다.
