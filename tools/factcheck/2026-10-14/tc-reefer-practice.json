@@ -1,0 +1,14 @@
+[
+  {
+    "claim": "UK P&amp;I 클럽이 자주 보고되는 클레임 원인 맨 앞에 두는 것이 허용 시간보다 길게 전원이 끊긴 컨테이너입니다.",
+    "verdict": "wrong",
+    "evidence": "https://www.ukpandi.com/fileadmin/uploads/ukpandi/Documents/uk-p-i-club/carefully-to-carry/2023/UKPI_Carefully_to_Carry_2023_35.pdf (35.1, p.350) — 'occurrences that are often reported' 목록의 첫 항목은 \"Lack of container preparation for loading, causing issues such as tainting and lack of general cleanliness\"이고, \"containers off-power and, therefore, off-refrigeration for extended times beyond allowed times for power-off\"는 두 번째 항목입니다. 목록에 순위가 매겨져 있지도 않습니다.",
+    "fix": "UK P&amp;I 클럽은 허용 시간보다 길게 전원이 끊긴 컨테이너를 자주 보고되는 클레임 원인 가운데 하나로 듭니다."
+  },
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "56 claims checked, 55 correct. 원문 PDF와 페이지에서 확인한 항목: UK P&I(클레임은 컨테이너의 약 1%이고 그중 60%가 사람의 실수, 운송 지시 책임은 'solely with the shipper', PSL 부족, ℃/℉ 혼동, 과도한 환기로 증발기 결빙, 적입 전 냉각 부족으로 인한 보험 클레임, % 환기는 컨테이너 크기·냉동기 모델과 연결될 때만 의미, 컨트롤러 다운로드 항목); TT Club(손해의 38%가 사람의 실수, PTI 30일 유효, 자동 점검이 PTI를 대신하지 못함, 센서 연 1회 교정, 2–8℃/15–25℃의 설정 예 5℃/20℃, 0℃ 미만 환기 닫힘, -3.0℃ 미만 습도 끔, 0.5℉ 우유 예(-17.5℃), +25℃/-25℃ 수산물, 'frozen tuna +25℃' 경고 신호, 범위 지시는 모호한 지시, 5°F/C 넘는 편차 통보, 로거 기록 12–24개월·GMT/UTC, 온도와 시간, 의약품 사전 조절, 스티커 'Pack cargo to the door' 금지); CTU Code §4.2.4·§4.2.8, 부속서 7 §2.1.2(리퍼 적입에 더니지는 'indispensable'); IM8 §2.4·§2.5·§2.8·§7·§17.1.2·§17.2.1–17.2.9·§17.4.1–17.4.3(높이 10cm, 혼적 시 높은 쪽 온도); ONE(10개 항목 예약 점검표, ℉/℃, CFM/CMH, 예냉 요청, 콜드 터널 외 예냉 피함, 문 연 채 켜지 말 것, 통기 박스·수축 포장 금지, 냉장은 화물 사이로·냉동은 블록 적재, 의약품 전용 PTI); Hapag-Lloyd(20피트 3,000kg·40피트 5,000kg, 빈틈 바닥 면적 5% 이하, T자형 바닥 넘지 말 것, 운송 온도보다 낮게 설정 금지, 운송 기간·저장 수명, 매 선적 전 PTI); MSC iReefer(빈 컨테이너 반납 후 30일, 원격 데이터 이상만으로 클레임 불가, 젠셋 없는 트럭 구간 온도 이탈); Maersk(문 여는 시간 최소화); 상법 제804조(지체 없이 서면 통지, 즉시 발견할 수 없으면 3일, 통지가 없으면 멸실·훼손 없이 인도된 것으로 추정, 검사 편의 제공); 환산값(1CFM≈1.7㎥/h, 0℉≈-17.8℃).",
+    "fix": ""
+  }
+]

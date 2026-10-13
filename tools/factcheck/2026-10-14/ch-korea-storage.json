@@ -1,0 +1,20 @@
+[
+  {
+    "claim": "Maersk 한국 수입 D&amp;D는 시각과 관계없이 양하일을 포함해 셉니다",
+    "verdict": "unverifiable",
+    "evidence": "https://www.maersk.com/local-information/asia-pacific/south-korea/import: \"Calendar day. Combined demurrage and detention starts from discharge day (included), ends with gate-in empty day (included) to terminal. In case place of delivery is at inland locations served by truck, it starts from full container's gate-in day (included) at place of delivery.\" 이 문구는 HTML에서 구 요율표 블록('Valid to Jul-14-2024' 표 아래, 'Effective date: April 1st 2018, discharge date basis'와 같은 목록) 안에 있습니다. 문서가 기준으로 삼은 'Valid from Jul-15-2024' 블록에는 일수 계산 문구가 없습니다. 요율(20' 15,000/30,000/50,000원)은 현행 블록과 일치합니다. 2장 비교표의 '양하일 포함 / 빈 컨테이너 반납(gate-in)일 포함 / 달력일'과 내륙 트럭 인도 문장도 같은 문제입니다.",
+    "fix": "Maersk 한국 수입 D&D는 양하일을 포함해 셉니다(홈페이지에서 이 문구는 2024. 7. 14.까지 요율표 아래에 적혀 있으므로 현행 적용 여부는 선사에 확인)."
+  },
+  {
+    "claim": "원본 B/L 회수(서렌더) 또는 해상화물운송장 발행, 수입 적하목록 제출, 송하인 쪽 선불 비용 정산",
+    "verdict": "unverifiable",
+    "evidence": "https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/import/freetime-pre-do-check-guideline.pdf: 확인 항목 2는 \"수입 세관 신고여부 (선사 접수 시작 기준으로 안내됩니다)\"입니다. '적하목록 제출'이라는 표현은 원문에 없습니다. 선사 쪽 적하목록 신고를 뜻할 수도 있지만 원문만으로는 확인되지 않습니다. 나머지 세 항목(OBL 서렌더 또는 웨이빌 발행, Shipper측 Prepaid 정산, Consignee측 Collect 정산)은 일치합니다. 8장 체크리스트의 'D/O 발급 조건(원본 B/L 회수 또는 운송장, 적하목록, …)'도 같은 문제입니다.",
+    "fix": "원본 B/L 회수(서렌더) 또는 해상화물운송장 발행, 수입 세관 신고 여부(화면에는 선사 접수 기준으로 표시), 송하인 쪽 선불 비용 정산"
+  },
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "98 claims checked, 96 correct (unverifiable 2, wrong/outdated 0). 원본 대조: 2026 PNC Standard Tariff PDF(요율, 주석 (a)(b)(f), 예시 500,500원), PNC 게시 안내(2026. 1. 1. 3% 인상), BNCT 2026·2025(10. 13.) 요율표와 2025. 9. 29. 공지(예시 이미지 '15일 x 42,000원 = 630,000'. BNCT 예시의 '장치일수'는 초과 일수 기준), HJNC 2026 표준요율(VAT 별도, 소급 문구는 Over storage (2) 항목), Maersk PNC·BNCT·HJIT·GWCT 공지 4건, Maersk 한국 수입·수출 페이지, 프리타임/DO 안내, 2021. 6. 1. 인보이스 공문, Hapag-Lloyd 한국 수입 PDF, Maersk 독일 수입, FIATA 지침. 다시 계산한 산술: 27,300 / 72,800(+45,500) / 91,000 / 191,100(+100,100) / 318,500 / 500,500(+182,000), 누적 268,450, 사례 A 500,500+165,000=665,500, 사례 B 318,500+135,000=453,500, 차이 212,000(보관료 182,000), 날짜(10/1~10/15 = 15일, 10/1~10/18 = 18일). 모두 맞습니다.",
+    "fix": ""
+  }
+]

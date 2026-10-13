@@ -1,0 +1,14 @@
+[
+  {
+    "claim": "수출국이 강제하면 매도인(EXW 제외), 수입국·통과국이 강제하면 매수인(DDP 제외)(A7·B7)",
+    "verdict": "wrong",
+    "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm — DAP A7: \"the seller must carry out and pay for all export and transit clearance formalities required by the country of export and any country of transit (other than the country of import), such as: export/transit licence; security clearance for export/transit; pre-shipment inspection; and any other official authorisation.\" (DPU·DDP A7도 같은 구조). 통과국이 강제하는 선적전 검사는 D조건 전체(DAP·DPU·DDP)에서 매도인 몫이고, 매수인 몫은 F·C조건뿐입니다. 이 문서의 '통과국 통관' 절(\"D조건에서는 매도인의 의무\")과도 어긋납니다.",
+    "fix": "수출국이 강제하면 매도인(EXW 제외), 수입국이 강제하면 매수인(DDP 제외), 통과국이 강제하면 F·C조건은 매수인, D조건(DAP·DPU·DDP)은 매도인(A7·B7)"
+  },
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "48 claims checked, 47 correct. 원문과 대조해 맞다고 확인한 항목: ICC Introduction(변형 조건 경고, 계약 간 정합 책임, 지연·구제 비적용, 'FOB 공항·내륙 창고 매매는 말이 되지 않는다', VGM을 'too specific and complex'라는 이유로 제외, SOLAS VGM 2016. 7. 1. 시행); EXW A2·A7·B7과 상차 위험 해설·FCA 권고; FCA A2 (a)/(b), 지점 미통지 시 매도인 선택; C조건 A9(운임, 적재비, 운송 관련 보안 비용), CFR B9(부선료·부두사용료 포함 양하비), 양하비 별도 회수 불가 해설(CFR·CPT); FOB·FAS·CFR·CIF 컨테이너 터미널 해설(FCA·CPT·CIP 권고); DPU가 하차 의무가 있는 유일한 규칙, DPU 대신 DAP 권고; DDP 해설(통관 불가 시 DAP·DPU, 세금 회수 불가 가능성); CPT B9 통과 비용, CPT 복수 운송인·A4; 관세법 제242조 문언(법률 제10424호); St. Paul Guardian v. Neuromed(S.D.N.Y. 2002. 3. 26., 00 Civ. 9344 (SHS), CIF New York Seaport, Incoterms 1990, 소유권 유보는 위험 이전과 무관); BP Oil v. PetroEcuador(5th Cir. 2003. 6. 11., No. 02-20166, CFR La Libertad, 매도인이 알았거나 모를 수 없었던 경우의 예외, 환송); DHL DTU=DAP·DTP=DDP; forwarder.kr 출발지 부대비용 항목.",
+    "fix": ""
+  }
+]

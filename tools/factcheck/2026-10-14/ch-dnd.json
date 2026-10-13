@@ -1,0 +1,26 @@
+[
+  {
+    "claim": "재청구</b>: 미국 거래에서 NVOCC로서 선사 청구서를 화주에게 넘길 때는 받은 날부터 30일 안에",
+    "verdict": "wrong",
+    "evidence": "https://www.ecfr.gov/current/title-46/chapter-IV/subchapter-B/part-541 §541.7(b): \"it must issue a demurrage or detention invoice within thirty (30) calendar days from the issuance date of the demurrage or detention invoice it received\". 기산점은 받은 날이 아니라 받은 청구서의 발행일입니다. 본문 4장(§541.7 설명)은 '자기가 받은 청구서 발행일부터'로 맞게 썼고 체크리스트만 다릅니다.",
+    "fix": "재청구: 미국 거래에서 NVOCC로서 선사 청구서를 화주에게 넘길 때는 받은 청구서의 발행일부터 30일 안에, 필수 항목을 갖춰 발행합니다."
+  },
+  {
+    "claim": "Demurrage and Detention in Container Shipping p.1~2(FIATA Working Group Sea Transport, 2018)",
+    "verdict": "wrong",
+    "evidence": "FIATA 지침 PDF(https://fiata.cdn.prismic.io/fiata/a48563de-...-Best_Practice_Guide_on_demurrage_and_detention-.pdf): D&D의 두 목적(Compensation… / Encouragement…)은 'EXECUTIVE SUMMARY … Page 2 of 9', 용어 정의(Demurrage, Detention, Merged demurrage & detention, Free time, Storage charges, 수입·수출 기간)는 'DEFINITIONS … Page 3 of 9'에 있습니다. 내용은 모두 맞고 쪽수 표기만 틀립니다.",
+    "fix": "Demurrage and Detention in Container Shipping p.2~3(FIATA Working Group Sea Transport, 2018)"
+  },
+  {
+    "claim": "<tr><td>Maersk 한국 수입</td><td>통합</td><td>1~10일</td><td>달력일</td><td>양하일(포함) → 공컨테이너 터미널 반입일(포함)</td>",
+    "verdict": "unverifiable",
+    "evidence": "https://www.maersk.com/local-information/asia-pacific/south-korea/import: 요율(20' 15,000/30,000/50,000, 40' 30,000/50,000/90,000, 1~10일 무료, Valid from Jul-15-2024 PCD)은 일치합니다. 다만 \"Calendar day. Combined demurrage and detention starts from discharge day (included), ends with gate-in empty day (included) to terminal. In case place of delivery is at inland locations served by truck, it starts from full container's gate-in day…\" 문구는 HTML에서 구 요율표 블록('Valid to Jul-14-2024' 표 바로 아래, 'Effective date: April 1st 2018, discharge date basis'와 같은 목록) 안에 있습니다. 2024. 7. 15. 요율표 블록에는 일수 계산 문구가 없습니다(수출 페이지는 새 요율표 블록에 따로 적혀 있음). 같은 규칙이 계속 적용될 가능성은 높지만 현행 요율표 문구로는 확인되지 않습니다. ③절의 'Maersk 한국 수입은 인도지에 적컨테이너가 반입된 날부터'도 같은 문제입니다.",
+    "fix": "표의 시계 칸에 '양하일(포함) → 공컨테이너 터미널 반입일(포함). 이 문구는 홈페이지에서 2024. 7. 14.까지 요율표 아래에 적혀 있음'을 덧붙이거나, Maersk 한국에 현행 기준을 확인한 뒤 확정합니다."
+  },
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "112 claims checked, 109 correct (wrong 2, unverifiable 1). 원본 대조: Maersk 한국·미국·독일·네덜란드·중국 요율표와 공지, Hapag-Lloyd 한국 수입·수출 PDF와 미국 안내서, ONE 부산 공지, FIATA 지침, eCFR 46 CFR 541·545.5(2026-09-25 현행본), Federal Register 85 FR 29638 / 89 FR 14330 / 89 FR 41895 / 90 FR 60579 / 91 FR 56053, D.C. Cir. No. 24-1088 판결문(인용 152 F.4th 215는 90 FR 60579에서 확인), 해운법 제28조, 해양수산부고시 제2023-96호. 산술 예시(300,000원, 400,000원, 차이 100,000원)는 모두 맞습니다.",
+    "fix": ""
+  }
+]
