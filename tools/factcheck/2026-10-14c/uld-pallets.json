@@ -1,0 +1,14 @@
+[
+ {
+  "claim": "AC 120-85A는 오버행 화물을 \"팔레트 둘레를 한 방향 이상 벗어나지만 네트가 제 기능을 하고, 팔레트가 여전히 항공기 고정 장치로 고정되며 항공기 구조에 추가 스트랩이 필요 없는 화물\"로 정의합니다.",
+  "verdict": "outdated",
+  "evidence": "AC 120-85A(2015) 2.8.4.3 wording is quoted correctly, but AC 120-85B (1/25/22, which cancels 120-85A) 2.8.4.2 now reads: \"Overhanging Cargo. Cargo that extends beyond the perimeter of the pallet in at least one direction and prevents the net from performing its intended function.\" and 2.8.4 classifies it as special cargo (https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf). The sister page uld-safety already uses the 120-85B definition, so the two pages currently contradict each other.",
+  "fix": "2015년 AC 120-85A는 오버행 화물을 \"팔레트 둘레를 한 방향 이상 벗어나지만 네트가 제 기능을 하고, 팔레트가 여전히 항공기 고정 장치로 고정되며 항공기 구조에 추가 스트랩이 필요 없는 화물\"로 정의했습니다. 현행 AC 120-85B(2022) 2.8.4.2는 오버행 화물을 \"팔레트 둘레를 한 방향 이상 벗어나 네트가 제 기능을 하지 못하게 하는 화물\"로 바꾸어 정의하고 특수화물로 분류합니다."
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "58 claims checked, 57 correct. Verified: PAG/PMC/PLA/PRA/PGA dimensions and cm/area/ft2 conversions (9% larger); Cathay page (PAG 4,626 LD/6,033 MD, 114 kg; PMC 5,035/6,804, 120 kg; heights 64/96/118; B747F/B777/A330/A350; PGA 13,608; PMC=P6P); Cargolux V2.0 25 OCT 2025 (size codes A 318x224, M 318x244; PAG 6,800/4,625, PMC 6,800/5,034, PRA/PGA 11,340; no cargo on edge rail; straps-as-primary not accepted except vehicles; 400 kg/m2); AirBridgeCargo 2020 (usable area 304x210 / 304x230, average tare 90/120 kg, MD 4,819*, LD 4,626/5,034, PRA 7,556, PGA 9,195, 50 mm/150 mm/32 mm, five-direction straps, >1,000 kg, ~8 layers, 1,952 kg/m2, 1,519 kg/m, 500 kg check, 5,000 kg piece, wooden pallet 1,000/2,000 kg); United (10,200 lb/4,626 kg, 11,100 lb/5,034 kg, 64 in, 2-inch clearance, nets >3 years, 5,000 lb straps under net, 767 no overhang, 777/778 17 in, 147 in example, shoring >1,000 kg, 1x12 boards, double-faced pallets); skid-count arithmetic (T11 2/4, 1200x1000 4/5); Camex B737-800 (11 PAG / 10 PMC, 12.12/13.20 m3, 133.32/132.00 m3, 4L-CMA PAG only); Atlas 777F (27 main-deck 96x125, 10 lower-deck 96x125x64); Boeing 2012 (PRA/PGA suitable for 777F); AC 120-85A 2.4.2.1.1, 2.4.3, 2.4.4.1, 2.4.4.2.3, 2.4.4.3.2, 2.4.5.4.16, 2.4.5.9, 2.6.3.6, 2.6.3.7, 2.8.4.4; ISO 9788:2017 22,250 N (5,000 lbf); ULDR SS 50/2 net expiry from 1 Jan 2014; IATA Aug 2025 TSO-tag alert; ULDR 3rd ed. (2015) proposed OS 6/13 overhang (ULD CARE B08); 400 lb/ft2=1,952 kg/m2, 400 kg/m2=82 lb/ft2.",
+  "fix": ""
+ }
+]

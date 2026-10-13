@@ -1,0 +1,14 @@
+[
+ {
+  "claim": "20피트 팔레트에 실린 13,206kg짜리 강철 롤이",
+  "verdict": "wrong (minor)",
+  "evidence": "https://www.tsb.gc.ca/eng/rapports-reports/aviation/2004/a04h0004/a04h0004.html 1.6.2.2: \"a large roll of steel was placed on a 20-foot-long pallet for a total weight of 13 206 kg ... The weight of the steel and the pallet exceeded the limits by 4678 kg.\" 13,206kg는 강철 롤과 팔레트를 합한 무게임.",
+  "fix": "20피트 팔레트에 실린 강철 롤(팔레트 포함 총 13,206kg)이"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "62 claims checked, 61 correct. Checked: AC 120-85B date 1/25/22 and paragraphs 2.4.3.5, 2.4.6, 2.4.8.2-3, 2.4.9, 2.4.11, 2.4.12.1-3, 2.6 item 20 (open-top stalls), 2.6.7 (shoring weight), 2.8.4/2.8.4.7 (TRC 98 in, B747 only)/2.8.4.9 (sandwich pallet); 120-85 originally 2005, 120-85A 2015-06-25; IATA serviceability-check times/outcomes/AHM 420/ODLN orange sticker (Knowledge Hub 2022-10-24); IATA ULD page (1 million ULDs, >USD 1 bn, USD 330 m, USD 475 m, five campaign objectives); ULDR page (15th edition 2027, USD 400 m); Knowledge Hub 2021 (80% avoidable); UCR = RP 1654; Fine Air 101 (NTSB AAR-98/02: date/time/27R/5 deaths/N27UA-N30UA/18 88x125 pallets/88,923-94,119-5,196 lb/275 lb/RASIP >1,000 lb/probable cause); MK 1602 (TSB A04H0004: 0354 ADT, rwy 24, 7 crew, 240,000 vs 353,000 kg, 18 pallets, 86 skids, 1,900-2,000 kg, LR+MR 8,528 kg exceeded by 4,678 kg (50%), Safety Advisory A040058-1 and TC reply); National 102 (NTSB AAR-15/01 adopted 2015-07-14: 7 crew, N949CA, 2x12-ton M-ATV + 3x18-ton Cougar, double pallets, G-code 238.5x96, 5,000-lb straps, first time five MRAPs, hydraulic 1 & 2, at most one M-ATV, strap broke previous leg); G-POWC (AAIB 4/2014: 0112 UTC, index 38.8 vs 3.8, fwd limit ~16, safety action); Aloha 601 (NTSB DCA15LA011 published 2020-04-06: N301KH, 8 LD7 cookie sheets in pos. 9, locks 8-9 down, 10,000 ft); VH-QPD (ATSB AO-2018-003 final 10 June 2020: QF107, 2,005 vs 1,130 kg PMC, 494 kg, scanners; 1,135/408/123/82/60/44/37/25 statistics); G-CLNK (AAIB 2/2022, 0630 UTC, published 2022-02-10, findings); UPS 6 GCAA (Bunsen burner, containers not in fire strategy); Asiana 991 ARAIB/AAR1105 24 July 2015 (separate ULDs for Class 3 CAO and lithium batteries); HMA on P6P (AirBridgeCargo); SAS SHC BIG/VAL/DIP; 항공보안법 법률 제21414호(2026-02-27) 제15조제2항·제17조의4(nepla.ai 법령 텍스트). Not independently verified but not contradicted: ICAO Annex 6 Ch.15 applicability Nov 2020 and Doc 10102 first edition 2020; Cargolux ULD GTC.",
+  "fix": ""
+ }
+]

@@ -1,0 +1,14 @@
+[
+ {
+  "claim": "폐기물운송규정은 2024년 4월 30일 관보본을 옮겼습니다.",
+  "verdict": "outdated",
+  "evidence": "Commission Delegated Regulation (EU) 2024/3230 (OJ L, 20.12.2024), http://data.europa.eu/eli/reg_del/2024/3230/oj: 'Annexes III, IV and V to Regulation (EU) 2024/1157 are amended in accordance with the Annex to this Regulation.' It adds A1181 (WEEE, including EEE with 'a battery included on list A') and Y49, and deletes A1180 and B1110. The battery-docs translations have no A1181/Y49/2024-3230 (grep: 0 hits). As a description of the source text the sentence is accurate, but the Annex III-V translation does not match the law in force from 21 May 2026.",
+  "fix": "폐기물운송규정은 2024년 4월 30일 관보본을 옮겼습니다. 다만 위임규정 (EU) 2024/3230이 부속서 III·IV·V의 전기전자 폐기물 항목을 바꾼 내용(A1181·Y49 신설, A1180·B1110 삭제)은 번역에 반영되지 않았으므로, 배터리가 든 폐전기전자제품은 개정 원문으로 확인하세요."
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "32 claims checked, 31 correct (structure: 143 recitals/14 chapters/96 articles/15 annexes and 73 recitals/8 titles/86 articles/17 annexes verified against OJ text; chapter/title article ranges, repeal dates (2006/66/EC 18 Aug 2025; 1013/2006 repealed 20 May 2024 but continuing to 21 May 2026, Art. 85(1)-(2)), application dates and the consolidated version 13.08.2026 with M1 2024/1781, M2 2025/1561, M3 2026/1738 all confirmed)",
+  "fix": ""
+ }
+]

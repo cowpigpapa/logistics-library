@@ -1,0 +1,26 @@
+[
+ {
+  "claim": "<b>DIWASS</b>는 독일 정부 등 일부 기관이 사용하는 명칭이지 EU 규정상 보편적인 공식 명칭은 아님",
+  "verdict": "wrong",
+  "evidence": "European Commission, https://green-forum.ec.europa.eu/green-business/digital-waste-shipment-system-diwass_en: 'Digital Waste Shipment System (DIWASS) is the EU's central digital system for the electronic submission and exchange of information and documents related to shipments of waste ... developed by the Commission under the new Waste Shipment Regulation'; technical requirements in Commission Implementing Regulation (EU) 2025/1290. DIWASS is the Commission's own name for the Art. 27 central system, not a German name. Only the point that Regulation 2024/1157 itself does not use the word holds.",
+  "fix": "<b>DIWASS</b>(Digital Waste Shipment System)는 집행위원회가 운영하는 이 중앙시스템의 명칭(이행규정 (EU) 2025/1290)이며, 규정 본문에는 이 명칭이 나오지 않음"
+ },
+ {
+  "claim": "당국 간 의견이 다르면 폐기물로 본다는 규정만",
+  "verdict": "wrong",
+  "evidence": "Regulation (EU) No 660/2014, Art. 1, inserted Art. 50(4a)-(4b) into 1013/2006 (http://data.europa.eu/eli/reg/2014/660/oj): '4a. In order to ascertain that a substance or object being carried ... is not waste, the authorities involved in inspections may ... require ... documentary evidence: (a) as to the origin and destination ... and (b) that it is not waste, including, where appropriate, evidence of functionality.' Packaging protection was also checked, and missing evidence led to illegal shipment under 4b. So the old regulation had more than the disagreement rule. What 2024/1157 adds is the five used-goods criteria of Art. 29(1).",
+  "fix": "당국 간 의견이 다르면 폐기물로 본다는 규정(제28조)과 검사 때 출처·목적지·기능 증빙과 포장 보호를 요구하는 규정(제50조(4a)·(4b), 2014년 개정)뿐, 중고품 판정 기준은 없음"
+ },
+ {
+  "claim": "운송인도 서류 요구 대상, 화물과 운송수단 억류 가능",
+  "verdict": "wrong",
+  "evidence": "Regulation (EU) No 660/2014 inserted Art. 50(4c) into 1013/2006: 'the authorities involved in inspections may require the notifier, the person who arranges the shipment, the holder, the carrier, the consignee and the facility ... to submit relevant documentary evidence'. Carriers could already be asked for documents under the old regulation, so a table of changes should not present this as new. What is new in 2024/1157 Art. 61(4) is the power to 'detain the waste ... and ... the means of transport ... as well as suspend the transport'.",
+  "fix": "서류 요구 대상(운송인 포함)은 구 규정 제50조(4c)와 같고, 화물과 운송수단 억류·운송 중지 권한이 새로 생김"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "48 claims checked, 45 correct (old-law columns checked against 2006/66/EC and 1013/2006 (portable 'hand-carried', 45 % by 2016, landfill/incineration ban for industrial/automotive only, 3 working days, 3-year retention, notifier for imports 'under the jurisdiction of the country of destination'); new-law columns checked against 2023/1542 consolidated 13.08.2026 and 2024/1157 (Art. 4(5) 250 kg, Art. 44/53 25 kg, Art. 16(2), 18(2)-(10), 20, 21, 23, 26, 46(5)/(11), 63(3), 85(2)-(8), Annex XIII correlation old 24/25 to new 25/26); amendments 2024/1781 (Art. 77(10)), 2025/1561 (Art. 48(1) to 18 Aug 2027, 48(5) to 26 Jul 2026) and 2026/1738 (Art. 53 replaces Annex I, applies from 13 Aug 2026) confirmed)",
+  "fix": ""
+ }
+]

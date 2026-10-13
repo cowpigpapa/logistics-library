@@ -1,0 +1,8 @@
+[
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "104 claims checked, 104 correct. All ONE values (20GP, 40GP, 40HC, 20RF, 40RH, 20OT, 40OT, 20FR, 40FR: internal L/W/H, door W/H, max payload, tare) match https://www.one-line.com/en/container-information. Maersk dry values match the linked Maersk dry-equipment PDF; Maersk 20RF/40RH match Maersk 'reefer-equipment-specifications-updated.pdf' (same folder); Maersk 20OT, 40OT HC, 40FR collapsible match Maersk 'A handy guide to Maersk's fleet' flyer (eascpcd.maersk.com .../italy/export/equipment-flyer.pdf). Notes 'internal height to load line' and 'Maersk OT/40FR are high-cube' are correct. Minor optional: the Maersk flyer gives a door width of 2,340 mm for 20OT/40OT, where the table shows a dash.",
+  "fix": ""
+ }
+]

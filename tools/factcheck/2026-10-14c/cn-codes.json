@@ -1,0 +1,20 @@
+[
+ {
+  "claim": "그런데 BIC 웹사이트 Table 1과 ICHCA BP25(2021) 표에는 45ft가 5, L은 미지정(unassigned)으로 적혀 있어 자료마다 표기가 엇갈립니다.",
+  "verdict": "unverifiable",
+  "evidence": "BIC Table 1 (https://www.bic-code.org/size-type-code/) does list '13716 / 45 / Character Code 5' and 'unassigned / Character Code L' (confirmed). The ICHCA BP25(2021) table could not be checked (the source link is only the ichca.com home page). The page omits the likely reason: BIC's type-code page is titled 'ISO 6346:2022 Type Code Designation Table', and Wikipedia's ISO 6346 article states L is the 1995-edition code 'replaced by 5 in the 2022 edition' (secondary source; ISO text not seen).",
+  "fix": "그런데 ISO 6346:2022 표를 옮긴 BIC 웹사이트 Table 1에는 45ft가 5, L은 미지정(unassigned)으로 적혀 있습니다. 1995년판의 L이 2022년판에서 5로 바뀐 것으로 알려져 있으나(ISO 원문 미확인), 현장 장비에는 L 표기가 여전히 많아 자료마다 표기가 엇갈립니다."
+ },
+ {
+  "claim": "BIC 조회 도구도 L을 45ft(13,716mm)로 해석합니다",
+  "verdict": "unverifiable",
+  "evidence": "BIC BoxTech/lookup output could not be retrieved; the BIC web Table 1 itself lists L as unassigned (https://www.bic-code.org/size-type-code/).",
+  "fix": ""
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "46 claims checked, 44 correct. Verified against BIC Table 1/Table 2 and the BIC 'ISO 6346:2022 Type Code Designation Table' (https://www.bic-code.org/type-code-designation/): length codes 1=2991, 2=6058, 4=12192, 5=13716, M=14630, P=16154; height codes 0=2438, 2=2591, 4=2742, 5=2896, 6>2896, 8=1295, 9<=1219; letters for width >2438 mm; G0/G1/G2/G3/G9; V; R0-R3; H5/H6 insulated; U0/U1/U6 (removable hard top); P0-P4; K = pressurised tank, K1 DG liquid <=2.65 bar, K2 >2.65-10 bar; N = dry tank (hopper/non-pressurised/pressurised); B = dry bulk non-pressurised box type; S0 livestock, S1 automotive, S2 live fish, S4 generator; 1995 T0-T9 groupings (TN/TD/TG); common codes 22G1/22G0/25G1/42G1/42G0/45G1/L5G1/22R1/42R1/45R1/L5R1/22U1/42U1/45U1/45U6/22P1/42P1/22P3/42P3.",
+  "fix": ""
+ }
+]
