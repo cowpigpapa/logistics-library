@@ -525,3 +525,6 @@
 .at-scroll::-webkit-scrollbar-thumb { background: #c3cfdd; border-radius: 999px; border: 2px solid var(--paper); }
 .at-scroll::-webkit-scrollbar-thumb:hover { background: #9fb1c6; }
 .at-scroll::-webkit-scrollbar-corner { background: transparent; }
+
+/* 목록이 그려지기 전에도 자리를 잡아 둔다(화면 밀림 방지) */
+.at-scroll:has(#dirBody:empty) { min-height: 100vh; }

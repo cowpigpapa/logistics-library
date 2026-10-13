@@ -359,3 +359,6 @@
 /* 위쪽 여백 축소 */
 .un-role { margin-top: 14px; padding: 10px 14px; font-size: 13.5px; }
 .un-legend { margin-bottom: 8px; }
+
+/* 목록이 그려지기 전에도 자리를 잡아 두어 푸터가 밀려 내려가지 않게 한다(화면 밀림 방지) */
+#unBody:empty { min-height: 100vh; }

@@ -4,7 +4,8 @@
   const META = window.UN_META || {};
   const RAW = window.UN_ROWS || [];
   const F = META.fields || [];
-  const PAGE = 100;
+  // 휴대폰은 한 페이지 40행(카드 모양이라 행마다 요소가 많다), 넓은 화면은 100행.
+  const PAGE = window.matchMedia('(max-width: 900px)').matches ? 40 : 100;
   const PROPS_SRC = '/unnumber-props.js?v=20261011-01';
   const $ = id => document.getElementById(id);
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);

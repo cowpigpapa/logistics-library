@@ -103,6 +103,9 @@
       view.dataset.route = r.path;
       document.title = out.title;
       afterRender(opts);
+      // 화면 낭독기·키보드 사용자를 새 화면의 제목으로 옮긴다(화면은 굴리지 않음).
+      const h = view.querySelector('h1');
+      if (h) { h.setAttribute('tabindex', '-1'); h.focus({ preventScroll: true }); }
     } catch (e) {
       if (my !== seq) return;
       location.href = r.path;   // 받지 못하면 그 페이지를 그냥 연다
@@ -224,8 +227,14 @@
 
   // 비슷한 말: 한 묶음 안의 말은 서로 함께 찾는다(띄어쓰기·대소문자는 무시). 용어 기준은 tools/STYLE.md.
   const SYNONYMS = [
-    ['고박', '고정', 'lashing', '래싱', 'securing'], ['고박점', '고정점', 'lashing point'],
+    ['고박', '고정', 'lashing', '래싱', 'securing'], ['고박점', '고정점', 'lashing point', 'securing point'],
     ['Demurrage', 'DEM', '디머리지', '체화료'], ['Detention', 'DET', '디텐션', '지체료'], ['D&D', 'DEM/DET', 'DND'],
+    ['free time', '프리 타임', '무료 장치 기간', '무료 기간'], ['보상장', 'LOI', 'Letter of Indemnity', '면책각서'], ['L/G', '수입화물선취보증서', 'Letter of Guarantee'],
+    ['화물인도지시서', 'D/O', 'delivery order'], ['해상화물운송장', 'SWB', 'sea waybill'], ['서렌더', 'surrender'], ['기기인수도증', 'EIR'],
+    ['CFS', '컨테이너 화물조작장'], ['규격 초과', 'OOG', 'out of gauge'], ['화물고박지침서', 'CSM', 'cargo securing manual'], ['정식운송품명', 'PSN', 'proper shipping name'],
+    ['특별인출권', 'SDR'], ['무선박운송인', 'NVOCC'], ['습식 얼음', 'wet ice', '웻 아이스'], ['드라이아이스', 'dry ice'], ['컨투어', 'contour'],
+    ['도난·발하·불착', 'TPND'], ['협회적하약관', 'ICC(A)', 'Institute Cargo Clauses'], ['상변화물질', 'PCM'], ['냉해', '저온장해', 'chilling injury'],
+    ['중량·평형', 'weight and balance', '무게중심'], ['운항자', '운항사', 'operator'], ['혼적', '혼재', 'consolidation'], ['온도 일탈', '온도 이탈', 'temperature excursion'],
     ['드라이 컨테이너', 'dry container', '건화물'], ['냉동 컨테이너', '리퍼', 'reefer', '냉장 컨테이너'], ['샤시', '섀시', 'chassis'],
     ['위험물', 'DG', 'dangerous goods', 'hazmat'], ['UN 번호', 'UN number', 'UN No'], ['MSDS', 'SDS', '물질안전보건자료'],
     ['LQ', '한정수량', 'limited quantity'], ['IMDG', 'IMDG Code', '국제해상위험물규칙'], ['DGR', 'IATA DGR', '항공위험물규정'], ['EmS', '비상조치표'],
@@ -233,9 +242,9 @@
     ['ULD', '단위탑재용기', 'unit load device'], ['적하보험', 'cargo insurance', '화물보험'], ['공동해손', 'general average'],
     ['인코텀스', 'Incoterms', '인코텀즈'], ['FOB', '본선인도'], ['CIF', '운임보험료포함인도'], ['EXW', '공장인도'], ['DDP', '관세지급인도'],
     ['CTU', '화물운송단위', 'cargo transport unit'], ['컨테이너 번호', 'container number'], ['체크 디지트', 'check digit'],
-    ['THC', '터미널 화물처리비', 'terminal handling charge'], ['보관료', 'storage'], ['종가료', 'ad valorem'],
+    ['THC', '터미널 화물 처리비', 'terminal handling charge'], ['보관료', 'storage'], ['종가료', 'ad valorem'],
     ['리튬 배터리', 'lithium battery', '리튬이온 배터리'], ['온도유지', '콜드체인', 'cold chain', '온도관리'],
-    ['VGM', '검증 총중량', 'verified gross mass'], ['CSC', 'CSC 명판', 'CSC plate'], ['결로', 'condensation', '컨테이너 비'],
+    ['VGM', '검증된 총중량', '컨테이너 총중량 검증제도', 'verified gross mass'], ['CSC', 'CSC 명판', 'CSC plate'], ['결로', 'condensation', '컨테이너 비'],
     ['무게중심', 'center of gravity', 'COG'], ['포워더', '운송주선인', 'freight forwarder'], ['송하인', 'shipper'], ['수하인', 'consignee'],
     ['PTI', 'pre-trip inspection', '사전 점검'], ['젠셋', 'genset'], ['씰', 'seal', '봉인'], ['책임 한도', 'liability limit', '책임제한'],
   ];
@@ -244,9 +253,15 @@
   SYNONYMS.forEach(g => g.forEach(w => { const k = squash(w); SYN.set(k, [...new Set([...(SYN.get(k) || []), ...g.filter(x => squash(x) !== k)])]); }));
   // 띄어쓰기를 무시하는 정규식(냉동컨테이너 = 냉동 컨테이너)
   const pattern = w => new RegExp([...w.replace(/\s+/g, '')].map(c => c.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&')).join('\\s*'), 'gi');
+  // 끝에 붙은 조사는 떼고도 찾는다(고박점을 → 고박점).
+  const PARTICLE = /(으로|에서|에게|까지|부터|이나|이란|란|을|를|이|가|은|는|의|에|로|와|과|도|만)$/;
   function terms(raw) {
-    const main = { word: raw, re: pattern(raw), weight: 1 };
-    return [main, ...(SYN.get(squash(raw)) || []).map(w => ({ word: w, re: pattern(w), weight: 0.7 }))];
+    const out = [{ word: raw, re: pattern(raw), weight: 1 }];
+    const stem = raw.length >= 3 && /[가-힣]$/.test(raw) ? raw.replace(PARTICLE, '') : raw;
+    if (stem !== raw && stem.length >= 2) out.push({ word: stem, re: pattern(stem), weight: 0.95 });
+    const syn = new Set([...(SYN.get(squash(raw)) || []), ...(SYN.get(squash(stem)) || [])]);
+    syn.forEach(w => out.push({ word: w, re: pattern(w), weight: 0.7 }));
+    return out;
   }
   const count = (text, re) => { re.lastIndex = 0; const m = text.match(re); return m ? m.length : 0; };
   const has = (text, re) => { re.lastIndex = 0; return re.test(text); };
@@ -283,7 +298,7 @@
     out.sort((x, y) => y.score - x.score || x.order - y.order);
     const catsHit = [];
     DATA.forEach(g => g.cats.forEach(c => { if (ts.some(t => has(c.name, t.re) || has(c.sub || '', t.re))) catsHit.push(c); }));
-    return { list: out, cats: catsHit, words: ts.slice(1).map(t => t.word) };
+    return { list: out, cats: catsHit, words: ts.filter(t => t.weight < 0.9).map(t => t.word) };
   }
 
   const results = document.createElement('div');

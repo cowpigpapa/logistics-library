@@ -317,3 +317,6 @@ mark.li-hit { background: #fff1a8; color: inherit; border-radius: 2px; padding: 
 .li-res .li-snip { margin: 3px 0 0; }
 .li-res-cat > b { color: var(--blue); }
 .li-res-more { margin: 10px 6px 0; color: var(--muted); font-size: 12px; }
+
+/* 화면을 옮긴 뒤 제목으로 옮긴 초점은 테두리 없이 */
+.li-view h1[tabindex="-1"]:focus { outline: none; }
