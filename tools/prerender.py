@@ -596,6 +596,7 @@ def main():
     data = frame.index_data()
     overview_id = {c['slug']: c.get('overview') for g in data for c in g['cats']}
     search = []   # 본문 검색용(색인 검색칸): 문서마다 제목과 본문 글자
+    fresh = []    # 문서마다 자료 확인일
     for (cat, doc), (inner, title) in results:
         template = read(cat['page'])
         landing = ORIGIN + cat['base']
@@ -628,6 +629,11 @@ def main():
             for pat in (r'<span class="lib-doc-head"', r'<h1 class="lib-doc-title"', r'<p class="lib-checked"', r'<[a-z]+ class="[^"]*\btoc\b|<[a-z]+ class="[a-z-]*-toc\b'):
                 text = drop_elements(text, pat)
             search.append({'u': route, 't': doc['title'], 'b': plain_text(text)})
+            # 자료 확인일(문서 머리의 '자료 확인 YYYY-MM-DD' 등에서 마지막 날짜) → /linkcheck의 '자료 확인일' 표
+            chk = re.search(r'<p class="lib-checked">(.*?)</p>', body, re.S)
+            chk_text = plain_text(chk.group(1)) if chk else ''
+            days = re.findall(r'20\d\d-\d\d-\d\d', chk_text)
+            fresh.append({'u': route, 't': short_title(doc), 'c': cat['name'], 'd': days[-1] if days else '', 'k': chk_text[:120]})
             entries.append((cat['base'], url, date, ''))
         else:
             dates = [modified(cat['js']), modified(cat['page'])]
@@ -666,6 +672,7 @@ def main():
     big = [d for d in search if d['u'].startswith('/library/eu-lithium-battery/')]
     rest = [d for d in search if d not in big]
     files[ROOT / 'search-index.json'] = json.dumps(rest, ensure_ascii=False, separators=(',', ':')) + chr(10)
+    files[ROOT / 'freshness.json'] = json.dumps(sorted(fresh, key=lambda x: (x['d'], x['u'])), ensure_ascii=False, separators=(',', ':')) + chr(10)
     files[ROOT / 'search-index-2.json'] = json.dumps(big, ensure_ascii=False, separators=(',', ':')) + chr(10)
 
     stale = [p for p in OUT.rglob('*.html') if p not in files] if OUT.exists() else []
