@@ -1,0 +1,26 @@
+[
+ {
+  "claim": "다른 연합 법령과의 중복 방지(동물성 부산물, 선박 재활용)",
+  "verdict": "wrong",
+  "evidence": "Editorial summary table, row (10)~(18). Recital (16) is about avoiding duplication with Regulation (EC) No 1069/2009 (animal by-products), but recital (17) does the opposite for ships: 'it is necessary to ensure that the ships covered by the scope of Regulation (EU) No 1257/2013 which are considered waste and are exported from the Union are made subject to the relevant Union rules regarding shipment of waste, including those implementing the Ban Amendment' (and amends 1257/2013 so such ships are recycled only at listed facilities in Basel Annex VII countries).",
+  "fix": "다른 연합 법령과의 관계(동물성 부산물 규정과의 중복 방지, 폐기물이 되어 연합에서 수출되는 선박재활용 규정 적용 선박에 대한 이 규정의 적용)"
+ },
+ {
+  "claim": "비OECD 국가로의 모든 플라스틱 폐기물 수출이 금지되며, 발효 30개월 후부터 적용됩니다(2026년 11월 21일, 제86조(3)(c)).",
+  "verdict": "omission",
+  "evidence": "Logistics note (49)~(51). Recital (49): 'It should be possible to grant any country to which the OECD Decision does not apply a derogation from this prohibition if it demonstrates that it manages plastic waste in an environmentally sound manner. Such derogation should be granted by means of a delegated act, upon request from a country...' The note presents the ban as absolute.",
+  "fix": "비OECD 국가로의 모든 플라스틱 폐기물 수출이 금지되며, 발효 30개월 후부터 적용됩니다(2026년 11월 21일, 제86조(3)(c)). 다만 플라스틱 폐기물을 환경적으로 건전하게 관리함을 증명한 국가는 신청에 따라 위임법률로 예외를 받을 수 있습니다."
+ },
+ {
+  "claim": "유럽부패방지청(OLAF)에 맡기는",
+  "verdict": "wrong",
+  "evidence": "Recital (63): 'the European Anti-Fraud Office (OLAF)'. OLAF is the anti-fraud office, not an anti-corruption office; '부패방지' misstates its remit. Low severity (name only); the same term appears twice more in the file (later in recital (63)), so replace all 3 occurrences of '유럽부패방지청'.",
+  "fix": "유럽부정방지청(OLAF)에 맡기는"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "Checked against the OJ text of Regulation (EU) 2024/1157 (OJ L, 30.4.2024): title and citations, recitals (1)-(73) one by one, footnotes (1)-(32), and the editorial summary and logistics notes (article/date references verified against Art. 85 and 86: 21.5.2026, 21.11.2026 = Art. 86(3)(c), 21.5.2027 = Art. 86(3)(d)). 73 recitals + 32 footnotes + summary checked, 3 problems (2 in the editorial summary, 1 low-severity name translation). The recital translation itself has no missing sentences or wrong numbers, dates or references.",
+  "fix": ""
+ }
+]
