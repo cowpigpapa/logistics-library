@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "EU Battery",
+  "count": 1,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "battery-docs/b-anx1-5.html"
+  ],
+  "from": "5 °C",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "5℃",
+  "updatedAt": "2026-10-13T13:49:03.977Z",
+  "verdict": "keep"
+}

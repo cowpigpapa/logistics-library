@@ -1,0 +1,102 @@
+{
+ "t081": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "EIR(Equipment Interchange Receipt)은 컨테이너의 인수와 인도를 모두 증명하는 서류이므로 업계 및 관세청 공식 표준 명칭인 '기기인수도증'이 정확합니다."
+ },
+ "t082": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "해운 실무에서 Booking Confirmation은 순화어인 '예약 확정서'보다 '부킹 확인서'(또는 부킹 컨펌)로 통칭되므로 실무 문맥에 자연스럽습니다."
+ },
+ "t083": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "선사에 선복을 요청·확약하는 행위(Booking)는 실무상 '예약'보다 '부킹'으로 표현하는 것이 훨씬 자연스럽고 전달력이 높습니다."
+ },
+ "t084": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "선하증권(B/L) 및 컨테이너 운송 실무에서 'Seal No.'는 '봉인 번호'보다 '씰 번호'로 널리 통용되므로 실무적합성이 높습니다."
+ },
+ "t085": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "신선 농산물 콜드체인에서 동결되지 않는 저온으로 인한 품질 손상(Chilling Injury)은 기상 재해 성격의 '냉해'보다 '저온장해'가 학술 및 실무상 정확한 용어입니다."
+ },
+ "t086": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "리퍼 컨테이너 바닥의 냉기 단락을 방지하기 위해 바닥 빈 공간을 덮는 자재(Dunnage)는 단순 받침판을 뜻하는 '깔판'보다 실무 표준어인 '더니지'가 적합합니다."
+ },
+ "t087": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IMO CTU Code 및 해상 운송에서 화물 고박·충진 자재인 dunnage의 공식 실무 번역어는 '깔판'이 아닌 '더니지'이므로 적절합니다."
+ },
+ "t088": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "FAA AC 120-85A의 dunnage는 단순 충격 흡수용 완충재뿐 아니라 빈 공간 채움(void filler) 및 고정보강재를 포괄하므로 '더니지(dunnage)'가 타당합니다."
+ },
+ "t089": {
+  "verdict": "other",
+  "better": "USDA 프로브 기록은",
+  "reason": "단어 치환으로 인해 'USDA 프로브(USDA probe)'라는 중복 표기가 발생했으므로, 영문 괄호를 생략하고 'USDA 프로브 기록은'으로 표기하는 것이 자연스럽습니다."
+ },
+ "t090": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "앞선 '±0.2℃'와 단위 표기 통일성을 맞추고 기술 사양을 명확하게 전달하므로 '0.25℃' 표기가 적절합니다."
+ },
+ "t091": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "선박 적재를 뜻하는 '적부(Stowage)'와 달리, 화주가 컨테이너 내부에 화물을 채워 넣는 작업은 '적입(Stuffing)'이므로 문맥상 '적입 불량'이 정확합니다."
+ },
+ "t092": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "바이오·의약품 및 항공(IATA) 콜드체인 실무에서는 Dry Ice와 대비되는 일반 얼음 냉매를 '습식 얼음' 대신 '웻 아이스(Wet Ice)'로 통칭합니다."
+ },
+ "t093": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "콜드체인 패키징에서 젤팩 등과 병기되는 냉매 용어로 '습식 얼음'보다 실무 표준어인 '웻 아이스(Wet Ice)'가 자연스럽고 정확합니다."
+ },
+ "t094": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공화물운송장(AWB) 및 지시서의 온도 표기는 한글 풀이보다 '8℃' 기호로 간결하게 표기하는 것이 물류 실무 관행에 부합합니다."
+ },
+ "t095": {
+  "verdict": "other",
+  "better": "모호한 온도 지시",
+  "reason": "'중립 지시'는 영미 판례의 'Ambiguous instruction'에 대한 오역이며, 법률 및 운송 클레임 실무에서는 '애매한'보다 '모호한(ambiguous)'을 사용하여 '모호한 온도 지시'로 표현하는 것이 정확합니다."
+ },
+ "t096": {
+  "verdict": "other",
+  "better": "모호한 지시",
+  "reason": "영미 해상법 및 화물 클레임 실무상 'Ambiguous instruction'의 올바른 법률 용어는 '모호한 지시'이며, t095와도 용어를 일치시켜야 합니다."
+ },
+ "t097": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공화물(Air Cargo) 실무에서는 Lower Deck과 Main Deck을 선박식 표현('하부 화물칸/상부 갑판') 대신 '로어덱'과 '메인덱'으로 부르는 것이 표준입니다."
+ },
+ "t098": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "화물기(Freighter)의 상단 화물 구역(Main Deck)은 선박 용어인 '주갑판'이 아니라 항공 실무 표준어인 '메인덱'으로 표기하는 것이 정확합니다."
+ },
+ "t099": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "화물기의 Main Deck 및 화물 탑재 위치(Position)는 '주갑판'이 아닌 '메인덱'으로 통칭하므로 항공 실무 문맥에 부합합니다."
+ },
+ "t100": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "앞서 언급된 '2열(좌·우 복열)' 배치와 숫자로 대칭을 이루어 이해하기 쉽고, 단열재(斷熱)와의 혼동을 방지할 수 있어 '1열' 표기가 적절합니다."
+ }
+}

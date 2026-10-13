@@ -1,0 +1,102 @@
+{
+ "t241": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "D/P(Documents against Payment)는 무역금융 실무에서 일반적으로 ‘지급인도조건’이라고 합니다."
+ },
+ "t242": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "터미널이 요율표를 게시하는 웹사이트를 가리키므로 ‘홈페이지에’가 문맥상 자연스럽습니다."
+ },
+ "t243": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "선사의 D&D 계산기·요율표가 게시된 웹사이트를 뜻하므로 ‘선사 홈페이지의’가 자연스럽습니다."
+ },
+ "t244": {
+  "verdict": "other",
+  "better": "위험물 오신고 수수료(Dangerous Goods Misdeclaration Fee, MID)",
+  "reason": "일반화물로 신고하거나 UN 번호를 틀리는 행위는 단순 미신고보다 ‘오신고’가 정확합니다. 다만 영문 명칭은 선사 고유 명칭인 Dangerous Goods Misdeclaration Fee로 적는 것이 안전합니다."
+ },
+ "t245": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "NOR는 Non-Operating Reefer의 약어이며, 냉동기를 가동하지 않고 일반 화물을 싣는 리퍼를 뜻한다는 설명도 적절합니다."
+ },
+ "t246": {
+  "verdict": "other",
+  "better": "두 곳 모두 ‘헤드홀(headhaul, 물동량이 많은 주 운송 방향)’로 통일",
+  "reason": "‘헤드홀’과 설명은 적절하지만 같은 문장 뒤쪽의 ONE 사례에는 ‘장거리 주 방향’이 그대로 남아 있어 표기가 일관되지 않습니다."
+ },
+ "t247": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "정식 약어는 NVOCC(Non-Vessel-Operating Common Carrier)이며, 국내 실무 표기도 ‘무선박운송인’이 적절합니다."
+ },
+ "t248": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "인보이스와 함께 화물의 품명·수량·포장 내용을 확인하는 서류를 가리키므로 실무 용어인 ‘패킹리스트(Packing List)’가 자연스럽습니다."
+ },
+ "t249": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "미국 FMC 규정의 motor carrier는 일반적인 회사가 아니라 트럭 운송을 수행하는 사업자이므로 ‘트럭 운송사’가 정확합니다."
+ },
+ "t250": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "문장의 주체가 motor carrier이므로 ‘트럭 운송사’가 ‘트럭 회사’보다 법률·운송 문맥을 분명하게 전달합니다."
+ },
+ "t251": {
+  "verdict": "other",
+  "better": "첫 문장은 ‘이 칸은 통관 수행 책임과 지연·불허에 따른 결과를 부담하는 쪽을 뜻한다.’, 둘째 문장은 ‘위험은 주운송 중 물품의 위험을 부담하는 쪽을 뜻한다.’",
+  "reason": "둘째 문장의 risk는 ‘위험’이 맞지만, 첫째 문장은 물품의 멸실·훼손 위험이 아니라 통관 수행 책임을 설명하므로 ‘위험’으로 일괄 변경하면 의미가 모호해집니다."
+ },
+ "t252": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "표나 범례의 cost 항목을 지칭하는 문장이므로 ‘비용이’로 번역해도 의미가 유지되고 자연스럽습니다."
+ },
+ "t253": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "요금 명칭으로 쓰인 ‘부두사용료’는 붙여 쓰는 실무 표기가 자연스럽고 CFR·CIF의 목적항 양하비 설명에도 맞습니다."
+ },
+ "t254": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "Incoterms의 비용 배분에서 문제 되는 터미널 처리 비용은 통상 THC(Terminal Handling Charge)이므로 ‘터미널 화물처리비(THC)’가 더 구체적입니다."
+ },
+ "t255": {
+  "verdict": "other",
+  "better": "원문 문맥 확인 필요",
+  "reason": "현재 문장이 없어 해당 ‘표시’가 운송화물의 화인(shipping mark)을 뜻하는지, 일반적인 표시를 뜻하는지 판단할 수 없습니다."
+ },
+ "t256": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "선하증권(B/L)의 원본 세트는 국내 해운 실무에서 통상 ‘원본 3통’이라고 하므로 변경이 적절합니다."
+ },
+ "t257": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "B/L 원본의 매수를 나타낼 때는 ‘3부’보다 ‘3통’이 통용되는 실무 표현입니다."
+ },
+ "t258": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공화물운송장(AWB)은 Original 1·2·3처럼 용도별 원본 부본으로 구성되므로 ‘원본 3부’가 적절합니다."
+ },
+ "t259": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "문맥의 대상은 B/L이 아니라 AWB이며, AWB의 용도별 원본을 가리킬 때는 ‘3부’가 자연스럽습니다."
+ },
+ "t260": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "AWB의 송하인용·수하인용·운송인용 원본 전체를 함께 정정한다는 뜻이므로 ‘원본 3부와’가 적절합니다."
+ }
+}

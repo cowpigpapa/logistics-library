@@ -1,0 +1,18 @@
+{
+  "alt": "",
+  "cats": "Cold Chain",
+  "count": 3,
+  "ex_from": "냉해 우려",
+  "ex_to": "저온장해 우려",
+  "files": [
+    "tc-docs/tc-reefer-practice.html",
+    "tc-docs/tc-reefer.html"
+  ],
+  "from": "냉해",
+  "group": "2차 실무 용어",
+  "memo": "",
+  "note": "",
+  "to": "저온장해",
+  "updatedAt": "2026-10-13T10:54:28.726Z",
+  "verdict": "revert"
+}

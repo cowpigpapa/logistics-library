@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "위험물",
+  "count": 1,
+  "ex_from": "제조사 SDS의",
+  "ex_to": "제조사 물질안전보건자료(SDS)의",
+  "files": [
+    "dg-docs/case-accident.html"
+  ],
+  "from": "SDS의",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "물질안전보건자료(SDS)의",
+  "updatedAt": "2026-10-13T13:44:36.039Z",
+  "verdict": "keep"
+}

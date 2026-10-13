@@ -1,0 +1,20 @@
+{
+  "alt": "급기",
+  "cats": "Cold Chain",
+  "count": 21,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "tc-docs/tc-basics.html",
+    "tc-docs/tc-cases.html",
+    "tc-docs/tc-reefer.html",
+    "tc-library.js"
+  ],
+  "from": "공급 공기",
+  "group": "2차 실무 용어",
+  "memo": "급기",
+  "note": "",
+  "to": "서플라이 에어",
+  "updatedAt": "2026-10-13T10:55:21.817Z",
+  "verdict": "other"
+}

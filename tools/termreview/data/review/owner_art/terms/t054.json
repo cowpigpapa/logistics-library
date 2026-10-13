@@ -1,0 +1,17 @@
+{
+  "alt": "체화료(demurrage)·지체료(detention)·보관료(Storage)의 원인별 부담과 무료 장치 기간(free time)을",
+  "cats": "Incoterms",
+  "count": 1,
+  "ex_from": "demurrage·detention·보관료의 원인별 부담과 무료 장치 기간을 정했는가",
+  "ex_to": "체화료(demurrage)·지체료(detention)·보관료의 원인별 부담과 무료 기간(free time)을 정했는가",
+  "files": [
+    "incoterms-docs/inco-choose.html"
+  ],
+  "from": "demurrage·detention·보관료의 원인별 부담과 무료 장치 기간을",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "체화료(demurrage)·지체료(detention)·보관료의 원인별 부담과 무료 기간(free time)을",
+  "updatedAt": "2026-10-13T13:47:52.180Z",
+  "verdict": "other"
+}

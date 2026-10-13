@@ -1,0 +1,19 @@
+{
+  "alt": "젠셋(발전기)",
+  "cats": "Cold Chain",
+  "count": 25,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "tc-docs/tc-reefer-practice.html",
+    "tc-docs/tc-reefer.html",
+    "tc-library.js"
+  ],
+  "from": "발전기",
+  "group": "2차 실무 용어",
+  "memo": "젠셋(발전기)",
+  "note": "",
+  "to": "젠셋",
+  "updatedAt": "2026-10-13T10:55:31.850Z",
+  "verdict": "other"
+}

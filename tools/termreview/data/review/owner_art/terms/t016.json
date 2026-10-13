@@ -1,0 +1,20 @@
+{
+  "alt": "",
+  "cats": "CTU Code · 위험물 · 적하보험",
+  "count": 22,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "ctu-library.js",
+    "dg-docs/case-litigation.html",
+    "insurance-docs/ins-cases.html",
+    "insurance-docs/ins-uninsurable.html"
+  ],
+  "from": "°C",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "℃",
+  "updatedAt": "2026-10-13T13:41:00.900Z",
+  "verdict": "keep"
+}

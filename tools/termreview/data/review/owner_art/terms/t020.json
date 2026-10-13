@@ -1,0 +1,19 @@
+{
+  "alt": "",
+  "cats": "Charges · 위험물",
+  "count": 12,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "ch-docs/ch-sea-charges.html",
+    "charges-library.js",
+    "dg-docs/case-inspection.html"
+  ],
+  "from": "해수부",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "해양수산부",
+  "updatedAt": "2026-10-13T13:41:19.682Z",
+  "verdict": "keep"
+}

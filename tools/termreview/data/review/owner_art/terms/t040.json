@@ -1,0 +1,18 @@
+{
+  "alt": "",
+  "cats": "Cold Chain",
+  "count": 3,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "tc-docs/tc-air-active.html",
+    "tc-docs/tc-basics.html"
+  ],
+  "from": "리튬 배터리",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "리튬배터리",
+  "updatedAt": "2026-10-13T13:44:22.016Z",
+  "verdict": "keep"
+}

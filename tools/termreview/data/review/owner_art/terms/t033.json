@@ -1,0 +1,18 @@
+{
+  "alt": "",
+  "cats": "위험물",
+  "count": 8,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "dg-docs/kr-mismatch.html",
+    "dg-docs/kr-system.html"
+  ],
+  "from": "포장등급",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "용기등급",
+  "updatedAt": "2026-10-13T13:43:45.203Z",
+  "verdict": "keep"
+}

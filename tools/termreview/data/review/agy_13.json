@@ -1,0 +1,102 @@
+{
+ "t261": {
+  "verdict": "revert",
+  "better": "영국 상원",
+  "reason": "과거 영국의 최고법원 역할을 했던 House of Lords(UKHL)는 국내 해상법 판례 및 무역 실무에서 '영국 상원'으로 인용하는 것이 확립된 관행이며, '귀족원'은 실무 판례 인용에 매우 생경합니다."
+ },
+ "t262": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "신용장(L/C) 수입 실무에서 원본 B/L 미도착 시 선사에 제출하는 Letter of Guarantee의 공식 실무 명칭은 '수입화물선취보증서(L/G)'이므로 변경 후가 정확합니다."
+ },
+ "t263": {
+  "verdict": "other",
+  "better": "항공 포워더",
+  "reason": "일본식 표현인 '운송취급인'이나 불필요한 괄호 병기 대신, 앞선 '도착지 포워더'와 대등하게 실무 표준 용어인 '항공 포워더(Air Freight Forwarder)'로 표기하는 것이 가장 자연스럽습니다."
+ },
+ "t264": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "Incoterms 2020 규칙 및 정형거래조건 문맥이므로 Seller에 대응하는 공식 무역 용어인 '매도인'으로 수정한 것이 정확합니다."
+ },
+ "t265": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "Incoterms 2020 규칙 및 정형거래조건 문맥이므로 Buyer에 대응하는 공식 무역 용어인 '매수인'으로 수정한 것이 정확합니다."
+ },
+ "t266": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "EU 규정 등의 기한 산정에 쓰이는 'working days'는 국내 법률 및 물류·통관 실무에서 '영업일'로 통칭하므로 적절합니다."
+ },
+ "t267": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "고어체 번역투인 '탁송물(consignment)' 대신 실무 조항 문맥에 맞춰 '해당 화물'로 수정한 것이 훨씬 자연스럽습니다."
+ },
+ "t268": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "실무에서 쓰지 않는 '탁송물(consignment)'을 문맥에 부합하는 '해당 화물'로 다듬어 전달력이 개선되었습니다."
+ },
+ "t269": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "포워딩 실무 안내 문맥에서 생소한 '탁송물' 대신 직관적인 실무 용어인 '화물(consignment)'로 변경한 것이 적절합니다."
+ },
+ "t270": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "어색한 번역투인 '탁송물'을 일반적인 실무 표준 용어인 '화물(consignment)'로 통일하여 가독성을 높였습니다."
+ },
+ "t271": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "원문의 'stacking of the load'에서 '적재물의 적층'이라는 겹말보다 '화물의 적절한 적층'이 훨씬 자연스럽고 직관적입니다."
+ },
+ "t272": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "규정의 'load/shipment'를 도로 짐 느낌의 '적재물' 대신 국제물류 표준 용어인 '화물'로 바꾸어 문장이 매끄럽습니다."
+ },
+ "t273": {
+  "verdict": "other",
+  "better": "운송단위",
+  "reason": "해상 컨테이너나 화물차(lorry)는 팔레트 단위 등의 '적재 단위(Unit Load)'와 구별되는 '운송단위(Transport Unit)' 또는 '화물수송단위(CTU)'로 칭해야 규정상 정확합니다."
+ },
+ "t274": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "컨테이너 적입(vanning) 및 고정(lashing) 실무에서 작업 대상은 '화물(cargo)'로 부르는 것이 자연스럽고 정확합니다."
+ },
+ "t275": {
+  "verdict": "other",
+  "better": "운송단위",
+  "reason": "괄호의 컨테이너·화물차는 단위화물(Unit Load)인 적재 단위가 아니라 수송 수단인 '운송단위(Transport Unit)'이므로 이를 명확히 구분해야 혼선이 없습니다."
+ },
+ "t276": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "앞서 '포워더'가 이미 나왔으므로 동어반복인 '운송주선인'을 피하고 실제 운송인(Carrier)을 뜻하는 '운송사'로 역할을 명확히 분리한 것은 적절합니다."
+ },
+ "t277": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "포워더 실무 안내 문맥에서 법조문의 '운송을 주선하는 자'가 바로 '포워더(Freight Forwarder)'임을 직관적으로 전달하므로 적절합니다."
+ },
+ "t278": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "'포워더'와 '운송주선'의 중복을 없애고 포워더(주선), 창고(보관), 운송(실제 운송)의 3대 실무 축으로 정돈되어 자연스럽습니다."
+ },
+ "t279": {
+  "verdict": "other",
+  "better": "포워더가 관여한다면",
+  "reason": "'포워더가 운송주선인으로'는 동어반복이지만, 변경된 '포워더로 관여한다면'은 조사가 어색하므로 '포워더가 관여한다면'으로 수정하는 것이 가장 매끄럽습니다."
+ },
+ "t280": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "포워딩 실무에서 '리퍼'는 통상 냉동·냉장(Reefer) 컨테이너를 의미하므로, refurbished 배터리를 '재정비'로 번역하여 실무 혼선을 방지한 것은 매우 적절합니다."
+ }
+}

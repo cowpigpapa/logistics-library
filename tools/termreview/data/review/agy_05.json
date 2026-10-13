@@ -1,0 +1,102 @@
+{
+ "t101": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공화물에서 Chargeable Weight의 표준 실무 용어는 '운임 중량'(또는 운임 산출 중량)이며, 통신/IT식 표현인 '과금 중량'보다 문맥에 정확히 부합합니다."
+ },
+ "t102": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공 요율 체계의 Minimum Chargeable Weight는 실무상 '최소 운임 중량'이 표준 용어이며, '과금 무게'보다 훨씬 전문적이고 자연스럽습니다."
+ },
+ "t103": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA DGR 및 TCR의 'Operator Variations'는 단순한 차이점이 아닌 각 항공사가 설정한 공식 '항공사 예외 규정'을 의미하므로 올바른 수정입니다."
+ },
+ "t104": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA DGR 부록에 수록된 각 항공사별 추가 운송 제한 요건(Operator Variations)을 지칭하므로 '항공사 예외 규정'이 정확한 실무 표현입니다."
+ },
+ "t105": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA DGR 개정 시 항공사별 고유 제한 조항(Operator Variations)을 정비하는 문맥이므로 '항공사 예외 규정'이 적합합니다."
+ },
+ "t106": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "대한항공이 IATA DGR에 등재한 자체 운송 제한 규정(KE Operator Variations)을 가리키므로 '항공사 예외 규정'이 자연스럽고 정확합니다."
+ },
+ "t107": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA TCR 및 DGR의 State and Operator Variations는 각국 정부 및 항공사의 공식 '예외 규정'을 의미하므로 문맥에 부합합니다."
+ },
+ "t108": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA DGR(Dangerous Goods Regulations)과 TCR(Temperature Control Regulations)의 업계 공식 한국어 명칭은 각각 '위험물규정'과 '온도관리규정'입니다."
+ },
+ "t109": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA DGR 등 위험물 운송 규정(Dangerous Goods Regulations) 준수를 뜻하므로 '위험물규칙'보다 '위험물규정'이 표준적입니다."
+ },
+ "t110": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "간행물 및 규정 고유명칭(IATA TCR)으로서 '온도관리규정'으로 붙여 표기하여 일관성을 높였습니다."
+ },
+ "t111": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA AHM(Airport Handling Manual)의 Handling은 램프 및 화물 처리를 포괄하는 '공항조업'을 뜻하므로 단순 '공항업무'보다 전문적이고 정확합니다."
+ },
+ "t112": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA AHM(Airport Handling Manual)의 명칭을 '공항조업 매뉴얼'로 일관되게 통일하고 IATA IGOM(지상조업 매뉴얼)과의 구분을 명확히 한 적절한 수정입니다."
+ },
+ "t113": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "띄어쓰기를 바로잡고 영문 약어(AHM)를 괄호로 병기하여 가독성과 표기 표준성을 높였습니다."
+ },
+ "t114": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "Cargo Loading System(CLS)은 단순 결속 장치가 아닌 화물 이송과 잠금을 총괄하는 '화물 탑재 시스템'이 표준 항공 실무 용어이므로 수정 후 문장이 적절합니다."
+ },
+ "t115": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "Cargo Loading System(CLS)의 표준 항공 용어는 '화물 탑재 시스템'이며, 어색한 직역인 '화물처리장치'를 바로잡은 올바른 변경입니다."
+ },
+ "t116": {
+  "verdict": "other",
+  "better": "중량·평형",
+  "reason": "FAA AC 120-27F 및 AC 120-85A의 'Weight and Balance(W&B)'는 국내외 항공 규정 및 법령상 공식 표준 용어가 '중량 및 평형'(또는 '중량·평형')이므로, '균형' 대신 '평형'으로 표기하는 것이 정확합니다."
+ },
+ "t117": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "미 연방항공청(FAA) 자문회람(AC 120-85B 2.4.5.8) 권고의 대상은 규정상 공식 법적 주체인 '운항자(Operator)'이므로, 규정 인용 문맥에서는 법정 표준 용어인 '운항자'를 유지해야 합니다."
+ },
+ "t118": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "FAA AC 120-85B 지침의 요건을 설명하는 규정 인용 문맥이므로, 규정상 공식 법정 용어인 '운항자(Operator)'를 '운항사'로 바꾸지 않고 원문대로 유지하는 것이 정확합니다."
+ },
+ "t119": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "콜드체인 항공물류 실무에서는 Active ULD를 '능동형'보다 '액티브 컨테이너' 또는 '액티브 ULD'로 부르는 것이 표준이며, 문서 제목과도 일치합니다."
+ },
+ "t120": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "콜드체인 실무 표준 용어인 '액티브(active)'를 반영하고, 받침 없는 체언에 맞추어 조사도 '으로'에서 '로'로 알맞게 수정한 자연스러운 표현입니다."
+ }
+}

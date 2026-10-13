@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Cold Chain",
+  "count": 1,
+  "ex_from": "항공 ULD입니다",
+  "ex_to": "항공 단위탑재용기(ULD)입니다",
+  "files": [
+    "tc-docs/tc-air-active.html"
+  ],
+  "from": "ULD입니다",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "단위탑재용기(ULD)입니다",
+  "updatedAt": "2026-10-13T13:44:28.465Z",
+  "verdict": "keep"
+}

@@ -1,0 +1,17 @@
+{
+  "alt": "무료 장치 기간(free time)",
+  "cats": "Incoterms",
+  "count": 3,
+  "ex_from": "무료 장치 기간(free time)",
+  "ex_to": "무료 기간(free time)",
+  "files": [
+    "incoterms-docs/inco-gray.html"
+  ],
+  "from": "장치 기간",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "기간",
+  "updatedAt": "2026-10-13T13:46:01.697Z",
+  "verdict": "other"
+}

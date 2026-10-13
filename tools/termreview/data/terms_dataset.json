@@ -1,0 +1,4631 @@
+[
+{
+"id": "t000",
+"group": "운영자 결정",
+"from": "체화료",
+"to": "Demurrage",
+"count": 74,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t001",
+"group": "운영자 결정",
+"from": "지체료",
+"to": "Detention",
+"count": 66,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t002",
+"group": "운영자 결정",
+"from": "지체료(ULD demurrage)",
+"to": "Demurrage",
+"count": 7,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t003",
+"group": "운영자 결정",
+"from": "건화물 컨테이너 / 일반 건화물 컨테이너",
+"to": "드라이 컨테이너",
+"count": 6,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t004",
+"group": "운영자 결정",
+"from": "20피트 건조",
+"to": "20피트 드라이",
+"count": 13,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t005",
+"group": "운영자 결정",
+"from": "건화물 벌크",
+"to": "드라이 벌크",
+"count": 3,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t006",
+"group": "운영자 결정",
+"from": "건화물용으로",
+"to": "일반 화물용으로",
+"count": 2,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t007",
+"group": "운영자 결정",
+"from": "건화물 요율",
+"to": "드라이 요율",
+"count": 2,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t008",
+"group": "운영자 결정",
+"from": "섀시",
+"to": "샤시",
+"count": 4,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t009",
+"group": "운영자 결정",
+"from": "5 kg (숫자 띄우기)",
+"to": "5kg",
+"count": 189,
+"cats": "여러 카테고리",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "10/12 밤에 직접 정하신 것"
+},
+{
+"id": "t010",
+"group": "1차 문구 통일",
+"from": "인코텀즈",
+"to": "인코텀스",
+"count": 5,
+"cats": "CTU Code · Charges",
+"files": [
+"ch-docs/ch-cases.html",
+"ctu-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t011",
+"group": "1차 문구 통일",
+"from": "D/O",
+"to": "화물인도지시서(D/O)",
+"count": 5,
+"cats": "Charges · 적하보험",
+"files": [
+"ch-docs/ch-cases.html",
+"ch-docs/ch-dnd.html",
+"ch-docs/ch-korea-storage.html",
+"ch-docs/ch-sea-charges.html",
+"insurance-docs/ins-claims.html"
+],
+"ex_from": "수입 화주는 D/O 발급",
+"ex_to": "수입 화주는 화물인도지시서(D/O) 발급",
+"note": ""
+},
+{
+"id": "t012",
+"group": "1차 문구 통일",
+"from": "B/L은",
+"to": "선하증권(B/L)은",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-cases.html"
+],
+"ex_from": "적힌 B/L은",
+"ex_to": "적힌 선하증권(B/L)은",
+"note": ""
+},
+{
+"id": "t013",
+"group": "1차 문구 통일",
+"from": "정식 운송품명",
+"to": "정식운송품명",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t014",
+"group": "1차 문구 통일",
+"from": "총질량",
+"to": "총중량",
+"count": 2,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "검증된 총질량",
+"ex_to": "검증된 총중량",
+"note": ""
+},
+{
+"id": "t015",
+"group": "1차 문구 통일",
+"from": "냉동컨테이너",
+"to": "냉동 컨테이너",
+"count": 7,
+"cats": "CTU Code · 위험물",
+"files": [
+"ctu-library.js",
+"dg-docs/case-accident.html",
+"dg-docs/case-litigation.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t016",
+"group": "1차 문구 통일",
+"from": "°C",
+"to": "℃",
+"count": 22,
+"cats": "CTU Code · 위험물 · 적하보험",
+"files": [
+"ctu-library.js",
+"dg-docs/case-litigation.html",
+"insurance-docs/ins-cases.html",
+"insurance-docs/ins-uninsurable.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t018",
+"group": "1차 문구 통일",
+"from": "몬트리올협약",
+"to": "몬트리올 협약",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-litigation.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t019",
+"group": "1차 문구 통일",
+"from": "실제 운송인",
+"to": "실제운송인",
+"count": 14,
+"cats": "B/L·AWB · 위험물 · 적하보험",
+"files": [
+"bl-docs/bl-basics.html",
+"bl-docs/bl-cases.html",
+"bl-docs/bl-release.html",
+"dg-docs/case-litigation.html",
+"dg-docs/dg-penalty.html",
+"insurance-docs/ins-cases.html",
+"insurance-docs/ins-claims.html",
+"insurance-docs/ins-forwarder.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t020",
+"group": "1차 문구 통일",
+"from": "해수부",
+"to": "해양수산부",
+"count": 12,
+"cats": "Charges · 위험물",
+"files": [
+"ch-docs/ch-sea-charges.html",
+"charges-library.js",
+"dg-docs/case-inspection.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t021",
+"group": "1차 문구 통일",
+"from": "하우스",
+"to": "House",
+"count": 8,
+"cats": "Charges · 위험물 · 적하보험",
+"files": [
+"ch-docs/ch-sea-charges.html",
+"dg-docs/dg-penalty.html",
+"insurance-docs/ins-carrier-liability.html",
+"insurance-docs/ins-claims.html"
+],
+"ex_from": "하우스 B/L",
+"ex_to": "House B/L",
+"note": ""
+},
+{
+"id": "t022",
+"group": "1차 문구 통일",
+"from": "화물 처리비",
+"to": "화물처리비",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-sea-charges.html"
+],
+"ex_from": "터미널 화물 처리비",
+"ex_to": "터미널 화물처리비",
+"note": ""
+},
+{
+"id": "t023",
+"group": "1차 문구 통일",
+"from": "SWB",
+"to": "해상화물운송장(SWB)",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-sea-charges.html"
+],
+"ex_from": "원본 B/L·SWB",
+"ex_to": "원본 B/L·해상화물운송장(SWB)",
+"note": ""
+},
+{
+"id": "t024",
+"group": "1차 문구 통일",
+"from": "국토부",
+"to": "국토교통부",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-inspection.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t025",
+"group": "1차 문구 통일",
+"from": "SDS로",
+"to": "물질안전보건자료(SDS)로",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-inspection.html"
+],
+"ex_from": "입고 전에 SDS로",
+"ex_to": "입고 전에 물질안전보건자료(SDS)로",
+"note": ""
+},
+{
+"id": "t026",
+"group": "1차 문구 통일",
+"from": "하우스 선하증권",
+"to": "House B/L",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-carrier-liability.html"
+],
+"ex_from": "Maersk Project Logistics의 하우스 선하증권 약관 5.1.2",
+"ex_to": "Maersk Project Logistics의 House B/L 약관 5.1.2",
+"note": ""
+},
+{
+"id": "t027",
+"group": "1차 문구 통일",
+"from": "이면 약관",
+"to": "이면약관",
+"count": 6,
+"cats": "B/L·AWB · 적하보험",
+"files": [
+"bl-docs/bl-vs-awb.html",
+"insurance-docs/ins-carrier-liability.html",
+"insurance-docs/ins-claims.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t028",
+"group": "1차 문구 통일",
+"from": "팰릿",
+"to": "팔레트",
+"count": 6,
+"cats": "EU Battery · 적하보험",
+"files": [
+"battery-docs/b-anx14.html",
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t029",
+"group": "1차 문구 통일",
+"from": "확인하고 사진으로 남긴다",
+"to": "화주의 확인서와 사진으로 받아 둔다",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html"
+],
+"ex_from": "포장이 충분한지, 손상·누액·변형된 배터리가 섞여 있지 않은지 확인하고 사진으로 남긴다",
+"ex_to": "포장이 충분한지, 손상·누액·변형된 배터리가 섞여 있지 않은지 화주의 확인서와 사진으로 받아 둔다",
+"note": ""
+},
+{
+"id": "t030",
+"group": "1차 문구 통일",
+"from": "프리타임",
+"to": "프리 타임",
+"count": 6,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-dnd.html",
+"ch-docs/ch-korea-storage.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t031",
+"group": "1차 문구 통일",
+"from": "B/L",
+"to": "선하증권(B/L)",
+"count": 2,
+"cats": "Charges · Cold Chain",
+"files": [
+"ch-docs/ch-dnd.html",
+"tc-docs/tc-basics.html"
+],
+"ex_from": ": B/L 번호",
+"ex_to": ": 선하증권(B/L) 번호",
+"note": ""
+},
+{
+"id": "t032",
+"group": "1차 문구 통일",
+"from": "B/L상",
+"to": "선하증권(B/L)상",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-korea-storage.html"
+],
+"ex_from": "선사가 B/L상",
+"ex_to": "선사가 선하증권(B/L)상",
+"note": ""
+},
+{
+"id": "t033",
+"group": "1차 문구 통일",
+"from": "포장등급",
+"to": "용기등급",
+"count": 8,
+"cats": "위험물",
+"files": [
+"dg-docs/kr-mismatch.html",
+"dg-docs/kr-system.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t034",
+"group": "1차 문구 통일",
+"from": "SDS와",
+"to": "물질안전보건자료(SDS)와",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/kr-mismatch.html"
+],
+"ex_from": "제품별 SDS와",
+"ex_to": "제품별 물질안전보건자료(SDS)와",
+"note": ""
+},
+{
+"id": "t035",
+"group": "1차 문구 통일",
+"from": "제소 기간",
+"to": "제소기간",
+"count": 2,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-vs-awb.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t036",
+"group": "1차 문구 통일",
+"from": "SDR",
+"to": "SDR(특별인출권)",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-vs-awb.html"
+],
+"ex_from": "포장당 666.67 SDR 또는 kg당 2 SDR 중 큰 금액. 일부",
+"ex_to": "포장당 666.67 SDR(특별인출권) 또는 kg당 2 SDR 중 큰 금액. 일부",
+"note": ""
+},
+{
+"id": "t037",
+"group": "1차 문구 통일",
+"from": "3일",
+"to": "지체 없이, 즉시 발견할 수 없으면 3일",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-vs-awb.html"
+],
+"ex_from": "일부 멸실·훼손 통지는 수령 후 3일 이내(상법 제804조)",
+"ex_to": "일부 멸실·훼손 통지는 수령 후 지체 없이, 즉시 발견할 수 없으면 3일 이내(상법 제804조)",
+"note": ""
+},
+{
+"id": "t038",
+"group": "1차 문구 통일",
+"from": "폐기물 운송 규정",
+"to": "폐기물운송규정",
+"count": 5,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx15.html",
+"battery-docs/b-ch8b.html",
+"battery-docs/changes.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t039",
+"group": "1차 문구 통일",
+"from": "폐기물운송 규정",
+"to": "폐기물운송규정",
+"count": 2,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-ch8b.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t040",
+"group": "1차 문구 통일",
+"from": "리튬 배터리",
+"to": "리튬배터리",
+"count": 3,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-active.html",
+"tc-docs/tc-basics.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t041",
+"group": "1차 문구 통일",
+"from": "ULD입니다",
+"to": "단위탑재용기(ULD)입니다",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-active.html"
+],
+"ex_from": "항공 ULD입니다",
+"ex_to": "항공 단위탑재용기(ULD)입니다",
+"note": ""
+},
+{
+"id": "t042",
+"group": "1차 문구 통일",
+"from": "PTI는",
+"to": "사전 점검(PTI)은",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-basics.html"
+],
+"ex_from": "해상 리퍼의 예약 지시와 PTI는",
+"ex_to": "해상 리퍼의 예약 지시와 사전 점검(PTI)은",
+"note": ""
+},
+{
+"id": "t043",
+"group": "1차 문구 통일",
+"from": "ULD",
+"to": "단위탑재용기(ULD)",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-basics.html"
+],
+"ex_from": "ULD 태그에",
+"ex_to": "단위탑재용기(ULD) 태그에",
+"note": ""
+},
+{
+"id": "t044",
+"group": "1차 문구 통일",
+"from": "책임한도",
+"to": "책임 한도",
+"count": 2,
+"cats": "적하보험",
+"files": [
+"insurance-library.js"
+],
+"ex_from": "몬트리올 협약 책임한도",
+"ex_to": "몬트리올 협약 책임 한도",
+"note": ""
+},
+{
+"id": "t045",
+"group": "1차 문구 통일",
+"from": "SDS의",
+"to": "물질안전보건자료(SDS)의",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-accident.html"
+],
+"ex_from": "제조사 SDS의",
+"ex_to": "제조사 물질안전보건자료(SDS)의",
+"note": ""
+},
+{
+"id": "t046",
+"group": "1차 문구 통일",
+"from": "터미널작업비",
+"to": "터미널 화물처리비",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-gray.html"
+],
+"ex_from": "터미널작업비(THC)",
+"ex_to": "터미널 화물처리비(THC)",
+"note": ""
+},
+{
+"id": "t047",
+"group": "1차 문구 통일",
+"from": "취급비",
+"to": "화물처리비",
+"count": 6,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-gray.html",
+"incoterms-docs/inco-risk-cost.html",
+"incoterms-docs/inco-rules.html"
+],
+"ex_from": "터미널 취급비",
+"ex_to": "터미널 화물처리비",
+"note": ""
+},
+{
+"id": "t048",
+"group": "1차 문구 통일",
+"from": "demurrage, detention",
+"to": "체화료(demurrage), 지체료(detention)",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-gray.html"
+],
+"ex_from": "7. 지연 비용: demurrage, detention, 보관료",
+"ex_to": "7. 지연 비용: 체화료(demurrage), 지체료(detention), 보관료",
+"note": ""
+},
+{
+"id": "t049",
+"group": "1차 문구 통일",
+"from": "장치 기간",
+"to": "기간",
+"count": 3,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-gray.html"
+],
+"ex_from": "무료 장치 기간(free time)",
+"ex_to": "무료 기간(free time)",
+"note": ""
+},
+{
+"id": "t050",
+"group": "1차 문구 통일",
+"from": ">demurrage·detention",
+"to": ">체화료·지체료",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-gray.html"
+],
+"ex_from": ">demurrage·detention·보관료<",
+"ex_to": ">체화료·지체료·보관료<",
+"note": ""
+},
+{
+"id": "t051",
+"group": "1차 문구 통일",
+"from": "demurrage·detention은",
+"to": "체화료·지체료는",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-risk-cost.html"
+],
+"ex_from": "VGM, demurrage·detention은 규칙에 이름이 없습니다",
+"ex_to": "VGM, 체화료·지체료는 규칙에 이름이 없습니다",
+"note": ""
+},
+{
+"id": "t052",
+"group": "1차 문구 통일",
+"from": "단위 탑재 용기",
+"to": "단위탑재용기",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-overview.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t053",
+"group": "1차 문구 통일",
+"from": "화물 인도 지시서",
+"to": "화물인도지시서",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-air-storage.html"
+],
+"ex_from": "화물 인도 지시서(D/O)",
+"ex_to": "화물인도지시서(D/O)",
+"note": ""
+},
+{
+"id": "t054",
+"group": "1차 문구 통일",
+"from": "demurrage·detention·보관료의 원인별 부담과 무료 장치 기간을",
+"to": "체화료(demurrage)·지체료(detention)·보관료의 원인별 부담과 무료 기간(free time)을",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-choose.html"
+],
+"ex_from": "demurrage·detention·보관료의 원인별 부담과 무료 장치 기간을 정했는가",
+"ex_to": "체화료(demurrage)·지체료(detention)·보관료의 원인별 부담과 무료 기간(free time)을 정했는가",
+"note": ""
+},
+{
+"id": "t055",
+"group": "1차 문구 통일",
+"from": "THC",
+"to": "터미널 화물처리비(THC)",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-choose.html"
+],
+"ex_from": "출발지 THC, wharfage",
+"ex_to": "출발지 터미널 화물처리비(THC), wharfage",
+"note": ""
+},
+{
+"id": "t056",
+"group": "1차 문구 통일",
+"from": "VGM",
+"to": "VGM(검증된 총중량)",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-choose.html"
+],
+"ex_from": "VGM 계측과 통지를",
+"ex_to": "VGM(검증된 총중량) 계측과 통지를",
+"note": ""
+},
+{
+"id": "t057",
+"group": "1차 문구 통일",
+"from": "안전보건자료",
+"to": "물질안전보건자료",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-uninsurable.html"
+],
+"ex_from": "낸 안전보건자료(SDS)",
+"ex_to": "낸 물질안전보건자료(SDS)",
+"note": ""
+},
+{
+"id": "t058",
+"group": "1차 문구 통일",
+"from": "B/L에",
+"to": "선하증권(B/L)에",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-uninsurable.html"
+],
+"ex_from": "부킹 확인서, B/L에",
+"ex_to": "부킹 확인서, 선하증권(B/L)에",
+"note": ""
+},
+{
+"id": "t059",
+"group": "1차 문구 통일",
+"from": "5 °C",
+"to": "5℃",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx1-5.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t060",
+"group": "1차 문구 통일",
+"from": "THC를",
+"to": "터미널 화물처리비(THC)를",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-chart.html"
+],
+"ex_from": "출발지 THC를",
+"ex_to": "출발지 터미널 화물처리비(THC)를",
+"note": ""
+},
+{
+"id": "t061",
+"group": "1차 문구 통일",
+"from": "SDR로",
+"to": "SDR(특별인출권)로",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/awb-basics.html"
+],
+"ex_from": "kg당 22 SDR로 적고",
+"ex_to": "kg당 22 SDR(특별인출권)로 적고",
+"note": ""
+},
+{
+"id": "t062",
+"group": "1차 문구 통일",
+"from": "ULD에",
+"to": "단위탑재용기(ULD)에",
+"count": 2,
+"cats": "Air ULD · Cold Chain",
+"files": [
+"tc-docs/tc-air-passive.html",
+"uld-docs/uld-buildup.html"
+],
+"ex_from": "드라이아이스를 ULD에",
+"ex_to": "드라이아이스를 단위탑재용기(ULD)에",
+"note": ""
+},
+{
+"id": "t063",
+"group": "1차 문구 통일",
+"from": "B/L의",
+"to": "선하증권(B/L)의",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-cases.html"
+],
+"ex_from": "부킹 확인서와 B/L의",
+"ex_to": "부킹 확인서와 선하증권(B/L)의",
+"note": ""
+},
+{
+"id": "t064",
+"group": "1차 문구 통일",
+"from": "ULD에는",
+"to": "단위탑재용기(ULD)에는",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-code.html"
+],
+"ex_from": "ULD에는 \"AKE",
+"ex_to": "단위탑재용기(ULD)에는 \"AKE",
+"note": ""
+},
+{
+"id": "t065",
+"group": "1차 문구 통일",
+"from": "ULD가",
+"to": "단위탑재용기(ULD)가",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-holds.html"
+],
+"ex_from": "어떤 ULD가",
+"ex_to": "어떤 단위탑재용기(ULD)가",
+"note": ""
+},
+{
+"id": "t066",
+"group": "1차 문구 통일",
+"from": "ULD는",
+"to": "단위탑재용기(ULD)는",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-safety.html"
+],
+"ex_from": "ULD는 항공기의",
+"ex_to": "단위탑재용기(ULD)는 항공기의",
+"note": ""
+},
+{
+"id": "t067",
+"group": "1차 문구 통일",
+"from": "포워더와 창고는 입고·선적 전 외관 점검의 기준으로 이 장을 보게 됩니다",
+"to": "포워더는 화주에게 표시 사항을 서류와 사진으로 확인받을 때 이 장을 기준으로 봅니다",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-ch3.html"
+],
+"ex_from": "EU행 배터리 화물을 다루는 포워더와 창고는 입고·선적 전 외관 점검의 기준으로 이 장을 보게 됩니다.",
+"ex_to": "EU행 배터리 화물을 다루는 포워더는 화주에게 표시 사항을 서류와 사진으로 확인받을 때 이 장을 기준으로 봅니다.",
+"note": ""
+},
+{
+"id": "t068",
+"group": "1차 문구 통일",
+"from": "몫이지만, 포워더·창고는 QR 코드 유무로 화물의 적합 여부를 가장 먼저 눈으로 확인하게 되는 위치에 있습니다",
+"to": "몫이고, 포워더는 화물을 직접 확인하지 않으므로 QR 코드 표시와 여권 준비 여부를 화주의 서류와 확인서로 확인받아 둡니다",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-ch9.html"
+],
+"ex_from": "여권을 만들고 관리하는 일은 시장 출시자의 몫이지만, 포워더·창고는 QR 코드 유무로 화물의 적합 여부를 가장 먼저 눈으로 확인하게 되는 위치에 있습니다.",
+"ex_to": "여권을 만들고 관리하는 일은 시장 출시자의 몫이고, 포워더는 화물을 직접 확인하지 않으므로 QR 코드 표시와 여권 준비 여부를 화주의 서류와 확인서로 확인받아 둡니다.",
+"note": ""
+},
+{
+"id": "t069",
+"group": "1차 문구 통일",
+"from": "화물 외관 점검",
+"to": "화주에게 확인받을 표시",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-ch9.html"
+],
+"ex_from": "화물 외관 점검 항목에 QR 코드가 추가됩니다.",
+"ex_to": "화주에게 확인받을 표시 항목에 QR 코드가 추가됩니다.",
+"note": ""
+},
+{
+"id": "t070",
+"group": "1차 문구 통일",
+"from": "확인한다",
+"to": "화주의 서류나 사진으로 확인한다",
+"count": 2,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-ch10.html",
+"battery-docs/b-ch4.html"
+],
+"ex_from": "입고·선적 전 배터리 또는 포장에 CE 표시가 있는지 확인한다",
+"ex_to": "입고·선적 전 배터리 또는 포장에 CE 표시가 있는지 화주의 서류나 사진으로 확인한다",
+"note": ""
+},
+{
+"id": "t071",
+"group": "1차 문구 통일",
+"from": "Cubestow가",
+"to": "AI가",
+"count": 2,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "판결과 보도를 Cubestow가 요약한 참고 자료이며",
+"ex_to": "판결과 보도를 AI가 요약한 참고 자료이며",
+"note": ""
+},
+{
+"id": "t072",
+"group": "2차 실무 용어",
+"from": "저온 살균 처리 데이터는 요청 시 세관용",
+"to": "저온처리 데이터는 요청 시 검역용",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "저온 살균 처리 데이터는 요청 시 세관용 제공",
+"ex_to": "저온처리 데이터는 요청 시 검역용 제공",
+"note": ""
+},
+{
+"id": "t073",
+"group": "2차 실무 용어",
+"from": "저온 살균 처리",
+"to": "저온처리",
+"count": 7,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer-practice.html",
+"tc-docs/tc-reefer.html",
+"tc-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t074",
+"group": "2차 실무 용어",
+"from": "공급·회수 공기",
+"to": "서플라이·리턴 에어",
+"count": 14,
+"cats": "Cold Chain · 적하보험",
+"files": [
+"insurance-docs/ins-uninsurable.html",
+"tc-docs/tc-cases.html",
+"tc-docs/tc-reefer-practice.html",
+"tc-docs/tc-reefer.html",
+"tc-library.js"
+],
+"ex_from": "공급·회수 공기 온도",
+"ex_to": "서플라이·리턴 에어 온도",
+"note": ""
+},
+{
+"id": "t075",
+"group": "2차 실무 용어",
+"from": "회수 공기",
+"to": "리턴 에어",
+"count": 23,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-basics.html",
+"tc-docs/tc-cases.html",
+"tc-docs/tc-reefer-practice.html",
+"tc-docs/tc-reefer.html",
+"tc-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t076",
+"group": "2차 실무 용어",
+"from": "공급 공기",
+"to": "서플라이 에어",
+"count": 21,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-basics.html",
+"tc-docs/tc-cases.html",
+"tc-docs/tc-reefer.html",
+"tc-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t077",
+"group": "2차 실무 용어",
+"from": "undermount",
+"to": "underslung",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "언더슬렁(undermount)형",
+"ex_to": "언더슬렁(underslung)형",
+"note": ""
+},
+{
+"id": "t078",
+"group": "2차 실무 용어",
+"from": "발전기",
+"to": "젠셋",
+"count": 25,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer-practice.html",
+"tc-docs/tc-reefer.html",
+"tc-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t079",
+"group": "2차 실무 용어",
+"from": "콘센트(reefer plug",
+"to": "소켓(reefer socket",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "리퍼 콘센트(reefer plug)",
+"ex_to": "리퍼 소켓(reefer socket)",
+"note": ""
+},
+{
+"id": "t080",
+"group": "2차 실무 용어",
+"from": "콘센트",
+"to": "소켓",
+"count": 2,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer-practice.html"
+],
+"ex_from": "리퍼 콘센트",
+"ex_to": "리퍼 소켓",
+"note": ""
+},
+{
+"id": "t081",
+"group": "2차 실무 용어",
+"from": "기기 인수증",
+"to": "기기인수도증",
+"count": 5,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer-practice.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t082",
+"group": "2차 실무 용어",
+"from": "예약 확정서",
+"to": "부킹 확인서",
+"count": 8,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer-practice.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t083",
+"group": "2차 실무 용어",
+"from": "예약",
+"to": "부킹",
+"count": 13,
+"cats": "Air ULD · Charges · Cold Chain",
+"files": [
+"ch-docs/ch-cases.html",
+"ch-docs/ch-dnd.html",
+"tc-docs/tc-basics.html",
+"uld-docs/uld-buildup.html"
+],
+"ex_from": "예약 확인서",
+"ex_to": "부킹 확인서",
+"note": ""
+},
+{
+"id": "t084",
+"group": "2차 실무 용어",
+"from": "봉인",
+"to": "씰",
+"count": 5,
+"cats": "B/L·AWB · Cold Chain",
+"files": [
+"bl-docs/bl-special.html",
+"tc-docs/tc-reefer-practice.html"
+],
+"ex_from": "봉인 번호",
+"ex_to": "씰 번호",
+"note": ""
+},
+{
+"id": "t085",
+"group": "2차 실무 용어",
+"from": "냉해",
+"to": "저온장해",
+"count": 3,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer-practice.html",
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "냉해 우려",
+"ex_to": "저온장해 우려",
+"note": ""
+},
+{
+"id": "t086",
+"group": "2차 실무 용어",
+"from": "깔판으로",
+"to": "더니지로",
+"count": 2,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer-practice.html",
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "판지나 깔판으로",
+"ex_to": "판지나 더니지로",
+"note": ""
+},
+{
+"id": "t087",
+"group": "2차 실무 용어",
+"from": "깔판(dunnage)이",
+"to": "더니지(dunnage)가",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer-practice.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t088",
+"group": "2차 실무 용어",
+"from": "완충재",
+"to": "더니지",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-buildup.html"
+],
+"ex_from": "완충재(dunnage)를",
+"ex_to": "더니지(dunnage)를",
+"note": ""
+},
+{
+"id": "t089",
+"group": "2차 실무 용어",
+"from": "화물 탐침",
+"to": "USDA 프로브",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "화물 탐침(USDA probe)",
+"ex_to": "USDA 프로브(USDA probe)",
+"note": ""
+},
+{
+"id": "t090",
+"group": "2차 실무 용어",
+"from": "0.25도",
+"to": "0.25℃",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "MSC는 0.25도 이내로",
+"ex_to": "MSC는 0.25℃ 이내로",
+"note": ""
+},
+{
+"id": "t091",
+"group": "2차 실무 용어",
+"from": "적부",
+"to": "적입",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-cases.html"
+],
+"ex_from": "화주의 적부 불량으로",
+"ex_to": "화주의 적입 불량으로",
+"note": ""
+},
+{
+"id": "t092",
+"group": "2차 실무 용어",
+"from": "습식 얼음(wet ice)으로",
+"to": "웻 아이스(wet ice)로",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-cases.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t093",
+"group": "2차 실무 용어",
+"from": "습식 얼음이나",
+"to": "웻 아이스나",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-cases.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t094",
+"group": "2차 실무 용어",
+"from": "섭씨 8도로",
+"to": "8℃로",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-cases.html"
+],
+"ex_from": "섭씨 8도로 냉장하고",
+"ex_to": "8℃로 냉장하고",
+"note": ""
+},
+{
+"id": "t095",
+"group": "2차 실무 용어",
+"from": "중립",
+"to": "애매한 온도",
+"count": 3,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-cases.html",
+"tc-library.js"
+],
+"ex_from": "\"최저 -18℃·최고 +18℃\" 중립 지시의 책임",
+"ex_to": "\"최저 -18℃·최고 +18℃\" 애매한 온도 지시의 책임",
+"note": ""
+},
+{
+"id": "t096",
+"group": "2차 실무 용어",
+"from": "중립",
+"to": "애매한",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-cases.html"
+],
+"ex_from": "&quot;최저 -18℃·최고 +18℃&quot; 중립 지시",
+"ex_to": "&quot;최저 -18℃·최고 +18℃&quot; 애매한 지시",
+"note": ""
+},
+{
+"id": "t097",
+"group": "2차 실무 용어",
+"from": "하부 화물칸과 상부 갑판",
+"to": "로어덱과 메인덱",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-active.html"
+],
+"ex_from": "하부 화물칸과 상부 갑판 모두",
+"ex_to": "로어덱과 메인덱 모두",
+"note": ""
+},
+{
+"id": "t098",
+"group": "2차 실무 용어",
+"from": "주갑판에",
+"to": "메인덱에",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-safety.html"
+],
+"ex_from": "주갑판에 Telair",
+"ex_to": "메인덱에 Telair",
+"note": ""
+},
+{
+"id": "t099",
+"group": "2차 실무 용어",
+"from": "주갑판",
+"to": "메인덱",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-safety.html"
+],
+"ex_from": "주갑판 9개 위치",
+"ex_to": "메인덱 9개 위치",
+"note": ""
+},
+{
+"id": "t100",
+"group": "2차 실무 용어",
+"from": "단열",
+"to": "1열",
+"count": 4,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-holds.html"
+],
+"ex_from": "꼬리 쪽 단열 2)",
+"ex_to": "꼬리 쪽 1열 2)",
+"note": ""
+},
+{
+"id": "t101",
+"group": "2차 실무 용어",
+"from": "과금",
+"to": "운임",
+"count": 5,
+"cats": "Air ULD · Cold Chain",
+"files": [
+"tc-docs/tc-air-active.html",
+"uld-docs/uld-code.html"
+],
+"ex_from": "과금 중량",
+"ex_to": "운임 중량",
+"note": ""
+},
+{
+"id": "t102",
+"group": "2차 실무 용어",
+"from": "과금 무게",
+"to": "운임 중량",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-buildup.html"
+],
+"ex_from": "최소 과금 무게",
+"ex_to": "최소 운임 중량",
+"note": ""
+},
+{
+"id": "t103",
+"group": "2차 실무 용어",
+"from": "운송인 차이<",
+"to": "항공사 예외 규정<",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-passive.html"
+],
+"ex_from": "<td>국가·운송인 차이</td>",
+"ex_to": "<td>국가·항공사 예외 규정</td>",
+"note": ""
+},
+{
+"id": "t104",
+"group": "2차 실무 용어",
+"from": "운송인 차이(Neos, SriLankan)가",
+"to": "항공사 예외 규정(Neos, SriLankan)이",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-passive.html"
+],
+"ex_from": "운송인 차이(Neos, SriLankan)가 실려",
+"ex_to": "항공사 예외 규정(Neos, SriLankan)이 실려",
+"note": ""
+},
+{
+"id": "t105",
+"group": "2차 실무 용어",
+"from": "운송인 차이를",
+"to": "항공사 예외 규정을",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-passive.html"
+],
+"ex_from": "운송인 차이를 수정하거나",
+"ex_to": "항공사 예외 규정을 수정하거나",
+"note": ""
+},
+{
+"id": "t106",
+"group": "2차 실무 용어",
+"from": "운송인 차이는",
+"to": "항공사 예외 규정은",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-passive.html"
+],
+"ex_from": "대한항공의 2026년 운송인 차이는",
+"ex_to": "대한항공의 2026년 항공사 예외 규정은",
+"note": ""
+},
+{
+"id": "t107",
+"group": "2차 실무 용어",
+"from": "차이",
+"to": "예외 규정",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-basics.html"
+],
+"ex_from": "국가·항공사 차이(variation)",
+"ex_to": "국가·항공사 예외 규정(variation)",
+"note": ""
+},
+{
+"id": "t108",
+"group": "2차 실무 용어",
+"from": "위험물규칙서(DGR)와 온도관리규칙",
+"to": "위험물규정(DGR)과 온도관리규정",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-active.html"
+],
+"ex_from": "IATA 위험물규칙서(DGR)와 온도관리규칙(TCR)은",
+"ex_to": "IATA 위험물규정(DGR)과 온도관리규정(TCR)은",
+"note": ""
+},
+{
+"id": "t109",
+"group": "2차 실무 용어",
+"from": "위험물규칙을",
+"to": "위험물규정을",
+"count": 2,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-active.html"
+],
+"ex_from": "위험물규칙을 충족하는",
+"ex_to": "위험물규정을 충족하는",
+"note": ""
+},
+{
+"id": "t110",
+"group": "2차 실무 용어",
+"from": "온도관리 규정",
+"to": "온도관리규정",
+"count": 2,
+"cats": "Air ULD · Cold Chain",
+"files": [
+"tc-library.js",
+"uld-docs/uld-safety.html"
+],
+"ex_from": "IATA 온도관리 규정(TCR)",
+"ex_to": "IATA 온도관리규정(TCR)",
+"note": ""
+},
+{
+"id": "t111",
+"group": "2차 실무 용어",
+"from": "공항업무",
+"to": "공항조업",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-buildup.html"
+],
+"ex_from": "IATA 공항업무 매뉴얼(AHM)",
+"ex_to": "IATA 공항조업 매뉴얼(AHM)",
+"note": ""
+},
+{
+"id": "t112",
+"group": "2차 실무 용어",
+"from": "지상조업",
+"to": "공항조업",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-holds.html"
+],
+"ex_from": "IATA 지상조업 매뉴얼(AHM)",
+"ex_to": "IATA 공항조업 매뉴얼(AHM)",
+"note": ""
+},
+{
+"id": "t113",
+"group": "2차 실무 용어",
+"from": "공항조업매뉴얼 AHM",
+"to": "공항조업 매뉴얼(AHM)",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-safety.html"
+],
+"ex_from": "IATA 공항조업매뉴얼 AHM 420",
+"ex_to": "IATA 공항조업 매뉴얼(AHM) 420",
+"note": ""
+},
+{
+"id": "t114",
+"group": "2차 실무 용어",
+"from": "고정",
+"to": "탑재",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-safety.html"
+],
+"ex_from": "화물 고정 시스템(CLS, Cargo Loading System)",
+"ex_to": "화물 탑재 시스템(CLS, Cargo Loading System)",
+"note": ""
+},
+{
+"id": "t115",
+"group": "2차 실무 용어",
+"from": "화물처리장치",
+"to": "화물 탑재 시스템",
+"count": 2,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-holds.html"
+],
+"ex_from": "화물처리장치(cargo loading system)",
+"ex_to": "화물 탑재 시스템(cargo loading system)",
+"note": ""
+},
+{
+"id": "t116",
+"group": "2차 실무 용어",
+"from": "무게",
+"to": "중량",
+"count": 3,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-buildup.html",
+"uld-docs/uld-pallets.html"
+],
+"ex_from": "무게·균형",
+"ex_to": "중량·균형",
+"note": ""
+},
+{
+"id": "t117",
+"group": "2차 실무 용어",
+"from": "운항자에게",
+"to": "운항사에게",
+"count": 2,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-code.html",
+"uld-docs/uld-overview.html"
+],
+"ex_from": "FAA가 운항자에게",
+"ex_to": "FAA가 운항사에게",
+"note": ""
+},
+{
+"id": "t118",
+"group": "2차 실무 용어",
+"from": "운항자가",
+"to": "운항사가",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-overview.html"
+],
+"ex_from": "운항자가 화물 전용기든",
+"ex_to": "운항사가 화물 전용기든",
+"note": ""
+},
+{
+"id": "t119",
+"group": "2차 실무 용어",
+"from": "능동형",
+"to": "액티브",
+"count": 11,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-buildup.html",
+"uld-docs/uld-code.html",
+"uld-docs/uld-safety.html"
+],
+"ex_from": "능동형 온도관리 컨테이너(active ULD)",
+"ex_to": "액티브 온도관리 컨테이너(active ULD)",
+"note": ""
+},
+{
+"id": "t120",
+"group": "2차 실무 용어",
+"from": "<b>능동형(active)</b>으로",
+"to": "<b>액티브(active)</b>로",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-code.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t121",
+"group": "2차 실무 용어",
+"from": "단열형",
+"to": "패시브",
+"count": 2,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-code.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t122",
+"group": "2차 실무 용어",
+"from": "수동형(passive)으로",
+"to": "패시브(passive)로",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-safety.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t123",
+"group": "2차 실무 용어",
+"from": "협동체",
+"to": "내로바디",
+"count": 11,
+"cats": "Air ULD · Cold Chain",
+"files": [
+"tc-docs/tc-air-passive.html",
+"uld-docs/uld-code.html",
+"uld-docs/uld-holds.html",
+"uld-docs/uld-overview.html",
+"uld-docs/uld-pallets.html"
+],
+"ex_from": "협동체(Narrow Body Aircraft)형",
+"ex_to": "내로바디(Narrow Body Aircraft)형",
+"note": ""
+},
+{
+"id": "t124",
+"group": "2차 실무 용어",
+"from": "광동체",
+"to": "와이드바디",
+"count": 3,
+"cats": "Air ULD · Cold Chain",
+"files": [
+"tc-docs/tc-air-passive.html",
+"uld-docs/uld-code.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t125",
+"group": "2차 실무 용어",
+"from": "<h3>마스터 AWB와 하우스",
+"to": "<h3>Master AWB와 House",
+"count": 1,
+"cats": "AWB Tracking",
+"files": [
+"airtracking.html"
+],
+"ex_from": "<h3>마스터 AWB와 하우스 AWB</h3>",
+"ex_to": "<h3>Master AWB와 House AWB</h3>",
+"note": ""
+},
+{
+"id": "t126",
+"group": "2차 실무 용어",
+"from": "<b>마스터",
+"to": "<b>Master",
+"count": 1,
+"cats": "AWB Tracking",
+"files": [
+"airtracking.html"
+],
+"ex_from": "<b>마스터 AWB</b>(MAWB)",
+"ex_to": "<b>Master AWB</b>(MAWB)",
+"note": ""
+},
+{
+"id": "t127",
+"group": "2차 실무 용어",
+"from": "<b>하우스",
+"to": "<b>House",
+"count": 1,
+"cats": "AWB Tracking",
+"files": [
+"airtracking.html"
+],
+"ex_from": "<b>하우스 AWB</b>(HAWB)",
+"ex_to": "<b>House AWB</b>(HAWB)",
+"note": ""
+},
+{
+"id": "t128",
+"group": "2차 실무 용어",
+"from": "AWB tracking",
+"to": "공개 AWB 조회",
+"count": 1,
+"cats": "AWB Tracking",
+"files": [
+"airtracking.js"
+],
+"ex_from": "AWB tracking 없음",
+"ex_to": "공개 AWB 조회 없음",
+"note": ""
+},
+{
+"id": "t129",
+"group": "2차 실무 용어",
+"from": "tracking",
+"to": "조회",
+"count": 1,
+"cats": "AWB Tracking",
+"files": [
+"airtracking.js"
+],
+"ex_from": "AWB tracking 확인 못함",
+"ex_to": "AWB 조회 확인 못함",
+"note": ""
+},
+{
+"id": "t130",
+"group": "2차 실무 용어",
+"from": "윤곽(+particle)",
+"to": "컨투어",
+"count": 40,
+"cats": "Air ULD · Cold Chain",
+"files": [
+"tc-docs/tc-air-passive.html",
+"uld-docs/uld-buildup.html",
+"uld-docs/uld-code.html",
+"uld-docs/uld-overview.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t131",
+"group": "2차 실무 용어",
+"from": "\"길상항공\"",
+"to": "\"준야오항공\"",
+"count": 1,
+"cats": "AWB Tracking",
+"files": [
+"airtracking-data.js"
+],
+"ex_from": "\"name_ko\": \"길상항공\"",
+"ex_to": "\"name_ko\": \"준야오항공\"",
+"note": ""
+},
+{
+"id": "t132",
+"group": "2차 실무 용어",
+"from": "prefix",
+"to": "Prefix",
+"count": 1,
+"cats": "AWB Tracking",
+"files": [
+"airtracking-data.js"
+],
+"ex_from": "카고룩스 이탈리아는 prefix 356",
+"ex_to": "카고룩스 이탈리아는 Prefix 356",
+"note": ""
+},
+{
+"id": "t133",
+"group": "2차 실무 용어",
+"from": "\"에미레이트 쉽핑",
+"to": "\"에미레이츠 쉬핑",
+"count": 1,
+"cats": "Container Tracking",
+"files": [
+"containertracking-data.js"
+],
+"ex_from": "\"name_ko\": \"에미레이트 쉽핑 라인\"",
+"ex_to": "\"name_ko\": \"에미레이츠 쉬핑 라인\"",
+"note": ""
+},
+{
+"id": "t134",
+"group": "2차 실무 용어",
+"from": "냉동",
+"to": "리퍼",
+"count": 3,
+"cats": "Container Tracking",
+"files": [
+"containertracking.html"
+],
+"ex_from": "<td>20ft 냉동(20RF),",
+"ex_to": "<td>20ft 리퍼(20RF),",
+"note": ""
+},
+{
+"id": "t135",
+"group": "2차 실무 용어",
+"from": "냉동<",
+"to": "리퍼<",
+"count": 1,
+"cats": "Container Tracking",
+"files": [
+"containertracking.html"
+],
+"ex_from": "<td>45ft 하이큐브 냉동</td>",
+"ex_to": "<td>45ft 하이큐브 리퍼</td>",
+"note": ""
+},
+{
+"id": "t136",
+"group": "2차 실무 용어",
+"from": "건화물 x5 / 섀시 x1",
+"to": "드라이(일반용 드라이, 드라이 벌크) / 샤시",
+"count": 6,
+"cats": "Container Tracking",
+"files": [
+"containertracking.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t137",
+"group": "2차 실무 용어",
+"from": "<td>위험 화물<",
+"to": "<td>위험물<",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "<td>위험 화물</td>",
+"ex_to": "<td>위험물</td>",
+"note": ""
+},
+{
+"id": "t138",
+"group": "2차 실무 용어",
+"from": "위험 화물",
+"to": "위험물",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "위험 화물(15번)",
+"ex_to": "위험물(15번)",
+"note": ""
+},
+{
+"id": "t139",
+"group": "2차 실무 용어",
+"from": "화물고정지침서",
+"to": "화물고박지침서",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "선박별 화물고정지침서(Cargo Securing Manual)",
+"ex_to": "선박별 화물고박지침서(Cargo Securing Manual)",
+"note": ""
+},
+{
+"id": "t140",
+"group": "2차 실무 용어",
+"from": "화물 작업장",
+"to": "컨테이너 화물조작장",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "CFS(화물 작업장)",
+"ex_to": "CFS(컨테이너 화물조작장)",
+"note": ""
+},
+{
+"id": "t141",
+"group": "2차 실무 용어",
+"from": "비와",
+"to": "결로와",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "컨테이너 비와 화물 결로",
+"ex_to": "컨테이너 결로와 화물 결로",
+"note": ""
+},
+{
+"id": "t142",
+"group": "2차 실무 용어",
+"from": "비:",
+"to": "결로:",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "<h3>컨테이너 비:",
+"ex_to": "<h3>컨테이너 결로:",
+"note": ""
+},
+{
+"id": "t143",
+"group": "2차 실무 용어",
+"from": "비",
+"to": "결로",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "\"컨테이너 비(container sweat)\"",
+"ex_to": "\"컨테이너 결로(container sweat)\"",
+"note": ""
+},
+{
+"id": "t144",
+"group": "2차 실무 용어",
+"from": "비를",
+"to": "결로를",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "컨테이너 비를 피하고",
+"ex_to": "컨테이너 결로를 피하고",
+"note": ""
+},
+{
+"id": "t145",
+"group": "2차 실무 용어",
+"from": "땀",
+"to": "결로",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "(컨테이너 땀)",
+"ex_to": "(컨테이너 결로)",
+"note": ""
+},
+{
+"id": "t146",
+"group": "2차 실무 용어",
+"from": "혼재할",
+"to": "함께 실을",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "혼재할 수 없는 화물은 격리하며",
+"ex_to": "함께 실을 수 없는 화물은 격리하며",
+"note": ""
+},
+{
+"id": "t147",
+"group": "2차 실무 용어",
+"from": "혼적",
+"to": "함께 적입",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "격리 대상 화물 혼적,",
+"ex_to": "격리 대상 화물 함께 적입,",
+"note": ""
+},
+{
+"id": "t148",
+"group": "2차 실무 용어",
+"from": "습기·혼재 금지",
+"to": "습기 등 화물 간 적합성",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "냄새·습기·혼재 금지",
+"ex_to": "냄새·습기 등 화물 간 적합성",
+"note": ""
+},
+{
+"id": "t149",
+"group": "2차 실무 용어",
+"from": "혼재 불가 화물 격리·혼재",
+"to": "함께 실을 수 없는 화물 격리·화물 간",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "혼재 불가 화물 격리·혼재 적합성",
+"ex_to": "함께 실을 수 없는 화물 격리·화물 간 적합성",
+"note": ""
+},
+{
+"id": "t150",
+"group": "2차 실무 용어",
+"from": "혼재 불가",
+"to": "함께 실을 수 없는",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "혼재 불가 화물 격리",
+"ex_to": "함께 실을 수 없는 화물 격리",
+"note": ""
+},
+{
+"id": "t151",
+"group": "2차 실무 용어",
+"from": "혼재",
+"to": "화물 간",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "혼재 적합성(냄새·습기·먼지)",
+"ex_to": "화물 간 적합성(냄새·습기·먼지)",
+"note": ""
+},
+{
+"id": "t152",
+"group": "2차 실무 용어",
+"from": "혼재 불가 위험물",
+"to": "격리 대상 위험물 함께 적입",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "혼재 불가 위험물 금지",
+"ex_to": "격리 대상 위험물 함께 적입 금지",
+"note": ""
+},
+{
+"id": "t153",
+"group": "2차 실무 용어",
+"from": "총적재중량을",
+"to": "화물 총중량을",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "총적재중량을 포함해 화물을 정확히 설명하고",
+"ex_to": "화물 총중량을 포함해 화물을 정확히 설명하고",
+"note": ""
+},
+{
+"id": "t154",
+"group": "2차 실무 용어",
+"from": "총적재중량을 포함한 화물의 정확한 기술",
+"to": "화물 총중량을 포함한 정확한 화물 명세",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "총적재중량을 포함한 화물의 정확한 기술.",
+"ex_to": "화물 총중량을 포함한 정확한 화물 명세.",
+"note": ""
+},
+{
+"id": "t155",
+"group": "2차 실무 용어",
+"from": "전체 적재 질량",
+"to": "화물 총중량",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "화물의 정확한 명세와 전체 적재 질량",
+"ex_to": "화물의 정확한 명세와 화물 총중량",
+"note": ""
+},
+{
+"id": "t156",
+"group": "2차 실무 용어",
+"from": "화물을 빠짐없이 기술하고 총질량 확정. 화물 기술과",
+"to": "화물 명세를 빠짐없이 적고 총중량 확정. 화물 명세와",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "화물을 빠짐없이 기술하고 총질량 확정. 화물 기술과 검증된 총중량(VGM)",
+"ex_to": "화물 명세를 빠짐없이 적고 총중량 확정. 화물 명세와 검증된 총중량(VGM)",
+"note": ""
+},
+{
+"id": "t157",
+"group": "2차 실무 용어",
+"from": "위험물에 대한 정확한 기술",
+"to": "위험물의 정확한 명세",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "화물과 위험물에 대한 정확한 기술.",
+"ex_to": "화물과 위험물의 정확한 명세.",
+"note": ""
+},
+{
+"id": "t158",
+"group": "2차 실무 용어",
+"from": "총질량",
+"to": "총중량",
+"count": 88,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t159",
+"group": "2차 실무 용어",
+"from": "질량",
+"to": "중량",
+"count": 21,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "허용 적층 질량",
+"ex_to": "허용 적층 중량",
+"note": ""
+},
+{
+"id": "t160",
+"group": "2차 실무 용어",
+"from": "일반 화물(드라이, GP",
+"to": "드라이 컨테이너(GP",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "일반 화물(드라이, GP)",
+"ex_to": "드라이 컨테이너(GP)",
+"note": ""
+},
+{
+"id": "t161",
+"group": "2차 실무 용어",
+"from": "일반 화물컨테이너",
+"to": "드라이 컨테이너",
+"count": 5,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t162",
+"group": "2차 실무 용어",
+"from": "일반 화물",
+"to": "드라이",
+"count": 2,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "일반 화물 컨테이너",
+"ex_to": "드라이 컨테이너",
+"note": ""
+},
+{
+"id": "t163",
+"group": "2차 실무 용어",
+"from": "일반",
+"to": "드라이",
+"count": 6,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "일반 컨테이너",
+"ex_to": "드라이 컨테이너",
+"note": ""
+},
+{
+"id": "t164",
+"group": "2차 실무 용어",
+"from": "산적 물질",
+"to": "벌크 화물",
+"count": 2,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "§9.5 산적 물질",
+"ex_to": "§9.5 벌크 화물",
+"note": ""
+},
+{
+"id": "t165",
+"group": "2차 실무 용어",
+"from": "산적",
+"to": "벌크",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "고체 산적 화물로 인한",
+"ex_to": "고체 벌크 화물로 인한",
+"note": ""
+},
+{
+"id": "t166",
+"group": "2차 실무 용어",
+"from": "산적",
+"to": "벌크 여부",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "중량·치수·산적)",
+"ex_to": "중량·치수·벌크 여부)",
+"note": ""
+},
+{
+"id": "t167",
+"group": "2차 실무 용어",
+"from": "산적화물",
+"to": "벌크 화물",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "액체·고체 산적화물",
+"ex_to": "액체·고체 벌크 화물",
+"note": ""
+},
+{
+"id": "t168",
+"group": "2차 실무 용어",
+"from": "산적인가를",
+"to": "벌크 화물인가를",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "산적인가를 봅니다",
+"ex_to": "벌크 화물인가를 봅니다",
+"note": ""
+},
+{
+"id": "t169",
+"group": "2차 실무 용어",
+"from": "컨테이너를 주문할",
+"to": "선사에 컨테이너를 요청할",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "컨테이너를 주문할 때",
+"ex_to": "선사에 컨테이너를 요청할 때",
+"note": ""
+},
+{
+"id": "t170",
+"group": "2차 실무 용어",
+"from": "밴",
+"to": "스트래들",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "밴 캐리어·리치스태커",
+"ex_to": "스트래들 캐리어·리치스태커",
+"note": ""
+},
+{
+"id": "t171",
+"group": "2차 실무 용어",
+"from": "크레인·컨테이너 브리지로",
+"to": "크레인(안벽 크레인 등)으로",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "크레인·컨테이너 브리지로 드는 CTU",
+"ex_to": "크레인(안벽 크레인 등)으로 드는 CTU",
+"note": ""
+},
+{
+"id": "t172",
+"group": "2차 실무 용어",
+"from": "굄목",
+"to": "고임목",
+"count": 3,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t173",
+"group": "2차 실무 용어",
+"from": "연결판",
+"to": "도크 플레이트",
+"count": 2,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t174",
+"group": "2차 실무 용어",
+"from": "운송주선인",
+"to": "포워더",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "운송주선인·운송인에게 알려야",
+"ex_to": "포워더·운송인에게 알려야",
+"note": ""
+},
+{
+"id": "t175",
+"group": "2차 실무 용어",
+"from": "해운선사",
+"to": "선사",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "해운선사)",
+"ex_to": "선사)",
+"note": ""
+},
+{
+"id": "t176",
+"group": "2차 실무 용어",
+"from": "머리 보호대를",
+"to": "헤드가드를",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "낮은 머리 보호대를",
+"ex_to": "낮은 헤드가드를",
+"note": ""
+},
+{
+"id": "t177",
+"group": "2차 실무 용어",
+"from": "마당에",
+"to": "야드에",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "마당에 두든",
+"ex_to": "야드에 두든",
+"note": ""
+},
+{
+"id": "t178",
+"group": "2차 실무 용어",
+"from": "지붕 활대",
+"to": "루프 보우",
+"count": 2,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t179",
+"group": "2차 실무 용어",
+"from": "선적자(+particle)",
+"to": "송하인",
+"count": 28,
+"cats": "위험물",
+"files": [
+"dg-docs/case-litigation.html",
+"dg-library.js"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t180",
+"group": "2차 실무 용어",
+"from": "혼재",
+"to": "빌드업",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-accident.html"
+],
+"ex_from": "혼재(build-up) 작업자의",
+"ex_to": "빌드업(build-up) 작업자의",
+"note": ""
+},
+{
+"id": "t181",
+"group": "2차 실무 용어",
+"from": "탁송",
+"to": "발송",
+"count": 2,
+"cats": "EU Battery · 위험물",
+"files": [
+"battery-docs/w-recitals.html",
+"dg-docs/dg-rules.html"
+],
+"ex_from": "위험물의 탁송·운송 또는",
+"ex_to": "위험물의 발송·운송 또는",
+"note": ""
+},
+{
+"id": "t182",
+"group": "2차 실무 용어",
+"from": "shore-side",
+"to": "shore-based",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/dg-rules.html"
+],
+"ex_from": "(shore-side personnel)",
+"ex_to": "(shore-based personnel)",
+"note": ""
+},
+{
+"id": "t183",
+"group": "2차 실무 용어",
+"from": "위험물 적재 통보",
+"to": "기장 통보서",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-accident.html"
+],
+"ex_from": "위험물 적재 통보(NOTOC)",
+"ex_to": "기장 통보서(NOTOC)",
+"note": ""
+},
+{
+"id": "t184",
+"group": "2차 실무 용어",
+"from": "친숙화",
+"to": "인식",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/dg-forwarder.html"
+],
+"ex_from": "일반 친숙화 교육",
+"ex_to": "일반 인식 교육",
+"note": ""
+},
+{
+"id": "t185",
+"group": "2차 실무 용어",
+"from": "발취",
+"to": "발하",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-icc.html"
+],
+"ex_from": "<td>도난·발취·불착</td>",
+"ex_to": "<td>도난·발하·불착</td>",
+"note": ""
+},
+{
+"id": "t186",
+"group": "2차 실무 용어",
+"from": "Master B/L 지시서에",
+"to": "선사에 낸 선적지시서(SI, Master B/L 작성용)에",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-litigation.html"
+],
+"ex_from": "BDP가 Master B/L 지시서에",
+"ex_to": "BDP가 선사에 낸 선적지시서(SI, Master B/L 작성용)에",
+"note": ""
+},
+{
+"id": "t187",
+"group": "2차 실무 용어",
+"from": "<td>혼적 화물의 적입",
+"to": "<td>여러 품목을 함께 적입한 화물의",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-accident.html"
+],
+"ex_from": "<td>혼적 화물의 적입 내용 확인</td>",
+"ex_to": "<td>여러 품목을 함께 적입한 화물의 내용 확인</td>",
+"note": ""
+},
+{
+"id": "t188",
+"group": "2차 실무 용어",
+"from": "잡화 혼적처럼",
+"to": "잡화를 함께 적입한 컨테이너처럼",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-accident.html"
+],
+"ex_from": "중고차·잡화 혼적처럼",
+"ex_to": "중고차·잡화를 함께 적입한 컨테이너처럼",
+"note": ""
+},
+{
+"id": "t189",
+"group": "2차 실무 용어",
+"from": "잡화 혼적",
+"to": "잡화를 함께 적입한",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-inspection.html"
+],
+"ex_from": "중고차·이삿짐·잡화 혼적 컨테이너는",
+"ex_to": "중고차·이삿짐·잡화를 함께 적입한 컨테이너는",
+"note": ""
+},
+{
+"id": "t190",
+"group": "2차 실무 용어",
+"from": "혼적",
+"to": "여러 품목을 함께 적입한",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-inspection.html"
+],
+"ex_from": "중고차·이삿짐·혼적 화물은",
+"ex_to": "중고차·이삿짐·여러 품목을 함께 적입한 화물은",
+"note": ""
+},
+{
+"id": "t191",
+"group": "2차 실무 용어",
+"from": "영상 18도를 영하 18도로:",
+"to": "+18℃를 -18℃로:",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "사례 12. 영상 18도를 영하 18도로:",
+"ex_to": "사례 12. +18℃를 -18℃로:",
+"note": ""
+},
+{
+"id": "t192",
+"group": "2차 실무 용어",
+"from": "영상 18도를",
+"to": "+18℃를",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "영상 18도를 유지해 달라고",
+"ex_to": "+18℃를 유지해 달라고",
+"note": ""
+},
+{
+"id": "t193",
+"group": "2차 실무 용어",
+"from": "영하 18도로",
+"to": "-18℃로",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "영하 18도로 설정해 달라고",
+"ex_to": "-18℃로 설정해 달라고",
+"note": ""
+},
+{
+"id": "t194",
+"group": "2차 실무 용어",
+"from": "영하 18도가 영상 18도로:",
+"to": "-18℃가 +18℃로:",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "사례 14. 영하 18도가 영상 18도로:",
+"ex_to": "사례 14. -18℃가 +18℃로:",
+"note": ""
+},
+{
+"id": "t195",
+"group": "2차 실무 용어",
+"from": "영상 18도를 영하 18도로",
+"to": "+18℃를 -18℃로",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-uninsurable.html"
+],
+"ex_from": "(영상 18도를 영하 18도로 설정)",
+"ex_to": "(+18℃를 -18℃로 설정)",
+"note": ""
+},
+{
+"id": "t196",
+"group": "2차 실무 용어",
+"from": "영하 18도",
+"to": "-18℃",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/case-litigation.html"
+],
+"ex_from": "영하 18도 냉동 컨테이너로",
+"ex_to": "-18℃ 냉동 컨테이너로",
+"note": ""
+},
+{
+"id": "t197",
+"group": "2차 실무 용어",
+"from": "화씨 31°F",
+"to": "31°F",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "대개 화씨 31°F(약 -0.6℃)",
+"ex_to": "대개 31°F(약 -0.6℃)",
+"note": ""
+},
+{
+"id": "t198",
+"group": "2차 실무 용어",
+"from": "하우스 운송증권",
+"to": "House B/L·House AWB",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-carrier-liability.html"
+],
+"ex_from": "하우스 운송증권 발행",
+"ex_to": "House B/L·House AWB 발행",
+"note": ""
+},
+{
+"id": "t199",
+"group": "2차 실무 용어",
+"from": "하우스 선하증권의",
+"to": "House B/L의",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-carrier-liability.html"
+],
+"ex_from": "하우스 선하증권의 발행자 명의",
+"ex_to": "House B/L의 발행자 명의",
+"note": ""
+},
+{
+"id": "t200",
+"group": "2차 실무 용어",
+"from": "하우스 선하증권(House B/L)이나 하우스 항공화물운송장(House AWB)을",
+"to": "House B/L이나 House AWB를",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-carrier-liability.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t201",
+"group": "2차 실무 용어",
+"from": "하우스 서류",
+"to": "House B/L·House AWB",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-carrier-liability.html"
+],
+"ex_from": "하우스 서류 발행의 실무",
+"ex_to": "House B/L·House AWB 발행의 실무",
+"note": ""
+},
+{
+"id": "t202",
+"group": "2차 실무 용어",
+"from": "<b>하우스 선하증권의",
+"to": "<b>House B/L의",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-forwarder.html"
+],
+"ex_from": "<b>하우스 선하증권의 발행자 명의,",
+"ex_to": "<b>House B/L의 발행자 명의,",
+"note": ""
+},
+{
+"id": "t203",
+"group": "2차 실무 용어",
+"from": "보험조합이",
+"to": "P&amp;I 클럽 등이",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "보험조합이 공개한 온도유지 화물 사고",
+"ex_to": "P&amp;I 클럽 등이 공개한 온도유지 화물 사고",
+"note": ""
+},
+{
+"id": "t204",
+"group": "2차 실무 용어",
+"from": "보험조합(P&amp;I",
+"to": "상호보험(P&amp;I 클럽",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "운송 관련 보험조합(P&amp;I, 대리점 배상책임보험)이",
+"ex_to": "운송 관련 상호보험(P&amp;I 클럽, 대리점 배상책임보험)이",
+"note": ""
+},
+{
+"id": "t205",
+"group": "2차 실무 용어",
+"from": "보험조합",
+"to": "클럽",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "스웨덴 P&amp;I 보험조합(The Swedish Club)",
+"ex_to": "스웨덴 P&amp;I 클럽(The Swedish Club)",
+"note": ""
+},
+{
+"id": "t206",
+"group": "2차 실무 용어",
+"from": "보험조합의",
+"to": "P&amp;I 클럽의",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "판결이 아닌 보험조합의 사고 사례",
+"ex_to": "판결이 아닌 P&amp;I 클럽의 사고 사례",
+"note": ""
+},
+{
+"id": "t207",
+"group": "2차 실무 용어",
+"from": "칠레드",
+"to": "냉장(chilled)",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-cases.html"
+],
+"ex_from": "칠레드 소고기가 냉동된 경우",
+"ex_to": "냉장(chilled) 소고기가 냉동된 경우",
+"note": ""
+},
+{
+"id": "t208",
+"group": "2차 실무 용어",
+"from": "수하",
+"to": "인도",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-claims.html"
+],
+"ex_from": "통지 기한이 수하 후 즉시~수일로 짧음",
+"ex_to": "통지 기한이 인도 후 즉시~수일로 짧음",
+"note": ""
+},
+{
+"id": "t209",
+"group": "2차 실무 용어",
+"from": "자가중합으로",
+"to": "자기중합으로",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-general-average.html"
+],
+"ex_from": "화물의 자가중합으로",
+"ex_to": "화물의 자기중합으로",
+"note": ""
+},
+{
+"id": "t210",
+"group": "2차 실무 용어",
+"from": "<td>Sanctions",
+"to": "<td>Sanction",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-icc.html"
+],
+"ex_from": "<td>Sanctions Limitation and Exclusion Clau",
+"ex_to": "<td>Sanction Limitation and Exclusion Clau",
+"note": ""
+},
+{
+"id": "t211",
+"group": "2차 실무 용어",
+"from": "창고 간",
+"to": "창고간",
+"count": 1,
+"cats": "적하보험",
+"files": [
+"insurance-docs/ins-icc.html"
+],
+"ex_from": "ICC와 같은 창고 간 방식",
+"ex_to": "ICC와 같은 창고간 방식",
+"note": ""
+},
+{
+"id": "t212",
+"group": "2차 실무 용어",
+"from": "제9급",
+"to": "9급",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/kr-small.html"
+],
+"ex_from": "UN 분류에서 제9급 위험물이지만",
+"ex_to": "UN 분류에서 9급 위험물이지만",
+"note": ""
+},
+{
+"id": "t213",
+"group": "2차 실무 용어",
+"from": "포장화물",
+"to": "포장물",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/kr-small.html"
+],
+"ex_from": "<td>내장용기 1개와 포장화물 1개</td>",
+"ex_to": "<td>내장용기 1개와 포장물 1개</td>",
+"note": ""
+},
+{
+"id": "t214",
+"group": "2차 실무 용어",
+"from": "<td>Division 6.1",
+"to": "<td>6.1급",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/dg-msds.html"
+],
+"ex_from": "<td>Division 6.1 아님.",
+"ex_to": "<td>6.1급 아님.",
+"note": ""
+},
+{
+"id": "t215",
+"group": "2차 실무 용어",
+"from": "물품성 위험물은 SDS에 드러나지 않을 수 있으므로 화물의 실물 구성을 확인합니다",
+"to": "물품(article) 형태의 위험물은 SDS에 드러나지 않을 수 있으므로 화주에게 구성품 확인서를 받습니다",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/kr-mismatch.html"
+],
+"ex_from": "같은 물품성 위험물은 SDS에 드러나지 않을 수 있으므로 화물의 실물 구성을 확인합니다.",
+"ex_to": "같은 물품(article) 형태의 위험물은 SDS에 드러나지 않을 수 있으므로 화주에게 구성품 확인서를 받습니다.",
+"note": ""
+},
+{
+"id": "t216",
+"group": "2차 실무 용어",
+"from": "<th>건조",
+"to": "<th>드라이",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-korea-storage.html"
+],
+"ex_from": "<th>건조(Dry)</th>",
+"ex_to": "<th>드라이(Dry)</th>",
+"note": ""
+},
+{
+"id": "t217",
+"group": "2차 실무 용어",
+"from": "건조",
+"to": "드라이",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-sea-charges.html"
+],
+"ex_from": "한국 THC(20피트·40피트 건조)는",
+"ex_to": "한국 THC(20피트·40피트 드라이)는",
+"note": ""
+},
+{
+"id": "t218",
+"group": "2차 실무 용어",
+"from": "Demurrage",
+"to": "체화료(항만시설사용료)",
+"count": 1,
+"cats": "Charges",
+"files": [
+"charges-library.js"
+],
+"ex_from": "부두 Demurrage 납부 의무자",
+"ex_to": "부두 체화료(항만시설사용료) 납부 의무자",
+"note": ""
+},
+{
+"id": "t219",
+"group": "2차 실무 용어",
+"from": "화주 각서",
+"to": "면책각서",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-release.html"
+],
+"ex_from": "화주 각서(LOI)를 받고",
+"ex_to": "면책각서(LOI)를 받고",
+"note": ""
+},
+{
+"id": "t220",
+"group": "2차 실무 용어",
+"from": "<th>화주 각서",
+"to": "<th>면책각서",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-release.html"
+],
+"ex_from": "<th>화주 각서(LOI, Letter of Indemnity)</th>",
+"ex_to": "<th>면책각서(LOI, Letter of Indemnity)</th>",
+"note": ""
+},
+{
+"id": "t221",
+"group": "2차 실무 용어",
+"from": "봉인(Seal)해서",
+"to": "씰(Seal)을 채워",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-basics.html"
+],
+"ex_from": "화주가 직접 짐을 싣고 봉인(Seal)해서 넘기므로",
+"ex_to": "화주가 직접 짐을 싣고 씰(Seal)을 채워 넘기므로",
+"note": ""
+},
+{
+"id": "t222",
+"group": "2차 실무 용어",
+"from": "예약하면",
+"to": "부킹하면",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-cases.html"
+],
+"ex_from": "포워더가 자기 이름으로 선사에 예약하면",
+"ex_to": "포워더가 자기 이름으로 선사에 부킹하면",
+"note": ""
+},
+{
+"id": "t223",
+"group": "2차 실무 용어",
+"from": "예약의",
+"to": "부킹의",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-cases.html"
+],
+"ex_from": "포워더 명의 예약의 책임",
+"ex_to": "포워더 명의 부킹의 책임",
+"note": ""
+},
+{
+"id": "t224",
+"group": "2차 실무 용어",
+"from": "예약한",
+"to": "부킹한",
+"count": 2,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-cases.html"
+],
+"ex_from": "자기 이름으로 예약한 포워더가",
+"ex_to": "자기 이름으로 부킹한 포워더가",
+"note": ""
+},
+{
+"id": "t225",
+"group": "2차 실무 용어",
+"from": "예약으로",
+"to": "부킹으로",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-cases.html"
+],
+"ex_from": "송하인으로 적힌 예약으로",
+"ex_to": "송하인으로 적힌 부킹으로",
+"note": ""
+},
+{
+"id": "t226",
+"group": "2차 실무 용어",
+"from": "<b>예약 명의</b>: 선사 예약",
+"to": "<b>부킹 명의</b>: 선사 부킹",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-dnd.html"
+],
+"ex_from": "<b>예약 명의</b>: 선사 예약 확인서에",
+"ex_to": "<b>부킹 명의</b>: 선사 부킹 확인서에",
+"note": ""
+},
+{
+"id": "t227",
+"group": "2차 실무 용어",
+"from": "예약과",
+"to": "부킹과",
+"count": 1,
+"cats": "Charges",
+"files": [
+"charges-library.js"
+],
+"ex_from": "포워더 명의 예약과",
+"ex_to": "포워더 명의 부킹과",
+"note": ""
+},
+{
+"id": "t228",
+"group": "2차 실무 용어",
+"from": "적재 컨테이너가",
+"to": "적컨테이너가",
+"count": 2,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-korea-storage.html"
+],
+"ex_from": "인도지에 적재 컨테이너가 들어간 날",
+"ex_to": "인도지에 적컨테이너가 들어간 날",
+"note": ""
+},
+{
+"id": "t229",
+"group": "2차 실무 용어",
+"from": "적재",
+"to": "적컨테이너",
+"count": 3,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-korea-storage.html"
+],
+"ex_from": "수입 보관료(적재·빈 컨테이너 공통)",
+"ex_to": "수입 보관료(적컨테이너·빈 컨테이너 공통)",
+"note": ""
+},
+{
+"id": "t230",
+"group": "2차 실무 용어",
+"from": "적재 컨테이너",
+"to": "적컨테이너",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-korea-storage.html"
+],
+"ex_from": "수입 적재 컨테이너 보관료",
+"ex_to": "수입 적컨테이너 보관료",
+"note": ""
+},
+{
+"id": "t231",
+"group": "2차 실무 용어",
+"from": "적재",
+"to": "적입된",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-history.html"
+],
+"ex_from": "적재 컨테이너의 검증된 총중량",
+"ex_to": "적입된 컨테이너의 검증된 총중량",
+"note": ""
+},
+{
+"id": "t232",
+"group": "2차 실무 용어",
+"from": "고르기",
+"to": "트리밍",
+"count": 8,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-choose.html",
+"incoterms-docs/inco-gray.html",
+"incoterms-docs/inco-risk-cost.html"
+],
+"ex_from": "적부·고르기 비용",
+"ex_to": "적부·트리밍 비용",
+"note": ""
+},
+{
+"id": "t233",
+"group": "2차 실무 용어",
+"from": "정리",
+"to": "트리밍",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-rules.html"
+],
+"ex_from": "적부(stowage)·정리(trimming)",
+"ex_to": "적부(stowage)·트리밍(trimming)",
+"note": ""
+},
+{
+"id": "t234",
+"group": "2차 실무 용어",
+"from": "수집",
+"to": "수취",
+"count": 3,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-chart.html",
+"incoterms-docs/inco-rules.html"
+],
+"ex_from": "수집 차량",
+"ex_to": "수취 차량",
+"note": ""
+},
+{
+"id": "t235",
+"group": "2차 실무 용어",
+"from": "수집부터",
+"to": "집화부터",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-rules.html"
+],
+"ex_from": "수집부터 통관까지",
+"ex_to": "집화부터 통관까지",
+"note": ""
+},
+{
+"id": "t236",
+"group": "2차 실무 용어",
+"from": "중개무역상이",
+"to": "중계무역상이",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-special.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t237",
+"group": "2차 실무 용어",
+"from": "중개상",
+"to": "중계무역상",
+"count": 6,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-special.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t238",
+"group": "2차 실무 용어",
+"from": "현지 비용",
+"to": "로컬 차지",
+"count": 3,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-release.html"
+],
+"ex_from": "운임·현지 비용 정산",
+"ex_to": "운임·로컬 차지 정산",
+"note": ""
+},
+{
+"id": "t239",
+"group": "2차 실무 용어",
+"from": "현지 비용이",
+"to": "로컬 차지가",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-release.html"
+],
+"ex_from": "운임과 현지 비용이 정산됐는지",
+"ex_to": "운임과 로컬 차지가 정산됐는지",
+"note": ""
+},
+{
+"id": "t240",
+"group": "2차 실무 용어",
+"from": "추심 결제(D/P, 대금 지급과 서류 교환",
+"to": "지급인도조건(D/P, 대금을 내야 서류를 넘기는 추심",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-cases.html"
+],
+"ex_from": "추심 결제(D/P, 대금 지급과 서류 교환)",
+"ex_to": "지급인도조건(D/P, 대금을 내야 서류를 넘기는 추심)",
+"note": ""
+},
+{
+"id": "t241",
+"group": "2차 실무 용어",
+"from": "서류인도 지급",
+"to": "지급인도조건",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-cases.html"
+],
+"ex_from": "서류인도 지급(D/P)",
+"ex_to": "지급인도조건(D/P)",
+"note": ""
+},
+{
+"id": "t242",
+"group": "2차 실무 용어",
+"from": "누리집에",
+"to": "홈페이지에",
+"count": 4,
+"cats": "Charges · 위험물 · 적하보험",
+"files": [
+"ch-docs/ch-korea-storage.html",
+"ch-docs/ch-sea-charges.html",
+"dg-docs/dg-forwarder.html",
+"insurance-docs/ins-forwarder.html"
+],
+"ex_from": "표준 요율표를 누리집에",
+"ex_to": "표준 요율표를 홈페이지에",
+"note": ""
+},
+{
+"id": "t243",
+"group": "2차 실무 용어",
+"from": "누리집의",
+"to": "홈페이지의",
+"count": 2,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-korea-storage.html",
+"ch-docs/ch-sea-charges.html"
+],
+"ex_from": "선사 누리집의 D&amp;D 계산기",
+"ex_to": "선사 홈페이지의 D&amp;D 계산기",
+"note": ""
+},
+{
+"id": "t244",
+"group": "2차 실무 용어",
+"from": "미신고 비용(MID",
+"to": "오신고 비용(Mis-declaration Charge, MID",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-sea-charges.html"
+],
+"ex_from": "미신고 비용(MID)",
+"ex_to": "오신고 비용(Mis-declaration Charge, MID)",
+"note": ""
+},
+{
+"id": "t245",
+"group": "2차 실무 용어",
+"from": "미작동 냉동 컨테이너(NOR",
+"to": "NOR(Non-Operating Reefer",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-cases.html"
+],
+"ex_from": "미작동 냉동 컨테이너(NOR, 냉동기를 켜지 않고 일반 화물용으로 쓰는 리퍼",
+"ex_to": "NOR(Non-Operating Reefer, 냉동기를 켜지 않고 일반 화물용으로 쓰는 리퍼",
+"note": ""
+},
+{
+"id": "t246",
+"group": "2차 실무 용어",
+"from": "장거리 주 방향(headhaul",
+"to": "헤드홀(headhaul, 물동량이 많은 주 운송 방향",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-sea-charges.html"
+],
+"ex_from": "장거리 주 방향(headhaul)",
+"ex_to": "헤드홀(headhaul, 물동량이 많은 주 운송 방향)",
+"note": ""
+},
+{
+"id": "t247",
+"group": "2차 실무 용어",
+"from": "NVOC(무선박 운송인",
+"to": "NVOCC(무선박운송인",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-special.html"
+],
+"ex_from": "NVOC(무선박 운송인)",
+"ex_to": "NVOCC(무선박운송인)",
+"note": ""
+},
+{
+"id": "t248",
+"group": "2차 실무 용어",
+"from": "포장명세서",
+"to": "패킹리스트",
+"count": 2,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-air-storage.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t249",
+"group": "2차 실무 용어",
+"from": "회사",
+"to": "운송사",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-dnd.html"
+],
+"ex_from": "트럭 회사(motor carrier)",
+"ex_to": "트럭 운송사(motor carrier)",
+"note": ""
+},
+{
+"id": "t250",
+"group": "2차 실무 용어",
+"from": "회사는",
+"to": "운송사는",
+"count": 1,
+"cats": "Charges",
+"files": [
+"ch-docs/ch-dnd.html"
+],
+"ex_from": "계약 관계가 있는 트럭 회사는",
+"ex_to": "계약 관계가 있는 트럭 운송사는",
+"note": ""
+},
+{
+"id": "t251",
+"group": "2차 실무 용어",
+"from": "risk는",
+"to": "위험은",
+"count": 3,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-chart.html"
+],
+"ex_from": "이 칸의 risk는",
+"ex_to": "이 칸의 위험은",
+"note": ""
+},
+{
+"id": "t252",
+"group": "2차 실무 용어",
+"from": "cost가",
+"to": "비용이",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-chart.html"
+],
+"ex_from": "cost가 &#x27;-&#x27;이면",
+"ex_to": "비용이 &#x27;-&#x27;이면",
+"note": ""
+},
+{
+"id": "t253",
+"group": "2차 실무 용어",
+"from": "부두 사용료",
+"to": "부두사용료",
+"count": 3,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-chart.html",
+"incoterms-docs/inco-rules.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t254",
+"group": "2차 실무 용어",
+"from": "처리 비용을",
+"to": "화물처리비(THC)를",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-history.html"
+],
+"ex_from": "터미널 처리 비용을",
+"ex_to": "터미널 화물처리비(THC)를",
+"note": ""
+},
+{
+"id": "t255",
+"group": "2차 실무 용어",
+"from": "표시<",
+"to": "화인<",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-rules.html"
+],
+"ex_from": "<td>점검·포장·표시</td>",
+"ex_to": "<td>점검·포장·화인</td>",
+"note": ""
+},
+{
+"id": "t256",
+"group": "2차 실무 용어",
+"from": "3부",
+"to": "3통",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-vs-awb.html"
+],
+"ex_from": "원본 3부 묶음의 선하증권",
+"ex_to": "원본 3통 묶음의 선하증권",
+"note": ""
+},
+{
+"id": "t257",
+"group": "2차 실무 용어",
+"from": "3부를",
+"to": "3통을",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-vs-awb.html"
+],
+"ex_from": "해상의 B/L은 원본 3부를 발행해",
+"ex_to": "해상의 B/L은 원본 3통을 발행해",
+"note": ""
+},
+{
+"id": "t258",
+"group": "2차 실무 용어",
+"from": "3통의",
+"to": "3부의",
+"count": 2,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-cases.html"
+],
+"ex_from": "에게만 인도해야 하고, 원본 3통의 내용이",
+"ex_to": "에게만 인도해야 하고, 원본 3부의 내용이",
+"note": ""
+},
+{
+"id": "t259",
+"group": "2차 실무 용어",
+"from": "3통",
+"to": "3부",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-cases.html"
+],
+"ex_from": "AWB 원본 3통(운송인용",
+"ex_to": "AWB 원본 3부(운송인용",
+"note": ""
+},
+{
+"id": "t260",
+"group": "2차 실무 용어",
+"from": "3통과",
+"to": "3부와",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-cases.html"
+],
+"ex_from": "원본 3통과 시스템 데이터",
+"ex_to": "원본 3부와 시스템 데이터",
+"note": ""
+},
+{
+"id": "t261",
+"group": "2차 실무 용어",
+"from": "상원",
+"to": "귀족원",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-cases.html"
+],
+"ex_from": "UKHL 11, 영국 상원 2005년",
+"ex_to": "UKHL 11, 영국 귀족원 2005년",
+"note": ""
+},
+{
+"id": "t262",
+"group": "2차 실무 용어",
+"from": "화물선취보증서",
+"to": "수입화물선취보증서",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-cases.html"
+],
+"ex_from": "원본 B/L을 받지 않고 화물선취보증서(L/G)를",
+"ex_to": "원본 B/L을 받지 않고 수입화물선취보증서(L/G)를",
+"note": ""
+},
+{
+"id": "t263",
+"group": "2차 실무 용어",
+"from": "운송취급인",
+"to": "포워더(운송취급인)",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-cases.html"
+],
+"ex_from": "통지처에게 AWB를 건넨 항공 운송취급인.",
+"ex_to": "통지처에게 AWB를 건넨 항공 포워더(운송취급인).",
+"note": ""
+},
+{
+"id": "t264",
+"group": "2차 실무 용어",
+"from": "판매자가",
+"to": "매도인이",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-basics.html"
+],
+"ex_from": "일반적으로 판매자가 주 운송 계약을",
+"ex_to": "일반적으로 매도인이 주 운송 계약을",
+"note": ""
+},
+{
+"id": "t265",
+"group": "2차 실무 용어",
+"from": "구매자가",
+"to": "매수인이",
+"count": 1,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-basics.html"
+],
+"ex_from": "구매자가 맺는 FOB·FCA는",
+"ex_to": "매수인이 맺는 FOB·FCA는",
+"note": ""
+},
+{
+"id": "t266",
+"group": "2차 실무 용어",
+"from": "근무일",
+"to": "영업일",
+"count": 97,
+"cats": "EU Battery",
+"files": [
+"battery-docs/changes.html",
+"battery-docs/checklist.html",
+"battery-docs/timeline.html",
+"battery-docs/w-anx1.html",
+"battery-docs/w-anx6-8.html",
+"battery-docs/w-t2-1a.html",
+"battery-docs/w-t2-1b.html",
+"battery-docs/w-t2-2.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t267",
+"group": "2차 실무 용어",
+"from": "탁송물에",
+"to": "해당 화물에",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html"
+],
+"ex_from": "탁송물에 든 모든 배터리",
+"ex_to": "해당 화물에 든 모든 배터리",
+"note": ""
+},
+{
+"id": "t268",
+"group": "2차 실무 용어",
+"from": "탁송물",
+"to": "해당 화물",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html"
+],
+"ex_from": "탁송물 안의 어떠한 물질이나 장비도",
+"ex_to": "해당 화물 안의 어떠한 물질이나 장비도",
+"note": ""
+},
+{
+"id": "t269",
+"group": "2차 실무 용어",
+"from": "탁송물에",
+"to": "화물에",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html"
+],
+"ex_from": "탁송물에 폐기물이 없다는",
+"ex_to": "화물에 폐기물이 없다는",
+"note": ""
+},
+{
+"id": "t270",
+"group": "2차 실무 용어",
+"from": "탁송물",
+"to": "화물",
+"count": 6,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html",
+"battery-docs/checklist.html",
+"battery-docs/status.html"
+],
+"ex_from": "탁송물 안",
+"ex_to": "화물 안",
+"note": ""
+},
+{
+"id": "t271",
+"group": "2차 실무 용어",
+"from": "적재물의",
+"to": "화물의",
+"count": 4,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html",
+"battery-docs/b-ch8b.html"
+],
+"ex_from": "충분한 포장과 적재물의",
+"ex_to": "충분한 포장과 화물의",
+"note": ""
+},
+{
+"id": "t272",
+"group": "2차 실무 용어",
+"from": "적재물은",
+"to": "화물은",
+"count": 4,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html",
+"battery-docs/status.html"
+],
+"ex_from": "그 적재물은",
+"ex_to": "그 화물은",
+"note": ""
+},
+{
+"id": "t273",
+"group": "2차 실무 용어",
+"from": "<td>적재물",
+"to": "<td>적재 단위",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html"
+],
+"ex_from": "<td>적재물(컨테이너·화물차)마다",
+"ex_to": "<td>적재 단위(컨테이너·화물차)마다",
+"note": ""
+},
+{
+"id": "t274",
+"group": "2차 실무 용어",
+"from": "<li>적재물이",
+"to": "<li>화물이",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html"
+],
+"ex_from": "<li>적재물이 적절히 적층·고정되어",
+"ex_to": "<li>화물이 적절히 적층·고정되어",
+"note": ""
+},
+{
+"id": "t275",
+"group": "2차 실무 용어",
+"from": "적재물",
+"to": "적재 단위",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html"
+],
+"ex_from": "중고 배터리의 모든 적재물(예: 해상 컨테이너 또는 화물차)",
+"ex_to": "중고 배터리의 모든 적재 단위(예: 해상 컨테이너 또는 화물차)",
+"note": ""
+},
+{
+"id": "t276",
+"group": "2차 실무 용어",
+"from": "운송주선인이",
+"to": "운송사가",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/checklist.html"
+],
+"ex_from": "포워더·창고·운송주선인이 확인할 사항",
+"ex_to": "포워더·창고·운송사가 확인할 사항",
+"note": ""
+},
+{
+"id": "t277",
+"group": "2차 실무 용어",
+"from": "운송주선인도",
+"to": "포워더도",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-ch8b.html"
+],
+"ex_from": "운송주선인도 비용 부담 대상이 될 수 있습니다",
+"ex_to": "포워더도 비용 부담 대상이 될 수 있습니다",
+"note": ""
+},
+{
+"id": "t278",
+"group": "2차 실무 용어",
+"from": "운송주선",
+"to": "운송",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/overview.html"
+],
+"ex_from": "포워더·창고·운송주선 실무에서",
+"ex_to": "포워더·창고·운송 실무에서",
+"note": ""
+},
+{
+"id": "t279",
+"group": "2차 실무 용어",
+"from": "포워더가 운송주선인으로",
+"to": "포워더로",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-t5.html"
+],
+"ex_from": "포워더가 운송주선인으로 관여한다면",
+"ex_to": "포워더로 관여한다면",
+"note": ""
+},
+{
+"id": "t280",
+"group": "2차 실무 용어",
+"from": "리퍼",
+"to": "재정비",
+"count": 2,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-ch8a.html"
+],
+"ex_from": "중고·리퍼 배터리를",
+"ex_to": "중고·재정비 배터리를",
+"note": ""
+},
+{
+"id": "t281",
+"group": "2차 실무 용어",
+"from": "크로스독<",
+"to": "크로스도킹<",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/de-nl.html"
+],
+"ex_from": "48시간 크로스독</h3>",
+"ex_to": "48시간 크로스도킹</h3>",
+"note": ""
+},
+{
+"id": "t282",
+"group": "2차 실무 용어",
+"from": "크로스독",
+"to": "크로스도킹",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-library.js"
+],
+"ex_from": "48시간 크로스독 예외",
+"ex_to": "48시간 크로스도킹 예외",
+"note": ""
+},
+{
+"id": "t283",
+"group": "2차 실무 용어",
+"from": "연합 국경, 연합",
+"to": "EU 국경, EU",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/b-anx14.html"
+],
+"ex_from": "출발지, 목적지, 연합 국경, 연합 내 운송 중에",
+"ex_to": "출발지, 목적지, EU 국경, EU 내 운송 중에",
+"note": ""
+},
+{
+"id": "t284",
+"group": "2차 실무 용어",
+"from": "체화",
+"to": "억류",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-t5.html"
+],
+"ex_from": "체화 기간을 포워더가 통제할 수 없으므로",
+"ex_to": "억류 기간을 포워더가 통제할 수 없으므로",
+"note": ""
+},
+{
+"id": "t285",
+"group": "2차 실무 용어",
+"from": "수출세관",
+"to": "수출 세관",
+"count": 7,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-t4.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t286",
+"group": "2차 실무 용어",
+"from": "출국세관",
+"to": "출국 세관",
+"count": 9,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-t4.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t287",
+"group": "2차 실무 용어",
+"from": "관세 코드(HS)",
+"to": "HS 코드",
+"count": 2,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-anx1.html"
+],
+"ex_from": "관세 코드(HS) (Customs code(s) (HS))",
+"ex_to": "HS 코드 (Customs code(s) (HS))",
+"note": ""
+},
+{
+"id": "t288",
+"group": "2차 실무 용어",
+"from": "HS(CN) 코드와",
+"to": "CN 코드(HS 기반 EU 8단위 품목번호)와",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-t7.html"
+],
+"ex_from": "HS(CN) 코드와 폐기물 코드가",
+"ex_to": "CN 코드(HS 기반 EU 8단위 품목번호)와 폐기물 코드가",
+"note": ""
+},
+{
+"id": "t289",
+"group": "2차 실무 용어",
+"from": "UN 운송품명",
+"to": "정식운송품명",
+"count": 2,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-anx1.html"
+],
+"ex_from": "UN 운송품명 (UN Shipping name)",
+"ex_to": "정식운송품명 (UN Shipping name)",
+"note": ""
+},
+{
+"id": "t290",
+"group": "2차 실무 용어",
+"from": "UN 운송품명과",
+"to": "정식운송품명과",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-anx1.html"
+],
+"ex_from": "UN 번호·UN 운송품명과 HS 코드",
+"ex_to": "UN 번호·정식운송품명과 HS 코드",
+"note": ""
+},
+{
+"id": "t291",
+"group": "2차 실무 용어",
+"from": "litre로",
+"to": "리터로",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-anx1.html"
+],
+"ex_from": "kg·litre로 기재",
+"ex_to": "kg·리터로 기재",
+"note": ""
+},
+{
+"id": "t292",
+"group": "2차 실무 용어",
+"from": "litre<",
+"to": "리터<",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-anx6-8.html"
+],
+"ex_from": "<td>kg·litre</td>",
+"ex_to": "<td>kg·리터</td>",
+"note": ""
+},
+{
+"id": "t293",
+"group": "2차 실무 용어",
+"from": "<td>kg/litre<",
+"to": "<td>kg·리터<",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-anx6-8.html"
+],
+"ex_from": "<td>kg/litre</td>",
+"ex_to": "<td>kg·리터</td>",
+"note": ""
+},
+{
+"id": "t294",
+"group": "2차 실무 용어",
+"from": "관리 이전",
+"to": "인계",
+"count": 3,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-anx2.html"
+],
+"ex_from": "관리 이전 때마다의 서명",
+"ex_to": "인계 때마다의 서명",
+"note": ""
+},
+{
+"id": "t295",
+"group": "2차 실무 용어",
+"from": "출입국",
+"to": "출입",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-anx1.html"
+],
+"ex_from": "15 관련 국가와 출입국 지점",
+"ex_to": "15 관련 국가와 출입 지점",
+"note": ""
+},
+{
+"id": "t296",
+"group": "2차 실무 용어",
+"from": "수출업자의",
+"to": "수출자의",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-t8.html"
+],
+"ex_from": "수출업자의 목적지 시설 감사 의무",
+"ex_to": "수출자의 목적지 시설 감사 의무",
+"note": ""
+},
+{
+"id": "t297",
+"group": "2차 실무 용어",
+"from": "혼입 여부를 확인하고",
+"to": "혼입이 없다는 화주 확인서를 받고",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-anx3-4.html"
+],
+"ex_from": "녹색목록 화물이면 오염·이물 혼입 여부를 확인하고,",
+"ex_to": "녹색목록 화물이면 오염·이물 혼입이 없다는 화주 확인서를 받고,",
+"note": ""
+},
+{
+"id": "t298",
+"group": "2차 실무 용어",
+"from": "단계에서",
+"to": "전에 화주에게 포장·적재 사진을 받아",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-t2-5.html"
+],
+"ex_from": "벌크로 쌓은 중고 기기·배터리는 인수 단계에서 확인합니다.",
+"ex_to": "벌크로 쌓은 중고 기기·배터리는 인수 전에 화주에게 포장·적재 사진을 받아 확인합니다.",
+"note": ""
+},
+{
+"id": "t299",
+"group": "2차 실무 용어",
+"from": "적입 전에 확인하고 사진 등으로",
+"to": "화주에게 적입 전 사진을 받아 확인하고",
+"count": 1,
+"cats": "EU Battery",
+"files": [
+"battery-docs/w-t7.html"
+],
+"ex_from": "포장과 적층 상태인지 적입 전에 확인하고 사진 등으로 남겼다",
+"ex_to": "포장과 적층 상태인지 화주에게 적입 전 사진을 받아 확인하고 남겼다",
+"note": ""
+},
+{
+"id": "t300",
+"group": "2차 실무 용어",
+"from": "N kg / N ℃",
+"to": "Nkg / N℃",
+"count": 41,
+"cats": "Air ULD · EU Battery · 적하보험",
+"files": [
+"battery-docs/b-ch1.html",
+"battery-docs/b-recitals-a.html",
+"battery-docs/w-anx6-8.html",
+"battery-docs/w-t2-1a.html",
+"battery-docs/w-t4.html",
+"battery-docs/w-t5.html",
+"insurance-docs/ins-carrier-liability.html",
+"uld-docs/uld-code.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t301",
+"group": "2차 실무 용어",
+"from": "에어 센서</tspan><tspan x=\"90.0\" dy=\"16\" font-weight=\"600\" fill=\"#5f6763\">",
+"to": "에어</tspan><tspan x=\"90.0\" dy=\"16\" font-weight=\"600\" fill=\"#5f6763\">센서",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "fill=\"#2b6cb8\">서플라이 에어 센서</tspan><tspan x=\"90.0\" dy=\"16\" font-weight=\"600\" fill=\"#5f6763\">(supply)</tspan>",
+"ex_to": "fill=\"#2b6cb8\">서플라이 에어</tspan><tspan x=\"90.0\" dy=\"16\" font-weight=\"600\" fill=\"#5f6763\">센서(supply)</tspan>",
+"note": ""
+},
+{
+"id": "t302",
+"group": "2차 실무 용어",
+"from": "누리집",
+"to": "홈페이지",
+"count": 1,
+"cats": "위험물",
+"files": [
+"dg-docs/dg-penalty.html"
+],
+"ex_from": "Maersk 공식 누리집 공지",
+"ex_to": "Maersk 공식 홈페이지 공지",
+"note": ""
+},
+{
+"id": "t303",
+"group": "2차 실무 용어",
+"from": "젠셋를",
+"to": "젠셋을",
+"count": 3,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer-practice.html",
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t304",
+"group": "2차 실무 용어",
+"from": "젠셋가",
+"to": "젠셋이",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "젠셋가 붙는",
+"ex_to": "젠셋이 붙는",
+"note": ""
+},
+{
+"id": "t305",
+"group": "2차 실무 용어",
+"from": "가",
+"to": "이",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-reefer.html"
+],
+"ex_from": "젠셋(genset)가 전원을",
+"ex_to": "젠셋(genset)이 전원을",
+"note": ""
+},
+{
+"id": "t306",
+"group": "2차 실무 용어",
+"from": "<td>액티브은",
+"to": "<td>액티브는",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-code.html"
+],
+"ex_from": "<td>액티브은 외부",
+"ex_to": "<td>액티브는 외부",
+"note": ""
+},
+{
+"id": "t307",
+"group": "2차 실무 용어",
+"from": "플레이트과",
+"to": "플레이트와",
+"count": 1,
+"cats": "CTU Code",
+"files": [
+"ctu-library.js"
+],
+"ex_from": "도크 플레이트과 조명",
+"ex_to": "도크 플레이트와 조명",
+"note": ""
+},
+{
+"id": "t308",
+"group": "2차 실무 용어",
+"from": "조건으로",
+"to": "으로",
+"count": 2,
+"cats": "B/L·AWB",
+"files": [
+"bl-docs/bl-cases.html"
+],
+"ex_from": "지급인도조건(D/P, 대금을 내야 서류를 넘기는 추심) 조건으로",
+"ex_to": "지급인도조건(D/P, 대금을 내야 서류를 넘기는 추심)으로",
+"note": ""
+},
+{
+"id": "t309",
+"group": "2차 실무 용어",
+"from": "내로바디기 화물칸이나 와이드바디기 하부 화물칸은",
+"to": "내로바디 항공기 화물칸이나 와이드바디 항공기 로어덱은",
+"count": 1,
+"cats": "Cold Chain",
+"files": [
+"tc-docs/tc-air-passive.html"
+],
+"ex_from": "",
+"ex_to": "",
+"note": ""
+},
+{
+"id": "t310",
+"group": "2차 실무 용어",
+"from": "을",
+"to": "를",
+"count": 1,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-code.html"
+],
+"ex_from": "IATA 표준 컨투어(contour)을 가리킵니다",
+"ex_to": "IATA 표준 컨투어(contour)를 가리킵니다",
+"note": ""
+},
+{
+"id": "t311",
+"group": "2차 실무 용어",
+"from": "은",
+"to": "는",
+"count": 2,
+"cats": "Air ULD",
+"files": [
+"uld-docs/uld-code.html",
+"uld-docs/uld-overview.html"
+],
+"ex_from": "컨투어(예: 96인치인 A·B·J·V)은",
+"ex_to": "컨투어(예: 96인치인 A·B·J·V)는",
+"note": ""
+},
+{
+"id": "t312",
+"group": "2차 실무 용어",
+"from": "트리밍는",
+"to": "트리밍은",
+"count": 1,
+"cats": "Incoterms",
+"files": [
+"incoterms-docs/inco-gray.html"
+],
+"ex_from": "적부·트리밍는 명시 없음",
+"ex_to": "적부·트리밍은 명시 없음",
+"note": ""
+},
+{
+"id": "p00",
+"group": "결정 필요",
+"from": "양하항 / 양륙항",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "B/L 문서에 섞여 있음. Codex: 실무는 양하항, 양륙항은 상법 인용에만"
+},
+{
+"id": "p01",
+"group": "결정 필요",
+"from": "자체중량 / 자중",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "CTU 문서. Codex는 자체중량"
+},
+{
+"id": "p02",
+"group": "결정 필요",
+"from": "고박점 / 고정점",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "CTU 문서. 지금은 고정점이 다수, Codex는 고박점이 업계 용어"
+},
+{
+"id": "p03",
+"group": "결정 필요",
+"from": "소량위험물(LQ) / 한정수량",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "kr-small은 국내 조례 구간에 소량위험물을 씀. 일괄 변경하면 겹침"
+},
+{
+"id": "p04",
+"group": "결정 필요",
+"from": "억류 / 유치",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "EU 폐기물운송규정 번역의 detained. Codex·검토 모두 유치(관세법 용어) 쪽"
+},
+{
+"id": "p05",
+"group": "결정 필요",
+"from": "온도 일탈 / 온도 이탈",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "Codex: GMP/GDP에서는 일탈이 표준"
+},
+{
+"id": "p06",
+"group": "결정 필요",
+"from": "보상장 / 면책각서 (LOI)",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "지금은 면책각서"
+},
+{
+"id": "p07",
+"group": "결정 필요",
+"from": "봉인 / 씰 (CTU 약 130곳)",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "다른 카테고리는 본문에서 씰. CTU는 그대로 둠"
+},
+{
+"id": "p08",
+"group": "결정 필요",
+"from": "수송·적재·하역 / 운송·상하차",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "EU 폐기물운송규정 번역"
+},
+{
+"id": "p09",
+"group": "결정 필요",
+"from": "주선자 (WSR 선적을 주선하는 자)",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "포워더와 헷갈릴 수 있음. Codex 제안: 선적 주선 책임자"
+},
+{
+"id": "p10",
+"group": "결정 필요",
+"from": "양하협정서 · 반입화물실시명세서",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "적하보험 클레임 문서. Codex 제안: 양하결과보고서 · 화물검사보고서 (출처 확인 필요)"
+},
+{
+"id": "p11",
+"group": "결정 필요",
+"from": "보험인수증(cover note)",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "Codex 제안: 커버노트 또는 보험승낙서"
+},
+{
+"id": "p12",
+"group": "결정 필요",
+"from": "FCL 마감일 (Hapag)",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "Codex 제안: CY 마감일"
+},
+{
+"id": "p13",
+"group": "결정 필요",
+"from": "근무일 → 영업일 (배터리 규정 번역 97곳)",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "이미 바꿈. EU 규정의 working days"
+},
+{
+"id": "p14",
+"group": "결정 필요",
+"from": "영국 상원 → 귀족원",
+"to": "",
+"count": 0,
+"cats": "",
+"files": [],
+"ex_from": "",
+"ex_to": "",
+"note": "이미 바꿈. House of Lords"
+}
+]

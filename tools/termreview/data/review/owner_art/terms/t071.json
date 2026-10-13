@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "CTU Code",
+  "count": 2,
+  "ex_from": "판결과 보도를 Cubestow가 요약한 참고 자료이며",
+  "ex_to": "판결과 보도를 AI가 요약한 참고 자료이며",
+  "files": [
+    "ctu-library.js"
+  ],
+  "from": "Cubestow가",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "AI가",
+  "updatedAt": "2026-10-13T13:50:39.636Z",
+  "verdict": "keep"
+}

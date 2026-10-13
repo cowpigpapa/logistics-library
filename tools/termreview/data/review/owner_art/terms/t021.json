@@ -1,0 +1,20 @@
+{
+  "alt": "",
+  "cats": "Charges · 위험물 · 적하보험",
+  "count": 8,
+  "ex_from": "하우스 B/L",
+  "ex_to": "House B/L",
+  "files": [
+    "ch-docs/ch-sea-charges.html",
+    "dg-docs/dg-penalty.html",
+    "insurance-docs/ins-carrier-liability.html",
+    "insurance-docs/ins-claims.html"
+  ],
+  "from": "하우스",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "House",
+  "updatedAt": "2026-10-13T13:41:27.238Z",
+  "verdict": "keep"
+}

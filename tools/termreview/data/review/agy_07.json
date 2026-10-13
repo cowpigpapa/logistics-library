@@ -1,0 +1,102 @@
+{
+ "t141": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "CTU Code 부속서 3의 대등한 두 축인 컨테이너 결로(Container sweat)와 화물 결로(Cargo sweat)의 개념 대비를 명확히 살린 자연스러운 표현입니다."
+ },
+ "t142": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "부속서 3 §3(Container sweat)의 내용을 다루는 소제목이므로 직역투인 '컨테이너 비'보다 '컨테이너 결로'가 전문 용어로 적합합니다."
+ },
+ "t143": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "7장의 해당 문맥에서 '비'는 외부 강우·우천(Rain)을 의미하며 뒤에 '결로'가 이미 병기되어 있으므로 '비'를 유지해야 중복과 왜곡이 없습니다."
+ },
+ "t144": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "생경한 직역투인 '컨테이너 비' 대신 실무에서 널리 통용되는 '컨테이너 결로(Container sweat)'로 바꾼 것이 자연스럽습니다."
+ },
+ "t145": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "영문 'sweat'을 기계적으로 직역한 '땀'을 해운·물류 실무 표준 용어인 '결로(Sweat/Condensation)'로 올바르게 바로잡았습니다."
+ },
+ "t146": {
+  "verdict": "other",
+  "better": "혼적할 수 없는",
+  "reason": "포워딩에서 LCL 콘솔을 뜻하는 '혼재(Consolidation)'나 구어체인 '함께 실을'보다, CTU 적입 시 공존 불가 화물을 뜻하는 '혼적할 수 없는 화물(Incompatible goods)'이 가장 정확합니다."
+ },
+ "t147": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "격리 대상 화물을 같은 공간에 적재하는 행위는 IMDG Code 및 해상운송 법규상 '혼적(Mixed loading/packing)'이라는 정립된 전문 용어를 써야 합니다."
+ },
+ "t148": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "화물 상호 간 오염 및 반응성을 검토하는 'Cargo compatibility'의 취지를 살려 '화물 간 적합성'으로 매끄럽고 명확하게 정리했습니다."
+ },
+ "t149": {
+  "verdict": "other",
+  "better": "혼적 불가 화물 격리·화물 간 적합성",
+  "reason": "'화물 간 적합성(Cargo compatibility)' 수정은 훌륭하나, 앞부분은 구어체 대신 규정 표준 용어인 '혼적 불가 화물(Incompatible cargoes) 격리'를 쓰는 것이 전문적입니다."
+ },
+ "t150": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "체크리스트 문맥에서 Incompatible goods는 업계 표준 용어인 '혼재 불가 화물(또는 혼적 불가 화물)'로 표기해야 전달력이 명확합니다."
+ },
+ "t151": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "화물 상호 간의 반응과 오염 여부를 검토하는 'Cargo compatibility'의 의미를 전달하기에 '화물 간 적합성'이 가장 적절합니다."
+ },
+ "t152": {
+  "verdict": "other",
+  "better": "격리 대상 위험물 혼적 금지",
+  "reason": "기존 비문을 바로잡았으나, '함께 적입 금지' 대신 IMDG 격리(Segregation) 규정의 공식 용어인 '혼적 금지(Prohibition of mixed loading)'를 사용하는 것이 완성도가 높습니다."
+ },
+ "t153": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "CTU 자중을 포함한 총중량(VGM)과 구별하여 순수 화물만의 무게(Gross mass of the cargo)를 뜻하므로 '화물 총중량'이 정확합니다."
+ },
+ "t154": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "운송 서류 실무에서 Cargo description은 '기술'보다 '명세'가 표준이며, '화물 총중량(Gross mass of cargo)' 표기도 정확합니다."
+ },
+ "t155": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "물리학적 직역투인 '적재 질량' 대신 물류 실무 표준 용어인 '화물 총중량(Gross mass of cargo)'으로 바르게 수정했습니다."
+ },
+ "t156": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "실무 서류 용어인 '화물 명세(Cargo description)'와 '총중량(Gross mass)'을 사용하여 문맥이 정확하고 매끄럽게 개선되었습니다."
+ },
+ "t157": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "위험물 서류(DGD) 실무에서 품명 및 필수 기재 항목을 나타낼 때는 '기술'보다 '명세(Dangerous goods description)'가 표준입니다."
+ },
+ "t158": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "해운 및 SOLAS 협약(VGM)과 국내 선박안전법의 공인 법정 용어는 '총질량'이 아닌 '총중량(Gross mass)'입니다."
+ },
+ "t159": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "물류 및 운송 실무에서는 물리학 용어인 '질량(Mass)' 대신 '중량(Weight)'으로 통일하여 사용하는 것이 맞습니다."
+ },
+ "t160": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "운영자의 표기 원칙(드라이 컨테이너)을 정확히 따랐으며, GP(General Purpose) 컨테이너를 가리키는 실무 표기로 적합합니다."
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Cold Chain",
+  "count": 1,
+  "ex_from": "부킹 확인서와 B/L의",
+  "ex_to": "부킹 확인서와 선하증권(B/L)의",
+  "files": [
+    "tc-docs/tc-cases.html"
+  ],
+  "from": "B/L의",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "선하증권(B/L)의",
+  "updatedAt": "2026-10-13T13:49:27.561Z",
+  "verdict": "keep"
+}

@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Cold Chain",
+  "count": 1,
+  "ex_from": "저온 살균 처리 데이터는 요청 시 세관용 제공",
+  "ex_to": "저온처리 데이터는 요청 시 검역용 제공",
+  "files": [
+    "tc-docs/tc-reefer.html"
+  ],
+  "from": "저온 살균 처리 데이터는 요청 시 세관용",
+  "group": "2차 실무 용어",
+  "memo": "",
+  "note": "",
+  "to": "저온처리 데이터는 요청 시 검역용",
+  "updatedAt": "2026-10-13T10:50:51.049Z",
+  "verdict": "keep"
+}

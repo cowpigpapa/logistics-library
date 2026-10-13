@@ -1,0 +1,132 @@
+t085 tc-docs/tc-reefer-practice.html [ok] 저온장해 → 냉해
+t085 tc-docs/tc-reefer.html [ok] 저온장해 → 냉해
+t085 tc-docs/tc-reefer.html [ok] 저온장해 → 냉해
+t092 tc-docs/tc-cases.html [ok] 웻 아이스(wet ice)로 → 습식 얼음(wet ice)으로
+t093 tc-docs/tc-cases.html [ok] 웻 아이스나 → 습식 얼음이나
+t117 uld-docs/uld-code.html [ok] 운항사에게 → 운항자에게
+t117 uld-docs/uld-overview.html [ok] 운항사에게 → 운항자에게
+t118 uld-docs/uld-overview.html [ok] 운항사가 → 운항자가
+t147 ctu-library.js [ok] 함께 적입 → 혼적
+t187 dg-docs/case-accident.html [ok] 여러 품목을 함께 적입한 화물의 → 혼적 화물의 적입
+t188 dg-docs/case-accident.html [ok] 잡화를 함께 적입한 컨테이너처럼 → 잡화 혼적처럼
+t189 dg-docs/case-inspection.html [ok] 잡화를 함께 적입한 → 잡화 혼적
+t190 dg-docs/case-inspection.html [ok] 여러 품목을 함께 적입한 → 혼적
+t211 insurance-docs/ins-icc.html [ok] 창고간 → 창고 간
+t261 bl-docs/bl-cases.html [ok] 귀족원 → 상원
+t285 battery-docs/w-t4.html [ok] 수출 세관 → 수출세관
+t285 battery-docs/w-t4.html [ok] 수출 세관 → 수출세관
+t285 battery-docs/w-t4.html [ok] 수출 세관 → 수출세관
+t285 battery-docs/w-t4.html [ok] 수출 세관 → 수출세관
+t285 battery-docs/w-t4.html [ok] 수출 세관 → 수출세관
+t285 battery-docs/w-t4.html [ok] 수출 세관 → 수출세관
+t286 battery-docs/w-t4.html [ok] 출국 세관 → 출국세관
+t286 battery-docs/w-t4.html [ok] 출국 세관 → 출국세관
+t286 battery-docs/w-t4.html [ok] 출국 세관 → 출국세관
+t286 battery-docs/w-t4.html [ok] 출국 세관 → 출국세관
+t286 battery-docs/w-t4.html [ok] 출국 세관 → 출국세관
+t286 battery-docs/w-t4.html [ok] 출국 세관 → 출국세관
+t286 battery-docs/w-t4.html [ok] 출국 세관 → 출국세관
+t286 battery-docs/w-t4.html [ok] 출국 세관 → 출국세관
+t013 ctu-library.js [ok] 정식운송품명 → 정식운송품명(PSN)
+t049 incoterms-docs/inco-gray.html [ok] 무료 기간(free time) → 무료 장치 기간(free time)
+t089 tc-docs/tc-reefer.html [ok] USDA 프로브(USDA probe) → USDA 프로브
+t120 uld-docs/uld-code.html [not-found] 액티브(active) 로 → 액티브(active)로
+t146 ctu-library.js [ok] 함께 실을 수 없는 화물은 → 혼적할 수 없는 화물은
+t149 ctu-library.js [ok] 함께 실을 수 없는 화물 격리·화물 간 적합성 → 혼적할 수 없는 화물의 격리·화물 간 적합성
+t150 ctu-library.js [ok] 함께 실을 수 없는 화물 격리 → 혼적할 수 없는 화물 격리
+t150 ctu-library.js [not-found] 함께 실을 수 없는 화물 격리 → 혼적할 수 없는 화물 격리
+t152 ctu-library.js [ok] 격리 대상 위험물 함께 적입 금지 → 격리 대상 위험물 혼적 금지
+t169 ctu-library.js [ok] 선사에 컨테이너를 요청할 → 컨테이너를 요청할
+t203 insurance-docs/ins-cases.html [not-found] P&I 클럽 등이 공개한 → 상호보험조합(P&I 클럽 등)이 공개한
+t205 insurance-docs/ins-cases.html [not-found] P&I 클럽 등이 공개한 → 상호보험조합(P&I 클럽 등)이 공개한
+t204 insurance-docs/ins-cases.html [not-found] 운송 관련 상호보험(P&I 클럽, 대리점 배상책임보험)이 → 운송 관련 상호보험조합과 보험사(P&I 클럽, 대리점 배상책임보험)가
+t206 insurance-docs/ins-cases.html [not-found] P&I 클럽의 사고 사례 → 상호보험조합의 사고 사례
+t215 dg-docs/kr-mismatch.html [ok] 배터리·자석·드라이아이스 같은 물품(article) 형태의 위험물은 → 배터리·자석 같은 물품(article)이나 드라이아이스는
+t223 ch-docs/ch-cases.html [ok] 포워더 명의 부킹의 책임 → 포워더 명의 부킹에 따른 책임
+t231 incoterms-docs/inco-history.html [ok] 적입된 컨테이너의 검증된 총중량 → 화물이 적재된 컨테이너의 검증된 총중량
+t246 ch-docs/ch-sea-charges.html [ok] 장거리 주 방향 TEU당 → 헤드홀 TEU당
+t251 incoterms-docs/inco-chart.html [ok] 이 칸의 위험은 통관을 수행할 책임 → 이 칸은 통관을 수행할 책임
+t251 incoterms-docs/inco-chart.html [ok] 이 칸의 위험은 통관을 수행할 책임 → 이 칸은 통관을 수행할 책임
+t263 bl-docs/bl-cases.html [ok] 항공 포워더(운송취급인) → 항공 포워더
+t279 battery-docs/w-t5.html [ok] 포워더로 관여한다면 → 포워더가 관여한다면
+t284 battery-docs/w-t5.html [ok] 억류 기간을 → 통관 보류 기간을
+t299 battery-docs/w-t7.html [ok] 받아 확인하고 남겼다 → 받아 확인하고 기록해 두었다
+G ch-docs/ch-sea-charges.html ×1 터미널 화물처리비 → 터미널 화물 처리비
+G incoterms-docs/inco-chart.html ×1 터미널 화물처리비 → 터미널 화물 처리비
+G incoterms-docs/inco-choose.html ×1 터미널 화물처리비 → 터미널 화물 처리비
+G incoterms-docs/inco-gray.html ×4 터미널 화물처리비 → 터미널 화물 처리비
+G incoterms-docs/inco-history.html ×1 터미널 화물처리비 → 터미널 화물 처리비
+G incoterms-docs/inco-risk-cost.html ×1 터미널 화물처리비 → 터미널 화물 처리비
+G incoterms-docs/inco-rules.html ×2 터미널 화물처리비 → 터미널 화물 처리비
+G uld-docs/uld-safety.html ×5 고정점 → 고박점
+G ctu-library.js ×82 고정점 → 고박점
+G insurance-docs/ins-uninsurable.html ×4 온도 이탈 → 온도 일탈
+G battery-docs/b-anx14.html ×4 수송·적재·하역 → 운송·적재·하역
+G battery-docs/b-ch8b.html ×3 수송·적재·하역 → 운송·적재·하역
+G battery-docs/checklist.html ×1 수송·적재·하역 → 운송·적재·하역
+G battery-docs/status.html ×1 수송·적재·하역 → 운송·적재·하역
+G battery-docs/w-t2-5.html ×2 수송·적재·하역 → 운송·적재·하역
+G bl-docs/bl-release.html ×1 영국 귀족원 → 영국 상원
+G dg-docs/case-litigation.html ×3 영국 귀족원 → 영국 상원
+G tc-docs/tc-cases.html ×2 애매한 온도 지시 → 모호한 온도 지시
+G tc-library.js ×1 애매한 온도 지시 → 모호한 온도 지시
+G uld-docs/uld-buildup.html ×2 중량·균형 → 중량·평형
+G uld-docs/uld-code.html ×3 중량·균형 → 중량·평형
+G uld-docs/uld-holds.html ×1 중량·균형 → 중량·평형
+G uld-docs/uld-overview.html ×2 중량·균형 → 중량·평형
+G uld-docs/uld-pallets.html ×1 중량·균형 → 중량·평형
+G uld-docs/uld-safety.html ×4 중량·균형 → 중량·평형
+G ch-docs/ch-korea-storage.html ×1 적컨테이너·빈 컨테이너 → 적컨테이너·공컨테이너
+G ch-docs/ch-korea-storage.html ×2 20피트 드라이 컨테이너 → 20ft 컨테이너
+G ch-docs/ch-sea-charges.html ×1 20피트 드라이 컨테이너 → 20ft 컨테이너
+G ch-docs/ch-korea-storage.html ×10 20피트 드라이 → 20ft 컨테이너
+G ch-docs/ch-sea-charges.html ×2 20피트 드라이 → 20ft 컨테이너
+G incoterms-docs/inco-choose.html ×1 Demurrage·Detention·보관료의 원인별 부담과 무료 기간(free time) → Demurrage(체화료)·Detention(지체료)·보관료(Storage)의 원인별 부담과 무료 장치 기간(free time)
+G incoterms-docs/inco-gray.html ×1 7. 지연 비용: Demurrage, Detention, 보관료 → 7. 지연 비용: Demurrage(체화료), Detention(지체료), 보관료(Storage)
+G incoterms-docs/inco-risk-cost.html ×1 컨테이너 총중량 검증(VGM) 계측비 → 검증된 총중량(VGM) 계측비
+G incoterms-docs/inco-history.html ×1 VGM(컨테이너 총중량 검증) → 컨테이너 총중량 검증제도(VGM)
+G incoterms-docs/inco-choose.html ×1 VGM(검증된 총중량) → 검증된 총중량(VGM)
+G-LOI bl-docs/bl-cases.html ×4 면책각서 → 보상장(조사 맞춤)
+G-LOI bl-docs/bl-release.html ×2 면책각서 → 보상장(조사 맞춤)
+G-LOI bl-library.js ×1 면책각서 → 보상장(조사 맞춤)
+G-check 컨테이너 총중량 검증(VGM) 남은 곳: 1
+G-abbr cn-docs/cn-number.html ×1 BIC(국제컨테이너사무국) → 국제컨테이너사무국(BIC)
+G-abbr container-library.js ×3 BIC(국제컨테이너사무국) → 국제컨테이너사무국(BIC)
+G-abbr bl-docs/awb-basics.html ×1 SDR(특별인출권) → 특별인출권(SDR)
+G-abbr bl-docs/bl-vs-awb.html ×1 SDR(특별인출권) → 특별인출권(SDR)
+G-abbr insurance-docs/ins-carrier-liability.html ×1 SDR(특별인출권) → 특별인출권(SDR)
+G-abbr dg-docs/kr-mismatch.html ×1 SDS(물질안전보건자료) → 물질안전보건자료(SDS)
+G-abbr tc-docs/tc-air-passive.html ×1 PCM(상변화물질) → 상변화물질(PCM)
+G-abbr tc-docs/tc-air-passive.html ×1 VIP(진공 단열 패널) → 진공 단열 패널(VIP)
+G-abbr tc-docs/tc-air-passive.html ×1 PUR(경질 폴리우레탄 폼) → 경질 폴리우레탄 폼(PUR)
+G-abbr tc-docs/tc-air-passive.html ×1 EPS(발포 폴리스티렌) → 발포 폴리스티렌(EPS)
+G-abbr tc-docs/tc-basics.html ×1 PIP(패시브 단열 포장) → 패시브 단열 포장(PIP)
+G-abbr bl-docs/bl-special.html ×1 NVOCC(무선박운송인) → 무선박운송인(NVOCC)
+G-abbr bl-docs/bl-special.html ×1 LOI(보상장) → 보상장(LOI)
+G-abbr insurance-docs/ins-icc.html ×1 WA(분손 담보) → 분손 담보(WA)
+G-abbr insurance-docs/ins-icc.html ×1 FPA(단독해손 부담보) → 단독해손 부담보(FPA)
+G-abbr battery-docs/w-t2-5.html ×1 EFTA(유럽자유무역연합) → 유럽자유무역연합(EFTA)
+G-abbr container-library.js ×1 GDV(독일보험협회) → 독일보험협회(GDV)
+first ch-docs/ch-cases.html Demurrage → Demurrage(체화료)
+first ch-docs/ch-dnd.html Demurrage → Demurrage(체화료)
+first ch-docs/ch-korea-storage.html Demurrage → Demurrage(체화료)
+first ch-docs/ch-sea-charges.html Demurrage → Demurrage(체화료)
+first incoterms-docs/inco-risk-cost.html Demurrage → Demurrage(체화료)
+first uld-docs/uld-buildup.html Demurrage → Demurrage(체화료)
+first uld-docs/uld-overview.html Demurrage → Demurrage(체화료)
+first uld-docs/uld-safety.html Demurrage → Demurrage(체화료)
+first ch-docs/ch-cases.html Detention → Detention(지체료)
+first ch-docs/ch-dnd.html Detention → Detention(지체료)
+first ch-docs/ch-korea-storage.html Detention → Detention(지체료)
+first ch-docs/ch-sea-charges.html Detention → Detention(지체료)
+first incoterms-docs/inco-risk-cost.html Detention → Detention(지체료)
+first tc-docs/tc-reefer-practice.html 젠셋 → 젠셋(발전기)
+first tc-docs/tc-reefer.html 젠셋 → 젠셋(발전기)
+first tc-docs/tc-basics.html 서플라이 에어 → 서플라이 에어(급기)
+first tc-docs/tc-cases.html 서플라이 에어 → 서플라이 에어(급기)
+first tc-docs/tc-reefer.html 서플라이 에어 → 서플라이 에어(급기)
+first insurance-docs/ins-uninsurable.html 리턴 에어 → 리턴 에어(환기)
+first tc-docs/tc-basics.html 리턴 에어 → 리턴 에어(환기)
+first tc-docs/tc-cases.html 리턴 에어 → 리턴 에어(환기)
+first tc-docs/tc-reefer-practice.html 리턴 에어 → 리턴 에어(환기)
+first tc-docs/tc-reefer.html 리턴 에어 → 리턴 에어(환기)

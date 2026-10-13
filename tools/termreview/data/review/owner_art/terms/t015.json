@@ -1,0 +1,19 @@
+{
+  "alt": "",
+  "cats": "CTU Code · 위험물",
+  "count": 7,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "ctu-library.js",
+    "dg-docs/case-accident.html",
+    "dg-docs/case-litigation.html"
+  ],
+  "from": "냉동컨테이너",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "냉동 컨테이너",
+  "updatedAt": "2026-10-13T13:40:59.736Z",
+  "verdict": "keep"
+}

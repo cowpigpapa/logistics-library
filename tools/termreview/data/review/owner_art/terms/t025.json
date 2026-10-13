@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "위험물",
+  "count": 1,
+  "ex_from": "입고 전에 SDS로",
+  "ex_to": "입고 전에 물질안전보건자료(SDS)로",
+  "files": [
+    "dg-docs/case-inspection.html"
+  ],
+  "from": "SDS로",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "물질안전보건자료(SDS)로",
+  "updatedAt": "2026-10-13T13:43:00.694Z",
+  "verdict": "keep"
+}

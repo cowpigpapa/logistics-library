@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Air ULD",
+  "count": 1,
+  "ex_from": "ULD에는 \"AKE",
+  "ex_to": "단위탑재용기(ULD)에는 \"AKE",
+  "files": [
+    "uld-docs/uld-code.html"
+  ],
+  "from": "ULD에는",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "단위탑재용기(ULD)에는",
+  "updatedAt": "2026-10-13T13:49:29.285Z",
+  "verdict": "keep"
+}

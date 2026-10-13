@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "적하보험",
+  "count": 2,
+  "ex_from": "몬트리올 협약 책임한도",
+  "ex_to": "몬트리올 협약 책임 한도",
+  "files": [
+    "insurance-library.js"
+  ],
+  "from": "책임한도",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "책임 한도",
+  "updatedAt": "2026-10-13T13:44:34.571Z",
+  "verdict": "keep"
+}

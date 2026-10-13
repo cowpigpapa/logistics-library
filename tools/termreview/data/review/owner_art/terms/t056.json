@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Incoterms",
+  "count": 1,
+  "ex_from": "VGM 계측과 통지를",
+  "ex_to": "VGM(검증된 총중량) 계측과 통지를",
+  "files": [
+    "incoterms-docs/inco-choose.html"
+  ],
+  "from": "VGM",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "VGM(검증된 총중량)",
+  "updatedAt": "2026-10-13T13:48:41.069Z",
+  "verdict": "keep"
+}

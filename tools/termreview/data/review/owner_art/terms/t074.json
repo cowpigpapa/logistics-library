@@ -1,0 +1,21 @@
+{
+  "alt": "급기, 환기 ",
+  "cats": "Cold Chain · 적하보험",
+  "count": 14,
+  "ex_from": "공급·회수 공기 온도",
+  "ex_to": "서플라이·리턴 에어 온도",
+  "files": [
+    "insurance-docs/ins-uninsurable.html",
+    "tc-docs/tc-cases.html",
+    "tc-docs/tc-reefer-practice.html",
+    "tc-docs/tc-reefer.html",
+    "tc-library.js"
+  ],
+  "from": "공급·회수 공기",
+  "group": "2차 실무 용어",
+  "memo": "급기, 환기 ",
+  "note": "",
+  "to": "서플라이·리턴 에어",
+  "updatedAt": "2026-10-13T10:55:14.909Z",
+  "verdict": "other"
+}

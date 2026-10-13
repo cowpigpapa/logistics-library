@@ -1,0 +1,17 @@
+{
+  "alt": "단위탑재용기(ULD)",
+  "cats": "Air ULD",
+  "count": 1,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "uld-docs/uld-overview.html"
+  ],
+  "from": "단위 탑재 용기",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "단위탑재용기",
+  "updatedAt": "2026-10-13T13:47:02.357Z",
+  "verdict": "other"
+}

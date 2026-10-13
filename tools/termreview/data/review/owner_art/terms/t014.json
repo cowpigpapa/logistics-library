@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "CTU Code",
+  "count": 2,
+  "ex_from": "검증된 총질량",
+  "ex_to": "검증된 총중량",
+  "files": [
+    "ctu-library.js"
+  ],
+  "from": "총질량",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "총중량",
+  "updatedAt": "2026-10-13T13:40:58.414Z",
+  "verdict": "keep"
+}

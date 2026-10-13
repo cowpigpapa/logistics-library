@@ -1,0 +1,21 @@
+{
+  "alt": "환기",
+  "cats": "Cold Chain",
+  "count": 23,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "tc-docs/tc-basics.html",
+    "tc-docs/tc-cases.html",
+    "tc-docs/tc-reefer-practice.html",
+    "tc-docs/tc-reefer.html",
+    "tc-library.js"
+  ],
+  "from": "회수 공기",
+  "group": "2차 실무 용어",
+  "memo": "환기",
+  "note": "",
+  "to": "리턴 에어",
+  "updatedAt": "2026-10-13T10:55:17.486Z",
+  "verdict": "other"
+}

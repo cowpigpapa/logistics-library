@@ -1,0 +1,102 @@
+{
+ "t201": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "포워더가 발행하는 운송서류를 해상(House B/L)과 항공(House AWB)으로 명확히 구분하여 실무 용어에 정확히 부합합니다."
+ },
+ "t202": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "대법원 판결 요지의 '하우스 선하증권의 발행자 명의'라는 판결 인용 문구를 임의로 변경한 것이므로 판례 원문 표현대로 되돌려야 합니다."
+ },
+ "t203": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "해상 실무에서 선주 책임보험 기구는 단순 '보험조합'보다 'P&I 클럽(P&I Club)'으로 칭하며, 다양한 상호보험 기구를 포괄하는 'P&I 클럽 등이' 표기가 자연스럽습니다."
+ },
+ "t204": {
+  "verdict": "other",
+  "better": "상호보험조합(P&I 클럽, 대리점 배상책임 클럽)",
+  "reason": "사례를 공개하는 주체는 제도명인 '상호보험'이 아니라 '상호보험조합'이어야 하며, 괄호 안의 병렬도 조직 단위(P&I 클럽, 대리점 배상책임 클럽)로 맞춰야 자연스럽습니다."
+ },
+ "t205": {
+  "verdict": "other",
+  "better": "P&I 클럽(또는 상호보험조합)",
+  "reason": "한국어 실무 문맥에서 '클럽'만 단독으로 쓰면 의미가 모호하므로 문맥에 맞게 'P&I 클럽(P&I Club)' 또는 '상호보험조합'으로 명시해야 합니다."
+ },
+ "t206": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "선주상호보험기구의 비공개 분쟁 사례를 지칭하므로 'P&I 클럽(P&I Club)의'로 표기하는 것이 실무상 가장 정확합니다."
+ },
+ "t207": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "단순 음차인 '칠레드' 대신 표준 실무 용어인 '냉장(chilled)'을 사용하여 뒤의 '냉동'과 대비되는 사고 상황을 명확히 전달합니다."
+ },
+ "t208": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "상법 및 국제운송협약상 화물 손상 통지 기한(Notice of Claim)의 법적 기산점은 '화물의 인도(Delivery)'이므로 '인도'가 정확합니다."
+ },
+ "t209": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "대한화학회 표준 화학술어 및 IMDG Code 등 위험물 운송 분야에서 self-polymerization의 표준 학술·실무 용어는 '자기중합'이 맞습니다."
+ },
+ "t210": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "로이즈 합동적하위원회(JCC)의 공식 협회약관 명칭(JC2010/014)은 복수형인 'Sanctions Limitation and Exclusion Clause'이므로 원래대로 되돌려야 합니다."
+ },
+ "t211": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "적하보험에서 '창고간(Warehouse to Warehouse)'은 하나의 복합 개념어로 붙여 쓰는 것이 실무 관행상 자연스럽습니다."
+ },
+ "t212": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "국제위험물운송규정(UN Model Regulations, IMDG, IATA DGR)의 'Class 9'을 실무 가이드에서 간결하게 '9급 위험물'로 표기하는 것이 자연스럽습니다."
+ },
+ "t213": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "위험물 운송 규정(IMDG Code, IATA DGR) 및 관련 법령에서 'Package'의 공식 기술 표준 용어는 '포장화물'이 아닌 '포장물'입니다."
+ },
+ "t214": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "위험물 운송 실무에서 독성물질 분류(Division 6.1)를 국문으로 간결하게 '6.1급'으로 통칭하므로 문맥상 자연스럽습니다."
+ },
+ "t215": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "UN 규정의 '물품(article)' 개념을 명확히 하고, 포워더가 화물 개봉 검사 대신 화주로부터 확인서를 징구하는 실무 절차를 정확히 반영했습니다."
+ },
+ "t216": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "운영자 원칙에 부합하며, 해운 실무에서 Dry Container는 '건조'가 아닌 '드라이 컨테이너' 또는 '드라이'로 부르는 것이 표준입니다."
+ },
+ "t217": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "운영자 원칙에 부합하며, 선사 부대비용(THC 등) 요율표에서 일반 컨테이너(Dry)를 '건조'가 아닌 '드라이'로 표기하는 것이 실무에 맞습니다."
+ },
+ "t218": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "부두 장치장 보관료는 항만법상 항만시설사용료의 일종인 '체화료'이므로, 선사가 청구하는 Demurrage와 구분하여 수정한 것이 맞습니다."
+ },
+ "t219": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "보증도(Delivery against LOI) 실무에서 LOI(Letter of Indemnity)의 정식 법률 및 업계 표준 용어는 '면책각서'입니다."
+ },
+ "t220": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "해운 및 포워딩 실무에서 LOI(Letter of Indemnity)의 공식 통용 명칭은 '면책각서'이므로 변경된 표기가 정확합니다."
+ }
+}

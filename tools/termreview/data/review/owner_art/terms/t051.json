@@ -1,0 +1,17 @@
+{
+  "alt": "체화료(demurrage), 지체료(detention)",
+  "cats": "Incoterms",
+  "count": 1,
+  "ex_from": "VGM, demurrage·detention은 규칙에 이름이 없습니다",
+  "ex_to": "VGM, 체화료·지체료는 규칙에 이름이 없습니다",
+  "files": [
+    "incoterms-docs/inco-risk-cost.html"
+  ],
+  "from": "demurrage·detention은",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "체화료·지체료는",
+  "updatedAt": "2026-10-13T13:46:46.347Z",
+  "verdict": "other"
+}

@@ -1,0 +1,18 @@
+{
+  "alt": "",
+  "cats": "Charges · Cold Chain",
+  "count": 2,
+  "ex_from": ": B/L 번호",
+  "ex_to": ": 선하증권(B/L) 번호",
+  "files": [
+    "ch-docs/ch-dnd.html",
+    "tc-docs/tc-basics.html"
+  ],
+  "from": "B/L",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "선하증권(B/L)",
+  "updatedAt": "2026-10-13T13:43:41.496Z",
+  "verdict": "keep"
+}

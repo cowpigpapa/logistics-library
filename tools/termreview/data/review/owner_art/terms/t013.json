@@ -1,0 +1,17 @@
+{
+  "alt": "정식운송품명(PSN)",
+  "cats": "CTU Code",
+  "count": 1,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "ctu-library.js"
+  ],
+  "from": "정식 운송품명",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "정식운송품명",
+  "updatedAt": "2026-10-13T13:40:47.283Z",
+  "verdict": "other"
+}

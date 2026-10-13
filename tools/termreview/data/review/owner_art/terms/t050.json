@@ -1,0 +1,17 @@
+{
+  "alt": "체화료(demurrage), 지체료(detention), 보관료(Storage)",
+  "cats": "Incoterms",
+  "count": 1,
+  "ex_from": ">demurrage·detention·보관료<",
+  "ex_to": ">체화료·지체료·보관료<",
+  "files": [
+    "incoterms-docs/inco-gray.html"
+  ],
+  "from": ">demurrage·detention",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": ">체화료·지체료",
+  "updatedAt": "2026-10-13T13:46:14.300Z",
+  "verdict": "other"
+}

@@ -1,0 +1,102 @@
+{
+ "t301": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "콜드체인 리퍼 컨테이너 및 항공 운송에서 공기 온도 감지 센서를 뜻하는 실무 용어로 적절하며, 변경 전후가 동일합니다(Air Sensor)."
+ },
+ "t302": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "글로벌 선사(Maersk) 공식 웹사이트를 가리킬 때 공공기관 순화어인 '누리집'보다 실무 통용어인 '홈페이지(Homepage/Website)'가 훨씬 자연스럽습니다."
+ },
+ "t303": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "냉동 컨테이너용 발전기 세트인 젠셋(Genset)은 받침이 있으므로 목적격 조사를 '를'에서 '을'로 바르게 교정했습니다."
+ },
+ "t304": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "젠셋(Genset)의 받침에 맞추어 주격 조사를 '가'에서 '이'로 올바르게 수정했습니다."
+ },
+ "t305": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "해상 리퍼 컨테이너 공조 제어 실무에서는 Supply Air와 Return Air를 '공급 공기/회수 공기' 대신 '서플라이 에어', '리턴 에어'로 부르는 것이 업계 표준입니다."
+ },
+ "t306": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "능동형 온도제어 컨테이너인 액티브(Active ULD)는 받침이 없으므로 보조사를 '은'에서 '는'으로 바르게 교정했습니다."
+ },
+ "t307": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "플레이트(Plate, CSC Plate 등)는 받침이 없으므로 접속조사 '과'를 '와'로 올바르게 수정했습니다."
+ },
+ "t308": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "추심 결제 D/P(Documents against Payment)의 공인 무역 실무 용어인 '지급인도조건'으로 통일하여 문맥상 정확합니다."
+ },
+ "t309": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공기 명칭을 '내로바디 항공기'로 명확히 정돈하고, 와이드바디 하부 화물칸을 업계 표준 용어인 '로어덱(Lower Deck)'으로 수정하여 전문성을 높였습니다."
+ },
+ "t310": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA ULD 규정상 항공기 화물칸 단면 형상은 '컨투어(Contour)'가 표준이며, 항공사를 가리킬 때도 법령투인 '운항자'보다 실무 통용어인 '운항사(Carrier)'가 자연스럽습니다."
+ },
+ "t311": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공 화물 탑재 규격(IATA ULDR Standard Specification 50/0)의 기술 용어인 '컨투어(Contour)'를 직역인 '윤곽' 대신 사용하여 실무 적합성을 확보했습니다."
+ },
+ "t312": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "산적화물 평탄화 작업인 트리밍(Trimming)은 받침이 있으므로 보조사를 '는'에서 '은'으로 올바르게 수정했습니다."
+ },
+ "p00": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "제시된 문장들은 모두 상법 제857조(양륙항에서의 화물인도) 법 조문 및 법리를 직접 설명하는 문맥이므로 법률 고유 용어인 '양륙항(Port of Discharge)'을 유지하는 것이 맞습니다."
+ },
+ "p01": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공 ULD 및 하역 장비 실무에서 Tare Weight는 '자중'으로 널리 통용되며, 본문의 '자중(tare)' 병기 표기가 직관적이고 정확합니다."
+ },
+ "p02": {
+  "verdict": "other",
+  "better": "고박점",
+  "reason": "IMO CTU Code 및 해상·항공 화물 고박(Lashing/Securing) 실무에서 래싱을 연결하는 체결부는 '고정점'이 아닌 '고박점(Securing/Lashing Point)'이 표준 실무 용어입니다."
+ },
+ "p03": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "국내 소방 조례 구간의 '소량위험물'과 국제 운송 규정(IMDG/IATA)의 '한정수량(Limited Quantity, LQ)'은 법적 근거가 다른 별개 개념이므로 문맥에 따라 현재 표기를 각각 유지해야 합니다."
+ },
+ "p04": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "상법 제807조의 '선장의 유치권(Lien)'과 적하보험 ICC 제6조의 '포획·나포·억류·억지(detainment)'는 각각 공인된 법률 및 약관 표준 번역이므로 현재 문장대로 유지해야 합니다."
+ },
+ "p05": {
+  "verdict": "other",
+  "better": "온도 일탈",
+  "reason": "바이오·의약품 콜드체인(GMP/GDP) 규정상 Temperature Deviation의 공식 표준 용어는 '온도 일탈'이므로, '온도 이탈'을 '온도 일탈'로 통일해야 합니다."
+ },
+ "p06": {
+  "verdict": "other",
+  "better": "면책각서(LOI)",
+  "reason": "Letter of Indemnity(LOI)는 실무 현장에서 고어투인 '보상장' 대신 '면책각서' 또는 '면책각서(LOI)'로 통칭하므로 일관되게 통일하는 것이 타당합니다."
+ },
+ "p07": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IMO CTU Code 공식 국문본 및 대법원 판례 인용문('봉인번호 란')에서는 공인된 법률·행정 용어인 '봉인(Seal)'을 그대로 유지하는 것이 적절합니다."
+ }
+}

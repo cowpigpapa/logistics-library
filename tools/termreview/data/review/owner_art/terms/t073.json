@@ -1,0 +1,19 @@
+{
+  "alt": "",
+  "cats": "Cold Chain",
+  "count": 7,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "tc-docs/tc-reefer-practice.html",
+    "tc-docs/tc-reefer.html",
+    "tc-library.js"
+  ],
+  "from": "저온 살균 처리",
+  "group": "2차 실무 용어",
+  "memo": "",
+  "note": "",
+  "to": "저온처리",
+  "updatedAt": "2026-10-13T10:50:53.156Z",
+  "verdict": "keep"
+}

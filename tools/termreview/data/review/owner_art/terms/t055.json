@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Incoterms",
+  "count": 1,
+  "ex_from": "출발지 THC, wharfage",
+  "ex_to": "출발지 터미널 화물처리비(THC), wharfage",
+  "files": [
+    "incoterms-docs/inco-choose.html"
+  ],
+  "from": "THC",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "터미널 화물처리비(THC)",
+  "updatedAt": "2026-10-13T13:48:47.522Z",
+  "verdict": "keep"
+}

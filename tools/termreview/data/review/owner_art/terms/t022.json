@@ -1,0 +1,17 @@
+{
+  "alt": "터미널 화물 처리비(THC)",
+  "cats": "Charges",
+  "count": 1,
+  "ex_from": "터미널 화물 처리비",
+  "ex_to": "터미널 화물처리비",
+  "files": [
+    "ch-docs/ch-sea-charges.html"
+  ],
+  "from": "화물 처리비",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "화물처리비",
+  "updatedAt": "2026-10-13T13:44:59.228Z",
+  "verdict": "other"
+}

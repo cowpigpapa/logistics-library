@@ -1,0 +1,102 @@
+{
+ "t181": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "국제 운송 규칙(ADR 등) 및 EU 규정의 consignment/dispatch 번역 시 '탁송'은 철도 운송이나 차량 탁송을 연상시켜 부자연스러우며, '발송'이 현대 물류 실무 및 법령 표현상 훨씬 적절합니다."
+ },
+ "t182": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IMDG Code 제1.3장의 공식 명칭이 'Training of shore-based personnel'이므로, 'shore-side'를 'shore-based'로 수정한 것은 국제 협약 원문 용어에 정확히 부합합니다."
+ },
+ "t183": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공안전법 및 IATA DGR 실무에서 NOTOC(Notification to Captain)의 공식 법정·실무 명칭은 '기장 통보서'이므로 변경이 적절합니다."
+ },
+ "t184": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA DGR 및 IMDG Code의 'General awareness/familiarization training'에서 '친숙화'는 어색한 직역투이며, 국내 항공·위험물 교육 규정 및 실무 표준인 '일반 인식 교육'으로 표현하는 것이 맞습니다."
+ },
+ "t185": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "적하보험의 TPND(Theft, Pilferage and Non-Delivery) 담보에서 Pilferage의 정식 보험·법률 실무 용어는 포장을 뜯고 훔치는 '발취(拔取)'입니다. '발하'는 물류 및 보험 실무에 없는 잘못된 표기입니다."
+ },
+ "t186": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "포워더가 Master B/L 발행을 위해 선사에 제출하는 서류는 실무상 '선적지시서(Shipping Instruction, S/I)'로 부르므로, 변경된 표현이 실무 내용을 명확하게 전달합니다."
+ },
+ "t187": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "'혼적 화물(Consolidation Cargo)'은 포워딩 업계의 핵심 표준 용어이므로, 이를 '여러 품목을 함께 적입한 화물'로 길게 풀어쓰는 것은 전문성을 떨어뜨리고 어색합니다."
+ },
+ "t188": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "업계에서 중고차와 일반 잡화를 함께 싣는 형태는 '중고차·잡화 혼적'으로 통칭하며, '컨테이너처럼 ... 화물은'으로 바꾸면 수식 관계와 문장 호응도 어색해집니다."
+ },
+ "t189": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "'혼적 컨테이너(Consolidated Container)'는 포워딩 및 세관 보세화물 관리에서 널리 쓰이는 표준 실무 용어이므로, 원래의 '혼적 컨테이너'가 훨씬 간결하고 정확합니다."
+ },
+ "t190": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "'혼적 화물(Consolidation Cargo)'은 관세법 및 포워딩 실무의 기본 용어이므로, 불필요하게 풀어쓴 문장보다 원래의 '혼적 화물'이 훨씬 명확합니다."
+ },
+ "t191": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "리퍼 컨테이너(Reefer) 운송 실무 및 소송 요약 소제목에서 부호와 단위를 병기한 '+18℃를 -18℃로' 표기가 훨씬 직관적이고 시인성이 높습니다."
+ },
+ "t192": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "리퍼 화물 운송 지시(Set point) 시 영하와의 혼동을 방지하기 위해 양수 부호와 단위를 붙인 '+18℃'로 표기하는 것이 물류 실무에 부합합니다."
+ },
+ "t193": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "냉동 컨테이너 설정 온도 지시를 기호('-18℃')로 표기하여 실무적이며 문맥상 깔끔합니다."
+ },
+ "t194": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "소송 사례 소제목으로서 '-18℃가 +18℃로' 표기가 부호와 단위의 대조를 명확히 보여주어 가독성이 우수합니다."
+ },
+ "t195": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "온도 설정 실수 내역을 괄호 안에서 '+18℃를 -18℃로'로 간결하게 표현하여 문맥에 잘 맞습니다."
+ },
+ "t196": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "온도제어가 필요한 위험물(IMDG Code Class 5.2 유기과산화물)의 운송 온도 표기 관례에 맞게 '-18℃'로 간결하고 정확하게 표기되었습니다."
+ },
+ "t197": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "단위 기호(°F) 자체에 화씨 의미가 포함되어 있어 중복된 '화씨'를 삭제하고 뒤에 나오는 '32°F'와 표기 통일성을 맞춘 것이 적절합니다."
+ },
+ "t198": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "실무에 없는 조어인 '하우스 운송증권' 대신 해상·항공 실무에서 실제로 발행되는 서류인 'House B/L·House AWB'로 명시하여 실무 적합성을 크게 높였습니다."
+ },
+ "t199": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "포워딩 실무에서 '하우스 선하증권'이라는 한영 혼용 표현보다 업계 표준 용어인 'House B/L' 영문 표기를 직접 사용하는 것이 훨씬 자연스럽습니다."
+ },
+ "t200": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "길고 중복되는 괄호 병기 대신 실무 표준 약어인 'House B/L이나 House AWB'로 간결하게 다듬어 가독성과 전문성이 모두 향상되었습니다."
+ }
+}

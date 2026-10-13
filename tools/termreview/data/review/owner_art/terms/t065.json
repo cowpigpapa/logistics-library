@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Air ULD",
+  "count": 1,
+  "ex_from": "어떤 ULD가",
+  "ex_to": "어떤 단위탑재용기(ULD)가",
+  "files": [
+    "uld-docs/uld-holds.html"
+  ],
+  "from": "ULD가",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "단위탑재용기(ULD)가",
+  "updatedAt": "2026-10-13T13:49:30.517Z",
+  "verdict": "keep"
+}

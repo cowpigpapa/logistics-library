@@ -1,0 +1,17 @@
+{
+  "alt": "체화료(demurrage), 지체료(detention), 보관료(Storage)",
+  "cats": "Incoterms",
+  "count": 1,
+  "ex_from": "7. 지연 비용: demurrage, detention, 보관료",
+  "ex_to": "7. 지연 비용: 체화료(demurrage), 지체료(detention), 보관료",
+  "files": [
+    "incoterms-docs/inco-gray.html"
+  ],
+  "from": "demurrage, detention",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "체화료(demurrage), 지체료(detention)",
+  "updatedAt": "2026-10-13T13:45:38.000Z",
+  "verdict": "other"
+}

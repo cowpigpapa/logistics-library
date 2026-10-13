@@ -1,0 +1,102 @@
+{
+ "t041": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "액티브 컨테이너가 항공용 Unit Load Device의 한 종류임을 설명하는 문장이므로 ‘단위탑재용기(ULD)’가 정확하고 이해하기 쉽습니다."
+ },
+ "t042": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "리퍼 실무의 PTI는 Pre-Trip Inspection을 뜻하므로 ‘사전 점검(PTI)’이 문맥에 맞습니다."
+ },
+ "t043": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "‘ULD 태그(ULD tag)’는 항공화물 실무에서 그대로 쓰는 명칭입니다. ‘단위탑재용기 태그’로 풀면 오히려 익숙한 고유 명칭이 흐려집니다."
+ },
+ "t044": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "국제운송법과 협약 해설에서는 ‘운송인의 책임한도’처럼 ‘책임한도’를 붙여 쓰는 것이 정착된 법률 용어입니다."
+ },
+ "t045": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "제조사가 제공하는 SDS는 Safety Data Sheet, 즉 물질안전보건자료이므로 풀어 쓴 표현이 정확합니다."
+ },
+ "t046": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "THC는 Terminal Handling Charge이며 국내 선사·포워더 청구 항목에서 ‘터미널 화물처리비’로 널리 표기합니다."
+ },
+ "t047": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "두 문장 모두 THC를 가리키므로 ‘터미널 화물처리비’가 의미를 분명히 합니다. 일반적인 handling charge와도 구별됩니다."
+ },
+ "t048": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "운영 원칙대로 컨테이너 free time 관련 비용은 Demurrage·Detention으로 표기해야 합니다. ‘체화료·지체료’는 다른 법률상 비용과 혼동될 수 있습니다."
+ },
+ "t049": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "Free time에는 터미널 내 장치뿐 아니라 컨테이너 반납과 관련된 기간도 포함될 수 있으므로 ‘무료 장치 기간’보다 ‘무료 기간’이 포괄적이고 정확합니다."
+ },
+ "t050": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "운영 원칙에 따라 Demurrage·Detention은 영어 명칭을 유지해야 하며, ‘체화료·지체료’로 바꾸면 비용의 적용 구간이 불명확해집니다."
+ },
+ "t051": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "컨테이너 초과사용 비용을 설명하는 문맥에서는 Demurrage·Detention을 그대로 쓰는 것이 실무상 명확합니다."
+ },
+ "t052": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공 분야에서 Unit Load Device의 우리말 명칭은 ‘단위탑재용기’로 붙여 쓰므로 변경한 표현이 적절합니다."
+ },
+ "t053": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "D/O의 정식 명칭인 ‘화물인도지시서’는 무역·물류 문서명으로 붙여 쓰는 것이 일반적입니다."
+ },
+ "t054": {
+  "verdict": "other",
+  "better": "Demurrage·Detention·보관료의 원인별 부담과 무료 기간(free time)을",
+  "reason": "‘무료 기간’으로 고친 부분은 적절하지만, Demurrage·Detention을 ‘체화료·지체료’로 번역한 부분은 운영 원칙과 맞지 않습니다."
+ },
+ "t055": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "비용 부담 체크리스트에서 THC를 처음 제시하거나 독립적으로 제시한다면 ‘터미널 화물처리비(THC)’로 풀어 쓰는 것이 명확합니다."
+ },
+ "t056": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "VGM은 Verified Gross Mass이며 국내 해운 실무에서 ‘검증된 총중량’으로 통용됩니다. 약어의 의미를 함께 밝혀 체크리스트의 이해도도 높아집니다."
+ },
+ "t057": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "위험물 분류와 부킹 정보를 대조하는 자료는 SDS, 즉 물질안전보건자료이므로 변경한 명칭이 정확합니다."
+ },
+ "t058": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "B/L을 처음 접하는 독자도 문서 종류를 알 수 있도록 ‘선하증권(B/L)’으로 풀어 쓴 표현이 자연스럽습니다."
+ },
+ "t059": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "한국어 본문에서 섭씨온도를 ‘85℃’처럼 숫자와 기호를 붙여 쓰는 것은 자연스럽고 의미도 달라지지 않습니다."
+ },
+ "t060": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "출발지 비용을 설명하는 문맥에서 ‘터미널 화물처리비(THC)’라고 풀어 쓰면 Terminal Handling Charge의 의미와 비용 성격이 분명해집니다."
+ }
+}

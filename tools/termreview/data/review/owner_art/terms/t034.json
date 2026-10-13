@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "위험물",
+  "count": 1,
+  "ex_from": "제품별 SDS와",
+  "ex_to": "제품별 물질안전보건자료(SDS)와",
+  "files": [
+    "dg-docs/kr-mismatch.html"
+  ],
+  "from": "SDS와",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "물질안전보건자료(SDS)와",
+  "updatedAt": "2026-10-13T13:43:47.121Z",
+  "verdict": "keep"
+}

@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "적하보험",
+  "count": 1,
+  "ex_from": "Maersk Project Logistics의 하우스 선하증권 약관 5.1.2",
+  "ex_to": "Maersk Project Logistics의 House B/L 약관 5.1.2",
+  "files": [
+    "insurance-docs/ins-carrier-liability.html"
+  ],
+  "from": "하우스 선하증권",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "House B/L",
+  "updatedAt": "2026-10-13T13:43:03.793Z",
+  "verdict": "keep"
+}

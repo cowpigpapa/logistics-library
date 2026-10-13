@@ -1,0 +1,21 @@
+{
+  "alt": "",
+  "cats": "Charges · 적하보험",
+  "count": 5,
+  "ex_from": "수입 화주는 D/O 발급",
+  "ex_to": "수입 화주는 화물인도지시서(D/O) 발급",
+  "files": [
+    "ch-docs/ch-cases.html",
+    "ch-docs/ch-dnd.html",
+    "ch-docs/ch-korea-storage.html",
+    "ch-docs/ch-sea-charges.html",
+    "insurance-docs/ins-claims.html"
+  ],
+  "from": "D/O",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "화물인도지시서(D/O)",
+  "updatedAt": "2026-10-13T13:40:33.656Z",
+  "verdict": "keep"
+}

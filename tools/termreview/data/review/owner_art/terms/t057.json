@@ -1,0 +1,17 @@
+{
+  "alt": "물질안전보건자료(SDS)",
+  "cats": "적하보험",
+  "count": 1,
+  "ex_from": "낸 안전보건자료(SDS)",
+  "ex_to": "낸 물질안전보건자료(SDS)",
+  "files": [
+    "insurance-docs/ins-uninsurable.html"
+  ],
+  "from": "안전보건자료",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "물질안전보건자료",
+  "updatedAt": "2026-10-13T13:49:00.314Z",
+  "verdict": "other"
+}

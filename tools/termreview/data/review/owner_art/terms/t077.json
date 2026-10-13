@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Cold Chain",
+  "count": 1,
+  "ex_from": "언더슬렁(undermount)형",
+  "ex_to": "언더슬렁(underslung)형",
+  "files": [
+    "tc-docs/tc-reefer.html"
+  ],
+  "from": "undermount",
+  "group": "2차 실무 용어",
+  "memo": "",
+  "note": "",
+  "to": "underslung",
+  "updatedAt": "2026-10-13T10:53:39.431Z",
+  "verdict": "keep"
+}

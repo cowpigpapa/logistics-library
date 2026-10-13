@@ -1,0 +1,102 @@
+{
+ "t161": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "CTU Code의 general cargo container는 실무상 드라이 컨테이너(Dry Container)를 가리키며, 벽 강도 및 축하중 설명 문맥에 정확하고 자연스럽습니다."
+ },
+ "t162": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "문장에서 '드라이 컨테이너(Dry Container)'로 완성되어 실무 용어 및 문맥에 잘 부합합니다."
+ },
+ "t163": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "바꾼 뒤 문장에서 '드라이 컨테이너'로 올바르게 표현되어 문맥상 매끄럽습니다."
+ },
+ "t164": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "CTU Code §9.5의 원문은 'Bulk cargoes'이며, 어색한 직역인 '산적 물질'보다 실무 표준 용어인 '벌크 화물'이 훨씬 자연스럽습니다."
+ },
+ "t165": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "'고체 벌크 화물(Solid bulk cargo)'은 물류 현장에서 널리 쓰이는 표준 표현이며 문맥상 매우 매끄럽습니다."
+ },
+ "t166": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "화물 특성 목록에서 포장 화물과 대비되는 적재 형태를 나타내므로 '벌크 여부'가 문맥을 한결 명확하게 만듭니다."
+ },
+ "t167": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "'액체·고체 벌크 화물(Liquid and solid bulk cargo)'은 포워딩 및 운송 실무에서 일관되게 쓰이는 표준 용어입니다."
+ },
+ "t168": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "CTU 적합성을 판별하는 질문 문맥에서 '산적인가를'보다 '벌크 화물인가를'이 실무적으로 훨씬 직관적입니다."
+ },
+ "t169": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "공컨테이너 수배는 구매 '주문'이 아니라 부킹 시 선사에 장비를 '요청(Request)'하는 것이므로 실무 관행에 정확히 맞습니다."
+ },
+ "t170": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "컨테이너 터미널 야드 이송 장비(Straddle Carrier)의 공식 실무 명칭은 '스트래들 캐리어'이며, 과거 직역투인 '밴'을 바로잡아 적절합니다."
+ },
+ "t171": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "국내 실무에서 쓰지 않는 직역 용어인 '컨테이너 브리지' 대신 '크레인(안벽 크레인 등)'으로 풀어써 독자의 이해도를 높였습니다."
+ },
+ "t172": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "바퀴 구름 방지용 쐐기(Wheel chock)는 운송 및 안전 실무에서 '고임목'으로 널리 통용되므로 바꾼 문장이 자연스럽습니다."
+ },
+ "t173": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "도크와 컨테이너 바닥 사이를 잇는 발판은 물류센터 실무에서 '도크 플레이트(Dock Plate)'라고 부르므로 적절합니다."
+ },
+ "t174": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "CTU Code 지침 설명 문맥에서 freight forwarder를 실무 통칭인 '포워더'로 표기하여 전달력이 좋습니다."
+ },
+ "t175": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "해상운송인을 실무에서는 통상 간결하게 '선사(Shipping Line)'로 부르므로 문맥상 깔끔합니다."
+ },
+ "t176": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "지게차 운전자 상부 보호 구조물(Overhead guard)의 장비 및 산업안전 표준 규격 명칭은 '헤드가드'이므로 적절합니다."
+ },
+ "t177": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "물류 시설에서 도크(dock)와 대비되는 컨테이너 작업 공간은 '야드(yard)'로 칭하는 것이 실무 어휘에 부합합니다."
+ },
+ "t178": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "오픈탑 컨테이너 상부 지지대는 업계 표준으로 '루프 보우(Roof Bow)'라 부르며, 일본식 한자 직역인 '지붕 활대'보다 정확합니다."
+ },
+ "t179": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "헤이그-비스비 규칙 및 해상법상 shipper의 법률·실무 표준 용어는 '송하인'이며, 비표준 직역인 '선적자'를 고친 것은 매우 적절합니다."
+ },
+ "t180": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공 ULD에 화물을 적재하는 build-up 작업은 해상 혼재(consolidation)와 구별되는 항공 실무 용어인 '빌드업'이 정확합니다."
+ }
+}

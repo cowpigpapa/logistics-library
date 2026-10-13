@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Incoterms",
+  "count": 1,
+  "ex_from": "출발지 THC를",
+  "ex_to": "출발지 터미널 화물처리비(THC)를",
+  "files": [
+    "incoterms-docs/inco-chart.html"
+  ],
+  "from": "THC를",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "터미널 화물처리비(THC)를",
+  "updatedAt": "2026-10-13T13:49:06.317Z",
+  "verdict": "keep"
+}

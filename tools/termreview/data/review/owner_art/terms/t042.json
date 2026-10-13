@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Cold Chain",
+  "count": 1,
+  "ex_from": "해상 리퍼의 예약 지시와 PTI는",
+  "ex_to": "해상 리퍼의 예약 지시와 사전 점검(PTI)은",
+  "files": [
+    "tc-docs/tc-basics.html"
+  ],
+  "from": "PTI는",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "사전 점검(PTI)은",
+  "updatedAt": "2026-10-13T13:44:31.071Z",
+  "verdict": "keep"
+}

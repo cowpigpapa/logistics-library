@@ -1,0 +1,19 @@
+{
+  "alt": "터미널 화물 처리비(THC)",
+  "cats": "Incoterms",
+  "count": 6,
+  "ex_from": "터미널 취급비",
+  "ex_to": "터미널 화물처리비",
+  "files": [
+    "incoterms-docs/inco-gray.html",
+    "incoterms-docs/inco-risk-cost.html",
+    "incoterms-docs/inco-rules.html"
+  ],
+  "from": "취급비",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "화물처리비",
+  "updatedAt": "2026-10-13T13:45:11.568Z",
+  "verdict": "other"
+}

@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Charges",
+  "count": 1,
+  "ex_from": "원본 B/L·SWB",
+  "ex_to": "원본 B/L·해상화물운송장(SWB)",
+  "files": [
+    "ch-docs/ch-sea-charges.html"
+  ],
+  "from": "SWB",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "해상화물운송장(SWB)",
+  "updatedAt": "2026-10-13T13:42:54.781Z",
+  "verdict": "keep"
+}

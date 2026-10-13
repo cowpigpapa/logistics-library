@@ -1,0 +1,17 @@
+{
+  "alt": "특별인출권(SDR)",
+  "cats": "B/L·AWB",
+  "count": 1,
+  "ex_from": "포장당 666.67 SDR 또는 kg당 2 SDR 중 큰 금액. 일부",
+  "ex_to": "포장당 666.67 SDR(특별인출권) 또는 kg당 2 SDR 중 큰 금액. 일부",
+  "files": [
+    "bl-docs/bl-vs-awb.html"
+  ],
+  "from": "SDR",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "SDR(특별인출권)",
+  "updatedAt": "2026-10-13T13:44:05.696Z",
+  "verdict": "other"
+}

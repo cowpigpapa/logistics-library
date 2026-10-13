@@ -1,0 +1,102 @@
+{
+ "t101": {
+  "verdict": "other",
+  "better": "운임 적용 중량",
+  "reason": "항공화물의 chargeable weight는 단순한 운임이나 실제 중량이 아니라 운임 산정에 적용하는 중량입니다. 두 문장 모두 \"운임 적용 중량\"으로 쓰는 것이 가장 명확합니다."
+ },
+ "t102": {
+  "verdict": "other",
+  "better": "최소 운임 적용 중량",
+  "reason": "minimum chargeable weight를 뜻하므로 \"최소 운임 중량\"보다 \"최소 운임 적용 중량\"이 요금 산정 기준이라는 뜻을 정확히 전달합니다."
+ },
+ "t103": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "문장은 없지만 IATA의 carrier variations를 가리키는 항목이라면 \"운송인 차이\"보다 \"항공사 예외 규정\"이 실무상 의미를 더 정확하게 전달합니다."
+ },
+ "t104": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA DGR의 carrier variations는 항공사별 추가·예외 요건을 뜻합니다. Neos와 SriLankan의 규정을 설명하는 문맥에도 맞습니다."
+ },
+ "t105": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "여기서 수정·삭제 대상은 IATA DGR에 수록된 carrier variations이므로 \"항공사 예외 규정\"이 정확합니다."
+ },
+ "t106": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "대한항공이 DGR에 등재한 carrier variations를 설명하는 문장이므로 \"항공사 예외 규정\"이 자연스럽고 의미도 분명합니다."
+ },
+ "t107": {
+  "verdict": "other",
+  "better": "국가 및 항공사별 예외 규정(variations)",
+  "reason": "variation은 국가와 항공사가 각각 정한 추가·예외 요건을 뜻합니다. \"국가·항공사 예외 규정\"보다는 주체별 규정이라는 점을 드러내는 표현이 명확합니다."
+ },
+ "t108": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "Dangerous Goods Regulations와 Temperature Control Regulations의 명칭을 옮긴 것이므로 \"위험물규정\"과 \"온도관리규정\"이 문맥에 맞습니다."
+ },
+ "t109": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IATA Dangerous Goods Regulations를 준수하거나 충족한다는 뜻이므로 \"위험물규정\"이 적절합니다. \"위험물규칙\"보다 간행물 명칭과도 잘 맞습니다."
+ },
+ "t110": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "Temperature Control Regulations의 통일 명칭으로 \"온도관리규정(TCR)\"을 사용한 것으로, 두 문장 모두 의미가 자연스럽습니다."
+ },
+ "t111": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "AHM은 Airport Handling Manual이므로 \"공항조업 매뉴얼\"이 원문 명칭과 실무 내용을 적절히 반영합니다."
+ },
+ "t112": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "인용된 AHM 505의 AHM은 Airport Handling Manual입니다. 해당 간행물의 명칭으로는 \"공항조업 매뉴얼\"이 \"지상조업 매뉴얼\"보다 정확합니다."
+ },
+ "t113": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "간행물 한글명 뒤에 약칭을 괄호로 표시한 \"공항조업 매뉴얼(AHM)\"이 읽기 쉽고 표기도 자연스럽습니다."
+ },
+ "t114": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "Cargo Loading System은 ULD를 이동·배치하고 잠금장치와 가이드로 고정하는 항공기 화물 탑재 시스템입니다. 첫 문장의 \"화물 고정 시스템\"은 그대로 유지되어 문맥상 문제없습니다."
+ },
+ "t115": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "cargo loading system은 롤러·가이드·잠금장치 등을 포함하는 항공기 화물 탑재 시스템을 뜻합니다. \"화물처리장치\"보다 대상과 기능이 명확합니다."
+ },
+ "t116": {
+  "verdict": "other",
+  "better": "중량·평형",
+  "reason": "항공 운항의 weight and balance는 통상 \"중량·평형\" 또는 \"중량 및 평형\"이라고 합니다. \"무게·균형\"과 \"중량·균형\" 모두 표준적인 항공 용어로는 아쉽습니다."
+ },
+ "t117": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "FAA 문서의 operator는 규정상 책임 주체인 \"운항자\"로 옮기는 것이 정확합니다. \"운항사\"로 바꾸면 회사만을 가리키는 표현으로 범위가 좁아질 수 있습니다."
+ },
+ "t118": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "FAA AC가 의무를 부과하는 주체는 operator이므로 법규·지침 문맥에서는 \"운항자\"가 적절합니다. \"운항사\"는 일반적인 설명에는 가능하지만 규정 용어를 바꿀 이유가 없습니다."
+ },
+ "t119": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "온도조절 장치가 자체 동력으로 작동하는 active container 또는 active ULD는 업계에서 \"액티브 컨테이너\", \"액티브 ULD\"로 널리 부릅니다."
+ },
+ "t120": {
+  "verdict": "other",
+  "better": "액티브(active)로",
+  "reason": "\"액티브\"로 통일한 것은 적절하지만 조사 \"로\"는 앞말에 붙여야 합니다. 따라서 \"액티브(active)로 나뉩니다\"가 맞습니다."
+ }
+}

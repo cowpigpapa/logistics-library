@@ -1,0 +1,296 @@
+[
+{
+"id": "t121",
+"group": "2차 실무 용어",
+"from": "단열형",
+"to": "패시브",
+"cats": "Air ULD",
+"note": "",
+"pairs": [
+{
+"doc": "ULD 코드와 대표 ULD — 형식 코드 읽는 법, 주요 ULD의 치수와 최대 중량",
+"before": "단열형 210 kg(Boeing), 대한항공 253·276 kg, 능동형 635~646 kg(Lufthansa의 Envirotainer RKN e1, CSafe RKN)",
+"after": "패시브 210kg(Boeing), 대한항공 253·276kg, 액티브 635~646kg(Lufthansa의 Envirotainer RKN e1, CSafe RKN)"
+},
+{
+"doc": "ULD 코드와 대표 ULD — 형식 코드 읽는 법, 주요 ULD의 치수와 최대 중량",
+"before": "단열형 400~464 kg, 능동형 약 1,100 kg",
+"after": "패시브 400~464kg, 액티브 약 1,100kg"
+}
+]
+},
+{
+"id": "t122",
+"group": "2차 실무 용어",
+"from": "수동형(passive)으로",
+"to": "패시브(passive)로",
+"cats": "Air ULD",
+"note": "",
+"pairs": [
+{
+"doc": "안전과 사고 사례 — ULD 손상 기준, 화물 이동·중량 오류 사고, 특수화물",
+"before": "전원 장치 없이 단열재와 냉매로 일정 시간 온도를 유지하는 방식은 수동형(passive)으로 구분합니다.",
+"after": "전원 장치 없이 단열재와 냉매로 일정 시간 온도를 유지하는 방식은 패시브(passive)로 구분합니다."
+}
+]
+},
+{
+"id": "t123",
+"group": "2차 실무 용어",
+"from": "협동체",
+"to": "내로바디",
+"cats": "Air ULD · Cold Chain",
+"note": "",
+"pairs": [
+{
+"doc": "항공 패시브 포장 — 단열재·냉매, 드라이아이스 위험물, 검증 시간과 팔레트 쉬퍼",
+"before": "협동체(Narrow Body Aircraft)형은 외형 1200×800×710mm, 적재 135L, 자중 54.5kg",
+"after": "내로바디(Narrow Body Aircraft)형은 외형 1200×800×710mm, 적재 135L, 자중 54.5kg"
+},
+{
+"doc": "항공 패시브 포장 — 단열재·냉매, 드라이아이스 위험물, 검증 시간과 팔레트 쉬퍼",
+"before": "모든 제품이 광동체 화물칸에 맞고, 일부 반 팔레트형은 협동체에도 맞음",
+"after": "모든 제품이 와이드바디 화물칸에 맞고, 일부 반 팔레트형은 내로바디에도 맞음"
+}
+]
+},
+{
+"id": "t124",
+"group": "2차 실무 용어",
+"from": "광동체",
+"to": "와이드바디",
+"cats": "Air ULD · Cold Chain",
+"note": "",
+"pairs": [
+{
+"doc": "항공 패시브 포장 — 단열재·냉매, 드라이아이스 위험물, 검증 시간과 팔레트 쉬퍼",
+"before": "모든 제품이 광동체 화물칸에 맞고, 일부 반 팔레트형은 협동체에도 맞음",
+"after": "모든 제품이 와이드바디 화물칸에 맞고, 일부 반 팔레트형은 내로바디에도 맞음"
+},
+{
+"doc": "항공 패시브 포장 — 단열재·냉매, 드라이아이스 위험물, 검증 시간과 팔레트 쉬퍼",
+"before": "협동체기 화물칸이나 광동체기 하부 화물칸은 높이 제한이 있고, 컨투어(윤곽) 안에 들어가야 탑재할 수 있습니다.",
+"after": "내로바디 항공기 화물칸이나 와이드바디 항공기 로어덱은 높이 제한이 있고, 컨투어 안에 들어가야 탑재할 수 있습니다."
+}
+]
+},
+{
+"id": "t125",
+"group": "2차 실무 용어",
+"from": "마스터 AWB와 하우스",
+"to": "Master AWB와 House",
+"cats": "AWB Tracking",
+"note": "",
+"current_sentences": [
+"AWB는 화물을 받을 권리를 담은 증권이 아니어서 배서로 넘기지 않고, 수하인은 원본을 내지 않아도 도착지에서 화물을 받습니다. 이 문서는 몬트리올 협약 제4조~제16조와 상법 항공운송편의 운송증서 규정(제921조~제929조, 항공화물운송장은 제923조부터)을 기준으로 AWB의 성격, 원본 3부의 용도, 송하인의 처분권과 수하인의 권리, IATA 표준 양식과 번호 체계, Master AWB와 House AWB, e-AWB를 포워더 입장에서 정리합니다.",
+"Master AWB와 House AWB의 드라이아이스 정보가 서로 같은지"
+]
+},
+{
+"id": "t126",
+"group": "2차 실무 용어",
+"from": "마스터",
+"to": "Master",
+"cats": "AWB Tracking",
+"note": "",
+"pairs": [
+{
+"doc": "airtracking.html",
+"before": "항공사 추적 페이지에서 조회되는 것은 항공사가 발행한 마스터 AWB (MAWB)입니다.",
+"after": "항공사 추적 페이지에서 조회되는 것은 항공사가 발행한 Master AWB (MAWB)입니다."
+}
+]
+},
+{
+"id": "t127",
+"group": "2차 실무 용어",
+"from": "하우스",
+"to": "House",
+"cats": "AWB Tracking",
+"note": "",
+"pairs": [
+{
+"doc": "airtracking.html",
+"before": "포워더가 화주에게 발행한 하우스 AWB (HAWB) 번호는 항공사 시스템에 없으므로 그 포워더에게 조회해야 하고, 혼재 화물은 마스터 번호로 항공편 단위의 진행만 볼 수 있습니다.",
+"after": "포워더가 화주에게 발행한 House AWB (HAWB) 번호는 항공사 시스템에 없으므로 그 포워더에게 조회해야 하고, 혼재 화물은 마스터 번호로 항공편 단위의 진행만 볼 수 있습니다."
+}
+]
+},
+{
+"id": "t128",
+"group": "2차 실무 용어",
+"from": "AWB tracking",
+"to": "공개 AWB 조회",
+"cats": "AWB Tracking",
+"note": "",
+"pairs": [
+{
+"doc": "airtracking.js",
+"before": "if (a.tracking === false) flags.push(' AWB tracking 없음 ');",
+"after": "if (a.tracking === false) flags.push(' 공개 AWB 조회 없음 ');"
+}
+]
+},
+{
+"id": "t129",
+"group": "2차 실무 용어",
+"from": "tracking",
+"to": "조회",
+"cats": "AWB Tracking",
+"note": "",
+"pairs": [
+{
+"doc": "airtracking.js",
+"before": "if (a.tracking === false) flags.push(' AWB tracking 없음 ');",
+"after": "if (a.tracking === false) flags.push(' 공개 AWB 조회 없음 ');"
+},
+{
+"doc": "airtracking.js",
+"before": "if (a.tracking === null) flags.push(' AWB tracking 확인 못함 ');",
+"after": "if (a.tracking === null) flags.push(' AWB 조회 확인 못함 ');"
+}
+]
+},
+{
+"id": "t130",
+"group": "2차 실무 용어",
+"from": "윤곽(+particle)",
+"to": "컨투어",
+"cats": "Air ULD · Cold Chain",
+"note": "",
+"current_sentences": [
+"컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형",
+"컨테이너는 컨투어(contour), 팔레트·네트는 고정 시스템·인증 구분"
+]
+},
+{
+"id": "t131",
+"group": "2차 실무 용어",
+"from": "\"길상항공\"",
+"to": "\"준야오항공\"",
+"cats": "AWB Tracking",
+"note": "",
+"current_sentences": []
+},
+{
+"id": "t132",
+"group": "2차 실무 용어",
+"from": "prefix",
+"to": "Prefix",
+"cats": "AWB Tracking",
+"note": "",
+"current_sentences": [
+"핵심 3줄① AWB는 운송계약과 화물 수령의 증거일 뿐 권리증권이 아니므로, 화물은 원본 제시가 아니라 AWB에 적힌 수하인에게 인도됩니다(몬트리올 협약 제11조·제13조).② 원본은 운송인용·수하인용·송하인용 3부이고, 운송 중 화물 처분권은 수하인 권리가 생기기 전까지 송하인에게 있습니다(협약 제7조·제12조, 상법 제923조·제917조).③ 번호는 IATA 표준 11자리(항공사 Prefix 3자리, 일련번호 7자리, 체크 디지트 1자리)이고, IATA는 2019년부터 가능한 구간에서 전자 운송장(e-AWB)을 기본 계약 방식으로 정했습니다.",
+"MB/L 번호는 선사가, HB/L 번호는 포워더가 정하므로 같은 화물에 번호가 두 개 이상 붙습니다. 항공화물운송장은 IATA 표준인 11자리 번호(항공사 Prefix 3자리, 일련번호 7자리, 체크 디지트 1자리) 규칙이 있지만(AWB 기초), B/L 번호에는 이 문서에서 확인한 범위에서 그런 공통 규칙이 없습니다. 선사 사이트에서 추적할 때는 MB/L 번호나 컨테이너 번호를 쓰고(Container Tracking), HB/L 번호는 발행 포워더에게 문의해야 합니다."
+]
+},
+{
+"id": "t133",
+"group": "2차 실무 용어",
+"from": "\"에미레이트 쉽핑",
+"to": "\"에미레이츠 쉬핑",
+"cats": "Container Tracking",
+"note": "",
+"current_sentences": []
+},
+{
+"id": "t134",
+"group": "2차 실무 용어",
+"from": "냉동",
+"to": "리퍼",
+"cats": "Container Tracking",
+"note": "",
+"pairs": [
+{
+"doc": "크기·형식 코드(ISO 6346) — 길이·높이 자리와 형식 그룹, 자주 보는 코드",
+"before": "20ft 냉동(20RF), 높이 8'6\", 기계식 냉동·가열",
+"after": "20ft 리퍼(20RF), 높이 8'6\", 기계식 냉동·가열"
+},
+{
+"doc": "크기·형식 코드(ISO 6346) — 길이·높이 자리와 형식 그룹, 자주 보는 코드",
+"before": "40ft 냉동(일반 높이 8'6\")",
+"after": "40ft 리퍼(일반 높이 8'6\")"
+}
+]
+},
+{
+"id": "t135",
+"group": "2차 실무 용어",
+"from": "냉동<",
+"to": "리퍼<",
+"cats": "Container Tracking",
+"note": "",
+"current_sentences": []
+},
+{
+"id": "t136",
+"group": "2차 실무 용어",
+"from": "건화물 x5 / 섀시 x1",
+"to": "드라이(일반용 드라이, 드라이 벌크) / 샤시",
+"cats": "Container Tracking",
+"note": "",
+"current_sentences": [
+"24-13에서 행정법판사는 운송사가 예약이 없어 반납하지 못했다는 점을 입증한 컨테이너에 한해 41102(c) 위반을 인정하고 USD 32,495의 배상과 이자를 명했습니다. 샤시·야드 비용과 차별·보복 주장은 받아들이지 않았습니다. 비슷한 시기의 24-09(TZ SSE Buyer v.",
+"장비 구분(U 화물 컨테이너, J 부착 장비, Z 트레일러·샤시)"
+]
+},
+{
+"id": "t137",
+"group": "2차 실무 용어",
+"from": "위험 화물<",
+"to": "위험물<",
+"cats": "CTU Code",
+"note": "",
+"current_sentences": []
+},
+{
+"id": "t138",
+"group": "2차 실무 용어",
+"from": "위험 화물",
+"to": "위험물",
+"cats": "CTU Code",
+"note": "",
+"pairs": [
+{
+"doc": "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형",
+"before": "위험 화물",
+"after": "위험물"
+},
+{
+"doc": "ctu-library.js",
+"before": "다루지 않는 주제 : 총질량 검증(10번), 위험 화물(15번), 종이 롤·코일 같은 특수 화물(13·14번)은 계산하지 않습니다.",
+"after": "다루지 않는 주제 : 총중량 검증(10번), 위험물(15번), 종이 롤·코일 같은 특수 화물(13·14번)은 계산하지 않습니다."
+}
+]
+},
+{
+"id": "t139",
+"group": "2차 실무 용어",
+"from": "화물고정지침서",
+"to": "화물고박지침서",
+"cats": "CTU Code",
+"note": "",
+"pairs": [
+{
+"doc": "부속서 2 CTU의 안전한 취급 — 들기·옮기기·쌓기·고정",
+"before": "세부 사항은 선박별 화물고정지침서(Cargo Securing Manual)를 따릅니다.",
+"after": "세부 사항은 선박별 화물고박지침서(Cargo Securing Manual)를 따릅니다."
+}
+]
+},
+{
+"id": "t140",
+"group": "2차 실무 용어",
+"from": "화물 작업장",
+"to": "컨테이너 화물조작장",
+"cats": "CTU Code",
+"note": "",
+"pairs": [
+{
+"doc": "한국 도로 운송 중량·제원 한도",
+"before": "항만 근처 CFS(화물 작업장)까지 카고 트럭으로 옮긴 뒤 그곳에서 컨테이너에 적입하는 방법을 검토합니다.",
+"after": "항만 근처 CFS(컨테이너 화물조작장)까지 카고 트럭으로 옮긴 뒤 그곳에서 컨테이너에 적입하는 방법을 검토합니다."
+}
+]
+}
+]

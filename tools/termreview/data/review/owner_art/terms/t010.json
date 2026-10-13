@@ -1,0 +1,18 @@
+{
+  "alt": "",
+  "cats": "CTU Code · Charges",
+  "count": 5,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "ch-docs/ch-cases.html",
+    "ctu-library.js"
+  ],
+  "from": "인코텀즈",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "인코텀스",
+  "updatedAt": "2026-10-13T13:40:32.432Z",
+  "verdict": "keep"
+}

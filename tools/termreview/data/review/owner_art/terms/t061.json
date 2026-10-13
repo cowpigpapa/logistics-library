@@ -1,0 +1,17 @@
+{
+  "alt": "특별인출권(SDR)",
+  "cats": "B/L·AWB",
+  "count": 1,
+  "ex_from": "kg당 22 SDR로 적고",
+  "ex_to": "kg당 22 SDR(특별인출권)로 적고",
+  "files": [
+    "bl-docs/awb-basics.html"
+  ],
+  "from": "SDR로",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "SDR(특별인출권)로",
+  "updatedAt": "2026-10-13T13:49:23.893Z",
+  "verdict": "other"
+}

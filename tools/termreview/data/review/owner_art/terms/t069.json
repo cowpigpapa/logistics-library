@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "EU Battery",
+  "count": 1,
+  "ex_from": "화물 외관 점검 항목에 QR 코드가 추가됩니다.",
+  "ex_to": "화주에게 확인받을 표시 항목에 QR 코드가 추가됩니다.",
+  "files": [
+    "battery-docs/b-ch9.html"
+  ],
+  "from": "화물 외관 점검",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "화주에게 확인받을 표시",
+  "updatedAt": "2026-10-13T13:50:27.753Z",
+  "verdict": "keep"
+}

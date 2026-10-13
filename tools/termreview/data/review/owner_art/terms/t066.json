@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Air ULD",
+  "count": 1,
+  "ex_from": "ULD는 항공기의",
+  "ex_to": "단위탑재용기(ULD)는 항공기의",
+  "files": [
+    "uld-docs/uld-safety.html"
+  ],
+  "from": "ULD는",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "단위탑재용기(ULD)는",
+  "updatedAt": "2026-10-13T13:49:31.982Z",
+  "verdict": "keep"
+}

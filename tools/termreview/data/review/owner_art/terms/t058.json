@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "적하보험",
+  "count": 1,
+  "ex_from": "부킹 확인서, B/L에",
+  "ex_to": "부킹 확인서, 선하증권(B/L)에",
+  "files": [
+    "insurance-docs/ins-uninsurable.html"
+  ],
+  "from": "B/L에",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "선하증권(B/L)에",
+  "updatedAt": "2026-10-13T13:49:01.279Z",
+  "verdict": "keep"
+}

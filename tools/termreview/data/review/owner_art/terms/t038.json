@@ -1,0 +1,19 @@
+{
+  "alt": "",
+  "cats": "EU Battery",
+  "count": 5,
+  "ex_from": "",
+  "ex_to": "",
+  "files": [
+    "battery-docs/b-anx15.html",
+    "battery-docs/b-ch8b.html",
+    "battery-docs/changes.html"
+  ],
+  "from": "폐기물 운송 규정",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "폐기물운송규정",
+  "updatedAt": "2026-10-13T13:44:14.903Z",
+  "verdict": "keep"
+}

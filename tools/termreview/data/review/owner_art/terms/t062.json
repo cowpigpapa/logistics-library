@@ -1,0 +1,18 @@
+{
+  "alt": "",
+  "cats": "Air ULD · Cold Chain",
+  "count": 2,
+  "ex_from": "드라이아이스를 ULD에",
+  "ex_to": "드라이아이스를 단위탑재용기(ULD)에",
+  "files": [
+    "tc-docs/tc-air-passive.html",
+    "uld-docs/uld-buildup.html"
+  ],
+  "from": "ULD에",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "단위탑재용기(ULD)에",
+  "updatedAt": "2026-10-13T13:49:25.574Z",
+  "verdict": "keep"
+}

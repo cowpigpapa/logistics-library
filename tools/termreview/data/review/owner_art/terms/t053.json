@@ -1,0 +1,17 @@
+{
+  "alt": "화물인도지시서(D/O)",
+  "cats": "Charges",
+  "count": 1,
+  "ex_from": "화물 인도 지시서(D/O)",
+  "ex_to": "화물인도지시서(D/O)",
+  "files": [
+    "ch-docs/ch-air-storage.html"
+  ],
+  "from": "화물 인도 지시서",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "화물인도지시서",
+  "updatedAt": "2026-10-13T13:47:11.134Z",
+  "verdict": "other"
+}

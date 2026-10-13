@@ -1,0 +1,82 @@
+[
+{
+"id": "p08",
+"group": "결정 필요",
+"from": "수송·적재·하역 / 운송·상하차",
+"to": "",
+"cats": "",
+"note": "EU 폐기물운송규정 번역",
+"current_sentences": [
+"수송·적재·하역 중 손상에 대한 적절한 보호",
+"재사용 준비·용도변경 준비를 거친 LMT·산업용·전기차 폐배터리가 더 이상 폐기물이 아님을 보이려면, 보유자가 당국 요청 시 ① 회원국 안에서 한 건전상태(SoH) 평가·시험 기록 ② 판매·소유권 이전 송장 또는 계약서 ③ 수송·적재·하역 중 손상 방지(포장·적층) 증빙을 제시하여야 합니다."
+]
+},
+{
+"id": "p09",
+"group": "결정 필요",
+"from": "주선자 (WSR 선적을 주선하는 자)",
+"to": "",
+"cats": "",
+"note": "포워더와 헷갈릴 수 있음. Codex 제안: 선적 주선 책임자",
+"current_sentences": [
+"보험 안내·주선자",
+"주선자가 운송 전 서명, 화물에 동반"
+]
+},
+{
+"id": "p10",
+"group": "결정 필요",
+"from": "양하협정서 · 반입화물실시명세서",
+"to": "",
+"cats": "",
+"note": "적하보험 클레임 문서. Codex 제안: 양하결과보고서 · 화물검사보고서 (출처 확인 필요)",
+"current_sentences": []
+},
+{
+"id": "p11",
+"group": "결정 필요",
+"from": "보험인수증(cover note)",
+"to": "",
+"cats": "",
+"note": "Codex 제안: 커버노트 또는 보험승낙서",
+"current_sentences": [
+"보험인수증(cover note)"
+]
+},
+{
+"id": "p12",
+"group": "결정 필요",
+"from": "FCL 마감일 (Hapag)",
+"to": "",
+"cats": "",
+"note": "Codex 제안: CY 마감일",
+"current_sentences": [
+"컨테이너 선사들의 표준화 단체 DCSA는 2023년 2월 15일, 회원 선사 9곳(MSC, Maersk, CMA CGM, Hapag-Lloyd, ONE, Evergreen, Yang Ming, HMM, ZIM)이 5년 안에 원본 B/L의 50%를, 2030년까지 100%를 표준화된 전자선하증권으로 바꾸기로 약속했다고 발표했습니다. 같은 발표에 따르면 선사들이 한 해 발행하는 B/L은 약 4,500만 건이고 2021년 전자 비율은 1.2%였습니다.",
+"포워더에게 가장 직접적인 문제는 혼재 화물입니다. Hapag-Lloyd가 공개한 정산인 Richards Hogg Lindley의 안내는 혼재 컨테이너는 안에 든 화물 전부에 대해 담보가 들어와야 반출된다고 설명합니다. 한 화주가 담보를 내지 않으면 같은 컨테이너의 다른 화주 화물까지 나가지 못합니다."
+]
+},
+{
+"id": "p13",
+"group": "결정 필요",
+"from": "근무일 → 영업일 (배터리 규정 번역 97곳)",
+"to": "",
+"cats": "",
+"note": "이미 바꿈. EU 규정의 working days",
+"current_sentences": [
+"인도 다음 영업일까지 서면",
+"1994년판의 공동해손 지출액 2% 수수료를 없애고, 이자는 정산서 발행 후 3개월까지 계산. 이자율은 매년 첫 영업일 월스트리트저널에 실린 미국 달러 프라임 금리(USD Prime Rate)에 연 2%를 더한 율"
+]
+},
+{
+"id": "p14",
+"group": "결정 필요",
+"from": "영국 상원 → 귀족원",
+"to": "",
+"cats": "",
+"note": "이미 바꿈. House of Lords",
+"current_sentences": [
+"J I MacWilliam Co Inc v Mediterranean Shipping Co SA (The Rafaela S) [2005] UKHL 11, 영국 귀족원 2005년 2월 16일 판결; Carewins Development (China) Ltd v Bright Fortune Shipping Ltd [2009] HKCFA 45 및 Carewins v Hecny Shipping Ltd [2009] HKCFA 46, 홍콩 종심법원 2009년 5월 12일 판결",
+"무역 용어 해설 중에는 기명식 B/L을 \"유통 불가\"로 설명하는 것도 있는데, 한국 판례 기준으로는 배서 금지 문구가 있는 경우로 좁혀 읽어야 합니다. 영국 귀족원도 기명식 B/L을 원본 제시가 필요한 권리증권으로 본 사건(The Rafaela S, [2005] UKHL 11)이 있습니다. 운송인이 기명식 B/L 원본 없이 수하인에게 인도한 사건의 한국 판례는 판례·분쟁 사례에서 다룹니다."
+]
+}
+]

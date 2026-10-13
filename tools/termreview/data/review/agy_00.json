@@ -1,0 +1,102 @@
+{
+ "t000": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "선사가 청구하는 컨테이너 체화료(Demurrage)를 가리키는 문맥(MSC v Cottonex 판례 및 선사 운송계약)에 정확히 부합하며, 운영자의 영문 표기 원칙에도 맞습니다."
+ },
+ "t001": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "컨테이너 반납 불가 시 부과되는 선사 지체료(Detention)를 정확히 지칭하고 있으며, 미국 FMC 규정 및 해운 실무 문맥에 부합합니다."
+ },
+ "t002": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공화물 BUP 진행 시 ULD 반출 후 미반납에 대해 항공사가 부과하는 초과 사용료를 실제 항공사 요율표 및 실무에서 'Demurrage'로 칭하므로 적절합니다."
+ },
+ "t003": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "포워딩 및 해운 실무에서 Dry Container는 '건화물 컨테이너'보다 '드라이 컨테이너'로 통칭하므로 문맥상 훨씬 자연스럽습니다."
+ },
+ "t004": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "영문 'Dry'를 직역해 어색했던 '건조'를 실무 표준 표기인 '드라이 컨테이너(Dry Container)'로 바로잡아 매우 자연스럽습니다."
+ },
+ "t005": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "ISO 6346의 Dry Bulk 컨테이너 규격 및 해운 실무에서 널리 쓰이는 '드라이 벌크(Dry Bulk)' 표기에 정확히 부합합니다."
+ },
+ "t006": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "냉동기를 끈 NOR(Non-Operating Reefer) 컨테이너에 싣는 화물을 설명할 때 '건화물용'보다 '일반 화물(General Cargo)용'이 실무상 훨씬 직관적입니다."
+ },
+ "t007": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "해운 실무에서 리퍼 요율(Reefer Rate)과 대비되는 드라이 컨테이너 요율을 '드라이 요율(Dry Rate)'로 부르므로 적절합니다."
+ },
+ "t008": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "포워딩 및 내륙운송 현장에서는 Chassis를 '섀시'보다 '샤시'로 보편적으로 사용하며, 운영자의 표기 원칙에도 부합합니다."
+ },
+ "t009": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "운영자가 확립한 '숫자와 단위(kg) 붙여쓰기' 표기 원칙(5kg, 25kg)에 맞게 일관되게 반영되었습니다."
+ },
+ "t010": {
+  "verdict": "revert",
+  "better": "",
+  "reason": "ICC 공식 한국어 명칭(『인코텀즈 2020』) 및 무역·물류 업계 표준 표기는 '인코텀즈(Incoterms)'이며, 국립국어원 외래어 표기법에 따른 '인코텀스'는 실무에서 전혀 쓰이지 않는 표기입니다."
+ },
+ "t011": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "상법상 법정 용어인 '화물인도지시서'와 실무 약어인 'D/O(Delivery Order)'를 병기하여 자료 사이트의 안내 정확도와 실무 전달력을 모두 높였습니다."
+ },
+ "t012": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "분쟁 및 판례 설명 문맥에서 법률적 공식 명칭인 '선하증권'과 실무 약어인 'B/L(Bill of Lading)'을 병기하는 것이 자연스럽고 명확합니다."
+ },
+ "t013": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "IMDG Code 및 IATA DGR 위험물 규정의 한국어 공식 용어는 Proper Shipping Name(PSN)을 '정식운송품명'으로 붙여 표기합니다."
+ },
+ "t014": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "SOLAS 협약의 VGM(Verified Gross Mass)에 대한 해양수산부 공식 고시 명칭 및 물류 실무 통용 용어는 '총질량'이 아닌 '총중량'입니다."
+ },
+ "t015": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "'드라이 컨테이너' 등 다른 컨테이너 명칭과의 띄어쓰기 일관성을 유지하여 가독성을 높였습니다."
+ },
+ "t016": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "섭씨온도 단위를 단일 완성형 기호(℃)로 통일하여 본문 가독성을 높였으며 실무 정보 전달에 자연스럽습니다."
+ },
+ "t018": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "국제항공운송 조약인 '몬트리올 협약(Montreal Convention 1999)'의 표준 띄어쓰기에 정확히 부합합니다."
+ },
+ "t019": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "상법 제802조(실제운송인의 책임)의 법정 용어이자 해상운송 법률 실무 표준 표기(실제운송인, Actual Carrier)에 부합합니다."
+ },
+ "t020": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "해운법 및 고시를 인용하는 공식 안내 문맥이므로 구어체 약칭인 '해수부'보다 정부 부처 공식 명칭인 '해양수산부(MOF)'가 적절합니다."
+ }
+}

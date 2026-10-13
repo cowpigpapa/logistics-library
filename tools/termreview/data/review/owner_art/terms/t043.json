@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Cold Chain",
+  "count": 1,
+  "ex_from": "ULD 태그에",
+  "ex_to": "단위탑재용기(ULD) 태그에",
+  "files": [
+    "tc-docs/tc-basics.html"
+  ],
+  "from": "ULD",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "단위탑재용기(ULD)",
+  "updatedAt": "2026-10-13T13:44:32.932Z",
+  "verdict": "keep"
+}

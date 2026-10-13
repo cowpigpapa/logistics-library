@@ -1,0 +1,17 @@
+{
+  "alt": "",
+  "cats": "Charges",
+  "count": 1,
+  "ex_from": "적힌 B/L은",
+  "ex_to": "적힌 선하증권(B/L)은",
+  "files": [
+    "ch-docs/ch-cases.html"
+  ],
+  "from": "B/L은",
+  "group": "1차 문구 통일",
+  "memo": "",
+  "note": "",
+  "to": "선하증권(B/L)은",
+  "updatedAt": "2026-10-13T13:40:35.264Z",
+  "verdict": "keep"
+}
