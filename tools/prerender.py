@@ -584,7 +584,8 @@ def main():
 
     def url(job):
         cat, doc = job
-        return local + cat['base'] + (f"/{doc['id']}" if doc else '')
+        # ?capture=1: 옛 카테고리 화면이 새 화면으로 넘기지 않게(site-shell.js)
+        return local + cat['base'] + (f"/{doc['id']}" if doc else '') + '?capture=1'
 
     rendered = capture(chrome, [url(j) for j in jobs])
     results = [(j, rendered[url(j)]) for j in jobs]
@@ -643,7 +644,7 @@ def main():
             description = re.search(r'<meta name="description" content="([^"]*)">', template)
             description = html.unescape(description.group(1)) if description else cat['name']
             ov = overview_id.get(cat['slug'])
-            ov_html = rendered.get(f"{local}{cat['base']}/{ov}", (None,))[0] if ov else None
+            ov_html = rendered.get(f"{local}{cat['base']}/{ov}?capture=1", (None,))[0] if ov else None
             body = overview_inner(cat['slug'], inner, ov_html)
             date, _ = ledger.stamp(landing, 'shell1' + title + description + (image or '') + body,
                                    max(dates, key=lambda d: datetime.fromisoformat(d)))

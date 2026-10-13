@@ -11,6 +11,22 @@
 (function () {
   // 색인 페이지 안에 끼워 열린 도구(?embed=1)는 머리줄·푸터 없이 보여 준다.
   try { if (new URLSearchParams(location.search).get('embed') === '1') document.documentElement.classList.add('is-embed'); } catch (_) {}
+  // 옛 카테고리 화면(#libraryView)은 합쳐진 문서·없는 문서 주소로만 열린다. 새 화면으로 넘긴다:
+  // 문서가 그려졌으면(합쳐진 문서의 새 주소) 그 주소로, 아니면 카테고리 개요로. 정적 페이지 생성(?capture=1)은 그대로 둔다.
+  (() => {
+    const v = document.getElementById('libraryView');
+    if (!v || /[?&]capture=1/.test(location.search)) return;
+    const m = location.pathname.match(/^\/library\/([a-z0-9-]+)(\/[a-z0-9-]+)?/);
+    if (!m) return;
+    const go = () => {
+      const doc = m[2] && v.querySelector('.lib-article');
+      const target = doc ? location.pathname : '/library/' + m[1];
+      try { if (sessionStorage.getItem('ll-forward') === target) return; sessionStorage.setItem('ll-forward', target); } catch (_) {}
+      location.replace(target);
+    };
+    // 옛 화면 스크립트가 합쳐진 문서 주소를 바꾼 뒤에 판단한다.
+    if (document.readyState === 'complete') setTimeout(go, 0); else window.addEventListener('load', () => setTimeout(go, 0));
+  })();
   // 끼워 열린 도구는 내용 높이를 바깥 화면에 알린다(좁은 화면에서 바깥이 틀 높이를 내용에 맞춘다).
   if (document.documentElement.classList.contains('is-embed') && window.parent !== window && window.ResizeObserver) {
     let last = 0;
