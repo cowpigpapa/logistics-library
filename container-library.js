@@ -23,10 +23,10 @@
     );
   // 공식 자료(배포처 링크만).
   const OFFICIAL = [
-    { title: "Identification number (BIC)", org: "BIC(국제컨테이너사무국)", kind: "공식 안내", note: "컨테이너 번호 구조와 소유자 코드 등록 안내입니다.", url: "https://www.bic-code.org/identification-number/" },
-    { title: "Size and type codes (BIC)", org: "BIC(국제컨테이너사무국)", kind: "공식 안내", note: "ISO 6346 크기·형식 코드표입니다.", url: "https://www.bic-code.org/size-type-code/" },
+    { title: "Identification number (BIC)", org: "국제컨테이너사무국(BIC)", kind: "공식 안내", note: "컨테이너 번호 구조와 소유자 코드 등록 안내입니다.", url: "https://www.bic-code.org/identification-number/" },
+    { title: "Size and type codes (BIC)", org: "국제컨테이너사무국(BIC)", kind: "공식 안내", note: "ISO 6346 크기·형식 코드표입니다.", url: "https://www.bic-code.org/size-type-code/" },
     { title: "ISO 6346", org: "ISO", kind: "국제 표준 · 유료", note: "화물 컨테이너의 부호, 식별, 표시 표준입니다.", url: "https://www.iso.org/standard/83558.html" },
-    { title: "Container Handbook", org: "GDV(독일보험협회)", kind: "업계 자료", note: "컨테이너 종류와 체크 디지트 계산 설명이 있습니다.", url: "https://www.containerhandbuch.de/" },
+    { title: "Container Handbook", org: "독일보험협회(GDV)", kind: "업계 자료", note: "컨테이너 종류와 체크 디지트 계산 설명이 있습니다.", url: "https://www.containerhandbuch.de/" },
     { title: "Container information (ONE)", org: "ONE", kind: "선사 사양", note: "형식별 내부 치수와 적재 중량입니다.", url: "https://www.one-line.com/en/container-information" }
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
@@ -74,7 +74,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>컨테이너 번호와 코드, 읽을 줄 알면 장비 확인이 빨라진다</h2><p>컨테이너 문에 붙은 번호 11자리와 크기·형식 코드 4자리는 ISO 6346이 정한 표시입니다. 번호로 소유자와 오타를, 코드로 길이·높이·형식을 바로 읽을 수 있습니다. 번호 구조와 체크 디지트 계산, 크기·형식 코드표, 선사 공개 사양으로 본 형식별 치수를 정리했습니다.</p><a class="lib-summary-button" href="${link('cn-number')}">컨테이너 번호부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('BIC(국제컨테이너사무국) 공개 자료, ICHCA BP25, GDV Container Handbook, ONE·Maersk 공개 사양을 바탕으로 정리했습니다. ISO 6346 본문은 유료 표준이라 싣지 않았습니다. 선사 이름은 비교를 위한 예시입니다. 해설은 AI가 작성했으며 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>컨테이너 번호와 코드, 읽을 줄 알면 장비 확인이 빨라진다</h2><p>컨테이너 문에 붙은 번호 11자리와 크기·형식 코드 4자리는 ISO 6346이 정한 표시입니다. 번호로 소유자와 오타를, 코드로 길이·높이·형식을 바로 읽을 수 있습니다. 번호 구조와 체크 디지트 계산, 크기·형식 코드표, 선사 공개 사양으로 본 형식별 치수를 정리했습니다.</p><a class="lib-summary-button" href="${link('cn-number')}">컨테이너 번호부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('국제컨테이너사무국(BIC) 공개 자료, ICHCA BP25, GDV Container Handbook, ONE·Maersk 공개 사양을 바탕으로 정리했습니다. ISO 6346 본문은 유료 표준이라 싣지 않았습니다. 선사 이름은 비교를 위한 예시입니다. 해설은 AI가 작성했으며 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;
