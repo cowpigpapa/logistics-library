@@ -168,7 +168,13 @@ def main():
     (ROOT / 'tool').mkdir(exist_ok=True)
     for name in TOOL_TYPES:
         (ROOT / 'tool' / f'{name}.html').write_text(read(f'{name}.html'), encoding='utf-8', newline='\n')
-    print('index.html 생성: 카드', len(CARDS), '/ 도구 화면', len(TOOL_TYPES))
+    # 없는 주소(404): 같은 화면 틀에 안내와 색인. 검색엔진에는 올리지 않는다.
+    seo404 = '<title>페이지를 찾을 수 없습니다 · Logistics Library</title>\n  <meta name="robots" content="noindex">'
+    inner404 = ('    <div class="li-home"><header class="li-intro"><h1>페이지를 찾을 수 없습니다</h1>'
+                '<p>주소가 바뀌었거나 없는 문서입니다. 왼쪽 색인에서 고르거나 검색칸에 찾는 말을 넣어 보세요. '
+                '<a href="/">첫 화면으로 가기</a></p></header></div>')
+    (ROOT / '404.html').write_text(page(seo404, inner404, '/404', tree_html(data)), encoding='utf-8', newline='\n')
+    print('index.html 생성: 카드', len(CARDS), '/ 도구 화면', len(TOOL_TYPES), '/ 404.html')
 
 
 if __name__ == '__main__':
