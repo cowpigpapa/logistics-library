@@ -1,0 +1,20 @@
+[
+ {
+  "claim": "지침 2008/98/EC 제IV장에 따른 시설 허가의 증빙을 제공하여야 하며, 회수 또는 처분 시설이",
+  "verdict": "wrong",
+  "evidence": "Annex II, Part 1, point 6, third subparagraph: 'Evidence of the facility's permit in accordance with Chapter IV of Directive 2008/98/EC, or if the recovery or disposal facility is listed in Annex I, Category 5, to Directive 2010/75/EU, evidence (e.g. a declaration certifying its existence) of a valid permit issued in accordance with Articles 4 and 5 of that Directive shall be provided.' The two kinds of evidence are alternatives ('or'); the translation makes them cumulative ('제공하여야 하며 ... 경우에는 ... 제공하여야 한다').",
+  "fix": "지침 2008/98/EC 제IV장에 따른 시설 허가의 증빙을 제공하여야 한다. 또는 회수 또는 처분 시설이"
+ },
+ {
+  "claim": "지침 2008/98/EC 제IV장에 따른 허가 증빙을 요구하고, 지침 2010/75/EU 대상 시설은 그 허가 증빙도 요구(1부 제6호)",
+  "verdict": "wrong",
+  "evidence": "Annex II, Part 1, point 6: '... evidence of the facility's permit in accordance with Chapter IV of Directive 2008/98/EC, or if the recovery or disposal facility is listed in Annex I, Category 5, to Directive 2010/75/EU, evidence ... of a valid permit issued in accordance with Articles 4 and 5 of that Directive shall be provided.' Alternative, not additional, evidence. (The practical-impact cell '서류가 늘었습니다' follows from the same misreading.)",
+  "fix": "지침 2008/98/EC 제IV장에 따른 허가 증빙을 요구하되, 지침 2010/75/EU 부속서 I 범주 5 시설이면 그 지침에 따른 유효한 허가 증빙으로 제출(1부 제6호)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "Annex II Part 1 (27 points), Part 2 (11 points), Part 3 (15 points) checked against OJ text; commentary checked against Art. 5(3)-(4), 9(3), 16(2), 17(1) and old Reg. 1013/2006 Annex II. 60 provisions checked, 2 problems (same error in translation and commentary)",
+  "fix": ""
+ }
+]

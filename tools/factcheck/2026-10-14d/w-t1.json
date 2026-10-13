@@ -1,0 +1,14 @@
+[
+ {
+  "claim": "남극발 제3국행 통과 운송에는 제39조·제59조만,",
+  "verdict": "wrong",
+  "evidence": "Art 2(4) (summary table row 제2조(3)~(5)): 'For shipments of waste from the Antarctic to third countries which transit through the Union, Articles 39 and 59 shall apply.' Unlike Art 2(3) and 2(5), which say 'only ... shall apply', para 4 has no 'only'. The law-text translation of 제2조 4 is correct; the summary adds an exclusivity the source does not state.",
+  "fix": "남극발 제3국행 통과 운송에는 제39조·제59조가 적용되고(원문에 '만'이라는 한정은 없음),"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "37 provisions checked (Art 1; Art 2(1)-(5); Art 3 points (1)-(30) and closing paragraph) plus footnotes (33)-(40) and summary/comparison tables; law-text translation found accurate; 1 problem (summary table)",
+  "fix": ""
+ }
+]

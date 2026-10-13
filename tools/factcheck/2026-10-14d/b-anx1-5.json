@@ -1,0 +1,26 @@
+[
+ {
+  "claim": "0.0005% 초과 금지. 단, 수은 함량 2% 이하 단추형 전지는 예외(제4조(1)(a), (2))",
+  "verdict": "wrong",
+  "evidence": "Commentary (old-law comparison). Directive 2013/56/EU, Article 1(1)(a) replaced Article 4(2) of Directive 2006/66/EC: \"2. The prohibition set out in paragraph 1(a) shall not apply to button cells with a mercury content of no more than 2 % by weight until 1 October 2015.\" The button-cell exemption therefore had already expired on 1 October 2015, long before the Directive was repealed; the change to 'no button-cell exemption' did not come with Regulation 2023/1542.",
+  "fix": "0.0005% 초과 금지. 수은 함량 2% 이하 단추형 전지 예외(제4조(2))는 지침 2013/56/EU 개정으로 2015년 10월 1일까지만 적용(제4조(1)(a), (2))"
+ },
+ {
+  "claim": "비상·경보 시스템, 의료기기, 무선 전동공구용은 예외(제4조(1)(b), (3))",
+  "verdict": "wrong",
+  "evidence": "Commentary (old-law comparison). Directive 2013/56/EU, Article 1(1)(b) replaced Article 4(3)(c) of Directive 2006/66/EC: \"(c) cordless power tools; this exemption in respect of cordless power tools shall apply until 31 December 2016.\" At the time of repeal only the emergency/alarm systems (incl. emergency lighting) and medical equipment exemptions remained.",
+  "fix": "비상·경보 시스템(비상조명 포함), 의료기기용은 예외. 무선 전동공구용 예외는 지침 2013/56/EU 개정으로 2016년 12월 31일 종료(제4조(1)(b), (3))"
+ },
+ {
+  "claim": "이러한 상황을 모사하기 위한 기준은 실제 사용을 반영하여야 한다.",
+  "verdict": "wrong",
+  "evidence": "Annex V, point 7: \"The criteria to simulate these situations should reflect real life uses.\" The source uses 'should' (the rest of Annex V uses 'shall'); the translation renders it as a binding '하여야 한다'.",
+  "fix": "이러한 상황을 모사하기 위한 기준은 실제 사용을 반영하는 것이 바람직하다."
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "Annex I (M3 text: 4 entries, 17 conditions, all percentages 0.0005/0.002/0.01/0.1, dates 31 Dec 2008, 18 Aug 2024, 18 Aug 2028, 1 Jan 2019, 1 Jan 2024, 12 V/24 V, footnotes 1-4), Annex II points 1-9 incl. definitions (a)-(j), Annex III Parts A-B and footnote 7, Annex IV definitions (1)-(6) and Parts A-B, Annex V points 1-11, plus commentary (Art. 7, 9, 10, 12, 41, 42 references, recital 22, Annex XV) checked; 3 problems (1 translation 'should', 2 old-law commentary)",
+  "fix": ""
+ }
+]

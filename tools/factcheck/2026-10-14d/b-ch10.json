@@ -1,0 +1,14 @@
+[
+ {
+  "claim": "풀필먼트 서비스 제공자는 이 규정의 경제운영자에 포함되므로(제43조)",
+  "verdict": "wrong",
+  "evidence": "Commentary cross-reference. Fulfilment service providers are made economic operators by the definition in Article 3(1), point (22): \"'economic operator' means the manufacturer, the authorised representative, the importer, the distributor or the fulfilment service provider ...\". Article 43 only sets out the obligations of fulfilment service providers (\"Fulfilment service providers shall ensure that, for batteries that they handle, the conditions during warehousing, packaging, addressing or dispatching, do not jeopardise the batteries' compliance ...\").",
+  "fix": "풀필먼트 서비스 제공자는 이 규정의 경제운영자에 포함되므로(제3조(1)(22), 의무는 제43조)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "Articles 79-84 checked in full (24 paragraphs/points incl. 79(5)(a)-(c), 83(1)(a)-(g)) plus summary, comparison, logistics and checklist commentary; translation text matches the consolidated text; 1 problem (commentary cross-reference)",
+  "fix": ""
+ }
+]

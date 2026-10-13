@@ -1,0 +1,14 @@
+[
+ {
+  "claim": "회원국 안에서만 이루어지는 운송",
+  "verdict": "wrong",
+  "evidence": "Annex XIII correlation: old Art. 31, 32, 33 -> new Art. 34, 35, 36. Old Art. 31-32 (Reg. 1013/2006, Title II Chapter 6 'Shipments within the Community with transit via third countries') and new Art. 34-35 (Chapter 6 'Shipments within the Union with transit via third countries') are not shipments exclusively within a Member State; only old Art. 33 / new Art. 36 ('Transport of waste exclusively within a Member State', Title III) is.",
+  "fix": "제3국을 경유하는 연합 역내 운송(구 제31조·제32조 → 제34조·제35조), 회원국 안에서만 이루어지는 운송(구 제33조 → 제36조)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "Annex XI (questionnaire rows for Art. 4(1)-(3)/73(1), 11(1), 12(1)(d), 12(1)(e), 14, 36, 25+63(1), 60(1); Tables 1-7 and footnotes), Annex XII (Tables 1-2 and footnotes 1-7 / 1-6), Annex XIII (full correlation table, ~150 rows) checked against OJ pp. 130-145; commentary checked against Art. 21, 23-26, 31-36, 73(2), 85, 86 and old Reg. 1013/2006 article headings. ~200 provisions checked, 1 problem",
+  "fix": ""
+ }
+]

@@ -1,0 +1,14 @@
+[
+ {
+  "claim": "위원회 절차(구 지침 제24조)",
+  "verdict": "wrong",
+  "evidence": "Commentary (old-law comparison). Directive 2006/66/EC as amended by Directive 2013/56/EU already contained delegated acts: Article 23a 'Exercise of the delegation'. Annex XV correlation table of Regulation 2023/1542: \"Article 23a(1) | Article 89(1); Article 23a(2) | Article 89(2); ... Article 24 | Article 90\". So the old directive had both delegated acts (Art. 23a) and the committee procedure (Art. 24), not only a committee procedure.",
+  "fix": "위임법률(구 지침 제23a조, 지침 2013/56/EU로 신설)과 위원회 절차(구 지침 제24조)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "Articles 89-96 checked in full (delegation list x3, 17 Aug 2023, 5 years/9 months/3 months, 3+2 months; Art. 90(1)-(4); Art. 91-92 incl. footnotes *1-*4; Art. 93 18 Aug 2025; Art. 94(1)-(6) incl. points (a)-(h), 30 June 2031, 1 January 2025; Art. 95 dates; Art. 96 dates) plus application-date and transitional tables against Annex XV; translation text matches; 1 problem (commentary)",
+  "fix": ""
+ }
+]
