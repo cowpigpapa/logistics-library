@@ -1,0 +1,20 @@
+[
+ {
+  "claim": "실무 안내(한국무역협회 등)는 21톤 미만으로 더 보수적으로 잡습니다",
+  "verdict": "unverifiable",
+  "evidence": "No KITA (한국무역협회) publication stating a 21 t limit for 20ft road haulage could be found (web search of kita.net and general search returned nothing). The 21 t figure itself is common forwarder practice but the KITA attribution is unsourced.",
+  "fix": "실무에서는 21톤 미만으로 더 보수적으로 잡는 경우가 많습니다"
+ },
+ {
+  "claim": "한국무역협회 안내",
+  "verdict": "unverifiable",
+  "evidence": "Same as above: no KITA guidance located to back the citation in the source list.",
+  "fix": "국내 포워딩 업체 안내"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "18 claims checked, 16 correct. Verified: 도로법 시행령 제79조제2항 (축하중 10톤·총중량 40톤, 폭 2.5m, 높이 4.0m/고시 도로 4.2m, 길이 16.7m), 도로법 제77조제1항 단서·제3항, 제117조제1항제1호·제3호(500만원 이하 과태료), 제117조제5항 (law.go.kr, 시행 2026-09-18). The 10% tolerance (11t/44t) is codified in 국토교통부 훈령 「차량의 운행제한 규정」(측정값이 제한기준의 100분의 10을 초과하지 아니하는 경우 운행 허용) - correct, could be cited instead of '안내되지만'. IM6 §3.2.2 (CoG in front half overloads tractor) verified. Note: 제117조제5항 exempts the driver only when his report leads to the shipper/operator being fined - '운전자가 이를 신고하면 운전자는 과태료를 면합니다' is a slight simplification.",
+  "fix": ""
+ }
+]

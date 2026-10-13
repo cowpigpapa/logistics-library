@@ -1,0 +1,3 @@
+[
+  {"claim": "_summary", "verdict": "", "evidence": "36 claims checked, 36 correct. Checked against MSC.1/Circ.1497 Annex 2 §1-§6: lifting-method table (side-lift packed 20/10 ft only; end-lift empty 20/10 ft only; top sling packed 10 ft only at >=60 deg; bottom sling 30/45/60 deg for 40/20/10 ft, hooks not suitable; fork pockets >=1,825 mm, 20/10 ft, no tanks/pressurized bulk), 1.5 deg kink angle, §4.2 gate checks incl. '60% within half the length rule', 25 mm/38 mm stacking offset, row table (6 tiers: 4/4/5 rows), 20 m/s (8 Bft), §6.4-6.7 securing. '60%/50%' is the site's shorthand for 60% of mass within 50% of length; Annex 2 itself only names the 60%-within-half-length rule, not wrong.", "fix": ""}
+]

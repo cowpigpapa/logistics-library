@@ -1,0 +1,14 @@
+[
+ {
+  "claim": "ULD로 접수하는 경우에는 이 항목과 아래 포장 항목을 적용하지 않음",
+  "verdict": "wrong (incomplete scope)",
+  "evidence": "IATA 2027 Acceptance Checklist for Dry Ice (Edition 68) https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/en_form_dryice.pdf: 'Note: The following questions do not apply where the dry ice, or packages containing dry ice, is offered in a ULD.' The note sits before Q6 (quantity), so it covers all of Q6-Q18: packages, marks and labels, and overpacks, not just quantity and packaging.",
+  "fix": "ULD로 접수하는 경우에는 이 항목과 아래 포장·표기·라벨·오버팩 항목을 적용하지 않음"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "52 claims checked, 51 correct. Examples confirmed correct against sources: WHO Supp.13 passive/active definitions; DQ/OQ/PQ (OQ and PQ in triplicate; PQ at least 3 runs each at min and max load, in the warmest and coolest season); transport time from sealing to opening; seasonal vs universal definitions; annual re-qualification; BASF Neopor 0.030-0.035 W/(m·K) and up to 20%; ACERMI PUR 0.022 (40-230mm) / 0.028 (20mm); va-Q-vip 0.0043-0.01, 0.020 vented, up to 10x; ThermoSafe gel 0℃ and +4℃ PCM; va-Q-accu +05G ranges; va-Q-tec PCM -67~+37℃ and >200 J/g; Air Sea Code 821 (-18℃/+5℃, 48h); EU GDP 9.3/9.4; ICAO TI UN1845 (class 9, PI 954, 200kg, A48, A151); IATA checklist items and DGR references; job aid 100×100mm; 49 CFR 173.217(a),(c)(2); SAFO 20017 (12/10/20; 1.5x; 0.5/1/5/>10%); Vietnam Airlines 400kg; DGR 66 Add. NO-05/UL-12; DGR 68 2.8.3 wording; KE-01/06/09 (2026); ThermoSafe GPS-RFS 96h / RFW 120h, 1219×1016×1270, 441L; va-Q-one ≥96h ISTA 7D; ISTA 7D caveat and 7E 72/144h with Standard 20; CSafe Silverpod MAX 135-2,585L and Narrow Body 54.5kg; va-Q-tainer EUROx/USx dimensions and 125/120h; Crēdo Cargo dimensions, 1,655L, 582-667kg, 144h to 168h+; Pegasus AKP, FAA/EASA; volumetric weight 634.4kg.",
+  "fix": ""
+ }
+]

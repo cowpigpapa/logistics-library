@@ -1,0 +1,44 @@
+[
+ {
+  "claim": "Air Canada, American Airlines, China Airlines, Finnair 등 15곳",
+  "verdict": "wrong",
+  "evidence": "https://www.dokasch-ts.com/files/content/PDFs/Opticooler%20Airline%20Partner%20List%2C%202025-02-01%20MK.xlsx — row 'China Airlines / China Airlines Cargo | CI | RAP þ | RKN þ | Airline Rental þ | Forwarder Rental þ' (þ = available). The 15 rows marked 'Airline Rental ý (currently not available)' are AeroLogic, Air Canada, American Airlines, Amerijet, CAL Cargo AirLines (5C), CMA CGM Air Cargo, Egypt Air, Finnair, Kalitta, Kenya Airways, National, Poste Air Cargo, Silk Way West, Starlux and Virgin Atlantic. China Airlines (CI) looks like a mix-up with CAL Cargo Air Lines (5C).",
+  "fix": "Air Canada, American Airlines, CAL Cargo Air Lines, Finnair 등 15곳"
+ },
+ {
+  "claim": "화물칸 안쪽 길이는 1,219~1,340mm 정도라서",
+  "verdict": "wrong (internal inconsistency)",
+  "evidence": "The page's own RKN table gives the AirTainer RKN internal size as 1,378×1,310×1,328, which matches https://www.envirotainer.com/4aea3e/siteassets/documents/solutions/pallets/airtainer/airtainer-rkn-data-sheet.pdf 'Internal Dimensions 1378 x 1310 x 1328'. The stated range leaves out that length.",
+  "fix": "화물칸 안쪽 길이는 1,219~1,378mm 정도라서"
+ },
+ {
+  "claim": "자중이 583kg에서 1,213kg까지 나가서",
+  "verdict": "wrong (internal inconsistency)",
+  "evidence": "The page's own RKN table lists AirTainer RKN tare as 390kg (AirTainer RKN datasheet 2025-12-10: 'Tare Weight 390 kg'). Section 7 of the same page also says '자중 390~1,213kg'.",
+  "fix": "자중이 390kg에서 1,213kg까지 나가서"
+ },
+ {
+  "claim": "충전 시간은 제품별로 4시간에서 12시간입니다",
+  "verdict": "wrong (internal inconsistency)",
+  "evidence": "The page's own RLP/RAP table gives RelEye RLP as '11시간(230V), 22시간(110V)'. The RelEye RLP 2024 spec https://www-api.envirotainer.com/4ad806/siteassets/documents/solutions/pallets/releye/envirotainer-releyer-rlp-container-tech-specs.pdf says 'Charging time ... 1-100% at 230V 11 h, 1-100% at 110V 22 h'. The 4~12h range is only true at 230V.",
+  "fix": "충전 시간은 230V 기준으로 제품별 4시간에서 12시간이고, 110V에서는 더 깁니다(RelEye RLP 22시간)"
+ },
+ {
+  "claim": "<td>-20~+43℃</td><td>확인하지 못함</td>",
+  "verdict": "outdated (the cited source has the value)",
+  "evidence": "HB TempCon RKN Spec (posted by Korean Air Cargo) https://cargo.koreanair.com/sites/default/files/2025-08/HB%20TempCon%20RKN%20Spec.pdf §1.8 Dimensions: external width 1534, length 2007, height 1626 mm (base 1562×1534).",
+  "fix": "<td>-20~+43℃</td><td>2,007×1,534×1,626</td>"
+ },
+ {
+  "claim": "<td>최대 12시간</td><td>확인하지 못함</td>",
+  "verdict": "outdated (the cited source has the value)",
+  "evidence": "HB TempCon RAP Operation Manual https://cargo.koreanair.com/sites/default/files/2026-01/HB%20TempCon%20RAP%20Operation%20Manual.pdf §1.9 Dimensions: external 3175 × 2235.2 × 1626 mm.",
+  "fix": "<td>최대 12시간</td><td>3,175×2,235×1,626</td>"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "70 claims checked, 64 correct. Examples confirmed correct against sources: all Envirotainer datasheet values (RelEye RKN/RLP/RAP, E-Tech RKN e1/RAP e2, AirTainer); CSafe RKN 09-26 vs 02-25 (7h vs 4h charge; +49/+54℃); CSafe RAP; Opticooler RKN/RAP including the 1,650kg chargeable weight; HB TempCon values; the RelEye RLP aircraft list change (A350/B787 dropped in the 2025-12 sheet); T-Tech (16 D-cells, 180kg, -20~+20℃, no Li-ion); FAA Order 8150.4 (TSO-C90 not enough, 'ACTIVE TEMPERATURE CONTROL SYSTEM' marking, DO-293, 49 CFR); IATA NiMH A199 text; DGR 1.2.7.1(i) logger exception and PI 967/970/978; RelEye manual (battery only on aircraft, 1h precondition, 2-72h timer, +5~+25℃ charging, 10A, 20% alert, flight-detection switch); Korean Air PH1/PH2; Emirates 6h checks and container brands; Lufthansa; Virgin; DoKaSch list of 52 airlines including KE/OZ; QEP list; Envirotainer lease packages and MLA; SkyCell 1500X 270h/379kg.",
+  "fix": ""
+ }
+]

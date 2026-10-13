@@ -1,0 +1,4 @@
+[
+  {"claim": "화물이 충분히 데워질 때까지 하루 이상 적출을 늦춥니다", "verdict": "wrong (minor)", "evidence": "CTU Code Annex 3 §4.6.1: \"Goods packed in a cold climate on arrival in a warm climate ... should be delayed until the goods have warmed up sufficiently for avoiding cargo sweat. This may take a waiting time of one or more days unless ...\" The waiting period is 'until warmed up', which MAY take a day or more; the Korean makes one day a fixed minimum.", "fix": "화물이 충분히 데워질 때까지 적출을 늦춥니다. 하루 이상 걸릴 수 있습니다"},
+  {"claim": "_summary", "verdict": "", "evidence": "31 claims checked, 30 correct. Checked against MSC.1/Circ.1497 Annex 3 §1-§4.6 (40%/60%/75%/100% RH thresholds, saturation 4.8/17.3/30.3 g/m3, 30 C 57% -> dew point 20 C, cocoa 20 t x 8% = 1.6 t, >25 C deck variation, 12-15% dunnage moisture -> 60-75% RH, cardboard loses up to 75% strength 40%->95% RH, Cobb method ISO 535, §4.6.2) and MSC.1/Circ.1498 IM1 §3.1.1 (ventilated/reefer/heated CTU).", "fix": ""}
+]

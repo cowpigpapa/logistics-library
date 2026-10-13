@@ -1,0 +1,14 @@
+[
+  {
+    "claim": "반면 ICC 벨기에 위원회 페이지를 비롯한 여러 2차 자료는 <b>1976년</b>으로 적습니다.",
+    "verdict": "wrong",
+    "evidence": "https://iccwbo.be/icc/incoterms-rules-history/ — year headings are 1923, 1928, 1936, 1953, 1967, 1974, 1980...; entry reads \"1974: Advances in air travel ... This edition included the new term FOB Airport (Free on Board Airport).\" The number 1976 does not appear on the page. ICC Belgium agrees with ICC HQ (1974), so it cannot be cited as a 1976 source.",
+    "fix": "반면 여러 2차 자료는 <b>1976년</b>으로 적습니다(ICC 벨기에 위원회 페이지는 ICC 본부와 같이 1974년으로 적습니다)."
+  },
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "46 claims checked, 45 correct. Verified against ICC history page (iccwbo.org: 1923 13 countries, 1928 30+ countries, 1936 FAS/FOB/C&F/CIF/Ex Ship/Ex Quay, 1953 DCP/FOR/FOT, 1967 DAF/DDP, 1974 FOB Airport, 1980 FRC, 1990 FCA, 2000 FAS/DEQ clearance, 2010 D-family), ICC Belgium history (WWII suspension, 1967 misinterpretations, 1990 electronic messages), ICC 2010 Introduction PDF (13->11, DAT/DAP replace DAF/DES/DEQ/DDU, ship's rail removed, domestic subtitle, electronic records, THC, string sales, security), ICC 2020 Introduction (A9/B9 with FOB A6/B6 example, security 'through A2/B2 and A10/B10' -> A4/A7, CIP (A)/CIF (C), own transport FCA/DAP/DPU/DDP, DAT->DPU, Explanatory Notes, horizontal format, VGM), A/CN.9/1028 Annex I (ICC letter: 'practice since 1980 of revising the rules every 10 years', 'two-year process', 'easier to use and understand', Annex article by article), ICC Academy 2020 vs 2010 ('CIP is more often used for manufactured goods'), ICC 2026 Global Policy Commissions Workplan ('Begin work on the revision of the Incoterms rules, laying the groundwork for Incoterms 2030'). Note: the ICC Belgium citation in the source line under '연도가 자료마다 다른 부분' should no longer be presented as support for 1976 after the fix.",
+    "fix": ""
+  }
+]

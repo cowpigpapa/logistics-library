@@ -12,7 +12,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 
 def doc_path(doc_id):
     hits = glob.glob(os.path.join(ROOT, '*-docs', doc_id + '.html'))
-    return hits[0] if hits else None
+    # CTU Code 해설은 조각 파일이 없고 본문이 ctu-library.js 안에 있다.
+    return hits[0] if hits else os.path.join(ROOT, 'ctu-library.js')
 
 
 def items(folder):

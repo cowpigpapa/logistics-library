@@ -1,0 +1,8 @@
+[
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "30 claims checked, 30 correct. ISO 17712 values (H 10 kN tensile / 3.336 kN shear, S 2.27 / 2.224 kN, I below), five tests, seal types §3.1.6, e-seal §3.2, positions E/C/B §3.4.1.4~5, single-drop indicative / international high-security §3.4.1.6, open-top §3.4.5, chain of custody §2.1~2.8 incl. ISPS waiver §2.5, cutter sizes and 46 N / 70 N §3.4.7~3.4.8 all match 1498 IM9.",
+  "fix": ""
+ }
+]

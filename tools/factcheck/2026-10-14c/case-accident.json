@@ -1,0 +1,26 @@
+[
+ {
+  "claim": "화재가 59일간 이어지고 4번 화물창의 컨테이너가 모두 파괴돼",
+  "verdict": "wrong",
+  "evidence": "BSU Investigation Report 255/12 (https://www.bsu-bund.de/SharedDocs/pdf/EN/Investigation_Report/2014/Investigation_Report_255_12.pdf) p.~: 'The potential for ascertaining the cause of the fire at the scene was additionally worsened by the long stay at sea, 59 days from when the fire broke out, and the fire-fighting during that period.' — 59일은 화재가 계속된 기간이 아니라 화재 발생 뒤 선박이 해상에 머문 기간(빌헬름스하펜 입항까지)입니다.",
+  "fix": "화재 발생 뒤 선박이 59일간 해상에 머물며 진화 작업이 이어졌고 4번 화물창의 컨테이너가 모두 파괴돼"
+ },
+ {
+  "claim": "제4류 위험물 100여 종 등 약 191만 리터(허가 창고)",
+  "verdict": "wrong",
+  "evidence": "헤럴드경제(연합뉴스 인용) 2026-08-11 https://www.heraldk.com/article/2026081107025468066 : '이 창고는 … 제4류 위험물(특수인화물, 석유류 등) 100여 종과 일반 화학물질 등 총 191만ℓ의 보관 허가가 난 곳이다', '불에 탄 2개 동의 위험물 보관 허가량은 각각 191만ℓ, 163만ℓ' — 191만 리터는 실제 보관량이 아니라 허가량입니다.",
+  "fix": "제4류 위험물 100여 종 등(창고동 보관 허가량 약 191만 리터)"
+ },
+ {
+  "claim": "제4류 위험물(특수인화물, 석유류 등) 100여 종과 일반 화학물질 등 약 191만 리터. 보도는 이곳을 보관 허가가 난 창고로 전했습니다.",
+  "verdict": "wrong",
+  "evidence": "헤럴드경제 2026-08-11 https://www.heraldk.com/article/2026081107025468066 : '총 191만ℓ의 보관 허가가 난 곳이다'; '불에 탄 2개 동의 위험물 보관 허가량은 각각 191만ℓ, 163만ℓ로, 다른 건물까지 합치면 총 보관 허가량이 1천255만ℓ' — 보도는 허가량만 전하고 실제 보관량은 밝히지 않았습니다.",
+  "fix": "제4류 위험물(특수인화물, 석유류 등) 100여 종과 일반 화학물질 등을 보관하는 허가 창고. 보도는 불이 난 창고동의 보관 허가량을 총 191만 리터로 전했고, 실제 보관량은 출처에 없습니다."
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "약 95개 주장 검증(NTSB AAR-97/06, GCAA 13/2010, ARAIB AAR1105, BSU 255/12, HKJCDPRI Tianjin, TSIB CAS.035·CAS.110, MAIB 9/2021 원문과 링크된 보도 전부 대조), 92개 정확. 오류 2건(MSC Flaminia 59일 의미, 평택 191만 리터를 보관량으로 기재 — 표와 본문 2곳). 미확인 항목은 없음.",
+  "fix": ""
+ }
+]

@@ -1,0 +1,4 @@
+[
+  {"claim": "컨테이너 바닥에 못을 박으려면 운영자 허용을 먼저 받습니다.", "verdict": "wrong", "evidence": "Annex 7 §2.3.5: 'Wooden floors of closed CTUs are generally not suitable for nailing. Nailing to the softwood flooring of flatracks or platforms and open CTUs may be acceptable with the consent of the CTU operator.' Operator consent applies to flatracks, platforms and open CTUs. The checklist line suggests a closed container floor may be nailed once the operator agrees, which contradicts the body text of the same doc ('밀폐형 CTU의 목재 바닥은 일반적으로 못질에 맞지 않습니다').", "fix": "밀폐형 컨테이너의 목재 바닥에는 일반적으로 못을 박지 않고 화물 밑에 깐 더니지·목재에 박습니다. 플랫랙·플랫폼·개방형 CTU의 바닥에 못을 박을 때는 운영자 동의를 먼저 받습니다(§2.3.5)."},
+  {"claim": "_summary", "verdict": "", "evidence": "54 claims checked, 53 correct (chapter 9 table, annex 7 §1.1-1.16, §2.1-2.4, appendix 2 friction values, appendix 3 inclination test, appendix 4 batten formula/24 kN example, dunnage bag 0.75/0.5, MSL table, 5%/10%/60-in-50% rule all match)", "fix": ""}
+]

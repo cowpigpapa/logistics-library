@@ -1,0 +1,32 @@
+[
+ {
+  "claim": "BDP가 선사에 낸 선적지시서(SI, Master B/L 작성용)에 일부 정보를 넣지 않은 계약 위반은 있었지만",
+  "verdict": "wrong",
+  "evidence": "In re M/V MSC Flaminia (2d Cir. 2023) https://www.govinfo.gov/content/pkg/USCOURTS-ca2-18-02974/pdf/USCOURTS-ca2-18-02974-0.pdf p.43: 'When BDP transmitted the draft of Stolt's multipage Sea Waybill to MSC in the form of the MBLI, it included the following instruction: \"DO NOT STOW NEAR HEAT SOURCES…\" But when MSC prepared a proof copy of the Sea Waybill based on the MBLI and sent it back to BDP, the document omitted the heat warning. BDP failed to notice this omission.' / 'BDP failed to obtain from MSC a Sea Waybill that included the correct stowage instructions' — BDP는 지시서에 열원 격리 지시를 넣었고, 위반은 선사 교정본에서 빠진 것을 확인하지 못한 것입니다.",
+  "fix": "BDP가 선사에 보낸 Master B/L 작성 지시서(MBLI)에는 \"열원 근처 적재 금지\" 지시가 있었으나, 선사가 만든 Sea Waybill 교정본에서 이 문구가 빠진 것을 BDP가 확인하지 못해 최종 운송서류에 반영되지 않은 계약 위반은 있었지만"
+ },
+ {
+  "claim": "미국 제2연방항소법원, 2008년 7월 9일, Docket No. 05-6116-cv, 533 F.3d 83",
+  "verdict": "wrong",
+  "evidence": "In re M/V DG Harmony 판결은 2008년 3월 3일 선고되고 2008년 7월 9일 수정(amended)됐습니다 — vLex/판례요약 검색 결과 'decided March 3, 2008 and amended July 9, 2008'(https://case-law.vlex.com/vid/in-re-m-v-894742361), UK P&I Club Bulletin 570-3/08(2008년 3월) https://www.ukpandi.com/news-and-resources/bulletins/2008/570-308-owners-dangerous-goods-liability-decision-usa. 533 F.3d 83은 수정 판결의 인용입니다.",
+  "fix": "미국 제2연방항소법원, 2008년 3월 3일 선고(2008년 7월 9일 수정 판결), Docket No. 05-6116-cv, 533 F.3d 83"
+ },
+ {
+  "claim": "현지 대리점이 정보를 제대로 전달하지 않은 것만으로 연대책임 주체가 됐다는 점은",
+  "verdict": "unverifiable",
+  "evidence": "Reed Smith 2025-08 https://www.reedsmith.com/en/perspectives/2025/08/supreme-court-of-sri-lanka-assigns-liability-mv-x-press-pearl-disaster : 'It found that they [owners, operators, and local agents] had intentionally suppressed and withheld critical information from Sri Lankan authorities' 및 오염자 부담 원칙에 따른 연대책임 — 대리점 책임이 '정보 미전달만으로' 성립했다는 근거는 출처에 없고, 출처는 '의도적 은폐'와 오염자 부담 원칙을 함께 듭니다.",
+  "fix": "선주·운항사와 함께 현지 대리점도 당국에 중요한 정보를 의도적으로 감추었다는 판단 아래 연대책임 주체가 됐다는 점은"
+ },
+ {
+  "claim": "법원은 회사가 화학물질관리법상 유해화학물질 영업자이고 공장은 취급시설이므로 그 설치·운영과 관련해 생긴 환경오염피해(정신적 피해 포함)를 배상해야 하며",
+  "verdict": "wrong",
+  "evidence": "대전고등법원 2019. 12. 4. 선고 2018나15749 판결(국가법령정보센터 precSeq=239395): '환경오염피해구제법 제3조 제7호에 의하면 화학물질관리법 … 유해화학물질 영업을 하는 자의 취급시설은 환경오염피해구제법에서 말하는 시설에 해당한다', '환경오염피해구제법 제6조 제1항에 의하면 시설의 설치·운영과 관련하여 환경오염피해가 발생한 때에는 해당 시설의 사업자가 그 피해를 배상하여야 한다' — 배상책임의 근거 법률은 화학물질관리법이 아니라 환경오염피해구제법입니다(화관법은 '시설' 해당성 판단에만 쓰임). 문구가 화관법을 책임 근거로 읽히게 합니다.",
+  "fix": "법원은 회사가 화학물질관리법상 유해화학물질 영업자이고 공장은 그 취급시설이어서 환경오염피해구제법상 '시설'에 해당하므로, 같은 법 제6조에 따라 그 설치·운영과 관련해 생긴 환경오염피해(정신적 피해 포함)를 배상해야 하며"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "약 120개 주장 검증(국내 판결 10건 원문을 law.go.kr API로, 상법·민법·형법·위험물안전관리법·항공안전법·선박안전법 조문을 현행 원문으로, Senator Linie·Contship·SabreTech·Aconcagua(EWHC/EWCA)·MSC Flaminia 2d Cir.·[2025] UKSC 14 원문, Giannis NK·Tianjin·X-Press Pearl 해설·보도 대조), 116개 정확. 오류 3건(BDP 위반 내용, DG Harmony 선고일, 2018나15749 책임 근거 법률), 과장·미확인 1건(X-Press Pearl 대리점 책임 근거).",
+  "fix": ""
+ }
+]

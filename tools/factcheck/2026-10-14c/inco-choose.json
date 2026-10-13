@@ -1,0 +1,8 @@
+[
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "44 claims checked, 44 correct. Verified against ICC Incoterms 2020 Introduction and Explanatory Notes/articles (library.iccwbo.org BK_0049_04, BK_0049_05): EXW suitable for domestic trade with no intention to export, FCA recommended for loading risk and export clearance; DDP -> consider DAP/DPU; FOB/CFR/CIF not appropriate for container terminal handover -> FCA/CPT/CIP; CPT default risk at first carrier at a point of seller's choosing; FCA A4 'if agreed' seller contracts at buyer's risk and cost; FCA A6/B6 on-board B/L option; FCA B10 notices (carrier name, time, mode incl. security, point); CIF A5 (C)/110%/contract currency; CFR/CIF A6 full set; UCP 600 Art. 28(f)(ii) 110% CIF/CIP. Forwarder practice columns are disclosed as practice. Minor: the ICC Academy 'FAS or FOB?' (13 May 2025) article cited under the EXW/DDP paragraph does not itself discuss EXW/DDP (the ICC Digital Library citation alongside it does).",
+    "fix": ""
+  }
+]

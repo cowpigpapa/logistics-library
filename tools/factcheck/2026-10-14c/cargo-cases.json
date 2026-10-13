@@ -1,0 +1,26 @@
+[
+ {
+  "claim": "다만 보험 개시 전에 했거나, 피보험자 본인 또는 그 직원이 한 경우에만 적용되고, 외부 업체(독립 계약자)가 한 경우는 빠집니다.",
+  "verdict": "wrong",
+  "evidence": "ICC (A) 2009 cl. 4.3: 'where such packing or preparation is carried out by the Assured or their employees or prior to the attachment of this insurance ... \"employees\" shall not include independent contractors'. Independent contractors are only excluded from the 'employees' branch; packing by an outside firm BEFORE attachment is still excluded. The doc's own 사례 2 (서울중앙지법 2016나5565) applied 4.3 to packing by an outside firm (제일수출포장) done before attachment, so the sentence contradicts the case below it.",
+  "fix": "다만 보험 개시 전에 한 포장이거나 피보험자 본인 또는 그 직원이 한 포장에만 적용됩니다. 직원에는 외부 업체(독립 계약자)가 들어가지 않으므로, 외부 업체가 보험 개시 뒤에 한 포장에는 이 면책이 적용되지 않습니다."
+ },
+ {
+  "claim": "자사 직원이 적입하면 보험 면책이 적용될 수 있고(사례 1·5)",
+  "verdict": "unverifiable",
+  "evidence": "Internal inconsistency: 사례 1 (cargonews column on 서울중앙지법 2017가합532480) does not say who packed; the exclusion there was ICC All Risks cl. 5 'inherent vice or nature', which does not depend on the packer. The case that turns on the packer's identity together with 사례 5 is 사례 2 (pre-attachment packing by an outside firm → excluded).",
+  "fix": "자사 직원이 적입했거나 보험 개시 전에 포장했다면 보험 면책이 적용될 수 있고(사례 2·5)"
+ },
+ {
+  "claim": "헬리콥터 연료 주입 기계 1세트(14,400kg, FOB 미화 550,000달러)",
+  "verdict": "unverifiable",
+  "evidence": "서울고법 2021나2010140 (law.go.kr precSeq 219349): 14,400 kg appears nowhere. The booking lists '1) 7,500kg ... 2) 6,900kg' for a 20DV and a 40FL; the bumper frame went in a separate 20ft dry container, and MSC's limitation plea computed 'SDR 13,800 (= 6,900kg × 2)'. 14,400 kg is apparently the sum of both containers, not the flat-rack cargo.",
+  "fix": "헬리콥터 연료 주입 기계 1세트(FOB 미화 550,000달러, 범퍼 프레임은 20피트 컨테이너에 따로 적재)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "45 claims checked, 42 correct. Verified: TT Club 65% (07/02/2017); 상법 제796조 제6호·제9호; Case 2 all facts (19 pcs, 21,300kg, 328,970,926원, 1심 원고승→항소심 원고패, 허용휨응력<소요휨응력; 대법원 2017다234217 상고기각로 확정); Case 3 facts (Haugesund 2015-12-31, Bremerhaven, 30~57km/h, 160,044,917원, 영국법·Hague-Visby, 갑판적 송하인 동의, Shipper's Load Stowage Count and Seal, 재포장 비용 송하인 부담, 항소기각; 대법원 2022.4.14. 2021다309125 심리불속행기각으로 확정); Case 1 facts per cargonews 2022-07-10; EEMS Solar facts per Steamship Mutual (411 coils, Xingang→Novorossiysk, Sept 2010, US$159,809.69, Gencon 1994 cl.5); Garrigues 2015-05-21; STBU 2024-03-27.",
+  "fix": ""
+ }
+]
