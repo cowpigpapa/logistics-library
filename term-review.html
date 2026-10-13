@@ -60,6 +60,27 @@ details.ex { font-size: 13px; color: var(--muted) }
 details.ex summary { cursor: pointer; width: fit-content }
 details.ex p { margin: 6px 0 0; overflow-wrap: anywhere }
 details.ex .b { color: var(--revert) } details.ex .a { color: var(--keep) }
+.change { font-size: 14px; color: var(--muted) }
+.change s { color: var(--revert) } .change b { color: var(--keep) }
+.sent { display: grid; gap: 4px; font-size: 14.5px; line-height: 1.75; background: var(--bg); border-radius: 6px; padding: 10px 12px }
+.sent p { margin: 0; overflow-wrap: anywhere }
+.sent .lbl { display: inline-block; min-width: 30px; font-size: 11.5px; font-weight: 700; color: var(--muted) }
+.sent del { color: var(--revert); background: var(--revert-soft); text-decoration: line-through; border-radius: 3px; padding: 0 2px }
+.sent ins { color: var(--keep); background: var(--keep-soft); text-decoration: none; font-weight: 600; border-radius: 3px; padding: 0 2px }
+.sent mark { background: var(--keep-soft); color: var(--keep); font-weight: 600 }
+.sent .doc { font-size: 12px; color: var(--accent); text-decoration: none; width: fit-content }
+.more-ctx .sent { margin-top: 6px }
+.nopair { margin: 0; font-size: 12.5px; color: var(--muted) }
+.revs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px }
+@media (max-width: 640px) { .revs { grid-template-columns: 1fr } }
+.rev { border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font-size: 13px; line-height: 1.6 }
+.rev b { font-size: 12px; margin-right: 6px }
+.rev .badge { font-size: 11.5px; font-weight: 700; border-radius: 999px; padding: 1px 8px; background: var(--bg); color: var(--muted) }
+.rev[data-v="keep"] .badge { background: var(--keep-soft); color: var(--keep) }
+.rev[data-v="revert"] .badge { background: var(--revert-soft); color: var(--revert) }
+.rev[data-v="other"] .badge { background: var(--other-soft); color: var(--other) }
+.rev .better { margin-left: 6px; font-weight: 600; color: var(--other) }
+.rev p { margin: 4px 0 0; color: var(--ink) }
 .src { display: inline-block; font-family: var(--font-mono); font-size: 12px; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 6px }
 .gloss { font-size: 13.5px; line-height: 1.6; color: var(--ink) }
 .gloss.warn { color: var(--other) }
@@ -99,7 +120,9 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   <header>
     <a class="home" href="/">← Logistics Library</a>
     <h1>Logistics Library 용어 검수표</h1>
-    <p class="lead">10월 11~12일 밤에 바꾼 용어 전체입니다. 줄마다 <b>좋음</b>(그대로 둠), <b>되돌리기</b>(원래 말로), <b>다른 말로</b>(칸에 맞는 말 입력) 중 하나를 누르면 바로 저장됩니다. 메모는 칸을 벗어나면 저장됩니다. 줄마다 원어(영문 용어), 짧은 해석, 실제 문서에서 쓰인 문장(지금 / 바꾸기 전)을 붙였습니다. 해석에 <b>주의</b>가 붙은 줄은 Claude도 다시 볼 만하다고 본 것입니다. 다 고르시면 Claude에게 "검수표 반영해"라고만 말씀하세요. 이 페이지는 관리자 키가 있어야 열리고 검색엔진에 노출되지 않습니다.</p>
+    <p class="lead">10월 11~12일 밤에 바꾼 용어 전체입니다. 줄마다 <b>실제로 바꾸기 전 문장(전)</b>과 <b>바꾼 뒤 문장(후)</b>을 git 기록에서 그대로 꺼내 붙였고, 바뀐 부분은 빨강(빠진 말)과 초록(새 말)으로 표시했습니다. 그 아래에는 같은 문장을 <b>Codex</b>와 <b>Antigravity</b>가 따로 읽고 낸 의견이 있습니다. 둘의 의견이 갈린 줄은 위 '검토 의견'에서 모아 볼 수 있습니다.<br>
+    판정은 <b>좋음</b>(그대로 둠), <b>되돌리기</b>(원래 말로), <b>다른 말로</b>(칸에 맞는 말 입력) 중 하나를 누르면 바로 저장됩니다. 다 고르시면 Claude에게 "검수표 반영해"라고만 말씀하세요.<br>
+    영어가 영어로 바뀐 줄 가운데 undermount → underslung, Sanctions → Sanction 같은 줄은 영어 원어를 업계·약관에서 쓰는 표기로 고친 것이고, °C → ℃, prefix → Prefix 같은 줄은 표기만 통일한 것입니다.</p>
   </header>
 
   <form class="keyform" id="keyform" hidden>
@@ -116,7 +139,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
       <input type="search" id="q" placeholder="용어 검색 (예: 부킹, 젠셋, 씰)" aria-label="용어 검색">
       <select id="cat" aria-label="카테고리"><option value="">모든 카테고리</option></select>
       <label class="chk"><input type="checkbox" id="todo"> 아직 안 고른 것만</label>
-      <label class="chk"><input type="checkbox" id="warn"> 주의 표시만</label>
+      <select id="warn" aria-label="검토 의견"><option value="">검토 의견 전체</option><option value="split">Codex·Antigravity 의견 갈림</option><option value="flag">하나라도 되돌리기·다른 말</option><option value="both-keep">둘 다 좋음</option></select>
     </div>
     <div class="status" id="status">목록을 불러오는 중입니다.</div>
   </div>
@@ -150,12 +173,12 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   }
 
   function filtered() {
-    const q = $('q').value.trim().toLowerCase(), cat = $('cat').value, todo = $('todo').checked, warn = $('warn').checked;
+    const q = $('q').value.trim().toLowerCase(), cat = $('cat').value, todo = $('todo').checked, warn = $('warn').value;
     return rows.filter(r => r.group === group
       && (!cat || (r.cats || '').includes(cat))
       && (!todo || !r.verdict)
-      && (!warn || /^주의/.test(r.gloss || ''))
-      && (!q || [r.from, r.to, r.ex_from, r.ex_to, r.note, r.memo, r.alt, r.src, r.gloss].join(' ').toLowerCase().includes(q)));
+      && (!warn || (warn === 'flag' ? ['revert', 'other'].some(v => [r.rev && r.rev.codex && r.rev.codex.verdict, r.rev && r.rev.agy && r.rev.agy.verdict].includes(v)) : agreement(r) === warn))
+      && (!q || [r.from, r.to, r.note, r.memo, r.alt, r.src, ...(r.sents || []).map(c => c.before + ' ' + c.after), ...(r.ctx || []).map(c => c.text)].join(' ').toLowerCase().includes(q)));
   }
   function renderStats() {
     const c = { all: rows.length, keep: 0, revert: 0, other: 0 };
@@ -168,26 +191,56 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
       return `<button class="tab" data-g="${esc(g)}" aria-pressed="${g === group}">${esc(g)}<small>${left}/${list.length}</small></button>`;
     }).join('');
   }
+  // 단어 단위 차이: 바꾸기 전 문장에서 빠진 말은 빨강, 바꾼 뒤 문장에 새로 들어간 말은 초록
+  function wordDiff(a, b) {
+    const tok = s => s.match(/[^\s·,]+|[\s·,]/g) || [];
+    const x = tok(a), y = tok(b), n = x.length, m = y.length;
+    if (n * m > 90000) return [esc(a), esc(b)];
+    const L = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
+    for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--) L[i][j] = x[i] === y[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+    let i = 0, j = 0, A = '', B = '', da = '', db = '';
+    const flush = () => { if (da) A += `<del>${esc(da)}</del>`; if (db) B += `<ins>${esc(db)}</ins>`; da = db = ''; };
+    while (i < n && j < m) {
+      if (x[i] === y[j]) { flush(); A += esc(x[i]); B += esc(y[j]); i++; j++; }
+      else if (L[i + 1][j] >= L[i][j + 1]) da += x[i++]; else db += y[j++];
+    }
+    while (i < n) da += x[i++];
+    while (j < m) db += y[j++];
+    flush();
+    return [A, B];
+  }
+  const VLABEL = { keep: '좋음', revert: '되돌리기', other: '다른 말로' };
+  function revHtml(name, v) {
+    if (!v || !v.verdict) return `<div class="rev"><b>${name}</b><span class="badge">의견 없음</span></div>`;
+    return `<div class="rev" data-v="${esc(v.verdict)}"><b>${name}</b><span class="badge">${VLABEL[v.verdict] || esc(v.verdict)}</span>${v.better ? `<span class="better">→ ${esc(v.better)}</span>` : ''}<p>${esc(v.reason || '')}</p></div>`;
+  }
+  function agreement(r) {
+    const a = r.rev && r.rev.codex && r.rev.codex.verdict, b = r.rev && r.rev.agy && r.rev.agy.verdict;
+    if (!a || !b) return '';
+    if (a === b) return 'both-' + a;
+    return 'split';
+  }
   function rowHtml(r) {
     const pend = r.group === '결정 필요';
-    const pair = pend ? `<span>${esc(r.from)}</span>`
-      : `<span class="from">${esc(r.from)}</span><span class="arrow">→</span><span class="to">${esc(r.to)}</span>`;
-    // 문장 맥락: 실제 문서의 앞뒤 문장(지금 문장 / 바꾸기 전), 그 문서 링크
-    const mark = (text, hit) => { const t = esc(text), h = esc(hit || ''); const i = h ? t.indexOf(h) : -1; return i < 0 ? t : t.slice(0, i) + '<mark>' + h + '</mark>' + t.slice(i + h.length); };
-    const oldWord = pend ? '' : (r.from.split(' / ')[0] || '').replace(/<[^>]+>/g, '').trim();
-    const ctxHtml = c => `<div class="ctx">
-        <p><span class="lbl">${pend ? '문장' : '지금'}</span>${mark(c.text, c.hit)}</p>
-        ${c.before && c.before !== c.text ? `<p class="b"><span class="lbl">전</span>${mark(c.before, r.id === 't009' ? (c.hit || '').replace(/kg$/, ' kg') : oldWord)}</p>` : ''}
-        <span class="doc"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)} ↗</a></span></div>`;
-    const ctx = r.ctx && r.ctx.length ? ctxHtml(r.ctx[0]) + (r.ctx[1] ? `<details class="more-ctx"><summary>다른 문서의 문장 하나 더</summary>${ctxHtml(r.ctx[1])}</details>` : '')
-      : (r.ex_from && !pend) ? `<div class="ctx"><p class="b"><span class="lbl">전</span>${esc(r.ex_from)}</p><p><span class="lbl">지금</span>${esc(r.ex_to)}</p></div>` : '';
-    const ex = (r.src || r.gloss ? `<div class="gloss${/^주의/.test(r.gloss || '') ? ' warn' : ''}">${r.src ? `<span class="src">${esc(r.src)}</span>` : ''}${esc(r.gloss || '')}</div>` : '') + ctx;
+    const docLink = c => c.url ? `<a class="doc" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title || '문서')} ↗</a>` : '';
+    const pairHtml = c => { const [A, B] = wordDiff(c.before, c.after); return `<div class="sent"><p class="b"><span class="lbl">전</span>${A}</p><p class="a"><span class="lbl">후</span>${B}</p>${docLink(c)}</div>`; };
+    const markWord = (text, words) => { let t = esc(text); words.filter(Boolean).forEach(w => { const e = esc(w); const i = t.indexOf(e); if (i >= 0) t = t.slice(0, i) + '<mark>' + e + '</mark>' + t.slice(i + e.length); }); return t; };
+    const plainFrom = r.from.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim(), plainTo = (r.to || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const words = (pend ? plainFrom.split(/\s*(?:\/|→)\s*/) : [plainTo]).map(w => w.replace(/\(.*?\)/g, '').trim());
+    const curHtml = c => `<div class="sent"><p><span class="lbl">${pend ? '문장' : '지금'}</span>${markWord(c.text, words)}</p>${docLink(c)}</div>`;
+    let body = '';
+    if (r.sents && r.sents.length) body = pairHtml(r.sents[0]) + (r.sents.length > 1 ? `<details class="more-ctx"><summary>다른 문장 ${r.sents.length - 1}개 더</summary>${r.sents.slice(1).map(pairHtml).join('')}</details>` : '');
+    else if (r.ctx && r.ctx.length) body = (pend ? '' : '<p class="nopair">바꾸기 전 문장을 기록에서 찾지 못해 지금 문장만 보여 드립니다(그림 속 글자 등).</p>') + r.ctx.slice(0, 2).map(curHtml).join('');
+    else body = '<p class="nopair">문서에서 문장을 찾지 못했습니다.</p>';
+    const change = pend ? `고를 표기: ${esc(plainFrom)}` : `바뀐 말: <s>${esc(plainFrom)}</s> → <b>${esc(plainTo)}</b>${r.src ? ` <span class="src">${esc(r.src)}</span>` : ''}`;
+    const revs = r.rev ? `<div class="revs">${revHtml('Codex', r.rev.codex)}${revHtml('Antigravity', r.rev.agy)}</div>` : '';
     const labels = pend ? [['keep', '지금대로'], ['other', '이걸로 통일']] : [['keep', '좋음'], ['revert', '되돌리기'], ['other', '다른 말로']];
     return `<article class="row" data-id="${r.id}" data-v="${esc(r.verdict || '')}">
-      <div class="head"><div class="pair">${pair}</div>
+      <div class="head"><div class="change">${change}</div>
         <div class="meta"><span class="id">${r.id}</span>${r.count ? `<span>${r.count}곳</span>` : ''}${r.cats ? `<span>${esc(r.cats)}</span>` : ''}</div></div>
       ${r.note ? `<div class="note">${esc(r.note)}</div>` : ''}
-      ${ex}
+      ${body}
+      ${revs}
       <div class="ctl">
         <div class="seg" role="group" aria-label="판정">${labels.map(([v, t]) => `<button type="button" data-v="${v}" aria-pressed="${r.verdict === v}">${t}</button>`).join('')}</div>
         <input type="text" id="alt-${r.id}" data-f="alt" value="${esc(r.alt || '')}" placeholder="${pend ? '통일할 말' : '바꿀 말'}" aria-label="바꿀 말" ${r.verdict === 'other' ? '' : 'hidden'}>
@@ -214,7 +267,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
   }
 
   $('tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (!b) return; group = b.dataset.g; shown = PAGE; render(); });
-  ['q', 'cat', 'todo', 'warn'].forEach(id => $(id).addEventListener('input', () => { shown = PAGE; render(); }));
+  ['q', 'cat', 'todo', 'warn'].forEach(id => { $(id).addEventListener('input', () => { shown = PAGE; render(); }); $(id).addEventListener('change', () => { shown = PAGE; render(); }); });
   $('more').addEventListener('click', () => { shown += PAGE; render(); });
   $('list').addEventListener('click', e => {
     const b = e.target.closest('.seg button'); if (!b) return;
@@ -236,7 +289,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
     try {
       const data = await rpc('get_term_review', { p_secret: key });
       rows = data.map(d => ({ id: d.id, group: d.grp, from: d.frm, to: d.dst, count: d.count, cats: d.cats, ex_from: d.ex_from, ex_to: d.ex_to,
-        note: d.note, src: d.src, gloss: d.gloss, ctx: d.ctx || [], verdict: d.verdict, alt: d.alt, memo: d.memo, updated_at: d.updated_at }))
+        note: d.note, src: d.src, ctx: d.ctx || [], sents: d.sents || [], rev: d.rev && Object.keys(d.rev).length ? d.rev : null, verdict: d.verdict, alt: d.alt, memo: d.memo, updated_at: d.updated_at }))
         .sort((a, b) => GROUPS.indexOf(a.group) - GROUPS.indexOf(b.group) || (a.id < b.id ? -1 : 1));
       store.set('ll-admin-key', key);
       $('keyform').hidden = true;

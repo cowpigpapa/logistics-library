@@ -376,3 +376,7 @@ on conflict (id) do nothing;
 -- 2026-10-13: 판정을 돕는 맥락(원어, 짧은 해석, 실제 문서 문장 전/후). 값은 scratchpad term_ctx.py·gloss 결과로 채웠다.
 alter table public.term_review add column if not exists src text not null default '',
   add column if not exists gloss text not null default '', add column if not exists ctx jsonb not null default '[]'::jsonb;
+
+-- 2026-10-13: 실제 전후 문장(sents: git a26f08e → a852f0e)과 Codex·Antigravity 문장 단위 의견(rev).
+alter table public.term_review add column if not exists sents jsonb not null default '[]'::jsonb,
+  add column if not exists rev jsonb not null default '{}'::jsonb;
