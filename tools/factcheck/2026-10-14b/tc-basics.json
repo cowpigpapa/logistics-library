@@ -1,0 +1,20 @@
+[
+ {
+  "claim": "\"Store in a refrigerator\"처럼 정해진 문장과 함께 (2℃ to 8℃) 같은 범위를 적게 합니다",
+  "verdict": "wrong (imprecise)",
+  "evidence": "EMA CPMP/QWP/609/96/Rev 2 https://www.ema.europa.eu/system/files/documents/scientific-guideline/wc500003468_en.pdf — for 5℃±3℃ the required labelling statement is just 'Store in a refrigerator'. The range is required in the SPC and leaflet, not on the label: '** The SPC and Package Leaflet (PL) should include a reference to the temperature range e.g. (2°C to 8°C)'.",
+  "fix": "\"Store in a refrigerator\"처럼 정해진 문장을 쓰게 하며, 제품 정보(SPC)와 사용설명서에는 (2℃ to 8℃) 같은 범위를 함께 적게 합니다"
+ },
+ {
+  "claim": "2022년 9월 재인증을 받았습니다(재인증은 3년마다 현장 실사로 진행)",
+  "verdict": "outdated",
+  "evidence": "https://www.heraldk.com/article/2025102916131533994 (2025-10-29): Korean Air, a member of the Incheon CEIV community, was recertified for CEIV Pharma in October 2025 (first certified June 2019, recertified 2022). The airport.kr pages still say only '2022년 9월에는 재인증 획득'. No source confirms that the whole community recertified in 2025.",
+  "fix": "2022년 9월 재인증을 받았습니다(재인증은 3년마다 현장 실사로 진행하며, 대한항공은 2025년 10월 다시 재인증을 받았습니다)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "46 claims checked, 44 correct. Examples confirmed correct against sources: KP 통칙 ranges and 고시 제2026-44호 (2026-06-29, in force 3 months later); WHO TRS 1025 Table A7.1 values and 1.4 forwarding agents; Finnair codes (PIL with exactly one code, FRO -10℃ or below, PHA); SAS (FRO -5~-15℃, one range per AWB, approved logger list); TCR 9th addendum codes ACT/PIP/EMD and Cargo-IMP; WHO TRS 961 excursion definition, 9.2.2, 9.2.3 (3 years) and 16 supplements; Supp.13 cryogenic shipper and EDLM definitions; EU GDP 4.2/7/9.x content; KGSP 별표 6 clause numbers and content (공급 definition, 7.다.4), 7.마.2)~4)·7), 3.라, 6.나.1) 2년, Ⅲ.3); 별표 8 Ⅱ.35.마 penalties (1개월 → 4차 허가취소; 3개월 → 3차 허가취소); TCR 15th ed. (2027) changes including warehouse handling; TTS label FAQ rules; checklist Ed.14 (Jan 2026) items, mandatory since July 2013; CEIV Pharma process (2 staff, 3-4 days, Appendix D) and 562 certified at end of 2025; Incheon community (2019); first airport with all three CEIVs; 3만 → 4.2만 톤. Minor nuance, not counted as an error: WHO TRS 961 cites 'IATA Chapter 17, 9th ed. 2009', which is the Perishable Cargo Regulations chapter that TCR replaced, not TCR itself.",
+  "fix": ""
+ }
+]

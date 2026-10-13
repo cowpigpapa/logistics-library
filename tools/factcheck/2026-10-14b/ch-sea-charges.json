@@ -1,0 +1,26 @@
+[
+ {
+  "claim": "보세화물 입출항 하선 하기 및 적재에 관한 고시 제2조·제40조",
+  "verdict": "wrong",
+  "evidence": "law.go.kr DRF API, 관세청고시 제2026-53호(admRulSeq 2100000284290, 현행): CFS 정의는 제2조(정의)에 없고 제15조(하선신고) 제5항 제2호에 있음 — \"2. 하선장소내 컨테이너 화물조작장(이하 \"CFS\"라 한다) 반입대상물품\". 제40조 \"CY에서의 입출항화물에 대한 컨테이너 적출입 작업은 CFS에서 해야 한다\"는 맞음.",
+  "fix": "보세화물 입출항 하선 하기 및 적재에 관한 고시 제15조·제40조"
+ },
+ {
+  "claim": "MTD: e-SI와 전자 B/L 40,000원, e-SI와 원본 B/L·해상화물운송장(SWB) 60,000원, 수기 SI 70,000원(2026. 7. 1.부터)",
+  "verdict": "wrong",
+  "evidence": "Hapag-Lloyd South_Korea_local_charges_service_fees_Aug2026.pdf: MTD 40,000 KRW per B/L \"Electronic Shipping Instruction – Electronic Bill of Lading\" Effective July 1, 2026; MTD 60,000 (e-SI – OBL/SWB) Effective January 1, 2024; MTD 70,000 \"Manual Shipping Instruction\" Effective January 1, 2024. 2026. 7. 1.은 40,000원 구간에만 해당하는데, 현재 문장은 괄호가 수기 SI 70,000원(또는 세 금액 전부)에 붙은 것으로 읽힘.",
+  "fix": "MTD: e-SI와 전자 B/L 40,000원(2026. 7. 1.부터), e-SI와 원본 B/L·해상화물운송장(SWB) 60,000원, 수기 SI 70,000원"
+ },
+ {
+  "claim": "상하이·닝보에서만 CNY 8·12로 받고 수입은 환적화물에만 적용하며",
+  "verdict": "unverifiable",
+  "evidence": "인용 출처 ONE China 華中·華北出口其他本地附加費(2023. 4. 1.) PDF는 수출표로 \"Port Security Surcharge PSE | Shanghai, Ningbo | CNY 8/12 20'/40'&45' | PC\"만 있고 수입·환적 적용 조건은 없음. 수입 환적 한정 여부를 확인할 수 있는 ONE 중국 수입 요율표를 찾지 못함(웹 검색에서도 확인 안 됨). 상하이·닝보 CNY 8·12 자체는 맞음.",
+  "fix": "상하이·닝보 수출 화물에 CNY 8·12(20피트·40피트)로 받으며"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "약 85 claims checked, 82 correct (2 wrong, 1 unverifiable). 확인한 1차 출처: law.go.kr DRF API(해운법·시행규칙, 항만운송사업법·시행규칙, 국제선박항만보안법 제42조, 운임공표 고시 제2023-96호, 항만시설 사용료 규정 제2026-101호 별표1, 보안료 업무처리요령 제2026-56호, 관세청고시 제2026-53호), 대법원 2017두37215 PDF, 부산항만공사 규정 PDF, 공정위 의결 제2022-090호, BNCT 2026 tariff PDF, Maersk(THC·수입 로컬 비용·AME·BLE/BLI·MID·EBS·미국 터미널 비용·독일 THC·용어집), ONE(한국 7.1 표·CSO/CSC·EIS·EFS·싱가포르·일본 수출입·중국 THC/PSE), Hapag-Lloyd(한국 8월판·일본 THC), 장금상선(THC·보안료·LSF·CFS) 원문. 금액·날짜·산술(245,000원, 240,574원, 145원 차이 등) 모두 일치.",
+  "fix": ""
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "claim": "Hapag-Lloyd와 CMA CGM은 한 컨테이너 안에 두 온도 구역을 두는 다온도(multi-temperature) 옵션도 소개하고 있습니다.",
+  "verdict": "wrong",
+  "evidence": "CMA CGM brochure (https://www.cma-cgm.com/assets/public/pdf/Brochure%20Reefer.pdf): \"Multi-temperature system - Used for some commodities, such as tomatoes or potatoes, that may require temperature changes during the voyage.\" (a time-based setpoint change, not two zones). Hapag-Lloyd Container Specification p.39/41 only says \"Multi-temperature setting (MTS) option\"; MTS = Multiple Temperature Setpoint, per Thermo King MP-5000 manual (https://www.emea-user-manuals.thermoking.com/etech-emea-public/thermoking-emea/Minneapolis%20-%20Container%20-%20Generator%20Sets/Literature/Maintenance%20or%20Service/0005725493.xml/$/0005720520): \"user pre-programmed temperature setpoints and time periods ... up to nine different sets\". Neither source describes two temperature compartments in one container.",
+  "fix": "Hapag-Lloyd와 CMA CGM은 항해 중 미리 정해 둔 일정에 따라 설정 온도를 단계적으로 바꾸는 다온도 설정(multi-temperature setting) 옵션도 소개하고 있습니다."
+ },
+ {
+  "claim": "HMM Ultra Freezer -60℃~-10℃, 스테인리스 내장",
+  "verdict": "unverifiable",
+  "evidence": "Linked HMM page (https://www.hmm21.com/e-service/information/mobile/containerInformationDetail.do?pageName=reeferCntr_ultrFreezer) timed out on repeated attempts (curl and WebFetch). Secondary coverage (maritimegateway.com/hmm-launches-ultra-freezer-service) confirms only \"-60ºC\"; the -10℃ upper limit and stainless interior could not be confirmed.",
+  "fix": ""
+ },
+ {
+  "claim": "NOR brochure(ONE, 2020)",
+  "verdict": "outdated",
+  "evidence": "https://www.one-line.com/static/documents/ONE_Brochure_NOR_29012020.pdf - the PDF at this URL now carries the footer \"December 2024\" (content: \"Non-hazardous, odourless, carton packed goods\" still matches the page text). Only the year in the source label is stale.",
+  "fix": "NOR brochure(ONE, 2024)"
+ },
+ {
+  "claim": "최소 5% 폭의 범위로 주라고 권합니다",
+  "verdict": "wrong",
+  "evidence": "https://www.ukpandi.com/fileadmin/uploads/ukpandi/Documents/uk-p-i-club/carefully-to-carry/2023/UKPI_Carefully_to_Carry_2023_36.pdf p.361/p.363: \"It is difficult to measure humidity regularly to better than the nearest 2 to 3%, so an acceptable range of at least ±5% should be specified, albeit with a tighter target.\" ±5% means a band 10 points wide, not a 5% wide band.",
+  "fix": "최소 ±5% 범위로 주라고 권합니다"
+ },
+ {
+  "claim": "외기 온도·습도, 전원 상태",
+  "verdict": "wrong",
+  "evidence": "https://www.one-line.com/en/all-digital-solutions/container-plus : heading 'Ambient Temperature & Humidity', body \"Track external temperature and internal humidity levels for a full environmental picture.\" The humidity shown is inside the container, not outside air humidity.",
+  "fix": "외기 온도, 내부 습도, 전원 상태"
+ },
+ {
+  "claim": "MSC iReefer FAQs §2(MSC, 2026)",
+  "verdict": "unverifiable",
+  "evidence": "https://assets.msc.com/api/public/content/176580c8ed344809981db22c8e98cc99?v=69f258f2 : the Essential/Pro/Ultimate packages and 'DATA FREQUENCY 12hrs / 12hrs/1hr' are in §1.6, not §2. §2 holds only the 30-day availability (§2.1), hourly updates (§2.2) and the claims clause (§2.5). Citation is incomplete, not a fact error.",
+  "fix": "MSC iReefer FAQs §1.6·§2(MSC, 2026)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "173 claims checked, 167 correct",
+  "fix": ""
+ }
+]

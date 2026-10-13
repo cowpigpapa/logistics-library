@@ -1,0 +1,20 @@
+[
+ {
+  "claim": "Demurrage and Detention in Container Shipping p.3(FIATA, 2018)",
+  "verdict": "wrong",
+  "evidence": "FIATA PDF(링크된 파일) — 누적 D&D 상한 권고 \"FIATA suggests that commercial partners negotiate limits to the accrual of demurrage or detention charges to a maximum, ideally the value of the purchase price of a new container.\"는 PDF 5쪽, 쪽 표시 \"fiata.com Page 4 of 9\"에 있음. \"Page 3 of 9\"(PDF 4쪽)는 D&D 정의·요금 구조 부분.",
+  "fix": "Demurrage and Detention in Container Shipping p.4(FIATA, 2018)"
+ },
+ {
+  "claim": "창고업자가 대출 은행에 유치권을 포기한다는 내용을 미리 인쇄된 서식으로 받게 한 경우",
+  "verdict": "wrong",
+  "evidence": "대법원 2009. 12. 10. 선고 2009다61803, 61810 판결(law.go.kr precSeq=215783) 판시사항: \"금융기관인 양도담보권자가 양도담보 목적물을 보관하는 창고업자로부터 '…창고업자는 유치권 등과 관련된 우선변제권을 행사할 수 없다'는 문구가 부동문자로 인쇄된 확약서를 제출받은 사안\". 서식을 만든 쪽(약관 사용자)은 은행이고 창고업자는 그것을 제출한 고객인데, 현재 문장은 창고업자가 서식을 주도한 것으로 읽혀 약관규제법 적용 구조와 맞지 않음.",
+  "fix": "대출 은행이 창고업자에게서 유치권을 행사하지 않겠다는 문구가 미리 인쇄된 확약서를 받은 경우"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "약 90 claims checked, 88 correct (2 wrong). 한국 판결 13건(2020다280685 3개 심급, 94다27144, 91다2069, 95누6786, 2018나2043461, 2010마122, 2002나3518, 2009다61803)을 law.go.kr DRF API 전문으로, FMC 21-09 최초결정·합의서, 24-13·24-09 최초결정, 23-08 위원회 결정·보도자료, Maersk 타협 보도자료, 1966(I) 재심 결정, D.C. Cir. 23-1052·25-1104 판결, Cottonex [2016] EWCA Civ 789 원문으로 대조. 사건번호·선고일·금액·산술(28,908,000원, USD 35,040, USD 22.67백만, USD 580.03) 모두 일치. 내부 참조(ch-dnd 4장 = FMC 규정) 정상.",
+  "fix": ""
+ }
+]

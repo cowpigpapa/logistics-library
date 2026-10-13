@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "양호하게 인도된 화물이 손상돼 나오면 면책 사유는 운송인이 입증해야 한다고 보고,",
+    "verdict": "wrong",
+    "evidence": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2010/3224 para 26: \"once the carrier sets up one of these causes or events as a plausible explanation, it is for the claimant to show on a balance of probabilities that the cause or event did not cause the loss\"; para 27: \"even on the higher 'balance of probabilities' test, I am satisfied that Santa Elena has proved that none of the three matters relied upon by Maersk was causative\"; para 28: \"Apart from the exclusions in clause 6.1(a) (iii) (iv) and (v) to which the clause 6.1(b) presumption applies ... it is for Maersk to show ...\". Maersk relied on exactly (iii) packing, (iv) stowage, (v) inherent vice (para 24), so the general carrier-burden rule did not govern those defences.",
+    "fix": "머스크가 내세운 포장·적재 잘못과 고유 하자 면책은 화주가 손해의 원인이 아니었음을 증명해야 한다는 해석에 기울었지만, 화주가 그 기준으로도 이를 증명했다고 보고(그 밖의 면책 사유는 운송인이 입증해야 함),"
+  },
+  {
+    "claim": "-18℃가 +18℃로: 대리점 입력 실수 두 건",
+    "verdict": "wrong",
+    "evidence": "Internal inconsistency: the body says the second case was \"정반대로\" (+18℃ cargo set at -18℃). ITIC Confection convection (https://itic-insure.com/our-publications/claims-review/confection-convection-158905): \"An agent set a reefer at -18 instead of +18 degrees for a cargo of candy\". Only the pastry case was -18℃ entered as +18℃.",
+    "fix": "+18℃와 -18℃를 뒤바꾼 대리점 입력 실수 두 건"
+  },
+  {
+    "claim": "2023년 4월 손해 예방 자료에서",
+    "verdict": "unverifiable",
+    "evidence": "https://www.swedishclub.com/loss-prevention/loss-prevention-advice/reefer-container-meat-damaged-due-to-wrong-temperature-settings/ shows no publication date; the same case appears as 2.3 in The Swedish Club Casebook 2023 (https://www.swedishclub.com/uploads/2024/01/Casebook2023_2Cargo-containers.pdf, uploaded January 2024). No April 2023 date found.",
+    "fix": "2023년 사례집(Casebook)과 손해 예방 자료에서"
+  },
+  {
+    "claim": "냉장(chilled) 소고기가 냉동된 경우",
+    "verdict": "unverifiable",
+    "evidence": "Swedish Club page and Casebook 2023 PDF say only \"superior chilled meat\" / \"reefer containers with meat\"; the word beef does not appear (beef appears in a different case in Cargo Advice Refrigerated cargoes, set point -14℃ instead of -1.4℃).",
+    "fix": "냉장(chilled) 육류가 냉동된 경우"
+  },
+  {
+    "claim": "냉장(chilled) 고급 소고기 사례",
+    "verdict": "unverifiable",
+    "evidence": "https://www.swedishclub.com/loss-prevention/loss-prevention-advice/reefer-container-meat-damaged-due-to-wrong-temperature-settings/: \"The containers had been filled with superior chilled meat\" (no mention of beef).",
+    "fix": "냉장(chilled) 고급 육류 사례"
+  },
+  {
+    "claim": "실제 컨테이너 설정은 고친 목록과 대조하지 않아 -18℃ 그대로 항해했습니다",
+    "verdict": "unverifiable",
+    "evidence": "Swedish Club source states only: \"one of the containers was switched to freezing mode with a set point of -18°C and remained at this setting throughout the entire month's voyage\" and \"the agent then updated the reefer list confirming the set point temperature as -1.4°C\". It does not say the setting was left uncompared with the corrected list; the cause of the wrong setting is not stated.",
+    "fix": "이 컨테이너는 냉동 모드(-18℃)로 설정된 채 한 달 항해 내내 그대로였습니다"
+  },
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "122 claims checked, 116 correct",
+    "fix": ""
+  }
+]
