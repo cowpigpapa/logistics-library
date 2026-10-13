@@ -1,0 +1,32 @@
+[
+  {
+    "claim": "미국 견과류 수출자가 2018년 8월 한국 수입자에게 호두 두 건(약 12만 달러, 7만 달러)을",
+    "verdict": "wrong",
+    "evidence": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=608481 (대법원 2025. 8. 14. 선고 2024다270860, DRF API로 원문 확인): \"원고는 ... 2018. 7. 27. 호두 42,000파운드(이하 '제1 물품')를 미화 123,900달러에 수출하는 매매계약을 체결하고, 2018. 8. 2. 호두 25,000파운드(...)를 미화 73,750달러에 수출하는 매매계약을 체결하였다.\" 첫 계약은 7월이고, 금액은 약 12만 4천·7만 4천 달러(House B/L 발행은 2018. 8. 12.·8. 19.).",
+    "fix": "미국 견과류 수출자가 2018년 7~8월 한국 수입자에게 호두 두 건(약 12만 4천 달러, 7만 4천 달러)을"
+  },
+  {
+    "claim": "선주가 LOI를 근거로 B/L 없이 원유를 인도한 뒤",
+    "verdict": "wrong",
+    "evidence": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/471 [3]: \"BP sold to Gulf minimum 110,000 m.t. maximum 150,000 m.t. very low sulphur fuel oil\"; [1]: \"Owners discharged the cargo against Gulf's letter of indemnity. After discharge the bill of lading was indorsed by BP to the Bank.\" 화물은 원유(crude oil)가 아니라 초저유황 연료유(VLSFO). 결론(제87·107·108항)과 판결일(2023. 5. 4.)은 맞음.",
+    "fix": "선주가 LOI를 근거로 B/L 없이 연료유(초저유황 연료유)를 인도한 뒤"
+  },
+  {
+    "claim": "런던의 은행이 대금 지급 전까지 B/L을 가지고 있었는데",
+    "verdict": "unverifiable",
+    "evidence": "BAILII 원문(https://www.bailii.org/uk/cases/UKPC/1959/1959_14.pdf)은 봇 차단으로 열리지 않음. 사실관계 요약인 (1960) 2 Mal LJ 128 판례평석(https://law.nus.edu.sg/sjls/wp-content/uploads/sites/14/2024/07/66-1960-2-mal-jul-128.pdf)은 \"shipped from England to Singapore, bicycle parts ... under a bill of lading requiring the goods to be delivered 'unto order'\", \"released them to the consignees, the Southern Trading Company against a written indemnity by the consignee's bank\"라고만 적고, B/L을 런던의 은행이 가지고 있었다는 점이나 D/P 조건은 나오지 않음. 판결일 1959. 6. 22.도 확인하지 못함. 나머지(Denning 경, 면책조항 'cease absolutely after discharge', 'an everyday occurrence' 진술, 상소 기각)는 평석과 일치.",
+    "fix": "B/L은 대금 지급 전까지 바이어에게 넘어가지 않은 상태였는데"
+  },
+  {
+    "claim": "권리증권으로 보는 데 어려움이 없다고 했고(제20항)",
+    "verdict": "unverifiable",
+    "evidence": "BAILII(https://www.bailii.org/uk/cases/UKHL/2005/11.html)와 의회 사이트 원문이 모두 봇 차단(403)으로 열리지 않아 단락 번호(제6·20·45·46항)는 대조하지 못함. 내용은 2차 자료와 일치: ANZ Maritime Law Journal 평석(https://maritime.law.uq.edu.au/index.php/anzmlj/article/download/1969/1823) \"In the hands of the named consignee, the straight bill of lading was his document of title. Alternatively a sea waybill was never a document of title\", \"There was obiter dicta by Lord Bingham and Lord Steyn that presentation of a straight bill of lading was required ... even where there was no express provision\". 판결일 2005. 2. 16.도 일치.",
+    "fix": ""
+  },
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "112 claims checked, 108 correct (wrong 2, unverifiable 2). 상법 조문표(제820→861, 811→814, 812→815, 789의3→798)와 판례 17건은 law.go.kr DRF API(상법 시행 2026. 9. 10. 법률 제21044호, 판례 원문)로, Glencore v MSC·MSC v Trafigura·UniCredit v Euronav는 National Archives Find Case Law로, Carewins는 HKLII API로, Western Digital은 lawcarenigeria 게재 판결문(제81·83·93항, 상소 인용·협약상 청구 기각)으로 대조함. 사건번호·선고일·사실관계·결론·인용 단락은 위 4건 말고는 모두 일치.",
+    "fix": ""
+  }
+]

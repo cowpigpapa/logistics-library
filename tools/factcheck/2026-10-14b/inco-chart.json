@@ -1,0 +1,38 @@
+[
+ {
+  "claim": "매도인은 상차 의무가 없고, 매도인이 실어 주더라도 달리 합의하지 않으면 상차 중 위험과 비용은 매수인.",
+  "verdict": "wrong",
+  "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm — EXW Explanatory Note 5: risk during loading by the seller \"might arguably lie with the buyer\" ... \"advisable ... for the parties to agree in advance who is to bear the risk\". 상차 비용이 매수인(B9)인 것은 맞지만, 매도인이 상차하는 동안의 위험은 규칙이 단정하지 않음.",
+  "fix": "매도인은 상차 의무가 없고 상차 비용은 매수인. 매도인이 실어 주는 동안의 위험은 매수인에게 있다고 볼 여지가 있으나 규칙 설명문은 단정하지 않고 누가 질지 미리 합의하라고 권함."
+ },
+ {
+  "claim": "<td class=\"inco-c\">조건부<sup>6</sup></td><td class=\"inco-b\">매수인</td>",
+  "verdict": "inconsistent",
+  "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm — CPT A9(c): seller pays \"any charges for unloading at the agreed place of destination but only if those charges were for the seller's account under the contract of carriage\"; B9: \"unloading costs, unless such costs were for the seller's account under the contract of carriage\". 표의 주 6은 지정 목적지를 내륙(매수인 창고)으로 볼 수 있다고 하므로 그곳 하차 비용은 조건부. inco-risk-cost 표('최종 목적지에서 도착 차량 하차' CPT=조건부②)와도 어긋남. 각주를 더하려면 DAP 주 11과 같은 문구를 쓰고 번호를 다시 매겨야 함.",
+  "fix": "<td class=\"inco-c\">조건부<sup>6</sup></td><td class=\"inco-c\">조건부</td>"
+ },
+ {
+  "claim": "<td class=\"inco-c\">조건부<sup>10</sup></td><td class=\"inco-b\">매수인</td>",
+  "verdict": "inconsistent",
+  "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm — CIP A9(c)/B9: CPT와 같이 목적지 하차 비용은 운송계약상 매도인 부담일 때만 매도인. inco-risk-cost 표('최종 목적지에서 도착 차량 하차' CIP=조건부②)와 어긋남.",
+  "fix": "<td class=\"inco-c\">조건부<sup>10</sup></td><td class=\"inco-c\">조건부</td>"
+ },
+ {
+  "claim": "<b>FAS</b><small>선측인도</small></th><th class=\"inco-kind\">비용</th><td class=\"inco-s\">매도인</td><td class=\"inco-s\">매도인</td><td class=\"inco-s\">매도인</td><td class=\"inco-s inco-np\">매도인</td><td class=\"inco-s\">매도인</td>",
+  "verdict": "inconsistent",
+  "evidence": "내부 불일치: inco-risk-cost 출발지 비용표는 FAS의 THC·wharfage·seal을 '조건부③'으로 두고 \"컨테이너 터미널 비용처럼 '선측에 두기 전'과 '선측에서 본선으로'가 나뉘지 않는 요금은 규칙만으로 가를 수 없습니다\"라고 설명하는데, 이 표는 FAS 출발지 터미널을 무조건 '매도인'으로 칠함. 규칙(https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_05_RulesSea.htm FAS A9(a))은 선측 인도까지의 비용만 매도인으로 정함.",
+  "fix": "<b>FAS</b><small>선측인도</small></th><th class=\"inco-kind\">비용</th><td class=\"inco-s\">매도인</td><td class=\"inco-s\">매도인</td><td class=\"inco-s\">매도인</td><td class=\"inco-s inco-np\">매도인</td><td class=\"inco-c\">조건부</td>"
+ },
+ {
+  "claim": "비용이 &#x27;-&#x27;이면 규칙상 누구에게도 부보 의무가 없다.",
+  "verdict": "inconsistent",
+  "evidence": "내부 불일치: 차트의 적하보험 칸은 '-'가 아니라 '의무<br>없음'(class inco-n)으로 표시됨.",
+  "fix": "비용 칸이 &#x27;의무 없음&#x27;이면 규칙상 누구에게도 부보 의무가 없다."
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "58 claims checked, 53 correct (12개 조건 행 × 13구간 비용·위험 칸, 각주 20개, 조건별 한 줄 요약표, 13개 구간 정의를 ICC 규칙 A2·A3·A4·A5·A7·A9·B9와 inco-rules·inco-risk-cost 표에 대조)",
+  "fix": ""
+ }
+]

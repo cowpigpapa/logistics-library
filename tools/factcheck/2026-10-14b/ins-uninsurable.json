@@ -1,0 +1,20 @@
+[
+ {
+  "claim": "수입국 정부의 금수·거부·억류로 인한 손해도 제외합니다(제6.4조)",
+  "verdict": "wrong",
+  "evidence": "Institute Frozen/Chilled Food Clauses CL423 제6.4조(Aviva Cargo Clauses Booklet 2021) https://static.aviva.io/content/dam/document-library/broker/bcimm15304102021.pdf — 'embargo, or by rejection prohibition or detention by any government or their agencies or departments' (수입국에 한정하지 않고 '어느 정부든')",
+  "fix": "정부나 그 기관의 금수·거부·금지·억류로 인한 손해도 제외합니다(제6.4조)"
+ },
+ {
+  "claim": "국내 보험사 약관집에는 이 약관이 번역되어 실려 있기도 합니다.",
+  "verdict": "wrong",
+  "evidence": "NH농협손해보험 약관집은 2015. 4. 1.판(https://nhfire.co.kr/file/direct/InsOnGoods_PRV(20150401).pdf)으로 2017년판보다 앞서며, 실린 것은 '협회냉동식품약관(냉동육류제외) 전위험담보 24시간고장' 즉 1986년판 Institute Frozen Food Clauses (A) CL263(Marsh 약관집: 'Institute Frozen Food Clauses (A) Cl. 263 01.01.1986 Excluding Frozen Meat', 제1.2.1조 'not less than 24 consecutive hours'). 바로 앞 문단이 2017년판을 다루고 있어 '이 약관'이 2017년판으로 읽힘",
+  "fix": "국내 보험사 약관집에는 1986년판 약관(CL263 등)이 번역되어 실려 있기도 합니다."
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "72 claims checked, 70 correct (ICC (A) 제4.3·4.4·4.5·5.1.2·6·11.2조, CL422/423/430/431/425/426/429 번호·2017. 3. 1. 날짜·제1.2·4.8·4.9·8.1·8.4조, 1986년판 CL263·323·324, Cendor MOPU, Exportadora Valle de Colina, UK P&I 1%·60%, TT Club 38%, CL372·373·JC2008/023(25%), 상법 제644·651·660·799·801조, Vero·AXA XL(마리당 100만 달러, UK & Lloyd's 팀)·Arch·Chubb 고급재화보험, JC2010/014·LMA3100A/3200(2023. 10. 5.)·파리 항소법원 2022. 6. 21., Mamancochet, CL396 7일, JWLA-034(2026. 7. 29., 북위 25.5도)·JWLA-033(북위 18도), JC2020/011·CL380·LMA5403, 대법원 2025다211111(2022년 로봇 팔, +18℃→-18℃) 모두 원문과 일치)",
+  "fix": ""
+ }
+]

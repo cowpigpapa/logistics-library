@@ -1,0 +1,44 @@
+[
+ {
+  "claim": "정산인 WK Webster가 모든 화물에 공동해손 담보가 필요하다고 확인",
+  "verdict": "wrong",
+  "evidence": "WK Webster는 정산인(average adjuster)이 아니라 보험 클레임 컨설팅사. 보도: 'Insurance claims consultancy WK Webster confirmed that general average has been declared, and that GA security will be required from all cargo interests' (Container News 등, WebSearch 'X-Press Pearl general average WK Webster'); 링크된 CargoGulf 공지는 정산인 이름을 밝히지 않음",
+  "fix": "보험 클레임 컨설팅사 WK Webster가 모든 화물에 공동해손 담보가 필요하다고 확인"
+ },
+ {
+  "claim": "선언됨(2021년 5월 26일 선사 대리점 공지)",
+  "verdict": "wrong",
+  "evidence": "https://www.cargogulf.com/news/mv-xpress-pearl-v21018e-fire-on-board-general-average-declared — CargoGulf는 선사 대리점이 아니라 NVOCC·포워더('All CargoGulf clients with containers on board under our bill of lading'), 공지일 26 May 2021. 선언 자체는 그 전날 이미 보도됨(maritime.direct 2021. 5. 25.: 'the ship's registered owners have declared a general average')",
+  "fix": "선언됨(2021년 5월 25일 보도, 5월 26일 NVOCC CargoGulf 고객 공지)"
+ },
+ {
+  "claim": "Maersk Honam 사고 당시 보도는 공동해손 공탁분이 최종 정산이 끝날 때까지 여러 해 묶일 수 있다고 전했습니다",
+  "verdict": "unverifiable",
+  "evidence": "인용 출처 gCaptain(The Loadstar 전재, 2018. 5. 18.) https://gcaptain.com/shippers-with-cargo-on-maersk-honam-face-hefty-bill-to-get-it-released/ 본문에는 42.5%·11.5%·MSC 할증만 있고 공탁금이 몇 년 묶인다는 내용이 없음. 같은 취지는 Yantian Express 정산인 안내문(RHL, 2019. 2. 18.)에 있음: 'The GA deposit funds (28%) will be held until the General Average adjustment has been completed … This will be a lengthy process'",
+  "fix": "Yantian Express 사고 때 정산인 안내문은 공동해손 공탁금을 정산이 끝날 때까지 보관하며 그 과정이 오래 걸린다고 밝혔습니다"
+ },
+ {
+  "claim": "Maersk Honam 사고에서는 구조 담보분은 구조 보수가 정해질 때까지, 공동해손 공탁분은 최종 정산이 끝날 때까지 묶인다고 보도됐습니다.",
+  "verdict": "unverifiable",
+  "evidence": "인용 출처 gCaptain 기사에 해당 내용 없음. Yantian Express 정산인 안내문(https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf)에는 구조 공탁금은 '…remuneration has been agreed or awarded'까지, 'The GA deposit funds (28%) will be held until the General Average adjustment has been completed'라고 적혀 있음",
+  "fix": "Yantian Express 사고 때 정산인 안내문은 구조 담보 공탁금은 구조 보수가 합의·결정될 때까지, 공동해손 공탁금은 공동해손 정산이 끝날 때까지 보관한다고 밝혔습니다."
+ },
+ {
+  "claim": "합계 54%(CIF 가액 기준)",
+  "verdict": "unverifiable",
+  "evidence": "gCaptain(2018) 'fixed the salvage security at 42.5% of the cargo value, as well as requiring a further 11.5% as a general average deposit' — 'cargo value'라고만 하고 CIF 기준이라는 말은 없음",
+  "fix": "합계 54%(화물 가액 기준)"
+ },
+ {
+  "claim": "맹약서가 화물 소유자를 특정하고 지급 약속을 담기 때문입니다.",
+  "verdict": "unverifiable",
+  "evidence": "Sedgwick FAQ https://gsm.sedgwick.com/?p=172 는 'Insured cargo owners need only to provide the signed Average Bond if requested …'라고만 하고 이유를 설명하지 않음. CMI GA Guidelines 2nd ed.(2022)는 보통 요구되는 담보를 화주 서명 맹약서와 함께 현금 공탁 또는 보험자 보증장으로 설명",
+  "fix": "CMI 지침도 보통 화주 맹약서와 보험자 보증장을 함께 요구한다고 설명합니다."
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "74 claims checked, 68 correct (YAR 2016 제6·17·20·21(2022 개정 USD Prime+2%, 원래 ICE LIBOR+4%)·22(90일)·23조(1년/6년)·문자규칙 E(12개월/2개월), 2016년 5월 뉴욕 채택·BIMCO 채택, 상법 제694·694조의2·807(선장 유치권)·808·865~875·883~886·893·895조와 법률 제21044호(2025. 9. 9. 공포, 2026. 9. 10. 시행), CMI 지침 2판(2022)·BIMCO Average Bond Clause·ISU1·Lloyd's SAB, ICC 제2조, MSC Flaminia 65%/100%·2012. 7. 14., Maersk Honam 42.5%+11.5%·MSC 750/1,250달러, Yantian Express 32.5%+28%=60.5%(CFR), Ever Given 2021. 4. 1. Shoei Kisen·RHL, Dali·Maersk Frankfurt(2024. 7. 22.)·YM Mobility·ONE Henry Hudson(2025. 11. 27., RHL), UKSC [2025] UKSC 14(2025. 4. 9.), LOF 2024(2024. 6. 1.), TT Club 60%·NVOC 기사, Loadstar 4~5년, Munich Re, Sedgwick CFR·이자 계좌 모두 원문과 일치)",
+  "fix": ""
+ }
+]

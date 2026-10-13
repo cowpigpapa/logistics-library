@@ -1,0 +1,8 @@
+[
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "58 claims checked, 58 correct. 틀리거나 시행 지난 항목 없음. 원문으로 확인한 범위: ICAO Annex 18 해설 페이지('Dangerous Goods are carried only in accordance with ICAO Doc 9284', 'The Technical Instructions amplify the basic provisions of Annex 18 and contain all the detailed instructions...'); IATA DGR 67판 Significant Changes PDF('changes that, if confirmed, will come into effect as of 1 January 2027, based on ... the 24th revised edition of the UN Model Regulations ... 2027-2028 edition of the Technical Instructions', '67th EDITION, 1 JANUARY 2026'); UN 조약집 ADR(1957-09-30 제네바, 1968-01-29 발효, 당사국 55, 한국 미가입); OTIF RID 페이지(지침 2008/68/EC 국내운송 적용, ADR·ADN과 조화)·RID 2025 원문 1.8.3.1~1.8.3.2(군용·소량·부수적 업체 면제 가능); OTIF RID 2027 개정(제59차 전문가위원회 2026-05-28 채택, 2027-01-01 발효), RID 당사국 45; eCFR 49 CFR 172.704 (2026-10-01판: (a)(1)~(5), (a)(2)(ii) ICAO TI·IMDG 교육 대체, (c)(1) 90일·직접 감독, (c)(2) 3년, (d) 기록 3년분·재직 중+90일·기재 5항목); 위험물 선박운송 기준(해양수산부고시 제2026-67호) 제27조제2항(초기교육 후 24개월 이내 재교육); 항공안전법 제72조; 선박안전법 제41조의2; 항공위험물운송기술기준(제2023-52호) 표 1-2 직무구분 1~12(포워더 3·4·5). IMDG Code 1.3 원문 문구와 ADR 본문은 유료·접속 불가로 직접 확인하지 못했으나, 문서가 이미 면책 문구로 그 사실을 밝히고 있고 RID 2025 대응 조문·각국 정부 자료와 어긋나는 점은 없음.",
+    "fix": ""
+  }
+]

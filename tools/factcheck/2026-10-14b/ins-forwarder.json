@@ -1,0 +1,20 @@
+[
+ {
+  "claim": "담보를 세 부분으로 나눕니다",
+  "verdict": "wrong",
+  "evidence": "Chubb 한국 화물배상책임보험 상품 안내(06/2024) https://www.chubb.com/content/dam/chubb-sites/chubb-com/kr-kr/business/freight-forwarders-liability-insurance/documents/pdf/business_factsheet_freight-forwarders-liability-insurance_202406.pdf — 담보는 '화물배상책임부문 담보(Goods-Legal Liability)'와 '제3자 손해배상책임부문 담보(Third Party Liability) … (특약사항)' 두 가지이고, 세 번째 항목은 '전문직업인 배상책임 부담보(Professional Indemnity)'로 담보하지 않는다고 적혀 있음",
+  "fix": "담보를 화물 배상책임과 제3자 배상책임(특약)으로 나누고, 전문인 배상책임은 담보하지 않는다(부담보)고 적습니다"
+ },
+ {
+  "claim": "업무상 과실로 인한 금전 손해. 특약",
+  "verdict": "wrong",
+  "evidence": "같은 Chubb 안내 1쪽: '전문직업인 배상책임 부담보(Professional Indemnity)' — 특약으로 담보하는 것이 아니라 부담보(보상하지 않음)로 표시",
+  "fix": "업무상 과실로 인한 금전 손해. 이 상품에서는 담보하지 않음(부담보)이므로 별도 E&amp;O 보험이 필요"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "56 claims checked, 54 correct (상법 제114~121·639·682·797·814·900조, 물류정책기본법·시행령 제30조의2·시행규칙 제5·7·7조의2, 보험업법 제2·83·87·89·98·99·204·208조와 시행령 제30·31·33조의4, 화물자동차 운수사업법 제35조·시행규칙 제41조의13, 대법원 2007다4943·2019다213009·2015다246186 판시, 몬트리올 협약 제39·40·45·47조, KIFFA 공지 3건, FIATA FAQ, 금융위 2022. 2. 18. 회신, TT Club 기사 3건, Overseas Medical Supplies 사건 모두 원문과 일치)",
+  "fix": ""
+ }
+]

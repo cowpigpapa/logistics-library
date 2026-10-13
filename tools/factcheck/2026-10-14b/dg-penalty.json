@@ -1,0 +1,14 @@
+[
+  {
+    "claim": "미신고·오신고 위험물에 컨테이너당 15,000달러, 2019년 9월 15일부터 적용",
+    "verdict": "unverifiable",
+    "evidence": "Splash247(2019-08-07): 'imposing a fine of $15,000 per wrong container ... The new fines system comes into play from September 15.' 금액·시행일은 맞음. 다만 문서가 링크한 Hapag-Lloyd 공식 공지의 제목은 'China - Penalty for Dangerous Goods Misdeclaration'(https://www.hapag-lloyd.com/en/news-insights/news/2019/08/china---penalty-for-dangerous-goods-misdeclaration.html, 403으로 본문 열람 불가)이어서, 이 벌과금이 전 세계가 아니라 중국 지역 공지였을 가능성이 있음. 적용 지역은 확인되지 않음.",
+    "fix": "미신고·오신고 위험물에 컨테이너당 15,000달러, 2019년 9월 15일부터 적용(선사 공지 제목은 「China - Penalty for Dangerous Goods Misdeclaration」이어서 중국 지역 공지일 수 있음)"
+  },
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "74 claims checked, 73 correct (unverifiable 1: Hapag-Lloyd 벌과금의 적용 지역). 국가법령정보센터 Open API(2026-10-14 현행본)로 원문 대조: 항공안전법 제70조①③, 제72조①, 제91조①29·30호(취소 또는 6개월 이내 운항정지), 제92조①(30호 포함, 100억원 이하 과징금), 제149조①②(1년/1천만원, 업무상·중대한 과실 3년/5천만원), 제154조(2천만원), 제164조(제150조~제154조 양벌), 제166조①6호·8호(500만원), 시행령 제30조·별표 5 <개정 2026. 6. 30.> 일반기준 가목(최근 5년)·다목(2분의 1 감경, 사소한 부주의)·마목(2분의 1 가중, 6개월 이상, 상한 초과 불가), 개별기준 파목 1)~6)·거목 250/375/500; 항공위험물운송기술기준 제3조③, 제174조②, 제202조①③, 제206조①; 선박안전법 제41조①②, 제41조의2①, 제85조1의3(1천만원), 제89조②23·24·24의2, 시행령 제22조·별표 2 <개정 2023. 6. 20.>(가목 최근 1년, 저목 150/250/500, 처목 200/350/500, 커목 150/250/500); 위험물 선박운송 기준 별표 28 제3호; 위험물안전관리법 제20조①②, 제21조①, 제28조②④, 제37조4호·4호의2·5호, 제38조②, 제39조①8호(제28조 위반 없음); 화학물질관리법 제13조5호, 제33조②③, 제59조1호(3년/5천만원), 제63조, 제64조②4호, 시행령 별표 2 <개정 2025. 8. 5.> 너목 180/240/300; 고압가스 안전관리법 제23조①②, 제43조④3호, 시행령 별표 4 <개정 2023. 4. 25.> 어목 150/200/300; 선박의 입항 및 출항 등에 관한 법률 제32조①④(해상화물운송사업자·국제물류주선업자·해운대리점업자·수출입 화주), 제35조③, 제59조①5호(300만원)·②15호·15의2(200만원); 상법 제116조, 제127조, 제659조①, 제800조, 제801조, 제928조. 해외: eCFR 49 CFR 107.329(2026-10-01판: $102,348 / $238,809 / 교육 위반 최저 $617, 계속 위반은 하루마다 별개, [89 FR 106293, Dec. 30, 2024]); FAA 보도자료(2026-09-11: $77,750, Medley, Florida, 2024년 11월, 256Wh EcoFlow River 2, freight broker → Avianca Cargo Air, 'failed to properly train employees who prepare hazmat shipments for transportation by air'); Logistics Manager(2016-09-23, Southwark Crown Court, 4건, £65,000, 2014-01~2015-06, Air Navigation (Dangerous Goods) Regulations 2002); Maersk 고객 공지(2025-10-24: B/L당 USD 5,000, 중국 컨테이너당 USD 15,000, 오신고 정의, 송하인·수하인이 모든 비용 부담).",
+    "fix": ""
+  }
+]

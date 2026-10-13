@@ -1,0 +1,14 @@
+[
+ {
+  "claim": "규칙상 그 상차는 매수인의 위험과 비용으로 하는 작업입니다",
+  "verdict": "wrong",
+  "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm — EXW Explanatory Note 5: \"risk of loss of or damage to the goods occurring while the loading operation is carried out by the seller ... might arguably lie with the buyer ... it would be advisable, where the seller is to load the goods, for the parties to agree in advance who is to bear the risk\". 비용은 B9(인도 뒤 비용)로 매수인이 맞지만, 매도인이 상차하는 동안의 위험은 규칙이 '그렇게 볼 여지가 있다(arguably)'고만 하고 단정하지 않음.",
+  "fix": "규칙상 상차 비용은 인도 뒤의 비용이라 매수인 몫이고, 매도인이 싣는 동안의 위험도 매수인에게 있다고 볼 여지가 있지만 규칙 설명문은 이를 단정하지 않고 미리 합의해 두라고 권합니다"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "62 claims checked, 61 correct (조항 번호표, 11개 조건별 인도·위험·비용·운송·보험·통관 표, CIP (A)/CIF (C)·110%·계약 통화·구간, DAT→DPU, FCA 본선적재 B/L 선택 조항, C/D 비교표를 ICC Digital Library 본문·Introduction과 대조)",
+  "fix": ""
+ }
+]

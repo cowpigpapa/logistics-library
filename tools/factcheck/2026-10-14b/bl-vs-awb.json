@@ -1,0 +1,8 @@
+[
+  {
+    "claim": "_summary",
+    "verdict": "",
+    "evidence": "81 claims checked, 81 correct. 상법 제65·129~133·139·797·804·814·815·852~858·861~864·902·915~918·923·924·929조, 민법 제521·522조, 민사소송법 제481·492·497조(law.go.kr DRF API, 상법 시행 2026. 9. 10. 법률 제21044호)와 몬트리올 협약 제4·7·11~13·31·35조, UCP 600 제14·19~27조, CMI 해상화물운송장 규칙 제5~7조, COGSA 1971 s.1(6)(b), ICAO 2024년 한도 개정(kg당 26 SDR, 2024. 12. 28.), IATA e-AWB(Resolution 672, 2019. 1. 1. 기본 방식), ASEAN 교육자료('no IATA members issue \"to order\" or negotiable AWB's', 제2원본 분홍색)를 대조함. 틀리거나 지난 내용, 확인 불가 항목 없음.",
+    "fix": ""
+  }
+]

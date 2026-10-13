@@ -1,0 +1,20 @@
+[
+ {
+  "claim": "1937년에 고쳐진 Waterborne Agreement는",
+  "verdict": "unverifiable",
+  "evidence": "https://www.atlas-mag.net/en/article/uk-war-risk-insurance — 출처는 1937년 Waterborne Agreement가 '해상의 전쟁 위험과 육상의 파업·폭동(SRCC) 위험'을 다루는 틀이라고만 적고, 1937년에 '고쳐졌다(개정)'는 내용은 없음. 나머지(2차 대전 뒤 육상 전쟁 위험 배제 관행, 2005년 무렵부터 일부 계약에 육상 전쟁 위험 포함)는 출처와 일치.",
+  "fix": "1937년의 Waterborne Agreement는"
+ },
+ {
+  "claim": "현대해상은 한글 안내가 번역일 뿐 실제 계약과 보상은 영문 가입조건과 약관에 따른다고 밝힙니다",
+  "verdict": "unverifiable",
+  "evidence": "https://www.hi.co.kr/cargo/serviceAction.do — 스크립트 로드 페이지라 본문 확인 불가(curl·WebFetch 모두 메뉴 껍데기만 반환). 같은 출처를 쓰는 현대해상 부가위험 목록(RFWD·ROD·TPND·JWOB·COOC 등)과 '1982년판 내용을 따르는 면책 설명'도 같은 이유로 확인하지 못함. 삼성화재 약관 PDF(cargo_20180620.pdf)가 1982년판 문구(\"their servants\", \"any terrorist or any person acting from a political motive\")이고 제19조가 영국법 준거 조항이라는 부분은 확인됨.",
+  "fix": ""
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "78 claims checked, 76 correct (wrong 0, outdated 0, unverifiable 2). CL382~389·Cl.370·Cl.380·Cl.396(2016, 7일)·JC2010/014·JC2009/056(Marsh Denmark 목록)·JC2020-011, ICC (A)(B)(C) 2009 제1·4·5·6·7조 문언과 번호, 전쟁약관 1.2·3.7·5.1~5.4(15일·60일), 파업약관 1·3.5·3.7·3.8·3.10, JCC 일정(2006 검토 시작, 2008 말 최종본, 2009. 1. 1. 시행), Swashplate [2020] FCAFC 137(선적 전 5일 static cover), 대법원 90다카25314·96다39707·2005다21531·2015다5194 판결요지, MIA s.40(2), Insurance Act 2015 시행일 모두 원문과 일치. 8장 차이표 등 내부 참조도 정확.",
+  "fix": ""
+ }
+]

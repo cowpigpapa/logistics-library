@@ -1,0 +1,26 @@
+[
+ {
+  "claim": "<td>매수인이 수입 통관(B7)을 하지 않은 경우, 통지(B10)를 하지 않은 경우</td><td>합의한 인도일 또는 인도 기간의 끝</td>",
+  "verdict": "wrong",
+  "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm — DAP·DPU B3: \"a) the buyer fails to fulfil its obligations in accordance with B7, then it bears all resulting risks of loss of or damage to the goods; or b) the buyer fails to give notice in accordance with B10, then it bears all risks ... from the agreed date or the end of the agreed period for delivery\". 날짜 기준은 통지 불이행(b)에만 붙고, 수입 통관 불이행(a)은 '그로 인한 위험'을 지는 구조.",
+  "fix": "<td>매수인이 수입 통관(B7)을 하지 않은 경우, 통지(B10)를 하지 않은 경우</td><td>수입 통관 불이행: 그로 인해 생긴 멸실·손상 위험(날짜 기준 없음) / 통지 불이행: 합의한 인도일 또는 인도 기간의 끝</td>"
+ },
+ {
+  "claim": "<td>매수인이 매도인의 수입 통관에 필요한 협조를 하지 않은 경우, 통지를 하지 않은 경우</td><td>합의한 인도일 또는 인도 기간의 끝</td>",
+  "verdict": "wrong",
+  "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm — DDP B3: \"a) the buyer fails to fulfil its obligations in accordance with B7, then it bears all resulting risks of loss of or damage to the goods; or b) ... fails to give notice in accordance with B10, then it bears all risks ... from the agreed date or the end of the agreed period for delivery\".",
+  "fix": "<td>매수인이 매도인의 수입 통관에 필요한 협조를 하지 않은 경우, 통지를 하지 않은 경우</td><td>협조 불이행: 그로 인해 생긴 멸실·손상 위험(날짜 기준 없음) / 통지 불이행: 합의한 인도일 또는 인도 기간의 끝</td>"
+ },
+ {
+  "claim": "목적지 양하·통과 비용(C조건, DAP, DDP)",
+  "verdict": "inconsistent",
+  "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm — '운송계약상 매도인 부담일 때만' 구조는 C조건의 양하·통과 비용(CPT A9(c)(d))과 DAP·DDP의 하차 비용(B9)에만 해당. DAP A9는 \"duties, taxes and any other costs related to export and transit clearance under A7\"을 무조건 매도인 부담으로 정하며, 같은 문서의 '통과국 통관·통과 비용' 행도 D조건을 매도인①로 표시함.",
+  "fix": "목적지 양하 비용(C조건, DAP, DDP)과 통과 비용(C조건)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "57 claims checked, 54 correct (위험·운송비 분기표, B3 조기 위험 이전표, A9/B9 구조, 출발지·주운송·목적지 비용표 칸, 검사 비용표, CIF (C)/CIP (A) 보험표, 2010 대비 변경, VGM 제외 경위, St. Paul Guardian v. Neuromed(SDNY 2002. 3. 26., 00 Civ. 9344)·BP Oil v. PetroEcuador(5th Cir. 2003. 6. 11., No. 02-20166)를 ICC Digital Library와 UNILEX에 대조)",
+  "fix": ""
+ }
+]

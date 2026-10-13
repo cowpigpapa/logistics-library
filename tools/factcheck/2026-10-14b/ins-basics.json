@@ -1,0 +1,20 @@
+[
+ {
+  "claim": "운임이 들어가므로 대체로 CIF 가격에 가까움",
+  "verdict": "unverifiable",
+  "evidence": "https://casenote.kr/법령/상법/제697조 — \"적하의 보험에 있어서는 선적한 때와 곳의 적하의 가액과 선적 및 보험에 관한 비용을 보험가액으로 한다.\" 조문에 운임이 명시되어 있지 않음(MIA s.16(3)도 'prime cost + expenses of and incidental to shipping + charges of insurance'로 운임을 명시하지 않음). '운임이 들어가므로'는 조문으로 확인되지 않는 해석.",
+  "fix": "조문에 운임은 명시되어 있지 않음. 실무에서는 보통 CIF 가격을 기준으로 보험가액을 정함"
+ },
+ {
+  "claim": "수입 및 항공화물의 경우 30일",
+  "verdict": "unverifiable",
+  "evidence": "https://www.hi.co.kr/cargo/serviceAction.do — 페이지가 스크립트로 로드되어 본문(담보기간 안내)을 가져올 수 없음. 웹 검색으로도 해당 문구를 찾지 못함. ICC (A) 8.1.4의 60일, ICC (Air) 6.1.4의 30일(EFU 공개본 CL387 확인)은 정확함.",
+  "fix": ""
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "72 claims checked, 70 correct (wrong 0, outdated 0, unverifiable 2). 상법 제639·640·662·663·666·668~670·674·682·695·697~700·704조, ICC (A) 제2·8·9·10·11·14·15·16조와 NOTE, ICC (Air) 제6조(30일), Incoterms 2020 CIF/CIP A5, UCP 600 제28조(a)~(j), MIA s.6·16(3)·27·29, 보험업법 제83조, 삼성화재·KITA 인용 모두 원문과 일치. 4장·8장 등 내부 참조도 정확.",
+  "fix": ""
+ }
+]
