@@ -112,7 +112,7 @@
 .li-count { color: var(--muted); font-size: 11.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
 .li-ov {
   position: absolute;
-  top: 3px;
+  top: 6px; /* 카테고리 줄(38px) 안에서 위아래 가운데 */
   right: 6px;
   z-index: 1;
   min-height: 26px;
