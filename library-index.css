@@ -118,15 +118,19 @@
   min-height: 26px;
   display: inline-flex;
   align-items: center;
-  padding: 2px 9px;
+  padding: 2px 10px;
+  border: 1px solid #c9dbec;   /* 캡션이 아니라 누르는 버튼으로 보이게 */
   border-radius: 6px;
+  background: #f5f9fd;
+  box-shadow: 0 1px 1px rgba(18, 50, 80, .06);
   color: var(--blue);
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
+  transition: background .15s, border-color .15s;
 }
-.li-ov:hover { background: var(--blue-soft); }
-.li-tree a.li-ov.is-active { background: var(--blue); color: #fff; }
+.li-ov:hover { background: var(--blue-soft); border-color: #9fc0de; }
+.li-tree a.li-ov.is-active { background: var(--blue); border-color: var(--blue); color: #fff; }
 
 /* 묶음 안의 소분류와 문서 */
 .li-sec { margin: 4px 0 6px 6px; }
