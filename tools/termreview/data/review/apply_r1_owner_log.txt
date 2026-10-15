@@ -1,0 +1,45 @@
+[1] t000/t001 ch-docs/ch-cases.html Demurrage(체화료) → Demurrage
+[1] t000/t001 ch-docs/ch-cases.html Detention(지체료) → Detention
+[1] t000/t001 ch-docs/ch-dnd.html Demurrage(체화료) → Demurrage
+[1] t000/t001 ch-docs/ch-dnd.html Detention(지체료) → Detention
+[1] t000/t001 ch-docs/ch-korea-storage.html Demurrage(체화료) → Demurrage
+[1] t000/t001 ch-docs/ch-korea-storage.html Detention(지체료) → Detention
+[1] t000/t001 ch-docs/ch-sea-charges.html Demurrage(체화료) → Demurrage
+[1] t000/t001 ch-docs/ch-sea-charges.html Detention(지체료) → Detention
+[1] t000/t001 incoterms-docs/inco-choose.html Demurrage(체화료) → Demurrage
+[1] t000/t001 incoterms-docs/inco-choose.html Detention(지체료) → Detention
+[1] t000/t001 incoterms-docs/inco-gray.html Demurrage(체화료) → Demurrage
+[1] t000/t001 incoterms-docs/inco-gray.html Detention(지체료) → Detention
+[1] t000/t001 incoterms-docs/inco-risk-cost.html Demurrage(체화료) → Demurrage
+[1] t000/t001 incoterms-docs/inco-risk-cost.html Detention(지체료) → Detention
+[1] t000/t001 uld-docs/uld-buildup.html Demurrage(체화료) → Demurrage
+[1] t000/t001 uld-docs/uld-overview.html Demurrage(체화료) → Demurrage
+[1] t000/t001 uld-docs/uld-safety.html Demurrage(체화료) → Demurrage
+[1] t002 uld-docs/uld-buildup.html 사용료·Demurrage, 접수 마감 시각을 → 사용료·지체료, 접수 마감 시각을
+[1] t002 uld-docs/uld-buildup.html 사용료·Demurrage, 접수 마감 시각 → 사용료·지체료(ULD demurrage), 접수 마감 시각
+[1] t002 uld-docs/uld-overview.html (무료 사용 기간, Demurrage, 배상액 등) → (무료 사용 기간, 지체료(ULD demurrage), 배상액 등)
+[1] t002 uld-docs/uld-overview.html 반납 기한, Demurrage, 분실 판정 기간 → 반납 기한, 지체료, 분실 판정 기간
+[1] t002 uld-docs/uld-overview.html <td>Demurrage</td> → <td>지체료</td>
+[1] t002 uld-docs/uld-safety.html 반납 기한과 Demurrage는 → 반납 기한과 지체료(ULD demurrage)는
+[1] t002 uld-docs/uld-safety.html (무료 기간, Demurrage, 손상·분실 책임) → (무료 기간, 지체료, 손상·분실 책임)
+[1] t007 ch-docs/ch-cases.html 청구서의 요율이 드라이 요율인지 → 청구서의 요율이 일반 컨테이너 요율인지
+[1] t007 ch-docs/ch-dnd.html 40피트 드라이 요율 → 40피트 일반 컨테이너 요율
+[1] t023 ch-docs/ch-sea-charges.html 원본 B/L·해상화물운송장(SWB) 60,000원 → 원본 B/L·SWB(Sea Waybill) 60,000원
+[1] t029 battery-docs/b-anx14.html 포장이 충분한지, 손상·누액·변형된 배터리가 섞여 있지 않은지 화주의 확인서와 사진으로 받 → 포장이 충분한지, 손상·누액·변형된 배터리가 섞여 있지 않은지 확인하고 사진 등 증빙으로 
+[3] t030 ch-docs/ch-dnd.html 프리 타임 → free time
+[3] t030 ch-docs/ch-korea-storage.html 프리 타임 → free time
+[1] t031 ch-docs/ch-dnd.html 선하증권(B/L) 번호, 컨테이너 번호 → B/L 번호, 컨테이너 번호
+[1] t031 tc-docs/tc-basics.html 설정값이 선하증권(B/L)·부킹 확인서에 → 설정값이 B/L·부킹 확인서에
+[1] t032 ch-docs/ch-korea-storage.html 선사가 선하증권(B/L)상 수하인 → 선사가 B/L상 수하인
+[1] t043 tc-docs/tc-basics.html 단위탑재용기(ULD) 태그에 → ULD 태그에
+[1] t062 tc-docs/tc-air-passive.html 드라이아이스를 단위탑재용기(ULD)에 넣는 → 드라이아이스를 ULD에 넣는
+[1] t062 uld-docs/uld-buildup.html 그 한계 안에서 단위탑재용기(ULD)에 짜 올리는 → 그 한계 안에서 ULD에 짜 올리는
+[1] t064 uld-docs/uld-code.html 단위탑재용기(ULD)에는 "AKE 12345 KE" → ULD에는 "AKE 12345 KE"
+[1] t048 incoterms-docs/inco-gray.html 7. 지연 비용: Demurrage, Detention, 보관료(Storage) → 7. 지연 비용: Demurrage, Detention, 보관료
+[1] t054 incoterms-docs/inco-choose.html Demurrage·Detention·보관료(Storage)의 원인별 부담과 무료 장치 기간 → Demurrage·Detention·Storage의 원인별 부담과 무료 장치 기간(free
+[1] t067 battery-docs/b-ch3.html EU행 배터리 화물을 다루는 포워더는 화주에게 표시 사항을 서류와 사진으로 확인받을 때 이 → EU행 배터리 화물을 다루는 포워더와 창고는 입고·선적 전에 표시 사항을 화주 서류·사진 
+[p06] bl-docs/bl-basics.html 보상장 → LOI(Letter of Indemnity)/LOI
+[p06] bl-docs/bl-cases.html 보상장 → LOI(Letter of Indemnity)/LOI
+[p06] bl-docs/bl-release.html 보상장 → LOI(Letter of Indemnity)/LOI
+[p06] bl-docs/bl-special.html 보상장 → LOI(Letter of Indemnity)/LOI
+[p06] bl-library.js 보상장 → LOI(Letter of Indemnity)/LOI
