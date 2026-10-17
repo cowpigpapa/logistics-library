@@ -1,0 +1,56 @@
+[1] r2-007 tc-docs/tc-cases.html 상자는 습식 얼음(wet ice)으로 포장됐고 → 상자는 아이스팩을 넣어 포장됐고
+[1] r2-007 tc-docs/tc-cases.html 습식 얼음이나 젤팩의 → 아이스팩이나 젤팩의
+[1] r2-008 uld-docs/uld-code.html FAA가 운항자에게 → FAA가 항공사에게
+[1] r2-008 uld-docs/uld-overview.html FAA AC 120-85B는 운항자가 → FAA AC 120-85B는 항공사가
+[1] r2-008 uld-docs/uld-overview.html 않도록 하라고 운항자에게 → 않도록 하라고 항공사에게
+[세관] battery-docs/checklist.html
+[세관] battery-docs/overview.html
+[세관] battery-docs/w-anx1.html
+[세관] battery-docs/w-recitals.html
+[세관] battery-docs/w-t1.html
+[세관] battery-docs/w-t2-5.html
+[세관] battery-docs/w-t4.html
+[세관] battery-docs/w-t5.html
+[세관] battery-docs/w-t6.html
+[세관] battery-docs/w-t8.html
+[1] r2-015 tc-docs/tc-reefer.html USDA 프로브 → USDA Probe
+[1] r2-017 insurance-docs/ins-cases.html 판례, 상호보험조합(P&amp;I 클럽 등)이 공개한 → 판례, P&amp;I 클럽 등이 공개한
+[1] r2-017 insurance-docs/ins-cases.html 운송 관련 상호보험조합과 보험사(P&amp;I 클럽, 대리점 배상책임보험)가 → 운송 관련 상호보험(P&amp;I 클럽, 대리점 배상책임보험)이
+[1] r2-017 insurance-docs/ins-cases.html 판결이 아닌 상호보험조합의 사고 사례 → 판결이 아닌 P&amp;I 클럽의 사고 사례
+[1] r2-018 dg-docs/kr-mismatch.html 배터리·자석 같은 물품(article)이나 드라이아이스는 → 배터리·자석·드라이아이스 같은 물품(article) 형태의 위험물은
+[r2-032] uld-docs/uld-buildup.html 중량·평형 → Weight & Balance
+[r2-032] uld-docs/uld-code.html 중량·평형 → Weight & Balance
+[r2-032] uld-docs/uld-holds.html 중량·평형 → Weight & Balance
+[r2-032] uld-docs/uld-overview.html 중량·평형 → Weight & Balance
+[r2-032] uld-docs/uld-pallets.html 중량·평형 → Weight & Balance
+[r2-032] uld-docs/uld-safety.html 중량·평형 → Weight & Balance
+[1] r2-054 incoterms-docs/inco-gray.html 컨테이너 총중량 검증제도(VGM) → 컨테이너 총중량 검증(VGM)
+[1] r2-054 incoterms-docs/inco-history.html 컨테이너 총중량 검증제도(VGM) → 컨테이너 총중량 검증(VGM)
+[1] r2-055 incoterms-docs/inco-choose.html 검증된 총중량(VGM) 계측과 통지를 → 컨테이너 총중량 검증(VGM) 계측과 통지를
+[1] r2-056 incoterms-docs/inco-risk-cost.html 검증된 총중량(VGM) 계측비 → 컨테이너 총중량 검증(VGM) 계측비
+[1] r2-058 ch-docs/ch-korea-storage.html 40피트는 2TEU로 두 배 → 40ft 컨테이너는 2TEU로 두 배
+[없음] r2-058 ch-docs/ch-sea-charges.html 40피트는 2TEU로 두 배
+[r2-058] ch-docs/ch-cases.html N피트 → Nft ×2
+[r2-058] ch-docs/ch-dnd.html N피트 → Nft ×5
+[r2-058] ch-docs/ch-korea-storage.html N피트 → Nft ×4
+[r2-058] ch-docs/ch-sea-charges.html N피트 → Nft ×22
+[r2-058] insurance-docs/ins-cases.html N피트 → Nft ×3
+[r2-058] insurance-docs/ins-general-average.html N피트 → Nft ×2
+[r2-058] tc-docs/tc-cases.html N피트 → Nft ×1
+[r2-058] tc-docs/tc-reefer-practice.html N피트 → Nft ×4
+[r2-058] tc-docs/tc-reefer.html N피트 → Nft ×9
+[r2-058] uld-docs/uld-code.html N피트 → Nft ×18
+[r2-058] uld-docs/uld-pallets.html N피트 → Nft ×2
+[r2-058] uld-docs/uld-safety.html N피트 → Nft ×2
+[r2-058] ctu-library.js N피트 → Nft ×6
+[r2-058] uld-library.js N피트 → Nft ×2
+[r2-059] ch-docs/ch-dnd.html 경과보관료 → 보관료
+[r2-059] ch-docs/ch-korea-storage.html 경과보관료 → 보관료
+[r2-059] ch-docs/ch-sea-charges.html 경과보관료 → 보관료
+[r2-059] charges-library.js 경과보관료 → 보관료
+[1] r2-059 incoterms-docs/inco-choose.html Demurrage·Detention·Storage의 → Demurrage·Detention·보관료의
+[1] r2-059 ch-docs/ch-dnd.html 보관료(Storage) → 보관료
+[D&D] ch-docs/ch-cases.html
+[D&D] ch-docs/ch-dnd.html
+[D&D] ch-docs/ch-korea-storage.html
+[D&D] ch-docs/ch-sea-charges.html

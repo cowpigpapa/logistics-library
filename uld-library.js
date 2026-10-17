@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/air-uld';
-  const DOCS_VERSION = '20261012-03';
+  const DOCS_VERSION = '20261017-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -34,8 +34,8 @@
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
     { id: 'uld-overview', tag: "기본", level: 3, title: "ULD란 — 정의, 인증 ULD와 비인증 ULD, 규정과 표준", short: "ULD란", summary: "ULD의 정의와 인증·비인증 차이, TSO-C90e와 IATA ULDR, 포워더가 빌린 ULD의 반납·손상 책임." },
-    { id: 'uld-code', tag: "코드", level: 3, title: "ULD 코드와 대표 ULD — 형식 코드 읽는 법, 주요 ULD의 치수와 최대 중량", short: "ULD 코드와 대표 ULD", summary: "AKE 12345 KE를 글자별로 읽는 법과 ULD 태그와의 차이, LD3·PMC·20피트 팔레트 등 주요 ULD의 치수·최대 중량·자중과 출처마다 값이 다른 이유." },
-    { id: 'uld-pallets', tag: "팔레트", level: 3, title: "88인치와 96인치 팔레트 — PAG·PMC·20피트 팔레트, 네트와 스트랩", short: "88·96인치 팔레트", summary: "PAG와 PMC의 치수·위치별 최대 중량, 같은 화물을 짤 때의 차이, 네트·오버행·바닥 하중." },
+    { id: 'uld-code', tag: "코드", level: 3, title: "ULD 코드와 대표 ULD — 형식 코드 읽는 법, 주요 ULD의 치수와 최대 중량", short: "ULD 코드와 대표 ULD", summary: "AKE 12345 KE를 글자별로 읽는 법과 ULD 태그와의 차이, LD3·PMC·20ft 팔레트 등 주요 ULD의 치수·최대 중량·자중과 출처마다 값이 다른 이유." },
+    { id: 'uld-pallets', tag: "팔레트", level: 3, title: "88인치와 96인치 팔레트 — PAG·PMC·20ft 팔레트, 네트와 스트랩", short: "88·96인치 팔레트", summary: "PAG와 PMC의 치수·위치별 최대 중량, 같은 화물을 짤 때의 차이, 네트·오버행·바닥 하중." },
     { id: 'uld-holds', tag: "화물칸", level: 3, title: "항공기 화물칸과 탑재 배치 — 메인덱, 로어덱 FWD·AFT 홀드, 벌크, 탑재 위치와 문", short: "화물칸과 탑재 배치", summary: "메인덱·로어덱 FWD/AFT·벌크 구성과 기종별 ULD 탑재 수·화물 문 크기, 위치 이름 읽는 법과 위치별 하중 제한." },
     { id: 'uld-buildup', tag: "빌드업", level: 3, title: "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형", short: "컨투어와 빌드업", summary: "로어덱 64 in, 메인덱 96·118 in와 위치별 컨투어 차이, 반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트." },
     { id: 'uld-safety', tag: "안전", level: 2, title: "안전과 사고 사례 — ULD 손상 기준, 화물 이동·중량 오류 사고, 특수화물", short: "안전과 사고 사례", summary: "ULD 손상 점검 기준, 화물 고정·적재 위치·중량 오류 사고·준사고 7건, 특수화물 취급과 관련 규정." }

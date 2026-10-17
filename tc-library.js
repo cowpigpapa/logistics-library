@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/temperature-cargo';
-  const DOCS_VERSION = '20261012-03';
+  const DOCS_VERSION = '20261017-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -155,7 +155,7 @@
     });
   }
   async function renderDoc(view, doc) {
-    const head = `<nav class="lib-crumb"><a href="${home}">← 온도유지 화물</a></nav>`;
+    const head = `<nav class="lib-crumb"><a href="${home}">← Cold Chain · 온도유지 화물</a></nav>`;
     const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${CHECKED} · 규정과 장비 사양은 바뀔 수 있으니 실제 업무는 최신 규정과 항공사·선사 안내를 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
@@ -195,7 +195,7 @@
     if (doc) {
       // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
       if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
-      document.title = `${doc.title} · 온도유지 화물 · Logistics Library`;
+      document.title = `${doc.title} · Cold Chain · 온도유지 화물 · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {
       renderList(view);

@@ -1,0 +1,27 @@
+[없음] r2-007 tc-docs/tc-cases.html 상자는 습식 얼음(wet ice)으로 포장됐고
+[없음] r2-007 tc-docs/tc-cases.html 습식 얼음이나 젤팩의
+[없음] r2-008 uld-docs/uld-code.html FAA가 운항자에게
+[없음] r2-008 uld-docs/uld-overview.html FAA AC 120-85B는 운항자가
+[없음] r2-008 uld-docs/uld-overview.html 않도록 하라고 운항자에게
+[세관] battery-docs/checklist.html
+[세관] battery-docs/overview.html
+[세관] battery-docs/w-anx1.html
+[세관] battery-docs/w-recitals.html
+[세관] battery-docs/w-t1.html
+[세관] battery-docs/w-t2-5.html
+[세관] battery-docs/w-t4.html
+[세관] battery-docs/w-t5.html
+[세관] battery-docs/w-t6.html
+[세관] battery-docs/w-t8.html
+[없음] r2-015 tc-docs/tc-reefer.html USDA 프로브
+[없음] r2-017 insurance-docs/ins-cases.html 판례, 상호보험조합(P&amp;I 클럽 등)이 공개한
+[없음] r2-017 insurance-docs/ins-cases.html 운송 관련 상호보험조합과 보험사(P&amp;I 클럽, 대리점 배상책임보험)가
+[없음] r2-017 insurance-docs/ins-cases.html 판결이 아닌 상호보험조합의 사고 사례
+[없음] r2-018 dg-docs/kr-mismatch.html 배터리·자석 같은 물품(article)이나 드라이아이스는
+[없음] r2-055 incoterms-docs/inco-choose.html 검증된 총중량(VGM) 계측과 통지를
+[없음] r2-056 incoterms-docs/inco-risk-cost.html 검증된 총중량(VGM) 계측비
+[없음] r2-058 ch-docs/ch-korea-storage.html 40피트는 2TEU로 두 배
+[없음] r2-058 ch-docs/ch-sea-charges.html 40피트는 2TEU로 두 배
+[r2-059] ch-docs/ch-dnd.html 경과보관료 → 보관료
+[r2-059] ch-docs/ch-korea-storage.html 경과보관료 → 보관료
+[없음] r2-059 incoterms-docs/inco-choose.html Demurrage·Detention·Storage의

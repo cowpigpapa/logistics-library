@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/bl-awb';
-  const DOCS_VERSION = '20261012-04';
+  const DOCS_VERSION = '20261017-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -194,7 +194,7 @@
     if (doc) {
       // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
       if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
-      document.title = `${doc.title} · B/L·AWB · Logistics Library`;
+      document.title = `${doc.title} · B/L · AWB · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {
       renderList(view);

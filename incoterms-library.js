@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/incoterms-2020';
-  const DOCS_VERSION = '20261012-03';
+  const DOCS_VERSION = '20261017-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
