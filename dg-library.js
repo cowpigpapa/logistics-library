@@ -132,7 +132,7 @@
     sync();
   }
   // 법령·자료를 확인한 날짜. 법령이 개정되면 문서를 고치고 이 날짜를 바꾼다.
-  const CHECKED = '2026-10-05';
+  const CHECKED = '2026-10-14';
   const pager = doc => {
     const i = DOCS.indexOf(doc),
       prev = DOCS[i - 1],

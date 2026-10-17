@@ -669,14 +669,23 @@ def main():
     entries.sort(key=lambda e: (order[e[0]], e[3] == '', pos[e[1]]))
     files[ROOT / 'sitemap.xml'] = sitemap([(loc, date, extra) for _, loc, date, extra in entries], ledger)
     files[DATES] = ledger.text()
-    # 본문 검색 데이터. 가장 큰 EU 배터리 번역은 따로 두어 나머지 결과가 먼저 나오게 한다.
-    big = [d for d in search if d['u'].startswith('/library/eu-lithium-battery/')]
-    rest = [d for d in search if d not in big]
-    files[ROOT / 'search-index.json'] = json.dumps(rest, ensure_ascii=False, separators=(',', ':')) + chr(10)
+    # 본문 검색 데이터: 카테고리마다 한 파일(search/<slug>.<내용 해시>.json)로 나눠 동시에 받고, 받는 대로 결과에 더한다.
+    # 파일 이름에 해시가 있어 오래 캐시하고(vercel.json /search/), 목록 search-manifest.json만 매번 확인한다.
+    chunks = {}
+    for d in search:
+        chunks.setdefault(d['u'].split('/')[2], []).append(d)
+    manifest = []
+    for slug, docs in chunks.items():
+        text = json.dumps(docs, ensure_ascii=False, separators=(',', ':')) + chr(10)
+        name = f"search/{slug}.{hashlib.sha1(text.encode('utf-8')).hexdigest()[:10]}.json"
+        files[ROOT / name] = text
+        manifest.append('/' + name)
+    files[ROOT / 'search-manifest.json'] = json.dumps(manifest, separators=(',', ':')) + chr(10)
     files[ROOT / 'freshness.json'] = json.dumps(sorted(fresh, key=lambda x: (x['d'], x['u'])), ensure_ascii=False, separators=(',', ':')) + chr(10)
-    files[ROOT / 'search-index-2.json'] = json.dumps(big, ensure_ascii=False, separators=(',', ':')) + chr(10)
 
     stale = [p for p in OUT.rglob('*.html') if p not in files] if OUT.exists() else []
+    stale += [p for p in (ROOT / 'search').glob('*.json') if p not in files]
+    stale += [p for p in (ROOT / 'search-index.json', ROOT / 'search-index-2.json') if p.is_file()]
     changed = [p for p, text in files.items() if not p.is_file() or p.read_bytes() != text.encode('utf-8')]
 
     for w in warnings:

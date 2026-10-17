@@ -120,11 +120,14 @@
         if (ref.host !== location.host) referrer = ref.origin + ref.pathname;
       }
     } catch (_) {}
-    fetch('https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/log_visit', {
+    const log = ref => fetch('https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/log_visit', {
       method: 'POST',
       headers: { apikey: 'sb_publishable_vgcDAWoOJRD8Xvp2p4Ew9A_exTmzuXM', 'Content-Type': 'application/json' },
-      body: JSON.stringify({ p_site: 'library', p_path: location.pathname, p_referrer: referrer }),
+      body: JSON.stringify({ p_site: 'library', p_path: location.pathname, p_referrer: ref }),
       keepalive: true
     }).catch(() => {});
+    log(referrer);
+    // 왼쪽 색인·본문 링크로 새로고침 없이 옮긴 화면(library-index.js가 알린다). 사이트 안 이동이라 유입 경로는 비운다.
+    document.addEventListener('li:pageview', () => log(null));
   })();
 })();

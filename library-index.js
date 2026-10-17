@@ -99,8 +99,11 @@
     try {
       const out = await fetchView(r.path);
       if (my !== seq) return;
+      const moved = view.dataset.route !== r.path;
       view.innerHTML = out.html;
       view.dataset.route = r.path;
+      // 새로고침 없이 바뀐 화면도 방문 기록에 한 번 남긴다(site-shell.js가 듣는다).
+      if (moved) document.dispatchEvent(new CustomEvent('li:pageview'));
       document.title = out.title;
       afterRender(opts);
       // 화면 낭독기·키보드 사용자를 새 화면의 제목으로 옮긴다(화면은 굴리지 않음).
@@ -213,7 +216,8 @@
 
   // ---------------------------------------------------------------- 찾기(제목·요약·태그 + 본문, 비슷한 말, 관련도 순)
   // 검색어가 있으면 색인 자리에 관련도 순 결과 목록을 보여 주고, 지우면 색인으로 돌아간다.
-  // 본문 글자는 두 글자 이상 처음 찾을 때 한 번만 받는다(search-index.json + search-index-2.json(EU 배터리 번역), tools/prerender.py가 만든다).
+  // 본문 글자는 두 글자 이상 처음 찾을 때 한 번만 받는다. 카테고리별 파일(search-manifest.json 목록, tools/prerender.py가 만든다)을
+  // 동시에 받고, 파일이 올 때마다 결과를 다시 그린다. 지금 보는 카테고리 파일을 먼저 요청한다.
   let SEARCH = null, searchLoading = null;
   function loadSearch() {
     if (searchLoading) return searchLoading;
@@ -222,20 +226,23 @@
       list.forEach(d => { SEARCH[d.u] = d.b; });
       if ($('liFilter').value.trim()) applyFilter();
     }).catch(() => {});
-    searchLoading = Promise.all([part('/search-index.json'), part('/search-index-2.json')]);
+    const here = (location.pathname.split('/')[2] || '') + '.';
+    searchLoading = fetch('/search-manifest.json').then(r => r.json())
+      .then(urls => Promise.all(urls.sort((a, b) => b.includes('/' + here) - a.includes('/' + here)).map(part)))
+      .catch(() => {});
     return searchLoading;
   }
 
   // 비슷한 말: 한 묶음 안의 말은 서로 함께 찾는다(띄어쓰기·대소문자는 무시). 용어 기준은 tools/STYLE.md.
   const SYNONYMS = [
     ['고박', '고정', 'lashing', '래싱', 'securing'], ['고박점', '고정점', 'lashing point', 'securing point'],
-    ['Demurrage', 'DEM', '디머리지', '체화료'], ['Detention', 'DET', '디텐션', '지체료'], ['D&D', 'DEM/DET', 'DND'],
+    ['Demurrage', 'DEM', '디머리지', '체화료'], ['Detention', 'DET', '디텐션', '지체료'], ['D&D', 'DEM/DET', 'DND', 'Demurrage & Detention'],
     ['free time', '프리 타임', '무료 장치 기간', '무료 기간'], ['보상장', 'LOI', 'Letter of Indemnity', '면책각서'], ['L/G', '수입화물선취보증서', 'Letter of Guarantee'],
     ['화물인도지시서', 'D/O', 'delivery order'], ['해상화물운송장', 'SWB', 'sea waybill'], ['서렌더', 'surrender'], ['기기인수도증', 'EIR'],
     ['CFS', '컨테이너 화물조작장'], ['규격 초과', 'OOG', 'out of gauge'], ['화물고박지침서', 'CSM', 'cargo securing manual'], ['정식운송품명', 'PSN', 'proper shipping name'],
-    ['특별인출권', 'SDR'], ['무선박운송인', 'NVOCC'], ['습식 얼음', 'wet ice', '웻 아이스'], ['드라이아이스', 'dry ice'], ['컨투어', 'contour'],
+    ['특별인출권', 'SDR'], ['무선박운송인', 'NVOCC'], ['드라이아이스', 'dry ice'], ['컨투어', 'contour'],
     ['도난·발하·불착', 'TPND'], ['협회적하약관', 'ICC(A)', 'Institute Cargo Clauses'], ['상변화물질', 'PCM'], ['냉해', '저온장해', 'chilling injury'],
-    ['중량·평형', 'weight and balance', '무게중심'], ['운항자', '운항사', 'operator'], ['혼적', '혼재', 'consolidation'], ['온도 일탈', '온도 이탈', 'temperature excursion'],
+    ['Weight & Balance', '중량·평형', 'weight and balance', 'W&B'], ['항공사', '운항자', '운항사', 'operator'], ['피트', 'ft', 'feet'], ['아이스팩', '습식 얼음', 'wet ice', '젤팩'], ['혼적', '혼재', 'consolidation'], ['온도 일탈', '온도 이탈', 'temperature excursion'],
     ['드라이 컨테이너', 'dry container', '건화물'], ['냉동 컨테이너', '리퍼', 'reefer', '냉장 컨테이너'], ['샤시', '섀시', 'chassis'],
     ['위험물', 'DG', 'dangerous goods', 'hazmat'], ['UN 번호', 'UN number', 'UN No'], ['MSDS', 'SDS', '물질안전보건자료'],
     ['LQ', '한정수량', 'limited quantity'], ['IMDG', 'IMDG Code', '국제해상위험물규칙'], ['DGR', 'IATA DGR', '항공위험물규정'], ['EmS', '비상조치표'],
@@ -243,9 +250,9 @@
     ['ULD', '단위탑재용기', 'unit load device'], ['적하보험', 'cargo insurance', '화물보험'], ['공동해손', 'general average'],
     ['인코텀스', 'Incoterms', '인코텀즈'], ['FOB', '본선인도'], ['CIF', '운임보험료포함인도'], ['EXW', '공장인도'], ['DDP', '관세지급인도'],
     ['CTU', '화물운송단위', 'cargo transport unit'], ['컨테이너 번호', 'container number'], ['체크 디지트', 'check digit'],
-    ['THC', '터미널 화물 처리비', 'terminal handling charge'], ['보관료', 'storage'], ['종가료', 'ad valorem'],
+    ['THC', '터미널 화물 처리비', 'terminal handling charge'], ['보관료', 'storage', '경과보관료', '장치료'], ['종가료', 'ad valorem'],
     ['리튬 배터리', 'lithium battery', '리튬이온 배터리'], ['온도유지', '콜드체인', 'cold chain', '온도관리'],
-    ['VGM', '검증된 총중량', '컨테이너 총중량 검증제도', 'verified gross mass'], ['CSC', 'CSC 명판', 'CSC plate'], ['결로', 'condensation', '컨테이너 비'],
+    ['VGM', '검증된 총중량', '컨테이너 총중량 검증', 'verified gross mass'], ['CSC', 'CSC 명판', 'CSC plate'], ['결로', 'condensation', '컨테이너 비'],
     ['무게중심', 'center of gravity', 'COG'], ['포워더', '운송주선인', 'freight forwarder'], ['송하인', 'shipper'], ['수하인', 'consignee'],
     ['PTI', 'pre-trip inspection', '사전 점검'], ['젠셋', 'genset'], ['씰', 'seal', '봉인'], ['책임 한도', 'liability limit', '책임제한'],
   ];
