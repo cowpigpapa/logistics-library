@@ -1,0 +1,50 @@
+[
+ {
+  "claim": "같은 공지는 통관 수수료와 예상하지 못한 비용이 포함되지 않으며, 한국 수입은 DDP 조건을 받지 않는다고 적습니다.",
+  "verdict": "wrong",
+  "evidence": "바로 앞 문장의 주어가 2025. 9. 4. 일본 공지라서 '같은 공지'가 그 공지를 가리키게 되는데, 2025. 9. 4. 공지(https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge-2025-09-04.pdf)에는 'Customs clearance fee or other unforeseen charges are NOT included.'만 있고 DDP 문구는 없음. DDP 문구는 2024. 5. 15. 일본·한국 공지(nea-local-charge202405.pdf)에만 있음: '* DDP is NOT acceptable in South Korea when it comes to Import shipment.'",
+  "fix": "2024년 공지는 통관 수수료와 예상하지 못한 비용이 포함되지 않으며, 한국 수입은 DDP 조건을 받지 않는다고 적습니다."
+ },
+ {
+  "claim": "Maersk는 치수가 몇 cm만 달라도 차이가 크다며 수정된 치수를 받거나 오신고 비용(misdeclaration fee)을 받는다고 안내합니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.maersk.com/support/faqs/what-if-the-dimensions-only-change-by-a-few-centimeters : 이 FAQ는 'Out of gauge Cargo / Special Cargo' 태그가 붙은 규격 외 화물 FAQ이고(관련 FAQ도 flatrack 최대 치수), 본문은 'Even a few centimetres can make a world of a difference. We, therefore, need to receive the updated dimensions or charge the misdeclaration fee.'뿐임. LCL CBM 오신고에 대한 안내가 아님.",
+  "fix": "Maersk도 규격 외(Out of gauge) 화물 FAQ에서 치수가 몇 cm만 달라도 차이가 크다며 수정된 치수를 받거나 오신고 비용(misdeclaration fee)을 받는다고 안내합니다."
+ },
+ {
+  "claim": "LCL이라면 House B/L 한 건이 보통 수출신고 한 건이 됩니다.",
+  "verdict": "overreach",
+  "evidence": "수출 및 반송통관에 관한 고시 제6조(https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000270440): '수출신고는 해당 물품을 외국으로 반출하려는 선박 또는 항공기의 적재단위(S/R 또는 S/O, B/L 또는 AWB)별로 하여야 한다.' 이는 수출신고 한 건이 여러 B/L에 걸칠 수 없다는 뜻이고, House B/L 한 건에 수출신고 여러 건(인보이스·제조사별)이 묶이는 일은 흔함. '보통 1:1'은 조문에서 나오지 않음.",
+  "fix": "LCL이라면 수출신고 한 건이 House B/L 하나에 실리고, House B/L 한 건에 수출신고 여러 건이 묶이기도 합니다."
+ },
+ {
+  "claim": "부산항 CFS에 반입된 화물은 반입일부터 30일 안에 수입신고를 해야 신고지연 가산세를 피하고",
+  "verdict": "overreach",
+  "evidence": "보세화물관리에 관한 고시 제34조제4항(관세청고시 제2026-12호, https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000275032&chrClsCd=010201): '보세운송 등의 절차에 따라 다음 각 호의 보세구역 간을 이동하는 물품에 대한 장치기간은 종전 보세구역의 장치기간을 합산한다. 1. 제1항제1호 물품: 별표 1의 보세구역'. 터미널 CY에서 부두 밖 CFS로 셔틀된 LCL은 CFS 반입일이 아니라 CY 반입일부터 30일이 계산됨.",
+  "fix": "부산항 CFS에 반입된 화물은 반입일(CY에서 옮겨 온 화물은 CY 반입일, 장치기간 합산)부터 30일 안에 수입신고를 해야 신고지연 가산세를 피하고"
+ },
+ {
+  "claim": "<li>부산항·인천항 CFS 화물은 반입일부터 30일(수입신고), 수리일부터 15일(반출) 기한을 화주에게 날짜로 알린다.</li>",
+  "verdict": "overreach",
+  "evidence": "보세화물관리에 관한 고시 제34조제4항: 별표 1 보세구역 간 이동 물품은 '종전 보세구역의 장치기간을 합산한다.' CY→CFS 셔틀 화물은 CY 반입일이 기산점. (3절 표·9절 '반입일부터 30일' 문장도 같은 보완 필요)",
+  "fix": "<li>부산항·인천항 CFS 화물은 반입일부터 30일(수입신고, CY에서 옮겨 온 화물은 CY 장치기간 합산), 수리일부터 15일(반출) 기한을 화주에게 날짜로 알린다.</li>"
+ },
+ {
+  "claim": "표의 Maersk 요율은 2024년 5월 15일에 게시되어 2024년 6월 15일부터 적용된 일본·한국 공동 공지입니다.",
+  "verdict": "unverifiable",
+  "evidence": "Maersk 서버에 그 뒤 판인 'nea-local-charge-2024-09-10.pdf'(일본·한국 공동, 일본 free time 변경, 2024. 9. 15. 시행)가 검색 색인에 있음(https://eascpcd.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge-2024-09-10.pdf). 검색 요약상 한국 금액(CFS 6,500/12,000, THC 6,500/15,000, Wharfage 203/341, Doc 50,000)은 2024. 6. 판과 같으나, PDF는 403/404로 직접 확인 불가. 한국 금액이 실린 최신 공지는 2024. 6. 15.판이 아니라 2024. 9. 10.판일 수 있음.",
+  "fix": "표의 Maersk 요율은 2024년 5월 15일에 게시되어 2024년 6월 15일부터 적용된 일본·한국 공동 공지의 금액입니다(그 뒤 2024년 9월 10일 일본·한국 공지가 나왔지만 일본 무료 기간을 바꾼 것으로 보이며, 원문은 확인하지 못했습니다)."
+ },
+ {
+  "claim": "(2024. 3. 11. 작업분부터, 2025. 2. 3. 게시)",
+  "verdict": "unverifiable",
+  "evidence": "http://www.sinokor.co.kr/Notice/Detail?nacd=KR&num=535 : 게시판 날짜는 '2025-02-03'이지만 본문은 '2024 년 3 월 11 일 작업분부터 아래와 같이 CFS 요율 인상 예정'이고, 글 번호 535가 534(2024-02-02 게시) 바로 다음, 다음글이 'DETENTION PLISM+ARA 서비스 도입 및 시행관련 (2024년3월12일부)'라 실제 게시는 2024년 2~3월이고 2025-02-03은 수정일로 보임. 시행 1년 뒤 게시처럼 읽혀 혼란.",
+  "fix": "(2024. 3. 11. 작업분부터)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "86 claims checked, 79 correct; law/고시 articles (관세법 241·243·251, 시행령 247, 항만운송사업법 2·10, 하선 고시 2·15·19·33·36·43·44·45, 보세화물관리 고시 4·5·6·9·10·19·34, 수출통관 고시 4·6·8·32, 보세창고 고시 16, 해운법 28) re-fetched from law.go.kr DRF and match, incl. 고시 번호·시행일. Maersk 2024-06 KR LCL figures, 1.5x multiplier, Japan 2025-09 storage rules, SEKO Rules 2-4 (eff. 2025. 4. 1.), Maersk FAQ 15CBM/3,000kg·29CBM/20,000kg·60CBM, 장금상선 547·534·535·619 (no newer CFS-rate notice through num 631), Cello Square quote all verified. All worked-example arithmetic recomputed and correct (139,950.36/260,950; 2.64368→2.644; 40,087/44,163/+4,076; 3.966/USD 99.15/66,244). Internal links (ch-sea-charges, ch-korea-storage, bl-basics, bl-release, dg-rules, dg-msds) exist. No advice telling forwarders to measure/inspect cargo (draft explicitly says 포워더는 화물을 직접 재지 않음).",
+  "fix": ""
+ }
+]

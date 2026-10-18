@@ -1,0 +1,80 @@
+[
+ {
+  "claim": "2절의 TACT 교재가 틀린 방법으로 표시한 계산이 바로 이것입니다.",
+  "verdict": "wrong",
+  "evidence": "Internal cross-reference error. The TACT/ASEAN 'Incorrect' example (255.0 kg + 160.5 kg = 415.5 kg) is presented in section 3 ('여러 개 화물: 부피를 모두 더한 뒤 한 번 나눈다'), not section 2 (section 2 covers rounding only). Source slide 34: https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf '255.0 kg + 160.5 kg = 415.5 kg ... Incorrect'",
+  "fix": "3절의 TACT 교재가 틀린 방법으로 표시한 계산이 바로 이것입니다."
+ },
+ {
+  "claim": "2절의 TACT 규칙대로 여러 개 화물은 총실중량과 총부피 중량을 비교합니다.",
+  "verdict": "wrong",
+  "evidence": "Internal cross-reference error. The multiple-pieces rule (add volumes, divide once; total gross weight) is explained in section 3, not section 2. ASEAN deck slides 33-34, 42 (https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf): 'Step 2: add up both cubic volume.' / 'Total gross weight of 2 packages 25.5 kg + 25 kg = 50.5 kg'",
+  "fix": "3절의 TACT 규칙대로 여러 개 화물은 총실중량과 총부피 중량을 비교합니다."
+ },
+ {
+  "claim": "<td>Emirates SkyCargo 아랍에미리트 출발 LSC(2026. 1. 1. 시행)</td>",
+  "verdict": "outdated",
+  "evidence": "Emirates SkyCargo LSC index (https://www.skycargo.com/local-sales-conditions) now links the UAE LSC 'Effective 01 OCTOBER 2026': https://www.skycargo.com/media/xqynmo0m/01oct2026_lsc_me-uae_uae-ae.pdf. The cited clauses are unchanged in the October version: 'Emirates SkyCargo rates for cargo transportation are based on the booking information provided by Customer ... Rates may be modified in the event of any change in the booking details.'; 'Re-weighing ... AED 0.15 / kg or Minimum AED 150 applicable on total chargeable weight Per Kg (Chg Wt.)'; 'A Charges Correction Advice (\"CCA\") fee of AED 150 will apply on all CCA's when issued post 90 days (based on invoice date).' Only the version/date is stale.",
+  "fix": "<td>Emirates SkyCargo 아랍에미리트 출발 LSC(2026. 10. 1. 시행)</td>"
+ },
+ {
+  "claim": "<td>Emirates SkyCargo 프랑스 출발 LSC(2026. 7. 1. 시행)</td>",
+  "verdict": "outdated",
+  "evidence": "Current France LSC is 'Effective 01 OCTOBER 2026': https://www.skycargo.com/media/2xqgkukn/01oct2026_lsc_europe-russia_france-fr.pdf. Same text retained: 'Space Agreement is based on details of shipments supplied by the shipper or their agent. In case of noticeable discrepancy in any of the shipment details at time of acceptance, booking may become invalid...'; 'up until 90 days of the invoice date'; 'A CCA can be raised up to a maximum of 12 months from AWB issue date'; 'CCA - Charge Correction Advice (change of consignee, error on weight, entry of customs information...)'.",
+  "fix": "<td>Emirates SkyCargo 프랑스 출발 LSC(2026. 10. 1. 시행)</td>"
+ },
+ {
+  "claim": "Local Sales Conditions Ireland(Emirates SkyCargo, 2026. 1. 1. 시행) — <a href=\"https://www.skycargo.com/media/4zcpwqyn/01jan2026_lsc_europe-russia_ireland-ie.pdf\"",
+  "verdict": "outdated",
+  "evidence": "Current Ireland LSC is 'Effective 01 OCTOBER 2026': https://www.skycargo.com/media/pkwhdfws/01oct2026_lsc_europe-russia_ireland-ie.pdf (linked from https://www.skycargo.com/local-sales-conditions). Clause unchanged: '3.3. Weight breakpoints are only applicable for Emirates SkyCargo's net-rates, as specified on the published tariff sheet.'",
+  "fix": "Local Sales Conditions Ireland(Emirates SkyCargo, 2026. 10. 1. 시행) — <a href=\"https://www.skycargo.com/media/pkwhdfws/01oct2026_lsc_europe-russia_ireland-ie.pdf\""
+ },
+ {
+  "claim": "Local Sales Conditions United Arab Emirates(Emirates SkyCargo, 2026. 1. 1. 시행) — <a href=\"https://www.skycargo.com/media/lgpfidje/01jan2026_lsc_me-uae_uae-ae.pdf\"",
+  "verdict": "outdated",
+  "evidence": "Superseded by UAE LSC 'Effective 01 OCTOBER 2026': https://www.skycargo.com/media/xqynmo0m/01oct2026_lsc_me-uae_uae-ae.pdf (same re-weighing and CCA clauses).",
+  "fix": "Local Sales Conditions United Arab Emirates(Emirates SkyCargo, 2026. 10. 1. 시행) — <a href=\"https://www.skycargo.com/media/xqynmo0m/01oct2026_lsc_me-uae_uae-ae.pdf\""
+ },
+ {
+  "claim": "Local Sales Conditions France(Emirates SkyCargo, 2026. 7. 1. 시행) — <a href=\"https://www.skycargo.com/media/2qycm1xr/01jul2026_lsc_europe-russia_france-fr.pdf\"",
+  "verdict": "outdated",
+  "evidence": "Superseded by France LSC 'Effective 01 OCTOBER 2026': https://www.skycargo.com/media/2xqgkukn/01oct2026_lsc_europe-russia_france-fr.pdf (same Annexure 2 capacity-agreement and CCA text).",
+  "fix": "Local Sales Conditions France(Emirates SkyCargo, 2026. 10. 1. 시행) — <a href=\"https://www.skycargo.com/media/2xqgkukn/01oct2026_lsc_europe-russia_france-fr.pdf\""
+ },
+ {
+  "claim": "<a href=\"https://www.skycargo.com/media/lgpfidje/01jan2026_lsc_me-uae_uae-ae.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">UAE LSC</a>, <a href=\"https://www.skycargo.com/media/2qycm1xr/01jul2026_lsc_europe-russia_france-fr.pdf\"",
+  "verdict": "outdated",
+  "evidence": "Section 10 source line links the Jan 2026 UAE and Jul 2026 France LSCs; both superseded by 01 Oct 2026 versions: https://www.skycargo.com/media/xqynmo0m/01oct2026_lsc_me-uae_uae-ae.pdf ; https://www.skycargo.com/media/2xqgkukn/01oct2026_lsc_europe-russia_france-fr.pdf",
+  "fix": "<a href=\"https://www.skycargo.com/media/xqynmo0m/01oct2026_lsc_me-uae_uae-ae.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">UAE LSC</a>, <a href=\"https://www.skycargo.com/media/2xqgkukn/01oct2026_lsc_europe-russia_france-fr.pdf\""
+ },
+ {
+  "claim": "같은 약관은 ULD 운송의 중량을 \"용기와 내용물의 실중량과 부피 중량 중 큰 값\"으로 정의해 ULD 자중이 들어가는 구조를 보여 줍니다.",
+  "verdict": "overreach",
+  "evidence": "CTA sample tariff Rule 1 (https://otc-cta.gc.ca/eng/publication/tariff-transportation-cargo-between-points-canada-and-points-outside-canada): '\"Gross Weight\" means the actual or volume weight whichever is greater, of the container plus contents.' This is the tariff's general Gross Weight definition, not a definition of 'ULD 운송의 중량'; the same Rule 1 also defines '\"Net Weight\" means the total gross weight of a container less the tare weight of the container' and '\"Tare Weight\" means the weight of the empty container including its normal complement of restraint devices.' The sample tariff has no ULD rating rule saying tare is charged. Whether ULD tare is included in or deducted from chargeable weight is set by each carrier's ULD/BUP rate conditions (Lufthansa Cargo only refers to the pivot weight 'published in TACT, Chapter 8 ... under 3.10.5 \"Bulk Unitization Charges\"': https://www.lufthansa-cargo.com/documents/d/guest/rate-and-price-conditions). Not supportable as a general rule.",
+  "fix": "같은 약관은 실중량(Gross Weight)을 \"용기와 내용물을 합친 실중량과 부피 중량 중 큰 값\"으로, 순중량(Net Weight)을 \"용기 총중량에서 용기 자중(tare)을 뺀 값\"으로 따로 정의합니다. ULD 자중을 운임 중량에 넣는지 빼는지는 항공사의 ULD 요율 조건이 정하므로 함께 확인합니다."
+ },
+ {
+  "claim": "IATA TACT Rules 원문은 유료 간행물이라 직접 열람하지 못했고, ASEAN 물류 교육 교재가 TACT 조항(3.4, 3.9.4 등)을 인용한 문장",
+  "verdict": "overreach",
+  "evidence": "ASEAN deck bibliography (slide 147, https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf): 'IATA TACT CD, February 2010 Edition.' The TACT rule numbers and wording quoted throughout (3.4/3.4.1, 3.9.4 etc.) come from a 2010 edition (the deck still uses SDR 17/19 liability figures). The article presents them as current TACT Rules without naming the edition, so section numbers may not match the current TACT.",
+  "fix": "IATA TACT Rules 원문은 유료 간행물이라 직접 열람하지 못했고, 2010년 2월판 TACT를 참고문헌으로 든 ASEAN 물류 교육 교재가 TACT 조항(3.4, 3.9.4 등)을 인용한 문장(현행판의 조항 번호와 다를 수 있음)"
+ },
+ {
+  "claim": "AWB 가운데 운임 칸(rating box)은 항공사 양식마다 위치가 조금 달라도 칸 이름은 같습니다. Amerijet 등 항공사가 공개한 AWB 양식의 칸 이름과 적는 내용은 다음과 같습니다.",
+  "verdict": "overreach",
+  "evidence": "Only one carrier form was checked (Amerijet, https://pm6api-prod.amerijet.com/api/DocumentLibrary/RetrieveWPDocument/Air%20Waybill%20Front: 'No. of Pieces RCP | Gross Weight | kg lb | Rate Class Commodity | Chargeable Weight | Rate / Charge | Total | Nature and Quantity of Goods (incl. Dimensions or Volume)'), so '등 항공사' overstates the sourcing. 'Positions differ by carrier' is unsupported; the site's own AWB 기초 §5 says carriers' AWB forms follow IATA Resolution 600a (standard layout).",
+  "fix": "AWB 운임 칸(rating box)은 IATA 결의 600a의 표준 양식을 따르므로 항공사가 달라도 칸 이름이 같습니다. Amerijet이 공개한 AWB 양식의 칸 이름과 적는 내용은 다음과 같습니다."
+ },
+ {
+  "claim": "항공사가 계측한 중량이나 치수가 House·Master AWB와 다르면 항공사는 계측값으로 운임을 다시 계산해 CCA로 정정할 수 있고",
+  "verdict": "overreach",
+  "evidence": "The cited Emirates LSCs deal with the carrier's own booking/AWB (Master): 'rates ... are based on the booking information provided by Customer' (UAE LSC), 'CCA - Charge Correction Advice (change of consignee, error on weight ...)' (France LSC). The carrier does not rate or correct House AWBs (the article itself says in section 8 that Master is the forwarder-airline contract and House is forwarder-shipper). Saying the airline re-rates against the House AWB goes beyond the sources.",
+  "fix": "항공사가 계측한 중량이나 치수가 Master AWB(부킹 내용)와 다르면 항공사는 계측값으로 운임을 다시 계산해 CCA로 정정할 수 있고"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "74 claims checked, 62 correct; 12 problem entries (2 wrong, 6 outdated [same 3 superseded Emirates LSC versions cited in 6 places], 4 overreach). All worked-example arithmetic recomputed and correct (593.892/594.0; 2,489,289 -> 414.881/415.0 vs 415.5; drum 1,866,312 -> 311.5; shoes 33.333->33.5, 105.525->105.53; cat 42.0; examples 1-4 incl. break points 11.667/33.750/84.444/260.526/454.545/900 and Master 452.0 vs House 592.0, 1,491,600). TACT quotes (3.4.1, 3.3, 3.9.4, 6000/366/166, rounding rules, USA kg/lb, multiple pieces, 995 kg Q1000, break-back formula, CCR list, valuation 'actual gross weight') match the ASEAN deck verbatim. CTA Rules 1/4/7/28, Uzbekistan Airways bands and 594 kg example, IATA ONE Record 2026-07 RateClassCode list (B,C,E,K,M,N,P,Q,R,S,U,W,X,Y), Amerijet AWB field names, Montreal Art. 22(3)(4) (26 SDR current) verified. 'BUP, Built-Up Pallet' is supported by Emirates UAE LSC ('BUP - Built Up Pallet / SBU - Shippers Built Unit'); IATA/Lufthansa call it 'Bulk Unitization'. Internal links (bl-awb/awb-basics incl. section 6 Master/House, air-uld/uld-code, uld-pallets, uld-buildup, temperature-cargo/tc-air-active, cargo-insurance/ins-carrier-liability, data-doc ch-air-storage) all exist. No instruction to forwarders to measure/weigh cargo. UPS Korea live page returns Access Denied, so the 2023 archive (5,000 divisor) could not be re-confirmed as current; it is already labelled as a 2023 archive. Note: Emirates also publishes a South Korea LSC (Effective 01 OCTOBER 2026, https://www.skycargo.com/media/f2nkltwe/01oct2026_lsc_fea_south-korea-kr-1.pdf: CCA fee KRW 100,000 post 90 days; weight-break clause 2.4; low-show charged on booked vs delivered chargeable weight), likely more relevant to Korean readers than UAE/France/Ireland.",
+  "fix": ""
+ }
+]
