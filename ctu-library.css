@@ -852,3 +852,8 @@ body:has(#libraryView:not([hidden]) > .ctu-index-shell) > .site-footer .footer-m
 .ctu-index-shell .entry-image { display: block; overflow: hidden; width: 100%; max-width: 660px; justify-self: end; background: #dce9f5; }
 .ctu-index-shell .entry-image img { display: block; width: 100%; height: auto; }
 @media (max-width: 900px) { .ctu-index-shell .library-entry { grid-template-columns: 1fr; gap: 20px; } }
+/* Cubestow CTU Code 색인: 화면 높이만큼 채워서, 맨 아래로 내렸을 때 색인 끝이 본문 끝과 맞게 한다(LL은 고정 푸터 때문에 70vh). */
+@media (min-width: 901px) {
+  .ctu-index-shell .li-side { display: flex; flex-direction: column; max-height: calc(100vh - 84px); }
+  .ctu-index-shell .li-tree { flex: 1 1 auto; min-height: 0; max-height: none; }
+}
