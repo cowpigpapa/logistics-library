@@ -2038,7 +2038,7 @@
     if (EMBED_INDEX) markIndex(view, doc && doc.id);
     if (doc) {
       renderDoc(pane, doc);
-      document.title = `${doc.title} · CTU Code · Logistics Library`;
+      document.title = `${doc.title} · CTU Code · ${isStandalone ? 'Logistics Library' : 'Cubestow'}`; // Cubestow 안에서는 그 사이트 이름으로
       setCanonical(`/library/ctu-code/${doc.id}`);
     } else {
       if (EMBED_INDEX) renderOverview(pane);
