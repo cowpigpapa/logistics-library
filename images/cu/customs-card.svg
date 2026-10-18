@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 372" width="660" height="372">
+  <rect width="660" height="372" fill="#e7f1fb"/>
+  <rect x="70" y="40" width="520" height="292" rx="14" fill="#fff" stroke="#c9d6e6" stroke-width="3"/>
+  <g font-family="SUIT, Pretendard, sans-serif">
+    <text x="104" y="86" font-size="17" font-weight="800" fill="#5f6b7a" letter-spacing="2">수입신고</text>
+    <text x="104" y="140" font-size="42" font-weight="800" fill="#10243e" letter-spacing="2">HS <tspan fill="#1476d4">8471</tspan>.<tspan fill="#0f7a6c">30</tspan>-<tspan fill="#d97706">0000</tspan></text>
+    <g font-size="15" font-weight="700">
+      <text x="180" y="168" fill="#1476d4">류·호</text>
+      <text x="292" y="168" fill="#0f7a6c">소호</text>
+      <text x="392" y="168" fill="#d97706">HSK 세분</text>
+    </g>
+    <line x1="104" y1="192" x2="556" y2="192" stroke="#dde3eb" stroke-width="2"/>
+    <g font-size="16" font-weight="700" text-anchor="middle">
+      <rect x="104" y="218" width="96" height="40" rx="8" fill="#eef4fb" stroke="#c9d6e6"/>
+      <text x="152" y="244" fill="#10243e">보세구역</text>
+      <rect x="226" y="218" width="96" height="40" rx="8" fill="#eef4fb" stroke="#c9d6e6"/>
+      <text x="274" y="244" fill="#10243e">신고</text>
+      <rect x="348" y="218" width="96" height="40" rx="8" fill="#eef4fb" stroke="#c9d6e6"/>
+      <text x="396" y="244" fill="#10243e">수리</text>
+      <rect x="470" y="218" width="86" height="40" rx="8" fill="#1476d4"/>
+      <text x="513" y="244" fill="#fff">반출</text>
+    </g>
+    <g stroke="#8a9aac" stroke-width="2.5" fill="none"><path d="M203 238h18M325 238h18M447 238h18"/></g>
+    <text x="104" y="300" font-size="16" font-weight="700" fill="#5f6b7a">FTA 협정관세 · 원산지증명 · 보세운송</text>
+  </g>
+</svg>

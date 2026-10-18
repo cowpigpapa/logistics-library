@@ -1,0 +1,165 @@
+<p>"운임은 USD 1,800이라고 했는데 인보이스에는 왜 BAF, EFS, ETS가 더 붙었나요?" 해상 견적에서 화주가 가장 자주 묻는 질문입니다. 컨테이너 운임은 기본 해상운임과 그 위에 붙는 할증료로 나뉘고, 할증료는 연료 가격, 배출 규제, 환율, 성수기, 분쟁 지역 우회 같은 사정에 따라 선사가 따로 정해 수시로 바꿉니다. 같은 약어라도 선사마다 이름과 산정 방식, 단위(컨테이너당·TEU당), 적용일 기준이 다르기 때문에 견적서와 인보이스를 맞춰 보려면 각 줄이 무엇을 근거로 얼마나, 언제부터 붙는지 알아야 합니다. 이 문서는 BAF·LSS·EBS·EU ETS·CAF·PSS·GRI 등 운임에 붙는 할증료를 선사 공지와 규정 원문으로 정리하고, 한국 해운법의 운임·요금 공표 제도와 40ft 견적 계산 예시로 인보이스를 점검하는 순서를 보여 줍니다.</p>
+
+<p class="lib-summary"><b>핵심 3줄</b><br>① 할증료는 기본운임과 따로 움직이는 "요금"이며, 유류(BAF·LSS·EBS), 환경 규제(EU ETS·FuelEU), 통화(CAF), 시장(PSS·GRI), 위험·운항 차질(전쟁 위험·우회·혼잡) 할증으로 나뉩니다.<br>② 같은 할증료라도 선사마다 이름·단위·적용일 기준이 달라서 견적에는 금액과 함께 "어느 날짜(출항 예정일·컨테이너 인수일 등) 기준의 어느 요율인지"를 적어야 인보이스와 맞출 수 있습니다.<br>③ 한국 항만을 거치는 정기 컨테이너 화물의 할증료는 해운법 제28조와 같은 법 시행규칙 제20조에 따라 적용일 15일 전까지 공표해야 하고, 공표 금액보다 더 받는 것은 제31조의 금지행위에 해당할 수 있습니다.</p>
+
+<p class="lib-disclaimer">이 문서는 2026년 10월 18일에 확인한 선사 공개 공지·용어집(Maersk·MSC·CMA CGM·Hapag-Lloyd·ONE·HMM·장금상선), 국가법령정보센터의 해운법·고시 원문, 국제해사기구(IMO)·유럽연합 집행위원회 자료를 바탕으로 합니다. 할증료 금액은 분기·월마다, 긴급 할증은 몇 주 만에도 바뀌고 계약 화주에게는 다른 조건이 적용될 수 있으므로 금액은 예시로만 보고 실제 견적과 정산 전에는 해당 선사의 최신 공지와 요율 조회 화면을 확인하십시오. 계산 예시의 숫자 가운데 "예시"로 표시한 것은 설명용 가상 금액입니다. 포워더는 선사 공지·부킹 확인서·B/L·인보이스로 판단한다는 전제로 썼습니다. THC·부두사용료 같은 로컬 비용은 <a data-doc="ch-sea-charges">해상 부대비용 지도</a>, 컨테이너 사용료는 <a data-doc="ch-dnd">DEM·DET 제대로 읽기</a>를 보십시오.</p>
+
+<h3>1. 기본운임과 할증료: 견적서가 두 층인 이유</h3>
+<p>컨테이너 운임은 보통 두 층으로 나옵니다. 아래층은 기본 해상운임(Basic Ocean Freight, 선사 청구서의 BAS 또는 O/F)이고, 위층은 연료·환경 규제·환율·수급·위험처럼 선사가 통제하기 어려운 비용을 따로 떼어 받는 할증료입니다. 한국 운임공표 고시도 같은 구조입니다. 고시는 운임을 특정 화물을 선적지부터 양하지까지 운송하는 "서비스에 대한 대가"로 정의하면서 "해상화물 운송 서비스에 딸린 대가인 요금을 제외한다"고 적고, BAF·LSS·EBS·CAF를 THC·서류비와 함께 요금 항목에 둡니다(제2조, 제4조). 선사가 기본운임은 계약 기간 동안 묶어 두고, 변동이 큰 비용은 할증료로 분리해 공식에 따라 올리고 내리는 방식입니다.</p>
+<table class="lib-table">
+<thead><tr><th>견적 형태</th><th>뜻</th><th>확인할 것</th></tr></thead>
+<tbody>
+<tr><td>All-in</td><td>기본운임과 할증료를 합친 한 금액. 선사 온라인 스폿 상품이 대표적입니다(예: Maersk Spot은 "모든 비용을 미리 보여 주고 숨은 비용이 없다"고 안내).</td><td>어느 할증료까지 포함인지(도착지 THC, ETS, 긴급 할증), 금액이 언제 고정되는지</td></tr>
+<tr><td>Subject to(별도)</td><td>기본운임만 확정하고 할증료는 "선적 시점 요율 적용(subject to prevailing surcharges)"으로 남김</td><td>할증료 목록, 각 할증료의 적용일 기준, 변경 공지를 받는 경로</td></tr>
+<tr><td>장기 계약(서비스 계약)</td><td>기본운임은 계약 기간 고정, 유류·환경 할증료는 선사 공식이나 계약 조항에 따라 변동</td><td>BAF 공식·주기, 새 할증료를 계약 화물에도 붙이는지. 한국 해운법은 3개월 이상 장기운송계약에 유류비 등 원재료 가격 상승에 따른 운임·요금 협의를 넣도록 함(제29조의2제2항제3호)</td></tr>
+</tbody>
+</table>
+<p>규제 비용 할증료는 계약 조건과 상관없이 붙기도 합니다. Maersk 용어집은 배출 규제 준수 비용을 받는 Emission Surcharge(EMS)를 "규제로 의무화된 것이므로 NNS 조항이 있는 계약을 포함해 모든 계약에 적용한다"고 적습니다. 용어집은 NNS를 풀어 쓰지 않지만, 계약서에 새 할증료를 제한하는 조항이 있어도 규제 비용 할증료는 예외로 두는 선사가 있다는 뜻입니다. 계약서의 할증료 조항에서 규제 비용 예외 문구를 먼저 찾아야 합니다. 같은 용어집에는 계약 기간 동안 유류·배출 할증 요소를 고정해 주는 대가로 받는 Fixed Bunker Insurance라는 항목도 있습니다. 할증료를 고정하는 것 자체가 별도 가격이 붙는 상품이라는 점을 화주에게 설명할 때 쓸 수 있습니다.</p>
+
+<h3>2. 어느 날짜의 요율인가: 적용일 기준</h3>
+<p>할증료 분쟁의 상당수는 금액이 아니라 날짜에서 생깁니다. 할증료가 10월 1일부터 바뀐다고 할 때 그 "10월 1일"을 부킹일, 컨테이너 반입일, 출항일 가운데 무엇으로 재는지가 선사와 할증료마다 다릅니다. 공개 공지에서 확인한 예는 다음과 같습니다.</p>
+<table class="lib-table">
+<thead><tr><th>선사·공지(확인 기준)</th><th>적용일 기준</th></tr></thead>
+<tbody>
+<tr><td>Maersk 성수기 할증(PSS) 극동→북유럽·지중해(2026. 5. 25.)</td><td>가격 산정일(Price Calculation Date, PCD) 기준. 한국 외 극동 출발은 PCD 2026년 6월 10일부터, 한국 출발은 PCD 6월 25일부터로 따로 정함</td></tr>
+<tr><td>Maersk 미국·캐나다 수출 보안료(2026. 8. 18.)</td><td>FMC 규제 화물은 B/L에 포함된 마지막 컨테이너를 Maersk가 인수한 날, 캐나다 선적 화물은 본선 출항 예정일</td></tr>
+<tr><td>Maersk 홍해 우회 할증(TDS)(2024. 1. 8.)</td><td>실제 출항일 2024년 1월 10일부터, 단 2023년 12월 21일 이후 확정된 부킹에만</td></tr>
+<tr><td>Hapag-Lloyd 긴급 유류할증(EFS)(2026년 3월)</td><td>2026년 3월 23일 이후 출항하는 선적, FMC 대상은 4월 8일부터</td></tr>
+<tr><td>Hapag-Lloyd 걸프 전쟁 위험 할증(WRS)(2026년 3월)</td><td>2026년 3월 2일 이후 발행된 부킹</td></tr>
+<tr><td>MSC 아시아→미국·캐나다 EFS(2026. 3. 11.)</td><td>2026년 4월 9일부터, 반입일(gate-in date) 기준</td></tr>
+<tr><td>MSC 북유럽→인도아대륙 혼잡 할증(2026. 7. 11.)</td><td>2026년 7월 11일 이후 부킹일 기준</td></tr>
+<tr><td>ONE 일본 동아시아 수출 요율표(2026. 10. 2.)</td><td>본선의 원래 스케줄상 출항 예정일 기준</td></tr>
+</tbody>
+</table>
+<p>같은 선사 안에서도 할증료마다 기준이 다를 수 있다는 점이 핵심입니다. 그래서 견적서에는 "할증료는 선적 시점 요율"처럼 뭉뚱그려 쓰기보다 "선사 기준일(예: PCD, 출항 예정일) 요율 적용"으로 적고, 부킹 확인서에 나온 날짜와 맞춰 보는 편이 안전합니다. 미국 FMC 규제 항로는 화주 비용을 올리는 새 요율이나 인상분이 공시 후 30일이 지나야 효력이 생기므로(46 CFR 520.8) 같은 할증료라도 적용일이 늦게 잡히곤 합니다. Hapag-Lloyd의 EFS(비FMC 3월 23일, FMC 4월 8일)와 ONE의 페르시아만 긴급 할증(비FMC 2026년 3월 4일, FMC 4월 5일)이 그런 예입니다.</p>
+
+<h3>3. 유류 할증: BAF·LSS·FFF·EBS</h3>
+<p>유류 할증은 연료비 변동을 운임에서 떼어 낸 것입니다. 국제해사기구(IMO)는 2020년 1월 1일부터 배출규제해역(ECA) 밖에서 쓰는 선박 연료유의 황 함유량 상한을 3.50%에서 0.50%로 낮췄고(IMO 2020), 발트해·북해·북미·미국 카리브해 ECA는 이미 0.10%를 적용하고 있었습니다. 지중해 전체도 2025년 5월 1일부터 황산화물 ECA가 되었고, 캐나다 북극 수역과 노르웨이해는 2027년 3월 1일부터 적용됩니다. 할증료 이름은 이 규제 구조를 따라 나뉩니다.</p>
+<table class="lib-table">
+<thead><tr><th>이름</th><th>정의(선사 원문 요약)</th><th>읽을 때 주의</th></tr></thead>
+<tbody>
+<tr><td>BAF(Bunker Adjustment Factor)</td><td>Maersk: 황 함유량 0.5% 연료의 전 세계 가격 변동을 반영</td><td>Hapag-Lloyd는 MFR(Marine Fuel Recovery), ONE은 OBS(ONE Bunker Surcharge), HMM은 BUC처럼 선사마다 이름이 다름</td></tr>
+<tr><td>LSS(Low Sulphur Surcharge)</td><td>Maersk: ECA 전부 또는 일부를 지나는 화물에 황 0.1% 연료를 쓰는 추가 비용</td><td>장금상선 한국발 LSF처럼 ECA와 관계없이 IMO 2020에 따른 저유황유 비용을 받는 할증에도 비슷한 이름을 씀</td></tr>
+<tr><td>FFF(Fossil Fuel Fee)</td><td>Maersk: BAF와 LSS를 합친 항목</td><td>FFF가 있으면 BAF·LSS 줄이 따로 없을 수 있음</td></tr>
+<tr><td>EBS·EFS·EFL(긴급 유류할증)</td><td>Maersk: 표준 BAF로 감당하지 못하는 예상 밖의 연료비 변동에 쓰는 할증</td><td>정기 BAF 위에 겹쳐 붙고, 기간·금액이 몇 주 단위로 바뀜</td></tr>
+</tbody>
+</table>
+<p>2026년의 긴급 유류할증은 중동 분쟁에서 시작했습니다. Maersk는 2026년 3월 공지에서 세계 원유 공급의 약 20%가 호르무즈 해협을 지나며 현재 상황이 연료 접근성과 가용성에 큰 영향을 주고 있다고 밝히고, 표준 FFF로 감당하지 못하는 부분을 받는 임시 EBS를 3월 25일부터 장거리 헤드홀(headhaul, 물동량이 많은 주 운송 방향) 20ft USD 200, 40ft USD 400으로 공지했습니다. Hapag-Lloyd는 MFR로 충당하지 못하는 비용이라며 3월 23일 출항분부터 장거리 주 방향 TEU당 USD 160의 EFS를, MSC는 4월 9일부터 아시아→미국 동안 40ft USD 430의 EFS를 붙였습니다.  ONE은 2026년 10월 1일 공지로 11월 1일부터 장거리 헤드홀 TEU당 USD 150의 EFS를 적용합니다. 이름(EBS·EFS·EFL), 단위(컨테이너당·TEU당), 기준일이 모두 다르므로 선사별로 표를 만들어 두면 화주 설명이 쉬워집니다.</p>
+
+<h3>4. 지수 연동 BAF는 어떻게 움직이나</h3>
+<p>정기 BAF는 대체로 일정 기간의 연료 가격과 항로별 연료 소비를 곱해 정하고, 정해진 주기로 다시 계산합니다. 공개 공지에서 확인되는 원칙은 다음과 같습니다.</p>
+<ul>
+<li><b>재검토 주기</b>: Hapag-Lloyd 일본 지사는 MFR을 원칙적으로 분기마다 고치되, 연료 가격이 크게 바뀌면 분기 중에도 고치는 구조라고 안내합니다(공지 No. 26-007, 2026년 4월 1일 적용분). 장금상선은 한국발 LSF를 직전 3개월 평균 연료 가격에 따라 분기 또는 반기마다 재검토한다고 적습니다(2026년 4분기 공지).</li>
+<li><b>항로별 금액</b>: 같은 분기라도 항로 거리와 연료 소비가 달라 금액이 다릅니다. 위 Hapag-Lloyd 공지의 2026년 2분기 MFR(드라이 40ft)은 동아시아-북유럽 USD 592, 동아시아-북미 서안 USD 346, 동아시아 역내 USD 194였습니다.</li>
+<li><b>장비와 지급지</b>: 장금상선 LSF는 리퍼에 드라이의 1.5배를 적용하고, 도착지(중국·대만·홍콩)와 출발지(동남아) 중 어디서 받는지를 정해 둡니다.</li>
+</ul>
+<p>아래는 구조를 보여 주기 위한 가상 계산입니다. 실제 기준 가격, 계수, 기준 항구는 선사마다 다르며, 이 문서에서 특정 선사의 공식 계수를 확인한 것은 아닙니다.</p>
+<table class="lib-table">
+<thead><tr><th>단계</th><th>예시 값</th><th>설명</th></tr></thead>
+<tbody>
+<tr><td>① 기준 기간 연료 가격</td><td>USD 600/톤(예시)</td><td>직전 3개월 등 선사가 정한 기간의 주요 급유항 평균 가격</td></tr>
+<tr><td>② 항로 소비 계수</td><td>0.50톤/TEU(예시)</td><td>항로 거리·선박 크기·적재율로 정한 TEU당 연료 소비량</td></tr>
+<tr><td>③ TEU당 BAF</td><td>600 × 0.50 = USD 300</td><td>기준 가격을 빼는 방식이면 (600 - 기준 가격) × 계수</td></tr>
+<tr><td>④ 40ft 컨테이너</td><td>300 × 2 = USD 600</td><td>TEU당 요율이면 40ft는 2TEU로 두 배</td></tr>
+<tr><td>⑤ 다음 분기 연료 가격 USD 660(예시)</td><td>660 × 0.50 × 2 = USD 660</td><td>연료 가격이 10% 오르면 BAF도 같은 비율로 오름</td></tr>
+</tbody>
+</table>
+<p>화주가 "유가가 내렸는데 왜 BAF는 그대로냐"고 물으면 기준 기간과 적용 기간의 시차로 설명할 수 있습니다. 직전 3개월 평균으로 다음 분기 요율을 정하면 유가 변동은 한두 분기 늦게 할증료에 나타납니다. 이 시차로 감당하지 못하는 급등을 메우려고 나온 것이 3절의 긴급 유류할증입니다.</p>
+
+<h3>5. 환경 규제 할증: EU ETS와 FuelEU Maritime</h3>
+<p>유럽 항로에는 연료비와 별도로 배출 규제 비용이 붙습니다. 유럽연합 배출권거래제(EU ETS)는 2024년 1월 1일부터 해운에 적용되었고, 5,000GT 이상 화물선·여객선이 대상입니다. 선사는 배출량만큼 배출권(EUA)을 제출해야 하는데, 제출 비율이 단계적으로 올랐습니다.</p>
+<table class="lib-table">
+<thead><tr><th>배출 연도</th><th>제출 연도</th><th>배출권으로 덮어야 하는 비율</th></tr></thead>
+<tbody>
+<tr><td>2024년</td><td>2025년(9월 30일까지)</td><td>40%</td></tr>
+<tr><td>2025년</td><td>2026년</td><td>70%</td></tr>
+<tr><td>2026년부터</td><td>2027년부터</td><td>100%</td></tr>
+</tbody>
+</table>
+<p>대상 범위는 EU 항만 사이 항해와 EU 항만 정박 중 배출의 100%, EU와 EU 밖 항만 사이 항해 배출의 50%입니다. 2026년부터는 메탄과 아산화질소도 포함됩니다. 한국-북유럽 화물은 EU 밖 마지막 기항지와 EU 항만 사이 항해 배출의 50%만 대상이지만, 제출 비율이 100%가 된 2026년 배출분부터 같은 항해에 드는 배출권이 2024년분보다 2.5배 많아집니다. Maersk 용어집은 배출 규제 준수 비용을 받는 Emission Surcharge를 계약 기간 1개월 초과 계약에는 EMS, 스폿·단기 계약에는 ESS라는 이름으로 나눠 둡니다.</p>
+<p>FuelEU Maritime은 배출권 거래가 아니라 선박이 쓰는 에너지의 온실가스 집약도를 규제합니다. 2025년 1월 1일부터 전면 적용되었고, EU 항만에 기항하는 5,000GT 초과 선박이 대상이며, 2020년 평균 대비 감축 목표는 2025년 2%, 2030년 6%, 2035년 14.5%, 2040년 31%, 2045년 62%, 2050년 80%입니다. 선사마다 ETS와 FuelEU 비용을 한 줄로 합치기도 하고 따로 적기도 하므로, 유럽 항로 견적은 환경 할증의 이름과 포함 범위를 확인해야 합니다. 한국 HMM은 유류·환경 할증을 계약 기간으로 나눠, 3개월을 넘는 장기 계약에는 BUC(Bunker Charge), 3개월 이하 단기 계약에는 ECC(Environmental Compliance Charge)를 받습니다. 2026년 4분기(10월 1일~12월 31일) 아시아-유럽 금액은 BUC TEU당 USD 420, ECC TEU당 USD 208로 공지되었고, 한 화물에 둘이 함께 붙지는 않습니다.</p>
+
+<h3>6. 통화·시장·위험 할증</h3>
+<h4>통화와 시장</h4>
+<ul>
+<li><b>CAF(통화할증료)</b>: 운임 통화와 비용 통화의 환율 차이를 보전하는 할증입니다. 한국 고시는 CAF를 공표 항목으로 이름까지 정해 두었지만(제4조제1항제3호다목), 항목만 두고 금액을 0으로 둔 예도 있습니다. ONE 일본 동아시아 수입 요율표(2026. 10. 7.)는 엔고 할증(YAS, Yen Appreciation Surcharge)을 2026년 9월·10월·11월 모두 USD 0으로 적고 있습니다.</li>
+<li><b>GRI(General Rate Increase)</b>: 할증료가 아니라 기본운임 자체를 올리는 공지입니다.  GRI 공지 금액은 선사가 공표 요율을 올리는 폭이고, 실제 적용 운임은 계약과 견적으로 따로 확인해야 합니다.</li>
+<li><b>PSS(성수기 할증)</b>: Maersk 용어집은 특정 항로의 물동량이 많은 기간에 붙는 계절 할증으로 정의합니다. Maersk는 2026년 극동→북유럽·지중해 PSS를 20ft USD 300, 40ft USD 600으로 공지하면서 한국 출발분만 적용일을 보름 늦췄고, 극동(한국 포함)→미국·캐나다 PSS는 2026년 6월 17일부터 20ft USD 1,000, 40ft USD 2,000이었습니다.</li>
+<li><b>FAK(Freight All Kinds)</b>: 품목을 구분하지 않고 적용하는 운임 단가입니다. FAK 운임에 어떤 할증료가 포함되는지는 공지마다 다르므로 "FAK + 할증료 별도"인지 확인합니다.</li>
+</ul>
+<h4>위험·운항 차질</h4>
+<table class="lib-table">
+<thead><tr><th>할증 유형</th><th>확인한 예(공지 기준)</th></tr></thead>
+<tbody>
+<tr><td>우회 할증(홍해, 2024년)</td><td>Maersk TDS: 수에즈에서 희망봉으로 우회한 화물에 20ft USD 200, 40ft USD 400(2024. 1. 10. 실제 출항분부터, 브라질 발착 공지). MSC CAC: 북유럽→인도아대륙 20ft USD 1,000, 40ft USD 1,500(2024. 1. 1. 출항분부터)</td></tr>
+<tr><td>전쟁 위험·긴급 위험 할증(걸프, 2026년)</td><td>Hapag-Lloyd WRS: 걸프 지역 발착 TEU당 USD 1,500(2026. 3. 2. 이후 부킹). CMA CGM 긴급분쟁할증: 20ft USD 2,000, 40ft USD 3,000(2026. 3. 2.). ONE 긴급할증(EMS): 페르시아만 국가 20ft USD 1,200, 40ft USD 2,400</td></tr>
+<tr><td>긴급 운임 인상(호르무즈, 2026년)</td><td>Maersk: 호르무즈 해협이 사실상 폐쇄되어 걸프 발착에 20ft USD 1,800, 40ft USD 3,000(2026. 3. 2.부터). 근거로 B/L 약관 제20조를 명시</td></tr>
+<tr><td>혼잡 할증</td><td>Maersk 더반 도착 혼잡 비용 20ft USD 250, 40ft USD 500(2026. 9. 15.부터). Maersk 됭케르크 터미널 혼잡 할증은 2026년 2월 19일 도입, 3월 6일 해제</td></tr>
+<tr><td>장비 불균형(EIS·CIC)</td><td>ONE 중국 화중→인천·부산 EIS 20ft USD 85, 40ft USD 170(2022. 4. 1.부터). HMM 호주 지사 공지의 방글라데시향 CIC(2025. 11. 21.부터, 금액은 공지에 없음)</td></tr>
+<tr><td>저수위 할증(라인강)</td><td>Hapag-Lloyd·Maersk가 카우프(Kaub) 수위 구간별 EUR 금액을 정함. Maersk는 카우프 수위 1.51m 미만이면 20ft EUR 45, 0.81m 미만이면 EUR 195(2026. 7. 15. 시행)</td></tr>
+</tbody>
+</table>
+<p>위험 할증은 해당 지역을 출발·도착·경유하는 화물에만 붙고, 같은 사태에도 선사마다 이름이 다릅니다. Maersk 용어집은 위험 지역 운항의 추가 연료(우회·고속 운항), 보험, 보안 비용을 받는 Emergency Risk Surcharge(ERS), 걸프 지역용 Gulf Emergency Risk Surcharge(GRS), 우회로 생기는 혼잡·결항·장비 부족 같은 파급 비용을 받는 Emergency Contingency Surcharge(ECS)를 따로 둡니다. 운항 상황이 바뀌면 할증도 바뀝니다. Maersk는 2026년 9월 14일 Gemini 협력 서비스 일부(AE5·AE11·ME2)를 희망봉 대신 수에즈 경로로 돌린다고 공지하면서 홍해 지역의 안정이 이어진다는 조건을 달았습니다. 다만 2024년에 도입한 우회 할증의 공식 폐지 공지는 이 문서에서 확인하지 못했으므로, 아시아-유럽 견적에서는 해당 선사가 지금도 우회·긴급 할증을 붙이는지 매번 확인해야 합니다.</p>
+
+<h3>7. 한국 해운법: 할증료도 공표 대상이다</h3>
+<p>한국을 출발하거나 도착하는 정기 컨테이너 화물이라면 할증료도 해운법의 공표 대상입니다. 해운법 제28조제1항은 외항정기화물운송사업자와 국내항·외국항 사이에서 정기 화물운송을 하는 외국인 사업자 등에게 운임과 요금을 정해 화주 등 이해관계인이 알 수 있도록 공표하게 하고, 공표한 운임과 요금을 바꿀 때도 같게 합니다. 해양수산부 고시 「외항운송사업자 운임 및 요금의 공표등에 관한 규정」(제2023-96호, 2023. 7. 1. 시행, 2026년 10월 확인 현행)은 "운임"을 운송 서비스의 대가로, "요금"을 해상화물 운송 서비스에 딸린 모든 대가로 나누고(제2조), 할증료는 요금 쪽에 넣습니다.</p>
+<table class="lib-table">
+<thead><tr><th>규정</th><th>내용</th><th>할증료와의 관계</th></tr></thead>
+<tbody>
+<tr><td>고시 제4조제1항제3호</td><td>공표할 요금: 가. 유류할증료(BAF), 저유황할증료(LSS) 또는 긴급유류할증료(EBS), 나. THC, 다. 통화할증료(CAF), 라. 서류발급비·D/O 요금, 마. 부두사용료, 바. 컨테이너 봉인료, 사. 그 밖의 요금 내용과 합계액</td><td>BAF·LSS·EBS·CAF는 이름으로 나오고, ETS·PSS·전쟁 위험 할증 등은 "그 밖의 요금"에 해당합니다.</td></tr>
+<tr><td>고시 제4조제1항제1호자목</td><td>공표일자와 적용일자를 함께 공표</td><td>할증료의 적용 시작일이 공표 자료에 남습니다.</td></tr>
+<tr><td>고시 제5조</td><td>한국 항만을 출발지·도착지·경유지로 하는 모든 항로·서비스의 운임과 요금</td><td>한국 수입 화물에 도착지에서 받는 할증료도 대상입니다.</td></tr>
+<tr><td>해운법 시행규칙 제20조제1항, 고시 제7조제2항</td><td>공표는 적용일 15일 전까지. 요금은 바뀔 때마다 공표</td><td>새 할증료나 인상분은 적용일보다 먼저 공표되어야 합니다.</td></tr>
+<tr><td>해운법 제31조제1항제1호·제2호</td><td>공표하거나 신고한 운임·요금보다 더 받거나 덜 받는 행위, 덜 받으려고 이미 받은 돈 일부를 돌려주는 행위 금지</td><td>공표 금액보다 많은 할증료를 받으면 금지행위에 해당할 수 있습니다.</td></tr>
+<tr><td>해운법 제31조제2항제1호</td><td>화주도 공표·신고된 운임·요금보다 비싸거나 싸게 운송하게 하는 행위 금지</td><td>"할증료를 빼 달라"는 요구도 공표 제도 안에서 다뤄야 합니다.</td></tr>
+<tr><td>해운법 제29조의2제2항·제3항</td><td>3개월 이상 장기운송계약에는 운임·요금 우대조건, 최소 물량 보장, 유류비 등 원재료 가격 상승에 따른 운임·요금 협의를 넣어야 하고, 이 계약에는 제31조제1항제1호 등을 적용하지 않을 수 있음</td><td>장기 계약의 유류할증 조정 방식은 계약서에서 정합니다. 계약은 적용 15일 전까지 신고(고시 제8조제1항).</td></tr>
+<tr><td>해운법 제59조제3항제3호, 제57조의2제2호</td><td>운임·요금을 공표하지 않으면 100만원 이하 과태료, 제31조 위반은 1천만원 이하 벌금</td><td>제31조의2에 따라 누구든지 위반 사실을 해양수산부장관 등에게 신고할 수 있습니다.</td></tr>
+</tbody>
+</table>
+<p>포워더가 실무에서 쓸 수 있는 결론은 이렇습니다. 선사가 새 할증료를 공지하면 공지일과 적용일 사이가 15일 이상인지, 한국 공표 자료에 같은 금액이 올라 있는지를 물을 수 있습니다. 2026년 3월 Maersk의 긴급 유류할증(EBS)이 3월 10일 공지, 3월 25일 적용으로 적용일을 공지 15일 뒤로 잡고 "규제 당국 승인 조건부(subject to regulatory approvals)"라고 적었습니다. 공지가 한국 규정을 직접 언급하지는 않지만, 나라별 공시 규정에 따라 적용일이 달라질 수 있다는 뜻으로 읽을 수 있습니다. 미국 항로는 연방해사위원회(FMC) 규칙이 화주 비용을 올리는 요율 변경을 공시 후 30일이 지나야 효력이 생기게 합니다(46 CFR 520.8). 다만 공표 의무는 선사(공표의무자)의 것이고, 포워더가 화주에게 받는 자기 운임은 이 고시의 목록과 별개입니다. 공표 제도의 전체 구조와 PORT-MIS 공표 화면은 <a data-doc="ch-sea-charges">해상 부대비용 지도</a> 9절을 보십시오.</p>
+
+<h3>8. 계산 예시: 부산→로테르담 40ft 견적과 인보이스 대조</h3>
+<p>부산에서 로테르담으로 40ft 드라이 컨테이너 1대를 2026년 11월 초에 보내는 견적을 가정합니다. 장기 계약(3개월 초과) 화주로 가정해 유류 할증은 HMM이 공지한 2026년 4분기 아시아-유럽 BUC(TEU당)를 쓰고, 나머지는 설명용 예시 금액입니다. 3개월 이하 계약이면 BUC 대신 ECC(TEU당 USD 208)가 붙습니다. 실제 견적은 선사와 계약 조건에 따라 다릅니다.</p>
+<table class="lib-table">
+<thead><tr><th>항목</th><th>요율</th><th>계산</th><th>금액(USD)</th></tr></thead>
+<tbody>
+<tr><td>기본 해상운임(O/F)</td><td>40ft당 2,000(예시)</td><td>2,000 × 1</td><td>2,000</td></tr>
+<tr><td>유류할증(BUC)</td><td>TEU당 420(HMM 2026년 4분기 공지)</td><td>420 × 2TEU</td><td>840</td></tr>
+
+<tr><td>긴급 유류할증</td><td>TEU당 150(예시, 11월 1일 적용으로 가정)</td><td>150 × 2TEU</td><td>300</td></tr>
+<tr><td>성수기 할증(PSS)</td><td>없음(예시)</td><td>-</td><td>0</td></tr>
+<tr><td colspan="3"><b>해상 구간 합계</b></td><td><b>3,140</b></td></tr>
+</tbody>
+</table>
+<p>여기에 출발지 THC·서류비·씰비·보안료와 도착지 비용은 별도입니다(<a data-doc="ch-sea-charges">해상 부대비용 지도</a> 참고). 이 견적을 받은 뒤 선사 인보이스가 오면 다음 순서로 맞춰 봅니다.</p>
+<ol>
+<li><b>단위</b>: TEU당 요율이 40ft에 2배로 붙었는지 봅니다. BUC가 420으로 한 번만 찍혔거나 1,680으로 두 번 계산됐다면 단위 오류입니다. 컨테이너당 요율(예: Maersk EBS 40ft USD 400)은 2배를 하지 않습니다.</li>
+<li><b>날짜</b>: 긴급 유류할증이 11월 1일부터라면 이 화물이 그 할증의 기준일(부킹일, 반입일, 출항 예정일, PCD 중 선사가 정한 것)에 들어가는지 부킹 확인서와 B/L 날짜로 확인합니다. 10월 28일 부킹, 11월 3일 출항이면 부킹일 기준으로는 붙지 않고 출항일 기준으로는 붙습니다.</li>
+<li><b>분기·월 경계</b>: 이 예시의 BUC는 10월 1일~12월 31일 금액입니다. HMM은 일부 항로에서 BUC·ECC를 매월 조정하는 방식으로 바꾸고 있으므로 적용 기간을 공지에서 다시 확인합니다. 12월 말 출항이 1월로 밀리면 다음 분기 금액이 적용될 수 있으므로 선사의 기준일 규칙을 다시 봅니다.</li>
+<li><b>견적에 없던 줄</b>: 인보이스에 견적에 없던 할증료가 있으면 선사 공지일·적용일과 한국 공표 여부를 확인하고, 견적서에 "할증료 별도·선사 기준일 요율 적용"이라고 적어 두었는지 봅니다. 적어 두지 않았다면 그 비용을 누가 부담할지는 화주와의 계약 문제입니다.</li>
+<li><b>통화</b>: USD 할증료를 원화로 청구받으면 어느 날짜의 환율을 썼는지 인보이스에서 확인합니다. 환율 적용일 규칙도 선사마다 다릅니다.</li>
+</ol>
+
+<h3>9. 포워더 점검표와 화주에게 설명할 때</h3>
+<h4>견적·부킹 단계</h4>
+<ul class="lib-check">
+<li>견적이 all-in인지 할증료 별도인지 적고, 별도라면 할증료 이름과 금액, 단위(컨테이너당·TEU당)를 줄마다 적는다.</li>
+<li>할증료마다 적용일 기준(부킹일·반입일·출항 예정일·PCD)과 유효기간을 선사 공지에서 확인해 견적서에 적는다.</li>
+<li>유럽 항로는 EU ETS·FuelEU 관련 할증이 포함인지, 별도인지, 선사가 어떤 이름으로 받는지 확인한다.</li>
+<li>분기 경계(3월·6월·9월·12월 말) 출항 화물은 다음 분기 BAF·환경 할증 공지가 나왔는지 확인한다.</li>
+<li>긴급 유류할증·전쟁 위험·우회 할증처럼 몇 주 단위로 바뀌는 할증은 공지 URL과 공지일을 저장해 둔다.</li>
+<li>장기 계약 화주라면 계약서의 유류비 조정 조항과 새 할증료 제한 조항, 규제 비용 예외 문구를 확인한다.</li>
+<li>걸프·홍해·흑해 등 분쟁 지역을 출발·도착·경유하는지 화주 서류(인보이스·부킹 요청서)의 목적지와 선사 경로로 확인한다.</li>
+</ul>
+<h4>인보이스를 받은 뒤</h4>
+<ul class="lib-check">
+<li>인보이스의 할증료 줄을 견적서와 한 줄씩 대조하고, 단위와 수량(TEU 환산)을 확인한다.</li>
+<li>견적에 없던 할증료는 선사 공지일과 적용일, 한국 공표 여부를 확인하고 공지 사본을 받는다.</li>
+<li>부킹 확인서·B/L의 부킹일·반입일·출항일을 할증료 기준일과 맞춰 본다.</li>
+<li>원화 청구라면 환율 적용일과 환율을 확인한다.</li>
+<li>공표 금액보다 많이 청구되었다고 판단되면 선사에 근거 자료를 요청하고, 필요하면 해운법 제31조의2의 신고 제도를 화주에게 안내한다.</li>
+</ul>
+<h4>화주에게 설명할 때</h4>
+<p>"해상운임은 기본운임과 할증료로 나뉘고, 할증료는 연료값·환경 규제·환율·성수기·분쟁 지역 우회처럼 선사가 통제하기 어려운 비용을 따로 받는 돈입니다. 같은 이름이라도 선사마다 금액과 단위, 적용 날짜가 달라서 견적서에 할증료를 '별도'로 적은 경우에는 선적 날짜에 따라 금액이 바뀔 수 있습니다. 특히 긴급 유류할증이나 전쟁 위험 할증은 몇 주 전에 공지되고 바로 적용되기도 합니다. 저희는 견적 때 할증료마다 기준 날짜와 금액을 적어 드리고, 인보이스가 오면 선사 공지와 대조해서 견적과 다른 부분이 있으면 근거를 받아 설명드리겠습니다."</p>
+
+<p class="lib-source">출처: 해운법 제28조·제29조의2·제31조·제31조의2·제57조의2·제59조(법률 제21825호, 시행 2026. 6. 16.) — <a href="https://www.law.go.kr/법령/해운법" target="_blank" rel="noopener noreferrer">law.go.kr 해운법</a>; 해운법 시행규칙 제20조(시행 2026. 7. 13.) — <a href="https://www.law.go.kr/법령/해운법시행규칙" target="_blank" rel="noopener noreferrer">law.go.kr 해운법 시행규칙</a>; 외항운송사업자 운임 및 요금의 공표등에 관한 규정 제2조·제4조·제5조·제7조·제8조(해양수산부고시 제2023-96호, 2023. 7. 1. 시행) — <a href="https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000225094" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a>; 46 CFR 520.8 Effective dates(미국 연방규정) — <a href="https://www.ecfr.gov/current/title-46/chapter-IV/subchapter-B/part-520/section-520.8" target="_blank" rel="noopener noreferrer">eCFR 520.8</a>; Sulphur 2020(IMO) — <a href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/Sulphur-2020.aspx" target="_blank" rel="noopener noreferrer">IMO 2020</a>; FAQ – Maritime transport in EU Emissions Trading System(European Commission) — <a href="https://climate.ec.europa.eu/eu-action/transport-decarbonisation/reducing-emissions-shipping-sector/faq-maritime-transport-eu-emissions-trading-system-ets_en" target="_blank" rel="noopener noreferrer">EU ETS 해운 FAQ</a>; Decarbonising maritime transport – FuelEU Maritime(European Commission) — <a href="https://transport.ec.europa.eu/transport-modes/maritime/decarbonising-maritime-transport-fueleu-maritime_en" target="_blank" rel="noopener noreferrer">FuelEU Maritime</a>; Surcharge Definition Glossary(Maersk) — <a href="https://www.maersk.com/solutions/shipping/glossaries/surcharge-definition" target="_blank" rel="noopener noreferrer">Maersk 용어집</a>; Maersk Spot(Maersk) — <a href="https://www.maersk.com/transportation-services/maersk-spot" target="_blank" rel="noopener noreferrer">Maersk Spot</a>; Introduction of temporary Emergency Bunker Surcharge(Maersk, 2026. 3. 18. 갱신) — <a href="https://www.maersk.com/news/articles/2026/03/10/emergency-bunker-surcharge-ebs-global" target="_blank" rel="noopener noreferrer">Maersk EBS</a>; Strait of Hormuz Emergency Freight Increase(Maersk, 2026. 3. 3.) — <a href="https://www.maersk.com/news/articles/2026/03/02/strait-of-hormuz-emergency-freight-increase" target="_blank" rel="noopener noreferrer">Maersk 긴급 운임</a>; Far East Asia to Europe PSS(Maersk, 2026. 5. 25.) — <a href="https://www.maersk.com/news/articles/2026/05/25/far-east-asia-europe-pss-june" target="_blank" rel="noopener noreferrer">Maersk PSS 유럽</a>; Far East Asia to US &amp; Canada PSS(Maersk, 2026. 5. 18.) — <a href="https://www.maersk.com/news/articles/2026/05/18/far-east-asia-us-canada-pss-june" target="_blank" rel="noopener noreferrer">Maersk PSS 미주</a>; Port Security Service Export USA·Canada(Maersk, 2026. 8. 18.) — <a href="https://www.maersk.com/news/articles/2026/08/18/port-security-service-export-usa-canada" target="_blank" rel="noopener noreferrer">Maersk 보안료</a>; TDS·ECS from/to Brazil(Maersk, 2024. 1. 8.) — <a href="https://www.maersk.com/news/articles/2024/01/04/transit-disruption-surcharge-emergency-contingency-surcharge-from-to-brazil" target="_blank" rel="noopener noreferrer">Maersk TDS</a>; Structural changes AE5·AE11·AE12·ME2 Gemini services(Maersk, 2026. 9. 14.) — <a href="https://www.maersk.com/news/articles/2026/09/14/structural-changes-ae5-ae11-ae12-me2-gemini-services" target="_blank" rel="noopener noreferrer">Maersk Gemini 수에즈</a>; Congestion Fee Destination Durban(Maersk, 2026. 8. 31.) — <a href="https://www.maersk.com/news/articles/2026/08/31/congestion-fee-destination-durban-south-africa" target="_blank" rel="noopener noreferrer">Maersk 더반</a>; Terminal des Flandres congestion surcharge(Maersk, 2026. 3. 3.) — <a href="https://www.maersk.com/news/articles/2026/03/03/terminal-des-flandres-dunkerque-congestion-surcharge" target="_blank" rel="noopener noreferrer">Maersk 됭케르크</a>; End of congestion surcharge Terminal des Flandres(Maersk, 2026. 3. 10.) — <a href="https://www.maersk.com/news/articles/2026/03/10/end-congestion-surcharge-dunkerque-terminal-des-flandres" target="_blank" rel="noopener noreferrer">Maersk 됭케르크 해제</a>; Rhine River Low Water Surcharge(Maersk, 2026. 7. 14.) — <a href="https://www.maersk.com/news/articles/2026/07/09/rhine-river-low-water-surcharge" target="_blank" rel="noopener noreferrer">Maersk 저수위</a>; Update on Emergency Fuel Surcharge(ONE, 2026. 10. 1.) — <a href="https://www.one-line.com/ko/local-information/kr/news/update-emergency-fuel-surcharge-efs-2" target="_blank" rel="noopener noreferrer">ONE EFS</a>; Emergency Surcharge for shipments to/from Persian Gulf countries(ONE, 2026년 3월) — <a href="https://www.one-line.com/en/local-information/us/news/emergency-surcharge-shipments-persian-gulf-countries" target="_blank" rel="noopener noreferrer">ONE 페르시아만</a>; 東アジア輸出(ONE Japan, 2026. 10. 2.) — <a href="https://cms-api-jp.one-line.com/sites/onejapan/files/2026-10/%E6%9D%B1%E3%82%A2%E3%82%B8%E3%82%A2%E8%BC%B8%E5%87%BA%28JAPAN_EASTASIA%29%202%20Oct%2C%202026_0.pdf" target="_blank" rel="noopener noreferrer">ONE 일본 수출 PDF</a>; 東アジア輸入(ONE Japan, 2026. 10. 7.) — <a href="https://cms-api-jp.one-line.com/sites/onejapan/files/2026-10/%E6%9D%B1%E3%82%A2%E3%82%B8%E3%82%A2%E8%BC%B8%E5%85%A5%28EASTASIA_JAPAN%29%2020261007.pdf" target="_blank" rel="noopener noreferrer">ONE 일본 수입 PDF</a>; EQ Imbalance Surcharge From Central China(ONE, 2022. 3. 1.) — <a href="https://cms-resources-kr.one-line.com/sites/southkorea/files/2022-06/Customer%20Advisory%20-%20EQ%20Imbalance%20Surcharge%20%28From%20Central%20China%29.pdf" target="_blank" rel="noopener noreferrer">ONE EIS PDF</a>; Marine Fuel Recovery 料率変更のお知らせ No. 26-007(Hapag-Lloyd Japan, 2026. 4. 1. 적용) — <a href="https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/2026-007_Reveised_MFR_Q2_2026.pdf" target="_blank" rel="noopener noreferrer">Hapag-Lloyd MFR PDF</a>; Emergency Fuel Surcharge (EFS) implementation(Hapag-Lloyd, 2026년 3월) — <a href="https://www.hapag-lloyd.com/en/services-information/news/2026/03/emergency-fuel-surcharge--efs--implementation.html" target="_blank" rel="noopener noreferrer">Hapag-Lloyd EFS</a>; War Risk Surcharge Upper Gulf·Arabian Gulf·Persian Gulf(Hapag-Lloyd, 2026년 3월) — <a href="https://www.hapag-lloyd.com/en/services-information/news/2026/03/shipping-from-upper-gulf--arabian-gulf--and-persian-gulf--a-war-.html" target="_blank" rel="noopener noreferrer">Hapag-Lloyd WRS</a>; Rhine river low water surcharge update(Hapag-Lloyd, 2026년 7월) — <a href="https://www.hapag-lloyd.com/en/services-information/news/2026/07/here-s-an-update-on-the-rhine-river-low-water-surcharge.html" target="_blank" rel="noopener noreferrer">Hapag-Lloyd 저수위</a>; EFS trade from Asia to USA and Canada(MSC, 2026. 3. 11.) — <a href="https://www.msc.com/en/newsroom/customer-advisories/2026/march/efs-trade-from-asia-to-usa-and-canada" target="_blank" rel="noopener noreferrer">MSC EFS</a>; Contingency Adjustment Charge NWC to IPAK(MSC, 2023. 12. 20.) — <a href="https://www.msc.com/en/newsroom/customer-advisories/2023/december/contingency-adjustment-charge-trade-from-nwc-to-ipak,-sri-lanka,-and-bangladesh" target="_blank" rel="noopener noreferrer">MSC CAC</a>; Congestion Surcharge Northern Europe to ISC(MSC, 2026. 7. 11.) — <a href="https://www.msc.com/en/newsroom/customer-advisories/2026/july/congestion-surcharge-trade-from-northern-europe-to-indian-subcontinent" target="_blank" rel="noopener noreferrer">MSC 혼잡</a>; Middle East Emergency Conflict Surcharge(CMA CGM Italy, 2026. 3. 2.) — <a href="https://www.cma-cgm.com/assets/public/documents/CMA%20CGM%20-%20Middle%20East%20-%20Emergency%20Conflict%20Surcharge.pdf" target="_blank" rel="noopener noreferrer">CMA CGM PDF</a>; HMM 고객 공지(아시아-유럽 BUC·ECC, CIC, 2025~2026) — <a href="https://www.hmm21.com/e-service/search/index.do?query=Emergency" target="_blank" rel="noopener noreferrer">HMM 공지 검색</a>; Notice of Low Sulphur Fuel Surcharge (LSF) for Q4 2026(장금상선, 2026. 9. 23.) — <a href="https://www.sinokor.co.kr/Notice/Detail?nacd=KR&amp;num=630" target="_blank" rel="noopener noreferrer">장금상선 LSF 공지</a> (모두 2026년 10월 18일 확인)</p>

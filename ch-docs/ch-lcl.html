@@ -1,0 +1,198 @@
+<p>화주가 "박스 20개인데 컨테이너를 통째로 써야 하나요", "견적은 2.4였는데 왜 2.64로 청구됐나요"라고 묻는 일은 소량 해상화물(LCL)에서 가장 흔한 질문입니다. LCL은 여러 화주의 화물을 컨테이너 하나에 모아 싣는 방식이라, 화물이 컨테이너 화물조작장(CFS)에 들어가 계측되고 혼재(consolidation)된 뒤 도착지 CFS에서 다시 나뉘는 단계가 FCL보다 많습니다. 운임과 부대비용도 컨테이너 단위가 아니라 운임톤(R/T, Revenue Ton) 단위로 계산하는 항목이 대부분이어서, 용적과 중량 중 어느 쪽이 기준이 되는지, CFS가 잰 숫자가 신고 숫자와 얼마나 다른지가 금액을 바꿉니다. 이 문서는 LCL에 누가 관여하는지, 수출과 수입에서 화물이 어떤 순서로 움직이는지를 관세청 고시 기준으로 정리하고, 운임톤 계산과 공개된 한국 LCL 요율로 실제 숫자를 풀어 봅니다. 마지막에는 실측 차이, 혼재할 수 없는 화물, 보관료처럼 분쟁이 잦은 부분과 포워더 점검표를 붙였습니다.</p>
+
+<p class="lib-summary"><b>핵심 3줄</b><br>① LCL 운임은 보통 W/M 방식으로, 1CBM과 1,000kg(1톤)을 각각 1 R/T로 보고 둘 중 큰 쪽으로 계산하며, 공개 요율표에서는 선하증권(B/L) 한 건당 최소 1 R/T가 흔합니다(예: SEKO 요율표 제4조, Maersk 한국 LCL 수출 요율의 "Min. 1 WM").<br>② 운임과 CFS 작업료·LCL 터미널 화물처리비(THC)·부두사용료·드레이지는 R/T당, 서류비·화물인도지시서(D/O) 비용·핸들링 비용은 B/L당 청구하는 구조가 많고, 금액과 최소 단위는 선사·콘솔사·CFS마다 다릅니다.<br>③ 청구의 기준이 되는 숫자는 대개 CFS가 반입 때 잰 실측치이므로, 포워더는 화주 패킹리스트의 박스 치수와 중량을 견적 전에 받아 두고, 반입 뒤 CFS 실측치와 대조해 차이를 화주에게 바로 알려야 합니다.</p>
+
+<p class="lib-disclaimer">이 문서는 2026년 10월 18일에 확인한 관세청 고시와 법령(law.go.kr), 선사·NVOCC가 공개한 LCL 요율과 공지를 바탕으로 합니다. LCL 요율은 공표 의무가 있는 선사 요금과 달리 콘솔사·CFS가 계약으로 정하는 부분이 많고 수시로 바뀌므로, 이 문서의 금액은 구조를 보여 주는 예시이며 실제 견적과 정산은 해당 회사의 최신 요율표를 따르십시오. 포워더는 화주의 인보이스·패킹리스트와 CFS·선사·세관 기록으로 판단한다는 전제로 썼습니다. FCL 부대비용 전반과 CFS 작업료 공지는 <a data-doc="ch-sea-charges">해상 부대비용 지도</a>, 컨테이너 터미널 보관료는 <a data-doc="ch-korea-storage">한국 해상: 시계가 두 개</a>, House B/L과 Master B/L의 법적 구조는 <a href="/library/bl-awb/bl-basics">B/L 기초</a>에서 다룹니다.</p>
+
+<h3>1. FCL과 LCL, 그리고 LCL에 관여하는 사람들</h3>
+<p>FCL(Full Container Load)은 화주 한 명이 컨테이너 한 대를 통째로 빌려 자기 공장이나 창고에서 직접 싣는 방식입니다. LCL(Less than Container Load)은 컨테이너 한 대를 채우지 못하는 화물을 CFS로 가져가 다른 화주의 화물과 함께 싣는 방식입니다. Maersk는 LCL을 여러 화주가 컨테이너 한 대의 공간을 나눠 쓰고 각자 쓴 공간만큼 CBM 단위로 내는 방식으로 설명하면서, 대략 15CBM 미만이나 팔레트 2~3개 정도의 화물에 맞는다고 안내합니다. 이 숫자는 한 회사의 안내일 뿐이고, 실제로 FCL이 유리해지는 지점은 운임과 양쪽 CFS 비용, 도착지 보관료를 합쳐 비교해야 나옵니다.</p>
+<table class="lib-table">
+<thead><tr><th>역할</th><th>하는 일</th><th>받거나 내는 서류</th></tr></thead>
+<tbody>
+<tr><td>송하인(shipper)·수출자</td><td>화물을 포장해 CFS 반입 마감 전까지 가져다 놓고, 인보이스·패킹리스트로 품명·포장 수·치수·중량을 알림</td><td>House B/L을 받음. 수출신고는 화주 또는 관세사 명의</td></tr>
+<tr><td>포워더·무선박운송인(NVOCC)</td><td>화주와 운송계약을 맺고 부킹을 받음. 자기 혼재 컨테이너가 있으면 직접 혼재하고, 없으면 다른 콘솔사에 화물을 넘김</td><td>화주에게 House B/L 발행, 하우스적재화물목록 작성</td></tr>
+<tr><td>콘솔사(consolidator)</td><td>정기적으로 특정 항로의 혼재 컨테이너를 운영. 여러 포워더의 화물을 모아 CFS에서 적입하고 선사에 FCL로 부킹</td><td>선사에게서 Master B/L을 받음. 다른 포워더 화물을 받으면 그 포워더에게 자기 House B/L 발행</td></tr>
+<tr><td>코로더(co-loader)</td><td>자기 컨테이너 없이 다른 콘솔사의 혼재 컨테이너에 화물을 싣는 포워더. 이 방식을 co-loading이라 부름</td><td>콘솔사에게서 B/L을 받고, 자기 화주에게는 자기 House B/L 발행. B/L이 한 층 더 생김</td></tr>
+<tr><td>CFS 운영인</td><td>보세구역인 CFS에서 화물 반입·계측·보관, 컨테이너 적입(stuffing)과 적출(devanning), 세관 반출입 신고</td><td>반입·반출 신고, 반입물품 이상보고</td></tr>
+<tr><td>선사(실제운송인)</td><td>혼재된 컨테이너를 FCL로 운송</td><td>콘솔사에게 Master B/L 발행, 마스터적재화물목록 제출</td></tr>
+</tbody>
+</table>
+<p>LCL 한 컨테이너에는 Master B/L이 한 장, 그 안의 화주 수만큼 House B/L이 붙습니다. 관세청 고시도 선사가 Master B/L 내역으로 작성하는 마스터적재화물목록과 화물운송주선업자가 House B/L 내역으로 작성하는 하우스적재화물목록을 나누고, 세관의 화물관리번호를 적재화물목록관리번호(MRN), Master B/L 일련번호, House B/L 일련번호를 합쳐 만듭니다. 그래서 수입 LCL은 세관 시스템에서도 House B/L 단위로 반입·통관·반출이 관리됩니다. 코로딩이 끼면 콘솔사의 House B/L 아래에 코로더의 House B/L이 다시 붙어, 화주가 가진 B/L 번호로는 선사나 콘솔사 시스템에서 조회되지 않는 일이 생깁니다. B/L 층 구조와 House B/L 발행자의 운송인 책임은 <a href="/library/bl-awb/bl-basics">B/L 기초</a>를 보십시오.</p>
+<p class="lib-source">출처: What is LCL in ocean shipping?(Maersk FAQ, 2026. 10. 18. 확인) — <a href="https://www.maersk.com/support/faqs/what-is-lcl-in-ocean-shipping" target="_blank" rel="noopener noreferrer">Maersk LCL FAQ</a>; 보세화물 입출항 하선 하기 및 적재에 관한 고시 제2조(관세청고시 제2026-53호, 2026. 8. 28. 시행) — <a href="https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284290" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a></p>
+
+<h3>2. 수출 LCL의 흐름: 부킹에서 B/L 발행까지</h3>
+<ol>
+<li><b>부킹</b>: 화주가 포워더에게 품명, 포장 수, 박스 치수, 총중량, 적재 가능 여부(위로 쌓아도 되는지)를 알리고 부킹합니다. 포워더는 콘솔사의 항차와 CFS 반입 마감(CFS cut-off), 반입지 주소와 장치장코드를 화주에게 전달합니다. CFS는 바뀌기도 합니다. 예를 들어 장금상선은 2026년 7월 1일부터 부산 감만 CFS를 BPT 감만 CFS에서 투엠글로벌 감만 CFS(장치장코드 030-06-059)로 옮긴다고 공지했습니다. 반입지를 예전 주소로 안내하면 트럭이 헛걸음을 합니다.</li>
+<li><b>CFS 반입과 계측</b>: 화물이 들어오면 CFS가 포장 수와 외관을 확인하고 치수·중량을 잽니다. 이 숫자가 대개 운임과 CFS 비용의 기준이 됩니다(4·7절). 항만운송사업법은 선적화물을 싣거나 내릴 때 그 화물의 용적이나 중량을 계산하거나 증명하는 일을 검량(檢量)으로 정하고, 검량사업자는 요금을 관리청에 미리 신고하도록 합니다. 반입 마감과 무료 보관 기간은 회사마다 정합니다. Maersk 일본 LCL 요율(2025. 9. 4.)은 수출 보관 무료 기간을 CFS 반입일부터 CFS cut-off까지로 세고, 사전 승인 없는 조기 반입을 받지 않는다고 적습니다.</li>
+<li><b>수출신고</b>: 수출신고는 물품이 장치된 곳을 관할하는 세관에 하고(「수출 및 반송통관에 관한 고시」 제4조), 선박의 적재단위(S/R 또는 S/O, B/L)별로 합니다(제6조). LCL이라면 수출신고 한 건이 House B/L 하나에 실리고, House B/L 한 건에 수출신고 여러 건이 묶이기도 합니다. 수리된 물품은 수리일부터 30일 이내에 운송수단에 적재해야 하고(관세법 제251조제1항), 기간 안에 싣지 않으면 수리가 취소될 수 있습니다. 공장에서 미리 신고하고 CFS로 가져오는 경우가 많지만, 고시 별표 7에 해당하는 물품은 보세구역 등에 반입한 뒤 신고해야 합니다(관세법 제243조제4항, 고시 제8조).</li>
+<li><b>적재지 보세구역의 기록</b>: CFS 운영인은 수출하려는 물품이 들어오면 수출신고필증, 송품장, B/L 같은 서류를 받아 화물반출입대장에 기록합니다(「보세화물 입출항 하선 하기 및 적재에 관한 고시」 제33조). 같은 적재지 세관 안에서 혼재 작업을 하려고 다른 보세구역으로 수출물품을 옮기는 것도 허용됩니다(제36조제1항제3호).</li>
+<li><b>혼재와 적입</b>: 콘솔사가 목적지별로 화물을 모아 컨테이너에 싣는 계획을 세우고 CFS가 적입합니다. 무거운 화물을 아래에, 쌓을 수 없는 화물은 위에 아무것도 올리지 않게 배치하므로 적재 불가 표시나 포장 강도가 공간 계산에 그대로 반영됩니다. 적입이 끝난 컨테이너는 콘솔사 이름으로 선사에 FCL 부킹되어 터미널로 갑니다(셔틀·드레이지).</li>
+<li><b>적재화물목록과 B/L</b>: 출항적재화물목록은 물품이 적재지 공항만(ODCY 포함)에 장치된 뒤 제출하며, 해상화물은 적재 24시간 전까지, 근거리 지역은 적재 전까지(출항 30분 전 최종 마감) 냅니다. 포워더가 집하한 화물은 포워더가 작성한 하우스적재화물목록을 선사가 취합해 제출합니다(제43조제3항·제5항). 출항 뒤 포워더는 화주에게 House B/L을, 선사는 콘솔사에게 Master B/L을 발행합니다.</li>
+</ol>
+<p>요율의 적용 시점도 확인해야 합니다. SEKO의 FMC 신고 요율표는 운송인이나 그 대리인이 화물을 받은 날 시행 중인 요율·요금·규칙을 적용한다고 정합니다(제3조). 다른 회사는 출항일을 기준으로 하기도 하므로 견적서에 기준일을 적어 둡니다.</p>
+<p class="lib-source">출처: [안내] 부산 감만 CFS 종료 및 투엠글로벌 감만 CFS 이전 안내(장금상선, 2026. 7. 2. 게시) — <a href="http://www.sinokor.co.kr/Notice/Detail?nacd=KR&amp;num=619" target="_blank" rel="noopener noreferrer">장금상선 공지</a>; 항만운송사업법 제2조제1항제16호·제10조제3항(시행 2026. 8. 13.) — <a href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%AD%EB%A7%8C%EC%9A%B4%EC%86%A1%EC%82%AC%EC%97%85%EB%B2%95" target="_blank" rel="noopener noreferrer">law.go.kr 항만운송사업법</a>; Announcement of LCL Local Charges in Japan(Maersk, 2025. 9. 4.) — <a href="https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge-2025-09-04.pdf" target="_blank" rel="noopener noreferrer">Maersk 일본 LCL 요율 PDF</a>; 수출 및 반송통관에 관한 고시 제4조·제6조·제8조(관세청고시 제2025-73호, 2026. 6. 26. 시행) — <a href="https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000270440" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a>; 관세법 제243조·제251조(시행 2026. 10. 2.) — <a href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B4%80%EC%84%B8%EB%B2%95" target="_blank" rel="noopener noreferrer">law.go.kr 관세법</a>; 보세화물 입출항 하선 하기 및 적재에 관한 고시 제33조·제36조·제43조(관세청고시 제2026-53호) — <a href="https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284290" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a>; SEKO Container Lines Governing Rules Tariff No. 001 Rule 3(2025. 4. 1. 시행) — <a href="https://sekologistics.com/media/ndmlpd53/seko-container-lines-pte-ltd-governing-tariff-2023_amd-006-030125.pdf" target="_blank" rel="noopener noreferrer">SEKO 요율표 PDF</a></p>
+
+<h3>3. 수입 LCL의 흐름: 하선에서 반출까지</h3>
+<p>수입 LCL은 컨테이너가 도착한 뒤에도 적출과 House B/L 단위 반입신고가 끝나야 화물이 "있는" 상태가 되므로, FCL보다 반출까지 단계가 많습니다.</p>
+<table class="lib-table">
+<thead><tr><th>단계</th><th>무엇이 일어나나</th><th>근거</th></tr></thead>
+<tbody>
+<tr><td>하선신고</td><td>선사가 Master B/L 단위 적재화물목록을 기준으로 하선장소를 적어 신고. 컨테이너화물의 하선장소는 컨테이너 전용 보세창고(CY, CFS 포함)</td><td>하선 고시 제15조제1항·제3항</td></tr>
+<tr><td>하선장소 반입</td><td>입항일(외항에서 입항수속한 경우 접안일)부터 컨테이너화물은 5일 이내에 하선장소에 반입. 넘기면 연장 승인 필요</td><td>같은 고시 제19조제1항</td></tr>
+<tr><td>장치장소 결정</td><td>화주가 따로 정하지 않으면 House B/L 화물의 장치장소는 화물운송주선업자(포워더)가 선량한 관리자로서 선사·운영인과 협의해 결정. 의무를 다하지 못하면 세관지정장치장이나 세관지정 보세창고</td><td>보세화물관리에 관한 고시 제4조제1항</td></tr>
+<tr><td>CFS 이동</td><td>CY에 반입한 화물을 CFS로 옮기면 CY는 반출신고, CFS는 반입신고. 부두 밖 CFS로 가면 보세운송(셔틀)</td><td>보세화물관리 고시 제9조제7항, 하선 고시 제15조제6항</td></tr>
+<tr><td>적출·분류와 반입신고</td><td>CFS가 컨테이너를 열어 House B/L별로 나누고 반입 즉시 House B/L 단위로 반입신고. 하선장소 CFS에서 적출하지 않는 LCL은 Master B/L 단위로 반입신고할 수 있고, 나중에 적출하면 적출 사실을 신고하고 House B/L 단위로 다시 반입신고</td><td>하선 고시 제19조제2항·제3항, 보세화물관리 고시 제9조제6항</td></tr>
+<tr><td>반입 이상</td><td>수량이 다르거나 포장 파손·누출·오염이 있으면 운영인이 반입물품 이상보고서를 세관에 제출</td><td>보세화물관리 고시 제5조제2항</td></tr>
+<tr><td>D/O</td><td>선사는 Master B/L 수하인(도착지 포워더)에게, 포워더는 House B/L 회수·비용 정산 뒤 화주에게 자기 D/O를 냄</td><td><a href="/library/bl-awb/bl-release">화물 인도 실무</a></td></tr>
+<tr><td>수입신고</td><td>입항 뒤에만 신고 가능(입항전수입신고 예외). 부산항·인천항 하선장소의 CY·CFS 등 별표 1 보세구역에 반입된 물품은 반입일부터 30일 이내에 신고하지 않으면 가산세</td><td>관세법 제241조제3항·제4항·제243조제2항, 보세화물관리 고시 제34조</td></tr>
+<tr><td>반출</td><td>운영인이 반출승인정보를 확인하고 반출신고. 별표 1 보세구역에 반입된 물품은 수리일부터 15일 이내에 반출하지 않으면 과태료 대상</td><td>보세화물관리 고시 제10조·제19조</td></tr>
+</tbody>
+</table>
+<p>신고지연 가산세는 신고기한이 지난 날부터 20일 안에 신고하면 과세가격의 1천분의 5, 50일 안이면 1천분의 10, 80일 안이면 1천분의 15, 그 뒤는 1천분의 20이고, 500만원을 넘지 않습니다(관세법 시행령 제247조). 수입 LCL에서 일정이 늦어지는 곳은 대개 세 군데입니다. 첫째, 컨테이너가 부두 밖 CFS로 셔틀되는 시간, 둘째, CFS의 적출 일정(적출이 끝나야 House B/L 단위 반입신고가 되고 화물이 House 단위로 잡힘), 셋째, 원본 B/L 회수나 운임 정산이 늦어 House D/O가 나가지 않는 경우입니다. 이 가운데 보관료가 언제부터 붙는지는 CFS 요율표가 정합니다. Maersk 일본 LCL 요율은 수입 보관료를 적출일 다음 날(첫 화물 인도 가능일)부터 반출일까지 세고, Maersk 한국 LCL 요율(2024. 6. 15.)은 수입 보관료를 CFS 실비 그대로 넘기며(Storage passthrough) 무료 기간을 0일로 적습니다.</p>
+<p class="lib-source">출처: 보세화물 입출항 하선 하기 및 적재에 관한 고시 제15조·제19조(관세청고시 제2026-53호, 2026. 8. 28. 시행) — <a href="https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284290" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a>; 보세화물관리에 관한 고시 제4조·제5조·제9조·제10조·제19조·제34조·별표 1(관세청고시 제2026-12호, 2026. 2. 24. 시행) — <a href="https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000275032&amp;chrClsCd=010201" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a>; 관세법 제241조·제243조(시행 2026. 10. 2.) — <a href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B4%80%EC%84%B8%EB%B2%95" target="_blank" rel="noopener noreferrer">law.go.kr 관세법</a>; 관세법 시행령 제247조(시행 2026. 2. 27.) — <a href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B4%80%EC%84%B8%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9" target="_blank" rel="noopener noreferrer">law.go.kr 시행령</a>; Announcement of LCL Local Charges in Japan / South Korea(Maersk, 2024. 5. 15. 게시, 2024. 6. 15. 시행) — <a href="https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge202405.pdf" target="_blank" rel="noopener noreferrer">Maersk 일본·한국 LCL 요율 PDF</a>; Announcement of LCL Local Charges in Japan(Maersk, 2025. 9. 4.) — <a href="https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge-2025-09-04.pdf" target="_blank" rel="noopener noreferrer">Maersk 일본 LCL 요율 PDF</a></p>
+
+<h3>4. 운임톤(R/T) 계산: W/M, 최소 1 R/T, 소수점</h3>
+<h4>W/M: 1CBM과 1,000kg 중 큰 쪽</h4>
+<p>LCL 요율표에 "W/M" 또는 "WM"이라고 적힌 요율은 중량(Weight)과 용적(Measurement) 가운데 운임이 더 많이 나오는 쪽으로 계산한다는 뜻입니다. SEKO의 FMC 신고 요율표 제2조는 요율이 1CBM(M) 또는 1,000kg(W) 단위로 적용되며 더 많은 수입을 내는 쪽을 쓴다고 정하고, 품목 옆에 "W"만 있으면 용적과 관계없이 중량 요율, "M"만 있으면 중량과 관계없이 용적 요율을 적용한다고 적습니다. 실무에서는 이 계산 단위를 운임톤(R/T, Revenue Ton)이라고 부르고 다음처럼 셉니다.</p>
+<ul>
+<li>용적 R/T = 총 CBM(가로 m × 세로 m × 높이 m × 포장 수)</li>
+<li>중량 R/T = 총중량(kg) ÷ 1,000</li>
+<li>청구 R/T = 둘 중 큰 값. 다만 최소 R/T보다 작으면 최소 R/T</li>
+</ul>
+<p>1CBM에 1,000kg이면 물의 밀도와 같습니다. 그래서 1CBM당 1,000kg보다 가벼운 대부분의 일반 화물은 용적이, 철강·기계 부품·액체가 든 드럼처럼 무거운 화물은 중량이 기준이 됩니다. 드물게 다른 환산 기준을 쓰는 요율표도 있으므로, 요율표 머리말의 W/M 정의를 먼저 확인합니다.</p>
+<h4>최소 1 R/T</h4>
+<p>공개 요율표는 B/L 한 건의 최소 청구 단위를 정해 둡니다. SEKO 요율표 제4조는 B/L 한 건에 부과할 최소 해상운임과 요금을 1,000kg 또는 1CBM에 해당하는 금액으로 정합니다. Maersk의 한국 LCL 수출 요율(2024. 6. 15. 시행)도 CFS 작업료, THC, 부두사용료, 드레이지에 "Min. 1 WM"을 붙였습니다. 같은 표의 한국 수입 항목에는 이 표시가 없어서, 최소 단위는 항목마다 다를 수 있다는 점도 보여 줍니다. 0.3CBM짜리 화물이라도 1 R/T로 청구되는 이유가 이것이고, 아주 작은 화물은 항공이나 특송과 비교해 볼 만합니다.</p>
+<h4>치수 재는 법과 소수점</h4>
+<p>SEKO 요율표 제2조는 모든 운임과 요금을 각 개품이나 포장의 실제 총중량과 전체 치수(overall measurement)로 계산한다고 적습니다. 박스가 부풀었거나 팔레트 밖으로 화물이 튀어나왔다면 가장 바깥 치수가 기준이 되고, 팔레트 자체의 높이와 무게도 들어갑니다. 소수점을 몇 자리에서 어떻게 처리하는지(반올림, 올림, 버림)는 이 문서에서 확인한 공개 요율표 어디에도 정해져 있지 않았습니다. 콘솔사와 CFS마다 다를 수 있으므로 견적 단계에서 확인하고, 이 문서의 계산 예시는 CBM을 소수 셋째 자리(0.001CBM)까지 반올림해 보여 줍니다. 박스 하나의 CBM을 먼저 반올림한 뒤 곱하는지, 전체를 곱한 뒤 반올림하는지에 따라서도 끝자리가 달라집니다.</p>
+<h4>쌓을 수 없는 화물과 크기 한도</h4>
+<p>위에 다른 화물을 올릴 수 없는 화물은 그 위 공간을 아무도 못 쓰므로 할증이 붙습니다. Maersk 일본·한국 LCL 요율은 쌓을 수 없는(Non stackable) 화물에 전 세계 공통으로 1.5배 승수를 쓴다고 밝히고, 이 승수는 출발지·해상운임·도착지를 포함해 W/M이나 CBM 단위로 받는 항목에 적용되며 B/L 단위 항목에는 적용되지 않는다고 적습니다. 크기 한도도 있습니다. Maersk는 LCL 단일 포장의 최대 한도를 3,000kg과 29CBM, 부킹당 최대 한도를 20,000kg과 60CBM으로 안내합니다. 한국 콘솔사나 CFS가 공개한 중량물·장척물 할증표는 이 문서에서 찾지 못했으므로, 무겁거나 긴 화물은 부킹 전에 콘솔사에 수락 여부와 추가 비용을 따로 물어야 합니다.</p>
+<p class="lib-source">출처: SEKO Container Lines Governing Rules Tariff No. 001 Rule 2·Rule 4(FMC No. 033198, 2025. 4. 1. 시행) — <a href="https://sekologistics.com/media/ndmlpd53/seko-container-lines-pte-ltd-governing-tariff-2023_amd-006-030125.pdf" target="_blank" rel="noopener noreferrer">SEKO 요율표 PDF</a>; Announcement of LCL Local Charges in Japan / South Korea(Maersk, 2024. 6. 15. 시행) — <a href="https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge202405.pdf" target="_blank" rel="noopener noreferrer">Maersk 일본·한국 LCL 요율 PDF</a>; LCL의 최대 CBM은 얼마입니까?(Maersk FAQ, 2026. 10. 18. 확인) — <a href="https://www.maersk.com/ko-kr/support/faqs/what-is-the-maximum-cbm-for-lcl" target="_blank" rel="noopener noreferrer">Maersk 한국어 FAQ</a></p>
+
+<h3>5. 계산 예시 1·2: 용적이 기준인 화물, 중량이 기준인 화물</h3>
+<p>아래 예시의 해상운임 USD 25/R/T는 계산을 보여 주려고 정한 가상의 요율입니다. 실제 운임은 항로와 시기에 따라 크게 다릅니다.</p>
+<h4>예시 1: 가벼운 화물(용적이 기준)</h4>
+<table class="lib-table">
+<thead><tr><th>단계</th><th>계산</th><th>결과</th></tr></thead>
+<tbody>
+<tr><td>박스 1개 용적</td><td>0.60m × 0.40m × 0.50m</td><td>0.120CBM</td></tr>
+<tr><td>총 용적</td><td>0.120CBM × 20박스</td><td>2.400CBM → 용적 R/T 2.400</td></tr>
+<tr><td>총중량</td><td>8kg × 20박스 = 160kg, 160 ÷ 1,000</td><td>중량 R/T 0.160</td></tr>
+<tr><td>청구 R/T</td><td>max(2.400, 0.160), 최소 1 R/T보다 큼</td><td>2.400 R/T(용적 기준)</td></tr>
+<tr><td>해상운임</td><td>USD 25 × 2.400</td><td>USD 60.00</td></tr>
+</tbody>
+</table>
+<h4>예시 2: 무거운 화물(중량이 기준)</h4>
+<table class="lib-table">
+<thead><tr><th>단계</th><th>계산</th><th>결과</th></tr></thead>
+<tbody>
+<tr><td>팔레트 1개 용적(팔레트 포함)</td><td>1.00m × 0.80m × 0.60m</td><td>0.480CBM</td></tr>
+<tr><td>총 용적</td><td>0.480CBM × 2팔레트</td><td>0.960CBM → 용적 R/T 0.960</td></tr>
+<tr><td>총중량</td><td>900kg × 2 = 1,800kg, 1,800 ÷ 1,000</td><td>중량 R/T 1.800</td></tr>
+<tr><td>청구 R/T</td><td>max(0.960, 1.800)</td><td>1.800 R/T(중량 기준)</td></tr>
+<tr><td>해상운임</td><td>USD 25 × 1.800</td><td>USD 45.00(용적으로만 셌다면 USD 24.00)</td></tr>
+</tbody>
+</table>
+<h4>참고: 최소 R/T에 걸리는 화물</h4>
+<p>0.50m × 0.40m × 0.30m 박스 3개(0.060CBM × 3 = 0.180CBM), 총 45kg이면 용적 R/T 0.180, 중량 R/T 0.045입니다. 큰 값은 0.180이지만 최소 1 R/T가 적용되어 해상운임은 USD 25 × 1 = USD 25.00입니다. 최소 단위가 붙은 R/T당 부대비용도 모두 1 R/T로 계산됩니다.</p>
+
+<h3>6. 한국에서 R/T당·B/L당 청구되는 비용과 공개 요율 예</h3>
+<p>LCL 견적서의 항목은 크게 R/T당 항목과 B/L(건)당 항목으로 나뉩니다. 한국에서 공개된 LCL 요율은 많지 않아서, 이 문서는 선사·NVOCC가 홈페이지에 올린 공지 두 종류로 구조를 보여 줍니다. CFS 운영사가 직접 공개한 요율표는 찾지 못했습니다(<a data-doc="ch-sea-charges">해상 부대비용 지도</a> 7절과 같은 결론).</p>
+<table class="lib-table">
+<thead><tr><th>항목</th><th>청구 단위</th><th>공개 요율 예(확인 기준)</th><th>읽는 법</th></tr></thead>
+<tbody>
+<tr><td>해상운임</td><td>R/T(W/M), 최소 1 R/T가 흔함</td><td>SEKO 요율표는 1CBM 또는 1,000kg 중 큰 쪽, B/L당 최소 1,000kg 또는 1CBM</td><td>운임 자체는 항로·시기별 견적. 할증료도 R/T당으로 붙는 경우가 많음</td></tr>
+<tr><td>CFS 작업료</td><td>CBM 또는 R/T</td><td>장금상선 부산: 9,000원(2024. 7. 15.부터, 이전 8,000원·그 전 6,500원). 장금상선 인천: 기력 작업 7,000원·인력 작업 11,000원(2024. 3. 11. 작업분부터). Maersk LCL 한국: 수출 6,500원/WM(최소 1 WM), 수입 12,000원/WM(2024. 6. 15.)</td><td>지게차로 하는 기력 작업과 사람이 하는 인력 작업 요율이 다를 수 있음. 장금상선 인천 공지의 MINIMUM(CBM or R/T) 칸에는 HJIT·E1 "20'= 15 / 40' = 30", SNCT 12, IDCG 10이 적혀 있음</td></tr>
+<tr><td>THC(LCL)</td><td>W/M</td><td>Maersk LCL 한국: 수출 6,500원(최소 1 WM), 수입 15,000원</td><td>FCL THC(컨테이너당)와 단위가 다름</td></tr>
+<tr><td>부두사용료</td><td>W/M</td><td>Maersk LCL 한국: 수출 203원(최소 1 WM), 수입 341원</td><td>FCL은 TEU당 고시 요율. LCL은 R/T로 나눠 받음</td></tr>
+<tr><td>셔틀·드레이지</td><td>W/M 또는 컨테이너</td><td>Maersk LCL 한국 드레이지: 수출 3,500원/WM(최소 1 WM), 수입 8,000원/WM. 장금상선 부산 셔틀료: 20ft·40ft 각 30,000원/컨테이너</td><td>CFS가 부두 밖에 있으면 CFS와 터미널 사이 운송비. 인천 공지는 "셔틀료 직정산"</td></tr>
+<tr><td>서류비·D/O·핸들링</td><td>B/L</td><td>Maersk LCL 한국: 수출 서류비 50,000원, 수입 서류비 50,000원, 수입 핸들링 비용 60,000원, B/L 정정 50,000원(모두 부가세 10% 별도), 수출 MFF USD 30/B/L(AMS·ACI·ENS 등 사전신고용)</td><td>포워더 House D/O 비용과 취급 수수료는 회사마다 따로 정함</td></tr>
+<tr><td>보관료</td><td>W/M당 하루, 또는 창고 보관요율</td><td>Maersk LCL 한국: 수출 5일 무료 뒤 1,000원/WM/일(CFS 공간 사정에 따름), 수입은 실비 전가(무료 0일)</td><td>수입 보관료는 CFS·보세창고 요율표에 따름. 보세창고 운영인은 보관요율과 보관규칙을 창고 안에 게시해야 함</td></tr>
+</tbody>
+</table>
+<p>표의 Maersk 요율은 2024년 5월 15일에 게시되어 2024년 6월 15일부터 적용된 일본·한국 공동 공지의 금액입니다(그 뒤 2024년 9월 10일 일본·한국 공지가 나왔지만 일본 무료 기간을 바꾼 것으로 보이며, 원문은 확인하지 못했습니다). Maersk가 2025년 9월 4일에 낸 LCL 요율 공지는 일본만 다루고 있어서, 한국 LCL 요율이 2026년 10월 현재 그대로인지는 확인하지 못했습니다. 2024년 공지는 통관 수수료와 예상하지 못한 비용이 포함되지 않으며, 한국 수입은 DDP 조건을 받지 않는다고 적습니다. 장금상선 공지는 선사가 직접 받는 LCL·CFS 화물의 요율이므로 포워더 콘솔 LCL의 CFS 비용과 같다고 볼 수 없습니다. 보세창고 운영인의 게시 의무는 「보세창고 특허 및 운영에 관한 고시」 제16조제1항제2호에 있고, 고시는 게시만 요구할 뿐 금액을 정하지 않습니다.</p>
+<p class="lib-source">출처: SEKO Container Lines Governing Rules Tariff No. 001 Rule 2·Rule 4 — <a href="https://sekologistics.com/media/ndmlpd53/seko-container-lines-pte-ltd-governing-tariff-2023_amd-006-030125.pdf" target="_blank" rel="noopener noreferrer">SEKO 요율표 PDF</a>; 부산 CFS 요율 인상 안내(장금상선, 2024. 6. 25. 게시) — <a href="http://www.sinokor.co.kr/Notice/Detail?nacd=KR&amp;num=547" target="_blank" rel="noopener noreferrer">장금상선 공지 547</a>; 부산 CFS 요율 인상 및 셔틀료 부과 안내(장금상선, 2024. 2. 2. 게시) — <a href="http://www.sinokor.co.kr/Notice/Detail?nacd=KR&amp;num=534" target="_blank" rel="noopener noreferrer">장금상선 공지 534</a>; 인천 CFS 요율 인상 안내(장금상선, 2025. 2. 3. 게시) — <a href="http://www.sinokor.co.kr/Notice/Detail?nacd=KR&amp;num=535" target="_blank" rel="noopener noreferrer">장금상선 공지 535</a>; Announcement of LCL Local Charges in Japan / South Korea(Maersk, 2024. 6. 15. 시행) — <a href="https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge202405.pdf" target="_blank" rel="noopener noreferrer">Maersk 일본·한국 LCL 요율 PDF</a>; Announcement of LCL Local Charges in Japan(Maersk, 2025. 9. 4.) — <a href="https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge-2025-09-04.pdf" target="_blank" rel="noopener noreferrer">Maersk 일본 LCL 요율 PDF</a>; 보세창고 특허 및 운영에 관한 고시 제16조(관세청고시 제2026-57호, 2026. 9. 29. 시행) — <a href="https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285590&amp;chrClsCd=010201" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a></p>
+
+<h3>7. 계산 예시 3: 부산 수입 LCL 비용을 단계별로 추정하기</h3>
+<p>Maersk의 한국 LCL 수입 요율(2024. 6. 15. 시행, 부산·인천 공통)을 그대로 써서 수입 한 건의 로컬 비용을 추정해 봅니다. 화물은 팔레트 3개, 팔레트 하나가 1.20m × 1.00m × 1.10m, 380kg입니다. 운임은 출발지 선불(Prepaid)이라고 가정합니다.</p>
+<ol>
+<li><b>R/T 확정</b>: 팔레트 1개 1.320CBM × 3 = 3.960CBM, 총중량 1,140kg = 1.140톤. 청구 R/T는 3.960(용적 기준)입니다.</li>
+<li><b>R/T당 항목</b>: CFS 작업료 12,000원 + THC 15,000원 + 부두사용료 341원 + 드레이지 8,000원 = R/T당 35,341원입니다.</li>
+<li><b>R/T당 항목 합계</b>: 35,341원 × 3.960 = 139,950원(원 미만 버림, 처리 방식은 청구자마다 다를 수 있음).</li>
+<li><b>B/L당 항목</b>: 수입 서류비 50,000원 + 핸들링 비용 60,000원 = 110,000원, 부가세 10% 11,000원을 더해 121,000원입니다.</li>
+<li><b>소계</b>: 139,950원 + 121,000원 = 260,950원입니다.</li>
+<li><b>여기에 더할 것</b>: CFS 수입 보관료(이 요율은 무료 0일, 실비 전가), 관세사 통관 수수료, 관세·수입 부가세, 내륙 운송비, 운임이 착불(Collect)이면 해상운임(가상 요율 USD 25 × 3.960 = USD 99.00)과 착지 할증료, 포워더 House D/O 비용입니다.</li>
+</ol>
+<table class="lib-table">
+<thead><tr><th>항목</th><th>단위 요율</th><th>수량</th><th>금액(원)</th></tr></thead>
+<tbody>
+<tr><td>CFS 작업료</td><td>12,000/WM</td><td>3.960</td><td>47,520</td></tr>
+<tr><td>THC</td><td>15,000/WM</td><td>3.960</td><td>59,400</td></tr>
+<tr><td>부두사용료</td><td>341/WM</td><td>3.960</td><td>1,350</td></tr>
+<tr><td>드레이지</td><td>8,000/WM</td><td>3.960</td><td>31,680</td></tr>
+<tr><td>수입 서류비</td><td>50,000/BL</td><td>1</td><td>50,000</td></tr>
+<tr><td>핸들링 비용</td><td>60,000/BL</td><td>1</td><td>60,000</td></tr>
+<tr><td>부가세(서류비·핸들링 비용)</td><td>10%</td><td></td><td>11,000</td></tr>
+<tr><td><b>합계(보관료·통관·세금·운송 제외)</b></td><td></td><td></td><td><b>260,950</b></td></tr>
+</tbody>
+</table>
+<p>항목별로 반올림하면 부두사용료 1,350.36원이 1,350원이 되어 합계가 같습니다. 이 계산에서 B/L당 비용이 전체 로컬 비용의 절반 가까이를 차지한다는 점도 보입니다. 화물이 1 R/T라면 R/T당 항목은 35,341원뿐이고 B/L당 121,000원은 그대로이므로, 작은 화물일수록 건당 비용의 비중이 커집니다. 기한도 함께 챙깁니다. 부산항 CFS에 반입된 화물은 반입일(CY에서 옮겨 온 화물은 CY 반입일, 장치기간 합산)부터 30일 안에 수입신고를 해야 신고지연 가산세를 피하고, 수리일부터 15일 안에 반출해야 합니다(3절).</p>
+
+<h3>8. 계산 예시 4: CFS 실측이 신고와 다를 때</h3>
+<p>예시 1의 화주가 패킹리스트에 박스 60 × 40 × 50cm, 2.400CBM으로 적었는데, 수출 CFS가 반입 때 잰 박스 치수가 62 × 41 × 52cm였다고 해 봅니다. 박스가 부풀었거나 패킹리스트가 포장 전 치수였던 경우에 흔히 생기는 차이입니다.</p>
+<table class="lib-table">
+<thead><tr><th>항목</th><th>화주 신고</th><th>CFS 실측</th><th>차이</th></tr></thead>
+<tbody>
+<tr><td>박스 1개</td><td>0.60 × 0.40 × 0.50 = 0.120000CBM</td><td>0.62 × 0.41 × 0.52 = 0.132184CBM</td><td>+0.012184CBM</td></tr>
+<tr><td>20박스 합계</td><td>2.400CBM</td><td>2.64368 → 2.644CBM</td><td>+0.244CBM(약 10%)</td></tr>
+<tr><td>청구 R/T</td><td>2.400</td><td>2.644</td><td>+0.244</td></tr>
+<tr><td>해상운임(USD 25/R/T, 가상)</td><td>USD 60.00</td><td>USD 66.10</td><td>+USD 6.10</td></tr>
+<tr><td>수출 R/T당 로컬 비용(Maersk 한국 수출: CFS 6,500 + THC 6,500 + 부두사용료 203 + 드레이지 3,500 = 16,703원/WM)</td><td>40,087원</td><td>44,163원</td><td>+4,076원</td></tr>
+<tr><td>서류비 등 B/L당 항목</td><td>변화 없음</td><td>변화 없음</td><td>0</td></tr>
+</tbody>
+</table>
+<p>같은 화물에 "위에 쌓지 말 것" 표시가 있어 쌓을 수 없는 화물로 분류되면 금액이 더 크게 바뀝니다. Maersk 요율의 1.5배 승수를 적용하면 W/M 항목의 기준이 2.644 × 1.5 = 3.966 R/T가 되어, 해상운임은 USD 99.15, 수출 R/T당 로컬 비용은 16,703원 × 3.966 = 66,244원이 됩니다. 서류비 같은 B/L당 항목에는 승수가 붙지 않습니다.</p>
+<p>숫자가 바뀌면 서류도 맞춰야 합니다. House B/L의 용적·중량은 CFS 실측과 화주 확인을 거쳐 고치고, 하우스적재화물목록도 맞춥니다. 출항적재화물목록의 용적과 포장화물 중량이 실제와 다르면 세관 공무원이 근거서류에 따라 직권으로 정정할 수 있고(「보세화물 입출항 하선 하기 및 적재에 관한 고시」 제45조), 그 밖의 정정은 출항일부터 90일 안에 정정신청을 합니다(제44조). 수출신고의 중량이 크게 다르면 「수출 및 반송통관에 관한 고시」 제32조의 정정 대상인지 관세사와 확인합니다. Maersk도 규격 외(Out of gauge) 화물 FAQ에서 치수가 몇 cm만 달라도 차이가 크다며 수정된 치수를 받거나 오신고 비용(misdeclaration fee)을 받는다고 안내합니다.</p>
+<p class="lib-source">출처: Announcement of LCL Local Charges in Japan / South Korea(Maersk, 2024. 6. 15. 시행) — <a href="https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge202405.pdf" target="_blank" rel="noopener noreferrer">Maersk 일본·한국 LCL 요율 PDF</a>; What if the dimensions only change by a few centimeters?(Maersk FAQ, 2026. 10. 18. 확인) — <a href="https://www.maersk.com/support/faqs/what-if-the-dimensions-only-change-by-a-few-centimeters" target="_blank" rel="noopener noreferrer">Maersk FAQ</a>; 보세화물 입출항 하선 하기 및 적재에 관한 고시 제44조·제45조(관세청고시 제2026-53호) — <a href="https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284290" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a>; 수출 및 반송통관에 관한 고시 제32조(관세청고시 제2025-73호) — <a href="https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000270440" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a></p>
+
+<h3>9. 자주 생기는 다툼</h3>
+<h4>실측 차이</h4>
+<p>화주는 패킹리스트 숫자로 견적을 받았는데 청구는 CFS 실측으로 나오는 것이 가장 흔한 다툼입니다. 포워더는 화물을 직접 재지 않으므로, 견적 단계에서 "청구는 CFS 반입 실측 기준"이라는 조건과 소수점 처리 방식을 적어 두고, 차이가 생기면 CFS가 낸 계측 자료(계측 기록이나 사진)를 받아 화주에게 그대로 전달하는 것이 할 수 있는 일의 전부입니다. 화주가 이의를 제기하면 CFS 기록과 화주의 포장 사양서·사진을 나란히 놓고 콘솔사와 협의합니다.</p>
+<h4>포장 파손, 쌓을 수 없는 화물, 과대·과중 화물</h4>
+<p>반입 때 포장이 찢어졌거나 젖어 있으면 CFS는 반입을 미루거나 사진과 함께 이상을 기록합니다. 수입에서는 운영인이 포장 파손·누출·오염을 반입물품 이상보고서로 세관에 내야 합니다(보세화물관리 고시 제5조제2항). 수출에서 포장이 약해 다른 화물을 올릴 수 없으면 쌓을 수 없는 화물로 분류되어 할증(예: Maersk 1.5배)이 붙을 수 있고, 한도를 넘는 무게나 길이의 화물은 콘솔사가 받지 않기도 합니다. 부킹 전에 화주에게 포장 사진과 팔레트 사양을 받아 두면 이런 일을 미리 걸러낼 수 있습니다.</p>
+<h4>혼재할 수 없는 화물: 위험물, 온도 관리 화물, 식품</h4>
+<p>위험물(DG)이 섞인 LCL 컨테이너는 위험물 규칙에 따른 격리와 서류가 컨테이너 전체에 적용되므로, 콘솔사는 위험물 수락 여부와 가능한 등급·항로를 따로 정합니다. 신고하지 않은 위험물이 CFS에서 발견되면 문제가 커집니다. 위험물 장치허가가 없는 운영인은 반입 때 위험물인지 확인하고 발견하면 즉시 세관에 보고해야 하며, 세관장은 위험물을 장치할 수 있는 곳으로 즉시 반출을 명령해야 합니다(보세화물관리 고시 제5조제4항, 제6조제2항). 위험물, 보온·보냉물품, 검역대상물품은 그에 맞는 요건을 갖춘 보세구역에, 식품류는 별표 4의 보관기준을 갖춘 보세구역에 장치해야 하므로(같은 고시 제4조제2항제2호), 일반 CFS를 쓰는 LCL로는 보낼 수 없는 경우가 생깁니다. 위험물 분류와 서류는 <a href="/library/dangerous-goods/dg-rules">국제 위험물 운송 규칙</a>과 <a href="/library/dangerous-goods/dg-msds">MSDS(SDS) 읽는 법</a>을 보십시오.</p>
+<h4>지연과 보관료</h4>
+<p>수입 LCL 보관료는 터미널 컨테이너 보관료와 달리 House B/L 화물이 들어간 CFS·보세창고의 요율로 계산됩니다. 금액을 정하는 법령 기준은 없고, 삼성SDS Cello Square처럼 수입 보관료가 화물가격(종가)이나 용적·중량(종량)에 따라 매겨진다고 안내하는 업체도 있어 고가 화물은 같은 부피라도 보관료가 커질 수 있습니다. 보관 기간은 원본 B/L이 늦게 오거나, 통관 서류가 늦거나, 검사로 선별되면 쉽게 길어집니다. House B/L 화물의 장치장소는 화주가 따로 정하지 않으면 포워더가 선량한 관리자로서 정하므로(보세화물관리 고시 제4조제1항제2호나목), 화주가 "왜 이 창고에 넣었나, 왜 이렇게 비싸나"라고 물으면 포워더가 답해야 합니다. 창고를 정할 때 해당 창고에 게시된 보관요율을 받아 두고, 화주가 창고를 지정하고 싶다면 입항 전에 알려 달라고 안내합니다. 부산항·인천항 CFS에서는 반입일부터 30일이 지나면 신고지연 가산세까지 더해집니다.</p>
+<p class="lib-source">출처: 보세화물관리에 관한 고시 제4조·제5조·제6조·제34조(관세청고시 제2026-12호, 2026. 2. 24. 시행) — <a href="https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000275032&amp;chrClsCd=010201" target="_blank" rel="noopener noreferrer">law.go.kr 고시</a>; Announcement of LCL Local Charges in Japan / South Korea(Maersk, 2024. 6. 15. 시행) — <a href="https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/japan/important-information/nea-local-charge202405.pdf" target="_blank" rel="noopener noreferrer">Maersk 일본·한국 LCL 요율 PDF</a>; 수입 LCL 서비스 안내(삼성SDS Cello Square, 2026. 10. 18. 확인) — <a href="https://www.cello-square.com/kr/service/view-103.do" target="_blank" rel="noopener noreferrer">Cello Square</a></p>
+
+<h3>10. 포워더 점검표</h3>
+<h4>견적·부킹 전</h4>
+<ul class="lib-check">
+<li>화주에게 패킹리스트(박스별 치수·포장 수·총중량), 포장 사진, 적재 가능 여부(쌓아도 되는지)를 받는다.</li>
+<li>용적 R/T와 중량 R/T를 각각 계산해 청구 R/T가 어느 쪽인지 견적서에 적는다.</li>
+<li>콘솔사 요율표의 W/M 정의, 최소 R/T, 소수점 처리, 쌓을 수 없는 화물 승수, 중량·길이 한도를 확인한다.</li>
+<li>R/T당 항목(운임, CFS, THC, 부두사용료, 드레이지)과 B/L당 항목(서류비, D/O, 핸들링)을 나눠 적고, 각 항목의 최소 단위를 적는다.</li>
+<li>"청구는 CFS 반입 실측 기준"과 요율 적용 기준일(화물 수령일, 출항일 등)을 견적 조건에 넣는다.</li>
+<li>위험물·온도 관리 화물·식품이면 콘솔사의 수락 여부와 장치 가능한 보세구역을 먼저 확인한다.</li>
+<li>CFS 반입 마감, 반입지 주소, 장치장코드, 무료 보관 기간을 화주에게 서면으로 보낸다.</li>
+</ul>
+<h4>수출 CFS 반입 뒤</h4>
+<ul class="lib-check">
+<li>CFS 반입 기록(포장 수, 실측 치수·중량, 이상 여부)을 받아 화주 패킹리스트와 대조한다.</li>
+<li>차이가 있으면 계측 자료를 화주에게 보내고, 변경된 R/T와 금액을 알린 뒤 확인을 받는다.</li>
+<li>House B/L의 포장 수·중량·용적을 실측과 화주 확인에 맞추고, 하우스적재화물목록을 같은 숫자로 넘긴다.</li>
+<li>수출신고 수리일부터 30일 안에 실리는 항차인지, 중량 차이로 수출신고 정정이 필요한지 관세사와 확인한다.</li>
+<li>코로딩이면 콘솔사 B/L 번호와 내 House B/L 번호를 함께 기록해 둔다.</li>
+</ul>
+<h4>수입 도착 뒤</h4>
+<ul class="lib-check">
+<li>장치장소(CFS·보세창고)를 정할 때 그 창고의 게시 보관요율을 받아 두고, 화주 지정 창고가 있는지 입항 전에 확인한다.</li>
+<li>하선장소 반입, CFS 이동(보세운송), 적출, House B/L 단위 반입신고가 끝났는지 운영인 기록과 UNI-PASS 화물 진행 정보로 확인한다.</li>
+<li>반입물품 이상보고가 있었는지 확인하고, 있으면 사진과 사유서를 받아 화주에게 바로 알린다.</li>
+<li>원본 B/L 회수나 서렌더 확인, 운임·로컬 비용 정산을 끝내고 House D/O를 낸다.</li>
+<li>부산항·인천항 CFS 화물은 반입일부터 30일(수입신고, CY에서 옮겨 온 화물은 CY 장치기간 합산), 수리일부터 15일(반출) 기한을 화주에게 날짜로 알린다.</li>
+<li>보관료 계산 시작일과 무료 기간을 CFS 요율표에서 확인해 정산서에 적는다.</li>
+</ul>
+
+<h3>화주에게 설명할 때</h3>
+<p>"LCL 운임은 박스의 부피와 무게를 각각 운임톤으로 바꿔서 큰 쪽으로 받습니다. 1CBM과 1,000kg이 각각 1운임톤이고, 아무리 작아도 보통 1운임톤은 받습니다. 견적은 보내 주신 패킹리스트로 계산했지만, 최종 청구는 CFS가 화물을 받을 때 실제로 잰 치수와 무게로 나옵니다. 박스가 부풀거나 팔레트 밖으로 튀어나오면 숫자가 커지고, 위에 다른 짐을 올릴 수 없는 화물은 할증이 붙을 수 있습니다. 서류비와 D/O 비용처럼 건당으로 받는 비용은 화물이 작아도 그대로라서, 아주 작은 화물은 항공이나 특송이 나을 수 있습니다. 수입 화물은 컨테이너에서 꺼내 나누는 작업이 끝나야 찾을 수 있고, 창고에 들어간 날부터 보관료와 신고 기한이 시작되니 통관 서류는 미리 준비해 주십시오."</p>

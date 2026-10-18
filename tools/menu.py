@@ -18,6 +18,7 @@ NAV = [
         ('/library/temperature-cargo', 'Cold Chain · 온도유지 화물', '온도유지 화물 항공·해상'),
         ('/library/cargo-insurance', 'Cargo Insurance · 화물보험', '적하보험·책임 한도·클레임'),
         ('/library/charges', 'Charges · 부대비용', '부대비용·DEM/DET·보관료'),
+        ('/library/customs', 'Customs · 통관', '수출입 통관·HS 코드·FTA·보세운송'),
         ('/library/container', 'Container', '컨테이너 번호·코드·치수'),
     ]),
     ('도구', [
@@ -39,6 +40,7 @@ PAGES = {
     'tc-library.html': '/library/temperature-cargo',
     'insurance-library.html': '/library/cargo-insurance',
     'charges-library.html': '/library/charges',
+    'customs-library.html': '/library/customs',
     'container-library.html': '/library/container',
     'airtracking.html': '/airtracking',
     'containertracking.html': '/containertracking',

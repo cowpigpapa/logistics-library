@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/charges';
-  const DOCS_VERSION = '20261017-01';
+  const DOCS_VERSION = '20261018-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -36,6 +36,9 @@
     { id: 'ch-dnd', tag: "DEM·DET", level: 3, title: "DEM·DET 제대로 읽기 — 같은 이름, 다른 시계와 계산법", short: "DEM·DET 제대로 읽기", summary: "Demurrage·Detention·통합 D&D·터미널 보관료를 FIATA 정의로 구분하고, Maersk·Hapag-Lloyd·ONE의 한국·미국·독일·중국 요율표(2026년 10월 확인)를 나란히 놓아 통합/분리, 달력일/영업일, 시계 시작·종료, 보관료 포함 여부, 구간 요율, 수입·수출과 COC·SOC 차이를 보여 줍니다. 요율표 읽는 6가지 질문, 미국 FMC 규정(46 CFR 545.5, Part 541 청구서 30일 규칙, 2025년 §541.4 무효·삭제, 2026년 Charge Complaint 규칙), 포워더 체크리스트를 정리합니다." },
     { id: 'ch-korea-storage', tag: "한국보관료", level: 3, title: "한국 해상: 시계가 두 개 — 터미널 보관료와 선사 D&D가 따로 쌓이는 구조, PNC 2026 계산 예시", short: "한국 해상: 시계가 두 개", summary: "2023년부터 PNC·HJIT·GWCT·BNCT의 수입 보관료를 터미널이 수입자에게 직접 청구한다는 선사 공지와 그 결과 따로 도는 두 시계(양하일~반출일 보관료, 양하일~빈 컨테이너 반납일 선사 통합 D&D), PNC 2026 요율표의 '최고 구간 요율을 전 기간에' 규칙과 15일 = 500,500원·14일 = 318,500원 계산, 오전 8시 양하 기준, BNCT 일괄 적용 공지와 HJNC 2026 요율 비교, 두 시계를 합친 계산 예시, D/O 조건과 반출·반납 일정 관리, 화주 안내 문구, 포워더 체크리스트." },
     { id: 'ch-air-storage', tag: "항공보관료", level: 3, title: "인천공항 보관료: 종가료·종량료 — 두 요금을 더하는 구조, 무료 시간과 자정 규칙, 고가 특수화물 계산", short: "인천공항 보관료: 종가료·종량료", summary: "인천공항 수입화물 보관료가 종가액(과세가격 + 관세 기준)과 종량액(중량 기준)을 합산하는 구조와 '기본요율 + 할증요율 × 보관일수' 계산법, 대한항공 화물터미널·아시아나에어포트(AAP) C터미널·스위스포트코리아의 공개 요율과 최저 금액, 특수·귀중화물 50% 할증과 터미널별로 다른 무료 시간(12시간·24시간·없음), 공개 계산기로 확인한 보관일수 계산(무료 시간 미만 기준, 날짜 차이 최소 1일, 10일 계단), 10억 원·500kg 특수화물을 13시간에 출고한 사례(보관료 2,406,750원 중 약 98%가 종가, THC 81,555원 별도), 같은 청구서의 THC·특송 심야 할증·보류화물 기준, 보세창고 고시 제16조와 관세법 제172조, 하루 치를 피하는 포워더 체크리스트를 2026년 10월 11일 확인 기준으로 정리합니다." },
+    { id: 'ch-surcharges', checked: '2026-10-18', tag: "할증료", level: 3, title: "해상 할증료 — BAF·LSS·EBS·EU ETS·CAF·PSS·GRI 읽는 법", short: "해상 할증료 읽기", summary: "기본운임과 할증료의 구조, 할증료별 적용일 기준, 유류·환경(EU ETS·FuelEU)·통화·시장·위험 할증의 정의와 선사 공지 예, 해운법 운임·요금 공표 제도를 정리하고 40ft 견적으로 인보이스 대조 순서를 보여 줍니다." },
+    { id: 'ch-air-weight', checked: '2026-10-18', tag: "운임중량", level: 3, title: "항공 운임 중량 계산 — 실중량·부피 중량, 반올림, 중량 구간과 House·Master", short: "항공 운임 중량 계산", summary: "항공 운임 중량은 실중량과 부피 중량(cm³ ÷ 6,000) 중 큰 값입니다. 치수와 중량의 반올림, 여러 개 화물 합산, 최소 운임·중량 구간과 분기점, AWB 운임 칸, House와 Master 운임 중량이 다른 이유를 실제 숫자로 풉니다." },
+    { id: 'ch-lcl', checked: '2026-10-18', tag: "LCL", level: 3, title: "LCL·CFS와 운임톤 계산 — 소량 해상화물이 모이고 나뉘는 길과 R/T 청구", short: "LCL·운임톤 계산", summary: "LCL 화물이 수출·수입 CFS에서 어떻게 모이고 나뉘는지 관세청 고시 기준으로 정리하고, 1CBM과 1,000kg 중 큰 쪽으로 세는 운임톤(R/T), 최소 1 R/T, CFS 실측 차이를 공개 요율로 계산해 보입니다." },
     { id: 'ch-cases', tag: "사례", level: 3, title: "부대비용·보관료 분쟁 사례 — 누가, 언제까지, 얼마나 내는가", short: "부대비용·보관료 분쟁 사례", summary: "포워더 명의 부킹과 선사 컨테이너 요금 책임(대법원 2020다280685), 화물을 받지 않은 수하인의 Demurrage 의무, 부두 체화료(항만시설사용료) 납부 의무자, 대납 비용과 상법 제814조 1년 제척기간, 수입자 회생 때 운송인의 유치권, 창고 보관료와 상사유치권 등 한국 판결 6건과 반납 예약 부족·merchant 조항·항만 폐쇄일 Detention에 관한 미국 FMC 사건 3건, 버려진 컨테이너 Demurrage의 한계를 다룬 영국 MSC v Cottonex를 사실관계, 쟁점, 결론, 실무 교훈으로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
@@ -50,6 +53,7 @@
   const SECTIONS = [
     { title: "해상", sub: "부대비용 지도 · DEM·DET · 부산 터미널 보관료", docs: ["ch-sea-charges", "ch-dnd", "ch-korea-storage"] },
     { title: "항공", sub: "인천공항 종가료·종량료", docs: ["ch-air-storage"] },
+    { title: "운임 계산", sub: "해상 할증료 · 항공 운임 중량 · LCL 운임톤", docs: ["ch-surcharges", "ch-air-weight", "ch-lcl"] },
     { title: "사례", sub: "부대비용·보관료 분쟁", docs: ["ch-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
@@ -58,7 +62,10 @@
     { name: "DEM과 DET는 어떻게 다른가요", ids: ["ch-dnd", "ch-korea-storage"] },
     { name: "부산에서 보관료와 Demurrage가 따로 나왔어요", ids: ["ch-korea-storage", "ch-dnd"] },
     { name: "공항에서 몇 시간 늦었는데 보관료가 크게 나왔어요", ids: ["ch-air-storage"] },
-    { name: "Detention은 누가 내야 하나요", ids: ["ch-cases", "ch-dnd"] }
+    { name: "Detention은 누가 내야 하나요", ids: ["ch-cases", "ch-dnd"] },
+    { name: "BAF·LSS·EU ETS 할증료는 무엇인가요", ids: ["ch-surcharges"] },
+    { name: "항공 운임 중량은 어떻게 계산하나요", ids: ["ch-air-weight"] },
+    { name: "LCL 운임톤(R/T)은 어떻게 세나요", ids: ["ch-lcl"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -153,7 +160,7 @@
   }
   async function renderDoc(view, doc) {
     const head = `<nav class="lib-crumb"><a href="${home}">← Charges · 부대비용</a></nav>`;
-    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${CHECKED} · 요율과 규정은 자주 바뀌니 실제 업무는 최신 요율표와 선사·터미널 안내를 확인하세요.</p>`;
+    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${doc.checked || CHECKED} · 요율과 규정은 자주 바뀌니 실제 업무는 최신 요율표와 선사·터미널 안내를 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
     try {

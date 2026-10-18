@@ -75,6 +75,14 @@
       "destination": "/charges-library"
     },
     {
+      "source": "/library/customs",
+      "destination": "/customs-library"
+    },
+    {
+      "source": "/library/customs/:id",
+      "destination": "/customs-library"
+    },
+    {
       "source": "/library/container",
       "destination": "/container-library"
     },
@@ -94,6 +102,19 @@
         {
           "key": "X-Robots-Tag",
           "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/cu-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
         }
       ]
     },

@@ -1,0 +1,232 @@
+<p>항공 견적을 보낸 화주가 가장 자주 되묻는 말은 "10kg짜리 상자인데 왜 17kg으로 계산했나요"입니다. 반대로 혼재 화물을 받은 화주는 "House AWB 운임 중량과 Master AWB 운임 중량이 왜 다른가요"라고 묻습니다. 두 질문 모두 항공 운임이 실제 무게가 아니라 운임 중량으로 계산된다는 데서 나옵니다. 운임 중량은 실중량과 부피 중량 가운데 큰 값이고, 치수와 중량을 정해진 방식으로 반올림한 뒤에 정해집니다. 이 문서는 IATA 운임 규칙(TACT Rules)이 공개 자료에 인용된 범위와 항공사·규제기관의 공개 약관을 바탕으로 부피 중량 계산, 반올림, 여러 개 화물과 팔레트, 최소 운임과 중량 구간, AWB 운임 칸 읽는 법, House와 Master의 차이를 실제 숫자로 풀어 봅니다.</p>
+
+<p class="lib-summary"><b>핵심 3줄</b><br>① 운임 중량은 실중량과 부피 중량(가로 × 세로 × 높이 cm ÷ 6,000) 가운데 큰 값입니다. 치수는 0.5cm 이상 올리고 미만은 버리며, 중량은 0.5kg 단위로 올립니다. 여러 개 화물은 부피를 모두 더한 뒤 한 번만 나누고 반올림합니다.<br>② 운임은 최소 운임(M), 45kg 미만 기본 요율(N), 중량 구간 요율(Q)로 짜이고, 다음 구간의 최저 중량으로 계산한 금액이 더 싸면 그 금액을 적용합니다. 구간 사이의 분기점은 미리 계산해 둘 수 있습니다.<br>③ Master AWB는 혼재 화물 전체를 한 건으로 보고 총 실중량과 총 부피 중량을 비교하므로, 무거운 화물과 가벼운 화물이 섞이면 House 운임 중량 합계보다 작아집니다. 같은 규칙으로 계산하면 Master 운임 중량은 House 합계보다 클 수 없습니다.</p>
+
+<p class="lib-disclaimer">이 문서는 2026년 10월 18일에 확인한 공개 자료를 바탕으로 썼습니다. IATA TACT Rules 원문은 유료 간행물이라 직접 열람하지 못했고, 2010년 2월판 TACT를 참고문헌으로 든 ASEAN 물류 교육 교재가 TACT 조항(3.4, 3.9.4 등)을 인용한 문장(현행판의 조항 번호와 다를 수 있음), 항공사(Uzbekistan Airways, Emirates SkyCargo)의 공개 요율 조건, 캐나다 교통청(CTA)이 공개한 항공화물 운송약관 견본, IATA ONE Record 코드 목록으로 교차 확인했습니다. 본문의 원화 요율은 계산을 보이기 위한 <b>예시 요율</b>이며 어느 항공사의 실제 요율도 아닙니다. 실제 운임 중량 계산 방식과 구간은 항공사 요율표와 운송 조건이 정하므로 부킹 전에 그 항공사 자료로 확인하십시오. 포워더는 화물을 직접 재지 않고 화주의 패킹리스트·인보이스와 항공사·터미널의 계측 기록으로 판단한다는 전제로 썼습니다. AWB의 법적 성격은 <a href="/library/bl-awb/awb-basics">AWB 기초</a>, ULD 규격은 <a href="/library/air-uld/uld-code">ULD 코드와 대표 ULD</a>, 공항 보관료는 <a data-doc="ch-air-storage">인천공항 보관료: 종가료·종량료</a>에서 다룹니다.</p>
+
+<h3>1. 실중량, 부피 중량, 운임 중량</h3>
+<p>항공기는 무게와 공간이 모두 한정되어 있습니다. 가볍지만 부피가 큰 화물은 무게로만 받으면 공간을 차지한 만큼 운임을 받지 못하므로, 항공 운임은 부피를 무게로 바꾼 값과 실제 무게를 비교해 큰 쪽으로 계산합니다. 이때 쓰는 말은 세 가지입니다.</p>
+<table class="lib-table">
+<thead><tr><th>용어</th><th>뜻</th><th>AWB·견적서 표기</th></tr></thead>
+<tbody>
+<tr><td>실중량(Gross Weight, G/W)</td><td>포장재, 고정재, 받침(스키드·팔레트)까지 포함한 화물 전체의 무게</td><td>Gross Weight 칸</td></tr>
+<tr><td>부피 중량(Volume Weight, V/W)</td><td>화물의 가장 긴 길이 × 가장 넓은 폭 × 가장 높은 높이(cm)를 6,000으로 나눈 값(kg)</td><td>Nature and Quantity of Goods 칸에 치수나 부피로 적음</td></tr>
+<tr><td>운임 중량(Chargeable Weight, C/W)</td><td>실중량과 부피 중량 가운데 큰 값. 높은 중량 구간을 적용하면 그 구간의 최저 중량</td><td>Chargeable Weight 칸</td></tr>
+</tbody>
+</table>
+<p>ASEAN 교육 교재가 인용한 TACT 규칙 3.9.4는 화물이나 포장의 가장 긴 길이, 가장 넓은 폭, 가장 높은 높이로 부피를 정하고, 그 부피가 1kg당 평균 6,000cm³(366in³)를 넘는 화물은 부피 기준으로 운임을 매긴다고 적습니다. 파운드로 계산하면 1lb당 166in³입니다. 바꿔 말하면 1m³를 167kg 안팎(1,000,000 ÷ 6,000 = 166.67kg)으로 보는 셈이어서, 1m³당 167kg보다 가벼운 화물은 부피 중량으로, 무거운 화물은 실중량으로 운임이 정해집니다. 같은 교재는 실중량을 "모든 포장재와 고정재, 필요하면 받침과 특수 보강재까지 포함한 무게"로 설명합니다. 캐나다 교통청(CTA)의 운송약관 견본도 받침(skid)의 무게를 화물 중량에 넣는다고 적습니다.</p>
+<p>6,000은 IATA 항공화물 운임 규칙의 기준이고, 모든 운송에 같은 숫자가 쓰이는 것은 아닙니다. 특송(express) 회사는 다른 계수를 씁니다. 예를 들어 UPS 한국 홈페이지의 중량·크기 안내(2023년 보관본)는 "센티미터 단위의 부피 크기를 5,000으로 나누어" 부피 중량을 구한다고 적습니다. 5,000으로 나누면 같은 상자의 부피 중량이 6,000으로 나눌 때보다 20% 커집니다. 특송 견적과 항공화물 견적을 나란히 비교할 때는 계수부터 맞춰 봐야 합니다. 항공사도 특정 노선·품목에 예외 계수를 둘 수 있으므로 부킹하는 항공사의 요율 조건을 확인합니다.</p>
+<p class="lib-source">출처: Calculation of Air Freight, TACT 3.9.4 Volume Weight 인용(ASEAN 물류 교육 교재 Chapter 5) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a>; Tariff for the transportation of cargo between points in Canada and points outside Canada, Rule 7·Rule 28(캐나다 교통청 견본 약관) — <a href="https://otc-cta.gc.ca/eng/publication/tariff-transportation-cargo-between-points-canada-and-points-outside-canada" target="_blank" rel="noopener noreferrer">CTA 견본 약관</a>; 중량 및 크기 확인(UPS 한국, 2023. 5. 18. 웹 보관본) — <a href="https://web.archive.org/web/20230518094825/https://www.ups.com/kr/ko/support/shipping-support/shipping-dimensions-weight.page" target="_blank" rel="noopener noreferrer">UPS 한국 안내 보관본</a> (모두 2026년 10월 18일 확인)</p>
+
+<h3>2. 반올림 규칙: 치수는 반올림, 중량은 0.5kg 올림</h3>
+<p>운임 중량은 세 번 반올림을 거칩니다. 치수를 정수로 만들고, 부피 중량을 소수 셋째 자리까지 계산한 다음, 실중량과 부피 중량을 각각 0.5kg 단위로 올립니다. 순서를 바꾸면 결과가 달라지므로 순서도 규칙의 일부입니다.</p>
+<table class="lib-table">
+<thead><tr><th>단계</th><th>규칙</th><th>예</th></tr></thead>
+<tbody>
+<tr><td>① 치수(cm)</td><td>0.5cm 이상은 다음 정수로 올리고, 0.5cm 미만은 버림</td><td>67.7 → 68, 78.5 → 79, 11.3 → 11, 8.1 → 8</td></tr>
+<tr><td>① 치수(inch)</td><td>1/2인치 이상은 다음 정수로 올리고, 미만은 버림</td><td>67 7/8 → 68, 9 3/8 → 9</td></tr>
+<tr><td>② 부피 중량</td><td>정수 치수를 곱해 6,000(inch는 kg 366, lb 166)으로 나누고 소수 셋째 자리까지 계산</td><td>162 × 156 × 141 = 3,563,352cm³ ÷ 6,000 = 593.892kg</td></tr>
+<tr><td>③ 중량(kg)</td><td>0.1~0.4kg 끝수는 0.5kg으로 올리고, 정확히 0.5kg은 그대로, 0.51~0.99kg은 다음 1kg으로 올림. 실중량과 부피 중량 모두 적용</td><td>3.1 → 3.5, 23.5 → 23.5, 24.51 → 25.0, 593.892 → 594.0</td></tr>
+<tr><td>③ 중량(lb)</td><td>1lb 미만 끝수는 다음 1lb로 올림</td><td>28.6 → 29, 65lb 1oz → 66</td></tr>
+</tbody>
+</table>
+<p>위 규칙과 예는 TACT 규칙을 인용한 ASEAN 교재의 설명입니다. 항공사 공개 자료도 같은 방식을 씁니다. Uzbekistan Airways의 요율 안내는 "5mm 이상은 가장 가까운 정수 센티미터로 올리고 5mm 미만은 고려하지 않는다"고 적고, 같은 162.2 × 155.6 × 141.4cm 예로 594kg을 계산합니다. CTA 견본 약관은 "kg 끝수는 다음 0.5kg의 요금으로 계산한다", "부피를 계산하기 전에 0.5cm 미만은 버리고 0.5cm 이상은 1cm로 본다"고 적습니다. TACT 교재는 kg 기준 계산이 원칙이고, 미국 출발 화물만 kg이나 lb 가운데 골라 계산할 수 있다고 설명합니다.</p>
+<p>현장에서 흔한 실수는 치수를 올림하는 것입니다. 62.4cm를 63cm로 올리면 반올림 규칙보다 운임 중량이 커지고, 화주가 패킹리스트 치수로 다시 계산하면 차이가 드러납니다. 반대로 부피 중량을 소수 첫째 자리에서 먼저 자르고 0.5kg 올림을 하는 것도 규칙과 다릅니다. 소수 셋째 자리까지 계산한 값을 한 번에 올립니다.</p>
+<p class="lib-source">출처: Computation of Weights·Volume Weight(ASEAN 물류 교육 교재 Chapter 5, TACT 인용) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a>; Rates(Uzbekistan Airways) — <a href="https://corp.uzairways.com/en/rates-0" target="_blank" rel="noopener noreferrer">Uzbekistan Airways 요율 안내</a>; Rule 4 Disposition of Fractions(캐나다 교통청 견본 약관) — <a href="https://otc-cta.gc.ca/eng/publication/tariff-transportation-cargo-between-points-canada-and-points-outside-canada" target="_blank" rel="noopener noreferrer">CTA 견본 약관</a> (모두 2026년 10월 18일 확인)</p>
+
+<h3>3. 여러 개 화물, 불규칙한 모양, 팔레트와 ULD</h3>
+<h4>여러 개 화물: 부피를 모두 더한 뒤 한 번 나눈다</h4>
+<p>한 AWB에 실린 화물이 여러 개이면 각 상자의 부피 중량을 따로 반올림해 더하지 않습니다. 치수 줄마다 부피(cm³)를 구해 모두 더하고, 합계를 6,000으로 나눈 뒤 한 번만 0.5kg 올림을 합니다. TACT 교재는 123 × 113 × 110cm 1개와 89 × 99 × 109cm 1개를 예로 들어, 부피를 더해 2,489,289cm³ ÷ 6,000 = 414.881kg → 415.0kg으로 계산하는 것을 맞는 방법으로, 상자별로 255.0kg과 160.5kg을 구해 415.5kg으로 더하는 것을 틀린 방법(Incorrect)으로 표시합니다. 실중량도 총중량을 더한 값을 씁니다. 상자가 많을수록 상자별 반올림이 쌓여 차이가 커집니다.</p>
+<p>특송은 다르게 계산할 수 있다는 점도 알아 둡니다. 앞의 UPS 한국 안내(2023년 보관본)는 "여러 포장물을 배송하는 경우 배송에 포함된 모든 포장물의 청구 중량을 합산"한다고 적어, 상자마다 실중량과 부피 중량 중 큰 값을 골라 더하는 방식을 설명합니다. 같은 화물이라도 특송과 항공화물의 운임 중량이 다르게 나오는 이유 중 하나입니다.</p>
+<h4>불규칙한 모양: 가장 긴 곳, 가장 넓은 곳, 가장 높은 곳</h4>
+<p>원통, 기계, 돌출부가 있는 화물은 실제 부피가 아니라 화물을 감싸는 직육면체로 계산합니다. TACT 교재의 드럼 예는 지름 137.6cm, 높이 98.3cm를 138 × 138 × 98cm로 보고 1,866,312cm³ ÷ 6,000 = 311.052kg → 311.5kg으로 계산합니다. 팔레트 위에 화물이 튀어나와 있으면 팔레트가 아니라 튀어나온 끝까지가 길이이고, 높이는 팔레트 바닥부터 잽니다. 포워더는 화주에게 "팔레트 포함 최대 치수"를 패킹리스트에 적어 달라고 요청하는 것이 가장 확실합니다.</p>
+<h4>팔레트와 ULD</h4>
+<p>나무 팔레트나 스키드에 올린 화물은 팔레트 무게가 실중량에, 팔레트 높이가 부피에 들어갑니다. 항공사 ULD에 화주나 포워더가 빌드업해서 맡기는 화물(BUP, Built-Up Pallet)은 ULD 단위 요율을 적용할 수 있습니다. ULD 요율에서는 ULD 형식마다 피벗 중량(pivot weight)이 정해집니다. CTA 견본 약관은 피벗 중량을 "최소 요금으로 허용되는 최대 중량"으로, 초과 운임 중량을 "피벗 중량 최소 요금을 넘는 중량"으로 정의합니다. 즉 피벗 중량까지는 ULD 최소 요금을 내고, 넘는 무게는 초과 요율로 더 냅니다. 같은 약관은 실중량(Gross Weight)을 "용기와 내용물을 합친 실중량과 부피 중량 중 큰 값"으로, 순중량(Net Weight)을 "용기 총중량에서 용기 자중(tare)을 뺀 값"으로 따로 정의합니다. ULD 자중을 운임 중량에 넣는지 빼는지는 항공사의 ULD 요율 조건이 정하므로 함께 확인합니다. 구체적인 피벗 중량과 요율은 항공사마다 다르므로 해당 항공사 요율표로 확인합니다. ULD 바닥 크기와 최대 총중량은 <a href="/library/air-uld/uld-pallets">88·96인치 팔레트</a>, 빌드업은 <a href="/library/air-uld/uld-buildup">컨투어와 빌드업</a>, 온도관리 ULD처럼 자중이 커서 운임 중량에 영향을 주는 경우는 <a href="/library/temperature-cargo/tc-air-active">항공 액티브 컨테이너</a>를 보십시오.</p>
+<p class="lib-source">출처: Volume Weight with Multiple Pieces·Q&amp;A·Unitized Consignments(ASEAN 물류 교육 교재 Chapter 5, TACT 인용) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a>; 정의(Pivot Weight, Excess Chargeable Weight, Gross Weight, Shipment)(캐나다 교통청 견본 약관) — <a href="https://otc-cta.gc.ca/eng/publication/tariff-transportation-cargo-between-points-canada-and-points-outside-canada" target="_blank" rel="noopener noreferrer">CTA 견본 약관</a>; 중량 및 크기 확인(UPS 한국, 2023. 5. 18. 웹 보관본) — <a href="https://web.archive.org/web/20230518094825/https://www.ups.com/kr/ko/support/shipping-support/shipping-dimensions-weight.page" target="_blank" rel="noopener noreferrer">UPS 한국 안내 보관본</a> (모두 2026년 10월 18일 확인)</p>
+
+<h3>4. 요율 구조: 최소 운임(M), 기본 요율(N), 중량 구간 요율(Q)</h3>
+<p>항공 운임은 "운임 중량 × 적용 요율"이고, 그 결과가 최소 운임보다 작으면 최소 운임을 받습니다. 요율표는 보통 다음처럼 생겼습니다.</p>
+<table class="lib-table">
+<thead><tr><th>구분</th><th>뜻</th><th>공개 자료의 설명</th></tr></thead>
+<tbody>
+<tr><td>M(Minimum Charge)</td><td>건당 최소 운임. kg당 요율이 아니라 금액</td><td>TACT 교재(규칙 3.4): 중량·부피 요금이 최소 운임보다 낮으면 최소 운임을 적용하며, 최소 운임은 건(consignment)마다 적용</td></tr>
+<tr><td>N(Normal Rate)</td><td>가장 낮은 구간의 kg당 일반 화물 요율</td><td>대부분 나라에서 45kg 미만 화물에 적용. 일부 나라는 100kg까지 N을 적용</td></tr>
+<tr><td>Q(Quantity Rate)</td><td>정해진 최저 중량을 넘으면 적용하는 kg당 할인 요율</td><td>TACT 교재 예: Q45, Q100, Q250, Q500, Q1000. 일부 나라는 Q45를 두지 않음</td></tr>
+</tbody>
+</table>
+<p>중량 구간은 항공사가 정합니다. TACT 교재의 예는 45·100·250·500·1000kg이고, Uzbekistan Airways는 NORM(45kg까지)과 45·100·500·1000kg 구간을 둡니다. 이 문서의 예시 요율표는 -45, +45, +100, +300, +500, +1000kg 구간을 쓰지만, 실제 구간은 항공사·노선·계약마다 다르므로 받은 요율표의 구간을 그대로 따라야 합니다. Emirates SkyCargo의 현지 판매 조건(Local Sales Conditions)은 중량 구간이 "게시된 요율표에 명시된 순 요율(net rate)에만 적용된다"고 적습니다. TACT 교재도 공표 요율은 많은 지역에서 참고 지표이고 실제로는 항공사가 대리점에 판매 요율을 제시한다고 설명합니다.</p>
+<h4>AWB에 찍히는 요율 클래스 코드</h4>
+<p>AWB의 Rate Class 칸에는 어떤 요율을 적용했는지 한 글자 코드로 적습니다. IATA ONE Record 데이터 모델의 코드 목록(2026년 7월 표준)은 다음 값을 둡니다.</p>
+<table class="lib-table">
+<thead><tr><th>코드</th><th>IATA 코드 목록 이름</th><th>실무 의미</th></tr></thead>
+<tbody>
+<tr><td>M</td><td>Minimum Charge</td><td>최소 운임 적용</td></tr>
+<tr><td>N</td><td>Normal Rate</td><td>45kg 미만 기본 요율</td></tr>
+<tr><td>Q</td><td>Quantity Rate</td><td>중량 구간 요율(+45 이상)</td></tr>
+<tr><td>C</td><td>Specific Commodity Rate</td><td>특정 품목 요율(SCR). Commodity Item No. 칸에 품목 번호를 적음</td></tr>
+<tr><td>R / S</td><td>Class Rate Reduction / Class Rate Surcharge</td><td>품목 분류 요율. 기본 요율(N)에서 깎거나(R) 더한(S) 요율</td></tr>
+<tr><td>U / E / X / Y</td><td>ULD Basic Charge or Rate / ULD Additional Rate / ULD Additional Information / ULD Discount</td><td>ULD 단위 요율 관련</td></tr>
+<tr><td>B / K / P / W</td><td>Basic Charge / Rate per Kilogram / International Priority Service Rate / Weight Increase</td><td>그 밖의 코드</td></tr>
+</tbody>
+</table>
+<p>특정 품목 요율(SCR)은 특정 출발지와 도착지 사이에서 특정 품목에만 공표되는 요율로, 보통 일반 화물 요율보다 낮고 최저 중량 조건이 붙습니다. TACT 교재는 SCR이 품목 분류 요율보다, 품목 분류 요율이 일반 화물 요율보다 우선한다고 설명합니다. 품목 분류 요율(class rate)은 생동물, 귀중화물, 신문·서적 같은 인쇄물, 화물로 부치는 수하물, 유해 같은 품목에 일반 요율의 백분율로 정해집니다. 교재의 고양이 운송 예(페낭~홍콩)는 기본 요율의 150%를 적용하고, 실중량 35.0kg보다 큰 부피 중량 42.0kg(70 × 60 × 60cm ÷ 6,000)으로 계산합니다. 품목 요율도 운임 중량 계산 방식은 같다는 뜻입니다.</p>
+<p class="lib-source">출처: Applicable Rates and Charges, TACT 3.3·3.4·3.5·3.6·3.7 인용(ASEAN 물류 교육 교재 Chapter 5) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a>; Rates(Uzbekistan Airways) — <a href="https://corp.uzairways.com/en/rates-0" target="_blank" rel="noopener noreferrer">Uzbekistan Airways 요율 안내</a>; Local Sales Conditions Ireland(Emirates SkyCargo, 2026. 10. 1. 시행) — <a href="https://www.skycargo.com/media/pkwhdfws/01oct2026_lsc_europe-russia_ireland-ie.pdf" target="_blank" rel="noopener noreferrer">Emirates SkyCargo LSC</a>; RateClassCode 코드 목록(IATA ONE Record 2026-07 표준, IATA-1R-CL-Ontology) — <a href="https://github.com/IATA-Cargo/ONE-Record/tree/master/2026-07-standard/Data-Model" target="_blank" rel="noopener noreferrer">IATA ONE Record</a> (모두 2026년 10월 18일 확인)</p>
+
+<h3>5. 높은 구간이 더 싸면 높은 구간: 분기점 계산</h3>
+<p>중량 구간 요율은 구간이 올라갈수록 kg당 요율이 내려가므로, 다음 구간 바로 아래의 화물은 다음 구간의 최저 중량으로 계산하는 편이 오히려 쌀 수 있습니다. TACT 교재는 995kg 화물을 예로 들어 Q500 요율(995kg × AUD 2.10 = AUD 2,089.50)과 Q1000 요율(1,000kg × AUD 1.85 = AUD 1,850.00)을 비교하고, 더 낮은 금액인 1,000kg × 1.85를 적용한다고 설명합니다. 이때 AWB의 운임 중량은 실제 계산 중량 995kg이 아니라 적용한 구간의 최저 중량 1,000kg이 됩니다.</p>
+<p>어느 중량부터 높은 구간이 유리한지는 분기점(break point)으로 미리 계산할 수 있습니다. 공식은 "높은 구간의 최저 중량 × 높은 구간 요율 ÷ 낮은 구간 요율"이고, 결과를 0.5kg 단위로 올린 값부터 높은 구간을 적용합니다. 최소 운임과 기본 요율 사이도 같은 방식으로 "최소 운임 ÷ N 요율"을 계산합니다. 아래는 계산을 보이기 위한 예시 요율표입니다(원/kg, 할증료 별도, 실제 요율 아님).</p>
+<table class="lib-table">
+<thead><tr><th>구간</th><th>예시 요율</th><th>분기점 계산</th><th>결과</th></tr></thead>
+<tbody>
+<tr><td>M</td><td>70,000원(건당)</td><td>-</td><td>-</td></tr>
+<tr><td>N(-45kg)</td><td>6,000원</td><td>M → N: 70,000 ÷ 6,000 = 11.667kg</td><td>11.5kg까지는 M, 12.0kg부터 N</td></tr>
+<tr><td>+45kg</td><td>4,500원</td><td>N → +45: 45 × 4,500 ÷ 6,000 = 33.750kg</td><td>34.0kg부터 45kg × 4,500원 = 202,500원 적용</td></tr>
+<tr><td>+100kg</td><td>3,800원</td><td>+45 → +100: 100 × 3,800 ÷ 4,500 = 84.444kg</td><td>84.5kg부터 100kg × 3,800원 = 380,000원 적용</td></tr>
+<tr><td>+300kg</td><td>3,300원</td><td>+100 → +300: 300 × 3,300 ÷ 3,800 = 260.526kg</td><td>261.0kg부터 300kg × 3,300원 = 990,000원 적용</td></tr>
+<tr><td>+500kg</td><td>3,000원</td><td>+300 → +500: 500 × 3,000 ÷ 3,300 = 454.545kg</td><td>455.0kg부터 500kg × 3,000원 = 1,500,000원 적용</td></tr>
+<tr><td>+1000kg</td><td>2,700원</td><td>+500 → +1000: 1,000 × 2,700 ÷ 3,000 = 900.000kg</td><td>900kg에서 두 금액이 같고, 900kg을 넘으면 1,000kg × 2,700원이 유리</td></tr>
+</tbody>
+</table>
+<p>검산해 보면 +100과 +300 사이에서 260.5kg은 260.5 × 3,800 = 989,900원으로 990,000원보다 싸고, 261.0kg은 991,800원으로 990,000원보다 비쌉니다. 그래서 261.0kg부터 300kg 구간을 적용합니다. 분기점 표를 견적 양식에 넣어 두면 화주가 "300kg도 안 되는데 왜 300kg으로 적혀 있나요"라고 물을 때 바로 보여 줄 수 있습니다. 운임 중량이 늘어난 것처럼 보이지만 운임 총액은 내려간 경우입니다.</p>
+<p class="lib-source">출처: Lower Charge in Higher Weight Chargeable Weight·break back point(ASEAN 물류 교육 교재 Chapter 5, TACT 인용) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a>; 원화 요율은 이 문서의 예시값 (2026년 10월 18일 확인)</p>
+
+<h3>6. AWB 운임 칸 읽기</h3>
+<p>AWB 운임 칸(rating box)은 IATA 결의 600a의 표준 양식을 따르므로 항공사가 달라도 칸 이름이 같습니다. Amerijet이 공개한 AWB 양식의 칸 이름과 적는 내용은 다음과 같습니다.</p>
+<table class="lib-table">
+<thead><tr><th>칸</th><th>적는 내용</th></tr></thead>
+<tbody>
+<tr><td>No. of Pieces / RCP</td><td>총 포장 개수. RCP(Rate Combination Point)는 요율을 결합해 계산할 때 결합 지점 도시 코드</td></tr>
+<tr><td>Gross Weight</td><td>총 실중량</td></tr>
+<tr><td>kg / lb</td><td>중량 단위. K(킬로그램) 또는 L(파운드)</td></tr>
+<tr><td>Rate Class</td><td>M, N, Q, C 등 적용 요율 코드(4절 표)</td></tr>
+<tr><td>Commodity Item No.</td><td>SCR(C)을 적용할 때 품목 번호. 일반 화물(N·Q)은 보통 비움</td></tr>
+<tr><td>Chargeable Weight</td><td>운임 중량. 높은 구간을 적용했으면 그 구간의 최저 중량</td></tr>
+<tr><td>Rate / Charge</td><td>kg당 요율. M이면 최소 운임 금액</td></tr>
+<tr><td>Total</td><td>운임 중량 × 요율(M이면 최소 운임)</td></tr>
+<tr><td>Nature and Quantity of Goods (incl. Dimensions or Volume)</td><td>품명과 치수 또는 부피. 부피 중량 계산의 근거가 되는 칸</td></tr>
+</tbody>
+</table>
+<p>TACT 교재의 예는 신발 2상자(40 × 50 × 50cm × 2, 실중량 25.0kg)를 이렇게 적습니다. 부피 200,000cm³ ÷ 6,000 = 33.333kg → 33.5kg이 실중량보다 크므로 운임 중량은 33.5kg입니다.</p>
+<table class="lib-table">
+<thead><tr><th>Pieces</th><th>Gross Weight</th><th>kg/lb</th><th>Rate Class</th><th>Item No.</th><th>Chargeable Weight</th><th>Rate/Charge</th><th>Total</th><th>Nature and Quantity of Goods</th></tr></thead>
+<tbody>
+<tr><td>2</td><td>25.0</td><td>K</td><td>N</td><td></td><td>33.5</td><td>3.15</td><td>105.53</td><td>SHOES / DIMS: 40 x 50 x 50 cm x 2 / V.W: 33.5kg</td></tr>
+</tbody>
+</table>
+<p>33.5 × 3.15 = 105.525이고, 금액은 통화의 최소 단위로 반올림해 105.53이 됩니다. AWB를 검토할 때는 Gross Weight와 Chargeable Weight가 다르면 Nature and Quantity of Goods 칸에 치수나 부피가 있는지, 그 치수로 다시 계산하면 운임 중량이 나오는지를 확인합니다. AWB 전체 항목과 원본 3부는 <a href="/library/bl-awb/awb-basics">AWB 기초</a>를 보십시오.</p>
+<p class="lib-source">출처: Air Waybill 앞면 양식(Amerijet, 공개 양식) — <a href="https://pm6api-prod.amerijet.com/api/DocumentLibrary/RetrieveWPDocument/Air%20Waybill%20Front" target="_blank" rel="noopener noreferrer">Amerijet AWB 양식</a>; Chargeable Weight AWB 기재 예(ASEAN 물류 교육 교재 Chapter 5) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a>; RateClassCode(IATA ONE Record 2026-07 표준) — <a href="https://github.com/IATA-Cargo/ONE-Record/tree/master/2026-07-standard/Data-Model" target="_blank" rel="noopener noreferrer">IATA ONE Record</a> (모두 2026년 10월 18일 확인)</p>
+
+<h3>7. 계산 예시 세 가지</h3>
+<p>아래 예시는 모두 5절의 예시 요율표를 씁니다. 치수와 중량은 화주가 보낸 패킹리스트 값이라고 가정합니다.</p>
+<h4>예시 1. 상자 한 개: 10kg도 안 되는데 17kg</h4>
+<p>패킹리스트: 1상자, 62.4 × 41.6 × 38.5cm, 실중량 9.3kg</p>
+<table class="lib-table">
+<thead><tr><th>단계</th><th>계산</th><th>결과</th></tr></thead>
+<tbody>
+<tr><td>① 치수 반올림</td><td>62.4 → 62, 41.6 → 42, 38.5 → 39</td><td>62 × 42 × 39cm</td></tr>
+<tr><td>② 부피</td><td>62 × 42 × 39</td><td>101,556cm³</td></tr>
+<tr><td>③ 부피 중량</td><td>101,556 ÷ 6,000 = 16.926kg → 0.5kg 단위 올림</td><td>17.0kg</td></tr>
+<tr><td>④ 실중량</td><td>9.3kg → 0.5kg 단위 올림</td><td>9.5kg</td></tr>
+<tr><td>⑤ 운임 중량</td><td>17.0kg과 9.5kg 중 큰 값</td><td><b>17.0kg</b></td></tr>
+<tr><td>⑥ 요율 확인</td><td>N: 17.0 × 6,000 = 102,000원. 최소 운임 70,000원보다 크고, +45 적용(202,500원)보다 작음</td><td>N 적용</td></tr>
+<tr><td>⑦ 운임</td><td>17.0kg × 6,000원</td><td><b>102,000원</b></td></tr>
+</tbody>
+</table>
+<p>치수를 모두 올림해서 63 × 42 × 39cm로 계산하면 103,194cm³ ÷ 6,000 = 17.199kg → 17.5kg이 되어 3,000원이 더 붙습니다. 작은 화물일수록 반올림 방식 하나가 운임에 그대로 드러납니다.</p>
+<h4>예시 2. 크기가 다른 상자 다섯 개: 상자별로 올리면 1.5kg이 늘어난다</h4>
+<p>패킹리스트: A 2상자 55.5 × 40.2 × 35.0cm(개당 6.8kg), B 3상자 48.0 × 36.0 × 30.4cm(개당 5.4kg)</p>
+<table class="lib-table">
+<thead><tr><th>단계</th><th>계산</th><th>결과</th></tr></thead>
+<tbody>
+<tr><td>① 치수 반올림</td><td>A 56 × 40 × 35cm, B 48 × 36 × 30cm</td><td>-</td></tr>
+<tr><td>② 줄별 부피</td><td>A 78,400 × 2 = 156,800cm³, B 51,840 × 3 = 155,520cm³</td><td>-</td></tr>
+<tr><td>③ 총부피</td><td>156,800 + 155,520</td><td>312,320cm³(0.312m³)</td></tr>
+<tr><td>④ 부피 중량</td><td>312,320 ÷ 6,000 = 52.053kg → 0.5kg 단위 올림</td><td>52.5kg</td></tr>
+<tr><td>⑤ 실중량</td><td>6.8 × 2 + 5.4 × 3 = 29.8kg → 0.5kg 단위 올림</td><td>30.0kg</td></tr>
+<tr><td>⑥ 운임 중량</td><td>52.5kg과 30.0kg 중 큰 값</td><td><b>52.5kg</b></td></tr>
+<tr><td>⑦ 운임</td><td>+45 구간: 52.5 × 4,500원(+100 적용 380,000원보다 쌈)</td><td><b>236,250원</b></td></tr>
+</tbody>
+</table>
+<p>상자마다 부피 중량을 구해 올리면 A는 13.067kg → 13.5kg 두 개로 27.0kg, B는 8.640kg → 9.0kg 세 개로 27.0kg, 합계 54.0kg이 됩니다. 총부피로 한 번 계산한 52.5kg보다 1.5kg 많고 운임은 243,000원으로 6,750원 비쌉니다. 3절의 TACT 교재가 틀린 방법으로 표시한 계산이 바로 이것입니다.</p>
+<h4>예시 3. 가벼운 상자 열두 개: 270kg인데 300kg으로 계산</h4>
+<p>패킹리스트: 12상자, 상자마다 60 × 50 × 45cm, 개당 8.5kg</p>
+<table class="lib-table">
+<thead><tr><th>단계</th><th>계산</th><th>결과</th></tr></thead>
+<tbody>
+<tr><td>① 총부피</td><td>60 × 50 × 45 = 135,000cm³ × 12</td><td>1,620,000cm³(1.620m³)</td></tr>
+<tr><td>② 부피 중량</td><td>1,620,000 ÷ 6,000</td><td>270.0kg</td></tr>
+<tr><td>③ 실중량</td><td>8.5 × 12</td><td>102.0kg</td></tr>
+<tr><td>④ 운임 중량(계산)</td><td>270.0kg과 102.0kg 중 큰 값</td><td>270.0kg</td></tr>
+<tr><td>⑤ +100 구간 운임</td><td>270.0 × 3,800원</td><td>1,026,000원</td></tr>
+<tr><td>⑥ +300 구간 운임</td><td>300.0 × 3,300원(분기점 261.0kg 이상이므로 비교)</td><td>990,000원</td></tr>
+<tr><td>⑦ 적용</td><td>더 낮은 ⑥ 적용. AWB 운임 중량은 300.0kg, Rate Class Q</td><td><b>990,000원</b></td></tr>
+</tbody>
+</table>
+<p>실중량은 102kg이지만 1m³당 약 63kg(102 ÷ 1.62)으로 167kg보다 훨씬 가벼워 부피 중량이 운임을 정합니다. AWB 운임 칸에는 다음처럼 적힙니다.</p>
+<table class="lib-table">
+<thead><tr><th>Pieces</th><th>Gross Weight</th><th>kg/lb</th><th>Rate Class</th><th>Item No.</th><th>Chargeable Weight</th><th>Rate/Charge</th><th>Total</th><th>Nature and Quantity of Goods</th></tr></thead>
+<tbody>
+<tr><td>12</td><td>102.0</td><td>K</td><td>Q</td><td></td><td>300.0</td><td>3,300</td><td>990,000</td><td>GARMENTS / DIMS: 60 x 50 x 45 cm x 12 / VOL 1.620 M3</td></tr>
+</tbody>
+</table>
+<p class="lib-source">출처: 계산 방식은 ASEAN 물류 교육 교재 Chapter 5(TACT 인용) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a>; 치수·중량·요율은 이 문서의 예시값 (2026년 10월 18일 확인)</p>
+
+<h3>8. 혼재: House 운임 중량과 Master 운임 중량</h3>
+<p>포워더가 여러 화주의 화물을 모아 항공사에 한 건으로 맡기면(혼재, consolidation) 항공사는 Master AWB 한 장을 발행하고 포워더는 화주마다 House AWB를 발행합니다. 운임 중량도 두 층으로 계산됩니다. House AWB는 그 화주 화물만으로, Master AWB는 혼재 화물 전체를 한 건으로 보고 계산합니다. CTA 견본 약관은 "한 건(shipment)"을 한 송하인이 한 번에 맡겨 "한 AWB로 운송되는" 한 개 이상의 화물로 정의하고, 3절의 TACT 규칙대로 여러 개 화물은 총실중량과 총부피 중량을 비교합니다. 그래서 Master에서는 무거운 화물의 남는 무게 여유가 가벼운 화물의 부피를 흡수합니다.</p>
+<h4>예시 4. 세 화주의 혼재</h4>
+<table class="lib-table">
+<thead><tr><th>House</th><th>화물(패킹리스트)</th><th>실중량</th><th>부피</th><th>부피 중량</th><th>House 운임 중량</th></tr></thead>
+<tbody>
+<tr><td>H1 기계 부품</td><td>4상자, 50 × 40 × 30cm, 개당 45kg</td><td>180.0kg</td><td>240,000cm³</td><td>40.0kg</td><td>180.0kg(실중량)</td></tr>
+<tr><td>H2 쿠션</td><td>10상자, 80 × 60 × 50cm, 개당 6kg</td><td>60.0kg</td><td>2,400,000cm³</td><td>400.0kg</td><td>400.0kg(부피 중량)</td></tr>
+<tr><td>H3 샘플</td><td>2상자, 40 × 30 × 30cm, 개당 6kg</td><td>12.0kg</td><td>72,000cm³</td><td>12.0kg</td><td>12.0kg</td></tr>
+<tr><td><b>합계</b></td><td>16상자</td><td><b>252.0kg</b></td><td><b>2,712,000cm³</b></td><td><b>452.0kg</b></td><td><b>House 합계 592.0kg</b></td></tr>
+</tbody>
+</table>
+<p>Master AWB의 운임 중량은 총실중량 252.0kg과 총부피 중량 452.0kg(2,712,000 ÷ 6,000) 가운데 큰 452.0kg입니다. House 운임 중량 합계 592.0kg보다 140.0kg 작습니다. 이 140kg은 H1의 실중량 180kg과 부피 중량 40kg의 차이와 같습니다. H1은 무게로 운임을 내지만 공간은 40kg어치만 쓰고, 그 남는 무게를 H2의 부피가 채운 셈입니다. 예시 요율표로 Master를 계산하면 452.0kg은 +300 구간이고(+500 분기점 455.0kg 미만) 452.0 × 3,300 = 1,491,600원입니다.</p>
+<p>이 차이는 계산 규칙에서 나오는 결과입니다. 화물마다 큰 값을 골라 더한 합(House 합계)은 전체를 더한 뒤 큰 값을 고른 값(Master)보다 언제나 크거나 같습니다. 반올림도 Master는 한 번, House는 화주마다 한 번씩 하므로 같은 방향으로 작용합니다. 같은 규칙으로 계산하면 Master 운임 중량은 House 운임 중량 합계보다 클 수 없고, 무거운 화물과 가벼운 화물이 섞일수록 차이가 커집니다. 모두 가벼운 화물이거나 모두 무거운 화물이면 차이가 거의 없습니다.</p>
+<p>화주에게 청구하는 운임 중량은 그 화주의 House AWB에 적힌 값이고, 그 화주 화물의 치수와 중량으로 계산한 것이므로 화주가 자기 패킹리스트로 다시 계산할 수 있습니다. Master의 운임 중량과 매입 요율은 포워더와 항공사 사이의 계약 내용입니다. 화주가 Master와 House의 차이를 물으면 House 운임 중량이 어떻게 계산됐는지를 근거와 함께 보여 주고, Master 운임 중량을 House 운임 중량인 것처럼 적거나 반대로 House 치수를 바꿔 적지 않아야 합니다. House AWB에 적힌 중량·치수가 화주 서류와 다르면 그 자체가 분쟁의 원인이 됩니다. 포워더가 House AWB를 자기 이름으로 발행할 때의 지위는 <a href="/library/bl-awb/awb-basics">AWB 기초</a> 6절을 보십시오.</p>
+<p>ULD를 포워더가 직접 빌드업해 BUP로 맡기면 Master 운임은 3절의 피벗 중량 방식으로 매겨질 수 있습니다. 이 경우 ULD에 무엇을 어떻게 섞어 싣느냐가 피벗 중량을 얼마나 채우는지를 좌우하므로 계산 결과가 느슨한 화물(loose)로 맡길 때와 다릅니다.</p>
+<p class="lib-source">출처: Volume Weight with Multiple Pieces(ASEAN 물류 교육 교재 Chapter 5, TACT 인용) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a>; 정의 Shipment·Pivot Weight(캐나다 교통청 견본 약관) — <a href="https://otc-cta.gc.ca/eng/publication/tariff-transportation-cargo-between-points-canada-and-points-outside-canada" target="_blank" rel="noopener noreferrer">CTA 견본 약관</a>; 치수·중량·요율은 이 문서의 예시값 (2026년 10월 18일 확인)</p>
+
+<h3>9. 항공사 계측과 다를 때: 재계량, 정정, 운임 중량과 배상 한도</h3>
+<p>AWB의 중량과 치수는 송하인이 제공한 명세를 근거로 적히고, 항공사는 화물 인수(acceptance) 때 그 명세를 확인합니다. 신고값과 다르면 운임이 바뀌거나 부킹이 무효가 될 수 있습니다. 항공사 공개 조건에서 확인되는 내용은 다음과 같습니다.</p>
+<table class="lib-table">
+<thead><tr><th>자료</th><th>내용</th></tr></thead>
+<tbody>
+<tr><td>Emirates SkyCargo 아랍에미리트 출발 LSC(2026. 10. 1. 시행)</td><td>요율은 고객이 준 부킹 정보를 기준으로 하며 부킹 내용이 바뀌면 요율이 바뀔 수 있음. 재계량(Re-weighing)은 운임 중량 kg당 AED 0.15, 최저 AED 150. 청구 후 90일이 지나 발행하는 운임 정정 통지(CCA, Charges Correction Advice)에는 CCA 수수료 AED 150</td></tr>
+<tr><td>Emirates SkyCargo 프랑스 출발 LSC(2026. 10. 1. 시행)</td><td>공간 약정은 송하인이나 대리인이 준 화물 명세를 기준으로 하며, 인수 때 명세에 눈에 띄는 차이가 있으면 부킹이 무효가 되고 다음 가능한 편으로 다시 부킹될 수 있음. 청구 금액 이의는 청구일부터 90일 안에, CCA는 AWB 발행일부터 최대 12개월까지. 중량 오류 등에 따른 CCA 수수료 항목을 따로 둠</td></tr>
+</tbody>
+</table>
+<p>항공사가 계측한 중량이나 치수가 Master AWB(부킹 내용)와 다르면 항공사는 계측값으로 운임을 다시 계산해 CCA로 정정할 수 있고, 그 차액과 수수료가 포워더에게 청구됩니다. 포워더가 할 일은 화주의 패킹리스트와 항공사·터미널의 계측 기록을 대조해 차이가 어디서 났는지(치수 표기 오류, 팔레트 미포함, 포장 변경) 찾고, 화주와의 계약에 따라 정산하는 것입니다. 수수료 금액과 이의 기간은 항공사와 출발 국가마다 다르므로 해당 항공사의 현지 조건을 확인합니다.</p>
+<p>운임 중량은 운임 계산에만 쓰입니다. 몬트리올 협약 제22조 제3항은 화물 책임 한도를 kg당 금액으로 정하고(현재 kg당 26 SDR), 제4항은 화물 일부가 멸실·손상된 경우 한도 계산에 "해당 포장의 총중량"만 고려한다고 정합니다. TACT 교재도 운송인의 책임은 부피 중량이나 운임 중량이 아니라 실중량을 기준으로 한다고 설명합니다. 부피 중량으로 운임을 많이 냈다고 배상 한도가 늘어나지 않으므로, 가볍고 비싼 화물은 적하보험이나 운송 가액 신고(declared value for carriage)를 따로 검토해야 합니다. 책임 한도의 내용은 <a href="/library/cargo-insurance/ins-carrier-liability">운송인 책임과 한도</a>를 보십시오.</p>
+<p class="lib-source">출처: Local Sales Conditions United Arab Emirates(Emirates SkyCargo, 2026. 10. 1. 시행) — <a href="https://www.skycargo.com/media/xqynmo0m/01oct2026_lsc_me-uae_uae-ae.pdf" target="_blank" rel="noopener noreferrer">Emirates SkyCargo UAE LSC</a>; Local Sales Conditions France(Emirates SkyCargo, 2026. 10. 1. 시행) — <a href="https://www.skycargo.com/media/2xqgkukn/01oct2026_lsc_europe-russia_france-fr.pdf" target="_blank" rel="noopener noreferrer">Emirates SkyCargo France LSC</a>; Montreal Convention 1999 제22조(legislation.gov.uk) — <a href="https://www.legislation.gov.uk/ukpga/1961/27/schedule/1B" target="_blank" rel="noopener noreferrer">Montreal Convention 영문</a>; Valuation Charges(ASEAN 물류 교육 교재 Chapter 5) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a> (모두 2026년 10월 18일 확인)</p>
+
+<h3>10. 포워더 점검표</h3>
+<h4>견적 전</h4>
+<ul class="lib-check">
+<li>화주에게 상자별 치수(cm), 개수, 개당 실중량이 적힌 패킹리스트를 받는다. 팔레트에 올렸으면 팔레트 포함 최대 치수와 팔레트 포함 중량을 적어 달라고 한다.</li>
+<li>치수는 0.5cm 기준으로 반올림하고, 줄별 부피를 모두 더한 뒤 6,000으로 한 번 나눈다. 상자별로 올림해 더하지 않는다.</li>
+<li>실중량과 부피 중량을 각각 0.5kg 단위로 올리고 큰 값을 운임 중량으로 잡는다.</li>
+<li>적용 구간을 정한 뒤 바로 위 구간의 최저 중량으로 계산한 금액과 비교한다. 분기점 표를 견적 양식에 넣어 둔다.</li>
+<li>요율표가 항공사 요율인지 특송 요율인지, 부피 계수가 6,000인지 다른 값인지 확인한다.</li>
+<li>할증료(유류·보안 등)가 실중량 기준인지 운임 중량 기준인지 항공사 공지로 확인하고 견적에 적는다.</li>
+<li>ULD·BUP로 진행하면 항공사의 피벗 중량과 초과 요율을 받아 따로 계산한다.</li>
+</ul>
+<h4>반입·계측 후</h4>
+<ul class="lib-check">
+<li>항공사·터미널이 기록한 개수, 중량, 치수를 화주 패킹리스트와 대조한다.</li>
+<li>차이가 나면 화주에게 바로 알리고 포장 변경, 팔레트 추가, 치수 표기 오류 중 무엇인지 화주 서류·사진으로 확인한다.</li>
+<li>운임 중량이 바뀌어 적용 구간이 달라지는지 다시 계산하고, 바뀐 금액을 화주에게 근거와 함께 알린다.</li>
+<li>항공사 현지 조건에서 재계량 수수료와 CCA 수수료, 이의 기간을 확인한다.</li>
+</ul>
+<h4>AWB 발행 전</h4>
+<ul class="lib-check">
+<li>Gross Weight, Chargeable Weight, Rate Class, Rate/Charge, Total이 서로 맞는지 계산해 본다.</li>
+<li>높은 구간을 적용했으면 Chargeable Weight에 그 구간의 최저 중량이 들어갔는지 확인한다.</li>
+<li>Gross Weight와 Chargeable Weight가 다르면 Nature and Quantity of Goods 칸에 치수나 부피를 적는다.</li>
+<li>혼재 화물은 House AWB마다 그 화주 화물의 중량·치수로 운임 중량을 계산하고, Master AWB는 총실중량과 총부피로 따로 계산한다. House 합계와 Master의 차이를 기록으로 남긴다.</li>
+<li>House AWB의 중량·치수가 화주 서류와 같은지 마지막으로 대조한다.</li>
+</ul>
+<p>화주에게 설명할 때는 이렇게 정리하면 됩니다. "항공 운임은 실제 무게와 부피를 무게로 바꾼 값(가로 × 세로 × 높이 cm ÷ 6,000) 가운데 큰 쪽으로 계산합니다. 보내 주신 상자는 62 × 42 × 39cm라 부피 중량이 17.0kg이고 실제 무게 9.5kg보다 커서 17.0kg으로 계산했습니다. 치수는 0.5cm 기준으로 반올림하고 무게는 0.5kg 단위로 올리는 국제 규칙을 따랐습니다. 또 무게 구간 요율은 다음 구간 최저 중량으로 계산한 금액이 더 싸면 그 금액을 적용하므로, 운임 중량이 실제보다 크게 적혀 있어도 총액은 낮아진 것입니다. 계산 내역을 함께 보내 드립니다."</p>
+<p class="lib-source">출처: 계산 규칙은 ASEAN 물류 교육 교재 Chapter 5(TACT 인용) — <a href="https://asean.org/wp-content/uploads/2023/02/Air-Freight-C5.-Calculation-of-Air-Freight-PPT-Trainer-V2.pdf" target="_blank" rel="noopener noreferrer">ASEAN 교재</a>; 항공사 조건은 Emirates SkyCargo Local Sales Conditions — <a href="https://www.skycargo.com/media/xqynmo0m/01oct2026_lsc_me-uae_uae-ae.pdf" target="_blank" rel="noopener noreferrer">UAE LSC</a>, <a href="https://www.skycargo.com/media/2xqgkukn/01oct2026_lsc_europe-russia_france-fr.pdf" target="_blank" rel="noopener noreferrer">France LSC</a> (모두 2026년 10월 18일 확인)</p>
