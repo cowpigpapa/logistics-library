@@ -503,6 +503,13 @@ def overview_inner(slug, landing, overview_doc):
         table = next((m for t, m in kids if 'class="lib-table-wrap' in m[:60]), '')
         notes = ''.join(m for t, m in kids if t != 'summary' and 'class="lib-table-wrap' not in m[:60])
         out += f'<section class="li-src"><h2>원문과 공식 자료</h2>{table}{notes}</section>'
+    # 관련 영상(카테고리 JS의 VIDEOS): 썸네일 카드 목록만 옮긴다.
+    span = find_element(landing, r'<details class="[^"]*\blib-videos\b')
+    if span:
+        kids = children(inner_of(landing[span[0]:span[1]]))
+        videos = next((m for t, m in kids if 'class="lib-video-list' in m[:60]), '')
+        if videos:
+            out += f'<section class="li-videos"><h2>관련 영상</h2>{videos}</section>'
     return out
 
 

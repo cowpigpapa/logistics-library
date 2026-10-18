@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261017-01';
+  const DOCS_VERSION = '20261018-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -81,6 +81,18 @@
           .map(d => `<li><a href="${link(d.id)}">${esc(d.short || d.title.split(' — ')[0])}</a></li>`)
           .join('')}</ul></div>`
     ).join('')}</div></section>`;
+  // 관련 영상(뉴스·공식 채널). 새 영상은 이 목록에 한 줄 더한다.
+  const VIDEOS = [
+    { id: 'f_5x5x3ztBk', title: "스프레이통 가득 싣고 가다 '쾅'…운전자 2명 사망", source: 'SBS 8뉴스', date: '2025. 9. 11.', note: '평택제천고속도로 추돌 사고. 가연성 스프레이(에어로졸) 수천 개를 실은 1톤 화물차가 폭발로 이어진 사례로, 소량 위험물도 운송 중 사고가 나면 피해가 커진다는 것을 보여 줍니다.' }
+  ];
+  // 관련 영상: 썸네일 카드로 보여 주고 누르면 YouTube에서 연다(페이지에 플레이어를 넣지 않아 가볍다).
+  const videoSection = () =>
+    VIDEOS.length
+      ? `<section class="lib-section lib-videos"><h3>관련 영상</h3><div class="lib-video-list">${VIDEOS.map(
+          v =>
+            `<a class="lib-video" href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"><span class="lib-video-text"><b>${esc(v.title)}</b><small>${esc(v.source)} · ${esc(v.date)} · YouTube ↗</small><span>${esc(v.note)}</span></span></a>`
+        ).join('')}</div></section>`
+      : '';
   function renderList(view) {
     const official = `<section class="lib-section lib-official"><h3>공식 자료</h3><div class="lib-table-wrap"><table class="lib-table lib-official-table"><thead><tr><th>자료</th><th>발행 기관</th><th>내용</th><th></th></tr></thead><tbody>${OFFICIAL.map(officialRow).join('')}</tbody></table></div></section>`;
     const sections = SECTIONS.map(
@@ -94,7 +106,8 @@
     view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>위험물, 무엇을 배워야 하나</h2><p>국제운송의 위험물 규칙은 UN 권고를 뿌리로 항공(ICAO·IATA), 해상(IMDG), 도로(ADR)가 같은 분류를 씁니다. 반면 한국 국내법은 위험물안전관리법, 화학물질관리법, 고압가스 안전관리법 등으로 나뉘어 있어 같은 화물이 창고와 수출 서류에서 서로 다르게 취급됩니다. 이 자료는 위험물 자체가 아니라 <b>교육 의무와 법체계, 그리고 사례</b>를 정리합니다.</p><a class="lib-summary-button" href="${link('dg-rules')}">국제 위험물 운송 규칙 한눈에 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('위험물의 분류·포장·표시·서류 작성 방법은 다루지 않습니다. 그 내용은 각 규칙의 최신판과 지정 교육기관의 교육에서 확인하세요. 해설은 AI가 법령과 공개 자료를 읽고 작성했으며 법률 자문이 아닙니다. 조문과 사례에는 바로 아래에 출처를 달았습니다. 법령은 개정될 수 있으니 실제 판단은 국가법령정보센터의 현행 조문과 관할 기관의 안내를 기준으로 하세요.')}</p></div></div></div>
       ${official}
       ${stagePath()}
-      ${sections}`;
+      ${sections}
+      ${videoSection()}`;
     makeFoldable(view);
   }
   // 첫 화면 구간 접기. 펼친 상태는 같은 탭 안에서만 기억한다.

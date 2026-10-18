@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/temperature-cargo';
-  const DOCS_VERSION = '20261017-01';
+  const DOCS_VERSION = '20261018-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -72,6 +72,19 @@
           .map(d => `<li><a href="${link(d.id)}">${esc(d.short || d.title.split(' — ')[0])}</a></li>`)
           .join('')}</ul></div>`
     ).join('')}</div></section>`;
+  // 관련 영상(뉴스·공식 채널). 새 영상은 이 목록에 한 줄 더한다.
+  const VIDEOS = [
+    { id: 'xrKASMYmBgA', title: '기름 값 아끼려고…냉동·냉장 식품 운반차 온도계 조작 적발', source: 'MBN 굿모닝 MBN', date: '2024. 11. 1.', note: '연료비를 아끼려고 냉동차 온도계를 조작한 일당 검거 보도. 온도 기록만 믿지 말고 기록 장치의 신뢰성도 확인해야 하는 이유입니다.' },
+    { id: 'g4_4k9Z663o', title: '상하면 어쩌나...배송차 온도 조작장치 수천 개 유통', source: 'YTN 사이언스', date: '2024. 11. 1.', note: '냉장·냉동차 온도 조작 장치를 만들어 판 업체와 이를 쓴 기사들이 입건된 사건. 장치가 5천 개 가까이 유통된 것으로 보도됐습니다.' }
+  ];
+  // 관련 영상: 썸네일 카드로 보여 주고 누르면 YouTube에서 연다(페이지에 플레이어를 넣지 않아 가볍다).
+  const videoSection = () =>
+    VIDEOS.length
+      ? `<section class="lib-section lib-videos"><h3>관련 영상</h3><div class="lib-video-list">${VIDEOS.map(
+          v =>
+            `<a class="lib-video" href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"><span class="lib-video-text"><b>${esc(v.title)}</b><small>${esc(v.source)} · ${esc(v.date)} · YouTube ↗</small><span>${esc(v.note)}</span></span></a>`
+        ).join('')}</div></section>`
+      : '';
   function renderList(view) {
     const official = `<section class="lib-section lib-official"><h3>공식 자료</h3><div class="lib-table-wrap"><table class="lib-table lib-official-table"><thead><tr><th>자료</th><th>발행 기관</th><th>내용</th><th></th></tr></thead><tbody>${OFFICIAL.map(officialRow).join('')}</tbody></table></div></section>`;
     const sections = SECTIONS.map(
@@ -85,7 +98,8 @@
     view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>온도유지 화물, 항공과 해상은 온도를 지키는 방식이 다르다</h2><p>의약품·신선식품처럼 정해진 온도를 지켜야 하는 화물은 항공에서는 단열 포장(패시브)이나 전원으로 온도를 유지하는 컨테이너(액티브)로, 해상에서는 리퍼 컨테이너로 운송합니다. 온도대 표기와 의약품 유통 기준, 방식별 구조와 준비할 것, 리퍼 설정 실수와 실제 사고 사례를 포워더 실무 관점에서 정리했습니다.</p><a class="lib-summary-button" href="${link('tc-basics')}">기초와 규정부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('EU GDP, WHO, 한국 KGSP 등 공식 기준과 IATA 공개 자료, 장비 제조사 사양서, 선사 리퍼 가이드, P&I 보고서, 판례를 바탕으로 정리했습니다. IATA TCR·DGR 본문은 싣지 않고 공개 자료 범위에서 요약했습니다. 제품명은 비교를 위한 예시입니다. 해설은 AI가 작성했으며 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
-      ${sections}`;
+      ${sections}
+      ${videoSection()}`;
     makeFoldable(view);
   }
   // 첫 화면 구간 접기. 펼친 상태는 같은 탭 안에서만 기억한다.

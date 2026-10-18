@@ -1,0 +1,97 @@
+{
+ "r3-001": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "관세 법령·고시를 설명하는 통관 문서라 정식 이름 적재화물목록이 맞고, 첫 등장에 \"흔히 적하목록\"이라 밝혀 실무 독자도 알아본다."
+ },
+ "r3-002": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "관세법 조문을 설명하는 문장에서만 법령 이름 화물운송주선업자를 쓰고 나머지는 포워더라 문맥에 맞다."
+ },
+ "r3-003": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "관세사·관세법인·통관취급법인을 함께 가리키는 법령 용어라 첫 등장에 풀어 쓰면 된다."
+ },
+ "r3-004": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "항공 운임 문맥에서 Gross Weight를 부피 중량과 대비할 때 실무는 실중량이라 부른다. 다른 문서의 총중량(VGM·CTU)은 문맥이 다르다."
+ },
+ "r3-005": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "사이트 기존 표기(부피 중량)와 맞고 뜻이 분명하다."
+ },
+ "r3-006": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "기존 기준(운임 중량, 과금 중량 ×)과 같다."
+ },
+ "r3-007": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "운임톤(R/T)으로 처음 풀고 그 뒤 R/T만 쓰면 실무 표기와도 맞다."
+ },
+ "r3-008": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "LCL 실무에서 consolidator를 콘솔사라고 흔히 부른다."
+ },
+ "r3-009": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "co-loader는 실무에서 코로더라 부른다."
+ },
+ "r3-010": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "수입 CFS에서 컨테이너 화물을 꺼내는 작업은 적출이 실무·고시 용어다."
+ },
+ "r3-011": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "관세청 고시가 쓰는 말이 통과선하증권이다."
+ },
+ "r3-012": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "관세청 안내 용어(비가공증명서)와 같다."
+ },
+ "r3-013": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "법령·협정 해설 문맥이라 제3국 송장이 정식 표기다."
+ },
+ "r3-014": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "RCEP·한-아세안의 back-to-back 원산지증명서를 관세청이 연결원산지증명서라 부른다."
+ },
+ "r3-015": {
+  "verdict": "other",
+  "better": "원산지증명서(C/O)",
+  "reason": "실무에서 C/O로 부르는 일이 많아 문서 첫 등장에 원산지증명서(C/O)로 병기하면 찾기 쉽다. 그 뒤는 원산지증명서."
+ },
+ "r3-016": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "FTA 특례법의 정식 용어다."
+ },
+ "r3-017": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "관세법 제222조의 등록 업자 이름이다."
+ },
+ "r3-018": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "관세청 용어(화물관리번호, MRN·MSN·HSN)다."
+ },
+ "r3-019": {
+  "verdict": "keep",
+  "better": "",
+  "reason": "첫 등장에 유류할증료(BAF)처럼 한국어를 붙이고 그 뒤 약어만 쓰는 것이 기존 병기 원칙과 맞다."
+ }
+}

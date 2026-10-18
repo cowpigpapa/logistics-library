@@ -233,6 +233,17 @@
 .li-ov-doc { margin-top: 26px; }
 .li-src { margin-top: 28px; }
 .li-src h3, .li-src > h2 { margin: 0 0 10px; color: var(--navy); font-size: 18px; }
+/* 관련 영상(개요 화면): 썸네일 카드, 누르면 YouTube 새 창 */
+.li-videos { margin-top: 28px; }
+.li-videos > h2 { margin: 0 0 10px; color: var(--navy); font-size: 18px; }
+.lib-video-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.lib-video { display: grid; grid-template-rows: auto 1fr; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: inherit; text-decoration: none; transition: border-color .15s, box-shadow .15s; }
+.lib-video:hover { border-color: #9fc0de; box-shadow: 0 2px 8px rgba(18, 50, 80, .08); }
+.lib-video img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: #dce9f5; }
+.lib-video-text { display: grid; gap: 4px; padding: 10px 12px 12px; }
+.lib-video-text b { color: var(--navy); font-size: 14px; line-height: 1.45; }
+.lib-video-text small { color: var(--muted); font-size: 12px; }
+.lib-video-text span { color: var(--text); font-size: 13px; line-height: 1.6; }
 .li-ov-doc .lib-article h2.lib-doc-title { margin: 8px 0 12px; font-size: 22px; line-height: 1.3; }
 /* 본문 검색: 색인 줄 아래 본문 일치 미리보기, 열린 문서 안의 표시 */
 .li-snip { display: block; margin: 0 0 6px 10px; color: var(--muted); font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
