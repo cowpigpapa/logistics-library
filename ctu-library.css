@@ -826,7 +826,21 @@
 
 /* Cubestow에 실릴 때의 왼쪽 색인(ctu-library.js indexShell). 모양은 library-index.css를 그대로 쓰고, 바깥 칸(.library-view)이 이미 폭·여백을 주므로 겹치는 것만 뺀다. */
 .ctu-index-shell { background: none; }
-.ctu-index-shell .li-main { width: 100%; padding-block: 0; }
+.ctu-index-shell .li-main,
+.ctu-index-shell.li-body .li-main { width: 100%; padding-block: 0; } /* library-index.css의 고정 푸터용 아래 여백(76px)을 뺀다 */
+.library-view:has(> .ctu-index-shell) { padding-bottom: 28px; }
+/* Cubestow CTU Code 화면에서는 푸터를 Logistics Library처럼 한 줄로 낮춘다(다른 Cubestow 화면은 그대로). */
+body:has(#libraryView:not([hidden]) > .ctu-index-shell) > .site-footer {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 4px 18px;
+  padding-block: 12px;
+}
+body:has(#libraryView:not([hidden]) > .ctu-index-shell) > .site-footer .footer-brand strong { font-size: 15px; }
+body:has(#libraryView:not([hidden]) > .ctu-index-shell) > .site-footer .footer-brand span { font-size: 12px; }
+body:has(#libraryView:not([hidden]) > .ctu-index-shell) > .site-footer .footer-meta { grid-column: auto; flex-wrap: wrap; }
+@media (max-width: 760px) {
+  body:has(#libraryView:not([hidden]) > .ctu-index-shell) > .site-footer { grid-template-columns: 1fr; gap: 6px; padding: 14px 20px; }
+}
 .ctu-index-shell .li-view > .lib-head:first-child,
 .ctu-index-shell .li-view > .lib-crumb:first-child { margin-top: 0; }
 /* 개요 카드의 기본 모양(Logistics Library는 styles.css에 있다. Cubestow에는 없으므로 색인 칸 안에서만 같은 값을 준다). */
