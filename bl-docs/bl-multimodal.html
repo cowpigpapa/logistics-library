@@ -1,0 +1,207 @@
+<p>부산에서 배에 실어 로테르담에 내린 컨테이너가 기차와 트럭을 갈아타고 체코 공장에 도착했는데 문을 열어 보니 화물이 깨져 있었다면, 누가 어떤 법으로 물어 줄까요? 화주는 B/L 한 장으로 공장 문 앞까지 맡겼으니 그 B/L을 발행한 포워더에게 묻고, 포워더는 어느 구간에서 사고가 났는지부터 따져야 합니다. 구간이 밝혀지면 그 구간의 법이, 밝혀지지 않으면 따로 정해 둔 기본 규칙이 적용되기 때문입니다. 이 문서는 복합운송이 무엇이고 복합운송증권(FIATA FBL 등)이 일반 선하증권(B/L)과 무엇이 다른지, 손해 구간을 알 때와 모를 때 상법 제816조와 FBL 약관이 각각 어떤 답을 내는지, 포워더가 복합운송인이 되는 경우와 기한 관리, 경로별 사례를 정리합니다. 구간별 책임 한도 숫자는 <a href="/library/cargo-insurance/ins-carrier-liability">운송인 책임과 한도</a>에서 다루므로 여기서는 필요한 만큼만 씁니다.</p>
+
+<p class="lib-summary"><b>핵심 3줄</b><br>① 복합운송인은 두 가지 이상의 운송 수단을 묶은 운송 전체를 자기 이름으로 맡은 사람이고, 자기 명의로 운송계약을 맺고 House B/L이나 FBL을 발행한 포워더는 복합운송인이 될 수 있습니다(대법원 2019다213009, FBL 약관 제2.1조).<br>② 손해가 난 구간을 알면 상법은 그 구간에 적용될 법을(제816조 제1항), FBL은 그 구간의 강행 협약·강행 국내법이 정한 한도를(제8.6.1조) 적용합니다. 구간을 모르면 상법은 운송거리가 가장 긴 구간의 법(대개 해상)을, FBL은 포장당 666.67 SDR 또는 kg당 2 SDR 중 큰 금액을 적용합니다.<br>③ 통지·제소 기한도 구간마다 다르고 FBL 약관은 인도 후 연속 6일 안의 서면 통지와 9개월 안의 제소를 정하므로, 사고가 나면 구간을 가릴 기록(기기인수도증, 인수증, 씰 번호)을 먼저 모으고 가장 짧은 기한에 맞춰 움직여야 합니다.</p>
+
+<p class="lib-disclaimer">이 문서의 조문·협약·판례는 2026년 10월 18일 확인 기준입니다. 상법은 시행 2026. 9. 10. 법률 제21044호, 물류정책기본법은 시행 2025. 10. 1., 같은 법 시행규칙은 시행 2026. 4. 2. 본문을 국가법령정보센터에서 확인했습니다. UNCTAD/ICC 복합운송증권 규칙은 유료 원본(ICC Publication 481) 대신 대학이 공개한 스페인어판 사본으로, FIATA FBL 약관은 FIATA가 게시한 1992년 표준약관 영문으로 읽었고, 실제 사건에서는 그 B/L 뒷면에 인쇄된 약관 판과 준거법 조항이 결과를 정합니다. 포워더는 화물을 직접 검사하지 않고 화주 서류와 운송인·터미널 기록으로 판단한다는 전제로 썼습니다. 이 문서는 법률 자문이 아니므로 큰 사고는 변호사와 보험사의 안내를 받으십시오. 구간별 책임 한도는 <a href="/library/cargo-insurance/ins-carrier-liability">운송인 책임과 한도</a>, 운송 수단별 통지·제소 기한 전체 표는 <a href="/library/cargo-insurance/ins-claims">사고와 클레임 절차</a>, 포워더가 운송인으로 판단되는 기준은 <a href="/library/cargo-insurance/ins-forwarder">포워더와 보험</a>에서 다룹니다.</p>
+
+<h3>1. 복합운송이란: 계약이 하나이고 책임지는 사람이 하나</h3>
+<p>대법원은 복합운송계약을 "운송물을 육상운송, 해상운송, 항공운송 중 적어도 두 가지 이상의 서로 다른 운송수단을 결합하여 운송을 수행하는 것"이라고 설명합니다(대법원 2019. 7. 10. 선고 2019다213009 판결). UNCTAD/ICC 복합운송증권 규칙은 "적어도 두 가지 운송 수단에 의한 물건 운송을 위한 하나의 계약"이라고 정의하고(제2.1조), 발효되지 않은 1980년 UN 국제물건복합운송협약도 복합운송계약에 기초해 적어도 두 가지 다른 운송 수단으로 하는 운송이라고 정의합니다(제1조 제1항).</p>
+<p>세 정의에 공통된 핵심은 수단이 여러 개라는 점보다 계약이 하나라는 점입니다. 화주가 트럭 회사, 선사, 철도 회사와 각각 계약하면 그것은 운송 세 건이고, 사고가 나면 화주가 그 구간 운송인을 찾아가야 합니다. 반대로 한 사람이 수취지(Place of Receipt)부터 인도지(Place of Delivery)까지 전체를 맡으면, 화주는 그 한 사람에게 청구하고 그 사람이 다시 구간 운송인에게 구상합니다. 이 한 사람이 복합운송인(MTO, Multimodal Transport Operator)입니다.</p>
+
+<h4>상법 제816조는 해상이 낀 복합운송의 조문입니다</h4>
+<p>상법 제816조는 제5편 해상 제2장 운송과 용선 중 개품운송 절에 있고, 제1항이 "운송인이 인수한 운송에 해상 외의 운송구간이 포함된 경우"라고 시작합니다. 그래서 이 조문은 해상운송을 중심으로 육상·항공 구간이 붙은 복합운송을 다룹니다. 항공과 트럭만으로 이루어진 운송에는 제816조가 직접 적용되지 않고, 항공 구간과 공항 밖 운송의 경계는 상법 항공운송편 제913조 제2항·제3항(공항 밖 운송의 추정과 대체 운송)과 몬트리올 협약 제18조 제4항·제38조가 정합니다(8절 사례 2).</p>
+
+<h4>서류 이름보다 칸과 약관을 봅니다</h4>
+<p>실무에서는 Combined Transport B/L, Multimodal Transport B/L, "Bill of Lading for Ocean or Multimodal Transport"처럼 이름이 섞여 쓰입니다. 이름보다 중요한 것은 수취지·인도지 칸이 채워졌는지와 뒷면 약관이 그 구간의 책임을 어떻게 정하는지입니다. 예를 들어 Maersk 계열 포워딩 회사의 House B/L 약관은 수취지나 인도지 칸 중 하나라도 채워지면 복합운송(Multimodal Transport), 그렇지 않으면 항구 간 운송(Port-to-Port Shipment)으로 정의합니다(제1.1조). 같은 양식이라도 칸을 어떻게 채우느냐에 따라 발행자가 책임지는 구간이 달라집니다.</p>
+<table class="lib-table">
+<thead><tr><th>B/L 칸</th><th>항구 간(Port to Port)</th><th>복합운송(Door to Door 등)</th><th>포워더가 볼 점</th></tr></thead>
+<tbody>
+<tr><td>Place of Receipt</td><td>비워 두거나 선적항과 같게</td><td>내륙 공장·CFS·내륙 기지 등</td><td>여기부터 발행자의 책임 구간이 시작될 수 있습니다.</td></tr>
+<tr><td>Port of Loading / Port of Discharge</td><td>선적항·양하항</td><td>바다 구간의 양 끝</td><td>Master B/L과 같아야 합니다.</td></tr>
+<tr><td>Place of Delivery</td><td>비워 두거나 양하항과 같게</td><td>도착지 내륙 창고·공장</td><td>실제로 도착지 내륙 운송을 맡지 않았다면 적지 않습니다.</td></tr>
+<tr><td>Pre-carriage by / Ocean Vessel</td><td>선명·항차</td><td>선적항까지의 운송 수단과 선명·항차</td><td>구간별 운송 수단이 사고 때 적용 법을 가립니다.</td></tr>
+</tbody></table>
+<p>신용장 거래에서는 UCP 600 제19조(조문 제목: Transport Document Covering at least Two Different Modes of Transport)가 복합운송 서류의 심사를 따로 다룹니다. UCP 600은 ICC 유료 간행물이라 이 문서에서는 조문 번호와 제목만 가리킵니다. B/L의 종류 전반과 통 B/L(Through B/L)은 <a data-doc="bl-basics">B/L 기초</a> 3절을 보십시오.</p>
+
+<h4>FIATA FBL: 포워더가 쓰는 유통성 복합운송증권</h4>
+<p>FBL(Negotiable FIATA Multimodal Transport Bill of Lading)은 국제운송주선인협회연맹(FIATA)이 만든 표준 복합운송증권입니다. 약관 제3.1조는 "non negotiable" 표시가 없으면 유통성 형식으로 발행되고 화물에 대한 권리증권이 되며, 소지인은 배서로 화물을 받거나 넘길 수 있다고 정합니다. FBL 서식에는 ICC 로고가 ICC가 이 서류를 UNCTAD/ICC 규칙에 맞는다고 보았다는 표시일 뿐이고, ICC가 서류를 보증하거나 소송의 당사자가 된다는 뜻은 아니라는 문구가 인쇄되어 있습니다. FIATA의 전자 FBL 안내는 발행자가 FIATA 또는 그 국가 협회의 유효한 회원이고 유효한 배상책임보험을 갖고 있어야 한다고 설명합니다. 약관은 운송 수단이 하나뿐인 경우에도 적용됩니다(제1조).</p>
+<p>상법에는 복합운송증권을 따로 정의하거나 그 효력을 정한 조문이 없습니다. 제816조는 책임 구간만 정할 뿐이므로, 유통성과 권리증권성은 서류 문구와 약관, 준거법에 기대게 됩니다. 유통성 서류이므로 원본 회수 인도, 서렌더, 원본 없는 인도의 위험은 일반 B/L과 같습니다(<a data-doc="bl-release">화물 인도 실무</a>).</p>
+<p class="lib-source">출처: 대법원 2019. 7. 10. 선고 2019다213009 판결 판결요지 [1](국가법령정보센터) — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=208733" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; 상법 제816조·제913조(국가법령정보센터, 시행 2026. 9. 10.) — <a href="https://www.law.go.kr/법령/상법/제816조" target="_blank" rel="noopener noreferrer">law.go.kr 상법 제816조</a>; Reglas de la UNCTAD y la CCI relativas a los documentos de transporte multimodal 제2조(UNCTAD/ICC Rules 1992 스페인어판, 대학 공개 사본) — <a href="https://ocw.uca.es/mod/resource/view.php?id=4924" target="_blank" rel="noopener noreferrer">UNCTAD/ICC 규칙</a>; United Nations Convention on International Multimodal Transport of Goods(1980) 제1조(오슬로대 조약 자료실) — <a href="https://jus.uio.no/english/services/library/treaties/07/7-05/multimodal-transport-goods.html" target="_blank" rel="noopener noreferrer">1980 협약 원문</a>; Standard Conditions (1992) governing the FIATA Multimodal Transport Bill of Lading 제1조·제3조(대학 공개 사본) — <a href="https://ocw.uca.es/mod/resource/view.php?id=4925" target="_blank" rel="noopener noreferrer">FBL 약관</a>; eFBL Frequently Asked Questions(FIATA) — <a href="https://www.efbl.fiata.org/faq" target="_blank" rel="noopener noreferrer">efbl.fiata.org</a>; House Bill of Lading for Ocean or Multimodal Transport cl. 1.1(Maersk) — <a href="https://terms.maersk.com/HBL" target="_blank" rel="noopener noreferrer">terms.maersk.com/HBL</a></p>
+
+<h3>2. 복합운송인은 누구인가: 포워더가 그 자리에 서는 경우</h3>
+<p>세 규칙 모두 복합운송인을 복합운송계약을 맺고 그 이행에 운송인(본인)으로서 책임을 지는 사람으로 봅니다. 대리인이 아니라는 점을 명시한 것은 1980년 협약입니다.</p>
+<table class="lib-table">
+<thead><tr><th>근거</th><th>복합운송인의 정의(요지)</th></tr></thead>
+<tbody>
+<tr><td>UNCTAD/ICC 규칙 제2.2조</td><td>복합운송계약을 체결하고 운송인(porteador)으로서 그 이행에 책임을 지는 사람</td></tr>
+<tr><td>FIATA FBL 약관 정의 조항</td><td>"Freight Forwarder"는 이 FBL을 발행하고 앞면에 이름이 적혀 있으며 운송인으로서 복합운송계약의 이행에 책임을 지는 복합운송인</td></tr>
+<tr><td>1980 UN 협약 제1조 제2항(미발효)</td><td>자기 또는 다른 사람을 통해 복합운송계약을 체결하고, 송하인이나 운송인의 대리인이 아니라 본인으로 행동하며 계약 이행에 책임을 지는 사람</td></tr>
+<tr><td>대법원 2019다213009</td><td>국제물류주선업자가 자기 명의로 운송계약을 체결하고 운송을 인수하면 복합운송인의 지위를 취득해 그 운송계약의 권리·의무 주체가 됨</td></tr>
+</tbody></table>
+<p>대법원은 그 근거로 물류정책기본법 시행규칙이 국제물류주선업자가 자기 이름으로 선하증권과 항공화물운송장을 발행할 수 있음을 전제하고 있다는 점을 들었습니다. 현행 시행규칙 제5조 제2항 제2호는 국제물류주선업 등록 신청 때 "자기 명의로 발행할 한글 또는 영문으로 작성된 선하증권 및 항공화물운송장의 양식ㆍ약관에 관한 서류"를 내도록 하고, 물류정책기본법 제2조 제1항 제11호는 국제물류주선업을 "자기의 명의와 계산으로" 수출입화물의 물류를 주선하는 사업으로 정의합니다.</p>
+
+<h4>같은 포워더라도 서는 자리는 세 가지입니다</h4>
+<table class="lib-table">
+<thead><tr><th>자리</th><th>전형적인 모습</th><th>화주에 대한 책임</th></tr></thead>
+<tbody>
+<tr><td>운송주선인(대리인)</td><td>화주 이름으로 선사 B/L을 받아 주고, 내륙 트럭은 화주가 따로 계약하거나 포워더가 주선만 함</td><td>운송인 선택·인도 등에서 주의를 다했음을 증명하지 못하면 배상(상법 제115조), 수하인 수령일부터 1년 소멸시효(제121조)</td></tr>
+<tr><td>항구 간 운송인</td><td>자기 명의 House B/L을 선적항~양하항으로 발행하고, 앞뒤 트럭은 별도 주선</td><td>바다 구간은 운송인으로(상법 해상편), 트럭 구간은 주선인으로 책임이 갈릴 수 있음</td></tr>
+<tr><td>복합운송인</td><td>자기 명의 House B/L·FBL에 내륙 수취지·인도지를 적고 한 덩어리 운임을 받음</td><td>전 구간에 운송인으로 책임. 하청 트럭·철도·선사의 잘못도 화주에게는 포워더의 책임(FBL 제2.2조, UNCTAD/ICC 규칙 제4.2조)</td></tr>
+</tbody></table>
+<p>어느 자리에 서는지는 서류 한 장으로 정해지지 않고, 계약의 취지와 B/L 발행 명의, 운임을 받는 방식, 실제로 한 일을 함께 보아 판단됩니다. 그 판단 기준과 대법원 2007다4943 판결은 <a href="/library/cargo-insurance/ins-forwarder">포워더와 보험</a> 2절에, House B/L 서명란의 "as Carrier"와 "as Agent for the Carrier"의 차이는 <a data-doc="bl-basics">B/L 기초</a> 4절에 있습니다. 2019다213009 사건에서는 운송뿐 아니라 항만 하역, 보관, 물류정보까지 포함한 종합물류 계약이었는데도 대법원은 그 핵심을 복합운송으로 보았습니다. 계약 이름이 "물류운영용역"이어도 핵심이 공장에서 도착지까지의 운송이면 복합운송계약으로 보아 상법 제816조로 판단한다는 뜻입니다. 이 사건에서는 해상 구간이 가장 긴 피고들에게 해상운송인의 1년 제척기간(제814조 제1항)이 적용되어 화주의 소가 기간 도과로 부적법하다고 판단되었고, 육상 거리가 더 긴 피고들에게는 육상 규정이 적용되었습니다.</p>
+<p class="lib-source">출처: UNCTAD/ICC Rules 1992 제2.2조·제4.2조(스페인어판, 대학 공개 사본) — <a href="https://ocw.uca.es/mod/resource/view.php?id=4924" target="_blank" rel="noopener noreferrer">UNCTAD/ICC 규칙</a>; FBL Standard Conditions(1992) Definitions, cl. 2.1·2.2 — <a href="https://ocw.uca.es/mod/resource/view.php?id=4925" target="_blank" rel="noopener noreferrer">FBL 약관</a>; 1980 UN 협약 제1조 제2항 — <a href="https://jus.uio.no/english/services/library/treaties/07/7-05/multimodal-transport-goods.html" target="_blank" rel="noopener noreferrer">1980 협약 원문</a>; 대법원 2019. 7. 10. 선고 2019다213009 판결 — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=208733" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; 물류정책기본법 제2조(시행 2025. 10. 1.), 같은 법 시행규칙 제5조(시행 2026. 4. 2.)(국가법령정보센터) — <a href="https://www.law.go.kr/법령/물류정책기본법시행규칙/제5조" target="_blank" rel="noopener noreferrer">law.go.kr 시행규칙 제5조</a>; 상법 제115조·제121조 — <a href="https://www.law.go.kr/법령/상법/제115조" target="_blank" rel="noopener noreferrer">law.go.kr 상법 제115조</a></p>
+
+<h3>3. 책임 체계: 네트워크 책임제와 단일 책임제</h3>
+<p>복합운송인의 책임을 정하는 방식은 크게 둘입니다. <b>네트워크 책임제</b>(network system)는 손해가 난 구간을 찾아 그 구간에 원래 적용될 규칙으로 책임을 정합니다. 바다에서 났으면 해상 규칙, 유럽 트럭에서 났으면 CMR식입니다. <b>단일 책임제</b>(uniform system)는 어느 구간에서 났든 복합운송 계약 하나의 규칙으로 책임을 정합니다. 현실의 규칙은 대부분 둘을 섞은 "수정" 방식입니다.</p>
+<table class="lib-table">
+<thead><tr><th>규칙</th><th>방식</th><th>구간을 알 때</th><th>구간을 모를 때</th><th>지위</th></tr></thead>
+<tbody>
+<tr><td>한국 상법 제816조</td><td>네트워크</td><td>그 구간에 적용될 법에 따라 책임(제1항)</td><td>운송거리가 가장 긴 구간의 법. 거리가 같거나 정할 수 없으면 운임이 가장 비싼 구간의 법(제2항)</td><td>한국법이 준거법일 때 적용</td></tr>
+<tr><td>UNCTAD/ICC 규칙(1992), FIATA FBL 약관(1992)</td><td>수정 네트워크</td><td>책임 원칙은 그대로 두고, 그 구간만 따로 계약했다면 적용됐을 국제 협약·강행 국내법이 다른 한도를 정하면 그 한도(규칙 제6.4조, FBL 제8.6.1조)</td><td>포장당 666.67 SDR 또는 kg당 2 SDR 중 큰 금액, 해상·내수로 구간이 계약에 없으면 kg당 8.33 SDR(규칙 제6.1조·제6.3조, FBL 제8.3조·제8.5조)</td><td>계약에 넣어야 적용되는 민간 규칙과 표준 약관. 강행 법규에 반하는 범위에서는 효력 없음(규칙 제13조, FBL 제7.1조)</td></tr>
+<tr><td>1980 UN 국제물건복합운송협약</td><td>수정 단일</td><td>책임 원칙은 하나(제16조 제1항). 그 구간 협약·강행법의 한도가 협약보다 <b>높으면</b> 그 한도(제19조)</td><td>포장당 920 SDR 또는 kg당 2.75 SDR 중 큰 금액, 해상·내수로가 없으면 kg당 8.33 SDR(제18조)</td><td>미발효</td></tr>
+<tr><td>로테르담 규칙(2008)</td><td>해상 포함 운송의 단일 규칙 + 제한적 네트워크</td><td>해상 전후 구간에서만 난 손해이고, 그 구간에 강행 국제 협약이 있으면 그 협약의 책임·한도·제소기간 규정이 우선(제26조)</td><td>협약 규정</td><td>미발효</td></tr>
+<tr><td>몬트리올 협약(1999)</td><td>항공 구간에만 적용</td><td>복합운송에서는 항공 구간에만 협약 적용(제38조 제1항)</td><td>공항 밖 육상 운송이 항공운송계약 이행 중 적재·인도·환적 목적이면 항공운송 중 손해로 추정(제18조 제4항, 반증 가능)</td><td>한국 발효(2007. 12. 29.)</td></tr>
+<tr><td>CMR 제2조</td><td>도로 중심의 네트워크</td><td>트럭이 화물을 내리지 않고 배·철도·항공으로 실려 간 구간에서, 트럭 운송인의 행위가 아니라 그 수단에서만 생길 수 있는 사건으로 난 손해임이 증명되면 그 수단의 규칙</td><td>CMR이 전 구간에 적용</td><td>유럽 등 당사국. 한국은 비당사국</td></tr>
+</tbody></table>
+<p>표에서 눈여겨볼 차이가 하나 있습니다. 1980년 협약 제19조는 구간 규칙의 한도가 협약보다 높을 때만 그 한도를 쓰지만, UNCTAD/ICC 규칙 제6.4조와 FBL 제8.6.1조는 "다른 한도(another limit)"라고만 써서 높든 낮든 그 구간의 강행 한도를 따릅니다. 그래서 FBL에서는 구간을 밝히는 일이 화주에게 유리할 수도, 포워더에게 유리할 수도 있습니다. 한도를 올리고 싶으면 인수 전에 화물의 성질과 가액을 신고하고 종가 운임(ad valorem freight)을 내 FBL에 적는 방법이 있습니다(FBL 제8.3조).</p>
+<p>FBL은 구간을 알든 모르든 책임 원칙 자체는 같습니다. 복합운송인은 자기와 사용인, 하청 운송인에게 과실이 없었음을 증명하지 못하면 화물을 맡은 동안 생긴 멸실·훼손에 책임을 집니다(제6.2조). 연착은 송하인이 적시 인도에 관한 이익을 신고하고 포워더가 받아들여 FBL에 적은 경우에만 책임지고, 그 한도는 운임의 2배입니다(제6.2조·제8.7조). UNCTAD/ICC 규칙은 연착 한도를 운임 상당액으로 정해(제6.5조) FBL과 다릅니다. 바다·내수로 구간에서는 항해·선박 관리 과실과 화재 면책이 따로 있습니다(FBL 제6.7조, 규칙 제5.4조).</p>
+<p class="lib-source">출처: 상법 제816조(국가법령정보센터, 시행 2026. 9. 10.) — <a href="https://www.law.go.kr/법령/상법/제816조" target="_blank" rel="noopener noreferrer">law.go.kr 상법 제816조</a>; UNCTAD/ICC Rules 1992 제5조·제6조·제13조(스페인어판) — <a href="https://ocw.uca.es/mod/resource/view.php?id=4924" target="_blank" rel="noopener noreferrer">UNCTAD/ICC 규칙</a>; FBL Standard Conditions(1992) cl. 6·7·8 — <a href="https://ocw.uca.es/mod/resource/view.php?id=4925" target="_blank" rel="noopener noreferrer">FBL 약관</a>; 1980 UN 협약 제16조·제18조·제19조 — <a href="https://jus.uio.no/english/services/library/treaties/07/7-05/multimodal-transport-goods.html" target="_blank" rel="noopener noreferrer">1980 협약 원문</a>; United Nations Convention on Contracts for the International Carriage of Goods Wholly or Partly by Sea(2008) 제1조 제1항·제26조·제82조(UNCITRAL) — <a href="https://uncitral.un.org/sites/uncitral.un.org/files/media-documents/uncitral/en/rotterdam-rules-e.pdf" target="_blank" rel="noopener noreferrer">로테르담 규칙 원문</a>; Montreal Convention 1999 제18조·제38조(IATA 게시 원문) — <a href="https://www.iata.org/contentassets/fb1137ff561a4819a2d38f3db7308758/mc99-full-text.pdf" target="_blank" rel="noopener noreferrer">MC99 원문</a>; CMR 제1조·제2조(UNTS vol. 399) — <a href="https://treaties.un.org/doc/Publication/UNTS/Volume%20399/volume-399-I-5742-English.pdf" target="_blank" rel="noopener noreferrer">CMR 원문</a></p>
+
+<h3>4. 손해 구간을 알 때: 그 구간의 법으로 갑니다</h3>
+<h4>상법: 한도만이 아니라 책임 규정 전체</h4>
+<p>상법 제816조 제1항은 복합운송인이 "손해가 발생한 운송구간에 적용될 법에 따라 책임을 진다"고 정합니다. 문언이 한도에 한정되어 있지 않으므로, 그 구간 법의 책임 원인, 면책, 한도, 통지와 제소 기간이 함께 따라온다고 읽는 것이 자연스럽습니다. 대법원 판결 두 건이 이와 같은 방향을 보여 줍니다(다만 두 판결 모두 제816조 제1항의 범위 자체를 판단한 것은 아닙니다).</p>
+<ul>
+<li><strong>육상 구간이면 해상 한도가 붙지 않습니다.</strong> 대법원 2025. 11. 13. 선고 2025다211111 판결은 인천항에서 부산항까지 트럭으로 옮긴 뒤 바다로 수출하는 복합운송에서, 해상운송인이 리퍼 컨테이너 온도를 화주 요청(영상 18℃)과 달리 영하 18℃로 설정하게 했고 트럭 운송 중 화물이 냉동 손상된 사건입니다. 대법원은 상법 제797조의 해상 책임 제한이 "해상운송 도중 또는 해상운송과 밀접 불가분하여 사실상 해상운송의 일부로 평가되는 부분"에서 생긴 손해에만 적용된다고 보고, 육상운송 중 생긴 이 손해에 대해 컨테이너를 제공한 해상운송인(선사)의 책임을 제797조로 제한한 원심 부분을 파기했습니다(적하보험자가 보험금을 지급한 뒤 선사 등을 상대로 낸 구상금 소송입니다). 상법 육상운송 규정에는 kg당 한도가 없습니다(제137조).</li>
+<li><strong>육상 구간이면 기간도 육상 규정을 따릅니다.</strong> 대법원 2009. 8. 20. 선고 2008다58978 판결은 손해 구간이 육상운송 구간임이 명백한 경우, 복합운송증권이 정한 9개월 제소기간이 유효하다고 했습니다. 해상운송의 1년 기간은 합의로 늘릴 수는 있어도 줄일 수 없는 반면, 육상운송인의 책임 시효(상법 제147조가 준용하는 제121조, 수령일부터 1년)는 당사자 합의로 늘리거나 줄일 수 있다고 본 것입니다.</li>
+</ul>
+
+<h4>FBL: 그 구간만 따로 계약했다면</h4>
+<p>FBL 제8.6.1조는 손해가 복합운송의 특정 단계에서 생겼고, 그 단계에 대해 별도 운송계약을 맺었다면 적용됐을 국제 협약이나 강행 국내법이 다른 한도를 정하고 있으면, 그 협약이나 법으로 한도를 정한다고 합니다. 유럽 내륙 운송을 예로 들면 다음과 같습니다. 숫자의 근거와 원화 환산은 <a href="/library/cargo-insurance/ins-carrier-liability">운송인 책임과 한도</a>를 보십시오.</p>
+<table class="lib-table">
+<thead><tr><th>손해가 확인된 구간</th><th>따로 계약했다면 적용될 규칙</th><th>화물 손해 한도</th></tr></thead>
+<tbody>
+<tr><td>바다(부산~로테르담)</td><td>FBL 제7.2조는 선적국에서 시행되는 헤이그 규칙 또는 헤이그-비스비 규칙을 바다·내수로 운송에 적용</td><td>헤이그-비스비 규칙이면 포장·단위당 666.67 SDR 또는 kg당 2 SDR 중 큰 금액</td></tr>
+<tr><td>국경을 넘는 유럽 트럭</td><td>CMR(인수지와 인도지가 다른 나라이고 그중 하나가 당사국, 제1조)</td><td>총중량 kg당 8.33 SDR</td></tr>
+<tr><td>COTIF 회원국 사이 국제 철도</td><td>CIM(COTIF 부속서 B, 제1조)</td><td>총중량 kg당 17 계산단위(SDR)(제30조 제2항)</td></tr>
+<tr><td>한국 국내 트럭(공장~부산항)</td><td>상법 상행위편 육상운송</td><td>법정 kg당 한도 없음. 도착지 가격 기준 배상(제137조)</td></tr>
+</tbody></table>
+<p>마지막 줄은 판단이 어렵습니다. 한국 국내 트럭 구간에는 FBL 제8.6.1조가 끌어올 강행 "한도"가 없으므로 포워더는 약관 기본 한도(제8.3조)를 주장하게 되지만, 상법 제816조 제1항이 육상운송 규정 전체를 가리키고 2025다211111 판결이 이 구간에 해상 한도를 붙이지 않았다는 점에서 다툼이 생길 수 있습니다. 이 문서에서는 결론을 단정하지 않습니다. 확실한 것은 수출 전 국내 트럭 구간이 포워더에게 생각보다 큰 위험 구간이라는 점입니다.</p>
+
+<h4>누가 구간을 증명하나</h4>
+<p>상법 제816조와 FBL은 누가 구간을 증명해야 하는지 따로 적지 않습니다. 다만 구조상 특정 구간의 규칙을 쓰고 싶은 쪽이 그 구간에서 손해가 났다는 사실을 보여야 하고, 보여 주지 못하면 5절의 "구간을 모를 때" 규칙으로 넘어갑니다. 한도가 높은 구간(예: CIM, CMR)을 원하는 쪽은 대개 화주이고, 한도가 낮은 구간이나 면책이 넓은 해상 구간을 원하는 쪽은 대개 복합운송인입니다. 조문이 증명 방향을 직접 정한 예도 있습니다. CMR 제2조 제1항 단서는 다른 수단 구간의 손해가 트럭 운송인의 행위가 아니라 그 수단에서만 생길 수 있는 사건으로 생겼음이 "증명된 범위에서" 그 수단의 규칙을 적용하고, 몬트리올 협약 제18조 제4항은 공항 밖 트럭 운송이 적재·인도·환적 목적이면 항공운송 중 손해로 추정하되 반증을 허용합니다.</p>
+<p>포워더는 화물을 직접 보지 않으므로, 구간을 가리는 증거는 운송인·터미널·창고가 남긴 기록입니다. 컨테이너가 손을 바꿀 때마다 작성되는 기기인수도증(EIR), 터미널의 손상 기록(Exception List), 철도·트럭 인수증의 이상 기재, 구간마다 적힌 씰 번호, 리퍼 컨테이너의 온도 기록이 그것입니다. 이 기록에 이상이 처음 나타난 지점이 사실상 손해 구간의 출발점이 됩니다.</p>
+<p class="lib-source">출처: 대법원 2025. 11. 13. 선고 2025다211111 판결 판결요지 [1]·[2](국가법령정보센터) — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=613051" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; 대법원 2009. 8. 20. 선고 2008다58978 판결 판결요지 — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=140171" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; 상법 제121조·제137조·제147조·제797조·제816조(국가법령정보센터, 시행 2026. 9. 10.) — <a href="https://www.law.go.kr/법령/상법/제816조" target="_blank" rel="noopener noreferrer">law.go.kr 상법</a>; FBL Standard Conditions(1992) cl. 7.2·8.3·8.6 — <a href="https://ocw.uca.es/mod/resource/view.php?id=4925" target="_blank" rel="noopener noreferrer">FBL 약관</a>; CMR 제1조·제2조, 1978 의정서로 바뀐 제23조 제3항(UNTS vol. 399, vol. 1208) — <a href="https://treaties.un.org/doc/Publication/UNTS/Volume%20399/volume-399-I-5742-English.pdf" target="_blank" rel="noopener noreferrer">CMR 원문</a>, <a href="https://treaties.un.org/doc/Publication/UNTS/Volume%201208/volume-1208-I-19487-English.pdf" target="_blank" rel="noopener noreferrer">1978 의정서</a>; COTIF 1999 Appendix B(CIM) 제1조·제30조(OTIF 비공식 통합본, 2023. 11. 1. 판) — <a href="https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf" target="_blank" rel="noopener noreferrer">COTIF 1999 통합본</a>; Montreal Convention 1999 제18조 제4항 — <a href="https://www.iata.org/contentassets/fb1137ff561a4819a2d38f3db7308758/mc99-full-text.pdf" target="_blank" rel="noopener noreferrer">MC99 원문</a></p>
+
+<h3>5. 손해 구간을 모를 때: 기본 규칙과 증명</h3>
+<p>씰을 채운 FCL 컨테이너는 문 앞에서 열어 볼 때까지 안을 아무도 보지 않습니다. 중간 기록에 이상이 하나도 없는데 도착지에서 화물이 젖어 있거나 쓰러져 있으면 어느 구간에서 생긴 손해인지 알 수 없습니다. 결로처럼 여러 구간에 걸쳐 조금씩 생기는 손해나 연착도 한 구간으로 특정하기 어렵습니다. 상법 제816조 제2항이 "손해의 발생이 성질상 특정한 지역으로 한정되지 아니하는 경우"를 따로 적은 이유입니다.</p>
+
+<h4>상법: 운송거리가 가장 긴 구간의 법</h4>
+<p>제816조 제2항은 구간이 불분명하거나 성질상 한 지역으로 한정되지 않으면 운송거리가 가장 긴 구간에 적용되는 법을, 거리가 같거나 가장 긴 구간을 정할 수 없으면 운임이 가장 비싼 구간에 적용되는 법을 따르게 합니다. 대법원 2019다213009 판결은 이를 받아 "해상운송 구간이 가장 길다면 해상운송에 관한 규정을 적용하여야 한다"고 했습니다. 이 사건에서는 복합운송인이 발주 물량을 제대로 운송하지 못해 화주가 다른 회사에 대체 운송을 맡기며 쓴 추가 비용이 구간을 특정할 수 없는 손해로 다뤄졌고, 판결은 이어서 해상운송인의 1년 제척기간(상법 제814조 제1항)을 운송물이 인도되지 않은 경우에도 "인도할 날"을 기준으로 따져야 한다고 했습니다.</p>
+<p>한국에서 출발하는 장거리 복합운송은 바다 구간이 가장 긴 경우가 대부분이므로, 구간을 모르면 결국 해상 규정(상법 제794조~제797조의 책임과 한도, 제804조의 통지, 제814조의 제척기간)이 적용되는 경우가 많습니다. 다만 한국~중앙아시아 철도처럼 바다가 짧고 육상이 긴 경로는 결론이 달라질 수 있으므로 구간별 거리를 계산해 두어야 합니다.</p>
+<p>대법원 2009. 8. 20. 선고 2007다87016 판결은 구간이 불분명한 복합운송 손해에 육상운송인의 책임 소멸 규정(상법 제146조 제1항: 유보 없이 수령하고 운임을 지급하면 책임 소멸)이 적용되지 않는다고 했습니다. 해상에서 생겼을 가능성이 있는 손해인데 육상 규정을 적용하면, 수하인이 해상 규정상 통지와 반증으로 다툴 기회를 잃게 되어 불합리하다는 이유입니다.</p>
+
+<h4>FBL: 약관 기본 한도</h4>
+<p>FBL에서 구간을 모르면 제8.6.1조가 작동하지 않으므로 기본 한도로 돌아갑니다. 바다나 내수로 구간이 계약에 포함되어 있으면 포장·단위당 666.67 SDR 또는 kg당 2 SDR 중 큰 금액이고(제8.3조), 포함되어 있지 않으면 kg당 8.33 SDR입니다(제8.5조). 컨테이너에 여러 포장을 실었으면 FBL에 적힌 포장 수가 포장 단위가 되고, 적지 않았으면 컨테이너 전체가 1포장입니다(제8.4조). 이 점은 해상 B/L과 같으므로 FBL에도 화주 패킹리스트의 포장 수를 적어 두어야 합니다(<a data-doc="bl-basics">B/L 기초</a> 8절).</p>
+<p>FBL 제19조는 복합운송인을 상대로 한 소송은 FBL에 적힌 그 포워더의 영업소 소재지에서만 제기할 수 있고 그 나라 법으로 판단한다고 정합니다. 한국 포워더가 발행한 FBL이면 한국 법원과 한국법, 곧 상법 제816조로 이어지는 구조입니다. 한국법에서 바다 구간이 가장 길면 해상 규정의 한도(제797조)와 FBL 제8.3조의 숫자가 같으므로 결과가 크게 어긋나지 않습니다.</p>
+<p>포워더 자체 House B/L 약관은 다를 수 있습니다. Maersk 계열 포워딩 회사의 House B/L 약관은 복합운송에서 손해 단계를 알 수 없으면 미국 관련 운송은 포장당 USD 500, 그 밖에는 kg당 2 SDR로 정하고(제7.1조), 준거법을 원칙적으로 영국법(관할은 런던 고등법원)으로 둡니다(제28조, 미국 COGSA가 적용되는 구간은 미국법). 영국법이 준거법이면 한국 상법 제816조가 아니라 약관과 영국법이 기준이 되므로, 같은 사고라도 어느 회사 B/L이냐에 따라 답이 달라집니다.</p>
+
+<h4>구간을 모를 때의 증명 구조</h4>
+<p>구간을 모른다고 화주가 불리해지는 것은 아닙니다. FBL 제6.2조와 상법 제795조 제1항(해상 규정이 적용될 때)은 모두 운송인이 과실 없음을 증명해야 책임을 면하게 하는 구조입니다. 화주 쪽은 화물을 맡길 때 상태가 좋았다는 점(무사고 B/L, 화주 적입 사진·서류. 다만 화주 적입 컨테이너에 "SHIPPER'S LOAD AND COUNT" 같은 유보가 있으면 B/L은 컨테이너 외관만 보여 주므로 적입 사진·보고서가 더 중요합니다)과 인도 때 손상이 있었다는 점(인수증 이상 기재, 기한 안의 서면 통지, 검정 보고서)을 보이면 되고, 그다음은 복합운송인이 면책 사유나 무과실을 증명해야 합니다. 화주가 직접 적입한 컨테이너라면 복합운송인은 적입·포장 불량을 면책 사유로 들 수 있습니다(FBL 제5.2조, 제6.5조). 이때 판단 자료는 화주의 적입 사진과 적입 보고서, 운송인 쪽 기록입니다.</p>
+<p class="lib-source">출처: 상법 제795조·제797조·제804조·제814조·제816조·제146조(국가법령정보센터, 시행 2026. 9. 10.) — <a href="https://www.law.go.kr/법령/상법/제816조" target="_blank" rel="noopener noreferrer">law.go.kr 상법 제816조</a>; 대법원 2019. 7. 10. 선고 2019다213009 판결 판결요지 [2]·[3] — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=208733" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; 대법원 2009. 8. 20. 선고 2007다87016 판결 — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=140203" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; FBL Standard Conditions(1992) cl. 5.2·6.2·6.5·8.3~8.5·19 — <a href="https://ocw.uca.es/mod/resource/view.php?id=4925" target="_blank" rel="noopener noreferrer">FBL 약관</a>; House Bill of Lading for Ocean or Multimodal Transport cl. 7·28(Maersk) — <a href="https://terms.maersk.com/HBL" target="_blank" rel="noopener noreferrer">terms.maersk.com/HBL</a></p>
+
+<h3>6. 국제 규칙과 표준 서류의 현재 상태</h3>
+<p>복합운송만을 다루는 국제 협약은 아직 발효된 것이 없습니다. 그래서 실제 복합운송의 책임은 계약에 넣은 민간 규칙(UNCTAD/ICC 규칙, FBL 약관, 각 회사 약관), 구간별 협약, 각국 국내법(한국은 상법 제816조)이 겹쳐서 정합니다.</p>
+<table class="lib-table">
+<thead><tr><th>규칙·서류</th><th>성격</th><th>2026년 10월 상태</th></tr></thead>
+<tbody>
+<tr><td>UN 국제물건복합운송협약(1980, 제네바)</td><td>국제 협약</td><td>미발효. 30개국이 비준해야 발효하는데(제36조) UN 조약집 기준 당사국 11개국, 서명국 6개국. 한국은 목록에 없음</td></tr>
+<tr><td>로테르담 규칙(2008)</td><td>해상을 포함한 문 앞까지 운송의 국제 협약(제1조 제1항: 해상운송을 포함하고 다른 수단을 더할 수 있는 계약)</td><td>미발효. 20번째 비준 뒤 발효(제94조)인데 당사국 5개국(스페인, 토고, 콩고, 카메룬, 베냉)</td></tr>
+<tr><td>UNCTAD/ICC 복합운송증권 규칙(1992, ICC Publication 481)</td><td>계약에 편입해야 적용되는 민간 규칙(제1.1조)</td><td>FBL 등 여러 표준 서류의 기초</td></tr>
+<tr><td>FIATA FBL 표준약관(1992)</td><td>표준 약관</td><td>유통되는 약관은 1992년 판. 이 문서에서는 이후 개정된 약관을 찾지 못함. FIATA는 전자 FBL(eFBL)을 운영하며, 발행자에게 FIATA·국가 협회 회원 자격과 배상책임보험을 요구</td></tr>
+<tr><td>몬트리올 협약(1999)</td><td>항공 협약, 복합운송에서는 항공 구간에만(제38조)</td><td>한국 발효 2007. 12. 29.</td></tr>
+<tr><td>CMR(1956)</td><td>국제 도로운송 협약</td><td>한국 비당사국. 유럽 구간에서 문제 됨</td></tr>
+<tr><td>COTIF/CIM</td><td>국제 철도운송 규칙</td><td>회원국 사이 국제 철도에 적용(CIM 제1조). 이 문서는 OTIF 2023. 11. 1. 비공식 통합본으로 확인</td></tr>
+</tbody></table>
+<p>두 협약이 미발효라는 것은 지금 계약에 그 숫자(1980년 협약의 920 SDR, 로테르담 규칙의 875 SDR)가 자동으로 적용되지 않는다는 뜻입니다. 화주가 "국제 기준 복합운송 한도"를 물으면, 협약이 아니라 B/L 뒷면 약관과 준거법을 먼저 보여 주어야 합니다.</p>
+<p class="lib-source">출처: United Nations Convention on International Multimodal Transport of Goods, status(UN Treaty Collection XI-E-1, 2026. 10. 18. 확인) — <a href="https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&amp;mtdsg_no=XI-E-1&amp;chapter=11&amp;clang=_en" target="_blank" rel="noopener noreferrer">UNTC XI-E-1</a>; Rotterdam Rules status(UNCITRAL, 2026. 10. 18. 확인) — <a href="https://uncitral.un.org/en/texts/transportgoods/conventions/rotterdam_rules/status" target="_blank" rel="noopener noreferrer">UNCITRAL</a>, 제1조·제94조 — <a href="https://uncitral.un.org/sites/uncitral.un.org/files/media-documents/uncitral/en/rotterdam-rules-e.pdf" target="_blank" rel="noopener noreferrer">원문</a>; UNCTAD/ICC Rules 1992 제1조 — <a href="https://ocw.uca.es/mod/resource/view.php?id=4924" target="_blank" rel="noopener noreferrer">UNCTAD/ICC 규칙</a>; ICC Publication 481 표기(FIATA Documents and Forms의 FBL 서식) — <a href="https://fiata.cdn.prismic.io/fiata/afedd989-c99b-4142-9f64-8281c99aa4c5_FIATA_Documents_and_Forms.pdf" target="_blank" rel="noopener noreferrer">FIATA</a> (Berkeley 링크를 이것으로 교체) — <a href="https://lawcat.berkeley.edu/record/541607" target="_blank" rel="noopener noreferrer">lawcat.berkeley.edu</a>; eFBL FAQ(FIATA) — <a href="https://www.efbl.fiata.org/faq" target="_blank" rel="noopener noreferrer">efbl.fiata.org</a>; Montreal Convention 당사국 목록(ICAO) — <a href="https://www.icao.int/sites/default/files/secretariat/legal/List%20of%20Parties/Mtl99_EN.pdf" target="_blank" rel="noopener noreferrer">Mtl99 List of Parties</a>; CMR 가입 현황(UN Treaty Collection XI-B-11) — <a href="https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&amp;mtdsg_no=XI-B-11&amp;chapter=11&amp;clang=_en" target="_blank" rel="noopener noreferrer">UNTC XI-B-11</a>; COTIF 1999 통합본(OTIF, 2023. 11. 1. 판) — <a href="https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf" target="_blank" rel="noopener noreferrer">COTIF 1999</a></p>
+
+<h3>7. 통지와 제소 기한: 구간이 기한도 바꿉니다</h3>
+<p>운송 수단별 기한 전체는 <a href="/library/cargo-insurance/ins-claims">사고와 클레임 절차</a> 3절 표에 있습니다. 복합운송에서 따로 볼 점은 어느 기한이 적용되는지가 손해 구간에 따라 바뀐다는 것입니다. 사고 직후에는 구간을 모르므로 가능한 기한 가운데 가장 짧은 것에 맞춰 움직이는 것이 안전합니다.</p>
+<table class="lib-table">
+<thead><tr><th>상황</th><th>통지</th><th>제소</th><th>근거</th></tr></thead>
+<tbody>
+<tr><td>FBL 약관(구간과 관계없이 약관상)</td><td>인도 때 서면. 보이지 않는 손해는 인도 후 연속 6일 이내 서면. 없으면 FBL 기재대로 인도된 것으로 추정</td><td>인도일(또는 인도했어야 할 날)부터 9개월</td><td>FBL 제16조·제17조, UNCTAD/ICC 규칙 제9조·제10조</td></tr>
+<tr><td>구간 불명, 한국법, 바다 구간이 가장 김</td><td>수령 후 지체 없이 서면, 즉시 발견할 수 없으면 수령일부터 3일 이내 발송. 육상 규정(제146조)은 적용 안 됨</td><td>인도한 날 또는 인도할 날부터 1년 안에 재판상 청구(합의로 연장 가능)</td><td>상법 제804조·제814조·제816조 제2항, 2019다213009, 2007다87016</td></tr>
+<tr><td>바다 구간 손해, 한국법</td><td>위와 같음</td><td>1년. 해상 기간은 늘릴 수 있어도 줄일 수 없다는 것이 2008다58978의 설명이므로 FBL 9개월로 줄어든다고 보기 어려움</td><td>상법 제814조 제1항</td></tr>
+<tr><td>한국 국내 육상 구간 손해</td><td>즉시 발견할 수 없는 훼손·일부 멸실은 수령일부터 2주 안에 통지 발송. 유보 없이 수령하고 운임을 내면 책임 소멸</td><td>수령일부터 1년 소멸시효. FBL의 9개월 제소기간이 유효</td><td>상법 제146조·제147조·제121조, 2008다58978</td></tr>
+<tr><td>국경을 넘는 유럽 트럭 구간 손해(CMR)</td><td>보이는 손해는 인도 때, 보이지 않는 손해는 인도 후 7일 이내 서면(일요일·공휴일 제외)</td><td>1년(고의 등은 3년)</td><td>CMR 제30조·제32조</td></tr>
+<tr><td>국제 철도 구간 손해(CIM)</td><td>보이지 않는 손해는 발견 즉시, 늦어도 인수 후 7일 이내 확인 요청, 운송 중 손해임을 증명</td><td>1년(고의 등은 2년)</td><td>CIM 제47조·제48조</td></tr>
+<tr><td>항공 구간 손해(몬트리올 협약)</td><td>발견 즉시, 늦어도 수령일부터 14일 이내 서면. 없으면 사기 외에는 소송 불가</td><td>도착일 등부터 2년</td><td>몬트리올 협약 제31조·제35조</td></tr>
+</tbody></table>
+<h4>포워더의 구상 기간이 화주 청구 기간보다 먼저 끝날 수 있습니다</h4>
+<p>복합운송인이 된 포워더는 화주에게 청구를 받은 뒤 구간 운송인에게 구상해야 합니다. 상법 제814조 제2항은 화주가 기간 안에 운송인과 배상 합의를 하거나 재판상 청구를 하면 그날부터 3개월이 지나기 전에는 운송인이 다시 맡긴 제3자에 대한 채권이 소멸하지 않게 하고, 제3항은 재판상 청구를 받은 운송인이 3개월 안에 그 제3자에게 소송고지를 하면 재판 종료 때부터 3개월을 계산하게 합니다. 대법원 2018. 12. 13. 선고 2018다244761 판결은 합의로 연장된 기간도 제2항의 "제1항의 기간"에 들어간다고 했습니다.</p>
+<p>다만 이 조항은 문언상 제814조 제1항의 기간에 대한 특칙입니다. 유럽 트럭 회사에 대한 CMR 제32조의 1년, 철도 회사에 대한 CIM 제48조의 1년까지 늘려 준다고 읽기는 어렵습니다. 구간 운송인의 약관이 더 짧은 통지 기간(예: 하청 계약의 1주일)을 둘 수도 있으므로, 사고 연락을 받으면 화주 쪽 기한과 별도로 하청 운송인에게 바로 서면 통지를 보내야 합니다.</p>
+<p class="lib-source">출처: FBL Standard Conditions(1992) cl. 16·17 — <a href="https://ocw.uca.es/mod/resource/view.php?id=4925" target="_blank" rel="noopener noreferrer">FBL 약관</a>; UNCTAD/ICC Rules 1992 제9조·제10조 — <a href="https://ocw.uca.es/mod/resource/view.php?id=4924" target="_blank" rel="noopener noreferrer">UNCTAD/ICC 규칙</a>; 상법 제121조·제146조·제147조·제804조·제814조(국가법령정보센터, 시행 2026. 9. 10.) — <a href="https://www.law.go.kr/법령/상법/제814조" target="_blank" rel="noopener noreferrer">law.go.kr 상법 제814조</a>; 대법원 2009. 8. 20. 선고 2008다58978 판결 — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=140171" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; 대법원 2009. 8. 20. 선고 2007다87016 판결 — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=140203" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; 대법원 2018. 12. 13. 선고 2018다244761 판결 — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=204250" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; CMR 제30조·제32조 — <a href="https://treaties.un.org/doc/Publication/UNTS/Volume%20399/volume-399-I-5742-English.pdf" target="_blank" rel="noopener noreferrer">CMR 원문</a>; CIM 제47조·제48조(OTIF 통합본, 2023. 11. 1. 판) — <a href="https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf" target="_blank" rel="noopener noreferrer">COTIF 1999</a>; Montreal Convention 1999 제31조·제35조 — <a href="https://www.iata.org/contentassets/fb1137ff561a4819a2d38f3db7308758/mc99-full-text.pdf" target="_blank" rel="noopener noreferrer">MC99 원문</a></p>
+
+<h3>8. 사례로 보기</h3>
+<h4>사례 1. 한국 공장에서 유럽 내륙 공장까지: 트럭, 바다, 철도, 트럭</h4>
+<p>한국 포워더가 자기 명의 FBL을 발행해 경기도 공장(수취지)에서 체코 공장(인도지)까지 맡았습니다. 경로는 국내 트럭(공장~부산항), 바다(부산~로테르담), 국제 철도(로테르담~체코 내륙 기지), 트럭(기지~공장)입니다. 화물은 기계 부품 팔레트 10개, 총중량 5,000kg이고 FBL에 "10 PALLETS"라고 적혀 있습니다. 운송인 책임이 인정되고 면책 사유가 없다고 가정하면, 손해가 어디서 확인되느냐에 따라 한도가 이렇게 달라집니다.</p>
+<table class="lib-table">
+<thead><tr><th>손해 구간</th><th>적용 근거</th><th>계산</th><th>한도</th></tr></thead>
+<tbody>
+<tr><td>바다(로테르담 터미널 손상 기록으로 확인)</td><td>상법 제816조 제1항·제797조 제1항, FBL 제8.3조(바다 구간 강행 한도가 FBL 기본 한도와 같은 숫자)</td><td>포장당 10 × 666.67 = 6,666.7 SDR, kg당 5,000 × 2 = 10,000 SDR</td><td>큰 쪽 10,000 SDR</td></tr>
+<tr><td>국제 철도(철도 인수증 이상 기재로 확인)</td><td>FBL 제8.6.1조, CIM 제30조 제2항</td><td>5,000 × 17</td><td>85,000 SDR</td></tr>
+<tr><td>체코 기지~공장 트럭</td><td>국내 구간이라 CMR이 아니라 체코 국내법이 문제 됨</td><td>이 문서에서 확인하지 않음</td><td>체코 국내법의 강행 한도 확인 필요</td></tr>
+<tr><td>구간 불명(도착지 개봉 때 처음 발견)</td><td>상법 제816조 제2항(바다가 가장 긴 구간), FBL 제8.3조</td><td>위 바다 계산과 같음</td><td>10,000 SDR</td></tr>
+</tbody></table>
+<p>같은 화물이라도 철도 구간 손해로 확인되면 한도가 8.5배가 됩니다. 화주 쪽 보험사는 구간을 철도로 특정하려 하고, 복합운송인 쪽은 증거가 없으면 구간 불명으로 남기려 할 것입니다. 원화 환산과 화물값 대비 비율은 <a href="/library/cargo-insurance/ins-carrier-liability">운송인 책임과 한도</a> 6절의 계산 방식을 보십시오. 마지막 트럭 구간을 국경을 넘는 운송으로 짰다면(예: 독일 기지~체코 공장) CMR이 기준이 되어 kg당 8.33 SDR, 41,650 SDR이 됩니다.</p>
+<p>이 경로에서 포워더가 특히 볼 곳은 출발 전 국내 트럭 구간입니다. 2025다211111 판결처럼 이 구간 손해에는 상법 제797조의 해상 한도가 붙지 않고 상법 육상운송 규정에는 kg당 한도가 없어서, FBL 제8.3조의 약관 한도가 그대로 통하는지 다툼이 생길 수 있습니다(4절). 리퍼 화물이면 온도 설정 지시가 선사, 컨테이너 장치장, 트럭 기사에게 서면으로 같은 값으로 전달됐는지가 사고를 막는 가장 쉬운 지점입니다.</p>
+
+<h4>사례 2. 항공과 트럭: 인천에서 프랑크푸르트, 다시 트럭</h4>
+<p>포워더가 House AWB로 인천~프랑크푸르트 항공을 맡고, 프랑크푸르트에서 체코 고객 창고까지 트럭 운송도 함께 맡았습니다. 몬트리올 협약은 복합운송에서 항공 구간에만 적용되므로(제38조 제1항), 트럭 구간 손해에는 원칙적으로 협약이 아니라 그 구간 규칙(국경을 넘는 독일~체코 트럭이면 CMR)이 문제 됩니다. 그러나 공항 밖 트럭 운송이 항공운송계약 이행 중 적재·인도·환적을 위한 것이면 손해는 항공운송 중 생긴 것으로 추정되고, 항공사가 송하인 동의 없이 항공 구간 일부를 트럭으로 바꿔 운송하면 그 트럭 운송은 항공운송으로 봅니다(제18조 제4항). 상법 제913조 제2항·제3항도 같은 구조입니다.</p>
+<p>실무에서는 항공사가 AWB로 받은 화물을 편명이 붙은 트럭으로 옮기는 경우가 있습니다(흔히 RFS, Road Feeder Service라고 부름). AWB에 그 구간이 들어가 있으면 협약 제18조 제4항의 추정이나 항공사 운송약관에 따라 협약 한도(kg당 26 SDR, 2024. 12. 28.부터)가 기준이 되는 경우가 많은 반면, 포워더가 도착지에서 별도로 트럭을 주선했다면 그 트럭 구간은 협약 밖입니다. 협약 제38조 제2항은 항공 서류에 다른 운송 수단의 조건을 함께 넣는 것을 허용하므로, 문 앞까지 맡을 때는 House AWB 약관이나 별도 계약에서 트럭 구간의 책임을 어떻게 정했는지 확인해야 합니다. 항공 쪽 통지 기한은 수령일부터 14일이고 기한 안에 서면 통지가 없으면 소송을 할 수 없으므로(제31조), 트럭으로 받은 화물이라도 항공 구간 손해일 가능성이 있으면 이 기한에 맞춰야 합니다.</p>
+
+<h4>사례 3. 문을 열어 보니 젖어 있다: 구간을 모르는 컨테이너</h4>
+<p>화주가 직접 적입하고 씰을 채운 40ft 컨테이너가 문 앞까지 운송됐고, 개봉 때 상자 일부가 젖어 있었습니다. 각 구간 인수증에는 이상 기재가 없습니다. 포워더는 화물을 직접 판정하지 않고 다음 순서로 기록을 모읍니다.</p>
+<ol>
+<li>수하인에게 개봉 전후 사진, 씰 번호 사진, 젖은 위치(천장 아래인지 바닥인지)를 받고, 인수증에 이상을 적었는지 확인합니다.</li>
+<li>구간마다 EIR, 터미널 손상 기록, 철도·트럭 인수증의 씰 번호와 컨테이너 상태 기재를 받아 씰 번호가 처음부터 끝까지 같은지, 컨테이너 손상 기록이 어느 지점에서 처음 나오는지 대조합니다.</li>
+<li>화주의 적입 사진과 적입 보고서, 포장 명세를 받아 둡니다. 결로 방지 조치(건조제 등)가 있었는지는 화주 서류로 확인합니다.</li>
+<li>기한을 계산합니다. 가장 짧은 통지 기한(해상 규정 3일, FBL 6일, CMR·CIM 7일, 항공 14일 중 해당하는 것)에 맞춰 복합운송인 자신은 하청 운송인 전원에게, 수하인은 복합운송인에게 서면 통지를 보내게 합니다.</li>
+</ol>
+<p>기록으로도 구간이 안 가려지면 한국법상 바다 구간이 가장 긴 이 경로에는 해상 규정이 적용되고, FBL 기본 한도도 같은 숫자입니다. 젖은 원인이 컨테이너 구멍이면 컨테이너를 제공한 쪽의 문제가 되고, 결로라면 적입 상태와 포장이 쟁점이 됩니다. 결로의 원리와 예방은 <a href="/library/ctu-code/a3-condensation">부속서 3 결로 손상 방지</a>를 보십시오.</p>
+<p class="lib-source">출처: 상법 제816조·제913조(국가법령정보센터, 시행 2026. 9. 10.) — <a href="https://www.law.go.kr/법령/상법/제913조" target="_blank" rel="noopener noreferrer">law.go.kr 상법 제913조</a>; 대법원 2025. 11. 13. 선고 2025다211111 판결 — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=613051" target="_blank" rel="noopener noreferrer">law.go.kr 판례</a>; FBL Standard Conditions(1992) cl. 7.2·8.3·8.6.1·16 — <a href="https://ocw.uca.es/mod/resource/view.php?id=4925" target="_blank" rel="noopener noreferrer">FBL 약관</a>; CIM 제30조(OTIF 통합본) — <a href="https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf" target="_blank" rel="noopener noreferrer">COTIF 1999</a>; CMR 제1조, 제23조 제3항(1978 의정서) — <a href="https://treaties.un.org/doc/Publication/UNTS/Volume%201208/volume-1208-I-19487-English.pdf" target="_blank" rel="noopener noreferrer">1978 의정서</a>; Montreal Convention 1999 제18조·제31조·제38조 — <a href="https://www.iata.org/contentassets/fb1137ff561a4819a2d38f3db7308758/mc99-full-text.pdf" target="_blank" rel="noopener noreferrer">MC99 원문</a>; 2024 Revised Limits of Liability Under the Montreal Convention 1999(ICAO) — <a href="https://www.icao.int/sites/default/files/secretariat/legal/LEB%20Treaty%20Collection%20Documents/2024_Revised_Limits_of_Liability_Under_the_Montreal_Convention_of_1999_en.pdf" target="_blank" rel="noopener noreferrer">ICAO</a>. 사례 1의 계산은 이 문서에서 직접 함.</p>
+
+<h3>9. 포워더 점검표</h3>
+<h4>견적·계약 단계</h4>
+<ul class="lib-check">
+<li>화주가 원하는 범위가 항구 간인지, 수취지·인도지까지인지 견적서와 부킹 확인서에 구간을 적는다.</li>
+<li>문 앞까지 맡는다면 구간별 하청 운송인(국내 트럭, 선사, 철도, 도착지 트럭)과 그 약관·책임 한도·통지 기한을 미리 받아 둔다.</li>
+<li>경로의 구간별 거리를 계산해 바다가 가장 긴 구간인지 확인한다(상법 제816조 제2항).</li>
+<li>포워더 배상책임보험이 복합운송인 책임과 내륙 구간, 사용하는 B/L 약관(FBL 또는 자체 약관)을 담보하는지 보험사에 서면으로 확인한다.</li>
+<li>고가 화물이면 가액 신고와 종가 운임, 적하보험을 화주가 판단하도록 안내한다(포워더가 보험을 직접 모집하지 않는다).</li>
+<li>리퍼·위험물 등 구간마다 지시가 필요한 화물은 지시 내용(온도, 환기, UN 번호 등)을 하청 운송인 전원에게 같은 문구로 서면 전달한다.</li>
+</ul>
+<h4>서류 발행 단계</h4>
+<ul class="lib-check">
+<li>Place of Receipt·Place of Delivery 칸은 실제로 맡은 구간만 적는다. 맡지 않은 내륙 구간을 적지 않는다.</li>
+<li>FBL을 쓰면 FIATA·국가 협회 회원 자격과 배상책임보험이 유효한지, 자체 House B/L이면 등록 때 낸 양식·약관과 같은 판인지 확인한다.</li>
+<li>포장 수는 화주 패킹리스트대로 적고(FBL 제8.4조), 화주 적입 컨테이너면 "SAID TO CONTAIN"이나 "SHIPPER'S LOAD AND COUNT" 같은 유보 문구를 함께 적는다(FBL 제3.2조).</li>
+<li>서명란이 "as Carrier"인지 "as Agent"인지, 준거법·관할 조항이 무엇인지 확인한다.</li>
+<li>유통성(negotiable)으로 낼지, 비유통 서류로 낼지 화주의 결제 조건과 맞춘다. 원본 부수와 교부 상대를 기록한다.</li>
+<li>Master B/L과 House B/L·FBL의 선명·항차·컨테이너·씰 번호가 같은지 대조한다.</li>
+</ul>
+<h4>사고 후</h4>
+<ul class="lib-check">
+<li>책임을 인정하지 않고 접수 사실만 알린 뒤, 자기 배상책임보험사에 바로 통지한다.</li>
+<li>하청 운송인 전원에게 서면 통지를 보내고, 공동검정 참석을 요청한다.</li>
+<li>구간을 가릴 기록(EIR, 터미널 손상 기록, 철도·트럭 인수증, 씰 번호, 온도 기록)을 구간별로 모은다.</li>
+<li>FBL 6일·9개월, 해상 3일·1년, CMR·CIM 7일·1년, 항공 14일·2년 가운데 해당 기한을 표로 만들어 가장 이른 날짜에 맞춘다.</li>
+<li>화주와 배상 합의를 하면 그날부터 3개월 안에 하청 운송인을 상대로 재판상 청구(소 제기)를 하거나 기간 연장 합의를 받고, 화주에게 소송을 당하면 3개월 안에 하청 운송인에게 소송고지를 한다(상법 제814조 제2항·제3항). CMR·CIM 구간 운송인의 기간은 따로 계산한다.</li>
+<li>검정 전에 화물 폐기·재판매를 지시하지 않는다.</li>
+</ul>
+
+<h3>10. 화주에게 설명할 때</h3>
+<p>"문 앞까지 한 장의 서류로 맡으시면 사고가 났을 때 저희가 먼저 책임을 지고 구간 운송인에게 구상합니다. 다만 배상 금액은 손해가 난 구간에 따라 달라집니다. 바다에서 났거나 어디서 났는지 모르면 대개 포장당 666.67 SDR 또는 kg당 2 SDR 중 큰 금액까지이고, 유럽 철도나 국경을 넘는 트럭 구간으로 확인되면 더 높은 한도가 적용될 수 있습니다. 어느 구간이든 화물값 전체를 보장하는 금액은 아니므로 적하보험 가입 여부를 따로 정해 주십시오. 사고가 나면 화물을 받는 쪽에서 인수증에 이상을 적고, 사진과 씰을 남기고, 사흘 안에 서면으로 알려 주셔야 나중에 다툴 때 불리해지지 않습니다(통지가 없으면 정상 인도로 추정됩니다. 항공 구간이면 14일 안에 서면 통지가 없을 때 소송 자체를 못 합니다)." 이렇게 구간에 따라 한도가 달라진다는 점, 운송인 배상과 보험은 별개라는 점, 기한이 짧다는 점 세 가지를 짧게 전하고, 서면 기록으로 남기는 것이 좋습니다.</p>
+
+<p class="lib-source">출처: 상법(법률 제21044호, 시행 2026. 9. 10.)·물류정책기본법·같은 법 시행규칙(국가법령정보센터) — <a href="https://www.law.go.kr/법령/상법" target="_blank" rel="noopener noreferrer">law.go.kr 상법</a>; 대법원 2019다213009·2025다211111·2008다58978·2007다87016·2018다244761 판결(국가법령정보센터) — <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=208733" target="_blank" rel="noopener noreferrer">2019다213009</a>, <a href="https://www.law.go.kr/LSW/precInfoP.do?precSeq=613051" target="_blank" rel="noopener noreferrer">2025다211111</a>; UNCTAD/ICC Rules for Multimodal Transport Documents(1992)·FIATA FBL Standard Conditions(1992)(대학 공개 사본) — <a href="https://ocw.uca.es/mod/resource/view.php?id=4924" target="_blank" rel="noopener noreferrer">UNCTAD/ICC 규칙</a>, <a href="https://ocw.uca.es/mod/resource/view.php?id=4925" target="_blank" rel="noopener noreferrer">FBL 약관</a>; 1980 UN 국제물건복합운송협약 현황(UN Treaty Collection) — <a href="https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&amp;mtdsg_no=XI-E-1&amp;chapter=11&amp;clang=_en" target="_blank" rel="noopener noreferrer">UNTC XI-E-1</a>; Rotterdam Rules 현황(UNCITRAL) — <a href="https://uncitral.un.org/en/texts/transportgoods/conventions/rotterdam_rules/status" target="_blank" rel="noopener noreferrer">UNCITRAL</a>; Montreal Convention 1999, CMR, COTIF/CIM 원문은 각 절 출처와 같음 (모두 2026년 10월 18일 확인)</p>

@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/bl-awb';
-  const DOCS_VERSION = '20261017-01';
+  const DOCS_VERSION = '20261018-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -37,6 +37,7 @@
     { id: 'bl-vs-awb', tag: "비교", level: 3, title: "B/L과 AWB 비교 — 권리증권과 증거 서류, 누가 화물을 받는가", short: "B/L과 AWB 비교", summary: "선하증권과 항공화물운송장을 법적 성격, 유통성, 원본 수, 인도 조건, 처분권, 원본 분실, 신용장 UCP 600 제20조·제23조, 은행 담보 기능, 책임 한도, 전자화까지 한 표로 비교하고, Sea Waybill이 AWB와 닮은 점, 신용장에서 항공화물 수하인을 은행으로 적는 이유, 포워더 체크리스트를 정리합니다." },
     { id: 'bl-release', tag: "인도", level: 3, title: "화물 인도 실무 — 원본 B/L, 서렌더, Sea Waybill, 보증도", short: "화물 인도 실무", summary: "원본 B/L 회수 인도와 상법 제857조~제861조, 서렌더(Telex Release)의 실무와 주의점, Sea Waybill 인도, 수입화물선취보증서(L/G)·LOI 보증도의 위험, 기명식 B/L, 원본 분실 시 공시최고, D/O와 반출, 항공화물 도착 통지와 은행 수하인 화물 인도를 정리합니다." },
     { id: 'bl-special', tag: "특수", level: 3, title: "특수 B/L과 전자화 — Switch·분할 B/L, 선적일 소급, 전자선하증권과 e-AWB", short: "특수 B/L과 전자화", summary: "Switch B/L과 분할·통합 B/L의 정상 절차와 P&I 보험조합 권고, 선적일 소급·LOI를 받은 무사고 B/L의 법적 결과와 담보 상실, 상법 제862조와 전자선하증권 시행규정(등록기관 KTNET), UNCITRAL MLETR, 영국 Electronic Trade Documents Act 2023, DCSA 2030년 100% eBL 약속, IG 승인 eBL 시스템, e-AWB와 IATA ONE Record 현황." },
+    { id: 'bl-multimodal', checked: '2026-10-18', tag: "복합운송", level: 3, title: "복합운송과 책임 구간 — 손해 구간을 알 때와 모를 때", short: "복합운송과 책임 구간", summary: "복합운송증권(FIATA FBL 등)으로 문 앞까지 맡은 포워더의 책임을 다룹니다. 손해 구간을 알면 그 구간의 법과 강행 한도를, 모르면 상법 제816조 제2항과 FBL 기본 한도를 적용하는 구조를 판례·기한·경로별 사례로 정리했습니다." },
     { id: 'bl-cases', tag: "판례", level: 3, title: "판례·분쟁 사례 — 원본 없는 인도, 서렌더, 기명식 B/L, House B/L과 AWB 분쟁", short: "판례·분쟁 사례", summary: "보증도와 위조 L/G, LOI 인도, 서렌더 B/L의 법적 성질, 배서금지 기명식 B/L, Master D/O 사본을 넘긴 도착지 포워더(2024다270860), 통지처 인도와 AWB 원본 불일치 등 한국 대법원 판례와 The Rafaela S, Carewins, Sze Hai Tong Bank, Glencore v MSC 등 해외 판례 12건을 사실관계·쟁점·결론·실무 교훈으로 정리." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
@@ -50,7 +51,7 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "기본과 비교", sub: "B/L 기초 · AWB 기초 · B/L과 AWB 비교", docs: ["bl-basics", "awb-basics", "bl-vs-awb"] },
-    { title: "실무 가이드", sub: "화물 인도 · 특수 B/L과 전자화", docs: ["bl-release", "bl-special"] },
+    { title: "실무 가이드", sub: "화물 인도 · 특수 B/L과 전자화 · 복합운송", docs: ["bl-release", "bl-special", "bl-multimodal"] },
     { title: "사례", sub: "판례·분쟁 사례", docs: ["bl-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
@@ -155,7 +156,7 @@
   }
   async function renderDoc(view, doc) {
     const head = `<nav class="lib-crumb"><a href="${home}">← B/L · AWB</a></nav>`;
-    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${CHECKED} · 법령과 업계 표준은 바뀔 수 있으니 실제 업무는 최신 운송약관과 법령을 확인하세요.</p>`;
+    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${doc.checked || CHECKED} · 법령과 업계 표준은 바뀔 수 있으니 실제 업무는 최신 운송약관과 법령을 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
     try {

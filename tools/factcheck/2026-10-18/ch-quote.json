@@ -1,0 +1,44 @@
+[
+ {
+  "claim": "셋째, 원화 합계 1,400,000원은 예시 환율로 환산한 참고 금액이고",
+  "verdict": "wrong",
+  "evidence": "문서 내부 계산: 예시 1 표의 원화 합계 줄은 '2,559,000 + S × 환율'(1,400,000 + 200,000 + 9,000 + 50,000 + 50,000 + 100,000 + 50,000 + 700,000 = 2,559,000). 1,400,000원은 합계가 아니라 해상운임 USD 1,000 × 1,400원의 환산액 한 줄임.",
+  "fix": "셋째, 해상운임의 원화 환산액 1,400,000원은 예시 환율로 환산한 참고 금액이고"
+ },
+ {
+  "claim": "조건 문장이 견적서의 절반이라는 말이 과장이 아닌 이유입니다.",
+  "verdict": "unsupported",
+  "evidence": "문서 어디에도 '조건 문장이 견적서의 절반'이라는 말이 앞서 나오지 않음(HTML 전체에서 '절반'은 이 문장 1회뿐). 출처 없는 수사이고, 지시어 '이라는 말'이 가리킬 대상이 없음.",
+  "fix": "견적서에서 조건 문장이 금액만큼 중요한 이유입니다."
+ },
+ {
+  "claim": "착불에는 비용이 따로 붙을 수도 있습니다. Maersk 용어집은",
+  "verdict": "overreach",
+  "evidence": "https://www.maersk.com/solutions/shipping/glossaries/surcharge-definition : 'Freight Collection Origin (CLO) The fee applied when the carrier- collects freight charges locally- collects freight charges in a local currency The fee applies to shipments when the service is offered at Origin. ... The fee is also applied to the service to allow clients to settle shipments' ocean freight at 3rd place other than Origin or Destination'. 출발지(CLO)와 제3지 수납에도 붙는 '현지·현지 통화 수납' 비용이라 착불(Collect) 비용의 근거로 들기에는 범위가 다름. 정의 문장 자체(현지 당국 결정, 정액 또는 운임 비율)는 원문과 일치.",
+  "fix": "운임을 현지에서 받거나 현지 통화로 받을 때는 비용이 따로 붙을 수도 있습니다. Maersk 용어집은"
+ },
+ {
+  "claim": "한국 항만을 거치는 정기 컨테이너 화물의 선사 운임과 요금은 공표 대상입니다.",
+  "verdict": "overreach",
+  "evidence": "해운법 제28조제2항(https://www.law.go.kr/법령/해운법): '해양수산부장관은 제1항 각 호의 사업자가 다음 각 호에 해당하는 경우에는 운임 및 요금의 공표를 유예하거나 신고로 대체하도록 할 수 있다. ... 2. 제29조의2제2항에 따른 계약을 체결하고 그 계약서를 해양수산부장관에게 신고한 경우'; 운임공표 고시 제9조제1항(https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000225094): '운임등의 공표를 유예한다. 1. 수출 및 수입 컨테이너 중 특수컨테이너(Open Top, Flat Rack) 2. 선사의 자사 또는 타사 소유 공(空)컨테이너 3. 반송화물 ...'. 예외 없는 '공표 대상'은 과장이며, 형제 문서 ch-sea-charges 9절도 공표 유예를 적음.",
+  "fix": "한국 항만을 거치는 정기 컨테이너 화물의 선사 운임과 요금은 원칙적으로 공표 대상입니다(오픈톱·플랫랙 특수 컨테이너, 공컨테이너, 반송화물 등 고시 제9조의 유예 대상과 신고로 갈음한 장기운송계약 운임은 예외)."
+ },
+ {
+  "claim": "선사별 금액과 항목 이름은 <a data-doc=\"ch-sea-charges\">해상 부대비용 지도</a> 10절에 있으므로",
+  "verdict": "overreach",
+  "evidence": "D:/Desktop/AI Project/LogisticsLibrary/ch-docs/ch-sea-charges.html 10절 제목은 '포워더 견적에서 빠뜨리기 쉬운 항목'으로 항목 체크 목록이며, 선사별 금액과 항목 이름 비교는 2절(THC: Maersk 155,000·220,000원, ONE 150,000·210,000원 등), 3절(서류비·D/O·씰비 선사별 표), 4절(부두사용료), 5절(보안료), 7절(CFS·청소비)에 있음.",
+  "fix": "선사별 금액과 항목 이름은 <a data-doc=\"ch-sea-charges\">해상 부대비용 지도</a> 2~7절, 빠뜨리기 쉬운 항목 목록은 같은 문서 10절에 있으므로"
+ },
+ {
+  "claim": "할증료는 선사마다 부킹일, 가격 산정일(PCD), 반입일, 출항 예정일, 실제 출항일 가운데 하나를 기준으로 붙이므로",
+  "verdict": "overreach",
+  "evidence": "링크한 형제 문서 D:/Desktop/AI Project/LogisticsLibrary/ch-docs/ch-surcharges.html 6절 표의 기준일은 부킹일, 가격 산정일(PCD), 반입일, 컨테이너 인수일('선사가 B/L에 포함된 (마지막) 컨테이너를 인수한 날'), 출항 예정일, 실제 출항일의 여섯 가지. '가운데 하나'로 닫힌 목록처럼 쓰면서 컨테이너 인수일이 빠짐.",
+  "fix": "할증료는 선사마다 부킹일, 가격 산정일(PCD), 반입일, 컨테이너 인수일, 출항 예정일, 실제 출항일 가운데 하나를 기준으로 붙이므로"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "문제 6건: wrong 1, unsupported 1, overreach 4 (outdated 0, unverifiable 0). 확인 방법: law.go.kr DRF API로 2026-10-18 현행본 직접 수신(해운법 법률 제21825호 현행 시행 2026. 6. 16.; 해운법 시행규칙 2026. 7. 13.; 관세법 제21490호 2026. 10. 2.; 관세법 시행령 제36140호(제20조 조문시행 2026. 2. 27.); 관세법 시행규칙 2026. 7. 31.; 부가가치세법 제21065호 2026. 1. 2.; 부가가치세법 시행령 제36133호; 운임공표 고시 제2023-96호 현행), ICC Digital Library 해상·모든 운송 조건 페이지 curl, Maersk 용어집 curl, IATA ONE Record 2026-07-standard IATA-1R-CL-Ontology.ttl(GitHub raw). 브라우저 자동화 사용 안 함. 확인되어 문제없음: 운임공표 고시 제3조·제4조제1항제1호자목·제3호·제4조제2항, 해운법 제28조제1항·제31조제1항·제2항, 시행규칙 제20조제1항(15일), 관세법 제17조·제18조·제30조제1항제6호·제2항제2호, 시행규칙 제1조의2(전주 월~금 최초 고시 환율 평균), 시행령 제20조제1항, 부가가치세법 제23조·제29조제2항·제30조, 시행령 제32조제2항제1호; Incoterms A9/B9 원칙, CFR B9(c) 문구, CFR 해설 8·CIF 해설 9, CIF A5 ICC (C) 110%, CIP A5 ICC (A) 110%, CPT·CIP B9 양하비 조건부, DDP A9, 다른 조건 보험 의무 없음, FOB 운송서류 발급비(사이트 inco-risk-cost와 일치); IATA 코드 WT·VC·TX·OA·OC·A·C·P·C·AW·MY·SC·RA·IN·CH·CD·FC 이름 전부 일치; Maersk CLO·CLD·HWS·DHC·DDF 정의 일치. 계산 검산: 예시 1 합계 2,559,000원, 과세가격 USD 21,530, 예시 2 R/T 3.200·합계 432,560원·실측 3.500 시 +6,390원/+USD 9.00, 예시 3 270.0kg/102.0kg/300.0kg×3,300=990,000원·합계 1,195,000원·'세 배 가까이'(300/102=2.94), 인보이스 대조 1,420,000-1,400,000=20,000원·309,000원 모두 맞음. 예시 3 수치는 ch-air-weight 7절 예시 3과 일치. 사이트 규칙: 현재 할증료 금액 없음(모두 S·s·f 기호), 예시 금액 표시와 공식 요율표 확인 문구가 예시 1·2·3과 인보이스 대조 표 아래에 모두 있음 — 위반 없음. 참고: 예시 1의 서류비 50,000원/B/L, 부두사용료 9,000원/40ft는 실제 ONE 한국 DOF(50,000원)와 부산 부두사용료(20ft 4,429원)에 매우 가까운 값이라 예시 금액으로 표시돼 있어도 실제 요율로 오인될 여지가 있음(규칙 위반은 아님). 링크: 내부 링크(data-doc ch-sea-charges·ch-surcharges·ch-lcl·ch-air-weight·ch-air-storage·ch-dnd·ch-korea-storage, /library/ bl-awb/bl-release, customs/cu-clearance, incoterms-2020/inco-risk-cost·inco-choose, cargo-insurance/ins-basics, ctu-code/kr-road) 모두 저장소에 존재; 외부 링크(law.go.kr 8개, ICC 2개, Maersk, GitHub IATA 트리) 모두 HTTP 200. 형제 문서 절 번호 참조(ch-lcl 4·6·8·9절, ch-air-weight 1~5·5·7·9절, ch-surcharges 6·8절, ch-sea-charges 1·2~3·3·4·9절)는 위 10절 건 외에는 내용과 맞음.",
+  "fix": ""
+ }
+]

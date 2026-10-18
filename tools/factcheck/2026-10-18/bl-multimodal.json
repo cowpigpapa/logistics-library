@@ -1,0 +1,104 @@
+[
+ {
+  "claim": "(6절 사례 2)",
+  "verdict": "wrong",
+  "evidence": "draft 자체 구조: '사례 2. 항공과 트럭: 인천에서 프랑크푸르트, 다시 트럭'은 <h3>8. 사례로 보기</h3> 아래에 있고, 6절은 '국제 규칙과 표준 서류의 현재 상태'임.",
+  "fix": "(8절 사례 2)"
+ },
+ {
+  "claim": "항공과 트럭만으로 이루어진 운송은 제816조가 아니라 상법 항공운송편 제913조 제2항·제3항(공항 밖 운송의 추정과 대체 운송)과 몬트리올 협약 제18조 제4항·제38조로 봅니다",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 시행 2026. 9. 10.) 제913조 제2항: \"항공운송 중에는 공항 외부에서 한 육상, 해상 운송 또는 내륙 수로운송은 포함되지 아니한다. 다만, 그러한 운송이 운송계약을 이행하면서 운송물의 적재(積載), 인도 또는 환적(換積)할 목적으로 이루어졌을 경우에는 항공운송 중인 것으로 추정한다.\"; MC99 https://www.iata.org/contentassets/fb1137ff561a4819a2d38f3db7308758/mc99-full-text.pdf Art. 38(1): \"...apply only to the carriage by air\". 이 조문들은 항공 구간과 공항 밖 운송의 경계(적재·인도·환적 목적 추정, 무단 대체)만 정할 뿐 항공+트럭 운송 전체(예: 사례 2의 프랑크푸르트~체코 트럭)를 규율하지 않음. 문서 스스로 사례 2에서 트럭 구간은 '그 구간 규칙(CMR)'이 문제 된다고 씀.",
+  "fix": "항공과 트럭만으로 이루어진 운송에는 제816조가 직접 적용되지 않고, 항공 구간과 공항 밖 운송의 경계는 상법 항공운송편 제913조 제2항·제3항(공항 밖 운송의 추정과 대체 운송)과 몬트리올 협약 제18조 제4항·제38조가 정합니다"
+ },
+ {
+  "claim": "세 규칙 모두 복합운송인을 \"대리인이 아니라 자기 이름으로 계약하고 그 이행에 운송인으로서 책임을 지는 사람\"으로 봅니다.",
+  "verdict": "overreach",
+  "evidence": "UNCTAD/ICC 규칙 제2.2조(https://ocw.uca.es/mod/resource/view.php?id=4924): \"la persona que celebra un contrato de transporte multimodal y asume la responsabilidad de su cumplimiento en calidad de porteador\" ('대리인이 아니라', '자기 이름으로' 문구 없음). FBL Definitions: \"...issues this FBL and is named on the face of it and assumes liability for the performance of the multimodal transport contract as a carrier.\" '대리인이 아니라 본인으로'는 1980 협약 제1조 제2항(\"acts as a principal, not as an agent\", https://jus.uio.no/english/services/library/treaties/07/7-05/multimodal-transport-goods.html)에만 있음. 따옴표로 세 규칙 공통 정의처럼 인용한 것은 원문에 없는 합성 문구.",
+  "fix": "세 규칙 모두 복합운송인을 복합운송계약을 맺고 그 이행에 운송인(본인)으로서 책임을 지는 사람으로 봅니다. 대리인이 아니라는 점을 명시한 것은 1980년 협약입니다."
+ },
+ {
+  "claim": "계약 이름을 \"물류대행\"이나 \"종합물류용역\"으로 붙여도 내용이 문 앞까지의 운송이면 복합운송인 책임을 피하기 어렵다는 뜻입니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=208733&type=XML (2019다213009) 이유 1.나.(1)(3)(4)·다.: 계약명은 '물류운영용역계약'. 원심은 이를 복합운송계약으로 보고 \"동방 컨소시엄에 대해서는 해상운송구간에 적용되는 법에 따라 제척기간을 판단하여야 한다\", \"원고의 동방 컨소시엄에 대한 소는 제소기간을 도과하여 부적법하다\"고 했고 대법원은 상고 기각. 육상 거리가 더 긴 현대 컨소시엄은 \"육상운송구간에 적용되는 법\"으로 판단되어 배상 책임. 즉 복합운송 판단은 운송인에게 해상 1년 제척기간을 열어 준 결과이기도 했으므로 '책임을 피하기 어렵다'는 한쪽만 끌어낸 추론.",
+  "fix": "계약 이름이 \"물류운영용역\"이어도 핵심이 공장에서 도착지까지의 운송이면 복합운송계약으로 보아 상법 제816조로 판단한다는 뜻입니다. 이 사건에서는 해상 구간이 가장 긴 피고들에게 해상운송인의 1년 제척기간(제814조 제1항)이 적용되어 화주의 소가 기간 도과로 부적법하다고 판단되었고, 육상 거리가 더 긴 피고들에게는 육상 규정이 적용되었습니다."
+ },
+ {
+  "claim": "대법원 판결 두 건이 이를 실제로 보여 줍니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=613051&type=XML (2025다211111): 원고는 적하보험자, 쟁점은 컨테이너를 제공한 해상운송인(피고 3 회사)이 제797조 책임제한을 원용할 수 있는지. 판시사항 [1]: \"해상운송에 관한 상법 제797조의 책임제한 규정이 육상운송에도 적용되는지 여부(소극)\" (제816조 제1항의 범위를 직접 판단하지 않음). https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=140171&type=XML (2008다58978): 2007년 개정 전 구 상법 사안, 복합운송증권 9개월 제소기간 약관의 유효성 판단(\"9개월의 제소기간은 강행법규에 저촉되지 아니하는 것으로서 유효하다\"). 두 판결 모두 '제816조 제1항이 책임 원인·면책·한도·기간 전체를 끌어온다'는 명제를 판시하지 않음.",
+  "fix": "대법원 판결 두 건이 이와 같은 방향을 보여 줍니다(다만 두 판결 모두 제816조 제1항의 범위 자체를 판단한 것은 아닙니다)."
+ },
+ {
+  "claim": "육상운송 중 생긴 이 손해에 제797조를 적용한 원심을 파기했습니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=613051&type=XML 주문: \"원심판결 중 피고 ◇◇◇ 주식회사에 대한 원고 패소 부분을 파기하고, 이 부분 사건을 서울고등법원에 환송한다. 원고의 피고 △△△쉬핑 주식회사, 주식회사 □□□글로벌에 대한 상고 및 피고 주식회사 □□□글로벌의 상고를 모두 기각한다.\" 판시사항 [2]: \"...己 보험회사가 甲 회사에 보험금을 지급하고 丁 회사 등을 상대로 손해배상을 구한 사안에서, 위 사고로 인한 丁 회사의 손해배상책임에 해상운송인의 책임제한에 관한 상법 제797조가 적용된다고 할 수 없는데도...\". 파기 대상은 해상운송인(선사)에 대한 부분뿐이고, 사건은 적하보험자의 구상금 소송.",
+  "fix": "육상운송 중 생긴 이 손해에 대해 컨테이너를 제공한 해상운송인(선사)의 책임을 제797조로 제한한 원심 부분을 파기했습니다(적하보험자가 보험금을 지급한 뒤 선사 등을 상대로 낸 구상금 소송입니다)."
+ },
+ {
+  "claim": "2025다211111 판결처럼 이 구간 손해에는 해상 한도가 붙지 않고 상법상 kg당 한도도 없습니다.",
+  "verdict": "overreach",
+  "evidence": "draft 4절 스스로: \"한국 국내 트럭 구간에는 FBL 제8.6.1조가 끌어올 강행 '한도'가 없으므로 포워더는 약관 기본 한도(제8.3조)를 주장하게 되지만 ... 이 문서에서는 결론을 단정하지 않습니다.\" 사례 1은 FBL 발행 사안이므로 이 단정은 4절과 모순. 2025다211111(https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=613051&type=XML)은 선사의 제797조 원용을 부정했을 뿐 복합운송인의 약관 한도(FBL 제8.3조) 효력을 판단하지 않음. FBL 8.3(https://ocw.uca.es/mod/resource/view.php?id=4925 (FBL Standard Conditions 1992; 같은 본문이 FIATA 게시 'Documents and Forms' https://fiata.cdn.prismic.io/fiata/afedd989-c99b-4142-9f64-8281c99aa4c5_FIATA_Documents_and_Forms.pdf 에도 있음)): \"...shall in no event be or become liable ... in an amount exceeding the equivalent of 666.67 SDR per package or unit or 2 SDR per kilogramme of gross weight...\"",
+  "fix": "2025다211111 판결처럼 이 구간 손해에는 상법 제797조의 해상 한도가 붙지 않고 상법 육상운송 규정에는 kg당 한도가 없어서, FBL 제8.3조의 약관 한도가 그대로 통하는지 다툼이 생길 수 있습니다(4절)."
+ },
+ {
+  "claim": "상법 제816조 제1항, FBL 제7.2조·제8.6.1조(헤이그-비스비 규칙 기준)",
+  "verdict": "overreach",
+  "evidence": "https://ocw.uca.es/mod/resource/view.php?id=4925 (FBL Standard Conditions 1992; 같은 본문이 FIATA 게시 'Documents and Forms' https://fiata.cdn.prismic.io/fiata/afedd989-c99b-4142-9f64-8281c99aa4c5_FIATA_Documents_and_Forms.pdf 에도 있음) cl. 7.2: \"The Hague Rules ... or in those countries where they are already in force the Hague-Visby Rules ... as enacted in the Country of Shipment, shall apply to all carriage of goods by sea\". 부산 선적 바다 구간에 한국법이 정한 강행 한도는 https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 시행 2026. 9. 10.) 제797조 제1항 \"매 포장당 또는 선적단위당 666과 100분의 67 계산단위의 금액과 중량 1킬로그램당 2 계산단위의 금액 중 큰 금액\". 한국법상 근거는 상법이므로 '헤이그-비스비 규칙 기준'으로만 적는 것은 부정확(숫자 결과는 같음). FBL 제8.6.1조는 '다른 한도(another limit)'일 때만 작동하므로 같은 숫자면 결국 제8.3조 기본 한도.",
+  "fix": "상법 제816조 제1항·제797조 제1항, FBL 제8.3조(바다 구간 강행 한도가 FBL 기본 한도와 같은 숫자)"
+ },
+ {
+  "claim": "AWB에 그 구간이 항공 구간으로 들어가 있으면 협약 한도(kg당 26 SDR, 2024. 12. 28.부터)가 기준이 되는 반면",
+  "verdict": "overreach",
+  "evidence": "MC99 Art. 18(4) (https://www.iata.org/contentassets/fb1137ff561a4819a2d38f3db7308758/mc99-full-text.pdf): \"The period of the carriage by air does not extend to any carriage by land, by sea or by inland waterway performed outside an airport. If, however, such carriage takes place in the performance of a contract for carriage by air, for the purpose of loading, delivery or transshipment, any damage is presumed, subject to proof to the contrary ... If a carrier, without the consent of the consignor, substitutes carriage by another mode of transport ... such carriage by another mode of transport is deemed to be within the period of carriage by air.\" 송하인 동의 아래 AWB에 트럭 편으로 표시된 RFS 구간을 협약상 항공운송으로 간주하는 조문은 없고(무단 대체만 간주), 적재·인도·환적 목적 추정도 반증 가능. '협약 한도가 기준이 된다'는 단정은 조문을 넘음(항공사 운송약관이 RFS에도 같은 한도를 계약으로 적용하는지는 약관 확인 사항).",
+  "fix": "AWB에 그 구간이 들어가 있으면 협약 제18조 제4항의 추정이나 항공사 운송약관에 따라 협약 한도(kg당 26 SDR, 2024. 12. 28.부터)가 기준이 되는 경우가 많은 반면"
+ },
+ {
+  "claim": "화주 쪽은 화물을 맡길 때 상태가 좋았다는 점(무사고 B/L, 화주 적입 사진·서류)과",
+  "verdict": "overreach",
+  "evidence": "https://ocw.uca.es/mod/resource/view.php?id=4925 (FBL Standard Conditions 1992; 같은 본문이 FIATA 게시 'Documents and Forms' https://fiata.cdn.prismic.io/fiata/afedd989-c99b-4142-9f64-8281c99aa4c5_FIATA_Documents_and_Forms.pdf 에도 있음) cl. 3.2: \"The information in this FBL shall be prima facie evidence of the taking in charge by the Freight Forwarder of the goods as described by such information unless a contrary indication, such as 'shipper's weight, load and count', 'shipper-packed container' or similar expressions, has been made\"; UNCTAD/ICC 규칙 제3조도 같은 취지. 화주 적입·씰 FCL(이 절과 사례 3의 전형)은 보통 이런 유보가 붙어 무사고 B/L이 내용물 상태를 증명하지 못하고 컨테이너 외관만 보여 줌.",
+  "fix": "화주 쪽은 화물을 맡길 때 상태가 좋았다는 점(무사고 B/L, 화주 적입 사진·서류. 다만 화주 적입 컨테이너에 \"SHIPPER'S LOAD AND COUNT\" 같은 유보가 있으면 B/L은 컨테이너 외관만 보여 주므로 적입 사진·보고서가 더 중요합니다)과"
+ },
+ {
+  "claim": "포장 수는 화주 패킹리스트대로 \"SAID TO CONTAIN\" 문구와 함께 적는다(FBL 제8.4조).",
+  "verdict": "unsupported",
+  "evidence": "https://ocw.uca.es/mod/resource/view.php?id=4925 (FBL Standard Conditions 1992; 같은 본문이 FIATA 게시 'Documents and Forms' https://fiata.cdn.prismic.io/fiata/afedd989-c99b-4142-9f64-8281c99aa4c5_FIATA_Documents_and_Forms.pdf 에도 있음) cl. 8.4: \"Where a container, pallet or similar article of transport is loaded with more than one package or unit, the packages or other shipping units enumerated in the FBL as packed in such article of transport are deemed packages or shipping units. Except as aforesaid, such article of transport shall be considered the package or unit.\" 포장 수 기재 효과만 정하고 'SAID TO CONTAIN' 문구는 없음. 유보 문구는 cl. 3.2('shipper's weight, load and count', 'shipper-packed container')에 있음.",
+  "fix": "포장 수는 화주 패킹리스트대로 적고(FBL 제8.4조), 화주 적입 컨테이너면 \"SAID TO CONTAIN\"이나 \"SHIPPER'S LOAD AND COUNT\" 같은 유보 문구를 함께 적는다(FBL 제3.2조)."
+ },
+ {
+  "claim": "화주와 배상 합의를 하거나 소송을 당하면 3개월 안에 하청 운송인에게 소송고지 또는 구상 청구를 한다(상법 제814조 제2항·제3항).",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 시행 2026. 9. 10.) 제814조 제1항: \"...1년 이내에 재판상 청구가 없으면 소멸한다\"; 제2항: \"...그 합의 또는 청구가 있은 날부터 3개월이 경과하기 이전에는 그 제3자에 대한 운송인의 채권ㆍ채무는 제1항에도 불구하고 소멸하지 아니한다\"; 제3항: \"재판상 청구를 받은 운송인이 그로부터 3개월 이내에 그 제3자에 대하여 소송고지를 하면 3개월의 기간은 그 재판이 확정되거나 그 밖에 종료된 때부터 기산한다\". 3개월 안에 해야 하는 것은 하청 운송인에 대한 재판상 청구(또는 기간 연장 약정)이고, 재판 외 '구상 청구'만으로는 제척기간이 지켜지지 않음. 소송고지는 화주에게 재판상 청구를 받은 경우에만 해당.",
+  "fix": "화주와 배상 합의를 하면 그날부터 3개월 안에 하청 운송인을 상대로 재판상 청구(소 제기)를 하거나 기간 연장 합의를 받고, 화주에게 소송을 당하면 3개월 안에 하청 운송인에게 소송고지를 한다(상법 제814조 제2항·제3항)."
+ },
+ {
+  "claim": "사흘 안에 서면으로 알려 주셔야 권리가 지켜집니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 시행 2026. 9. 10.) 제804조 제2항: \"제1항의 통지가 없는 경우에는 운송물이 멸실 또는 훼손 없이 수하인에게 인도된 것으로 추정한다.\" FBL cl. 16.2: 6일 내 서면 통지가 없으면 \"the same prima facie effect shall apply\"(추정). 통지 누락은 추정에 그치고 권리 상실이 아님. 기존 문서 D:/Desktop/AI Project/LogisticsLibrary/insurance-docs/ins-claims.html 3절: \"통지를 놓친 효과는 규칙마다 다릅니다. 해상은 '정상 인도로 추정'되는 데 그치지만, 항공은 기한 내 통지가 없으면 소송 자체를 할 수 없습니다.\" (모순)",
+  "fix": "사흘 안에 서면으로 알려 주셔야 나중에 다툴 때 불리해지지 않습니다(통지가 없으면 정상 인도로 추정됩니다. 항공 구간이면 14일 안에 서면 통지가 없을 때 소송 자체를 못 합니다)."
+ },
+ {
+  "claim": "ICC Publication 481 서지 정보(UC Berkeley Law Library)",
+  "verdict": "unverifiable",
+  "evidence": "curl https://lawcat.berkeley.edu/record/541607 → HTTP 202, Content-Length 0, x-amzn-waf-action: challenge (plain fetch로 열람 불가; facts.md #36도 '페이지 직접 열람은 안 함'). 대체 1차 출처: efbl.fiata.org/faq에서 링크된 FIATA 'Documents and Forms' https://fiata.cdn.prismic.io/fiata/afedd989-c99b-4142-9f64-8281c99aa4c5_FIATA_Documents_and_Forms.pdf 의 FBL 서식: \"issued subject to UNCTAD / ICC Rules for Multimodal Transport Documents (ICC Publication 481)\".",
+  "fix": "ICC Publication 481 표기(FIATA Documents and Forms의 FBL 서식) — <a href=\"https://fiata.cdn.prismic.io/fiata/afedd989-c99b-4142-9f64-8281c99aa4c5_FIATA_Documents_and_Forms.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">FIATA</a> (Berkeley 링크를 이것으로 교체)"
+ },
+ {
+  "claim": "준거법을 영국법으로 둡니다(제28조)",
+  "verdict": "overreach",
+  "evidence": "https://terms.maersk.com/HBL cl. 28: \"Whenever clause 7.2(d) and/or whenever US COGSA applies ... that stage of the Carriage is to be governed by United States law and the United States Federal Court of the Southern District of New York is to have exclusive jurisdiction ... In all other cases, this bill of lading shall be governed by and construed in accordance with English law and all disputes ... shall be determined by the English High Court of Justice in London\".",
+  "fix": "준거법을 원칙적으로 영국법(관할은 런던 고등법원)으로 둡니다(제28조, 미국 COGSA가 적용되는 구간은 미국법)"
+ },
+ {
+  "claim": "UNCTAD/ICC 복합운송증권 규칙과 FIATA FBL 약관은 유료 원본 대신 대학이 공개한 사본(규칙은 스페인어판, FBL은 영문판)으로 읽었고",
+  "verdict": "unsupported",
+  "evidence": "FBL 1992 표준약관은 FIATA가 직접 공개: efbl.fiata.org/faq에서 링크된 https://fiata.cdn.prismic.io/fiata/afedd989-c99b-4142-9f64-8281c99aa4c5_FIATA_Documents_and_Forms.pdf 에 \"Standard Conditions (1992) governing the FIATA Multimodal Transport Bill of Lading\" 전문이 실려 있고 대학 사본(ocw.uca.es id=4925)과 조문이 같음. FBL에 대해 '유료 원본 대신'은 근거 없음(유료인 것은 UNCTAD/ICC 규칙, ICC Publication 481).",
+  "fix": "UNCTAD/ICC 복합운송증권 규칙은 유료 원본(ICC Publication 481) 대신 대학이 공개한 스페인어판 사본으로, FIATA FBL 약관은 FIATA가 게시한 1992년 표준약관 영문으로 읽었고"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "검증 2026-10-18, plain fetch(curl)만 사용, 브라우저 자동화 없음. 1차 확인: law.go.kr DRF(상법 ID 001702 = 법률 제21044호 시행 2026. 9. 10.; 물류정책기본법 MST 276993 = 제21065호 시행 2025. 10. 1.; 시행규칙 MST 285423 시행 2026. 4. 2.; 판례 원문 precSeq 208733/613051/140171/140203/204250 = 대법원 종합법률정보 대신 국가법령정보센터 DRF), UNTC XI-E-1(1980 협약 미발효, Signatories 6, Parties 11, 한국 없음, 제36조 30개국), UNTC XI-B-11·XI-B-11-a(CMR·1978 의정서: 한국 없음, 독일·체코는 의정서 당사국), UNCITRAL RR status(Parties 5: Spain, Togo, Congo, Cameroon, Benin; 20 required), RR 원문 제1조 제1항·제26조·제59조(875/3)·제94조, 1980 협약 원문(jus.uio.no) 제1조·제16조·제18조(920/2.75, 8.33)·제19조('higher limit'), MC99(IATA PDF) 제18조 제4항·제31조(14일, 사기 외 소송 불가)·제35조(2년)·제38조, ICAO 2024 개정 한도(26 SDR, 2024. 12. 28.), ICAO Mtl99 당사국 목록(한국 2007. 10. 30. 가입, 2007. 12. 29. 발효), CMR(UNTS 399) 제1·2·23·24·26·30·32조, 1978 의정서(8.33), COTIF 통합본(2023. 11. 1.) CIM 제1조 §1·제30조 §2(17)·제47조 §2(b)(7일)·제48조(1년/2년), UNCTAD/ICC 규칙(스페인어판) 제1.1·2.1·2.2·4.2·5.4·6.1·6.3·6.4·6.5·9·10·13조, FBL 1992 Definitions·1·2.1·2.2·3.1·5.2·6.2·6.5·6.7·7.1·7.2·8.3~8.7·16·17·19와 ICC 로고 문구(FIATA 게시본으로 1992년판이 현행 서식임도 확인), FIATA eFBL FAQ(회원+배상책임보험), Maersk HBL 1.1·7.1(c)·28. 이 밖의 조문 번호·숫자·날짜·판결 요지와 사례 1 계산(6,666.7 / 10,000 / 85,000 / 41,650 SDR, 8.5배)은 모두 원문과 일치. 판례 4건 사건번호·선고일 정확(2019다213009 2019. 7. 10., 2025다211111 2025. 11. 13., 2008다58978 2009. 8. 20., 2007다87016 2009. 8. 20.; 2018다244761 2018. 12. 13.도 정확). 문제 16건: wrong 2, overreach 11, unsupported 2, unverifiable 1. 핵심: 점검표의 제814조 3개월 구상 방법 오류, 8절을 6절로 잘못 가리킨 교차참조, 10절 '사흘 안에 알려야 권리가 지켜짐'이 ins-claims 3절과 모순, 사례 1의 국내 트럭 구간 단정이 4절의 유보와 모순, 2025다211111 사안 설명(선사 피고, 보험자 구상, 일부 파기)과 '판결 두 건이 보여 줌'의 의미 확대. 깨진 내부 링크 없음(bl-basics·bl-release·ins-*·ctu-code/a3-condensation 존재, 인용한 절 번호 bl-basics 3·4·8절, ins-forwarder 2절, ins-claims 3절, ins-carrier-liability 6절 맞음). 외부 링크 중 lawcat.berkeley.edu만 plain fetch 불가(WAF).",
+  "fix": ""
+ }
+]
