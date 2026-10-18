@@ -18,3 +18,4 @@ Audit date: 2026-10-18
 - `images/insurance/insurance-hero.webp` — **FIXED**. Locking rods and related hardware appeared on the visible inner faces. In `insurance-hero-doorfix.webp`, both leaves are outer-edge hinged, open about 90 degrees, and show plain gasketed inner panels.
 
 All seven generated fixes were visually checked at full size after WebP conversion. Every visible door in the outputs satisfies rules 1–3, and each output is 1672×941 pixels, matching its original.
+- `images/ctu/packing-rows.webp` — **FIXED**. Removed the mid-height lock handles and the top/bottom cam keepers and locking-bar ends from both fully open doors' free edges; `packing-rows-doorfix.webp` retains the corner-post hinges and shows only plain gasketed inner door faces.
