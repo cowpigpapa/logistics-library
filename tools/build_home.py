@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 import images  # 그림 작은 판(srcset)·지연 로딩
 CARD_SIZES = '(max-width: 900px) calc(100vw - 72px), 400px'   # 카드 그림 칸 폭
 DOC_SIZES = '(max-width: 900px) calc(100vw - 40px), 920px'    # 문서 본문 폭
-V = '20261017-02'   # library-index.css/js, library-index-data.js 캐시 버전
+V = '20261018-01'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')

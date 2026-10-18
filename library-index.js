@@ -254,6 +254,10 @@
     ['리튬 배터리', 'lithium battery', '리튬이온 배터리'], ['온도유지', '콜드체인', 'cold chain', '온도관리'],
     ['VGM', '검증된 총중량', '컨테이너 총중량 검증', 'verified gross mass'], ['CSC', 'CSC 명판', 'CSC plate'], ['결로', 'condensation', '컨테이너 비'],
     ['무게중심', 'center of gravity', 'COG'], ['포워더', '운송주선인', 'freight forwarder'], ['송하인', 'shipper'], ['수하인', 'consignee'],
+    ['적재화물목록', '적하목록', 'manifest', '매니페스트'], ['원산지증명서', 'C/O', 'certificate of origin', '원산지 증명서'], ['FTA', '자유무역협정', '협정관세'],
+    ['HS 코드', 'HSK', '품목분류', '세번'], ['보세운송', 'bonded transport'], ['보세구역', '보세창고', 'bonded warehouse'], ['수입신고', 'import declaration'], ['수출신고', 'export declaration'],
+    ['운임 중량', 'chargeable weight', 'C/W'], ['부피 중량', 'volume weight', 'V/W', '용적 중량'], ['운임톤', 'R/T', 'revenue ton', 'W/M', '프레이트톤'],
+    ['할증료', 'surcharge'], ['LCL', '소량 화물', '혼재 화물'], ['콘솔사', 'consolidator'], ['코로더', 'co-loader'],
     ['PTI', 'pre-trip inspection', '사전 점검'], ['젠셋', 'genset'], ['씰', 'seal', '봉인'], ['책임 한도', 'liability limit', '책임제한'],
   ];
   const squash = s => s.toLowerCase().replace(/\s+/g, '');
