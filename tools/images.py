@@ -1,6 +1,6 @@
 """큰 그림의 작은 판(WebP)을 만들고, 페이지 마크업의 <img>에 srcset·sizes·width·height·지연 로딩을 붙인다.
 
-    python tools/images.py      # images/ 아래 폭 1000px 넘는 그림마다 <이름>-w480.webp, <이름>-w960.webp를 만든다(이미 있으면 건너뜀)
+    python tools/images.py      # images/ 아래 폭 1000px 넘는 그림마다 <이름>-w480·w640·w960.webp를 만든다(이미 있으면 건너뜀)
 
 마크업 변환(responsive)은 tools/build_home.py(첫 화면 카드)와 tools/prerender.py(문서·개요)가 부른다.
 그림을 새로 넣거나 바꾸면 이 스크립트를 먼저 실행한 뒤 build_home.py·prerender.py를 실행한다."""
@@ -11,7 +11,7 @@ from PIL import Image
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
 IMAGES = ROOT / 'images'
-WIDTHS = (480, 960)
+WIDTHS = (480, 640, 960)   # 640: 휴대폰(폭 약 340px × 화면 배율 1.75~2) 카드·본문 그림
 VARIANT = re.compile(r'-w\d+$')
 _dims = {}
 

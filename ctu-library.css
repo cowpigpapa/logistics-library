@@ -823,3 +823,18 @@
   }
   .library-view .lib-table tbody tr:nth-child(even) > td { background: transparent; }
 }
+
+/* Cubestow에 실릴 때의 왼쪽 색인(ctu-library.js indexShell). 모양은 library-index.css를 그대로 쓰고, 바깥 칸(.library-view)이 이미 폭·여백을 주므로 겹치는 것만 뺀다. */
+.ctu-index-shell { background: none; }
+.ctu-index-shell .li-main { width: 100%; padding-block: 0; }
+.ctu-index-shell .li-view > .lib-head:first-child,
+.ctu-index-shell .li-view > .lib-crumb:first-child { margin-top: 0; }
+/* 개요 카드의 기본 모양(Logistics Library는 styles.css에 있다. Cubestow에는 없으므로 색인 칸 안에서만 같은 값을 준다). */
+.ctu-index-shell .library-entry { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 3vw, 44px); align-items: center; }
+.ctu-index-shell .entry-facts { margin: 0 0 8px; }
+.ctu-index-shell .entry-facts div { display: grid; grid-template-columns: 92px 1fr; gap: 14px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.ctu-index-shell .entry-facts dt { font-size: 12px; }
+.ctu-index-shell .entry-facts dd { margin: 0; font-size: 13px; font-weight: 700; }
+.ctu-index-shell .entry-image { display: block; overflow: hidden; width: 100%; max-width: 660px; justify-self: end; background: #dce9f5; }
+.ctu-index-shell .entry-image img { display: block; width: 100%; height: auto; }
+@media (max-width: 900px) { .ctu-index-shell .library-entry { grid-template-columns: 1fr; gap: 20px; } }

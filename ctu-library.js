@@ -1904,7 +1904,11 @@
   const checkedLine = doc =>
     `<p class="lib-checked">원문 대조 확인 ${esc(doc.checked || CHECKED)}${CHECK_NOTES[doc.id] ? ` · ${esc(CHECK_NOTES[doc.id])}` : ''}</p>`;
   function renderDoc(view, doc) {
-    view.innerHTML = `<nav class="lib-crumb"><a href="/library/ctu-code">← CTU Code</a></nav><article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc.id)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1>${checkedLine(doc)}${doc.body.replace('<!--lib-map-->', mapTable())}</article>`;
+    // 색인과 함께 쓸 때는 Logistics Library 문서 화면처럼 맨 위에 카테고리 머리(build_home.py kicker)를 둔다.
+    const head = EMBED_INDEX
+      ? '<p class="li-entry-h li-doc-head"><a href="/library/ctu-code">CTU Code</a><span class="li-kicker-sub g1">IMO · ILO · UNECE</span></p>'
+      : '<nav class="lib-crumb"><a href="/library/ctu-code">← CTU Code</a></nav>';
+    view.innerHTML = `${head}<article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc.id)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1>${checkedLine(doc)}${doc.body.replace('<!--lib-map-->', mapTable())}</article>`;
     fitTableColumns(view);
   }
   // 표의 열 가운데 칸이 모두 짧은 열(항목 이름·근거·방식 등)은 한 줄로 둔다. 그러면 표가 그 열에 필요한 폭을 먼저 주고,
@@ -1922,9 +1926,108 @@
       });
     });
   }
+  // Cubestow(cubestow.onharu.app)가 이 스크립트를 불러 쓸 때는 Logistics Library와 같은 왼쪽 색인을 CTU Code만으로 붙인다.
+  // 마크업과 모양은 Logistics Library 색인(library-index.js renderTree, library-index.css)과 같다. 묶음은 SECTIONS + 참고 자료,
+  // '설명 및 요약'은 색인에 따로 두지 않고 '개요'(첫 화면)에서 연다. Logistics Library 안(독립 페이지)에서는 쓰지 않는다.
+  const EMBED_INDEX = !isStandalone;
+  const INDEX_CSS = LIBRARY_ORIGIN + '/library-index.css?v=20261017-02';
+  function indexTree() {
+    const overview = DOCS.find(d => d.title.includes('설명 및 요약'))?.id;
+    const used = new Set();
+    const groups = SECTIONS.map(s => ({ title: s.title, docs: s.docs.filter(i => byId(i) && i !== overview) }));
+    groups.forEach(g => g.docs.forEach(i => used.add(i)));
+    const extra = REFERENCE_DOCS.filter(i => byId(i) && !used.has(i) && i !== overview);
+    if (extra.length) groups.push({ title: '참고 자료', docs: extra });
+    const label = d => d.short || d.title.split(' — ')[0];
+    const n = groups.reduce((sum, g) => sum + g.docs.length, 0);
+    const secs = groups
+      .filter(g => g.docs.length)
+      .map(
+        g =>
+          `<div class="li-sec"><p class="li-sec-name">${esc(g.title)}</p><ul>${g.docs
+            .map(byId)
+            .map(d => `<li><a href="/library/ctu-code/${d.id}" data-id="${d.id}" title="${esc(d.title)}">${esc(label(d))}</a></li>`)
+            .join('')}</ul></div>`
+      )
+      .join('');
+    return `<div class="li-group"><p class="li-group-name">규정</p><div class="li-cat-wrap"><a class="li-ov" href="/library/ctu-code" title="CTU Code 개요 및 원문">개요</a><details class="li-cat" open><summary><span class="li-cat-name">CTU Code</span><span class="li-count">${n}</span></summary>${secs}</details></div></div>`;
+  }
+  // 색인과 오른쪽 칸을 한 번만 만들고, 화면이 바뀔 때는 오른쪽 칸만 다시 그린다(색인의 펼침·검색어는 그대로).
+  function indexShell(view) {
+    let pane = view.querySelector(':scope > .ctu-index-shell .li-view');
+    if (pane) return pane;
+    if (!document.querySelector(`link[href="${INDEX_CSS}"]`)) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = INDEX_CSS;
+      document.head.append(link);
+    }
+    view.innerHTML = `<div class="li-body ctu-index-shell"><div class="li-main"><button type="button" class="li-toggle" aria-controls="ctuSide" aria-expanded="false">목차</button><aside class="li-side" id="ctuSide" aria-label="CTU Code 색인"><div class="li-side-head"><input type="search" placeholder="제목 검색" aria-label="CTU Code 해설 제목으로 찾기" autocomplete="off"><div class="li-side-tools"><button type="button" data-all="open">모두 펼치기</button><button type="button" data-all="close">모두 접기</button></div></div><nav class="li-tree">${indexTree()}</nav></aside><div class="li-view"></div></div></div>`;
+    const shell = view.querySelector('.ctu-index-shell'),
+      toggle = shell.querySelector('.li-toggle'),
+      tree = shell.querySelector('.li-tree');
+    const setSide = open => {
+      shell.classList.toggle('li-side-open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.textContent = open ? '닫기' : '목차';
+    };
+    toggle.addEventListener('click', () => setSide(!shell.classList.contains('li-side-open')));
+    tree.addEventListener('click', e => {
+      if (e.target.closest('a')) setSide(false);
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && shell.classList.contains('li-side-open')) setSide(false);
+    });
+    shell.querySelectorAll('[data-all]').forEach(b =>
+      b.addEventListener('click', () => tree.querySelectorAll('details').forEach(d => (d.open = b.dataset.all === 'open')))
+    );
+    // 제목 찾기: 맞는 해설만 남기고 빈 묶음은 숨긴다(띄어쓰기·대소문자 무시).
+    const squash = s => s.toLowerCase().replace(/\s+/g, '');
+    shell.querySelector('input').addEventListener('input', e => {
+      const q = squash(e.target.value);
+      tree.querySelectorAll('.li-sec').forEach(sec => {
+        let hit = 0;
+        sec.querySelectorAll('li').forEach(li => {
+          const a = li.querySelector('a'),
+            d = byId(a.dataset.id);
+          const ok = !q || squash(`${a.textContent} ${d.title} ${d.tag || ''} ${d.summary || ''}`).includes(q);
+          li.hidden = !ok;
+          hit += ok;
+        });
+        sec.hidden = !hit;
+      });
+      if (q) tree.querySelectorAll('details').forEach(d => (d.open = true));
+    });
+    return view.querySelector('.ctu-index-shell .li-view');
+  }
+  // 색인과 함께 쓸 때의 '개요' 화면: Logistics Library 개요(tools/prerender.py overview_inner)와 같은 구성.
+  // 카드(설명·그림) → 저작권 알림 → '설명 및 요약' 해설 → 원문과 공식 자료.
+  function renderOverview(pane) {
+    const overview = DOCS.find(d => d.title.includes('설명 및 요약'));
+    const count = pane.ownerDocument.querySelectorAll('.ctu-index-shell .li-sec a').length;
+    const card = `<div class="li-home"><section class="library-entry" aria-labelledby="ctu-title"><div class="entry-copy"><h1 id="ctu-title" class="li-entry-h">CTU Code<span class="li-kicker-sub g1">IMO · ILO · UNECE</span></h1><p>컨테이너 등 화물운송단위에 화물을 싣고 고정하는 국제 실무 규칙을 원문 링크와 한국어 해설, 사례로 정리했습니다.</p><dl class="entry-facts"><div><dt>한국어 해설</dt><dd>${count}편</dd></div><div><dt>공식 원문</dt><dd>2종</dd></div><div><dt>주요 주제</dt><dd>적재 · 고박 · 안전</dd></div></dl></div><span class="entry-image"><img src="/images/ctu/collapsed-cargo-v2.webp" alt="열린 컨테이너 안에서 고정되지 않은 화물이 무너진 모습" width="1672" height="941"></span></section></div>`;
+    const notice = `<div class="li-notice"><b>저작권과 해설</b><p>${lines('CTU Code와 정보자료의 저작권은 IMO에 있으며 원문은 아래 공식 배포 사이트를 통해 내려받을 수 있습니다. 해설과 참고 자료는 AI가 원문과 법령을 읽고 직접 작성하였으며 IMO·ILO·UNECE가 만들거나 검토한 것이 아닙니다. CTU Code 본문(1497)과 정보자료(1498)의 전체 한국어 번역 초안은 준비되어 있으나 저작권자인 IMO의 사전 서면 허가 없이는 번역본을 게시할 수 없어, IMO의 게시 허가를 기다리는 중입니다.')}</p></div>`;
+    const doc = overview
+      ? `<div class="li-ov-doc"><article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">${esc(overview.tag)}</span>${levelBadge(overview.id)}</span><h2 class="lib-doc-title">${esc(overview.title)}</h2>${checkedLine(overview)}${overview.body.replace('<!--lib-map-->', mapTable())}</article></div>`
+      : '';
+    const official = ['1497', '1498', 'other'].flatMap(group => OFFICIAL.filter(o => o.group === group)).map(officialRow).join('');
+    const translations = OFFICIAL.filter(o => TRANSLATIONS[o.url]).map(o => translationNote(TRANSLATIONS[o.url])).join('');
+    const src = `<section class="li-src"><h2>원문과 공식 자료</h2><div class="lib-table-wrap"><table class="lib-table lib-official-table"><thead><tr><th>문서</th><th>발행 정보</th><th>내용</th><th></th></tr></thead><tbody>${official}</tbody></table></div><ul class="lib-translation-notes">${translations}</ul></section>`;
+    pane.innerHTML = card + notice + doc + src;
+    fitTableColumns(pane);
+  }
+  function markIndex(view, id) {
+    view.querySelectorAll('.ctu-index-shell .li-tree a').forEach(a => {
+      const on = id ? a.dataset.id === id : a.classList.contains('li-ov');
+      a.classList.toggle('is-active', on);
+      if (on) a.setAttribute('aria-current', 'page');
+      else a.removeAttribute('aria-current');
+    });
+  }
   function show() {
     const view = document.getElementById('libraryView');
     if (!view) return;
+    const pane = EMBED_INDEX ? indexShell(view) : view;
     let id = location.pathname.split('/')[3];
     // 합쳐진 해설의 옛 주소는 합친 해설로 옮긴다(공유된 링크·즐겨찾기가 계속 열리게).
     if (MERGED[id]) {
@@ -1932,12 +2035,14 @@
       history.replaceState(null, '', `/library/ctu-code/${id}`);
     }
     const doc = DOCS.find(d => d.id === id);
+    if (EMBED_INDEX) markIndex(view, doc && doc.id);
     if (doc) {
-      renderDoc(view, doc);
+      renderDoc(pane, doc);
       document.title = `${doc.title} · CTU Code · Logistics Library`;
       setCanonical(`/library/ctu-code/${doc.id}`);
     } else {
-      renderList(view);
+      if (EMBED_INDEX) renderOverview(pane);
+      else renderList(pane);
       if (isStandalone) document.title = 'CTU Code · Logistics Library';
       setCanonical('/library/ctu-code');
     }
