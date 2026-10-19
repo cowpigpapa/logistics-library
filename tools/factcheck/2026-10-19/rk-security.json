@@ -1,0 +1,80 @@
+[
+ {
+  "claim": "「Minimum Security Criteria - U.S. Importers」(2019년 11월판)",
+  "verdict": "outdated",
+  "evidence": "https://www.cbp.gov/border-security/ports-entry/cargo-security/ctpat/security-guidelines/importers (Last Modified: Jan 16, 2026): its 'Importer Minimum Security Criteria' link goes to https://www.cbp.gov/document/guidance/ctpat-us-importers-msc-2021, then to https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf. Cover: \"Minimum Security Criteria - U.S. Importers October 2021\". A diff against the 2019 edition (curl + pdftotext) shows only two substantive changes: the 3.4 MRA list (\"the European Union (27 Member states) ... Peru, the United Kingdom, and India\") and 3.9 moving from Should to Must. Every ID, Must/Should flag and wording this article cites is unchanged.",
+  "fix": "「Minimum Security Criteria - U.S. Importers」(2021년 10월판)"
+ },
+ {
+  "claim": "CTPAT MSC(2019. 11.)",
+  "verdict": "outdated",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf: the current CBP Importers MSC is the \"October 2021\" edition. The cited IDs and Must/Should flags are the same as in 2019.",
+  "fix": "CTPAT MSC(2021. 10.)"
+ },
+ {
+  "claim": "Minimum Security Criteria - U.S. Importers, November 2019(U.S. CBP)",
+  "verdict": "outdated",
+  "evidence": "https://www.cbp.gov/document/guidance/ctpat-us-importers-msc-2021 (CBP, \"CTPAT U.S. Importers MSC 2021\") links to https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf, whose cover reads \"October 2021\". The 2019 PDF link still opens (200), but the CBP Importers criteria page now links to the 2021 edition.",
+  "fix": "Minimum Security Criteria - U.S. Importers, October 2021(U.S. CBP) — <a href=\"https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">CBP MSC PDF</a> (also replace the 2019 PDF href in this source entry)"
+ },
+ {
+  "claim": "CTPAT MSC 6.1의 이행 지침도",
+  "verdict": "wrong",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2019-Dec/CTPAT%20U.S.%20Importers%20MSC%202019.pdf p.22-23 (same in the 2021 edition): the Implementation Guidance column for 6.1 is empty. The driver/carrier/shipper notification text is in the Criteria column: \"Written seal controls must include the following elements: ... Seals Broken in Transit: ... The driver must immediately notify dispatch when a seal is broken ... The carrier must immediately notify the shipper, broker, and importer ... The shipper must note the replacement seal number in the seal log.\" So these are required elements (Must), not guidance examples.",
+  "fix": "CTPAT MSC 6.1이 서면 씰 절차에 반드시 넣으라고 정한 요소에도"
+ },
+ {
+  "claim": "모든 부문에 봉인 관리",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/LSW//admRulInfoP.do?admRulSeq=2100000286058 (관세청고시 제2026-60호 별표 1, checked via the lawService.do XML): the 4.2.2 seal management/report/share clause exists for 수출자, 수입자, 화물운송주선업자, 보세운송업자, 보세구역운영인, 선박회사 and 항공사. 관세사 has it as 4.2.3 and only as a duty to advise clients (\"관세사는 거래업체에 ... 봉인을 관리하고 ... 절차를 마련하도록 안내하여야 한다\"). 하역업자 4.2.2 reads \"하역업자는 운송 중 봉인통제 절차를 마련하여, 운전사에게 이를 이행하도록 하여야 한다\", with no report/share element.",
+  "fix": "수출자·수입자·화물운송주선업자·보세운송업자·보세구역운영인·선박회사·항공사 부문에 봉인 관리"
+ },
+ {
+  "claim": "민감 직무 특별 교육",
+  "verdict": "wrong",
+  "evidence": "CBP Importers MSC (2019. 11.; same in 2021. 10.) 12.6 (Should): \"Specialized training should be provided annually to personnel who may be able to identify the CTPAT Warning Indicators of Trade-Based Money Laundering and Terrorism Financing.\" 12.6 covers trade-based money laundering and terrorism financing warning indicators. It is not general sensitive-position training. Additional training for sensitive positions is in 12.1, which sets no annual frequency.",
+  "fix": "무역 기반 자금세탁·테러자금 경고 지표 교육(해당 직원)"
+ },
+ {
+  "claim": "수입자용 MSC에는 같은 항목이 따로 없음(9.1 물리적 장벽으로 포괄)",
+  "verdict": "overreach",
+  "evidence": "CBP Importers MSC 10.1 (Must), implementation guidance: \"Access devices include employee identification badges, visitor and vendor temporary badges, biometric identification systems, proximity key cards, codes, and keys.\" Key control is covered by 10.1 (procedures for issuing, changing and removing access devices). Only a separate criterion on installing locks is missing.",
+  "fix": "잠금장치 설치 항목은 따로 없고(9.1 물리적 장벽으로 포괄), 열쇠는 10.1의 출입 장치(access devices)에 포함"
+ },
+ {
+  "claim": "(AEO 4.5.3, CTPAT 10.7)",
+  "verdict": "unsupported",
+  "evidence": "관세청고시 제2026-60호 별표 1: 화물운송주선업자 4.5.3 is \"물품의 통관에 사용되는 정보 및 문서를 정확하게 하고 ... 보호되는 절차\" and has nothing to do with matching release approvals or driver details. Matching release approval and driver details is 보세구역운영인 4.5.3 (\"반출물품을 구매주문서 또는 운송의뢰서, 반출승인정보 등과 대조 확인 ... 물품을 인수하거나 불출하기 전에 운전사 및 운송수단 정보 등을 확인\") or 화물운송주선업자 4.5.5. The article says it uses 화물운송주선업자 numbering by default, so the 부문 must be named here.",
+  "fix": "(AEO 보세구역운영인 4.5.3·화물운송주선업자 4.5.5, CTPAT 10.7)"
+ },
+ {
+  "claim": "자금세탁·테러자금 관련 확인을 넣으라고 요구합니다(Must)",
+  "verdict": "overreach",
+  "evidence": "CBP Importers MSC 3.1: \"CTPAT Members must have a written, risk based process for screening new business partners and for monitoring current partners. A factor that Members should include in this process is checks on activity related to money laundering and terrorist funding.\" The written screening process is must. The money laundering / terrorist funding check is should.",
+  "fix": "자금세탁·테러자금 관련 확인도 넣도록 권합니다(절차 자체는 Must)"
+ },
+ {
+  "claim": "(TAPA PSR 2018 용어 정의, TAPA APAC 자체 심사 안내)",
+  "verdict": "outdated",
+  "evidence": "https://tapaemea.org/standards-trainings/parking-facility-security-requirements/ : \"TAPA EMEA revised the PSR Standard in 2023.\" / \"2. Self-Certification - A self-certification audit to meet the requirements of PSR Level 3 ... valid for 3 years.\" / \"3. Independent Audit Body (IAB) Certification (Levels 1, 2 and 3)\". The substance (self-certification only at the lowest level) matches current guidance, but the PSR 2018 basis was revised in 2023. The lib-disclaimer phrase 'TAPA가 공개한 PSR 2018 문서' and the PSR 2018 link in the source line have the same problem.",
+  "fix": "(TAPA PSR 2018 용어 정의와 TAPA EMEA PSR 안내(2023년 개정판), TAPA APAC 자체 심사 안내)"
+ },
+ {
+  "claim": "ISO는 인증을 하거나 인증서를 발급하지 않으므로",
+  "verdict": "unverifiable",
+  "evidence": "https://www.iso.org/certification.html returns HTTP 403 (Cloudflare) to both curl and WebFetch. The author's FACTS file also says this was confirmed only from a search-result summary. The primary text could not be fetched directly. The statement itself is widely known, but it cannot be quoted from the source.",
+  "fix": ""
+ },
+ {
+  "claim": "경로 이탈과 지연은 화주에게 알린다",
+  "verdict": "overreach",
+  "evidence": "관세청고시 제2026-60호 별표 1 보세운송업자 4.2.6: \"날씨, 교통상황, 우회 등으로 운송이 지연되는 경우 운전사가 운송의뢰인에게 그 사실을 통보하도록 하여야 한다.\" Notification goes to the 운송의뢰인 (who may be the forwarder). The clause does not require notifying route deviations; 4.2.6 only requires checking for abnormal routes.",
+  "fix": "경로 이탈은 확인하고 지연은 운송의뢰인(화주 또는 포워더)에게 알린다"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "fix": "",
+  "evidence": "Checked against fresh downloads (curl and the law.go.kr Open API, no browser): AEO 고시 제2026-60호 별표 1 (all 9 부문, 4.1-4.8) and 제3·4·17·18·25조; CBP Importers MSC PDFs, Nov 2019 and Oct 2021 (every cited ID and Must/Should flag); CBP CTPAT and Security Criteria pages; IMO ISPS page; CTU Code MSC.1/Circ.1498 IM9; TAPA APAC 2026 notice, self-cert and IAB pages; TAPA EMEA standards and PSR pages; PSR 2018 PDF; IUMI; Standard Norge ISO 28000:2022; 국제선박항만보안법 제3·33조 (법률 제20125호); 시행령 제4조 (대통령령 제34988호); 물류정책기본법 제2조①13·제33조 (법률 제21065호); 개인정보 보호법 제25조 (법률 제21445호, 시행 2026. 9. 11.). All law versions are current. These match the source: CTPAT 5.3 7/8-point list, 5.4, 5.5, 6.1-6.7 flags, 7.23 incident examples (including identifier misuse), the 3.4 MRA list with South Korea, 4.2, and the 9.x/10.x/11.x/12.x flags. The Korean rendering of the 6.2 seal-placement guidance is accurate and consistent with the CTU im9-seals doc (§2.2.2, §3.4.1.4-5): secure cam position instead of the right door handle; bottom of the center-most vertical bar of the right door; otherwise the center-most left-hand locking handle on the right door; bolt seal barrel up, above the hasp. No contradiction with cu-aeo.html (9 부문, 70점, 제17조 30일, 제18조, 제25조 4.8.1~4.8.4). All internal links exist. All external links return 200 except iso.org, which returns 403 to bots. No advice tells forwarders to physically inspect cargo. Problems: 4 outdated (3 MSC 2019 refs that should become Oct 2021, 1 PSR 2018 basis), 2 wrong (6.1 required elements labelled as implementation guidance; 12.6 described as sensitive-position training), 4 overreach, 1 unsupported citation, 1 unverifiable."
+ }
+]

@@ -1,0 +1,32 @@
+[
+ {
+  "claim": "컨테이너나 밀폐된 탑차 안에 화주가 직접 적입하고 씰까지 건 화물은 기사가 안을 볼 수 없으므로, 내부 적재와 고정은 적입한 사람의 일이 됩니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282123&type=XML (화물자동차 운수사업법 시행규칙, 시행 2025. 12. 29.~2026. 6. 30. 현행본) 별표 1의3 제1호 나목: \"운행 중 폐쇄형 적재함 내부의 적재화물이 한 방향으로 치우치게 되어 화물자동차가 쓰러지거나 뒤집히지 않도록 적재화물에 대해 필요한 조치를 해야 한다. 다만, 최대 적재량 1톤 이하의 화물자동차는 그렇지 않다.\" 제21조의7은 이 기준을 운송사업자의 의무로 정함(\"운송사업자는 법 제11조제20항에 따라 ... 별표 1의3에 따른 ... 필요한 조치를 해야 한다\"). 탑차·윙바디(폐쇄형 적재함)는 화주가 실었더라도 내부 쏠림 방지 의무가 법령상 운송사업자에게 남으므로, '적입한 사람의 일이 된다'고만 쓰면 운송사 의무가 없어지는 것처럼 읽힘(컨테이너는 별표상 하단 모서리 잠금만 정함).",
+  "fix": "컨테이너나 밀폐된 탑차 안에 화주가 직접 적입하고 씰까지 건 화물은 기사가 안을 볼 수 없으므로, 실무에서는 내부 적재와 고정을 적입한 사람이 책임집니다. 다만 탑차·윙바디 같은 폐쇄형 적재함은 안의 화물이 쏠려 차가 넘어지지 않도록 조치할 의무가 법령상 운송사업자에게도 있습니다(시행규칙 별표 1의3 제1호 나목)."
+ },
+ {
+  "claim": "최대 적재량 1톤 이하 화물자동차는 제외합니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282123&type=XML (화물자동차 운수사업법 시행규칙, 시행 2025. 12. 29.~2026. 6. 30. 현행본) 별표 1의3 제1호: 가목 \"충분한 성능을 가진 폐쇄형 적재함 ... 을 설치하여 운송해야 한다.\" 나목 \"... 쓰러지거나 뒤집히지 않도록 적재화물에 대해 필요한 조치를 해야 한다. 다만, 최대 적재량 1톤 이하의 화물자동차는 그렇지 않다.\" 단서는 나목(쏠림·전도 방지 조치)에만 붙어 있는데, 표에서는 행 전체(폐쇄형 적재함 운송 포함)의 제외처럼 읽힘.",
+  "fix": "쏠림 방지 조치는 최대 적재량 1톤 이하 화물자동차에는 적용하지 않습니다."
+ },
+ {
+  "claim": "약 3억 원(운송 계약에 다른 약정이 없다고 가정)",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법, 시행 2026. 9. 10.) 제136조: \"화폐, 유가증권 기타의 고가물에 대하여는 송하인이 운송을 위탁할 때에 그 종류와 가액을 명시한 경우에 한하여 운송인이 손해를 배상할 책임이 있다.\" 예시 화물은 송장 가액 3억 원의 전자제품 컨테이너로, 고가물에 해당하는지가 다퉈질 수 있는데 계산은 제136조를 빼고 운송사 책임을 3억 원 전액으로 놓음. 문서 8절 표와 ins-carrier-liability도 제136조를 한도 쪽 주의점으로 듦.",
+  "fix": "약 3억 원(운송 계약에 다른 약정이 없고, 상법 제136조의 고가물 명시가 문제 되지 않는다고 가정)"
+ },
+ {
+  "claim": "차량 유형별로 나뉘어 있던 요건을 하나로 합친 TSR 2026이 2026년 9월 15일부터 시행된다고 해상보험 단체 IUMI가 전했습니다.",
+  "verdict": "overreach",
+  "evidence": "https://iumi.com/newsletter-september-2026/tapa-emea-updates-supply-chain-security-standards/ : \"The Transported Asset Protection Association (TAPA) EMEA has published the revised Facility Security Requirements (FSR) 2026 and Trucking Security Requirements (TSR) 2026, which will come into force on 15 September 2026.\" (사실은 맞음). 그러나 https://tapa-apac.org/standards/trucking-security-requirements/ (2026-10-19 확인): \"the TAPA Trucking Security Requirements (TSR) 2023 Standards focus exclusively on transport by truck\" / \"3 levels of TSR certification available\". 한국 도로 운송을 다루는 문서인데 한국이 속한 TAPA APAC은 아직 TSR 2023을 안내하고 있어, EMEA의 TSR 2026이 한국 운송사 인증에도 바로 적용되는 것처럼 읽힐 수 있음.",
+  "fix": "차량 유형별로 나뉘어 있던 요건을 하나로 합친 TSR 2026이 2026년 9월 15일부터 시행된다고 해상보험 단체 IUMI가 전했습니다. 이는 TAPA EMEA의 기준이며, 한국이 속한 아시아·태평양 지역을 맡는 TAPA APAC은 2026년 10월 현재 홈페이지에서 TSR 2023을 안내하므로, 화주가 요구하는 판과 인증 기관을 계약 때 확인합니다."
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "fix": "",
+  "evidence": "약 120개 확인 가능 주장 중 4건 문제(overreach 4, wrong/outdated 0). law.go.kr DRF API(OC=test, 2026-10-19)로 원문 대조: 도로교통법(MST 291133) 제39조 제1·4항·제54조·제66조; 시행령(MST 290387) 제22조 제3·4호(110%, 길이+1/10, 높이 4m/4.2m), 별표 8 제33호(제21호 묶음 승합등 5만원·승용등 4만원) 및 비고 1·2(4톤 기준); 시행규칙(MST 289009) 제40조(안전삼각대, 사방 500m), 별표 28 제16의2호(제14호 묶음 15점); 화물자동차 운수사업법(MST 286393) 제2조 제13호, 제5조의11 제2항, 제5조의12, 제7조 제1~6항, 제11조 제20항(항 번호 확인), 제12조 제1항 제6·8호, 제12조의2, 제26조 제4항, 제26조의2, 제35조, 제60조의2 제1항 제1호의3, 제66조, 제70조 제1항 제1호의2·제2항 제12호의2, 부칙(법률 제21025호) 제1조(2026.1.1.)·제2조(2028.12.31.); 시행령(MST 286309) 제9조의7(2천만원/이사화물 주선 500만원, 차량별), 별표 1 16)(30일·60일·감차), 별표 5 자목1)·차목1) 200만원, 러목 100만원, 서목1)(1만5천원, 11일째 1일 5천원, 1대당 50만원); 시행규칙(MST 282123) 제21조 제3·4·16·23·30·31호, 제21조의7, 제22조 제3·6호, 제41조의13 제1·2항, 별표 1의3(폐쇄형, 지름 1/10 고임목, 컨테이너 모서리 잠금·2개 이상/40ft 초과, 코일 120mm·7톤·60도, 강관·말뚝, 3,048×1,829mm, 와이어 10mm 4개·2.5톤, 바퀴 3개); 도로법(MST 284465) 제77조 제3항; 상법(ID 001702) 제135~137조, 제146조 제1항, 제657조, 제680조, 제682조; 교통안전법(MST 254099) 제55조 제1·2항. 웹: tapaemea.org/standards-trainings/(90% TIS, unclassified parking, every 3 years 원문 일치), IUMI 2026-09-09(TSR 2026, 15 September 2026, 차량 유형 통합 일치), DNV TSR 페이지(curl 403, WebFetch로 확인: two parts, 다루는 분야 일치), roadplus.co.kr·ex.co.kr(24시간 콜센터 1588-2504 일치). 계산 예시 3억×110%=3억3천만, 3억−2천만=2억8천만 맞음. 사이트 문서와 대조: ins-carrier-liability(국내 육상 kg당 한도 없음, 제136·137조), ins-claims(제146조 2주, 5절=클레임 서류), ins-basics(ICC 8.1.3·8.1.4 60일, FOB·FCA 공백, 110%), ins-icc(도난 (A)만), ins-forwarder, CTU kr-road(도로법 4.0m/4.2m, 제77조)·im9-seals(인계 때 3단계 대조, 국제 CTU H 등급)·ch5-accel(0.8g)와 모순 없음. 내부 링크 13개(ctu-code kr-road·ch5-accel·a7-securing·ch4-chain·im9-seals·a5-receiving·ch11-after, cargo-insurance ins-claims·ins-carrier-liability·ins-icc·ins-basics·ins-forwarder·ins-uninsurable) 모두 존재, 외부 링크 정상. 포워더에게 화물을 직접 점검하라는 문장 없음(포워더 행은 서류·연락 확인, 육안 점검은 기사·창고·수하인 몫). 참고: DRF 본문 헤더의 시행일자는 도로교통법 2027-04-14(일부 조문 예정 시행), 시행규칙 2027-01-01로 나오지만 목록상 현행 시행일(2026-10-13, 2026-08-24)과 인용 조문 내용은 같아 문제 삼지 않음."
+ }
+]

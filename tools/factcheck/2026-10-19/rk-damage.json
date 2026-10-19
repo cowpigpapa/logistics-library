@@ -1,0 +1,80 @@
+[
+ {
+  "claim": "American Club 사례에서는 부식으로 창구 덮개에 구멍이 난 컨테이너선에서 컨테이너 16개에 물이 들어갔고 12개의 화물이 전손 처리됐습니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.iims.org.uk/corrosion-causes-holes-to-ships-hatch-covers/ — \"A vessel carrying containers was found to have several holes in its hatch covers as a result of corrosion... Sixteen containers had water ingress... in the other 12 containers, the cargo was declared a total loss.\" 그러나 같은 글: \"The vessel had encountered several days of heavy rain and high seas during transit. But it was also raining heavily while the containers were being loaded. Thus, the source of the water could not be positively determined but it was likely from a combination of both sources.\" 문서는 이 사례를 '화주·적입자가 막을 수 없는 운송인 쪽 원인'의 예로만 제시해, 적재 때 폭우도 원인일 수 있었다는 원문의 결론을 빠뜨림. 원문은 '컨테이너선'이 아니라 'vessel carrying containers'.",
+  "fix": "American Club 사례에서는 부식으로 창구 덮개에 여러 구멍이 난, 컨테이너를 실은 선박의 선창에 물이 차 컨테이너 16개에 물이 들어갔고 12개의 화물이 전손 처리됐습니다. 다만 컨테이너를 싣는 동안에도 폭우가 내려 물이 어디서 들어왔는지는 확정되지 않았고, 두 원인이 겹쳤을 가능성이 크다고 정리됐습니다."
+ },
+ {
+  "claim": "선창을 운송물 보존에 적합한 상태로 유지(상법 제794조 제3호)",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/상법 (DRF 상법 법률 제21044호, 시행 2026. 9. 10.) 제794조: \"운송인은 자기 또는 선원이나 그 밖의 선박사용인이 발항 당시 다음의 사항에 관하여 주의를 해태하지 아니하였음을 증명하지 아니하면 ... 3. 선창ㆍ냉장실, 그 밖에 운송물을 적재할 선박의 부분을 운송물의 수령ㆍ운송과 보존을 위하여 적합한 상태에 둘 것\". 제794조는 '발항 당시'의 주의의무이므로 '운송 중' 칸에 '유지' 의무로 적은 것은 조문을 넘어섬. 항해 중 운송물의 운송·보관상 주의는 제795조 제1항.",
+  "fix": "운송물의 운송·보관에 주의(상법 제795조 제1항; 선창을 적합한 상태에 둘 의무는 발항 당시 기준, 제794조 제3호)"
+ },
+ {
+  "claim": "선창·냉장실 등 운송물을 싣는 선박 부분을 운송물의 수령·운송·보존에 적합한 상태로 둘 주의의무(제794조 제3호)",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/상법 제794조 본문: \"... 선박사용인이 발항 당시 다음의 사항에 관하여 주의를 해태하지 아니하였음을 증명하지 아니하면 ...\" — '발항 당시'라는 시점 한정이 빠짐.",
+  "fix": "발항 당시 선창·냉장실 등 운송물을 싣는 선박 부분을 운송물의 수령·운송·보존에 적합한 상태로 둘 주의의무(제794조 제3호)"
+ },
+ {
+  "claim": "운송인은 선창을 운송물의 수령·운송·보존에 적합한 상태로 둘 주의의무가 있습니다(7절).",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/상법 제794조 본문: \"... 발항 당시 다음의 사항에 관하여 주의를 해태하지 아니하였음을 ...\" — 시점 한정 누락. 항해 중 관리 소홀은 제795조 제1항(운송·보관상 주의)의 문제.",
+  "fix": "운송인은 발항 당시 선창을 운송물의 수령·운송·보존에 적합한 상태로 둘 주의의무가 있고, 운송 중에도 운송물의 운송·보관에 주의해야 합니다(상법 제794조 제3호, 제795조 제1항, 7절)."
+ },
+ {
+  "claim": "포장·적입 불충분은 ICC 제4.3조 면책이자 상법 제796조 제9호의 운송인 면책 사유이므로",
+  "verdict": "overreach",
+  "evidence": "https://efuinsurance.com/resource/clauses/marine/1.pdf ICC (A) 4.3: \"... where such packing or preparation is carried out by the Assured or their employees or prior to the attachment of this insurance ... 'employees' shall not include independent contractors\"; https://www.law.go.kr/법령/상법 제796조: 운송인이 그 사실과 인과관계를 증명해야 하고, 청구인이 운송인이 주의를 다했으면 피할 수 있었음을 증명하면 면책되지 않음. 핵심 요약이 두 면책을 조건 없이 적어 본문 7절·ins-icc의 '누가·언제 포장했는지' 단서와 어긋나게 읽힘.",
+  "fix": "포장·적입 불충분은 (피보험자·직원이 했거나 보험 개시 전에 한 경우) ICC 제4.3조 면책이 되고 상법 제796조 제9호의 운송인 면책 사유도 될 수 있으므로"
+ },
+ {
+  "claim": "CTU Code 부속서 5 §8.4는 운송 기사가 자기가 운송한 구간의 손상만 보고할 수 있고 그 전 구간의 손상은 인수도 서류에 표시되지 않으면 보고되지 않을 수 있다고 적습니다. 그래서 받는 쪽은 도착 때 손상 흔적을 찾아 바로 보고해야 합니다.",
+  "verdict": "overreach",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 5 (Receiving CTUs) §8 'Returning the CTU', §8.4.2: \"Drivers of road vehicles will generally report any manoeuvring damage but if the trailer or freight container has been collected from a terminal, will only be able to report on damages incurred in the delivery phase. Damages incurred earlier in the supply chain may go unreported unless marked on an interchange document.\" §8.4.3: \"The consignee will generally be held responsible ... identified and reported on arrival.\" 부속서 5 §8.4는 도착지 수하인이 컨테이너를 받아 반납하는 경우인데, 3절(출발지 빈 컨테이너 수령)에서 적입 쪽에 대한 규정처럼 인용함.",
+  "fix": "CTU Code 부속서 5 §8.4는 도착지 수하인을 두고, 터미널에서 컨테이너를 가져온 운송 기사는 배송 구간의 손상만 보고할 수 있어 그 전 구간의 손상은 인수도 서류에 표시되지 않으면 보고되지 않을 수 있으니 도착 때 손상 흔적을 찾아 바로 보고하라고 적습니다. 빈 컨테이너를 받는 적입 쪽도 같은 이치로 반출 때 EIR과 사진으로 기존 손상을 남겨 둡니다."
+ },
+ {
+  "claim": "Incoterms® 2020의 모든 조건 A8은 매도인이 자기 비용으로 물품을 포장하고, 당사자가 따로 합의하지 않았으면 운송에 적합한 방식으로 포장하고 화인을 표시하도록 정합니다",
+  "verdict": "overreach",
+  "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm (및 BK_0049_05_RulesSea.htm) A8: \"The seller must, at its own cost, package the goods, unless it is usual for the particular trade to transport the type of goods sold unpackaged. The seller must package and mark the goods in the manner appropriate for their transport, unless the parties have agreed on specific packaging or marking requirements.\" — 무포장 운송 관행 예외가 빠졌고, 합의 대상은 '특정 포장·화인 요건'.",
+  "fix": "Incoterms® 2020의 모든 조건 A8은 매도인이 자기 비용으로 물품을 포장하고(그 거래에서 포장 없이 운송하는 것이 관행인 물품은 제외), 당사자가 특정 포장·화인 요건을 합의하지 않았으면 운송에 적합한 방식으로 포장하고 화인을 표시하도록 정합니다"
+ },
+ {
+  "claim": "통지 기한(해상 3일, 육상 2주, 항공 14일)을 날짜로 계산해",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/상법 제804조 제1항: \"수령 후 지체 없이 ... 서면에 의한 통지를 발송하여야 한다. 다만, 그 멸실 또는 훼손이 즉시 발견할 수 없는 것인 때에는 수령한 날부터 3일 이내\"; 제916조 제1항도 같은 구조(14일); 제146조 제1항의 2주도 즉시 발견할 수 없는 훼손에만 해당. 점검표가 3일·2주·14일을 모든 손상의 기한처럼 적어 본문 6절 표·ins-claims 3절과 어긋남.",
+  "fix": "통지 기한(보이는 손상은 수령 후 지체 없이, 육상은 유보 없이 수령하지 않기; 보이지 않는 손상은 해상 3일·육상 2주·항공 14일)을 날짜로 계산해"
+ },
+ {
+  "claim": "설계·강도 권고는 ISO 6780에 있습니다.",
+  "verdict": "overreach",
+  "evidence": "https://ukpandi.com/fileadmin/uploads/ukpandi/Documents/uk-p-i-club/carefully-to-carry/2023/UKPI_Carefully_to_Carry_2023_48.pdf — \"There are formal recommendations covering the design, construction and strength of pallets. These are set out in ISO 6780:2003\". 근거는 UK P&I 클럽의 서술뿐임. ISO 6780:2003의 공식 제목은 'Flat pallets for intercontinental materials handling — Principal dimensions and tolerances'(치수·허용차 표준; 팔레트 강도 시험은 ISO 8611 계열)로 알려져 있으나 iso.org가 403을 반환해 직접 확인하지 못함. 단정하지 말고 출처에 귀속해야 함.",
+  "fix": "UK P&I 클럽은 팔레트 설계·구조·강도 권고로 ISO 6780을 듭니다."
+ },
+ {
+  "claim": "골판지 자체의 단면 압축강도(ECT, edgewise crush resistance) 측정은 ISO 3037:2022에 시험 방법이 있습니다",
+  "verdict": "unverifiable",
+  "evidence": "https://www.iso.org/standard/80310.html — curl과 WebFetch 모두 HTTP 403(Cloudflare 'Just a moment...')이어서 판과 제목을 확인하지 못함. 같은 세션에서 https://www.iso.org/standard/20810.html 은 200: \"ISO 12048:1994 Packaging — Complete, filled transport packages — Compression and stacking tests using a compression tester ... Published (Edition 1, 1994) ... last reviewed and confirmed in 2022\" (ISO 12048 부분은 확인됨).",
+  "fix": ""
+ },
+ {
+  "claim": "컨테이너에 예외적 충격을 주지 않게 운송(§4.2.5)",
+  "verdict": "overreach",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §4.2.5: \"The road haulier is responsible for: ... Moving the CTU in such a manner that there are no exceptional stresses placed on the CTU or the cargo.\" — 도로 운송사의 책임인데 '운송사(트럭·선사·터미널)' 행 전체에 적용되는 것처럼 적힘(철도는 §4.2.6, 운송인은 §4.2.8).",
+  "fix": "트럭은 컨테이너에 예외적 충격을 주지 않게 운송(§4.2.5)"
+ },
+ {
+  "claim": "운송인이 배상하더라도 상법 제797조의 포장당·kg당 책임 한도가 적용됩니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/상법 제797조 ①: \"... 큰 금액을 한도로 제한할 수 있다. 다만, 운송물에 관한 손해가 운송인 자신의 고의 또는 손해발생의 염려가 있음을 인식하면서 무모하게 한 작위 또는 부작위로 인하여 생긴 것인 때에는 그러하지 아니하다.\" ③: 송하인이 종류와 가액을 고지하고 B/L 등에 기재한 경우 적용하지 아니함. 한도가 늘 적용되는 것은 아님.",
+  "fix": "운송인이 배상하더라도 상법 제797조의 포장당·kg당 책임 한도로 제한될 수 있습니다(가액을 신고해 B/L에 적었거나 운송인 자신의 고의·무모한 행위로 생긴 손해면 제외)."
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "12 problems: 0 wrong, 0 outdated, 0 unsupported, 1 unverifiable, 11 overreach. Checked against primary sources fetched 2026-10-19 by curl/WebFetch (no browser): IMO 1497.pdf (CTU Code ch.3/4/7/8/12, Annex 3 §1/3.4/4.2/4.4/4.5, Annex 5 §1.2/6.14/8.4, Annex 7 §1.4-1.6/2.3.6-2.3.7/2.4.3/3.2.2-3.2.4/3.3.2, App.1 §1.3/§3: paragraph numbers and contents match); EFU ICC (A)(B)(C) 1/1/09 (1.2.3, 4.3, 4.4, 5.1.2 match); law.go.kr DRF 상법 법률 제21044호 시행 2026. 9. 10. (115, 135, 146, 160, 166, 794-797, 804, 853, 916 match) and 민법 법률 제21454호 (157/159/161 match); legislation.gov.uk COGSA 1971 Sch. (III 3(c), III 6, IV 2 (i)(m)(n) match); TT Club TT Talk 05/10/2021 (65/25/17/65/14/7/13/42/31% match); UK P&I Carefully to Carry 2023 ch.30/35/41/48 (quotes match); containerhandbuch.de 10.3.4.5 and tis-gdv.de checklist (items 1, 9, 10, 12 confirmed via <ol start=9>); IIMS; Chubb Korea (FCL list matches); ISO 12048:1994 page; ICC Digital Library A8 (EXW..DDP and sea rules). Deadline example (10. 19.(월) -> 10. 22.(목), 11. 2.(월)) is correct under 민법 157/159/160/161; no Korean public holiday on those days. All internal /library/ links resolve to existing pages; external links return 200 except iso.org/standard/80310 (403 bot block, not proven broken). No contradiction found with ins-claims (notice/time-bar table, TT 1-week note, Chubb list, House B/L section 8), ins-icc (4.3/5.1.2 reading, rain water (A) only) or ctu a3-condensation (40/60/75%, 12-15%, §3.4, §4.5). No advice telling forwarders to inspect cargo physically: inspections are assigned to packers/CFS/warehouse staff; the forwarder collects photos and records. Main issues: IIMS/American Club hatch-cover case shown as a purely carrier-side cause although the source says the water source could not be determined (heavy rain during loading too); 상법 제794조 cited without its '발항 당시' limit (and placed in the in-transit column); summary states ICC 4.3 / 상법 796(9) without conditions; Incoterms A8 drops the unpackaged-trade exception.",
+  "fix": ""
+ }
+]

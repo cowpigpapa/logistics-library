@@ -1,7 +1,7 @@
 {
  "https://logistics.onharu.app/": {
-  "hash": "52f2658f6b9e4d0b",
-  "modified": "2026-10-19T14:12:42+09:00",
+  "hash": "b766c58e8fac2389",
+  "modified": "2026-10-19T14:46:15+09:00",
   "published": "2026-10-11T23:23:57+09:00"
  },
  "https://logistics.onharu.app/library/air-uld": {
@@ -123,6 +123,41 @@
   "hash": "4434d37e8d132497",
   "modified": "2026-10-14T00:28:47+09:00",
   "published": "2026-10-09T17:22:33+09:00"
+ },
+ "https://logistics.onharu.app/library/cargo-risk": {
+  "hash": "c6d057c6956ed962",
+  "modified": "2026-10-19T14:46:13+09:00",
+  "published": "2026-10-19T14:46:13+09:00"
+ },
+ "https://logistics.onharu.app/library/cargo-risk/rk-cross": {
+  "hash": "b7c7a78b94cd1459",
+  "modified": "2026-10-19T14:46:13+09:00",
+  "published": "2026-10-19T14:46:13+09:00"
+ },
+ "https://logistics.onharu.app/library/cargo-risk/rk-damage": {
+  "hash": "907af896ff791af8",
+  "modified": "2026-10-19T14:46:13+09:00",
+  "published": "2026-10-19T14:46:13+09:00"
+ },
+ "https://logistics.onharu.app/library/cargo-risk/rk-security": {
+  "hash": "43bd17c9a2a8aee3",
+  "modified": "2026-10-19T14:46:13+09:00",
+  "published": "2026-10-19T14:46:13+09:00"
+ },
+ "https://logistics.onharu.app/library/cargo-risk/rk-truck": {
+  "hash": "779910505c982c46",
+  "modified": "2026-10-19T14:46:13+09:00",
+  "published": "2026-10-19T14:46:13+09:00"
+ },
+ "https://logistics.onharu.app/library/cargo-risk/rk-typhoon": {
+  "hash": "2ccfc953580adb63",
+  "modified": "2026-10-19T14:46:13+09:00",
+  "published": "2026-10-19T14:46:13+09:00"
+ },
+ "https://logistics.onharu.app/library/cargo-risk/rk-warehouse": {
+  "hash": "e0a82656dc3ad0ea",
+  "modified": "2026-10-19T14:46:13+09:00",
+  "published": "2026-10-19T14:46:13+09:00"
  },
  "https://logistics.onharu.app/library/charges": {
   "hash": "c972022ec7544be6",

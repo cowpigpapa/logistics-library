@@ -1,0 +1,92 @@
+[
+ {
+  "claim": "태풍으로 10월 6~7일 게이트가 닫혀 반출이 밀린 경우입니다",
+  "verdict": "wrong",
+  "evidence": "https://www.pncport.com/resources/homepage/kor/data/2026_PNC_Standard_Tariff.pdf — 계산 자체(PNC p.3 수입 Dry 1-4 days Free / 5-7 days 9,100 / 8-9 days 18,200 / 10-14 days 31,850; \"(b) Import: From the discharge day to the gate-out day if the container is discharged before 0800 hours\"; \"(f) The rate in the highest storage bracket ... is applicable to entire storage period\")는 27,300/91,000/191,100원 모두 맞음. 그러나 시나리오 날짜가 모순: 게이트가 10월 6~7일 닫혔다면 재개 첫날은 10월 8일인데, 표는 '재개 첫날 반출'을 10월 9일(9일)로 두고 제목도 '반출이 이틀 밀리면'(7일→9일). 폐쇄일이 10월 7~8일이어야 표·제목·'게이트가 닫힌 이틀'과 맞음.",
+  "fix": "태풍으로 10월 7~8일 게이트가 닫혀 반출이 밀린 경우입니다"
+ },
+ {
+  "claim": "달력일 기준 free time과 구간 요율만 있고, 기상·항만 폐쇄일을 빼거나 면제한다는 문구는 찾지 못함",
+  "verdict": "unsupported",
+  "evidence": "https://kr.one-line.com/sites/southkorea/files/2026-03/D%26D%20Customer%20Advisory_KR_FY2026_1.pdf — ONE 공지 본문에는 \"Freetime\", \"Over Day 1-10 / 11-\" 구간과 요율만 있고 calendar/working day 표기가 없음(본문 검색 0건). 기존 ch-docs/ch-dnd.html 표도 ONE 부산 수입(CTIC)의 계산 기준을 \"공지문에 적혀 있지 않음\"으로 적음. 달력일 표기는 Hapag-Lloyd 한국 수입 요율표(\"Calendar Days\")에만 있음. 폐쇄일 면제 문구가 없다는 부분은 두 문서 모두 확인됨.",
+  "fix": "free time과 구간 요율만 있고(Hapag-Lloyd는 달력일 기준, ONE 공지는 계산 기준을 적지 않음), 기상·항만 폐쇄일을 빼거나 면제한다는 문구는 찾지 못함"
+ },
+ {
+  "claim": "그곳에서 팔려 인도될 때까지 또는 도착 후 60일까지 유지됩니다",
+  "verdict": "overreach",
+  "evidence": "https://efuinsurance.com/resource/clauses/marine/1.pdf 제9조 — \"9.1 until the subject-matter insured is sold and delivered at such port or place, or, unless otherwise specially agreed, until the expiry of 60 days after arrival ... whichever shall first occur, or 9.2 if the subject-matter insured is forwarded within the said period of 60 days (or any agreed extension thereof) to the destination named in the contract of insurance or to any other destination, until terminated in accordance with the provisions of Clause 8 above.\" 태풍 대체항 양하 뒤 화물을 목적지로 다시 보내는 경우가 바로 9.2인데 빠져 있어, 대체항 도착 후 60일이면 무조건 끝나는 것처럼 읽힘.",
+  "fix": "그곳에서 팔려 인도될 때까지 또는 도착 후 60일까지 유지되고, 그 60일 안에 목적지로 다시 보내면 제8조에 따라 끝날 때까지 유지됩니다"
+ },
+ {
+  "claim": "통관을 미루고 컨테이너째 야드에 오래 세워 두거나, 반출한 컨테이너를 창고 대신 쓰는 사이 태풍을 맞으면 보험이 이미 끝났을 수 있습니다.",
+  "verdict": "overreach",
+  "evidence": "https://efuinsurance.com/resource/clauses/marine/2.pdf — \"8.1.3 when the Assured or their employees elect to use any carrying vehicle or other conveyance or any container for storage other than in the ordinary course of transit\"; \"8.1.4 on the expiry of 60 days after completion of discharge overside ... at the final port of discharge\". 8.1.3은 피보험자가 컨테이너를 보관용으로 쓰기로 '선택'한 경우이고, 터미널 야드에서 통관을 기다리는 컨테이너가 여기에 해당하는지는 문언으로 정해지지 않음. 야드에 오래 세워 둔 경우 확실히 걸리는 것은 60일 한도(8.1.4)임. 바로 앞 문장(8.1.3)과 붙어 있어 야드 장치도 8.1.3 종료 사유로 읽힘.",
+  "fix": "통관을 미루고 컨테이너를 야드에 오래 세워 두면 양하 후 60일 한도(제8.1.4조)에 걸릴 수 있고, 반출한 컨테이너를 창고 대신 쓰면 그때 보험이 끝날 수 있습니다(제8.1.3조). 그 사이 태풍을 맞으면 보험이 이미 끝났을 수 있습니다."
+ },
+ {
+  "claim": "그 비용은 보험사가 보상합니다",
+  "verdict": "overreach",
+  "evidence": "https://efuinsurance.com/resource/clauses/marine/1.pdf 제16조 — \"It is the duty of the Assured ... in respect of loss recoverable hereunder ... and the Insurers will, in addition to any loss recoverable hereunder, reimburse the Assured for any charges properly and reasonably incurred in pursuance of these duties.\" 보상 대상은 담보되는 손해에 관해 의무 이행으로 '적절하고 합리적으로' 쓴 비용에 한정됨. 조건 없이 보상하는 것처럼 읽힘.",
+  "fix": "담보되는 손해에 관해 이 의무를 이행하느라 적절하고 합리적으로 쓴 비용은 보험사가 보상합니다"
+ },
+ {
+  "claim": "특히 수하인이 인수증에 이상 내용을 적지 않고 받으면 해상 운송에서는 정상 인도로 추정되므로",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/상법/제804조 (DRF lawService MST=273629) — 상법 제804조 ① \"수하인이 운송물의 일부 멸실 또는 훼손을 발견한 때에는 수령 후 지체 없이 그 개요에 관하여 운송인에게 서면에 의한 통지를 발송하여야 한다. 다만, 그 멸실 또는 훼손이 즉시 발견할 수 없는 것인 때에는 수령한 날부터 3일 이내에 그 통지를 발송하여야 한다.\" ② \"제1항의 통지가 없는 경우에는 운송물이 멸실 또는 훼손 없이 수하인에게 인도된 것으로 추정한다.\" 추정은 '서면 통지가 없을 때' 생기고, 보이지 않는 손해는 3일 안 통지로 막을 수 있음. 기존 insurance-docs/ins-claims.html도 \"이상 통지 없이 인수하면 정상 인도로 추정\"으로 씀.",
+  "fix": "특히 해상 운송에서는 수하인이 수령 후 지체 없이(바로 알 수 없는 손해는 수령일부터 3일 안에) 운송인에게 서면으로 통지하지 않으면 정상 인도로 추정되므로(상법 제804조)"
+ },
+ {
+  "claim": "D/O를 받아 놓고 태풍 동안 야드에 두는 화물은 운송인에게 책임을 물을 수 없을 수 있다는 뜻이므로",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=83701 (DRF target=prec ID=83701) — 판시사항 \"수하인이 보세장치장 설영자에게 운송물 전체에 대한 화물인도지시서를 제시하여 그 운송물 중 일부만을 출고하고 나머지는 자신의 사정으로 후에 출고할 의사로 그대로 둔 경우, 그 시점에서 운송인은 운송물 전체의 인도의무를 다하였다고 본 사례\". 판결의 사실 요건은 D/O를 장치장에 '제시'하고 일부를 출고한 것이지 D/O를 '받아 놓은' 것만이 아님. 앞 문장의 사건 요약은 정확하지만 결론 문장이 요건을 넓힘.",
+  "fix": "D/O를 터미널(보세장치장)에 제시하고 일부를 출고한 뒤 나머지를 자기 사정으로 야드에 남겨 둔 화물은 운송인에게 책임을 물을 수 없을 수 있다는 뜻이므로"
+ },
+ {
+  "claim": "태풍 피해는 바다 위보다 육상 보관 중에 더 자주 납니다.",
+  "verdict": "unsupported",
+  "evidence": "facts.md와 본문 출처 어디에도 해상·육상 태풍 피해 빈도를 비교한 자료가 없음(facts.md 4절은 상법 제160조와 2002다2256만 인용). 비교 통계 없이 단정한 문장.",
+  "fix": "태풍 피해는 바다 위에서만이 아니라 육상 보관 중에도 납니다."
+ },
+ {
+  "claim": "항만 당국과 선사가 참여하는 선박대피협의체가 선박 대피와 운영 중단 시점을 정하고",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/선박의입항및출항등에관한법률시행령 (DRF MST=256609) 제6조의2 ② \"선박대피협의체는 다음 각 호의 사항을 협의한다. ... 2. 선박 대피의 개시 및 완료 시점 3. 항만 운영의 중단 및 재개 시점\"; 법 제8조의2 ① 피항명령은 \"관리청은 ... 명할 수 있다\"(시행령 제22조 ① 5의2로 지방해양수산청장에 위임). 협의체는 '협의'하고 명령은 관리청이 내림. 2절·핵심 3줄 ①은 '협의'로 정확히 썼는데 10절 화주 설명 문구만 '정하고'로 씀.",
+  "fix": "항만 당국과 선사가 참여하는 선박대피협의체가 선박 대피와 운영 중단 시점을 협의하고 지방해양수산청이 피항을 명령하며"
+ },
+ {
+  "claim": "제9조와 별표 2(해양기상특보)가 기준을 정합니다",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr/법령/기상법시행령 (DRF MST=289709) 제9조 ⑤ \"법 제14조제2항에서 '대통령령으로 정하는 기준'이란 별표 2에 따른 해양기상특보의 기준을 말한다.\"; 기상법(DRF MST=284327) 제14조 ② \"기상청장은 ... 풍속, 파고 등이 대통령령으로 정하는 기준에 도달하여 ... 필요한 특보(이하 '해양기상특보'라 한다)를 하여야 한다.\" 별표 2는 제13조의2가 아니라 제14조제2항의 위임 기준인데, 문단과 1절 출처 줄은 근거 조문을 제13조의2만 적음(경미; 1절 출처 줄에도 제14조 추가 필요). 별표 1·2의 수치 자체는 원문과 모두 일치.",
+  "fix": "제9조와 별표 2(기상법 제14조제2항의 해양기상특보)가 기준을 정합니다"
+ },
+ {
+  "claim": "S/C나 견적에 따로 정한 free time이 있으면 그것이 우선",
+  "verdict": "unsupported",
+  "evidence": "https://terms.maersk.com/carriage — 인용한 Maersk 약관에는 S/C 우선 규정이 없음. 제2조는 \"The terms and conditions of the Carrier's applicable Tariff are incorporated herein. Attention is drawn to the terms therein relating to free storage time ... In the case of inconsistency between this bill of lading and the applicable Tariff, the bill of lading shall prevail.\"만 적음. 실무상 맞을 수 있으나 '2026년 10월 19일 확인한 내용' 칸에 출처 없이 들어감.",
+  "fix": "S/C나 견적에 따로 정한 free time이 있으면 그 조건을 먼저 확인"
+ },
+ {
+  "claim": "선사가 실제로 태풍 때 내는 공지는 대체로 일반적인 안내입니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.maersk.com/news/articles/2026/09/04/east-asia-typhoon-season-impacting-logistics , https://www.maersk.com/news/articles/2026/09/18/east-asia-typhoon-season-update-2 — 확인한 것은 Maersk 공지 두 건뿐(\"reviewing priority shipments, allowing additional buffer time, checking documentation readiness, and discussing alternative routings\"; \"gradual improvements in port performance and vessel flows\"). 선사 전반으로 일반화할 근거 없음. 두 공지 요약과 'free time·D&D 언급 없음'은 원문과 일치.",
+  "fix": "확인한 Maersk의 2026년 태풍 공지도 일반적인 안내였습니다."
+ },
+ {
+  "claim": "<td>부산항 입출항 선박 전체</td>",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/LSW//admRulInfoP.do?admRulSeq=2100000281634 (DRF target=admrul ID=2100000281634) 제7조 제3호 \"태풍 또는 기상특보(강풍, 풍랑) 발효에 대응하여 부산항 선박대피협의회(비대면 회의 포함)의 피항 명령이 있으면 해당 선박은 안전한 수역으로 대피해야 한다.\" 대피 의무는 명령 대상인 '해당 선박'에 있음. 모든 입출항 선박이 대피하는 것처럼 읽힘(경미).",
+  "fix": "<td>피항 명령 대상 선박(부산항 입출항 선박 중 협의회 명령을 받은 선박)</td>"
+ },
+ {
+  "claim": "빗물·담수손(RFWD) 부가 위험을 따로 붙이는 경우가 있음",
+  "verdict": "unverifiable",
+  "evidence": "https://www.hi.co.kr/cargo/serviceAction.do — curl로 받은 페이지는 현대해상 적하보험 메인(\"화물운송 중 발생하는 예기치 못한 손해 보장 ...\")뿐이고 RFWD·빗물·담수 문구가 정적 HTML에 없음(동적 메뉴로 추정). 기존 ins-icc·ins-basics도 같은 URL을 근거로 씀. 내용은 업계에서 통용되나 인용 링크로는 확인 불가.",
+  "fix": ""
+ },
+ {
+  "claim": "_summary",
+  "verdict": "wrong 2, unsupported 3, overreach 8, unverifiable 1",
+  "evidence": "총 14건. 핵심: (1) 보관료 계산 예시의 폐쇄일 '10월 6~7일'이 '재개 첫날 10월 9일'과 모순(금액 27,300/91,000/191,100원은 PNC 2026 원문과 맞음); (2) ONE 부산 공지를 '달력일 기준'으로 적었으나 공지에 계산 기준 없음(ch-dnd와 모순); (3) 보험 해석 과장: ICC 9.2 누락, 터미널 야드 장치를 8.1.3 종료처럼 읽힘, 제16조 비용 보상 조건 생략; (4) 상법 제804조 추정 요건을 '인수증 미기재'로 좁힘; (5) 2002다2256 결론 일반화; (6) 협의체가 '정한다'(10절)·'육상 피해가 더 잦다' 같은 근거 없는 단정. 원문으로 확인되어 문제없는 것: 기상법 제13조의2, 시행령 제8조의2·별표 1·2의 태풍·강풍·풍랑·호우·폭풍해일 수치 전부; KMA 강도 1~5(중·강·매우강·초강력) 구분·강풍/폭풍반경·70% 확률반경·최근접예상; 입출항법 제2조 제2호의2·제8조의2(2022.10.18 신설), 시행령 제6조의2·제22조 ① 5의2; 부산항 항법 규칙 제7조 제3호(고시 제2026-124호, 2026.7.1.); 해상교통안전법 제30조②·제36조, 시행규칙 제33조·별표 10(태풍주의보·경보: 7,000톤 미만 비국제항해선·국제항해 예부선 결합선박, 비고 1 완화); 재난안전법 제3조1호가목·제40조·제41조; 산안규칙 제37·140·143조; 상법 제160·796조; ICC 2009 제1조((B)(C) 1.1.2/1.1.5, (B) 1.1.6/1.2.2/1.2.3)·2·4.3·4.4·4.5·8.1.1/8.1.3/8.1.4·8.3·12·18조; Maersk 제19.1(d)(e)·19.2·20·22.2조; Hapag-Lloyd STI 공지의 제16·17조 인용; HL 미국 shutout day 규칙(F·G); HL 한국 '터미널 운영사가 직접 청구'; PNC·HJNC·HL-KR·ONE 폐쇄 면제 문구 없음; 46 CFR 545.5(c)(2)(i)(ii); 82다카1533·2002다2256·2015다5194 요지; 법령 번호·시행일; Maersk 9.4·9.18 공지 요약. 할증료 현재 금액 없음. 요율 예시 아래 공식 요율표 확인 문구(브리프 문구 그대로) 있음. 포워더에게 화물 직접 점검을 시키는 문장 없음(오히려 명시적으로 배제). 외부 링크 33개 모두 HTTP 200, 내부 링크 12개 모두 doc_ids에 있는 문서. 브라우저 자동화 없이 curl·law.go.kr DRF API만 사용.",
+  "fix": ""
+ }
+]

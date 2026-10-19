@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 372" width="660" height="372">
+  <rect width="660" height="372" fill="#e7f1fb"/>
+  <rect x="70" y="40" width="520" height="292" rx="14" fill="#fff" stroke="#c9d6e6" stroke-width="3"/>
+  <g font-family="SUIT, Pretendard, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="330" y="86" font-size="17" fill="#5f6b7a" letter-spacing="2">화물 사고 예방</text>
+    <g font-size="15">
+      <rect x="104" y="112" width="140" height="58" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="174" y="147" fill="#10243e">운송·도난</text>
+      <rect x="260" y="112" width="140" height="58" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="330" y="147" fill="#10243e">창고 보관</text>
+      <rect x="416" y="112" width="140" height="58" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="486" y="147" fill="#10243e">물류 보안</text>
+      <rect x="104" y="186" width="140" height="58" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="174" y="221" fill="#10243e">태풍</text>
+      <rect x="260" y="186" width="140" height="58" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="330" y="221" fill="#10243e">젖음·포장 손상</text>
+      <rect x="416" y="186" width="140" height="58" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="486" y="221" fill="#10243e">화물 뒤바뀜</text>
+    </g>
+    <rect x="104" y="266" width="452" height="40" rx="10" fill="#1476d4"/>
+    <text x="330" y="292" font-size="16" fill="#fff">확인 → 기록 → 대응</text>
+  </g>
+</svg>

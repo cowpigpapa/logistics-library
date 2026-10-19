@@ -83,6 +83,14 @@
       "destination": "/customs-library"
     },
     {
+      "source": "/library/cargo-risk",
+      "destination": "/risk-library"
+    },
+    {
+      "source": "/library/cargo-risk/:id",
+      "destination": "/risk-library"
+    },
+    {
       "source": "/library/container",
       "destination": "/container-library"
     },
@@ -107,6 +115,19 @@
     },
     {
       "source": "/cu-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
+    {
+      "source": "/rk-docs/(.*)",
       "headers": [
         {
           "key": "X-Robots-Tag",
