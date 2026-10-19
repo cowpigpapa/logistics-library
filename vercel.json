@@ -316,6 +316,11 @@
   ],
   "redirects": [
     {
+      "source": "/library/cargo-risk/rk-typhoon",
+      "destination": "/library/cargo-risk",
+      "permanent": true
+    },
+    {
       "source": "/library-index",
       "destination": "/",
       "permanent": true
