@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-risk';
-  const DOCS_VERSION = '20261019-02';
+  const DOCS_VERSION = '20261019-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -31,8 +31,8 @@
   const DOCS = [
     { id: 'rk-truck', tag: "운송", level: 3, title: "트럭 운송 사고와 주차 중 도난 — 적재·고정 의무, 정차·주차 도난 예방, 사고 뒤 대응", short: "트럭 운송 사고·도난", summary: "도로교통법·화물자동차 운수사업법이 운전자·운송사·포워더에게 지우는 적재 고정 의무와 컨테이너 잠금 기준, 정차·밤샘주차 중 도난을 줄이는 방법과 씰 대조, 사고 직후 할 일과 적재물배상책임보험·적하보험의 차이를 역할별로 정리합니다." },
     { id: 'rk-warehouse', tag: "창고", level: 3, title: "창고 보관 리스크 — 고가화물·야적·도난 예방과 사고 뒤 대응", short: "창고 보관 리스크", summary: "창고업자 책임(상법)과 계약서 한도, 고가화물 잠금 구역·CCTV·재고 관리, 야적 품목과 특수가연물 기준, 가짜 픽업을 막는 출고 확인, 사고 당일 대응을 화주·포워더·창고·운송사 역할별로 정리합니다." },
-    { id: 'rk-damage', tag: "손상", level: 3, title: "젖음과 외포장 손상 예방 — 원인별로 막는 법, 손상이 났을 때 기록과 책임", short: "젖음·외포장 손상", summary: "컨테이너 누수, 비 오는 날 작업, 젖은 팔레트·더니지, 상자 강도·쌓기·팔레트 고정에서 생기는 손상을 원인별로 막는 법과 손상 발견 시 사진·인수 서류 이의 기재·통지 기한, ICC와 상법상 책임을 역할별로 정리합니다." },
-    { id: 'rk-cross', tag: "뒤바뀜", level: 3, title: "화물 뒤바뀜(크로스) 방지 — 섞이고 잘못 실리고 잘못 나가는 사고는 어디서 나고 어떻게 막나", short: "화물 뒤바뀜(크로스) 방지", summary: "CFS 적입·적출, 창고 피킹, 출고·상차에서 다른 B/L 화물이 섞이는 크로스가 왜 생기는지, 화인·검수·컨테이너 번호와 씰 대조·출고 확인으로 어떻게 막는지, 사고가 났을 때의 이상보고와 정정 기한, 책임을 정리합니다." },
+    { id: 'rk-damage', checked: '2026-10-19', tag: "손상", level: 3, title: "젖음 손상 예방 — 컨테이너 누수·결로·비 오는 날 작업, 손상이 났을 때 기록과 책임", short: "젖음 손상 예방", summary: "컨테이너 누수·결로·비 오는 날 작업·악천후 침수로 생기는 젖음 손상을 빈 컨테이너 점검과 회차 기준(예), 수침 예방 포장, 항공 비닐 보강으로 막는 법과, 손상 발견 시 기록·통지 기한·사전 클레임, ICC와 상법상 책임을 역할별로 정리합니다." },
+    { id: 'rk-cross', checked: '2026-10-19', tag: "뒤바뀜", level: 3, title: "화물 뒤바뀜(크로스) 방지 — 섞이고 잘못 실리고 잘못 나가는 사고는 어디서 나고 어떻게 막나", short: "화물 뒤바뀜(크로스) 방지", summary: "CFS·창고·선적지에서 다른 화물이 섞이거나 다른 목적지로 실리는 크로스가 왜 생기는지, 화인·라벨, 해상·항공 선적지 단계별 점검, 컨테이너·씰 번호 대조, 출고 확인으로 막는 법과, 실제 사례 2건, 화물 위치별 대응(반송신고·수입신고 취하)과 비용 부담을 정리합니다." },
     { id: 'rk-security', tag: "보안", level: 2, title: "물류 보안 점검 — AEO·CTPAT·TAPA 기준으로 보는 시설·인원·화물·정보·거래처", short: "물류 보안 점검", summary: "관세청 AEO 안전관리 기준, 미국 CTPAT, TAPA, ISO 28000, ISPS Code를 비교하고 출입 통제·CCTV·직원 신원·씰과 빈 컨테이너 7개 지점 점검·정보 보안·거래처 심사·사고 보고를 조항별로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);

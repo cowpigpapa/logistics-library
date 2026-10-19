@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/customs';
-  const DOCS_VERSION = '20261019-01';
+  const DOCS_VERSION = '20261019-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -36,7 +36,7 @@
     { id: 'cu-clearance', tag: "통관", level: 3, title: "수출입 통관 절차와 HS 코드 — 신고 시기·기한, 세금 계산, 품목분류", short: "통관 절차와 HS 코드", summary: "수출신고수리 후 30일 적재, 수입신고 네 가지 시기와 30일 신고기한·가산세, CIF 과세가격과 부가가치세 계산, HS 코드 통칙과 품목분류 사전심사, 적재화물목록 정정을 관세법·고시 원문 기준으로 정리하고 포워더와 관세사의 역할을 나눕니다." },
     { id: 'cu-import-timeline', checked: '2026-10-18', tag: "수입일정", level: 3, title: "수입 화물 일정표 — 도착부터 반출까지 누가 무엇을 하고 어느 시계가 언제 도는가", short: "수입 도착·반출 일정표", summary: "해상 FCL·LCL과 항공 수입에서 적재화물목록 제출부터 반출·빈 컨테이너 반납까지 날짜별로 누가 무엇을 하는지, 터미널 보관료·선사 D&D·30일 신고기한·장치기간·15일 반출이 언제 시작하고 멈추는지를 한 표로 정리하고 반출을 막는 서류와 사전 통지 항목을 보여 줍니다." },
     { id: 'cu-hs-practice', checked: '2026-10-19', tag: "품목분류", level: 2, title: "HS 코드는 어떻게 정해지나 — 실무 사례로 보는 품목분류", short: "HS 품목분류 실무 사례", summary: "지우개 달린 연필, 선물세트, 스마트워치처럼 헷갈리는 물품이 관세율표 해석 통칙 1~6호와 부·류의 주에 따라 어떻게 하나의 HS 코드로 정해지는지 관세청 결정과 HS 해설서 원문으로 보여 줍니다. 세율 낮은 코드를 고르면 안 되는 이유와 역할별 점검표를 함께 정리합니다." },
-    { id: 'cu-aeo', checked: '2026-10-19', tag: "AEO", level: 2, title: "수출입 안전관리 우수업체(AEO) — 공인 기준·등급·혜택과 공인 뒤 관리", short: "AEO 공인과 사후관리", summary: "관세법·AEO 고시 기준으로 9개 공인부문, 공인 점수 요건과 A·AA·AAA 등급, 신청부터 갱신심사까지의 기간, 업종별 혜택과 MRA, 공인 뒤 보고·교육 의무와 혜택 정지·취소 사유를 정리합니다." },
+    { id: 'cu-aeo', checked: '2026-10-19', tag: "AEO", level: 2, title: "수출입 안전관리 우수업체(AEO) — 공인 기준·등급·혜택과 공인 뒤 관리", short: "AEO 공인과 사후관리", summary: "관세법·AEO 고시 기준으로 공인기준과 A·AA·AAA 등급, 신청부터 갱신까지의 기간, 업종별 혜택과 MRA, 공인 뒤 의무와 혜택 정지·취소 사유, 법규준수도 감점, 위반을 막는 사전 점검표와 위반이 생겼을 때의 대응, 실제 사례 2건을 정리합니다." },
     { id: 'cu-penalty', checked: '2026-10-19', tag: "제재", level: 3, title: "세관 과태료·가산세·벌금 — 무엇이 다르고, 통지를 받으면 어떻게 대응하나", short: "과태료·가산세·벌금", summary: "관세법상 가산세(세금)·과태료(행정질서벌)·벌금과 통고처분(형벌)을 물류 위반 사례로 구분하고, 과태료 사전통지 뒤 의견제출·자진납부 감경·이의제기 절차와 역할별 책임, 기록 관리, 기한 달력을 정리합니다." },
     { id: 'cu-us-filing', checked: '2026-10-19', tag: "사전신고", level: 3, title: "미국·캐나다 사전신고 — AMS(24시간 규칙)·ISF(10+2)·ACAS·ACI 기한과 벌금 피하는 법", short: "미국·캐나다 사전신고", summary: "미국행 해상 AMS와 ISF(10+2), 항공 사전정보·ACAS, 캐나다 ACI(eManifest)를 누가 무엇을 언제까지 보내는지 미국·캐나다 규정 원문으로 정리하고, 부산 선적 일정으로 기한을 계산하며 벌금과 자주 하는 실수를 보여 줍니다." },
     { id: 'cu-fta', tag: "FTA", level: 3, title: "FTA 원산지 — 협정관세 요건, 원산지증명, 직접운송과 B/L", short: "FTA 원산지와 직접운송", summary: "협정관세를 받는 요건과 원산지 결정기준, 협정별 증명 방식과 유효기간, 수입 쪽 적용신청·사후적용·검증, 직접운송 원칙과 제3국 경유 때 필요한 서류, B/L 문구를 정리합니다." },

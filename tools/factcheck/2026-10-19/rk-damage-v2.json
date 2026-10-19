@@ -1,0 +1,272 @@
+[
+ {
+  "claim": "한 국제물류주선업자가 2024년 11월에 정리한 내부 지침의 예이며 법령이나 국제 규범이 아닙니다",
+  "verdict": "correct",
+  "evidence": "drafts/wet-guide-anon.md header: 회사 내부 기준(연식 10년, 회차 판정 수치 등)은 법령이 아니라 '한 포워더가 쓰는 기준의 예'. Labelling is adequate; guide figures are framed as one company's example throughout §3-§5.",
+  "fix": ""
+ },
+ {
+  "claim": "포워더는 화물을 열어 보거나 측정하지 않고",
+  "verdict": "correct",
+  "evidence": "Owner rule (forwarders judge from shipper documents/records). Article consistently assigns physical checks to drivers, 적입처/CFS, consignees; forwarder receives results (§3, §4, §5, §6).",
+  "fix": ""
+ },
+ {
+  "claim": "마른 목재·팔레트도 수분이 12~15%여서 문을 닫으면 안의 상대습도가 60~75%까지 오르고(CTU Code 부속서 3 §4.2)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 3 §4.2: \"The moisture content of dry dunnage, pallets and packing material can be estimated as 12% to 15% ... the relative humidity of the air inside the CTU will inevitably establish itself at about 60% to 75% after closing the doors.\"",
+  "fix": ""
+ },
+ {
+  "claim": "일반 골판지는 습도가 40%에서 95%로 오르면 강도를 최대 75%까지 잃습니다(§4.5)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 3 §4.5: \"With increasing humidity from 40% to 95% the cardboard loses up to 75% of its stableness.\"",
+  "fix": ""
+ },
+ {
+  "claim": "한 포워더의 내부 지침도 자사 젖음 사고를 세 갈래로 정리합니다.",
+  "verdict": "correct",
+  "evidence": "wet-guide-anon.md '사례 (원인 3가지)': 컨테이너 하자 → 수침손 / 내부 습기·결로 → 곰팡이, 화물 무너짐 / 악천후 침수 → 하단부 침수 흔적. Attributed to the guide.",
+  "fix": ""
+ },
+ {
+  "claim": "다섯 단계로 설명하고, 운송 기간이 길수록 뒤의 네 단계가 되풀이된다고 봅니다",
+  "verdict": "correct",
+  "evidence": "wet-guide-anon.md '컨테이너 내부 습기 발생 과정': 5 steps, '운송 기간이 길수록 2~5가 여러 번 반복된다'. Consistent with https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 3 §3.3-§3.5 (daily desorption/condensation cycle, 'repeated a number of times').",
+  "fix": ""
+ },
+ {
+  "claim": "구체적인 방법과 합격 기준은 정하지 않습니다.",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.3.5: \"Potential points of leakage may be detected by observing whether any light enters a closed unit. Standard and approved procedures for identifying pin holes and other points of leakage should be adopted.\" Full-text search: no water-spray/hose test and no pass/fail limit anywhere in §8.2 or Annex 5.",
+  "fix": ""
+ },
+ {
+  "claim": "포워더 운영 담당은 컨테이너에 들어가지 않고 두 점검의 결과를 받아",
+  "verdict": "correct",
+  "evidence": "Role split matches owner rule and wet-guide-anon.md ('빈 컨테이너 픽업 때 운송사의 점검 결과를 받는다').",
+  "fix": ""
+ },
+ {
+  "claim": "제조 연월은 CSC 안전 승인 명판에 적혀 있습니다(CTU Code 부속서 4 §1.2)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 4 §1.2: \"each freight container is required to bear a safety approval plate ... On this plate, the most important information for the packer is: The date manufactured; The maximum gross mass; and The allowable stacking mass\".",
+  "fix": ""
+ },
+ {
+  "claim": "CTU Code에는 컨테이너 연식 상한이 없습니다.",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf full-text search for age/'years': no container age limit; §8.2.1 only requires a valid CSC plate and examination date or ACEP mark (§8.2.1.4). The CSC itself sets no age limit either.",
+  "fix": ""
+ },
+ {
+  "claim": "CSC는 제조 후 5년에 첫 검사, 그 뒤 적어도 30개월마다 정기 검사를 받게 해 구조 안전을 관리하고(§8.2.1.3)",
+  "verdict": "partly",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.1.3: \"The CSC requires freight containers to be thoroughly examined 5 years after manufacture and subsequently at least every 30 months\"; §8.2.1.3.2: \"As an alternative to such periodic inspections, the owner or operator ... may execute an approved continuous examination programme\" (ACEP). Most carrier/lessor fleets run on ACEP, so presenting the 5-year/30-month scheme as the only route is incomplete.",
+  "fix": "CSC는 제조 후 5년에 첫 검사, 그 뒤 적어도 30개월마다 정기 검사를 받게 하거나 그 대신 승인된 연속 검사 프로그램(ACEP)으로 관리하게 해 구조 안전을 확보하고(§8.2.1.3)"
+ },
+ {
+  "claim": "수치는 이 회사의 내부 기준이며 법령이나 CTU Code의 수치가 아닙니다.",
+  "verdict": "correct",
+  "evidence": "wet-guide-anon.md: 회차 기준 is the company's internal standard. Table header '회차 기준(한 포워더의 예)' keeps it labelled. Age 13y/10y, corrosion 5곳/20cm, weld 1m/2곳·50cm/3곳 and the 2-warning rule are guide-only and are not attributed to the CTU Code.",
+  "fix": ""
+ },
+ {
+  "claim": "연식 상한 없음. 제조 연월은 CSC 명판으로 확인(부속서 4 §1.2)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 4 §1.2 (date manufactured on the plate); no age limit in the Code.",
+  "fix": ""
+ },
+ {
+  "claim": "§8.2.2.1(심한 변형·균열·휨이 없어야 함)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.2.1: \"The structural framework, the walls and roof of a CTU should be in good condition, and not significantly distorted, cracked or bent.\"",
+  "fix": ""
+ },
+ {
+  "claim": "§8.2.3.4(비바람을 막아야 함)~§8.2.3.5",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.3.4: \"A CTU should be weatherproof unless clearly designed otherwise (e.g. flatrack).\" §8.2.3.5: light/leak points.",
+  "fix": ""
+ },
+ {
+  "claim": "직접 정한 수치 없음(§8.2.2.1, §8.2.3.4)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.2.1 (good condition, not distorted/cracked) and §8.2.3.4 ('rusty streaks below patches') are the nearest provisions; no corrosion count or length anywhere. ('serious corrosion' in §8.2.2.6 concerns lashing points on road vehicles only.)",
+  "fix": ""
+ },
+ {
+  "claim": "직접 정한 항목 없음",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2 (CTU checks) has no vent-cover check; 'vents' appear only in fumigation (tape on vents) and pest-entry contexts (Annex 6).",
+  "fix": ""
+ },
+ {
+  "claim": "§8.2.3.4(수리 덧댐 아래 녹물 자국, 둘레가 모두 이어진 덧댐)",
+  "verdict": "partly",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.3.4: \"Patches or repairs to solid walls should be carefully checked for possible leakage by looking for rusty streaks below patches. Repairs to side and roof sheets should have a fully stitched patch covering all of the hole with a substantial overlap.\" The Code sets no weld length or count. Unlike the corrosion and vent rows, this cell does not say so, so the guide's 1m/2곳 and 50cm/3곳 figures could read as tied to §8.2.3.4.",
+  "fix": "직접 정한 수치 없음(§8.2.3.4는 수리 덧댐 아래 녹물 자국 확인과, 구멍을 넉넉히 덮고 둘레가 모두 이어진 덧댐만 요구)"
+ },
+ {
+  "claim": "§8.2.3.2, §8.2.3.3",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.3.2: \"no broken flooring or protrusions such as nails, bolts\"; §8.2.3.3: \"should not show liquids or persisting stains on flooring\".",
+  "fix": ""
+ },
+ {
+  "claim": "§8.2.4.2(이전 화물의 잔여물·냄새가 없어야 함)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.4.2: \"Closed CTUs should be clean, dry and free of residue and/or persistent odours from previous cargo.\"",
+  "fix": ""
+ },
+ {
+  "claim": "회차하지 않고 물방울을 닦아 낸 뒤 상차",
+  "verdict": "correct",
+  "evidence": "wet-guide-anon.md '결로: 물방울 제거 후 상차'; https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.4.2 'clean, dry'.",
+  "fix": ""
+ },
+ {
+  "claim": "점검 기록 관리(이 회사의 운영 규칙)",
+  "verdict": "correct",
+  "evidence": "wet-guide-anon.md '운송사 점검표 없으면 경고, 2회 누적 시 회차'. Correctly labelled as a company rule, not CTU Code.",
+  "fix": ""
+ },
+ {
+  "claim": "이 포워더는 고가 화물과 물에 약한 화물에는 반드시 넣도록 합니다",
+  "verdict": "correct",
+  "evidence": "wet-guide-anon.md '방습제 배치(고가·수침 취약 화물은 반드시)'. Attributed to the forwarder, not presented as a rule.",
+  "fix": ""
+ },
+ {
+  "claim": "습기를 먹으면 골판지가 약해지므로(부속서 3 §4.5) 화물 무게와 포장재를 보고 쌓는 단수를 정합니다",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 3 §4.5 ('collapse of stacked cartons'). Framed as moisture weakening cardboard, so within the wet-only scope. This is the only stacking content left; delete if the owner wants none.",
+  "fix": ""
+ },
+ {
+  "claim": "컨테이너 안 전체 수분이 많으면 덮개가 곰팡이를 부를 수 있으므로(부속서 7 §1.4)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 7 §1.4: \"such sheeting or wrapping may promote mildew and other water damage, if the overall moisture content within the CTU is too high.\"",
+  "fix": ""
+ },
+ {
+  "claim": "NOR는 냉동기를 켜지 않고 일반 화물 운송에 쓰는 리퍼 컨테이너입니다",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/news-and-resources/news/article/tt-talk-non-operating-reefers/ (14/02/2017): \"container operators may therefore use reefer containers in a non-operating mode to carry approved dry cargo on a return leg.\"",
+  "fix": ""
+ },
+ {
+  "claim": "리퍼는 벽·지붕·문이 단열된 구조이고(CTU Code 정보자료 IM3 §1.3.3)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1498.pdf IM3 §1.3.3: \"The Reefer consists of a container body with insulated walls, sides and roof plus insulated doors at the rear.\"",
+  "fix": ""
+ },
+ {
+  "claim": "CTU Code 정보자료 IM1 §3.1도 기후에 민감한 화물에는 통풍 컨테이너나 냉동·보온 컨테이너가 필요할 수 있다고 적습니다",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1498.pdf IM1 §3.1.1: \"climatically sensitive cargoes may require ventilated containers or a CTU with controlled atmosphere (reefer or heated container)\".",
+  "fix": ""
+ },
+ {
+  "claim": "이 포워더는 단열 구조 덕분에 바깥 공기 유입과 안팎 온도 차를 줄일 수 있다는 이유로 NOR를 듭니다.",
+  "verdict": "correct",
+  "evidence": "wet-guide-anon.md 'NOR 컨테이너로 외부 공기 유입과 온도차 줄이기'. Correctly attributed to the guide; https://www.ttclub.com/news-and-resources/news/article/tt-talk-non-operating-reefers/ makes no claim about condensation or temperature.",
+  "fix": ""
+ },
+ {
+  "claim": "NOR로 실을 수 있는 화물인지는 각 선사의 화물 수락 기준에 따라 정해지고, NOR 화물은 신중한 검토와 적입·고정이 필요하다고 TT Club은 설명합니다(2017)",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/news-and-resources/news/article/tt-talk-non-operating-reefers/: \"always subject to the individual carrier's cargo management acceptance criteria\"; \"NOR cargo in reefers requires careful evaluation, packing and securing\".",
+  "fix": ""
+ },
+ {
+  "claim": "CTU Code는 그림 표시가 만족스러운 취급을 보장하지 않으므로 적절한 보호 포장이 가장 중요하다고 덧붙입니다(부속서 7 부록 1 §1.3)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 7 Appendix 1 §1.3: \"The use of pictorial symbols does not provide any guarantee of satisfactory handling; proper protective packaging is therefore of primary importance.\"",
+  "fix": ""
+ },
+ {
+  "claim": "포워더는 그 결과를 받아 선사·터미널·화주와 조정합니다",
+  "verdict": "correct",
+  "evidence": "Role split per owner rule; physical checks are assigned to 운송 기사, 적입처 and 수하인.",
+  "fix": ""
+ },
+ {
+  "claim": "송하인으로서 깨끗하고 적합한 컨테이너를 요청하고, 직접 적입하면 적입자로서 점검(CTU Code §4.2.2~§4.2.4)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §4.2.3 packer: \"Ensuring that the CTU is checked before packing\"; §4.2.4 shipper: \"A CTU is requested which is safe for transport and is clean\"; §4.2.2 consignor: packages suitable for normal transport stresses.",
+  "fix": ""
+ },
+ {
+  "claim": "컨테이너에 예외적 충격을 주지 않게 운송(§4.2.5)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §4.2.5 road haulier: \"Moving the CTU in such a manner that there are no exceptional stresses placed on the CTU or the cargo.\" Now sits in the 운송사·기사 (road) row, which resolves the earlier fact-check note.",
+  "fix": ""
+ },
+ {
+  "claim": "실제로 어느 블록, 몇 단에 둘지는 터미널과 창고가 장비와 자체 기준에 따라 정하므로",
+  "verdict": "correct",
+  "evidence": "Reasonable framing; the guide only has the forwarder request flood prevention (침수 예방 요청). No regulatory claim.",
+  "fix": ""
+ },
+ {
+  "claim": "항공 계약에서 생긴 젖음 클레임은 TT Club 자료에서 7%에 그쳤지만(1절)",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/news-and-resources/news/article/tt-talk-protecting-cargo-from-wet-damage/ (05/10/2021): air carriage \"accounted for only 7% of reported claims\" (TT wet-damage claims data, 2020).",
+  "fix": ""
+ },
+ {
+  "claim": "포워더가 직접 빌드업(BUP)할 때 비닐 보강",
+  "verdict": "partly",
+  "evidence": "wet-guide-anon.md '포워더가 직접 빌드업할 때'. Not factually wrong, but elsewhere the article treats physical work as 적입처/창고 work (적입처 = 화주 직접·포워더 창고·CFS), and the BUP checklist item sits under 적입처. Naming the warehouse keeps the role split consistent with the rule that forwarder staff don't handle or inspect cargo.",
+  "fix": "포워더 창고에서 직접 빌드업(BUP)할 때 비닐 보강"
+ },
+ {
+  "claim": "네트를 씌우기 전에 비닐을 바닥에 1장, 위에 2장 씁니다.",
+  "verdict": "correct",
+  "evidence": "wet-guide-anon.md '네팅 전에 비닐 보강: 바닥 1장 + 상단 2장'. Introduced by '한 포워더의 지침은 항공에서 다음을 요구합니다' and followed by '실제 작업은 해당 항공사 기준을 따르십시오', so it reads as one forwarder's practice, not an IATA or airline rule.",
+  "fix": ""
+ },
+ {
+  "claim": "항공사 BUP 지침들도 화물 아래와 위에 비닐을 덮게 하고, 비닐을 투명하고 난연성 있는 것으로 정하거나 ULD 번호·표시판을 가리지 말라고 하는 곳이 있으며, 환기가 필요한 신선화물은 비닐로 감싸지 않게 합니다.",
+  "verdict": "correct",
+  "evidence": "Site doc library/air-uld/uld-buildup.html §10 ('Cargolux는 화물 아래와 위 모두에 비닐을 덮으라고 하고 ... AirBridgeCargo는 비닐이 투명하고 ... 난연성 ... 환기가 필요한 신선화물은 비닐로 감싸지 않습니다(United)') and §12 ('비닐이나 랩이 ULD 번호, TSO 표시판 ... 가리면 안 됩니다'). Section numbers 10 and 12 match the live doc. No airline is named here.",
+  "fix": ""
+ },
+ {
+  "claim": "손해 금액이 정해지기 전이라도 선사에 손해 사실과 배상을 청구하겠다는 뜻을 서면으로 먼저 보냅니다",
+  "verdict": "correct",
+  "evidence": "Site doc library/cargo-insurance/ins-claims.html: '사고 개요를 서면으로 발송(Notice of Claim). 금액이 정해지지 않았어도 \"추후 청구 예정\"으로 먼저 보냄'; wet-guide-anon.md '선사에 사전 클레임(Pre-Claim) 접수'.",
+  "fix": ""
+ },
+ {
+  "claim": "의 운송인 앞 서면 통지(Notice of Claim)에 해당하므로 위 통지 기한을 넘기지 않게 보내고",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/법령/상법 제804조 제1항 (수령 후 지체 없이 멸실·훼손의 개요를 운송인에게 서면 통지; 즉시 발견할 수 없으면 3일 이내). The notice is the consignee's, and the article respects that ('화주(수하인)와 협의해 그 지시에 따라 보내고').",
+  "fix": ""
+ },
+ {
+  "claim": "출발 때 컨테이너에 이상이 없었다는 기록이 있어야 운송 중에 생긴 하자인지를 다툴 수 있고",
+  "verdict": "correct",
+  "evidence": "Consistent with https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf Annex 5 §8.4.3 (receiver usually liable for damage the CTU operator has not acknowledged) and the Chubb FCL document list (수출국 EIR, 적입보고서). A practical evidence point, not a legal rule.",
+  "fix": ""
+ },
+ {
+  "claim": "열대 항로에서 방습 포장이 필요한 화물이라면 그 요건을 매매계약에 적어 두는 편이 분명합니다.",
+  "verdict": "correct",
+  "evidence": "https://library.iccwbo.org/content/tfb/BOOKS/BK_0049/BK_0049_04_RulesAny.htm A8: \"... unless the parties have agreed on specific packaging or marking requirements.\" The advice follows from A8.",
+  "fix": ""
+ },
+ {
+  "claim": "물 분사 장치로 누수를 확인한다(회사 기준이 있는 경우).",
+  "verdict": "correct",
+  "evidence": "Correctly conditional; the CTU Code prescribes no water-spray test (https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf §8.2.3.5).",
+  "fix": ""
+ },
+ {
+  "claim": "같은 분야의 다른 문서:",
+  "verdict": "correct",
+  "evidence": "No rk-typhoon link anywhere in the HTML (grep 'rk-typhoon' = 0). Same-category list: 트럭 운송 사고·도난, 창고 보관 리스크, 화물 뒤바뀜(크로스) 방지, 물류 보안 점검. No company, department or system names found; only public bodies (TT Club, UK P&I, TIS-GDV/GDV, IIMS/American Club, Chubb Korea, ICC, IMO).",
+  "fix": ""
+ }
+]
