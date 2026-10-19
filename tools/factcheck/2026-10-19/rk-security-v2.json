@@ -1,0 +1,452 @@
+[
+ {
+  "claim": "금융감독원 집계(헤럴드경제 2025. 9. 28. 보도)",
+  "verdict": "partly",
+  "evidence": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=203942&menuNo=200218 — 원문 보도자료 「최근 외환 무역사기거래 현황 및 유의사항을 안내드립니다」(2025. 9. 29. 석간, PDF 첨부): 1,591건, 연도별 438·334·314·329·176건, 합계 95,844천 달러, 이메일 해킹 1,518건(95.4%). 수치는 모두 맞으나 인용한 heraldk.com은 헤럴드경제 미주판 2차 보도이고, BRIEF는 1차 출처를 요구함.",
+  "fix": "금융감독원 보도자료(2025. 9. 29.)"
+ },
+ {
+  "claim": "(금융감독원 집계 보도)",
+  "verdict": "partly",
+  "evidence": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=203942&menuNo=200218 — 같은 수치가 금감원 원문 보도자료(2025. 9. 29.)에 있음.",
+  "fix": "(금융감독원 보도자료, 2025. 9. 29.)"
+ },
+ {
+  "claim": "외환 무역사기 4년여간 1330억 피해(헤럴드경제, 2025. 9. 28., 금융감독원 집계 인용) — <a href=\"https://www.heraldk.com/article/2025092814225421028\" target=\"_blank\" rel=\"noopener noreferrer\">헤럴드경제</a>",
+  "verdict": "partly",
+  "evidence": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=203942&menuNo=200218 — 원문 보도자료가 fss.or.kr 보도자료 게시판(nttId=203942)에 있음. heraldk.com은 헤럴드경제 미주판.",
+  "fix": "최근 외환 무역사기거래 현황 및 유의사항을 안내드립니다(금융감독원 보도자료, 2025. 9. 29.) — <a href=\"https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=203942&amp;menuNo=200218\" target=\"_blank\" rel=\"noopener noreferrer\">금융감독원</a>"
+ },
+ {
+  "claim": "수출입 대금 사기는 거의 모두 이메일로 일어납니다.",
+  "verdict": "partly",
+  "evidence": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=203942&menuNo=200218 — 집계 범위는 \"은행 송금 과정에서 발생한\" 무역사기 피해(1,591건)이고, 그중 이메일 해킹 허위 계좌 유도 95.4%, 수수료 편취 4.6%. 모든 수출입 대금 사기로 일반화하면 범위가 넓어짐.",
+  "fix": "은행 송금 과정에서 집계된 무역사기는 거의 모두 이메일 해킹으로 허위 계좌에 송금하게 만든 것이었습니다."
+ },
+ {
+  "claim": "지역 조직마다 회원이 화물 범죄를 보고하고 추세를 보는 사고 정보 시스템(TIS, TAPA Intelligence System)을 운영하며",
+  "verdict": "partly",
+  "evidence": "https://iumi.com/?p=16716 \"the TAPA EMEA Intelligence System (TIS) has recorded 157,421 cargo crimes\"; https://tapa-apac.org/ 메뉴 \"TIS\", 푸터 \"TAPA APAC Intelligent System\". TAPA Americas의 TIS 운영은 확인되지 않음(작성자도 Americas 홈페이지 내용을 확인하지 못함).",
+  "fix": "TAPA EMEA와 TAPA APAC은 회원이 화물 범죄를 보고하고 추세를 보는 사고 정보 시스템(TIS, TAPA Intelligence System)을 운영하며"
+ },
+ {
+  "claim": "TAPA APAC은 인증 뒤 불시 확인 심사(shadow audit)를 할 수 있습니다.",
+  "verdict": "partly",
+  "evidence": "https://tapa-apac.org/standards/trucking-security-requirements/ \"After achieving TAPA TSR certification, Shadow Audits may be conducted by TAPA APAC at the association's discretion to ensure that the LSP/Applicant upholds the Standard requirements.\"; https://tapa-apac.org/standards/facility-security-requirements/ \"TAPA APAC reserves the right to conduct Shadow Audits\". \"불시(예고 없이)\"라는 말은 출처에 없음.",
+  "fix": "TAPA APAC은 인증 뒤에도 표준을 지키는지 확인하려고 재량으로 섀도 심사(shadow audit)를 할 수 있습니다."
+ },
+ {
+  "claim": "TSR 2023은 박스형(hard-sided) 트럭·트레일러, 커튼형(soft-sided) 트럭·트레일러, 고정 적재함 밴, 해상 컨테이너 도로 운송을 대상으로 합니다.",
+  "verdict": "partly",
+  "evidence": "https://tapa-apac.org/standards/trucking-security-requirements/ \"TAPA TSR Standards are applicable to operators of: Hard-sided Trucks and Trailers / Soft-sided Trucks and Trailers / Rigid Vans or Fixed-body Truck / Sea Container Road Transporters\". 세 번째 유형은 밴만이 아니라 고정 차체 트럭도 포함.",
+  "fix": "TSR 2023은 박스형(hard-sided) 트럭·트레일러, 커튼형(soft-sided) 트럭·트레일러, 고정 차체(rigid) 밴·트럭, 해상 컨테이너 도로 운송을 대상으로 합니다."
+ },
+ {
+  "claim": "인증기관 DQS는 FSR 심사에서 가장 흔한 지적 사항이 하청 관리라고 설명합니다.",
+  "verdict": "partly",
+  "evidence": "https://www.dqsglobal.com/en/explore/blog/tapa-fsr-2026-guide \"Subcontractor management is historically the most common finding in FSR audits. If you use third-party labor, agency drivers, or temp staff during peak season, this is where you'll get caught.\" — FSR 2026의 방문자·협력업체·임시 인력 출입 관리 항목에 붙은 해설로, 보관 재하청이 아니라 현장에 드나드는 외부 인력 관리를 말함. 문서에서는 보관 재하청(FSR 5.2) 바로 뒤에 놓여 뜻이 달라짐.",
+  "fix": "인증기관 DQS는 하청 관리가 FSR 심사에서 가장 흔한 지적 사항이며, 특히 외부 인력·대리 기사·임시직의 출입 관리에서 많이 걸린다고 설명합니다."
+ },
+ {
+  "claim": "인증받은 운송사가 다른 회사 차량(용차)을 쓰면 그 구간은 인증 밖이 됩니다.",
+  "verdict": "unclear",
+  "evidence": "TSR 본문(회원 전용)의 재하청 조항을 공개 자료로 확인하지 못함. https://tapa-apac.org/standards/trucking-security-requirements/, https://www.controlunion.com/wp-content/uploads/2024/09/Control-Union-TAPA-full-brochure-TSR.pdf, DNV TSR 페이지 어디에도 용차 구간이 자동으로 인증에서 빠진다는 문장은 없음. FSR 2020 5.2는 보관 재하청에 계약상 FSR 준수를 요구하는 구조라 TSR도 계약으로 하청에 요건을 넘기는 방식일 수 있음.",
+  "fix": "인증받은 운송사가 다른 회사 차량(용차)을 쓰면 그 차량과 회사도 같은 TSR 요건을 지키는지 계약과 기록으로 따로 확인합니다."
+ },
+ {
+  "claim": "아래 점검표는 AEO 별표 1, CTPAT MSC(괄호 안 Must는 필수, Should는 권장), TAPA 요구 주제를 한 줄에 묶은 것입니다.",
+  "verdict": "partly",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 — 점검표의 AEO 번호는 대부분 화물운송주선업자 부문 번호인데 7절에는 그 기준이 적혀 있지 않음. 예: D절 [창고] 기사 확인 항목의 \"AEO 4.5.5\"는 화물운송주선업자 4.5.5(\"물품을 인수하거나 불출하기 전에 운전사 및 운송수단 정보 등을 확인\")이고, 보세구역운영인 부문에서는 같은 내용이 4.5.3이며 운영인 4.5.5는 세관 검사대상 컨테이너 보관·운송 조항임.",
+  "fix": "아래 점검표는 AEO 별표 1, CTPAT MSC(괄호 안 Must는 필수, Should는 권장), TAPA 요구 주제를 한 줄에 묶은 것입니다. AEO 번호는 부문을 따로 적지 않으면 화물운송주선업자 부문 번호이며, 다른 부문은 번호가 조금씩 다릅니다(예: 기사·차량 확인은 보세구역운영인 부문에서 4.5.3)."
+ },
+ {
+  "claim": "창고 보관 리스크</a> 3절과 5~6절에, 트럭 운송의",
+  "verdict": "partly",
+  "evidence": "repo rk-docs/rk-warehouse.html — FSR 2020 수치(CCTV 최소 30일, 출입 통제 기록 90일, 24시간 보고)는 3절(고가화물 보관) 표에 있음. 5절(도난과 강탈)·6절(가짜 픽업)에는 이 수치가 없음(24시간은 7절에도 있음).",
+  "fix": "창고 보관 리스크</a> 3절에, 트럭 운송의"
+ },
+ {
+  "claim": "화물 범죄 157,421건. 손실액을 함께 알린 보고는 6% 미만이었고, 그 건만 합쳐도 27억 유로",
+  "verdict": "correct",
+  "evidence": "https://iumi.com/?p=16716 (2025-03-12, Thorsten Neumann) \"In the last three years (2022-2024), the TAPA EMEA Intelligence System (TIS) has recorded 157,421 cargo crimes in 129 countries. Less than 6% of these reports told us their loss value but these crimes alone produced a total loss of €2.7 billion.\"",
+  "fix": null
+ },
+ {
+  "claim": "TAPA는 이 지역 화물 범죄가 여전히 크게 덜 보고된다고 봅니다.",
+  "verdict": "correct",
+  "evidence": "https://iumi.com/?p=16716 \"Cargo crime in the Europe, Middle East & Africa regions is still significantly under-reported.\"",
+  "fix": null
+ },
+ {
+  "claim": "기록된 화물 도난의 95% 넘게 트럭을 노린 것이고, 그 절반은 보안이 없는 주차 장소에 섰을 때 일어남",
+  "verdict": "correct",
+  "evidence": "https://www.controlunion.com/wp-content/uploads/2024/09/TAPA-EMEA-PSR-Flyer-2025.pdf \"Over 95% of all recorded cargo thefts involve attacks on trucks and 50% of these crimes occur when trucks stop in unsecured parking places.\"",
+  "fix": null
+ },
+ {
+  "claim": "공급망 범죄 3,594건(2024년 3,607건). 확인된 화물 도난 2,646건(18% 증가), 추정 손실 약 7억 2,500만 달러(60% 증가), 건당 평균 273,990달러(36% 증가)",
+  "verdict": "correct",
+  "evidence": "https://www.verisk.com/company/newsroom/cargo-theft-losses-surge-to-estimated-$725-million-in-2025-verisk-cargonet-analysis-reveals/ (2026-01-22) \"CargoNet recorded 3,594 supply chain crime events ... unchanged from the 3,607 events reported in 2024 ... increasing 18 percent year-over-year from 2,243 to 2,646\"; \"estimated losses surged to nearly $725 million, a 60 percent increase\"; \"average value per theft rose to $273,990, up 36 percent\"",
+  "fix": null
+ },
+ {
+  "claim": "속임수로 정상 운송사에 맡긴 화물을 다른 곳으로 돌리는 수법이 늘 것으로 CargoNet은 내다봤습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.verisk.com/company/newsroom/cargo-theft-losses-surge-to-estimated-$725-million-in-2025-verisk-cargonet-analysis-reveals/ \"Theft by deception groups are anticipated to increase their focus on misdirecting shipments tendered to legitimate carriers\"",
+  "fix": null
+ },
+ {
+  "claim": "무역사기 1,591건, 9,584만 달러(약 1,330억원). 이 가운데 이메일 해킹으로 허위 계좌 송금을 유도한 것이 1,518건(95.4%). 연도별로 2021년 438건, 2022년 334건, 2023년 314건, 2024년 329건, 2025년 상반기 176건",
+  "verdict": "correct",
+  "evidence": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=203942&menuNo=200218 원문 PDF 표: (`21) 438 (`22) 334 (`23) 314 (`24) 329 (`25.상) 176, 합계 1,591건, 금액 합계 95,844천 달러; \"1,518건(95.4%)\". 수치 일치.",
+  "fix": null
+ },
+ {
+  "claim": "TAPA(Transported Asset Protection Association)는 1997년에 만들어진 업계 단체로, 미주(TAPA Americas), 유럽·중동·아프리카(TAPA EMEA), 아시아·태평양(TAPA APAC)의 지역 조직을 통해 표준을 운영합니다.",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/standards-trainings/ \"The Transported Asset Protection Association was founded as a not-for-profit industry Association in 1997\"; https://www.dqsglobal.com/en/explore/dqs-knowledge-center/tapa-explained \"operating through its regional associations (Americas, EMEA, and APAC)\"",
+  "fix": null
+ },
+ {
+  "claim": "TAPA를 제조사, 물류회사, 운송사, 수사기관 등이 모여 공급망 손실을 줄이려는 모임으로 소개하고",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/wp-content/uploads/2022/05/FSR-2020-Standard.pdf 2.1 \"TAPA is a unique forum that unites global manufacturers, logistics providers, freight carriers, law enforcement agencies, and other stakeholders with the common aim of reducing losses\"; \"organized crime rings are operating globally and using increasingly sophisticated attacks on vehicles, premises, and personnel\"",
+  "fix": null
+ },
+ {
+  "claim": "TAPA EMEA에는 약 1,000개 회원사가 있습니다(2025년 기준).",
+  "verdict": "correct",
+  "evidence": "https://iumi.com/?p=16716 \"TAPA EMEA now represents a network of some 1,000 member companies\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>A(Elevated), B(Moderate), C(Standard)</td>",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/standards/facility-security-requirements/ \"FSR Level A: Elevated Level ... FSR Level B: Moderate Level ... FSR Level C: Standard Level (IAB certification or TAPA APAC certification...)\"",
+  "fix": null
+ },
+ {
+  "claim": "TAPA APAC은 3곳 이상을 한꺼번에 인증하는 멀티사이트 제도를 IAB 심사로만 운영합니다.",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/standards/facility-security-requirements/ \"To support companies seeking to certify three or more facilities at the same time, TAPA offers a FSR Multisite Certification option ... audit must be conducted only through IAB certification.\" (같은 페이지가 멀티사이트를 Level A·B에만 허용한다고 쓰면서 Level C 줄에도 Multisite를 적어 서로 엇갈림. 문서 문장 자체는 맞음)",
+  "fix": null
+ },
+ {
+  "claim": "<td>1(Elevated), 2(Moderate), 3(Basic)</td>",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/standards/trucking-security-requirements/ \"TSR Level 1: Elevated Security Protection (IAB certification)\"; \"TSR Level 3: Basic Security Protection (IAB certification or TAPA APAC certification)\"",
+  "fix": null
+ },
+ {
+  "claim": "TSR 2026은 차량 유형별 요건을 하나로 합쳤습니다(TAPA EMEA).",
+  "verdict": "correct",
+  "evidence": "https://iumi.com/?p=20265 (2026-09-09) \"Security requirements for different vehicle types have been consolidated into a single TSR Standard, while a separate Certification Framework Document describes the certification process\"",
+  "fix": null
+ },
+ {
+  "claim": "TAPA EMEA 프로그램으로 2023년에 개정했습니다. 2025년 안내 자료 기준 16개국 주차장이 참여합니다.",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/standards-trainings/parking-facility-security-requirements/ \"TAPA EMEA revised the PSR Standard in 2023.\"; https://www.controlunion.com/wp-content/uploads/2024/09/TAPA-EMEA-PSR-Flyer-2025.pdf \"currently covering sites in 16 countries\"",
+  "fix": null
+ },
+ {
+  "claim": "TAPA EMEA의 네 번째 표준. TAPA APAC은 CSS 2025를 최신판으로 안내합니다.",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/standards-trainings/ \"TAPA EMEA offers 4 Supply Chain Security Standards\" (FSR, TSR, CSS, PSR); https://tapa-apac.org/ \"The TAPA Cyber Security Standard (CSS) 2025 is the latest version\"",
+  "fix": null
+ },
+ {
+  "claim": "경비(GSR), 위험평가(RAS), 의약품 시설(PFSR), 항공화물 보안(ACSS), 사업 연속성(BCM)",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/standards/facility-security-requirements/ 표준 메뉴: Guarding Security Requirements (GSR), Risk Assessment Standard (RAS), Business Continuity Management (BCM), Pharmaceutical Facility Security Requirements (PFSR), Air Cargo Security Standard (ACSS)",
+  "fix": null
+ },
+ {
+  "claim": "TAPA는 표준을 3년마다 검토·개정합니다.",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/standards-trainings/ \"Our Standards are reviewed and revised every 3 years\"; FSR 2020 3.1 \"reviewed and revised as needed every three years\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>모든 등급(FSR A·B·C, TSR 1·2·3, PSR 1·2·3)</td>",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/standards/facility-security-requirements/ \"an external audit by TAPA-Approved Independent Audit Bodies (IABs) for all levels\"; https://tapaemea.org/standards-trainings/parking-facility-security-requirements/ \"Independent Audit Body (IAB) Certification (Levels 1, 2 and 3)\"",
+  "fix": null
+ },
+ {
+  "claim": "FSR 인증서는 3년 유효, 연장 없이 만료 전에 재인증 심사(DQS 해설).",
+  "verdict": "correct",
+  "evidence": "https://www.dqsglobal.com/en/explore/blog/tapa-fsr-2026-guide \"The TAPA FSR certificate is valid for three (3) years with no extension permitted, and a re-certification audit must be performed before the expiration date.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>최저 등급만(FSR C, TSR 3, PSR 3)</td><td>TAPA 교육과 시험을 통과한 자사 심사원(Authorized Auditor, AA)</td>",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/self-certification-program/ \"required to have a TAPA trained in-house Authorized Auditor (AA) who have completed the training and passed the examination\"; https://tapaemea.org/standards-trainings/parking-facility-security-requirements/ \"A self-certification audit to meet the requirements of PSR Level 3\"",
+  "fix": null
+ },
+ {
+  "claim": "PSR 자체 인증은 3년 유효이고 TAPA EMEA가 표본 심사를 합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.controlunion.com/wp-content/uploads/2024/09/TAPA-EMEA-PSR-Flyer-2025.pdf \"issuing of TAPA certification valid for 3 years. TAPA EMEA conducts sample audits of self-certified sites.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>매년 갱신</td>",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/standards-trainings/parking-facility-security-requirements/ \"Sign a declaration to become a TAPA PSR Partner to confirm basic security controls are in place. Participation must be renewed annually.\"",
+  "fix": null
+ },
+ {
+  "claim": "FSR 2020은 면제를 특정 요구사항을 빼 주거나 대안 통제를 인정하는 서면 승인으로 정의하고, 신청서를 IAB나 AA를 거쳐 TAPA 지역 면제위원회에 내며, 승인된 면제는 인증 기간 동안 유효하다고 설명합니다.",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/wp-content/uploads/2022/05/FSR-2020-Standard.pdf 6.1 \"A waiver is a written approval granted to either exempt a facility from a specific TAPA requirement or to accept an alternative compliance solution ... Waivers are valid for the period of the certification ... submitted through the IAB/AA to the TAPA Regional Waiver Committee for approval.\"",
+  "fix": null
+ },
+ {
+  "claim": "TAPA APAC은 TSR에서 운송사가 화주(Buyer)를 대신해 면제를 요청할 수 있다고 안내합니다.",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/standards/trucking-security-requirements/ \"LSP/Applicant may request for Waivers on specific security requirement(s) in part or whole on behalf of the Buyer.\" (APAC FSR 페이지에도 같은 취지가 있음)",
+  "fix": null
+ },
+ {
+  "claim": "FSR 2026·TSR 2026 시행(IUMI 보도). 2023년판과 바뀐 요구사항을 나란히 보여 주는 전환판을 먼저 냈고, 인증 절차는 별도 인증 체계 문서로 분리",
+  "verdict": "correct",
+  "evidence": "https://iumi.com/?p=20265 \"which will come into force on 15 September 2026\"; \"Changes from the 2023 standards are highlighted, with previous and new requirements shown side by side.\"; \"a separate Certification Framework Document describes the certification process\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>FSR 2023 심사 번호(tracking number) 신청 마감</td>",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/fsr-tsr-version-2026-standards-in-q3-2026-what-you-need-to-know-for-audits-and-certification/ (2026-01-16) \"30 September 2026 – Final date to request an FSR 2023 tracking audit number.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>2026년판 심사 신청 시작(교육 등록은 2026. 9. 21.부터)</td>",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/fsr-tsr-version-2026-standards-in-q3-2026-what-you-need-to-know-for-audits-and-certification/ \"The start date for Version 2026 audit applications is 1 October 2026.\"; \"Registration for Version 2026 training via the LMS will open on 21 September 2026.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>2023년판 심사 서류 제출 마감 / 2023년판 인증 처리 완료</td>",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/fsr-tsr-version-2026-standards-in-q3-2026-what-you-need-to-know-for-audits-and-certification/ \"30 November 2026 – Final date to submit all audit documentation to TAPA APAC.\"; \"31 December 2026 – All Audits Certifications processing for Version 2023 must be completed and finalised.\"",
+  "fix": null
+ },
+ {
+  "claim": "FSR 2023 인증서를 더 발급하지 않음. 이미 발급된 2023년판 인증서는 유효기간까지 유효(DQS 해설)",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/fsr-tsr-version-2026-standards-in-q3-2026-what-you-need-to-know-for-audits-and-certification/ \"January 2027 onwards – No FSR 2023 certificates will be issued.\"; https://www.dqsglobal.com/en/explore/blog/tapa-fsr-2026-guide \"The issued FSR/TSR 2023 certificates will remain valid for 3 years, with annual monitoring against FSR/TSR 2023 requirements.\"",
+  "fix": null
+ },
+ {
+  "claim": "TAPA 2026년판 일정은 TAPA가 예고 없이 바꿀 수 있다고 밝히고 있으므로",
+  "verdict": "correct",
+  "evidence": "https://tapa-apac.org/fsr-tsr-version-2026-standards-in-q3-2026-what-you-need-to-know-for-audits-and-certification/ \"The dates are subjected to changes without prior notice.\"",
+  "fix": null
+ },
+ {
+  "claim": "도크·보관·환적 구역 CCTV를 우선 촬영하도록 하며, 건물 벽·도크·지붕 출입구의 물리적 보호 기준을 자세히 하고",
+  "verdict": "correct",
+  "evidence": "https://www.dqsglobal.com/en/explore/blog/tapa-fsr-2026-guide \"requiring priority coverage of loading, storage and transfer zones\"; \"More detailed physical-protection standards now cover building walls, loading docks, rooftop access points\"; \"In compliant jurisdictions, enterprises may use electronic ID cards, electronic driver's licenses and other digital credentials\"; \"FSR 2026 removes ambiguous wording\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>FSR 외곽(7.1), 외벽·지붕·문(7.2), 출입구(7.3), 내부(7.4), 보안 시스템(7.5)</td>",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/wp-content/uploads/2022/05/FSR-2020-Standard.pdf 목차 \"7.1. Perimeter / 7.2. Outside Walls, Roof, and Doors / 7.3. Office and Warehouse Entry and Exit Points / 7.4. Inside Warehouse and Office / 7.5. Security Systems; Design, Monitoring and Responses / 7.6 Training and Procedures / 7.7 Workforce Integrity / 8 Central function / 9 IT and Cyber Security Threat. Enhanced option\"; 5 Contracts and Subcontracting; 7.4.28~ Security Seals, Fraudulent Pick-Ups",
+  "fix": null
+ },
+ {
+  "claim": "FSR 2020은 면제를 받지 않는 한 모든 장이 의무라고 밝히는 한편, TAPA 표준을 다 지켜도 모든 도난을 막는다는 보증은 없고 손해 책임은 물류회사와 화주의 계약과 법에 따른다고 적고 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/wp-content/uploads/2022/05/FSR-2020-Standard.pdf 4.1 \"all sections of the Standard are mandatory unless an exception is granted through the official waiver process\"; 4.4 \"TAPA provides no guarantee or assurance that all cargo theft events will be prevented ... will be for the account of the LSP/Applicant and/or the Buyer in accordance with the terms and conditions in their contract with each other and any laws\"",
+  "fix": null
+ },
+ {
+  "claim": "FSR 2020은 물류회사가 화주에게 인증 증거를 제공하도록 정합니다.",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/wp-content/uploads/2022/05/FSR-2020-Standard.pdf 5.1 \"LSP shall provide Buyer with evidence of FSR Certification\"",
+  "fix": null
+ },
+ {
+  "claim": "FSR 2020은 보관을 재하청하면 그 업체도 계약으로 FSR을 지키게 하라고 정하고",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/wp-content/uploads/2022/05/FSR-2020-Standard.pdf 5.2 \"Subcontractors of storage includes a contractual requirement that the subcontracting LSP/Applicant meets all noted FSR Standards.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>보안 책임자와 관리 책임, 위험평가, 경로 계획과 경로 위험 평가</td>",
+  "verdict": "correct",
+  "evidence": "https://www.controlunion.com/wp-content/uploads/2024/09/Control-Union-TAPA-full-brochure-TSR.pdf \"Security governance and management responsibilities\"; \"Risk assessments and route planning procedures\"; \"Driver vetting\"; \"Real-time GPS tracking\"; \"optional enhanced controls, such as advanced monitoring, escort procedures, and additional IT and cybersecurity protections\"; DNV TSR 페이지(WebFetch) \"risk-based route planning\", \"incident response\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>경영진 책임, 현장 보안 인력, 교육, 인력 신뢰성, 기사 편의 시설</td>",
+  "verdict": "correct",
+  "evidence": "https://www.controlunion.com/wp-content/uploads/2024/09/TAPA-EMEA-PSR-Flyer-2025.pdf \"Management Commitment / Onsite Security Staffing / Training / Security Practice / Workforce Integrity / Driver Comfort Services & Facilities\"",
+  "fix": null
+ },
+ {
+  "claim": "운영일마다 녹화가 되는지 확인해 기록한다",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/wp-content/uploads/2022/05/FSR-2020-Standard.pdf 7.5 \"Digital recording functionality checked daily on operational days via procedure.\"; MSC 9.14 Should(원문 대조)",
+  "fix": null
+ },
+ {
+  "claim": "퇴직 당일 출입증·열쇠·장비를 돌려받고 시스템 계정을 지운다(AEO 4.4.3, CTPAT 4.7 Must, FSR 인력 신뢰성).",
+  "verdict": "correct",
+  "evidence": "https://tapaemea.org/wp-content/uploads/2022/05/FSR-2020-Standard.pdf 7.7.5 \"Recover physical assets from terminated workforce to include company IDs, access badges, keys, equipment\"; 7.7.6 \"Terminate access for terminated workforce\"; MSC 4.7 \"Computer and network access must be removed upon employee separation.\" Must; law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 화물운송주선업자 4.4.3 퇴직직원 사원증·출입증·접근권한 회수",
+  "fix": null
+ },
+ {
+  "claim": "CTPAT 9.1·9.4 Must, 9.5 Should",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 원문 대조(pdftotext -raw, Must/Should 열): 2.3·3.1·3.4·3.5·4.1·4.2·4.6~4.9·5.3·5.4·5.29·6.1·6.2·6.5~6.7·7.1·7.6·7.8·7.23·7.24·7.27·9.1·9.4·9.6·9.8·9.13·9.15·10.1~10.4·11.1·11.5·12.1·12.2·12.10 = Must; 4.12·5.5·5.6·5.8·5.14·7.5·7.7·7.25·7.28·7.29·9.5·9.14·10.7·10.8·11.2 = Should. 문서의 표시 모두 일치.",
+  "fix": null
+ },
+ {
+  "claim": "빈 컨테이너와 ULD는 7개 지점, 리퍼 컨테이너와 냉동 ULD는 8개 지점을 정합니다",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 5.3 \"A seven-point inspection must be conducted on all empty containers and unit load devices (ULDs); and an eight-point inspection must be conducted on all empty refrigerated containers and ULDs\"; \"Expectations for overseas supply chains are to inspect all instruments of IIT at the point of stuffing/packing.\"",
+  "fix": null
+ },
+ {
+  "claim": "보안 캠 위치가 있으면 그곳에, 없으면 오른쪽 문 가장 가운데 잠금봉 아래쪽에 단다(CTPAT 6.2 Must).",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 6.2 \"must be placed on the secure cam position, if available, instead of the right door handle. The seal must be placed at the bottom of the center most vertical bar of the right container door\"",
+  "fix": null
+ },
+ {
+  "claim": "운송 중 씰이 끊기면 기사가 즉시 배차 담당에게 누가 끊었는지와 새 씰 번호를 알리고",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 6.1 이행 지침 \"The driver must immediately notify dispatch when a seal is broken, indicate who broke the seal, and provide the new seal number. The carrier must immediately notify the shipper, broker, and importer ... The shipper must note the replacement seal number in the seal log.\"; \"Retain altered or tampered seals to aid in investigations.\"",
+  "fix": null
+ },
+ {
+  "claim": "공용 계정 대신 개인 계정을 쓰고, 강한 비밀번호와 가능하면 다중 인증(MFA)을 쓰며, 침해가 의심되면 바로 비밀번호를 바꾼다(CTPAT 4.8 Must).",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 4.8 \"must use individually assigned accounts\"; \"Passwords and/or passphrases must be changed as soon as possible if there is evidence of compromise or reasonable suspicion\"; 지침 \"Processes that use more than one measure are preferred ... (2FA) or multi-factor authentication (MFA)\"",
+  "fix": null
+ },
+ {
+  "claim": "출고·입고, 우편물, 기사, 배차, 경비, 적재 배정, 차량 추적, 씰 관리 담당은",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 12.1 지침 \"sensitive positions ... shipping, receiving, mailroom personnel, drivers, dispatch, security guards, any individuals involved in load assignments, tracking of conveyances, and/or seal controls\"; \"Training records should include the date of the training, names of attendees, and the topics\"",
+  "fix": null
+ },
+ {
+  "claim": "방문 대장에 날짜, 이름, 확인한 신분증 종류, 도착·출발 시각, 담당자를 적으며",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 10.2 \"Date of the visit; Visitor's name; Verification of photo identification (type verified ...); Time of arrival; Company point of contact; and Time of departure.\"",
+  "fix": null
+ },
+ {
+  "claim": "MSC 3.4는 CTPAT 회원이거나 미국과 상호인정약정(MRA)을 맺은 나라의 AEO 업체이면 거래처 요건을 충족한 증거로 인정하고, MRA 목록에 한국(South Korea)을 넣고 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 3.4 \"Certification in either CTPAT or an approved AEO is acceptable proof for meeting program requirements for business partners, and Members must obtain evidence of the certification and continue to monitor\"; MRA 목록 \"Japan, South Korea, the European Union\"",
+  "fix": null
+ },
+ {
+  "claim": "이행 지침은 사업장 주소와 업력 확인, 회사와 대표자 인터넷 검색, 거래 추천처 확인, 신용조회를 예로 듭니다.",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 3.1 지침 \"Verifying the company's business address and how long they have been at that address; Conducting research on the internet on both the company and its principals; Checking business references; and Requesting a credit report.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>CTPAT 7.23(Must)</td>",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Feb/CTPAT%20U.S.%20Importers%20MSC%20October%202021%20%28508%29_0.pdf 7.23 Must, 예시 \"Unauthorized use of a business entity identifier (i.e., Importer of Record (IOR) number, Standard Carrier Alpha (SCAC) code, etc.)\"; 보고 대상 \"Supply Chain Security Specialist, the closest port of entry, any pertinent law enforcement agencies, and business partners\"",
+  "fix": null
+ },
+ {
+  "claim": "AEO 고시 제4조제1항은 안전관리 분야를 거래업체, 운송수단, 출입통제, 인사, 취급절차, 시설과 장비, 정보 및 교육·훈련 체계로 정하고",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 제4조①4호 \"안전관리: 수출입물품의 안전한 관리를 확보할 수 있는 거래업체, 운송수단, 출입통제, 인사, 취급절차, 시설과 장비, 정보 및 교육ㆍ훈련체계를 갖출 것\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>수출자, 수입자, 관세사, 화물운송주선업자, 보세운송업자, 보세구역운영인, 선박회사, 항공사, 하역업자</td>",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 별표 1 가.수출자 나.수입자 다.관세사 라.화물운송주선업자 마.보세운송업자 바.보세구역운영인 사.선박회사 아.항공사 자.하역업자",
+  "fix": null
+ },
+ {
+  "claim": "AEO 별표 1은 거래업체 선정 절차를 마련하고(4.1.1), 국내외 AEO인지 확인하며(4.1.2), AEO가 아닌 거래업체에는 안전관리기준 충족 여부를 문서로 표시하게 하고 주기적으로 검증하라고 요구합니다(4.1.3). 수출자는 운송인이 AEO이거나 기준을 충족했는지 확인하고 적재 지점의 안전관리를 운송인과 협력해야 합니다(수출자 4.1.5).",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 화물운송주선업자 4.1.1 \"거래업체를 선정하기 위한 절차\", 4.1.2 \"국내ㆍ외 수출입 안전관리 우수업체 공인을 받았는지 여부를 확인\", 4.1.3 \"문서나 전자적인 방법으로 표시하도록 요구 ... 주기적으로 검증\"; 수출자 4.1.5 \"컨테이너와 트레일러의 적재지점에서 안전관리절차가 보장되도록 운송인과 협력\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>AEO 4.5.2(화물운송주선업자), 4.5.5(수출자), 4.5.2(보세운송업자)</td>",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 화물운송주선업자 4.5.2·수출자 4.5.5·보세운송업자 4.5.2 모두 \"불법사항이나 혐의사항을 식별하였을 때에는 즉시 세관장에게 보고\"",
+  "fix": null
+ },
+ {
+  "claim": "반입 화물의 중량·라벨·표식·수량을 반입예정정보와 대조하고, 인계 때 검수해 불일치는 보고한다(AEO 보세구역운영인 4.5.3·4.5.4).",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 보세구역운영인 4.5.3 \"반입물품의 중량ㆍ라벨ㆍ표식ㆍ수량 등을 반입예정정보와 대조 확인\"; 4.5.4 \"인계할 때 검수 ... 불일치 또는 부적절한 인계 ... 즉시 세관장에게 보고\"; 4.5.6 \"검사 종료 즉시 재봉인\"",
+  "fix": null
+ },
+ {
+  "claim": "(AEO 보세운송업자 4.2.5·4.2.6, TSR 추적·감시)",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 보세운송업자 4.2.5 \"운송수단이 이동하는 동안에는 추적 및 감시 ... 운행일지가 기록ㆍ유지\"; 4.2.6 \"운송이 지연되는 경우 운전사가 운송의뢰인에게 그 사실을 통보\"; 4.1.4 \"타 운송업체의 차량을 이용하는 경우 ... 공인 ... 또는 안전관리기준을 충족하였는지 확인\"",
+  "fix": null
+ },
+ {
+  "claim": "(AEO 4.3.4·4.3.5, CTPAT 7.24 Must, 10.8 Should)",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 화물운송주선업자 4.3.4 \"도착한 소포와 우편물을 배포하기 전에 검사\", 4.3.5 \"신원이 확인되지 않은 사람에 대하여 검문과 대응하는 절차\"; 4.3.1~4.3.3 출입증·접근구역·방문자 신분증; 4.6.1~4.6.3 울타리·출입구 감시·개인차량; 4.6.5·4.6.6 잠금장치·근무시간 후 통제·조명; 4.6.7 경보장치·감시카메라 (A·B절 번호 모두 일치)",
+  "fix": null
+ },
+ {
+  "claim": "AEO 업체는 교육을 상당 기간 하지 않으면 혜택 정지 사유가 된다(고시 제25조).",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 제25조 \"공인 유효기간 중 소속 임직원에게 안전관리 세부기준 4.8.1부터 4.8.4까지에 따른 교육을 정당한 사유 없이 상당한 기간 실시하지 않았음이 확인된 경우\" 혜택 적용 정지",
+  "fix": null
+ },
+ {
+  "claim": "<td>변동사항 보고(30일 이내, 중대한 사항은 지체 없이)</td>",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API, 수출입 안전관리 우수업체 공인 및 운영에 관한 고시(관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1 제17조① \"30일 이내 ... 공인유지에 중대한 영향을 미치는 경우 지체없이 보고\", 5호 \"화재, 침수, 도난, 불법 유출 등 수출입화물 안전관리와 관련한 특이사항\"; 제18조 정기 자율 평가(매년)",
+  "fix": null
+ },
+ {
+  "claim": "관세청고시 제2026-60호, 시행 2026. 10. 2.) 별표 1, 국제항해선박",
+  "verdict": "correct",
+  "evidence": "law.go.kr Open API 검색 결과: 고시 발령번호 2026-60, 시행 20261002; 국제항해선박 및 항만시설의 보안에 관한 법률 공포번호 20125, 시행 20240724(현행); 같은 법 시행령 34988(현행); 개인정보 보호법 공포번호 21445, 시행 20260911(현행)",
+  "fix": null
+ },
+ {
+  "claim": "같은 법 시행령 제4조제2항은 보안등급을 1등급(평상수준), 2등급(경계수준), 3등급(비상수준)으로 나눕니다",
+  "verdict": "correct",
+  "evidence": "law.go.kr 국제항해선박 및 항만시설의 보안에 관한 법률 시행령 제4조② \"보안 1등급 ... 평상수준\", \"보안 2등급 ... 경계수준\", \"보안 3등급 ... 비상수준\"; 법 제33조①1~4호(위해물품 반입·은닉, 검문검색 불응, 무단 출입, 허가 없는 촬영)",
+  "fix": null
+ },
+ {
+  "claim": "공급망 관련 측면을 포함한 보안 경영시스템의 요구사항을 정하며 업종에 한정되지 않습니다.",
+  "verdict": "correct",
+  "evidence": "https://online.standard.no/en/iso-28000-2022 \"This document specifies requirements for a security management system, including aspects relevant to the supply chain ... It provides a holistic and common approach and is not industry or sector specific.\" (Mar 2022. 참고: ISO 28000:2022/Amd 1:2024 개정이 있음)",
+  "fix": null
+ },
+ {
+  "claim": "물류정책기본법 제2조제1항제13호는 \"물류보안\"을",
+  "verdict": "correct",
+  "evidence": "law.go.kr 물류정책기본법(법률 제21065호, 시행 2025. 10. 1.) 제2조 13. \"물류보안\"이란 ... 사전에 방지하기 위한 조치; 제33조①② 전자문서 위작·변작 금지, 물류정보 비밀 침해·도용·누설 금지",
+  "fix": null
+ },
+ {
+  "claim": "<a href=\"/library/ctu-code/ch8-arrival\">",
+  "verdict": "correct",
+  "evidence": "repo: library/ctu-code/ch8-arrival.html, library/customs/cu-aeo.html, library/ctu-code/im9-seals.html, library/bl-awb/bl-basics.html, library/cargo-insurance/ins-claims.html 모두 존재; data-doc rk-truck·rk-warehouse·rk-damage·rk-cross는 risk-library.js에 있음. rk-truck 5절(도난을 줄이는 방법)에 밤샘주차 법령, rk-warehouse 3절에 HVC·책임 한도 계산, 6절에 가짜 픽업 출고 확인이 있음.",
+  "fix": null
+ },
+ {
+  "claim": "TAPA 기준 본문은 저작권이 있는 문서라 이 문서는 공개된 목차와 해설을 바탕으로 구조와 요구 주제만 요약했고, 원문을 옮기지 않았습니다.",
+  "verdict": "correct",
+  "evidence": "5절 표와 점검표를 FSR 2020 원문과 대조: 영어 원문을 길게 옮긴 문장 없음(요구 주제를 한국어로 짧게 요약). TSR·PSR 행은 Control Union 브로슈어와 PSR 안내 자료의 영역 제목을 옮긴 수준. 포워더에게 화물을 열거나 점검하라는 문장 없음(E절 첫 문단이 점검은 적입장·창고·CFS 작업자의 일이라고 명시). 운영자 회사 이름 없음.",
+  "fix": null
+ }
+]

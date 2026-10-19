@@ -1,0 +1,320 @@
+[
+  {
+    "claim": "무료 기간 마지막 날을 날짜로 확인하고 손실을 막는 실무, 미국 FMC 규정, 역할별 점검표를 정리합니다.",
+    "verdict": "correct",
+    "evidence": "문서 구조 대조: 4장 LFD 확인 실무, 5장 손실 예방, 6장 FMC, 8장 역할별 점검표와 일치(7장 한국은 도입에서 빠졌지만 기존 판도 같았음).",
+    "fix": null
+  },
+  {
+    "claim": "컨테이너마다 Last Free Day(LFD, 무료 기간 마지막 날)와 실무 마감일을 날짜로 계산해 알립니다",
+    "verdict": "correct",
+    "evidence": "실무 권고. LFD 용어는 Maersk 화면 \"Last Free Date\"(https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/kr-introducing-online-freetime-extension-family-2024-feb-21.pdf: \"Last Free Date 또한 예상 (Estimated) 일정입니다\")와 HL 미국 안내서(\"before the Last Free Day at the inland terminal\", https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/Detention_and_Demurrage_Guide_USA_May_2026.pdf)에 쓰임.",
+    "fix": null
+  },
+  {
+    "claim": "4·5장의 선사 안내는 2026년 10월 19일에 확인했고, 그 안의 날짜와 금액은 예시입니다.",
+    "verdict": "correct",
+    "evidence": "아래 4·5장 출처를 2026-10-19 curl로 다시 받아 확인함(모두 HTTP 200).",
+    "fix": null
+  },
+  {
+    "claim": "미국 FMC 규정이 바로 이 \"유인\" 논리를 법적 판단 기준으로 씁니다(6장).",
+    "verdict": "correct",
+    "evidence": "절 번호 대조: FMC는 6장(<h3>6. 미국 FMC 규정…). 4장→6장 변경 반영됨.",
+    "fix": null
+  },
+  {
+    "claim": "Maersk도 수입 D&amp;D 조회 화면에 컨테이너별 \"Last Free Date\"를 보여 줍니다.",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/kr-introducing-online-freetime-extension-family-2024-feb-21.pdf (Last updated 2025-12-03): \"1) 수입 D&D (Import Demurrage & Detention) 화면 예시 도착 전 조회되는 정보는 예상 일정에 따른 시뮬레이션 입니다. Last Free Date 또한 예상 (Estimated) 일정입니다.\"; https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/import/freetime-pre-do-check-guideline.pdf: \"컨테이너별 프리타임 기간 및 예상 종료일 확인 가능\"",
+    "fix": null
+  },
+  {
+    "claim": "공개 요율표보다 서비스 계약(S/C)·견적의 별도 free time이 우선하고",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/maersk-spot/new/how-to-purchase-extended-freetime-2023-12-14.pdf: \"계약(Contract) 부킹에 스페셜 프리타임이 포함된 경우, 해당 일수가 자동으로 표시됩니다.\" 기존 면책 문구와도 같은 내용.",
+    "fix": null
+  },
+  {
+    "claim": "양하일 포함 10일이면 LFD는 양하일에서 9일 뒤입니다.",
+    "verdict": "correct",
+    "evidence": "산술: 1일째 = 양하일 → 10일째 = 양하일 + 9일. 2026-12-18 + 9 = 2026-12-27.",
+    "fix": null
+  },
+  {
+    "claim": "Maersk는 B/L 번호로 입항 15일 전부터 조회되고 반납 날짜별 예상 요금도 보여 줌",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/import/freetime-pre-do-check-guideline.pdf: \"각 칸에 BL번호 (MAEU제외) 입력 후 조회해 주세요\" / \"공컨테이너 반납 날짜 선택으로 예상되는 디텐션 요율 확인\" / \"Q. 프리타임은 ETA 며칠 전부터 조회 가능한가요? A. 입항 기준 15일 전부터 가능합니다.\"",
+    "fix": null
+  },
+  {
+    "claim": "도착 전 날짜는 예상치. 터미널 보관료는 나오지 않음",
+    "verdict": "unclear",
+    "evidence": "앞부분은 맞음(https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/kr-introducing-online-freetime-extension-family-2024-feb-21.pdf: \"도착 전 조회되는 정보는 예상 일정에 따른 시뮬레이션\"). \"터미널 보관료는 나오지 않음\"은 Maersk 안내 어디에도 적혀 있지 않은 추론임(https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/import/freetime-pre-do-check-guideline.pdf는 \"프리타임 기간 및 예상 종료일\", \"디텐션 요율\"만 언급). 한국 수입 보관료를 터미널이 직접 청구한다는 점에서 나온 추론으로 보이나 원문 근거는 없음.",
+    "fix": "도착 전 날짜는 예상치. 화면은 선사 D&amp;D 기준이므로 터미널 보관료는 터미널 요율로 따로 확인"
+  },
+  {
+    "claim": "미국은 청구서에도 무료 기간 시작·종료일이 적혀야 함(6장)",
+    "verdict": "correct",
+    "evidence": "https://www.ecfr.gov/current/title-46/chapter-IV/subchapter-B/part-541/section-541.6 (eCFR 2026-09-25판) §541.6(b): \"(3) The allowed free time in days; (4) The start date of free time; (5) The end date of free time\"",
+    "fix": null
+  },
+  {
+    "claim": "본선은 2026년 12월 17일(목) 22:00에 도착했고 이 컨테이너는 12월 18일(금) 03:00에 양하됐습니다. 12월 25일(금)은 기독탄신일(공휴일)입니다.",
+    "verdict": "correct",
+    "evidence": "python datetime (2026-10-19): 2026-12-17 Thu, 12-18 Fri, 12-24 Thu, 12-25 Fri, 12-26 Sat, 12-27 Sun, 12-30 Wed, 11-30 Mon, 12-01 Tue, 12-03 Thu, 12-14 Mon, 12-16 Wed. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&LM=관공서의 공휴일에 관한 규정 (대통령령 제36290호) 제2조: \"10. 기독탄신일(12월 25일)\". 2026년 12월에 다른 관공서 공휴일 없음(10의2 선거일 해당 없음, 성탄절이 금요일이라 대체공휴일 없음).",
+    "fix": null
+  },
+  {
+    "claim": "규칙 A: 양하일 포함 달력일 10일(Maersk 한국 수입 홈페이지 문구, 2장 단서 참고)",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/local-information/asia-pacific/south-korea/import: \"Calendar day. Combined demurrage and detention starts from discharge day (included), ends with gate-in empty day (included) to terminal.\" 이 문구는 \"Valid to Jul-14-2024\" 표 아래에 있음(2장 단서와 같음). 현행표 \"Days 1-10 days … 0 (Free)\".",
+    "fix": null
+  },
+  {
+    "claim": "규칙 B: 본선 도착 일시부터 10일(Hapag-Lloyd 한국 수입)",
+    "verdict": "correct",
+    "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/South_Korea_demurrage_detention_import_Aug2025.pdf: \"Free time for Carrier's Own Container (COC) for all types of container commences from the date/ time of vessel arrival and ends at return of empty unit at the designated place/ terminal.\" / \"Freetime 10\" (Calendar Days).",
+    "fix": null
+  },
+  {
+    "claim": "12. 17.(목) 도착일(1일로 센다고 가정)",
+    "verdict": "correct",
+    "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/South_Korea_demurrage_detention_import_Aug2025.pdf는 도착일을 1일로 세는지 24시간 단위인지 적지 않음. 문서가 가정이라고 밝히고 선사 확인을 권하므로 정확함. python datetime (2026-10-19): 2026-12-17 Thu, 12-18 Fri, 12-24 Thu, 12-25 Fri, 12-26 Sat, 12-27 Sun, 12-30 Wed, 11-30 Mon, 12-01 Tue, 12-03 Thu, 12-14 Mon, 12-16 Wed",
+    "fix": null
+  },
+  {
+    "claim": "<td>12. 27.(일)</td><td>12. 26.(토)</td>",
+    "verdict": "correct",
+    "evidence": "산술: 12-18 + 9 = 12-27(일), 12-17 + 9 = 12-26(토). python datetime (2026-10-19): 2026-12-17 Thu, 12-18 Fri, 12-24 Thu, 12-25 Fri, 12-26 Sat, 12-27 Sun, 12-30 Wed, 11-30 Mon, 12-01 Tue, 12-03 Thu, 12-14 Mon, 12-16 Wed",
+    "fix": null
+  },
+  {
+    "claim": "<td>12. 24.(목)</td><td>12. 24.(목)</td>",
+    "verdict": "correct",
+    "evidence": "12-27(일)·12-26(토)·12-25(금, 기독탄신일) 이전 마지막 평일은 12-24(목). python datetime (2026-10-19): 2026-12-17 Thu, 12-18 Fri, 12-24 Thu, 12-25 Fri, 12-26 Sat, 12-27 Sun, 12-30 Wed, 11-30 Mon, 12-01 Tue, 12-03 Thu, 12-14 Mon, 12-16 Wed",
+    "fix": null
+  },
+  {
+    "claim": "13일, 초과 3일 × 30,000원 = 90,000원",
+    "verdict": "correct",
+    "evidence": "12-18~12-30 포함 13일, 11~13일째 3일은 첫 구간. https://www.maersk.com/local-information/asia-pacific/south-korea/import 현행표: \"Days 11-15 days … 40’ / 40’HC / 45’HDRY 30,000\". 3 × 30,000 = 90,000. 2장 표의 Maersk 40ft 첫 구간(11~15일 30,000원)과 일치.",
+    "fix": null
+  },
+  {
+    "claim": "14일, 초과 4일 × 30,000원 = 120,000원",
+    "verdict": "correct",
+    "evidence": "12-17~12-30 포함 14일, 11~14일째 4일은 HL 첫 구간(1st Period 5일). https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/South_Korea_demurrage_detention_import_Aug2025.pdf: 40' \"1st Period 5 KRW 30,000\". 4 × 30,000 = 120,000. 2장 표의 HL 40ft 첫 5일 30,000원과 일치.",
+    "fix": null
+  },
+  {
+    "claim": "<p class=\"lib-disclaimer\">요율은 언제든 바뀔 수 있습니다. 여기 쓴 금액은 확인 날짜 기준의 예시이므로",
+    "verdict": "correct",
+    "evidence": "BRIEF 요율 면책 문구가 계산 예시 표 바로 아래에 그대로 있음.",
+    "fix": null
+  },
+  {
+    "claim": "(그러면 12월 27일 22:00까지)",
+    "verdict": "correct",
+    "evidence": "산술: 2026-12-17 22:00 + 10 × 24시간 = 2026-12-27 22:00.",
+    "fix": null
+  },
+  {
+    "claim": "두 규칙 모두 달력일이라 쉬는 날인 성탄절과 주말도 무료 일수로 세므로",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/local-information/asia-pacific/south-korea/import: \"Calendar day.\"; https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/South_Korea_demurrage_detention_import_Aug2025.pdf: 표 머리 \"Calendar Days\".",
+    "fix": null
+  },
+  {
+    "claim": "관공서의 공휴일에 관한 규정 제2조(시행 2026. 5. 11.)",
+    "verdict": "correct",
+    "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&LM=관공서의 공휴일에 관한 규정: 대통령령 제36290호(공포 2026. 4. 30.), 시행일자 20260501, 조문시행일자문자열 \"20260511:제2조 각 호 외의 부분 단서, 제2조제2호\". 제2조의 일부가 5. 11. 시행이므로 표기 가능(법령 전체 시행일은 2026. 5. 1.). 제10호 기독탄신일 내용은 변동 없음.",
+    "fix": null
+  },
+  {
+    "claim": "반출을 막는 원인과 서류는 <a href=\"/library/customs/cu-import-timeline\">수입 화물 일정표</a>를 보십시오.",
+    "verdict": "correct",
+    "evidence": "링크 대상 존재: library/customs/cu-import-timeline.html, customs-library.js id cu-import-timeline(제목 \"수입 화물 일정표 — …\"), 6장 \"반출이 늦어지는 곳과 그것을 푸는 서류\".",
+    "fix": null
+  },
+  {
+    "claim": "<a data-doc=\"ch-quote\">견적서 읽는 법</a>",
+    "verdict": "correct",
+    "evidence": "charges-library.js에 id ch-quote(short \"견적서 읽는 법\") 있음.",
+    "fix": null
+  },
+  {
+    "claim": "터미널이 내주거나 받지 못한 기간과 디포가 공컨테이너를 받지 못한 기간만큼의 free time 연장",
+    "verdict": "correct",
+    "evidence": "https://fiata.cdn.prismic.io/fiata/a48563de-3aaf-455b-ac6d-e87635ef7a6c_FIATA_World_Congress_2018_-_Presentation_New_Working_Group_Sea_-Best_Practice_Guide_on_demurrage_and_detention-.pdf p.4: \"FIATA suggests that commercial partners negotiate terms to extend free time for a period that is equal to the duration of the inability of: • the terminals to release a container for import or receive a container for export. • the depots to receive an empty container.\"",
+    "fix": null
+  },
+  {
+    "claim": "쌓이는 D&amp;D의 상한(이상적으로는 새 컨테이너 값)",
+    "verdict": "correct",
+    "evidence": "https://fiata.cdn.prismic.io/fiata/a48563de-3aaf-455b-ac6d-e87635ef7a6c_FIATA_World_Congress_2018_-_Presentation_New_Working_Group_Sea_-Best_Practice_Guide_on_demurrage_and_detention-.pdf p.4: \"FIATA suggests that commercial partners negotiate limits to the accrual of demurrage or detention charges to a maximum, ideally the value of the purchase price of a new container.\"",
+    "fix": null
+  },
+  {
+    "claim": "정부 검사로 반출하지 못한 기간의 할증 구간 면제",
+    "verdict": "correct",
+    "evidence": "https://fiata.cdn.prismic.io/fiata/a48563de-3aaf-455b-ac6d-e87635ef7a6c_FIATA_World_Congress_2018_-_Presentation_New_Working_Group_Sea_-Best_Practice_Guide_on_demurrage_and_detention-.pdf p.5: \"delays are caused by Government … The merchant should only be charged for “compensation to the shipping line for the use of the container”. The second element related to “encouragement …” should be waived.\"; p.9 요약: \"The (escalating) item that covers the “encouragement for the merchant to return the container” should be waived.\"",
+    "fix": null
+  },
+  {
+    "claim": "수출 Demurrage를 출항일이 아닌 반입 마감일까지만 계산",
+    "verdict": "partly",
+    "evidence": "https://fiata.cdn.prismic.io/fiata/a48563de-3aaf-455b-ac6d-e87635ef7a6c_FIATA_World_Congress_2018_-_Presentation_New_Working_Group_Sea_-Best_Practice_Guide_on_demurrage_and_detention-.pdf p.6: 통상 방식은 \"from gate-in of the full container into the terminal until a full container is loaded on board the vessel\"이고, 제안 문구는 \"…until the announced closing date for the delivery of the loaded container to the terminal.\" 비교 대상은 출항일이 아니라 선적(loaded on board) 시점임.",
+    "fix": "수출 Demurrage를 선적 때까지가 아니라 공지된 반입 마감일까지만 계산"
+  },
+  {
+    "claim": "수입 D&amp;D를 반출 뒤 1주일 안에 청구하는 것",
+    "verdict": "partly",
+    "evidence": "https://fiata.cdn.prismic.io/fiata/a48563de-3aaf-455b-ac6d-e87635ef7a6c_FIATA_World_Congress_2018_-_Presentation_New_Working_Group_Sea_-Best_Practice_Guide_on_demurrage_and_detention-.pdf p.7: \"FIATA further proposes consideration of levying demurrage charges within a week of the release of the container from the terminal.\" p.9 요약: \"Ensure that demurrage and detention charges on import shipments are charged much faster, ideally within a week.\" 반출 뒤 1주일은 Demurrage에 대한 제안이고, D&D 전체는 기준점 없이 \"이상적으로 1주일 안\"임(Detention은 반출 뒤에도 계속 쌓이므로 반출 뒤 1주일 청구가 성립하지 않음).",
+    "fix": "수입 D&amp;D를 훨씬 빨리, 이상적으로는 1주일 안에 청구(Demurrage는 터미널 반출 뒤 1주일 안)하는 것"
+  },
+  {
+    "claim": "부킹 접수·정정 때(컨테이너 반입 전), 선적서류(SI) 제출 때(출항 전), 선적 뒤 ETA 15일 전부터 ETA 1일 후까지 살 수 있고 단계마다 요율이 다릅니다",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/kr-introducing-online-freetime-extension-family-2024-feb-21.pdf (2025-12-03): \"1) 부킹 접수 (신규 또는 정정), 2) SI 제출, 3) 선적 후 (ETA 15 일 전부터 1 일 후까지)\"; \"부킹 정정 단계에서도 반입 전까지 구매 가능\"; \"Shipping Instruction 제출 / Draft BL 정정 단계에서 구매 (출항전 까지)\". https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/maersk-spot/new/how-to-purchase-extended-freetime-2023-12-14.pdf (2025-06-11): \"선적 전까지 선적서류 (Shipping Instruction) 제출 화면에서 구매 가능합니다. 각 다른 구매 단계에서 제공되는 요율은 모두 상이합니다.\" 참고: 2025-06-11 안내는 선적 후 기한을 \"ETA 15일 전부터 양하 하루 전까지\"로 적어 신판(ETA 1일 후)과 다름. 문서는 신판을 따름.",
+    "fix": null
+  },
+  {
+    "claim": "4·7·10·14일 중에서 B/L 단위로 사고",
+    "verdict": "partly",
+    "evidence": "https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/kr-introducing-online-freetime-extension-family-2024-feb-21.pdf: \"구매는 부킹 (또는 B/L) 단위로만 가능하며, 컨테이너 단위로는 구매 불가합니다.\" / \"정해진 구매일자 옵션(4, 7, 10, 14 일) 중 선택 가능합니다.\" https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/maersk-spot/new/how-to-purchase-extended-freetime-2023-12-14.pdf: 부킹 단계는 \"부킹 단위로만 구매 가능\", \"컨테이너당 비용이 적용\". 단계에 따라 부킹 단위이므로 \"B/L 단위\"만 쓰면 좁음.",
+    "fix": "4·7·10·14일 중에서 부킹(또는 B/L) 단위로 사고(컨테이너별로는 못 삼)"
+  },
+  {
+    "claim": "취소·환불이 안 되며, 부킹 단계에서 산 비용은 기본적으로 해상운임 지급인에게 청구됩니다",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/kr-introducing-online-freetime-extension-family-2024-feb-21.pdf: \"구매 후 취소 또는 환불은 불가\"; https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/maersk-spot/new/how-to-purchase-extended-freetime-2023-12-14.pdf: \"부킹 단계에서 구매하신 Freetime extension 비용은 기본적으로 Ocean Freight payer에게 청구됩니다.\"",
+    "fix": null
+  },
+  {
+    "claim": "이 상품으로 터미널 보관료 무료 기간이 늘지 않는다는 점은 <a data-doc=\"ch-korea-storage\">",
+    "verdict": "correct",
+    "evidence": "링크 대상 존재(charges-library.js id ch-korea-storage), 해당 문서에 \"선사 free time 연장이 보관료까지 줄이지는 않습니다.\" 문장이 있음.",
+    "fix": null
+  },
+  {
+    "claim": "Hapag-Lloyd 미국 안내서는 화주 잘못 없는 세관 보류 기간과 free time 안의 공휴일·예고 없는 폐쇄일(shutout day)을 free time에서 빼 주지만, 2장의 한국 요율표에는 이런 문구가 없으므로",
+    "verdict": "correct",
+    "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/Detention_and_Demurrage_Guide_USA_May_2026.pdf: \"When a container is put on customs hold for no fault of the customer, Hapag-Lloyd stops the Line Demurrage/Detention clock … The hold and release dates and all days in between are not counted towards free time days.\"; \"Both bank holidays and shutout days are excluded from free time calculations.\"; \"Shutout Days are unplanned or short-notice closures\". 한국: https://www.maersk.com/local-information/asia-pacific/south-korea/import, https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/South_Korea_demurrage_detention_import_Aug2025.pdf, https://kr.one-line.com/sites/southkorea/files/2026-03/D%26D%20Customer%20Advisory_KR_FY2026_1.pdf 모두 세관 보류·휴일 제외 문구 없음.",
+    "fix": null
+  },
+  {
+    "claim": "Hapag-Lloyd 한국 수입 요율표는 \"지정 장소·터미널(designated place/terminal)\"에 반납할 때 시계가 끝난다고 적었습니다.",
+    "verdict": "correct",
+    "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/South_Korea_demurrage_detention_import_Aug2025.pdf: \"…ends at return of empty unit at the designated place/ terminal.\"",
+    "fix": null
+  },
+  {
+    "claim": "12월 16일(수) 선적, FCL 마감 12월 14일(월)인 예시",
+    "verdict": "correct",
+    "evidence": "python datetime (2026-10-19): 2026-12-17 Thu, 12-18 Fri, 12-24 Thu, 12-25 Fri, 12-26 Sat, 12-27 Sun, 12-30 Wed, 11-30 Mon, 12-01 Tue, 12-03 Thu, 12-14 Mon, 12-16 Wed",
+    "fix": null
+  },
+  {
+    "claim": "<th>Maersk: 반출일 포함 → 선적일, 14일</th><th>Hapag-Lloyd: 반출 다음 날 00:01 → FCL 마감일, 14일</th>",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/local-information/asia-pacific/south-korea/export: \"Days 1-14 … 0 (Free)\", \"Calendar day. Combined demurrage and detention starts from empty pick up day (included), ends with loading day\"; https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/South_Korea_demurrage_detention_export__Jun2026.pdf: \"commence at 00:01 on the 1st calendar day after pick-up at Hapag Lloyd's designated place of interchange and ends at FCL Cut Off date\", \"Freetime 14\".",
+    "fix": null
+  },
+  {
+    "claim": "<td>16일, 초과 2일</td><td>13일, 무료 안</td>",
+    "verdict": "correct",
+    "evidence": "Maersk 12-01~12-16 포함 16일(선적일 포함으로 셈. 현행 문구 \"ends with loading day\", 2024. 7. 14.까지 판 문구는 \"ends with loading day (included) to vessel\", https://www.maersk.com/local-information/asia-pacific/south-korea/export). HL 12-02~12-14 = 13일. python datetime (2026-10-19): 2026-12-17 Thu, 12-18 Fri, 12-24 Thu, 12-25 Fri, 12-26 Sat, 12-27 Sun, 12-30 Wed, 11-30 Mon, 12-01 Tue, 12-03 Thu, 12-14 Mon, 12-16 Wed",
+    "fix": null
+  },
+  {
+    "claim": "<td>18일, 초과 4일</td>",
+    "verdict": "correct",
+    "evidence": "12-01~12-18 포함 18일, 14일 초과 4일.",
+    "fix": null
+  },
+  {
+    "claim": "<td>12. 3.(목)</td><td>11. 30.(월)</td>",
+    "verdict": "correct",
+    "evidence": "Maersk 12-03~12-16 = 14일. HL 11-30 반출 → 12-01~12-14 = 14일(마감일 포함으로 보수적 계산). python datetime (2026-10-19): 2026-12-17 Thu, 12-18 Fri, 12-24 Thu, 12-25 Fri, 12-26 Sat, 12-27 Sun, 12-30 Wed, 11-30 Mon, 12-01 Tue, 12-03 Thu, 12-14 Mon, 12-16 Wed",
+    "fix": null
+  },
+  {
+    "claim": "ONE 부산 수출 통합 요율(CTOC)은 free time 16일이지만 기산 규칙은 공지문에 없습니다.",
+    "verdict": "correct",
+    "evidence": "https://kr.one-line.com/sites/southkorea/files/2026-03/D%26D%20Customer%20Advisory_KR_FY2026_1.pdf: \"CTOC … 16 … DRY (General, Dangerous)\", \"* CTOC (Combined Detention & Demurrage Outbound Container)\". 기산 시점·일수 기준 문구 없음.",
+    "fix": null
+  },
+  {
+    "claim": "포워더 이름으로 부킹했다면 포워더, <a data-doc=\"ch-cases\">",
+    "verdict": "correct",
+    "evidence": "ch-docs/ch-cases.html: 대법원 2020다280685 사건 \"운송주선인은 자기의 명의로 … 원칙적으로 자신 명의로 운송인과 운송계약을 체결하고 운송인에 대하여 직접 권리를 취득하고 의무를 부담한다\"; 링크 id ch-cases 존재.",
+    "fix": null
+  },
+  {
+    "claim": "Demurrage and Detention in Container Shipping p.3~6(FIATA, 2018)",
+    "verdict": "partly",
+    "evidence": "https://fiata.cdn.prismic.io/fiata/a48563de-3aaf-455b-ac6d-e87635ef7a6c_FIATA_World_Congress_2018_-_Presentation_New_Working_Group_Sea_-Best_Practice_Guide_on_demurrage_and_detention-.pdf 인쇄 쪽 번호 기준: 연장·상한 p.4, 정부 지연 면제 p.5, 수출 마감일 문구 p.6, 1주일 청구 p.7, 요약 p.9. p.3~6이면 1주일 청구(p.7)가 빠짐.",
+    "fix": "Demurrage and Detention in Container Shipping p.4~7·9(FIATA, 2018)"
+  },
+  {
+    "claim": "부킹 시 도착지 추가 프리타임 구매 안내(Maersk Korea, 2025. 6. 11. 갱신)",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/maersk-spot/new/how-to-purchase-extended-freetime-2023-12-14.pdf: 제목 \"부킹 시 도착지 추가 프리타임 구매 안내\", \"Update 2025-06-11\".",
+    "fix": null
+  },
+  {
+    "claim": "도착지 프리타임 연장 구매 서비스 안내(Maersk Korea, 2025. 12. 3. 갱신)",
+    "verdict": "correct",
+    "evidence": "https://www.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/export/kr-introducing-online-freetime-extension-family-2024-feb-21.pdf: 제목 \"도착지 프리타임 연장 구매 서비스 안내\", \"Last updated 2025-12-03\".",
+    "fix": null
+  },
+  {
+    "claim": "D/O 발급 조건(<a href=\"/library/bl-awb/bl-release\">화물 인도 실무</a>)",
+    "verdict": "correct",
+    "evidence": "링크 대상 존재: library/bl-awb/bl-release.html, bl-library.js short \"화물 인도 실무\".",
+    "fix": null
+  },
+  {
+    "claim": "입항전수입신고를 검토해 LFD 안에 수리되도록 일정을 잡고",
+    "verdict": "correct",
+    "evidence": "실무 권고. \"입항전수입신고\"는 관세법·수입통관 사무처리에 관한 고시의 정식 용어.",
+    "fix": null
+  },
+  {
+    "claim": "내륙으로 보세운송해도 선사 D&amp;D 시계는 공컨테이너 반납까지 계속 돈다는 점을 함께 알린다.",
+    "verdict": "partly",
+    "evidence": "화주가 수배한 보세운송(merchant haulage)이면 맞음. 그러나 B/L 인도지가 내륙이고 선사가 트럭으로 인도하는 경우 Maersk 한국 수입은 기산 자체가 내륙 반입일임: https://www.maersk.com/local-information/asia-pacific/south-korea/import \"In case place of delivery is at inland locations served by truck, it starts from full container’s gate-in day (included) at place of delivery.\" 3장 본문도 이 점을 적었으므로 점검표와 맞추는 편이 좋음.",
+    "fix": "화주 쪽에서 내륙으로 보세운송해도 양하 때 시작된 선사 D&amp;D 시계는 공컨테이너 반납까지 계속 돈다는 점을 함께 알린다(선사가 내륙 인도까지 맡는 건은 요율표의 기산 문구를 확인)."
+  },
+  {
+    "claim": "반출 때 컨테이너 손상은 EIR에 적어 둔다.",
+    "verdict": "correct",
+    "evidence": "BRIEF: 화물을 직접 다루는 운송 작업자의 외관 확인은 그 사람의 일로 쓸 수 있음. 포워더에게 화물 검사를 시키는 문장은 문서 전체에 없음.",
+    "fix": null
+  },
+  {
+    "claim": "\"이번 컨테이너의 선사 free time 마지막 날(LFD)은 12월 27일(일)입니다.",
+    "verdict": "correct",
+    "evidence": "규칙 A 계산과 일치(12-18 + 9 = 12-27, 일요일).",
+    "fix": null
+  },
+  {
+    "claim": "성탄절과 주말을 빼면 24일(목)까지 반출하고 빈 컨테이너까지 반납하셔야 비용이 생기지 않습니다.",
+    "verdict": "partly",
+    "evidence": "산술상 비용은 LFD(12. 27.) 뒤에 반납할 때 생김. 24일은 주말·공휴일에 통관·배차·반납이 어려울 때의 실무 마감일이며, 4장 표도 \"주말·공휴일에 통관·배차·반납이 어렵다면\"이라는 조건을 달았음. 화주 안내문은 조건 없이 \"24일까지 반납해야 비용이 안 생긴다\"고 해 LFD와 모순됨.",
+    "fix": "성탄절과 주말에는 통관·배차·반납이 어려울 수 있으니 24일(목)까지 반출하고 빈 컨테이너까지 반납하시는 것이 안전합니다."
+  },
+  {
+    "claim": "<td>21일~ RMB 660</td></tr>\n</tbody></table>",
+    "verdict": "partly",
+    "evidence": "BRIEF 추가 규칙(2026-10-18): 선사 요율을 예시로 쓴 표 바로 아래에 요율 면책 문구를 둠. 2장 40ft 하루 요율표 아래에는 그 문구가 없음(도입부 면책에만 있음). 이번 개정 범위 밖의 기존 표이지만 규칙 위반.",
+    "fix": "<td>21일~ RMB 660</td></tr>\n</tbody></table>\n<p class=\"lib-disclaimer\">요율은 언제든 바뀔 수 있습니다. 여기 쓴 금액은 확인 날짜 기준의 예시이므로, 실제 견적과 청구는 선사·터미널·CFS 등 해당 업체의 공식 요율표와 공지를 확인하십시오.</p>"
+  },
+  {
+    "claim": "요율표의 \"적용 방법\" 줄을 보면 압니다.</p>",
+    "verdict": "partly",
+    "evidence": "BRIEF 추가 규칙: 요율 계산 예시 바로 아래에 면책 문구. 3장 ⑤의 300,000원·400,000원 계산 예시 아래에 없음(기존 내용).",
+    "fix": "요율표의 \"적용 방법\" 줄을 보면 압니다.</p>\n<p class=\"lib-disclaimer\">요율은 언제든 바뀔 수 있습니다. 여기 쓴 금액은 확인 날짜 기준의 예시이므로, 실제 견적과 청구는 선사·터미널·CFS 등 해당 업체의 공식 요율표와 공지를 확인하십시오.</p>"
+  }
+]

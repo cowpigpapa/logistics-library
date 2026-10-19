@@ -1,9 +1,9 @@
-// Cargo Risk · 화물 사고 예방 메뉴(/library/cargo-risk): 운송·창고·보안·젖음·뒤바뀜 사고 예방.
+// Cargo Risk · 화물 사고 예방 메뉴(/library/cargo-risk): 운송·창고·보안·특수화물·젖음·뒤바뀜 사고 예방.
 // 본문은 /rk-docs/<id>.html 조각을 문서를 열 때 불러온다. 주소 /library/cargo-risk/<id>로 문서 하나를 연다.
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-risk';
-  const DOCS_VERSION = '20261019-03';
+  const DOCS_VERSION = '20261019-04';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -33,7 +33,8 @@
     { id: 'rk-warehouse', tag: "창고", level: 3, title: "창고 보관 리스크 — 고가화물·야적·도난 예방과 사고 뒤 대응", short: "창고 보관 리스크", summary: "창고업자 책임(상법)과 계약서 한도, 고가화물 잠금 구역·CCTV·재고 관리, 야적 품목과 특수가연물 기준, 가짜 픽업을 막는 출고 확인, 사고 당일 대응을 화주·포워더·창고·운송사 역할별로 정리합니다." },
     { id: 'rk-damage', checked: '2026-10-19', tag: "손상", level: 3, title: "젖음 손상 예방 — 컨테이너 누수·결로·비 오는 날 작업, 손상이 났을 때 기록과 책임", short: "젖음 손상 예방", summary: "컨테이너 누수·결로·비 오는 날 작업·악천후 침수로 생기는 젖음 손상을 빈 컨테이너 점검과 회차 기준(예), 수침 예방 포장, 항공 비닐 보강으로 막는 법과, 손상 발견 시 기록·통지 기한·사전 클레임, ICC와 상법상 책임을 역할별로 정리합니다." },
     { id: 'rk-cross', checked: '2026-10-19', tag: "뒤바뀜", level: 3, title: "화물 뒤바뀜(크로스) 방지 — 섞이고 잘못 실리고 잘못 나가는 사고는 어디서 나고 어떻게 막나", short: "화물 뒤바뀜(크로스) 방지", summary: "CFS·창고·선적지에서 다른 화물이 섞이거나 다른 목적지로 실리는 크로스가 왜 생기는지, 화인·라벨, 해상·항공 선적지 단계별 점검, 컨테이너·씰 번호 대조, 출고 확인으로 막는 법과, 실제 사례 2건, 화물 위치별 대응(반송신고·수입신고 취하)과 비용 부담을 정리합니다." },
-    { id: 'rk-security', tag: "보안", level: 2, title: "물류 보안 점검 — AEO·CTPAT·TAPA 기준으로 보는 시설·인원·화물·정보·거래처", short: "물류 보안 점검", summary: "관세청 AEO 안전관리 기준, 미국 CTPAT, TAPA, ISO 28000, ISPS Code를 비교하고 출입 통제·CCTV·직원 신원·씰과 빈 컨테이너 7개 지점 점검·정보 보안·거래처 심사·사고 보고를 조항별로 정리합니다." }
+    { id: 'rk-security', checked: '2026-10-19', tag: "보안", level: 2, title: "물류 보안 점검 — TAPA 기준과 영역별 보안 점검표(AEO·CTPAT 대조)", short: "물류 보안 점검", summary: "TAPA FSR·TSR·PSR의 등급·인증 방식·2026년판 전환과 요구사항 구조를 정리하고, AEO·CTPAT 조항을 붙인 시설·CCTV·인원·화물·씰·운송·정보·거래처·사고 보고 통합 점검표를 창고·운송사·포워더·화주 역할별로 제시합니다." },
+    { id: 'rk-special', checked: '2026-10-19', tag: "특수화물", level: 3, title: "특수화물(중량물·고높이 화물) 육상 운송 — 로드 서베이, 도로 운행허가, 상부 구조물 충돌 사고 예방", short: "특수화물 육상 운송", summary: "중량물·고높이·광폭 화물과 프로젝트 카고를 도로로 옮길 때 높이 한도가 정해지는 구조(4.0m 한도, 표지는 실제 높이보다 20cm 낮게, 허가는 실제 높이 −0.2m까지), 국내외 육교·지하차도·교량 충돌 사례, 로드 서베이 항목과 재서베이 시점, 장애물 이설·유도차량 협조, 운행허가 위반 책임, 적재 높이 계산과 계약·보험을 역할별로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -47,14 +48,16 @@
   const SECTIONS = [
     { title: "운송과 창고", sub: "트럭 사고·도난 · 창고 보관", docs: ["rk-truck", "rk-warehouse"] },
     { title: "화물 손상과 오배송", sub: "젖음 손상 · 뒤바뀜", docs: ["rk-damage", "rk-cross"] },
-    { title: "보안", sub: "물류 보안 점검", docs: ["rk-security"] }
+    { title: "보안", sub: "TAPA · 영역별 보안 점검표", docs: ["rk-security"] },
+    { title: "특수화물", sub: "로드 서베이 · 운행허가 · 상부 구조물 충돌", docs: ["rk-special"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
     { name: "트럭 주차 중 화물이 없어졌어요", ids: ["rk-truck"] },
     { name: "고가 화물을 창고에 둘 때 무엇을 확인하나요", ids: ["rk-warehouse"] },
     { name: "컨테이너를 열었더니 화물이 젖어 있어요", ids: ["rk-damage"] },
-    { name: "다른 화주의 화물이 섞여 갔어요", ids: ["rk-cross"] }
+    { name: "다른 화주의 화물이 섞여 갔어요", ids: ["rk-cross"] },
+    { name: "대형 화물이 육교 밑을 지날 수 있나요", ids: ["rk-special"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -192,7 +195,7 @@
       setCanonical(`${BASE}/${doc.id}`);
     } else {
       renderList(view);
-      document.title = '화물 사고 예방 — 운송·창고·보안·젖음·뒤바뀜 · Logistics Library';
+      document.title = '화물 사고 예방 — 운송·창고·보안·특수화물·젖음·뒤바뀜 · Logistics Library';
       setCanonical(BASE);
     }
   }

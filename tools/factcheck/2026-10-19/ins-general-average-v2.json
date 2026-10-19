@@ -1,0 +1,434 @@
+[
+ {
+  "claim": "규칙은 문자규칙(A~G)이 원칙을, 번호규칙(I~XXIII)이 구체적 항목을 정하고, 둘이 부딪치면 번호규칙이 우선합니다(해석규칙).",
+  "verdict": "partly",
+  "evidence": "https://www.trans-lex.org/720020/ Rule of Interpretation: \"Except as provided by the Rule Paramount and the numbered Rules, general average shall be adjusted according to the lettered Rules.\" Rule Paramount: \"In no case shall there be any allowance for sacrifice or expenditure unless reasonably made or incurred.\" 번호규칙 우선은 맞지만 최상위 규칙(Rule Paramount)이 빠짐.",
+  "fix": "규칙은 문자규칙(A~G)이 원칙을, 번호규칙(I~XXIII)이 구체적 항목을 정하고, 둘이 부딪치면 번호규칙이 우선합니다(해석규칙). 그 위에 \"합리적으로 치르지 않은 희생·비용은 어떤 경우에도 인정하지 않는다\"는 최상위 규칙(Rule Paramount)이 있습니다."
+ },
+ {
+  "claim": "공동의 항해에 관련된 재산을 위험에서 지키려고 공동의 안전을 위해 이례적인 희생이나 비용을 \"고의로, 합리적으로\" 치른 때, 그리고 그때에만 공동해손 행위가 있음",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule A 1: \"There is a general average act when, and only when, any extraordinary sacrifice or expenditure is intentionally and reasonably made or incurred for the common safety for the purpose of preserving from peril the property involved in a common maritime adventure.\"",
+  "fix": null
+ },
+ {
+  "claim": "공동해손 행위의 직접 결과인 손해·비용만 인정. 환경 손해, Demurrage, 시장 상실, 지연으로 생긴 손해는 제외",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule C 1-3: \"Only such losses, damages or expenses which are the direct consequence of the general average act…\"; \"…damage to the environment…\"; \"Demurrage, loss of market, and any loss or damage sustained or expense incurred by reason of delay…\"",
+  "fix": null
+ },
+ {
+  "claim": "사고가 어느 당사자의 과실로 생겼어도 분담 청구권은 영향을 받지 않음. 다만 그 과실을 이유로 한 구제수단과 항변은 그대로 남음",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule D: \"Rights to contribution in general average shall not be affected, though the event … may have been due to the fault of one of the parties …, but this shall not prejudice any remedies or defences which may be open against or to that party in respect of such fault.\"",
+  "fix": null
+ },
+ {
+  "claim": "분담은 공동의 항해가 끝난 때 재산의 실제 순가액을 기준으로 함. 분담 계산에 넣는 비용이 분담액에 비해 지나치게 크면 정산인이 그 화물을 분담에서 뺄 수 있음",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule XVII(a)(i): \"…made upon the actual net values of the property at the termination of the common maritime adventure…\"; (a)(ii): \"Any cargo may be excluded from contributing to general average should the average adjuster consider that the cost of including it in the adjustment would be likely to be disproportionate to its eventual contribution.\" (a)(ii)는 양하 전 멸실·손상분을 공제하므로 '유실 화물은 분담 가액에 없음' 설명도 맞음.",
+  "fix": null
+ },
+ {
+  "claim": "YAR 2016 제1조도 관습에 따라 실은 화물이 아니면 투하를 공동해손으로 인정하지 않습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule I: \"No jettison of cargo shall be allowed as general average, unless such cargo is carried in accordance with the recognised custom of the trade.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>문자규칙 A, 제1조, 상법 제872조</td>",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule I(위 인용); https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 공포 2025. 9. 9., 시행 2026. 9. 10.) 제872조 ②: \"갑판에 적재한 하물에 대하여도 제1항과 같다. 다만, 갑판에 선적하는 것이 관습상 허용되는 경우와 그 항해가 연안항행에 해당되는 경우에는 그러하지 아니하다.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>공동해손</td><td>제2조</td>",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule II: \"…and by water which goes down a ship's hatches opened or other opening made for the purpose of making a jettison for the common safety, shall be allowed as general average.\"",
+  "fix": null
+ },
+ {
+  "claim": "입항 비용, 연장된 항해 기간의 선원 임금·연료, 양하·보관·재적재 비용이 공동해손이 될 수 있음",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule X(a)(i) \"the expenses of entering such port or place shall be allowed as general average\"; X(b)(i) cost of handling/discharging; X(c) \"the costs of storage … reloading and stowing … shall likewise be so allowed\"; XI(a) \"Wages and maintenance of master, officers and crew … and fuel and stores consumed during the prolongation of the voyage…\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>내리는 비용과 그로 인한 손해가 공동해손</td><td>제8조</td>",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule VIII: \"When a ship is ashore and cargo … are discharged as a general average act, the extra cost of lightening, lighter hire and reshipping (if incurred), and any loss or damage to the property … in consequence thereof, shall be allowed as general average.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>제2·6조, 상법 제882조 이하</td>",
+  "verdict": "wrong",
+  "evidence": "https://www.trans-lex.org/720020/ 소화수 손해의 근거는 Rule II가 아니라 Rule III: \"Rule III – Extinguishing Fire on Shipboard: Damage done to a ship and cargo … by water or otherwise … in extinguishing a fire on board the ship, shall be allowed as general average; except that no allowance shall be made for damage by smoke however caused or by heat of the fire.\"",
+  "fix": "<td>제3·6조, 상법 제882조 이하</td>"
+ },
+ {
+  "claim": "York-Antwerp Rules 2016 문자규칙 A, 제1·2·6·8·10·11·17조",
+  "verdict": "partly",
+  "evidence": "https://www.trans-lex.org/720020/ 3절 표의 소화수 손해 근거는 Rule III이므로 출처 줄에도 제3조를 더해야 함.",
+  "fix": "York-Antwerp Rules 2016 문자규칙 A, 제1·2·3·6·8·10·11·17조"
+ },
+ {
+  "claim": "(예: Maersk 운송약관 제24.1조는 1994년판)",
+  "verdict": "correct",
+  "evidence": "https://terms.maersk.com/carriage 24.1: \"General average to be adjusted at any port or place at the Carrier's option and to be settled according to the York Antwerp Rules 1994, this covering all Goods carried on or under deck.\"",
+  "fix": null
+ },
+ {
+  "claim": "선박과 적하의 공동위험을 면하려고 선장이 선박 또는 적하를 처분해 생긴 손해·비용",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 공포 2025. 9. 9., 시행 2026. 9. 10.) 제865조: \"선박과 적하의 공동위험을 면하기 위한 선장의 선박 또는 적하에 대한 처분으로 인하여 생긴 손해 또는 비용은 공동해손으로 한다.\"",
+  "fix": null
+ },
+ {
+  "claim": "위험을 면한 선박·적하의 가액, 운임의 반액, 공동해손액의 비율로 각 이해관계인이 분담",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 공포 2025. 9. 9., 시행 2026. 9. 10.) 제866조: \"공동해손은 그 위험을 면한 선박 또는 적하의 가액과 운임의 반액과 공동해손의 액과의 비율에 따라 각 이해관계인이 이를 분담한다.\"",
+  "fix": null
+ },
+ {
+  "claim": "공동위험이 선박·적하의 하자나 과실로 생겼으면 분담자는 책임 있는 자에게 구상 가능",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 공포 2025. 9. 9., 시행 2026. 9. 10.) 제870조: \"선박과 적하의 공동위험이 선박 또는 적하의 하자나 그 밖의 과실 있는 행위로 인하여 생긴 경우에는 공동해손의 분담자는 그 책임이 있는 자에 대하여 구상권을 행사할 수 있다.\"",
+  "fix": null
+ },
+ {
+  "claim": "B/L 등 가격을 정할 서류 없이 실은 화물, 종류·가액을 밝히지 않은 고가물, 갑판 적재 화물(관습상 허용·연안항행은 예외)은 보존되면 분담하고 손실돼도 공동해손액에 넣지 않음",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 공포 2025. 9. 9., 시행 2026. 9. 10.) 제872조 ①: \"…선하증권이나 그 밖에 적하의 가격을 정할 수 있는 서류 없이 선적한 하물 또는 종류와 가액을 명시하지 아니한 화폐나 유가증권과 그 밖의 고가물은 보존된 경우에는 그 가액을 공동해손의 분담에 산입하고, 손실된 경우에는 그 가액을 공동해손의 액에 산입하지 아니한다.\" ②(갑판 적재, 관습·연안항행 예외). 속구목록 미기재 속구는 생략됐으나 화주 문맥상 문제없음.",
+  "fix": null
+ },
+ {
+  "claim": "한국 상법 제870조의 구상권도 같은 방향입니다.",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 공포 2025. 9. 9., 시행 2026. 9. 10.) 제870조는 분담자가 책임 있는 자에게 '구상권을 행사할 수 있다'는 규정으로, 분담을 거절하는 항변(CMA CGM LIBRA의 actionable fault 항변, https://caselaw.nationalarchives.gov.uk/uksc/2021/51 para 21)과 작동 방식이 다름. 결과(과실 있는 쪽이 결국 부담)로는 같은 방향이나 구조가 같다고 읽힐 수 있음.",
+  "fix": "한국 상법 제870조도 공동위험이 과실로 생긴 경우 분담자가 책임 있는 자에게 구상할 수 있게 해, 과실 있는 쪽이 결국 부담한다는 점에서는 같은 방향입니다(다만 상법은 분담 뒤 구상하는 방식으로 정합니다)."
+ },
+ {
+  "claim": "국가법령정보센터의 상법(법률 제21044호, 시행 2026. 9. 10.)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001702&type=XML (상법 법률 제21044호, 공포 2025. 9. 9., 시행 2026. 9. 10.) 공포번호 21044, 공포일자 20250909, 시행일자 20260910.",
+  "fix": null
+ },
+ {
+  "claim": "<b>ZIM KINGSTON(2021년 10월, 캐나다 빅토리아 앞바다)</b>",
+  "verdict": "partly",
+  "evidence": "https://info.expeditors.com/operational-impact/general-average-declared-for-zim-kingston-11-5-2021 \"lost several containers overboard during heavy weather, followed by a fire that broke out on deck … The vessel is presently anchored at Constance Bank, Victoria, Canada.\"; https://maritime-executive.com/article/container-ship-catches-fire-in-strait-of-juan-de-fuca 및 KTVZ·Safety4Sea 보도: 유실은 후안 데 푸카 해협 서쪽 약 38마일 바다, 화재는 빅토리아 앞 Constance Bank 정박지. '빅토리아 앞바다'는 화재 위치만 맞음.",
+  "fix": "<b>ZIM KINGSTON(2021년 10월, 후안 데 푸카 해협 바깥에서 유실, 캐나다 빅토리아 앞 정박지에서 화재)</b>"
+ },
+ {
+  "claim": "<td>ZIM KINGSTON(2021년 10월, 캐나다 빅토리아 앞바다)</td>",
+  "verdict": "partly",
+  "evidence": "위와 같음(Expeditors 2021. 11. 5.; 유실 위치는 후안 데 푸카 해협 서쪽 바다, 화재는 빅토리아 앞 정박지).",
+  "fix": "<td>ZIM KINGSTON(2021년 10월, 캐나다 밴쿠버섬 앞바다)</td>"
+ },
+ {
+  "claim": "화물 클레임 회사 W.E. Cox는 사고일을 2021년 10월 23일, 유실을 최소 109개로 적었습니다.",
+  "verdict": "correct",
+  "evidence": "http://www.wecoxclaimsgroup.com/?p=2277 \"Incident Date: 23rd October 2021\"; \"at least 109 containers have been lost as a result of this incident\"",
+  "fix": null
+ },
+ {
+  "claim": "선주는 공동해손을 선언하고 키프로스의 Albatross Adjusters를 정산인으로 지정했으며, Expeditors는 2021년 11월 4일 선언 통지를 받았다고 고객에게 알렸습니다.",
+  "verdict": "correct",
+  "evidence": "https://info.expeditors.com/operational-impact/general-average-declared-for-zim-kingston-11-5-2021 \"On November 4, 2021, Expeditors was advised that the Zim Kingston vessel owner had declared General Average\"; \"Albatross Adjusters Limited has been appointed the General Average adjuster\" (3035 Limassol, Cyprus)",
+  "fix": null
+ },
+ {
+  "claim": "서류가 끝나지 않으면 화물이 도착지에 묶이며 끝내 처리되지 않으면 경매될 수 있다는 내용이었습니다.",
+  "verdict": "correct",
+  "evidence": "같은 Expeditors 공지: \"If the below documentation is not completed before your cargo reaches its destination, it will be held until it is completed. If never finished, it will be auctioned off.\"; 무보험: \"This may involve a cash deposit or other form of guarantee.\"",
+  "fix": null
+ },
+ {
+  "claim": "유실 자체가 아니라 그 뒤의 화재와 대응이 공동해손을 부른 사례입니다.",
+  "verdict": "correct",
+  "evidence": "W.E. Cox 제목 \"LOSS OF CONTAINERS & FIRE – GA DECLARED\". 공지가 선언 사유를 직접 밝히지는 않으므로 작성자의 해석이지만 문자규칙 A와 맞음.",
+  "fix": null
+ },
+ {
+  "claim": "일본 운수안전위원회 조사로 컨테이너 1,841개를 잃고 일본 고베로 들어갔습니다.",
+  "verdict": "correct",
+  "evidence": "https://jtsb.mlit.go.jp/eng-mar_report/2024/2022tk0001e.pdf (MA2024-02) \"causing 1,841 containers to fall overboard. The vessel then changed its destination and made an emergency entry into Hanshin Port.\"; gCaptain/Loadstar \"It returned to Kobe\"(고베는 한신항의 일부).",
+  "fix": null
+ },
+ {
+  "claim": "2021년 1월 11일 The Loadstar 보도에서 WK Webster는 \"공동해손은 아직 선언되지 않았지만 배제할 수는 없고, 시간이 지날수록 가능성이 줄고 있다\"고 했습니다.",
+  "verdict": "correct",
+  "evidence": "https://gcaptain.com/one-apus-cargo-unloading-expected-to-take-several-more-weeks/ (The Loadstar, January 11, 2021) \"General average has not been declared at this stage, but cannot yet be ruled out, although the likelihood of a declaration is considered to be receding as time progresses,\" WK Webster said.",
+  "fix": null
+ },
+ {
+  "claim": "<b>ONE APUS(2020년 11월 30일, 북태평양)</b>",
+  "verdict": "correct",
+  "evidence": "JTSB MA2024-02: \"November 30, 2020, around 23:22 (ship time) … off the northwest coast of Niihau Island, Hawaiian Islands\"",
+  "fix": null
+ },
+ {
+  "claim": "<b>MAERSK ESSEN(2021년 1월 16일, 북태평양)</b>: 컨테이너 수백 개를 잃고 멕시코 라사로 카르데나스를 피난항으로 삼았습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.maritime-executive.com/article/maersk-essen-diverting-to-mexico-after-container-loss-in-pacific \"approximately 430 nautical miles north northeast of Hawaii on January 16 … Approximately 750 containers were lost overboard\"; \"the port of Lazaro Cardenas, Mexico as a port of refuge\"",
+  "fix": null
+ },
+ {
+  "claim": "WK Webster는 선주가 피난항·보관·후속운송 비용을 이유로 공동해손 선언을 시도할 수는 있지만 여러 사정상 가능성이 낮다고 보았고",
+  "verdict": "correct",
+  "evidence": "같은 기사: \"it is possible that shipowners may seek to declare general average in respect of permissible GA expenses such as port of refuge, storage and on forwarding costs\"; \"they believe it is not likely\"",
+  "fix": null
+ },
+ {
+  "claim": "<b>MSC ELSA 3(2025년 5월 25일, 인도 케랄라 앞바다)</b>: 컨테이너 약 640개를 싣고 기울다 침몰했습니다. The Loadstar는 업계 전문가를 인용해 선박이 완전히 멸실되면 공동해손을 선언하지 않는다고 보도했습니다.",
+  "verdict": "correct",
+  "evidence": "https://theloadstar.com/crew-saved-as-msc-box-ship-hit-by-monsoon-off-indian-coast-sinks/ (27 May 2025) \"developed a severe list … on 24 May and subsequently sank on 25 May\"; \"It had some 640 containers on board\"; \"according to industry experts, no 'general average' is declared when a vessel is fully lost\"; 항로 Vizhinjam→Cochin(케랄라).",
+  "fix": null
+ },
+ {
+  "claim": "TT Club은 정산인이 살아남은 모든 화물에 유치권을 행사(인도 보류)해 모두의 권리를 지키고, 이 유치권은 담보나 현금 공탁으로 풀린다고 설명합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/news-and-resources/news/article/tt-talk-nvocs-and-general-average/ \"The adjuster protects everybody's rights by exercising a lien (withholding release) on all cargo and property preserved. The lien can be discharged by provision of security or cash deposit.\"",
+  "fix": null
+ },
+ {
+  "claim": "Yantian Express 안내문은 화주가 직접 작성·서명한 보증장은 받지 않는다고 밝힘",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf B항: \"This form will not be accepted if it has been completed and signed by the cargo / container owners themselves.\"",
+  "fix": null
+ },
+ {
+  "claim": "Dali 안내문은 송장에 해상운임이 들어 있지 않으면 운임 정보도 따로 내라고 요구",
+  "verdict": "correct",
+  "evidence": "https://www.msccargo.cn/-/media/newsroom-media-library/gali/dali-ga-instructions-to-cargo.pdf \"If the cargo invoice does not already include the cost of the sea freight charges, then please also provide that information.\"",
+  "fix": null
+ },
+ {
+  "claim": "예: 구조 담보 CIF 가액의 32.5%, 무보험 화물 공동해손 공탁 28%, 현금 공탁은 CFR 가액 기준. 비율이 아직 정해지지 않았으면 그렇다고 적고 나중에 갱신(Dali 첫 안내문)",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf \"32.5% of the CIF value of cargo and containers\"; \"A cash deposit of 28%\"; \"The deposit is to be calculated based on the cargo CFR value\"; https://www.msccargo.cn/-/media/newsroom-media-library/gali/dali-ga-instructions-to-cargo.pdf \"The level of cash deposit has not yet been set. … posted on the casualty website … and an updated notice circulated.\"",
+  "fix": null
+ },
+ {
+  "claim": "정산인 이메일·전자서명 링크, 공탁 계좌. 모든 연락에 선박명·컨테이너 번호·B/L 번호를 적으라는 요청",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf \"Please quote the ship name (YANTIAN EXPRESS) plus your container number and bill of lading number in all email correspondence\"(은행 계좌 2곳 기재); https://www.msccargo.cn/-/media/newsroom-media-library/gali/dali-ga-instructions-to-cargo.pdf DocuSign 링크, \"Please quote the ship name (DALI) plus the container number(s) and bill of lading number\"",
+  "fix": null
+ },
+ {
+  "claim": "빈 서식, 손상 가능 컨테이너 목록, 인도 절차를 올리는 정산인 사이트와 사고별 비밀번호",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf \"Blank security forms, lists of potentially damaged containers, plus further news and information including release procedures for cargo will be made available at: www.rhlg.com/clients … enter the password which for this case is…\"",
+  "fix": null
+ },
+ {
+  "claim": "담보가 받아들여진 화물만 인도. 담보가 확인된 컨테이너 목록을 사이트에 올리고 매일 갱신(Dali). 그 뒤 인도는 선사와 평소처럼 협의",
+  "verdict": "correct",
+  "evidence": "https://www.msccargo.cn/-/media/newsroom-media-library/gali/dali-ga-instructions-to-cargo.pdf \"Cargo can only be released after acceptable General Average security has been provided. A list of cargoes for which sufficient General Average security has been provided will be published on the casualty website and will be updated daily. Cargo owners should contact their shipping company in the usual way to arrange delivery once their container is listed.\"",
+  "fix": null
+ },
+ {
+  "claim": "포워더는 혼재 컨테이너의 전체 내역(House B/L 번호, 품명, 중량, 송하인·수하인)을 \"급히\" 내라는 요청",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf / https://www.msccargo.cn/-/media/newsroom-media-library/gali/dali-ga-instructions-to-cargo.pdf \"Freight forwarders should URGENTLY provide … a full breakdown of any LCL / Groupage containers … This breakdown should include house bill of lading numbers, cargo descriptions, cargo weights plus details of the shippers and receivers of the goods.\"",
+  "fix": null
+ },
+ {
+  "claim": "그래서 Yantian Express와 Dali 안내문 모두 \"담보 요건이 충족될 때까지 화물을 내줄 수 없으니 최우선으로 처리해 달라\"며 포워더에게 내역을 요구했습니다.",
+  "verdict": "correct",
+  "evidence": "두 안내문: \"Please treat this as a matter of utmost urgency to avoid unnecessary delay: cargo cannot be released until the General Average (and salvage) security requirements have been met.\"",
+  "fix": null
+ },
+ {
+  "claim": "공동해손 분담 의무는 화물에 붙는 것이지 운송계약에 붙는 것이 아니어서, TT Club은 그 책임이 화물 소유자에게 있고 중개인에게 넘길 수 없다고 설명합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/news-and-resources/news/article/tt-talk-nvocs-and-general-average/ (2006. 6. 12.) \"the obligation to pay general average attaches to the cargo, not to the contract. The responsibility to pay the contributions lies with the cargo-owners and cannot be devolved onto the shoulders of an intermediary\"",
+  "fix": null
+ },
+ {
+  "claim": "House B/L을 발행한 포워더(NVOCC)는 안내문을 화주에게, B/L로 소유권이 넘어갔다면 수하인에게 넘기는 역할을 합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/news-and-resources/news/article/tt-talk-nvocs-and-general-average/ \"he should relay the documents to his client or, if ownership and title have already passed through transfer of the bill of lading, to the consignee.\"",
+  "fix": null
+ },
+ {
+  "claim": "TT Club은 운송계약상 책임 문제와 공동해손 분담은 전혀 별개이므로, 책임을 다투느라 시간을 쓰지 말고 안내에 따라 바로 담보를 내 화물을 찾으라고 권합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/news-and-resources/news/article/tt-talk-nvocs-and-general-average/ \"Liability under the contract of carriage and general average contributions are separate issues entirely.\"; \"follow the general average instructions immediately and get their cargoes released, instead of focusing and spending too much time arguing about liability.\"",
+  "fix": null
+ },
+ {
+  "claim": "또는 서유럽 법역에 있고 S&amp;P 기준 A- 이상인 보험자가 낸 ISU1 보증만 받았고, 둘 다 안 되면 보험이 있어도 현금 공탁을 하라고 했습니다.",
+  "verdict": "partly",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf A항: ISU1 \"only if the issuing entity is: Located in a Western European jurisdiction such as UK, France, Germany, Holland, Belgium, Scandinavia and A rated (A- or better) by S&P or equivalent\"; \"If cargo / containers are not insured, or if cargo / container insurers cannot provide security in either of the above two formats, then a cash deposit…\". 'or equivalent'가 빠져 S&P 등급만 인정되는 것처럼 읽힘.",
+  "fix": "또는 서유럽 법역에 있고 S&amp;P 기준 A- 이상(또는 그에 준하는 신용등급)인 보험자가 낸 ISU1 보증만 받았고, 둘 다 안 되면 보험이 있어도 현금 공탁을 하라고 했습니다."
+ },
+ {
+  "claim": "선주는 2019년 1월 3일 SMIT Salvage Americas와 LOF를 맺고 공동해손을 선언했으며",
+  "verdict": "partly",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf \"Shipowners have engaged salvors SMIT Salvage Americas, LLC under a Lloyds Open Form contract dated 3 January 2019 (LOF). Shipowners have declared General Average (GA)…\". 1월 3일은 LOF 계약 날짜이고 공동해손 선언 날짜는 안내문에 없음. 지금 문장은 선언도 1월 3일로 읽힘.",
+  "fix": "선주는 SMIT Salvage Americas와 2019년 1월 3일자 LOF를 맺었고, 공동해손도 선언했으며"
+ },
+ {
+  "claim": "Richards Hogg Lindley가 공동해손 담보를 모으고 구조자의 요청으로 구조 담보 수집도 도왔습니다. 배가 바하마 프리포트에서 구조 작업을 받는 동안, 구조자는 후속 운송을 서두르려고 담보 요구를 일찍 냈습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf \"appointed Richards Hogg Lindley to collect the necessary GA security. Salvors have also requested Richards Hogg Lindley to assist with the collection of Salvage Security. The vessel is currently at Freeport, Bahamas, where salvage operations are still ongoing.\"; \"In order to expedite the collection of salvage security and to facilitate on-carriage of cargo to destination, Salvors have now set an early security demand\"",
+  "fix": null
+ },
+ {
+  "claim": "CIF 가액의 32.5%. 로이즈 구조중재과 보증 또는 조건을 갖춘 보험자의 ISU1 보증",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf A항 1)·2) (Salvage Arbitration Branch of Lloyd's, ISU 1 guarantee)",
+  "fix": null
+ },
+ {
+  "claim": "송장 사본 + 화주 맹약서 + 현금 공탁 28%",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf B항: \"1) Copy of the cargo invoice, and 2) An Average Bond … and 3) … b. for uninsured cargo: A cash deposit of 28%.\"",
+  "fix": null
+ },
+ {
+  "claim": "구조분은 구조 보수 확정 때까지, 공동해손분은 정산 완료 때까지. 최종액이 적으면 차액 환급",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf C항: \"Salvage security deposit funds (32.5%) will be held until the Salvage remuneration has been agreed or awarded\"; \"The GA deposit funds (28%) will be held until the General Average adjustment has been completed… If the final amount due is less than the deposit paid, then there will be a refund\"",
+  "fix": null
+ },
+ {
+  "claim": "안내문은 현금 공탁을 CFR 가액(물품 가격 + 해상운임)으로 계산한다고 적었습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf \"The deposit is to be calculated based on the cargo CFR value (cost of the cargo including the cost of sea freight).\"",
+  "fix": null
+ },
+ {
+  "claim": "화물을 받으려면 맡길 합계: 32,500 + 28,000 = US$ 60,500(화물 가액의 60.5%)",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf \"The total deposit required is therefore 60.5%.\" 산술: 100,000×0.325=32,500; 100,000×0.28=28,000; 합 60,500. 예시 금액 표시됨.",
+  "fix": null
+ },
+ {
+  "claim": "<td>Yantian Express(2019년 1월, 대서양)</td>",
+  "verdict": "correct",
+  "evidence": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/YANTIAN_EXPRESS_update_with_salvage_declaration.pdf LOF dated 3 January 2019; 콜롬보→핼리팩스 항해 중 화재(대서양).",
+  "fix": null
+ },
+ {
+  "claim": "<td>Maersk가 2018년 3월 9일 선언, 정산인 Richards Hogg Lindley</td>",
+  "verdict": "correct",
+  "evidence": "https://gcaptain.com/insurers-brace-for-multi-million-dollar-claims-from-maersk-honam-fire/ \"Maersk declared general average on 9 March and appointed Liverpool-based average adjuster Richards Hogg Lindley to collect the necessary GA security.\"",
+  "fix": null
+ },
+ {
+  "claim": "2018년 5월 보도에 따르면 구조 담보는 화물 가액의 42.5%, 공동해손 공탁은 11.5%로 정해져, US$ 100,000 화물이라면 US$ 54,000을 맡겨야 했습니다.",
+  "verdict": "correct",
+  "evidence": "https://gcaptain.com/shippers-with-cargo-on-maersk-honam-face-hefty-bill-to-get-it-released/ \"fixed the salvage security at 42.5% of the cargo value, as well as requiring a further 11.5% as a general average deposit. This means a shipper with goods worth $100,000 … faces a combined … bill of $54,000\"",
+  "fix": null
+ },
+ {
+  "claim": "같은 배에 자사 화물을 실은 MSC는 자사 화주에게 제벨알리에서의 환적·보관·후속 운송 비용으로 20ft당 750달러, 40ft당 1,250달러를 따로 청구했습니다.",
+  "verdict": "correct",
+  "evidence": "같은 기사: \"We are therefore requesting an amount of $750 per 20ft or $1,250 per 40ft. This amount is destined to cover all additional transhipment, storage and on-carriage costs\"; \"released from Jebel Ali\"",
+  "fix": null
+ },
+ {
+  "claim": "2024년 4월 12일자 Richards Hogg Lindley 안내문은 이 상황이 공동해손을 일으키므로 선주가 선언했고, Richards Hogg Lindley / CTA(일본)가 담보를 모아 정산서를 만든다고 알렸습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.msccargo.cn/-/media/newsroom-media-library/gali/dali-ga-instructions-to-cargo.pdf \"Date: 12 April 2024\"; \"The above situation gives rise to General Average. As a consequence, shipowners have declared General Average and have appointed Richards Hogg Lindley / CTA (Japan) to collect necessary General Average security and prepare an Adjustment.\"",
+  "fix": null
+ },
+ {
+  "claim": "무보험 화물에는 현금 공탁도 필요하지만 그 비율은 \"아직 정해지지 않았고\" 정해지면 사이트에 올리고 다시 알리겠다고 했습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.msccargo.cn/-/media/newsroom-media-library/gali/dali-ga-instructions-to-cargo.pdf \"For uninsured cargo, a cash deposit will also be required instead of an insurers' guarantee. The level of cash deposit has not yet been set. Details … will be posted on the casualty website … and an updated notice circulated.\"",
+  "fix": null
+ },
+ {
+  "claim": "2024년 3월 26일 볼티모어를 떠나던 Dali가 프랜시스 스콧 키 다리에 부딪혀 다리가 무너지고 일부가 선수에 얹혔습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.msccargo.cn/-/media/newsroom-media-library/gali/dali-ga-instructions-to-cargo.pdf \"On 26 March 2024 whilst departing the port of Baltimore, the vessel struck the Francis Scott Key Bridge. The bridge collapsed and part of the bridge came to rest on the bow of the vessel.\"",
+  "fix": null
+ },
+ {
+  "claim": "CMA CGM LIBRA는 2011년 5월 18일 중국 샤먼을 떠나 홍콩으로 가다 부표로 표시된 항로 밖의 얕은 곳에 좌초했습니다.",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/uksc/2021/51 para 3 \"on leaving the port of Xiamen, China, on a voyage to Hong Kong\"; para 15 \"On 18 May 2011, whilst leaving Xiamen, the vessel grounded on a shoal outside of the buoyed fairway.\"",
+  "fix": null
+ },
+ {
+  "claim": "구조비가 약 US$950만 들었고, 선주는 화주들에게 약 US$1,300만의 공동해손 분담을 청구했습니다. 화주 대부분은 분담금을 냈지만 약 8%가 거부했고, 선주는 이들을 상대로 약 US$80만을 청구했습니다.",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/uksc/2021/51 para 19 \"salvage at a cost of some US$9.5m. It resulted in a total claim in general average … of some US$13m\"; para 20 \"Most of the cargo owners paid their contribution to general average but some 8% refused to do so, leading to the general average claim … of approximately US$800,000.\"",
+  "fix": null
+ },
+ {
+  "claim": "화주 측은 승무원이 해도에 \"표시보다 얕은 곳이 많다\"는 항행통보 경고를 반영하지 않아 항해계획(passage plan)이 잘못됐고",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/uksc/2021/51 para 12 NM 6274: \"Numerous depths less than the charted exist within, and in the approaches to Xiamen Gang.\"; para 13 \"the crew did not annotate BA 3449 to include an express reference to the uncharted depths warning, nor did they refer to it in the passage plan document.\"",
+  "fix": null
+ },
+ {
+  "claim": "영국 대법원은 2021년 11월 10일 만장일치로 선주의 상고를 기각했습니다",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/uksc/2021/51 \"JUDGMENT GIVEN ON 10 November 2021\"; \"LORD HAMBLEN: (with whom Lord Reed, Lord Briggs, Lady Arden and Lord Leggatt agree)\"; para 146 \"I would dismiss the appeal.\"",
+  "fix": null
+ },
+ {
+  "claim": "운송인은 헤이그 규칙 제3조 제1항의 감항능력 주의의무를 선원에게 맡겼다는 이유로 벗어날 수 없다는 것입니다.",
+  "verdict": "correct",
+  "evidence": "https://www.clydeco.com/en/insights/2021/11/supreme-court-decision-cma-cgm-libra-ga-defence \"A carrier cannot escape its Article III Rule 1 obligations by delegating them to its servants or agents\"",
+  "fix": null
+ },
+ {
+  "claim": "판결은 선주가 운송계약 위반 같은 \"책임 있는 과실(actionable fault)\"로 손해나 비용을 일으켰다면 화주에게서 공동해손 분담을 받을 수 없다고 정리했습니다.",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/uksc/2021/51 para 21 \"A shipowner is not entitled to recover general average contributions from the owners of the cargo where the loss or expenditure was caused by its 'actionable fault' which includes any causative breach of the terms of the relevant contract of carriage.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>비율 대신 결말이 공개됨. 화주 약 8%가 분담을 거부했고 법원이 거부를 받아들임(사례 4)</td>",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/uksc/2021/51 para 20, 30(Teare J dismissed the owners' claim), 146.",
+  "fix": null
+ },
+ {
+  "claim": "항로 밖에 좌초. 두 차례 이초 실패 뒤 컨테이너 약 500개를 바지선으로 내리고 준설해 2022년 4월 17일 이초",
+  "verdict": "correct",
+  "evidence": "https://container-news.com/evergreen-declares-general-average-on-grounded-ever-forward \"two attempts to refloat Ever Forward on 29 and 30 March, but both attempts failed\"; https://maritime-executive.com/article/stuck-boxship-ever-forward-finally-refloated-in-chesapeake-bay \"exited the fairway\"; \"They ultimately removed about 500 boxes\"; \"dredged out around the ship\"; \"On Sunday morning\" + \"Easter Sunday rising tide\"(2022년 부활절 = 4월 17일). 준설은 3월 20일부터 시작돼 이초 시도와 병행됐으나 문장상 문제 없음.",
+  "fix": null
+ },
+ {
+  "claim": "Evergreen이 선언(2022년 4월 1일 보도, \"예방적 목적\"), 정산인 Richards Hogg Lindley",
+  "verdict": "correct",
+  "evidence": "Container News 2022. 4. 1. \"Evergreen has for cautionary purposes declared General Average and nominated Richards Hogg Lindley as the GA adjuster.\"; 좌초일 \"since 13 March\"",
+  "fix": null
+ },
+ {
+  "claim": "화물 상태나 최종 분담액을 직접 판정하거나 약속하지 않는다. 비율과 금액은 정산인 안내문을 근거로만 전달한다.",
+  "verdict": "correct",
+  "evidence": "BRIEF.md/STYLE: 포워더는 서류로 판단, 화물 검사 지시 금지. 포워더 점검표 전체에 화물 개봉·검사 지시 없음(House B/L 목록, 혼재 내역 송부, 안내문 전달, 담보 확인 목록 확인뿐).",
+  "fix": null
+ },
+ {
+  "claim": "공동해손 분담은 화물 소유자의 책임이므로, 화주 대신 자기 이름으로 맹약서에 서명하거나 분담금을 보증하지 않는다.",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/news-and-resources/news/article/tt-talk-nvocs-and-general-average/ \"cannot be devolved onto the shoulders of an intermediary\"",
+  "fix": null
+ },
+ {
+  "claim": "공동해손은 선장이 화물을 일부러 버리거나 피난항에 들어가는 비용이 생겼을 때 선언됩니다.",
+  "verdict": "partly",
+  "evidence": "https://www.trans-lex.org/720020/ Rule III(소화), VI(구조), VIII(좌초선 경감) 등도 공동해손이고, 3절 MAERSK ESSEN처럼 피난항 비용이 생겨도 선언되지 않을 수 있음(https://www.maritime-executive.com/article/maersk-essen-diverting-to-mexico-after-container-loss-in-pacific). '선언됩니다'는 단정이 지나침.",
+  "fix": "공동해손은 선장이 배와 화물을 지키려고 화물을 일부러 버리거나, 불을 끄거나, 피난항에 들어가는 등 비용이 생겼을 때 선언될 수 있습니다."
+ },
+ {
+  "claim": "정산서가 나오면 분담액과 제23조의 제소기간(정산서 발행 후 1년, 항해 종료 후 6년)을 관리한다.",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/720020/ Rule XXIII(a)(i): \"…including any rights to claim under general average bonds and guarantees, shall be extinguished unless an action is brought … within a period of one year after the date upon which the general average adjustment is issued. However, in no case … after six years from the date of termination of the common maritime adventure.\"",
+  "fix": null
+ },
+ {
+  "claim": "<a data-doc=\"ins-carrier-liability\">운송인 책임과 한도</a>",
+  "verdict": "correct",
+  "evidence": "repo insurance-library.js에 id 'ins-carrier-liability' 있음, insurance-docs/ins-carrier-liability.html 존재. 문서 내 data-doc 6종(ins-basics, ins-carrier-liability, ins-claims, ins-container-loss, ins-forwarder, ins-icc) 모두 존재. /library/ href 링크 없음. 외부 링크 40개 모두 HTTP 200(2026-10-19 curl).",
+  "fix": null
+ }
+]

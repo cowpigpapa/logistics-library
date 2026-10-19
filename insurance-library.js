@@ -4,7 +4,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-insurance';
-  const DOCS_VERSION = '20261019-02';
+  const DOCS_VERSION = '20261019-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -37,7 +37,7 @@
     { id: 'ins-icc', tag: "약관", level: 3, title: "ICC (A)(B)(C)와 면책 — 어떤 사고가 보상되고 어떤 손해가 빠지는가", short: "ICC (A)(B)(C)와 면책", summary: "2009년 협회적하약관 (A)(B)(C)의 담보 위험을 표로 비교하고, 제4조 일반 면책·제5조 불감항·제6조 전쟁·제7조 파업 면책과 협회전쟁·파업약관, 1963·1982년판과의 대응, 영국법 준거 조항이 한국 실무에서 갖는 의미를 정리합니다." },
     { id: 'ins-uninsurable', tag: "가입제한", level: 3, title: "보험 가입이 어렵거나 안 되는 화물 — 냉동·냉장 화물부터 제재·전쟁 위험까지", short: "가입 어려운 화물", summary: "냉동·냉장 식품과 의약품 콜드체인에 붙는 협회 냉동·냉장식품 약관(24시간 고장 조건)과 증빙, 중고품·갑판 적재·생동물·귀중품·위험물의 조건, 제재·전쟁 위험 지역·사고 후 가입처럼 보험료로 해결되지 않는 경우를 정리합니다." },
     { id: 'ins-carrier-liability', tag: "책임", level: 3, title: "운송인 책임과 한도 — 해상·항공·도로 한도 비교와 화물값과의 차이", short: "운송인 책임과 한도", summary: "헤이그-비스비 규칙과 상법 제797조, 몬트리올 협약 26 SDR와 상법 제915조 19 SDR, CMR 8.33 SDR, 복합운송의 한도를 비교하고, 원화 계산 예시로 운송인 배상이 화물값의 몇 %인지와 가액 신고, 포워더가 운송인이 되는 경우를 정리." },
-    { id: 'ins-general-average', tag: "공동해손", level: 3, title: "공동해손과 구조 — 요크-앤트워프 규칙 2016, GA 선언 시 화주가 낼 담보, 실제 사고", short: "공동해손과 구조", summary: "화물이 멀쩡해도 돈을 내야 하는 공동해손의 개념과 YAR 2016·상법 규정, GA 선언 시 맹약서·보증장·현금 공탁과 구조 담보, 보험 유무의 차이, Maersk Honam·Yantian Express 등 공개된 담보 비율." },
+    { id: 'ins-general-average', checked: '2026-10-19', tag: "공동해손", level: 3, title: "공동해손과 구조 — GA 선언 시 화주가 낼 담보, 컨테이너 유실과의 관계, 실제 사고 사례", short: "공동해손과 구조", summary: "화물이 멀쩡해도 담보를 내야 하는 공동해손의 개념과 YAR 2016·상법, 컨테이너 유실이 공동해손이 되는 경우, 맹약서·보증장·현금 공탁과 정산인 안내문 읽는 법, Yantian Express·Maersk Honam·Dali·CMA CGM LIBRA 등 실제 사고 사례를 정리합니다." },
     { id: 'ins-claims', tag: "클레임", level: 3, title: "사고와 클레임 절차 — 발견부터 보험금·구상까지 순서, 기한, 서류", short: "사고와 클레임 절차", summary: "사고 발견 시 인수증 기재·사진·운송인 통지·보험사 연락·검정 순서, 해상·항공·도로의 통지·제소 기한 비교표, 운송 형태별 클레임 서류, 대위와 구상, 포워더가 할 수 있는 일과 하지 않는 일." },
     { id: 'ins-container-loss', checked: '2026-10-19', tag: "유실", level: 2, title: "컨테이너 유실 사고 — 본선에서 컨테이너가 바다에 떨어졌을 때", short: "컨테이너 유실 사고", summary: "해상 운송 중 컨테이너가 바다에 떨어졌을 때 화주·포워더·보험 담당이 할 일을 정리합니다. WSC 통계와 TopTier가 밝힌 원인, 2026년 SOLAS 유실 보고 의무, 운송인 면책·한도·1년 기한, ICC (A)(B)(C)의 담보 차이를 다룹니다." },
     { id: 'ins-cases', tag: "판례", level: 2, title: "소송·보험금 분쟁 사례 — 한국 대법원과 해외 판례, 온도유지 화물 분쟁", short: "소송·보험금 분쟁 사례", summary: "영국법 준거약관, 보험기간 종료, 포장당 책임제한, 포워더의 운송인 지위, 고유 하자·포장 불충분·제재 면책, 냉동 컨테이너 온도 오설정까지 14개 사례의 사실관계·결론·실무 교훈." },
