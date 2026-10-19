@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261019-04';
+  const DOCS_VERSION = '20261019-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -29,9 +29,17 @@
     { title: "선박안전법 · 위험물 선박운송 및 저장규칙", org: "해양수산부", kind: "법률 · 부령", note: "해상 위험물 운송과 교육의 국내 근거. IMDG Code를 받아들입니다.", url: "https://www.law.go.kr/법령/선박안전법" },
     { title: "위험물안전관리법", org: "소방청", kind: "법률", note: "국내 저장·취급·운반의 기준. 제1류~제6류와 지정수량을 정합니다.", url: "https://www.law.go.kr/법령/위험물안전관리법" },
     { title: "화학물질관리법", org: "기후에너지환경부", kind: "법률", note: "유해화학물질의 영업허가·신고와 취급 기준, 안전교육을 정합니다.", url: "https://www.law.go.kr/법령/화학물질관리법" },
+    { title: "UN 위험물 운송 권고(모델 규정) Rev.24", org: "UNECE", kind: "국제 권고", note: "항공·해상·도로·철도 위험물 규칙의 바탕이 되는 UN 권고입니다. 2025년에 나온 제24개정판이며 전자판을 무료로 열람할 수 있습니다.", url: "https://unece.org/transport/dangerous-goods/un-model-regulations-rev-24" },
     { title: "ICAO 위험물 안전운송 기술지침(Doc 9284)", org: "ICAO", kind: "국제 기술규칙", note: "시카고협약 부속서 18에 따른 항공 위험물 규칙. IATA DGR의 바탕입니다.", url: "https://www.icao.int/Dangerous-Goods/Technical-Instructions" },
     { title: "IMDG Code", org: "IMO", kind: "국제 기술규칙", note: "SOLAS 제VII장에 따라 의무인 해상 위험물 규칙입니다.", url: "https://www.imo.org/en/OurWork/Safety/Pages/DangerousGoods-default.aspx" },
-    { title: "ADR", org: "UNECE", kind: "국제 협정", note: "유럽 중심의 도로 위험물 운송 협정. 한국은 당사국이 아닙니다.", url: "https://unece.org/transport/dangerous-goods/adr-2025-files" }
+    { title: "ADR", org: "UNECE", kind: "국제 협정", note: "유럽 중심의 도로 위험물 운송 협정. 한국은 당사국이 아닙니다.", url: "https://unece.org/adr-2025-files" },
+    { title: "국가위험물통합정보시스템", org: "소방청", kind: "조회 도구", note: "물질명·CAS 번호·UN 번호로 위험물안전관리법상 위험물 정보를 찾습니다. 유별 품명과 지정수량표, 위험물 실무해설서도 볼 수 있습니다.", url: "https://hazmat.nfa.go.kr/" },
+    { title: "화학물질 분류정보(화학물질종합정보시스템)", org: "화학물질안전원", kind: "조회 도구", note: "물질명·CAS 번호·UN 번호로 인체등유해성물질·사고대비물질·제한·금지·허가물질 지정 여부를 확인합니다. 결과는 참고용입니다.", url: "https://icis.mcee.go.kr/chmClsCl/chmClsClList.do" },
+    { title: "MSDS 검색", org: "안전보건공단", kind: "조회 도구", note: "공단이 화학물질별로 작성한 MSDS입니다. 공단은 작성·검토 때 참고용이라고 밝히며, 화주가 내는 제품 MSDS를 대신하지 않습니다.", url: "https://msds.kosha.or.kr/MSDSInfo/kcic/msdssearchMsds.do" },
+    { title: "초록누리", org: "기후에너지환경부", kind: "조회 도구", note: "안전확인대상생활화학제품 신고·승인, 살생물제품 승인, 위반제품을 제품명이나 신고번호로 조회합니다.", url: "https://ecolife.mcee.go.kr/ecolife/main" },
+    { title: "화학물질정보처리시스템(K-REACH) 화학물질 통합검색", org: "기후에너지환경부", kind: "조회 도구", note: "화평법 등록·신고 시스템의 공개 검색입니다. 로그인 없이 CAS 번호나 물질명으로 인체등유해성물질·제한·금지물질 등을 찾습니다.", url: "https://kreach.mcee.go.kr/repwrt/mttr/kr/mttrList.do" },
+    { title: "PubChem", org: "미국 국립보건원(NIH) 국립의학도서관", kind: "조회 도구", note: "물질명·CAS 번호로 동의어와 안전·독성 정보를 영문으로 찾는 무료 화학물질 데이터베이스입니다.", url: "https://pubchem.ncbi.nlm.nih.gov/" },
+    { title: "ECHA CHEM", org: "유럽화학물질청(ECHA)", kind: "조회 도구", note: "ECHA의 공개 화학물질 데이터베이스입니다. EU REACH 등록 정보, 분류·표시(C&L) 목록, 규제 목록을 영문으로 봅니다.", url: "https://chem.echa.europa.eu/" }
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
