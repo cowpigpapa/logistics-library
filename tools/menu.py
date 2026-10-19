@@ -9,7 +9,7 @@ NAV = [
     ('규정', [
         ('/library/ctu-code', 'CTU Code', '컨테이너 적재·고박 국제 규범'),
         ('/library/incoterms-2020', 'Incoterms 2020', '무역조건별 위험·비용 분기'),
-        ('/library/dangerous-goods', 'Dangerous Goods', '위험물 운송 규정과 교육'),
+        ('/library/dangerous-goods', 'Dangerous Goods', '국제·국내 위험물과 사례'),
         ('/library/eu-lithium-battery', 'EU Battery', 'EU 배터리 규정 번역·해설'),
     ]),
     ('실무', [
