@@ -1,0 +1,50 @@
+[
+ {
+  "claim": "IMDG 3.4.5.2·3.4.5.4",
+  "verdict": "wrong",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf (pdftotext -raw, paragraph numbers inline): the recognition rule is 3.4.5.3.1: \"3.4.5.3 Multimodal recognition of marks / 3.4.5.3.1 Packages containing dangerous goods bearing the mark shown in 3.4.5.2 with or without the additional labels and marks for air transport shall be deemed to meet the provisions of section 3.4.2 and need not bear the mark shown in 3.4.5.1.\" 3.4.5.4 is the overpack rule: \"3.4.5.4 When packages containing dangerous goods packed in limited quantities are placed in an overpack or in a unit load ...\". FACTS assigned the recognition sentence to 3.4.5.4 by order; the raw-order text shows it is 3.4.5.3.1.",
+  "fix": "IMDG 3.4.5.2·3.4.5.3.1"
+ },
+ {
+  "claim": "4,000kg을 넘는 동일 품명 위험물(화약류·소량 위험물 제외)",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr/법령/위험물선박운송및저장규칙 : 제33조제2항 \"4천킬로그램을 초과하는 동일 품명의 위험물(화약류와 제8조의2제1호에 정하는 위험물은 제외한다)\"; 제8조의2제1호 \"해양수산부장관이 정하는 소량의 위험물이나 극소량의 위험물로서 ...\". The exclusion also covers excepted quantities (극소량), so the draft's list is incomplete (minor).",
+  "fix": "4,000kg을 넘는 동일 품명 위험물(화약류와 소량·극소량 위험물 제외)"
+ },
+ {
+  "claim": "한 UN 번호의 포장 위험물이 총중량 4,000kg을 넘는 등의 경우",
+  "verdict": "overreach",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf : 5.3.2.1.1.2 \"packaged dangerous goods loaded in excess of 4000 kg gross mass, to which only one UN number has been assigned and which are the only dangerous goods in the cargo transport unit\". The summary line drops the 'only dangerous goods in the CTU' condition that the draft's own worked example (row 3, UN 1263 + UN 1993 mixed, no UN number) depends on; a reader of the summary alone would put a UN number on a mixed container.",
+  "fix": "한 UN 번호만 배정된 포장 위험물이 그 CTU의 유일한 위험물로서 총중량 4,000kg을 넘는 등의 경우"
+ },
+ {
+  "claim": "화학물질관리법은 단일용기에서 운송그림문자와 같은 유해성의 GHS 그림문자를 겹쳐 쓰지 않게 합니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/화학물질관리법시행규칙 : 별표 2 제3호라목2) \"용기에는 나목에 따라 표기해야 한다. 다만, 필요한 경우에는 운송그림문자와 조합하여 하나의 표시로 나타낼 수 있으며, 운송그림문자와 같은 유해성을 나타내는 그림문자는 사용하지 않아야 한다.\" The ban applies when the label is combined with the transport pictogram into one display. Section 6 of the draft states the condition correctly ('그때'); section 7 drops it.",
+  "fix": "화학물질관리법은 단일용기 표시를 운송그림문자와 조합해 하나로 만들 때 운송그림문자와 같은 유해성의 GHS 그림문자를 쓰지 않게 합니다."
+ },
+ {
+  "claim": "화주 공장 반입 전에 한글 GHS 경고표지. 국내 취급 단계의 화학물질관리법 용기 표시",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/산업안전보건법시행규칙 : 제170조제1항 단서 \"다음 각 호의 어느 하나에 해당하는 표시를 한 경우에는 경고표시를 한 것으로 본다. ... 5. 「화학물질관리법」 제16조에 따른 유해화학물질에 관한 표시\" (제5호 has no import time limit). For a drum that is both an MSDS 대상물질 and a 유해화학물질, a compliant Korean 화관법 용기 표시 is itself deemed the OSH 경고표시; the row presents them as two separate labels to add.",
+  "fix": "화주 공장 반입 전에 한글 경고표시(화학물질관리법 용기 표시를 하면 산업안전보건법 경고표시를 한 것으로 봄, 시행규칙 제170조제1항제5호). 국내 취급 단계의 화학물질관리법 용기 표시"
+ },
+ {
+  "claim": "소량(LQ) 포장물에 등급 라벨을 모두 붙이거나, 혼적 컨테이너에 LQ 마크만 붙임",
+  "verdict": "unsupported",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf : 3.4.1.2 lists what applies to LQ (\"Part 5, 5.1.1 except 5.1.1.6, 5.1.2.3, 5.2.1.7, 5.2.1.9, 5.3.2.4, and chapter 5.4\"), so hazard labels (5.2.2) are not required on LQ packages. No provision was found that forbids them, and the row's '왜 문제인가' cell only explains the container half (3.4.5.5.2). Calling labelled LQ packages a mistake has no cited basis.",
+  "fix": "일반 위험물과 혼적한 컨테이너에 LQ 마크만 붙임"
+ },
+ {
+  "claim": "DGR 제67판과 제68판의 주요 개정 안내",
+  "verdict": "unsupported",
+  "evidence": "Neither dg-marks.facts.md nor any source line lists a DGR 67 significant-changes document. The only IATA sources are the 2026 Lithium Battery Guidance Document (https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf) and the DGR 68 significant changes (https://www.iata.org/contentassets/852fbcbda9c540b893adee66e9ad81ad/dgr-68-en-significant-changes.pdf). No statement in the draft relies on a DGR 67 changes notice.",
+  "fix": "DGR 제68판의 주요 개정 안내"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "About 190 checkable claims checked; 7 problems (wrong 2, overreach 3, unsupported 2; outdated 0, unverifiable 0). Primary sources fetched again with curl and the law.go.kr DRF API on 2026-10-19 (no browser). IMO MSC.556(108) PDF (9,542,439 bytes; entry into force 1 Jan 2026 confirmed) was re-extracted with pdftotext -raw so paragraph numbers sit next to their text. This settles the order-based numbering the author flagged: 5.1.1.6 = purpose of PSN/UN number (correct); the GHS pictogram Note follows 5.1.1.2 (correct); 5.1.1.2 = 'no person may offer' (correct); 5.1.2.1 overpack/OVERPACK 12mm; 5.1.3 empty uncleaned CTU; 5.2.1.1, 5.2.1.2, 5.2.1.4, 5.2.1.6.1-.3, 5.2.1.7.1, 5.2.1.7.3, 5.2.1.10 + Note (old battery mark until 31 Dec 2026); 5.2.2.1.2 (col 3/4), 5.2.2.1.6, 5.2.2.1.7 (IBC two sides), 5.2.2.1.8 (contrast); the draft's '5.2.2.1, 5.2.2.1.6~5.2.2.1.8' is right, though FACTS swapped .7 and .8; 5.2.2.2.1.1.2, .1.1.3, .1.3, .1.5, .1.6, .1.7; specimen label colours; 5.3.1.1.1-.3, 5.3.1.1.2, 5.3.1.1.3, 5.3.1.1.4.1, 5.3.1.2.1 (250mm, 12.5mm, 25mm), 5.3.2.0, 5.3.2.1 (4000kg, 65mm, 120x300 panel, 10mm border), 5.3.2.2, 5.3.2.3, 3.4.5.1, 3.4.5.2, 3.4.5.5 (250mm), 3.5.4, 2.10.2.7, SP 375, SP 384 all match. The only mis-numbered item is the Y-mark recognition (3.4.5.3.1, not 3.4.5.4). IATA LBGD 2026 F.09 and DGR 68 significant changes ch.7 (old mark phased out but not sole basis for rejection; overpack note; battery mark on same surface as other hazard labels) match. 49 CFR 172.448(b) black on orange matches (eCFR). law.go.kr DRF: 항공위험물운송기술기준(제2023-52호) 제70조②, 제96~99조 (② 송하인·수하인, ⑦ 드라이아이스, ⑨ 환경유해물질 5L/5kg, ⑩ Overpack 12mm, ⑫, ⑭ 영어, ⑮ 2호마목 전화번호), 제100·101조 (⑦ 위치, ⑩ 자성, ⑪ 1~5호 취급 라벨, ⑫, ⑬), 제103조① (100mm, 6.2 50mm), 제106조 선언문 all match. 위험물 선박운송 및 저장규칙(제486호, 시행 2022. 5. 18.) 제6조②④, 제26조①, 제33조①~⑥ and 기준(제2026-67호) 제11조·제14조 match. 위험물안전관리법 제3조; 시행규칙(제628호) 별표 4 Ⅲ (0.3x0.6m, 흰/검, 게시판 기재사항, 주의사항 색), 별표 5 Ⅰ 제3호, 별표 19 Ⅱ 제8~13호 (주의사항 6종, 1L·150/300mL·300mL·3L), Ⅲ 제2호 and 별표 개정일 match. 소방청고시 제2017-1호 제3조①~④ and 별표 3 HWP (60x30cm 흑/황 반사, 유해화학물질 표지 상하·좌우 인접, UN 30x12cm 1cm 테두리 6.5cm, 그림문자 25x25cm 2.5cm, 186U) match. 화학물질관리법(제21531호) 제16조①②, 시행규칙 제12조①, 별표 2 (a≥50cm, 65%, 1톤 초과 12/20cm, 1톤 이하 10~20x30~80cm, 수출입 컨테이너 UN 표시, 용기 크기표, 1/40·0.5㎠, 외부용기 100mm·12/6mm, 라목) match. 산업안전보건법 제115조, 시행규칙 제170조①②, 고시 제2026-26호 제5조①~⑦, 제8조, 별표 3 (200≤V<500L 300㎠, 1/40, 0.5㎠) match. 시행령 별표 1 제2석유류 비수용성 1,000L matches. Law numbers and effective dates in the disclaimer match DRF metadata. Worked examples recomputed: 230x18=4,140 / 230x17=3,910 / mixed UN numbers means no UN number under IMDG; 200x6=1,200L, /1,000 = 1.2배; 300/40 = 7.5㎠, sqrt(7.5)=2.74cm (draft '약 2.8cm 이상' acceptable). Links: 8 law.go.kr links return 200 with matching titles; IMO, IATA x2 and eCFR return 200; data-doc targets kr-mismatch, kr-system, dg-lithium, dg-msds and kr-small exist in dg-library.js; /library/ctu-code/ch11-after exists. No contradiction found with repo dg-docs (dg-lithium: 2026-12-31 mark transition, SP 384, 제99조⑮ phone number; kr-mismatch: lubricating oil domestic 제4석유류 but internationally non-DG, lithium batteries not 위험물안전관리법 위험물; dg-msds: 고시 제5조③④; kr-system's 별표 19 RTDG remark is about container construction, not marking). No advice telling forwarders to physically inspect cargo: the forwarder checklist uses shipper photos, the packing plan and CFS/packer records, and physical checks are assigned to warehouse, CFS and truck staff. Note for the owner (not a draft error): the Korean 제33조② 4,000kg rule has no 'only dangerous goods in the container' condition, unlike IMDG 5.3.2.1.1.2; export containers may follow IMDG under 제26조①.",
+  "fix": ""
+ }
+]

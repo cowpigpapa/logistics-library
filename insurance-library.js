@@ -4,7 +4,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-insurance';
-  const DOCS_VERSION = '20261018-05';
+  const DOCS_VERSION = '20261019-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -39,6 +39,7 @@
     { id: 'ins-carrier-liability', tag: "책임", level: 3, title: "운송인 책임과 한도 — 해상·항공·도로 한도 비교와 화물값과의 차이", short: "운송인 책임과 한도", summary: "헤이그-비스비 규칙과 상법 제797조, 몬트리올 협약 26 SDR와 상법 제915조 19 SDR, CMR 8.33 SDR, 복합운송의 한도를 비교하고, 원화 계산 예시로 운송인 배상이 화물값의 몇 %인지와 가액 신고, 포워더가 운송인이 되는 경우를 정리." },
     { id: 'ins-general-average', tag: "공동해손", level: 3, title: "공동해손과 구조 — 요크-앤트워프 규칙 2016, GA 선언 시 화주가 낼 담보, 실제 사고", short: "공동해손과 구조", summary: "화물이 멀쩡해도 돈을 내야 하는 공동해손의 개념과 YAR 2016·상법 규정, GA 선언 시 맹약서·보증장·현금 공탁과 구조 담보, 보험 유무의 차이, Maersk Honam·Yantian Express 등 공개된 담보 비율." },
     { id: 'ins-claims', tag: "클레임", level: 3, title: "사고와 클레임 절차 — 발견부터 보험금·구상까지 순서, 기한, 서류", short: "사고와 클레임 절차", summary: "사고 발견 시 인수증 기재·사진·운송인 통지·보험사 연락·검정 순서, 해상·항공·도로의 통지·제소 기한 비교표, 운송 형태별 클레임 서류, 대위와 구상, 포워더가 할 수 있는 일과 하지 않는 일." },
+    { id: 'ins-container-loss', checked: '2026-10-19', tag: "유실", level: 2, title: "컨테이너 유실 사고 — 본선에서 컨테이너가 바다에 떨어졌을 때", short: "컨테이너 유실 사고", summary: "해상 운송 중 컨테이너가 바다에 떨어졌을 때 화주·포워더·보험 담당이 할 일을 정리합니다. WSC 통계와 TopTier가 밝힌 원인, 2026년 SOLAS 유실 보고 의무, 운송인 면책·한도·1년 기한, ICC (A)(B)(C)의 담보 차이를 다룹니다." },
     { id: 'ins-cases', tag: "판례", level: 2, title: "소송·보험금 분쟁 사례 — 한국 대법원과 해외 판례, 온도유지 화물 분쟁", short: "소송·보험금 분쟁 사례", summary: "영국법 준거약관, 보험기간 종료, 포장당 책임제한, 포워더의 운송인 지위, 고유 하자·포장 불충분·제재 면책, 냉동 컨테이너 온도 오설정까지 14개 사례의 사실관계·결론·실무 교훈." },
     { id: 'ins-forwarder', tag: "포워더", level: 3, title: "포워더와 보험 — 배상책임보험, House B/L 책임, 보험업법", short: "포워더와 보험", summary: "포워더가 운송주선인이 아니라 운송인으로 책임지는 경우, 포워더 배상책임보험과 적하보험의 차이, 국제물류주선업 등록의 보증보험·화물배상책임보험 요건, 화주 보험을 들어 주는 행위와 보험업법상 모집 규제를 다룹니다." }
   ];
@@ -53,7 +54,7 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "기본", sub: "적하보험 기초 · ICC 약관 · 가입이 어려운 화물", docs: ["ins-basics", "ins-icc", "ins-uninsurable"] },
-    { title: "책임과 사고", sub: "운송인 책임 한도 · 공동해손 · 클레임 절차", docs: ["ins-carrier-liability", "ins-general-average", "ins-claims"] },
+    { title: "책임과 사고", sub: "운송인 책임 한도 · 공동해손 · 클레임 절차", docs: ["ins-carrier-liability", "ins-general-average", "ins-claims", "ins-container-loss"] },
     { title: "사례와 실무", sub: "소송·분쟁 사례 · 포워더와 보험", docs: ["ins-cases", "ins-forwarder"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
@@ -158,7 +159,7 @@
   }
   async function renderDoc(view, doc) {
     const head = `<nav class="lib-crumb"><a href="${home}">← Cargo Insurance · 화물보험</a></nav>`;
-    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${CHECKED} · 보험 약관과 법령은 개정될 수 있으니 실제 계약은 최신 증권과 법령을 확인하세요.</p>`;
+    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${doc.checked || CHECKED} · 보험 약관과 법령은 개정될 수 있으니 실제 계약은 최신 증권과 법령을 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
     try {

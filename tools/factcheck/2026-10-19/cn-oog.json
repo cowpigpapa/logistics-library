@@ -1,0 +1,56 @@
+[
+ {
+  "claim": "신청은 출발지를 관할하는 도로관리청에 하고, 경로가 둘 이상의 도로관리청을 지나면 접수한 관리청이 경로상 모든 관리청과 협의합니다(같은 규정 제10조 제1항).",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/행정규칙/차량의운행제한규정 (DRF: https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000273590&type=XML, 국토교통부훈령 제1924호) — 제10조 제1항 제1호는 '출발지 관할'을 정하지 않고 \"운행하고자 하는 경로가 관할 구역 내 도로구간을 통과하는 경우에 한하여 운행허가 신청을 접수하며\"라고만 함. 제2호: \"2개 이상의 도로관리청을 경유하는 경우에는 경로 상의 모든 도로관리청과 협의할 것\". '출발지'는 같은 항 제3호의 경찰서장 협의에만 나옴(\"출발지를 관할하는 경찰서장과 협의할 것\"). ospermit.go.kr 서비스 소개(https://www.ospermit.go.kr/Introduction/Info/Info_01.jsp)는 예전 방식을 \"신청자가 출발지의 도로관리청을 방문하여 운행허가를 신청\"이라고 설명할 뿐, 규정상 의무가 아님.",
+  "fix": "신청은 운행 경로가 지나는 구간을 관할하는 도로관리청에 하고(실무에서는 출발지 관할 관리청에 내는 경우가 많습니다), 경로가 둘 이상의 도로관리청을 지나면 접수한 관리청이 경로상 모든 관리청과 협의합니다(같은 규정 제10조 제1항 제1호·제2호)."
+ },
+ {
+  "claim": "위 기한은 「차량의 운행제한 규정」 제29조 제2항이고, 신청서 서식의 처리기간 칸에는 10일로 적혀 있습니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/행정규칙/차량의운행제한규정 (DRF: https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000273590&type=XML, 국토교통부훈령 제1924호) — 제3조 제1항: \"이 규정은 … 차량의 운행제한 및 운행허가에 관한 업무를 수행하는 국토교통부와 그 소속기관(지방국토관리청 및 국토관리사무소를 말한다), 한국도로공사에 적용한다.\" 훈령이라 국도·고속도로 관리기관에 적용되며, 시·도·시·군 도로관리청(예: 서울시, https://news.seoul.go.kr/safe/archives/296 는 자체 '서울시 인터넷 제한차량 운행허가시스템' 운영)이 5·10·25일 기한에 묶인다는 근거는 없음. 본문(핵심 3줄 ③ 포함)은 이 기한을 모든 도로관리청에 통하는 것처럼 씀.",
+  "fix": "위 기한은 「차량의 운행제한 규정」 제29조 제2항이고, 신청서 서식의 처리기간 칸에는 10일로 적혀 있습니다. 이 훈령은 국토교통부·지방국토관리청·국토관리사무소와 한국도로공사에 적용되므로, 지방자치단체가 관리하는 도로가 경로에 있으면 해당 관리청의 처리 기간을 운송사를 통해 따로 확인합니다."
+ },
+ {
+  "claim": "6축 이상 차량이면 총중량 기준표 이내(축하중 기준도 맞으면 처리 기한 5일 또는 10일)",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/행정규칙/차량의운행제한규정 (DRF: https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000273590&type=XML, 국토교통부훈령 제1924호) — 제29조 제2항 제1호의 5일은 \"운행허가 신청경로가 타 기관과의 협의가 불필요한 경우\"에만, 제2호의 10일은 \"타 기관(타 도로관리청, 경찰관청 등)과의 협의가 필요한 경우\". 제10조 제1항 제3호: \"「도로교통법」 제14조제3항에서 정한 차로의 너비 또는 같은 법 제39조제1항에서 정한 안전기준을 초과하는 경우에는 출발지를 관할하는 경찰서장과 협의할 것\". 도로법 제77조 제5항(https://www.law.go.kr/법령/도로법): \"운행허가를 하려면 미리 출발지를 관할하는 경찰서장과 협의한 후\". 예시 차량은 ⑤에서 h+3,551mm라 실제 샤시 높이로는 도로교통법 시행령 제22조 제4호 다목의 높이 4m를 넘고, 공장~부두 경로는 보통 여러 도로관리청을 지나므로 5일 기한을 제시할 근거가 약함.",
+  "fix": "6축 이상 차량이면 총중량 기준표 이내(축하중 기준도 맞으면 처리 기한 10일. 높이가 4m를 넘어 출발지 경찰서장 협의가 필요하므로 협의 불필요 경로의 5일 기한은 기대하기 어려움)"
+ },
+ {
+  "claim": "https://cargohandlinginstruction.walleniuswilhelmsen.com/cargo-operations/cargo-securing-instructions/rule-of-thumb",
+  "verdict": "unsupported",
+  "evidence": "링크된 페이지(https://cargohandlinginstruction.walleniuswilhelmsen.com/cargo-operations/cargo-securing-instructions/rule-of-thumb)는 \"Rule of thumb for cargo above 10 MT … The total MSL values of the securing devices on each side … should be equal or exceed the weight of the unit\"만 다루고, 본문 2절 RoRo 행이 인용한 롤 트레일러 지침은 없음. 해당 내용은 다른 페이지에 있음: https://cargohandlinginstruction.walleniuswilhelmsen.com/cargo-operations/cargo-securing-instructions/securing-of-bolsters-and-roll-trailers/roll-trailers-2 — \"Cargo wider than a roll trailer should be supported by a vertical timber placed between the lift's support timber and the vessel's deck to prevent tipping.\" / \"Always ensure that trailers and cargo are secured against tipping and sliding.\"",
+  "fix": "https://cargohandlinginstruction.walleniuswilhelmsen.com/cargo-operations/cargo-securing-instructions/securing-of-bolsters-and-roll-trailers/roll-trailers-2"
+ },
+ {
+  "claim": "사업주는 중량물 취급 작업을 할 때 사전조사를 하고 추락·낙하·전도·협착·붕괴 위험 예방대책을 담은 작업계획서를 작성해 그에 따라 작업해야 하며",
+  "verdict": "overreach",
+  "evidence": "https://www.law.go.kr/법령/산업안전보건기준에관한규칙 (DRF MST 273603) — 제38조 제1항: \"별표 4에 따라 해당 작업 … 에 대한 사전조사를 하고 … 별표 4의 구분에 따른 사항을 포함한 작업계획서를 작성\". 별표 4 표의 '11. 중량물의 취급 작업' 행은 '사전조사 내용' 칸이 \"-\"이고, '작업계획서 내용' 칸만 \"가. 추락위험을 예방할 수 있는 안전대책 나. 낙하위험을 … 마. 붕괴위험을 예방할 수 있는 안전대책\"을 둠. 중량물 작업에 대해 사전조사 항목은 따로 정해져 있지 않음.",
+  "fix": "사업주는 중량물 취급 작업을 할 때 추락·낙하·전도·협착·붕괴 위험 예방대책을 담은 작업계획서를 작성해 그에 따라 작업해야 하며"
+ },
+ {
+  "claim": "선사·터미널 승인(Maersk 필리핀 공지는 실제 사진과 도면, 들어 올리는 위치 표시 사진을 요구)",
+  "verdict": "overreach",
+  "evidence": "https://www.maersk.com/news/articles/2020/06/02/out-of-gauge-and-break-bulk-cargos-acceptance — Requirements for Acceptance: \"Actual Pictures and Diagrams of the Cargo\" (필수) / \"Actual Pictures of the Cargo with indicated lifting points (if available)\". 들어 올리는 위치 사진은 '있으면' 내는 항목이고, 이 공지는 필리핀 수출입 화물에 한정됨.",
+  "fix": "선사·터미널 승인(Maersk 필리핀 공지는 실제 사진과 도면을 요구하고, 들어 올리는 위치를 표시한 사진은 있으면 내도록 함)"
+ },
+ {
+  "claim": "플랫랙 자중은 <a data-doc=\"cn-dimensions\">주요 컨테이너 치수</a>의 Maersk 40ft 플랫랙 공개 사양(5,200kg)을 썼고",
+  "verdict": "overreach",
+  "evidence": "D:/Desktop/AI Project/LogisticsLibrary/cn-docs/cn-dimensions.html — 표: \"40FR Maersk 11,652 × 2,374 × 2,260 — 47,300 5,200\", 주석: \"Maersk 오픈탑·40ft 플랫랙은 하이큐브 사양입니다.\" Maersk Special Cargo(https://www.maersk.com/solutions/special-cargo)의 사양 선택 목록도 \"40' High - Flat Rack Collapsible\"만 있음. 즉 5,200kg은 하이큐브 접이식 플랫랙 값인데, 계산 ③·④는 일반 높이 플랫랙(in-gauge 1,940mm, 외부 높이 2,591mm)을 기준으로 해 장비가 섞여 있음. (같은 사이트 문서는 최대 적재 47,300kg으로 적어, 1절 주석의 34,500/47,000kg과도 숫자가 다름.)",
+  "fix": "플랫랙 자중은 <a data-doc=\"cn-dimensions\">주요 컨테이너 치수</a>의 Maersk 40ft 플랫랙 공개 사양(하이큐브 접이식 플랫랙 5,200kg. 일반 높이 플랫랙의 자중은 다를 수 있음)을 썼고"
+ },
+ {
+  "claim": "CTU Code 부속서 7이나 CSS Code 부속서 13의 정밀 방법으로 확인하고",
+  "verdict": "overreach",
+  "evidence": "MSC.1/Circ.1623 Annex 13 §1.1 (https://www.liscr.com/sites/default/files/MSC.1-Circ.1623.pdf): \"The methods described in this annex should be applied to semi-standardized and non-standardized cargo … Standardized stowage and securing systems, in particular containers on containerships, are excluded.\" 플랫랙 위에 화물을 고정하는 일은 CTU 적입이라 CTU Code 부속서 7(https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf, §4.2.8 등)이 맞는 기준이고, CSS 부속서 13 정밀 방법은 재래선·플랫랙 베드처럼 선박에 직접 고정하는 화물에 맞음. (어림 규칙은 Maersk 고박 가이드가 플랫랙에도 쓰라고 안내하므로 가늠용으로는 쓸 수 있음.)",
+  "fix": "플랫랙·플랫폼 위 고정은 CTU Code 부속서 7로, 재래선이나 플랫랙 베드처럼 선박에 직접 고정하는 화물은 CSS Code 부속서 13의 정밀 방법으로 확인하고"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "law.go.kr DRF로 2026-10-19 현행본을 직접 받아 확인함: 도로법(MST 284465), 시행령(288871), 시행규칙(289835, 별지 제37호서식 '처리기간 10일' 포함), 도로교통법(291133)·시행령(290387)·시행규칙(289009), 산업안전보건기준에 관한 규칙(273603), 항만운송사업법(285943)·시행령(290543), 차량의 운행제한 규정(admrul 2100000273590, 훈령 제1924호, 2026. 1. 30.), 운임공표 고시(admrul 2100000225094, 제2023-96호). curl로 받아 확인: Maersk Special Cargo·OOG 페이지·고박 가이드 PDF·필리핀 공지, Swire 플랫랙 공지(2023. 9. 30.), Wallenius Wilhelmsen 두 페이지, HJNC 표준요율 PDF(2026. 4. 1.), CTU Code 1497 PDF, MSC.1/Circ.1623, SOLAS VI(TT Club), ospermit, 서울시 안내. 맞다고 확인한 것: 제77조 제1·3·5항, 제114조 제8호, 시행령 제79조 제2·4항, 시행규칙 제40조 제1~3항, 훈령 제8조 제1·3항, 제9조 제1~3항, 제10조 제2항 제4·5·8·9호와 제3항, 제29조 제1·2항, 별표 2(5축 45,200kg / 6축 48,000kg, 13~14m), 별표 3(500mm), 도로교통법 제14조 제3·4항, 제39조 제1·2항, 시행령 제22·23조, 시행규칙 제26조 제3항, 산안규칙 제39조·제163조, 항만운송사업법 제2조 제1항 제15·16호, 시행령 제2조 제1호 다목, 고시 제9조 제1항 제1호, CTU Code 인용 항(§4.2.2·4.2.4·6.2.10·6.2.11·7.2.5~7.2.7·11.3.4, 부속서 2 §3.3.1·§4.2, 부속서 7 §1.11·1.12·3.1.1~3.1.5·4.2.8, 부록 1 표시), CSS 부속서 13 §4.2·4.4·4.7·5.1~5.3, 부록 §5.2·5.3, SOLAS VI/2, Maersk in-gauge 표(1,163/244/194·226, 220cm 이하면 1,190cm, 34,500 vs 47,000*), 오신고 사유·MID·터미널 거부, 고박 가이드 수치(2.0m 32.5t~9.0m 47.2t, 래싱 아이 5,000kg, 30cm, 매듭 50%), Swire 수치(2,438 / 5,618 / 11,652mm, 2.5배, 고박 증명서), HJNC 항목. 계산(560/280, 2,900, 960/640, 651, 3,551/449, 47.2t, 80→50kN, 6/12, 10/20, 14줄, 0.6m)은 모두 맞음. 내부 링크 11개 모두 존재. 할증 금액은 없고(MID USD 500, HJNC 비율도 빠짐), 요율 예시도 없으며 예시값은 '만든 예시'·'가정'으로 표시됨. 포워더에게 화물을 직접 점검하라는 문장 없음('포워더는 화물을 직접 재지 않고'). cn-dimensions·cn-codes(U, P0/P1/P3, 8ft 6in=2,591mm), ctu-library.js kr-road(10t/40t/2.5/4.0(4.2)/16.7m, 트랙터 9t, 40ft 샤시 5t), rk-truck(도로교통법 제39조·시행령 제22조)과 모순 없음. 하나만 걸림: 5,200kg 자중이 하이큐브 플랫랙 값임(위 항목). 참고: 계산 ⑤의 h ≤ 449mm는 실제 컨테이너 샤시로는 맞추기 어려워 '저상 트레일러로 해결'처럼 읽힐 수 있음. 1차 자료가 없어 항목으로 넣지 않음.",
+  "fix": "문제 8건: overreach 7건, unsupported 1건(링크 불일치). wrong·outdated는 없음. 핵심 문제는 훈령의 적용 범위(국토부·도로공사)와 처리 기한을 넓게 쓴 것, 신청처를 '출발지 관할'로 단정한 것, 예시의 5일 기한, Wallenius Wilhelmsen 링크 오류."
+ }
+]

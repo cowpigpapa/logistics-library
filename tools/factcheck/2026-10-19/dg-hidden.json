@@ -1,0 +1,122 @@
+[
+ {
+  "claim": "IATA·ICAO가 공개한 일반 품명 목록",
+  "verdict": "overreach",
+  "evidence": "https://www.angliacargo.co.uk/uploads/IATA-DGR-56-Subsection-2.2.pdf — footer on every page: \"1 Extracted with permission from the 56th edition of the IATA Dangerous Goods Regulations (DGR) / Copyright (c) International Air Transport Association (IATA) 2015. Used by permission. All rights reserved. Provided to Anglia Cargo International Ltd\". The permission was given to Anglia Cargo for its own use (the PDF ends with Anglia's own customer disclaimer form); it is not an IATA public release. / https://www.utikad.org.tr/images/Mevzuat/icaotechnicalinstructionsforthesafetransportofdangerousgoodsbyair-9608.pdf — title page: \"Doc 9284 ... Technical Instructions for the Safe Transport of Dangerous Goods by Air ... 2015-2016 Edition\"; imprint: \"(c) ICAO 2014 All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, without prior permission in writing from the International Civil Aviation Organization.\" Hosted by UTIKAD (Turkish forwarders' association), not ICAO. Neither IATA nor ICAO published these lists openly; both sit in paid publications.",
+  "fix": "IATA DGR·ICAO 기술지침의 일반 품명 목록"
+ },
+ {
+  "claim": "일반 품명 목록은 IATA가 허락해 공개된 DGR 제56판(2015) 2.2 발췌와 ICAO 기술지침 2015-2016판 Part 7 원문에서 옮겼습니다",
+  "verdict": "overreach",
+  "evidence": "https://www.angliacargo.co.uk/uploads/IATA-DGR-56-Subsection-2.2.pdf — footer on every page: \"1 Extracted with permission from the 56th edition of the IATA Dangerous Goods Regulations (DGR) / Copyright (c) International Air Transport Association (IATA) 2015. Used by permission. All rights reserved. Provided to Anglia Cargo International Ltd\". The permission was given to Anglia Cargo for its own use (the PDF ends with Anglia's own customer disclaimer form); it is not an IATA public release. / https://www.utikad.org.tr/images/Mevzuat/icaotechnicalinstructionsforthesafetransportofdangerousgoodsbyair-9608.pdf — title page: \"Doc 9284 ... Technical Instructions for the Safe Transport of Dangerous Goods by Air ... 2015-2016 Edition\"; imprint: \"(c) ICAO 2014 All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, without prior permission in writing from the International Civil Aviation Organization.\" Hosted by UTIKAD (Turkish forwarders' association), not ICAO.",
+  "fix": "일반 품명 목록은 IATA DGR 제56판(2015) 2.2와 ICAO 기술지침 2015-2016판 Part 7에서 옮겼습니다"
+ },
+ {
+  "claim": "IATA Dangerous Goods Regulations 56th Edition Subsection 2.2 Hidden Dangerous Goods(IATA 허락 발췌, 2015) — <a href=\"https://www.angliacargo.co.uk/uploads/IATA-DGR-56-Subsection-2.2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Anglia Cargo 게시본</a>",
+  "verdict": "overreach",
+  "evidence": "Copyright/source rule: links to third-party hosted copies of paid IATA/ICAO texts must not be published. https://www.angliacargo.co.uk/uploads/IATA-DGR-56-Subsection-2.2.pdf — footer on every page: \"1 Extracted with permission from the 56th edition of the IATA Dangerous Goods Regulations (DGR) / Copyright (c) International Air Transport Association (IATA) 2015. Used by permission. All rights reserved. Provided to Anglia Cargo International Ltd\". The permission was given to Anglia Cargo for its own use (the PDF ends with Anglia's own customer disclaimer form); it is not an IATA public release.",
+  "fix": "IATA Dangerous Goods Regulations 56th Edition(2015) Subsection 2.2 Hidden Dangerous Goods"
+ },
+ {
+  "claim": "ICAO Doc 9284 Technical Instructions 2015-2016 Edition Part 7 Chapter 1·6 — <a href=\"https://www.utikad.org.tr/images/Mevzuat/icaotechnicalinstructionsforthesafetransportofdangerousgoodsbyair-9608.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">UTIKAD 게시본</a>",
+  "verdict": "overreach",
+  "evidence": "Copyright/source rule: links to third-party hosted copies of paid IATA/ICAO texts must not be published. https://www.utikad.org.tr/images/Mevzuat/icaotechnicalinstructionsforthesafetransportofdangerousgoodsbyair-9608.pdf — title page: \"Doc 9284 ... Technical Instructions for the Safe Transport of Dangerous Goods by Air ... 2015-2016 Edition\"; imprint: \"(c) ICAO 2014 All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, without prior permission in writing from the International Civil Aviation Organization.\" Hosted by UTIKAD (Turkish forwarders' association), not ICAO. (If the fixes below that cite Part 1;7 and Part 5;4.4 are applied, name those parts too.)",
+  "fix": "ICAO Doc 9284 Technical Instructions for the Safe Transport of Dangerous Goods by Air, 2015-2016 Edition, Part 1 Chapter 7, Part 5 Chapter 4, Part 7 Chapter 1·4·6"
+ },
+ {
+  "claim": "IATA DGR 2.2는 \"일반 품명으로",
+  "verdict": "unverifiable",
+  "evidence": "https://www.angliacargo.co.uk/uploads/IATA-DGR-56-Subsection-2.2.pdf — the quoted sentence is 56th-edition (2015) 2.2.2: \"Cargo declared under a general description may contain hazardous articles that are not apparent.\" The current 67th edition was not seen (paid), and the sentence is given here in the present tense with no edition. Elsewhere the draft labels the same source \"(제56판)\".",
+  "fix": "IATA DGR 제56판(2015) 2.2.2는 \"일반 품명으로"
+ },
+ {
+  "claim": "ICAO 기술지침도 Part 7 제1장에서",
+  "verdict": "unverifiable",
+  "evidence": "https://www.utikad.org.tr/images/Mevzuat/icaotechnicalinstructionsforthesafetransportofdangerousgoodsbyair-9608.pdf — 2015-2016 Edition 7;1.1.1 \"Operators' acceptance staff must be adequately trained to assist them in identifying and detecting dangerous goods presented as general cargo\"; 7;1.1.2 \"Many innocuous-looking items may contain dangerous goods\". The current 2025-2026 edition was not seen; no edition is named here, unlike the section 2 table.",
+  "fix": "ICAO 기술지침 2015-2016판도 Part 7 제1장에서"
+ },
+ {
+  "claim": "<td>ICAO 기술지침 Part 7 6.1의 \"위험물이 있다는 다른 표시(라벨·표시)\"</td>",
+  "verdict": "unverifiable",
+  "evidence": "https://www.utikad.org.tr/images/Mevzuat/icaotechnicalinstructionsforthesafetransportofdangerousgoodsbyair-9608.pdf — 2015-2016 Edition 7;6.1 \"b) other indications that dangerous goods may be present (e.g. labels, markings)\". Current edition not seen; edition label missing in this cell.",
+  "fix": "<td>ICAO 기술지침 2015-2016판 Part 7 6.1의 \"위험물이 있다는 다른 표시(라벨·표시)\"</td>"
+ },
+ {
+  "claim": "<td>숯을 다른 품명으로, 차아염소산칼슘을 염화칼슘으로 신고</td>",
+  "verdict": "wrong",
+  "evidence": "Internal contradiction: the same row defines 오신고 위험물 as \"위험물로 신고는 했지만 정식운송품명(PSN)·UN 번호·급·수량이 실제와 다른 화물\". Charcoal offered as \"Coconut shell\"/\"Hardwood\" and calcium hypochlorite offered as calcium chloride (not regulated as DG) are not declared as DG at all, so they fit the draft's 미신고 row. https://www.cinsnet.com/wp-content/uploads/2018/01/Calcium-Hypochlorite-Guidelines-CINS-IGPI-Version-3-January-2018.pdf 1.3: \"calcium hypochlorite may be mis-declared as calcium chloride\". Examples that do fit the definition: https://www.cinsnet.com/wp-content/uploads/2024/09/CINS-Charcoal-Guidance-Final-Version-September-2024.pdf p.6 \"carbonised material being transported in order to be manufactured into UN 1362 CARBON, ACTIVATED may be misdeclared as though it has already completed the industrial process\"; https://www.cinsnet.com/wp-content/uploads/2026/09/CINS-Recommendation-Paper-IMDG-SP188-Lithium-Ion-Batteries.pdf p.4 \"mismatch between declared and actual battery chemistry/specifications\".",
+  "fix": "<td>활성탄 원료 탄화물을 이미 활성화를 마친 활성탄(UN 1362)으로 신고, 신고한 배터리의 화학 종류·사양이 실물과 다름</td>"
+ },
+ {
+  "claim": "③ 일반 포장물에 위험물 표찰·표기가 있으면 위험물이 없다는 확인 뒤 제거하고 접수·보관·탑재",
+  "verdict": "overreach",
+  "evidence": "http://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000218446&type=XML (항공위험물운송기술기준, 국토교통부고시 제2023-52호, 현행) — 제174조③ \"항공운송사업자는 일반화물 접수, 보관 및 항공기 탑재시 위험물 표찰 또는 표기 등이 있을 경우 이를 반드시 제거하여 일반 포장물에 위험물이 포함되어 있지 않다는 확인 후에 접수, 보관 및 항공기에 탑재하여 운송하여야 한다.\" \"확인 후에\" governs acceptance/storage/loading, not removal; the draft reorders the steps.",
+  "fix": "③ 일반 화물의 접수·보관·탑재 때 위험물 표찰·표기가 있으면 반드시 제거하고, 위험물이 없다는 확인 뒤에 접수·보관·탑재"
+ },
+ {
+  "claim": "항공은 위험물이 없다는 확인 뒤에 표찰을 제거하도록 정함",
+  "verdict": "overreach",
+  "evidence": "http://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000218446&type=XML (항공위험물운송기술기준, 국토교통부고시 제2023-52호, 현행) — 제174조③ \"위험물 표찰 또는 표기 등이 있을 경우 이를 반드시 제거하여 일반 포장물에 위험물이 포함되어 있지 않다는 확인 후에 접수, 보관 및 항공기에 탑재\". The text requires removal plus confirmation before acceptance; it does not say \"confirm, then remove\". The practical advice that warehouse staff should not peel labels on their own still stands.",
+  "fix": "항공은 일반 화물에 남은 위험물 표찰을 반드시 제거하고 위험물이 없다는 확인 뒤에 접수·탑재하도록 정함"
+ },
+ {
+  "claim": "제조사·수입사·유통사는 대개 갖고 있음",
+  "verdict": "overreach",
+  "evidence": "http://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288347&type=XML (산업안전보건법 시행령, 시행 2026. 8. 1.) — 제86조(물질안전보건자료의 작성ㆍ제출 제외 대상 화학물질 등): \"2. 「농약관리법」…농약 … 8. 「식품위생법」…식품 및 식품첨가물 9. 「약사법」…의약품 및 의약외품 … 13. …화약류 … 15. 「화장품법」…화장품 16. …일반소비자의 생활용으로 제공되는 것\". Several hidden-DG groups in this draft (perfume/cosmetics HS 3303-3307, pharmaceuticals, consumer aerosols, fireworks) are outside the 산안법 MSDS duty, so \"대개 갖고 있음\" does not hold for them.",
+  "fix": "제조사·수입사·유통사는 대개 갖고 있음. 다만 화장품·의약품·의약외품·농약·식품·화약류와 일반 소비자 생활용 화학제품은 MSDS 작성 대상에서 빠지므로(같은 법 시행령 제86조) 운송용 SDS나 제조사 분류 자료를 따로 요청"
+ },
+ {
+  "claim": "수입이면 무역항 반입 신고자에 대한 위험물 통지(선박입출항법 제32조제4항)가 따라옵니다",
+  "verdict": "wrong",
+  "evidence": "http://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285971&type=XML (선박입출항법, 법률 제21638호, 시행 2026. 5. 12.) — 제32조④ \"다음 각 호에 해당하는 자는 제1항에 따라 신고를 하려는 자에게 … 위험물을 통지하여야 한다. … 2. 「물류정책기본법」 제43조에 따라 국제물류주선업을 등록한 자 … 4. 「관세법」 제241조제1항에 따른 수출ㆍ수입 신고 대상 물품의 화주\". http://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=266487&type=XML (같은 법 시행규칙, 해양수산부령 제703호, 시행 2024. 11. 13.) — 제15조① \"위험물을 육상으로 반입하는 경우에는 무역항의 육상구역으로 위험물을 들여오기 전까지 … 위험물 반입신고서 등을 제출할 수 있다\" (export cargo trucked into the port is also 반입). The duty is not limited to imports.",
+  "fix": "무역항 위험물 반입 신고자에 대한 위험물 통지(선박입출항법 제32조제4항, 수출·수입 모두)가 따라옵니다"
+ },
+ {
+  "claim": "수입 위험물은 반입 신고자에게 위험물을 통지한다.",
+  "verdict": "wrong",
+  "evidence": "http://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285971&type=XML (선박입출항법, 법률 제21638호, 시행 2026. 5. 12.) — 제32조④4호 \"「관세법」 제241조제1항에 따른 수출ㆍ수입 신고 대상 물품의 화주\"; http://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=266487&type=XML (같은 법 시행규칙, 해양수산부령 제703호, 시행 2024. 11. 13.) 제15조① covers DG brought into the port by land. Not import-only.",
+  "fix": "수출·수입 위험물 모두 무역항 반입 신고자에게 위험물을 통지한다."
+ },
+ {
+  "claim": "IMDG Code 5.4.6.1은 해상 위험물 운송서류를 송하인과 운송인이 최소 3개월 보관하도록 정한다",
+  "verdict": "overreach",
+  "evidence": "The worked example is an air booking (\"항공 요청\", DGD, 항공사), but the only retention rule cited is the sea rule. https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 5.4.6.1 \"The consignor and the carrier shall retain a copy of the dangerous goods transport document … for a minimum period of three months.\" https://www.utikad.org.tr/images/Mevzuat/icaotechnicalinstructionsforthesafetransportofdangerousgoodsbyair-9608.pdf 2015-2016 Edition 5;4.4.1 \"The shipper must retain a copy of the dangerous goods transport document and additional information and documentation as specified in these Instructions, for a minimum period of three months.\"",
+  "fix": "항공은 ICAO 기술지침(2015-2016판 5;4.4.1)이 화주에게, 해상은 IMDG Code 5.4.6.1이 송하인과 운송인에게 위험물 운송서류를 최소 3개월 보관하도록 정한다"
+ },
+ {
+  "claim": "보세구역이면 운영인이 세관장에게 보고합니다(위험물이면 「보세화물관리에 관한 고시」 제5조제4항, 품명·포장 이상이면 같은 조 제2항의 반입물품 이상보고서).",
+  "verdict": "overreach",
+  "evidence": "http://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000275032&type=XML (보세화물관리에 관한 고시, 관세청고시 제2026-12호, 현행) — 제5조④ \"위험물 장치허가를 받지 아니한 운영인등은 화물 반입시에 위험물 인지를 확인하여야 하며, 위험물을 발견하였을 때에는 즉시 세관장에게 보고하여야 한다.\" The immediate DG report applies only to operators without a DG storage permit (the draft says so correctly in sections 5 and 6, but not here). 제5조② covers \"반입예정 정보와 품명ㆍ수량이 상이하거나 … 포장파손, 누출, 오염 등\".",
+  "fix": "보세구역이면 운영인이 세관장에게 보고합니다(위험물 장치허가가 없는 운영인이 위험물을 발견하면 「보세화물관리에 관한 고시」 제5조제4항, 품명·수량이 다르거나 포장파손·누출 등 이상이면 같은 조 제2항의 반입물품 이상보고서)."
+ },
+ {
+  "claim": "보세구역이면 위험물은 즉시 세관장에게 보고하고",
+  "verdict": "overreach",
+  "evidence": "http://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000275032&type=XML (보세화물관리에 관한 고시, 관세청고시 제2026-12호, 현행) — 제5조④ applies to \"위험물 장치허가를 받지 아니한 운영인등\".",
+  "fix": "위험물 장치허가가 없는 보세구역이면 위험물은 즉시 세관장에게 보고하고"
+ },
+ {
+  "claim": "<td>포워더는 IATA 기능 7.2의 \"미신고·오신고 위험물 보고\" 과업, 사내 절차</td>",
+  "verdict": "overreach",
+  "evidence": "The row presents forwarder reporting as only an IATA training task plus in-house practice. https://www.utikad.org.tr/images/Mevzuat/icaotechnicalinstructionsforthesafetransportofdangerousgoodsbyair-9608.pdf 2015-2016 Edition Part 1 Chapter 7: \"Entities other than operators who discover undeclared or misdeclared dangerous goods should follow the reporting requirements of Part 7;4.5. These entities may include, but are not limited to, freight forwarders, customs authorities and security screening providers.\" 7;4.5: \"An operator must report any occasion when undeclared or misdeclared dangerous goods are discovered in cargo or mail.\" (Korean statutory duty under 제202조 is indeed on 항공운송사업자 only: http://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000218446&type=XML (항공위험물운송기술기준, 국토교통부고시 제2023-52호, 현행) 제202조①.)",
+  "fix": "<td>ICAO 기술지침(2015-2016판 Part 1 제7장)은 운항사가 아닌 포워더도 미신고·오신고 위험물을 발견하면 Part 7;4.5의 보고 요건을 따르도록 권고. IATA 기능 7.2의 \"미신고·오신고 위험물 보고\" 과업, 사내 절차</td>"
+ },
+ {
+  "claim": "화물 검색만으로는 부족하며 화주 신고 단계부터 화물이 보여야 한다고 결론지었습니다",
+  "verdict": "overreach",
+  "evidence": "https://www.cinsnet.com/wp-content/uploads/2026/09/CINS-Recommendation-Paper-IMDG-SP188-Lithium-Ion-Batteries.pdf — \"Screening alone is not enough. Visibility should start at shipper declaration stage.\" is the \"Required implication\" cell for the misdeclaration row of the evidence table (p.4), not the paper's conclusion. The paper's recommended position (p.3) is SP188 reform: \"requiring a mandatory dangerous goods declaration for all lithium-ion batteries\" and \"the total gross battery mass per CTU should be capped at 20 kg gross mass\".",
+  "fix": "\"화물 검색만으로는 부족하며 화주 신고 단계부터 화물이 보여야 한다\"고 적고, SP188로 운송하는 리튬이온 배터리도 위험물 신고를 의무화하거나 컨테이너당 총 20kg으로 제한하자고 권고했습니다"
+ },
+ {
+  "claim": "알코올 함량, 에어로졸 여부(<a data-doc=\"kr-mismatch\">국제·국내 불일치 사례</a> 10번)",
+  "verdict": "wrong",
+  "evidence": "D:/Desktop/AI Project/LogisticsLibrary/dg-docs/kr-mismatch.html — headings \"<h4>10. 향수·화장품, 의약품, 손소독제\" and \"<h4>13. 에어로졸·스프레이, 소화기\". Aerosols are item 13, not 10.",
+  "fix": "알코올 함량, 에어로졸 여부(<a data-doc=\"kr-mismatch\">국제·국내 불일치 사례</a> 10번·13번)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "19 problems: 4 wrong, 0 outdated, 12 overreach, 0 unsupported, 3 unverifiable. Key issues: (1) Copyright/source rule: the source line links to two third-party copies of paid texts, the Anglia Cargo-hosted IATA DGR 56 2.2 extract (IATA permission 'Provided to Anglia Cargo International Ltd') and the UTIKAD-hosted ICAO Doc 9284 2015-2016 (ICAO 'All rights reserved'). Remove both links and cite by name and edition only. The intro ('IATA·ICAO가 공개한') and disclaimer ('IATA가 허락해 공개된') also overstate their status. (2) Edition labels: section 1 quotes DGR 2.2 and ICAO TI Part 7 in the present tense with no edition, and the warehouse table cites 'ICAO 7 6.1' unlabeled. Elsewhere the draft labels them 56th / 2015-2016 correctly; current DGR 67 / TI 2025-2026 were not checked. (3) 선박입출항법 제32조④ notification is written as import-only ('수입이면', '수입 위험물은'). The article covers 수출·수입 신고 대상 물품의 화주, and 시행규칙 제15조① covers DG brought into the port by land. (4) The 오신고 examples (charcoal under other names, Ca hypochlorite as calcium chloride) contradict the table's own definition ('위험물로 신고는 했지만'); they are 미신고 by that definition. (5) 제174조③ is reworded as 'confirm, then remove labels'. The text says remove labels, then accept/store/load only after confirming there is no DG. (6) The MSDS line skips 산안법 시행령 제86조 exemptions (cosmetics, pharmaceuticals, consumer chemicals, fireworks), which are exactly hidden-DG groups. (7) The air worked example cites only the IMDG 3-month retention rule. (8) 보고 steps omit the 'no DG storage permit' condition of 보세 고시 제5조④ in two places. (9) The forwarder reporting row omits ICAO TI Part 1;7 (forwarders should follow 7;4.5). (10) The CINS SP188 paper's 'conclusion' is misdescribed. (11) The kr-mismatch cross-reference should read 10번·13번 (aerosols are 13). Verified OK: the DGR 56 2.2.1-2.2.4 text and every list row in the section 3 table (vs the Anglia PDF and ICAO TI 7;6), the TI 7;1.1.1/1.1.2 notes and 7;6.1, IATA CBTA Ed.1 7.2 and its tasks 0.2.2/3.4.1/3.4.2/7.3, 항공위험물운송기술기준 제3조③·제88조·제174조①②·제202조①③·제204조, 직무구분 4 (consistent with dg-forwarder), IMDG 42-24 5.4.1.1.1/5.4.1.6.1/5.4.2.1(.3)/5.4.6.1, 위험물 선박운송 및 저장규칙 제16조①②⑤·제34조①, 위험물 선박운송 기준 제4조의2 (고시 제2026-67호 시행 2026. 6. 21.), 선박입출항법 제59조②15의2 200만원, 보세 고시 제5조②④·제6조②⑤ (제2026-12호), 관세법 시행령 제189조3호, 산안법 제111조①·제115조①, 항공안전법 제70조③·제166조①6호, 시행령 별표 5 250/375/500, CTU Code 4.1.4 and Annex 5 4.1.1.1/4.1.2.4/4.1.3/5, CINS charcoal (Sept 2024 v1.00, 68 fires Jan 2015-Dec 2022, 'incomplete', trade names, KYC), CINS Ca hypochlorite v3.0 (Jan 2018), CINS SP188 (Aug 2026) observations, KE-01 (2026) exceptions, the FAA 12 keywords, all current-version dates in the disclaimer, and the data-doc/href targets (all exist; cross-doc facts consistent with case-accident, case-inspection, dg-penalty, dg-msds, kr-mismatch 14). No advice tells forwarders to physically inspect cargo; outward checks are assigned to warehouse/CFS/truck staff. Fetched fresh on 2026-10-19 with curl and law.go.kr DRF, no browser: Anglia DGR56 PDF, UTIKAD ICAO TI PDF (fetched only to verify, not to cite), IATA CBTA PDF, IMO MSC.556(108), IMO MSC.1/Circ.1497, three CINS PDFs, FAA media/71496, KE Variation 2026 PDF, and DRF texts of 항공위험물운송기술기준, 위험물 선박운송 기준, 보세화물관리에 관한 고시, 위험물 선박운송 및 저장규칙, 선박입출항법 and its 시행규칙, 관세법 시행령, 산업안전보건법 and its 시행령, 항공안전법 and its 시행령. All law.go.kr source-line links return 200.",
+  "fix": ""
+ }
+]

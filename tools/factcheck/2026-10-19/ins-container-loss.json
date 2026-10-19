@@ -1,0 +1,92 @@
+[
+ {
+  "claim": "2022년판 기준. 그 전 12년 평균보다 18% 늘어남",
+  "verdict": "wrong",
+  "evidence": "https://www.worldshipping.org/s/CCC-8-11-Estimate-of-containers-lost-at-sea-WSC.pdf 9항: \"WSC estimates that there were on average a total of 1,629 containers lost at sea each year, which is a significant increase (18%) to the average annual loss for the 12-year period ending in 2019.\" 비교 대상은 2008~2019년(겹치는 기간)이지 2008년 이전 12년이 아님.",
+  "fix": "2022년판 기준. 2019년까지 12년(2008~2019년) 평균보다 18% 늘어남"
+ },
+ {
+  "claim": "사고 직후 선원 1차 조사는 732개 유실 추정",
+  "verdict": "wrong",
+  "evidence": "https://dmaib.com/media/8489/maersk-essen-loss-of-cargo-on-16-january-2021.pdf 사고 경위: \"They estimated that approximately 215 containers were missing. The following day, the chief officer and cadet carried out a systematic assessment ... 732 containers could not be accounted for.\"; 서론: \"On 19 January, DMAIB received the result of the initial damage assessment. 732 containers were suspected to be lost overboard\". 사고 직후 추정은 약 215개, 732개는 다음 날 조사 결과.",
+  "fix": "사고 직후 약 215개, 다음 날 선원의 베이별 조사로 732개 유실 추정"
+ },
+ {
+  "claim": "MAERSK ESSEN은 사흘 뒤 732개로 추정했다가",
+  "verdict": "wrong",
+  "evidence": "https://dmaib.com/media/8489/maersk-essen-loss-of-cargo-on-16-january-2021.pdf \"The following day, the chief officer and cadet carried out a systematic assessment ... 732 containers could not be accounted for.\" (DMAIB가 이 결과를 받은 날이 1. 19.) / \"During the discharge of the damaged cargo, it was concluded that a total of 689 containers were lost overboard and that 258 were damaged\"",
+  "fix": "MAERSK ESSEN은 사고 직후 약 215개, 다음 날 선원 조사에서 732개로 추정했다가"
+ },
+ {
+  "claim": "ONE APUS는 유실보다 적지 않은 983개가 손상됐습니다.",
+  "verdict": "wrong",
+  "evidence": "https://jtsb.mlit.go.jp/eng-mar_report/2024/2022tk0001e.pdf Synopsis: \"causing 1,841 containers to fall overboard ... 983 of the remaining containers were damaged\". 983개는 유실 1,841개의 약 절반이므로 '유실보다 적지 않은'은 틀림.",
+  "fix": "ONE APUS는 1,841개가 유실된 데 더해 남은 컨테이너 983개가 손상됐습니다."
+ },
+ {
+  "claim": "한도를 넘는 배상은 운송인 자신의 고의나 무모한 행위가 증명될 때뿐이고(제797조 제1항 단서)",
+  "verdict": "overreach",
+  "evidence": "http://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273629&type=XML (상법 법률 제21044호, 시행 2026. 9. 10.) 제797조 ③: \"제1항 및 제2항은 송하인이 운송인에게 운송물을 인도할 때에 그 종류와 가액을 고지하고 선하증권이나 그 밖에 운송계약을 증명하는 문서에 이를 기재한 경우에는 적용하지 아니한다.\" 사이트 insurance-docs/ins-carrier-liability.html도 한도가 깨지는 경우로 '종류와 가액을 고지하고 선하증권 등에 기재하면 한도 적용 안 함(제797조 제3항)'을 함께 듦. '뿐'은 형제 문서와 모순.",
+  "fix": "한도를 넘는 배상은 송하인이 운송물의 종류와 가액을 고지해 B/L에 기재했거나(제797조 제3항) 운송인 자신의 고의나 무모한 행위가 증명될 때(제797조 제1항 단서)에 받을 수 있고"
+ },
+ {
+  "claim": "원화 환산은 1 SDR = 1,829.19원(IMF, 2026. 10. 16.)으로 계산한 예시입니다.",
+  "verdict": "outdated",
+  "evidence": "https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-10-31&reportType=CVSDR — Korean won per SDR \"October 8, 2026: 1,810.390000\" (rms_five.aspx는 현재 2026. 10. 16. 1,829.190000까지 표시; 값 자체는 맞지만 사이트 ins-carrier-liability.html은 \"1 SDR = 1,810.39원(IMF, 2026. 10. 8.)\"을 쓰므로 통일)",
+  "fix": "원화 환산은 1 SDR = 1,810.39원(IMF, 2026. 10. 8.)으로 계산한 예시입니다."
+ },
+ {
+  "claim": "800 × 666.67 = 533,336 SDR(약 9억 7,557만 원)",
+  "verdict": "outdated",
+  "evidence": "https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-10-31&reportType=CVSDR — Korean won per SDR \"October 8, 2026: 1,810.390000\" (rms_five.aspx는 현재 2026. 10. 16. 1,829.190000까지 표시; 값 자체는 맞지만 사이트 ins-carrier-liability.html은 \"1 SDR = 1,810.39원(IMF, 2026. 10. 8.)\"을 쓰므로 통일) / 계산: 533,336 × 1,810.39 = 965,546,161원",
+  "fix": "800 × 666.67 = 533,336 SDR(약 9억 6,555만 원)"
+ },
+ {
+  "claim": "20,000 SDR(36,583,800원)",
+  "verdict": "outdated",
+  "evidence": "https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-10-31&reportType=CVSDR — Korean won per SDR \"October 8, 2026: 1,810.390000\" (rms_five.aspx는 현재 2026. 10. 16. 1,829.190000까지 표시; 값 자체는 맞지만 사이트 ins-carrier-liability.html은 \"1 SDR = 1,810.39원(IMF, 2026. 10. 8.)\"을 쓰므로 통일) / 계산: 20,000 × 1,810.39 = 36,207,800원",
+  "fix": "20,000 SDR(36,207,800원)"
+ },
+ {
+  "claim": "20,000 SDR, 약 3,658만 원(CIF 가액의 약 18%)",
+  "verdict": "outdated",
+  "evidence": "https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-10-31&reportType=CVSDR — Korean won per SDR \"October 8, 2026: 1,810.390000\" (rms_five.aspx는 현재 2026. 10. 16. 1,829.190000까지 표시; 값 자체는 맞지만 사이트 ins-carrier-liability.html은 \"1 SDR = 1,810.39원(IMF, 2026. 10. 8.)\"을 쓰므로 통일) / 계산: 36,207,800 ÷ 200,000,000 = 18.10% (약 18% 유지)",
+  "fix": "20,000 SDR, 약 3,621만 원(CIF 가액의 약 18%)"
+ },
+ {
+  "claim": "환율 1 SDR = 1,829.19원(IMF, 2026. 10. 16.), 원 단위 반올림.",
+  "verdict": "outdated",
+  "evidence": "https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-10-31&reportType=CVSDR — Korean won per SDR \"October 8, 2026: 1,810.390000\" (rms_five.aspx는 현재 2026. 10. 16. 1,829.190000까지 표시; 값 자체는 맞지만 사이트 ins-carrier-liability.html은 \"1 SDR = 1,810.39원(IMF, 2026. 10. 8.)\"을 쓰므로 통일)",
+  "fix": "환율 1 SDR = 1,810.39원(IMF, 2026. 10. 8.), 원 단위 반올림."
+ },
+ {
+  "claim": "SDR Exchange Rates, Currency units per SDR(IMF, 2026. 10. 16.)",
+  "verdict": "outdated",
+  "evidence": "https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-10-31&reportType=CVSDR — Korean won per SDR \"October 8, 2026: 1,810.390000\" (rms_five.aspx는 현재 2026. 10. 16. 1,829.190000까지 표시; 값 자체는 맞지만 사이트 ins-carrier-liability.html은 \"1 SDR = 1,810.39원(IMF, 2026. 10. 8.)\"을 쓰므로 통일) (출처 표기도 사이트 ins-carrier-liability.html의 'SDR Exchange Rates, Currency units per SDR, October 08, 2026(IMF, 2026)'과 맞춤)",
+  "fix": "SDR Exchange Rates, Currency units per SDR(IMF, 2026. 10. 8.)"
+ },
+ {
+  "claim": "유실은 드물지만 한 번 나면 수백에서 천여 개가 한꺼번에 사라지고",
+  "verdict": "overreach",
+  "evidence": "https://www.marin.nl/api/marin/downloads/get-download/8751/16/2430/block_files_vr2puklqj6p91/dwI1NjtW_Dg4eCTZKvAdG0VXI9o=/33039-19-PaS%20TopTier%20overall%20summary_%202025-06-30_final.pdf 3.2: \"Most of the containers are lost or damaged when multiple bays collapse (81%) but in terms of number of incidents single stern bay collapses happen most frequently.\"; https://ftalliance.com.au/newsdetails/14565 (YM Efficiency): \"A total of 83 containers were overboard\". 사고 대부분은 작은 규모이고 수백~천여 개는 대형 사고의 경우.",
+  "fix": "유실은 드물지만 큰 사고 한 번에 수백에서 천여 개가 한꺼번에 사라지기도 하고"
+ },
+ {
+  "claim": "컨테이너 유실은 1년에 수백에서 천여 개 정도로 드물지만, 나면 한 배에서 수백 개가 한꺼번에 떨어집니다.",
+  "verdict": "overreach",
+  "evidence": "https://www.worldshipping.org/s/WSC-Containers-Lost-at-Sea-Report-2026.pdf \"The highest recorded loss remains 2013, with 5,578 containers\"; https://www.worldshipping.org/s/CCC-8-11-Estimate-of-containers-lost-at-sea-WSC.pdf 11항 \"The average losses for the two-year period 2020-2021 have increased to 3,113\" — 연 수백~천여 개는 2022~2025년에만 해당. https://www.marin.nl/api/marin/downloads/get-download/8751/16/2430/block_files_vr2puklqj6p91/dwI1NjtW_Dg4eCTZKvAdG0VXI9o=/33039-19-PaS%20TopTier%20overall%20summary_%202025-06-30_final.pdf 3.2 \"single stern bay collapses happen most frequently\" — 모든 사고가 수백 개 규모는 아님. 문서 1절 표와도 어긋남.",
+  "fix": "컨테이너 유실은 최근 몇 년 동안 1년에 수백에서 천여 개 정도로 드물지만, 큰 사고에서는 한 배에서 수백 개가 한꺼번에 떨어지기도 합니다."
+ },
+ {
+  "claim": "UN 번호가 빠져 연안국의 대응이 늦어집니다",
+  "verdict": "overreach",
+  "evidence": "https://www.gov.uk/government/publications/min728-mf-upcoming-solas-chapter-v-amendment-reporting-loss-of-containers-at-sea/min-728-mf-upcoming-solas-chapter-v-amendment-reporting-loss-of-containers-at-sea 5.1.4: \"Dangerous goods: Yes/No; UN number (if known)\". 보고 항목은 확인되나 대응이 '늦어진다'는 단정의 근거 자료는 출처에 없음(facts.md에도 없음).",
+  "fix": "UN 번호가 빠져 연안국의 대응이 늦어질 수 있습니다"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "14건: wrong 4, outdated 6(SDR 통일), overreach 4, unsupported 0, unverifiable 0. 핵심: (1) SDR 환율을 사이트 ins-carrier-liability.html 기준 1 SDR = 1,810.39원(IMF, 2026. 10. 8.; IMF rms_mth로 확인)으로 바꾸고 파생값 재계산: 533,336 SDR = 965,546,161원(약 9억 6,555만 원), 20,000 SDR = 36,207,800원(약 3,621만 원, CIF 2억 원의 18.1%, '약 18%'는 유지). 원고의 1,829.19원(2026. 10. 16.) 자체는 IMF rms_five와 일치. (2) ONE APUS '유실보다 적지 않은 983개 손상'은 틀림(983 < 1,841). (3) MAERSK ESSEN 732개는 '사고 직후'나 '사흘 뒤'가 아니라 다음 날 선원 조사 결과(직후 추정 약 215개, DMAIB 접수 1. 19.). (4) CCC 8/11의 18% 증가는 '그 전 12년'이 아니라 2008~2019년 12년 평균 대비. (5) '한도를 넘는 배상은 고의·무모 증명 때뿐'은 상법 제797조 제3항(가액 고지·기재)을 빠뜨려 ins-carrier-liability와 모순. (6) 도입부·10절의 '한 번 나면 수백~천여 개'와 '1년에 수백~천여 개'는 과장(TopTier: 건수로는 단일 선미 베이 붕괴가 가장 많음; 2013년 5,578개, 2020~2021년 평균 3,113개). 1차 출처를 curl로 직접 받아 대조함(브라우저 자동화 없음; IMF만 curl 403이라 WebFetch 사용): WSC 2026 보고서·CCC 12/12/1·CCC 8/11·WSC 보도자료(2026. 6. 25.)·AJOT; MARIN TopTier 종합보고서 33039-19-PaS(2025-06-30)와 N2M V1.2; JTSB MA2024-02; DMAIB MAERSK ESSEN PDF; 홍콩 MSIN 37/2024, gov.uk MIN 728, LR Class News 18/25; law.go.kr DRF로 받은 상법(MST 273629, 법률 제21044호, 시행 2026. 9. 10.), VGM 고시 제2020-119호(현행, 시행 2020. 7. 31.), 2015다5194 판결 전문; EFU ICC (A)(B)(C) 1/1/09; Maersk Terms; Zurich 0522; FTA; legislation.gov.uk COGSA 1971. 원문과 맞는 것: WSC 수치 전부(1,478, 280M, 0.0005%, 576, 640/43%, 128과 '2023년 이후 최대', 5,578/2013, 221/2023, 1,629, 4,293, 3,113, 661, 원인 정리, 회원사 90% 보정), TopTier(2021. 7. 시작, 40곳 이상, 3.5년, 5가지 요인, 44건, 23%, 81%/단일 선미 베이, 트위스트록·코너 캐스팅, 1,500명, 호주 1,580개 +2.3%/6.1t 25%/5t+1t/10t+3.5t/자체중량, 오적재 10%, 7단 17.5%에서 20%, 'Compliance is based on trust', VGM 집행 권고), N2M(2배 주기, 파장≈선박 길이, 선미 파도, 240m·5m·4→26도/1분), ONE APUS(일본 국적·도쿄 등록, 일시, 레후아섬 등대 295° 1,565~1,585해리, 7,016개/13,175TEU, 24명, 1,841/983, 30~60도 위험 구역, 20도/25도, 21:40, 야간 판단, 한신항·12. 8. 고베, 'not ... apportion blame'), MAERSK ESSEN(1. 16., 450해리, 샤먼→LA, 689/258/8개 베이, 6분 25~30도, 파라메트릭 공진, 19.18도, 통상 운항 조건, 선상 도구 없음, 라사로 카르데나스 1. 30., 2022. 2. 28. 발행), SOLAS(MSC.550(108), 2024. 5. 23., 2026. 1. 1., V/31·32, 보고 대상·회사 대행·GISIS·표류 목격·보고 항목·'final', MEPC.384(81), CCC.1/Circ.7/Rev.1, 영국 2026년 말 재정비), VGM 고시(제2조 제5호·제9호, 제5조 방법 1·2·ERP·방법 1 의무, 제6조 24시간·근거리항해, 제7조 ±5%·최대 적재중량·방법 1 우선, 제8조 선적 거부, 2016. 7. 1. 최초 시행), 상법 제134·137·657·681·682·769·794·795·796·797·799·804·814·815·865·893조 인용과 해석, 2015다5194 판결요지 [4]와 사실관계(WAIOP, 갑판적재 약관, 54.5톤 보일러), ICC 1.1.1/1.1.2/1.1.4/1.2.1/1.2.2/1.3/2/4.3/5.1.1/5.1.2/5.3/16, Maersk 9/16.2/18.2/18.3/24.1(YAR 1994), Zurich 5.5, FTA 자문(2018. 6. 5.). 링크: 외부 22개 모두 HTTP 200(IMF rms_five는 curl 403, WebFetch로는 열림), /library/ 내부 링크 7개와 data-doc 8개(ins-claims·carrier-liability·icc·general-average·forwarder·uninsurable·cases·basics) 모두 존재. 형제 문서(ins-icc, ins-cases, ins-basics, ins-general-average, ins-uninsurable, rk-typhoon)와 모순 없음, 단 위 (5)는 ins-carrier-liability와 어긋남. 참고(수정 불요): 판결 사건은 구 ILU WAIOP 증권이라 ICC 2009 (B)에 그대로 적용되는지는 '주장될 수 있다'로 적은 원고 표현이 적절함; 공동운항 문장은 FTA 자문('slot chartering or vessel sharing arrangements')으로 뒷받침됨.",
+  "fix": ""
+ }
+]

@@ -1,7 +1,7 @@
 {
  "https://logistics.onharu.app/": {
-  "hash": "b766c58e8fac2389",
-  "modified": "2026-10-19T14:46:15+09:00",
+  "hash": "c7d421f00407cd17",
+  "modified": "2026-10-19T16:24:16+09:00",
   "published": "2026-10-11T23:23:57+09:00"
  },
  "https://logistics.onharu.app/library/air-uld": {
@@ -80,8 +80,8 @@
   "published": "2026-10-09T20:57:07+09:00"
  },
  "https://logistics.onharu.app/library/cargo-insurance": {
-  "hash": "17ec4050ec70556a",
-  "modified": "2026-10-18T16:08:00+09:00",
+  "hash": "74f069d25258f2a7",
+  "modified": "2026-10-19T16:24:14+09:00",
   "published": "2026-10-11T23:19:49+09:00"
  },
  "https://logistics.onharu.app/library/cargo-insurance/ins-basics": {
@@ -103,6 +103,11 @@
   "hash": "789a87aa0a2f95e5",
   "modified": "2026-10-14T00:02:50+09:00",
   "published": "2026-10-09T17:22:33+09:00"
+ },
+ "https://logistics.onharu.app/library/cargo-insurance/ins-container-loss": {
+  "hash": "47168fa165a4bca1",
+  "modified": "2026-10-19T16:24:14+09:00",
+  "published": "2026-10-19T16:24:14+09:00"
  },
  "https://logistics.onharu.app/library/cargo-insurance/ins-forwarder": {
   "hash": "22afa2ed39834b70",
@@ -210,8 +215,8 @@
   "published": "2026-10-18T17:29:40+09:00"
  },
  "https://logistics.onharu.app/library/container": {
-  "hash": "2da1dcfd6052f1b5",
-  "modified": "2026-10-18T16:09:15+09:00",
+  "hash": "a29ed3e06fab0661",
+  "modified": "2026-10-19T16:24:14+09:00",
   "published": "2026-10-12T10:00:09+09:00"
  },
  "https://logistics.onharu.app/library/container/cn-codes": {
@@ -228,6 +233,11 @@
   "hash": "eb51614dd7a5676d",
   "modified": "2026-10-14T01:16:14+09:00",
   "published": "2026-10-12T09:59:03+09:00"
+ },
+ "https://logistics.onharu.app/library/container/cn-oog": {
+  "hash": "2d268ce7645ad675",
+  "modified": "2026-10-19T16:24:14+09:00",
+  "published": "2026-10-19T16:24:14+09:00"
  },
  "https://logistics.onharu.app/library/ctu-code": {
   "hash": "eac7c8a2c93b1b37",
@@ -420,8 +430,8 @@
   "published": "2026-10-19T14:12:06+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods": {
-  "hash": "5b3333029da07130",
-  "modified": "2026-10-19T14:12:06+09:00",
+  "hash": "746aadf08e757cb0",
+  "modified": "2026-10-19T16:24:14+09:00",
   "published": "2026-10-11T23:23:30+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/case-accident": {
@@ -444,6 +454,11 @@
   "modified": "2026-10-12T01:19:18+09:00",
   "published": "2026-10-05T21:25:48+09:00"
  },
+ "https://logistics.onharu.app/library/dangerous-goods/dg-hidden": {
+  "hash": "bba9d32a0f5049c5",
+  "modified": "2026-10-19T16:24:14+09:00",
+  "published": "2026-10-19T16:24:14+09:00"
+ },
  "https://logistics.onharu.app/library/dangerous-goods/dg-kr-duty": {
   "hash": "63f6e8e4114de092",
   "modified": "2026-10-14T00:28:47+09:00",
@@ -453,6 +468,11 @@
   "hash": "dcfb8e64089533fc",
   "modified": "2026-10-19T14:12:06+09:00",
   "published": "2026-10-19T14:12:06+09:00"
+ },
+ "https://logistics.onharu.app/library/dangerous-goods/dg-marks": {
+  "hash": "ab2b33f1301b931a",
+  "modified": "2026-10-19T16:24:14+09:00",
+  "published": "2026-10-19T16:24:14+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-msds": {
   "hash": "db3b4fc51e35892d",

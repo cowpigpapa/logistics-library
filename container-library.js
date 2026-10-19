@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/container';
-  const DOCS_VERSION = '20261012-01';
+  const DOCS_VERSION = '20261019-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -33,6 +33,7 @@
   const DOCS = [
     { id: 'cn-number', tag: "번호", level: 3, title: "컨테이너 번호와 체크 디지트 — 소유자 코드, 장비 구분, 일련번호, 계산법", short: "컨테이너 번호와 체크 디지트", summary: "컨테이너 번호 11자리(소유자 코드 3자리, 장비 구분 U·J·Z, 일련번호 6자리, 체크 디지트)의 뜻, 리스 컨테이너 Prefix와 조회 방법, ISO 6346 체크 디지트 계산법과 계산 예시." },
     { id: 'cn-codes', tag: "코드", level: 3, title: "크기·형식 코드(ISO 6346) — 길이·높이 자리와 형식 그룹, 자주 보는 코드", short: "크기·형식 코드(ISO 6346)", summary: "컨테이너 번호 아래 네 자리 크기·형식 코드(예: 45G1)의 첫째 자리 길이, 둘째 자리 높이, 셋째·넷째 자리 형식 그룹(G·V·R·H·U·P·T·K·N·B·S)과 45ft의 L/5 표기 차이, 자주 보는 코드 20여 개." },
+    { id: 'cn-oog', checked: '2026-10-19', tag: "OOG", level: 2, title: "대형·중량 화물(OOG) 운송 — 플랫랙·오픈탑·브레이크벌크 선택, 도로 운행허가, 고박 계획서와 검정", short: "대형·중량 화물(OOG)", summary: "OOG·오버하이트/와이드/랭스 정의와 선사별 기준 차이, 오픈탑·플랫랙·플랫폼·브레이크벌크·RoRo 선택 기준, 화주에게 받을 정보와 선사 승인, 제한차량 운행허가 절차, 고박 계획서와 고박 검정을 계산 예시와 역할별 점검표로 정리합니다." },
     { id: 'cn-dimensions', tag: "치수", level: 2, title: "주요 컨테이너 치수 — 드라이·리퍼·오픈탑·플랫랙의 내부 치수, 문 크기, 적재 중량", short: "주요 컨테이너 치수", summary: "20GP·40GP·40HC·20RF·40RH·20OT·40OT·20FR·40FR의 내부 길이·폭·높이, 문 폭·높이, 최대 적재 중량과 자중을 ONE·Maersk 공개 사양으로 비교하고, 선사마다 수치가 다른 이유를 정리." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
@@ -46,7 +47,7 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "번호와 코드", sub: "컨테이너 번호 · 체크 디지트 · ISO 6346 크기·형식 코드", docs: ["cn-number", "cn-codes"] },
-    { title: "장비", sub: "형식별 내부 치수와 적재 중량", docs: ["cn-dimensions"] }
+    { title: "장비와 특수 화물", sub: "형식별 내부 치수와 적재 중량 · 대형·중량 화물(OOG)", docs: ["cn-dimensions", "cn-oog"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
@@ -148,7 +149,7 @@
   }
   async function renderDoc(view, doc) {
     const head = `<nav class="lib-crumb"><a href="${home}">← Container</a></nav>`;
-    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${CHECKED} · 장비 사양은 선사와 제작 시기마다 다르니 배정된 컨테이너의 명판과 선사 안내를 확인하세요.</p>`;
+    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${doc.checked || CHECKED} · 장비 사양은 선사와 제작 시기마다 다르니 배정된 컨테이너의 명판과 선사 안내를 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
     try {

@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261019-01';
+  const DOCS_VERSION = '20261019-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -45,6 +45,8 @@
     { id: 'kr-small', tag: "소량 기준", level: 3, title: "소량 기준 — 지정수량 미만과 시·도 조례, 화관법의 규정수량", short: "소량 기준", summary: "지정수량 미만은 시·도 조례 적용. 배수 합산, 조례 4곳 비교, 화관법 규정수량 3단계." },
     { id: 'dg-msds', tag: "MSDS", level: 3, title: "MSDS(SDS) 읽는 법 — 포워더가 확인하는 항목과 운송 분류와의 관계", short: "MSDS(SDS) 읽는 법", summary: "14항을 1·3·9항과 대조하는 법, GHS 분류와 운송 분류의 차이, 오래된 SDS·Non-DG 확인서 등 위험 신호와 접수 체크리스트." },
     { id: 'dg-lithium', checked: '2026-10-19', tag: "리튬배터리", level: 3, title: "리튬배터리 운송 — 해상·항공·철도에서 UN 번호, 포장, 표시, 서류가 어떻게 다른가", short: "리튬배터리 운송", summary: "리튬배터리의 UN 번호를 화학·형태·Wh로 고르는 법과 같은 배터리가 해상·철도(IMDG 42-24, RID 2025)와 항공(PI 965~970, 2026년 SoC 30% 확대)에서 포장·표시·서류가 어떻게 달라지는지, 손상·폐배터리와 역할별 점검까지 다룹니다." },
+    { id: 'dg-marks', checked: '2026-10-19', tag: "표시", level: 3, title: "위험물 표시와 표찰 — 국제 운송 라벨·마크·플래카드와 국내 경고 표시의 차이", short: "위험물 표시·표찰", summary: "포장물의 UN 번호·라벨·취급 마크, 컨테이너 표찰과 UN 번호 패널, 위험물안전관리법·화학물질관리법·산업안전보건법이 요구하는 국내 표시를 원문으로 비교하고, 어느 표시가 다른 표시를 대신할 수 있는지와 자주 하는 실수를 정리합니다." },
+    { id: 'dg-hidden', checked: '2026-10-19', tag: "숨은 위험물", level: 3, title: "숨은 위험물(Hidden DG) — 일반 화물 속 위험물을 서류와 반입 단계에서 걸러내기", short: "숨은 위험물 확인", summary: "자동차 부품·전자제품·이삿짐처럼 일반 품명 아래 숨은 배터리·가스·인화성 액체를 포워더는 품명·HS 코드·SDS·확인서로, 창고·CFS 작업자는 라벨·냄새·누액 같은 외관 신호로 걸러내는 절차와 발견 뒤 보고·역할 분담을 정리합니다." },
     { id: 'case-inspection', tag: "단속 사례", level: 2, title: "점검·단속 적발 사례 — 소방·특사경·국토교통부", short: "점검·단속 적발 사례", summary: "소방·특사경·국토교통부 등이 실제 적발한 18건을 유형별로 정리하고 자가 점검표를 붙였습니다." },
     { id: 'case-accident', tag: "사고 사례", level: 2, title: "위험물 사고 사례 — 신고·분류·교육의 실패", short: "위험물 사고 사례", summary: "국내외 위험물 사고 19건을 조사보고서와 보도로 확인해 신고·분류·교육 실패 관점에서 정리." },
     { id: 'case-litigation', tag: "판결 사례", level: 2, title: "위험물 소송·판결 사례 — 화주·포워더·운송인 중 누가 책임졌나", short: "소송·판결 사례", summary: "국내외 위험물 판결 사례 17항목의 쟁점과 결론. 포워더가 송하인으로 책임지는 구조." }
@@ -61,7 +63,7 @@
   const SECTIONS = [
     { title: "위험물 교육", sub: "국제운송 · 규칙과 조약, 한국의 교육 의무", docs: ["dg-rules", "dg-treaties", "dg-kr-duty", "dg-forwarder", "dg-penalty"] },
     { title: "국내법상 위험물", sub: "법체계 · 국제 규칙과의 차이 · 소량 기준 · MSDS", docs: ["kr-system", "kr-mismatch", "kr-small", "dg-msds"] },
-    { title: "운송 실무", sub: "리튬배터리 운송", docs: ["dg-lithium"] },
+    { title: "운송 실무", sub: "리튬배터리 운송 · 표시와 표찰 · 숨은 위험물", docs: ["dg-lithium", "dg-marks", "dg-hidden"] },
     { title: "사례", sub: "단속 · 사고 · 판결, 사례마다 출처", docs: ["case-inspection", "case-accident", "case-litigation"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
