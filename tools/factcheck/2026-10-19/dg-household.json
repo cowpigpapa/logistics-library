@@ -1,0 +1,578 @@
+[
+ {
+  "claim": "「위험물안전관리법 시행령」(시행 2026. 7. 1.)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 위험물안전관리법 시행령: 시행일자 20260701, 대통령령 제36432호. 시행규칙도 시행 20260701",
+  "fix": null
+ },
+ {
+  "claim": "「생활화학제품 및 살생물제의 안전관리에 관한 법률」(화학제품안전법, 시행 2026. 7. 1.)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 시행일자 20260701, 법률 제21310호",
+  "fix": null
+ },
+ {
+  "claim": "기후에너지환경부고시 제2026-215호, 시행 2026. 9. 1.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul (law.go.kr Open API, 2026-10-19 재조회) 안전확인대상생활화학제품 지정 및 안전·표시기준: 발령번호 2026-215, 시행 20260901, 소관 기후에너지환경부(화학제품관리과)",
+  "fix": null
+ },
+ {
+  "claim": "「고압가스 안전관리법 시행령」(시행 2026. 6. 9.)·「고압가스 안전관리법 시행규칙」(시행 2026. 6. 11.)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 시행령 시행 20260609(대통령령 제36400호), 시행규칙 시행 20260611",
+  "fix": null
+ },
+ {
+  "claim": "「항공위험물운송기술기준」(국토교통부고시 제2023-52호)",
+  "verdict": "correct",
+  "evidence": "law.go.kr admrul 검색(항공위험물운송기술기준): 연혁 최신 발령 2023-52(2023. 1. 18.), 그 뒤 개정판 없음(2026-10-19 확인)",
+  "fix": null
+ },
+ {
+  "claim": "(관세청고시 제2026-46호)를 봤습니다",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul (law.go.kr Open API, 2026-10-19 재조회) 관세법 제226조에 따른 세관장확인물품 및 확인방법 지정고시: 발령번호 2026-46, 시행 20260716",
+  "fix": null
+ },
+ {
+  "claim": "「위험물안전관리법 시행령」 별표 1 비고 제11호는 다음 다섯 가지를 법 제20조제1항의 중요기준과 세부기준에 따른 운반용기를 사용하여 운반하거나 저장(진열 및 판매 포함)하는 경우 인화성 액체에서 제외합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 시행령 별표 1 비고 11: \"다만, 다음 각 목의 어느 하나에 해당하는 것을 법 제20조제1항의 중요기준과 세부기준에 따른 운반용기를 사용하여 운반하거나 저장(진열 및 판매를 포함한다)하는 경우는 제외한다. 가. 「화장품법」… 나. 「약사법」 제2조제4호에 따른 의약품… 다. … 의약외품(알코올류에 해당하는 것은 제외한다) 중 수용성인 인화성액체를 50부피퍼센트 이하로… 라. … 체외진단용 의료기기… 마. … 안전확인대상생활화학제품(알코올류에 해당하는 것은 제외한다) 중 수용성인 인화성액체를 50부피퍼센트 이하로 포함하고 있는 것\"",
+  "fix": null
+ },
+ {
+  "claim": "함유량이 60중량퍼센트 미만인 수용액은 알코올류에서 빠집니다(비고 제14호)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 비고 14 가목: \"1분자를 구성하는 탄소원자의 수가 1개 내지 3개의 포화1가 알코올의 함유량이 60중량퍼센트 미만인 수용액\" (나목도 있음: 가연성액체량 60중량% 미만이고 인화점·연소점이 에틸알코올 60중량% 수용액보다 높은 것)",
+  "fix": null
+ },
+ {
+  "claim": "제4류에 남더라도 한 장소의 품명별 수량이 지정수량 미만이면 허가 대상은 아니고 시·도 조례의 기준을 따릅니다(법 제4조).",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 위험물안전관리법 제5조⑤: \"둘 이상의 위험물을 같은 장소에서 저장 또는 취급하는 경우에 … 지정수량으로 각각 나누어 얻은 수의 합계가 1 이상인 경우 당해 위험물은 지정수량 이상의 위험물로 본다.\" 품명별로 각각 미만이어도 합계가 1 이상이면 지정수량 이상이므로 '품명별 수량'으로 쓰면 바로 뒤 문장과 예시 2와 어긋남",
+  "fix": "제4류에 남더라도 한 장소에서 저장·취급하는 수량이 지정수량 미만(여러 품명이면 품명별 수량을 각 지정수량으로 나눈 값의 합계가 1 미만)이면 허가 대상은 아니고 시·도 조례의 기준을 따릅니다(법 제4조)."
+ },
+ {
+  "claim": "지정수량 이상이면 허가받은 저장소가 아닌 곳에 둘 수 없고(법 제5조제1항), 여러 품명은 지정수량으로 나눈 값을 합산합니다(제5조제5항).",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 법 제5조①: \"지정수량 이상의 위험물을 저장소가 아닌 장소에서 저장하거나 제조소등이 아닌 장소에서 취급하여서는 아니된다.\" ⑤ 합산 규정(②의 90일 임시저장 승인 예외는 생략됨)",
+  "fix": null
+ },
+ {
+  "claim": "가스(LPG, 질소 등)와 리튬배터리는 별표 1에 품명이 없어 이 법의 위험물이 아닙니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 시행령 별표 1 제1류~제6류 품명표에 가스·전지 품명 없음",
+  "fix": null
+ },
+ {
+  "claim": "위험물안전관리법의 차아염소산염류는 제1류(산화성 고체)라 액체 제품은 해당하지 않음",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 위험물안전관리법 시행규칙 제3조①: 영 별표 1 제1류 품명란 제10호의 행정안전부령으로 정하는 것 \"5. 차아염소산염류\"; 시행령 별표 1 비고 1: \"'산화성고체'라 함은 고체[액체 … 또는 기체 … 외의 것을 말한다]\"; 제6류 품명은 과염소산·과산화수소·질산·할로젠간화합물(시행규칙 제3조④)뿐",
+  "fix": null
+ },
+ {
+  "claim": "과산화수소는 36중량퍼센트 이상만 제6류(비고 제22호)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 비고 22: \"과산화수소는 그 농도가 36중량퍼센트 이상인 것에 한하며\"",
+  "fix": null
+ },
+ {
+  "claim": "\"고형알코올 그 밖에 1기압에서 인화점이 섭씨 40도 미만인 고체\"는 제2류 인화성고체(지정수량 1,000킬로그램)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 비고 8 원문 일치; 별표 1 제2류 \"9. 인화성고체 1,000킬로그램\"",
+  "fix": null
+ },
+ {
+  "claim": "인화점 200~250℃ 미만은 제4석유류(6,000리터), 70~200℃ 미만은 제3석유류",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 비고 16: \"인화점이 섭씨 70도 이상 섭씨 200도 미만\", 비고 17: \"섭씨 200도 이상 섭씨 250도 미만\"; 별표 1 \"6. 제4석유류 6,000리터\"",
+  "fix": null
+ },
+ {
+  "claim": "원액이 인화점 70~200℃ 미만 수용성 액체면 제3석유류(수용성 4,000리터) 해당 가능",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 별표 1 \"5. 제3석유류 … 수용성액체 4,000리터\"",
+  "fix": null
+ },
+ {
+  "claim": "인화점 21℃ 미만이면 제1석유류(비수용성 지정수량 200리터)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 비고 13: \"인화점이 섭씨 21도 미만인 것\"; 별표 1 \"2. 제1석유류 비수용성액체 200리터\"",
+  "fix": null
+ },
+ {
+  "claim": "위험물안전관리법 비해당(황산은 제6류 품명에 없음)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 별표 1 제6류: 과염소산, 과산화수소, 질산, 행정안전부령으로 정하는 것(할로젠간화합물)",
+  "fix": null
+ },
+ {
+  "claim": "합계 0.9 + 0.5 = 1.4 → 1 이상이므로 지정수량 이상(법 제5조제5항)",
+  "verdict": "correct",
+  "evidence": "산술 확인: 180÷200=0.9, 200÷400=0.5, 합 1.4. 지정수량 제1석유류 비수용성 200L·알코올류 400L(시행령 별표 1), 법 제5조⑤ 합산",
+  "fix": null
+ },
+ {
+  "claim": "LQ로 포장된 화물이라도 창고에 모인 총량이 지정수량을 넘으면 허가받은 저장소가 필요합니다.",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 법 제5조①·⑤: 기준은 '지정수량 이상'(배수 합계 1 이상)이고 '넘으면'이 아님",
+  "fix": "LQ로 포장된 화물이라도 창고에 모인 총량이 지정수량 이상(여러 품명은 배수 합계 1 이상)이면 허가받은 저장소가 필요합니다."
+ },
+ {
+  "claim": "기후에너지환경부장관이 위해성평가를 거쳐 지정·고시한 생활화학제품입니다(법 제3조제4호)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 법 제3조 4.: \"'안전확인대상생활화학제품'이란 기후에너지환경부장관이 제8조제1항에 따른 위해성평가를 한 결과 위해성이 있다고 인정되어 … 지정ㆍ고시한 생활화학제품을 말한다.\"",
+  "fix": null
+ },
+ {
+  "claim": "확인의 유효기간은 3년입니다(제10조제2항)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 법 제10조②: \"확인의 유효기간은 확인을 받은 날부터 3년으로 한다. 다만, … 2년의 범위에서 연장하여 정할 수 있고\"(2025. 11. 11. 개정). 3년은 맞음, 연장 단서는 생략",
+  "fix": null
+ },
+ {
+  "claim": "인공 눈 스프레이 등 12부로 품목을 정합니다",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul (law.go.kr Open API, 2026-10-19 재조회) 고시 제2026-215호 [별표 1]: 제1부 세정제품(세정제·제거제) … 제7부 자동차 전용 제품(워셔액·부동액·세정제 등) … 제12부 기타(초, 습기제거제, 인공 눈 스프레이 등). 모두 12부",
+  "fix": null
+ },
+ {
+  "claim": "(신고번호·승인번호로 줄여 쓸 수 있음) 등을 적습니다(고시 별표 5)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul (law.go.kr Open API, 2026-10-19 재조회) 고시 [별표 5] Ⅰ: \"1. 품목 … 4. 제형 … 20. 사용상 주의사항 … 22. 안전기준확인 마크 23. 안전기준적합확인신고번호 또는 안전확인대상생활화학제품승인번호(3)\", 주(3) \"신고번호 또는 승인번호로 축약할 수 있음\"; Ⅱ 표1 가연성가스 스프레이형 \"직사광선이나 열기에 노출시 폭발할 수 있으니 주의하시오.\", 차아염소산류 물질이 사용된 제품 \"다른 제품과 섞어 사용할 경우 인체에 치명적인 손상을 입힐 수 있으니 섞어 사용하지 마시오.\"",
+  "fix": null
+ },
+ {
+  "claim": "살충제·살균제·살서제처럼 유해생물 제거가 주된 목적인 제품은 국내에 판매하려면 제품승인을 받아야 합니다(법 제20조제1항).",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 법 제20조①은 맞음. 그러나 법(법률 제15511호) 부칙 제3조①: \"살생물제품을 제조 또는 수입하는 자는 제20조제1항 … 에도 불구하고 … 기간까지는 제품승인을 받지 아니하고 해당 살생물제품을 제조 또는 수입할 수 있다. 1. … 모든 살생물물질이 승인유예대상 기존살생물물질인 경우: … 승인유예기간의 종료일부터 2년 이내\". 고시 별표 1에도 '승인유예대상 살균제·살충제(미생물제제)'가 남아 있어, 지금 유통되는 살충제 중 승인번호가 없는 제품이 있을 수 있음(살충제 행의 '승인번호' 확인 항목에도 영향)",
+  "fix": "살충제·살균제·살서제처럼 유해생물 제거가 주된 목적인 제품은 국내에 판매하려면 제품승인을 받아야 합니다(법 제20조제1항). 다만 승인유예대상 기존살생물물질만 쓴 제품은 법 부칙의 유예기간 동안 승인 없이 제조·수입할 수 있어, 승인번호가 아직 없는 제품도 있습니다."
+ },
+ {
+  "claim": "화장품, 의약품·의약외품, 식품, 농약, 의료기기, 위생용품 등은 이 법을 적용하지 않습니다(법 제5조제1항)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 법 제5조① 제3·7·8·9·10·11호(농약, 식품, 의약품·의약외품, 위생용품, 의료기기, 화장품). 단서: 해당 법률의 목적·용도로 쓰이지 않으면 이 법 적용",
+  "fix": null
+ },
+ {
+  "claim": "전량 국외로 수출되는 제품에는 안전확인(제10조)을 적용하지 않습니다(제5조제2항제3호)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 법 제5조②: \"다음 각 호의 어느 하나에 해당하는 경우에는 제10조 또는 제3장을 적용하지 아니한다. … 3. 전량 국외로 수출되는 생활화학제품 또는 살생물제\"",
+  "fix": null
+ },
+ {
+  "claim": "시행령 별표 1은 살충제를 살생물제품 유형의 하나로 적고 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 생활화학제품 및 살생물제의 안전관리에 관한 법률 시행령 별표 1: \"라. 살충제\"",
+  "fix": null
+ },
+ {
+  "claim": "화학제품안전법·화학물질관리법 적용 제외",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 화학제품안전법 제5조①11호(화장품); 화학물질관리법 제3조①4호 \"「화장품법」 제2조제1호에 따른 화장품과 화장품에 사용하는 원료\". 참고: 화관법 제3조③은 화학사고 대응 등은 관계 법률에 특별 규정이 없으면 이 법을 따른다고 함",
+  "fix": null
+ },
+ {
+  "claim": "스마트폰·노트북컴퓨터용 리튬계 단전지(에너지밀도 700Wh/L 이상, 최대 충전전압 4.4V 이상)와 생활용품인 <b>가스라이터</b>를 안전인증 대상으로 둡니다",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 전기용품 및 생활용품 안전관리법 시행규칙 [별표 3] 안전인증대상제품: \"2) 단전지[스마트폰, 노트북컴퓨터(테블릿 PC를 포함한다)에 적용되는 에너지밀도 700Wh/L 이상, 최대 충전전압 4.4V 이상의 단전지(리튬계)에 한정한다]\", \"나. 생활 1) 가스라이터\"",
+  "fix": null
+ },
+ {
+  "claim": "별표 4(안전확인대상)는 정보·통신·사무기기 분류에 노트북컴퓨터(태블릿 PC 포함)와 \"전지(충전지만 해당한다)\"를",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 같은 시행규칙 [별표 4]: \"12) 노트북컴퓨터(테블릿 PC를 포함한다) 13) 전지(충전지만 해당한다)\", 생활용품 \"1) 건전지(충전지는 제외한다)\", \"7) 전동보드\", \"14) 온열팩(주머니난로를 포함한다)\"",
+  "fix": null
+ },
+ {
+  "claim": "고압가스 용기는 한국가스안전공사의 용기검사신청확인서, 이동식부탄연소기는 가스용품 검사신청서가 해당합니다",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul (law.go.kr Open API, 2026-10-19 재조회) 관세청고시 제2026-46호 【별표 2】: \"(9) 「전기용품 및 생활용품 안전 관리법」 … 전기용품 및 생활용품 세관장 확인물품 확인증\", \"(35) 「고압가스 안전관리법」 해당 물품 중 고압가스용기 – 한국가스안전공사의 용기검사신청확인서\", \"(43)(가) 안전확인대상생활화학제품 – 한국환경산업기술원장의 안전기준 적합확인 신고증명서 또는 국립환경과학원장의 안전확인대상생활화학제품 승인통지서\", \"(44)(가) 이동식부탄연소기·이동식프로판연소기 – 한국가스안전공사의 가스용품 검사신청서\"",
+  "fix": null
+ },
+ {
+  "claim": "<a href=\"/library/customs/cu-clearance\">수출입 통관</a>",
+  "verdict": "partly",
+  "evidence": "repo customs-library.js: id 'cu-clearance' short \"통관 절차와 HS 코드\"(링크 경로는 존재). 다른 문서(rk-cross 등)도 이 링크 글자를 '통관 절차와 HS 코드'로 씀",
+  "fix": "<a href=\"/library/customs/cu-clearance\">통관 절차와 HS 코드</a>"
+ },
+ {
+  "claim": "상용 온도에서 0.2메가파스칼 이상인 액화가스, 1메가파스칼 이상인 압축가스 등이 대상입니다(시행령 제2조)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 고압가스 안전관리법 시행령 제2조 1호 \"상용(常用)의 온도에서 압력 … 1메가파스칼 이상이 되는 압축가스\", 3호 \"상용의 온도에서 압력이 0.2메가파스칼 이상이 되는 액화가스\"",
+  "fix": null
+ },
+ {
+  "claim": "일회용 용기를 \"접합 또는 납붙임용기\"로 정의하고(제2조제26호)",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 고압가스 안전관리법 시행규칙 제2조① 26.: \"'접합 또는 납붙임용기'란 … 내용적(內容積) 1리터 이하인 일회용 용기를 말한다.\" 내용은 맞고 조문 표기는 제2조제1항제26호",
+  "fix": "일회용 용기를 \"접합 또는 납붙임용기\"로 정의하고(제2조제1항제26호)"
+ },
+ {
+  "claim": "차량 앞뒤에 붉은 글씨로 \"위험고압가스\" 경계표지와 전화번호를 표시합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 시행규칙 [별표 30] 1.나.1)나): \"다만, 접합용기 또는 납붙임용기에 충전하여 포장한 것을 운반하는 차량의 경우에는 그 차량의 앞뒤의 보기 쉬운 곳에 붉은 글씨로 '위험고압가스'라는 경계표지와 전화번호만 표시할 수 있다.\"",
+  "fix": null
+ },
+ {
+  "claim": "외면에 가스의 종류·용도·취급 시 주의사항을 적은 포장상자만 싣고, 적재함 위에 보호망을 씌웁니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 별표 30 1.나.2)나): \"포장상자 … 의 외면에 가스의 종류ㆍ용도 및 취급 시 주의사항을 적은 것만 적재하고, 그 용기의 이탈을 막을 수 있도록 보호망을 적재함 위에 씌울 것\"",
+  "fix": null
+ },
+ {
+  "claim": "충전용기와 위험물안전관리법의 위험물은 같은 차량에 싣지 않습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 별표 30 1.나.2)마): \"충전용기와 「위험물 안전관리법」 제2조제1항제1호에서 정하는 위험물과는 동일차량에 적재하여 운반하지 아니할 것\" (13kg 이하 적용 제외 목록에 2)마)는 없으므로 소량이어도 남음)",
+  "fix": null
+ },
+ {
+  "claim": "가연성 액화가스를 납붙임·접합용기로 2천kg 이상 실으면 운반책임자가 동승합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 별표 30 1.나.3) 표: \"액화가스 가연성가스 3천㎏ 이상(납붙임용기 및 접합용기의 경우는 2천㎏ 이상)\"",
+  "fix": null
+ },
+ {
+  "claim": "운반하는 용기의 합산된 저장능력이 13kg(압축가스 1.3㎥) 이하이면 경계표지·포장상자·동승 등 일부 기준을 적용하지 않습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 별표 30 1.나.5): \"1)부터 4)까지에도 불구하고 다음의 경우에는 1), 2)가), 2)나), 3), 4)가) … 를 적용하지 아니한다. 가) 운반하는 용기의 합산된 저장능력이 13㎏(압축가스의 경우에는 1.3㎥) 이하인 경우\" (정확한 조문: 별표 30 제1호나목5)가))",
+  "fix": null
+ },
+ {
+  "claim": "이동식 부탄연소기용 용기(캠핑용 부탄캔)도 「액화석유가스의 안전관리 및 사업법 시행규칙」 별표 4에 따라 이 별표 30의 운반 기준을 준용합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 액화석유가스의 안전관리 및 사업법 시행규칙 [별표 4](충전사업자 기준): \"(1) 액화석유가스가 충전된 이동식 부탄연소기용 용접용기 … 의 운반기준은 「고압가스 안전관리법 시행규칙」 별표 30에 따른 고압가스운반 등의 기준을 준용한다.\"",
+  "fix": null
+ },
+ {
+  "claim": "청량음료수·발포성주류에 혼합된 고압가스는 이 법의 적용 범위에서 제외됩니다(시행령 별표 1 제12호·제14호)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 고압가스 안전관리법 시행령 [별표 1]: \"12. 청량음료수ㆍ과실주 또는 발포성주류에 혼합된 고압가스\", \"14. 「소방시설 설치 및 관리에 관한 법률」의 적용을 받는 내용적 1리터 이하의 소화기용 용기 또는 소화기에 내장되는 용기 안에 있는 고압가스\"",
+  "fix": null
+ },
+ {
+  "claim": "소방시설법이 적용되는 내용적 1리터 이하 소화기용 용기의 고압가스는 고압가스 안전관리법 적용 제외",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 시행령 별표 1 제14호는 '1리터 이하의 소화기용 용기 또는 소화기에 내장되는 용기 안에 있는 고압가스'. 표에는 '소화기에 내장되는 용기'가 빠져 범위가 좁게 읽힘(3절 본문은 정확)",
+  "fix": "소방시설법이 적용되는 내용적 1리터 이하 소화기용 용기 또는 소화기에 내장되는 용기 안의 고압가스는 고압가스 안전관리법 적용 제외(시행령 별표 1 제14호)"
+ },
+ {
+  "claim": "캔 1개 충전량 220g, 1상자 28개라고 가정한 예시입니다.",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 별표 30의 기준은 '합산된 저장능력'이고, 저장능력은 시행규칙 제2조①6호·[별표 1]에 따라 액화가스 용기는 W=V₂/C(내용적÷충전상수)로 산정. 충전량과 거의 같지만 같은 개념은 아님. 산술(0.22×28=6.16, ×2=12.32, ×3=18.48)은 맞음",
+  "fix": "캔 1개 충전량 220g, 1상자 28개라고 가정한 예시입니다. 법의 기준은 '저장능력'(액화가스 용기는 내용적을 충전상수로 나눈 값)이며, 여기서는 캔 1개의 저장능력을 충전량과 같은 220g으로 보았습니다."
+ },
+ {
+  "claim": "3상자 = 18.48kg → 13kg 초과이므로",
+  "verdict": "correct",
+  "evidence": "산술 0.22×28×3=18.48. 13kg 초과 시 별표 30 1)·2)나) 적용",
+  "fix": null
+ },
+ {
+  "claim": "UN 1266 향료제품류(인화성 용제 포함) Class 3, 용기등급(PG) Ⅱ·Ⅲ</td><td>LQ 5L, EQ E2(Ⅱ)·E1(Ⅲ)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1266 PG II: LQ 5 L, E2; PG III: LQ 5 L, E1. MSC.556(108) 위험물목록 동일",
+  "fix": null
+ },
+ {
+  "claim": "LQ 500mL(PG Ⅰ), 5L(Ⅱ·Ⅲ)</td><td>화장품. 비고 제11호가목 제외",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1263 PG I 500 ml/E3, PG II 5 L/E2, PG III 5 L/E1",
+  "fix": null
+ },
+ {
+  "claim": "UN 1090 아세톤 Class 3 PGⅡ, 혼합물이면 UN 1993 등</td><td>LQ 1L, EQ E2",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1090 ACETONE 3 II LQ 1 L E2",
+  "fix": null
+ },
+ {
+  "claim": "아세톤 함유 리무버는 화장품법 시행규칙 제18조의 안전용기·포장 대상",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 화장품법 시행규칙 제18조①: \"1. 아세톤을 함유하는 네일 에나멜 리무버 및 네일 폴리시 리무버\" (일회용·분무용기 제품은 제외)",
+  "fix": null
+ },
+ {
+  "claim": "인화성 성분 85질량% 이상 등이면 2.1, 1질량% 이하 등이면 2.2, 그 사이는 시험으로 결정(특별규정 63)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 63: \".1 Class 2.1 applies if the contents include 85% by mass or more flammable components and the chemical heat of combustion is 30 kJ/g or more; .2 Class 2.2 applies if the contents contain 1% by mass or less flammable components and the heat of combustion is less than 20 kJ/g. .3 Otherwise the product shall be classified as tested\"",
+  "fix": null
+ },
+ {
+  "claim": "LQ 1,000mL(특별규정 277). 무독성 내용물만 든 50mL 이하는 IMDG 적용 제외(특별규정 190)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 277: \"For aerosols or receptacles containing toxic substances, the limited quantity value is 120 mL. For all other aerosols or receptacles, the limited quantity value is 1,000 mL.\" SP 190: \"Aerosols with a capacity not exceeding 50 mL containing only non-toxic constituents are not subject to the provisions of this Code.\"",
+  "fix": null
+ },
+ {
+  "claim": "알코올 24부피퍼센트 이하 수용액은 적용 제외(특별규정 144)</td><td>LQ 1L(Ⅱ)·5L(Ⅲ)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 144: \"An aqueous solution containing not more than 24% alcohol by volume is not subject to the provisions of this Code.\" repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1170/1987 PG II 1 L, PG III 5 L",
+  "fix": null
+ },
+ {
+  "claim": "알코올 60중량퍼센트 이상이면 알코올류라 비고 제11호다목 제외가 안 되어 제4류 알코올류(지정수량 400리터)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 비고 11 다목 괄호 \"(알코올류에 해당하는 것은 제외한다)\", 비고 14, 별표 1 \"3. 알코올류 400리터\"",
+  "fix": null
+ },
+ {
+  "claim": "분사 내용물이 6.1 또는 8급 PG Ⅱ·Ⅲ이면 부위험성 추가(특별규정 63)</td><td>LQ 1,000mL. 독성 물질이 든 에어로졸은 120mL(특별규정 277)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 63 .5: \"Where the contents other than the propellant … are classified as class 6.1 packing groups II or III or class 8 packing groups II or III, the aerosol shall have a subsidiary hazard of class 6.1 or class 8\"; SP 277",
+  "fix": null
+ },
+ {
+  "claim": "PG Ⅲ 항목은 시험 결과 분류 기준에 해당하지 않으면 적용 제외(특별규정 223). IMDG 위험물목록에 해양오염물질로 표시",
+  "verdict": "partly",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 223: \"… it is not subject to the provisions of this Code except in the case of a marine pollutant where 2.10.3 applies.\" UN 1791은 위험물목록 4란에 P(해양오염물질) 표시(repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1791 mp=1). 두 사실을 따로 적어 223 제외가 그대로 통하는 것처럼 읽힘",
+  "fix": "PG Ⅲ 항목은 시험 결과 어느 급의 분류 기준에도 해당하지 않으면 적용 제외(특별규정 223). 다만 UN 1791은 IMDG 위험물목록에 해양오염물질로 표시되어 있어, 해양오염물질 기준(2.10.3)에 해당하면 이 제외를 쓸 수 없음"
+ },
+ {
+  "claim": "LQ 1L(Ⅱ)·5L(Ⅲ)</td><td>안전확인대상생활화학제품(세정제·표백제 등 용도별)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1791 PG II 1 L E2, PG III 5 L E1",
+  "fix": null
+ },
+ {
+  "claim": "과산화수소 수용액 8% 이상 20% 미만 UN 2984(5.1, PG Ⅲ), 20% 이상 60% 이하 UN 2014(5.1, 부위험성 8). 분말 과탄산나트륨은 UN 3378(5.1)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 2984 5.1 III LQ 5 L; 2014 5.1(8) II LQ 1 L; 3378 5.1 II 1 kg / III 5 kg. IMDG SP 65: 8% 미만 수용액은 적용 제외",
+  "fix": null
+ },
+ {
+  "claim": "고체 UN 1823(8, PG Ⅱ), 용액 UN 1824(8, PG Ⅱ·Ⅲ), 젤·혼합액은 UN 1719 등",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1823 8 II LQ 1 kg; 1824 8 II 1 L / III 5 L; 1719 8 II·III",
+  "fix": null
+ },
+ {
+  "claim": "UN 1133 접착제(인화성 액체 포함) Class 3</td><td>LQ 500mL(Ⅰ), 5L(Ⅱ·Ⅲ)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1133 PG I 500 ml, II 5 L, III 5 L",
+  "fix": null
+ },
+ {
+  "claim": "톨루엔·초산에틸·메탄올 사용 제품은 \"직접흡입 등 오·남용을 하지 마시오\" 표시",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul (law.go.kr Open API, 2026-10-19 재조회) 고시 제2026-215호 [별표 5] Ⅱ 표1: \"접착제, 경화촉진제 ※ 톨루엔, 초산에틸, 메탄올 중 어느 하나의 화학물질이 사용된 경우에 한함 – 직접흡입 등 오·남용을 하지 마시오.\"",
+  "fix": null
+ },
+ {
+  "claim": "PG에 따라 LQ 500mL·1L·5L",
+  "verdict": "partly",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1263 PG I 500 ml, PG II·III 5 L; 1993 PG I LQ 0(한정수량 불가), PG II 1 L, PG III 5 L. UN 1993 PG Ⅰ은 LQ로 보낼 수 없다는 점이 빠짐",
+  "fix": "품명·PG에 따라 LQ 500mL(UN 1263 PG Ⅰ)·1L(UN 1993 PG Ⅱ)·5L. UN 1993 PG Ⅰ은 LQ 불가(0)"
+ },
+ {
+  "claim": "UN 1057 가스라이터 2.1. 라이터는 액화석유가스 10g 이하, 리필은 65g 이하 등 조건(특별규정 201)</td><td>IMDG LQ 0(한정수량 불가)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 201: \"Lighters shall not contain more than 10 g of liquefied petroleum gas. Lighter refills shall not contain more than 65 g of liquefied petroleum gas.\" repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1057 2.1 LQ 0 E0",
+  "fix": null
+ },
+ {
+  "claim": "안전성냥 UN 1944, 왁스성냥 UN 1945, 딱성냥 UN 1331, 모두 4.1 PG Ⅲ",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1944·1945 4.1 III SP 293 294; 1331 4.1 III SP 293(294 없음)",
+  "fix": null
+ },
+ {
+  "claim": "안전성냥·왁스성냥은 P407로 포장하고 외포장 순중량 25kg 이하이면 표시 외 IMDG 적용 제외(특별규정 294)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 294: \"Safety matches and wax 'Vesta' matches in an outer packaging not exceeding 25 kg net mass are not subject to any other provision (except marking) of this Code when packaged in accordance with packing instruction P407.\"",
+  "fix": null
+ },
+ {
+  "claim": "UN 2037 소형가스용기(가스 카트리지) Class 2(LPG는 2.1). 무독성 50mL 이하는 적용 제외(특별규정 191)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 191: \"Receptacles with a capacity not exceeding 50 mL containing only non-toxic constituents are not subject to the provisions of this Code.\" repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 2037 class 2, SP 191 277 303, LQ 특별요건 277",
+  "fix": null
+ },
+ {
+  "claim": "고형 알코올 연료는 UN 1325(가연성 고체) 또는 UN 3175(인화성 액체 함유 고체), 착화제는 UN 2623(불쏘시개, 인화성 액체 함유), 헥사민 고형연료는 UN 1328. 모두 4.1",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1325 4.1 II 1 kg/III 5 kg; 3175 4.1 II 1 kg; 2623 4.1 III 5 kg; 1328 4.1 III 5 kg",
+  "fix": null
+ },
+ {
+  "claim": "UN 3480 리튬이온 배터리 Class 9. IATA는 보조배터리를 장비가 아니라 배터리로 분류(리튬금속이면 UN 3090)",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf (Revised for the 2026 Regulations) \"power banks are to be classified as batteries and must be assigned to UN 3480, lithium ion batteries, or UN 3090, lithium metal batteries, as applicable.\"",
+  "fix": null
+ },
+ {
+  "claim": "해상: 리튬이온 셀 20Wh·배터리 100Wh 이하 등 조건을 갖추면 특별규정 188로 대부분 적용 제외",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 188: \"Cells and batteries … are not subject to other provisions of this Code if … .1 … lithium ion … cell, the watt-hour rating is not more than 20 Wh; .2 … lithium ion … battery … not more than 100 Wh\" (.6 리튬배터리 마크 등은 남음)",
+  "fix": null
+ },
+ {
+  "claim": "UN 3556 리튬이온 배터리로 추진되는 자동차(차량). IMDG 42-24와 IATA 2026년 지침에 반영",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 388: \"UN 3556 VEHICLE, LITHIUM ION BATTERY POWERED … apply to vehicles powered by lithium ion … batteries … Examples of such vehicles are cars, motorcycles, scooters, … bicycles (pedal cycles with a motor) and other vehicles of this type (e.g. self-balancing vehicles …)\"; https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf (Revised for the 2026 Regulations) \"Vehicles powered by batteries (PI 952) … UN 3556 - Vehicle, lithium-ion battery powered\"",
+  "fix": null
+ },
+ {
+  "claim": "그 밖의 배터리 차량은 UN 3171",
+  "verdict": "partly",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 388: \"Entry UN 3171 only applies to vehicles and equipment powered by wet batteries, metallic sodium batteries or sodium alloy batteries\"; 리튬금속 차량은 UN 3557, 나트륨이온 차량은 UN 3558. repo dg-lithium.html도 \"UN 3171 … 이제 습식 배터리나 금속 나트륨 배터리로 움직이는 차량·장비에만 씁니다\"",
+  "fix": "리튬금속 배터리 차량은 UN 3557, 나트륨이온 배터리 차량은 UN 3558이며, UN 3171은 습식 배터리·금속 나트륨 배터리 차량에만 씀"
+ },
+ {
+  "claim": "없음. 항공은 100Wh 초과 배터리의 충전 상태 30% 이하 등 조건",
+  "verdict": "partly",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 961.1: 로로선 차량 구역 등에 적재하면 적용 제외, \"When packed in a cargo transport unit the exception does not apply to container cargo spaces\"; SP 962: 그 밖에는 Class 9. https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf (Revised for the 2026 Regulations) \"Vehicles powered by batteries with a watt-hour rating exceeding 100 Wh must be offered for transport with: the battery(ies) at a state of charge not exceeding 30% … or an indicated battery capacity not exceeding 25%.\" 컨테이너 운송 기준으로 '없음'은 맞지만 해상 예외가 있어 단정은 과함",
+  "fix": "컨테이너 해상 운송은 LQ 불가, Class 9(특별규정 962 조건). 로로선 차량 구역에 실을 때만 특별규정 961로 적용 제외. 항공은 100Wh 초과 배터리의 충전 상태 30% 이하(또는 표시 잔량 25% 이하) 등 조건"
+ },
+ {
+  "claim": "해상: UN 3082는 내부 포장 5L 이하이면 포장 일반요건 외 적용 제외(특별규정 375)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 375: \"… net quantity per single or inner packaging of 5 L or less for liquids … are not subject to any other provisions of the present Code, provided the packagings meet the general provisions of 4.1.1.1, 4.1.1.2 and 4.1.1.4 to 4.1.1.8.\"",
+  "fix": null
+ },
+ {
+  "claim": "습식 UN 2794(8, 산 충전), 누출방지형 UN 2800(8)</td><td>LQ 1L. 누출방지형은 55℃에서 깨진 케이스로 전해액이 흐르지 않고 단자가 단락 보호되면 IMDG 적용 제외(특별규정 238)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 238.2: \"Non-spillable batteries are not subject to the provisions of this Code if, at a temperature of 55°C, the electrolyte will not flow from a ruptured or cracked case and there is no free liquid to flow and if, when packaged for transport, the terminals are protected from short circuit.\" repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 2794·2800 LQ 1 L",
+  "fix": null
+ },
+ {
+  "claim": "UN 3268 안전장치(전기 작동식) Class 9. 시험 시리즈 6(c) 통과 조건(특별규정 280). 통과하지 못하면 1급",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 280: \"… air bag inflators, air bag modules, seat-belt pretensioners … if these articles as presented for transport have been tested in accordance with test series 6(c) …\"; repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 3268 9 SP 280 289 LQ 0; 0503 SAFETY DEVICES, PYROTECHNIC 1.4G",
+  "fix": null
+ },
+ {
+  "claim": "총포화약법의 화공품(인체보호용 가스발생기). 안전기준에 해당하면 일부 조항 외 적용 제외",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 총포ㆍ도검ㆍ화약류 등의 안전관리에 관한 법률 제2조③3호 \"차. 자동차에어백용 등 인체보호용 가스발생기\", 제3조②: \"… 안전기준에 해당하는 것에 대해서는 제4조, 제4조의2 및 제5조를 제외하고는 이 법을 적용하지 아니한다.\"",
+  "fix": null
+ },
+ {
+  "claim": "전기이중층 축전기(슈퍼커패시터)는 에너지 저장용량 0.3Wh 이하이면 IMDG 적용 제외, 넘으면 UN 3499(특별규정 361)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 361: \"This entry applies to electric double layer capacitors with an energy storage capacity greater than 0.3 Wh. Capacitors with an energy storage capacity of 0.3 Wh or less are not subject to the provisions of this Code.\"",
+  "fix": null
+ },
+ {
+  "claim": "UN 1845 이산화탄소(고체) Class 9. 냉매로 넣은 것도 항공에서는 위험물</td><td>IMDG LQ 0",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1845 CARBON DIOXIDE, SOLID 9 LQ 0 E0",
+  "fix": null
+ },
+ {
+  "claim": "압축 산소는 UN 1072 산소(압축된 것) 2.2(부위험성 5.1)가 흔함. 제품에 따라 다른 품명</td><td>UN 1072는 IMDG LQ 0",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1072 OXYGEN, COMPRESSED 2.2 (5.1) LQ 0 E0",
+  "fix": null
+ },
+ {
+  "claim": "작동용 카트리지(1.4C·1.4S)가 들어 있어도 소화기 1개당 화약 3.2g 이하면 2.2 유지(특별규정 225)</td><td>LQ 120mL",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 225: \"… installed actuating cartridges (… division 1.4C or 1.4S) without changing the classification of class 2.2 provided the total quantity of deflagrating (propellant) explosives does not exceed 3.2 g per extinguishing unit.\" repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1044 LQ 120 ml",
+  "fix": null
+ },
+ {
+  "claim": "UN 3506 제품에 내장된 수은 Class 8(부위험성 6.1). 수은 1kg 이하 내장 기기는 IMDG 적용 제외(특별규정 366)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 366: \"Manufactured instruments and articles containing not more than 1 kg of mercury or gallium are not subject to the provisions of this Code.\" repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 3506 8 (6.1)",
+  "fix": null
+ },
+ {
+  "claim": "항공은 소량위험물(LQ) 대상에서 제외되는 번호(「항공위험물운송기술기준」 제66조)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul (law.go.kr Open API, 2026-10-19 재조회) 항공위험물운송기술기준(고시 제2023-52호) 제66조②8: \"포장등급 Ⅱ,Ⅲ의 제8류에 속하는 위험물 … 다만, 유엔번호 2794, 2795, 2803, 2809, 3028 및 3506은 제외한다.\"",
+  "fix": null
+ },
+ {
+  "claim": "UN 2807 자성물질 Class 9, 항공에서만 적용. IMDG는 적용 제외(특별규정 960)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 960: \"Not subject to the provisions of this Code but may be subject to provisions governing the transport of dangerous goods by other modes.\"",
+  "fix": null
+ },
+ {
+  "claim": "UN 0336(1.4G), 0337(1.4S), 0335(1.3G) 등 연화. 분류는 시험 결과로</td><td>LQ 0, EQ E0",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 0336 1.4G, 0337 1.4S, 0335 1.3G, LQ 0, E0",
+  "fix": null
+ },
+ {
+  "claim": "운반은 경찰서장 신고(대통령령 수량 이하 제외)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law (law.go.kr Open API, 2026-10-19 재조회) 총포화약법 제26조①: \"화약류를 운반하려는 사람은 … 발송지를 관할하는 경찰서장에게 신고하여야 한다. 다만, 대통령령으로 정하는 수량 이하의 화약류를 운반하는 경우에는 그러하지 아니하다.\"",
+  "fix": null
+ },
+ {
+  "claim": "부풀린 풍선은 20℃에서 200kPa 미만이고 액화가스가 아니면 IMDG 적용 제외(2.2.2)</td><td>UN 1046 LQ 120mL",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 2.2.2: \"Gases of class 2.2 are not subject to the provisions of this Code if they are transported at a pressure of less than 200 kPa at 20°C and are not liquefied or refrigerated liquefied gases.\" repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1046 2.2 LQ 120 ml",
+  "fix": null
+ },
+ {
+  "claim": "해상: 내부 포장당 위험물목록 7a란 수량 이하, 포장물 총중량 30kg 이하(수축·스트레치 포장 트레이는 20kg 이하)이면 포장 성능시험·위험물 라벨 등 대부분 면제, 적재 카테고리 A",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 3.4.1.2 column 7a; 3.4.2.1 \"The total gross mass of the package shall not exceed 30 kg.\"; 3.4.2.2 shrink-/stretch-wrapped trays \"… shall not exceed 20 kg.\"; 3.4.3 \"allocated stowage category A\"",
+  "fix": null
+ },
+ {
+  "claim": "해상은 IMDG 5.4장 운송서류(위험물 신고) 적용, LQ 마크 표시. 항공은 Y 포장지침, 포장물 총중량 30kg 이하, 위험물 운송서류",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 3.4.1.2 .5: \"Part 5, 5.1.1 except … and chapter 5.4\"; 항공위험물운송기술기준 제67조④(Y 포장지침), 제68조② \"포장물당 총중량은 30킬로그램을 초과할 수 없다\", 제71조 \"위험물 운송서류는 제105조부터 제109조까지의 모든 기준을 충족하여야 한다\"",
+  "fix": null
+ },
+ {
+  "claim": "E1~E5 코드에 따라 내부 포장 30mL(g) 또는 1mL(g), 외부 포장 300~1,000mL(g) 이하이면 대부분 면제",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 3.5.1.2 표: E1 30/1,000, E2 30/500, E3 30/300, E4 1/500, E5 1/300; 3.5.1.1 남는 조항: 1.3 교육, Part 2 분류, 4.1.1.1 등 포장, 5.4장 서류",
+  "fix": null
+ },
+ {
+  "claim": "세면용품·의료용품은 개별 0.5kg 또는 0.5리터 이하, 1인당 합계 2kg 또는 2리터 이하",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul (law.go.kr Open API, 2026-10-19 재조회) 항공위험물운송기술기준(고시 제2023-52호) 별표 24 3)·10)·13): \"개별품목 당 0.5킬로그램 또는 0.5리터를 초과하지 않을 것\", \"승객 1인당 총 순수량이 2킬로그램 또는 2리터를 초과하지 않을 것\"",
+  "fix": null
+ },
+ {
+  "claim": "첫째, 한정수량 값이 0인 품목(라이터 UN 1057, 리튬배터리 UN 3480·3481, 산소 UN 1072, 드라이아이스 UN 1845, 에어백 UN 3268, 연화)은 LQ로 보낼 수 없습니다.",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24) 1057·3480·3481·1072·1845·3268·0335~0337 모두 LQ 0; IMDG 3.4.1.2 \"the quantity '0' has been indicated … for each entry not permitted\"",
+  "fix": null
+ },
+ {
+  "claim": "「항공위험물운송기술기준」 제66조제2항은 2.1·2.2급 중 UN 1950과 부위험성 없는 UN 2037",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul (law.go.kr Open API, 2026-10-19 재조회) 항공위험물운송기술기준 제66조②: 1호 UN 1950, 부차적 유해성 없는 UN 2037(2.1·2.2), 2호 3류 PG Ⅱ·Ⅲ, 3호 4.1(자기반응성 제외) PG Ⅱ·Ⅲ, 4호 4.3 고체 PG Ⅱ·Ⅲ, 5호 5.1, 7호 6.1, 8호 8류(2794·2795·2803·2809·3028·3506 제외), 9호 9류 UN 1941·1990·2071·3077·3082·3316·3334·3335·ID 8000. 4.3 고체·5.2 키트는 문장에 없지만 결론(1044·1046·리튬배터리·1845 불가)은 맞음",
+  "fix": null
+ },
+ {
+  "claim": "캔 0.3kg × 48개 = 14.4kg, 상자 1.0kg 더해 15.4kg",
+  "verdict": "correct",
+  "evidence": "산술 확인 0.3×48=14.4, +1.0=15.4 ≤ 30kg(IMDG 3.4.2.1)",
+  "fix": null
+ },
+ {
+  "claim": "국제·국내 불일치 사례</a>, 일반 품명",
+  "verdict": "outdated",
+  "evidence": "repo dg-library.js: id 'kr-mismatch' short \"국제·국내 기준이 다른 품목\"(커밋 57dc00b에서 이름 변경)",
+  "fix": "국제·국내 기준이 다른 품목</a>, 일반 품명"
+ },
+ {
+  "claim": "국제·국내 불일치 사례</a>를 보십시오",
+  "verdict": "outdated",
+  "evidence": "repo dg-library.js: id 'kr-mismatch' short \"국제·국내 기준이 다른 품목\"",
+  "fix": "국제·국내 기준이 다른 품목</a>을 보십시오"
+ },
+ {
+  "claim": "<a data-doc=\"case-accident\">위험물 사고 사례</a>",
+  "verdict": "outdated",
+  "evidence": "repo dg-library.js: 'case-accident'는 이제 \"해외 위험물 사고\"(ValuJet·Maersk Honam 등)만 다루고, 국내 사고는 'case-kr-accident' \"국내 위험물 사고\"(안성 물류창고 화재 등)로 분리됨",
+  "fix": "<a data-doc=\"case-kr-accident\">국내 위험물 사고</a>와 <a data-doc=\"case-accident\">해외 위험물 사고</a>"
+ },
+ {
+  "claim": "<a data-doc=\"dg-msds\">MSDS(SDS) 읽는 법</a>을 보십시오. 위험물 표시가",
+  "verdict": "correct",
+  "evidence": "repo dg-library.js ids 존재: kr-system, kr-small, dg-hidden, dg-msds, dg-lithium, dg-marks(짧은 이름도 일치); /unnumber는 vercel.json rewrite(→ /tool/unnumber) 존재",
+  "fix": null
+ }
+]

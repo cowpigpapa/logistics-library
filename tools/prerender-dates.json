@@ -1,7 +1,7 @@
 {
  "https://logistics.onharu.app/": {
-  "hash": "df330550dfc80da5",
-  "modified": "2026-10-19T20:55:53+09:00",
+  "hash": "e3c92448f82ab5e5",
+  "modified": "2026-10-19T21:07:08+09:00",
   "published": "2026-10-11T23:23:57+09:00"
  },
  "https://logistics.onharu.app/library/air-uld": {
@@ -430,8 +430,8 @@
   "published": "2026-10-19T14:12:06+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods": {
-  "hash": "f53703c3f5aaf3d3",
-  "modified": "2026-10-19T20:21:05+09:00",
+  "hash": "1ae8ebefa1b43677",
+  "modified": "2026-10-19T21:07:07+09:00",
   "published": "2026-10-11T23:23:30+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/case-accident": {
@@ -469,6 +469,11 @@
   "modified": "2026-10-19T20:20:45+09:00",
   "published": "2026-10-19T16:24:14+09:00"
  },
+ "https://logistics.onharu.app/library/dangerous-goods/dg-household": {
+  "hash": "3c1c4ed3b49230ac",
+  "modified": "2026-10-19T21:06:56+09:00",
+  "published": "2026-10-19T21:06:56+09:00"
+ },
  "https://logistics.onharu.app/library/dangerous-goods/dg-kr-duty": {
   "hash": "63f6e8e4114de092",
   "modified": "2026-10-14T00:28:47+09:00",
@@ -505,8 +510,8 @@
   "published": "2026-10-05T21:25:48+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/kr-mismatch": {
-  "hash": "b3b0c63be2fd3e0c",
-  "modified": "2026-10-19T20:06:07+09:00",
+  "hash": "76e57cc935caaca5",
+  "modified": "2026-10-19T21:07:07+09:00",
   "published": "2026-10-05T21:25:48+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/kr-small": {
