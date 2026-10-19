@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/customs';
-  const DOCS_VERSION = '20261018-05';
+  const DOCS_VERSION = '20261019-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -35,6 +35,10 @@
     { id: 'cu-documents', checked: '2026-10-18', tag: "서류", level: 3, title: "수출입 기본 서류 — 상업송장(인보이스)과 포장명세서(패킹리스트)", short: "인보이스·패킹리스트", summary: "관세청 송품장 기재요령과 신고서 작성요령으로 본 인보이스·패킹리스트의 필수 항목, 같은 숫자가 B/L·적하목록·신고서·원산지증명서·위험물 서류·보험증권과 맞아야 하는 이유, 저가·분할 송장의 법적 결과를 정리하고 서로 맞는 서류 예시와 흔한 불일치 8가지를 보여 줍니다." },
     { id: 'cu-clearance', tag: "통관", level: 3, title: "수출입 통관 절차와 HS 코드 — 신고 시기·기한, 세금 계산, 품목분류", short: "통관 절차와 HS 코드", summary: "수출신고수리 후 30일 적재, 수입신고 네 가지 시기와 30일 신고기한·가산세, CIF 과세가격과 부가가치세 계산, HS 코드 통칙과 품목분류 사전심사, 적재화물목록 정정을 관세법·고시 원문 기준으로 정리하고 포워더와 관세사의 역할을 나눕니다." },
     { id: 'cu-import-timeline', checked: '2026-10-18', tag: "수입일정", level: 3, title: "수입 화물 일정표 — 도착부터 반출까지 누가 무엇을 하고 어느 시계가 언제 도는가", short: "수입 도착·반출 일정표", summary: "해상 FCL·LCL과 항공 수입에서 적재화물목록 제출부터 반출·빈 컨테이너 반납까지 날짜별로 누가 무엇을 하는지, 터미널 보관료·선사 D&D·30일 신고기한·장치기간·15일 반출이 언제 시작하고 멈추는지를 한 표로 정리하고 반출을 막는 서류와 사전 통지 항목을 보여 줍니다." },
+    { id: 'cu-hs-practice', checked: '2026-10-19', tag: "품목분류", level: 2, title: "HS 코드는 어떻게 정해지나 — 실무 사례로 보는 품목분류", short: "HS 품목분류 실무 사례", summary: "지우개 달린 연필, 선물세트, 스마트워치처럼 헷갈리는 물품이 관세율표 해석 통칙 1~6호와 부·류의 주에 따라 어떻게 하나의 HS 코드로 정해지는지 관세청 결정과 HS 해설서 원문으로 보여 줍니다. 세율 낮은 코드를 고르면 안 되는 이유와 역할별 점검표를 함께 정리합니다." },
+    { id: 'cu-aeo', checked: '2026-10-19', tag: "AEO", level: 2, title: "수출입 안전관리 우수업체(AEO) — 공인 기준·등급·혜택과 공인 뒤 관리", short: "AEO 공인과 사후관리", summary: "관세법·AEO 고시 기준으로 9개 공인부문, 공인 점수 요건과 A·AA·AAA 등급, 신청부터 갱신심사까지의 기간, 업종별 혜택과 MRA, 공인 뒤 보고·교육 의무와 혜택 정지·취소 사유를 정리합니다." },
+    { id: 'cu-penalty', checked: '2026-10-19', tag: "제재", level: 3, title: "세관 과태료·가산세·벌금 — 무엇이 다르고, 통지를 받으면 어떻게 대응하나", short: "과태료·가산세·벌금", summary: "관세법상 가산세(세금)·과태료(행정질서벌)·벌금과 통고처분(형벌)을 물류 위반 사례로 구분하고, 과태료 사전통지 뒤 의견제출·자진납부 감경·이의제기 절차와 역할별 책임, 기록 관리, 기한 달력을 정리합니다." },
+    { id: 'cu-us-filing', checked: '2026-10-19', tag: "사전신고", level: 3, title: "미국·캐나다 사전신고 — AMS(24시간 규칙)·ISF(10+2)·ACAS·ACI 기한과 벌금 피하는 법", short: "미국·캐나다 사전신고", summary: "미국행 해상 AMS와 ISF(10+2), 항공 사전정보·ACAS, 캐나다 ACI(eManifest)를 누가 무엇을 언제까지 보내는지 미국·캐나다 규정 원문으로 정리하고, 부산 선적 일정으로 기한을 계산하며 벌금과 자주 하는 실수를 보여 줍니다." },
     { id: 'cu-fta', tag: "FTA", level: 3, title: "FTA 원산지 — 협정관세 요건, 원산지증명, 직접운송과 B/L", short: "FTA 원산지와 직접운송", summary: "협정관세를 받는 요건과 원산지 결정기준, 협정별 증명 방식과 유효기간, 수입 쪽 적용신청·사후적용·검증, 직접운송 원칙과 제3국 경유 때 필요한 서류, B/L 문구를 정리합니다." },
     { id: 'cu-bonded', tag: "보세운송", level: 3, title: "보세구역과 보세운송 — 수입화물이 통관 전에 머무는 곳과 옮기는 방법", short: "보세구역과 보세운송", summary: "보세구역 종류와 장치기간, 반입·반출신고와 화물관리번호, 보세운송의 신고·승인 구분과 신고인, 운송기간·담보·도착보고, 운송 중 사고의 관세 책임, 부산항·인천공항에서 내륙 보세창고로 옮기는 흐름을 정리합니다." }
   ];
@@ -48,16 +52,21 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "서류와 통관", sub: "인보이스·패킹리스트 · 수출입신고 · HS 코드 · 수입 일정표", docs: ["cu-documents", "cu-clearance", "cu-import-timeline"] },
+    { title: "서류와 통관", sub: "인보이스·패킹리스트 · 수출입신고 · HS 코드 · 수입 일정표", docs: ["cu-documents", "cu-clearance", "cu-hs-practice", "cu-import-timeline"] },
     { title: "원산지", sub: "FTA 협정관세 · 원산지증명 · 직접운송", docs: ["cu-fta"] },
-    { title: "보세", sub: "보세구역 · 보세운송", docs: ["cu-bonded"] }
+    { title: "보세", sub: "보세구역 · 보세운송", docs: ["cu-bonded"] },
+    { title: "제도와 제재", sub: "AEO · 과태료·가산세·벌금", docs: ["cu-aeo", "cu-penalty"] },
+    { title: "해외 신고", sub: "미국·캐나다 사전신고", docs: ["cu-us-filing"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
     { name: "인보이스와 패킹리스트에 무엇을 적어야 하나요", ids: ["cu-documents"] },
     { name: "수입신고는 언제 할 수 있나요", ids: ["cu-clearance", "cu-import-timeline"] },
     { name: "화물이 도착하면 반출까지 며칠 걸리나요", ids: ["cu-import-timeline"] },
-    { name: "HS 코드는 누가 정하나요", ids: ["cu-clearance"] },
+    { name: "HS 코드는 누가 정하나요", ids: ["cu-clearance", "cu-hs-practice"] },
+    { name: "지우개 달린 연필은 어느 코드로 신고하나요", ids: ["cu-hs-practice"] },
+    { name: "세관에서 과태료 통지를 받았어요", ids: ["cu-penalty"] },
+    { name: "미국행 화물 ISF는 언제까지 보내나요", ids: ["cu-us-filing"] },
     { name: "FTA 관세를 받으려면 무엇이 필요한가요", ids: ["cu-fta"] },
     { name: "제3국을 거쳐도 FTA가 되나요", ids: ["cu-fta"] },
     { name: "부산에 온 화물을 내륙 창고로 옮겨 통관할 수 있나요", ids: ["cu-bonded"] }
@@ -155,7 +164,7 @@
   }
   async function renderDoc(view, doc) {
     const head = `<nav class="lib-crumb"><a href="${home}">← Customs · 통관</a></nav>`;
-    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${CHECKED} · 법령·고시와 협정은 개정될 수 있으니 실제 신고는 국가법령정보센터·관세청 안내와 관세사를 통해 확인하세요.</p>`;
+    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${doc.checked || CHECKED} · 법령·고시와 협정은 개정될 수 있으니 실제 신고는 국가법령정보센터·관세청 안내와 관세사를 통해 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
     try {

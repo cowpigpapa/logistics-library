@@ -1,0 +1,50 @@
+[
+ {
+  "claim": "한국에서 토요일 오전에 넘긴 자료는 미국 월요일 근무시간(한국 화요일 새벽)까지 처리되지 않을 수 있다는 점도 일정에 넣어야 합니다.",
+  "verdict": "wrong",
+  "evidence": "Time arithmetic (draft's own premises: KST = PST + 17 h in Nov 2026; broker hours 09:00-18:00 PST = 02:00-11:00 KST next day). Saturday 00:00-11:00 KST = Friday 07:00-18:00 PST, so a file sent Saturday morning before 11:00 KST arrives inside the US broker's Friday working hours. Only material sent after Saturday 11:00 KST (Friday 18:00 PST) waits until Monday 09:00 PST = Tuesday 02:00 KST.",
+  "fix": "한국에서 토요일 오전 11시 이후(미국 금요일 오후 6시 이후)에 넘긴 자료는 미국 월요일 근무시간(한국 화요일 02:00 이후)까지 처리되지 않을 수 있다는 점도 일정에 넣어야 합니다. 토요일 오전 11시 전에 넘기면 미국 금요일 근무시간 안에 들어갑니다."
+ },
+ {
+  "claim": "AMS·ACAS·캐나다 House 자료 모두 가장 작은 외포장 단위를 요구",
+  "verdict": "unsupported",
+  "evidence": "US side is supported (19 CFR 4.7a(c)(4)(v) \"the carrier must transmit the quantity of the lowest external packaging unit\"; 122.48a(d)(2)(iv) \"Total quantity based on the smallest external packing unit\"). Canada is not: https://laws-lois.justice.gc.ca/eng/regulations/SOR-86-873/FullText.html Schedule 2 Part 4 item 6 only requires \"Manifest quantity and qualifier — Number and nature of pieces indicated on the bill of lading, waybill or similar document that is issued by the freight forwarder\". No smallest-packing-unit rule found in CBSA D3-3-1 or D3-5-1.",
+  "fix": "AMS·ACAS는 가장 작은 외포장 단위를 요구하고, 캐나다 House 자료는 House B/L에 적힌 포장 수량과 종류를 그대로 보내므로 B/L부터 카톤 기준으로 맞아야 함"
+ },
+ {
+  "claim": "건별. 5건 이상이면 상한 CAD 12,000 / 24,000 / 48,000",
+  "verdict": "overreach",
+  "evidence": "https://www.cbsa-asfc.gc.ca/trade-commerce/amps/contraventions-infractions/c378-eng.html (modified 2025-09-22): \"Cargo reports and conveyance reports are separate instances ... Where 5 or more pre-arrival/pre-load cargo reports and their associated conveyance reports are not transmitted, the maximum penalty amount will not exceed $12,000 for a first level infraction, $24,000 for a second level infraction, and $48,000 for any subsequent infraction.\" The cap is tied to 5+ cargo reports together with their associated conveyance reports, not to any 5 instances.",
+  "fix": "건별(화물 보고와 운송수단 보고는 별개). 화물 보고 5건 이상과 그에 딸린 운송수단 보고를 모두 보내지 않았으면 상한 CAD 12,000 / 24,000 / 48,000"
+ },
+ {
+  "claim": "FROB은 운송인, IE·T&amp;E는 그 보세 서류를 내는 사람",
+  "verdict": "overreach",
+  "evidence": "https://www.ecfr.gov/current/title-19/part-149 § 149.1(a): \"For immediate exportation (IE) and transportation and exportation (T&E) in-bond shipments ... the ISF Importer may also be the party filing the IE, T&E, or FTZ documentation. For FROB cargo, the ISF Importer will be the carrier or the non-vessel operating common carrier.\" The NVOCC is left out for FROB, and for IE/T&E the in-bond filer is an additional option (\"may also\"), not the only filer.",
+  "fix": "FROB은 운송인 또는 NVOCC, IE·T&amp;E는 물품 소유자·구매자 등 또는 그 보세 서류를 내는 사람"
+ },
+ {
+  "claim": "FROB(배에서 내리지 않고 그대로 외국으로 가는 화물)은 운송인이 적재 전까지",
+  "verdict": "overreach",
+  "evidence": "https://www.ecfr.gov/current/title-19/part-149 § 149.1(a): \"For FROB cargo, the ISF Importer will be the carrier or the non-vessel operating common carrier.\" The same sentence says IE/T&E filing is by the in-bond filer, but 149.1(a) only says that party \"may also\" be the ISF Importer.",
+  "fix": "FROB(배에서 내리지 않고 그대로 외국으로 가는 화물)은 운송인 또는 NVOCC가 적재 전까지"
+ },
+ {
+  "claim": "미국 수입자에게서 위임장을 받고 보증을 갖추면 외국 포워더도 ISF 대리인이 될 수 있지만",
+  "verdict": "overreach",
+  "evidence": "https://www.ecfr.gov/current/title-19/part-149 § 149.5(a): the filer \"must establish the communication protocol required by Customs and Border Protection\"; § 149.5(b): \"The ISF Importer must possess [a bond] ... If an ISF Importer does not have a required bond, the agent ... may post the agent's bond\"; § 149.5(c): \"Authorized agents must retain powers of attorney in English\". CBP ISF FAQ (https://www.cbp.gov/sites/default/files/documents/10_2faq_0.pdf) Agents Q5: \"A foreign freight forwarder can also be a filing agent.\" The agent needs a bond only when the importer has none, and the agent also needs a CBP-approved electronic connection. The draft's condition is wrong on both points.",
+  "fix": "미국 수입자에게서 영문 위임장을 받고 CBP 승인 전송 체계(AMS·ABI) 접속을 갖추면 외국 포워더도 ISF 대리인이 될 수 있지만(수입자에게 보증이 없으면 대리인이 자기 보증을 걸어야 함)"
+ },
+ {
+  "claim": "다른 당사자에게서 통상의 관행대로 받은 정보를 합리적으로 믿었고 검증할 수 없었던 것(이 경우 납부 없이 취소될 수도 있음)",
+  "verdict": "overreach",
+  "evidence": "https://www.cbp.gov/sites/default/files/documents/CBPDec09-26.pdf ISF part J.1.f: \"Regarding an inaccurate filing, the presenting party acquired the information from another party in accordance with ordinary commercial practices, and can demonstrate that it reasonably believed the information to be true, and it was not reasonably able to verify the information. This is an extraordinary mitigating factor that may warrant cancellation of a claim without payment.\" This factor applies only to inaccurate filings, not to late filings.",
+  "fix": "부정확 신고에 한해 다른 당사자에게서 통상의 관행대로 받은 정보를 합리적으로 믿었고 검증할 수 없었던 것(이 경우 납부 없이 취소될 수도 있음)"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "7 problems: 1 wrong (Saturday-morning time-zone remark), 1 unsupported (Canada smallest-packing-unit rule), 5 overreach (C378 cap condition, FROB/IE ISF-5 filer x2, foreign-forwarder ISF agent bond condition, CBP Dec. 09-26 reasonable-belief factor scope). Checked and confirmed directly with curl, no browser: eCFR versioner API at 2026-10-15 for 19 CFR 4.7, 4.7a, 4.7c, 4.7d, 4.30(n), 113.62(j)(l), 113.64(d)-(i), 122.48a, 122.48b and Part 149 (all deadlines, ISF elements, B/L 16-char/SCAC/3-year rule, $5,000 / $100,000 / $50,000 amounts); 90 FR 52796 (FR API: effective 2025-11-21, CBP Dec. 25-08, 12-month phased enforcement, willful/egregious language, four new mandatory elements); CSMS #69486540 sent 08/10/2026 extending phased enforcement to May 1, 2027; CBP-190 (2025-09-27 auto-reject, codes 548/549/550, 6H DNL); CBP manifest flyer; ISF FAQ (2010-07-09, non-binding); CBP Dec. 09-26 (F, G, I, J, K: $1,000-2,000 / not less than $2,500); CSMS 13-000298; CBP ISF page (rule effective 2009-01-26). EO 14411 exists: whitehouse.gov page 'Strengthening Customs Enforcement', signed June 3, 2026, 91 FR 35125. Sec. 4(c) orders the Secretary, within 90 days, to revise mitigation standards including 'a minimum liquidated damages floor' and 'eliminating mitigation for repeat offenders'. A Federal Register search for CBP since 2026-06-03 found no revised mitigation guidelines, only an IOR-data notice (2026-08-19) implementing the EO, so the draft's caveat holds. Canada: SOR/86-873 current to 2026-09-30 (ss. 2, 2.1, 14, 15, 15.3, 17, 17.2, 19, 19.2, 21, 21.2, 28, 30, Sch. 2 Part 4), D3-3-1 paras 5/8/9/12 and the back-to-back definition, D3-5-1 paras 70/89, AMPS C378/C379/C381/C382 amounts, 30-day escalation delay and 12-month retention. All correct apart from the items above. Worked-example arithmetic and weekdays are correct (US DST ends Sun 2026-11-01; 11-11 08:00 KST = 11-10 15:00 PST; 11-23 06:00 PST = 11-23 23:00 KST; stow plan 11-14 20:00 KST; air 11-13 04:00 KST). All external links and internal /library/ links resolve. No contradiction with cu-clearance or cu-import-timeline (Korean export manifest 24 h before loading). No advice to physically inspect cargo: the draft explicitly says the forwarder works from shipper documents.",
+  "fix": ""
+ }
+]

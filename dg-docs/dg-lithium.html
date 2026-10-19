@@ -1,0 +1,246 @@
+<p>"보조배터리 200개를 항공으로 보내려는데 일반화물로 되나요?", "노트북 박스에 여분 배터리를 넣었는데 UN 3481인가요, 3480인가요?", "해상으로는 문제없이 나갔던 배터리가 왜 항공에서는 신고서를 요구하나요?" 리튬배터리 화물을 받으면 화주·포워더·창고가 가장 자주 묻는 질문입니다. 리튬배터리는 같은 물건이라도 단독인지, 기기와 함께 포장했는지, 기기에 내장됐는지에 따라 UN 번호가 달라지고, 같은 UN 번호라도 해상·철도와 항공에서 적용되는 포장·표시·서류 조건이 다릅니다. 특히 항공은 2026년 1월 1일부터 장비와 함께 포장한 리튬이온 배터리에도 충전 상태(SoC) 30% 상한이 붙었습니다. 이 문서는 IATA 리튬배터리 지침서(2026년판), IMDG Code 개정 42-24 원문(IMO 결의서 MSC.556(108)), RID 2025, 대한항공 고유규정(2026)과 국내 고시 원문을 기준으로 UN 번호를 고르는 법, 항공 포장지침 965~970, 해상·철도의 특별규정 188과 포장지침 P903, 손상·폐배터리, 서류와 부킹, 역할 분담을 정리합니다.</p>
+
+<p class="lib-summary"><b>핵심 3줄</b><br>① UN 번호는 화학(리튬이온·리튬금속·나트륨이온)과 형태(단독·장비와 함께 포장·장비에 내장)로 정해집니다. 보조배터리는 장비가 아니라 배터리(UN 3480)이고, 리튬배터리로 움직이는 차량은 UN 3171이 아니라 UN 3556·3557입니다. 리튬이온 셀 20Wh·배터리 100Wh, 리튬금속 셀 1g·배터리 2g이 모든 운송수단에서 규제 강도를 가르는 기준선입니다.<br>② 같은 소형 배터리라도 해상·철도는 특별규정 188을 충족하면 배터리 마크만 붙이고 위험물 서류 없이 보낼 수 있지만, 항공에서 배터리 단독(UN 3480·3090)은 크기와 관계없이 여객기 탑재 금지, 화물기 전용 라벨, 화주 위험물 신고서(DGD)가 필요하고 리튬이온은 SoC 30% 이하여야 합니다.<br>③ 분류와 UN 38.3 시험 요약서는 화주(제조사)의 몫입니다. 포워더는 서류로 확인하고 위험물로 부킹하되 UN 번호를 스스로 바꾸지 않으며, 손상되거나 리콜된 배터리는 항공으로 보낼 수 없고 해상은 특별규정 376에 따른 별도 포장이 필요합니다.</p>
+
+<p class="lib-disclaimer">이 문서는 2026년 10월 19일에 확인한 공개 원문을 바탕으로 썼습니다. 항공은 IATA 「Lithium Battery Guidance Document」(2026년 규정 기준, ICAO 기술지침 2025-2026판·IATA DGR 제67판 반영)와 대한항공 고유규정(KE Variation, 2026), 해상은 IMDG Code 개정 42-24를 채택한 IMO 결의서 MSC.556(108) 원문, 철도는 OTIF의 RID 2025 원문, 국내는 「항공위험물운송기술기준」(국토교통부고시 제2023-52호), 「위험물 선박운송 및 저장규칙」(해양수산부령 제486호), 「위험물 선박운송 기준」(해양수산부고시 제2026-67호, 시행 2026. 6. 21.)을 확인했습니다. IATA DGR 본문과 ICAO 기술지침 본문은 유료 간행물이라 직접 보지 못했고, 항공 포장지침의 수치는 IATA 지침서에 실린 값입니다. 항공 규칙은 2027년 1월 1일 DGR 제68판·ICAO 기술지침 2027-2028판으로 다시 바뀌고, 항공사마다 고유규정(Operator Variation)이 따로 있으므로 부킹 전에 해당 항공사·선사의 최신 조건을 확인하십시오. 포워더는 화물을 열어 보거나 배터리를 측정하지 않고 화주의 시험 요약서·사양서·확인서와 운송인 기록으로 판단한다는 전제로 썼습니다. 규칙 체계는 <a data-doc="dg-rules">국제 위험물 운송 규칙</a>, 국내법상 리튬배터리의 지위는 <a data-doc="kr-mismatch">국제·국내 불일치 사례</a>, SDS 읽는 법은 <a data-doc="dg-msds">MSDS(SDS) 읽는 법</a>, EU 배터리 규정은 <a href="/library/eu-lithium-battery">EU Battery 카테고리</a>를 보십시오.</p>
+
+<h3>1. UN 번호 고르기: 화학, 형태, 용량, 상태</h3>
+<p>리튬배터리는 모두 Class 9(기타 위험물질 및 물품) 위험물(DG)입니다. 어느 UN 번호인지는 네 가지 질문으로 정해집니다. 첫째, 어떤 화학인가(리튬이온, 리튬금속, 나트륨이온). 둘째, 어떤 형태로 가는가(배터리만, 장비와 같은 상자에, 장비 안에). 셋째, 셀과 배터리의 용량이 기준선 위인가 아래인가. 넷째, 정상품인가, 손상·리콜품이나 폐기·재활용품, 시험용 시제품인가. 이 가운데 넷째 질문은 UN 번호는 그대로 두고 적용 조건을 바꿉니다(6절).</p>
+<table class="lib-table">
+<thead><tr><th>형태</th><th>리튬이온(리튬폴리머 포함)</th><th>리튬금속(리튬합금 포함)</th><th>나트륨이온(유기 전해질)</th></tr></thead>
+<tbody>
+<tr><td>셀·배터리만(보조배터리 포함)</td><td>UN 3480 LITHIUM ION BATTERIES</td><td>UN 3090 LITHIUM METAL BATTERIES</td><td>UN 3551 SODIUM ION BATTERIES</td></tr>
+<tr><td>장비와 함께 포장(같은 포장 안에 장비와 여분 배터리)</td><td>UN 3481 LITHIUM ION BATTERIES PACKED WITH EQUIPMENT</td><td>UN 3091 LITHIUM METAL BATTERIES PACKED WITH EQUIPMENT</td><td>UN 3552 SODIUM ION BATTERIES PACKED WITH EQUIPMENT</td></tr>
+<tr><td>장비에 내장</td><td>UN 3481 LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT</td><td>UN 3091 LITHIUM METAL BATTERIES CONTAINED IN EQUIPMENT</td><td>UN 3552 SODIUM ION BATTERIES CONTAINED IN EQUIPMENT</td></tr>
+<tr><td>배터리로 움직이는 차량(전기차, 전기자전거, 휠체어, 잔디깎이 트랙터 등)</td><td>UN 3556 VEHICLE, LITHIUM ION BATTERY POWERED</td><td>UN 3557 VEHICLE, LITHIUM METAL BATTERY POWERED</td><td>UN 3558 VEHICLE, SODIUM ION BATTERY POWERED</td></tr>
+<tr><td>컨테이너 등 화물운송단위(CTU)에 고정 설치돼 외부에 전력을 공급하는 배터리</td><td colspan="2">UN 3536 LITHIUM BATTERIES INSTALLED IN CARGO TRANSPORT UNIT(IMDG 42-24, RID 2025 기준. 항공 DGR 제68판에서 리튬금속용 UN 3563이 따로 생길 예정)</td><td>항공 DGR 제68판에서 UN 3564 신설 예정</td></tr>
+</tbody>
+</table>
+<p>UN 3171(BATTERY-POWERED VEHICLE 또는 BATTERY-POWERED EQUIPMENT)은 이제 습식 배터리나 금속 나트륨 배터리로 움직이는 차량·장비에만 씁니다. IMDG Code 42-24 특별규정 360은 리튬금속·리튬이온·나트륨이온 배터리로만 움직이는 차량을 UN 3556·3557·3558로, CTU에 설치돼 외부에 전력을 공급하는 리튬배터리를 UN 3536으로 보내도록 정합니다. 전기차를 예전처럼 UN 3171로 신고한 서류가 오면 화주에게 확인을 요청해야 합니다. 리튬배터리를 쓰는 장비(잔디깎이, 청소기, 모형 비행기 등 사람이나 화물을 싣지 않는 것)는 차량이 아니라 UN 3091·3481입니다(RID 2025 특별규정 388).</p>
+
+<h4>헷갈리는 품목</h4>
+<ul>
+<li><b>보조배터리(power bank)</b>: 다른 기기에 전원을 주는 것이 주된 기능이므로 장비가 아니라 배터리로 분류해 UN 3480 또는 UN 3090입니다. 휴대폰과 보조배터리를 한 상자에 넣어도 보조배터리는 "여분 배터리"로 보지 않고 UN 3480으로 신고합니다(IATA 지침서 A.06·D.02).</li>
+<li><b>충전기·케이블과 배터리만 든 상자</b>: 장비는 배터리가 전원을 공급하는 기기를 말하므로, 충전기나 케이블만 있고 기기가 없으면 UN 3480입니다(D.05).</li>
+<li><b>무선 이어폰과 충전 케이스</b>: 이어폰이 케이스 안에 있거나 함께 포장되면 UN 3481 PACKED WITH EQUIPMENT(PI 966), 케이스만 보내면 UN 3480(PI 965)입니다(D.04).</li>
+<li><b>무정전전원장치(UPS)</b>: 배터리 분류(UN 3480·3090·3551)에서 출발하고, 감시·조정 부품이 대부분이고 배터리가 질량·부피의 큰 부분이 아닌 장비형이면 화주·제조사가 장비 내장(UN 3481·3091·3552)을 검토할 수 있습니다(A.07).</li>
+<li><b>일차 리튬금속 셀과 충전식 리튬이온 셀이 섞인 배터리</b>로 외부 충전이 안 되게 설계된 것은 UN 3090·3091로 분류합니다(특별규정 387).</li>
+<li><b>운송 중 작동하는 데이터 로거·화물 추적기</b>: 항공은 리튬이온 20Wh 이하, 리튬금속 1g 이하 등 조건을 충족하면 DGR 적용 대상이 아닙니다(DGR 1.2.7.1(i)). 해상은 국내 「위험물 선박운송 기준」 제4조의3이 운송 중 사용하는 장치로서 IMDG Code의 제조·시험 요건을 만족하는 등의 조건을 정합니다. 작동하지 않는 상태로 화물 자체로 보내면 일반 배터리 규정이 적용됩니다.</li>
+</ul>
+
+<h4>Wh 계산과 기준선</h4>
+<p>리튬이온·나트륨이온은 와트시(Wh), 리튬금속은 리튬 함량(g)으로 규제합니다. Wh는 공칭 전압(V)에 정격 용량(Ah)을 곱한 값이고, mAh만 적혀 있으면 1,000으로 나눠 Ah로 바꿉니다(IATA 지침서 A.04). 리튬금속의 리튬 함량은 계산하지 말고 제조사가 시험 요약서에 적은 값을 씁니다. 2011년 12월 31일 이후 제조된 리튬배터리와 2025년 12월 31일 이후 제조된 나트륨이온 배터리는 외장에 Wh가 표시돼 있어야 합니다(특별규정 348).</p>
+<table class="lib-table">
+<thead><tr><th>예시 품목(사양은 설명용 예시)</th><th>계산</th><th>결과</th><th>기준선과 비교</th></tr></thead>
+<tbody>
+<tr><td>무선 이어폰 셀 3.7V, 50mAh</td><td>3.7 × 0.05</td><td>0.185Wh</td><td>셀 20Wh 이하, 항공 SoC 의무 기준 2.7Wh 이하</td></tr>
+<tr><td>스마트폰 셀 3.87V, 4,500mAh</td><td>3.87 × 4.5</td><td>17.4Wh</td><td>셀 20Wh 이하</td></tr>
+<tr><td>보조배터리 3.7V, 10,000mAh</td><td>3.7 × 10</td><td>37Wh</td><td>배터리 100Wh 이하, 2.7Wh 초과</td></tr>
+<tr><td>전동공구 배터리 18V, 5.0Ah</td><td>18 × 5.0</td><td>90Wh</td><td>배터리 100Wh 이하</td></tr>
+<tr><td>전기자전거 배터리 36V, 14Ah</td><td>36 × 14</td><td>504Wh</td><td>배터리 100Wh 초과: 해상 특별규정 188 불가, 항공 Section IA·Section I</td></tr>
+</tbody>
+</table>
+<p>기준선은 운송수단과 관계없이 같습니다. 리튬이온·나트륨이온은 셀 20Wh, 배터리 100Wh, 리튬금속은 셀 1g, 배터리(합계) 2g입니다. 셀 하나로 된 "단일 셀 배터리"는 배터리가 아니라 셀 기준을 적용합니다. 여러 셀을 연결하고 케이스·단자·보호장치를 갖춘 "배터리 팩", "모듈"은 배터리입니다. 기준선 아래라도 위험물이 아닌 것이 되지는 않습니다. 해상·철도에서는 특별규정 188로, 항공에서는 Section II·IB로 일부 조건이 완화될 뿐입니다.</p>
+<p class="lib-source">출처: IMO 결의서 MSC.556(108) IMDG Code 개정 42-24 — 2.9.4·2.9.5, 특별규정 188·348·360·387, 위험물 목록 — <a href="https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf" target="_blank" rel="noopener noreferrer">IMO</a>; OTIF 「RID 2025」 2.2.9.1.7, 특별규정 388 — <a href="https://otif.org/fileadmin/docs/LegalTexts/COTIF/DangerousGoodsRID/RID/RID_2025_e_20_August_2025_signed.pdf" target="_blank" rel="noopener noreferrer">OTIF</a>; IATA 「Lithium Battery Guidance Document」(2026) Definitions, Classification, FAQ A·D — <a href="https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf" target="_blank" rel="noopener noreferrer">IATA</a>; 해양수산부고시 「위험물 선박운송 기준」 제4조의3 — <a href="https://www.law.go.kr/행정규칙/위험물선박운송기준" target="_blank" rel="noopener noreferrer">국가법령정보센터</a>; IATA 「Significant Changes and Amendments in the 67th Edition (2026)」 Appendix H — <a href="https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/dgr-67-en-significant-changes.pdf" target="_blank" rel="noopener noreferrer">IATA</a> (모두 2026. 10. 19. 확인)</p>
+
+<h3>2. 항공: 포장지침 965~970과 Section</h3>
+<p>항공에서는 UN 번호마다 포장지침(Packing Instruction, PI)이 하나씩 정해져 있고, 그 안이 용량에 따라 Section으로 나뉩니다. 리튬이온 배터리 단독은 PI 965, 장비와 함께 포장은 PI 966, 장비 내장은 PI 967이고, 리튬금속은 각각 PI 968, 969, 970입니다(나트륨이온은 PI 976, 977, 978). Section I·IA는 완전 규제 위험물이고, Section IB와 Section II는 조건이 완화된 구간입니다. 배터리 단독(PI 965·968)에는 Section II가 없고 IA·IB만 있습니다.</p>
+<table class="lib-table">
+<thead><tr><th>PI · Section</th><th>대상</th><th>여객기 포장당</th><th>화물기 포장당</th><th>포장</th><th>표시</th><th>서류</th><th>IMP 코드</th></tr></thead>
+<tbody>
+<tr><td>965 IA</td><td>UN 3480, 셀 20Wh 초과 또는 배터리 100Wh 초과</td><td>금지</td><td>35kg</td><td>UN 규격 포장</td><td>Class 9 리튬배터리 라벨, 화물기 전용(CAO) 라벨</td><td>DGD</td><td>RBI</td></tr>
+<tr><td>965 IB</td><td>UN 3480, 셀 20Wh 이하·배터리 100Wh 이하</td><td>금지</td><td>10kg</td><td>1.2m 낙하·3m 적재 시험을 견딜 수 있는 포장</td><td>Class 9 리튬배터리 라벨, CAO 라벨, 배터리 마크</td><td>DGD</td><td>RBI</td></tr>
+<tr><td>966 I</td><td>UN 3481 함께 포장, 기준선 초과</td><td>5kg</td><td>35kg</td><td>UN 규격 포장</td><td>Class 9 리튬배터리 라벨</td><td>DGD</td><td>RLI</td></tr>
+<tr><td>966 II</td><td>UN 3481 함께 포장, 기준선 이하</td><td>5kg</td><td>5kg</td><td>1.2m 낙하·3m 적재(24시간)를 견딜 수 있는 포장</td><td>배터리 마크</td><td>DGD 없음, 항공화물운송장(AWB) 문구</td><td>ELI</td></tr>
+<tr><td>967 I</td><td>UN 3481 내장, 기준선 초과</td><td>5kg</td><td>35kg</td><td>튼튼한 외부 포장(3m 적재 24시간을 견딜 것)</td><td>Class 9 리튬배터리 라벨</td><td>DGD</td><td>RLI</td></tr>
+<tr><td>967 II</td><td>UN 3481 내장, 기준선 이하</td><td>5kg</td><td>5kg</td><td>튼튼한 외부 포장(3m 적재 24시간을 견딜 것)</td><td>배터리 마크(예외 있음)</td><td>DGD 없음, 마크가 필요하면 AWB 문구</td><td>ELI</td></tr>
+<tr><td>968 IA</td><td>UN 3090, 셀 1g 초과 또는 배터리 2g 초과</td><td>금지</td><td>35kg</td><td>UN 규격 포장</td><td>Class 9 리튬배터리 라벨, CAO 라벨</td><td>DGD</td><td>RBM</td></tr>
+<tr><td>968 IB</td><td>UN 3090, 셀 1g 이하·배터리 2g 이하</td><td>금지</td><td>2.5kg</td><td>1.2m 낙하·3m 적재</td><td>Class 9 리튬배터리 라벨, CAO 라벨, 배터리 마크</td><td>DGD</td><td>RBM</td></tr>
+<tr><td>969 I / II</td><td>UN 3091 함께 포장</td><td>5kg / 5kg</td><td>35kg / 5kg</td><td colspan="3">PI 966 I·II와 같은 구조</td><td>RLM / ELM</td></tr>
+<tr><td>970 I / II</td><td>UN 3091 내장</td><td>5kg / 5kg</td><td>35kg / 5kg</td><td colspan="3">PI 967 I·II와 같은 구조</td><td>RLM / ELM</td></tr>
+</tbody>
+</table>
+<p>포장당 한도는 포장물 총중량이 아니라 그 안에 든 리튬 셀·배터리의 순중량입니다. 장비 무게와 포장재는 빼고 계산하고, Section I 화물은 신고서에도 배터리 순중량을 적습니다(IATA 지침서 E.09·E.10). 한도는 포장물마다 적용되며, 여러 포장물을 묶은 오버팩 전체에는 따로 한도가 없습니다(E.05).</p>
+
+<h4>여객기와 화물기</h4>
+<p>배터리 단독인 UN 3480(PI 965)과 UN 3090(PI 968)은 IA·IB 모두 여객기 화물칸에 실을 수 없고, 포장물에 반드시 화물기 전용(Cargo Aircraft Only) 라벨을 붙입니다. 출발국·도착국·운항국 당국의 승인이나 긴급 의료 목적 승인(특별규정 A201)이 있으면 예외로 여객기에 실을 수 있지만, 사전 승인이 따로 필요합니다. 장비와 함께 포장하거나 내장된 UN 3481·3091은 여객기에 포장당 5kg까지 실을 수 있지만, 항공사가 고유규정으로 더 막을 수 있습니다. 대한항공은 2026년 고유규정 KE-06에서 여객기에 싣는 위험물을 극소량(EQ) 위험물, 드라이아이스, 자성물질 등과 Section II의 UN 3481·3091·3552(PI 966·967·969·970·977·978)로 한정했습니다. 즉 대한항공 여객기로는 Section I 배터리 화물을 보낼 수 없습니다.</p>
+
+<h4>Section II와 IB의 차이</h4>
+<p>둘 다 "작은 배터리"를 위한 구간이지만 무게가 다릅니다. Section IB(PI 965·968)는 UN 규격 포장만 면제되고 나머지 DGR 규정이 모두 적용되므로, 화주는 위험물 교육(DGR 1.5)을 받은 사람이 DGD를 작성하고, 포장물에 UN 번호·정식운송품명(PSN), 송하인·수하인 이름과 주소, 순중량, 배터리 마크, Class 9 리튬배터리 라벨, CAO 라벨을 모두 표시합니다(F.10, H.01). Section II(PI 966·967·969·970)는 DGD가 없고, 정식 위험물 교육 대신 DGR 1.6의 "적절한 지시(adequate instruction)"를 받으면 됩니다. IATA 지침서는 그 기록을 남기고 2년마다 또는 절차·규정이 바뀔 때 다시 지시하라고 권합니다(H.02). Section II도 위험물이므로 사고·사건 보고 대상입니다(D.01).</p>
+
+<h4>배터리 마크와 Section II 예외</h4>
+<p>배터리 마크는 붉은 빗금 테두리(폭 5mm 이상) 안에 불꽃이 나는 배터리 그림과 UN 번호를 넣은 표시로, 최소 100mm × 100mm, 포장이 작으면 100mm × 70mm까지 줄일 수 있습니다(F.01·F.02). Section II·IB에 붙이고, Section I·IA와 나트륨이온 PI 976에는 붙이지 않습니다(F.12). PI 967·970 Section II에서는 버튼셀만 내장된 포장물, 그리고 한 화물(consignment)이 두 포장물 이하이고 포장물마다 셀 4개 또는 배터리 2개 이하인 경우 마크가 필요 없습니다(F.04). 이 예외를 쓰려고 한 화물을 여러 AWB로 쪼개면 안 된다고 IATA는 명시합니다(G.02). 마크가 필요한 Section II 화물은 AWB에 "Lithium ion batteries in compliance with Section II of PI 967" 같은 준수 문구를 넣습니다.</p>
+
+<h4>다른 위험물과 같이 포장할 때</h4>
+<p>PI 965로 준비한 UN 3480, PI 968로 준비한 UN 3090은 Class 1(1.4S 제외), Division 2.1, Class 3, Division 4.1, Division 5.1 위험물과 같은 외부 포장이나 오버팩에 넣을 수 없습니다. 탑재 단계의 분리도 중요합니다. 2011년 아시아나 991편 사고 뒤 조사 당국은 화물기 전용 라벨이 붙은 인화성 액체와 리튬배터리를 서로 다른 단위탑재용기(ULD)에 싣도록 권고했습니다(<a data-doc="case-accident">위험물 사고 사례</a>).</p>
+<p class="lib-source">출처: IATA 「Lithium Battery Guidance Document」(2026) Classification Flowcharts, Prohibitions, Restrictions, FAQ D·E·F·G·H — <a href="https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf" target="_blank" rel="noopener noreferrer">IATA</a>; Korean Air 「Full text of KE Variation (2026)」 KE-01·KE-03·KE-04·KE-06 — <a href="https://cargo.koreanair.com/sites/default/files/2025-12/Full%20text%20of%20KE%20Variation%20%282026%2C%20Blue%29_2.pdf" target="_blank" rel="noopener noreferrer">대한항공 화물</a> (모두 2026. 10. 19. 확인)</p>
+
+<h3>3. 항공 충전 상태(SoC) 30%: 2026년에 무엇이 바뀌었나</h3>
+<p>충전 상태(State of Charge, SoC)는 정격 용량 대비 남은 충전량의 비율입니다. 충전량을 낮추면 셀이 열폭주(thermal runaway)로 갈 가능성이 줄어든다는 이유로, ICAO는 기술지침 2025-2026판에서 장비와 함께 포장한 리튬이온 배터리와 배터리 차량에도 SoC 상한을 붙였고 이 규정이 2026년 1월 1일부터 적용됩니다. 배터리 단독(PI 965)은 이미 30% 상한이 의무였습니다.</p>
+<table class="lib-table">
+<thead><tr><th>대상</th><th>2026. 1. 1.부터 항공 요건</th><th>30% 초과 시</th></tr></thead>
+<tbody>
+<tr><td>UN 3480, PI 965 IA·IB</td><td>SoC 30% 이하 의무</td><td>출발국·운항국 승인(특별규정 A331)</td></tr>
+<tr><td>UN 3481, PI 966 Section I(함께 포장)</td><td>SoC 30% 이하 의무(2026년 신설)</td><td>출발국·운항국의 서면 조건부 승인</td></tr>
+<tr><td>UN 3481, PI 966 Section II(함께 포장)</td><td>2.7Wh 초과 셀·배터리는 SoC 30% 이하 의무(2026년 신설). 2.7Wh 이하는 상한 없음</td><td>Section I로 준비하고 출발국·운항국 승인</td></tr>
+<tr><td>UN 3481, PI 967(장비 내장)</td><td>의무 아님. SoC 30% 이하 또는 표시 잔량 25% 이하를 강하게 권고</td><td>해당 없음</td></tr>
+<tr><td>UN 3551, PI 976</td><td>SoC 30% 이하 의무</td><td>출발국·운항국 승인(A331)</td></tr>
+<tr><td>UN 3552, PI 977·978</td><td>기술지침에 규정 없음. IATA는 30% 이하 권고</td><td>해당 없음</td></tr>
+<tr><td>UN 3556·3557·3558 차량, PI 952</td><td>100Wh 초과 배터리는 SoC 30% 이하 또는 표시 잔량 25% 이하 의무. 100Wh 이하는 권고</td><td>출발국·운항국의 서면 조건부 승인</td></tr>
+</tbody>
+</table>
+<p>표시 잔량(Indicated Battery Capacity)은 사용자가 화면이나 표시등으로 보는 남은 용량입니다. IATA는 25%가 SoC 30%와 정확히 같은 값은 아니지만 화주가 확인하기 쉬워 같은 수준의 안전 효과를 내는 실무 기준이라고 설명합니다. 앞의 계산 예시에 대입하면, 보조배터리(37Wh)는 UN 3480이라 30% 이하여야 하고, 전동공구에 여분 배터리(90Wh)를 함께 넣은 상자는 PI 966 Section II라도 2.7Wh를 넘으므로 2026년부터 30% 이하여야 하며, 이어폰 셀(0.185Wh)만 함께 포장된 경우는 2.7Wh 이하라 상한이 없습니다.</p>
+<p>SoC를 증명하는 별도 서류는 규정상 요구되지 않습니다. DGD를 쓰는 PI 965 화물은 화주가 "적용되는 항공 운송 요건을 모두 충족했다"는 선언에 서명하는 것으로 30% 이하임을 진술한 것이 됩니다(IATA 지침서 G.03). 다만 항공사 고유규정이 더 요구할 수 있습니다. 대한항공 KE-04는 UN 3480(PI 965), UN 3551(PI 976), UN 3481(PI 966 Section I)과 UN 3556·3557·3558 차량에 대해 DGD의 "Additional Handling Information" 칸에 SoC나 표시 잔량을 적도록 했고, 차량은 Wh와 관계없이 SoC 30% 또는 표시 잔량 25% 이하를 요구합니다. SoC는 화주가 출하 전에 맞추는 값이고, 포워더와 창고가 측정하는 값이 아닙니다. 포워더는 DGD나 화주 확인서에 그 내용이 적혔는지 봅니다.</p>
+<p>해상(IMDG Code 42-24)과 철도(RID 2025)에는 정상 배터리에 대한 일반 SoC 상한이 없습니다. 두 규칙에서 SoC는 열적으로 불안정한 손상 배터리용 포장지침 P911의 포장 성능을 평가하는 요소로만 언급됩니다. 그래서 해상으로 보내던 화물을 항공으로 돌릴 때는 SoC를 처음부터 다시 확인해야 합니다.</p>
+<p class="lib-source">출처: IATA 「Lithium Battery Guidance Document」(2026) Recent and Upcoming Changes, Restrictions, Definitions(Indicated Battery Capacity), FAQ G.03 — <a href="https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf" target="_blank" rel="noopener noreferrer">IATA</a>; Korean Air 「Full text of KE Variation (2026)」 KE-04 — <a href="https://cargo.koreanair.com/sites/default/files/2025-12/Full%20text%20of%20KE%20Variation%20%282026%2C%20Blue%29_2.pdf" target="_blank" rel="noopener noreferrer">대한항공 화물</a>; IMO 결의서 MSC.556(108) P911 — <a href="https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf" target="_blank" rel="noopener noreferrer">IMO</a> (모두 2026. 10. 19. 확인)</p>
+
+<h3>4. 해상·철도: IMDG Code 42-24와 RID 2025</h3>
+<p>해상은 IMDG Code 개정 42-24가 2026년 1월 1일부터 의무이고, 유럽 철도 구간은 RID 2025가 적용됩니다. 두 규칙 모두 UN 모델 규정을 바탕으로 해서 리튬배터리의 UN 번호, 특별규정 번호, 포장지침 번호와 내용이 거의 같습니다. IMDG Code 위험물 목록에서 UN 3480은 Class 9, 한정수량(LQ) 0, 극소량(EQ) E0, 포장지침 P903·P908·P909·P910·P911·LP903·LP904·LP905·LP906, 비상조치표(EmS) F-A·S-I, 적재방법 Category A와 SW19로 돼 있습니다. 한정수량·극소량 허용량이 0이므로 리튬배터리는 한정수량·극소량 완화 규정을 쓸 수 없습니다.</p>
+<table class="lib-table">
+<thead><tr><th>특별규정(SP)</th><th>내용</th><th>실무에서 의미</th></tr></thead>
+<tbody>
+<tr><td>188</td><td>리튬이온·나트륨이온 셀 20Wh·배터리 100Wh 이하, 리튬금속 셀 1g·배터리 2g 이하이고 시험·제조 요건을 충족하면 아래 조건만 지키고 Code의 다른 규정은 적용하지 않음</td><td>위험물 서류·Class 9 라벨 없이 배터리 마크만 붙여 보낼 수 있는 구간(세부 조건은 아래)</td></tr>
+<tr><td>230</td><td>리튬 셀·배터리는 2.9.4(나트륨이온은 2.9.5) 요건을 충족해야 이 품명으로 운송 가능</td><td>UN 38.3 시험 통과와 품질관리 프로그램이 전제</td></tr>
+<tr><td>310</td><td>100개 이하 생산분, 시험을 위해 운송하는 시제품은 UN 38.3 시험 등 일부 요건 면제. P910 또는 LP905로 포장하고 서류에 "Transport in accordance with special provision 310" 기재</td><td>시제품·소량 생산품. 항공은 당국 승인(A88)이 필요(6절)</td></tr>
+<tr><td>348</td><td>2011. 12. 31. 이후 제조 리튬배터리, 2025. 12. 31. 이후 제조 나트륨이온 배터리는 외장에 Wh 표시</td><td>UN 3480·3481 대상</td></tr>
+<tr><td>376</td><td>손상·결함 셀·배터리는 P908 또는 LP904(열적으로 불안정하면 P911·LP906)로 포장, "DAMAGED/DEFECTIVE" 표시, 서류 문구 기재</td><td>반품·리콜·사고 배터리(6절)</td></tr>
+<tr><td>377</td><td>폐기·재활용 목적 셀·배터리는 P909로 포장 가능, 2.9.4 요건 면제, "LITHIUM BATTERIES FOR RECYCLING" 등 표시, 서류 문구 기재</td><td>폐배터리(6절)</td></tr>
+<tr><td>384</td><td>포장물 라벨은 Model No. 9A(리튬배터리 라벨). 컨테이너 등 CTU의 표찰(placard)은 Model No. 9</td><td>컨테이너 외부에는 일반 Class 9 표찰</td></tr>
+<tr><td>387</td><td>리튬금속 일차 셀과 리튬이온 충전 셀이 섞인 배터리는 UN 3090·3091. SP 188 적용 시 리튬금속 합계 1.5g, 리튬이온 합계 10Wh 이하</td><td>혼합형 배터리</td></tr>
+<tr><td>360·389·390</td><td>리튬 차량은 UN 3556·3557, CTU 설치 배터리는 UN 3536(SP 389: CTU에 견고히 고정, 배터리 자체는 표시·라벨 면제, CTU 두 면에 표찰). 내장·함께 포장이 섞인 포장물의 표시·서류 방법(SP 390)</td><td>BESS 컨테이너, 전기차, 혼합 포장</td></tr>
+</tbody>
+</table>
+
+<h4>특별규정 188의 조건</h4>
+<p>SP 188은 "위험물이 아니다"라는 뜻이 아니라 조건부 완화입니다. 셀·배터리는 장비에 내장된 경우가 아니면 셀·배터리를 완전히 감싸는 내부 포장에 넣고 단락을 막아야 하며, 튼튼한 외부 포장에 넣습니다. 장비에 내장된 경우는 손상·단락을 막고 의도치 않은 작동을 막는 수단이 있어야 합니다. 포장물에는 리튬(또는 나트륨이온) 배터리 마크를 붙이되, 버튼셀만 장비에 내장된 포장물과 한 화물이 두 포장물 이하이고 포장물마다 장비 내장 셀 4개·배터리 2개 이하인 경우는 면제됩니다. 장비에 내장된 경우가 아니면 포장물은 어떤 방향으로든 1.2m 낙하 시험을 견뎌야 하고, 장비에 내장하거나 함께 포장한 경우가 아니면 포장물 총중량이 30kg을 넘으면 안 됩니다. 오버팩에 넣으면 마크가 보이게 하거나 바깥에 다시 붙이고 "OVERPACK"(글자 높이 12mm 이상)을 표시합니다. IMDG Code는 항공 PI 965·968 Section IB에 따라 배터리 마크와 9A 라벨을 붙인 포장물도 SP 188을 충족한 것으로 봅니다.</p>
+<p>IMDG Code 42-24의 배터리 마크는 UN 번호를 넣는 현행 도안이고, 전화번호 칸이 있는 옛 마크(개정 40-20 도안)는 2026년 12월 31일까지만 계속 쓸 수 있습니다. 2027년 출하분 포장재를 미리 찍는 화주에게는 새 도안을 쓰도록 안내하는 것이 안전합니다.</p>
+
+<h4>SP 188을 넘는 화물: P903과 대형 포장</h4>
+<p>기준선을 넘거나 SP 188 조건을 맞추지 못하는 배터리는 완전 규제 Class 9 위험물입니다. 포장지침 P903은 셀·배터리를 용기등급(PG) II 성능의 드럼·상자·제리캔(예: 4G 골판지 상자)에 넣고 포장 안에서 움직여 손상되지 않게 하도록 정합니다. 총중량 12kg 이상으로 튼튼한 충격 저항 외장을 가진 셀·배터리는 튼튼한 외부 포장, 나무 크레이트 같은 보호 덮개, 팔레트에 고정해 보낼 수 있고, 단자가 위에 쌓인 짐의 무게를 받지 않게 해야 합니다. 장비 내장 배터리는 튼튼한 외부 포장이면 되고, 장비가 배터리를 충분히 보호하는 대형 장비는 포장 없이 또는 팔레트에 실어 보낼 수 있습니다. 셀 총중량 500g 초과, 배터리 총중량 12kg 초과인 대형 셀·배터리는 대형 포장지침 LP903(PG II 성능의 대형 포장)을 쓸 수 있습니다. 어느 경우든 단락 방지는 필수입니다.</p>
+
+<h4>적재와 격리</h4>
+<p>정상 리튬배터리는 적재방법 Category A로 화물선 갑판 위·아래 모두 실을 수 있습니다. SW19는 SP 376(손상·결함) 또는 SP 377(폐기·재활용)로 운송하는 배터리는 짧은 국제항해가 아니면 Category C(갑판 위 적재만 가능)로 바꿉니다. 격리는 IMDG Code 7.2.4 격리표에서 Class 9 행이 모두 "X"(위험물 목록의 개별 규정 확인)이고 UN 3480·3481·3090·3091의 격리 칸에는 별도 격리 코드가 없습니다. 즉 Code상 다른 등급과의 일반 격리 거리는 정해져 있지 않지만, 선사가 자체 적재 기준을 둘 수 있으므로 부킹 단계에서 확인합니다. 컨테이너 외부에는 SP 384에 따라 9A가 아닌 일반 Class 9 표찰(Model No. 9)을 붙입니다. 국내 「위험물 선박운송 및 저장규칙」도 별표에 리튬배터리 부표찰(흰 바탕, 검은 그림, 붉은 빗금 테두리) 양식을 두고 있습니다.</p>
+
+<h4>철도</h4>
+<p>유럽 철도 구간은 RID 2025가 적용되며, 특별규정 188·230·310·348·376·377·387과 포장지침 P903·P908·P909·P910, LP903·LP904의 내용이 IMDG Code와 같은 구조입니다(조항 번호는 2.2.9.1.7처럼 RID 체계를 씁니다). RID에는 해상에 없는 특별규정 636이 있어, 분류·폐기·재활용을 위해 수거한 소형 셀·배터리(개당 총중량 500g 이하 등)는 P909로 포장하고 화차·대형 컨테이너당 리튬·나트륨이온 셀·배터리 합계 333kg 이하를 품질보증 체계로 관리하는 등의 조건으로 중간 처리시설까지 다른 RID 규정이 면제됩니다. 중국·러시아를 지나는 유라시아 철도는 국제철도화물운송협정(SMGS) 부속서 2(위험물 운송 규정)가 따로 있으나 이 문서에서는 그 원문을 확인하지 못했으므로, 철도 운송인에게 접수 조건을 서면으로 받으십시오.</p>
+<p class="lib-source">출처: IMO 결의서 MSC.556(108) IMDG Code 개정 42-24 — 위험물 목록 UN 3090·3091·3480·3481·3536·3556, 특별규정 188·230·310·348·360·376·377·384·387·389·390, P903·P908·P909·P911·LP903·LP904, 5.2.1.10, 7.1.3.2, 7.2.4, SW19 — <a href="https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf" target="_blank" rel="noopener noreferrer">IMO</a>; OTIF 「RID 2025」 3.3장 특별규정 188·310·376·377·389·636, 4.1.4.1 P903·P908·P909·P910, 4.1.4.3 LP903·LP904, 5.2.1.9 — <a href="https://otif.org/fileadmin/docs/LegalTexts/COTIF/DangerousGoodsRID/RID/RID_2025_e_20_August_2025_signed.pdf" target="_blank" rel="noopener noreferrer">OTIF</a>; 위험물 선박운송 및 저장규칙(해양수산부령 제486호) 별표 표찰 양식 — <a href="https://www.law.go.kr/법령/위험물선박운송및저장규칙" target="_blank" rel="noopener noreferrer">국가법령정보센터</a>; EU 철도청(ERA) 용어집 「SMGS Annex 2」 — <a href="https://www.era.europa.eu/era-railway-terminology-collection/smgsannex2/term/international_relations" target="_blank" rel="noopener noreferrer">ERA</a> (모두 2026. 10. 19. 확인)</p>
+
+<h3>5. 같은 화물, 운송수단별 결론</h3>
+<p>아래 표는 같은 화물이 해상과 항공에서 어떻게 달라지는지 보여 주는 예시입니다. 모두 UN 38.3 시험을 통과한 정상품이라고 가정했고, 해상 열은 IMDG Code 42-24, 항공 열은 IATA 지침서 기준입니다. 항공사 고유규정은 반영하지 않았습니다.</p>
+<table class="lib-table">
+<thead><tr><th>예시 화물</th><th>UN 번호</th><th>해상(IMDG)</th><th>항공(DGR)</th></tr></thead>
+<tbody>
+<tr><td>보조배터리 37Wh 200개</td><td>UN 3480</td><td>SP 188 충족 시 배터리 마크만, 위험물 서류 불필요(포장물 총중량 30kg 이하)</td><td>PI 965 IB: 화물기 전용, 포장당 배터리 10kg 이하, SoC 30% 이하, 9A·CAO 라벨과 배터리 마크, DGD 필요</td></tr>
+<tr><td>노트북(배터리 55Wh 내장) 1대씩 든 상자 2개</td><td>UN 3481 내장</td><td>SP 188, 두 포장물 이하·포장물당 배터리 2개 이하라 마크도 면제</td><td>PI 967 II, 마크·AWB 문구 면제(두 포장물 이하·포장물당 배터리 2개 이하)</td></tr>
+<tr><td>같은 노트북 상자 50개</td><td>UN 3481 내장</td><td>SP 188, 포장물마다 배터리 마크</td><td>PI 967 II, 포장물마다 배터리 마크와 AWB 준수 문구, 포장당 배터리 5kg 이하. SoC는 권고</td></tr>
+<tr><td>전동공구와 여분 배터리(90Wh)를 한 상자에</td><td>UN 3481 함께 포장</td><td>SP 188(30kg 한도는 함께 포장이라 적용 안 됨)</td><td>PI 966 II, 2026년부터 SoC 30% 이하 의무, 배터리 마크, AWB 문구</td></tr>
+<tr><td>전기자전거 배터리 504Wh 단품</td><td>UN 3480</td><td>완전 규제 Class 9, P903(PG II 포장), 9A 라벨, 위험물 서류, 컨테이너에 Class 9 표찰</td><td>PI 965 IA: 화물기 전용, UN 규격 포장, SoC 30% 이하, DGD</td></tr>
+<tr><td>전기 스쿠터(좌석 있음, 배터리 내장)</td><td>UN 3556</td><td>컨테이너에 실으면 SP 962 조건(누출 없음, 배터리 손상·단락·작동 방지 등)의 Class 9. 로로선 차량 구역 적재 등은 SP 961 면제 가능</td><td>PI 952, 100Wh 초과 배터리는 SoC 30% 또는 표시 잔량 25% 이하. 대한항공은 좌석이 없거나 자가균형 차량은 받지 않음(KE-08)</td></tr>
+<tr><td>리콜 대상 배터리 반품</td><td>UN 3480 등</td><td>SP 376: P908(열적으로 불안정하면 P911), DAMAGED/DEFECTIVE 표시, 갑판 위 적재</td><td>항공 운송 금지(특별규정 A154)</td></tr>
+</tbody>
+</table>
+<p class="lib-disclaimer">표의 품목과 사양은 설명을 위한 예시입니다. 실제 분류는 화주가 시험 요약서와 제품 사양으로 정하고, 항공사·선사의 고유 조건이 추가될 수 있습니다.</p>
+
+<h3>6. 손상·리콜·폐배터리와 시제품</h3>
+<h4>손상·결함·리콜</h4>
+<p>IMDG Code와 RID의 SP 376은 시험받은 형식에 더 이상 맞지 않는 손상·결함 셀·배터리를 다룹니다. 안전상 결함으로 확인된 것, 누액이나 가스 배출이 있었던 것, 운송 전에 진단할 수 없는 것, 물리적·기계적 손상을 입은 것이 예입니다. 손상 여부는 셀·배터리·제품 제조사의 안전 기준이나 해당 배터리의 안전 기능을 아는 기술 전문가가 판단하며, 가스·화재·누액 같은 급박한 위험, 사용·오용 이력, 외장 변형이나 변색, 단락 보호 상태, 배터리 관리 시스템(BMS) 손상 등을 봅니다. 포장은 P908(대형은 LP904)로, 손상 셀·배터리를 하나씩 내부 포장에 넣고 불연성·비전도성 단열재로 감싸며, 누액 우려가 있으면 흡수재를 넣습니다. 정상 운송 조건에서 급격히 분해·발화·발열하거나 유독·인화성 가스를 낼 수 있는 배터리는 P911 또는 LP906(PG I 성능, 포장 외면 온도 100℃ 이하 등)으로 포장하거나 당국 승인 조건을 따릅니다. 포장물에 "DAMAGED/DEFECTIVE"를, 서류에 "Transport in accordance with special provision 376"을 적고, 해상에서는 SW19에 따라 짧은 국제항해가 아니면 갑판 위에만(적재방법 Category C) 실을 수 있습니다.</p>
+<p>항공은 더 엄격합니다. 제조사가 안전상 결함으로 지정했거나 손상돼 위험한 발열·화재·단락 가능성이 있는 리튬·나트륨이온 배터리는 항공 운송이 금지되며, 배터리 결함 때문에 리콜된 휴대폰·노트북처럼 기기에 내장된 경우도 같습니다(특별규정 A154). 반대로 표시등 고장, 라벨 모델 번호 오류, 충전 용량 부족처럼 다른 결함이 있는 배터리나, 고객 변심·화면 불량으로 반품되는 기기는 항공 운송이 금지되지 않습니다(IATA 지침서 D.06). 반품 물량을 받는 포워더는 화주(제조사)가 "배터리 안전 결함 리콜인지"를 서면으로 밝히게 해야 운송수단을 정할 수 있습니다.</p>
+
+<h4>폐기·재활용 배터리</h4>
+<p>해상의 SP 377은 폐기·재활용 목적의 셀·배터리를 P909로 포장할 수 있게 하고 2.9.4(시험·품질관리) 요건을 면제합니다. P909는 PG II 성능 포장과 금속 용기의 비전도성 안감을 요구하고, 리튬이온 셀 20Wh·배터리 100Wh 이하, 리튬금속 셀 1g·배터리 2g 이하는 총중량 30kg 이하의 튼튼한 외부 포장도 허용합니다. 포장물에 "LITHIUM BATTERIES FOR RECYCLING" 또는 "LITHIUM BATTERIES FOR DISPOSAL"을, 서류에 "Transport in accordance with special provision 377"을 적습니다. 손상이 확인된 폐배터리는 SP 377이 아니라 SP 376을 따릅니다. 항공은 폐배터리와 재활용·폐기 목적 배터리를 당국 승인(특별규정 A183)으로만 보낼 수 있어 실무에서는 해상·육상으로 보냅니다.</p>
+<p>폐배터리는 위험물 운송 규칙과 별개로 폐기물 국가 간 이동 규제를 받습니다. EU로 가거나 EU에서 나오는 배터리라면 제품·중고·폐기물 판정부터 하십시오. <a href="/library/eu-lithium-battery/status">제품·중고·폐기물 판정</a>, <a href="/library/eu-lithium-battery/b-anx14">부속서 XIV 중고 배터리 운송의 최소 요건</a>, <a href="/library/eu-lithium-battery/checklist">EU 배터리 포워더 종합 체크리스트</a>에 정리돼 있습니다.</p>
+
+<h4>시제품과 소량 생산품</h4>
+<p>시험을 위해 운송하는 시제품과 100개 이하 생산분은 해상·철도에서 SP 310에 따라 P910(셀·배터리를 하나씩 내부 포장에 넣고 불연성·비전도성 단열재로 감쌈)으로 포장하고 서류에 SP 310 문구를 적습니다. 항공은 출발국·운항국 당국 승인(특별규정 A88)을 받아 화물기로만 보낼 수 있습니다. 승인이 있어도 항공사가 운송할 의무는 없으므로, IATA는 승인 신청 전에 운송할 항공사부터 찾으라고 권합니다.</p>
+<p class="lib-source">출처: IMO 결의서 MSC.556(108) 특별규정 310·376·377, P908·P909·P910·P911, SW19 — <a href="https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf" target="_blank" rel="noopener noreferrer">IMO</a>; IATA 「Lithium Battery Guidance Document」(2026) Transport of lithium batteries under State Approvals, FAQ B.04·D.06 — <a href="https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf" target="_blank" rel="noopener noreferrer">IATA</a> (모두 2026. 10. 19. 확인)</p>
+
+<h3>7. 서류와 부킹</h3>
+<h4>위험물 신고서가 필요한 경우와 필요 없는 경우</h4>
+<table class="lib-table">
+<thead><tr><th>구분</th><th>위험물 서류 필요</th><th>위험물 서류 불필요</th></tr></thead>
+<tbody>
+<tr><td>항공</td><td>PI 965·968 IA·IB, PI 966·967·969·970 Section I, 차량(PI 952), 승인 화물: 화주 위험물 신고서(Shipper's Declaration for Dangerous Goods, DGD)</td><td>PI 966·967·969·970 Section II: DGD 없음. 배터리 마크가 필요한 화물은 AWB에 Section II 준수 문구</td></tr>
+<tr><td>해상</td><td>SP 188 밖의 화물, SP 310·376·377 화물: IMDG 위험물 운송서류(국내 규칙상 위험물 명세서), 컨테이너마다 컨테이너 위험물 명세서와 컨테이너 적입 증명</td><td>SP 188 충족 화물: Code의 다른 규정 적용 없음(배터리 마크 등 SP 188 조건만)</td></tr>
+<tr><td>철도(RID)</td><td>SP 188 밖의 화물: 운송서류에 위험물 기재, SP 310·376 문구</td><td>SP 188 충족 화물, SP 636 수거 배터리(조건 충족 시)</td></tr>
+</tbody>
+</table>
+<p>국내 해상에서는 「위험물 선박운송 및 저장규칙」 제16조가 송하인에게 운송 위탁 전에 분류·품명·UN 번호·용기등급과 수량을 적은 위험물 명세서를 내게 하고, 제34조가 컨테이너에 넣어 운송할 때 컨테이너마다 컨테이너 위험물 명세서를 내게 합니다. IMDG Code 5.4.2는 컨테이너에 위험물을 적입한 사람이 컨테이너가 깨끗하고 건조했는지, 격리 대상끼리 함께 싣지 않았는지, 모든 포장물의 외부 손상을 점검해 온전한 것만 실었는지 등을 증명하는 컨테이너 적입 증명(container packing certificate)을 내게 합니다.</p>
+<p>항공 DGD는 항공사마다 언어·부수 조건이 있습니다. 대한항공은 DGD를 영어로 작성하고 2부 이상 내게 하며(KE-03), 위험물이 든 혼재(consolidation) 화물은 Master AWB 하나에 House AWB 하나인 경우, 또는 드라이아이스·자성물질·Section II 배터리 등 지정 품목만 든 경우가 아니면 받지 않습니다(KE-01). 혼재 화물의 DGD에는 AWB 번호 뒤에 "/"로 House AWB 번호를 적습니다. Section I 배터리를 다른 화주 화물과 혼재하려는 포워더는 이 조건부터 확인해야 합니다.</p>
+
+<h4>UN 38.3 시험 요약서</h4>
+<p>UN 시험 기준 매뉴얼(Manual of Tests and Criteria) 제3부 38.3은 진동·고도 변화 같은 운송 중 상황을 모사하거나 셀·배터리의 무결성을 확인하는 형식 시험을 정하고, 38.3.5는 그 결과를 정리한 시험 요약서(Test Summary)의 항목을 정합니다. 버튼셀만 장비에 내장된 경우를 빼고, 2003년 6월 30일 이후 제조된 셀·배터리의 제조자와 이후 유통자는 시험 요약서를 제공할 수 있게 갖춰야 합니다(IMDG 2.9.4.7). IATA 지침서가 옮겨 놓은 필수 항목은 10가지입니다.</p>
+<ol>
+<li>셀·배터리·제품 제조자 이름</li>
+<li>제조자 연락처(주소, 전화, 이메일, 홈페이지)</li>
+<li>시험기관 이름과 연락처</li>
+<li>고유한 시험 보고서 번호</li>
+<li>시험 보고서 날짜</li>
+<li>셀·배터리 설명: 리튬이온·리튬금속·나트륨이온 구분, 질량, Wh 또는 리튬 함량, 외관 설명, 모델 번호</li>
+<li>시험 항목과 결과(합격·불합격)</li>
+<li>조립 배터리 시험 요건 참조(해당 시, 38.3.3(f)·(g))</li>
+<li>적용한 시험 기준 매뉴얼의 개정판과 수정 사항</li>
+<li>책임자 이름과 직책</li>
+</ol>
+<p>시험 요약서에는 유효기간이 없고, 재시험이 필요한 설계 변경(예: 충전식 배터리의 Wh 20% 초과 변경, 전압 20% 초과 증가, 보호장치·셀 수 변경, 비순정 부품으로 수리·재제조)이 없으면 계속 유효합니다(IATA 지침서 B.02·C.10). 매 화물마다 종이로 첨부해야 하는 것은 아니며, 국가나 항공사가 요구하지 않는 한 홈페이지·QR 코드로 제공해도 됩니다(C.05·G.04). 포워더가 보는 것은 "이번 화물의 모델 번호와 Wh가 요약서에 있는가", "6항의 화학 구분이 부킹 내용과 같은가", "7항이 모두 합격인가"입니다.</p>
+
+<h4>SDS는 운송 서류가 아니다</h4>
+<p>IATA는 DGR도, 다른 운송수단의 규정도 배터리 운송에 물질안전보건자료(SDS)를 요구하지 않는다고 밝힙니다. SDS는 GHS 분류기준에 해당하는 물질·혼합물의 공급과 사용에 필요한 문서이고, 배터리 같은 제조 물품은 GHS 대상이 아니기 때문입니다(G.01). 배터리 제조사가 준 "MSDS"는 참고 자료일 뿐이고, 운송 판단은 시험 요약서와 사양으로 합니다. 자세한 내용은 <a data-doc="dg-msds">MSDS(SDS) 읽는 법</a>의 "리튬배터리에 MSDS를 내민다"를 보십시오.</p>
+
+<h4>국내 고시와 국제 기준의 시차</h4>
+<p>국내 「항공위험물운송기술기준」은 2023년 개정본(국토교통부고시 제2023-52호)이 현행입니다. 제63조의2는 UN 3090·3091·3480·3481만 적고 UN 38.3 시험 통과, 안전 벤팅, 단락 방지, 품질관리 프로그램을 운송 조건으로 두며, 제99조제15항은 배터리 마크에 "추가정보를 위한 전화번호"를 적게 하고 PI 965·968 Section IB 포장물에 배터리 마크와 Class 9 라벨을 붙이게 합니다. 나트륨이온 배터리나 전화번호 칸이 없어진 현행 마크, 2026년 SoC 변경은 이 고시에 아직 들어 있지 않습니다. 항공사는 DGR 기준으로 접수하므로 실무는 DGR과 항공사 고유규정을 따르고, 고시와 다른 점은 항공사 위험물 담당자에게 확인하십시오.</p>
+<p class="lib-source">출처: IATA 「Lithium Battery Guidance Document」(2026) Classification(test summary 표), FAQ B·C·G — <a href="https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf" target="_blank" rel="noopener noreferrer">IATA</a>; IMO 결의서 MSC.556(108) 2.9.4.7, 5.4.2 — <a href="https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf" target="_blank" rel="noopener noreferrer">IMO</a>; 위험물 선박운송 및 저장규칙 제16조·제34조 — <a href="https://www.law.go.kr/법령/위험물선박운송및저장규칙" target="_blank" rel="noopener noreferrer">국가법령정보센터</a>; 항공위험물운송기술기준(국토교통부고시 제2023-52호) 제63조의2·제99조 — <a href="https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulNm=항공위험물운송기술기준" target="_blank" rel="noopener noreferrer">국가법령정보센터</a>; Korean Air 「Full text of KE Variation (2026)」 KE-01·KE-03 — <a href="https://cargo.koreanair.com/sites/default/files/2025-12/Full%20text%20of%20KE%20Variation%20%282026%2C%20Blue%29_2.pdf" target="_blank" rel="noopener noreferrer">대한항공 화물</a> (모두 2026. 10. 19. 확인)</p>
+
+<h3>8. 누가 무엇을 하나</h3>
+<p>IATA 지침서는 공급망 안전에서 각자의 몫을 이렇게 나눕니다. 제조사는 제품을 만들고 분류하며 운송 안전에 필요한 정보를 제공하고, 화주는 위험물을 제대로 포장·표시·라벨 부착·서류 작성하며, 포워더는 운송을 조정하고 경로를 정하면서 미신고 위험물이 섞인 화물을 감시하고, 항공사와 그 대리인은 직원이 위험물을 알아보고 비상 상황을 다루도록 교육합니다. 국내 법령도 분류 책임을 송하인에게 둡니다(<a data-doc="dg-msds">MSDS(SDS) 읽는 법</a> 5절).</p>
+<table class="lib-table">
+<thead><tr><th>역할</th><th>하는 일</th><th>하지 않는 일</th></tr></thead>
+<tbody>
+<tr><td>화주(제조사·수출자)</td><td>화학·형태·Wh(또는 리튬 함량)로 UN 번호와 PI·Section, SP 188 해당 여부를 정한다. UN 38.3 시험 요약서를 준비한다. 항공 SoC를 맞춘다. 포장·마크·라벨을 붙이고 DGD(또는 위험물 명세서)에 서명한다. 손상·리콜·폐기 여부를 밝힌다.</td><td>운송수단이 바뀌었는데 이전 분류를 그대로 쓰지 않는다.</td></tr>
+<tr><td>포워더</td><td>견적 단계에서 배터리 포함 여부를 묻고, 시험 요약서·사양서·확인서로 UN 번호와 Wh가 서로 맞는지 확인한다. 위험물로 부킹하고 항공사·선사 고유 조건을 맞춘다. 맞지 않으면 화주에게 정정을 요청하고 기록을 남긴다.</td><td>UN 번호·Section을 스스로 바꾸지 않는다. 배터리를 열어 보거나 SoC를 측정하지 않는다. 마크 예외를 쓰려고 화물을 쪼개지 않는다. 교육 없이 화주 대신 DGD에 서명하지 않는다.</td></tr>
+<tr><td>항공사·선사</td><td>접수 점검, 적재 위치와 격리 결정, 기장 통보, 고유규정 적용</td><td>화주의 분류 책임을 대신 지지 않는다.</td></tr>
+<tr><td>창고·운송·적입 작업자</td><td>포장물 외관(찌그러짐, 누액, 열, 냄새, 연기)을 확인하고, 이상 포장물은 다른 화물과 떼어 놓고 정해진 절차로 보고한다. 컨테이너 적입 시 온전한 포장물만 싣고 고정한다. 마크·라벨이 보이게 적재한다.</td><td>손상 배터리를 임의로 다시 포장하거나 정상품으로 출고하지 않는다. 손상 여부의 최종 판단은 제조사·기술 전문가 몫이다(SP 376).</td></tr>
+</tbody>
+</table>
+<p>포워더가 자기 이름으로 선하증권(B/L)을 House B/L로 발행하면 선사에 대해서는 Master B/L의 송하인이 되어 미신고 위험물 책임을 먼저 청구받을 수 있습니다(<a data-doc="case-litigation">소송·판결 사례</a>). 미신고 리튬배터리가 실제 처벌로 이어진 사례는 <a data-doc="dg-penalty">교육을 받지 않으면</a>과 <a data-doc="case-inspection">점검·단속 적발 사례</a>에 있습니다. 위험물 교육 대상은 <a data-doc="dg-forwarder">포워더의 교육 대상</a>을 보십시오.</p>
+
+<h3>9. 역할별 점검표</h3>
+<h4>화주</h4>
+<ul class="lib-check">
+<li>품목마다 화학(리튬이온·리튬금속·나트륨이온), 형태(단독·함께 포장·내장), 셀·배터리 Wh 또는 리튬 함량을 정리한다.</li>
+<li>보조배터리는 UN 3480(또는 3090)으로, 리튬 차량은 UN 3556·3557로 분류했는지 확인한다.</li>
+<li>모델 번호가 일치하는 UN 38.3 시험 요약서(10개 항목)를 준비하고 링크나 사본을 포워더에게 준다.</li>
+<li>항공이면 PI 965·966 Section I·966 Section II(2.7Wh 초과)·976·952(100Wh 초과)의 SoC 기준을 맞추고, 항공사가 요구하면 DGD에 SoC를 적는다.</li>
+<li>해상 SP 188이면 내부 포장·단락 방지·1.2m 낙하·30kg 한도·배터리 마크 조건을, 그 밖이면 P903 PG II 포장과 9A 라벨을 갖춘다.</li>
+<li>2027년 이후에도 쓸 포장재에는 전화번호 칸이 없는 현행 배터리 마크를 인쇄한다.</li>
+<li>반품·회수품은 안전 결함 리콜인지, 손상품인지, 폐기·재활용 목적인지 서면으로 밝힌다.</li>
+</ul>
+<h4>포워더: 견적·부킹 전</h4>
+<ul class="lib-check">
+<li>"전자제품", "공구", "샘플"처럼 뭉뚱그린 품명이면 배터리 포함 여부와 형태를 묻는다.</li>
+<li>운송수단(해상·항공·철도)을 정하기 전에 항공 가능 여부(여객기 금지, 화물기 전용, SoC, 리콜품 금지)를 먼저 따진다.</li>
+<li>항공사 고유규정을 확인한다. 예: 대한항공은 여객기에 Section II만, 위험물 혼재는 1 Master AWB : 1 House AWB 또는 지정 품목만.</li>
+<li>해상은 선사의 위험물 부킹 절차와 자체 적재 조건, 철도는 운송인의 접수 조건을 서면으로 받는다.</li>
+<li>손상·폐배터리, 시제품은 별도 포장지침과 승인이 필요한지 화주와 함께 확인한다.</li>
+</ul>
+<h4>포워더: 서류 받은 뒤</h4>
+<ul class="lib-check">
+<li>시험 요약서의 모델 번호·Wh·화학 구분이 인보이스·패킹리스트·사양서와 같은지 대조한다.</li>
+<li>UN 번호, PI·Section, 포장당 배터리 순중량이 서로 모순되지 않는지 본다. 맞지 않으면 직접 고치지 않고 화주에게 정정을 요청한다.</li>
+<li>항공 DGD가 필요한 화물인지, Section II면 AWB 준수 문구가 필요한지 확인한다.</li>
+<li>해상 완전 규제 화물이면 위험물 명세서·컨테이너 위험물 명세서·컨테이너 적입 증명이 갖춰졌는지 확인한다.</li>
+<li>SDS만 받았다면 시험 요약서를 따로 요청한다.</li>
+<li>받은 서류, 정정 요청과 회신을 건별로 보관한다.</li>
+</ul>
+<h4>창고·운송·적입 작업자</h4>
+<ul class="lib-check">
+<li>입고 시 포장물의 찌그러짐, 누액, 열, 냄새, 연기 흔적을 확인하고 이상이 있으면 떼어 놓고 보고한다.</li>
+<li>배터리 마크·9A 라벨·CAO 라벨이 서류 내용과 맞게 붙어 있는지 외관으로 확인한다.</li>
+<li>컨테이너에는 온전한 포장물만 싣고, 12kg 이상 대형 배터리는 단자에 하중이 걸리지 않게 고정한다.</li>
+<li>완전 규제 화물을 실은 컨테이너에는 Class 9 표찰(9A가 아닌 Model No. 9)을 붙인다.</li>
+<li>항공 빌드업에서는 PI 965·968 포장물을 Class 1(1.4S 제외)·2.1·3·4.1·5.1과 같은 오버팩에 넣지 않는다.</li>
+</ul>
+
+<h3>10. 화주에게 설명할 때</h3>
+<p>"리튬배터리는 모두 위험물이고, 같은 배터리라도 배로 보낼 때와 비행기로 보낼 때 조건이 많이 다릅니다. 배로는 100Wh 이하 작은 배터리를 조건에 맞게 포장하고 배터리 마크만 붙이면 위험물 서류 없이 나갈 수 있지만, 비행기로는 보조배터리처럼 배터리만 따로 보내면 크기와 관계없이 여객기에 못 싣고 화물기로만, 충전량 30% 이하로, 위험물 신고서를 써서 보내야 합니다. 올해부터는 기기와 같은 상자에 넣은 여분 리튬이온 배터리도 2.7Wh를 넘으면 충전량 30% 이하로 맞춰야 합니다. 어떤 UN 번호로 보낼지는 배터리를 만든 회사의 시험 요약서와 제품 사양으로 정해지기 때문에 저희가 임의로 바꿀 수 없고, 모델 번호와 Wh가 적힌 UN 38.3 시험 요약서를 먼저 보내 주셔야 부킹을 진행할 수 있습니다. 리콜이나 파손 때문에 돌아오는 배터리는 비행기로는 보낼 수 없고 배로도 특수 포장이 필요하니, 반품이라면 이유를 꼭 알려 주십시오."</p>
+
+<p class="lib-source">출처: IATA 「Lithium Battery Guidance Document — Transport of Lithium Metal, Lithium Ion and Sodium Ion Batteries, Revised for the 2026 Regulations」 — <a href="https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf" target="_blank" rel="noopener noreferrer">IATA</a>; IATA 「Significant Changes and Amendments in the 67th Edition (2026)」 — <a href="https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/dgr-67-en-significant-changes.pdf" target="_blank" rel="noopener noreferrer">IATA</a>; IMO Resolution MSC.556(108) Amendments to the IMDG Code(개정 42-24) — <a href="https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf" target="_blank" rel="noopener noreferrer">IMO</a>; OTIF 「RID 2025」 — <a href="https://otif.org/fileadmin/docs/LegalTexts/COTIF/DangerousGoodsRID/RID/RID_2025_e_20_August_2025_signed.pdf" target="_blank" rel="noopener noreferrer">OTIF</a>; Korean Air 「Full text of KE Variation (2026)」 — <a href="https://cargo.koreanair.com/sites/default/files/2025-12/Full%20text%20of%20KE%20Variation%20%282026%2C%20Blue%29_2.pdf" target="_blank" rel="noopener noreferrer">대한항공 화물</a>; 항공위험물운송기술기준(국토교통부고시 제2023-52호) — <a href="https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulNm=항공위험물운송기술기준" target="_blank" rel="noopener noreferrer">국가법령정보센터</a>; 위험물 선박운송 및 저장규칙(해양수산부령 제486호) — <a href="https://www.law.go.kr/법령/위험물선박운송및저장규칙" target="_blank" rel="noopener noreferrer">국가법령정보센터</a>; 위험물 선박운송 기준(해양수산부고시 제2026-67호) — <a href="https://www.law.go.kr/행정규칙/위험물선박운송기준" target="_blank" rel="noopener noreferrer">국가법령정보센터</a>; ERA 「SMGS Annex 2」 — <a href="https://www.era.europa.eu/era-railway-terminology-collection/smgsannex2/term/international_relations" target="_blank" rel="noopener noreferrer">ERA</a> (모두 2026년 10월 19일 확인)</p>

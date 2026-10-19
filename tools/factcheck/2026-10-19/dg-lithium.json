@@ -1,0 +1,80 @@
+[
+ {
+  "claim": "이 가운데 넷째 질문은 UN 번호는 그대로 두고 적용 조건을 바꿉니다(5절).",
+  "verdict": "wrong",
+  "evidence": "Internal cross-reference: in the draft, section 5 is \"5. 같은 화물, 운송수단별 결론\" (comparison table). Damaged, recalled and waste batteries and prototypes are covered in \"<h3>6. 손상·리콜·폐배터리와 시제품</h3>\".",
+  "fix": "이 가운데 넷째 질문은 UN 번호는 그대로 두고 적용 조건을 바꿉니다(6절)."
+ },
+ {
+  "claim": "항공은 당국 승인(A88)이 필요(5절)",
+  "verdict": "wrong",
+  "evidence": "Internal cross-reference: in the draft, section 5 is \"5. 같은 화물, 운송수단별 결론\" (comparison table). Damaged, recalled and waste batteries and prototypes are covered in \"<h3>6. 손상·리콜·폐배터리와 시제품</h3>\".",
+  "fix": "항공은 당국 승인(A88)이 필요(6절)"
+ },
+ {
+  "claim": "반품·리콜·사고 배터리(5절)",
+  "verdict": "wrong",
+  "evidence": "Internal cross-reference: in the draft, section 5 is \"5. 같은 화물, 운송수단별 결론\" (comparison table). Damaged, recalled and waste batteries and prototypes are covered in \"<h3>6. 손상·리콜·폐배터리와 시제품</h3>\".",
+  "fix": "반품·리콜·사고 배터리(6절)"
+ },
+ {
+  "claim": "폐배터리(5절)",
+  "verdict": "wrong",
+  "evidence": "Internal cross-reference: in the draft, section 5 is \"5. 같은 화물, 운송수단별 결론\" (comparison table). Damaged, recalled and waste batteries and prototypes are covered in \"<h3>6. 손상·리콜·폐배터리와 시제품</h3>\".",
+  "fix": "폐배터리(6절)"
+ },
+ {
+  "claim": "연간 100개 이하 생산분, 시험용 시제품은 UN 38.3 시험 등 일부 요건 면제",
+  "verdict": "overreach",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf — IMDG SP 310: \"Cells or batteries from production runs of not more than 100 cells or batteries, or pre-production prototypes of cells or batteries when these prototypes are transported for testing, shall meet the provisions of 2.9.4 with the exception of 2.9.4.1, ...\" P910 and LP905 also say \"production runs consisting of not more than 100 cells or batteries\", with no annual qualifier. \"Annual production runs\" is the air wording of A88 (https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf B.04).",
+  "fix": "100개 이하 생산분, 시험을 위해 운송하는 시제품은 UN 38.3 시험 등 일부 요건 면제"
+ },
+ {
+  "claim": "UN 38.3 시험 전의 시제품과 연간 100개 이하 생산분은 해상·철도에서",
+  "verdict": "overreach",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf — IMDG SP 310 / P910: \"production runs consisting of not more than 100 cells or batteries and to pre-production prototypes of cells or batteries when these prototypes are transported for testing\". There is no \"annual\"; \"annual production runs\" appears only in air A88 (https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf B.04).",
+  "fix": "시험을 위해 운송하는 시제품과 100개 이하 생산분은 해상·철도에서"
+ },
+ {
+  "claim": "<td>1.2m 낙하를 견딜 수 있는 포장</td>",
+  "verdict": "outdated",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/packaging_requirement-_lithium_batteries_3m_stack_test.pdf — \"Effective January 2025, a new requirement was introduced into the packing instructions for the air transport of lithium batteries that are packed with, or contained in equipment (PI 966-II, PI 967-I and II, PI 969-II, and PI 970 - I and II)... 'Each package of cells or batteries or the completed package must be capable of withstanding ... a force applied to the top surface equivalent to the total weight of identical packages stacked to a height of 3 m ... for a duration of 24 hours.'\" Also https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf F.11 (PI 967 Section II, button cells): \"the use of packages capable of withstanding a 3m stack test for a period of 24 hours\".",
+  "fix": "<td>1.2m 낙하·3m 적재(24시간)를 견딜 수 있는 포장</td>"
+ },
+ {
+  "claim": "<td>튼튼한 외부 포장</td><td>Class 9 리튬배터리 라벨</td>",
+  "verdict": "outdated",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/packaging_requirement-_lithium_batteries_3m_stack_test.pdf — \"Effective January 2025, a new requirement was introduced into the packing instructions for the air transport of lithium batteries that are packed with, or contained in equipment (PI 966-II, PI 967-I and II, PI 969-II, and PI 970 - I and II)... 'Each package of cells or batteries or the completed package must be capable of withstanding ... a force applied to the top surface equivalent to the total weight of identical packages stacked to a height of 3 m ... for a duration of 24 hours.'\" Also https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf F.11 (PI 967 Section II, button cells): \"the use of packages capable of withstanding a 3m stack test for a period of 24 hours\".",
+  "fix": "<td>튼튼한 외부 포장(3m 적재 24시간을 견딜 것)</td><td>Class 9 리튬배터리 라벨</td>"
+ },
+ {
+  "claim": "<td>튼튼한 외부 포장</td><td>배터리 마크(예외 있음)</td>",
+  "verdict": "outdated",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/packaging_requirement-_lithium_batteries_3m_stack_test.pdf — \"Effective January 2025, a new requirement was introduced into the packing instructions for the air transport of lithium batteries that are packed with, or contained in equipment (PI 966-II, PI 967-I and II, PI 969-II, and PI 970 - I and II)... 'Each package of cells or batteries or the completed package must be capable of withstanding ... a force applied to the top surface equivalent to the total weight of identical packages stacked to a height of 3 m ... for a duration of 24 hours.'\" Also https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf F.11 (PI 967 Section II, button cells): \"the use of packages capable of withstanding a 3m stack test for a period of 24 hours\".",
+  "fix": "<td>튼튼한 외부 포장(3m 적재 24시간을 견딜 것)</td><td>배터리 마크(예외 있음)</td>"
+ },
+ {
+  "claim": "부속서 2(위험물 운송 규정, 2025. 1. 1. 시행판)",
+  "verdict": "unsupported",
+  "evidence": "https://www.era.europa.eu/era-railway-terminology-collection/smgsannex2/term/international_relations — the entry reads: \"SMGS Annex 2 ... Last updated document Version with effect from 01 January 2025 ... Origin document Convention concerning International Carriage by Rail (COTIF) Appendix C – Regulations concerning the International Carriage of Dangerous Goods by Rail (RID) Reference Link https://otif.org/.../RID_2025_e_1_November_2024.pdf\". The 1 January 2025 date belongs to the origin document (RID 2025), not to an SMGS Annex 2 edition. No OSJD/SMGS source was checked.",
+  "fix": "부속서 2(위험물 운송 규정)"
+ },
+ {
+  "claim": "해상에서는 SW19에 따라 갑판 위에만 실을 수 있습니다.",
+  "verdict": "overreach",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf — IMDG 7.1.5 SW19: \"For batteries transported in accordance with special provisions 376 or 377, category C, unless transported on a short international voyage.\" Section 4 of the draft states the exception correctly but this sentence drops it.",
+  "fix": "해상에서는 SW19에 따라 짧은 국제항해가 아니면 갑판 위에만(적재방법 Category C) 실을 수 있습니다."
+ },
+ {
+  "claim": "이 있는 예외는 실무에서 드뭅니다",
+  "verdict": "unsupported",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf — p.3-4 states only that PI 965/968 batteries \"cannot be shipped on a passenger aircraft unless approved by the relevant authorities in accordance with Special Provision A201\", plus the urgent-medical-need route. None of the cited sources says how often such approvals happen; \"실무에서 드뭅니다\" is the author's judgement presented as fact.",
+  "fix": "이 있으면 예외로 여객기에 실을 수 있지만, 사전 승인이 따로 필요합니다"
+ },
+ {
+  "claim": "_summary",
+  "verdict": "",
+  "evidence": "12 problems: 4 wrong, 3 outdated, 3 overreach, 2 unsupported, 0 unverifiable. Key issues: (1) four internal references say '(5절)' but damaged, recalled and waste batteries and prototypes are covered in section 6. (2) The air PI table leaves out the 3m/24h stack-test requirement that has applied since January 2025 to PI 966 II, 967 I/II, 969 II and 970 I/II. (3) 'Annual' (연간) 100-unit production runs comes from air A88; IMDG SP 310 has no annual qualifier. (4) The SMGS Annex 2 '2025. 1. 1.' date was misread from an ERA entry whose date belongs to RID 2025. (5) One SW19 sentence drops the short-international-voyage exception. (6) 'A201 approvals are rare in practice' is opinion. Sources fetched fresh on 2026-10-19 with curl or WebFetch, no browser: IATA LBGD 2026, IATA DGR 67 Significant Changes, IATA 3m stack-test note, IMO MSC.556(108) full text, OTIF RID 2025 signed PDF, Korean Air KE Variation 2026 PDF and notice node/9349, FAA Lithium Battery Shipping Guide 2026, ERA SMGS Annex 2 entry, and law.go.kr DRF. law.go.kr confirms 항공위험물운송기술기준 고시 2023-52 (시행 2023. 1. 18.), 위험물 선박운송 기준 고시 2026-67 (시행 2026. 6. 21.) and 위험물 선박운송 및 저장규칙 부령 486 (시행 2022. 5. 18.) as the current versions. Checked and correct: all UN numbers and PSNs (3480/3481/3090/3091/3551/3552/3556/3557/3558/3536/3171, plus DGR 68 UN 3563/3564); the texts of IMDG 42-24 SP 188/230/310 (apart from 'annual')/348/360/376/377/384/387/388/389/390/961/962; P903/P908/P909/P910/P911/LP903/LP904; the DGL 3480 row (LQ 0, E0, F-A S-I, Category A, SW19, no SG code); the 7.2.4 Class 9 row (all X); 5.2.1.10 (old mark allowed until 31 Dec 2026); 2.9.4.7 (manufactured after 30 June 2003); 5.4.2.1; entry into force on 1 Jan 2026; RID SP 636 (500 g, 333 kg, P909); all LBGD PI 965-970 limits, IMP codes and the Section IA/IB/I/II structure; the SoC 30% table, including the 2.7 Wh, 100 Wh and IBC 25% rules and the 1 Jan 2026 date; FAQ A.04/A.06/A.07, B.02/B.04, C.05/C.10, D.01-D.06, E.05/E.09/E.10, F.01-F.12, G.01-G.04 and H.01/H.02; the 10 test-summary items; KE-01/03/04/06/08; and 국내 제63조의2, 제99조제15항, 제4조의3, 제16조, 제34조 and the 별표 리튬배터리 부표찰. Per-package limits are net battery weight (FAA guide: PI 965 IB '10 kg net per package', PI 968 IB '2.5 kg net'). The Section I Class 9 label, listed as an inference in facts.md, is confirmed by the FAA guide. Links: all data-doc ids exist in doc_ids.txt and /library/eu-lithium-battery/{status,b-anx14,checklist} exist. The law.go.kr, ERA, IMO, IATA, OTIF and Korean Air URLs return 200 and open the right documents. No advice tells forwarders to inspect cargo physically: forwarders work from documents, and physical checks are assigned to warehouse and packing staff. Sibling docs: consistent with case-accident (OZ991 recommendation), case-litigation (House B/L shipper liability), dg-msds §5, dg-rules and dg-forwarder (고시 2023-52). One sibling conflict, where the sibling is wrong and not this draft: kr-mismatch.html says '노트북, 전동공구, 전기자전거처럼 리튬배터리가 들어 있는 기기는 UN 3481 또는 UN 3091', but e-bikes are vehicles (UN 3556/3557) under IMDG/RID SP 388, which lists 'bicycles (pedal cycles with a motor)'. Fix kr-mismatch separately. Low-priority notes not entered: '항공 DGR 제68판에서 UN 3563/3564' is accurate, but these entries come from the 24th revised UN Model Regulations and will reach IMDG and RID too. PI 967 Section I packages over 5 kg also need a CAO label (FAA guide), which the table does not mention.",
+  "fix": ""
+ }
+]
