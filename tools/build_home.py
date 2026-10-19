@@ -166,8 +166,13 @@ def main():
     # 도구 화면 /tool/<name>: 왼쪽 색인 없이 도구 페이지 그대로(머리줄 메뉴 Tracking·UN No.에서 연다).
     # 원본은 <name>.html이고, 옛 주소 /<name>은 vercel.json redirects로 이 주소로 넘어온다.
     (ROOT / 'tool').mkdir(exist_ok=True)
+    # 푸터는 자료실 화면(library-index.css의 .li-body .site-footer)과 같게: 한 줄로 낮추고 PC에서는 화면 아래에 고정한다.
+    foot = ('<style id="li-footer-sync">.site-footer{min-height:0;padding-block:10px}'
+            '.site-footer .footer-copy{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px}'
+            '.site-footer .footer-brand{height:auto}.site-footer .footer-brand strong{font-size:14px}'
+            '@media (min-width:901px){.site-footer{position:fixed;left:0;right:0;bottom:0;z-index:25}body{padding-bottom:64px}}</style>\n')
     for name in TOOL_TYPES:
-        (ROOT / 'tool' / f'{name}.html').write_text(read(f'{name}.html'), encoding='utf-8', newline='\n')
+        (ROOT / 'tool' / f'{name}.html').write_text(read(f'{name}.html').replace('</head>', foot + '</head>', 1), encoding='utf-8', newline='\n')
     # 없는 주소(404): 같은 화면 틀에 안내와 색인. 검색엔진에는 올리지 않는다.
     seo404 = '<title>페이지를 찾을 수 없습니다 · Logistics Library</title>\n  <meta name="robots" content="noindex">'
     inner404 = ('    <div class="li-home"><header class="li-intro"><h1>페이지를 찾을 수 없습니다</h1>'
