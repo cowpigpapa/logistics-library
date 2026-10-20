@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/temperature-cargo';
-  const DOCS_VERSION = '20261020-03';
+  const DOCS_VERSION = '20261020-10';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -36,7 +36,7 @@
     { id: 'tc-air-passive', tag: "패시브", level: 3, title: "항공 패시브 포장 — 단열재·냉매, 드라이아이스 위험물, 검증 시간과 팔레트 쉬퍼", short: "항공 패시브 포장", summary: "단열 박스 구조와 젤팩·PCM·드라이아이스 냉매의 차이, UN1845 드라이아이스의 포장지침 954·포장당 200kg·운송장 기재와 항공사 한도, WHO 적격성 평가(DQ·OQ·PQ)와 계절용·사계절용 포장, ISTA 7D·7E, 팔레트형 패시브 제품의 공개 사양과 운임 중량, 선택 기준, 출고부터 인도까지 한 포워더의 운영 절차(재보충·냉장 탑차·도착지 창고 확인)와 포워더 체크리스트를 다룹니다." },
     { id: 'tc-air-active', tag: "액티브", level: 3, title: "항공 액티브 컨테이너 — 사양 비교, 항공사 승인, 리스·예약, 배터리와 충전", short: "항공 액티브 컨테이너", summary: "압축기 냉각·전기 히터·배터리로 온도를 유지하는 RKN·RLP·RAP 액티브 ULD의 구조, Envirotainer·CSafe·DoKaSch·HB TempCon 공개 사양(온도 범위, 배터리 지속·충전 시간, 외형·내부 치수, 자중·최대 총중량), 대한항공·Emirates 등 항공사 수용 모델과 탑재 기종, 리스 계약과 예약·반납 절차, NiMH 배터리·데이터로거의 위험물 취급, 사전 조절 규칙, 패시브와 비교표, 반출·적입·인계·개봉·일탈 때 남길 기록을 담은 포워더 체크리스트." },
     { id: 'tc-reefer', tag: "리퍼", level: 3, title: "해상 리퍼 컨테이너 — 구조·공기 흐름, 종류, 서플라이·리턴 에어 제어, 환기·전원·온도 기록", short: "해상 리퍼 컨테이너", summary: "하부 송풍과 T자형 바닥, 빨간 선, 서플라이·리턴 에어 센서의 구조와 '유지하는 장비'라는 원리, 일반·CA·MA·초저온·저온처리·NOR 장비의 공개 사양, -10℃를 경계로 한 냉장(서플라이 에어)·냉동(리턴 에어) 제어, 환기 ㎥/h 범위와 냉동 화물 환기 닫힘, 제습·제상, 리퍼 전원과 클립온·언더슬렁 젠셋, 컨트롤러 온도 기록과 선사 원격 모니터링(Captain Peter, Hapag-Lloyd LIVE, ONE CONTAINER+, MSC iReefer)을 선사·제조사 자료와 CTU Code IM8로 정리." },
-    { id: 'tc-reefer-practice', tag: "리퍼실무", level: 3, title: "리퍼 실무 — 예약부터 인도까지, 화주 서류·설정 실수·전원 공백·사고 대응", short: "리퍼 실무: 예약부터 인도까지", summary: "화주가 정하는 운송 지시와 포워더의 서류 대조, 화주에게 받을 서류와 예약 확인 항목(ONE·Hapag-Lloyd 점검표), PTI, ℃/℉·+/- 부호·환기 열림 같은 설정 실수 표, 화물 예냉과 컨테이너 예냉을 하지 않는 이유(의약품 사전 조절 예외), 적입 원칙, 전원 공백 구간, 선상 모니터링, 컨트롤러 다운로드와 상법 제804조 통지 등 사고 대응, 기사 지시·CY 전원 확인을 넣은 단계별 체크리스트." },
+    { id: 'tc-reefer-practice', tag: "리퍼실무", level: 3, title: "리퍼 실무 — 예약부터 인도까지, 화주 서류·설정 실수·전원 공백·사고 대응", short: "리퍼 실무: 예약부터 인도까지", summary: "화주가 정하는 운송 지시와 포워더의 서류 대조, 화주에게 받을 서류와 예약 확인 항목(ONE·Hapag-Lloyd 점검표), PTI, ℃/℉·+/- 부호·환기 열림 같은 설정 실수 표, 화물 예냉과 컨테이너 예냉을 하지 않는 이유(의약품 사전 조절 예외), 적입 원칙, 전원 공백 구간과 젠셋 요금 확인, 선상 모니터링, 컨트롤러 다운로드와 상법 제804조 통지 등 사고 대응, 기사 지시·CY 전원 확인을 넣은 단계별 체크리스트." },
     { id: 'tc-cases', tag: "사례", level: 2, title: "온도 사고 사례 — 항공 램프·경유지와 리퍼 지시·전원 공백에서 난 온도 일탈", short: "온도 사고 사례", summary: "뮌헨 램프의 인슐린(Eli Lilly v DHL), 경유지 냉방 정지(Wealmoor v KLM), 인수 전 손상과 AWB 신고가액(Fleurigros v Air Canada), 도착지 비냉장 창고(Bayer v BA), 백신 과냉각, -18/+18 모호한 온도 지시와 부킹 확인서 오류(CMA CGM 사건 2건), 터미널 전원 공백, 냉동기 결빙과 감시 체계, 환기 설정 실수 등 10건을 사실관계·원인·결과·실무 교훈으로 정리하고, 한 포워더가 겪은 익명 사고 4건(도착지 전원 차단, 경유지 상온 보관, 드라이아이스 재보충 누락, 특수화물 무료 시간)과 국내 독감 백신 상온 노출 사건을 덧붙임." }
   ];
   const byId = id => DOCS.find(d => d.id === id);

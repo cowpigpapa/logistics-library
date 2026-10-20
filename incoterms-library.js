@@ -1,11 +1,11 @@
-// Incoterms 2020 메뉴(/library/incoterms-2020): 정의·변천, 한 장 정리표, 조건별 해설, 위험·비용 분기, 애매한 구간.
+// Incoterms 2020 메뉴(/library/incoterms-2020): 정의와 2020 개정, 한 장 정리표와 조건별 해설, 위험·비용 분기와 애매한 구간, 조건 선택과 표기.
 // Incoterms® 2020 규칙 본문은 ICC의 저작물이라 싣지 않는다. 해설은 AI가 공개 자료를 읽고 자기 말로 썼고
 // 조항은 번호로만 가리킨다. 본문은 /incoterms-docs/<id>.html 조각을 문서를 열 때 불러온다.
 // 주소 /library/incoterms-2020/<id>로 문서 하나를 연다(정적 서버 미리보기에서는 ?doc=<id>).
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/incoterms-2020';
-  const DOCS_VERSION = '20261020-02';
+  const DOCS_VERSION = '20261020-10';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -32,13 +32,10 @@
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
-    { id: 'inco-chart', tag: "한 장 정리", level: 3, title: "한 장으로 보는 Incoterms 2020 — 11개 조건의 구간별 비용과 위험", short: "한 장으로 보는 Incoterms 2020", summary: "11개 조건을 13개 구간으로 나눠 비용 부담과 위험 이전 지점을 한 표에 놓았습니다." },
-    { id: 'inco-what', tag: "정의", level: 3, title: "인코텀스란 — 정의와 법적 성격, 다루는 것과 다루지 않는 것", short: "인코텀스란", summary: "정의와 법적 성격, 규칙이 다루는 것과 다루지 않는 것, 운송·보험·신용장과의 관계, 흔한 오해." },
-    { id: 'inco-history', tag: "변천", level: 2, title: "변천 과정 — 1936년부터 2020년까지, 2010에서 2020으로 바뀐 것", short: "변천 과정", summary: "1936년 첫 제정부터 2020년까지 판별 변화와 조건 비교표, 2010에서 2020으로 바뀐 9가지." },
-    { id: 'inco-rules', tag: "조건별", level: 3, title: "조건별 해설 — 11개 조건의 인도·위험·비용·통관·보험", short: "조건별 해설", summary: "11개 조건을 같은 틀로: 인도 지점, 위험 이전, 비용 분기, 통관·보험·상하차와 자주 틀리는 지점." },
-    { id: 'inco-risk-cost', tag: "위험·비용", level: 3, title: "위험의 분기와 비용의 분기 — 포함되는 비용과 포함되지 않는 비용", short: "위험의 분기와 비용의 분기", summary: "조건별 위험·비용 분기점과, 비용 항목 30여 개의 부담 주체를 근거 구분과 함께 정리한 표." },
-    { id: 'inco-gray', tag: "애매한 구간", level: 3, title: "인코텀스만으로는 애매한 구간 — 상차·하차, 터미널 비용, 컨테이너 화물", short: "애매한 구간", summary: "상차·하차, 터미널 비용, 통관, 지연 비용 등 규칙이 말하지 않는 구간과 계약 문구 예시." },
-    { id: 'inco-choose', tag: "선택·표기", level: 2, title: "조건 고르기와 계약서에 쓰는 법 — 운송 형태별 선택과 표기", short: "조건 고르기와 표기", summary: "운송 형태별 조건 선택, 표기법의 좋은 예와 나쁜 예, 신용장 정합, 포워더 업무 분담." }
+    { id: 'inco-what', tag: "정의·개정", level: 3, title: "인코텀스란과 2020 개정 — 정의와 법적 성격, 2010에서 2020으로 바뀐 것", short: "인코텀스란과 2020 개정", summary: "정의와 법적 성격, 규칙이 다루는 것과 다루지 않는 것, 운송·보험·신용장과의 관계, 판별 조건 변화와 2010에서 2020으로 바뀐 9가지." },
+    { id: 'inco-rules', tag: "한 장 정리·조건별", level: 3, title: "조건별 해설과 한 장 정리표 — 11개 조건의 구간별 비용·위험과 인도·통관·보험", short: "조건별 해설과 한 장 정리표", summary: "11개 조건을 13개 구간으로 나눠 비용 부담과 위험 이전 지점을 한 표에 놓고, 조건마다 인도 지점·위험·비용·통관·보험·상하차와 자주 틀리는 지점을 같은 틀로 정리했습니다." },
+    { id: 'inco-gray', tag: "위험·비용", level: 3, title: "위험·비용의 분기와 애매한 구간 — 비용 항목별 부담표와 계약 문구 예시", short: "위험·비용 분기와 애매한 구간", summary: "C조건의 위험·비용 분기, 인도 전 위험 이전, 비용 항목 30여 개의 조건별 부담표, 상차·하차·터미널 비용·통관·지연 비용처럼 규칙이 말하지 않는 구간과 계약 문구 예시." },
+    { id: 'inco-choose', tag: "선택·표기", level: 2, title: "조건 고르기와 계약서에 쓰는 법 — 운송 형태별 선택과 표기", short: "조건 고르기와 표기", summary: "운송 형태별 조건 선택(컨테이너 화물과 FOB), 표기법의 좋은 예와 나쁜 예, 신용장 정합, 포워더 업무 분담." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -50,18 +47,17 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "기본", sub: "한 장 정리 · 정의 · 변천 과정", docs: ["inco-chart", "inco-what", "inco-history"] },
-    { title: "조건과 분기", sub: "조건별 해설 · 위험과 비용", docs: ["inco-rules", "inco-risk-cost"] },
-    { title: "실무 가이드", sub: "애매한 구간 · 조건 선택과 표기", docs: ["inco-gray", "inco-choose"] }
+    { title: "기본", sub: "정의와 2020 개정 · 한 장 정리표와 조건별 해설", docs: ["inco-what", "inco-rules"] },
+    { title: "실무 가이드", sub: "위험·비용 분기와 애매한 구간 · 조건 선택과 표기", docs: ["inco-gray", "inco-choose"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
-    { name: "한눈에 비교하고 싶어요", ids: ["inco-chart", "inco-rules"] },
-    { name: "인코텀스가 정확히 뭔가요", ids: ["inco-what", "inco-history"] },
-    { name: "위험과 비용은 어디서 갈리나요", ids: ["inco-risk-cost", "inco-chart"] },
-    { name: "상차·하차, 터미널 비용은 누가 내나요", ids: ["inco-gray", "inco-risk-cost"] },
+    { name: "한눈에 비교하고 싶어요", ids: ["inco-rules"] },
+    { name: "인코텀스가 정확히 뭔가요", ids: ["inco-what"] },
+    { name: "위험과 비용은 어디서 갈리나요", ids: ["inco-gray", "inco-rules"] },
+    { name: "상차·하차, 터미널 비용은 누가 내나요", ids: ["inco-gray"] },
     { name: "어떤 조건을 골라야 하나요", ids: ["inco-choose", "inco-rules"] },
-    { name: "2010과 뭐가 달라졌나요", ids: ["inco-history"] }
+    { name: "2010과 뭐가 달라졌나요", ids: ["inco-what"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -82,7 +78,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>Incoterms 2020, 어디서 갈리나</h2><p>인코텀스는 물품 매매계약에서 매도인과 매수인이 <b>비용과 위험을 어디서 나누는지</b>를 세 글자로 약속하는 ICC의 규칙입니다. 11개 조건을 구간별로 한 장에 놓고, 위험과 비용의 분기점, 비용에 포함되는 것과 포함되지 않는 것, 그리고 규칙만으로는 정해지지 않는 상차·하차·터미널 비용 같은 구간을 정리했습니다.</p><a class="lib-summary-button" href="${link('inco-chart')}">한 장으로 보는 Incoterms 2020 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('Incoterms® 2020 규칙 본문은 ICC의 저작물이어서 싣지 않았습니다. 규칙이 정한 내용을 자기 말로 설명하고 조항은 번호로만 가리킵니다. 해설은 AI가 ICC 공개 자료와 UNCITRAL 문서, 공신력 있는 해설을 읽고 작성했으며 ICC가 만들거나 검토한 것이 아닙니다. 규칙이 정한 것과 실무 관행, 계약으로 정해야 하는 것을 구분해 적었습니다. 실제 계약은 ICC 원문과 계약서 문언을 기준으로 하세요.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>Incoterms 2020, 어디서 갈리나</h2><p>인코텀스는 물품 매매계약에서 매도인과 매수인이 <b>비용과 위험을 어디서 나누는지</b>를 세 글자로 약속하는 ICC의 규칙입니다. 11개 조건을 구간별로 한 장에 놓고, 위험과 비용의 분기점, 비용에 포함되는 것과 포함되지 않는 것, 그리고 규칙만으로는 정해지지 않는 상차·하차·터미널 비용 같은 구간을 정리했습니다.</p><a class="lib-summary-button" href="${link('inco-rules')}">한 장 정리표와 조건별 해설 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('Incoterms® 2020 규칙 본문은 ICC의 저작물이어서 싣지 않았습니다. 규칙이 정한 내용을 자기 말로 설명하고 조항은 번호로만 가리킵니다. 해설은 AI가 ICC 공개 자료와 UNCITRAL 문서, 공신력 있는 해설을 읽고 작성했으며 ICC가 만들거나 검토한 것이 아닙니다. 규칙이 정한 것과 실무 관행, 계약으로 정해야 하는 것을 구분해 적었습니다. 실제 계약은 ICC 원문과 계약서 문언을 기준으로 하세요.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;
@@ -195,7 +191,11 @@
   function show() {
     const view = document.getElementById('libraryView');
     if (!view) return;
-    const id = routed ? location.pathname.split('/')[3] : new URLSearchParams(location.search).get('doc');
+    const raw = routed ? location.pathname.split('/')[3] : new URLSearchParams(location.search).get('doc');
+    // 합친 문서의 예전 주소
+    const MOVED = { 'inco-history': 'inco-what', 'inco-chart': 'inco-rules', 'inco-risk-cost': 'inco-gray' };
+    const id = MOVED[raw] || raw;
+    if (MOVED[raw]) history.replaceState(null, '', link(id) + location.hash);
     const doc = byId(id);
     if (doc) {
       // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.

@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261020-06';
+  const DOCS_VERSION = '20261020-07';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -43,8 +43,7 @@
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
-    { id: 'dg-rules', tag: "국제 규칙", level: 3, title: "국제 위험물 운송 규칙 한눈에 — UN 권고에서 IATA·IMDG·ADR까지", short: "국제 위험물 운송 규칙", summary: "UN 권고에서 IATA·IMDG·ADR·49 CFR까지, 규칙별 성격·현행판과 교육 요건 비교." },
-    { id: 'dg-treaties', tag: "조약·입법", level: 2, title: "조약과 국내 입법 — 어떤 조약에 따라 무슨 법이 만들어졌나", short: "조약과 국내 입법", summary: "시카고협약·SOLAS가 항공안전법·선박안전법으로 이어지는 경로. 도로·철도는 국내법." },
+    { id: 'dg-rules', tag: "국제 규칙", level: 3, title: "국제 위험물 운송 규칙 한눈에 — UN 권고에서 IATA·IMDG·ADR까지, 한국 법령과의 연결", short: "국제 위험물 운송 규칙", summary: "UN 권고에서 IATA·IMDG·ADR·49 CFR까지 규칙별 성격·현행판과 교육 요건을 비교하고, 시카고협약·SOLAS·MARPOL이 항공안전법·선박안전법·해양환경관리법으로 이어지는 경로와 조약 없이 국내법이 맡는 도로·철도를 정리했습니다." },
     { id: 'kr-system', tag: "법체계", level: 3, title: "국내 위험물 법체계 — 위험물안전관리법·화학물질관리법과 UN 분류의 관계", short: "국내 위험물 법체계", summary: "UN은 9개 등급 하나, 국내는 위험 종류와 부처별로 나뉜 법. 법령별 대상·행위와 UN 등급 대응표." },
     { id: 'kr-small', tag: "소량 기준", level: 3, title: "소량 기준 — 지정수량 미만과 시·도 조례, 화관법의 규정수량", short: "소량 기준", summary: "지정수량 미만은 시·도 조례 적용. 배수 합산, 조례 4곳 비교, 화관법 규정수량 3단계." },
     { id: 'kr-mismatch', tag: "기준 비교", level: 3, title: "국제 규칙과 국내법에서 다르게 취급되는 품목 — 윤활유·리튬배터리 등", short: "국제·국내 기준이 다른 품목", summary: "윤활유는 국내만, 리튬배터리는 국제만 위험물. 15개 품목과 요약표." },
@@ -53,9 +52,7 @@
     { id: 'dg-msds', tag: "MSDS", level: 3, title: "MSDS(SDS) 읽는 법 — 포워더가 확인하는 항목과 운송 분류와의 관계", short: "MSDS(SDS) 읽는 법", summary: "14항을 1·3·9항과 대조하는 법, 9·14·15항으로 국제·국내 판단을 따로 읽는 순서, GHS 분류와 운송 분류의 차이, 오래된 SDS·Non-DG 확인서 등 위험 신호와 접수 체크리스트." },
     { id: 'dg-hidden', checked: '2026-10-19', tag: "숨은 위험물", level: 3, title: "숨은 위험물(Hidden DG) — 일반 화물 속 위험물을 서류와 반입 단계에서 걸러내기", short: "숨은 위험물 확인", summary: "자동차 부품·전자제품·이삿짐처럼 일반 품명 아래 숨은 배터리·가스·인화성 액체를 포워더는 품명·HS 코드·SDS·확인서로, 창고·CFS 작업자는 라벨·냄새·누액 같은 외관 신호로 걸러내는 절차와 발견 뒤 보고·역할 분담을 정리합니다." },
     { id: 'dg-lithium', checked: '2026-10-20', tag: "리튬배터리", level: 3, title: "리튬배터리 운송 — 해상·항공·철도에서 UN 번호, 포장, 표시, 서류가 어떻게 다른가", short: "리튬배터리 운송", summary: "리튬배터리의 UN 번호를 화학·형태·Wh로 고르는 법과 같은 배터리가 해상·철도(IMDG 42-24, RID 2025, SMGS)와 항공(PI 965~970·976~978, 2026년 SoC 30% 확대, 3m 적재 시험)에서 포장·표시·서류가 어떻게 달라지는지, 국내 해상·항공 수출 절차(반입신고·수납검사·DGD), 보관·고온 관리와 사고 사례, 역할별 점검까지 다룹니다." },
-    { id: 'dg-kr-duty', tag: "교육 의무", level: 3, title: "대한민국의 위험물 교육 의무 — 항공·해상·육상 법령별 정리", short: "대한민국의 교육 의무", summary: "항공·해상·도로·철도·화관법·고압가스·산안법의 교육 의무를 대상·주기·시간·교육기관으로 비교." },
-    { id: 'dg-forwarder', tag: "포워더", level: 3, title: "포워더의 교육 대상 — 누가 어떤 교육을 받아야 하나", short: "포워더의 교육 대상", summary: "포워더 직원을 직무별로 나눠 항공·해상·도로 위험물 교육 대상과 시간을 근거 조문과 함께 정리." },
-    { id: 'dg-penalty', tag: "제재", level: 3, title: "교육을 받지 않으면 — 벌칙·과태료와 실무상 불이익", short: "교육을 받지 않으면", summary: "법령별 교육 미이수·미신고 운송의 과태료·벌칙 조문과 금액, 선사 벌과금과 민사 책임." },
+    { id: 'dg-forwarder', tag: "교육·제재", level: 3, title: "포워더의 위험물 교육 의무와 제재 — 누가 어떤 교육을 받고, 안 받으면 어떻게 되나", short: "포워더의 교육 의무와 제재", summary: "포워더 직원의 직무별 교육 대상, 항공·해상·도로·철도·화관법·고압가스·MSDS 교육의 대상·시간·주기, 강습·실무교육과 상호 인정, 법령별 과태료·벌칙, 선사 벌과금·항공사 보고·민사 책임, 점검표." },
     { id: 'case-inspection', tag: "국내 단속", level: 2, title: "국내 점검·단속 적발 사례 — 소방·특사경·국토교통부", short: "국내 점검·단속 적발", summary: "소방·특사경·국토교통부 등이 국내에서 적발한 12건을 유형별로 정리하고, 사례마다 국내법 위반인지 국제 운송 규칙 위반인지를 표시했습니다. 자가 점검표를 붙였습니다." },
     { id: 'case-kr-accident', tag: "국내 사고", level: 2, title: "국내 위험물 사고 사례 — 공장·창고·터널·항만·항공기에서 난 사고", short: "국내 위험물 사고", summary: "아시아나항공 991편, 인천신항 컨테이너 폭발, 안성 물류창고 화재 등 국내 위험물 사고 9건을 조사보고서와 보도로 확인해 장소·화물·문제된 규칙·결과를 사례마다 표시했습니다." },
     { id: 'case-kr-litigation', tag: "국내 판결", level: 2, title: "국내 위험물 판결 사례 — 한국 법원은 누구에게 책임을 물었나", short: "국내 위험물 판결", summary: "대법원·하급심의 위험물 관련 판결 8항목을 상법·불법행위·형사책임 관점에서 쟁점과 결론으로 정리했습니다." },
@@ -72,23 +69,23 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "국제 위험물", sub: "국제 운송 규칙 · 조약과 국내 입법", docs: ["dg-rules", "dg-treaties"] },
+    { title: "국제 위험물", sub: "UN 권고 · IATA·IMDG·ADR · 조약과 국내 입법", docs: ["dg-rules"] },
     { title: "국내 위험물", sub: "국내 법체계 · 소량 기준", docs: ["kr-system", "kr-small"] },
     { title: "국제와 국내의 차이", sub: "기준이 다른 품목 · 생활용품 속 위험물 · 표시 비교", docs: ["kr-mismatch", "dg-household", "dg-marks"] },
     { title: "운송 실무", sub: "MSDS(SDS) 읽는 법 · 숨은 위험물 · 리튬배터리", docs: ["dg-msds", "dg-hidden", "dg-lithium"] },
-    { title: "위험물 교육", sub: "한국의 교육 의무 · 포워더 교육 대상 · 미이수 제재", docs: ["dg-kr-duty", "dg-forwarder", "dg-penalty"] },
+    { title: "위험물 교육", sub: "직무별 교육 대상 · 법령별 교육 · 미이수 제재", docs: ["dg-forwarder"] },
     { title: "국내 사례", sub: "한국에서 일어났거나 한국 기관이 처분·판결한 사례", docs: ["case-inspection", "case-kr-accident", "case-kr-litigation"] },
     { title: "해외 사례", sub: "외국에서 일어나 외국 기관이 조사·판결한 사례", docs: ["case-accident", "case-litigation"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
-    { name: "IATA·IMDG·ADR이 뭔가요", ids: ["dg-rules", "dg-treaties"] },
+    { name: "IATA·IMDG·ADR이 뭔가요", ids: ["dg-rules"] },
     { name: "국내법상 위험물은 어떻게 정하나요", ids: ["kr-system", "kr-small"] },
     { name: "수출 서류로는 위험물이 아닌데 창고에서는요", ids: ["kr-mismatch", "kr-system"] },
     { name: "향수·스프레이·보조배터리도 위험물인가요", ids: ["dg-household", "kr-mismatch"] },
     { name: "화주가 준 MSDS, 어디를 봐야 하나요", ids: ["dg-msds", "kr-mismatch"] },
-    { name: "우리 직원은 무슨 교육을 받아야 하나요", ids: ["dg-forwarder", "dg-kr-duty"] },
-    { name: "교육을 안 받으면 어떻게 되나요", ids: ["dg-penalty", "case-inspection"] },
+    { name: "우리 직원은 무슨 교육을 받아야 하나요", ids: ["dg-forwarder"] },
+    { name: "교육을 안 받으면 어떻게 되나요", ids: ["dg-forwarder", "case-inspection"] },
     { name: "국내에서는 실제로 어떤 일이 있었나요", ids: ["case-inspection", "case-kr-accident", "case-kr-litigation"] },
     { name: "해외에서는요", ids: ["case-accident", "case-litigation"] }
   ];

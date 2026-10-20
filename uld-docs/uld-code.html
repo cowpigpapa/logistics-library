@@ -1,9 +1,100 @@
-<p>ULD에는 "AKE 12345 KE", "PMC 98765 OZ"처럼 세 글자 형식 코드, 일련번호, 소유자 코드로 된 식별 코드가 표시되어 있습니다. 이 문서는 먼저 IATA ULD 식별 코드의 구조와 각 글자의 뜻, 실무에서 자주 보는 코드의 읽기 예, 코드가 ULD 어디에 표시되는지, 비행편마다 붙이는 ULD 태그와의 차이를 정리합니다. 이어서 실무에서 자주 보는 컨테이너·팔레트·온도관리 ULD·말 운송 스톨의 바닥 치수, 높이, 최대 총중량(MGW, Maximum Gross Weight), 자중(tare), 용적, 탑재 위치를 표로 정리합니다. 수치는 Boeing, ULD 제조사, 항공사(Lufthansa Cargo, 대한항공, 아시아나항공, 싱가포르항공, 베트남항공, Cathay Cargo, Cargolux 등) 공개 자료로 교차 확인했고, 자료마다 다른 값은 그대로 밝혔습니다.</p>
+<p>단위탑재용기(ULD, Unit Load Device)는 화물·우편·수하물을 묶어 항공기에 싣는 컨테이너와 팔레트입니다. 이 문서는 먼저 ULD의 정의와 쓰는 이유, 형태 구분, 인증(certified) ULD와 비인증(non-certified) ULD의 차이, 인증 기준(FAA TSO-C90, EASA ETSO-C90)과 IATA ULD Regulations, 항공사가 ULD를 갖추는 방식을 정리합니다. 이어서 "AKE 12345 KE", "PMC 98765 OZ"처럼 세 글자 형식 코드, 일련번호, 소유자 코드로 된 IATA ULD 식별 코드의 구조와 각 글자의 뜻, 실무에서 자주 보는 코드의 읽기 예, 코드가 ULD 어디에 표시되는지, 비행편마다 붙이는 ULD 태그와의 차이를 다룹니다. 끝으로 실무에서 자주 보는 컨테이너·팔레트·온도관리 ULD·말 운송 스톨의 바닥 치수, 높이, 최대 총중량(MGW, Maximum Gross Weight), 자중(tare), 용적, 탑재 위치를 표로 정리합니다. 수치는 Boeing, ULD 제조사, 항공사(Lufthansa Cargo, 대한항공, 아시아나항공, 싱가포르항공, 베트남항공, Cathay Cargo, Cargolux 등) 공개 자료로 교차 확인했고, 자료마다 다른 값은 그대로 밝혔습니다.</p>
+<figure class="lib-figure"><img src="/images/uld/uld-family.webp" alt="로어덱 컨테이너, 네트를 씌운 팔레트, 메인덱 컨테이너, 온도관리 컨테이너" loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>AI 생성 도해</span> ULD는 크게 컨테이너와 팔레트(네트와 한 세트)로 나뉘고, 온도관리 컨테이너처럼 특수 용도의 ULD도 있습니다.</figcaption></figure>
+
+<p class="lib-disclaimer">IATA ULD Regulations(ULDR)는 IATA의 유료 간행물이고 저작물이며, ULD 식별 코드의 정식 정의도 ULDR의 Standard Specification 40/1에 있습니다. 이 문서는 ULDR 본문을 옮기지 않고, IATA가 공개한 소개 자료, FAA·EASA 공개 문서, ULD CARE·ULD 제조사(VRR)·Boeing·항공사의 공개 자료로 교차 확인한 사실만 정리했습니다. 공개 자료에 없는 코드 글자는 표에 넣지 않았습니다. 실제 탑재 가능 여부와 제한은 항공사와 해당 기종의 Weight &amp; Balance 매뉴얼(WBM)이 정합니다.</p>
+
+<h3>1. ULD의 정의</h3>
+<table class="lib-table">
+<thead><tr><th>출처</th><th>정의의 요지</th></tr></thead>
+<tbody>
+<tr><td>IATA ULD Regulations 소개</td><td>항공기 ULD는 <b>항공기 컨테이너</b>이거나 <b>항공기 팔레트와 항공기 팔레트 네트의 조합</b>으로, 항공 운송을 위해 화물·우편·수하물을 묶고 고정하는 장치입니다.</td></tr>
+<tr><td>IATA Knowledge Hub(2021)</td><td>ULD는 항공기의 화물 탑재 시스템(Cargo Loading System, CLS)과 직접 맞물리고, 비행 중에는 항공기 구조의 일부처럼 기능하도록 설계됩니다.</td></tr>
+<tr><td>ICAO 부속서 18(위험물 항공운송)</td><td>모든 형태의 화물 컨테이너, 항공기 컨테이너, 네트를 씌운 항공기 팔레트, 이글루(igloo) 위에 네트를 씌운 항공기 팔레트를 ULD로 봅니다.</td></tr>
+<tr><td>FAA AC 120-85B(2022)</td><td>ULD는 화물을 묶고 옮기고 고정하는 장치로, 팔레트+네트 조합 또는 컨테이너입니다. <b>스트랩으로 묶은 팔레트는 ULD가 아닙니다.</b></td></tr>
+</tbody>
+</table>
+<p class="lib-source">출처: Unit Load Device Regulations 소개(IATA) — <a href="https://www.iata.org/en/publications/manuals/uld-regulations" target="_blank" rel="noopener noreferrer">IATA</a></p>
+<p class="lib-source">출처: What is aircraft ULD in air transport(IATA Knowledge Hub, 2021) — <a href="https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/what-is-aircraft-uld-in-air-transport/" target="_blank" rel="noopener noreferrer">IATA</a></p>
+<p class="lib-source">출처: ICAO Annex 18 용어 정의(브라질 민간항공청 ANACpedia 수록) — <a href="https://www2.anac.gov.br/anacpedia/ing-fra/tr857.htm" target="_blank" rel="noopener noreferrer">ANAC</a></p>
+<p class="lib-source">출처: AC 120-85B Carriage of Cargo, 2.4(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h3>2. ULD를 쓰는 이유</h3>
+<ul>
+<li><b>탑재 효율</b>: 컨테이너의 컨투어(contour)는 실리는 위치(메인덱·로어덱)의 동체 단면에 맞춰 정해져 있어 화물칸 공간을 최대한 씁니다. 컨투어는 <a data-doc="uld-buildup">컨투어와 빌드업</a>에서 다룹니다.</li>
+<li><b>지상 조업 시간 단축</b>: 화물을 미리 ULD 단위로 짜 두면 항공기에는 몇 개의 단위만 싣고 내리면 됩니다. 항공사 사이 환적(interline)도 ULD째 넘길 수 있어 훨씬 간단해졌습니다.</li>
+<li><b>항공기 고정 시스템과의 결합</b>: ULD는 화물칸 바닥의 롤러, 사이드 가이드, 팔레트 락(lock) 등 항공기 화물 탑재 시스템에 직접 맞물려 고정됩니다. 인증 ULD는 이 고정 시스템에 물려 있어야 인증 ULD로서 기능합니다(<a data-doc="uld-code#s4">4절</a>).</li>
+</ul>
+<p>ULD를 실은 첫 상업 여객 운항은 1970년 1월 뉴욕~런던 구간의 첫 Boeing 747이었고, 그 전까지 ULD 운영은 화물기에서만 있었다고 ULD CARE는 정리합니다. 1988년 Air France가 처음 운항한 A320은 ULD를 쓰도록 설계된 첫 내로바디 여객기로, 높이 45인치의 AKH(LD3-45)를 도입했습니다.</p>
+<p class="lib-source">출처: ULD and ULD CARE — 50 years of evolution(ULD CARE, 2020) — <a href="https://uldcare.com/wp-content/uploads/2020/05/History-of-ULD-and-ULD-CARE-lr.pdf" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
+<p class="lib-source">출처: AC 120-85B Carriage of Cargo, 2.4.3.2(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+
+<h3>3. 형태 구분</h3>
+<table class="lib-table">
+<thead><tr><th>형태</th><th>구성</th><th>특징</th></tr></thead>
+<tbody>
+<tr><td>컨테이너(container)</td><td>바닥판과 벽·지붕이 일체인 상자형</td><td>그 자체로 화물을 가두고 고정합니다. 문은 천(canvas) 또는 단단한 패널입니다.</td></tr>
+<tr><td>팔레트(pallet)</td><td>알루미늄 평판</td><td>네트 없이는 화물을 고정하지 못합니다. 바닥판만 있으므로 적재 높이는 실리는 위치의 컨투어가 정합니다.</td></tr>
+<tr><td>팔레트 + 네트(pallet and net)</td><td>팔레트에 화물을 쌓고 네트를 씌워 가장자리 레일에 고정</td><td>네트가 화물을 모든 방향으로 붙잡는 1차 고정 장치이고, 인증 팔레트와 짝이 맞는 인증 네트가 하나의 인증 단위입니다(<a data-doc="uld-pallets">88인치와 96인치 팔레트</a>).</td></tr>
+<tr><td>이글루(igloo)</td><td>팔레트 위에 씌우는 덮개형 셸</td><td>ICAO 정의상 비구조(non-structural) 이글루는 팔레트+네트와 함께 쓰는 조합 단위의 일부이고, 구조(structural) 이글루 조립체는 컨테이너와 같은 완결 단위로 구분됩니다.</td></tr>
+<tr><td>특수 ULD</td><td>온도관리 컨테이너, 내화 컨테이너(FRC), 말·소 스톨, 차량 랙 등</td><td>IATA는 온도관리 컨테이너(TCC), 내화 컨테이너(FRC), 화재 차단 덮개(FCC), 말·소 스톨, 의류 행거(GOH) 컨테이너를 특수 용도 ULD로 듭니다.</td></tr>
+</tbody>
+</table>
+<p>형태마다 코드 첫 글자가 정해져 있습니다(인증 컨테이너 A, 인증 팔레트 P 등). 글자별 뜻은 <a data-doc="uld-code#s8">8절</a>, 대표 형식의 치수는 <a data-doc="uld-code#s18">18절</a>부터 다룹니다.</p>
+<p class="lib-source">출처: AC 120-85B Carriage of Cargo, 2.4.3(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a>, ICAO Annex 18 용어 정의 — <a href="https://www2.anac.gov.br/anacpedia/ing-fra/tr857.htm" target="_blank" rel="noopener noreferrer">ANAC</a></p>
+<p class="lib-source">출처: Identifying a ULD(VRR) — <a href="https://vrr.aero/knowledge-center/everything-about-ulds/uld-id-code/" target="_blank" rel="noopener noreferrer">VRR</a>, What is aircraft ULD in air transport(IATA Knowledge Hub, 2021) — <a href="https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/what-is-aircraft-uld-in-air-transport/" target="_blank" rel="noopener noreferrer">IATA</a></p>
+
+<h3>4. 인증 ULD와 비인증 ULD</h3>
+<h4>인증(certified) ULD</h4>
+<p>FAA는 인증 ULD를 TSO-C90 요건, 해당되면 보충형식증명(STC) 요건, 또는 FAA가 승인한 다른 인증 기준을 충족하는 ULD로 정의합니다. 인증 ULD는 화물을 구속하거나 항공기 시스템·구조를 보호할 수 있는 구조적 능력을 갖춘 것으로, 업계에서 "감항성 있는(airworthy) ULD"라고 부르는 것이 이것입니다. 다만 인증을 받았다고 어느 기종에나 쓸 수 있는 것은 아닙니다.</p>
+<ul>
+<li>해당 기종의 Weight &amp; Balance 매뉴얼(WBM, 형식증명 또는 STC 소지자가 만든 문서)이 허용한 ULD만 그 기종에 쓸 수 있습니다.</li>
+<li>인증 ULD로 계속 인정받으려면 항공기 화물 탑재 시스템(팔레트 락, 사이드 가이드 등)에 WBM대로 고정되어 있어야 합니다.</li>
+<li>FAA는 인증 ULD 컨테이너와 팔레트+네트 조합이 <b>항공기 화물 구속 시스템의 일부</b>라고 설명합니다(AC 120-85A 3.3.1, 2015).</li>
+</ul>
+<h4>비인증(non-certified) ULD</h4>
+<p>비인증 ULD는 TSO-C90 또는 형식증명·STC 인증 요건을 충족하지 않는 ULD입니다. 코드 첫 글자로는 D(컨테이너)·F(팔레트)·G(네트)·M(온도관리 컨테이너)가 비인증입니다(<a data-doc="uld-code#s8">8절</a>). 예를 들어 Lufthansa Cargo는 LD2(DPE)와 LD8(DQF) 컨테이너를 인증 "아니오"로 표기합니다. 비인증 컨테이너에 대한 업계 표준으로 FAA는 ISO 4118(Non-Certified Lower Deck Containers), SAE AS1677(비인증 화물·수하물 컨테이너 일반 요건)을 참고 자료로 듭니다.</p>
+<p><b>어디에 쓸 수 있는가</b>: FAA AC 120-85B는 항공사가 화물 전용기든 여객·화물 겸용기든 <b>어떤 화물칸에서도</b> 비인증 ULD를 쓰지 않도록 하되, ① 해당 ULD가 WBM에 허용되어 있거나 ② 그 ULD를 특수 화물(special cargo)로 묶어 고정하는 방법이 고정 지침에 있는 경우는 예외로 둡니다. 즉 비인증 ULD는 그 자체로 화물을 구속하는 장치로 인정되지 않으며, 쓸 수 있는 위치는 기종별 WBM과 항공사 지침이 정합니다.</p>
+<p class="lib-source">출처: AC 120-85B Carriage of Cargo, 2.4.3.2·2.4.3.4·2.4.5.7, Appendix B(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a>, AC 120-85A Air Cargo Operations, 3.3.1(FAA, 2015) — <a href="https://www.faa.gov/sites/faa.gov/files/2022-11/120-85A.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+<p class="lib-source">출처: Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a></p>
+
+<h3>5. 인증 기준과 시험 표준</h3>
+<table class="lib-table">
+<thead><tr><th>문서</th><th>발행처</th><th>현행 판과 내용</th></tr></thead>
+<tbody>
+<tr><td>TSO-C90 Cargo Pallets, Nets and Containers (Unit Load Devices)</td><td>FAA(미국)</td><td>현행 TSO-C90e, 2021년 7월 6일 발효. 적합성 근거 문서로 SAE AS36100C, AS36102B를 정하고, 내화 컨테이너(FRC) 기준으로 SAE AS8992를 참조합니다(e판에서 추가).</td></tr>
+<tr><td>ETSO-C90</td><td>EASA(유럽)</td><td>현행 ETSO-C90e, CS-ETSO 개정 18(ED Decision 2025/017/R 부속서). Type I ULD는 NAS 3610 Rev. 10, Type 2 ULD는 SAE AS36100 Rev. C(2020년 9월), 시험 방법은 AS36102B(2017년 3월), FRC는 AS8992를 최소 성능 기준으로 씁니다. ETSO-C90e가 요구하는 식별 표시는 <a data-doc="uld-code#s15">15절</a>에 있습니다.</td></tr>
+<tr><td>NAS 3610</td><td>AIA(미국 항공우주산업협회)</td><td>Cargo Unit Load Devices — Specification For. 인증 ULD의 등급과 강도 능력을 정한 표준으로, TSO-C90이 참조해 왔습니다.</td></tr>
+<tr><td>SAE AS36100 / AS36102</td><td>SAE International</td><td>ULD 성능 요건·시험 조건(AS36100)과 시험 방법(AS36102).</td></tr>
+<tr><td>ISO 8097 / ISO 21100</td><td>ISO</td><td>ISO 21100(Air cargo unit load devices — Performance requirements and test parameters)은 새로 설계하는 ULD의 TSO 승인 참조 표준으로 ISO 8097을 대체하는 것으로 소개됩니다. 그 전 ULD는 ISO 8097:2001로 승인받았습니다.</td></tr>
+</tbody>
+</table>
+<p>개정판은 <b>새로 승인받는 설계</b>에 적용됩니다. 이전 판으로 승인받은 설계는 계속 유효하므로, 현장에서는 여러 판의 TSO 표시가 붙은 ULD가 섞여 쓰입니다. ULD에 붙은 TSO 명판(plate)에서 어느 판을 따랐는지 볼 수 있습니다.</p>
+<p class="lib-source">출처: Cargo Safety Enhancement Standards(FAA, 2023 TSO Workshop 발표, 2023-09-20) — <a href="https://www.faa.gov/aircraft/air_cert/design_approvals/dah/cargo" target="_blank" rel="noopener noreferrer">FAA</a></p>
+<p class="lib-source">출처: UK.ETSO-C90d(A1).DEV.001 의견수렴 문서(UK CAA) — <a href="https://consultations.caa.co.uk/safety-and-airspace-regulation-group/uk-etso-c90da1-dev-001/results/uk.etso-c90da1.dev.001issue01deviationconsultationpaper.pdf" target="_blank" rel="noopener noreferrer">UK CAA</a></p>
+<p class="lib-source">출처: CS-ETSO Amendment 18, ETSO-C90e(EASA, 2025) — <a href="https://www.easa.europa.eu/en/downloads/142731/en" target="_blank" rel="noopener noreferrer">EASA</a></p>
+<p class="lib-source">출처: ETSO-C90e: the implications for EASA-certified ULDs(VRR) — <a href="https://vrr.aero/this-is-vrr/blog/etso-c90e-the-implications-for-easa-certified-ulds" target="_blank" rel="noopener noreferrer">VRR</a>, AC 120-85A 3.3.1(FAA, 2015) — <a href="https://www.faa.gov/sites/faa.gov/files/2022-11/120-85A.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
+<p class="lib-source">출처: ISO 21100 Air cargo unit load devices — Performance requirements and test parameters(ISO) — <a href="https://www.iso.org/standard/70674.html" target="_blank" rel="noopener noreferrer">ISO</a></p>
+
+<h3>6. IATA ULD Regulations(ULDR)와 ULD CARE</h3>
+<table class="lib-table">
+<thead><tr><th>항목</th><th>내용</th></tr></thead>
+<tbody>
+<tr><td>성격</td><td>ULD의 제작, 수리·정비, 취급, 운영에 관련된 모든 당사자에게 적용되는 규제·항공사 요건, 기술·운영 사양, 업계 합의 표준과 절차를 모은 IATA의 참고 매뉴얼입니다. IATA 스토어에서 판매하는 유료 간행물입니다.</td></tr>
+<tr><td>판</td><td>2026년 현행은 <b>제14판(2026)</b>입니다. IATA 공식 페이지는 이미 <b>제15판(2027)</b>을 안내하고 있습니다. IATA는 첫 ULDR을 2013년에 냈고 매년 개정합니다.</td></tr>
+<tr><td>2026년판 주요 변경(보도 기준)</td><td>A350F 메인덱 운영 지원, 새 컨테이너 컨투어 코드 W와 ULD 형식 AMW 신설, 빌드업 업무의 역량기반 훈련(CBTA) 표, ULD 수명주기 평가(LCA) 지침인 부록 J 신설.</td></tr>
+<tr><td>2027년판 주요 변경(IATA 안내)</td><td>A350F를 기종 적합성 정보에 추가, 리튬이온 배터리 관련 내화 컨테이너 시험 요건 강화, 엔진 운송장치 표준 사양 삭제, 고정 스트랩 설계 기준과 기종 크기별 최대 팔레트 고정 수 명확화, ULD 보관 점검표인 부록 K 신설.</td></tr>
+<tr><td>담는 내용</td><td>IATA ULD 식별 코드와 등록된 ULD 형식 코드, 인증·비인증 컨테이너 구분, 기술 사양, 표시, 취급·보관, 서류 등.</td></tr>
+</tbody>
+</table>
+<p>IATA 안에서 ULD 표준은 화물서비스회의(Cargo Services Conference) 산하 IATA ULD Board가 만듭니다. IATA는 2010년 ULD를 핵심 화물 활동으로 다시 자리매김했고, 2016년 ULD 안전 캠페인을 시작했습니다. 캠페인 내용과 ULD 손상 비용은 <a data-doc="uld-safety#s1">안전과 사고 사례</a>에서 다룹니다.</p>
+<p><b>ULD CARE는 IATA 기구가 아닙니다.</b> 1971년 IATA가 환적 ULD 추적을 위해 만든 위원회에서 출발해, 1988년 IATA 이익단체 IULDUG(Interline ULD User Group)가 되었고, 2010년 IATA와 합의해 분리한 뒤 2011년 ULD CARE로 이름을 바꾼 독립 비영리 단체입니다. 항공사 간 ULD 이동 기록 시스템을 운영하고, ULD 취급 교육 자료와 행동 강령(Code of Conduct)을 만듭니다. ULD CARE 스스로 IATA가 표준을 정하고 자신들은 그 표준을 현장 도구로 옮기는 역할이라고 설명합니다.</p>
+<p class="lib-source">출처: Unit Load Device Regulations 소개(IATA) — <a href="https://www.iata.org/en/publications/manuals/uld-regulations" target="_blank" rel="noopener noreferrer">IATA</a>, IATA ULD Regulations 14th Edition 2026 판매 안내(FMS London) — <a href="https://fmslondon.co.uk/products/publications/2026-publications/iata-uld-regulations-14th-edition-2026/" target="_blank" rel="noopener noreferrer">FMS London</a></p>
+<p class="lib-source">출처: IATA's 2026 ULD regulations bring major safety updates(Air Cargo Week) — <a href="https://aircargoweek.com/iatas-2026-uld-regulations-bring-major-safety-updates/" target="_blank" rel="noopener noreferrer">Air Cargo Week</a></p>
+<p class="lib-source">출처: What is aircraft ULD in air transport(IATA Knowledge Hub, 2021) — <a href="https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/what-is-aircraft-uld-in-air-transport/" target="_blank" rel="noopener noreferrer">IATA</a>, ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
+<p class="lib-source">출처: ULD and ULD CARE — 50 years of evolution(ULD CARE, 2020) — <a href="https://uldcare.com/wp-content/uploads/2020/05/History-of-ULD-and-ULD-CARE-lr.pdf" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
+
+<h3>7. 코드의 구조</h3>
 <figure class="uld-diagram"><div class="uld-svg-wrap"><svg viewBox="0 0 960 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ULD 식별 코드 AKE 12345 KE의 구조"><text x="480.0" y="32.0" font-size="18" font-weight="800" fill="#123d70" text-anchor="middle">ULD 식별 코드의 구조</text><rect x="95" y="60" width="62" height="78" rx="8" fill="#fff" stroke="#2b6cb8" stroke-width="3"/><text x="126.0" y="115.0" font-size="40" font-weight="800" fill="#2b6cb8" text-anchor="middle">A</text><rect x="163" y="60" width="62" height="78" rx="8" fill="#fff" stroke="#2b6cb8" stroke-width="3"/><text x="194.0" y="115.0" font-size="40" font-weight="800" fill="#2b6cb8" text-anchor="middle">K</text><rect x="231" y="60" width="62" height="78" rx="8" fill="#fff" stroke="#2b6cb8" stroke-width="3"/><text x="262.0" y="115.0" font-size="40" font-weight="800" fill="#2b6cb8" text-anchor="middle">E</text><rect x="325" y="60" width="62" height="78" rx="8" fill="#f3f5f7" stroke="#5f6763" stroke-width="3"/><text x="356.0" y="115.0" font-size="40" font-weight="800" fill="#123d70" text-anchor="middle">1</text><rect x="393" y="60" width="62" height="78" rx="8" fill="#f3f5f7" stroke="#5f6763" stroke-width="3"/><text x="424.0" y="115.0" font-size="40" font-weight="800" fill="#123d70" text-anchor="middle">2</text><rect x="461" y="60" width="62" height="78" rx="8" fill="#f3f5f7" stroke="#5f6763" stroke-width="3"/><text x="492.0" y="115.0" font-size="40" font-weight="800" fill="#123d70" text-anchor="middle">3</text><rect x="529" y="60" width="62" height="78" rx="8" fill="#f3f5f7" stroke="#5f6763" stroke-width="3"/><text x="560.0" y="115.0" font-size="40" font-weight="800" fill="#123d70" text-anchor="middle">4</text><rect x="597" y="60" width="62" height="78" rx="8" fill="#f3f5f7" stroke="#5f6763" stroke-width="3"/><text x="628.0" y="115.0" font-size="40" font-weight="800" fill="#123d70" text-anchor="middle">5</text><rect x="691" y="60" width="62" height="78" rx="8" fill="#fff" stroke="#f2a23a" stroke-width="3"/><text x="722.0" y="115.0" font-size="40" font-weight="800" fill="#f2a23a" text-anchor="middle">K</text><rect x="759" y="60" width="62" height="78" rx="8" fill="#fff" stroke="#f2a23a" stroke-width="3"/><text x="790.0" y="115.0" font-size="40" font-weight="800" fill="#f2a23a" text-anchor="middle">E</text><path d="M95 152 V162 H157 V152" fill="none" stroke="#2b6cb8" stroke-width="2.5"/><line x1="126.0" y1="162" x2="126.0" y2="183" stroke="#2b6cb8" stroke-width="1.5" stroke-dasharray="3 3"/><text x="126.0" y="205.0" font-size="15" font-weight="800" fill="#2b6cb8" text-anchor="middle">① 범주</text><text x="126.0" y="227.0" font-size="13" font-weight="500" fill="#5f6763" text-anchor="middle">인증 항공기 컨테이너</text><path d="M163 152 V162 H225 V152" fill="none" stroke="#2b6cb8" stroke-width="2.5"/><line x1="194.0" y1="162" x2="194.0" y2="233" stroke="#2b6cb8" stroke-width="1.5" stroke-dasharray="3 3"/><text x="194.0" y="255.0" font-size="15" font-weight="800" fill="#2b6cb8" text-anchor="middle">② 바닥 크기</text><text x="194.0" y="277.0" font-size="13" font-weight="500" fill="#5f6763" text-anchor="middle">60.4 × 61.5 in</text><path d="M231 152 V162 H293 V152" fill="none" stroke="#2b6cb8" stroke-width="2.5"/><line x1="262.0" y1="162" x2="262.0" y2="283" stroke="#2b6cb8" stroke-width="1.5" stroke-dasharray="3 3"/><text x="262.0" y="305.0" font-size="15" font-weight="800" fill="#2b6cb8" text-anchor="middle">③ 컨투어</text><text x="262.0" y="327.0" font-size="13" font-weight="500" fill="#5f6763" text-anchor="middle">로어덱 높이 64 in</text><path d="M325 152 V162 H659 V152" fill="none" stroke="#5f6763" stroke-width="2.5"/><line x1="492.0" y1="162" x2="492.0" y2="183" stroke="#5f6763" stroke-width="1.5" stroke-dasharray="3 3"/><text x="492.0" y="205.0" font-size="15" font-weight="800" fill="#123d70" text-anchor="middle">④ 일련번호</text><text x="492.0" y="227.0" font-size="13" font-weight="500" fill="#5f6763" text-anchor="middle">4자리 또는 5자리</text><path d="M691 152 V162 H821 V152" fill="none" stroke="#f2a23a" stroke-width="2.5"/><line x1="756.0" y1="162" x2="756.0" y2="183" stroke="#f2a23a" stroke-width="1.5" stroke-dasharray="3 3"/><text x="756.0" y="205.0" font-size="15" font-weight="800" fill="#f2a23a" text-anchor="middle">⑤ 소유자 코드</text><text x="756.0" y="227.0" font-size="13" font-weight="500" fill="#5f6763" text-anchor="middle">보통 항공사 2자리 코드</text><text x="480.0" y="382.0" font-size="13" font-weight="500" fill="#5f6763" text-anchor="middle">앞 세 글자 = ULD 형식 코드(ULD type code). 예: PMC 98765 OZ는 인증 팔레트(P) · 96 × 125 in(M) · 고정 구분 C · 일련번호 · 소유자 코드</text><text x="480.0" y="406.0" font-size="13" font-weight="500" fill="#5f6763" text-anchor="middle">첫째·둘째·셋째 글자의 전체 목록은 아래 표를 참고하세요.</text></svg></div><figcaption><span>치수로 그린 도면</span> ULD 식별 코드는 형식 코드 세 글자, 일련번호, 소유자 코드로 이루어집니다. 글자의 뜻은 IATA ULD Regulations의 코드 체계를 공개 자료로 확인한 것입니다.</figcaption></figure>
-
-<p class="lib-disclaimer">IATA ULD 식별 코드의 정식 정의는 유료 간행물인 IATA ULD Regulations(ULDR)의 Standard Specification 40/1에 있습니다. 이 문서는 ULDR 본문을 옮기지 않고, ULD CARE·ULD 제조사(VRR)·Boeing·항공사의 공개 자료로 교차 확인한 내용을 정리했습니다. 공개 자료에 없는 글자는 표에 넣지 않았습니다.</p>
-
-<h3>코드의 구조</h3>
 <table class="lib-table">
 <thead><tr><th>자리</th><th>예(AKE 12345 KE)</th><th>이름</th><th>뜻</th></tr></thead>
 <tbody>
@@ -17,7 +108,7 @@
 <p>표시할 때는 3번째와 4번째 자리 사이, 8번째와 9번째 자리 사이를 한 칸씩 띄웁니다(예: AKE 12345 ZZ). IATA 식별 체계는 IATA 결의 686(Resolution 686)에 근거하며, 이 체계가 지켜지면 전 세계 ULD마다 코드가 하나씩만 존재해야 합니다. 항공사 사이에 ULD가 오갈 때 형식과 주인을 바로 알아보게 하려는 것이 목적입니다.</p>
 <p class="lib-source">출처: ULD Identification Codes demystified(ULD CARE, 2014 게시·2017 수정) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a>, Identifying a ULD(VRR) — <a href="https://vrr.aero/knowledge-center/everything-about-ulds/uld-id-code/" target="_blank" rel="noopener noreferrer">VRR</a></p>
 
-<h3>첫째 글자 — ULD 범주</h3>
+<h3>8. 첫째 글자 — ULD 범주</h3>
 <table class="lib-table">
 <thead><tr><th>글자</th><th>범주</th><th>인증</th></tr></thead>
 <tbody>
@@ -42,7 +133,7 @@
 <p>실무에서 가장 흔한 글자는 A(인증 컨테이너), P(인증 팔레트), D(비인증 컨테이너), R(인증 온도관리 컨테이너)입니다. 위 표는 VRR 공개 목록이며, ULD CARE(2014)는 IATA 표준의 범주를 모두 17개로 적습니다. X·Y·Z를 쓴 ULD는 다른 회사가 범주를 알아볼 수 없습니다.</p>
 <p class="lib-source">출처: Identifying a ULD(VRR) — <a href="https://vrr.aero/knowledge-center/everything-about-ulds/uld-id-code/" target="_blank" rel="noopener noreferrer">VRR</a>, ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
 
-<h3>둘째 글자 — 바닥 크기</h3>
+<h3>9. 둘째 글자 — 바닥 크기</h3>
 <p>둘째 글자는 컨테이너든 팔레트든 바닥의 가로·세로 크기를 나타냅니다. 항공기 제조사의 Weight &amp; Balance 매뉴얼이 이 글자로 ULD를 가리키므로 바닥 크기에 맞게 정확히 표시되어 있어야 합니다.</p>
 <table class="lib-table">
 <thead><tr><th>글자</th><th>인치</th><th>mm</th><th>대표 예</th></tr></thead>
@@ -63,7 +154,7 @@
 <p>위 11개는 VRR가 1990년 10월 1일 이후 제작된 ULD에 쓰는 코드로 공개한 것입니다. ULD CARE(2014)는 표준 바닥 크기 글자를 15개로 적습니다. 표준 크기에 없는 ULD는 X·Y·Z를 쓰며, 1984년 이전에 표시된 아주 오래된 ULD는 둘째 자리가 숫자일 수 있습니다. P의 1198 mm는 약 47.2인치로, 인치 표기(47)와 4 mm 차이가 납니다.</p>
 <p class="lib-source">출처: Identifying a ULD(VRR) — <a href="https://vrr.aero/knowledge-center/everything-about-ulds/uld-id-code/" target="_blank" rel="noopener noreferrer">VRR</a>, ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
 
-<h3>셋째 글자 — 컨투어 또는 고정·인증 구분</h3>
+<h3>10. 셋째 글자 — 컨투어 또는 고정·인증 구분</h3>
 <p>셋째 글자는 컨테이너와 팔레트에서 뜻이 다릅니다.</p>
 <ul>
 <li><b>컨테이너</b>: IATA 표준 컨투어(contour)를 가리킵니다. 컨투어는 항공기 화물칸의 해당 위치 단면에 맞춘 외형이어서, 컨투어가 맞지 않는 컨테이너를 실으면 항공기를 손상시킬 수 있습니다. 컨투어는 ULDR Standard Specification 50/0에 정의되어 있습니다.</li>
@@ -99,7 +190,7 @@
 <p class="lib-source">출처: Identifying a Unit Load Device(ULD) 컨투어 요약(VRR) — <a href="https://vrr.aero/hubfs/Downloads/VRR_Identifying%20a%20Unit%20Load%20Device%20(ULD).pdf" target="_blank" rel="noopener noreferrer">VRR(PDF)</a>, ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
 <p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, IATA's 2026 ULD regulations bring major safety updates(Air Cargo Week) — <a href="https://aircargoweek.com/iatas-2026-uld-regulations-bring-major-safety-updates/" target="_blank" rel="noopener noreferrer">Air Cargo Week</a></p>
 
-<h3>읽기 연습</h3>
+<h3>11. 읽기 연습</h3>
 <table class="lib-table">
 <thead><tr><th>코드</th><th>모양</th><th>첫째 글자</th><th>둘째 글자</th><th>셋째 글자</th><th>한 줄 뜻</th></tr></thead>
 <tbody>
@@ -123,7 +214,7 @@
 <p>팔레트 셋째 글자(G·J·C·A 등)별로 받는 기종·위치는 항공사가 정해 두므로, 예약할 때 항공사에 확인하십시오.</p>
 <p class="lib-source">출처: Identifying a ULD(VRR) — <a href="https://vrr.aero/knowledge-center/everything-about-ulds/uld-id-code/" target="_blank" rel="noopener noreferrer">VRR</a>, Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, Unit Load Device(대한항공 카고) — <a href="https://cargo.koreanair.com/en/UnitLoadDevice" target="_blank" rel="noopener noreferrer">Korean Air Cargo</a></p>
 
-<h3>일련번호</h3>
+<h3>12. 일련번호</h3>
 <ul>
 <li>일련번호는 ULD 소유자가 부여해 개별 ULD를 추적하는 데 씁니다.</li>
 <li>초기에는 4자리만 허용했고, ULD 수가 늘면서 IATA 표준이 5자리를 허용하도록 바뀌었습니다. ULD CARE의 2014년 글은 이 변경을 "약 20년 전"이라고 적었고, IT 시스템 영향 때문에 정착에 시간이 걸렸다고 설명합니다.</li>
@@ -132,7 +223,7 @@
 </ul>
 <p class="lib-source">출처: ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
 
-<h3>소유자 코드</h3>
+<h3>13. 소유자 코드</h3>
 <p>마지막 두 글자는 IATA 코드 관리 담당(IATA Code Administration Coordinator)이 <b>항공사와 비항공사</b>에 배정하는 고유 2자리 코드입니다. 항공사가 소유한 ULD에는 보통 그 항공사의 IATA 2자리 코드가 붙습니다(예: KE 대한항공, OZ 아시아나항공, DL 델타항공). 비항공사에도 배정하므로 ULD 관리 회사나 리스 회사가 소유한 ULD에는 항공사 코드가 아닌 코드가 붙을 수 있습니다.</p>
 <ul>
 <li>소유자 코드는 ULD를 <b>누가 소유하는지</b>를 나타낼 뿐, 그 ULD가 지금 어느 항공사 화물에 쓰이는지와는 다를 수 있습니다. 환적·임차·관리 위탁으로 다른 항공사가 쓰는 일이 흔합니다.</li>
@@ -140,7 +231,20 @@
 </ul>
 <p class="lib-source">출처: ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a></p>
 
-<h3>코드가 표시되는 곳</h3>
+<h3>14. 항공사가 ULD를 갖추는 방식</h3>
+<table class="lib-table">
+<thead><tr><th>방식</th><th>내용</th></tr></thead>
+<tbody>
+<tr><td>자체 소유</td><td>항공사가 ULD를 사서 자기 소유자 코드로 등록하고 직접 관리합니다. 코드 끝 두 글자가 소유자입니다(<a data-doc="uld-code#s13">13절</a>).</td></tr>
+<tr><td>단기 임차</td><td>물량 변동에 맞춰 ULD 관리 회사에서 빌립니다.</td></tr>
+<tr><td>관리 위탁(아웃소싱)</td><td>ULD 공급, 위치 재배치, 추적, 수리를 전문 회사에 통째로 맡깁니다.</td></tr>
+<tr><td>항공사 간 환적</td><td>환적 화물과 함께 다른 항공사로 넘어간 ULD는 원래 소유 항공사로 돌려보내야 하며, 이 이동 기록을 ULD CARE(옛 IULDUG, <a data-doc="uld-code#s6">6절</a>)가 회원 항공사 간에 관리해 왔습니다.</td></tr>
+</tbody>
+</table>
+<p>대표적인 ULD 관리 회사로 Unilode와 Jettainer가 있습니다. Unilode는 스위스에 본사를 두고 ULD 관리, 디지털 추적, 단기 임차, 정비·수리를 하며 20만 개 이상의 ULD를 소유·관리한다고 밝힙니다. Jettainer는 Lufthansa Cargo의 100% 자회사로 2004년 합작사로 출발해 2009년 완전 자회사가 되었고, 약 10만 개의 ULD를 30곳 가까운 항공사를 위해 관리한다고 밝힙니다(수치는 각 사 공개 자료 기준이며 시점에 따라 바뀝니다). 포워더가 항공사 ULD를 빌릴 때의 점검·반납·손상 책임은 <a data-doc="uld-safety#s1">안전과 사고 사례</a>에서 다룹니다.</p>
+<p class="lib-source">출처: Unilode 회사 소개 — <a href="https://www.unilode.com/" target="_blank" rel="noopener noreferrer">Unilode</a>, Jettainer 회사 소개 — <a href="https://www.jettainer.com/" target="_blank" rel="noopener noreferrer">Jettainer</a>, Jettainer celebrates its 20th anniversary(Air Cargo Week, 2024) — <a href="https://www.aircargoweek.com/jettainer-celebrates-its-20th-anniversary/" target="_blank" rel="noopener noreferrer">Air Cargo Week</a></p>
+
+<h3>15. 코드가 표시되는 곳</h3>
 <table class="lib-table">
 <thead><tr><th>대상</th><th>표시 요건</th></tr></thead>
 <tbody>
@@ -154,7 +258,7 @@
 <p class="lib-source">출처: ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a>, CS-ETSO Amendment 18, ETSO-C90e(EASA, 2025) — <a href="https://www.easa.europa.eu/en/downloads/142731/en" target="_blank" rel="noopener noreferrer">EASA</a></p>
 <p class="lib-source">출처: AC 120-85B Carriage of Cargo, 2.6(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a>, How to conduct a ULD serviceability check(IATA Knowledge Hub, 2022) — <a href="https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/how-to-conduct-a-uld-serviceability-check/" target="_blank" rel="noopener noreferrer">IATA</a></p>
 
-<h3>ULD 코드와 ULD 태그의 차이</h3>
+<h3>16. ULD 코드와 ULD 태그의 차이</h3>
 <table class="lib-table">
 <thead><tr><th>구분</th><th>ULD 식별 코드</th><th>ULD 태그(탑재 ULD 태그)</th><th>"Unserviceable" ULD 태그</th></tr></thead>
 <tbody>
@@ -168,7 +272,7 @@
 <p class="lib-source">출처: AFKL Cargo Bulk Unitisation Program Standards, Version 3(Air France KLM Martinair Cargo) — <a href="https://brix.afklcargo.com/m/7d2c22f59234b146/original/AFKL_Cargo_Bulk_Unitisation_Program_standards.pdf" target="_blank" rel="noopener noreferrer">AFKL Cargo</a>, How to conduct a ULD serviceability check(IATA Knowledge Hub, 2022) — <a href="https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/how-to-conduct-a-uld-serviceability-check/" target="_blank" rel="noopener noreferrer">IATA</a></p>
 <p class="lib-source">출처: ULD Identification Codes demystified(ULD CARE, 2014) — <a href="https://www.uldcare.com/articles/library/care/uld-identification-codes-demystified/" target="_blank" rel="noopener noreferrer">ULD CARE</a>, AC 120-85B Carriage of Cargo, 2.6(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
 
-<h3>통칭과 IATA 코드</h3>
+<h3>17. 통칭과 IATA 코드</h3>
 <p>LD3, LD7 같은 통칭은 미국 항공운송협회(ATA, 지금의 Airlines for America)가 쓰던 체계에서 왔습니다. 지금은 IATA 식별 코드가 국제적으로 더 널리 쓰이며, 두 체계의 대응표는 IATA ULDR 부록 D에 있습니다. LD 이름은 같은 계열의 여러 IATA 코드를 묶어 부르는 통칭이어서 하나의 통칭에 IATA 코드가 여럿 대응하고, 통칭을 쓰는 방식도 자료마다 조금씩 다릅니다. 그래서 <b>예약과 서류에는 IATA 코드를 쓰는 것</b>이 안전합니다.</p>
 <table class="lib-table">
 <thead><tr><th>통칭</th><th>대표 IATA 코드</th><th>같은 계열로 묶이는 코드(Boeing 자료)</th><th>비고</th></tr></thead>
@@ -193,7 +297,7 @@
 
 <p class="lib-disclaimer">같은 형식 코드라도 최대 총중량, 자중, 용적은 제조사·제품·항공사와 실리는 위치(메인덱·로어덱, 기종)에 따라 다르게 공개됩니다. 아래 표는 공개 자료의 값을 비교한 것이며, 실제 예약·빌드업에는 이용하는 항공사의 최신 사양과 탑재 제한을 확인하시기 바랍니다.</p>
 
-<h3>컨테이너</h3>
+<h3>18. 컨테이너</h3>
 <table class="lib-table">
 <thead><tr><th>코드(통칭)</th><th>바닥(길이 × 폭)</th><th>외부 높이</th><th>형태</th><th>최대 총중량</th><th>자중</th><th>위치·대표 기종</th></tr></thead>
 <tbody>
@@ -216,7 +320,7 @@
 <p class="lib-source">출처: ULD 컨테이너(아시아나 카고) — <a href="https://www.asianacargo.com/contents/container.do" target="_blank" rel="noopener noreferrer">Asiana Cargo</a>, AULD Containers &amp; Pallets(Singapore Airlines Cargo) — <a href="https://www.siacargo.com/about-us/auld-containers-pallets/" target="_blank" rel="noopener noreferrer">SIA Cargo</a>, ULD Specification(Vietnam Airlines Cargo) — <a href="https://cargo.vietnamairlines.com/be/en/shipping-guide/uld-specification" target="_blank" rel="noopener noreferrer">Vietnam Airlines Cargo</a></p>
 <p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, General Cargo containers(VRR) — <a href="https://vrr.aero/products/general-cargo-containers/" target="_blank" rel="noopener noreferrer">VRR</a></p>
 
-<h3>팔레트</h3>
+<h3>19. 팔레트</h3>
 <p>팔레트는 바닥판만 있으므로 높이가 정해져 있지 않습니다. 쌓을 수 있는 높이와 외형은 실리는 위치의 컨투어(로어덱 64 in, 메인덱 96 in·118 in 등)가 정합니다(<a data-doc="uld-buildup">컨투어와 빌드업</a>). 88인치와 96인치 팔레트의 비교, 항공사별 위치별 최대 중량, 네트는 <a data-doc="uld-pallets">88인치와 96인치 팔레트</a>에서 다룹니다.</p>
 <table class="lib-table">
 <thead><tr><th>코드(통칭)</th><th>바닥(길이 × 폭)</th><th>최대 총중량</th><th>자중</th><th>위치·대표 기종</th></tr></thead>
@@ -240,7 +344,7 @@
 <p class="lib-source">출처: Unit Load Device(대한항공 카고) — <a href="https://cargo.koreanair.com/en/UnitLoadDevice" target="_blank" rel="noopener noreferrer">Korean Air Cargo</a>, ULD 팔레트(아시아나 카고) — <a href="https://www.asianacargo.com/contents/pallet.do" target="_blank" rel="noopener noreferrer">Asiana Cargo</a>, AULD Containers &amp; Pallets(Singapore Airlines Cargo) — <a href="https://www.siacargo.com/about-us/auld-containers-pallets/" target="_blank" rel="noopener noreferrer">SIA Cargo</a>, ULD Specification(Vietnam Airlines Cargo) — <a href="https://cargo.vietnamairlines.com/be/en/shipping-guide/uld-specification" target="_blank" rel="noopener noreferrer">Vietnam Airlines Cargo</a></p>
 <p class="lib-source">출처: ULD Specification(Cathay Cargo) — <a href="https://www.cathaycargo.com/en-us/help-and-support/uld-specifications.html" target="_blank" rel="noopener noreferrer">Cathay Cargo</a>; Shipper-Built Units Guidelines V2.0(Cargolux, 2025) — <a href="https://www.cargolux.com/media/mcsboozs/shipper-built-units-guidelines.pdf" target="_blank" rel="noopener noreferrer">Cargolux</a>; Shipper Built Unit Guidelines(United Cargo) — <a href="https://media.united.com/assets/m/11dcf126db4a96d7/original/ShipperBuiltULDGuidelines_UnitedCargo.pdf" target="_blank" rel="noopener noreferrer">United Cargo</a>; Operational Guidelines for BUP and SMU Shipments(AirBridgeCargo, 2020) — <a href="https://www.airbridgecargo.com/files/0420202BUP%20and%20SMU%20guidelines%20(06.02.2020).pdf" target="_blank" rel="noopener noreferrer">AirBridgeCargo</a>; B737-800 Basic Loading Configurations(Camex Airlines, 2024) — <a href="https://camex.aero/wp-content/uploads/2024/01/Camex-B737-800-freighters-1.pdf" target="_blank" rel="noopener noreferrer">Camex</a></p>
 
-<h3>온도관리 ULD</h3>
+<h3>20. 온도관리 ULD</h3>
 <p>첫째 글자 R은 인증 온도관리 컨테이너입니다. 크게 단열 상자에 드라이아이스 등을 넣는 방식과, 배터리로 냉난방 장치를 돌리는 <b>액티브(active)</b>로 나뉩니다. FAA는 액티브 ULD를 온도 제어·화재 진압 같은 전원 장치를 갖추고 비행 중에도 작동하는 ULD로 설명하며, 비행 중에는 배터리로 돌고 지상에서만 충전합니다. 액티브 제품으로는 Envirotainer, CSafe 등의 제품이 항공사를 통해 제공됩니다.</p>
 <table class="lib-table">
 <thead><tr><th>코드(통칭)</th><th>바닥</th><th>최대 총중량</th><th>자중</th><th>비고</th></tr></thead>
@@ -253,7 +357,7 @@
 <p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, Unit Load Device(대한항공 카고) — <a href="https://cargo.koreanair.com/en/UnitLoadDevice" target="_blank" rel="noopener noreferrer">Korean Air Cargo</a></p>
 <p class="lib-source">출처: Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a>, AC 120-85B Carriage of Cargo, 2.4.3.5(FAA, 2022) — <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf" target="_blank" rel="noopener noreferrer">FAA</a></p>
 
-<h3>특수 ULD — 말 운송 스톨</h3>
+<h3>21. 특수 ULD — 말 운송 스톨</h3>
 <table class="lib-table">
 <thead><tr><th>코드</th><th>바닥</th><th>높이</th><th>최대 총중량</th><th>자중</th><th>위치</th></tr></thead>
 <tbody>
@@ -263,7 +367,7 @@
 <p>첫째 글자 H가 인증 말 스톨입니다. Lufthansa는 세 마리용 HMJ(B777F 메인덱 전용)를 운영하는 등 항공사마다 쓰는 스톨 형식이 다릅니다.</p>
 <p class="lib-source">출처: Pallets and containers(Boeing, 2012) — <a href="https://web.archive.org/web/20240219062433/https://www.boeing.com/content/dam/boeing/boeingdotcom/company/about_bca/pdf/CargoPalletsContainers.pdf" target="_blank" rel="noopener noreferrer">Boeing(웹 아카이브)</a>, AULD Containers &amp; Pallets(Singapore Airlines Cargo) — <a href="https://www.siacargo.com/about-us/auld-containers-pallets/" target="_blank" rel="noopener noreferrer">SIA Cargo</a>, Unit Load Device(대한항공 카고) — <a href="https://cargo.koreanair.com/en/UnitLoadDevice" target="_blank" rel="noopener noreferrer">Korean Air Cargo</a>, Pallets, containers and fleet(Lufthansa Cargo 브로셔) — <a href="https://lufthansa-cargo.com/documents/d/guest/brochure_pallets_containers_and_fleet" target="_blank" rel="noopener noreferrer">Lufthansa Cargo</a></p>
 
-<h3>최대 총중량이 자료마다 다른 이유</h3>
+<h3>22. 최대 총중량이 자료마다 다른 이유</h3>
 <p>같은 코드인데 최대 총중량이 다르게 적히는 것은 오류만은 아닙니다. 공개 자료에서 확인되는 사정은 다음과 같습니다.</p>
 <ul>
 <li><b>위치에 따라 다르다</b>: Boeing은 AAP·RAP의 최대 총중량을 로어덱 4,624~4,626kg, 메인덱 6,000kg으로 나눠 적고, SIA는 PAG를 로어덱 4,626kg·메인덱 6,000kg, PMC를 로어덱 5,035kg·메인덱 6,800kg으로 나눠 적습니다(PAG·PMC의 항공사별 값 비교는 <a data-doc="uld-pallets">88인치와 96인치 팔레트</a>). Vietnam Airlines Cargo도 최대 총중량이 기종의 탑재 위치와 Weight &amp; Balance 요건에 따라 달라진다고 주석을 붙입니다.</li>

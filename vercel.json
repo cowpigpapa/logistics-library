@@ -316,6 +316,51 @@
   ],
   "redirects": [
     {
+      "source": "/library/air-uld/uld-overview",
+      "destination": "/library/air-uld/uld-code",
+      "permanent": true
+    },
+    {
+      "source": "/library/bl-awb/bl-vs-awb",
+      "destination": "/library/bl-awb/bl-basics",
+      "permanent": true
+    },
+    {
+      "source": "/library/container/cn-number",
+      "destination": "/library/container/cn-codes",
+      "permanent": true
+    },
+    {
+      "source": "/library/incoterms-2020/inco-risk-cost",
+      "destination": "/library/incoterms-2020/inco-gray",
+      "permanent": true
+    },
+    {
+      "source": "/library/incoterms-2020/inco-chart",
+      "destination": "/library/incoterms-2020/inco-rules",
+      "permanent": true
+    },
+    {
+      "source": "/library/incoterms-2020/inco-history",
+      "destination": "/library/incoterms-2020/inco-what",
+      "permanent": true
+    },
+    {
+      "source": "/library/dangerous-goods/dg-penalty",
+      "destination": "/library/dangerous-goods/dg-forwarder",
+      "permanent": true
+    },
+    {
+      "source": "/library/dangerous-goods/dg-kr-duty",
+      "destination": "/library/dangerous-goods/dg-forwarder",
+      "permanent": true
+    },
+    {
+      "source": "/library/dangerous-goods/dg-treaties",
+      "destination": "/library/dangerous-goods/dg-rules",
+      "permanent": true
+    },
+    {
       "source": "/library/cargo-risk/rk-typhoon",
       "destination": "/library/cargo-risk",
       "permanent": true
