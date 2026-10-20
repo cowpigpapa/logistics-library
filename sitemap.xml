@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://logistics.onharu.app/</loc><lastmod>2026-10-20T10:43:58+09:00</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://logistics.onharu.app/</loc><lastmod>2026-10-20T10:51:28+09:00</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://logistics.onharu.app/tool/containertracking</loc><lastmod>2026-10-19T13:16:34+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://logistics.onharu.app/tool/airtracking</loc><lastmod>2026-10-19T13:16:34+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://logistics.onharu.app/tool/unnumber</loc><lastmod>2026-10-19T13:16:34+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -93,7 +93,7 @@
   <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-marks</loc><lastmod>2026-10-19T20:06:07+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-msds</loc><lastmod>2026-10-19T22:26:09+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-hidden</loc><lastmod>2026-10-19T20:20:45+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-lithium</loc><lastmod>2026-10-19T20:20:45+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-lithium</loc><lastmod>2026-10-20T10:51:26+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-kr-duty</loc><lastmod>2026-10-14T00:28:47+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-forwarder</loc><lastmod>2026-10-19T22:26:09+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-penalty</loc><lastmod>2026-10-19T20:20:45+09:00</lastmod></url>

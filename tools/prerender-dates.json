@@ -1,7 +1,7 @@
 {
  "https://logistics.onharu.app/": {
-  "hash": "5902ff527c3a2748",
-  "modified": "2026-10-20T10:43:58+09:00",
+  "hash": "a07743471cea7996",
+  "modified": "2026-10-20T10:51:28+09:00",
   "published": "2026-10-11T23:23:57+09:00"
  },
  "https://logistics.onharu.app/library/air-uld": {
@@ -480,8 +480,8 @@
   "published": "2026-10-05T21:25:48+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-lithium": {
-  "hash": "fbe62933cffa9171",
-  "modified": "2026-10-19T20:20:45+09:00",
+  "hash": "c9161153d3db4e1d",
+  "modified": "2026-10-20T10:51:26+09:00",
   "published": "2026-10-19T14:12:06+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-marks": {

@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261019-05';
+  const DOCS_VERSION = '20261020-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -52,7 +52,7 @@
     { id: 'dg-marks', checked: '2026-10-19', tag: "표시", level: 3, title: "위험물 표시와 표찰 — 국제 운송 라벨·마크·플래카드와 국내 경고 표시의 차이", short: "위험물 표시·표찰", summary: "포장물의 UN 번호·라벨·취급 마크, 컨테이너 표찰과 UN 번호 패널, 위험물안전관리법·화학물질관리법·산업안전보건법이 요구하는 국내 표시를 원문으로 비교하고, 어느 표시가 다른 표시를 대신할 수 있는지와 자주 하는 실수를 정리합니다." },
     { id: 'dg-msds', tag: "MSDS", level: 3, title: "MSDS(SDS) 읽는 법 — 포워더가 확인하는 항목과 운송 분류와의 관계", short: "MSDS(SDS) 읽는 법", summary: "14항을 1·3·9항과 대조하는 법, GHS 분류와 운송 분류의 차이, 오래된 SDS·Non-DG 확인서 등 위험 신호와 접수 체크리스트." },
     { id: 'dg-hidden', checked: '2026-10-19', tag: "숨은 위험물", level: 3, title: "숨은 위험물(Hidden DG) — 일반 화물 속 위험물을 서류와 반입 단계에서 걸러내기", short: "숨은 위험물 확인", summary: "자동차 부품·전자제품·이삿짐처럼 일반 품명 아래 숨은 배터리·가스·인화성 액체를 포워더는 품명·HS 코드·SDS·확인서로, 창고·CFS 작업자는 라벨·냄새·누액 같은 외관 신호로 걸러내는 절차와 발견 뒤 보고·역할 분담을 정리합니다." },
-    { id: 'dg-lithium', checked: '2026-10-19', tag: "리튬배터리", level: 3, title: "리튬배터리 운송 — 해상·항공·철도에서 UN 번호, 포장, 표시, 서류가 어떻게 다른가", short: "리튬배터리 운송", summary: "리튬배터리의 UN 번호를 화학·형태·Wh로 고르는 법과 같은 배터리가 해상·철도(IMDG 42-24, RID 2025)와 항공(PI 965~970, 2026년 SoC 30% 확대)에서 포장·표시·서류가 어떻게 달라지는지, 손상·폐배터리와 역할별 점검까지 다룹니다." },
+    { id: 'dg-lithium', checked: '2026-10-20', tag: "리튬배터리", level: 3, title: "리튬배터리 운송 — 해상·항공·철도에서 UN 번호, 포장, 표시, 서류가 어떻게 다른가", short: "리튬배터리 운송", summary: "리튬배터리의 UN 번호를 화학·형태·Wh로 고르는 법과 같은 배터리가 해상·철도(IMDG 42-24, RID 2025, SMGS)와 항공(PI 965~970·976~978, 2026년 SoC 30% 확대, 3m 적재 시험)에서 포장·표시·서류가 어떻게 달라지는지, 국내 해상·항공 수출 절차(반입신고·수납검사·DGD), 보관·고온 관리와 사고 사례, 역할별 점검까지 다룹니다." },
     { id: 'dg-kr-duty', tag: "교육 의무", level: 3, title: "대한민국의 위험물 교육 의무 — 항공·해상·육상 법령별 정리", short: "대한민국의 교육 의무", summary: "항공·해상·도로·철도·화관법·고압가스·산안법의 교육 의무를 대상·주기·시간·과태료로 비교." },
     { id: 'dg-forwarder', tag: "포워더", level: 3, title: "포워더의 교육 대상 — 누가 어떤 교육을 받아야 하나", short: "포워더의 교육 대상", summary: "포워더 직원을 직무별로 나눠 항공·해상·도로 위험물 교육 대상과 시간을 근거 조문과 함께 정리." },
     { id: 'dg-penalty', tag: "제재", level: 3, title: "교육을 받지 않으면 — 벌칙·과태료와 실무상 불이익", short: "교육을 받지 않으면", summary: "교육 미이수·미신고 운송의 과태료·벌칙 조문과 금액, 선사 벌과금과 민사 책임." },

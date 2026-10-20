@@ -1,0 +1,410 @@
+[
+ {
+  "claim": "규정을 충족하는 리튬배터리에 별도 사전 승인 절차는 없지만, 운송장은 러시아어나 중국어로 작성합니다(SMGS 제7조).",
+  "verdict": "wrong",
+  "evidence": "https://osjd.org/api/media/resources/3921 (СМГС, на 1 июля 2026 г.); Annex 2: https://osjd.org/api/media/resources/4115 — 운송장 언어는 제7조가 아니라 제15조(Накладная) §3: \"Бланки накладной печатаются, и заполнение накладной производится на одном из рабочих языков ОСЖД (китайском, русском)\"(경로에 따라 러시아어 또는 중국어, 합의 시 다른 언어 가능). 제7조는 \"Преддоговорное согласование перевозок\"(운송계약 전 사전 협의)로, 화물 일반에 운송 전 사전 협의 절차를 둔다. 부속서 2의 SP 188 30kg·PI 965/968 IB 인정 문구는 확인됨.",
+  "fix": "부속서 2를 충족하는 리튬배터리에 당국의 별도 사전 승인은 필요 없지만, 운송계약 전에 운송인과 사전 협의를 거치고(SMGS 제7조), 운송장은 경로에 따라 러시아어나 중국어로 작성합니다(SMGS 제15조제3항)."
+ },
+ {
+  "claim": "적입한 사람이 컨테이너 적입 증명과 컨테이너 위험물 명세서를 낸다.",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=240831&type=XML (위험물 선박운송 및 저장규칙) 제34조①: \"위험물의 송하인은 사전에 다음 각 호의 사항을 기재한 컨테이너 위험물 명세서를 매 컨테이너마다 작성하여 선박소유자 또는 선장에게 제출하여야 한다\"(선박소유자가 수납한 경우는 ②에 따라 선박소유자). 적입한 사람이 내는 것은 IMDG 5.4.2 컨테이너 적입 증명. 같은 문서 7절 첫 문단도 명세서를 송하인 몫으로 적어 서로 어긋남.",
+  "fix": "적입한 사람이 컨테이너 적입 증명을 내고, 송하인은 컨테이너마다 컨테이너 위험물 명세서를 낸다."
+ },
+ {
+  "claim": "<td>완전 규제 화물(저장규칙 제34조, IMDG 5.4.2)</td><td>해당 없음</td><td>적입한 사람</td>",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=240831&type=XML (위험물 선박운송 및 저장규칙) 제34조①: 컨테이너 위험물 명세서는 \"위험물의 송하인은 ... 매 컨테이너마다 작성하여 선박소유자 또는 선장에게 제출\". 적입 증명(IMDG 5.4.2)만 적입 책임자 몫.",
+  "fix": "<td>완전 규제 화물(저장규칙 제34조, IMDG 5.4.2)</td><td>해당 없음</td><td>송하인(컨테이너 위험물 명세서), 적입한 사람(적입 증명)</td>"
+ },
+ {
+  "claim": "위험물 명세서(저장규칙 제16조). IMDG 5.4 서류는",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=240831&type=XML (위험물 선박운송 및 저장규칙) 제16조① 단서: \"다만, 제27조제6항에 따른 자동차 위험물 명세서나 제34조제1항에 따른 컨테이너 위험물 명세서를 제출하는 경우와 국내 항 간에 위험물을 운송하는 경우에는 그러하지 아니하다.\" 컨테이너 화물은 컨테이너 위험물 명세서로 갈음됨.",
+  "fix": "위험물 명세서(저장규칙 제16조, 컨테이너 위험물 명세서를 내면 생략). IMDG 5.4 서류는"
+ },
+ {
+  "claim": "IB·Section II 포장의 1.2m 낙하, 3m 적재 24시간(자체 시험·평가·경험)",
+  "verdict": "partly",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf E.06: \"Packing Instructions 966, 969 and 977 Section II specify that packages must be capable of withstanding a 1.2 metre drop test\"; E.07(965·968 IB 3m stack); https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/packaging_requirement-_lithium_batteries_3m_stack_test.pdf \"(PI 966-II, PI 967-I and II, PI 969-II, and PI 970 - I and II)\". 1.2m 낙하는 IB와 함께 포장(966·969) Section II에만 있고 내장(967·970) Section II에는 없음. 3m 적재는 967·970 Section I에도 적용.",
+  "fix": "IB와 함께 포장(PI 966·969) Section II 포장의 1.2m 낙하, IB·Section II와 PI 967·970 Section I 포장의 3m 적재 24시간(자체 시험·평가·경험)"
+ },
+ {
+  "claim": "열·연기 감지(TT Club은 랙 가까이 감지기와 열 감지를 강하게 권고)",
+  "verdict": "partly",
+  "evidence": "https://www.ttclub.com/fileadmin/uploads/tt-club/Documents/battery_whitepaper/TT_Club_Warehouse_storage_of_lithium-ion_batteries_whitepaper_DIGITAL.pdf \"Having thermal detectors in the Li-ion battery storage area is strongly recommended.\" 랙 쪽은 \"For warehouses with high ceilings, it may be helpful to have the detectors closer to, or attached to, the racks\"로 '도움이 될 수 있다' 수준이지 강한 권고가 아님.",
+  "fix": "열·연기 감지(TT Club은 열 감지기를 강하게 권하고, 천장이 높으면 연기 감지기를 랙 가까이 두는 방법을 제시)"
+ },
+ {
+  "claim": "의무 명령은 없었지만 100명 넘는 주민이 대피했으며",
+  "verdict": "partly",
+  "evidence": "https://www.cbc.ca/lite/story/1.7331903 \"At least 100 people living close to the fire were evacuated\"; https://www.cbc.ca/lite/story/1.7336652 \"about 100 people were evacuated from the area near the fire, but there was no mandatory evacuation order\". 보도는 '최소/약 100명'이지 '100명 넘게'가 아님.",
+  "fix": "의무 명령은 없었지만 주민 약 100명이 대피했으며"
+ },
+ {
+  "claim": "교훈은 운송 전 온도 관리 증빙과 정확한 신고가 사고 뒤 책임을 가른다는 점입니다.",
+  "verdict": "partly",
+  "evidence": "CBC(2024. 9. 23., 9. 28.)·Maritime Executive(2024. 9. 24.) 보도에는 원인(\"An investigation into what caused the fire is still underway\"), 온도, 신고 상태가 나오지 않음. 이 사례에서 온도 관리 증빙이 책임을 갈랐다는 근거가 없으므로 일반 교훈으로 낮춰 쓰는 편이 안전함.",
+  "fix": "원인이 밝혀지지 않은 사고일수록 정확한 신고와 운송 전 상태 기록이 책임을 따지는 출발점이 됩니다."
+ },
+ {
+  "claim": "항공에서도 리튬 차량에 UN 3171을 쓸 수 있던 경과 기간은 2025년 3월 31일에 끝났습니다(DGR 제66판 8.1.6.9.1).",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/dgr-66-en-significant-changes.pdf \"8.1.6.9.1--A note has been added regarding a transitional period for UN 3171, Battery powered vehicle, to continue to include vehicles powered by lithium batteries until 31 March 2025.\"",
+  "fix": null
+ },
+ {
+  "claim": "장비(equipment)는 배터리가 작동 전력을 공급하는 기기를 말합니다(IMDG P903·특별규정 188, IATA 지침서 D.05).",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf P903: \"\"equipment\" means apparatus for which the cells or batteries will provide electrical power for its operation\"; SP 188 .8 같은 정의; https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf D.05.",
+  "fix": null
+ },
+ {
+  "claim": "기기 없이 이런 부속품과 배터리만 든 상자는 해상·항공 모두 배터리 단독(UN 3480·3090)입니다.",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf D.05: \"When a package contains only an AC adaptor or charger, or ancillary cables etc, and lithium-ion batteries, the package must be classified as \"UN 3480, Lithium ion batteries\"\"; IMDG P903 equipment 정의.",
+  "fix": null
+ },
+ {
+  "claim": "배터리가 질량·부피의 큰 부분이 아닌 장비형이면 장비 내장(UN 3481 등)을 검토할 수 있습니다(A.07)",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf A.07: \"the battery component of the UPS does not form a significant part of the item's mass or volume; then the shipper or manufacturer may consider classification under the relevant \"contained in equipment\" provision\".",
+  "fix": null
+ },
+ {
+  "claim": "항공은 UN 38.3 충족, 리튬이온 20Wh·리튬금속 1g 이하, 필요한 수 이하, 전자파 기준 충족 등의 조건이면 DGR 적용 대상이 아닙니다(DGR 1.2.7.1(i), 2025년 신설). 나트륨이온 기기는 예외 대상이 아닙니다.",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf Exceptions (IATA DGR 1.2.7.1(i)) a~i(20 Wh, 1 g, number required, electromagnetic radiation); Note: \"This exception does not apply where ... the devices are powered by sodium ion batteries.\"; https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/dgr-66-en-significant-changes.pdf \"1.2.7--Exceptions--Provision has been made in 1.2.7 for data loggers and cargo tracking devices\".",
+  "fix": null
+ },
+ {
+  "claim": "30Wh 셀 단품은 SP 188·Section IB 대상이 아니라 완전 규제(항공 Section IA)입니다.",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 188 .1 \"for a lithium ion or sodium ion cell, the watt-hour rating is not more than 20 Wh\"; https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf PI 965 flowchart \"Cells > 20 Wh ... Section IA\".",
+  "fix": null
+ },
+ {
+  "claim": "SP 188 ③은 2.9.4.1(UN 38.3)과 2.9.4.7(시험 요약서 제공)을 그대로 요구하고, ②는 리튬이온 배터리 외장에 Wh를 표시하게 합니다.",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 188 .3 \"Each lithium cell or battery meets the provisions of 2.9.4.1, 2.9.4.5, 2.9.4.6 if applicable and 2.9.4.7\"; .2 \"Lithium ion and sodium ion batteries subject to this provision shall be marked with the watt-hour rating on the outside case\".",
+  "fix": null
+ },
+ {
+  "claim": "손상·결함품은 SP 376(P908·LP904), 손상 없는 폐기·재활용품은 SP 377(P909)입니다. 항공은 각각 금지(A154), 당국 승인(A183)입니다(6절).",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 376 \"packed in accordance with packing instructions P908 ... or LP904\"; SP 377 \"may be packaged in accordance with packing instruction P909\"; https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf D.06(A154 forbidden), State Approvals list \"A183 - Waste cells and batteries and those being shipped for recycling\".",
+  "fix": null
+ },
+ {
+  "claim": "배터리 1개로 작동하는 공구 4대를 한 상자에 넣으면 작동용 4개와 여분 8개, 모두 12개까지입니다(E.13).",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf E.13: \"The 12 batteries reflect two spare sets (8) for each of the 4 power tools in the outer package plus one each to power the device (4).\"",
+  "fix": null
+ },
+ {
+  "claim": "화물기 포장당 35kg을 넘는 대형 배터리는 출발국·운항국 승인(특별규정 A99)이 있어야 합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lbsg8-addendum1-en.pdf (A99 개정문, 2021): \"may have a mass exceeding 35 kg, if approved by the appropriate authority of the State of origin and the State of the operator and the requirements in Packing Instruction 974 ... are met\"; https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf \"Special Provision A99 - lithium or sodium ion battery mass exceeding 35 kg.\"",
+  "fix": null
+ },
+ {
+  "claim": "나트륨이온 배터리(유기 전해질)는 DGR 제66판(2025)에 UN 3551·3552·3558로 들어왔고",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/dgr-66-en-significant-changes.pdf new entries \"UN 3551, Sodium ion batteries; UN 3552 ... UN 3558, Vehicle, sodium ion battery powered\".",
+  "fix": null
+ },
+ {
+  "claim": "배터리 단독 PI 976은 Wh와 관계없이 한 구간뿐이라(IB·II 없음) 여객기 금지, 화물기 포장당 35kg, UN 규격 포장, SoC 30% 이하이고, IMP 코드는 리튬이온과 같은 RBI·RLI·ELI를 씁니다.",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf p.12 flowchart \"Sodium Ion Batteries (limited to a maximum of 30% SoC) ... UN 3551 PI 976 IMP: RBI Limit per package: Pax A/C = Forbidden CAO = 35 kg UN Specification packaging\" (PI 977·978 Section I RLI / Section II ELI); https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/dgr-66-en-significant-changes.pdf \"Appendix B--The IMP codes for ELI, RBI and RLI have been amended to also apply to sodium ion batteries.\"",
+  "fix": null
+ },
+ {
+  "claim": "같은 판에서 \"리튬배터리 마크\"는 \"배터리 마크(battery mark)\"로, Class 9 리튬배터리 라벨은 \"리튬 또는 나트륨이온 배터리 라벨\"로 이름이 바뀌었습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/dgr-66-en-significant-changes.pdf \"7.1.5.5--The lithium battery mark has been renamed as the battery mark. 7.3.18.2--The lithium battery label has been renamed as the lithium battery or sodium ion battery label.\"",
+  "fix": null
+ },
+ {
+  "claim": "해상(IMDG 42-24)과 철도(RID 2025)에도 UN 3551·3552가 같은 특별규정 188·포장지침 P903 체계로 들어 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf DGL \"3552 SODIUM ION BATTERIES ... 9 ... 188 0 E0 P903\" (3551 동일); RID 2025 Table A \"3551 SODIUM ION BATTERIES with organic 9 M4 9A 188 0 E0\".",
+  "fix": null
+ },
+ {
+  "claim": "2025년 1월부터 PI 966 Section II, PI 967 Section I·II, PI 969 Section II, PI 970 Section I·II의 포장은",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/packaging_requirement-_lithium_batteries_3m_stack_test.pdf \"Effective January 2025 ... (PI 966-II, PI 967-I and II, PI 969-II, and PI 970 - I and II)\"; \"a force applied to the top surface equivalent to the total weight of identical packages stacked to a height of 3 m (including the test sample) for a duration of 24 hours\".",
+  "fix": null
+ },
+ {
+  "claim": "PI 965·968 Section IB에도 같은 요건이 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf E.07: \"Packing Instructions 965 and 968 Section IB specify that packages must be capable of withstanding a 3 metre stack test.\"",
+  "fix": null
+ },
+ {
+  "claim": "공인 시험기관 시험은 필요 없고",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/packaging_requirement-_lithium_batteries_3m_stack_test.pdf \"nor for a test to be conducted by an independent testing authority\"; \"Capability may be demonstrated by testing, assessment, or experience.\"; \"The shipper should be able to provide, upon the request of the appropriate regulatory authority, the basis on which \"capability\" was evaluated.\"",
+  "fix": null
+ },
+ {
+  "claim": "UN 번호 글자는 12mm 이상으로 하도록 권합니다(F.01·F.02)",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf F.01: \"The UN number(s) indicated on the mark should be at least 12 mm high.\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>UN 38.3 미시험 시제품(시험용), 연간 100개 이하 소량 생산품</td><td>출발국·운항국 승인, 화물기만, PI 910</td>",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf B.04: \"low-production runs (i.e. annual production runs consisting of no more than 100 lithium cells and batteries) ... may be transported aboard cargo aircraft, if approved by the appropriate authorities of the State of Origin and the State of the Operator and the requirements in Packing Instruction 910 ... are met (see Special Provision A88).\"",
+  "fix": null
+ },
+ {
+  "claim": "<td>항공 운송 금지(승인 길 없음)</td>",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf D.06: \"identified by the manufacturer as being defective for safety reasons, or that have been damaged, that have the potential of producing a dangerous evolution of heat, fire or short circuit are forbidden for transport by air ... see Special Provision A154\".",
+  "fix": null
+ },
+ {
+  "claim": "<td>SoC 30% 초과 리튬·나트륨이온 배터리</td><td>출발국·운항국 승인(3절)</td>",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf \"Special Provision A331 - transport of lithium ion or sodium ion batteries at greater than 30% SoC\"; PI 965 note \"may only be shipped with the approval of the State of Origin and the State of the Operator in accordance with Special Provision A331\".",
+  "fix": null
+ },
+ {
+  "claim": "<td>포장으로 위험을 줄인 배터리의 여객기 운송</td>",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf \"Special Provision A334 - transport of lithium or sodium ion batteries on a passenger aircraft where packaging mitigation exists.\"",
+  "fix": null
+ },
+ {
+  "claim": "대부분 출발국과 운항국 양쪽 승인이 필요하고, 도착국 승인까지 요구하는 나라도 있습니다. 승인을 받아도 항공사가 운송할 의무는 없으므로 운송할 항공사부터 찾습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf \"In most circumstances, the requirement is that approvals must be issued by the States of Origin and Operator. Certain States have set out that where their State is the State of Destination, then approval from that State is also required.\" \"an operator is not obligated to transport a consignment presented under that approval\".",
+  "fix": null
+ },
+ {
+  "claim": "규정에는 접수 단계에서 SoC를 측정하는 절차가 없고, 화주가 DGD에 서명하는 것이 곧 30% 이하라는 법적 진술입니다.",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf G.03: \"By signing the Shipper's Declaration, the shipper is making a legal statement that all the applicable provisions of the DGR have been complied with, which includes that the lithium ion batteries are at no more than 30% SoC.\"",
+  "fix": null
+ },
+ {
+  "claim": "DGD에 SoC를 적게 하거나(대한항공 KE-04)",
+  "verdict": "correct",
+  "evidence": "https://cargo.koreanair.com/sites/default/files/2025-12/Full%20text%20of%20KE%20Variation%20%282026%2C%20Blue%29_2.pdf KE-04: \"The shipper must clearly declare the State of Charge (SoC) or the indicated battery capacity in the \"Additional Handling Information\" section of the Shipper's Declaration\".",
+  "fix": null
+ },
+ {
+  "claim": "출하 시점 SoC 30% 이하(차량·내장 장비는 표시 잔량 25% 이하도 가능)",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf PI 967: \"at a state of charge not exceeding 30% ... or with an indicated battery capacity not exceeding 25%\"(권고); PI 952 vehicles \"an indicated battery capacity not exceeding 25%\".",
+  "fix": null
+ },
+ {
+  "claim": "SP 188의 30kg 한도와 PI 965·968 Section IB 포장물 인정까지 RID와 같은 구조입니다.",
+  "verdict": "correct",
+  "evidence": "https://osjd.org/api/media/resources/3921 (СМГС, на 1 июля 2026 г.); Annex 2: https://osjd.org/api/media/resources/4115 부속서 2 SP 188 з) \"Масса брутто упаковок не должна превышать 30 кг\"; 주: \"Упаковки ... раздела IB Инструкции по упаковке 965 или 968 ... считаются удовлетворяющими предписаниям настоящего специального положения\"; Table A 3480: 9, 9A, 188 230 310 348 376 377 387 (636 677), P903 P908 P909 P910 P911 LP903~LP906. OSJD 페이지상 부속서 2 최신판은 2025. 7. 1.",
+  "fix": null
+ },
+ {
+  "claim": "12 × 100 = 1,200Wh → 배터리 100Wh 초과라 SP 188 불가",
+  "verdict": "correct",
+  "evidence": "산술 12V×100Ah=1,200Wh; https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 188 .2 \"for a lithium ion ... battery, the watt-hour rating is not more than 100 Wh\".",
+  "fix": null
+ },
+ {
+  "claim": "총중량 12kg 이상이고 튼튼한 충격 저항 외장이면 P903(2)에 따라 튼튼한 외부 포장·크레이트·팔레트도 가능(단자에 하중 금지)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf P903(2): \"for a cell or a battery with a gross mass of 12 kg or more employing a strong, impact resistant outer casing: (a) Strong outer packagings; (b) Protective enclosures (e.g. fully enclosed or wooden slatted crates); or (c) Pallets ... the terminals shall not support the weight of other superimposed elements.\"",
+  "fix": null
+ },
+ {
+  "claim": "3.7 × 18.9 = 69.93Wh → 100Wh 이하, 포장물 총중량 30kg 이하",
+  "verdict": "correct",
+  "evidence": "산술 3.7×18.9=69.93; https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 188 .8 \"packages shall not exceed 30 kg gross mass\"; .7 1.2 m drop; SP 348 \"Lithium batteries manufactured after 31 December 2011 ... shall be marked with the Watt hour rating on the outside case\".",
+  "fix": null
+ },
+ {
+  "claim": "P903(4) 튼튼한 외부 포장(UN 규격 불요)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf P903(4) \"For cells or batteries contained in equipment: Strong outer packagings ... Packagings need not meet the requirements of 4.1.1.3.\"; SP 188 .2 리튬금속 배터리 2 g 기준.",
+  "fix": null
+ },
+ {
+  "claim": "69.93Wh → PI 965 IB 범위지만 IB 포장당 한도 10kg 초과",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf PI 965 flowchart: Section IB \"CAO = 10 kg 1.2 m drop, 3 m stack tested\", Section IA \"CAO = 35 kg UN Specification packaging\".",
+  "fix": null
+ },
+ {
+  "claim": "UN 3091 내장, PI 970 Section II(UN 3090이 아님).",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf PI 970 Section II(셀 1 g·배터리 2 g 이하, 포장당 5 kg); F.04 마크 예외 \"two packages or less where each package contains no more than four cells, or two batteries\"; 3m stack은 PI 970 I·II 적용.",
+  "fix": null
+ },
+ {
+  "claim": "3.7 × 1.3 = 4.81Wh → 셀·배터리 기준 이하",
+  "verdict": "correct",
+  "evidence": "산술 3.7V×1.3Ah=4.81Wh; https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf PI 967 Section II(≤20 Wh 셀/≤100 Wh 배터리, 5 kg), SoC 30%/IBC 25% 권고.",
+  "fix": null
+ },
+ {
+  "claim": "손상 여부는 제조사의 안전 기준이나 해당 배터리의 안전 기능을 아는 기술 전문가가 판단합니다.",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 376 Note: \"an assessment or evaluation shall be performed based on safety criteria from the cell, battery or product manufacturer or by a technical expert with knowledge of the cell's or battery's safety features\".",
+  "fix": null
+ },
+ {
+  "claim": "P911 또는 LP906(포장 외면 온도 100℃ 이하 등)으로 포장하거나 당국 승인 조건을 따릅니다.",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 376 \"shall be packed and transported in accordance with packing instruction P911 ... or LP906 ... Alternative packing and/or transport conditions may be authorized by the competent authority\"; P911 \"The outside surface temperature of the completed package shall not have a temperature of more than 100°C.\"",
+  "fix": null
+ },
+ {
+  "claim": "항공은 2절의 A88 승인을 받아 화물기로만 보낼 수 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 310 \"packaged in accordance with packing instruction P910 ... or LP905\", \"The transport document shall include the following statement: \"Transport in accordance with special provision 310\"\"; https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf B.04(A88, cargo aircraft).",
+  "fix": null
+ },
+ {
+  "claim": "(제92조제2항, 제106조제4항), 서류는 3부를 작성해 1부는 보관(1년 이상)하고 2부를 항공사에 냅니다(제105조제1항).",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000218446&type=XML (항공위험물운송기술기준, 국토교통부고시 제2023-52호) 제92조②: \"교육을 이수한 직원이 없는 경우, 표 1-1의 해당 교육 및 자격이 있는 대리인에게 관련 업무에 관한 책무를 위임할 수 있다\"; 제106조④: \"화주로부터 ... 화주의 책무를 위임 받은 자로서 기술기준이 정하고 있는 자격을 갖추고 있는 자는 자필 서명을 할 수 있다\"; 제105조①: \"위험물 운송서류 3부를 작성하여 1부는 보관하고 2부는 항공운송사업자에게 제출 ... 최소 1년 이상 보관\".",
+  "fix": null
+ },
+ {
+  "claim": "형식은 필요한 정보를 모두 담으면 자유지만(제105조제3항), 항공사 접수 점검은 IATA 양식의 영어본 2부를 확인합니다(IATA 위험물 접수 점검표 1번).",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000218446&type=XML (항공위험물운송기술기준, 국토교통부고시 제2023-52호) 제105조③1 \"기술기준에서 요구하고 있는 모든 정보를 포함하고 있으면 형식에 구애되지 않는다\"; IATA Dangerous Goods Checklist for a Non-Radioactive Shipment (https://www.iata.org/dgr-updates) item 1 \"Two copies in English and in the IATA format including the air certification statement\". (확인한 점검표는 2027년판이나 1번 문구는 같은 취지)",
+  "fix": null
+ },
+ {
+  "claim": "IATA 양식은 좌우 여백의 빗금을 붉은색으로 인쇄해야 하므로(검정·빨강 또는 빨강만)",
+  "verdict": "correct",
+  "evidence": "https://jjkellercompliancenetwork.com/institute/iata-shippers-declaration-specifications \"Printing in black and red on white paper, or in red only\"; \"the diagonal hatchings printed vertically in the left and right margins must be red\" (2차 자료; DGR 8.1.2 원문은 유료라 직접 확인 못함)",
+  "fix": null
+ },
+ {
+  "claim": "AWB 취급 정보란에는 \"Dangerous goods as per associated Shipper's Declaration\"(또는 \"…associated DGD\")과 해당하면 \"Cargo Aircraft Only\"(CAO)를 적습니다. 2024년까지 쓰던 \"attached\" 문구의 경과 규정은 DGR 제66판(2025)에서 삭제됐습니다.",
+  "verdict": "correct",
+  "evidence": "IATA non-rad checklist items 25 \"Dangerous goods as per associated Shipper's Declaration\" or \"Dangerous Goods as per associated DGD\" [8.2.1(a)], 26 \"Cargo Aircraft Only\" or \"CAO\"; https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/dgr-66-en-significant-changes.pdf \"8.2.1--The note relating to the transitional period (until December 2024) for the dangerous goods statement on the air waybill has been removed.\"",
+  "fix": null
+ },
+ {
+  "claim": "대한항공은 DGD를 영어로 작성하고 2부 이상 내게 하며(KE-03), 위험물이 든 혼재(consolidation) 화물은",
+  "verdict": "correct",
+  "evidence": "https://cargo.koreanair.com/sites/default/files/2025-12/Full%20text%20of%20KE%20Variation%20%282026%2C%20Blue%29_2.pdf KE-03 \"completed in English, with copies requested by KE but not less than 2 copies\"; KE-01 \"in consolidations will not be accepted for carriage, except ... (a) one master air waybill with one house air waybill; (b) ... containing the following dangerous goods or following dangerous goods with general cargo\" (dry ice, magnetized material, ID 8000, UN 1266, Section II UN 3481/3091/3552).",
+  "fix": null
+ },
+ {
+  "claim": "⑥ 셀·배터리 설명(화학 구분, 질량, Wh 또는 리튬 함량, 외관, 모델 번호)",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf test summary a~j: \"f. Description of cell or battery to include at a minimum: i. Lithium ion, or lithium metal, or sodium ion ... ii. Mass; iii. Watt-hour rating, or lithium content; iv. Physical description ...; v. Model numbers\"; \"j. Name and title of responsible person\".",
+  "fix": null
+ },
+ {
+  "claim": "무역항으로 위험물을 들여오려는 자는 반입 24시간 전(육상 반입은 육상구역에 들여오기 전까지) 위험물 반입신고서와 위험물 일람표를 내고, 관청은 확인란에 날인해 돌려준다",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285971&type=XML (선박의 입항 및 출항 등에 관한 법률, 법률 제21638호) 제32조①: \"위험물을 무역항의 수상구역등으로 들여오려는 자는 해양수산부령으로 정하는 바에 따라 관리청에 신고하여야 한다.\"; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=266487&type=XML (같은 법 시행규칙, 해양수산부령 제703호) 제14조①: \"반입 24시간 전에 ... 지방해양수산청장 또는 시ㆍ도지사에게 제출해야 한다. 다만, 위험물을 육상으로 반입하는 경우에는 무역항의 육상구역으로 위험물을 들여오기 전까지 ... 1. 별지 제10호서식의 위험물 반입신고서 2. 별지 제11호서식의 위험물 일람표\"; ② \"확인란에 날인하여 신고인에게 발급\".",
+  "fix": null
+ },
+ {
+  "claim": "국제물류주선업자와 수출입 화주는 신고하는 자에게 위험물을 통지해야 하며, 통지하지 않거나 거짓으로 통지하면 200만원 이하 과태료 대상이다(제32조제4항, 제59조제2항제15호의2).",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285971&type=XML (선박의 입항 및 출항 등에 관한 법률, 법률 제21638호) 제32조④ \"다음 각 호에 해당하는 자는 제1항에 따라 신고를 하려는 자에게 ... 위험물을 통지하여야 한다. ... 2. 「물류정책기본법」 제43조에 따라 국제물류주선업을 등록한 자 ... 4. 「관세법」 제241조제1항에 따른 수출ㆍ수입 신고 대상 물품의 화주\"; 제59조② \"200만원 이하의 과태료 ... 15의2. 제32조제4항을 위반하여 위험물을 통지하지 아니하거나 거짓으로 통지한 자\"; 시행규칙 제15조의2(통지는 별지 제11호서식).",
+  "fix": null
+ },
+ {
+  "claim": "컨테이너수납검사(저장규칙 제205조)의 의무 대상(고시 제21조)에 Class 9는 자동차만 있어, 리튬배터리는 제205조제9항의 임의 검사다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000280940&type=XML (위험물 선박운송 기준, 해양수산부고시 제2026-67호) 제21조 \"규칙 제205조제1항에 따른 위험물은 ... 9. 제9급 유해성물질(자동차로 한정한다)\"; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=240831&type=XML (위험물 선박운송 및 저장규칙) 제205조⑨ \"해양수산부장관이 정하는 위험물 외의 위험물을 컨테이너에 수납하여 운송하려는 경우에도 ... 검사를 받을 수 있다\".",
+  "fix": null
+ },
+ {
+  "claim": "수납검사증을 받은 경우 선적 전에 선장에게 낸다(제205조제5항).",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=240831&type=XML (위험물 선박운송 및 저장규칙) 제205조⑤ \"위험물컨테이너수납검사증을 발급받은 자는 선적 전에 해당 위험물컨테이너수납검사증을 선장에게 제출하여야 한다.\"",
+  "fix": null
+ },
+ {
+  "claim": "위험물 접수 점검표(IATA Acceptance Checklist)로 확인한다(고시 제173조).",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000218446&type=XML (항공위험물운송기술기준, 국토교통부고시 제2023-52호) 제173조 \"항공운송사업자는 위험물접수 점검목록을 사용하여야 하며\".",
+  "fix": null
+ },
+ {
+  "claim": "UN 규격 포장은 검사에 합격한 것(항공안전법 제71조)을 쓴다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286927&type=XML (항공안전법, 시행 2026. 9. 17.) 제71조① \"위험물의 운송에 사용되는 포장 및 용기를 제조ㆍ수입하여 판매하려는 자는 그 포장 및 용기의 안전성에 대하여 국토교통부장관이 실시하는 검사를 받아야 한다.\"",
+  "fix": null
+ },
+ {
+  "claim": "제63조의2에 UN 3090·3091·3480·3481만 적고, 제99조제15항은 배터리 마크에 \"추가정보를 위한 전화번호\"를 적게 합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000218446&type=XML (항공위험물운송기술기준, 국토교통부고시 제2023-52호) 제63조의2① \"UN 3090, 3091, 3480 또는 3481으로 정의되는 셀과 배터리는\"; 제99조⑮ \"리튬배터리를 위한 특별 마킹조건 ... 마. 추가정보를 위한 전화번호\"; 고시 전문에 3551 없음.",
+  "fix": null
+ },
+ {
+  "claim": "이 포워더의 절차는 제조사 권장 수준(30~40%)을 안내한다(RC61도 보관 시 약 40% 권고). 다만 TT Club은 SoC가 낮다고 안전하다고 보지 말라고 한다.",
+  "verdict": "correct",
+  "evidence": "https://cdn.shopify.com/s/files/1/0523/8705/files/RC61.pdf 6.13 \"nickel and lithium based batteries should be stored at about 40% of their full charge\"; https://www.ttclub.com/fileadmin/uploads/tt-club/Documents/battery_whitepaper/TT_Club_Warehouse_storage_of_lithium-ion_batteries_whitepaper_DIGITAL.pdf \"Warehouses should therefore avoid assuming that low-SOC batteries are inherently safe.\"",
+  "fix": null
+ },
+ {
+  "claim": "자동 소화설비가 없으면 다른 가연물과 2.5m 이상(VdS 3103), 독립 적치 5m 이상(Aviva).",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 5.1 \"In nicht durch automatische Löschanlagen geschützten Bereichen ist eine bauliche oder räumliche Trennung von mind. 2,5 m zu anderen brennbaren Materialien einzuhalten.\"; https://static.aviva.io/content/dam/document-library/risk-solutions/lithium_ion_batteries_storage_and_transit_lps.pdf \"At least five metres separation is recommended for free standing goods\".",
+  "fix": null
+ },
+ {
+  "claim": "TT Club은 제조사 권장 범위(보통 18~25℃)와 직사광선 회피를, RC61은 약 15℃ 보관과 50℃ 초과 금지를 권한다.",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/fileadmin/uploads/tt-club/Documents/battery_whitepaper/TT_Club_Warehouse_storage_of_lithium-ion_batteries_whitepaper_DIGITAL.pdf \"in line with the OEM recommendations, which is typically between 18 to 25 °C and out of direct sunlight\"; RC61 6.9 \"stored in a dry environment at about 15°C; under no circumstances should the temperature be lower than -40°C or above 50°C\".",
+  "fix": null
+ },
+ {
+  "claim": "독일 보험업계(GDV) 컨테이너 핸드북은 맑은 여름날 평균 20℃가량 더 올라 바깥 25~30℃일 때 컨테이너 안 공기가 50~55℃까지 오를 수 있다고 설명합니다.",
+  "verdict": "correct",
+  "evidence": "https://containerhandbuch.de/chb_e/scha/scha_10_03_02_01.html \"daily overheating on sunny summer days amounts on average to 20°C even in temperate latitudes\"; \"At an external air temperature of 25 - 30°C, air temperatures within the container may accordingly rise as high as 50 - 55°C.\"",
+  "fix": null
+ },
+ {
+  "claim": "보험사 Aviva도 40℃를 넘을 가능성이 있으면 온도 관리 운송이 필요할 수 있다고 봅니다.",
+  "verdict": "correct",
+  "evidence": "Aviva LPS \"Temperature controlled transportation may be required if temperatures are likely to exceed 40° Celsius, or the critical reaction temperatures as indicated in manufacturers safety data information.\"",
+  "fix": null
+ },
+ {
+  "claim": "리튬배터리 약 15,000kg이 든 컨테이너에서 불이 나 인근 주민에게 실내 대피 권고가 내려졌고",
+  "verdict": "correct",
+  "evidence": "https://www.cbc.ca/lite/story/1.7331903 \"there were 15,000 kilograms of lithium batteries inside the shipping container\"; \"were advised to stay indoors\"; \"Electricity had to be cut in the area\"; \"firefighters spent hours trying to cool down the container and needed help ... special drill that was able to pierce the container\"; \"An investigation into what caused the fire is still underway.\"",
+  "fix": null
+ },
+ {
+  "claim": "하기 후 컨테이너를 해체하던 작업자가 지게차로 미신고 리튬이온 배터리 상자를 찔러 연기가 나 소방대가 진화했습니다",
+  "verdict": "correct",
+  "evidence": "http://web.archive.org/web/20190314185224/https://www.faa.gov/about/office_org/headquarters_offices/ash/ash_programs/hazmat/aircarrier_info/media/battery_incident_chart.pdf (as of 2/1/2019, 날짜 11/2/2018) \"At the cargo warehouse in Los Angeles, CA (LAX), after offloading and during container breakdown, a cargo handler inadvertently punctured a box of undeclared lithium-ion batteries with a forklift. Shortly after the box began to smoke. The fire department responded and they extinguished the box.\"; 2020년판(as of 11/04/2020)은 12/2/2018. 문서에 항공사 이름 없음 확인.",
+  "fix": null
+ },
+ {
+  "claim": "항공사는 미신고·오신고 위험물을 국토교통부에 보고해야 하고(「항공위험물운송기술기준」 제202조), 위험물취급 절차 위반은 항공안전법상 과태료 대상입니다",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000218446&type=XML (항공위험물운송기술기준, 국토교통부고시 제2023-52호) 제202조① \"항공운송사업자는 화물 또는 우편물 중 신고하지 않았거나 잘못 신고한 위험물이 발견되는 경우 국토교통부장관에게 별표 19(미신고 위험물 보고 양식)에 따라 보고하여야 한다.\"; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286927&type=XML (항공안전법, 시행 2026. 9. 17.) 제166조①6 \"제70조제3항에 따른 위험물취급의 절차와 방법에 따르지 아니하고 위험물취급을 한 자\".",
+  "fix": null
+ },
+ {
+  "claim": "IATA 지침서는 제조사는 분류와 안전 정보 제공, 화주는 포장·표시·서류, 포워더는 운송 조정과 미신고 위험물 감시, 항공사는 직원 교육과 비상 대응으로 몫을 나눕니다.",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf Safety of the Supply Chain: \"Manufacturers are responsible for manufacturing and classification ... Shippers are responsible for properly packaging, marking, labelling and documenting ... Freight forwarders play a key role in coordinating logistics ... monitoring for consignments that may contain undeclared dangerous goods. Operators ... ensure that all employees ... are trained ... and to manage an arising emergency.\"",
+  "fix": null
+ },
+ {
+  "claim": "「선박의 입항 및 출항 등에 관한 법률」(시행 2026. 5. 12.)과 같은 법 시행규칙, 「항공안전법」(시행 2026. 9. 17.)",
+  "verdict": "correct",
+  "evidence": "law.go.kr lawSearch: 선박의 입항 및 출항 등에 관한 법률 MST 285971 시행일자 20260512(법률 제21638호; 제4조·제55조만 공포일 시행, 나머지 개정분은 2026. 11. 13. 시행이나 제32조·제59조는 개정 대상 아님); 시행규칙 MST 266487 시행 20241113; 항공안전법 MST 286927 시행일자 20260917.",
+  "fix": null
+ }
+]
