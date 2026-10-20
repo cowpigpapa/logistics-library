@@ -169,7 +169,7 @@
 - 길이 단위는 사이트 전체 ft: 20ft·40ft·45ft(N피트 ×). 요율 예시 문장은 "40ft 컨테이너는 2TEU로 두 배".
 - 보관료: 경과보관료·보관료(Storage) → 보관료. 한국 실무 표현 목록, 선사 공지 인용("경과보관료(Storage)"), 출처 제목은 원문 그대로.
 - D&D는 Demurrage & Detention. 문서마다 처음 한 번 D&D(Demurrage & Detention), 이미 Demurrage·Detention(D&D)로 풀어 쓴 곳과 용어 표가 있는 ch-dnd는 그대로. Demurrage·Detention 자체는 계속 영어만.
-- VGM은 문맥에 따라: 제도·절차(인코텀스에 넣지 않은 VGM 의무, 11장 총중량 검증)는 컨테이너 총중량 검증(VGM), 계측·제출·전달하는 값(VGM 계측비, 검증된 총중량(VGM)·봉인 번호를 화주에게)은 검증된 총중량(VGM). 검증제도(VGM)는 쓰지 않는다.
+- VGM은 문맥에 따라: 제도·절차(인코텀스에 넣지 않은 VGM 의무, 11장 총중량 검증)는 컨테이너 총중량 검증(VGM), 계측·제출·전달하는 값(VGM 계측비, 검증된 총중량(VGM)·봉인 번호를 송하인에게)은 검증된 총중량(VGM). 검증제도(VGM)는 쓰지 않는다.
 - Weight & Balance(중량·평형 ×). 조사는 받침 없는 말에 맞춘다(Weight & Balance를·가·는·와·로).
 - FAA 문장의 operator: 항공사(운항자 ×). 보험 문서의 용선자·운항자는 그대로.
 - EU 폐기물운송규정 세관: 수출지 세관(Customs office of export), 출국지 세관(Customs office of exit), 입국지 세관(Customs office of entry). 문서마다 처음 한 번 영어 병기, 묶어 쓸 때는 출국지·입국지 세관.
