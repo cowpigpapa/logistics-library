@@ -1,0 +1,639 @@
+[
+ {
+  "file": "battery-docs/checklist.html",
+  "claim": "폐기물운송규정은 분류·통지·서류 작성 의무를 통지자와 운송을 주선하는 자에게 지우고, 운송만 맡은 포워더는 통지자 유형에 들어 있지 않습니다",
+  "verdict": "partly",
+  "evidence": "https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt): Art 3(6)(a) lists producer, new producer, collector, dealer/broker, holder (no carrier/forwarder) - correct. But Art 16(1) \"all undertakings involved shall complete the movement document ... at the points indicated\" and Art 18(4) \"All undertakings involved in the shipment shall complete the form set out in Annex VII with the relevant information at the points indicated\": carriers do have a document-completion duty for their own block, and the sentence cites 18(4) as if it said otherwise.",
+  "fix": "폐기물운송규정은 분류·통지 의무를 통지자와 운송을 주선하는 자에게 지우고, 운송만 맡은 포워더는 통지자 유형에 들어 있지 않습니다. 다만 운송인 등 운송에 관여하는 사업자도 이동서류와 부속서 VII 양식에서 자기 칸은 채워야 합니다"
+ },
+ {
+  "file": "battery-docs/checklist.html",
+  "claim": "반송·보관 비용은 통지자로 간주되는 자와 \"그 밖의 자연인·법인\"에게까지 청구될 수 있으므로",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt): Art 24(1)(b) \"other natural or legal persons as appropriate\"; Art 26(1)(b) \"the person deemed to be the notifier ... or other natural or legal persons as appropriate\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/checklist.html",
+  "claim": "기한(완료할 수 없으면 90일, 불법 운송이면 30일)",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt): Art 22(2) \"within 90 days, or such other period as may be agreed\"; Art 23(1) \"within 90 days, or any other period agreed\"; Art 25(5) \"within 30 days, or such other period as may be agreed\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/checklist.html",
+  "claim": "항공은 폐배터리를 당국 승인으로만 받으므로 해상·육상으로 계획한다.",
+  "verdict": "correct",
+  "evidence": "Site doc /library/dangerous-goods/dg-lithium section 6 (fact-checked 2026-10-19, IATA LBGD 2026): waste/recycling batteries by air only under State approval (Special Provision A183).",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/checklist.html",
+  "claim": "2026년 11월 9일부터는 개정 폐기물 목록에서 리튬계 폐배터리가 유해 코드 16 06 07*이므로, 그날 이후 출발하는 리튬계 폐배터리는 B1090이어도 PIC로 계획한다.",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt). Code and PIC consequence (Art 4(2)(d)) are correct; only the date is wrong.",
+  "fix": "2026년 12월 9일부터는 개정 폐기물 목록에서 리튬계 폐배터리가 유해 코드 16 06 07*이므로, 그날 이후 출발하는 리튬계 폐배터리는 B1090이어도 PIC로 계획한다."
+ },
+ {
+  "file": "battery-docs/checklist.html",
+  "claim": "2026년 11월 9일부터는 EU 폐기물 목록상 유해가 되는 리튬계 폐배터리(16 06 07*)도 비적용국 수출 금지 대상이다",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt); Art 39(1)(b) https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt) \"wastes listed as hazardous in the list of waste referred to in Article 7 of Directive 2008/98/EC\" (ban itself correct).",
+  "fix": "2026년 12월 9일부터는 EU 폐기물 목록상 유해가 되는 리튬계 폐배터리(16 06 07*)도 비적용국 수출 금지 대상이다"
+ },
+ {
+  "file": "battery-docs/checklist.html",
+  "claim": "포워더는 창고를 직접 점검하지 않고, 창고 운영자에게 받은 서류로 판단합니다.",
+  "verdict": "correct",
+  "evidence": "Consistent with SP/drafts/BRIEF.md forwarder rule (forwarder judges from documents).",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/checklist.html",
+  "claim": "화재보험 조건(독일은 보험계약에 편입된 VdS 3103 조건 등)과 폐배터리 보관이 보험 대상에서 빠져 있지 않은지 확인한다.",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"Die vorliegende Publikation ist unverbindlich.\"; \"Die Publikation gilt nicht für das Sammeln gebrauchter Batterien oder das Recycling.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/checklist.html",
+  "claim": "소화설비·보관 캐비닛 등의 제품 인증서는 그 설비가 시험을 통과했다는 뜻이고",
+  "verdict": "correct",
+  "evidence": "Kiwa K21045 SCP05/02 (6 Nov 2025) https://production.episerver.kiwa.com/globalassets/netherlands/kiwa-ncp/pdf/k21045-scp05-02-lithium-ion-batteries-storage.pdf: \"Specific Certification Program Fire Protection Systems for Products\"; \"initial type testing protocol to prove the effectives of fire protection systems\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "리튬계는 2026. 11. 9.부터 유해(16 06 07*)이므로 PIC",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "리튬계는 2026. 12. 9.부터 유해(16 06 07*)이므로 PIC"
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "EU 폐기물 목록은 집행위원회 위임결정 (EU) 2025/934로 개정되어 2026년 11월 9일부터 적용됩니다.",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "EU 폐기물 목록은 집행위원회 위임결정 (EU) 2025/934로 개정되어 2026년 12월 9일부터 적용됩니다(관보 원문의 11월 9일은 2025년 8월 19일 정오표로 정정)."
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "<b>리튬계 폐배터리 자체가 유해 코드 16 06 07*</b>(waste lithium-based batteries)가 되고",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt): Annex point (3): \"16 06 07* | waste lithium-based batteries\" (absolute hazardous entry, no mirror entry).",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "생활계에서 분리수거한 리튬계 폐배터리는 20 01 43*, 종류가 섞인 폐배터리는 16 06 13*",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt): point (8) \"20 01 43* | waste lithium-based batteries included in 16 06 07.\"; point (3) \"16 06 13* | mixed waste batteries\". (Mixed municipal batteries go to 20 01 42*, which \"includ[es] also 16 06 07\".)",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "리튬계 배터리 제조 폐기물 가운데 유해물질을 함유한 것(불량 셀·모듈·팩 등)은 16 06 24*, 처리에서 나오는 블랙매스 같은 중간 분획은 19 14 02*가 됩니다",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt): \"16 06 24* | lithium-based battery manufacturing waste containing hazardous substances (for example cathode cut-offs, cathode slurry, off specification battery cells, modules and/or packs)\"; \"19 14 02* | intermediate fraction from the thermal and/or mechanical treatment of waste lithium-based batteries and lithium-based battery manufacturing waste containing a mixture of electrode materials\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "지금까지 리튬이온 폐배터리에 쓰던 비유해 코드 16 06 05(그 밖의 배터리와 축전지)와 20 01 34는 이 날 새 코드 체계로 대체되어 더 쓰지 않습니다.",
+  "verdict": "partly",
+  "evidence": "Old LoW (https://www.legislation.gov.uk/eudn/2000/532/annex/2020-12-31): \"16 06 05 other batteries and accumulators\" (no asterisk), \"20 01 34 batteries and accumulators other than those mentioned in 20 01 33\"; 2025/934 replaces chapter 16 06 and deletes 20 01 34 - correct. But national practice differs: https://www.lfu.bayern.de/abfall/faq_abfalleinstufungen/faq_akkus/index.htm: Lithium batteries are \"als gefährlicher Abfall einzustufen\"; LAGA recommends 16 02 15* (device batteries) or 16 01 21* (vehicle batteries), or 16 06 05 upgraded to 16 06 05* under § 3 Abs. 3 AVV. So 'used until now' is not true everywhere.",
+  "fix": "EU 목록에서 리튬이온 폐배터리에 흔히 쓰던 비유해 코드 16 06 05(그 밖의 배터리와 축전지)와 20 01 34는 이 날 새 코드 체계로 대체되어 더 쓰지 않습니다. 다만 독일처럼 지금도 리튬 폐배터리를 유해 폐기물(16 02 15*, 16 01 21* 또는 16 06 05*)로 다루는 회원국이 있습니다."
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "폐기물운송규정은 EU 폐기물 목록을 직접 참조하므로, 2026년 11월 9일부터 리튬계 폐배터리는 B1090 요건을 갖춰도 PIC 대상이고",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt); Art 4(2)(d) https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt) \"waste classified as hazardous in the list of waste established pursuant to Article 7 of Directive 2008/98/EC\" (consequence correct).",
+  "fix": "폐기물운송규정은 EU 폐기물 목록을 직접 참조하므로, 2026년 12월 9일부터 리튬계 폐배터리는 B1090 요건을 갖춰도 PIC 대상이고"
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "한국 같은 OECD 회원국으로의 수출도 제44조에 따라 제2편 절차가 준용되므로 PIC입니다.",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt): Art 44(1) \"Where waste referred to in Article 4(2) to (5) is exported from the Union and destined for recovery in countries to which the OECD Decision applies ... the provisions of Title II shall apply mutatis mutandis\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "<h4>리튬계 폐배터리 정리: 2026년 11월 9일 전후</h4>",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "<h4>리튬계 폐배터리 정리: 2026년 12월 9일 전후</h4>"
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "종류별로 분류된 리튬계 폐배터리, 2026. 11. 8.까지 출발",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "종류별로 분류된 리튬계 폐배터리, 2026. 12. 8.까지 출발"
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "부속서 VII(20kg 초과). 규격 부합을 입증하지 못하거나 오염되면 PIC(제4조(2)(b)·(e))",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt): Art 4(4) general information requirements \"if the quantity of waste shipped exceeds 20 kg\"; Art 4(2)(b) \"wastes not classified under one single entry\"; 4(2)(e) Annex III wastes \"contaminated by other materials\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "2027. 5. 21. 전까지는 구 규정 제37조와 규정 1418/2007의 국가별 회신에 따름(제85조(2)(b), (4))",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt): Art 85(2)(b) \"Article 37 that shall continue to apply until 21 May 2027\"; Art 85(4) \"Commission Regulation (EC) No 1418/2007 is repealed with effect from 21 May 2027.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "<td>리튬계 폐배터리, 2026. 11. 9.부터</td>",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "<td>리튬계 폐배터리, 2026. 12. 9.부터</td>"
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "<td>2026. 11. 9.부터 16 06 13*(혼합 폐배터리)</td><td>A1170(목록 B 배터리만의 혼합물 제외)</td>",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt). A1170 text correct: Annex V \"A1170 Unsorted waste batteries excluding mixtures of only list B batteries.\" https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt)",
+  "fix": "<td>2026. 12. 9.부터 16 06 13*(혼합 폐배터리)</td><td>A1170(목록 B 배터리만의 혼합물 제외)</td>"
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "화학에 따른 코드(2026. 11. 9.부터 16 06 07*)",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt). 'No separate code for damage' is correct: the new chapter 16 06 has no damaged-battery entry.",
+  "fix": "화학에 따른 코드(2026. 12. 9.부터 16 06 07*)"
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "2026. 11. 9. 전에도 PIC가 될 가능성이 큼, 그 뒤에는 PIC",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "2026. 12. 9. 전에도 PIC가 될 가능성이 큼, 그 뒤에는 PIC"
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "<td>2026. 11. 9.부터 19 14 02*</td>",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "<td>2026. 12. 9.부터 19 14 02*</td>"
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "손상·결함 여부는 폐기물 절차보다 위험물 포장(특별규정 376, 포장지침 P908·LP904, 열적으로 불안정하면 P911·LP906)을 바꿉니다. 폐기·재활용 목적이면 특별규정 377과 P909입니다.",
+  "verdict": "correct",
+  "evidence": "Site doc dg-lithium section 6 (IMO MSC.556(108), fact-checked 2026-10-19): SP 376 with P908/LP904, P911/LP906 for thermally unstable; SP 377 with P909.",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/status.html",
+  "claim": "2026년 11월 9일 전에 부속서 VII로 출발해 그 뒤에 도착하는 화물을 어떻게 다루는지는 두 법령에 경과 규정이 없으므로",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt). 'No transitional rule' is correct: 2025/934 only defers application (Art 2, recital 9).",
+  "fix": "2026년 12월 9일 전에 부속서 VII로 출발해 그 뒤에 도착하는 화물을 어떻게 다루는지는 두 법령에 경과 규정이 없으므로"
+ },
+ {
+  "file": "battery-docs/timeline.html",
+  "claim": "<tr><td>2026-11-09</td><td>EU 폐기물 목록</td>",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt) (row date was already wrong before this edit; it also needs moving below the 2026-11-21 row if the table is chronological).",
+  "fix": "<tr><td>2026-12-09</td><td>EU 폐기물 목록</td>"
+ },
+ {
+  "file": "battery-docs/timeline.html",
+  "claim": "리튬계 폐배터리 자체가 유해 코드 16 06 07*가 되고, 블랙매스 등 처리 중간 분획(19 14 02*)과 혼합 폐배터리(16 06 13*)에도 유해 코드",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt): 16 06 07*, 19 14 02*, 16 06 13* entries.",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/timeline.html",
+  "claim": "EU 안에서 운송하는 폐전기·전자제품(배터리 내장 제품 포함)은 모두 Y49 또는 A1181로 분류되어 PIC 대상. 2026년 12월 31일까지는 적절한 경우 녹색목록 GC010·GC020을 쓸 수 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): recital 4 \"From 1 January 2027, all electrical and electronic waste shipped within the Union should be classified under entries Y49 or A1181 and their shipments should be subject to the procedure of prior written notification and consent.\"; Annex III footnote \"shall apply only for waste shipped within the Union and only until 31 December 2026\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/timeline.html",
+  "claim": "EU 밖 수출입에는 위임규정 발효 때부터 GC010·GC020을 쓰지 않습니다.",
+  "verdict": "partly",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt) amends Reg 2024/1157, which itself applies only from 21 May 2026 (Art 86(2)); the export/import cut-off actually dates from 1 January 2025 under the parallel https://eur-lex.europa.eu/eli/reg_del/2024/3229/oj amending Reg 1013/2006: \"It shall apply from 1 January 2025\"; recital 5 \"GC010 and GC020 ... should therefore no longer be applied from 1 January 2025 for export ... and import\".",
+  "fix": "EU 밖 수출입에는 2025년 1월 1일부터 GC010·GC020을 쓰지 않습니다(구 규정을 개정한 위임규정 (EU) 2024/3229, 2026년 5월 21일부터는 이 위임규정)."
+ },
+ {
+  "file": "battery-docs/changes.html",
+  "claim": "바젤협약 전기·전자 폐기물 개정(결정 BC-15/18)을 반영해 부속서 III·IV·V를 개정. A1180을 A1181로 바꾸고 Y49를 신설했으며 B1110·B4030을 삭제. EU 안 운송에서 GC010·GC020은 2026년 12월 31일까지만 적용",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): recital 1 (Decision BC-15/18); Annex (3)(a)(i) A1180 replaced by A1181; (ii) B1110 deleted; (iii) B4030 deleted; (b) Y49 added; GC010/GC020 footnotes \"only for waste shipped within the Union and only until 31 December 2026\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/changes.html",
+  "claim": "배터리 내장 폐전기·전자제품은 EU 밖 수출입에서 PIC, 2027년 1월 1일부터는 EU 안 운송도 PIC",
+  "verdict": "partly",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): Annex IV Part I (g) lets GC010/GC020 replace only Y49 intra-EU until 2026-12-31; amended (c) no longer covers A1180/A1181, so A1181 waste (with a list A battery) is already PIC intra-EU. Only Y49 waste moves to PIC on 2027-01-01.",
+  "fix": "배터리 내장 폐전기·전자제품은 EU 밖 수출입에서 PIC, EU 안 운송은 A1181이면 지금도 PIC이고 Y49는 2027년 1월 1일부터 PIC(그 전에는 적절한 경우 GC010·GC020)"
+ },
+ {
+  "file": "battery-docs/changes.html",
+  "claim": "폐기물운송규정 밖의 법령. 2026년 11월 9일부터 리튬계 폐배터리 16 06 07*",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "폐기물운송규정 밖의 법령. 2026년 12월 9일부터 리튬계 폐배터리 16 06 07*"
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "VdS 3103(2019년 6월판)은 독일 손해보험협회(GDV)가 낸 손해예방 권고입니다.",
+  "verdict": "partly",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"Herausgeber: Gesamtverband der Deutschen Versicherungswirtschaft e.V. (GDV)\" (German Insurance Association, all lines, not a property-insurers association); document is a \"Merkblatt zur Schadenverhütung\".",
+  "fix": "VdS 3103(2019년 6월판)은 독일보험협회(GDV)가 낸 손해예방 권고입니다."
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "스스로 법적 의무가 아니라고 밝히며, 보험사는 사안에 따라 다른 조치를 받아들일 수 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"Die vorliegende Publikation ist unverbindlich. Die Versicherer können im Einzelfall auch andere Sicherheitsvorkehrungen ... akzeptieren\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<b>사용한 배터리의 수거와 재활용에는 적용되지 않으므로</b>",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"Die Publikation gilt nicht für das Sammeln gebrauchter Batterien oder das Recycling.\"; \"Für die Sammlung gebrauchter Batterien sowie für das Recycling sind gesonderte Betrachtungen erforderlich. Diese sollten individuell mit dem Sachversicherer abgestimmt werden.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "일반 수칙만 적용. 다만 한곳에 7m³ 넘게 또는 유로 팔레트 6개 넘게 모아 두면 중간 출력 기준을 적용",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"Bei größeren zusammenhängenden Lagermengen (Volumina über 7m³ oder mehr als sechs Euro-Paletten) gelten die Hinweise für Lithium-Batterien mittlerer Leistung.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "다른 구역과 5m 이상 떼거나 내화 구조로 분리. 상시 근무 장소로 연결된 화재감지설비.",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"räumlich (mindestens 5m) oder baulich feuerbeständig abzutrennen\"; \"Brandmeldeanlage mit Aufschaltung auf eine ständig besetzte Stelle\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "점유 면적 60m² 초과 또는 적재 높이 3m 초과면 높은 출력 기준을 적용",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"Bei größeren Lagermengen (belegte Fläche >60m² und/oder Lagerhöhen >3m) gelten die Hinweise für Lithium-Batterien hoher Leistung.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<td>100Wh 초과 그리고(또는) 총중량 12kg 초과</td><td>리튬 2g 초과 그리고 총중량 12kg 초과</td>",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): hoch: Li-metal \"> 2 g Li je Batterie und > 12 kg brutto\"; Li-ion \"> 100 Wh je Batterie und/oder > 12 kg brutto\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "확립된 기준이 없어 보험사와 개별 협의. 예시는 분리와 수량 제한, 내화 구획 보관 또는 5m 이격, 자동소화설비",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"noch keine gesicherten Kenntnisse ... in Absprache mit dem Sachversicherer für den Einzelfall zu regeln. Denkbare Maßnahmen: Separierung und Mengenbegrenzung; Lagerung in feuerbeständig abgetrennten Bereichen oder mit Einhaltung eines Sicherheitsabstands (räumliche Trennung von 5 m); automatische Löschanlagen\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "자동소화설비가 없는 구역에서 다른 가연물과 2.5m 이상 떼거나 구조적으로 분리하기",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"In nicht durch automatische Löschanlagen geschützten Bereichen ist eine bauliche oder räumliche Trennung von mind. 2,5 m zu anderen brennbaren Materialien einzuhalten.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "손상·결함 배터리는 보관·생산 구역에서 바로 빼내 처분할 때까지 안전한 거리나 방화 구획에 임시 보관하기, UN 38.3 시험 증빙이 있는 셀·배터리만 보관하기",
+  "verdict": "correct",
+  "evidence": "https://shop.vds.de/download/vds-3103 (VdS 3103 : 2019-06 (03), SP/batadd/src/vds3103.txt): \"Beschädigte oder defekte Lithium-Batterien sind aus Lager- und Produktionsbereichen umgehend zu entfernen und bis zur Entsorgung in sicherem Abstand oder in einem brandschutztechnisch abgetrennten Bereich zwischenzulagern.\"; \"Es dürfen nur Zellen und Batterien gelagert werden, für die der Nachweis der Prüfung nach UN38.3 vorliegt\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "단락으로 생기는 점화원의 예로 나옵니다(13.2(3))",
+  "verdict": "correct",
+  "evidence": "https://vorschriften.bgn-branchenwissen.de/daten/tr/trgs510/13.htm: 13.2(3) \"... produktspezifischen Gefährdungen, wie z. B. Gefährdung durch Zündquellen aufgrund eines Kurzschlusses in Zusammenhang mit Lithiumbatterien.\" (TRGS 510 Ausgabe Dezember 2020, GMBl 2021 S. 178; no later amendment found).",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "위험물질 총량이 200kg 이하이면 적용하지 않아도 됩니다(13.1(2))",
+  "verdict": "correct",
+  "evidence": "https://vorschriften.bgn-branchenwissen.de/daten/tr/trgs510/13.htm: 13.1(2) \"Abweichend von Absatz 1 brauchen die Maßnahmen dieses Abschnitts bei einer Gesamtmenge aller Gefahrstoffe von bis zu 200 kg nicht ergriffen zu werden.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "발생한 장소에서 수거 전까지 잠시 두는 경우는 임시 보관 항목에서 제외됩니다.",
+  "verdict": "correct",
+  "evidence": "https://www.gesetze-im-internet.de/bimschv_4_2013/anhang_1.html: 8.12 \"ausgenommen die zeitweilige Lagerung bis zum Einsammeln auf dem Gelände der Entstehung der Abfälle\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<tr><td>8.12.1.1</td><td>유해 폐기물 임시 보관</td><td>총 보관용량 50t 이상</td><td>정식 절차(G), 산업배출지침 시설(E)</td></tr>",
+  "verdict": "correct",
+  "evidence": "4. BImSchV Anhang 1: \"8.12.1.1 50 Tonnen oder mehr, G E\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<tr><td>8.12.1.2</td><td>유해 폐기물 임시 보관</td><td>30t 이상 50t 미만</td><td>간이 절차(V)</td></tr>",
+  "verdict": "correct",
+  "evidence": "4. BImSchV Anhang 1: \"8.12.1.2 30 Tonnen bis weniger als 50 Tonnen, V\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<tr><td>8.12.2</td><td>비유해 폐기물 임시 보관</td><td>총 보관용량 100t 이상</td><td>간이 절차(V)</td></tr>",
+  "verdict": "correct",
+  "evidence": "4. BImSchV Anhang 1: \"8.12.2 nicht gefährlichen Abfällen mit einer Gesamtlagerkapazität von 100 Tonnen oder mehr, V\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<tr><td>8.15.1</td><td>유해 폐기물 환적</td><td>하루 10t 이상</td><td>정식 절차(G)</td></tr>",
+  "verdict": "correct",
+  "evidence": "4. BImSchV Anhang 1: \"8.15.1 10 Tonnen oder mehr gefährlichen Abfällen je Tag, G\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<tr><td>8.15.2</td><td>유해 폐기물 환적</td><td>하루 1t 이상 10t 미만</td><td>간이 절차(V)</td></tr>",
+  "verdict": "correct",
+  "evidence": "4. BImSchV Anhang 1: \"8.15.2 1 Tonne bis weniger als 10 Tonnen gefährlichen Abfällen je Tag, V\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "EU 폐기물 목록 개정(위임결정 (EU) 2025/934)으로 2026년 11월 9일부터 리튬계 폐배터리는 유해 코드 16 06 07*입니다. 그러면 비유해 기준(100t)이 아니라 유해 기준(보관 30t, 환적 하루 1t)이 적용될 수 있으므로",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt). Also, in Germany Li waste batteries are already hazardous today: https://www.lfu.bayern.de/abfall/faq_abfalleinstufungen/faq_akkus/index.htm: Lithium batteries are \"als gefährlicher Abfall einzustufen\"; LAGA recommends 16 02 15* (device batteries) or 16 01 21* (vehicle batteries), or 16 06 05 upgraded to 16 06 05* under § 3 Abs. 3 AVV; AVV amendment still a draft: https://www.bundesumweltministerium.de/GE1135: \"Referentenentwurf zur zweiten Verordnung zur Änderung der Abfallverzeichnis-Verordnung\" (page updated 13.10.2026), \"noch nicht abschließend abgestimmt\"",
+  "fix": "EU 폐기물 목록 개정(위임결정 (EU) 2025/934)으로 2026년 12월 9일부터 리튬계 폐배터리는 유해 코드 16 06 07*입니다. 독일은 지금도 리튬 폐배터리를 유해 폐기물(16 02 15*, 16 01 21* 등)로 분류하도록 안내하므로, 비유해 기준(100t)이 아니라 유해 기준(보관 30t, 환적 하루 1t)이 적용될 수 있으므로"
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "독일 국내 폐기물 목록 규정(AVV)이 이 개정을 반영하는 시점은 관할당국에 확인하십시오.",
+  "verdict": "correct",
+  "evidence": "https://www.bundesumweltministerium.de/GE1135: \"Referentenentwurf zur zweiten Verordnung zur Änderung der Abfallverzeichnis-Verordnung\" (page updated 13.10.2026), \"noch nicht abschließend abgestimmt\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "늦어도 12시간 안에 PGS 적합 보관 구역으로 옮기는지 확인한다. PGS 37-2는 이때 하역장 한 곳당 25,000kg, 하역장 네 곳까지로 하고",
+  "verdict": "correct",
+  "evidence": "https://publicatiereeksgevaarlijkestoffen.nl/publicaties/online/pgs-37-2/2023/1-1-april-2026 (SP/batadd/src/pgs.txt): \"maximale verblijfstijd van 48 h ... uiterlijk binnen 12 h, worden overgebracht naar een geschikte opslagvoorziening ... maximumgewicht per laad-/losplek (dockingstation) 25000 kg is, met een maximum van vier laad-/losplekken\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "리튬배터리를 둔 하역장 사이에 빈 하역장을 하나씩 두게 한다.",
+  "verdict": "partly",
+  "evidence": "https://publicatiereeksgevaarlijkestoffen.nl/publicaties/online/pgs-37-2/2023/1-1-april-2026 (SP/batadd/src/pgs.txt): \"waarbij er tussen de laad-/losplekken met lithiumhoudende energiedragers zich een laad-/losplek zonder lithiumhoudende energiedragers bevindt\" - the in-between dock must be free of lithium batteries, not empty.",
+  "fix": "리튬배터리를 둔 하역장 사이에 리튬배터리가 없는 하역장을 하나씩 두게 한다."
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "이 값은 적용이 시작되는 하한이며 방화구획에 둘 수 있는 최대량이 아닙니다. 종류가 섞여 있으면 종류별 보관량을 각 하한으로 나눈 값의 합이 1 이상일 때 하한을 넘은 것으로 봅니다.",
+  "verdict": "correct",
+  "evidence": "https://publicatiereeksgevaarlijkestoffen.nl/publicaties/online/pgs-37-2/2023/1-1-april-2026 (SP/batadd/src/pgs.txt): Tabel 2 footnote a \"Grens vanaf wanneer deze richtlijn van toepassing is. Let wel, dit zijn geen bovengrenzen\"; footnote c \"ondergrens overschreden wanneer de uitkomst (U) ... gelijk is aan of groter is dan 1. U = (q1 / Q1) + (q2 / Q2) ...\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "ADR 특별규정 188을 충족하는 소형(리튬이온 배터리 100Wh·셀 20Wh 이하, 리튬금속 배터리 2g·셀 1g 이하 등)</td><td>1,000kg</td>",
+  "verdict": "correct",
+  "evidence": "https://publicatiereeksgevaarlijkestoffen.nl/publicaties/online/pgs-37-2/2023/1-1-april-2026 (SP/batadd/src/pgs.txt): Tabel 2 group 1 \"Energiedragers conform de bijzondere bepaling 188 van het ADR ... Lithiumionbatterijen van maximaal 100 Wh, Lithiumioncellen van maximaal 20 Wh, Lithiummetaalbatterijen met maximaal 2 g ... cellen met maximaal 1 g ... 1 000 kg energiedragers per brandcompartiment\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<td>그룹 1이 아닌 배터리가 든 차량·기계를 옥외에 보관</td><td>333kg, 보관 면적 2,500m² 초과</td>",
+  "verdict": "correct",
+  "evidence": "https://publicatiereeksgevaarlijkestoffen.nl/publicaties/online/pgs-37-2/2023/1-1-april-2026 (SP/batadd/src/pgs.txt): group 3 \"verwerkt in voertuigen, werktuigen of machines en buiten worden opgeslagen 333 kg ... per brandcompartiment en opslag > 2 500 m2\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<td>손상·결함 배터리</td><td>30kg</td>",
+  "verdict": "correct",
+  "evidence": "https://publicatiereeksgevaarlijkestoffen.nl/publicaties/online/pgs-37-2/2023/1-1-april-2026 (SP/batadd/src/pgs.txt): group 4 \"Beschadigde of defecte energiedragers 30 kg\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "<td>제품 재사용이나 물질 재활용 목적의 배터리(완전 방전 배터리 포함)</td><td>333kg</td>",
+  "verdict": "correct",
+  "evidence": "https://publicatiereeksgevaarlijkestoffen.nl/publicaties/online/pgs-37-2/2023/1-1-april-2026 (SP/batadd/src/pgs.txt): group 5 \"Energiedragers ten behoeve van product- of materiaalhergebruik (inclusief diepontladen energiedragers) 333 kg\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "모든 입고품의 입고 검사(포장 손상, 침수 여부, 재정비 여부 등), 그날 안에 판정하지 못한 중고·손상 배터리를 불안정한 것으로 보고 격리 보관(quarantine)하기, 열폭주 위험이 큰 배터리의 별도 격리 보관, 일산화탄소 가스 감지",
+  "verdict": "correct",
+  "evidence": "https://publicatiereeksgevaarlijkestoffen.nl/publicaties/online/pgs-37-2/2023/1-1-april-2026 (SP/batadd/src/pgs.txt): M17 \"ongeacht de aard en status ... beschadigingen van de buitenverpakking ... of het product/de verpakking in contact is geweest met water; of de energiedrager wel of niet refurbished is\"; M18 \"aan het einde van de werkdag nog niet beoordeeld ... als instabiel behandeld en ... in quarantaine geplaatst\"; \"energiedragers met een groot risico voor een thermal runaway apart opgeslagen ... (quarantaineopslag)\"; CO detection to NEN-EN-IEC 62990-1; 7.5.4 Noodplan.",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "환경계획법(Omgevingswet)이 시행된 2024년 1월 1일 효력을 잃었습니다.",
+  "verdict": "correct",
+  "evidence": "https://wetten.overheid.nl/BWBR0016767/ (fetched 2026-10-20): \"Deze regeling is ingetrokken. ... [Regeling vervallen per 01-01-2024.]\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "Bevi를 근거로 리튬배터리 보관에 \"10,000kg 초과\" 기준과 외부 안전 보고서를 요구하는 자료는 2024년 이전 법령을 인용한 것입니다.",
+  "verdict": "correct",
+  "evidence": "Bevi (version valid to 31-12-2023) Art 2(1)(f): \"een inrichting waar verpakte gevaarlijke afvalstoffen, of verpakte gevaarlijke stoffen ... worden opgeslagen in een hoeveelheid van meer dan 10 000 kg per opslagvoorziening\" https://wetten.overheid.nl/BWBR0016767/",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "Bal의 포장 위험물질 보관(3.2.9절)은 ADR 9급 가운데 수생 환경을 오염시키는 물질만 포함하므로",
+  "verdict": "correct",
+  "evidence": "https://iplo.nl/regelgeving/regels-voor-activiteiten/milieubelastende-activiteiten-hoofdstuk-3-bal/activiteiten-die-bedrijfstakken-overstijgen/opslaan-gevaarlijke/ (fetched 2026-10-20): \"van ADR-klasse 2, 3, 4.1, 4.2, 4.3, 5.1, 5.2, 6.1, 6.2 of 8, van ADR-klasse 9 die het aquatisch milieu verontreinigen\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "정부 안내(IPLO)도 배터리 보관이 아직 Bal의 환경 영향 활동으로 지정되지 않았다고 설명합니다.",
+  "verdict": "correct",
+  "evidence": "https://iplo.nl/thema/externe-veiligheid/pgs-37-1-37-2/ (fetched 2026-10-20): \"Het exploiteren van een EOS (PGS 37-1) of opslag van batterijen is (nog) niet aangewezen als milieubelastende activiteit in het Bal.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "정부는 배터리 보관을 Bal 활동으로 지정하는 개정안을 2026년 3월 27일부터 4월 28일까지 의견 수렴했습니다.",
+  "verdict": "correct",
+  "evidence": "https://internetconsultatie.nl/opslag_elektrische_energie (draft besluit SP/batadd/src/ic_15337.txt; consultation report ic_15787.txt): \"Startdatum consultatie 27-03-2026 Einddatum consultatie 28-04-2026\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "초안은 보관장 면적 2,500m² 초과 또는 리튬배터리 10,000kg 초과(포장 무게 제외)면 허가, 그 아래는 신고와 일반 규칙(PGS 37-2 준수, 고정 안전거리)을 두었습니다.",
+  "verdict": "correct",
+  "evidence": "https://internetconsultatie.nl/opslag_elektrische_energie (draft besluit SP/batadd/src/ic_15337.txt; consultation report ic_15787.txt): draft art. 3.35e(1) \"a. in een opslagplaats of een opstelplaats groter dan 2.500 m2; b. ... voor meer dan 10.000 kg aan lithiumhoudende energiedragers\"; art. 3.35d(3) weight excludes \"de goedgekeurde verpakking, bedoeld in de ADR\"; art. 4.1052j melding; art. 4.1052m fixed distances (35 m / 10 m / 45 m); art. 4.1052o PGS 37-2.",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "의견 수렴 보고서는 시행 목표를 2028년 1월 1일로 적었습니다.",
+  "verdict": "partly",
+  "evidence": "https://internetconsultatie.nl/opslag_elektrische_energie (draft besluit SP/batadd/src/ic_15337.txt; consultation report ic_15787.txt): consultation report \"De beoogde inwerkingtreding van het besluit en de bijbehorende regeling is 1 januari 2028\" - accurate quote, but the newer government page https://iplo.nl/thema/externe-veiligheid/pgs-37-1-37-2/ (fetched 2026-10-20) says \"Naar verwachting zal deze wijziging van het Bal in de loop van 2028 in werking treden.\"",
+  "fix": "의견 수렴 보고서는 시행 목표를 2028년 1월 1일로 적었고, 정부 안내(IPLO)는 2028년 중 시행을 예상합니다."
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "claim": "소화설비·보관 캐비닛의 인증서(예: Kiwa의 리튬이온 배터리 보관 화재방호 제품 인증 K21045)는 그 설비에 대한 인증이다.",
+  "verdict": "correct",
+  "evidence": "Kiwa K21045 SCP05/02: \"Specific Certification Program Fire Protection Systems for Products / Fire Protection of Lithium-ion batteries storage ... developed in context of: PGS37-1 ... PGS37-2\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "(B1110 대신 GC010·GC020을 쓰게 한 (e)는 위임규정 (EU) 2024/3230으로 삭제)",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): Annex (1)(a) \"in Part I, point (e) is deleted\"; original Annex III Part I (e) \"Basel entry B1110 does not apply and (OECD) entries GC010 and GC020 in Part II apply instead\" https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt)",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "GC020(두 항목은 2024/3230 개정으로 EU 안 운송에만, 2026년 12월 31일까지 적용)",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): \"Entry GC010 [GC020] shall apply only for waste shipped within the Union and only until 31 December 2026.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "제I부: 바젤협약 부속서 II(Y46~Y48)와 부속서 VIII(A 코드) 폐기물.",
+  "verdict": "partly",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): recital 1 Decision BC-15/18 added \"a new entry for non-hazardous electrical and electronic waste (entry Y49) in Annex II to the Basel Convention\"; Annex IV Part I covers \"Wastes listed in Annexes II and VIII to the Basel Convention\" and new point (g) refers to \"Basel entry Y49\". The changed row still says Y46~Y48.",
+  "fix": "제I부: 바젤협약 부속서 II(Y46~Y49, Y49는 2024/3230 반영)와 부속서 VIII(A 코드) 폐기물."
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "EU 안 운송에서는 2026년 12월 31일까지 Y49 대신 적절한 경우 GC010·GC020을 적용하고((g), 2024/3230 신설)",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): Annex IV Part I new (g) \"For waste shipped within the Union until 31 December 2026, Basel entry Y49 shall not apply and entries GC010 and GC020 in Annex III Part II shall apply instead where appropriate.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "<td>부속서 IV 제I부에 포함 → 황색</td><td>PIC(제4조(2)(a)). 비OECD국 수출 금지</td>",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): recital 3 A1181 exports to OECD countries PIC; \"In accordance with Article 39(1), points (a) and (c) ... the export ... to third countries to which the OECD Decision does not apply should be prohibited.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "<td>2024/3230으로 삭제</td><td>전기·전자 폐기물 항목(Y49·A1181)으로 판단</td>",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): Annex (3)(a)(iii) \"in List B, section B4, entry B4030 is deleted\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "개정 EU 폐기물 목록(위임결정 (EU) 2025/934)은 2026년 11월 9일부터",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "개정 EU 폐기물 목록(위임결정 (EU) 2025/934)은 2026년 12월 9일부터"
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "배터리 내장 폐전기·전자제품은 EU 밖 수출입에서 PIC, 2027년 1월 1일부터 EU 안 운송도 PIC.",
+  "verdict": "partly",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): intra-EU green substitution (Annex IV Part I (g)) covers only Y49; A1181 (with a list A battery) is already PIC intra-EU.",
+  "fix": "배터리 내장 폐전기·전자제품은 EU 밖 수출입에서 PIC. EU 안 운송은 A1181이면 지금도 PIC, Y49는 2027년 1월 1일부터 PIC."
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "EU 밖으로 수출하거나 EU로 수입할 때는 GC010·GC020을 쓸 수 없고, EU 안 운송에서만 2026년 12월 31일까지 적절한 경우 GC010·GC020(일반정보 요건)을 쓸 수 있습니다.",
+  "verdict": "partly",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): Annex IV Part I (g) replaces only \"Basel entry Y49\" with GC010/GC020 intra-EU until 2026-12-31; recital 4 speaks of \"non-hazardous electrical and electronic waste\". A1181 cannot use GC010/GC020 even intra-EU; the sentence reads as if both entries could.",
+  "fix": "EU 밖으로 수출하거나 EU로 수입할 때는 GC010·GC020을 쓸 수 없고, EU 안 운송에서만 Y49에 해당하는 것은 2026년 12월 31일까지 적절한 경우 GC010·GC020(일반정보 요건)을 쓸 수 있습니다."
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "비OECD국으로의 A1181·Y49 수출은 금지됩니다(제39조(1)(a)·(c)).",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg/2024/1157/oj (cached SP/src/32024R1157.txt): Art 39(1)(a) \"wastes listed as hazardous in Part 1 of Annex V\"; (c) \"wastes listed in Part 2 of Annex V\"; https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt) recital 3.",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx3-4.html",
+  "claim": "위임규정 (EU) 2024/3230으로 (c)는 \"바젤 항목 A2060은 적용하지 아니하고, 그 대신 적절한 경우 부속서 III 제II부의 OECD 항목 GG040을 적용한다\"로 바뀌었고",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): \"(c) Basel entry A2060 shall not apply and OECD entry GG040 in Annex III, Part II shall apply instead when appropriate.\"",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx5.html",
+  "claim": "<td>황색, PIC. EU 밖 수출입에는 GC010·GC020을 쓰지 않음</td>",
+  "verdict": "partly",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): amended Annex IV Part I (c) no longer substitutes A1180/A1181 and new (g) covers only Y49, so A1181 is PIC for intra-EU shipments too; the wording implies GC010/GC020 might still be used intra-EU.",
+  "fix": "<td>황색, PIC(EU 안 운송 포함). GC010·GC020 대체는 Y49에만, EU 안 운송에서 2026. 12. 31.까지</td>"
+ },
+ {
+  "file": "battery-docs/w-anx5.html",
+  "claim": "Electrical and electronic waste … with a component containing or contaminated with Annex I constituents … including … a battery included on list A … (note the related entry Y49 in List A of Part 2)",
+  "verdict": "partly",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): entry reads \"A1181 Electrical and electronic waste (note the related entry Y49 in List A of Part 2 in Annex V): ... with a component containing or contaminated with Annex I constituents ... including but not limited to ... a battery included on list A\" - the note comes first and ends 'in Annex V'; the excerpt moves and truncates it.",
+  "fix": "Electrical and electronic waste (note the related entry Y49 in List A of Part 2 in Annex V): … with a component containing or contaminated with Annex I constituents … including … a battery included on list A …"
+ },
+ {
+  "file": "battery-docs/w-anx5.html",
+  "claim": "PIC. EU 안 운송만 2026. 12. 31.까지 적절한 경우 GC010·GC020(부속서 IV 제I부 (g))",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): Annex IV Part I (g).",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx5.html",
+  "claim": "2026년 11월 9일부터는 개정 EU 폐기물 목록에서 리튬계 폐배터리가 유해 코드 16 06 07*이므로 비OECD국 수출이 금지됩니다",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "2026년 12월 9일부터는 개정 EU 폐기물 목록에서 리튬계 폐배터리가 유해 코드 16 06 07*이므로 비OECD국 수출이 금지됩니다"
+ },
+ {
+  "file": "battery-docs/w-anx5.html",
+  "claim": "관보본의 B1110(직접 재사용 목적 전기·전자 조립품 포함)은 위임규정 (EU) 2024/3230으로 삭제되었고, 유해 부품이 없는 폐전기·전자제품은 Y49, 목록 A 배터리 등 유해 부품이 든 것은 A1181이 되었습니다.",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): B1110 deleted; Y49 \"not containing and not contaminated with Annex I constituents\"; A1181 \"with a component ... including ... a battery included on list A\".",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-anx5.html",
+  "claim": "배터리 항목 A1160·A1170·B1090은 바뀌지 않았습니다.",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): Annex amends only A1180, B1110, B4030 and adds Y49 in Annex V.",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-t2-1a.html",
+  "claim": "그 목록을 개정한 위임결정 (EU) 2025/934는 2026년 11월 9일부터",
+  "verdict": "wrong",
+  "evidence": "Corrigendum, OJ L 2025/90657 of 19.8.2025, http://data.europa.eu/eli/dec_del/2025/934/corrigendum/2025-08-19/oj (fetched 2026-10-20 via publications.europa.eu/resource/celex/32025D0934R%2801%29): \"On page 2, Article 2, second paragraph: for: 'It shall apply from 9 November 2026.', read: 'It shall apply from 9 December 2026.'\"; original Art 2: \"It shall apply from 9 November 2026.\" https://eur-lex.europa.eu/eli/dec_del/2025/934/oj/eng (cached EUR-Lex text, SP/src/32025D0934.txt)",
+  "fix": "그 목록을 개정한 위임결정 (EU) 2025/934는 2026년 12월 9일부터"
+ },
+ {
+  "file": "battery-docs/w-t2-1a.html",
+  "claim": "지금은 목록 A 배터리 등 유해 부품이 든 것은 A1181, 그렇지 않은 것은 Y49이고 둘 다 PIC입니다.",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): A1181 and Y49 entries; Annex IV Part I covers Basel Annex II/VIII wastes (PIC, Art 4(2)(a)).",
+  "fix": null
+ },
+ {
+  "file": "battery-docs/w-t2-1a.html",
+  "claim": "연합 안 운송에서만 2026년 12월 31일까지 적절한 경우 GC010·GC020(녹색)을 쓸 수 있습니다(부속서 IV 제I부 (g))",
+  "verdict": "partly",
+  "evidence": "https://eur-lex.europa.eu/eli/reg_del/2024/3230/oj (cached SP/src/32024R3230.txt): (g) substitutes GC010/GC020 only for \"Basel entry Y49\"; A1181 stays PIC intra-EU.",
+  "fix": "Y49에 해당하는 것은 연합 안 운송에서만 2026년 12월 31일까지 적절한 경우 GC010·GC020(녹색)을 쓸 수 있습니다(부속서 IV 제I부 (g))"
+ }
+]
