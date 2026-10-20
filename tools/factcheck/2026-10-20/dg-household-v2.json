@@ -1,0 +1,576 @@
+[
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 1170 에탄올 용액 또는 UN 1987 알코올류 Class 3(인화점 60℃ 이하). 알코올 24부피퍼센트 이하 수용액은 적용 제외(특별규정 144)",
+  "verdict": "partly",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): UN 1170 PG Ⅱ sp \"144\", PG Ⅲ sp \"144 223\"; UN 1987 PG Ⅱ sp \"274\", PG Ⅲ sp \"223 274\"(144 없음); UN 3065 PG Ⅲ sp \"144 145 247\". https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 144: \"An aqueous solution containing not more than 24% alcohol by volume is not subject to the provisions of this Code.\" 144는 UN 1170(과 3065)에만 붙으므로 UN 1987 제품에는 이 제외를 쓸 수 없음",
+  "fix": "UN 1170 에탄올 용액 또는 UN 1987 알코올류 Class 3(인화점 60℃ 이하). UN 1170(에탄올)이면 알코올 24부피퍼센트 이하 수용액은 적용 제외(특별규정 144). UN 1987에는 특별규정 144가 없음"
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "알코올이 많아 인화점이 60℃ 이하면 Class 3(UN 1170·1987 등). 에어로졸형은 UN 1950",
+  "verdict": "partly",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 144(UN 1170·3065에 부여): \"An aqueous solution containing not more than 24% alcohol by volume is not subject to the provisions of this Code.\" 에탄올 20% 안팎의 수성 섬유탈취제는 인화점이 60℃ 이하여도 UN 1170이면 적용 제외라, 이 문장만 보면 과다 신고로 이어질 수 있음(같은 표의 세척용 알코올·면도기 세정액 행은 144를 적음)",
+  "fix": "알코올이 많아 인화점이 60℃ 이하면 Class 3(UN 1170·1987 등). 다만 에탄올(UN 1170) 24부피퍼센트 이하 수용액은 적용 제외(특별규정 144). 에어로졸형은 UN 1950"
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "<b>대개 비위험물이지만 확인</b>. 인화성 액체를 흡수시킨 고체는 UN 3175(4.1, PG Ⅱ). 다만 PG Ⅱ·Ⅲ 인화성 액체 10mL 미만을 흡수시켜 흘러나오는 액체가 없는 밀봉 포장·물품은 IMDG 적용 제외(특별규정 216)",
+  "verdict": "partly",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 216: \"Sealed packets and articles containing less than 10 mL of a packing group II or III flammable liquid absorbed into a solid material are not subject to the provisions of this Code provided there is no free liquid in the packet or article.\" 10mL 한도는 밀봉 포장(packet) 1개 기준이라, 여러 장을 한 파우치·통에 넣은 알코올(70% 안팎) 물티슈는 10mL를 넘기 쉬워 UN 3175가 됨. \"대개 비위험물\"은 낱장 포장이나 저알코올 유리세정 티슈에만 맞으므로 판정 표시는 \"조성·인화점·농도에 따라\"가 맞음. SP 216 인용 자체는 정확",
+  "fix": "<b>조성·인화점·농도에 따라</b>. 인화성 액체를 흡수시킨 고체는 UN 3175(4.1, PG Ⅱ). 다만 PG Ⅱ·Ⅲ 인화성 액체 10mL 미만을 흡수시켜 흘러나오는 액체가 없는 밀봉 포장·물품은 IMDG 적용 제외(특별규정 216). 10mL는 낱장이 아니라 밀봉 포장(파우치·통) 1개 기준이라 여러 장이 든 알코올 물티슈는 넘기 쉬움"
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "<td>매당 액량, 낱장 밀봉 여부, 알코올 함량</td>",
+  "verdict": "partly",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 216: \"Sealed packets and articles containing less than 10 mL … provided there is no free liquid in the packet or article.\" 기준은 밀봉 포장 1개당 액량이지 장당 액량이 아님",
+  "fix": "<td>밀봉 포장 1개당 액량(낱장 포장인지, 여러 장이 든 파우치·통인지), 알코올 함량</td>"
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "<td>계면활성제</td><td>수생독성, 일부는 부식성</td><td>대개 비위험물이지만 확인</td>",
+  "verdict": "partly",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): UN 3082(9, sp 274 335 375 969), UN 1760·UN 2735(8, PG Ⅰ~Ⅲ). https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 375는 \"net quantity per single or inner packaging of 5 L or less … 5 kg or less\" 소포장에만 적용. ⑥표는 원료·산업용(드럼·IBC)이라 SP 375가 듣지 않고, 원료 계면활성제는 수생환경 유해성(UN 3082)이나 부식성(UN 1760·2735 등)인 경우가 흔해 \"대개 비위험물\"보다 \"조성에 따라\"가 방어 가능한 판정(같은 행의 UN 번호 안내 자체는 정확)",
+  "fix": "<td>계면활성제</td><td>수생독성, 일부는 부식성</td><td>조성·인화점·농도에 따라</td>"
+ },
+ {
+  "file": "dg-docs/kr-mismatch.html",
+  "claim": "용기등급 Ⅲ 품목에는 시험 결과 분류 기준에 해당하지 않으면 적용하지 않는다는 특별규정(223)이 붙어 있습니다.",
+  "verdict": "outdated",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 위험물목록: \"1361 CARBON, animal or vegetable … 4.2 - II 978 0 E0\" / \"1361 … 4.2 - III 978 0 E0\"; \"1362 CARBON, ACTIVATED 4.2 - III 979 0 E1\"(223 없음). SP 978.2: \"The UN N.4 test according to section 33.4.6 of the UN Manual of Tests and Criteria shall not be used to exempt carbon of animal or vegetable origin (UN 1361) from the provisions of this Code.\" 978.3: \"Without testing, the material shall be assigned to at least packing group III.\" 978.4.1: \"…weathering … for a minimum period of 14 days before being packaged…\". SP 979: \"With the exception of the documentation requirements in 5.4.4.2, the provisions of this Code do not apply to this substance when: .1 it is accompanied by a certificate from the shipper stating that the substance is steam activated carbon; or .2 it is chemically activated carbon … certificate issued by a laboratory recognized by the competent authority … negative test result for self-heating\". repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1361 sp \"978\"(Ⅱ·Ⅲ), 1362 sp \"979\". UN 모델 규정 제20개정판(dl_un/rev20.pdf)에는 1361 Ⅲ·1362 Ⅲ에 223이 있었음(그래서 출처 기준으로는 맞았으나 현행 해상 기준과 다름)",
+  "fix": "UN 모델 규정 제20개정판에서는 두 품목의 용기등급 Ⅲ에 시험 결과 분류 기준에 해당하지 않으면 적용하지 않는다는 특별규정 223이 붙어 있었지만, 해상 운송의 IMDG Code 42-24에서는 UN 1361에 특별규정 978만 붙고, 978.2가 N.4 시험으로 UN 1361을 적용 제외할 수 없다고 정합니다. 시험하지 않으면 최소 용기등급 Ⅲ이고, 포장 전 14일 이상 풍화 등의 조건이 붙습니다. 활성탄 UN 1362에는 특별규정 979가 붙어, 증기 활성탄이라는 송하인 확인서나 주관청이 인정한 시험기관의 자기발열 시험 음성 확인서(화학 활성탄)가 있으면 확인서 제출(5.4.4.2) 외에는 IMDG Code를 적용하지 않습니다."
+ },
+ {
+  "file": "dg-docs/kr-mismatch.html",
+  "claim": "시험성적서로 비해당을 입증하지 못하면 Class 4.2로 신고해야 합니다.",
+  "verdict": "outdated",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 978.2: \"The UN N.4 test … shall not be used to exempt carbon of animal or vegetable origin (UN 1361) from the provisions of this Code.\" SP 979(UN 1362): 증기 활성탄 송하인 확인서 또는 화학 활성탄의 인정 시험기관 확인서가 있으면 5.4.4.2 서류 요건 외 적용하지 않음",
+  "fix": "해상에서 숯(UN 1361)은 시험성적서로 비해당을 입증할 수 없어(IMDG 특별규정 978) Class 4.2로 신고해야 하고, 활성탄(UN 1362)만 특별규정 979의 확인서(증기 활성탄 송하인 확인서 또는 화학 활성탄 시험기관 확인서)로 적용 제외할 수 있습니다."
+ },
+ {
+  "file": "dg-docs/kr-mismatch.html",
+  "claim": "Class 4.2 (UN 1361/1362). 시험으로 제외 가능",
+  "verdict": "outdated",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 위험물목록 UN 1361 특별규정 978(N.4 시험으로 제외 불가), UN 1362 특별규정 979(확인서로 제외)",
+  "fix": "Class 4.2 (UN 1361/1362). 해상에서 숯은 시험으로 제외 불가(특별규정 978), 활성탄은 확인서로 제외 가능(특별규정 979)"
+ },
+ {
+  "file": "dg-docs/kr-mismatch.html",
+  "claim": "시험성적서 확보",
+  "verdict": "outdated",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 978.2·979, 5.4.4.2: \"A certificate exempting a substance … referred to in a special provision … shall be submitted together with the cargo information required by SOLAS regulation VI/2.\"",
+  "fix": "숯은 UN 1361 신고, 활성탄은 특별규정 979 확인서 확보"
+ },
+ {
+  "file": "dg-docs/kr-mismatch.html",
+  "claim": "출처: UN 모델 규정 위험물 목록 UN 1361·UN 1362, 특별규정 223 — ",
+  "verdict": "partly",
+  "evidence": "이 절의 현행 해상 근거는 https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 위험물목록 UN 1361·1362와 SP 978·979. 출처 줄에 IMDG를 더해야 고친 본문과 맞음",
+  "fix": "출처: IMDG Code 42-24 위험물목록 UN 1361·UN 1362, 특별규정 978·979, 5.4.4.2 — <a href=\"https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf\" target=\"_blank\" rel=\"noopener noreferrer\">IMO 결의서 MSC.556(108)</a>; UN 모델 규정 위험물 목록 UN 1361·UN 1362, 특별규정 223(제20개정판) — "
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "반대로 할로겐 램프, 소형 형광등, 해상 운송의 스피커 자석, 해상 운송의 도수 70% 이하 주류(250L 이하 용기)처럼 대개 위험물로 신고할 필요가 없는 품목도 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 1.1.1.9(램프); SP 366 \"Manufactured instruments and articles containing not more than 1 kg of mercury … are not subject\"; SP 960(UN 2807) \"Not subject to the provisions of this Code\"; SP 145 \"Alcoholic beverages of packing group III, when transported in receptacles of 250 L or less, are not subject\"; UN 3065 PG Ⅲ = 24% 초과 70% 이하, 24% 이하는 SP 144",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "품목마다 IMDG Code 42-24 본문(MSC.556(108))과 사이트 UN 번호 데이터로 2026년 10월 20일에 다시 확인했습니다.",
+  "verdict": "correct",
+  "evidence": "수치를 https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf와 repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준)로 대조. 회사 이름 없음(익명 표기 유지)",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "<b>대개 위험물</b>, <b>조성·인화점·농도에 따라</b>, <b>운송 수단에 따라</b>, <b>대개 비위험물이지만 확인</b>",
+  "verdict": "correct",
+  "evidence": "판정 표시 정의 문단. 기존 39행의 표시를 하나씩 대조: 향수·매니큐어·리무버·스프레이·손소독제·살충제·용제형 접착제·라이터·성냥·부탄가스·배터리·드라이아이스·소화기·폭죽 \"대개 위험물\", 수은 체온계·자석 \"운송 수단에 따라\"(해상 SP 366·960), 엔진오일 \"대개 비위험물이지만 확인\" 모두 repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준)와 IMDG SP 문언에 맞음. 블랙박스·헬륨 풍선의 \"조성·인화점·농도에 따라\"는 전원 방식·충전 상태로 갈리는 품목이라 표현이 딱 맞지는 않으나 네 가지 표시 중에서는 방어 가능",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "물이 주성분이고 인화점이 60℃를 넘으면 Class 3 아님",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 2.3.1.2: Class 3 인화성 액체는 인화점 60℃ 이하(c.c.)",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "파라디클로로벤젠은 IMDG 색인에 해양오염물질(P)로 표시된 물질이라, 이를 쓴 블록은 환경유해물질 Class 9(고체 UN 3077)에 해당할 수 있음",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 색인: \"para-Dichlorobenzene, see P 9 3082\", \"1,4-Dichlorobenzene, see P 9 3082\". 고체이면 UN 3077(SP 335 참조). \"할 수 있음\"으로 단정 피함. 판정 \"대개 비위험물이지만 확인\"은 소매 블록이 SP 375(내부 포장 5kg 이하)로 적용 제외되므로 방어 가능",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 3077·3082는 내부 포장당 5kg(액체 5L) 이하이면 포장 일반요건 외 IMDG 적용 제외(특별규정 375)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 375: \"net quantity per single or inner packaging of 5 L or less for liquids or … 5 kg or less for solids, are not subject to any other provisions of the present Code, provided the packagings meet the general provisions of 4.1.1.1, 4.1.1.2 and 4.1.1.4 to 4.1.1.8.\" repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 3077 sp \"274 335 375 966 967 969\", 3082 sp \"274 335 375 969\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "리모넨(디펜텐 UN 2052, Class 3 PG Ⅲ, 해양오염물질)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 색인 \"Limonene, see P 3 2052\", \"DIPENTENE P 3 2052\"; repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 2052 cls 3 PG III mp 1 LQ 5 L",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 2052 LQ 5L, UN 1950 LQ 1,000mL",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 2052 LQ 5 L; 1950 LQ \"특별요건 277 참조\"(에어로졸 1,000mL)",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "안전확인대상생활화학제품(제거제). 비수용성 용제는 비고 제11호마목 제외가 안 되어 인화점별 제4류",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/법령/위험물안전관리법시행령 (Open API 재조회 2026-10-20, 시행 2026. 7. 1.) 별표 1 비고 제11호 마목: \"안전확인대상생활화학제품(알코올류에 해당하는 것은 제외한다) 중 수용성인 인화성액체를 50부피퍼센트 이하로 포함하고 있는 것\". https://www.law.go.kr/행정규칙/안전확인대상생활화학제품지정및안전·표시기준 (고시 제2026-215호, 시행 2026. 9. 1.) 별표 2 제거제 용도표 \"접착제제거용\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "이소프로필알코올 UN 1219(Class 3, PG Ⅱ), 에탄올 UN 1170(Class 3, PG Ⅱ·Ⅲ). 에탄올 24부피퍼센트 이하 수용액은 적용 제외(특별규정 144)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1219 cls 3 PG II LQ 1 L E2; 1170 PG II(sp 144)·III(sp 144 223). https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 색인 \"ISOPROPYL ALCOHOL - 3 1219\"; SP 144 원문",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 1219 LQ 1L·EQ E2, UN 1170 LQ 1L(Ⅱ)·5L(Ⅲ)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1219 LQ 1 L E2; 1170 LQ 1 L(Ⅱ)·5 L(Ⅲ)",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "탄소 수 1~3개 포화1가 알코올이라 제4류 알코올류(지정수량 400리터). 함유량 60중량퍼센트 미만 수용액은 알코올류에서 제외(비고 제14호)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/법령/위험물안전관리법시행령 (Open API 재조회 2026-10-20, 시행 2026. 7. 1.) 별표 1 제4류 \"3. 알코올류 400리터\", 비고 제14호(탄소원자 1~3개 포화1가 알코올, 60중량퍼센트 미만 수용액 제외). 이소프로판올·에탄올 모두 해당",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "알코올이 들어 있으면 함량과 인화점에 따라 Class 3(UN 1987, UN 1170 등). 에탄올 24부피퍼센트 이하 수용액은 적용 제외(특별규정 144)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): SP 144는 UN 1170(과 3065)에만 있음. 문장이 \"에탄올\"로 좁혀 있어 정확",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 3175 LQ 1kg, EQ E2",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 3175 cls 4.1 PG II sp \"216 274\" LQ 1 kg E2",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "확인한 세탁 캡슐세제 SDS 예시는 14항이 IMDG·IATA 모두 \"Not regulated\"",
+  "verdict": "correct",
+  "evidence": "https://images.thdstatic.com/catalog/pdfImages/62/6215f3b8-4d91-43d5-8f10-e347ac806bd9.pdf (2026-10-20 재다운로드, 같은 파일) \"Revision date 17-Dec-2024 Revision Number 1.02\", 14항 \"DOT Not regulated / IMDG Not regulated / IATA Not regulated\". 본문에 제품·회사 이름 없음",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 3378 LQ 1kg(Ⅱ)·5kg(Ⅲ)</td><td>안전확인대상생활화학제품(세탁세제 등)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 3378 cls 5.1 PG II LQ 1 kg, PG III LQ 5 kg",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "안전확인대상생활화학제품(세정제, 세탁조용은 특정목적용)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/행정규칙/안전확인대상생활화학제품지정및안전·표시기준 (고시 제2026-215호, 시행 2026. 9. 1.) 별표 2 세정제 <표1>: \"욕실용, 벽·바닥용, 가구용, 가전제품용, 생활소품용 │일반용\", \"카페트용, 세탁조용, 배수관용, 신발용, 악기용, 필터용 │특정목적용\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "비분사형 일반용은 산 HCl로서 10%(w/w) 미만, 알칼리 NaOH로서 5%(w/w) 미만(고시 별표 2)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/행정규칙/안전확인대상생활화학제품지정및안전·표시기준 (고시 제2026-215호, 시행 2026. 9. 1.) 별표 2 세정제 <표3>(분사형 일반용/특정목적용, 비분사형 일반용/특정목적용): \"염산 또는 황산 │HCl로써 0.04%(w/w) 미만 │HCl로써 0.5% 미만 │HCl로써 10%(w/w) 미만 │HCl로써 10% 미만\", \"수산화나트륨 또는 수산화칼륨 │NaOH로써 5%(w/w) 미만\"(전 열)",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "Class 8 PG Ⅱ LQ 1L, PG Ⅲ LQ 5L",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1789·3264·1791 PG II LQ 1 L, PG III LQ 5 L",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 1903 LQ 1L(Ⅱ)·5L(Ⅲ), UN 3142 LQ 100mL(Ⅱ)·5L(Ⅲ). PG Ⅰ은 LQ 불가",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1903 PG I LQ 0, II 1 L, III 5 L; 3142 PG I LQ 0, II 100 ml, III 5 L",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "손소독제는 의약외품, 그 밖의 살균·소독제는 살생물제품(제품승인)이나 승인유예대상 살균제(안전확인)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/행정규칙/안전확인대상생활화학제품지정및안전·표시기준 (고시 제2026-215호, 시행 2026. 9. 1.) 별표 1 \"제12부 기타 … 7. 승인유예대상 살균제\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "유성(용제형)은 인화점에 따라 UN 1263(도료) Class 3. 인화점이 60℃를 넘는 수성 제품은 Class 3 아님",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1263 cls 3 PG I~III; IMDG 2.3.1.2 인화점 60℃ 기준",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 1263 LQ 500mL(Ⅰ)·5L(Ⅱ·Ⅲ)</td><td>물체 도색제",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1263 PG I 500 ml, II 5 L, III 5 L",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "디클로로메탄 같은 염소계 용제는 UN 1593(6.1, PG Ⅲ)처럼 다른 급",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1593 DICHLOROMETHANE cls 6.1 PG III LQ 5 L",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 1993 LQ 0(Ⅰ)·1L(Ⅱ)·5L(Ⅲ), UN 1593 LQ 5L",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1993 PG I LQ 0, II 1 L, III 5 L; 1593 LQ 5 L",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "부탄 카트리지는 UN 2037(2.1), 소형 장치용 탄화수소 가스 충전물은 UN 3150(2.1), 분사형 점화제는 UN 1950, 라이터 리필은 UN 1057",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 2037 RECEPTACLES, SMALL, CONTAINING GAS cls 2(LPG 2.1); 3150 DEVICES, SMALL, HYDROCARBON GAS POWERED or HYDROCARBON GAS REFILLS cls 2.1; 1057 LIGHTERS or LIGHTER REFILLS 2.1",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 2037·1950 LQ 1,000mL(특별규정 277), UN 3150·1057 LQ 0",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 2037·1950 LQ \"특별요건 277 참조\"; 3150·1057 LQ 0",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "니코틴 액상은 독성 기준에 따라 UN 3144(니코틴 조제물, 액체, 6.1) PG Ⅰ~Ⅲ, 니코틴 원액은 UN 1654(6.1). UN 3144 PG Ⅲ는 시험 결과 기준에 맞지 않으면 적용 제외(특별규정 223)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 3144 cls 6.1 PG I(sp 43 274)·II(43 274)·III(43 223 274); 1654 NICOTINE 6.1 PG II. SP 223 원문 \"when tested, it does not meet the established defining criteria … it is not subject\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 3144 LQ 0(Ⅰ)·100mL(Ⅱ)·5L(Ⅲ), UN 1654 LQ 100mL",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 3144 LQ 0 / 100 ml / 5 L; 1654 LQ 100 ml",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "배터리를 장착한 기체는 UN 3481, 여분 배터리는 UN 3480(리튬금속이면 UN 3091·3090)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 3480·3481·3090·3091 cls 9, sp 188 포함",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "리튬이온 배터리가 들어 있으면 UN 3481, 코인형 등 리튬금속 셀만 들어 있으면 UN 3091",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 3481(장치 내 리튬이온), 3091(장치 내 리튬금속). 판정 \"대개 위험물\"은 기존 노트북·휴대폰 행과 같은 기준(해상은 SP 188로 대개 적용 제외)",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "해상은 자성물질 UN 2807이 IMDG 적용 제외(특별규정 960). 항공은 포장물 자기장이 기준을 넘으면 UN 2807 Class 9",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 2807 MAGNETIZED MATERIAL cls 9 sp 960. https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 960: \"Not subject to the provisions of this Code but may be subject to provisions governing the transport of dangerous goods by other modes.\" 포워더에게는 \"자기장 측정 자료\"를 서류로 받으라고만 씀(직접 측정 지시 아님)",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "인화점이 60℃를 넘으면 Class 3이 아님. 수생환경 유해성 기준에 해당하면 UN 3082(액체)·UN 3077(고체) Class 9",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 2.3.1.2(60℃), 2.9.3; repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준) 3082·3077 cls 9",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "인화점에 따라 제3·제4석유류 가능. 1기압·섭씨 20도에서 액체인 것만 해당하므로(비고 제11호) 그리스는 제품별",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/법령/위험물안전관리법시행령 (Open API 재조회 2026-10-20, 시행 2026. 7. 1.) 별표 1 비고 제11호: \"인화성액체라 함은 액체(제3석유류, 제4석유류 및 동식물유류의 경우 1기압과 섭씨 20도에서 액체인 것만 해당한다)로서 인화의 위험성이 있는 것\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "차량용 붓펜(보수용 도료)은 인화점에 따라 UN 1263 Class 3. 용제형 발수·광택 코팅제는 인화점이 60℃ 이하이면 Class 3(UN 1993 등), 스프레이형은 UN 1950",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1263 PAINT … polish 포함 cls 3; 1993; 1950",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 1263 PG Ⅱ·Ⅲ LQ 5L, EQ E2·E1. UN 1950 LQ 1,000mL",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1263 PG II LQ 5 L E2, PG III LQ 5 L E1",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "안전확인대상생활화학제품 제7부 자동차 전용 제품(세정제·제거제·광택코팅제 등)이나 물체 도색제",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/행정규칙/안전확인대상생활화학제품지정및안전·표시기준 (고시 제2026-215호, 시행 2026. 9. 1.) 별표 1: \"제7부 자동차 전용 제품 │1. 자동차용 워셔액 2. 자동차용 부동액 3. 자동차용 세정제 4. 자동차용 제거제 5. 자동차용 광택코팅제 6. 자동차용 특수목적코팅제\", \"제6부 염색·도색제품 … 2. 물체 도색제\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "제품 속 수은은 UN 3506(8, 부위험성 6.1)이지만 수은 1kg 이하 물품은 IMDG 적용 제외(특별규정 366)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 3506 cls 8 sub 6.1 sp 366. https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 366: \"Manufactured instruments and articles containing not more than 1 kg of mercury or gallium are not subject to the provisions of this Code.\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "램프 예외(1.1.1.9)도 방사성 물질이 없고 수은이 366 한도 이하인 램프 중 가정 수거품, 램프당 위험물 1g·포장물당 30g 이하(품질관리·포장 조건), 수거 시설에서 나가는 파손 램프(같은 수량) 등을 제외",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 1.1.1.9: \"The following lamps are not subject to this Code provided that they do not contain radioactive material and do not contain mercury in quantities above those specified in special provision 366 … .1 lamps that are collected directly from individuals and households … .2 lamps each containing not more than 1 g of dangerous goods and packaged so that there is not more than 30 g of dangerous goods per package, provided that: (i) … certified quality management system … (ii) … 1.2 m drop test. .3 used, damaged or defective lamps each containing not more than 1 g … not more than 30 g … from a collection or recycling facility\". 2.2.2 주석 \"For lamps see 1.1.1.9\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "항공에도 램프 예외가 있으나 IATA DGR 원문을 보지 못했으므로 항공사에 확인",
+  "verdict": "correct",
+  "evidence": "원문 미확인을 밝히고 항공사 확인으로 돌림. 단정 없음",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "2.2급 가스만 든 램프는 깨져도 파편이 포장 안에 머물도록 포장하면 IMDG 적용 제외(1.1.1.9)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 1.1.1.9.4: \"lamps containing only gases of class 2.2 (according to 2.2.2.2) provided they are packaged so that the projectile effects of any rupture of the bulb will be contained within the package.\" 할로겐 첨가물은 미량이라 혼합 가스 전체로는 2.2. 판정 \"대개 비위험물이지만 확인\" 방어 가능",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "항공: 깨져도 밖에 영향이 없도록 생산지에서 포장한 백열등 속 2.2급 가스는 적용 제외(「항공위험물운송기술기준」 제26조제4호라목)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/행정규칙/항공위험물운송기술기준 (Open API 재조회 2026-10-20, 국토교통부고시 제2023-52호) 제26조 4.: \"다음 각 목에 해당하는 제2,2군(비인화성, 비독성 가스)의 가스는 이 기술기준을 적용하지 아니할 것 … 라. 파열이 되어도 외부에 영향을 미치지 않도록 안전하게 생산지 포장이 완료된 백열 등\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 3065 알코올 음료 Class 3. 70부피퍼센트 초과는 PG Ⅱ, 24부피퍼센트 초과 70부피퍼센트 이하는 PG Ⅲ. 24부피퍼센트 이하는 적용 제외(특별규정 144)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 3065 \"more than 70% alcohol by volume\" PG II; \"more than 24% but not more than 70%\" PG III sp \"144 145 247\". SP 144 원문",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "해상: PG Ⅲ는 250L 이하 용기면 적용 제외(특별규정 145). PG Ⅱ(70% 초과)는 해상도 위험물(LQ 5L, EQ E2). 항공: 70부피퍼센트 이하·용기 5L 이하면 화물로 적용 제외(IATA 특별규정 A9로 소개됨, DGR 원문 미확인)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 145: \"Alcoholic beverages of packing group III, when transported in receptacles of 250 L or less, are not subject to the provisions of this Code.\"; repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준) 3065 PG II LQ 5 L E2. https://www.dgm-us.com/iata-dgr-special-provision-a9-explained/ (2026-10-20 curl): \"A9 Alcoholic beverages containing 70% or less alcohol by volume, when packed in receptacles of 5 L or less, are not subject to these Regulations when carried as cargo.\" 원문 미확인 표시 유지",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "국내 알코올류 기준은 중량퍼센트(60%)라 국제 기준과 다름",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/법령/위험물안전관리법시행령 (Open API 재조회 2026-10-20, 시행 2026. 7. 1.) 별표 1 비고 제14호 \"60중량퍼센트 미만인 수용액\" 제외",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "염산 UN 1789(8, PG Ⅱ·Ⅲ), 황산 51% 초과 UN 1830·51% 이하 UN 2796(8, PG Ⅱ), 질산 UN 2031(8, 65% 이상은 부위험성 5.1)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1789 cls 8 PG II·III; 1830 \"with more than 51% acid\" PG II; 2796 \"not more than 51% acid\" PG II; 2031 \"less than 65%\" sub 없음, \"at least 65% but not more than 70%\" sub 5.1, \"more than 70%\" sub 5.1",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "수산화나트륨 고체 UN 1823·용액 UN 1824, 수산화칼륨 고체 UN 1813·용액 UN 1814(8), 암모니아 10% 초과 35% 이하 수용액 UN 2672(8, PG Ⅲ, 해양오염물질)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1823·1824·1813·1814 cls 8; 2672 cls 8 PG III mp 1. https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 위험물목록 \"2672 AMMONIA SOLUTION, relative density between 0.880 and 0.957 at 15°C in water, with more than 10% but not more than 35% ammonia 8 - P\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "가성소다(수산화나트륨) UN 1823·1824(8), 과탄산소다 UN 3378(5.1). 소다회(탄산나트륨)·베이킹소다(탄산수소나트륨)는 IMDG 위험물목록·색인에 품명이 없어 대개 비위험물",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 색인 \"Caustic soda, solid, see - 8 1823\", \"Caustic soda solution, see - 8 1824\", \"SODIUM CARBONATE PEROXYHYDRATE - 5.1 3378\"; 탄산나트륨·탄산수소나트륨 단독 품명 없음(grep). \"대개\"로 완화",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "질산암모늄계 비료는 UN 2067(5.1) 또는 UN 2071(9, 복합비료). 고체 질산암모늄계 비료는 UN 시험기준 Part III 39절 절차로 분류. 질산칼슘 UN 1454(5.1)이지만 질산암모늄 10% 이하·결정수 12% 이상인 상업용 복염은 적용 제외(특별규정 208). 요소·염화칼륨은 위험물목록에 품명 없음",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 2067 cls 5.1 sp \"306 307 900 967\"; 2071 cls 9 sp 193; 1454 cls 5.1 PG III sp \"208 967\". https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 2.5.2 Note 2: \"solid ammonium nitrate based fertilizers shall be classified in accordance with the procedure as set out in the Manual of Tests and Criteria, part III, section 39.\"; SP 193 \"only be used for ammonium nitrate based compound fertilizers\"; SP 208 \"…not more than 10% ammonium nitrate and at least 12% water of crystallization, is not subject\". 색인에 UREA는 urea nitrate·urea hydrogen peroxide뿐, potassium chloride 없음",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "질산암모늄 함량, 분류 근거(시험), 14항. 국내에서 질산염류는 제1류(지정수량 300킬로그램)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/법령/위험물안전관리법시행령 (Open API 재조회 2026-10-20, 시행 2026. 7. 1.) 별표 1 제1류 \"6. 질산염류 300킬로그램\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "건조 금속 촉매 UN 2881(4.2, PG Ⅰ~Ⅲ, LQ 0), 액체가 보이게 남은 젖은 금속 촉매 UN 1378(4.2, PG Ⅱ)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 2881 METAL CATALYST, DRY cls 4.2 PG I·II·III LQ 0; 1378 METAL CATALYST, WETTED with a visible excess of liquid cls 4.2 PG II LQ 0",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "N.O.S. 품명(UN 1993, UN 1760, UN 3082, UN 2735 등)",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1993·1760·3082·2735 모두 N.O.S. 품명",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "채굴 석탄은 UN 1361이 아니고(특별규정 978) IMDG 위험물목록에 석탄 품명이 없음. 산적 석탄은 IMSBC Code의 COAL 명세(MHB)로 운송하고",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 978.1: \"carbon of animal or vegetable origin means carbon, generated in a production or manufacturing process, not formed in a geological process and not obtained from mining.\" 색인의 COAL 항목은 \"COAL GAS, COMPRESSED\", \"Coal tar\", \"COAL TAR DISTILLATES\" 등뿐. https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.268(85).pdf COAL 명세: \"CLASS MHB GROUP B (and A) … may heat spontaneously\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "숯(목탄)은 UN 1361(4.2, LQ 0)로 N.4 시험으로 제외할 수 없고 포장 전 풍화 등 조건이 붙음(특별규정 978). 활성탄 UN 1362는 증기 활성탄 확인서 등이 있으면 서류 요건 외 제외(특별규정 979)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf \"1361 CARBON, animal or vegetable … 4.2 … 978 0 E0\"(Ⅱ·Ⅲ); SP 978.2(N.4 시험으로 제외 불가), 978.4.1(포장 전 14일 이상 풍화); \"1362 CARBON, ACTIVATED 4.2 - III 979 0 E1\"; SP 979 \"With the exception of the documentation requirements in 5.4.4.2 … certificate from the shipper stating that the substance is steam activated carbon\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "원유 UN 1267, 휘발유 UN 1203, 경유 UN 1202, 등유 UN 1223(Class 3). 인화점이 60℃를 넘는 경유·등유는 Class 3이 아닐 수 있음",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1267·1203·1202·1223 cls 3. IMDG 2.3.1.2 인화점 60℃ 기준",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 1268 석유증류물 N.O.S.(Class 3, PG Ⅰ~Ⅲ). IMDG 색인은 석유·용제 나프타를 UN 1268로 안내. 옛 자료의 UN 2553·1256은 현행 목록에 없음",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1268 PG I·II·III; 2553·1256 행 없음. https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 색인 \"Naphtha, petroleum, see - 3 1268\", \"Naphtha, solvent, see - 3 1268\", \"Petroleum naphtha, see - 3 1268\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "에탄 UN 1035, 냉동액화 에탄 UN 1961, 압축 천연가스 UN 1971, 냉동액화 천연가스(LNG) UN 1972, LPG UN 1075. 모두 2.1, LQ 0",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1035·1961·1971·1972·1075 cls 2.1 LQ 0",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "인화점이 60℃ 이하이면 Class 3(UN 1993, UN 3295, UN 1268 등). 인화점이 60℃를 넘으면 Class 3이 아님",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1993·3295·1268 cls 3",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "금속 리튬 UN 1415(4.3, PG Ⅰ, LQ 0), 수산화리튬 UN 2680(고체)·UN 2679(용액)(8). 탄산리튬은 위험물목록에 품명이 없어 SDS로 판단",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준): 1415 LITHIUM 4.3 PG I LQ 0; 2680 LITHIUM HYDROXIDE 8; 2679 LITHIUM HYDROXIDE, SOLUTION 8. IMDG 색인에 lithium carbonate 없음",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "국내에서 금속 리튬은 제3류 알칼리금속(지정수량 50킬로그램)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/법령/위험물안전관리법시행령 (Open API 재조회 2026-10-20, 시행 2026. 7. 1.) 별표 1 제3류 \"6. 알칼리금속(칼륨 및 나트륨을 제외한다) 및 알칼리토금속 50킬로그램\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "UN 3480·3481(리튬이온), UN 3090·3091(리튬금속). 대형 모듈의 포장·충전 상태 조건은 <a data-doc=\"dg-lithium\">리튬배터리 운송</a>",
+  "verdict": "correct",
+  "evidence": "repo unnumber-data.js (해양수산부고시 제2026-67호 별표 1, IMDG 42-24; https://www.law.go.kr/행정규칙/위험물선박운송기준) 3480·3481·3090·3091; dg-lithium은 repo dg-library.js에 있는 문서 id",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "할로겐 램프·소형 형광등(1.1.1.9, 특별규정 366), 해상 운송의 스피커·모터 자석(960), 해상 운송의 도수 70% 이하 주류(250L 이하 용기, 145)와 24% 이하 주류(144)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 1.1.1.9, SP 366·960·145·144 원문(위 항목들)",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "내부 포장 5kg·5L 이하의 환경유해물질 소포장품(375), 10mL 미만 인화성 액체를 흡수시킨 밀봉 티슈(216)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 375·216 원문. \"밀봉 티슈\"는 밀봉 포장 1개 기준이라 이 표현은 맞음",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "알코올 24부피퍼센트 이하 수용액(144), 250L 이하 용기의 PG Ⅲ 주류(145), 10mL 미만 인화성 액체를 흡수시킨 밀봉품(216), 환경유해물질 5L·5kg 이하 내부 포장(375)",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 144·145·216·375 원문",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "자성물질(960, 해상). 램프는 1.1.1.9의 별도 예외",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf SP 960; 1.1.1.9 \"Lamps containing dangerous goods\"; 2.2.2 주석 \"This exemption does not apply to lamps. For lamps see 1.1.1.9.\"",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "\"소다\", \"알코올\", \"촉매\", \"첨가제\"처럼 물질이 특정되지 않는 품명은 화학명과 CAS 번호를 먼저 받는다.",
+  "verdict": "correct",
+  "evidence": "서류 요청만 지시(화물 개봉·검사 지시 없음). BRIEF 포워더 역할 규칙 준수",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "할로겐 램프, 해상 운송의 스피커처럼 대개 비위험물인 품목은 위험물로 부킹하기 전에 적용 제외 근거를 화주 서류로 확인한다.",
+  "verdict": "correct",
+  "evidence": "화주 서류로 확인하라는 지시라 BRIEF 규칙 준수. 근거: IMDG 1.1.1.9.4, SP 960",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "<b>묶음별 서류 요청</b>: 4절 각 표의 \"서류로 확인할 것\"란과 ⑥표의 \"화주에게 물을 것\"란대로 받습니다. 배터리 제품은 SDS보다 UN 38.3 시험 요약서와 Wh 표기가 핵심입니다.",
+  "verdict": "correct",
+  "evidence": "내부 참조(4절 표, ⑥표)가 문서 안에 실제로 있음. 서류 요청만 지시",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "<a data-doc=\"kr-mismatch\">국제·국내 기준이 다른 품목</a> 참고",
+  "verdict": "correct",
+  "evidence": "repo dg-library.js에 id kr-mismatch, short \"국제·국내 기준이 다른 품목\". kr-mismatch 12절(페인트·잉크)에 점성 도료 설명 있음",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "항공위험물운송기술기준(국토교통부고시 제2023-52호) 제26조·제66조~제71조의2·별표 24",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/행정규칙/항공위험물운송기술기준 (Open API 재조회 2026-10-20, 국토교통부고시 제2023-52호): 발령번호 2023-52, 시행 2023. 1. 18., 현행. 제26조 원문 확인",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "IMSBC Code(COAL 명세) — <a href=\"https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.268(85).pdf\"",
+  "verdict": "correct",
+  "evidence": "MSC.268(85) COAL 명세 원문 확인(위 석탄 항목). 본문은 명세 이름(MHB)까지만 써서 이후 개정과 충돌 없음",
+  "fix": null
+ },
+ {
+  "file": "drafts/dg-household-v2.html",
+  "claim": "「위험물안전관리법 시행령」 별표 1 비고 제11호는 화장품·의약품·체외진단용 의료기기 중 인화성 액체를 포함한 것과, 알코올류에 해당하지 않으면서 수용성 인화성 액체를 50부피퍼센트 이하로 포함한 의약외품·안전확인대상생활화학제품을 법 제20조제1항의 기준에 따른 운반용기에 담아 운반하거나 저장(진열·판매 포함)하는 경우 인화성 액체에서 제외합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/법령/위험물안전관리법시행령 (Open API 재조회 2026-10-20, 시행 2026. 7. 1.) 별표 1 비고 제11호 단서 가~마목 원문과 일치(가 화장품, 나 의약품, 다 의약외품(알코올류 제외) 수용성 50부피% 이하, 라 체외진단용 의료기기, 마 안전확인대상생활화학제품(알코올류 제외) 수용성 50부피% 이하; \"법 제20조제1항의 중요기준과 세부기준에 따른 운반용기를 사용하여 운반하거나 저장(진열 및 판매를 포함한다)하는 경우는 제외\")",
+  "fix": null
+ }
+]

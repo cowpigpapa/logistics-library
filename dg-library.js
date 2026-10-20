@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261020-01';
+  const DOCS_VERSION = '20261020-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -48,7 +48,7 @@
     { id: 'kr-system', tag: "법체계", level: 3, title: "국내 위험물 법체계 — 위험물안전관리법·화학물질관리법과 UN 분류의 관계", short: "국내 위험물 법체계", summary: "UN은 9개 등급 하나, 국내는 위험 종류와 부처별로 나뉜 법. 법령별 대상·행위와 UN 등급 대응표." },
     { id: 'kr-small', tag: "소량 기준", level: 3, title: "소량 기준 — 지정수량 미만과 시·도 조례, 화관법의 규정수량", short: "소량 기준", summary: "지정수량 미만은 시·도 조례 적용. 배수 합산, 조례 4곳 비교, 화관법 규정수량 3단계." },
     { id: 'kr-mismatch', tag: "기준 비교", level: 3, title: "국제 규칙과 국내법에서 다르게 취급되는 품목 — 윤활유·리튬배터리 등", short: "국제·국내 기준이 다른 품목", summary: "윤활유는 국내만, 리튬배터리는 국제만 위험물. 15개 품목과 요약표, SDS 14·15항 확인 순서." },
-    { id: 'dg-household', checked: '2026-10-19', tag: "생활용품", level: 3, title: "생활용품 속 위험물 — 국제 운송에서는 위험물인데 국내에서는 생활용품인 제품 목록", short: "생활용품 속 위험물", summary: "향수·스프레이·락스·라이터·부탄가스·보조배터리·드라이아이스 등 생활용품을 묶음별 표로 정리해, 국제 운송의 UN 번호와 LQ·EQ·특별규정, 국내에서 관리하는 제도(안전확인 신고·KC·화장품·위험물안전관리법 제외 규정·고압가스 운반 기준)와 서류로 확인할 것을 한눈에 찾게 했습니다." },
+    { id: 'dg-household', checked: '2026-10-20', tag: "생활용품", level: 3, title: "생활용품 속 위험물 — 국제 운송에서는 위험물인데 국내에서는 생활용품인 제품 목록", short: "생활용품 속 위험물", summary: "향수·스프레이·락스·라이터·부탄가스·보조배터리부터 세척용 알코올·캡슐세제·소독제·주류·형광등·원료 화학제품까지, 품명별로 '대개 위험물/조성·인화점·농도에 따라/운송 수단에 따라/대개 비위험물이지만 확인'과 UN 번호·LQ·특별규정, 국내 관리 제도, 화주에게 받을 서류를 정리해 누락과 과다 신고를 함께 줄이게 했습니다." },
     { id: 'dg-marks', checked: '2026-10-19', tag: "표시", level: 3, title: "위험물 표시와 표찰 — 국제 운송 라벨·마크·플래카드와 국내 경고 표시의 차이", short: "위험물 표시·표찰", summary: "포장물의 UN 번호·라벨·취급 마크, 컨테이너 표찰과 UN 번호 패널, 위험물안전관리법·화학물질관리법·산업안전보건법이 요구하는 국내 표시를 원문으로 비교하고, 어느 표시가 다른 표시를 대신할 수 있는지와 자주 하는 실수를 정리합니다." },
     { id: 'dg-msds', tag: "MSDS", level: 3, title: "MSDS(SDS) 읽는 법 — 포워더가 확인하는 항목과 운송 분류와의 관계", short: "MSDS(SDS) 읽는 법", summary: "14항을 1·3·9항과 대조하는 법, GHS 분류와 운송 분류의 차이, 오래된 SDS·Non-DG 확인서 등 위험 신호와 접수 체크리스트." },
     { id: 'dg-hidden', checked: '2026-10-19', tag: "숨은 위험물", level: 3, title: "숨은 위험물(Hidden DG) — 일반 화물 속 위험물을 서류와 반입 단계에서 걸러내기", short: "숨은 위험물 확인", summary: "자동차 부품·전자제품·이삿짐처럼 일반 품명 아래 숨은 배터리·가스·인화성 액체를 포워더는 품명·HS 코드·SDS·확인서로, 창고·CFS 작업자는 라벨·냄새·누액 같은 외관 신호로 걸러내는 절차와 발견 뒤 보고·역할 분담을 정리합니다." },
