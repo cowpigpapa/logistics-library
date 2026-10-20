@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-risk';
-  const DOCS_VERSION = '20261020-03';
+  const DOCS_VERSION = '20261020-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -33,7 +33,7 @@
     { id: 'rk-warehouse', tag: "창고", level: 3, title: "창고 보관 리스크 — 고가화물·야적·출고 확인과 사고 뒤 대응", short: "창고 보관 리스크", summary: "창고업자 책임(상법)과 계약서 한도, 고가품 신고·CCTV 보존·보험 가액, 야적 품목과 특수가연물 기준, 가짜 픽업을 막는 출고 확인, 사고 당일 대응을 화주·포워더·창고·운송사 역할별로 정리합니다." },
     { id: 'rk-damage', checked: '2026-10-19', tag: "손상", level: 3, title: "젖음 손상 예방 — 컨테이너 누수·결로·비 오는 날 작업, 손상이 났을 때 기록과 책임", short: "젖음 손상 예방", summary: "컨테이너 누수·결로·비 오는 날 작업·악천후 침수로 생기는 젖음 손상을 빈 컨테이너 점검과 회차 기준(예), 수침 예방 포장, 항공 비닐 보강으로 막는 법과, 손상 발견 시 기록·통지 기한·사전 클레임, ICC와 상법상 책임을 역할별로 정리합니다." },
     { id: 'rk-cross', checked: '2026-10-19', tag: "뒤바뀜", level: 3, title: "화물 뒤바뀜(크로스) 방지 — 섞이고 잘못 실리고 잘못 나가는 사고는 어디서 나고 어떻게 막나", short: "화물 뒤바뀜(크로스) 방지", summary: "CFS·창고·선적지에서 다른 화물이 섞이거나 다른 목적지로 실리는 크로스가 왜 생기는지, 화인·라벨, 해상·항공 선적지 단계별 점검, 컨테이너·씰 번호 대조, 출고 확인으로 막는 법과, 실제 사례 2건, 화물 위치별 대응(반송신고·수입신고 취하)과 비용 부담을 정리합니다." },
-    { id: 'rk-security', checked: '2026-10-19', tag: "보안", level: 2, title: "물류 보안 점검 — TAPA 기준과 영역별 보안 점검표(AEO·CTPAT 대조)", short: "물류 보안 점검", summary: "TAPA FSR·TSR·PSR의 등급·인증 방식·2026년판 전환과 요구사항 구조를 정리하고, AEO·CTPAT 조항을 붙인 시설·CCTV·화물·씰·운송·정보·거래처·사고 보고 통합 점검표를 창고·운송사·포워더·화주 역할별로 제시합니다." },
+    { id: 'rk-security', checked: '2026-10-20', tag: "보안", level: 2, title: "물류 보안 점검 — TAPA 기준, 하청 운송사 검증과 POD 확인, 영역별 보안 점검표", short: "물류 보안 점검", summary: "TAPA FSR·TSR·PSR의 등급·인증 방식·2026년판 전환과 요구사항 구조, TSR 하청·가짜 운송사 지침에 따른 운송사·하청 운송사 검증과 배송 완료(POD) 확인을 정리하고, AEO·CTPAT 조항을 붙인 시설·CCTV·화물·씰·운송·정보·거래처·사고 보고 통합 점검표를 창고·운송사·포워더·화주 역할별로 제시합니다." },
     { id: 'rk-special', checked: '2026-10-20', tag: "특수화물", level: 3, title: "특수화물(중량물·고높이 화물) 육상 운송 — 로드 서베이, 도로 운행허가, 상부 구조물 충돌 사고 예방", short: "특수화물 육상 운송", summary: "중량물·고높이·광폭 화물과 프로젝트 카고를 도로로 옮길 때 높이 한도가 정해지는 구조(4.0m 한도, 표지는 실제 높이보다 20cm 낮게, 허가는 실제 높이 −0.2m까지)와 국내외 충돌 사례·재구성 사례, 운송 계약 유형(포워더 책임·비용 분담·실비)과 선적지부터 도착지까지 단계별 점검, 로드 서베이 순서·점검 항목·보고서 형식, 장애물 이설·유도차량 협조, 운행허가 위반 책임과 보험을 역할별로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
@@ -48,7 +48,7 @@
   const SECTIONS = [
     { title: "운송과 창고", sub: "트럭 사고·도난 · 창고 보관", docs: ["rk-truck", "rk-warehouse"] },
     { title: "화물 손상과 오배송", sub: "젖음 손상 · 뒤바뀜", docs: ["rk-damage", "rk-cross"] },
-    { title: "보안", sub: "TAPA · 영역별 보안 점검표", docs: ["rk-security"] },
+    { title: "보안", sub: "TAPA · 운송사 검증 · 보안 점검표", docs: ["rk-security"] },
     { title: "특수화물", sub: "로드 서베이 · 운행허가 · 상부 구조물 충돌", docs: ["rk-special"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.

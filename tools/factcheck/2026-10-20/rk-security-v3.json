@@ -1,0 +1,236 @@
+[
+ {
+  "claim": "두 문서는 표준이 아니라 지침이므로 아래는 TAPA가 권하는 방법입니다.",
+  "verdict": "correct",
+  "evidence": "SCG V1.0 cover/footer: 'SCG (Subcontracting Guidance) Version 1.0 - 01st April 2026', described as 'Analytical Guidance Document for TAPA TSR Certification Holders'. Fake Carriers Avoidance Guidance Document Version 1.0, 'First published in September 2026'. Both are guidance documents, not standards; the draft frames the table as '권하는 것'.",
+  "fix": ""
+ },
+ {
+  "claim": "TSR 하청 지침서(Subcontracting Guidance, 이하 SCG, V1.0, 2026. 4. 1.)와 가짜 운송사 회피 지침서(Fake Carriers Avoidance Guidance, 이하 지침서, V1.0, 2026. 9.)",
+  "verdict": "correct",
+  "evidence": "Versions and dates match the PDFs (SCG V1.0 01 April 2026; Fake Carriers V1.0, September 2026). Style note only: abbreviating the second document as plain '지침서' is ambiguous when the same sentence calls both documents 지침서/지침, and the tables cite 'SCG' next to '지침서'.",
+  "fix": "Optional: use a distinct short name such as '가짜 운송사 지침' for the second document."
+ },
+ {
+  "claim": "하청을 줘도 운송 책임과 TSR 준수 책임은 인증 운송사에 남습니다(\"Everything can be subcontracted, except liability!\").",
+  "verdict": "correct",
+  "evidence": "SCG 2 principle 5: 'Always, the liability and responsibility for the transport remains with the certified LSP'; principle 2 (certified LSPs remain responsible for TSR compliance across the chain); 3.3: 'Subcontractors' TSR compliance confirmation cannot be assigned to subcontractors'; 8.5.3 answer sheet contains the quoted line verbatim (6 words).",
+  "fix": ""
+ },
+ {
+  "claim": "인증 운송사의 차량 대장과 교육 기사 명부에 올라 있고 하청 전에 심사받은 차량·기사만 씁니다.",
+  "verdict": "correct",
+  "evidence": "SCG 2 principle 3: vehicles in the certified LSP's vehicle register, drivers in the List of Trained Drivers, 'Both these requirements need to have been audited by the certified LSP's Authorized Auditor(s) before subcontracting.' Also 3.1 and 3.2.",
+  "fix": ""
+ },
+ {
+  "claim": "한 단계까지만 하고 재하청 금지 조항을 넣습니다. 지침서는 화주 승인 없는 2차 재하청 금지를 이중 중개를 막는 가장 중요한 장치로 봅니다.",
+  "verdict": "correct",
+  "evidence": "SCG 2 principle 1: 'Only one level of subcontracting is strongly recommended.' SCG 8.3.5 (case study): 'No further subcontracting is allowed.' Fake Carriers Annex A item 1: no onward (second-tier) subcontracting unless explicitly approved by the manufacturer, 'This is the single most important safeguard against double brokering.'",
+  "fix": ""
+ },
+ {
+  "claim": "화주의 공식 승인을 받고, 일을 맡기기 전에 현장 심사를 합니다.",
+  "verdict": "correct",
+  "evidence": "SCG 4.1: 'Non-certified potential subcontractors should always be audited onsite before any subcontracted assignment.' SCG 8.2 (case study, TSR-1 route): the certified carrier 'needs to agree with its customer and get a formal approval'. The approval point comes from the case-study narrative, which fits the guidance framing.",
+  "fix": ""
+ },
+ {
+  "claim": "경로 위험평가·경로 계획·보안 주차장 선정은 인증 운송사가 하거나 검토·승인합니다. 사고는 즉시 알리고 상세 보고서는 24시간 안에 냅니다.",
+  "verdict": "correct",
+  "evidence": "SCG 4.6: 'Prepare for the subcontractor the route security risk assessment, the route planning, and the evaluation/selection of secure parking locations'. SCG 8.5.5 answer D: either carrier can do them, but if the subcontractor does, the certified carrier 'needs to review and approve them'. SCG 5.1.1.1 'Immediate notification of theft, loss, or security breach'; 5.1.1.2 'Detailed incident reports within 24 hours' (timelines it 'strongly' recommends agreeing by contract).",
+  "fix": ""
+ },
+ {
+  "claim": "가짜 운송사가 올라온 사고가 있어 권하지 않습니다. 쓴다면 인증서·연락처·사고 이력·웹사이트 개설일을 확인하고, 가액 기준을 넘는 화물에는 쓰지 않습니다.",
+  "verdict": "correct",
+  "evidence": "SCG 4.2: 'Using subcontracting platforms is not recommended, as several security incidents have been noticed, where fake carriers were listed as legitimate ones'; checks: TSR certificate validity, email and telephone verification, history incidents check, web page creation date. Fake Carriers 2.2: 'put a threshold on cargo value, over which use of platforms is not allowed' (offered as 'another way'); Summary 6 repeats value thresholds. The wording is slightly firmer than TAPA's 'one way to control' but acceptable.",
+  "fix": "Optional: '가액 기준을 정해 그 이상은 플랫폼을 쓰지 않는 방법도 제시합니다' to keep TAPA's option framing."
+ },
+ {
+  "claim": "부킹마다, 정한 주기마다 다시 확인합니다. 몇 달 전 확인한 운송사도 그사이 신원이 복제됐을 수 있습니다.",
+  "verdict": "correct",
+  "evidence": "Fake Carriers 2.1 (identity cloning): 'A carrier that passed all compliance checks several months ago may have had their identity cloned in the interim, and without re-verification at the point of each new booking or periodic review cycle...'; 6: verification 'repeated at each new booking and on a defined cycle'.",
+  "fix": ""
+ },
+ {
+  "claim": "무단 재중개 금지, 면허·보험 변경 즉시 통보, 계약서의 운송사가 실제로 운송한다는 조항과 위반 때 해지·손해 회수를 넣습니다. 보험은 보험사에 직접 확인합니다.",
+  "verdict": "correct",
+  "evidence": "Fake Carriers 5.1: prohibit unauthorized re-brokering; immediate notice of any change in operating authority or insurance status; indemnification; 'mandate that the carrier named in the contract is the entity physically performing the transport, with strict penalties -- including immediate termination and financial recovery rights'. 5.2: 'verify coverage directly with the insurer or through an approved third-party monitoring service'.",
+  "fix": ""
+ },
+ {
+  "claim": "하청 운송사는 최소 3개월(고가 화물은 6개월) 거래한 뒤에 씁니다.",
+  "verdict": "correct",
+  "evidence": "Fake Carriers Annex A item 4: 'as a guide, at least 3 months, extended to 6 months for high value goods'. Annex A is framed as 'strongly recommended as a minimum' where the manufacturer permits subcontracting. The draft drops 'as a guide' here (the carrier checklist keeps '가능하면').",
+  "fix": "Optional: '기준으로 최소 3개월(고가 화물은 6개월)'."
+ },
+ {
+  "claim": "지침서가 드는 수법은 다섯 가지입니다(2.1).",
+  "verdict": "correct",
+  "evidence": "Fake Carriers 2.1 lists Double Brokering, Identity Cloning, Fictitious Carriers, Account Takeover (ATO), Business Buyout; Summary 6 names the same five. The one-line glosses that follow match 2.1 (cloning alters 'only the contact details -- email address, telephone number, and bank account information'; fictitious carriers are 'used for one or a small number of fraudulent pickups before being abandoned'; buyout targets a 'legitimate, dormant, or distressed trucking company'). Paraphrased, not copied.",
+  "fix": ""
+ },
+ {
+  "claim": "\"pause, escalate, and verify rather than proceed and assume\"(3절)",
+  "verdict": "correct",
+  "evidence": "Fake Carriers 3 (intro): 'When doubt exists, the default procedure should always be to pause, escalate, and verify rather than proceed and assume.' Quote is 9 words, under the 25-word limit.",
+  "fix": ""
+ },
+ {
+  "claim": "운송사가 보낸 서류·웹사이트·연락처가 아니라 공식 등록부와 이미 아는 연락처로 확인합니다(지침서 3.1, 6).",
+  "verdict": "correct",
+  "evidence": "Fake Carriers 6: 'verify carrier identity against authoritative national and European registries rather than the contact details, websites, or documents supplied by the carrier'; the last bullet of 3.1 says the same about authoritative sources.",
+  "fix": ""
+ },
+ {
+  "claim": "(.es·.eu처럼 결과가 없으면 그 도메인 등록기관 WHOIS)",
+  "verdict": "partly correct",
+  "evidence": "IANA RDAP bootstrap (data.iana.org/rdap/dns.json, publication 2026-09-30) has no entry for .es or .eu (and none for .de); it has .com, .kr, .pl, .fr, .nl. So ICANN Lookup can return nothing for .es/.eu, as stated. But (1) '등록기관' reads as registrar, while the fallback is the registry (.eu: EURid, .es: Red.es dominios.es); (2) EURid port-43 WHOIS for google.eu, tested 2026-10-20, shows registrant 'NOT DISCLOSED', registrar and name servers but no registration date, and whois.nic.es port 43 timed out (access is restricted). The fallback may not give the creation date this row is looking for. EURid's web WHOIS is a JavaScript page and was not checked.",
+  "fix": "Name the registries and soften: '(.es·.eu처럼 결과가 없으면 해당 레지스트리(.eu는 EURid, .es는 dominios.es) 조회를 쓰고, 등록일이 나오지 않으면 다른 신호와 함께 판단)'."
+ },
+ {
+  "claim": "도메인 등록일 조회, 기존 도메인과 글자 단위 비교",
+  "verdict": "partly correct",
+  "evidence": "Character-level comparison is Fake Carriers 3.1 Example 3 ('Read the domain character by character'), and the .com/.eu switch is Example 2. Domain creation date is not in Fake Carriers 3.1. It comes from SCG 4.2 ('web page creation date') and SCG Appendix I 1.1, but the row cites only '지침서 3.1'.",
+  "fix": "Add 'SCG 4.2' to the tool/citation cell of this row."
+ },
+ {
+  "claim": "<a href=\"https://sede.registradores.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Nota informativa mercantil</a>",
+  "verdict": "correct",
+  "evidence": "https://sede.registradores.org/ redirects to /sede/sede-corpme-web/home/ (HTTP 200), and the Mercantil menu lists 'Nota informativa mercantil'. Secondary descriptions say the note gives the company name (denominación), domicilio social, CIF and officers, which supports comparing the registered address. The price was not verified, and the draft does not state one.",
+  "fix": "Optional: say it is a paid service, if the owner wants that."
+ },
+ {
+  "claim": "유로존 은행은 2025. 10. 9.부터 유로 이체 전 수취인 이름·계좌 일치 확인(Verification of Payee)을 무료 제공",
+  "verdict": "correct",
+  "evidence": "ECB Instant Payments Regulation page: the Verification of payee deadline is 9 October 2025 for euro-area Member States (9 July 2027 for non-euro); it applies to 'both standard and instant credit transfers' (Art. 5c); 'This service shall be offered free of charge to the payer.' The page links Regulation (EU) 2024/886 (OJ L_202400886).",
+  "fix": ""
+ },
+ {
+  "claim": "운송사업자 등록부에서 회사명·세금번호로 허가·공동체 면허(Community licence)와 등록 차량 번호판 조회. VAT 번호는 VIES",
+  "verdict": "correct",
+  "evidence": "REAT page (HTTP 200, 2026-10-20): 'información de los títulos habilitantes en vigor (autorizaciones..., licencias comunitarias, ...) así como de los vehículos inscritos'; search 'por nombre o NIF de empresa ... o por matrícula de vehículo'. The search form uses reCAPTCHA, which is no obstacle for a human reader.",
+  "fix": ""
+ },
+ {
+  "claim": "지침서 3.1·3.4</td>",
+  "verdict": "partly correct",
+  "evidence": "Fake Carriers 3.1 covers registry discrepancies and recently issued licences. Section 3.4 is about checking tractor and trailer plates 'against internal and/or external incident records' (assets reused from past frauds), not about looking a plate up in the operator register. The row's method text (REAT plate lookup) does not reflect 3.4.",
+  "fix": "Either add to the method cell '번호판이 과거 사고·사기에 쓰였는지 내부·외부 사고 기록과 대조' or drop '3.4' from the citation."
+ },
+ {
+  "claim": "보험사에 직접 유효 여부·한도·제외 품목·구간 확인",
+  "verdict": "correct",
+  "evidence": "Fake Carriers 5.2: verify directly with the insurer; gaps: insufficient cargo liability limits, excluded commodity types, and policies not covering the specific lanes or modes. SCG 8.3.1 red flag: 'Reluctance to provide insurance certificates or coverage limits below cargo value'.",
+  "fix": ""
+ },
+ {
+  "claim": "위치 공유를 부킹 조건으로 넣고, 거부하면 배차하지 않음",
+  "verdict": "correct",
+  "evidence": "Fake Carriers 3.2: 'A carrier unwilling or unable to share functional GPS visibility ... should be regarded with suspicion.' Refusing to dispatch goes beyond TAPA's wording, but it is presented as a method, not a TAPA rule, which is acceptable.",
+  "fix": ""
+ },
+ {
+  "claim": "[창고] 확인될 때까지 출고 보류",
+  "verdict": "correct",
+  "evidence": "Fake Carriers 3.3: 'Any mismatch in driver identity, vehicle registration, or trailer type should prevent cargo release pending verification'; failure to present a valid CMR, driver's licence or booking confirmation is 'an immediate cause for escalation'. The action is assigned to the warehouse, not the forwarder. The rk-warehouse link points to 5절 '출고 때 본인 확인: 가짜 픽업 막기', which exists.",
+  "fix": ""
+ },
+ {
+  "claim": "EU 회원국은 운송사업자의 회사명·주소·면허 종류·차량 수·공동체 면허 번호를 국가 등록부에서 공개합니다(규칙 (EC) 1071/2009 제16조 제2항).",
+  "verdict": "correct",
+  "evidence": "Reg. 1071/2009 Art. 16(2): the register contains (a) name and legal form, (b) address of establishment, (c) transport managers, (d) type of authorisation, number of vehicles, serial number of the Community licence; 'The data referred to in points (a) to (d) of the first subparagraph shall be publicly accessible, in accordance with the relevant provisions on personal data protection.' The text was read on legislation.gov.uk, which carries the same sentence; EUR-Lex returns a 202 bot challenge to curl. The draft leaves out (c), which is fine because it does not claim a full list.",
+  "fix": ""
+ },
+ {
+  "claim": "등록부를 잇는 ERRU는 감독기관 전용이라 민간은 면허를 준 나라의 등록부를 봅니다(스페인 면허면 REAT).",
+  "verdict": "correct",
+  "evidence": "Art. 16(1): register data 'accessible to any competent authority'. Implementing Reg. (EU) 2016/480 makes national register data available to the competent authorities of all Member States through ERRU. There is no public EU-wide lookup. REAT is the Spanish register under Ley 16/1987 art. 53.",
+  "fix": ""
+ },
+ {
+  "claim": "VIES는 스페인 번호의 회사명을 보여 주지 않지만 회사명을 넣으면 일치 여부를 알려 줍니다(2026. 10. 20. 시험 조회).",
+  "verdict": "correct",
+  "evidence": "Re-tested 2026-10-20 via the VIES REST API: ES A28015865 returns valid with name '---' and address '---'. check-vat-number with traderName 'TELEFONICA SA' gives traderNameMatch 'VALID'; with an unrelated name it gives 'INVALID'.",
+  "fix": ""
+ },
+ {
+  "claim": "국내 운송사는 국세청 사업자등록 상태조회(홈택스, 공공데이터포털 API)로 휴업·폐업 여부와 과세유형을 보고, 진위확인으로 번호·개업일자·대표자명이 받은 사업자등록증과 맞는지 봅니다.",
+  "verdict": "correct",
+  "evidence": "data.go.kr 15081808 (국세청_사업자등록정보 진위확인 및 상태조회 서비스): '(진위확인) 사업자등록번호, 개업일자, 대표자명 등의 정보를 입력하여 국세청의 사업자정보와 일치하는지 진위여부 확인 (상태조회) 사업자등록번호만으로 해당 번호의 사업자 운영상태(휴업, 폐업), 과세유형(일반, 과세, 면세), 폐업일자 정보 조회'. The draft does not name a Hometax menu, so the secondary-source caveat does not apply.",
+  "fix": ""
+ },
+ {
+  "claim": "운송사업 허가나 화물운송 종사자격을 누구나 조회하는 전국 공개 서비스는 확인하지 못했으므로 허가증·자격증 사본을 받고",
+  "verdict": "correct",
+  "evidence": "Checked 2026-10-20. The 한국교통안전공단 TS 국가자격시험 portal (lic.kotsa.or.kr/tsportal/main.do) offers exam booking, result checks and self-service 자격증/면허 발급 for road qualifications, 화물 included, but no third-party 진위확인 for 화물운송 종사자격 (only aviation has a '유효성확인증명서'). The 운수종사자관리시스템 and 화물운송실적관리시스템, which 공단 runs under 국토부 delegation, serve operators and authorities, not the public. data.go.kr has only regional lists: 경기도_화물자동차 운송사업 허가 현황 (aggregate counts), 경기도 일반화물 업체 현황 (updates stopped 2018-09), and some district lists (부산 북구, 동구). Searches found no nationwide public lookup. The statement holds as worded ('확인하지 못했으므로').",
+  "fix": "Optional: add that some 시·군·구 publish permit lists on 공공데이터포털 and that the 관할 시·군·구 화물 담당 부서 can confirm a permit."
+ },
+ {
+  "claim": "배송 지점 지오펜스는 TAPA TSG V2.0 8절",
+  "verdict": "correct",
+  "evidence": "TSG V2.0 section 8 (FAQs), 'What exactly is meant by geofencing about TSR?': 'Geofenced areas may also include the delivery/collection point/parking locations'.",
+  "fix": ""
+ },
+ {
+  "claim": "TSR 2023은 위치 보고를 TSR 3은 60분, TSR 2는 30분, TSR 1은 5분에 한 번 이상 하게 하므로",
+  "verdict": "correct",
+  "evidence": "TSG V2.0 (01 March 2024), section 5: TSR 2023 level 3 'not less than one report every sixty (60) minutes'; level 2 'must not be less than one report every thirty minutes'; level 1 'the standard minimum reporting interval is one report every five minutes'. The caveat '(2026년판에서 바뀌었을 수 있음)' is appropriate. The draft makes no backup-battery claim (TSG sections 4 and 5 cover backup batteries for TSR 1), so there is nothing to check on that point.",
+  "fix": ""
+ },
+ {
+  "claim": "(TAPA 기사 보안 가이드: \"Always insist on clear, precise POD signatures\")",
+  "verdict": "correct",
+  "evidence": "Driver Security Guide Version 1.0 (English), 12 June 2024, rule 8: 'Always insist on clear, precise POD signatures. Driver to check the ID of the person accepting the goods on behalf of the customer prior to handing over any packages.' The quote is 7 words. The ID check is correctly assigned to the driver.",
+  "fix": ""
+ },
+ {
+  "claim": "TSR 인증 상태를 TAPA 사고 정보 시스템(TIS)에서 확인하고, 인증이 없으면 일을 맡기기 전에 현장 심사를 한다.",
+  "verdict": "correct",
+  "evidence": "SCG 4.1: selection 'should begin with verification of the current TAPA TSR certification status ... through the TAPA Intelligence System (TIS)'; non-certified candidates 'should always be audited onsite before any subcontracted assignment'. The Korean name '사고 정보 시스템' follows this document's existing 1절 gloss ('사고 정보 시스템(TIS, TAPA Intelligence System)'), so it is consistent.",
+  "fix": ""
+ },
+ {
+  "claim": "기사는 신원 확인과 보안 교육(2년마다)을 받게 한다.",
+  "verdict": "correct",
+  "evidence": "SCG 3.1.1: driver vetting 'including criminal background checks and past employment verification'; 3.1.2: training 'must be documented, tested, and refreshed every two years'.",
+  "fix": ""
+ },
+ {
+  "claim": "경로·주차 장소는 운송사가 정하거나 승인하고, 하청 차량 위치를 운송사 관제에서 본다.",
+  "verdict": "partly correct",
+  "evidence": "The route and parking part matches SCG 4.6 and 8.5.5. The monitoring part is firmer than TAPA. SCG 8.5.5 says the right answer 'does not mandate technical complications by requiring Quick Transit monitoring and response activities to be integrated into TransSecure relevant platforms'. Appendix I 5.2 lists integration only as a topic to address, and the executive summary says transport monitoring stays the certified LSP's to 'oversee and approve'.",
+  "fix": "'하청 차량 위치를 운송사 관제에서 보거나 실시간으로 받는다' (or '운송사가 관제를 감독한다')."
+ },
+ {
+  "claim": "사고는 즉시, 상세 보고는 24시간 안에 하게 하고, 하청 운송사 목록을 최신으로 유지한다.",
+  "verdict": "correct",
+  "evidence": "SCG 5.1.1.1–5.1.1.2 (immediate notification; detailed report within 24 hours). Fake Carriers Annex A item 3: 'maintain a current list of all subcontractors used for the customer's goods and make it available on request.'",
+  "fix": ""
+ },
+ {
+  "claim": "사례 회사의 확인 방법과 지침서의 위험 신호를 합쳤고, 나라별 도구는 스페인을 예로 들었습니다.",
+  "verdict": "anonymity risk",
+  "evidence": "This sentence links the case company's own checks to Spanish tools. The case says '한국 포워더의 유럽 현지 조직', and 7절 names Spain six more times: the .es note, Registradores, REAT twice ('스페인 면허면 REAT'), the VIES Spanish-number test and the lib-source entry '스페인 교통부'. A reader who knows which Korean forwarders have an office in Spain could narrow the case to a few companies. No company, customer, platform, office or date appears elsewhere: the case gives only '5일 뒤' and the platform type.",
+  "fix": "Separate the tools from the case. Drop '사례 회사의 확인 방법과' (e.g. '지침서의 위험 신호에 실무 확인 방법을 붙였고, 나라별 도구는 예시입니다'). Also give the tools for more than one country (e.g. add the Polish or German register next to REAT), or move the Spanish tools into a note headed '예: 스페인'. This is owner decision 1 in changes.md."
+ },
+ {
+  "claim": "한국 포워더의 유럽 현지 조직이 내륙 도로 운송을 화물 중개 플랫폼에서 부킹했습니다.",
+  "verdict": "correct",
+  "evidence": "No company, customer, platform name, office or dates. The only time detail is the relative '5일 뒤'. The only identifiability risk is the Spain link, flagged separately.",
+  "fix": ""
+ },
+ {
+  "claim": "확인되지 않으면 도난 가능성으로 보고 9절의 보고·보존과 보험 통지를 시작하며, 확인이 끝날 때까지 운임을 지급하지 않습니다.",
+  "verdict": "correct",
+  "evidence": "The cross-reference is valid: old 8절 is renumbered 9절 '사고가 나면: 보고 대상과 먼저 할 일'. Withholding freight is practice advice, not attributed to TAPA (owner decision 2 in changes.md). Nowhere in 7절 is the forwarder told to inspect cargo: POD photos and GPS come from the carrier, the warehouse holds release, and the driver checks ID.",
+  "fix": "Owner to confirm the freight-withholding wording matches their contracts."
+ },
+ {
+  "claim": "적재물배상책임보험은 보험사에 확인합니다(<a data-doc=\"rk-truck\">트럭 운송 사고·도난</a> 5절)",
+  "verdict": "correct",
+  "evidence": "rk-truck 5절 is '적재물배상책임보험과 적하보험', so the link and section are valid. The rk-warehouse 5절 links (출고 본인 확인; 개인정보: 운전면허번호 고유식별정보) are also valid, and 8절 F '정보 보안: 가짜 픽업, 사칭 이메일, 결제 사기' exists. Cross-refs from other docs (rk-truck '3~6절', rk-warehouse '4~6절' and '6절') are unaffected. New body text has no em dash; the only new em dashes are in the lib-source line.",
+  "fix": ""
+ }
+]

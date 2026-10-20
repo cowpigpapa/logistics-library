@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/customs';
-  const DOCS_VERSION = '20261020-02';
+  const DOCS_VERSION = '20261020-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -33,7 +33,7 @@
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
     { id: 'cu-documents', checked: '2026-10-18', tag: "서류", level: 3, title: "수출입 기본 서류 — 상업송장(인보이스)과 포장명세서(패킹리스트)", short: "인보이스·패킹리스트", summary: "관세청 송품장 기재요령과 신고서 작성요령으로 본 인보이스·패킹리스트의 필수 항목, 같은 숫자가 B/L·적하목록·신고서·원산지증명서·위험물 서류·보험증권과 맞아야 하는 이유, 저가·분할 송장의 법적 결과를 정리하고 서로 맞는 서류 예시와 흔한 불일치 8가지를 보여 줍니다." },
-    { id: 'cu-clearance', tag: "통관", level: 3, title: "수출입 통관 절차와 HS 코드 — 신고 시기·기한, 세금 계산, 품목분류", short: "통관 절차와 HS 코드", summary: "수출신고수리 후 30일 적재, 수입신고 네 가지 시기와 30일 신고기한·가산세, CIF 과세가격과 부가가치세 계산, HS 코드 통칙과 품목분류 사전심사, 적재화물목록 정정을 관세법·고시 원문 기준으로 정리하고 포워더와 관세사의 역할을 나눕니다." },
+    { id: 'cu-clearance', tag: "통관", level: 3, title: "수출입 통관 절차와 HS 코드 — 신고 시기·기한, 세금 계산, 품목분류", short: "통관 절차와 HS 코드", summary: "수출신고수리 후 30일 적재, 수입신고 네 가지 시기와 30일 신고기한·가산세, CIF 과세가격과 부가가치세 계산, HS 코드 구조와 품목분류 사전심사, 적재화물목록 정정을 관세법·고시 원문 기준으로 정리하고 포워더와 관세사의 역할을 나눕니다." },
     { id: 'cu-import-timeline', checked: '2026-10-18', tag: "수입일정", level: 3, title: "수입 화물 일정표 — 도착부터 반출까지 누가 무엇을 하고 어느 시계가 언제 도는가", short: "수입 도착·반출 일정표", summary: "해상 FCL·LCL과 항공 수입에서 적재화물목록 제출부터 반출·빈 컨테이너 반납까지 날짜별로 누가 무엇을 하는지, 터미널 보관료·선사 D&D·30일 신고기한·장치기간·15일 반출이 언제 시작하고 멈추는지를 한 표로 정리하고 반출을 막는 서류와 사전 통지 항목을 보여 줍니다." },
     { id: 'cu-hs-practice', checked: '2026-10-19', tag: "품목분류", level: 2, title: "HS 코드는 어떻게 정해지나 — 실무 사례로 보는 품목분류", short: "HS 품목분류 실무 사례", summary: "지우개 달린 연필, 선물세트, 스마트워치처럼 헷갈리는 물품이 관세율표 해석 통칙 1~6호와 부·류의 주에 따라 어떻게 하나의 HS 코드로 정해지는지 관세청 결정과 HS 해설서 원문으로 보여 줍니다. 세율 낮은 코드를 고르면 안 되는 이유와 역할별 점검표를 함께 정리합니다." },
     { id: 'cu-aeo', checked: '2026-10-19', tag: "AEO", level: 2, title: "수출입 안전관리 우수업체(AEO) — 공인 기준·등급·혜택과 공인 뒤 관리", short: "AEO 공인과 사후관리", summary: "관세법·AEO 고시 기준으로 공인기준과 A·AA·AAA 등급, 신청부터 갱신까지의 기간, 업종별 혜택과 MRA, 공인 뒤 의무와 혜택 정지·취소 사유, 법규준수도 감점, 위반을 막는 사전 점검표와 위반이 생겼을 때의 대응, 실제 사례 2건을 정리합니다." },
