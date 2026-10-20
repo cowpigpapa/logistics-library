@@ -1,0 +1,314 @@
+[
+ {
+  "claim": "AES 지연 신고 하루 최대 USD 1,740(위반당 최대 USD 17,412)의 민사 벌금",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/section-6.3 : \"(d) Census Bureau. (1) 13 U.S.C. 304 ... each day's delinquency ... from $1,696 to $1,740; maximum per violation, from $16,971 to $17,412.\"",
+  "fix": null
+ },
+ {
+  "claim": "미국에서 한국으로 오는 화물은 미국 쪽 수출자(USPPI)나 미국에 있는 대리인이 AES로 EEI를 보내고(해상은 미국에서 배에 싣기 24시간 전, 항공은 출발 2시간 전)",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.4(b)(2)(i)-(ii): \"twenty-four hours prior to loading cargo on the vessel at the U.S. port where the cargo is laden\"; \"no later than two (2) hours prior to the scheduled departure time of the aircraft\"; 30.3(a)(2) filer physically in US.",
+  "fix": null
+ },
+ {
+  "claim": "AES는 CBP의 ACE 안에서 돌아갑니다(30.1, 30.2(a))",
+  "verdict": "partly",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.1: \"The AES is currently accessed through the Automated Commercial Environment.\" (규정은 ACE를 통해 접속한다고만 씀. 사소한 표현 문제)",
+  "fix": "AES는 현재 CBP의 ACE를 통해 접속해 씁니다(30.1, 30.2(a))"
+ },
+ {
+  "claim": "신고인은 미국에 사무실이나 거소를 두고 신고할 때 미국에 있어야 하며, EIN(미국 국세청이 발급하는 사업자 번호)이나 DUNS를 갖고 AES 신고 인증을 받아야 합니다(30.3(a)(2))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.3(a)(2): \"The filer shall maintain a physical office or residence in the United States, be physically located in the United States at the time of preparing and filing the EEI, and have an EIN or DUNS and be certified to report in the AES.\"",
+  "fix": null
+ },
+ {
+  "claim": "그래서 한국 포워더는 AES를 직접 보내기보다 미국 파트너에게 신고를 맡기거나 미국 셀러가 신고한 결과를 확인합니다.",
+  "verdict": "partly",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.3(a)(2) (위 인용): 미국에 사무실·거소가 없고 미국에서 신고하지 않는 자는 신고인이 될 수 없음. '직접 보내기보다'는 고를 수 있는 선택처럼 읽힘.",
+  "fix": "그래서 미국에 사무실이 없는 한국 포워더는 AES를 직접 보낼 수 없고, 미국 파트너에게 신고를 맡기거나 미국 셀러가 신고한 결과를 확인합니다."
+ },
+ {
+  "claim": "USPPI가 대리인에게 정확한 정보와 위임장을 주고 근거 서류를 보관(30.3(c))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.3(c)(1)(ii): \"(A) Providing the authorized agent with accurate and timely export information ... (B) Providing ... a power of attorney or written authorization ... (C) Retaining documentation\"",
+  "fix": null
+ },
+ {
+  "claim": "외국 구매자(FPPI, 한국 수입자)가 서면 위임한 미국 대리인. FPPI는 대리인을 통해서만 신고할 수 있음(30.2(a)(2))",
+  "verdict": "partly",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.3(e)(1): \"In a routed export transaction, the FPPI may authorize or agree to allow the USPPI to prepare and file the EEI. If the FPPI agrees ... the FPPI must provide a written authorization to the USPPI ... shall be treated as a routed export transaction.\" 30.2(a)(2): \"An FPPI can only use an authorized agent in a routed transaction.\" (FPPI의 서면 허락으로 USPPI가 신고하는 경우가 빠짐)",
+  "fix": "외국 구매자(FPPI, 한국 수입자)가 서면 위임한 미국 대리인. FPPI는 대리인을 통해서만 신고할 수 있음(30.2(a)(2)). FPPI가 서면으로 허락하면 USPPI가 신고할 수도 있음(30.3(e)(1))"
+ },
+ {
+  "claim": "USPPI가 대리인에게 정해진 항목(부록 C)을 주고, 대리인은 받은 그대로 신고(30.3(e))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.3(e)(2): \"The authorized agent must file the EEI based on export information exactly as provided by the USPPI as set forth in appendix C.\"",
+  "fix": null
+ },
+ {
+  "claim": "규정은 인코텀스나 매매 조건이 수출 거래의 형태와 당사자를 정하지 않는다고 밝힙니다(30.3 첫머리)",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.3 intro: \"International commercial terms, terms of sale, and industry or other agreements do not determine the type of or parties to the export transaction, as they have no regulatory basis.\"",
+  "fix": null
+ },
+ {
+  "claim": "규정 주석은 대리인이 USPPI에게서 직접 정보를 받고 당사자들이 계속 연락하라고 덧붙입니다.",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 Note to 30.3(e)(2): \"The authorized agent should not report the information above without obtaining it from the USPPI directly. The authorized agent and parties to the transaction should have continuous communication\"",
+  "fix": null
+ },
+ {
+  "claim": "HTSUSA 번호 하나당 가액이 USD 2,500 이하인 품목은 면제이고, 넘는 품목만 신고합니다. 화물 전체 금액과는 관계없습니다(30.37(a))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.37(a): \"one USPPI to one ultimate consignee on a single exporting conveyance classified under an individual Schedule B number or HTSUSA ... is $2,500 or less. This exemption applies ... regardless of the total shipment value ... only those ... valued over $2,500 are required to be reported.\"",
+  "fix": null
+ },
+ {
+  "claim": "가액은 미국 수출항까지의 판매가격에 내륙 운임·보험료 등을 더한 금액입니다(30.6(a)(17))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.1 Value: \"The selling price (or the cost if the goods are not sold) in U.S. dollars, plus inland or domestic freight, insurance, and other charges to the U.S. seaport, airport, or land border port of export. (See § 30.6(a)(17))\"",
+  "fix": null
+ },
+ {
+  "claim": "상무부(BIS) 수출허가나 수출관리규정(EAR) 신고 대상, 국무부 ITAR 대상, DEA 허가 대상, 중고 자동차 등은 USD 2,500 이하라도 신고합니다(30.2(a)(1)(iv))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.2(a)(1)(iv): \"Notwithstanding exemptions in Subpart D, EEI shall be filed ... regardless of value: (A) Requiring a ... BIS license or requiring reporting under the Export Administration Regulations ... (B) ... ITAR ... (D) ... DEA export permit ... (H) Used self-propelled vehicles\"",
+  "fix": null
+ },
+ {
+  "claim": "최종 목적지가 캐나다면 원칙적으로 면제지만, 허가 대상, 캐나다에 보관했다가 제3국으로 가는 물품, 캐나다를 거쳐 제3국으로 가는 물품은 신고합니다(30.36)",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.36: \"(a) Except as noted in § 30.2(a)(1)(iv), and in paragraph (b) ... Canada are exempt ... (b)(1) Sent for storage in Canada, but ultimately destined for third countries. (2) Exports moving from the United States through Canada to a third destination.\"",
+  "fix": null
+ },
+ {
+  "claim": "<tr><td>트럭</td><td>트럭이 미국 국경에 도착하기 1시간 전</td></tr>",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.4(b)(2)(iii)-(vi): truck \"one (1) hour prior to the arrival of the truck at the United States border\"; rail \"two (2) hours prior to the time the train arrives at the U.S. border\"; mail/other \"two (2) hours prior to exportation\"",
+  "fix": null
+ },
+ {
+  "claim": "승인받은 USPPI만 수출일부터 5일 이내. routed export, 허가 대상, 중고 자동차 등은 반드시 출발 전(30.4(a)·(c))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.4(c)(1): \"Postdeparture filing is only available for approved USPPIs ... no later than five (5) calendar days after the date of exportation\"; 30.4(a)(1),(5),(8): used self-propelled vehicles, routed export transactions, BIS-licensed shipments always predeparture.",
+  "fix": null
+ },
+ {
+  "claim": "\"AES X20170101987654\" 형식의 신고 증명 문구를 B/L·AWB·선적 지시서 등 운송 서류 첫 장에 적고 운송인에게 주어야 하며",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.7(b): \"responsible for annotating the proper proof of filing citation or exemption legend on the first page of the bill of lading, air waybill, export shipping instructions or other commercial loading documents ... must provide ... to the exporting carrier\"; App. B: \"AES ITN Example: AES X20170101987654\", \"NOEEI § 30.36\", \"NOEEI § 30.37(a)\"",
+  "fix": null
+ },
+ {
+  "claim": "운송인은 이 문구가 없는 화물을 싣거나 옮기면 안 됩니다(30.3(c)(3)(i))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.3(c)(3)(i): \"The carrier must not load or move cargo unless the required documentation ... contains the required AES proof of filing, postdeparture, downtime, exclusion or exemption citations.\"",
+  "fix": null
+ },
+ {
+  "claim": "EEI 원본 자료는 외국인(외국의 USPPI·FPPI 포함)에게 어떤 목적으로도 내주면 안 되므로(30.60(c)(4))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.60(c): \"The official report of the EEI submitted to the U.S. government shall not be disclosed by the USPPI, the authorized agent ... for 'nonofficial purposes' ... (4) To foreign persons or foreign governments for any purpose, including the foreign entity as the USPPI or the FPPI.\"",
+  "fix": null
+ },
+ {
+  "claim": "정정하지 않는 것 자체가 위반입니다(30.9(a))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.9(a): \"transmitting any changes to that information as soon as they are known ... Failure to correct the EEI is a violation of the provisions of this part.\"",
+  "fix": null
+ },
+ {
+  "claim": "부킹 번호를 받은 운송인의 SCAC, 미국 수출항(port of export), 출항 예정일(date of export), 해상 부킹 번호가 들어가므로(30.6(a))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.6(a)(2): \"The date of export is the date when goods are scheduled to leave the port of export\"; (a)(7) \"For exports by sea, the conveyance name is the vessel name\"; (a)(8) \"For vessel shipments, report the carrier identification code of the party whose booking number was reported in the AES\"; 30.1 TRN: \"It is the booking number for vessel shipments\"",
+  "fix": null
+ },
+ {
+  "claim": "운송인은 운송 자료가 바뀌면 USPPI나 대리인에게 알려야 하고, 신고인은 정정이 확인되는 대로 전송합니다(30.3(c)(3)(iv))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.3(c)(3)(iv): \"The carrier shall notify the USPPI or the authorized agent of changes to the transportation data, and the USPPI or the authorized agent shall electronically transmit the corrections ... as soon as the corrections are known\"",
+  "fix": null
+ },
+ {
+  "claim": "Fatal error(접수 거부)는 수출 전에 고쳐 다시 보내야 하고, warning 메시지는 4일 이내에 고치고",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.9(b): \"Fatal errors must be corrected and EEI resubmitted prior to export for shipments filed predeparture\"; \"warning message, the correction shall be made within four (4) calendar days\"; \"verify message, the correction, when warranted, shall be made within four (4) calendar days\"; \"A compliance alert indicates that the shipment was not reported in accordance with the FTR\"",
+  "fix": null
+ },
+ {
+  "claim": "인구조사국의 심사를 거쳐 권한을 받으면 ACE 포털에서 ACE Export Reports를 만들 수 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.census.gov/foreign-trade/aes/tradesource_jul2026.pdf (Issue 33, Summer 2026): \"To access export reports, you must first complete the U.S. Census Bureau's vetting process and receive authorization ... generate reports and review export filing history directly through the ACE portal.\"",
+  "fix": null
+ },
+ {
+  "claim": "AES 203(USPPI Agent Filed Routed Transactions Report)은 대리인이 그 USPPI에 대해 신고한 routed export 건을 보여 주며, 최근 5년과 올해 자료를 조회할 수 있습니다",
+  "verdict": "correct",
+  "evidence": "https://www.census.gov/foreign-trade/aes/tradesource_jul2026.pdf : \"The AES 201 is the Filer Transactions Report ... The AES 202 is the USPPI Transactions Report ... The AES 203 is the USPPI Agent Filed Routed Transactions Report and shows all routed transactions filed on behalf of the USPPI\"; \"ACE Export Reports provides export data filed in the last 5 years, in addition to the current year.\"",
+  "fix": null
+ },
+ {
+  "claim": "수출 거래의 모든 당사자(USPPI, FPPI, 대리인, 운송인)는 관련 서류를 수출일부터 5년간 보관합니다(30.10)",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.10(a): \"All parties to the export transaction (USPPIs, FPPIs, authorized agents, and/or owners and operators of export carriers) shall retain documents ... for five years from the date of export.\"",
+  "fix": null
+ },
+ {
+  "claim": "ACE Export Reports(AES 201·202·203)로 신고 내역과 compliance alert를 정기적으로 점검하고",
+  "verdict": "partly",
+  "evidence": "https://www.census.gov/foreign-trade/aes/tradesource_jul2026.pdf describes AES 201/202/203 as transaction reports and does not say they show compliance alerts; compliance alerts are AES response messages (15 CFR 30.9(b): \"A compliance alert indicates that the shipment was not reported in accordance with the FTR. The USPPI or the authorized agent is required to review its filing practices\").",
+  "fix": "ACE Export Reports(AES 201·202·203)로 신고 내역을 정기적으로 점검하고, compliance alert 응답을 받으면 신고 방식을 바로잡으며"
+ },
+ {
+  "claim": "AES 위반은 USPPI, USPPI나 FPPI의 대리인, 운송인 등 규정을 지켜야 하는 모든 사람이 대상입니다(30.2(e))",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.2(e): \"Failure of the USPPI, the authorized agent of either the USPPI or the FPPI, the exporting carrier, or any other person subject thereto to comply ... renders such persons subject to the penalties\"",
+  "fix": null
+ },
+ {
+  "claim": "아래 조정액은 2025년 1월 15일부터 적용된 것이고(89 FR 106308), 2026년 10월 20일 현재 그 뒤의 조정은 찾지 못했습니다.",
+  "verdict": "correct",
+  "evidence": "https://www.federalregister.gov/api/v1/documents/2024-31310.json : \"effective_on\":\"2025-01-15\", \"citation\":\"89 FR 106308\", \"dates\":\"This rule is effective January 15, 2025.\" eCFR version history for 15 CFR 6.3 ends at 2025-01-15 (https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?section=6.3); Federal Register API search for documents affecting 15 CFR part 6 since 2024-06-01 returns only 2024-31310 (checked 2026-10-20). No 2026 adjustment exists.",
+  "fix": null
+ },
+ {
+  "claim": "기한까지 AES 기록이 없음. 기한보다 10일 넘게 늦게 낸 것도 미신고로 봄",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.71(b)(1): \"no AES record for an export transaction by the applicable period prescribed in § 30.4 ... Any AES record filed later than ten (10) calendar days after the due date will also be considered a failure to file ... not to exceed $10,000\"",
+  "fix": null
+ },
+ {
+  "claim": "하루 USD 1,100 → USD 1,740, 위반당 최대 USD 10,000 → USD 17,412",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.71(b)(2): \"not to exceed $1,100 for each day of delinquency, but not more than $10,000 per violation\"; 15 CFR 6.3(d)(1): \"$1,740 ... $17,412\"",
+  "fix": null
+ },
+ {
+  "claim": "정정 누락 등 30.71(b)(1)·(2) 밖의 위반",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.71(b)(3): \"A civil penalty not to exceed $10,000 per violation may be imposed for each violation of provisions of this part other than any violation encompassed by paragraph (b)(1) or (b)(2)\"; 6.3(d)(2) 13 U.S.C. 305(b) max $17,412.",
+  "fix": null
+ },
+ {
+  "claim": "위반마다 USD 10,000 이하 벌금 또는 5년 이하 징역, 또는 둘 다. 관련 물품 몰수 가능",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.71(a)(1): \"fine not to exceed $10,000 or imprisonment for not more than five years, or both, for each violation\"; (a)(3) forfeiture for convicted persons.",
+  "fix": null
+ },
+ {
+  "claim": "정부가 같은 정보를 먼저 알고 조사를 시작하기 전에 경영진의 승인을 받아 내야 하며, FPPI나 FPPI를 대리하는 변호사 등의 자진 신고는 받지 않습니다(30.74)",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.74(b)(2): \"prior to the time that the Census Bureau, or any other agency ... has learned the same or substantially similar information from another source and has commenced an investigation\"; (b)(4): \"full knowledge and authorization of senior management. The Census Bureau will not accept a voluntary self-disclosure from a FPPI or legal counsel or other party representing a FPPI.\"",
+  "fix": null
+ },
+ {
+  "claim": "CBP는 정확한 품명(precise description)을 명확하고 간결하며, 쉬운 말로 CBP가 물품의 크기·형태·특성을 알아볼 수 있을 만큼 자세한 설명이라고 풀이합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.cbp.gov/sites/default/files/2024-07/acceptable-cargo-desc-508c-05.16_0.pdf : \"A precise cargo description is a description of an item that is clear and concise. The description should be in plain language and detailed enough to allow U.S. Customs and Border Protection to identify the size, shape and characteristics of the commodity.\" 19 CFR 4.7a(c)(4)(vii) (https://www.ecfr.gov/current/title-19/section-4.7a): \"A precise description (or the HTS numbers to the 6-digit level ...) ... Generic descriptions ... 'FAK' ... 'general cargo', and 'STC' ... are not acceptable\"",
+  "fix": null
+ },
+ {
+  "claim": "이 칸에는 품명만 넣고 포장 종류, 운송인 면책 문구, 개인정보는 넣지 말라고 안내합니다(CBP Publication #3714-0524)",
+  "verdict": "correct",
+  "evidence": "CBP Pub #3714-0524: \"Only the cargo description should be included in this field ... Superfluous information ... e.g., personally identifiable information (PII), type of packaging, carrier disclaimers, etc., should not be transmitted\"",
+  "fix": null
+ },
+ {
+  "claim": "2024년 4월 1일부터는 \"gift\", \"daily necessities\", \"accessories\", \"parts\", \"consolidated\" 같은 모호한 품명에 대해 전국적으로 화물 메시지를 보내고 있습니다.",
+  "verdict": "correct",
+  "evidence": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/393b4e6 (CSMS # 60011750, 04/01/2024): \"On April 1, 2024, CBP will nationally implement cargo messaging ... vague noncompliant cargo descriptions\"; \"including, but not limited to, 'gift,' 'daily necessities,' 'accessories,' 'parts,' and 'consolidated.'\"",
+  "fix": null
+ },
+ {
+  "claim": "\"consolidated\"는 Master B/L 단계에서만 받아들이고, House B/L을 직접 전송하는 관세사·포워더도 운송인과 같은 기준으로 자료를 걸러야 한다고 밝혔습니다(CSMS #60011750)",
+  "verdict": "correct",
+  "evidence": "CSMS # 60011750: \"'Consolidated' is only acceptable at the master bill level.\"; \"Brokers and Freight Forwarders who self-file House Bills are held to the same standard as carriers and are expected to screen data for compliance with cargo declaration regulations.\"",
+  "fix": null
+ },
+ {
+  "claim": "<tr><td>Auto Parts, Machine Parts, Spare Parts</td>",
+  "verdict": "correct",
+  "evidence": "CBP Pub #3714-0524 table: Auto Parts -> Air Filters, Automobile Brakes; Machine Parts -> Oil Pumps, Silicone Seals; Spare Parts -> Cellphone Replacement Screen; Gifts -> Dolls, Basketball, Toy Car; Electronics -> Computers, Monitors, ... Mobile Telephones; Equipment -> ... Compact Farm Tractor; \"Brand\" names by themselves -> \"Bubbles Brand\" Laundry Detergent; \"Consolidated (on house or simple bills)\" -> \"only on master bills, where there will be several house bills\"; STC, General Cargo, FAK, Misc, Various, Unknown, Freight Prepaid, reference to another bill of lading number, Serial Number only -> clear and concise description required. All six table rows match.",
+  "fix": null
+ },
+ {
+  "claim": "CBP는 이 표가 전부가 아니고 오른쪽도 허용 목록이 아닌 예시라고 밝힙니다.",
+  "verdict": "correct",
+  "evidence": "CBP Pub #3714-0524: \"This list is not exhaustive ... Descriptions in the Acceptable column should be viewed only as examples of the items they actually describe and not as a list of specifically acceptable or restrictive terms.\"",
+  "fix": null
+ },
+ {
+  "claim": "모선이 바뀌거나 다음 배로 밀리면(roll-over) 새 선박 기준으로 다시 맞아야 합니다.",
+  "verdict": "partly",
+  "evidence": "Supported in substance (no softening needed). https://www.ecfr.gov/current/title-19/section-4.7 (b)(2): CBP must receive \"for any vessel covered ... the CBP-approved electronic equivalent of the vessel's Cargo Declaration (CBP Form 1302), 24 hours before the cargo is laden aboard the vessel at the foreign port\" (per-vessel declaration). Legacy CBP Trade Act vessel FAQ (copy at https://www.westpandi.com/globalassets/news/vessel_faq.doc, 'Diversion To A Foreign Port'): \"Carriers will have to amend the previous bill indicating to CBP the change in vessel information. This cargo would have to once again comply with the 24-hour rule.\" CBP speaks of amending the bill with new vessel information, not a 'new AMS filing'; the draft does not say 'new filing'. Only the wording '다시 맞아야' is unnatural (맞춰야), and naming who amends is clearer.",
+  "fix": "모선이 바뀌거나 다음 배로 밀리면(roll-over) AMS를 보낸 선사나 NVOCC가 바뀐 선박 정보로 자료를 고쳐야 하고, 새 선박에 싣기 24시간 전 기한도 다시 지켜야 합니다."
+ },
+ {
+  "claim": "선사 운항 공지와 부킹 변경을 매일 확인하고, 바뀌면 AMS·ISF·AES 신고 주체에게 각각 바로 알려 수정하게 한다",
+  "verdict": "partly",
+  "evidence": "https://www.ecfr.gov/current/title-19/section-149.3 : ISF elements are seller, buyer, importer of record/consignee numbers, manufacturer, ship-to, country of origin, HTSUS, container stuffing location, consolidator; vessel name and port of loading are not ISF elements, so a vessel or POL change alone does not call for an ISF amendment (149.2(d) requires updates when ISF information changes). AMS (19 CFR 4.7(b)(2)) and AES (15 CFR 30.6(a), 30.9(a)) do need correction.",
+  "fix": "선사 운항 공지와 부킹 변경을 매일 확인하고, 바뀌면 AMS·AES 신고 주체에게 바로 알려 수정하게 하고, ISF 신고인에게도 알려 적입 장소 등 ISF 항목이 바뀌었는지 확인하게 한다"
+ },
+ {
+  "claim": "바뀌면 AMS·ISF·AES 신고 주체에게 바로 알려 수정하게 한다.",
+  "verdict": "partly",
+  "evidence": "Same as above: 19 CFR 149.3 ISF elements do not include vessel or port of loading; ISF is updated only when its own elements change (149.2(d)). A change to US transshipment (ISF-5) is the case where the ISF side changes.",
+  "fix": "바뀌면 AMS·AES 신고 주체에게 바로 알려 수정하게 하고, ISF 신고인에게도 알려 ISF 항목이나 ISF-5 해당 여부가 바뀌었는지 확인하게 한다."
+ },
+ {
+  "claim": "수신 회신과 ISF 전송 결과(Bill on File)를 받아 둔다",
+  "verdict": "partly",
+  "evidence": "CBP ACE ISF Status Advisory spec https://cbp.gov/sites/default/files/assets/documents/2020-Feb/ACE%20ISF%20SA%20V1_0.pdf : status output notifies the filer \"whether an AMS bill of lading has been matched to the ISF, e.g. 'On File' or 'Not On File'\". 'Bill on File' is the AMS-match status, separate from ISF acceptance; calling the transmission result 'Bill on File' merges the two.",
+  "fix": "수신 회신과 ISF 접수(accepted) 결과, AMS B/L과 연결됐다는 Bill on File 상태를 받아 둔다"
+ },
+ {
+  "claim": "인코텀스는 신고 주체를 정하지 않음. 아무도 신고하지 않으면 ITN이 없어 운송인이 실을 수 없고 미신고 벌금 대상",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.3 intro (Incoterms no regulatory basis); 30.3(c)(3)(i) carrier must not load without citation; 30.71(b)(1) failure to file.",
+  "fix": null
+ },
+ {
+  "claim": "한 포워더의 내부 점검 기준도 과태료 대부분이 이런 입력 오류와 기한 미준수 같은 자기 쪽 실수에서 생긴다고 봄",
+  "verdict": "unclear",
+  "evidence": "Owner's anonymized internal guide (not public). Stated as one forwarder's view, not as fact; no official statistic exists to check. Acceptable as attribution; no company or system name used.",
+  "fix": null
+ },
+ {
+  "claim": "routed export라면 신고 자료는 미국 파트너가 미국 셀러에게서 직접 받게 합니다.",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 Note to 30.3(e)(2): \"The authorized agent should not report the information above without obtaining it from the USPPI directly.\"",
+  "fix": null
+ },
+ {
+  "claim": "EEI 원본 자료는 한국 수입자·한국 포워더 같은 외국 당사자에게 넘기지 않고, ITN으로 신고 사실을 알린다.",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.60(c)(4) (quoted above).",
+  "fix": null
+ },
+ {
+  "claim": "선명·수출항·출항 예정일·부킹 번호가 바뀌면 아는 즉시 정정하고, fatal error는 수출 전에, warning은 4일 안에 처리한다.",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.9(a),(b) (quoted above).",
+  "fix": null
+ },
+ {
+  "claim": "Schedule B(미국 수출 품목분류 10단위)",
+  "verdict": "correct",
+  "evidence": "https://www.ecfr.gov/current/title-15/part-30 30.1 Schedule B: \"These 10-digit commodity classification numbers are administered by the Census Bureau\"",
+  "fix": null
+ },
+ {
+  "claim": "15 CFR 30.2~30.4, 30.36, 30.37",
+  "verdict": "correct",
+  "evidence": "Section-1 table row matches 30.2(a)(1), 30.3(a)(2), 30.4(b)(2), 30.36, 30.37(a) (quoted above).",
+  "fix": null
+ },
+ {
+  "claim": "<a href=\"/library/incoterms-2020/inco-rules\">조건별 해설</a>",
+  "verdict": "correct",
+  "evidence": "Repo incoterms-library.js line 38: id 'inco-rules'; incoterms-docs/inco-rules.html exists. Other links (data-doc cu-clearance, cu-documents in customs-library.js; /library/bl-awb/bl-basics, /library/bl-awb/awb-basics, /library/charges/ch-lcl) also exist. No em dash in new body sentences; no company/system/partner names; forwarders not told to inspect cargo.",
+  "fix": null
+ }
+]

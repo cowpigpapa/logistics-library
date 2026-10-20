@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/customs';
-  const DOCS_VERSION = '20261019-02';
+  const DOCS_VERSION = '20261020-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -38,7 +38,7 @@
     { id: 'cu-hs-practice', checked: '2026-10-19', tag: "품목분류", level: 2, title: "HS 코드는 어떻게 정해지나 — 실무 사례로 보는 품목분류", short: "HS 품목분류 실무 사례", summary: "지우개 달린 연필, 선물세트, 스마트워치처럼 헷갈리는 물품이 관세율표 해석 통칙 1~6호와 부·류의 주에 따라 어떻게 하나의 HS 코드로 정해지는지 관세청 결정과 HS 해설서 원문으로 보여 줍니다. 세율 낮은 코드를 고르면 안 되는 이유와 역할별 점검표를 함께 정리합니다." },
     { id: 'cu-aeo', checked: '2026-10-19', tag: "AEO", level: 2, title: "수출입 안전관리 우수업체(AEO) — 공인 기준·등급·혜택과 공인 뒤 관리", short: "AEO 공인과 사후관리", summary: "관세법·AEO 고시 기준으로 공인기준과 A·AA·AAA 등급, 신청부터 갱신까지의 기간, 업종별 혜택과 MRA, 공인 뒤 의무와 혜택 정지·취소 사유, 법규준수도 감점, 위반을 막는 사전 점검표와 위반이 생겼을 때의 대응, 실제 사례 2건을 정리합니다." },
     { id: 'cu-penalty', checked: '2026-10-19', tag: "제재", level: 3, title: "세관 과태료·가산세·벌금 — 무엇이 다르고, 통지를 받으면 어떻게 대응하나", short: "과태료·가산세·벌금", summary: "관세법상 가산세(세금)·과태료(행정질서벌)·벌금과 통고처분(형벌)을 물류 위반 사례로 구분하고, 과태료 사전통지 뒤 의견제출·자진납부 감경·이의제기 절차와 역할별 책임, 기록 관리, 기한 달력을 정리합니다." },
-    { id: 'cu-us-filing', checked: '2026-10-19', tag: "사전신고", level: 3, title: "미국·캐나다 사전신고 — AMS(24시간 규칙)·ISF(10+2)·ACAS·ACI 기한과 벌금 피하는 법", short: "미국·캐나다 사전신고", summary: "미국행 해상 AMS와 ISF(10+2), 항공 사전정보·ACAS, 캐나다 ACI(eManifest)를 누가 무엇을 언제까지 보내는지 미국·캐나다 규정 원문으로 정리하고, 부산 선적 일정으로 기한을 계산하며 벌금과 자주 하는 실수를 보여 줍니다." },
+    { id: 'cu-us-filing', checked: '2026-10-20', tag: "사전신고", level: 3, title: "미국·캐나다 사전신고 — AMS·ISF·ACAS·ACI와 미국 수출 AES, 기한과 벌금 피하는 법", short: "미국·캐나다 사전신고", summary: "미국행 해상 AMS와 ISF(10+2), 항공 사전정보·ACAS, 캐나다 ACI(eManifest), 미국발 수출 AES(EEI)를 누가 무엇을 언제까지 보내는지 미국·캐나다 규정 원문으로 정리하고, 부산 선적 일정으로 기한을 계산하며 벌금과 자주 하는 실수, 일정 변경 때 수정 신고를 보여 줍니다." },
     { id: 'cu-fta', tag: "FTA", level: 3, title: "FTA 원산지 — 협정관세 요건, 원산지증명, 직접운송과 B/L", short: "FTA 원산지와 직접운송", summary: "협정관세를 받는 요건과 원산지 결정기준, 협정별 증명 방식과 유효기간, 수입 쪽 적용신청·사후적용·검증, 직접운송 원칙과 제3국 경유 때 필요한 서류, B/L 문구를 정리합니다." },
     { id: 'cu-bonded', tag: "보세운송", level: 3, title: "보세구역과 보세운송 — 수입화물이 통관 전에 머무는 곳과 옮기는 방법", short: "보세구역과 보세운송", summary: "보세구역 종류와 장치기간, 반입·반출신고와 화물관리번호, 보세운송의 신고·승인 구분과 신고인, 운송기간·담보·도착보고, 운송 중 사고의 관세 책임, 부산항·인천공항에서 내륙 보세창고로 옮기는 흐름을 정리합니다." }
   ];

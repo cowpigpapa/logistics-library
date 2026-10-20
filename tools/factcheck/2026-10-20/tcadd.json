@@ -1,0 +1,359 @@
+[
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-passive.html",
+  "claim": "이 양식은 제목부터 \"위험물 신고서가 필요 없는 경우\"로 범위를 정해 두었으므로",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/en_form_dryice.pdf : \"2027 ACCEPTANCE CHECKLIST FOR DRY ICE (Carbon Dioxide, solid) (For use when a Shipper's Declaration for Dangerous Goods is not required)\" / \"to assist shippers and carriers with the acceptance of dry ice when packaged on its own or with non-dangerous goods.\"",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-passive.html",
+  "claim": "신고서가 필요한 다른 위험물을 드라이아이스로 식히는 화물은 이 양식이 아니라 그 위험물의 신고서 절차로 접수합니다",
+  "verdict": "correct",
+  "evidence": "https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/en_form_dryice.pdf : \"2027 ACCEPTANCE CHECKLIST FOR DRY ICE (Carbon Dioxide, solid) (For use when a Shipper's Declaration for Dangerous Goods is not required)\" / \"to assist shippers and carriers with the acceptance of dry ice when packaged on its own or with non-dangerous goods.\" ; 위험물 신고서용 점검표 https://www.iata.org/contentassets/b08040a138dc4442a4f066e6fb99fe2a/en_form_nonrad.pdf (\"2027 DANGEROUS GOODS CHECKLIST FOR A NON-RADIOACTIVE SHIPMENT\") 36번: \"Carbon Dioxide, Solid (Dry Ice), the net weight marked on the packages [7.1.4.1(d)]\". 즉 신고서 대상 화물의 드라이아이스는 신고서용 점검표에서 확인함. DGD 기재 방법을 항공사에 확인하라는 표현은 적절(DGR 원문 미확인)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-passive.html",
+  "claim": "법령이나 IATA 규정이 아니라 실무 예시이고, 항공사·화주 절차가 있으면 그쪽이 우선합니다",
+  "verdict": "correct",
+  "evidence": "가이드 출처 표시 확인: 한 국내 포워더 내부 가이드(익명)로 명시. 가이드 실무(검증 대상 아님)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-passive.html",
+  "claim": "포장 상태 확인, 차량 온도 측정, 드라이아이스 보충처럼 화물을 직접 다루는 일은 운전기사·창고·지상조업사가 하고, 포워더는 그 작업을 요청하고 결과(사진, 기록, 확인 메일)를 받아 보관합니다",
+  "verdict": "correct",
+  "evidence": "BRIEF.md 규칙(포워더에게 화물 점검을 시키지 않음, 작업자 점검은 그 사람 일로 서술)과 일치. 표의 \"누가 하고 무엇을 남기나\" 열도 같은 구분",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-passive.html",
+  "claim": "항공사의 콜드체인 상품 코드로 부킹하고 전화로 한 번 더 확인",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-passive.html",
+  "claim": "냉장 탑차는 예냉을 요청하고, 적외선 온도계로 잰 적재함 온도를 사진으로 받음",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); 측정은 기사가 하고 포워더는 사진을 받음(물리 점검 지시 아님)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-passive.html",
+  "claim": "인천공항 수입화물의 무료 시간과 특수화물 보관료는 <a href=\"/library/charges/ch-air-storage\">",
+  "verdict": "correct",
+  "evidence": "링크 대상 repo ch-docs/ch-air-storage.html 및 library/charges/ch-air-storage.html 존재, charges-library.js에 id ch-air-storage 있음",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "배터리가 바닥나면 냉각과 가열이 모두 멈추므로 터미널 보관 중에도 잔량을 감시하고 충전한다",
+  "verdict": "correct",
+  "evidence": "https://www.envirotainer.com/49ac48/siteassets/documents/solutions/pallets/releye/um-rkn-1005_v5_5.pdf (RelEye RKN UM-RKN-1005 Rev 5) 5.2 Alerts: \"Battery depleted. Please connect charging cable.\" / \"Battery level 0%. The refrigeration system has shut down.\" 같은 문서 4.4.4: \"It is recommended to keep the container battery level above 20%.\"",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "한 국내 포워더가 내부 가이드로 쓰는 표본 점검표(익명)를 옮긴 실무 예시이고, 화주 SOP나 장비 매뉴얼이 있으면 그쪽이 우선합니다",
+  "verdict": "correct",
+  "evidence": "가이드 출처 표시 확인. 가이드 실무(검증 대상 아님)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "환적은 전체 리드타임이 지속 시간 안에 들거나 환적지에서 충전·드라이아이스 보충이 보장될 때만 넣었는가",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); 같은 문서 6장 \"운송 시간이 정격 지속 시간을 넘거나 … 충전을 검토\" 와 일치",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "출발 공항에서 컨테이너를 통째로 엑스선 검색하기 어려울 수 있으므로, 보안검색 방법을 화주 쪽에서 항공사와 미리 협의했는가",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); \"어려울 수 있으므로\"로 단정하지 않음",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "국내에서는 국토교통부가 지정한 상용화주가 보안검색을 한 항공화물은 항공운송사업자가 다시 보안검색을 하지 않는 것이 원칙이다",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283745&type=XML (항공보안법, 법률 제21414호, 공포·시행 2026.2.27.) 제17조의4 ③: \"항공운송사업자는 제15조제2항에도 불구하고 제1항에 따라 상용화주가 보안검색을 한 항공화물 및 우편물에 대하여는 보안검색을 하지 아니한다. 다만, 다음 각 호에서 정하는 항공화물 및 우편물에 대하여는 보안검색을 실시하여야 한다.\" 1호 상용화주가 아닌 자가 취급, 2호 통제를 벗어난 경우, 3호 훼손 흔적, 4호 무허가자 접촉, 5호 화물기→여객기, 6호 무작위 표본검색 등 고시, 7호 경찰 요구, 8호 위협정보. ① \"국토교통부장관은 … 화주 … 를 지정하여\"",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "훼손 흔적, 통제 이탈, 무작위 표본검색 등 예외 있음",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283745&type=XML (항공보안법, 법률 제21414호, 공포·시행 2026.2.27.) 제17조의4 ③: \"항공운송사업자는 제15조제2항에도 불구하고 제1항에 따라 상용화주가 보안검색을 한 항공화물 및 우편물에 대하여는 보안검색을 하지 아니한다. 다만, 다음 각 호에서 정하는 항공화물 및 우편물에 대하여는 보안검색을 실시하여야 한다.\" 1호 상용화주가 아닌 자가 취급, 2호 통제를 벗어난 경우, 3호 훼손 흔적, 4호 무허가자 접촉, 5호 화물기→여객기, 6호 무작위 표본검색 등 고시, 7호 경찰 요구, 8호 위협정보. ① \"국토교통부장관은 … 화주 … 를 지정하여\"",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "항공보안법 제17조의4(법률 제21414호, 시행 2026. 2. 27.)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=항공보안법 : 법령일련번호 283745, 현행, 공포일자 20260227, 공포번호 21414, 시행일자 20260227; 제17조의4 조문시행일자 20260227",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "도착 공항 터미널이 액티브 컨테이너(RKN·RAP 등)를 그대로 받는지 현지 터미널 규정을 확인했는가",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); 공개 근거 없음을 감안해 \"현지 규정 확인\"으로만 씀",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "배터리는 90% 이상(아니면 화주 지시를 따른다)",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님) (인계 기록 점검표, 실무 예시로 표시됨)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "설정 온도가 지시대로다(예: +2~+8℃ 화물에 5℃)",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); tc-reefer-practice에 이미 인용된 TT Club 예시(2~8℃ 화물 5℃ 설정)와 일치",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "서류(인보이스, 패킹리스트, MSDS)를 갖춘다",
+  "verdict": "partly",
+  "evidence": "tools/STYLE.md 45행: \"물질안전보건자료(MSDS) 또는 (SDS) … 국내법 문맥은 MSDS, 국제 운송 규칙 문맥은 SDS\"; 163행 \"한국어(약어)로 유지: … 물질안전보건자료(SDS)\". 이 문서에서 첫 등장이고 약어만 단독 사용(사실 오류 아님, 표기 규칙)",
+  "fix": "서류(인보이스, 패킹리스트, 물질안전보건자료(SDS))를 갖춘다"
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "도착 공항에서 조업사가 도착한 액티브 컨테이너를 반납용 빈 컨테이너로 알고 전원을 꺼 버린 사고가 있었습니다",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); tc-cases 사례 A 경위와 일치",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-air-active.html",
+  "claim": "아래 기록은 화주의 적입 작업자, 운송사 기사, 지상조업사가 만들고, 포워더는 요청해서 받아 보관합니다",
+  "verdict": "correct",
+  "evidence": "BRIEF.md 포워더 역할 규칙과 일치(포워더는 기록을 요청·보관)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-reefer-practice.html",
+  "claim": "\"운영 예\"로 표시한 항목은 한 국내 포워더의 리퍼 운영 절차(익명)에서 가져온 실무 기준입니다",
+  "verdict": "correct",
+  "evidence": "가이드 출처 표시 확인. 가이드 실무(검증 대상 아님)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-reefer-practice.html",
+  "claim": "운영 예: PTI(의약품이면 사전 조절 포함) 시간을 두려고 반출 2일 전까지 부킹한다.",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); 공개 근거와 충돌 없음: https://www.apmterminals.com/en/gothenburg/services/pti \"orders should be placed 48 hours prior to desired pickup date to ensure the container is ready\". 선사 공통 최소 리드타임 규정은 확인되지 않아 \"운영 예\" 표시가 적절",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-reefer-practice.html",
+  "claim": "운영 예: 리드타임이 짧은 선사를 우선하고, 환적항과 도착지 CY의 리퍼 전원(플러그) 여유를 선사에 확인했다.",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-reefer-practice.html",
+  "claim": "리퍼 전원을 공급할 수 있는 차량이나 젠셋을 배차하고, 기사가 전원을 끊거나 설정을 바꾸지 않도록 지시했다.",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); 일반 원칙 수준이라 \"운영 예\" 표시가 없어도 무방(같은 문서 전원 공백 구간 내용과 일치)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-reefer-practice.html",
+  "claim": "화주에게 허용 온도 범위, 데이터로거 사용 여부, MSDS 제공 여부, 컨테이너 크기를 받았다.",
+  "verdict": "partly",
+  "evidence": "tools/STYLE.md 45·163행: 국제 운송 문맥은 물질안전보건자료(SDS), 한국어(약어) 유지. 약어만 단독 사용(표기 규칙)",
+  "fix": "화주에게 허용 온도 범위, 데이터로거 사용 여부, 물질안전보건자료(SDS) 제공 여부, 컨테이너 크기를 받았다."
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-reefer-practice.html",
+  "claim": "무료 장치 기간(free time)을 확인해 넘길 것 같으면 Demurrage·Detention 등 비용을 화주에게 미리 알렸다.",
+  "verdict": "correct",
+  "evidence": "tools/STYLE.md 용어 규칙(Demurrage·Detention 영어 그대로, 무료 장치 기간(free time))과 일치",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-basics.html",
+  "claim": "액티브면 장비 모델과 설정 온도, 위치·온도를 실시간으로 볼 추적 방법",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-basics.html",
+  "claim": "견적에 넣을 범위: 일정, 도착지 수입 통관, 도착국 현지 규정, 재사용 용기·포장재를 돌려보내는지와 그 비용",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-basics.html",
+  "claim": "<a data-doc=\"tc-air-passive\">항공 패시브 포장</a> 8장과 <a data-doc=\"tc-air-active\">항공 액티브 컨테이너</a> 8장의 인계 기록 점검표를",
+  "verdict": "correct",
+  "evidence": "tc-library.js에 id tc-air-passive, tc-air-active 있음. 편집본 tc-air-passive <h3>8. 출고부터 인도까지: 한 포워더의 운영 절차</h3>, tc-air-active <h3>8. 포워더 체크리스트</h3> 안에 <h4>인계 지점마다 남길 기록</h4>",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "이어서 한 국내 포워더의 내부 가이드에 실린 사고 4건을 익명으로 줄여 싣고",
+  "verdict": "correct",
+  "evidence": "편집본 <h3>4. 한 포워더의 사고 기록(익명)</h3> 사례 A~D",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "4장의 익명 사례 A~D는 한 포워더의 내부 가이드(2024년 12월)에 적힌 내용을 회사·화주·제품·항공사·공항이 드러나지 않게 줄인 것이라",
+  "verdict": "partly",
+  "evidence": "사례 D 표와 경위에 \"인천공항\"이 남아 있어 \"공항이 드러나지 않게\"와 어긋남(아래 사례 D 두 항목을 고치면 이 문장은 그대로 맞음)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "<td>(온도 사고 아님) 인천공항 수입 터미널</td>",
+  "verdict": "partly",
+  "evidence": "익명화 규칙(사내 가이드는 완전 익명화; 이 문서 면책 문구 \"공항이 드러나지 않게\")과 어긋남. 다른 사례는 \"유럽의 한 도착 공항\", \"미주 경유 공항\"으로 처리",
+  "fix": "<td>(온도 사고 아님) 국내 공항 수입 터미널</td>"
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "고가 온도유지 화물 약 10톤이 House AWB 한 건으로 인천공항에 도착했습니다",
+  "verdict": "partly",
+  "evidence": "익명화 규칙과 어긋남(공항명). 실무 교훈의 인천공항 보관료 일반 설명과 ch-air-storage 링크는 공개 요율 설명이라 유지 가능",
+  "fix": "고가 온도유지 화물 약 10톤이 House AWB 한 건으로 국내 공항에 도착했습니다"
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "전량이 특수화물로 분류되어 무료 시간이 짧았고, 무료 시간이 끝나고 두어 시간 뒤 반출되면서 종가료와 종량료를 합친 보관료가 수천만 원 단위로 나왔습니다",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); 계산 구조는 repo ch-docs/ch-air-storage.html: \"무료 시간을 넘기면 날짜가 바뀐 횟수로 보관일수를 셉니다(최소 1일)\"; \"특수창고 보관화물 12시간(위험물 제외, 위험물은 24시간)… 귀중품·검역물품은 무료 시간 없음\"; \"냉동·냉장·보온·귀중·생동물·위험물 특수창고 보관 화물 보관료 50% 할증\"; \"무료 시간도 귀중화물 기준으로 12시간, 24시간, 0시간으로 갈립니다\" 와 일치(무료 시간 경과 시 최소 1일, 종가료+종량료). 금액은 규모만 표기",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "인천공항 수입 터미널은 특수화물로 분류되면 무료 시간이 짧거나 없고 할증이 붙는 곳이 있으며, 무료 시간을 넘기면 날짜가 바뀐 횟수로 보관일수를 셉니다",
+  "verdict": "correct",
+  "evidence": "repo ch-docs/ch-air-storage.html: \"무료 시간을 넘기면 날짜가 바뀐 횟수로 보관일수를 셉니다(최소 1일)\"; \"특수창고 보관화물 12시간(위험물 제외, 위험물은 24시간)… 귀중품·검역물품은 무료 시간 없음\"; \"냉동·냉장·보온·귀중·생동물·위험물 특수창고 보관 화물 보관료 50% 할증\"; \"무료 시간도 귀중화물 기준으로 12시간, 24시간, 0시간으로 갈립니다\"",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "(사례 2, 4와 같은 구간입니다)",
+  "verdict": "correct",
+  "evidence": "편집본 tc-cases 사례 2 \"경유지에서 냉방을 끈 화물칸\"(Wealmoor v KLM), 사례 4 \"도착 공항에 냉장 창고가 없었다\"(Bayer v BA): 경유지·도착지 창고 구간으로 일치",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "IATA Time and Temperature Sensitive 라벨은 모든 외장에 보이게 붙이고 예약·운송장과 같은 섭씨 범위를 적어야 하므로",
+  "verdict": "partly",
+  "evidence": "tc-basics 4장(IATA FAQ 인용): \"가장 바깥 포장의 옆면 한 곳 이상에 부착. 팔레트로 묶었으면 바깥에서 보이게 다시 붙이고, 분할될 화물은 모든 외장에 부착\"; \"예약, 운송장, 라벨의 온도 범위가 하나로 같아야\". \"모든 외장\"은 나뉠 화물에 한한 규칙",
+  "fix": "IATA Time and Temperature Sensitive 라벨은 가장 바깥 포장에 보이게 붙이고(팔레트로 묶으면 바깥에 다시, 나뉠 화물은 모든 외장에) 예약·운송장과 같은 섭씨 범위를 적어야 하므로"
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "패킹리스트의 권장 보관 온도는 약 -12℃, 허용 일탈 시간은 72시간이었습니다",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); 뒤의 \"약 -7~-12℃로 운영되어 요구 온도에 못 미쳤습니다\", \"72시간을 넘겨 화물 전량을 폐기\"와 내부적으로 일관",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "가이드는 보험사가 특약으로 패시브 온도유지 화물의 보상을 거절하는 경우가 많다고 적고 있습니다",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); 가이드 진술로 표시됨. 링크 대상 insurance-docs/ins-uninsurable.html(2장 온도유지 화물), ins-forwarder.html(3장 포워더 배상책임보험) 존재",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "2024년 10월 31일 식품의약품안전처와 경찰은 냉장·냉동 식품 운반 차량의 온도기록계에 조작 기능을 넣어 판매·유통한 제조업체 대표·설치업자 등 56명과 이를 쓴 기사 3명을 식품위생법 위반으로 검거했다고 밝혔고, 범행 이유는 연료비와 냉각기 유지·보수 비용을 줄이려는 것으로 알려졌습니다.",
+  "verdict": "partly",
+  "evidence": "https://www.newsis.com/view/NISX20241101_0002942827 (og:title \"냉동차량 온도기록계 조작\"…경찰과 공조로 '일망타진'[식약처가 간다]; 등록 2024.11.03 10:01, datePublished 2024-11-03T10:01:00+09:00): \"성남수정경찰서는 온도 기록계에 조작 기능을 설치해 판매, 유통한 제조업체 대표 및 설치업자, 프로그래머 등 56명과 이를 사용한 기사 3명 등 총 59명을 식품위생법 위반 혐의로 검거했다.\" \"지난 31일 식약처와 경찰은 이 같은 수사 결과를 발표했다.\" \"이번에 적발된 기사들은 … 유류비 및 냉각기 유지·보수 비용을 줄이고자 범행한 것으로 알려졌다.\" / 날짜(10.31 발표), 인원(56+3), 법(식품위생법)은 맞음. 기사는 \"위반 혐의로 검거\"(유죄 확정 아님)이고, 비용 절감 동기는 기사들(운반업자)의 것으로 보도됨",
+  "fix": "2024년 10월 31일 식품의약품안전처와 경찰은 냉장·냉동 식품 운반 차량의 온도기록계에 조작 기능을 넣어 판매·유통한 제조업체 대표·설치업자 등 56명과 이를 쓴 기사 3명을 식품위생법 위반 혐의로 검거했다고 밝혔고, 기사들은 연료비와 냉각기 유지·보수 비용을 줄이려고 조작 장치를 쓴 것으로 알려졌습니다."
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "\"냉동차량 온도기록계 조작\"…경찰과 공조로 '일망타진'(뉴시스, 2024. 11. 1.)",
+  "verdict": "wrong",
+  "evidence": "https://www.newsis.com/view/NISX20241101_0002942827 (og:title \"냉동차량 온도기록계 조작\"…경찰과 공조로 '일망타진'[식약처가 간다]; 등록 2024.11.03 10:01, datePublished 2024-11-03T10:01:00+09:00): \"성남수정경찰서는 온도 기록계에 조작 기능을 설치해 판매, 유통한 제조업체 대표 및 설치업자, 프로그래머 등 56명과 이를 사용한 기사 3명 등 총 59명을 식품위생법 위반 혐의로 검거했다.\" \"지난 31일 식약처와 경찰은 이 같은 수사 결과를 발표했다.\" \"이번에 적발된 기사들은 … 유류비 및 냉각기 유지·보수 비용을 줄이고자 범행한 것으로 알려졌다.\" / 기사 등록일은 2024.11.03(수정 10:24). 2024.11.01은 기사 속 사진 캡션 날짜와 URL의 날짜일 뿐. 제목 끝에 \"[식약처가 간다]\" 꼬리표가 있음",
+  "fix": "\"냉동차량 온도기록계 조작\"…경찰과 공조로 '일망타진'[식약처가 간다](뉴시스, 2024. 11. 3.)"
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "이 사례의 차량이 그 사건과 관련이 있다는 뜻은 아닙니다",
+  "verdict": "correct",
+  "evidence": "연결 부인 문장 있음(적절)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "바이오 의약품을 배터리와 전원으로 온도를 유지하는 액티브 컨테이너에 실어 유럽의 한 공항으로 보냈습니다",
+  "verdict": "correct",
+  "evidence": "가이드 실무(검증 대상 아님); 회사·항공사·공항명 없음",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "포워더는 도착지 대리점을 통해 구역 분리와 알림 수신자를 미리 정해 둘 수 있습니다",
+  "verdict": "correct",
+  "evidence": "포워더에게 물리 점검을 시키지 않음(BRIEF.md 규칙 일치)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-docs/tc-cases.html",
+  "claim": "위 사례에서 반복된 항목을 정리했습니다",
+  "verdict": "correct",
+  "evidence": "열 건에서 A~D 추가로 바뀐 사례 수에 맞춘 문구",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-library.js",
+  "claim": "const DOCS_VERSION = '20261020-01';",
+  "verdict": "correct",
+  "evidence": "버전 갱신(STYLE §6)",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-library.js",
+  "claim": "한 포워더가 겪은 익명 사고 4건(도착지 전원 차단, 경유지 상온 보관, 드라이아이스 재보충 누락, 특수화물 무료 시간)",
+  "verdict": "correct",
+  "evidence": "편집본 tc-cases 사례 A~D 제목과 일치",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-library.js",
+  "claim": "반출·적입·인계·개봉·일탈 때 남길 기록을 담은 포워더 체크리스트",
+  "verdict": "correct",
+  "evidence": "편집본 tc-air-active 8장 <h4>인계 지점마다 남길 기록</h4> 항목(반출, 적입, 공항까지, 도착지, 열어야 할 때, 일탈)과 일치",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-library.js",
+  "claim": "출고부터 인도까지 한 포워더의 운영 절차(재보충·냉장 탑차·도착지 창고 확인)",
+  "verdict": "correct",
+  "evidence": "편집본 tc-air-passive 8장 표와 일치",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-library.js",
+  "claim": "기사 지시·CY 전원 확인을 넣은 단계별 체크리스트",
+  "verdict": "correct",
+  "evidence": "편집본 tc-reefer-practice 10장 추가 항목과 일치",
+  "fix": null
+ },
+ {
+  "file": "C:/Users/HOME/AppData/Local/Temp/claude/d--Desktop-AI-Project-LogisticsLibrary/a1430f52-a2ff-4150-80a7-a05e9a4f0066/scratchpad/tcadd/tc-library.html",
+  "claim": "tc-library.js?v=20261020-01",
+  "verdict": "correct",
+  "evidence": "스크립트 버전 갱신(STYLE §6)",
+  "fix": null
+ }
+]
