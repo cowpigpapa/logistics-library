@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/incoterms-2020';
-  const DOCS_VERSION = '20261018-02';
+  const DOCS_VERSION = '20261020-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -38,7 +38,7 @@
     { id: 'inco-rules', tag: "조건별", level: 3, title: "조건별 해설 — 11개 조건의 인도·위험·비용·통관·보험", short: "조건별 해설", summary: "11개 조건을 같은 틀로: 인도 지점, 위험 이전, 비용 분기, 통관·보험·상하차와 자주 틀리는 지점." },
     { id: 'inco-risk-cost', tag: "위험·비용", level: 3, title: "위험의 분기와 비용의 분기 — 포함되는 비용과 포함되지 않는 비용", short: "위험의 분기와 비용의 분기", summary: "조건별 위험·비용 분기점과, 비용 항목 30여 개의 부담 주체를 근거 구분과 함께 정리한 표." },
     { id: 'inco-gray', tag: "애매한 구간", level: 3, title: "인코텀스만으로는 애매한 구간 — 상차·하차, 터미널 비용, 컨테이너 화물", short: "애매한 구간", summary: "상차·하차, 터미널 비용, 통관, 지연 비용 등 규칙이 말하지 않는 구간과 계약 문구 예시." },
-    { id: 'inco-choose', tag: "선택·표기", level: 2, title: "조건 고르기와 계약서에 쓰는 법 — 운송 형태별 선택과 체크리스트", short: "조건 고르기와 표기", summary: "운송 형태별 조건 선택, 표기법의 좋은 예와 나쁜 예, 신용장 정합, 포워더 업무 분담." }
+    { id: 'inco-choose', tag: "선택·표기", level: 2, title: "조건 고르기와 계약서에 쓰는 법 — 운송 형태별 선택과 표기", short: "조건 고르기와 표기", summary: "운송 형태별 조건 선택, 표기법의 좋은 예와 나쁜 예, 신용장 정합, 포워더 업무 분담." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };

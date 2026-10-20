@@ -57,12 +57,12 @@
 <h3>5. 화물 문 크기</h3>
 <p>화물이 화물칸 안에 들어갈 수 있어도 문을 통과하지 못하면 실을 수 없습니다. 제조사 문서는 문틀의 가장자리를 뺀 실제 통과 가능 치수를 클리어 개구부(clear opening)로 따로 표기합니다. 아래 표에서 "클리어"라고 적은 값이 그것이고, Airbus 도면처럼 클리어 표기 없이 문 폭과 문 부근 높이만 있는 값은 따로 표시했습니다.</p>
 <table class="lib-table"><thead><tr><th>기종</th><th>메인덱 화물문(폭 × 높이)</th><th>로어덱 앞 화물문</th><th>로어덱 뒤 화물문</th><th>벌크 문</th></tr></thead><tbody>
-<tr><td>B747-8F</td><td>134 × 120 in(3.40 × 3.05 m), 클리어</td><td>104 × 66 in(2.64 × 1.68 m), 클리어</td><td>104 × 66 in, 클리어</td><td>이 문서에서 확인하지 못했습니다</td></tr>
+<tr><td>B747-8F</td><td>134 × 120 in(3.40 × 3.05 m), 클리어</td><td>104 × 66 in(2.64 × 1.68 m), 클리어</td><td>104 × 66 in, 클리어</td><td>항공사 확인</td></tr>
 <tr><td>B777F</td><td>146.5 × 120 in(3.7 × 3.1 m), 클리어(Atlas Air)</td><td>106 × 67 in(2.69 × 1.70 m), 클리어</td><td>106 × 67 in(Atlas Air)</td><td>폭 35.7 in(0.91 m) × 높이 45.3~48.5 in(1.15~1.23 m)</td></tr>
 <tr><td>B767-300F</td><td>134 × 100.7 in(3.40 × 2.56 m), 클리어. 수동 화물 탑재 시스템 기체는 높이 103.7 in(2.63 m)</td><td>134 × 67 in(3.40 × 1.70 m), 클리어</td><td>70 × 67 in(1.78 × 1.70 m), 클리어</td><td>38 × 43.5~48 in(0.97 × 1.10~1.22 m)</td></tr>
 <tr><td>A350F</td><td>클리어 폭 169.5 in(4.31 m), 최대 ULD 높이 123.6 in(3.14 m)</td><td>문 폭 2.91 m, 문 부근 높이 1.76 m</td><td>문 폭 2.85 m, 문 부근 높이 1.75 m</td><td>폭 0.95 m</td></tr>
-<tr><td>A330-200F</td><td>이 문서에서 클리어 치수를 확인하지 못했습니다</td><td>문 폭 2.70 m, 문 부근 높이 1.70 m</td><td>문 폭 2.72 m, 문 부근 높이 1.68 m</td><td>폭 0.95 m</td></tr>
-<tr><td>B737-800BCF</td><td>145.2 × 83.3 in(3.69 × 2.11 m), 클리어</td><td colspan="3">벌크 화물칸(문 치수는 이 문서에서 확인하지 못했습니다)</td></tr>
+<tr><td>A330-200F</td><td>항공사 확인</td><td>문 폭 2.70 m, 문 부근 높이 1.70 m</td><td>문 폭 2.72 m, 문 부근 높이 1.68 m</td><td>폭 0.95 m</td></tr>
+<tr><td>B737-800BCF</td><td>145.2 × 83.3 in(3.69 × 2.11 m), 클리어</td><td colspan="3">벌크 화물칸(문 치수는 항공사 확인)</td></tr>
 <tr><td>B777-300ER</td><td>—</td><td>106 × 67 in, 클리어</td><td>표준 80 × 67 in(2.03 × 1.70 m), 클리어</td><td>777F와 같음</td></tr>
 <tr><td>A350-900</td><td>—</td><td>A350F와 같음</td><td>A350F와 같음</td><td>폭 0.95 m</td></tr>
 <tr><td>B787-9</td><td>—</td><td>106 × 67 in(2.69 × 1.70 m), 클리어</td><td>106 × 67 in, 클리어</td><td>40.1 × 59.5~61.5 in(1.02 × 1.51~1.56 m)</td></tr>
@@ -73,7 +73,7 @@
 <h3>6. 탑재 위치(position) 번호 읽는 법</h3>
 <p>ULD를 실을 자리마다 이름이 붙어 있고, 탑재 계획서(loading instruction)와 항공사·지상조업사가 주고받는 컨테이너·팔레트 배치 전문(CPM)에는 이 이름으로 ULD의 위치가 적힙니다. IATA의 데이터 모델은 위치 이름을 "항공기 안의 ULD 위치를 IATA 공항조업 매뉴얼(AHM) 505의 패턴으로 나타낸 것"으로 정의하고, 예로 A, BR, CDL, E3, 13, 22L, 32P, 413을 듭니다. 이름에는 칸 번호, 줄(row) 번호, 줄 안의 좌우 위치가 들어갈 수 있습니다. 어떤 패턴을 쓰는지는 기종과 항공사마다 다르므로, 실제 위치 이름은 운항 항공사의 탑재 배치도(loading diagram)로 확인해야 합니다.</p>
 <h4>로어덱 예: "11L, 11R, 12P"</h4>
-<p>로어덱에서 흔히 보는 두 자리 숫자형 이름은 앞자리가 칸 번호, 뒷자리가 그 칸 안의 줄 번호이고, 뒤에 붙는 L·R은 왼쪽·오른쪽 자리입니다. 예를 들어 11L·11R은 1번 칸 첫째 줄의 왼쪽·오른쪽 LD3 자리로 읽습니다. 와이드바디 로어덱은 한 줄에 LD3 두 개가 나란히 들어가므로 줄마다 L·R 두 자리가 있습니다. 그 줄 전체를 차지하는 팔레트 자리에는 12P처럼 다른 문자를 붙이는 방식이 쓰이는데, 문자의 정확한 뜻과 칸 번호를 매기는 범위(앞 칸 1·2번, 뒤 칸 3·4번, 벌크 5번 등)는 항공사 배치도마다 다를 수 있어 업계 공통 표준으로는 확인하지 못했습니다(대한항공 B777F 예는 아래).</p>
+<p>로어덱에서 흔히 보는 두 자리 숫자형 이름은 앞자리가 칸 번호, 뒷자리가 그 칸 안의 줄 번호이고, 뒤에 붙는 L·R은 왼쪽·오른쪽 자리입니다. 예를 들어 11L·11R은 1번 칸 첫째 줄의 왼쪽·오른쪽 LD3 자리로 읽습니다. 와이드바디 로어덱은 한 줄에 LD3 두 개가 나란히 들어가므로 줄마다 L·R 두 자리가 있습니다. 그 줄 전체를 차지하는 팔레트 자리에는 12P처럼 다른 문자를 붙이는 방식이 쓰입니다. 문자의 뜻과 칸 번호를 매기는 범위(앞 칸 1·2번, 뒤 칸 3·4번, 벌크 5번 등)는 항공사 배치도마다 다를 수 있습니다(대한항공 B777F 예는 아래).</p>
 <h4>메인덱 예: Airbus A330-200F</h4>
 <p>Airbus의 A330-200F 문서는 메인덱 위치 이름을 배치 방식별로 보여 줍니다. 가운데 1열로 96×125 in 팔레트 16개를 실을 때는 앞에서부터 AA, BB, CC … TT처럼 두 글자를 겹쳐 쓰고, 좌·우 2열로 나란히 실을 때는 ABR·ABL, BCR·BCL처럼 끝에 R(오른쪽)·L(왼쪽)을 붙입니다. 20 ft 팔레트처럼 여러 줄을 차지하는 ULD에는 CEG, FJG처럼 걸치는 구간의 글자를 이어 붙인 이름이 쓰입니다. 같은 문서의 군용 팔레트 배치는 1R·1L … 11R·11L과 23~26처럼 숫자를 씁니다. Airbus의 A350F 문서도 메인덱을 1R·1L부터 14R·14L까지의 좌·우 2열과 꼬리 쪽 1열 19·20번으로 표기합니다. 이처럼 같은 제조사 안에서도 기종과 배치에 따라 이름 체계가 다릅니다.</p>
 <p class="lib-source">출처: ULD Load Position(IATA AIDM 24.4) — <a href="https://airtechzone.iata.org/aidm_model/24.4/EARoot/EA6/EA1/EA2/EA7/EA12140.htm" target="_blank" rel="noopener noreferrer">IATA AirTechZone</a>; A330 Aircraft Characteristics — Airport and Maintenance Planning(Airbus, Dec 01/25) 2-6-2; A350 Aircraft Characteristics — Airport and Maintenance Planning(Airbus, Jul 01/26) 2-6-0 — <a href="https://aircraft.airbus.com/en/customer-care/fleet-wide-care/airport-operations-and-aircraft-characteristics/aircraft-characteristics" target="_blank" rel="noopener noreferrer">Airbus Aircraft Characteristics</a></p>
@@ -92,22 +92,15 @@
 <li><b>누적 하중(cumulative load)</b>: 기체 앞이나 뒤 끝에서부터 일정 구간까지 실린 무게의 합에 거는 한도입니다. 동체가 날개를 기준으로 앞뒤로 휘는 힘을 제한하기 위한 것으로, 위치 하나하나가 한도 안이어도 끝 쪽에 무거운 ULD가 연달아 있으면 걸릴 수 있습니다.</li>
 <li><b>바닥 하중(floor loading)</b>: 바닥 면적당 무게(lb/ft² 또는 kg/m²)와 길이당 무게(선형 하중, running load) 한도입니다. 바닥이 작은 무거운 화물은 받침(shoring)을 깔아 무게를 넓게 퍼뜨려야 합니다. 항공사별 기준과 받침 방법은 <a data-doc="uld-pallets">88인치와 96인치 팔레트</a>에서 다룹니다.</li>
 </ul>
-<p>제조사 공개 문서에 나오는 ULD 단위 한도의 예로, Boeing은 747-8 로어덱 반폭 컨테이너(LD-1)의 최대 총중량을 3,500 lb(1,588kg), 전폭 컨테이너를 7,000 lb(3,175kg)로 적고 있습니다. 위치별 최대 중량, 누적 하중표, 바닥 하중의 구체적인 수치는 항공사의 Weight &amp; Balance 매뉴얼(weight and balance manual)과 탑재 매뉴얼에 실리며, 기종 공통의 공개 수치로는 이 문서에서 확인하지 못했습니다. 포워더는 단위 무게가 큰 화물이면 예약 단계에서 항공사에 바닥 하중과 받침 요건을 물어보는 것이 안전합니다. 빌드업한 ULD 안의 무게 배분은 <a data-doc="uld-buildup">컨투어와 빌드업</a>에서 다룹니다.</p>
+<p>제조사 공개 문서에 나오는 ULD 단위 한도의 예로, Boeing은 747-8 로어덱 반폭 컨테이너(LD-1)의 최대 총중량을 3,500 lb(1,588kg), 전폭 컨테이너를 7,000 lb(3,175kg)로 적고 있습니다. 위치별 최대 중량, 누적 하중표, 바닥 하중의 구체적인 수치는 항공사의 Weight &amp; Balance 매뉴얼(weight and balance manual)과 탑재 매뉴얼에 실립니다. 단위 무게가 큰 화물은 예약 단계에서 항공사에 위치별 최대 중량, 바닥 하중, 받침 요건을 확인하십시오. 빌드업한 ULD 안의 무게 배분은 <a data-doc="uld-buildup">컨투어와 빌드업</a>에서 다룹니다.</p>
 <p class="lib-source">출처: A350 Aircraft Characteristics — Airport and Maintenance Planning(Airbus, Jul 01/26) 2-1-0 — <a href="https://aircraft.airbus.com/en/customer-care/fleet-wide-care/airport-operations-and-aircraft-characteristics/aircraft-characteristics" target="_blank" rel="noopener noreferrer">Airbus Aircraft Characteristics</a>; 747-8 Airplane Characteristics for Airport Planning, D6-58326-3 Rev E(Boeing, 2026) 2.6.1 — <a href="https://www.boeing.com/commercial/airports/plan-manuals" target="_blank" rel="noopener noreferrer">Boeing Airport Planning Manuals</a></p>
 
-<h3>8. 탑재 작업: 누가 무엇을 하나</h3>
-<p>ULD를 항공기에 올리는 일은 항공사와 지상조업사(ground handler)가 합니다. 메인덱 문은 지상에서 높이 있으므로 메인덱 로더(main deck loader)로, 로어덱 문은 로어덱 로더(lower deck loader)로 ULD를 문턱 높이까지 올린 뒤, 기내 바닥의 롤러와 볼 매트를 따라 정해진 위치로 밀어 넣고 잠금장치로 고정합니다. Boeing은 747-8F 메인덱 문턱과 로딩 장비 사이의 안정을 유지하기 위해 지상 장비 고정장치(GSE tethering device)를 쓸 수 있다고 적고 있습니다. 벌크 화물칸에는 컨베이어 벨트 로더로 낱개 화물을 올려 사람이 쌓습니다.</p>
-<figure class="lib-figure"><img src="/images/uld/loading.webp" alt="메인덱 로더가 팔레트를 화물기 옆 대형 화물문으로 올리고, 로어덱 로더가 컨테이너를 아래 화물문으로 옮기는 장면" loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>AI 생성 도해</span> 메인덱 화물은 높이 올라가는 메인덱 로더로, 로어덱 화물은 낮은 로더로 각 화물문에 넣습니다.</figcaption></figure>
-<p>포워더가 하는 일은 그 앞 단계입니다. 화물을 항공사 창고에 넘기거나, 직접 팔레트를 짜서 넘기는 BUP(Bulk Unitization Program — 화주·포워더가 ULD를 직접 짜서 넘기는 방식)를 맡을 때 항공사가 정한 기종·위치의 컨투어와 무게 한도에 맞게 만드는 것까지가 포워더의 몫입니다. 어느 위치에 실을지, 무게중심이 맞는지는 항공사가 정합니다. BUP 절차는 <a data-doc="uld-buildup">컨투어와 빌드업</a>에서 다룹니다.</p>
-<p class="lib-source">출처: 747-8 Airplane Characteristics for Airport Planning, D6-58326-3 Rev E(Boeing, 2026) 2.3.1 주석 — <a href="https://www.boeing.com/commercial/airports/plan-manuals" target="_blank" rel="noopener noreferrer">Boeing Airport Planning Manuals</a></p>
-
-<h3>9. 포워더 확인 사항</h3>
+<h3>8. 포워더 확인 사항</h3>
 <ul class="lib-check">
 <li>견적 전에 화물이 여객기 벨리(로어덱 높이 64 in 계열)에 들어가는지, 화물기 메인덱이 필요한지부터 구분했다.</li>
 <li>운항 항공사의 실제 기종과 구성(화물기·여객기, 선택 사양 문 유무)을 확인했다. 같은 777이라도 777-300ER 표준 사양은 뒤 칸에 125 in 팔레트가 들어가지 않는다.</li>
 <li>화물의 가장 긴 변과 가장 높은 점이 해당 문의 클리어 개구부를 통과하는지 확인했다.</li>
 <li>긴 화물을 747 화물기 노즈 도어로 보낼 계획이면 노즈 도어의 높이 제한(화물 높이 96 in 안팎)을 확인했다.</li>
-<li>단위 무게가 큰 화물은 위치별 최대 중량과 바닥 하중, 받침 필요 여부를 항공사에 확인했다.</li>
 <li>ULD 무게와 치수를 실측값으로 항공사에 넘겼다(탑재관리의 무게중심 계산에 쓰인다).</li>
 </ul>
 <p class="lib-disclaimer">이 문서의 기종별 수치는 Boeing·Airbus의 공항계획 문서와 Atlas Air 사양 자료에 실린 대표값이며, 항공사·기체 구성에 따라 다릅니다. 예약과 빌드업은 운항 항공사가 제시하는 최신 사양을 기준으로 하십시오.</p>

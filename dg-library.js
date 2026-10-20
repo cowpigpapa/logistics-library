@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261020-03';
+  const DOCS_VERSION = '20261020-04';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -56,7 +56,7 @@
     { id: 'dg-kr-duty', tag: "교육 의무", level: 3, title: "대한민국의 위험물 교육 의무 — 항공·해상·육상 법령별 정리", short: "대한민국의 교육 의무", summary: "항공·해상·도로·철도·화관법·고압가스·산안법의 교육 의무를 대상·주기·시간·과태료로 비교." },
     { id: 'dg-forwarder', tag: "포워더", level: 3, title: "포워더의 교육 대상 — 누가 어떤 교육을 받아야 하나", short: "포워더의 교육 대상", summary: "포워더 직원을 직무별로 나눠 항공·해상·도로 위험물 교육 대상과 시간을 근거 조문과 함께 정리." },
     { id: 'dg-penalty', tag: "제재", level: 3, title: "교육을 받지 않으면 — 벌칙·과태료와 실무상 불이익", short: "교육을 받지 않으면", summary: "교육 미이수·미신고 운송의 과태료·벌칙 조문과 금액, 선사 벌과금과 민사 책임." },
-    { id: 'case-inspection', tag: "국내 단속", level: 2, title: "국내 점검·단속 적발 사례 — 소방·특사경·국토교통부", short: "국내 점검·단속 적발", summary: "소방·특사경·국토교통부 등이 국내에서 적발한 18건을 유형별로 정리하고, 사례마다 국내법 위반인지 국제 운송 규칙 위반인지를 표시했습니다. 자가 점검표를 붙였습니다." },
+    { id: 'case-inspection', tag: "국내 단속", level: 2, title: "국내 점검·단속 적발 사례 — 소방·특사경·국토교통부", short: "국내 점검·단속 적발", summary: "소방·특사경·국토교통부 등이 국내에서 적발한 12건을 유형별로 정리하고, 사례마다 국내법 위반인지 국제 운송 규칙 위반인지를 표시했습니다. 자가 점검표를 붙였습니다." },
     { id: 'case-kr-accident', tag: "국내 사고", level: 2, title: "국내 위험물 사고 사례 — 공장·창고·터널·항만·항공기에서 난 사고", short: "국내 위험물 사고", summary: "아시아나항공 991편, 인천신항 컨테이너 폭발, 안성 물류창고 화재 등 국내 위험물 사고 9건을 조사보고서와 보도로 확인해 장소·화물·문제된 규칙·결과를 사례마다 표시했습니다." },
     { id: 'case-kr-litigation', tag: "국내 판결", level: 2, title: "국내 위험물 판결 사례 — 한국 법원은 누구에게 책임을 물었나", short: "국내 위험물 판결", summary: "대법원·하급심의 위험물 관련 판결 8항목을 상법·불법행위·형사책임 관점에서 쟁점과 결론으로 정리했습니다." },
     { id: 'case-accident', tag: "해외 사고", level: 2, title: "해외 위험물 사고 사례 — 항공기·컨테이너선·항만에서 난 사고", short: "해외 위험물 사고", summary: "ValuJet 592편, UPS 6편, Maersk Honam, 베이루트항 폭발 등 해외 위험물 사고 10건을 조사보고서와 보도로 확인해 신고·분류·적입 실패 관점에서 정리했습니다." },
