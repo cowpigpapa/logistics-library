@@ -60,7 +60,7 @@
       short: 'CTU Code 설명 및 요약',
       tag: '설명·요약',
       summary:
-        'CTU Code 소개, 1497·1498·1531 세 문서의 구조, 해설을 읽는 순서와 네 장의 구성, 원문의 장·부속서·정보자료가 어느 해설에 있는지 보여 주는 해설 지도.',
+        'CTU Code 소개, 1497·1498·1531 세 문서의 구조, 해설을 읽는 순서와 세 장·사례의 구성, 원문의 장·부속서·정보자료가 어느 해설에 있는지 보여 주는 해설 지도.',
       // 원래 긴 본문은 아래 overview.body 재할당으로 화면에 나오지 않아 비웠다(2026-10-20).
       body: ''
     },
@@ -465,7 +465,7 @@
       <ul>
       <li>도로 구간이 있는 가득 찬 컨테이너라면 화물 밑면 마찰계수가 0.4 이상인지, 아니면 중간 각재 울타리나 미끄럼 방지재를 넣었는지</li>
       <li>문을 경계로 삼는다면 문에 기댄 화물이 없고 개문 때 쏟아지지 않는지</li>
-      <li>높이/폭 비가 위 표의 값 이상인 화물에 전도 방지 래싱이 있는지</li>
+      <li>높이/폭 비가 3절 표의 값 이상인 화물에 전도 방지 래싱이 있는지</li>
       <li>블로킹과 직접 래싱을 같은 방향에 겹쳤다면 블로킹만으로 충분한지</li>
       <li>복합운송 중간 지점에서 래싱을 다시 조이고 블로킹을 점검하는지(§4.1.8)</li>
       <li>고리 각인·명판·제조사 자료로 고박점 MSL을 확인했는지. 확인하지 못하면 바닥 1,000daN, 위쪽 500daN으로 셌는지</li>
@@ -720,7 +720,7 @@
               <tr><td>규제 당국</td><td>이해관계자와 함께 적입에 직접·간접으로 관여하는 사람의 최소 교육 요건(필요하면 자격 요건)을 정합니다. 특히 위험물이 대상입니다.</td><td>§13.2</td></tr>
               </tbody></table>
               <ul>
-              <li><b>누가 가르치나</b>: 이 장의 당사자(송하인, 적입자 등)가 지정한 사내 인원이 할 수 있고, 외부 기관이나 원격(e-러닝) 교육을 써도 됩니다. 외부 기관을 쓰면 그 교육이 CTU Code 요건을 채우는지 확인합니다.</li>
+              <li><b>누가 가르치나</b>: 4장의 당사자(송하인, 적입자 등)가 지정한 사내 인원이 할 수 있고, 외부 기관이나 원격(e-러닝) 교육을 써도 됩니다. 외부 기관을 쓰면 그 교육이 CTU Code 요건을 채우는지 확인합니다.</li>
               <li><b>언제</b>: 책임을 맡기 전에 받습니다. 아직 교육받지 않은 일은 교육받은 사람이 직접 감독할 때만 합니다.</li>
               <li><b>실습</b>: 필요하면 숙련된 계획자와 적입자를 돕는 기간을 두어 실제 경험을 쌓게 합니다.</li>
               <li><b>무엇을 깨닫게 하나</b>: 잘못 싣고 고정했을 때의 결과, 법적 요건, 도로·철도·해상 운송 중 화물에 걸리는 힘의 크기, 적입·고정의 기본 원칙입니다(§13.3.2).</li>
@@ -1158,15 +1158,15 @@
         <tr><td><b>MSC.1/Circ.1531</b></td><td>CTU 서비스 제공자 실사 체크리스트</td><td>업체 점검 질문</td><td>적입·포장 업체를 선정하거나 평가할 때</td></tr>
       </tbody></table>
       <h3>2. 해설의 장 구성</h3>
-      <p>해설은 원문 번호 순서가 아니라 일의 흐름에 따라 네 장과 사례로 묶었습니다. 같은 내용은 한 해설에만 두고, 다른 해설에서는 링크로 안내합니다.</p>
+      <p>해설은 원문 번호 순서가 아니라 일의 흐름에 따라 세 장과 사례로 묶었습니다. 아래 표는 셋째 장인 적입·고정·봉인을 적입과 고정, 닫기·보내기·받기로 나눠 보여 줍니다. 같은 내용은 한 해설에만 두고, 다른 해설에서는 링크로 안내합니다.</p>
       <table class="lib-table"><thead><tr><th>장</th><th>해설</th><th>이럴 때 봅니다</th></tr></thead><tbody>
         <tr><td>규칙과 책임</td><td><a href="/library/ctu-code/ch1-2-terms">서론과 용어</a> · <a href="/library/ctu-code/ch3-key">핵심 요구사항 점검표</a> · <a href="/library/ctu-code/ch4-chain">책임·정보 흐름·교육</a></td><td>CTU Code의 법적 성격, 송하인·출하자·적입자의 뜻, 누가 무엇을 확인하고 넘기는지, 적입 인력 교육</td></tr>
-        <tr><td>CTU와 운송 조건</td><td><a href="/library/ctu-code/ch5-accel">운송 중 가속도</a> · <a href="/library/ctu-code/ch6-ctu">CTU 종류와 고르기</a> · <a href="/library/ctu-code/ch8-arrival">빈 CTU 받기·점검</a> · <a href="/library/ctu-code/a2-handling">들기와 터미널 반입</a></td><td>운송 중 화물에 걸리는 힘, 화물과 경로에 맞는 CTU, CSC 명판과 빈 컨테이너 점검, 터미널 인양과 반입 점검</td></tr>
+        <tr><td>CTU 고르기와 운송 조건</td><td><a href="/library/ctu-code/ch5-accel">운송 중 가속도</a> · <a href="/library/ctu-code/ch6-ctu">CTU 종류와 고르기</a> · <a href="/library/ctu-code/ch8-arrival">빈 CTU 받기·점검</a> · <a href="/library/ctu-code/a2-handling">들기와 터미널 반입</a></td><td>운송 중 화물에 걸리는 힘, 화물과 경로에 맞는 CTU, CSC 명판과 빈 컨테이너 점검, 터미널 인양과 반입 점검</td></tr>
         <tr><td>적입과 고정</td><td><a href="/library/ctu-code/ch9-packing">적입 계획과 고정재</a> · <a href="/library/ctu-code/a7-load-distribution">하중 분포와 적재 기법</a> · <a href="/library/ctu-code/im6-load-distribution">복합운송 하중 분포</a> · <a href="/library/ctu-code/a7-securing">고정 평가·래싱·고박점</a> · <a href="/library/ctu-code/a7-calc">고정 계산</a> · <a href="/library/ctu-code/a3-condensation">결로 손상 방지</a></td><td>마찰계수·MSL 같은 기본 값, 무게중심과 축하중, 래싱 줄 수, 각재·더니지 백 계산, 결로 대책, 손으로 싣는 작업</td></tr>
         <tr><td>닫기·보내기·받기</td><td><a href="/library/ctu-code/ch11-after">적입 완료 후·운송서류</a> · <a href="/library/ctu-code/im9-seals">CTU 봉인</a> · <a href="/library/ctu-code/a5-receiving">받기·개문·반납</a></td><td>VGM·봉인 번호·운송서류, 봉인 등급과 대조, 가스 측정과 문 열기, 빈 CTU 반납</td></tr>
         <tr><td>사례</td><td><a href="/library/ctu-code/cargo-cases">적입·고박 사례</a></td><td>적입·고박 불량으로 보험금을 못 받거나 운송인 상대 소송에서 진 판결, 부실 적입이 부르는 결과</td></tr>
       </tbody></table>
-      <p>국내 도로의 축하중·총중량·제원 한도는 참고 자료 <a href="/library/ctu-code/kr-road">한국 도로 운송 중량·제원 한도</a>에 있습니다.</p>
+      <p>국내 도로의 축하중·총중량·제원 한도는 CTU 고르기와 운송 조건 장의 <a href="/library/ctu-code/kr-road">한국 도로 운송 중량·제원 한도</a>에 있습니다.</p>
       <h3>3. 어떻게 읽을까</h3>
       <ol><li><b>처음 읽는 경우</b>: 3장 핵심 요구사항 → 5장 운송 조건 → 9장 적입 계획 → 부속서 7 하중 분포·고정 순으로 봅니다.</li><li><b>현장 업무 중인 경우</b>: 첫 화면의 ‘작업 순서로 보기’에서 지금 하는 일(계획, 빈 CTU 받기, 싣고 고정, 닫고 보내기, 받는 쪽)에 맞는 해설을 고릅니다.</li><li><b>수치와 계산이 필요한 경우</b>: 5장 가속도, 9장의 마찰계수·MSL, 고정 평가의 빠른 래싱 가이드(IM5)와 고박점, 고정 계산(부록 4·5), IM6 하중 분포를 함께 확인합니다.</li><li><b>사고와 판결이 궁금한 경우</b>: 사례 장의 적입·고박 사례를 봅니다.</li></ol>
       <h3>4. CTU Code의 범위</h3>

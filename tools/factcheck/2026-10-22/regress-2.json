@@ -1,0 +1,116 @@
+[
+ {
+  "file": "cu-docs/cu-hs-practice.html",
+  "problem": "8절 계산 예시 표 머리글이 cu-clearance의 옛 이름(통관 절차와 HS 코드)을 씀. HS 내용이 이 문서로 옮겨지며 cu-clearance 이름이 '통관 절차와 세금'으로 바뀜",
+  "old": "예시(통관 절차와 HS 코드 6절의 화물,",
+  "fix": "예시(통관 절차와 세금 6절의 화물,"
+ },
+ {
+  "file": "cu-docs/cu-fta.html",
+  "problem": "품목분류 안내가 cu-clearance를 가리키지만 품목분류 내용(통칙·사전심사·가산세)은 재구성으로 cu-hs-practice로 옮겨짐. 링크 글자도 옛 이름",
+  "old": "품목분류 자체는 <a data-doc=\"cu-clearance\">수출입 통관과 HS 코드</a>를 보십시오.",
+  "fix": "품목분류 자체는 <a data-doc=\"cu-hs-practice\">HS 품목분류 실무</a>를 보십시오."
+ },
+ {
+  "file": "cu-docs/cu-bonded.html",
+  "problem": "면책 문단이 품목분류를 cu-clearance에서 다룬다고 안내하지만 품목분류는 cu-hs-practice로 옮겨졌고, 링크 글자도 옛 이름",
+  "old": "수입신고와 품목분류는 <a data-doc=\"cu-clearance\">수출입 통관과 HS 코드</a>에서,",
+  "fix": "수입신고는 <a data-doc=\"cu-clearance\">통관 절차와 세금</a>, 품목분류는 <a data-doc=\"cu-hs-practice\">HS 품목분류 실무</a>에서,"
+ },
+ {
+  "file": "cu-docs/cu-import-timeline.html",
+  "problem": "링크 글자가 cu-clearance의 옛 이름(HS 코드)으로 남음",
+  "old": "수입신고 시기와 세금 계산은 <a data-doc=\"cu-clearance\">수출입 통관 절차와 HS 코드</a>",
+  "fix": "수입신고 시기와 세금 계산은 <a data-doc=\"cu-clearance\">통관 절차와 세금</a>"
+ },
+ {
+  "file": "cu-docs/cu-import-timeline.html",
+  "problem": "표 안 링크 글자가 cu-clearance의 옛 이름으로 남음",
+  "old": "<td>화주, 관세사</td><td><a data-doc=\"cu-clearance\">수출입 통관 절차와 HS 코드</a></td>",
+  "fix": "<td>화주, 관세사</td><td><a data-doc=\"cu-clearance\">통관 절차와 세금</a></td>"
+ },
+ {
+  "file": "cu-docs/cu-import-timeline.html",
+  "problem": "표 안 링크 글자가 cu-clearance의 옛 이름으로 남음",
+  "old": "<td>포워더(작성책임자)</td><td><a data-doc=\"cu-clearance\">수출입 통관 절차와 HS 코드</a></td>",
+  "fix": "<td>포워더(작성책임자)</td><td><a data-doc=\"cu-clearance\">통관 절차와 세금</a></td>"
+ },
+ {
+  "file": "cu-docs/cu-cases.html",
+  "problem": "새 머리말에 작업 메모식 문장('확인하지 못했으므로')",
+  "old": "대법원이 원심을 파기환송한 사건은 환송 뒤의 결과를 확인하지 못했으므로 대법원 판단까지만 적었습니다.",
+  "fix": "대법원이 원심을 파기환송한 사건은 대법원 판단까지만 적었고, 환송 뒤 결론은 달라졌을 수 있습니다."
+ },
+ {
+  "file": "cu-docs/cu-cases.html",
+  "problem": "cu-aeo에서 옮기며 고시 이름을 줄여, 바로 앞의 '입출항 고시 제43조제8항' 뒤에 오는 '제74조'가 입출항 고시 조문처럼 읽힘(원문은 수출 및 반송통관에 관한 고시 제74조)",
+  "old": "결과에 따라 통고처분이나 과태료가 내려집니다(제74조제1항제6호·제2항).",
+  "fix": "결과에 따라 통고처분이나 과태료가 내려집니다(수출 및 반송통관에 관한 고시 제74조제1항제6호·제2항)."
+ },
+ {
+  "file": "cu-docs/cu-aeo.html",
+  "problem": "면책 문단에 편집 이력('옮겼습니다')이 독자용 문장으로 남음",
+  "old": "같은 가이드의 위반 사례 두 건은 <a data-doc=\"cu-cases\">통관 사례</a> 9번·10번으로 옮겼습니다.",
+  "fix": "같은 가이드의 위반 사례 두 건은 <a data-doc=\"cu-cases\">통관 사례</a> 9번·10번에 있습니다."
+ },
+ {
+  "file": "insurance-docs/ins-uninsurable.html",
+  "problem": "새로 넣은 링크 글자가 대상 문서(tc-basics)의 이름과 다름",
+  "old": "<a href=\"/library/temperature-cargo/tc-basics\">온도유지 화물 기초와 규정</a>",
+  "fix": "<a href=\"/library/temperature-cargo/tc-basics\">온도대 표기와 의약품 유통 기준</a>"
+ },
+ {
+  "file": "cn-docs/cn-oog.html",
+  "problem": "플랫랙 방수포 판결을 cn-cases에 '정리했다'고 하지만 cn-cases에는 본문이 없고 5절 표에서 CTU 사례집 사례 3으로 넘김",
+  "old": "<p>갑판에 실린 플랫랙 화물이 젖어 운송인 상대 청구가 기각된 판결, 접이식 플랫랙 끝벽이 쓰러져 작업자가 숨진 평택항 사고는 <a data-doc=\"cn-cases\">컨테이너 사례</a>에 정리했습니다.</p>",
+  "fix": "<p>갑판에 실린 플랫랙 화물이 젖어 운송인 상대 청구가 기각된 판결은 <a href=\"/library/ctu-code/cargo-cases\">고박·포장 불량과 보험·소송 사례집</a> 사례 3, 접이식 플랫랙 끝벽이 쓰러져 작업자가 숨진 평택항 사고는 <a data-doc=\"cn-cases\">컨테이너 사례</a> 6번에 정리했습니다.</p>"
+ },
+ {
+  "file": "cn-docs/cn-oog.html",
+  "problem": "cn-dimensions 링크를 cn-codes#s6으로 바꾸면서 같은 문서(cn-codes)로 가는 링크가 한 문장에 두 번 나옴",
+  "old": "컨테이너 치수와 형식 코드는 <a href=\"/library/container/cn-codes#s6\">컨테이너 번호와 크기·형식 코드 6절</a>과 <a data-doc=\"cn-codes\">크기·형식 코드(ISO 6346)</a>,",
+  "fix": "컨테이너 치수와 형식 코드는 <a data-doc=\"cn-codes\">컨테이너 번호와 크기·형식 코드</a>(치수는 <a href=\"/library/container/cn-codes#s6\">6절</a>),"
+ },
+ {
+  "file": "cn-docs/cn-codes.html",
+  "problem": "cn-dimensions를 6절로 합치며 '아래 값은…'과 '아래는…' 두 문단이 연달아 같은 표를 소개함(중복)",
+  "old": "아래 값은 2026년 10월에 ONE과 Maersk가 공개한 사양을 확인한 것이며,",
+  "fix": "아래 표는 2026년 10월에 ONE과 Maersk가 공개한 사양을 확인한 예시(단위 mm·kg)이며,"
+ },
+ {
+  "file": "cn-docs/cn-codes.html",
+  "problem": "위 항목과 짝: 합친 뒤 남은 중복 소개 문단",
+  "old": "<p>아래는 두 선사가 공개한 사양의 예시이며 단위는 mm·kg입니다.</p>",
+  "fix": ""
+ },
+ {
+  "file": "rk-docs/rk-cases.html",
+  "problem": "새 면책 문단에 작업 메모식 문장('확인하지 못했으면 그렇게 적었습니다')",
+  "old": "판결은 사건번호를 적었으며 파기환송된 사건은 환송 뒤 결과를 확인하지 못했으면 그렇게 적었습니다.",
+  "fix": "판결은 사건번호를 적었고, 파기환송된 사건은 대법원 판단까지만 적었으므로 환송 뒤 결론은 달라졌을 수 있습니다."
+ },
+ {
+  "file": "rk-docs/rk-cases.html",
+  "problem": "사례 10 구분 줄의 작업 메모('확인하지 못함')",
+  "old": "무죄로 본 원심 파기환송(환송 뒤 결과는 확인하지 못함)",
+  "fix": "무죄로 본 원심 파기환송"
+ },
+ {
+  "file": "rk-docs/rk-cases.html",
+  "problem": "사례 12 구분 줄의 작업 메모('확인하지 못함')",
+  "old": "책임보험금 청구 요건 · 결과: 원심 파기환송(환송 뒤 결과는 확인하지 못함)",
+  "fix": "책임보험금 청구 요건 · 결과: 원심 파기환송"
+ },
+ {
+  "file": "rk-docs/rk-cases.html",
+  "problem": "사례 14 구분 줄의 작업 메모('확인하지 못함')",
+  "old": "인정한 원심 파기환송(환송 뒤 결과는 확인하지 못함)",
+  "fix": "인정한 원심 파기환송"
+ },
+ {
+  "file": "rk-docs/rk-cases.html",
+  "problem": "사례 11에 작업 메모식 문장('재판 결과는 확인하지 못했습니다')",
+  "old": "보도됐습니다. 재판 결과는 확인하지 못했습니다.",
+  "fix": "보도됐습니다."
+ }
+]
