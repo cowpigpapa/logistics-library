@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-risk';
-  const DOCS_VERSION = '20261020-10';
+  const DOCS_VERSION = '20261022-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -31,10 +31,11 @@
   const DOCS = [
     { id: 'rk-truck', tag: "운송", level: 3, title: "트럭 운송 사고와 주차 중 도난 — 적재·고정 의무, 밤샘주차 규정, 사고 뒤 대응", short: "트럭 운송 사고·도난", summary: "도로교통법·화물자동차 운수사업법이 운전자·운송사·포워더에게 지우는 적재 고정 의무와 컨테이너 잠금 기준, 밤샘주차 법정 장소와 씰 대조, 사고 직후 할 일과 적재물배상책임보험·적하보험의 차이를 역할별로 정리합니다." },
     { id: 'rk-warehouse', tag: "창고", level: 3, title: "창고 보관 리스크 — 고가화물·야적·출고 확인과 사고 뒤 대응", short: "창고 보관 리스크", summary: "창고업자 책임(상법)과 계약서 한도, 고가품 신고·CCTV 보존·보험 가액, 야적 품목과 특수가연물 기준, 가짜 픽업을 막는 출고 확인, 사고 당일 대응을 화주·포워더·창고·운송사 역할별로 정리합니다." },
+    { id: 'rk-special', checked: '2026-10-20', tag: "특수화물", level: 3, title: "특수화물(중량물·고높이 화물) 육상 운송 — 로드 서베이, 도로 운행허가, 상부 구조물 충돌 사고 예방", short: "특수화물 육상 운송", summary: "중량물·고높이·광폭 화물과 프로젝트 카고를 도로로 옮길 때 높이 한도가 정해지는 구조(4.0m 한도, 표지는 실제 높이보다 20cm 낮게, 허가는 실제 높이 −0.2m까지)와 국내외 충돌 사례·재구성 사례, 운송 계약 유형(포워더 책임·비용 분담·실비)과 선적지부터 도착지까지 단계별 점검, 로드 서베이 순서·점검 항목·보고서 형식, 장애물 이설·유도차량 협조, 운행허가 위반 책임과 보험을 역할별로 정리합니다." },
     { id: 'rk-damage', checked: '2026-10-19', tag: "손상", level: 3, title: "젖음 손상 예방 — 컨테이너 누수·결로·비 오는 날 작업, 손상이 났을 때 기록과 책임", short: "젖음 손상 예방", summary: "컨테이너 누수·결로·비 오는 날 작업·악천후 침수로 생기는 젖음 손상을 빈 컨테이너 점검과 회차 기준(예), 수침 예방 포장, 항공 비닐 보강으로 막는 법과, 손상 발견 시 기록·통지 기한·사전 클레임, ICC와 상법상 책임을 역할별로 정리합니다." },
     { id: 'rk-cross', checked: '2026-10-19', tag: "뒤바뀜", level: 3, title: "화물 뒤바뀜(크로스) 방지 — 섞이고 잘못 실리고 잘못 나가는 사고는 어디서 나고 어떻게 막나", short: "화물 뒤바뀜(크로스) 방지", summary: "CFS·창고·선적지에서 다른 화물이 섞이거나 다른 목적지로 실리는 크로스가 왜 생기는지, 화인·라벨, 해상·항공 선적지 단계별 점검, 컨테이너·씰 번호 대조, 출고 확인으로 막는 법과, 실제 사례 2건, 화물 위치별 대응(반송신고·수입신고 취하)과 비용 부담을 정리합니다." },
     { id: 'rk-security', checked: '2026-10-20', tag: "보안", level: 2, title: "물류 보안 점검 — TAPA 기준, 하청 운송사 검증과 POD 확인, 영역별 보안 점검표", short: "물류 보안 점검", summary: "TAPA FSR·TSR·PSR의 등급·인증 방식·2026년판 전환과 요구사항 구조, TSR 하청·가짜 운송사 지침에 따른 운송사·하청 운송사 검증과 배송 완료(POD) 확인을 정리하고, AEO·CTPAT 조항을 붙인 시설·CCTV·화물·씰·운송·정보·거래처·사고 보고 통합 점검표를 창고·운송사·포워더·화주 역할별로 제시합니다." },
-    { id: 'rk-special', checked: '2026-10-20', tag: "특수화물", level: 3, title: "특수화물(중량물·고높이 화물) 육상 운송 — 로드 서베이, 도로 운행허가, 상부 구조물 충돌 사고 예방", short: "특수화물 육상 운송", summary: "중량물·고높이·광폭 화물과 프로젝트 카고를 도로로 옮길 때 높이 한도가 정해지는 구조(4.0m 한도, 표지는 실제 높이보다 20cm 낮게, 허가는 실제 높이 −0.2m까지)와 국내외 충돌 사례·재구성 사례, 운송 계약 유형(포워더 책임·비용 분담·실비)과 선적지부터 도착지까지 단계별 점검, 로드 서베이 순서·점검 항목·보고서 형식, 장애물 이설·유도차량 협조, 운행허가 위반 책임과 보험을 역할별로 정리합니다." }
+    { id: 'rk-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "화물 사고 사례 — 육교 충돌·적재물 낙하, 창고 화재 판결, 젖음·크로스, 가짜 운송사", short: "화물 사고 사례", summary: "대형 화물의 육교·지하차도 충돌과 적재물 낙하, 창고 화재 판결, 컨테이너 젖음과 크로스, 가짜 운송사·하청 사기까지 화물 사고·판결 20건을 운송·창고·손상·보안으로 나눠 경위·판단·교훈과 출처를 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -46,18 +47,21 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "운송과 창고", sub: "트럭 사고·도난 · 창고 보관", docs: ["rk-truck", "rk-warehouse"] },
-    { title: "화물 손상과 오배송", sub: "젖음 손상 · 뒤바뀜", docs: ["rk-damage", "rk-cross"] },
-    { title: "보안", sub: "TAPA · 운송사 검증 · 보안 점검표", docs: ["rk-security"] },
-    { title: "특수화물", sub: "로드 서베이 · 운행허가 · 상부 구조물 충돌", docs: ["rk-special"] }
+    { title: "운송·보관 사고 예방", sub: "트럭 사고·도난 · 창고 보관 · 특수화물 육상 운송", docs: ["rk-truck", "rk-warehouse", "rk-special"] },
+    { title: "젖음·뒤바뀜 예방", sub: "젖음 손상 · 화물 뒤바뀜(크로스)", docs: ["rk-damage", "rk-cross"] },
+    { title: "도난·사기와 보안", sub: "TAPA · 운송사·하청 검증 · 보안 점검표", docs: ["rk-security"] },
+    { title: "사례", sub: "충돌·낙하 사고 · 창고 화재 판결 · 젖음·크로스 · 가짜 운송사", docs: ["rk-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
-    { name: "트럭 주차 중 화물이 없어졌어요", ids: ["rk-truck"] },
+    { name: "트럭 주차 중 화물이 없어졌어요", ids: ["rk-truck", "rk-security"] },
     { name: "고가 화물을 창고에 둘 때 무엇을 확인하나요", ids: ["rk-warehouse"] },
+    { name: "창고에 불이 나면 누가 물어 주나요", ids: ["rk-warehouse", "rk-cases"] },
     { name: "컨테이너를 열었더니 화물이 젖어 있어요", ids: ["rk-damage"] },
     { name: "다른 화주의 화물이 섞여 갔어요", ids: ["rk-cross"] },
-    { name: "대형 화물이 육교 밑을 지날 수 있나요", ids: ["rk-special"] }
+    { name: "대형 화물이 육교 밑을 지날 수 있나요", ids: ["rk-special"] },
+    { name: "운송사가 하청을 줬는데 화물이 사라졌어요", ids: ["rk-security", "rk-cases"] },
+    { name: "육교에 부딪히거나 화물이 떨어진 사고 사례가 있나요", ids: ["rk-cases", "rk-special"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -78,7 +82,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>사고는 운송보다 대기와 보관에서 더 자주 난다</h2><p>도로 위 사고만이 아니라 주차 중 도난, 창고의 젖음과 파손, 다른 화주 화물과의 뒤바뀜까지 화물 사고는 여러 곳에서 납니다. 화주·포워더·창고·운송사가 각자 무엇을 확인하면 사고를 줄이고, 났을 때 무엇을 남겨야 하는지 정리했습니다.</p><a class="lib-summary-button" href="${link('rk-truck')}">트럭 운송 사고부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('법령, CTU Code, 보험·운송 업계 공개 자료를 바탕으로 정리했습니다. 회사마다 내부 절차와 계약 조건이 다르므로 자기 회사 규정과 보험 조건을 함께 보십시오. 해설은 AI가 작성했으며 보험사나 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>사고는 운송보다 대기와 보관에서 더 자주 난다</h2><p>도로 위 사고만이 아니라 주차 중 도난, 창고의 젖음과 파손, 다른 화주 화물과의 뒤바뀜, 가짜 운송사까지 화물 사고는 여러 곳에서 납니다. 운송·보관, 젖음·뒤바뀜, 도난·사기와 보안 순으로 화주·포워더·창고·운송사가 각자 무엇을 확인하면 사고를 줄이고 났을 때 무엇을 남겨야 하는지 정리하고, 마지막 장에 실제 사고·판결 20건을 모았습니다.</p><a class="lib-summary-button" href="${link('rk-truck')}">트럭 운송 사고부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('법령, CTU Code, 보험·운송 업계 공개 자료를 바탕으로 정리했습니다. 회사마다 내부 절차와 계약 조건이 다르므로 자기 회사 규정과 보험 조건을 함께 보십시오. 해설은 AI가 작성했으며 보험사나 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

@@ -402,6 +402,46 @@
       ],
       "destination": "/tool/unnumber",
       "permanent": true
+    },
+    {
+      "source": "/library/container/cn-dimensions",
+      "destination": "/library/container/cn-codes",
+      "permanent": true
+    },
+    {
+      "source": "/library/ctu-code/ch7-suitability",
+      "destination": "/library/ctu-code/ch6-ctu",
+      "permanent": true
+    },
+    {
+      "source": "/library/ctu-code/ch13-training",
+      "destination": "/library/ctu-code/ch4-chain",
+      "permanent": true
+    },
+    {
+      "source": "/library/ctu-code/im1-consequences",
+      "destination": "/library/ctu-code/cargo-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/ctu-code/im2-documents",
+      "destination": "/library/ctu-code/ch11-after",
+      "permanent": true
+    },
+    {
+      "source": "/library/ctu-code/im7-manual",
+      "destination": "/library/ctu-code/a7-load-distribution",
+      "permanent": true
+    },
+    {
+      "source": "/library/ctu-code/qlg-c",
+      "destination": "/library/ctu-code/a7-securing",
+      "permanent": true
+    },
+    {
+      "source": "/library/ctu-code/anchor-points",
+      "destination": "/library/ctu-code/a7-securing",
+      "permanent": true
     }
   ]
 }

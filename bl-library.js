@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/bl-awb';
-  const DOCS_VERSION = '20261020-10';
+  const DOCS_VERSION = '20261022-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -33,11 +33,11 @@
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
     { id: 'bl-basics', tag: "B/L", level: 3, title: "B/L 기초 — 세 기능, 종류, 기재사항, House B/L과 AWB 비교", short: "B/L 기초", summary: "선하증권의 세 기능(운송계약 증거·화물 수령증·권리증권), 기명식·지시식·소지인식과 배서, 선적·수취, Clean·Foul, 통 B/L·복합운송 B/L, 상법 제853조 기재사항, 원본 3통의 의미(제857조), Master·House B/L 구조, 운임 표시와 부지 약관을 포워더 입장에서 정리하고, 인도 조건·처분권·신용장·책임 한도까지 B/L과 AWB를 한 표로 비교합니다." },
-    { id: 'awb-basics', tag: "AWB", level: 3, title: "AWB 기초 — 비유통 운송장, 원본 3부, 번호 체계와 e-AWB", short: "AWB 기초", summary: "항공화물운송장이 권리증권이 아닌 이유(몬트리올 협약 제4조~제16조, 상법 제923조~제929조), 원본 3부의 용도, 송하인 처분권과 수하인 권리, IATA 표준 양식과 Prefix·일련번호·체크 디지트, Master·House AWB와 혼재, 전자 메시지, e-AWB와 IATA 결의 672, 신용장에서 수하인을 은행으로 적는 이유와 UCP 600 제20조·제23조 심사 비교를 정리합니다." },
+    { id: 'awb-basics', tag: "AWB", level: 3, title: "AWB 기초 — 비유통 운송장, 원본 3부, 처분권, 번호 체계, e-AWB와 ONE Record", short: "AWB 기초", summary: "AWB가 권리증권이 아닌 이유, 원본 3부와 송하인 처분권, IATA 양식과 11자리 번호, Master·House AWB, e-AWB와 ONE Record, 신용장 거래의 은행 수하인과 UCP 600 제23조를 정리합니다." },
     { id: 'bl-release', tag: "인도", level: 3, title: "화물 인도 실무 — 원본 B/L, 서렌더, Sea Waybill, 보증도", short: "화물 인도 실무", summary: "원본 B/L 회수 인도와 상법 제857조~제861조, 서렌더(Telex Release)의 실무와 주의점, Sea Waybill의 성격(상법 제863조·제864조, CMI 규칙)과 인도, 수입화물선취보증서(L/G)·LOI 보증도의 위험, 기명식 B/L, 원본 분실 시 공시최고, D/O와 반출, 항공화물 도착 통지와 은행 수하인 화물 인도를 정리합니다." },
-    { id: 'bl-special', tag: "특수", level: 3, title: "특수 B/L과 전자화 — Switch·분할 B/L, 선적일 소급, 전자선하증권과 e-AWB", short: "특수 B/L과 전자화", summary: "Switch B/L과 분할·통합 B/L의 정상 절차와 P&I 보험조합 권고, 선적일 소급·LOI를 받은 무사고 B/L의 법적 결과와 담보 상실, 상법 제862조와 전자선하증권 시행규정(등록기관 KTNET), UNCITRAL MLETR, 영국 Electronic Trade Documents Act 2023, DCSA 2030년 100% eBL 약속, IG 승인 eBL 시스템, e-AWB와 IATA ONE Record 현황." },
-    { id: 'bl-multimodal', checked: '2026-10-18', tag: "복합운송", level: 3, title: "복합운송과 책임 구간 — 손해 구간을 알 때와 모를 때", short: "복합운송과 책임 구간", summary: "복합운송증권(FIATA FBL 등)으로 문 앞까지 맡은 포워더의 책임을 다룹니다. 손해 구간을 알면 그 구간의 법과 강행 한도를, 모르면 상법 제816조 제2항과 FBL 기본 한도를 적용하는 구조를 판례·기한·경로별 사례로 정리했습니다." },
-    { id: 'bl-cases', tag: "판례", level: 3, title: "판례·분쟁 사례 — 원본 없는 인도, 서렌더, 기명식 B/L, House B/L과 AWB 분쟁", short: "판례·분쟁 사례", summary: "보증도와 위조 L/G, LOI 인도, 서렌더 B/L의 법적 성질, 배서금지 기명식 B/L, Master D/O 사본을 넘긴 도착지 포워더(2024다270860), 통지처 인도와 AWB 원본 불일치 등 한국 대법원 판례와 The Rafaela S, Carewins, Sze Hai Tong Bank, Glencore v MSC 등 해외 판례 12건을 사실관계·쟁점·결론·실무 교훈으로 정리." }
+    { id: 'bl-special', tag: "특수", level: 3, title: "특수 B/L과 전자화 — Switch·분할 B/L, 선적일 소급, 전자선하증권(eBL)", short: "특수 B/L과 전자화", summary: "Switch·분할·통합 B/L의 정상 절차와 P&I 권고, 선적일 소급과 LOI를 받은 무사고 B/L의 결과, 상법 제862조와 KTNET 등록, MLETR·영국 ETDA 2023, DCSA 2030 약속, IG 승인 eBL을 정리합니다." },
+    { id: 'bl-multimodal', checked: '2026-10-18', tag: "복합운송", level: 3, title: "복합운송과 책임 구간 — 손해 구간을 알 때와 모를 때", short: "복합운송과 책임 구간", summary: "문 앞까지 맡은 포워더가 복합운송인이 되는 경우, 네트워크·단일 책임제, 손해 구간을 알 때와 모를 때 상법 제816조와 FBL 약관의 답, 구간에 따라 바뀌는 기한, 경로별 가상 예시를 정리합니다." },
+    { id: 'bl-cases', checked: '2026-10-22', tag: "사례", level: 3, title: "B/L·AWB 사례 — 원본 없는 인도, 서렌더, 기명식 B/L, AWB, 복합운송 책임 구간 판례", short: "B/L·AWB 사례", summary: "보증도와 위조 L/G, 서렌더·기명식 B/L, Master D/O를 넘긴 도착지 포워더, 통지처에 건넨 AWB, 복합운송 구간과 제척기간 등 한국 판례 11건과 영국·홍콩 판례 3건을 한눈에 보기 표와 함께 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -49,9 +49,9 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "기본과 비교", sub: "B/L 기초(AWB 비교표 포함) · AWB 기초", docs: ["bl-basics", "awb-basics"] },
-    { title: "실무 가이드", sub: "화물 인도 · 특수 B/L과 전자화 · 복합운송", docs: ["bl-release", "bl-special", "bl-multimodal"] },
-    { title: "사례", sub: "판례·분쟁 사례", docs: ["bl-cases"] }
+    { title: "B/L·AWB 기초", sub: "B/L 기초(AWB 비교표 포함) · AWB 기초", docs: ["bl-basics", "awb-basics"] },
+    { title: "화물 인도와 특수 서류", sub: "화물 인도 실무 · 특수 B/L과 전자화 · 복합운송과 책임 구간", docs: ["bl-release", "bl-special", "bl-multimodal"] },
+    { title: "사례", sub: "B/L·AWB 판례 14건", docs: ["bl-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
@@ -59,9 +59,11 @@
     { name: "신용장 거래인데 AWB 수하인은 누구로?", ids: ["awb-basics", "bl-release"] },
     { name: "서렌더 해 달라는데 뭘 하면 되나요", ids: ["bl-release", "bl-cases"] },
     { name: "원본 B/L 없이 화물을 내줘도 되나요", ids: ["bl-release", "bl-cases"] },
-    { name: "House B/L을 발행하면 책임은?", ids: ["bl-basics", "bl-cases"] },
-    { name: "Switch B/L 요청을 받았어요", ids: ["bl-special", "bl-cases"] },
-    { name: "전자 B/L은 어디까지 왔나요", ids: ["bl-special", "awb-basics"] }
+    { name: "House B/L을 발행하면 책임은?", ids: ["bl-basics", "bl-multimodal"] },
+    { name: "Switch B/L·선적일 변경 요청을 받았어요", ids: ["bl-special"] },
+    { name: "전자 B/L과 e-AWB는 어디까지 왔나요", ids: ["bl-special", "awb-basics"] },
+    { name: "문 앞까지 맡았는데 사고가 났어요", ids: ["bl-multimodal", "bl-cases"] },
+    { name: "B/L·AWB 판례를 한눈에 보고 싶어요", ids: ["bl-cases"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -82,7 +84,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>B/L과 AWB, 같은 운송서류인데 왜 다르게 움직이나</h2><p>해상의 선하증권(B/L)은 화물을 대신하는 권리증권이라 원본이 있어야 화물을 받지만, 항공화물운송장(AWB)은 화물과 함께 움직이는 비유통 서류라 수하인이 바로 받습니다. 두 서류의 기초와 차이, 서렌더·보증도 같은 화물 인도 실무, Switch B/L과 전자 B/L, 실제 판례를 포워더 실무 관점에서 정리했습니다.</p><a class="lib-summary-button" href="${link('bl-basics')}#s9">B/L과 AWB 비교표부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('상법·몬트리올 협약·헤이그-비스비 규칙 등 법령과 협약, 판례, IATA·DCSA·은행의 공개 자료를 바탕으로 정리했습니다. UCP 600 본문은 싣지 않고 요약했습니다. 법률 자문이 아니며, 실제 분쟁은 계약 조건과 법원의 판단에 따릅니다. 해설은 AI가 작성했으며 법률 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>B/L과 AWB, 같은 운송서류인데 왜 다르게 움직이나</h2><p>해상의 선하증권(B/L)은 화물을 대신하는 권리증권이라 원본이 있어야 화물을 받지만, 항공화물운송장(AWB)은 화물과 함께 움직이는 비유통 서류라 수하인이 바로 받습니다. 1장은 두 서류의 기초와 비교표, 2장은 서렌더·보증도 같은 화물 인도와 Switch B/L·전자 B/L, 복합운송의 책임 구간, 3장은 한국·해외 판례 14건을 모았습니다.</p><a class="lib-summary-button" href="${link('bl-basics')}#s9">B/L과 AWB 비교표부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('상법·몬트리올 협약·헤이그-비스비 규칙 등 법령과 협약, 판례, IATA·DCSA·은행의 공개 자료를 바탕으로 정리했습니다. UCP 600 본문은 싣지 않고 요약했습니다. 법률 자문이 아니며, 실제 분쟁은 계약 조건과 법원의 판단에 따릅니다. 해설은 AI가 작성했으며 법률 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

@@ -131,7 +131,11 @@ def hero_images():
     src = read(ROOT / 'index.html')
     images = {}
     for m in re.finditer(r'<a class="entry-image[^"]*" href="([^"]+)"[^>]*>\s*<img src="([^"]+)"', src):
-        images.setdefault(m.group(1), ORIGIN + m.group(2).split('?')[0])
+        img = m.group(2).split('?')[0]
+        # SNS 미리보기는 SVG를 받지 않으므로 같은 이름의 PNG가 있으면 그것을 쓴다.
+        if img.endswith('.svg') and (ROOT / img.lstrip('/')).with_suffix('.png').exists():
+            img = img[:-4] + '.png'
+        images.setdefault(m.group(1), ORIGIN + img)
     return images
 
 

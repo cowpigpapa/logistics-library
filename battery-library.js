@@ -6,7 +6,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/eu-lithium-battery';
-  const DOCS_VERSION = '20261020-04';
+  const DOCS_VERSION = '20261022-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -73,7 +73,7 @@
       note: '신 폐기물운송규정이 대체한 구법. 그 전에 통지된 운송에는 경과규정이 있습니다.'
     }
   ];
-  // 문서 목록. law: b=배터리 규정, w=폐기물운송규정, g=실무 가이드. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
+  // 문서 목록. law: b=배터리 규정, w=폐기물운송규정, g=실무 가이드·사례. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
     { id: 'overview', law: 'g', tag: "설명·요약", level: 3, title: "두 규정 설명 및 요약 — 무엇이 들어 있고 어디부터 읽나", short: "두 규정 설명 및 요약", summary: "배터리 규정과 폐기물운송규정의 관계, 장·편·부속서 지도와 중요도, 읽는 순서." },
     { id: 'status', law: 'g', tag: "판정", level: 3, title: "제품·중고·폐기물 판정 — 리튬이 아니라 상태와 목적이 먼저", short: "제품·중고·폐기물 판정", summary: "중고 배터리가 제품으로 인정받는 증빙, 폐배터리의 절차와 코드, 접수를 멈춰야 하는 신호." },
@@ -123,7 +123,8 @@
     { id: 'w-anx5', law: 'w', tag: "부속서 V", level: 3, title: "부속서 V 수출 금지 판단용 폐기물 목록", short: "부속서 V 수출 금지 목록", summary: "비OECD국 수출 금지 판단용 목록. 폐배터리 코드 A1160·A1170·B1090의 원문." },
     { id: 'w-anx6-8', law: 'w', tag: "부속서 VI~VIII", level: 3, title: "부속서 VI~VIII 사전동의 시설·부속서 VII 서류·등재 요청 양식", short: "부속서 VII 서류 양식", summary: "녹색목록 폐기물 운송 서류(부속서 VII) 양식과 칸별 작성 주체·기한." },
     { id: 'w-anx9-10', law: 'w', tag: "부속서 IX~X", level: 2, title: "부속서 IX~X 평가 참조 기준과 시설 감사 기준", short: "부속서 IX~X 시설 감사", summary: "EU 밖 폐기물 처리시설의 감사인 자격과 시설 기준." },
-    { id: 'w-anx11-13', law: 'w', tag: "부속서 XI~XIII", level: 2, title: "부속서 XI~XIII 보고 설문·공개 정보·대조표", short: "부속서 XIII 대조표", summary: "회원국 보고 설문, 공개 정보 항목, 구 규정 1013/2006과의 조문 대조표." }
+    { id: 'w-anx11-13', law: 'w', tag: "부속서 XI~XIII", level: 2, title: "부속서 XI~XIII 보고 설문·공개 정보·대조표", short: "부속서 XIII 대조표", summary: "회원국 보고 설문, 공개 정보 항목, 구 규정 1013/2006과의 조문 대조표." },
+    { id: 'cases', law: 'g', tag: "사례", level: 3, title: "EU 배터리·폐기물 운송 사례 — 판결·단속·운송 중 화재", short: "배터리·폐기물 운송 사례", summary: "반품·재고·규격 미달 화물이 언제 폐기물인지 다툰 CJEU 판결(Shell, Omni Metal Service, Tronex, Interseroh), 로테르담항 폐 납축전지 운송 중지, 영국 녹색목록 허위 기재 유죄, 미국 폐리튬배터리 컨테이너 화재 7건을 쟁점·결과·포워더 교훈으로 정리." }
   ];
   const LAW_NAMES = { b: '배터리 규정 2023/1542', w: '폐기물운송규정 2024/1157', g: '실무 가이드' };
   const byId = id => DOCS.find(d => d.id === id);
@@ -135,24 +136,23 @@
   const lines = text => text.replace(/\.\s+/g, '.<br>');
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${[o.date, o.lang].filter(Boolean).map(esc).join(' · ')})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">원문 열기 ↗</a></td></tr>`;
-  // 목록 구간: 법령별로 장(편) 문서와 부속서 문서를 나눈다.
+  // 목록 구간(장): 실무 가이드 → 배터리 규정 → 폐기물운송규정 → 사례. 각 법령 장은 전문·조문·부속서 순서.
   const SECTIONS = [
-    { title: "실무 가이드", sub: "AI 작성 · 두 규정을 가로질러 정리", docs: ["overview", "status", "changes", "timeline", "checklist", "de-nl"] },
-    { title: "배터리 규정 2023/1542", sub: "장별 해설과 전체 번역", docs: ["b-recitals-a", "b-recitals-b", "b-ch1", "b-ch2", "b-ch3", "b-ch4", "b-ch5", "b-ch6", "b-ch7", "b-ch8a", "b-ch8b", "b-ch9", "b-ch10", "b-ch11", "b-ch12-14"] },
-    { title: "배터리 규정 부속서", sub: "부속서 I~XV 해설과 전체 번역", docs: ["b-anx1-5", "b-anx6-7", "b-anx8", "b-anx9-10", "b-anx11-12", "b-anx13", "b-anx14", "b-anx15"] },
-    { title: "폐기물운송규정 2024/1157", sub: "편별 해설과 전체 번역", docs: ["w-recitals", "w-t1", "w-t2-1a", "w-t2-1b", "w-t2-2", "w-t2-4", "w-t2-5", "w-t3", "w-t4", "w-t5", "w-t6", "w-t7", "w-t8"] },
-    { title: "폐기물운송규정 부속서", sub: "부속서 IA~XIII 해설과 전체 번역", docs: ["w-anx1", "w-anx2", "w-anx3-4", "w-anx5", "w-anx6-8", "w-anx9-10", "w-anx11-13"] }
+    { title: "실무 가이드", sub: "AI 작성 · 두 규정을 가로질러 정리한 판정·일정·체크리스트", docs: ["overview", "status", "changes", "timeline", "checklist", "de-nl"] },
+    { title: "배터리 규정 2023/1542", sub: "전문, 제1~14장, 부속서 I~XV의 해설과 전체 번역", docs: ["b-recitals-a", "b-recitals-b", "b-ch1", "b-ch2", "b-ch3", "b-ch4", "b-ch5", "b-ch6", "b-ch7", "b-ch8a", "b-ch8b", "b-ch9", "b-ch10", "b-ch11", "b-ch12-14", "b-anx1-5", "b-anx6-7", "b-anx8", "b-anx9-10", "b-anx11-12", "b-anx13", "b-anx14", "b-anx15"] },
+    { title: "폐기물운송규정 2024/1157", sub: "전문, 제1~8편, 부속서 IA~XIII의 해설과 전체 번역", docs: ["w-recitals", "w-t1", "w-t2-1a", "w-t2-1b", "w-t2-2", "w-t2-4", "w-t2-5", "w-t3", "w-t4", "w-t5", "w-t6", "w-t7", "w-t8", "w-anx1", "w-anx2", "w-anx3-4", "w-anx5", "w-anx6-8", "w-anx9-10", "w-anx11-13"] },
+    { title: "사례", sub: "CJEU 판결 · 당국 단속 · 운송 중 화재", docs: ["cases"] }
   ];
   // 작업 순서로 보기: 조 번호를 몰라도 지금 하는 일에서 문서를 찾아가게 한다.
   const STAGES = [
     { group: "먼저 알아둘 것", name: "전체 그림", ids: ["overview", "changes", "timeline"] },
-    { group: "먼저 알아둘 것", name: "화물의 지위", ids: ["status", "b-ch1", "w-t1"] },
+    { group: "먼저 알아둘 것", name: "화물의 지위", ids: ["status", "b-ch1", "w-t1", "cases"] },
     { group: "먼저 알아둘 것", name: "우리 회사의 역할", ids: ["b-ch6", "b-ch8a", "w-t2-4"] },
     { group: "현장 순서", name: "1 예약", ids: ["checklist", "b-anx14", "w-t2-1a", "w-anx3-4", "w-anx5"] },
     { group: "현장 순서", name: "2 서류", ids: ["w-t2-2", "w-anx6-8", "w-t2-1b", "w-anx1", "w-t2-5"] },
     { group: "현장 순서", name: "3 픽업·창고", ids: ["b-ch3", "b-anx6-7", "b-anx11-12", "de-nl"] },
     { group: "현장 순서", name: "4 국경 통과", ids: ["w-t4", "w-t5", "w-t6", "b-ch8b"] },
-    { group: "현장 순서", name: "5 검사 대응", ids: ["w-t7", "b-ch10"] },
+    { group: "현장 순서", name: "5 검사 대응", ids: ["w-t7", "b-ch10", "cases"] },
     { group: "현장 순서", name: "6 도착·완료", ids: ["w-t8", "b-ch9"] }
   ];
   const stagePath = () => {
@@ -185,7 +185,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>EU 리튬배터리 규정이란?</h2><p>EU에서 배터리를 다루는 법은 두 갈래입니다. <b>배터리 규정 2023/1542</b>는 배터리의 제조·표시·시장 출시부터 폐배터리의 수거·재활용까지를, <b>폐기물운송규정 2024/1157</b>은 폐기물이 국경을 넘을 때의 통지·동의·서류를 정합니다. 화물이 제품인지 중고품인지 폐기물인지에 따라 어느 법의 어느 조문을 따라야 하는지가 갈립니다.</p><a class="lib-summary-button" href="${link('overview')}">두 규정 설명 및 요약 →</a></div><div class="lib-notice"><b>번역과 해설</b><p>${lines('두 규정의 전문·조문·부속서 전체를 한국어로 옮기고, 장마다 내용 요약, 이전 법령에서 달라진 점, 물류·운송에서 주의할 점, 체크리스트를 붙였습니다. 번역과 해설은 AI가 EUR-Lex의 영문본을 읽고 작성한 비공식 자료이며 EU 기관이 만들거나 검토한 것이 아닙니다. 법적 효력은 EU 관보에 실린 본문에만 있으므로 실제 화물의 판단은 공식 원문과 관할당국의 안내를 기준으로 하세요. 원문 출처: EUR-Lex, © European Union.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>EU 리튬배터리 규정이란?</h2><p>EU에서 배터리를 다루는 법은 두 갈래입니다. <b>배터리 규정 2023/1542</b>는 배터리의 제조·표시·시장 출시부터 폐배터리의 수거·재활용까지를, <b>폐기물운송규정 2024/1157</b>은 폐기물이 국경을 넘을 때의 통지·동의·서류를 정합니다. 화물이 제품인지 중고품인지 폐기물인지에 따라 어느 법의 어느 조문을 따라야 하는지가 갈립니다.</p><a class="lib-summary-button" href="${link('overview')}">두 규정 설명 및 요약 →</a></div><div class="lib-notice"><b>번역과 해설</b><p>${lines('목록은 실무 가이드, 배터리 규정 2023/1542, 폐기물운송규정 2024/1157, 사례의 네 장입니다. 두 규정의 전문·조문·부속서 전체를 한국어로 옮기고, 장마다 내용 요약, 이전 법령에서 달라진 점, 물류·운송에서 주의할 점, 그 범위에만 있는 체크리스트를 붙였습니다. 번역과 해설은 AI가 EUR-Lex의 영문본을 읽고 작성한 비공식 자료이며 EU 기관이 만들거나 검토한 것이 아닙니다. 법적 효력은 EU 관보에 실린 본문에만 있으므로 실제 화물의 판단은 공식 원문과 관할당국의 안내를 기준으로 하세요. 원문 출처: EUR-Lex, © European Union.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

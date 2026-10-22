@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://logistics.onharu.app/</loc><lastmod>2026-10-20T16:50:54+09:00</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://logistics.onharu.app/</loc><lastmod>2026-10-22T23:38:09+09:00</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://logistics.onharu.app/tool/containertracking</loc><lastmod>2026-10-19T13:16:34+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://logistics.onharu.app/tool/airtracking</loc><lastmod>2026-10-19T13:16:34+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://logistics.onharu.app/tool/unnumber</loc><lastmod>2026-10-19T13:16:34+09:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://logistics.onharu.app/privacy</loc><lastmod>2026-10-13T19:58:09+09:00</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ctu-overview</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch3-key</loc><lastmod>2026-10-17T12:11:51+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch5-accel</loc><lastmod>2026-10-17T12:11:51+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch9-packing</loc><lastmod>2026-10-18T16:07:17+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch11-after</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/a5-receiving</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/a7-load-distribution</loc><lastmod>2026-10-20T15:43:18+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/a7-securing</loc><lastmod>2026-10-17T12:11:51+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/a7-calc</loc><lastmod>2026-10-17T12:11:51+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/im6-load-distribution</loc><lastmod>2026-10-17T12:11:51+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/qlg-c</loc><lastmod>2026-10-17T12:11:51+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/anchor-points</loc><lastmod>2026-10-17T12:11:51+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/kr-road</loc><lastmod>2026-10-20T15:43:18+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch1-2-terms</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch4-chain</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch6-ctu</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch7-suitability</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch8-arrival</loc><lastmod>2026-10-20T15:43:18+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/ch13-training</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/a2-handling</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/a3-condensation</loc><lastmod>2026-10-18T16:07:17+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/im1-consequences</loc><lastmod>2026-10-18T16:07:17+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/im2-documents</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/im7-manual</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/im9-seals</loc><lastmod>2026-10-20T15:52:10+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/cargo-cases</loc><lastmod>2026-10-18T16:07:17+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/ctu-code/cubestow-application</loc><lastmod>2026-10-13T23:06:11+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery</loc><lastmod>2026-10-18T16:08:00+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/overview</loc><lastmod>2026-10-17T11:10:39+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/status</loc><lastmod>2026-10-20T10:43:26+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/changes</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/timeline</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/checklist</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/de-nl</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/ctu-overview</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/ch3-key</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/ch5-accel</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/ch9-packing</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/ch11-after</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/a5-receiving</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/a7-load-distribution</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/a7-securing</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/a7-calc</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/im6-load-distribution</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/kr-road</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/ch1-2-terms</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/ch4-chain</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/ch6-ctu</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/ch8-arrival</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/a2-handling</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/a3-condensation</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/im9-seals</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/cargo-cases</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/ctu-code/cubestow-application</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery</loc><lastmod>2026-10-22T23:36:13+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/overview</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/status</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/changes</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/timeline</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/checklist</loc><lastmod>2026-10-22T23:36:13+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/de-nl</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-recitals-a</loc><lastmod>2026-10-12T01:19:18+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-recitals-b</loc><lastmod>2026-10-05T19:37:38+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch1</loc><lastmod>2026-10-12T01:19:18+09:00</lastmod></url>
@@ -50,23 +43,23 @@
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch6</loc><lastmod>2026-10-05T19:37:38+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch7</loc><lastmod>2026-10-05T12:53:40+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch8a</loc><lastmod>2026-10-14T01:32:46+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch8b</loc><lastmod>2026-10-13T23:10:45+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch8b</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch9</loc><lastmod>2026-10-12T00:00:12+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch10</loc><lastmod>2026-10-14T01:32:46+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch10</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch11</loc><lastmod>2026-10-05T12:53:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch12-14</loc><lastmod>2026-10-14T01:32:46+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx1-5</loc><lastmod>2026-10-14T01:32:46+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx6-7</loc><lastmod>2026-10-05T12:53:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx8</loc><lastmod>2026-10-05T12:53:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx9-10</loc><lastmod>2026-10-05T12:53:40+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-ch12-14</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx1-5</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx6-7</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx8</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx9-10</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx11-12</loc><lastmod>2026-10-05T12:53:40+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx13</loc><lastmod>2026-10-05T12:53:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx14</loc><lastmod>2026-10-15T22:25:42+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx14</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/b-anx15</loc><lastmod>2026-10-12T00:00:12+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-recitals</loc><lastmod>2026-10-17T11:10:39+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t1</loc><lastmod>2026-10-17T11:10:39+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t2-1a</loc><lastmod>2026-10-20T10:43:26+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t2-1b</loc><lastmod>2026-10-14T01:32:46+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t2-1a</loc><lastmod>2026-10-22T23:26:59+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t2-1b</loc><lastmod>2026-10-22T23:26:59+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t2-2</loc><lastmod>2026-10-12T01:19:18+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t2-4</loc><lastmod>2026-10-14T01:32:46+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t2-5</loc><lastmod>2026-10-17T11:10:39+09:00</lastmod></url>
@@ -74,95 +67,100 @@
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t4</loc><lastmod>2026-10-17T11:10:39+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t5</loc><lastmod>2026-10-17T11:10:39+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t6</loc><lastmod>2026-10-17T11:10:39+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t7</loc><lastmod>2026-10-14T01:32:46+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t8</loc><lastmod>2026-10-17T11:10:39+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx1</loc><lastmod>2026-10-17T11:10:39+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t7</loc><lastmod>2026-10-22T23:26:59+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-t8</loc><lastmod>2026-10-22T23:26:59+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx1</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx2</loc><lastmod>2026-10-14T01:32:46+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx3-4</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx5</loc><lastmod>2026-10-20T10:43:26+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx6-8</loc><lastmod>2026-10-12T01:19:18+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx3-4</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx5</loc><lastmod>2026-10-22T23:26:59+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx6-8</loc><lastmod>2026-10-22T23:26:59+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx9-10</loc><lastmod>2026-10-05T12:53:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx11-13</loc><lastmod>2026-10-14T01:32:46+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-rules</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/kr-system</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/kr-small</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/kr-mismatch</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-household</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-marks</loc><lastmod>2026-10-20T15:43:17+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-msds</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-hidden</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-lithium</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-forwarder</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-inspection</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-kr-accident</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-kr-litigation</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-accident</loc><lastmod>2026-10-20T16:40:29+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-litigation</loc><lastmod>2026-10-20T15:43:17+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/w-anx11-13</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/eu-lithium-battery/cases</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-rules</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/kr-system</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/kr-small</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/kr-mismatch</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-msds</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-household</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-hidden</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-lithium</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-marks</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/dg-forwarder</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-kr-accident</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-accident</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-kr-litigation</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-litigation</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/dangerous-goods/case-inspection</loc><lastmod>2026-10-22T23:25:57+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/incoterms-2020</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/incoterms-2020/inco-what</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/incoterms-2020/inco-rules</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/incoterms-2020/inco-gray</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/incoterms-2020/inco-choose</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/incoterms-2020/inco-what</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/incoterms-2020/inco-rules</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/incoterms-2020/inco-gray</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/incoterms-2020/inco-choose</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/incoterms-2020/inco-cases</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
   <url><loc>https://logistics.onharu.app/library/air-uld</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/air-uld/uld-code</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/air-uld/uld-pallets</loc><lastmod>2026-10-20T15:34:41+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/air-uld/uld-holds</loc><lastmod>2026-10-20T15:34:41+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/air-uld/uld-buildup</loc><lastmod>2026-10-20T15:34:41+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/air-uld/uld-safety</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance</loc><lastmod>2026-10-19T16:24:14+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-basics</loc><lastmod>2026-10-20T15:34:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-icc</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-uninsurable</loc><lastmod>2026-10-20T15:34:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-carrier-liability</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-general-average</loc><lastmod>2026-10-20T15:34:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-claims</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-container-loss</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-cases</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-forwarder</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/bl-awb</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-basics</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/bl-awb/awb-basics</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-release</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-special</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-multimodal</loc><lastmod>2026-10-20T15:41:43+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-cases</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/temperature-cargo</loc><lastmod>2026-10-18T23:14:51+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-basics</loc><lastmod>2026-10-20T15:34:41+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-air-passive</loc><lastmod>2026-10-20T15:34:41+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-air-active</loc><lastmod>2026-10-20T15:34:41+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-reefer</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-reefer-practice</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-cases</loc><lastmod>2026-10-20T15:34:41+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/charges</loc><lastmod>2026-10-18T23:49:54+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/charges/ch-sea-charges</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/charges/ch-dnd</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/charges/ch-korea-storage</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/charges/ch-air-storage</loc><lastmod>2026-10-20T15:41:43+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/charges/ch-quote</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/charges/ch-surcharges</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/charges/ch-air-weight</loc><lastmod>2026-10-20T15:41:43+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/charges/ch-lcl</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/charges/ch-cases</loc><lastmod>2026-10-20T15:41:43+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/customs</loc><lastmod>2026-10-19T14:12:06+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/customs/cu-documents</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/customs/cu-clearance</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/customs/cu-import-timeline</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/customs/cu-hs-practice</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/customs/cu-aeo</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/customs/cu-penalty</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/customs/cu-us-filing</loc><lastmod>2026-10-20T15:41:43+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/customs/cu-fta</loc><lastmod>2026-10-20T15:41:43+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/customs/cu-bonded</loc><lastmod>2026-10-20T16:18:03+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-risk</loc><lastmod>2026-10-19T20:55:36+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-truck</loc><lastmod>2026-10-20T15:34:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-warehouse</loc><lastmod>2026-10-20T15:34:40+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-damage</loc><lastmod>2026-10-20T16:18:04+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-cross</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-security</loc><lastmod>2026-10-20T16:17:30+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-special</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/container</loc><lastmod>2026-10-20T16:50:24+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://logistics.onharu.app/library/container/cn-codes</loc><lastmod>2026-10-20T16:50:23+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/container/cn-oog</loc><lastmod>2026-10-20T15:46:00+09:00</lastmod></url>
-  <url><loc>https://logistics.onharu.app/library/container/cn-dimensions</loc><lastmod>2026-10-20T15:41:43+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/air-uld/uld-code</loc><lastmod>2026-10-22T23:34:07+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/air-uld/uld-pallets</loc><lastmod>2026-10-22T23:34:07+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/air-uld/uld-holds</loc><lastmod>2026-10-22T23:34:07+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/air-uld/uld-buildup</loc><lastmod>2026-10-22T23:34:07+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/air-uld/uld-safety</loc><lastmod>2026-10-22T23:34:07+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/air-uld/uld-cases</loc><lastmod>2026-10-22T23:34:07+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-basics</loc><lastmod>2026-10-22T23:35:21+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-icc</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-uninsurable</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-carrier-liability</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-claims</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-general-average</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-container-loss</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-forwarder</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-insurance/ins-cases</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/bl-awb</loc><lastmod>2026-10-22T23:35:58+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-basics</loc><lastmod>2026-10-22T23:31:42+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/bl-awb/awb-basics</loc><lastmod>2026-10-22T23:31:42+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-release</loc><lastmod>2026-10-22T23:28:22+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-special</loc><lastmod>2026-10-22T23:28:22+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-multimodal</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/bl-awb/bl-cases</loc><lastmod>2026-10-22T23:35:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-basics</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-air-passive</loc><lastmod>2026-10-22T23:34:07+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-air-active</loc><lastmod>2026-10-22T23:34:07+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-reefer</loc><lastmod>2026-10-22T23:34:07+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-reefer-practice</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/temperature-cargo/tc-cases</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/charges</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/charges/ch-quote</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/charges/ch-surcharges</loc><lastmod>2026-10-22T23:28:22+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/charges/ch-air-weight</loc><lastmod>2026-10-22T23:28:22+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/charges/ch-lcl</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/charges/ch-sea-charges</loc><lastmod>2026-10-22T23:28:22+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/charges/ch-dnd</loc><lastmod>2026-10-22T23:28:22+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/charges/ch-korea-storage</loc><lastmod>2026-10-22T23:28:22+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/charges/ch-air-storage</loc><lastmod>2026-10-22T23:28:22+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/charges/ch-cases</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-documents</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-clearance</loc><lastmod>2026-10-22T23:27:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-import-timeline</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-bonded</loc><lastmod>2026-10-22T23:27:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-hs-practice</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-fta</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-aeo</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-penalty</loc><lastmod>2026-10-22T23:27:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-us-filing</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/customs/cu-cases</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-risk</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-truck</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-warehouse</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-special</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-damage</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-cross</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-security</loc><lastmod>2026-10-22T23:26:58+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/cargo-risk/rk-cases</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/container</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://logistics.onharu.app/library/container/cn-codes</loc><lastmod>2026-10-22T23:27:23+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/container/cn-oog</loc><lastmod>2026-10-22T23:35:47+09:00</lastmod></url>
+  <url><loc>https://logistics.onharu.app/library/container/cn-cases</loc><lastmod>2026-10-22T23:31:42+09:00</lastmod></url>
 </urlset>

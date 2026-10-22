@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/container';
-  const DOCS_VERSION = '20261020-10';
+  const DOCS_VERSION = '20261022-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -33,7 +33,7 @@
   const DOCS = [
     { id: 'cn-codes', tag: "번호·코드", level: 3, title: "컨테이너 번호와 크기·형식 코드(ISO 6346) — 소유자 코드, 체크 디지트, 길이·높이·형식 그룹, 자주 보는 코드", short: "컨테이너 번호와 크기·형식 코드", summary: "컨테이너 번호 11자리(소유자 코드 3자리, 장비 구분 U·J·Z, 일련번호 6자리, 체크 디지트)의 뜻과 리스 컨테이너 조회, 체크 디지트 계산 예시, 번호 아래 네 자리 크기·형식 코드(예: 45G1)의 길이·높이·형식 그룹(G·V·R·H·U·P·T·K·N·B·S)과 45ft의 L/5 표기 차이, 자주 보는 코드 20여 개." },
     { id: 'cn-oog', checked: '2026-10-19', tag: "OOG", level: 2, title: "대형·중량 화물(OOG) 운송 — 플랫랙·오픈탑·브레이크벌크 선택, 도로 운행허가, 고박 계획서와 검정", short: "대형·중량 화물(OOG)", summary: "OOG·오버하이트/와이드/랭스 정의와 선사별 기준 차이, 오픈탑·플랫랙·플랫폼·브레이크벌크·RoRo 선택 기준, 화주에게 받을 정보와 선사 승인, 제한차량 운행허가 절차, 고박 계획서와 고박 검정을 계산 예시와 역할별 점검표로 정리합니다." },
-    { id: 'cn-dimensions', tag: "치수", level: 2, title: "주요 컨테이너 치수 — 드라이·리퍼·오픈탑·플랫랙의 내부 치수, 문 크기, 적재 중량", short: "주요 컨테이너 치수", summary: "20GP·40GP·40HC·20RF·40RH·20OT·40OT·20FR·40FR의 내부 길이·폭·높이, 문 폭·높이, 최대 적재 중량과 자중을 ONE·Maersk 공개 사양으로 비교하고, 선사마다 수치가 다른 이유를 정리." }
+    { id: 'cn-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "컨테이너 사례 — 중량 오신고와 VGM 입력 오류, 스택 붕괴, 플랫랙 끝벽 사고, 적출 사고 판결·처분", short: "컨테이너 사례", summary: "MSC Napoli·Deneb의 중량 오신고, President Eisenhower의 VGM 입력 오류, VGM과 신고 중량 차이를 다룬 영국 판결, Annabella 스택 붕괴, 평택항 플랫랙 끝벽 사망 사고, 호주 적출 사망 처분을 출처와 포워더 교훈으로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -45,15 +45,20 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "번호와 코드", sub: "컨테이너 번호 · 체크 디지트 · ISO 6346 크기·형식 코드", docs: ["cn-codes"] },
-    { title: "장비와 특수 화물", sub: "형식별 내부 치수와 적재 중량 · 대형·중량 화물(OOG)", docs: ["cn-dimensions", "cn-oog"] }
+    { title: "번호·코드·치수", sub: "컨테이너 번호 · 체크 디지트 · ISO 6346 크기·형식 코드 · 형식별 내부 치수와 문 크기", docs: ["cn-codes"] },
+    { title: "대형·중량 화물(OOG)", sub: "장비 선택 · 선사 승인 · 제한차량 운행허가 · 고박 계획서와 검정", docs: ["cn-oog"] },
+    { title: "사례", sub: "중량 오신고와 VGM 입력 오류 · 스택 붕괴 · 플랫랙 끝벽 사고 · 적출 사고 판결·처분", docs: ["cn-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
     { name: "컨테이너 번호 앞 네 글자는 뭔가요", ids: ["cn-codes"] },
     { name: "번호를 잘못 적었는지 어떻게 아나요", ids: ["cn-codes"] },
     { name: "45G1, 22R1 같은 코드는 무슨 뜻인가요", ids: ["cn-codes"] },
-    { name: "40HC 안에 화물이 들어갈까요", ids: ["cn-dimensions", "cn-codes"] }
+    { name: "40HC 안에 화물이 들어갈까요", ids: ["cn-codes"] },
+    { name: "OOG 화물은 부킹 전에 무엇을 받아야 하나요", ids: ["cn-oog"] },
+    { name: "공장에서 부두까지 트레일러 허가는 누가 받나요", ids: ["cn-oog"] },
+    { name: "VGM을 틀리게 내면 어떤 일이 생기나요", ids: ["cn-cases"] },
+    { name: "플랫랙 끝벽 작업은 왜 위험한가요", ids: ["cn-cases", "cn-oog"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -74,7 +79,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>컨테이너 번호와 코드, 읽을 줄 알면 장비 확인이 빨라진다</h2><p>컨테이너 문에 붙은 번호 11자리와 크기·형식 코드 4자리는 ISO 6346이 정한 표시입니다. 번호로 소유자와 오타를, 코드로 길이·높이·형식을 바로 읽을 수 있습니다. 번호 구조와 체크 디지트 계산, 크기·형식 코드표, 선사 공개 사양으로 본 형식별 치수를 정리했습니다.</p><a class="lib-summary-button" href="${link('cn-codes')}">컨테이너 번호와 코드부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('국제컨테이너사무국(BIC) 공개 자료, ICHCA BP25, GDV Container Handbook, ONE·Maersk 공개 사양을 바탕으로 정리했습니다. ISO 6346 본문은 유료 표준이라 싣지 않았습니다. 선사 이름은 비교를 위한 예시입니다. 해설은 AI가 작성했으며 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>컨테이너 번호와 코드, 읽을 줄 알면 장비 확인이 빨라진다</h2><p>컨테이너 문에 붙은 번호 11자리와 크기·형식 코드 4자리는 ISO 6346이 정한 표시입니다. 번호 구조와 체크 디지트, 크기·형식 코드와 형식별 치수, 대형·중량 화물(OOG)의 장비 선택과 운행허가를 차례로 정리하고, 마지막 장에 중량 오신고·장비 사고 사례를 모았습니다.</p><a class="lib-summary-button" href="${link('cn-codes')}">컨테이너 번호와 코드부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('국제컨테이너사무국(BIC) 공개 자료, ICHCA BP25, GDV Container Handbook, ONE·Maersk 공개 사양을 바탕으로 정리했습니다. ISO 6346 본문은 유료 표준이라 싣지 않았습니다. 선사 이름은 비교를 위한 예시입니다. 해설은 AI가 작성했으며 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;
@@ -183,7 +188,7 @@
     if (!view) return;
     const raw = routed ? location.pathname.split('/')[3] : new URLSearchParams(location.search).get('doc');
     // 합친 문서의 예전 주소
-    const MOVED = { 'cn-number': 'cn-codes' };
+    const MOVED = { 'cn-number': 'cn-codes', 'cn-dimensions': 'cn-codes' };
     const id = MOVED[raw] || raw;
     if (MOVED[raw]) history.replaceState(null, '', link(id) + location.hash);
     const doc = byId(id);

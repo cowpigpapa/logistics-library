@@ -6,21 +6,25 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 NAV = [
-    ('규정', [
-        ('/library/ctu-code', 'CTU Code', '컨테이너 적재·고박 국제 규범'),
+    ('계약·서류·통관', [
         ('/library/incoterms-2020', 'Incoterms 2020', '무역조건별 위험·비용 분기'),
-        ('/library/dangerous-goods', 'Dangerous Goods', '국제·국내 위험물과 사례'),
-        ('/library/eu-lithium-battery', 'EU Battery', 'EU 배터리 규정 번역·해설'),
-    ]),
-    ('실무', [
+        ('/library/charges', 'Charges · 부대비용', '운임 계산·부대비용·D&D·보관료'),
         ('/library/bl-awb', 'B/L · AWB', '선하증권과 항공화물운송장'),
-        ('/library/air-uld', 'Air ULD', '항공 ULD·컨투어·빌드업'),
-        ('/library/temperature-cargo', 'Cold Chain · 온도유지 화물', '온도유지 화물 항공·해상'),
-        ('/library/cargo-insurance', 'Cargo Insurance · 화물보험', '적하보험·책임 한도·클레임'),
-        ('/library/charges', 'Charges · 부대비용', '부대비용·DEM/DET·보관료'),
         ('/library/customs', 'Customs · 통관', '수출입 통관·HS 코드·FTA·보세운송'),
-        ('/library/cargo-risk', 'Cargo Risk · 화물 사고 예방', '운송·창고·보안·젖음·뒤바뀜'),
-        ('/library/container', 'Container', '컨테이너 번호·코드·치수'),
+    ]),
+    ('운송 장비·적재', [
+        ('/library/container', 'Container', '컨테이너 번호·코드·치수·OOG'),
+        ('/library/air-uld', 'Air ULD', '항공 ULD·컨투어·빌드업'),
+        ('/library/ctu-code', 'CTU Code', '컨테이너 적입·고박 국제 규범'),
+    ]),
+    ('특수 화물', [
+        ('/library/dangerous-goods', 'Dangerous Goods', '국제·국내 위험물 규칙과 사례'),
+        ('/library/eu-lithium-battery', 'EU Battery', 'EU 배터리·폐배터리 운송 규정'),
+        ('/library/temperature-cargo', 'Cold Chain · 온도유지 화물', '온도유지 화물 항공·해상'),
+    ]),
+    ('화물 사고·보험', [
+        ('/library/cargo-risk', 'Cargo Risk · 화물 사고 예방', '운송·창고·젖음·뒤바뀜·보안'),
+        ('/library/cargo-insurance', 'Cargo Insurance · 화물보험', '적하보험·책임 한도·클레임'),
     ]),
     ('도구', [
         ('/airtracking', 'AWB Tracking', '항공사별 화물 추적 바로가기'),
@@ -28,6 +32,7 @@ NAV = [
         ('/unnumber', 'UN Number', 'UN 번호로 위험물 조회'),
     ]),
 ]
+
 
 # 페이지 파일 → 지금 보고 있는 메뉴 주소
 PAGES = {
