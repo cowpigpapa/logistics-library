@@ -1295,7 +1295,7 @@
     `<a class="lib-doc" href="/library/ctu-code/${d.id}"><span class="lib-doc-head"><span class="lib-tag">${esc(d.tag)}</span>${levelBadge(d.id)}</span><b>${esc(d.title)}</b></a>`;
   // 문장이 마침표로 끝나면 줄을 바꾼다(안내 문구를 한 문장씩 읽히게).
   const lines = text => text.replace(/\.\s+/g, '.<br>');
-  // 목록 구간(2026-10-22 재구성): 원문 번호 순서가 아니라 책처럼 일의 흐름에 따라 네 장 + 사례로 묶는다.
+  // 목록 구간(2026-10-22 재구성): 원문 번호 순서가 아니라 책처럼 일의 흐름에 따라 세 장 + 사례로 묶고 CubeStow 적용 기준은 부록으로 둔다.
   // 같은 내용은 한 해설(집)에만 두고 다른 해설은 링크로 안내한다. 합친 해설의 옛 주소는 아래 MOVED로 옮긴다.
   const SECTIONS = [
     {
@@ -1304,19 +1304,14 @@
       docs: ['ctu-overview', 'ch1-2-terms', 'ch3-key', 'ch4-chain']
     },
     {
-      title: 'CTU와 운송 조건',
-      sub: '운송 중 가속도 · CTU 종류와 고르기 · 빈 CTU 점검 · 들기와 터미널 반입',
-      docs: ['ch5-accel', 'ch6-ctu', 'ch8-arrival', 'a2-handling']
+      title: 'CTU 고르기와 운송 조건',
+      sub: '운송 중 가속도 · CTU 종류와 고르기 · 빈 CTU 점검 · 들기와 터미널 반입 · 한국 도로 한도',
+      docs: ['ch5-accel', 'ch6-ctu', 'ch8-arrival', 'a2-handling', 'kr-road']
     },
     {
-      title: '적입과 고정',
-      sub: '적입 계획 · 하중 분포와 수작업 · 고정 평가·래싱·고박점 · 고정 계산 · 결로',
-      docs: ['ch9-packing', 'a7-load-distribution', 'im6-load-distribution', 'a7-securing', 'a7-calc', 'a3-condensation']
-    },
-    {
-      title: '닫기·보내기·받기',
-      sub: '적입 완료 후 총중량·운송서류 · 봉인 · 받기·개문·반납',
-      docs: ['ch11-after', 'im9-seals', 'a5-receiving']
+      title: '적입·고정·봉인',
+      sub: '적입 계획 · 하중 분포와 수작업 · 고정 평가·래싱·고박점 · 고정 계산 · 결로 · 적입 완료와 봉인 · 받는 쪽',
+      docs: ['ch9-packing', 'a7-load-distribution', 'im6-load-distribution', 'a7-securing', 'a7-calc', 'a3-condensation', 'ch11-after', 'im9-seals', 'a5-receiving']
     },
     {
       title: '사례',
@@ -1324,7 +1319,7 @@
       docs: ['cargo-cases']
     }
   ];
-  const REFERENCE_DOCS = ['kr-road', 'cubestow-application'];
+  const REFERENCE_DOCS = ['cubestow-application'];
   // 한국어 번역은 원문 카드 바로 옆에 둔다(IMO 허가 전까지 준비 중).
   const TRANSLATIONS = {
     [IMO + '1497.pdf']: 'CTU Code 본문 1497 한국어 번역',
@@ -1397,7 +1392,7 @@
       ${official}
       ${stagePath()}
       ${sections}
-      <section class="lib-section"><h3>참고 자료 <small>AI 작성 · 계속 추가</small></h3><div class="lib-docs">${REFERENCE_DOCS.map(byId).filter(Boolean).map(docCard).join('')}</div></section>`;
+      <section class="lib-section"><h3>부록 <small>CubeStow 적용 기준</small></h3><div class="lib-docs">${REFERENCE_DOCS.map(byId).filter(Boolean).map(docCard).join('')}</div></section>`;
     makeFoldable(view);
   }
   // 첫 화면 구간 접기: 처음에는 "작업 순서로 보기"만 펼친다. 펼친 상태는 같은 탭 안에서만 기억한다(sessionStorage).
@@ -1497,7 +1492,7 @@
     const groups = SECTIONS.map(s => ({ title: s.title, docs: s.docs.filter(i => byId(i) && i !== overview) }));
     groups.forEach(g => g.docs.forEach(i => used.add(i)));
     const extra = REFERENCE_DOCS.filter(i => byId(i) && !used.has(i) && i !== overview);
-    if (extra.length) groups.push({ title: '참고 자료', docs: extra });
+    if (extra.length) groups.push({ title: '부록', docs: extra });
     const label = d => d.short || d.title.split(' — ')[0];
     const n = groups.reduce((sum, g) => sum + g.docs.length, 0);
     const secs = groups

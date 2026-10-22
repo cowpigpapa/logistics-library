@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261022-01';
+  const DOCS_VERSION = '20261022-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -45,7 +45,7 @@
   const DOCS = [
     { id: 'dg-rules', tag: "국제 규칙", level: 3, title: "국제 위험물 운송 규칙 한눈에 — UN 권고에서 IATA·IMDG·ADR까지, 한국 법령과의 연결", short: "국제 위험물 운송 규칙", summary: "UN 권고에서 ICAO·IATA·IMDG·ADR·RID·49 CFR까지 누가 만든 어떤 성격의 규칙인지와 현행판, 시카고협약·SOLAS·MARPOL이 항공안전법·선박안전법으로 이어지는 경로, 조약 없이 국내법이 맡는 도로·철도를 정리했습니다." },
     { id: 'kr-system', tag: "법체계", level: 3, title: "국내 위험물 법체계 — 위험물안전관리법·화학물질관리법과 UN 분류의 관계", short: "국내 위험물 법체계", summary: "위험물안전관리법·화관법·고압가스법 등 부처별로 나뉜 국내법의 규제 대상과 행위, UN 9개 등급·제1~6류·인화점 기준 대응표, 같은 화물이 구간마다 다른 기준을 만나는 구조." },
-    { id: 'kr-small', tag: "소량 기준", level: 3, title: "소량 기준 — 지정수량 미만과 시·도 조례, 화관법의 규정수량", short: "소량 기준", summary: "지정수량과 배수 합산, 지정수량 미만에 적용되는 시·도 조례 4곳 비교, 화관법 규정수량 3단계, 국제 한정수량과 다른 점과 창고 점검표." },
+    { id: 'kr-small', tag: "소량 기준", level: 3, title: "소량 기준 — 지정수량 미만과 시·도 조례, 화관법의 규정수량", short: "국내 소량 기준(지정수량 미만)", summary: "지정수량과 배수 합산, 지정수량 미만에 적용되는 시·도 조례 4곳 비교, 화관법 규정수량 3단계, 국제 한정수량과 다른 점과 창고 점검표." },
     { id: 'kr-mismatch', tag: "기준 비교", level: 3, title: "국제 규칙과 국내법에서 다르게 취급되는 품목 — 윤활유·리튬배터리 등", short: "국제·국내 기준이 다른 품목", summary: "윤활유는 국내만, 리튬배터리는 국제만 위험물인 이유와 대표 15개 품목, 산·알칼리·비료·촉매·석유류 같은 원료·산업용 화학제품의 의심 품목표와 요약표." },
     { id: 'dg-msds', tag: "MSDS", level: 3, title: "MSDS(SDS) 읽는 법 — 포워더가 확인하는 항목과 운송 분류와의 관계", short: "MSDS(SDS) 읽는 법", summary: "14항을 1·3·9항과 대조하는 법, 9·14·15항으로 국제·국내 판단을 따로 읽는 순서, GHS 분류와 운송 분류의 차이, 위험 신호와 부킹 접수 점검표." },
     { id: 'dg-household', checked: '2026-10-20', tag: "생활용품", level: 3, title: "생활용품 속 위험물 — 국제 운송에서는 위험물인데 국내에서는 생활용품인 제품 목록", short: "생활용품 속 위험물", summary: "향수·스프레이·락스·라이터·부탄가스·보조배터리·드라이아이스·주류 등을 품명별로 '대개 위험물/조성에 따라/운송수단에 따라/대개 비위험물'로 나누고 UN 번호·LQ·특별규정, 국내 관리 제도, 받을 서류를 정리했습니다." },

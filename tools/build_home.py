@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 import images  # 그림 작은 판(srcset)·지연 로딩
 CARD_SIZES = '(max-width: 900px) calc(100vw - 72px), 400px'   # 카드 그림 칸 폭
 DOC_SIZES = '(max-width: 900px) calc(100vw - 40px), 920px'    # 문서 본문 폭
-V = '20261022-01'   # library-index.css/js, library-index-data.js 캐시 버전
+V = '20261022-02'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')
@@ -96,6 +96,9 @@ def index_data():
 ACTIVE = ' class="is-active"'
 
 
+FOLD_AT = 12
+
+
 def tree_html(data, slug=None, doc_id=None, tool=None):
     """왼쪽 색인 마크업(검색엔진·JS 없는 방문자용). library-index.js의 renderTree()와 같은 마크업이며, JS가 다시 그린다."""
     e = lambda s: _html.escape(s or '', quote=True)
@@ -104,12 +107,18 @@ def tree_html(data, slug=None, doc_id=None, tool=None):
         cats = []
         for c in g['cats']:
             n = sum(len(s['docs']) for s in c['sections'])
-            secs = ''.join(
-                f'<div class="li-sec"><p class="li-sec-name">{e(s["title"])}</p><ul>' + ''.join(
+            secs = ''
+            for s in c['sections']:
+                items = ''.join(
                     f'<li><a href="/library/{c["slug"]}/{i}" data-slug="{c["slug"]}" data-id="{i}" title="{e(c["docs"][i]["title"])}"'
                     f'{ACTIVE if c["slug"] == slug and i == doc_id else ""}>'
                     f'{e(c["docs"][i]["short"] or c["docs"][i]["title"].split(" — ")[0])}</a></li>' for i in s['docs'])
-                + '</ul></div>' for s in c['sections'])
+                if len(s['docs']) > FOLD_AT:   # 문서가 많은 장은 접는다(library-index.js와 같은 규칙)
+                    here = ' open' if c['slug'] == slug and doc_id in s['docs'] else ''
+                    secs += (f'<details class="li-sec li-sec-fold"{here}><summary class="li-sec-name">{e(s["title"])} '
+                             f'<span>{len(s["docs"])}편</span></summary><ul>{items}</ul></details>')
+                else:
+                    secs += f'<div class="li-sec"><p class="li-sec-name">{e(s["title"])}</p><ul>{items}</ul></div>'
             ov_active = ' is-active' if c['slug'] == slug and not doc_id else ''
             cats.append(f'<div class="li-cat-wrap"><a class="li-ov{ov_active}" href="/library/{c["slug"]}" data-slug="{c["slug"]}" '
                         f'title="{e(c["name"])} 개요 및 원문">개요</a><details class="li-cat" data-slug="{c["slug"]}"'

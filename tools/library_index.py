@@ -64,7 +64,7 @@ def main():
                 sections.append({'title': s['title'], 'docs': ids}); used.update(ids)
         extra = [i for i in out['extra'] if i in by_id and i not in used]
         if extra:
-            sections.append({'title': '참고 자료', 'docs': extra}); used.update(extra)
+            sections.append({'title': '부록', 'docs': extra}); used.update(extra)
         # 어느 묶음에도 없는 문서(예: CTU 설명 및 요약)는 첫 묶음 맨 앞에 넣는다('개요 및 원문'과 이름이 겹치지 않게).
         rest = [d['id'] for d in out['docs'] if d['id'] not in used and d['id'] != overview_doc]
         if rest:

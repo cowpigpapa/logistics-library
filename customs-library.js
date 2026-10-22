@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/customs';
-  const DOCS_VERSION = '20261022-01';
+  const DOCS_VERSION = '20261022-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -55,7 +55,7 @@
   const SECTIONS = [
     { title: "통관 절차와 서류", sub: "인보이스·패킹리스트 · 수출입신고와 세금 · 수입 도착·반출 일정 · 보세구역과 보세운송", docs: ["cu-documents", "cu-clearance", "cu-import-timeline", "cu-bonded"] },
     { title: "품목분류와 원산지", sub: "HS 코드 정하는 법 · 사전심사 · FTA 협정관세와 직접운송", docs: ["cu-hs-practice", "cu-fta"] },
-    { title: "AEO·제재·해외 신고", sub: "AEO · 과태료·가산세·벌금 · 미국·캐나다 사전신고", docs: ["cu-aeo", "cu-penalty", "cu-us-filing"] },
+    { title: "AEO·위반 제재·해외 사전신고", sub: "AEO 공인 · 과태료·가산세·벌금 · 미국·캐나다 사전신고", docs: ["cu-aeo", "cu-penalty", "cu-us-filing"] },
     { title: "사례", sub: "직접운송·품목분류·운임 판결 · 보세화물 도난 · 수출 적재 위반 · 해외 처분", docs: ["cu-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
@@ -63,13 +63,16 @@
     { name: "인보이스와 패킹리스트에 무엇을 적어야 하나요", ids: ["cu-documents"] },
     { name: "수입신고는 언제 할 수 있나요", ids: ["cu-clearance", "cu-import-timeline"] },
     { name: "화물이 도착하면 반출까지 며칠 걸리나요", ids: ["cu-import-timeline"] },
-    { name: "HS 코드는 누가 정하나요", ids: ["cu-clearance", "cu-hs-practice"] },
+    { name: "HS 코드는 누가 정하나요", ids: ["cu-hs-practice", "cu-clearance"] },
     { name: "지우개 달린 연필은 어느 코드로 신고하나요", ids: ["cu-hs-practice"] },
+    { name: "HS 코드를 잘못 신고하면 어떻게 되나요", ids: ["cu-hs-practice"] },
     { name: "세관에서 과태료 통지를 받았어요", ids: ["cu-penalty"] },
     { name: "미국행 화물 ISF는 언제까지 보내나요", ids: ["cu-us-filing"] },
     { name: "FTA 관세를 받으려면 무엇이 필요한가요", ids: ["cu-fta"] },
-    { name: "제3국을 거쳐도 FTA가 되나요", ids: ["cu-fta"] },
-    { name: "부산에 온 화물을 내륙 창고로 옮겨 통관할 수 있나요", ids: ["cu-bonded"] }
+    { name: "제3국을 거쳐도 FTA가 되나요", ids: ["cu-fta", "cu-cases"] },
+    { name: "부산에 온 화물을 내륙 창고로 옮겨 통관할 수 있나요", ids: ["cu-bonded"] },
+    { name: "운송 중 보세화물이 없어지면 관세는 누가 내나요", ids: ["cu-bonded", "cu-cases"] },
+    { name: "실제로 처벌받은 통관 사례가 있나요", ids: ["cu-cases"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(

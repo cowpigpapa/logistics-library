@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/temperature-cargo';
-  const DOCS_VERSION = '20261022-01';
+  const DOCS_VERSION = '20261022-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -32,11 +32,11 @@
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
-    { id: 'tc-basics', tag: "기초", level: 3, title: "온도유지 화물 기초와 규정 — 온도대, 일탈, GDP·KGSP, IATA TCR과 CEIV", short: "기초와 규정", summary: "온도대 표기(+2~+8℃, +15~+25℃ 등)와 항공 코드 PIL·COL·CRT·ERT·FRO, 온도 일탈의 뜻과 판단 주체, EU GDP 제9장·제7장, WHO TRS 961 부속서 9, 한국 의약품 유통품질 관리기준(별표 6)의 운송·기록 조항, IATA TCR과 Time and Temperature Sensitive 라벨 규칙, 수락 체크리스트, CEIV Pharma 인증의 의미, 데이터로거와 기록 보관, 화주·포워더·운송인 역할을 정리합니다." },
+    { id: 'tc-basics', tag: "기초", level: 3, title: "온도유지 화물 기초와 규정 — 온도대, 일탈, GDP·KGSP, IATA TCR과 CEIV", short: "온도대 표기와 의약품 유통 기준", summary: "온도대 표기(+2~+8℃, +15~+25℃ 등)와 항공 코드 PIL·COL·CRT·ERT·FRO, 온도 일탈의 뜻과 판단 주체, EU GDP 제9장·제7장, WHO TRS 961 부속서 9, 한국 의약품 유통품질 관리기준(별표 6)의 운송·기록 조항, IATA TCR과 Time and Temperature Sensitive 라벨 규칙, 수락 체크리스트, CEIV Pharma 인증의 의미, 데이터로거와 기록 보관, 화주·포워더·운송인 역할을 정리합니다." },
     { id: 'tc-air-passive', tag: "패시브", level: 3, title: "항공 패시브 포장 — 단열재·냉매, 드라이아이스 위험물, 검증 시간과 팔레트 쉬퍼", short: "항공 패시브 포장", summary: "단열 박스 구조와 젤팩·PCM·드라이아이스 냉매의 차이, UN1845 드라이아이스의 포장지침 954·포장당 200kg·운송장 기재와 항공사 한도, WHO 적격성 평가(DQ·OQ·PQ)와 계절용·사계절용 포장, ISTA 7D·7E, 팔레트형 패시브 제품의 공개 사양과 운임 중량, 선택 기준, 출고부터 인도까지 한 포워더의 운영 절차(재보충·냉장 탑차·도착지 창고 확인)와 포워더 체크리스트를 다룹니다." },
     { id: 'tc-air-active', tag: "액티브", level: 3, title: "항공 액티브 컨테이너 — 사양 비교, 항공사 승인, 리스·예약, 배터리와 충전", short: "항공 액티브 컨테이너", summary: "압축기 냉각·전기 히터·배터리로 온도를 유지하는 RKN·RLP·RAP 액티브 ULD의 구조, Envirotainer·CSafe·DoKaSch·HB TempCon 공개 사양(온도 범위, 배터리 지속·충전 시간, 외형·내부 치수, 자중·최대 총중량), 대한항공·Emirates 등 항공사 수용 모델과 탑재 기종, 리스 계약과 예약·반납 절차, NiMH 배터리·데이터로거의 위험물 취급, 사전 조절 규칙, 패시브와 비교표, 반출·적입·인계·개봉·일탈 때 남길 기록을 담은 포워더 체크리스트." },
-    { id: 'tc-reefer', tag: "리퍼", level: 3, title: "해상 리퍼 컨테이너 — 구조·공기 흐름, 종류, 서플라이·리턴 에어 제어, 환기·전원·온도 기록", short: "해상 리퍼 컨테이너", summary: "하부 송풍과 T자형 바닥, 빨간 선, 서플라이·리턴 에어 센서의 구조와 '유지하는 장비'라는 원리, 일반·CA·MA·초저온·저온처리·NOR 장비의 공개 사양, -10℃를 경계로 한 냉장(서플라이 에어)·냉동(리턴 에어) 제어, 환기 ㎥/h 범위와 냉동 화물 환기 닫힘, 제습·제상, 리퍼 전원과 클립온·언더슬렁 젠셋, 컨트롤러 온도 기록과 선사 원격 모니터링(Captain Peter, Hapag-Lloyd LIVE, ONE CONTAINER+, MSC iReefer)을 선사·제조사 자료와 CTU Code IM8로 정리." },
-    { id: 'tc-reefer-practice', tag: "리퍼실무", level: 3, title: "리퍼 실무 — 예약부터 인도까지, 화주 서류·설정 실수·전원 공백·사고 대응", short: "리퍼 실무: 예약부터 인도까지", summary: "화주가 정하는 운송 지시와 포워더의 서류 대조, 화주에게 받을 서류와 예약 확인 항목(ONE·Hapag-Lloyd 점검표), PTI, ℃/℉·+/- 부호·환기 열림 같은 설정 실수 표, 화물 예냉과 컨테이너 예냉을 하지 않는 이유(의약품 사전 조절 예외), 적입 원칙, 전원 공백 구간과 젠셋 요금 확인, 선상 모니터링, 컨트롤러 다운로드와 상법 제804조 통지 등 사고 대응, 기사 지시·CY 전원 확인을 넣은 단계별 체크리스트." },
+    { id: 'tc-reefer', tag: "리퍼", level: 3, title: "해상 리퍼 컨테이너 — 구조·공기 흐름, 종류, 서플라이·리턴 에어 제어, 환기·전원·온도 기록", short: "리퍼 컨테이너 구조와 설정", summary: "하부 송풍과 T자형 바닥, 빨간 선, 서플라이·리턴 에어 센서의 구조와 '유지하는 장비'라는 원리, 일반·CA·MA·초저온·저온처리·NOR 장비의 공개 사양, -10℃를 경계로 한 냉장(서플라이 에어)·냉동(리턴 에어) 제어, 환기 ㎥/h 범위와 냉동 화물 환기 닫힘, 제습·제상, 리퍼 전원과 클립온·언더슬렁 젠셋, 컨트롤러 온도 기록과 선사 원격 모니터링(Captain Peter, Hapag-Lloyd LIVE, ONE CONTAINER+, MSC iReefer)을 선사·제조사 자료와 CTU Code IM8로 정리." },
+    { id: 'tc-reefer-practice', tag: "리퍼실무", level: 3, title: "리퍼 실무 — 예약부터 인도까지, 화주 서류·설정 실수·전원 공백·사고 대응", short: "리퍼 선적 실무(예약~인도)", summary: "화주가 정하는 운송 지시와 포워더의 서류 대조, 화주에게 받을 서류와 예약 확인 항목(ONE·Hapag-Lloyd 점검표), PTI, ℃/℉·+/- 부호·환기 열림 같은 설정 실수 표, 화물 예냉과 컨테이너 예냉을 하지 않는 이유(의약품 사전 조절 예외), 적입 원칙, 전원 공백 구간과 젠셋 요금 확인, 선상 모니터링, 컨트롤러 다운로드와 상법 제804조 통지 등 사고 대응, 기사 지시·CY 전원 확인을 넣은 단계별 체크리스트." },
     { id: 'tc-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "온도 사고 사례 — 항공 램프·경유지와 리퍼 지시·전원 공백에서 난 온도 일탈 16건", short: "온도 사고 사례", summary: "뮌헨 램프의 인슐린, 경유지 냉방 정지, 도착지 비냉장 창고, 백신 과냉각, 모호한 온도 지시와 부킹 확인서 오류, 터미널 전원 공백, 환기 설정 실수 같은 판례·사고와 한 포워더의 익명 사고 4건, 국내 독감 백신 상온 노출까지 16건을 같은 형식으로 정리했습니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
@@ -49,8 +49,8 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "온도 기준과 규정", sub: "온도대 표기 · 의약품 유통 기준 · 책임 분담", docs: ["tc-basics"] },
-    { title: "항공·해상 운송", sub: "항공 패시브 포장 · 항공 액티브 컨테이너 · 해상 리퍼 컨테이너 · 리퍼 실무", docs: ["tc-air-passive", "tc-air-active", "tc-reefer", "tc-reefer-practice"] },
+    { title: "온도 기준과 항공 운송", sub: "온도대 표기·의약품 유통 기준 · 항공 패시브 포장 · 항공 액티브 컨테이너", docs: ["tc-basics", "tc-air-passive", "tc-air-active"] },
+    { title: "해상 리퍼 운송", sub: "리퍼 컨테이너 구조와 설정 · 리퍼 선적 실무", docs: ["tc-reefer", "tc-reefer-practice"] },
     { title: "사례", sub: "판례·사고와 익명 사고 기록 16건", docs: ["tc-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
@@ -95,7 +95,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>온도유지 화물, 항공과 해상은 온도를 지키는 방식이 다르다</h2><p>의약품·신선식품처럼 정해진 온도를 지켜야 하는 화물은 항공에서는 단열 포장(패시브)이나 전원으로 온도를 유지하는 컨테이너(액티브)로, 해상에서는 리퍼 컨테이너로 운송합니다. 1장은 온도대 표기와 의약품 유통 기준, 2장은 항공·해상 방식별 구조와 준비할 것, 리퍼 설정 실수를 다루고, 3장에 실제 온도 사고 16건을 모았습니다.</p><a class="lib-summary-button" href="${link('tc-basics')}">기초와 규정부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('EU GDP, WHO, 한국 KGSP 등 공식 기준과 IATA 공개 자료, 장비 제조사 사양서, 선사 리퍼 가이드, P&I 보고서, 판례를 바탕으로 정리했습니다. IATA TCR·DGR 본문은 싣지 않고 공개 자료 범위에서 요약했습니다. 제품명은 비교를 위한 예시입니다. 해설은 AI가 작성했으며 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>온도유지 화물, 항공과 해상은 온도를 지키는 방식이 다르다</h2><p>의약품·신선식품처럼 정해진 온도를 지켜야 하는 화물은 항공에서는 단열 포장(패시브)이나 전원으로 온도를 유지하는 컨테이너(액티브)로, 해상에서는 리퍼 컨테이너로 운송합니다. 1장은 온도대 표기와 의약품 유통 기준, 항공 패시브·액티브 방식, 2장은 리퍼 컨테이너의 구조와 예약부터 인도까지의 실무를 다루고, 3장에 실제 온도 사고 16건을 모았습니다.</p><a class="lib-summary-button" href="${link('tc-basics')}">기초와 규정부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('EU GDP, WHO, 한국 KGSP 등 공식 기준과 IATA 공개 자료, 장비 제조사 사양서, 선사 리퍼 가이드, P&I 보고서, 판례를 바탕으로 정리했습니다. IATA TCR·DGR 본문은 싣지 않고 공개 자료 범위에서 요약했습니다. 제품명은 비교를 위한 예시입니다. 해설은 AI가 작성했으며 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}

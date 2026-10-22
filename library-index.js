@@ -35,6 +35,7 @@
   }
 
   // ---------------------------------------------------------------- 색인
+  const FOLD_AT = 12;   // 장 안 문서가 이보다 많으면 색인에서 접는다(tools/build_home.py의 FOLD_AT과 같게)
   function renderTree() {
     // 지금 보는 카테고리만 펼친다('모두 펼치기' 뒤에는 펼쳐 둔 것을 그대로).
     const saved = store.get(), cur = parse(location.pathname);
@@ -45,10 +46,18 @@
       <a class="li-ov" href="/library/${c.slug}" data-slug="${c.slug}" title="${esc(c.name)} 개요 및 원문">개요</a>
       <details class="li-cat" data-slug="${c.slug}" ${open.has(c.slug) ? 'open' : ''}>
         <summary><span class="li-cat-name">${esc(c.name)}</span><span class="li-count">${c.sections.reduce((n, s) => n + s.docs.length, 0)}</span></summary>
-        ${c.sections.map(s => `<div class="li-sec"><p class="li-sec-name">${esc(s.title)}</p><ul>${s.docs.map(id => {
-          const d = c.docs[id];
-          return `<li><a href="/library/${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}">${esc(d.short || d.title.split(' — ')[0])}</a></li>`;
-        }).join('')}</ul></div>`).join('')}
+        ${c.sections.map(s => {
+          const items = s.docs.map(id => {
+            const d = c.docs[id];
+            return `<li><a href="/library/${c.slug}/${id}" data-slug="${c.slug}" data-id="${id}" title="${esc(d.title)}">${esc(d.short || d.title.split(' — ')[0])}</a></li>`;
+          }).join('');
+          // 조문 번역처럼 문서가 많은 장은 접어 두고, 지금 보는 문서가 든 장만 펼친다.
+          if (s.docs.length > FOLD_AT) {
+            const here = cur && cur.slug === c.slug && s.docs.includes(cur.id);
+            return `<details class="li-sec li-sec-fold"${here ? ' open' : ''}><summary class="li-sec-name">${esc(s.title)} <span>${s.docs.length}편</span></summary><ul>${items}</ul></details>`;
+          }
+          return `<div class="li-sec"><p class="li-sec-name">${esc(s.title)}</p><ul>${items}</ul></div>`;
+        }).join('')}
       </details>
       </div>`).join('')}</div>`).join('');
   }
@@ -73,6 +82,8 @@
     const wrap = a.closest('.li-cat-wrap');
     const cat = a.closest('.li-cat') || (wrap && wrap.querySelector('.li-cat'));
     if (cat && !cat.open) { cat.open = true; closeOthers(cat); remember(); }
+    const fold = a.closest('details.li-sec-fold');
+    if (fold && !fold.open) fold.open = true;
     if (fromTree) { fromTree = false; return; }
     // 주소로 바로 들어왔거나 본문 링크로 옮겨 갔을 때만 고른 줄이 보이게 색인 상자 안에서 굴린다.
     const box = tree.getBoundingClientRect(), rr = a.getBoundingClientRect();
