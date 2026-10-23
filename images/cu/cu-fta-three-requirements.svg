@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">협정관세는 세 요건을 모두 갖춰야 받는다 (FTA관세법 제6조)</text>
+<rect x="60" y="100" width="440" height="560" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14" />
+<rect x="560" y="100" width="520" height="560" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14" />
+<rect x="1140" y="100" width="472" height="560" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14" />
+<circle cx="530.0" cy="380.0" r="22" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="530.0" y="391.0" font-size="32" font-weight="800" fill="#ffffff" text-anchor="middle">+</text>
+<circle cx="1110.0" cy="380.0" r="22" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="1110.0" y="391.0" font-size="32" font-weight="800" fill="#ffffff" text-anchor="middle">+</text>
+<circle cx="100" cy="142" r="22" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="100" y="150" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="134" y="150" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">협정관세 적용 대상 물품</text>
+<text x="134" y="180" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">제6조제1호, 제4조</text>
+<rect x="80" y="212" width="400" height="96" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="12" />
+<text x="280.0" y="253.5" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="middle">해당 협정의 양허표에</text>
+<text x="280.0" y="280.5" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="middle">그 HS 코드가 있는가</text>
+<rect x="80" y="326" width="400" height="96" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="12" />
+<text x="280.0" y="367.5" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="middle">올해 협정세율이 관세법상</text>
+<text x="280.0" y="394.5" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="middle">적용세율보다 낮은가</text>
+<text x="80" y="470" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">협정세율이 같거나 높으면</text>
+<text x="80" y="500" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">관세법 세율을 우선 적용</text>
+<text x="80" y="530" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">(같으면 신청 시 협정세율 가능)</text>
+<text x="80" y="580" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">덤핑방지관세·긴급관세 등은</text>
+<text x="80" y="610" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">협정세율보다 우선</text>
+<circle cx="600" cy="142" r="22" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="600" y="150" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="634" y="150" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">원산지가 체약상대국</text>
+<text x="634" y="180" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">제6조제2호, 제7조</text>
+<rect x="580" y="212" width="480" height="96" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="12" />
+<text x="820.0" y="253.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">원산지 결정기준 충족</text>
+<text x="820.0" y="280.5" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">완전생산·세번변경·부가가치·가공공정</text>
+<rect x="580" y="326" width="480" height="238" fill="#fff1e8" stroke="#e4572e" stroke-width="2" rx="12" />
+<text x="600" y="362" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">직접운송 요건 (제7조제2항·제3항)</text>
+<circle cx="630" cy="416" r="14" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="630" y="454" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">원산지국</text>
+<circle cx="800" cy="416" r="14" fill="#ffffff" stroke="#d9482b" stroke-width="3"/>
+<text x="800" y="454" font-size="18" font-weight="600" fill="#d9482b" text-anchor="middle">원산지 아닌 나라</text>
+<circle cx="980" cy="416" r="14" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="980" y="454" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">한국</text>
+<line x1="648" y1="416" x2="782" y2="416" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="818" y1="416" x2="962" y2="416" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<text x="600" y="496" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">경유·선적하면 원산지 불인정. 예외는</text>
+<text x="600" y="524" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">그 나라 보세구역에서 운송 목적 환적·일시 보관</text>
+<text x="580" y="600" font-size="19" font-weight="600" fill="#d9482b" text-anchor="start">원산지증명서가 정상이어도 운송 경로 때문에</text>
+<text x="580" y="630" font-size="19" font-weight="600" fill="#d9482b" text-anchor="start">원산지 자체가 부정될 수 있다</text>
+<circle cx="1180" cy="142" r="22" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="1180" y="150" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="1214" y="150" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">협정관세 적용 신청</text>
+<text x="1214" y="180" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">제6조제3호, 제8조·제9조</text>
+<line x1="1170" y1="310" x2="1582" y2="310" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="1200" y1="298" x2="1200" y2="322" stroke="#1d2a3a" stroke-width="4"/>
+<text x="1200" y="286" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">수입신고</text>
+<line x1="1340" y1="298" x2="1340" y2="322" stroke="#1f6fd1" stroke-width="4"/>
+<text x="1340" y="286" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="middle">수리</text>
+<line x1="1550" y1="298" x2="1550" y2="322" stroke="#d9482b" stroke-width="4"/>
+<text x="1550" y="286" font-size="19" font-weight="700" fill="#d9482b" text-anchor="middle">수리 + 1년</text>
+<rect x="1200" y="340" width="140" height="50" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="1.5" rx="8" />
+<text x="1270" y="372" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="middle">수리 전 신청</text>
+<rect x="1350" y="340" width="200" height="50" fill="#fff7e0" stroke="#b7791f" stroke-width="1.5" rx="8" />
+<text x="1450" y="372" font-size="19" font-weight="700" fill="#b7791f" text-anchor="middle">사후적용 신청</text>
+<text x="1160" y="240" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">원칙: 수입신고 수리 전까지</text>
+<text x="1160" y="450" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">놓쳤으면 수리일부터 1년 안에</text>
+<text x="1160" y="480" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">사후적용 신청 + 경정청구</text>
+<text x="1160" y="510" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(세관장은 2개월 안에 결과 통지)</text>
+<text x="1160" y="570" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">신청할 때 원산지증빙서류를</text>
+<text x="1160" y="600" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">갖추고 있어야 한다</text>
+<line x1="280.0" y1="664" x2="280.0" y2="724" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<line x1="820.0" y1="664" x2="820.0" y2="724" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<line x1="1376.0" y1="664" x2="1376.0" y2="724" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<rect x="60" y="730" width="1552" height="70" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12" />
+<text x="836" y="775" font-size="25" font-weight="800" fill="#1f8a5b" text-anchor="middle">세 요건을 모두 충족 → 협정관세 적용</text>
+<text x="836" y="858" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="middle">직접운송은 요건 2(원산지)의 일부입니다. 하나라도 빠지면 협정관세를 받지 못합니다.</text>
+</svg>

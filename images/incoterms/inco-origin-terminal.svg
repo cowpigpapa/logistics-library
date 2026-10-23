@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">출발지에서 인도가 끝나는 지점과 터미널 비용</text>
+<line x1="60" y1="330" x2="1610" y2="330" stroke="#b8c2cc" stroke-width="3"/>
+<rect x="70" y="110" width="350" height="236" fill="#f3f6f9" rx="10"/>
+<text x="245.0" y="140" font-size="20" font-weight="800" fill="#5f6b78" text-anchor="middle">매도인 구내(공장)</text>
+<rect x="500" y="110" width="680" height="236" fill="#f3f6f9" rx="10"/>
+<text x="840.0" y="140" font-size="20" font-weight="800" fill="#5f6b78" text-anchor="middle">터미널(게이트·야드·CFS)</text>
+<rect x="1220" y="110" width="380" height="236" fill="#f3f6f9" rx="10"/>
+<text x="1410.0" y="140" font-size="20" font-weight="800" fill="#5f6b78" text-anchor="middle">본선</text>
+<rect x="100" y="200" width="140" height="130" fill="#e6ebf1" stroke="#1d2a3a" stroke-width="2" rx="0"/>
+<polygon points="100,200 170,160 240,200" fill="#cfd8e2" stroke="#1d2a3a" stroke-width="2"/>
+<rect x="150" y="270" width="40" height="60" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="0"/>
+<rect x="250" y="278" width="44" height="40" fill="#5b7da6" stroke="#1d2a3a" stroke-width="2" rx="6"/>
+<rect x="258" y="284" width="22" height="14" fill="#dfe9f5" rx="2"/>
+<rect x="294" y="308" width="116" height="10" fill="#7d8a99" stroke="#1d2a3a" stroke-width="2" rx="2"/>
+<circle cx="274" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="274" cy="326" r="4" fill="#ffffff"/>
+<circle cx="360" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="360" cy="326" r="4" fill="#ffffff"/>
+<circle cx="388" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="388" cy="326" r="4" fill="#ffffff"/>
+<rect x="312" y="268" width="70" height="40" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="0"/>
+<rect x="520" y="220" width="12" height="110" fill="#1d2a3a" rx="0"/>
+<rect x="690" y="220" width="12" height="110" fill="#1d2a3a" rx="0"/>
+<rect x="520" y="214" width="182" height="14" fill="#1d2a3a" rx="0"/>
+<rect x="540" y="278" width="44" height="40" fill="#5b7da6" stroke="#1d2a3a" stroke-width="2" rx="6"/>
+<rect x="548" y="284" width="22" height="14" fill="#dfe9f5" rx="2"/>
+<rect x="584" y="308" width="106" height="10" fill="#7d8a99" stroke="#1d2a3a" stroke-width="2" rx="2"/>
+<circle cx="564" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="564" cy="326" r="4" fill="#ffffff"/>
+<circle cx="640" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="640" cy="326" r="4" fill="#ffffff"/>
+<circle cx="668" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="668" cy="326" r="4" fill="#ffffff"/>
+<rect x="602" y="268" width="70" height="40" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="0"/>
+<rect x="760" y="270" width="110" height="32" fill="#3d6fa8" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<rect x="760" y="236" width="110" height="32" fill="#c4573c" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<rect x="880" y="270" width="110" height="32" fill="#c4573c" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<rect x="880" y="236" width="110" height="32" fill="#4f8a63" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<rect x="1000" y="270" width="110" height="32" fill="#4f8a63" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<rect x="1000" y="236" width="110" height="32" fill="#3d6fa8" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<path d="M1240 300 L1590 300 L1560 345 L1270 345 Z" fill="#33475b" stroke="#1d2a3a" stroke-width="2"/>
+<rect x="1300" y="266" width="58" height="32" fill="#3d6fa8" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<rect x="1362" y="266" width="58" height="32" fill="#c4573c" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<rect x="1424" y="266" width="58" height="32" fill="#4f8a63" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<rect x="1486" y="266" width="58" height="32" fill="#b48a2c" stroke="#1d2a3a" stroke-width="1.5" rx="2"/>
+<rect x="1520" y="236" width="40" height="64" fill="#e6ebf1" stroke="#1d2a3a" stroke-width="2" rx="0"/>
+<polygon points="170,360 156,384 184,384" fill="#d9482b"/>
+<text x="170" y="414" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">EXW 인도</text>
+<text x="170" y="442" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">싣지 않은 상태로</text>
+<text x="170" y="465" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">매수인 처분에 맡김(상차 의무 없음)</text>
+<polygon points="390,360 376,384 404,384" fill="#d9482b"/>
+<text x="390" y="414" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">FCA (a) 인도</text>
+<text x="390" y="442" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">매수인 차량에 실은 때</text>
+<text x="390" y="465" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">상차는 매도인</text>
+<polygon points="610,360 596,384 624,384" fill="#d9482b"/>
+<text x="610" y="414" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">FCA (b) 인도</text>
+<text x="610" y="442" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">매도인 차량 위, 하차 준비 상태</text>
+<text x="610" y="465" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">하차는 매수인 쪽(운송인)</text>
+<polygon points="1300,360 1286,384 1314,384" fill="#d9482b"/>
+<text x="1300" y="414" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">FOB 인도</text>
+<text x="1300" y="442" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">본선에 적재한 때</text>
+<text x="1300" y="465" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">그 전 터미널 비용은 매도인 쪽</text>
+<rect x="620" y="560" width="680" height="56" fill="#fdf4dc" stroke="#c99a2e" stroke-width="2" rx="10"/>
+<text x="960" y="596" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">THC·부두사용료·CFS 작업료·씰 비용: 규칙에 항목 이름이 없음(③)</text>
+<line x1="620" y1="588" x2="620" y2="530" stroke="#c99a2e" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="1300" y1="588" x2="1300" y2="530" stroke="#c99a2e" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="120" y="650" width="680" height="180" fill="#f5f9fe" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="136" y="686" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">FCA (b) 터미널 인도로 읽으면</text>
+<text x="136" y="718" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">반입 뒤 터미널 안의 비용 = 인도 후 비용</text>
+<text x="136" y="744" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">→ 원칙상 매수인</text>
+<text x="136" y="770" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">다만 선사·포워더가 송하인에게 청구하는 일이 많아</text>
+<text x="136" y="796" font-size="19" font-weight="500" fill="#d9482b" text-anchor="start">항목별 부담을 계약에 적어야 하는 대표 항목</text>
+<rect x="870" y="650" width="680" height="180" fill="#f4fbf7" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="886" y="686" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">FOB로 읽으면</text>
+<text x="886" y="718" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">본선에 실어야 인도가 끝나므로</text>
+<text x="886" y="744" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">그 전 터미널 비용 = 인도 전 비용</text>
+<text x="886" y="770" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">→ 원칙상 매도인</text>
+<text x="886" y="796" font-size="19" font-weight="500" fill="#d9482b" text-anchor="start">매수인 지정 포워더의 청구 범위를 계약에 적을 것</text>
+</svg>

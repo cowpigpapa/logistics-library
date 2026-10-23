@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">해외 위험물 사고 12건의 흐름</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">신고·분류·적입의 실패가 원인이나 피해 확대 요인으로 확인된 사례를 연도순으로 놓았습니다.</text>
+<line x1="60.0" y1="516.0" x2="1612.0" y2="516.0" stroke="#1d2a3a" stroke-width="3"/>
+<circle cx="130.0" cy="516.0" r="10.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="130.0" y="550.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="130.0" y1="506.0" x2="130.0" y2="346.0" stroke="#1f6fd1" stroke-width="2"/>
+<rect x="30.0" y="146.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="30.0" y="146.0" width="232.7" height="46.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="12"/>
+<rect x="30.0" y="176.0" width="232.7" height="16.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="0"/>
+<text x="44.0" y="178.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">1996</text>
+<text x="44.0" y="222.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">ValuJet 592편</text>
+<text x="44.0" y="258.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">화학식 산소발생기,</text>
+<text x="44.0" y="284.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">"Empty"로 적힌</text>
+<text x="44.0" y="310.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">사내 화물</text>
+<circle cx="258.4" cy="516.0" r="10.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="258.4" y="496.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="258.4" y1="526.0" x2="258.4" y2="590.0" stroke="#1f6fd1" stroke-width="2"/>
+<rect x="142.0" y="590.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="142.0" y="590.0" width="232.7" height="46.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="12"/>
+<rect x="142.0" y="620.0" width="232.7" height="16.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="0"/>
+<text x="156.0" y="622.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">2010</text>
+<text x="156.0" y="666.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">UPS 6편</text>
+<text x="156.0" y="702.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">신고되지 않은</text>
+<text x="156.0" y="728.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">리튬배터리가 든</text>
+<text x="156.0" y="754.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">혼재 화물, 화물실 화재</text>
+<circle cx="386.7" cy="516.0" r="10.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="386.7" y="550.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="386.7" y1="506.0" x2="386.7" y2="346.0" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="270.4" y="146.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="270.4" y="146.0" width="232.7" height="46.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="12"/>
+<rect x="270.4" y="176.0" width="232.7" height="16.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<text x="284.4" y="178.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">2012</text>
+<text x="284.4" y="222.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">MSC Flaminia</text>
+<text x="284.4" y="258.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">디비닐벤젠 탱크</text>
+<text x="284.4" y="284.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">컨테이너 등, 화물창</text>
+<text x="284.4" y="310.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">폭발·화재</text>
+<circle cx="515.1" cy="516.0" r="10.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="515.1" y="496.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="515.1" y1="526.0" x2="515.1" y2="590.0" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="398.7" y="590.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="398.7" y="590.0" width="232.7" height="46.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="12"/>
+<rect x="398.7" y="620.0" width="232.7" height="16.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<text x="412.7" y="622.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">2015</text>
+<text x="412.7" y="666.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">톈진항 창고</text>
+<text x="412.7" y="702.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">무허가 초과 저장,</text>
+<text x="412.7" y="728.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">니트로셀룰로스 발화</text>
+<text x="412.7" y="754.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">뒤 질산암모늄 폭발</text>
+<circle cx="643.5" cy="516.0" r="10.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="643.5" y="550.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="643.5" y1="506.0" x2="643.5" y2="346.0" stroke="#1f6fd1" stroke-width="2"/>
+<rect x="527.1" y="146.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="527.1" y="146.0" width="232.7" height="46.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="12"/>
+<rect x="527.1" y="176.0" width="232.7" height="16.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="0"/>
+<text x="541.1" y="178.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">2018</text>
+<text x="541.1" y="222.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">LA 공항 화물창고</text>
+<text x="541.1" y="258.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">미신고 리튬이온</text>
+<text x="541.1" y="284.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">배터리 상자를 지게차가</text>
+<text x="541.1" y="310.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">찔러 발연</text>
+<circle cx="771.8" cy="516.0" r="10.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="771.8" y="496.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="771.8" y1="526.0" x2="771.8" y2="590.0" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="655.5" y="590.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="655.5" y="590.0" width="232.7" height="46.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="12"/>
+<rect x="655.5" y="620.0" width="232.7" height="16.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<text x="669.5" y="622.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">2018</text>
+<text x="669.5" y="666.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">Maersk Honam</text>
+<text x="669.5" y="702.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">3번 화물창 화재,</text>
+<text x="669.5" y="728.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">선원 5명 사망</text>
+<text x="669.5" y="754.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">(원인 단정 불가)</text>
+<circle cx="900.2" cy="516.0" r="10.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="900.2" y="550.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="900.2" y1="506.0" x2="900.2" y2="346.0" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="783.8" y="146.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="783.8" y="146.0" width="232.7" height="46.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="12"/>
+<rect x="783.8" y="176.0" width="232.7" height="16.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<text x="797.8" y="178.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">2019</text>
+<text x="797.8" y="222.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">Yantian Express</text>
+<text x="797.8" y="258.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">"코코넛 펠릿"으로</text>
+<text x="797.8" y="284.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">신고된 코코넛 숯</text>
+<text x="797.8" y="310.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">자연발화 가능성</text>
+<circle cx="1028.5" cy="516.0" r="10.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="1028.5" y="496.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="1028.5" y1="526.0" x2="1028.5" y2="590.0" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="912.2" y="590.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="912.2" y="590.0" width="232.7" height="46.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="12"/>
+<rect x="912.2" y="620.0" width="232.7" height="16.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<text x="926.2" y="622.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">2019</text>
+<text x="926.2" y="666.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">KMTC Hongkong</text>
+<text x="926.2" y="702.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">"인형"으로 신고된</text>
+<text x="926.2" y="728.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">차아염소산칼슘 등</text>
+<text x="926.2" y="754.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">람차방항 화재</text>
+<circle cx="1156.9" cy="516.0" r="10.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="1156.9" y="550.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="1156.9" y1="506.0" x2="1156.9" y2="346.0" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="1040.5" y="146.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="1040.5" y="146.0" width="232.7" height="46.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="12"/>
+<rect x="1040.5" y="176.0" width="232.7" height="16.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<text x="1054.5" y="178.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">2020</text>
+<text x="1054.5" y="222.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">베이루트항</text>
+<text x="1054.5" y="258.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">6년간 방치된</text>
+<text x="1054.5" y="284.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">질산암모늄 2,750톤</text>
+<text x="1054.5" y="310.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">폭발</text>
+<circle cx="1285.3" cy="516.0" r="10.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="1285.3" y="496.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="1285.3" y1="526.0" x2="1285.3" y2="590.0" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="1168.9" y="590.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="1168.9" y="590.0" width="232.7" height="46.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="12"/>
+<rect x="1168.9" y="620.0" width="232.7" height="16.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<text x="1182.9" y="622.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">2021</text>
+<text x="1182.9" y="666.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">X-Press Pearl</text>
+<text x="1182.9" y="702.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">질산 IBC 적입 불량,</text>
+<text x="1182.9" y="728.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">누출된 질산이</text>
+<text x="1182.9" y="754.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">화재에 기여</text>
+<circle cx="1413.6" cy="516.0" r="10.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="1413.6" y="550.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="1413.6" y1="506.0" x2="1413.6" y2="346.0" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="1297.3" y="146.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="1297.3" y="146.0" width="232.7" height="46.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="12"/>
+<rect x="1297.3" y="176.0" width="232.7" height="16.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<text x="1311.3" y="178.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">2024</text>
+<text x="1311.3" y="222.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">YM Mobility</text>
+<text x="1311.3" y="258.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">전원 미연결 냉동</text>
+<text x="1311.3" y="284.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">컨테이너 속</text>
+<text x="1311.3" y="310.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">유기과산화물 폭발</text>
+<circle cx="1542.0" cy="516.0" r="10.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="1542.0" y="496.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<line x1="1542.0" y1="526.0" x2="1542.0" y2="590.0" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="1409.3" y="590.0" width="232.7" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="1409.3" y="590.0" width="232.7" height="46.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="12"/>
+<rect x="1409.3" y="620.0" width="232.7" height="16.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<text x="1423.3" y="622.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">2024</text>
+<text x="1423.3" y="666.0" font-size="17.5" font-weight="800" fill="#1d2a3a" text-anchor="start">몬트리올항</text>
+<text x="1423.3" y="702.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">리튬배터리 약</text>
+<text x="1423.3" y="728.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">15,000kg 컨테이너</text>
+<text x="1423.3" y="754.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">화재(조사 중)</text>
+<circle cx="50.0" cy="900.0" r="9.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="68.0" y="906.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">항공</text>
+<circle cx="154.0" cy="900.0" r="9.0" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="172.0" y="906.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">해상·항만</text>
+<text x="1632.0" y="906.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="end">간격은 연도에 비례하지 않습니다.</text>
+</svg>

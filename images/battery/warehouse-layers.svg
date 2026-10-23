@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">리튬배터리 창고 요건의 층: 독일과 네덜란드</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">EU 규정은 창고의 허가·소방·보관 한도를 직접 정하지 않습니다. 그 아래를 각국 법령, 허가 조건, 지침과 보험이 채웁니다.</text>
+<rect x="40.0" y="124.0" width="220.0" height="92.0" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="150.0" y="178.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">EU 규정</text>
+<rect x="40.0" y="232.0" width="220.0" height="128.0" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="150.0" y="304.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">국가 법령</text>
+<rect x="40.0" y="376.0" width="220.0" height="176.0" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="150.0" y="472.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">허가·신고</text>
+<rect x="40.0" y="568.0" width="220.0" height="196.0" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="150.0" y="674.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">지침·권고·보험</text>
+<rect x="40.0" y="780.0" width="220.0" height="120.0" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="150.0" y="848.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">포워더가 받는 서류</text>
+<text x="284.0" y="0.0" font-size="1" font-weight="500" fill="#1d2a3a" text-anchor="start"></text>
+<rect x="280.0" y="124.0" width="1352.0" height="92.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="296.0" y="164.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">보관·운송 조건이 배터리의 적합성을 해치지 않게(배터리 규정 제41조(4)·제42조(4)·제43조). 처리시설의 폐배터리 보관 요건(부속서 XII A부). 한 나라 안 폐기물</text>
+<text x="296.0" y="189.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">수송은 그 나라 제도(폐기물운송규정 제36조).</text>
+<rect x="280.0" y="232.0" width="660.0" height="128.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="296.0" y="275.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">독일</text>
+<text x="296.0" y="307.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">BattDG(배터리법 시행법)가 생산자 등록 등을 정함. 리튬배터리 전용</text>
+<text x="296.0" y="334.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">창고법은 확인되지 않음</text>
+<rect x="960.0" y="232.0" width="672.0" height="128.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="976.0" y="275.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">네덜란드</text>
+<text x="976.0" y="307.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">환경계획법(2024.1.1) 아래 Bal(활동 규칙)·Bkl(외부 안전 기준). Bevi는</text>
+<text x="976.0" y="334.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">효력 상실</text>
+<rect x="280.0" y="376.0" width="660.0" height="176.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="296.0" y="444.2" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">사업장 위험성평가(ArbSchG 제5조), 주 건축·소방 사용 허가</text>
+<text x="296.0" y="471.2" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">폐배터리 임시 보관·환적은 4. BImSchV 허가 대상: 유해 폐기물 보관 30t</text>
+<text x="296.0" y="498.2" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">이상, 환적 하루 1t 이상부터</text>
+<rect x="960.0" y="376.0" width="672.0" height="176.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="976.0" y="430.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">환경허가·신고 조건, 지방자치단체 맞춤 조건(허가 실무는 지역 환경청이</text>
+<text x="976.0" y="457.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">맡는 경우가 많음)</text>
+<text x="976.0" y="484.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">배터리 보관의 Bal 지정 개정안(초안: 2,500m² 또는 10,000kg 초과면</text>
+<text x="976.0" y="511.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">허가), 2028년 시행 예상</text>
+<rect x="280.0" y="568.0" width="660.0" height="196.0" fill="#fdf4dc" stroke="#c98a0b" stroke-width="2" rx="12"/>
+<text x="296.0" y="632.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">TRGS 510: 함께 보관할 때의 기준. 리튬배터리 전용 보관량 기준은 없음</text>
+<text x="296.0" y="659.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">DGUV 205-041: 산재보험조합 실무 지침</text>
+<text x="296.0" y="686.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">VdS 3103: 보험업계 권고. 보험계약에 편입되면 보상 조건. 폐배터리</text>
+<text x="296.0" y="713.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">수거·재활용은 범위 밖</text>
+<rect x="960.0" y="568.0" width="672.0" height="196.0" fill="#fdf4dc" stroke="#c98a0b" stroke-width="2" rx="12"/>
+<text x="976.0" y="632.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">PGS 37-2: 리튬 에너지캐리어 저장 지침. 허가 조건·주의의무·맞춤 조건에</text>
+<text x="976.0" y="659.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">편입될 때 적용</text>
+<text x="976.0" y="686.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">방화구획당 적용 하한(예: 손상·결함 30kg), 48시간 크로스도킹 예외</text>
+<text x="976.0" y="713.7" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">설비 인증서는 창고 전체의 적합성 증명이 아님</text>
+<rect x="280.0" y="780.0" width="1352.0" height="120.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="296.0" y="834.3" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">허가·신고 조건 사본(발급 기관, 허가 번호) · 보관 대상 범위(손상품·폐배터리 포함 여부) · 방화구획별 보관량이 한도 안이라는 서면 확인 · 격리 구역·화재</text>
+<text x="296.0" y="859.3" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">감지·소화·가스 감지·비상대응계획 설명 · 보험 조건</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="62" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >운임 중량은 세 번 반올림한다 (7절 예시 1: 상자 1개, 패킹리스트 62.4 × 41.6 × 38.5cm, 9.3kg)</text>
+<rect x="30" y="90" width="1612" height="500" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="60" y="150" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start" >부피 쪽</text>
+<text x="60" y="440" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="start" >무게 쪽</text>
+<rect x="60" y="175" width="300" height="150" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="10" />
+<text x="210.0" y="214.4" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">① 치수 반올림</text>
+<text x="210.0" y="243.4" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">62.4 → 62</text>
+<text x="210.0" y="272.4" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">41.6 → 42</text>
+<text x="210.0" y="301.4" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">38.5 → 39</text>
+<line x1="362" y1="250.0" x2="408" y2="250.0" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<rect x="412" y="175" width="300" height="150" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="10" />
+<text x="562.0" y="228.9" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">② 부피</text>
+<text x="562.0" y="257.9" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">62 × 42 × 39</text>
+<text x="562.0" y="286.9" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">= 101,556cm³</text>
+<line x1="714" y1="250.0" x2="760" y2="250.0" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<rect x="764" y="175" width="330" height="150" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="10" />
+<text x="929.0" y="230.9" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">③ ÷ 6,000</text>
+<text x="929.0" y="259.9" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">= 16.926kg</text>
+<text x="929.0" y="285.8" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">(소수 셋째 자리까지)</text>
+<line x1="1096" y1="250.0" x2="1142" y2="250.0" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<rect x="1146" y="200" width="190" height="100" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="10" />
+<text x="1241.0" y="236.8" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="middle">0.5kg 올림</text>
+<text x="1241.0" y="273.3" font-size="30" font-weight="800" fill="#1f6fd1" text-anchor="middle">17.0kg</text>
+<rect x="764" y="390" width="330" height="110" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="10" />
+<text x="929.0" y="435.9" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">실중량</text>
+<text x="929.0" y="468.9" font-size="26" font-weight="700" fill="#1d2a3a" text-anchor="middle">9.3kg</text>
+<line x1="1096" y1="445.0" x2="1142" y2="445.0" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<rect x="1146" y="395" width="190" height="100" fill="#ffffff" stroke="#1f8a5b" stroke-width="3" rx="10" />
+<text x="1241.0" y="431.8" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="middle">0.5kg 올림</text>
+<text x="1241.0" y="468.3" font-size="30" font-weight="800" fill="#1f8a5b" text-anchor="middle">9.5kg</text>
+<text x="60" y="470" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="start" ><tspan x="60" dy="0">팔레트·포장재·고정재까지 포함한 무게</tspan></text>
+<path d="M1338 250 H1380 V330 H1410" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#a-blue)" />
+<path d="M1338 445 H1380 V370 H1410" stroke="#1f8a5b" stroke-width="4" fill="none" marker-end="url(#a-green)" />
+<rect x="1414" y="280" width="206" height="140" fill="#fff6f3" stroke="#d9482b" stroke-width="4" rx="10" />
+<text x="1517.0" y="321.7" font-size="20" font-weight="700" fill="#5f6b78" text-anchor="middle">큰 값</text>
+<text x="1517.0" y="349.9" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">운임 중량</text>
+<text x="1517.0" y="389.0" font-size="32" font-weight="800" fill="#d9482b" text-anchor="middle">17.0kg</text>
+<text x="1517" y="460" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle" >Chargeable</text>
+<text x="1517" y="484" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle" >Weight 칸</text>
+<rect x="30" y="615" width="800" height="295" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="657" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >반올림 규칙</text>
+<text x="60" y="705" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start" >치수(cm)</text>
+<text x="200" y="705" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="start" >0.5cm 이상 올리고, 미만은 버림</text>
+<text x="200" y="740" font-size="21" font-weight="600" fill="#5f6b78" text-anchor="start" >예: 67.7 → 68,  78.5 → 79,  11.3 → 11</text>
+<text x="60" y="805" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start" >중량(kg)</text>
+<text x="200" y="805" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="start" >0.1~0.4 → 0.5,  정확히 0.5는 그대로</text>
+<text x="200" y="840" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="start" >0.51~0.99 → 다음 1kg</text>
+<text x="200" y="875" font-size="21" font-weight="600" fill="#5f6b78" text-anchor="start" >예: 3.1 → 3.5,  23.5 → 23.5,  24.51 → 25.0</text>
+<rect x="850" y="615" width="792" height="295" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="874" y="657" font-size="26" font-weight="800" fill="#d9482b" text-anchor="start" >흔한 실수: 치수를 모두 올림</text>
+<rect x="880" y="690" width="340" height="110" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10" />
+<text x="1050.0" y="738.6" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">62.4를 63으로 올림</text>
+<text x="1050.0" y="766.6" font-size="21" font-weight="600" fill="#5f6b78" text-anchor="middle">63 × 42 × 39cm</text>
+<line x1="1222" y1="745" x2="1268" y2="745" stroke="#d9482b" stroke-width="4" marker-end="url(#a-red)"/>
+<rect x="1272" y="690" width="340" height="110" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10" />
+<text x="1442.0" y="738.1" font-size="21" font-weight="600" fill="#5f6b78" text-anchor="middle">103,194 ÷ 6,000</text>
+<text x="1442.0" y="766.9" font-size="22" font-weight="800" fill="#d9482b" text-anchor="middle">= 17.199 → 17.5kg</text>
+<text x="880" y="850" font-size="21" font-weight="600" fill="#1d2a3a" text-anchor="start" >규칙보다 0.5kg 커져 N 요율 6,000원 기준 3,000원이 더 붙는다</text>
+<text x="880" y="885" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >(예시 요율, 화주가 패킹리스트로 다시 계산하면 차이가 드러남)</text>
+<rect x="60" y="525" width="1560" height="44" fill="#eef3fb" stroke="none" stroke-width="2" rx="8" />
+<text x="80" y="555" font-size="21" font-weight="700" fill="#1f6fd1" text-anchor="start" >상자가 여러 개면 상자별로 올리지 않고, 줄별 부피를 모두 더한 뒤 한 번만 ÷ 6,000 하고 한 번만 0.5kg 올린다 (3절)</text>
+</svg>

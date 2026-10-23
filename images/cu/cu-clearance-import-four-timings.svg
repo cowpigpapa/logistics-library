@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start" >수입신고는 네 시점 중에서 고릅니다</text>
+<text x="40" y="94" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="start" >관세법 제243조·제244조, 수입통관 사무처리에 관한 고시 제6조~제8조·제35조</text>
+<path d="M127.0 192.4 H253.0 L238.6 214 H137.8 Z" fill="#2f5aa8"/>
+<rect x="143.2" y="174.4" width="25.2" height="18.0" fill="#e4572e" stroke="#fff" stroke-width="1.5"/>
+<rect x="170.2" y="174.4" width="25.2" height="18.0" fill="#1f8a5b" stroke="#fff" stroke-width="1.5"/>
+<rect x="197.2" y="174.4" width="25.2" height="18.0" fill="#1f6fd1" stroke="#fff" stroke-width="1.5"/>
+<rect x="227.8" y="161.8" width="16.2" height="30.6" fill="#fff" stroke="#2f5aa8" stroke-width="3"/>
+<path d="M270 170 L380 164 Q396 170 380 176 L270 174 Z" fill="#5f6b78"/>
+<path d="M326 168 L304 136 H318 L348 168 Z M326 172 L304 200 H318 L348 172 Z M274 170 L264 152 H274 L286 170 Z" fill="#5f6b78"/>
+<text x="240" y="234" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="middle" >적재항</text>
+<path d="M577.0 192.4 H703.0 L688.6 214 H587.8 Z" fill="#2f5aa8"/>
+<rect x="593.2" y="174.4" width="25.2" height="18.0" fill="#e4572e" stroke="#fff" stroke-width="1.5"/>
+<rect x="620.2" y="174.4" width="25.2" height="18.0" fill="#1f8a5b" stroke="#fff" stroke-width="1.5"/>
+<rect x="647.2" y="174.4" width="25.2" height="18.0" fill="#1f6fd1" stroke="#fff" stroke-width="1.5"/>
+<rect x="677.8" y="161.8" width="16.2" height="30.6" fill="#fff" stroke="#2f5aa8" stroke-width="3"/>
+<line x1="715" y1="200" x2="790" y2="200" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<path d="M947.0 192.4 H1073.0 L1058.6 214 H957.8 Z" fill="#2f5aa8"/>
+<rect x="963.2" y="174.4" width="25.2" height="18.0" fill="#e4572e" stroke="#fff" stroke-width="1.5"/>
+<rect x="990.2" y="174.4" width="25.2" height="18.0" fill="#1f8a5b" stroke="#fff" stroke-width="1.5"/>
+<rect x="1017.2" y="174.4" width="25.2" height="18.0" fill="#1f6fd1" stroke="#fff" stroke-width="1.5"/>
+<rect x="1047.8" y="161.8" width="16.2" height="30.6" fill="#fff" stroke="#2f5aa8" stroke-width="3"/>
+<text x="1010" y="234" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="middle" >입항지</text>
+<path d="M1360 226 V160 L1440 126 L1520 160 V226 Z" fill="#eef2f6" stroke="#5f6b78" stroke-width="3"/>
+<rect x="1418" y="200" width="44" height="26" fill="#c9d2dc" stroke="#5f6b78" stroke-width="2"/>
+<text x="1440" y="188" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" >보세구역</text>
+<rect x="42" y="250" width="398" height="52" fill="#7a5cc7" stroke="#7a5cc7" stroke-width="0" rx="8" />
+<text x="241.0" y="284" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >출항전신고</text>
+<rect x="444" y="250" width="398" height="52" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="8" />
+<text x="643.0" y="284" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >입항전신고</text>
+<rect x="846" y="250" width="398" height="52" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="8" />
+<text x="1045.0" y="284" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >보세구역 도착전신고</text>
+<rect x="1248" y="250" width="382" height="52" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="1439.0" y="284" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >보세구역 장치후신고</text>
+<line x1="442" y1="240" x2="442" y2="316" stroke="#1d2a3a" stroke-width="4"/>
+<text x="442" y="342" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle" >적재항 출항</text>
+<line x1="844" y1="240" x2="844" y2="316" stroke="#1d2a3a" stroke-width="4"/>
+<text x="844" y="342" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle" >입항 · 하선(기) 신고</text>
+<line x1="1246" y1="240" x2="1246" y2="316" stroke="#1d2a3a" stroke-width="4"/>
+<text x="1246" y="342" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle" >보세구역 도착 · 반입</text>
+<rect x="46" y="366" width="390" height="358" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="46" y="366" width="390" height="8" fill="#7a5cc7" stroke="#7a5cc7" stroke-width="0" rx="4" />
+<text x="66" y="414" font-size="18" font-weight="800" fill="#7a5cc7" text-anchor="start" >언제</text>
+<text x="66" y="446" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >항공 화물, 또는 일본·중국·대만·</text>
+<text x="66" y="476" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >홍콩발 선박 화물을 실은 배가</text>
+<text x="66" y="506" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >적재항에서 출항하기 전</text>
+<text x="66" y="560" font-size="18" font-weight="800" fill="#7a5cc7" text-anchor="start" >신고 세관</text>
+<text x="66" y="592" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >입항예정지 관할</text>
+<text x="66" y="646" font-size="18" font-weight="800" fill="#7a5cc7" text-anchor="start" >수리 시점</text>
+<text x="66" y="678" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >적재화물목록 심사 완료 때</text>
+<rect x="448" y="366" width="390" height="358" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="448" y="366" width="390" height="8" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="4" />
+<text x="468" y="414" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start" >언제</text>
+<text x="468" y="446" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >적재항 출항 후,</text>
+<text x="468" y="476" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >입항(하선(기) 신고 시점) 전</text>
+<text x="468" y="560" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start" >신고 세관</text>
+<text x="468" y="592" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >입항예정지 관할</text>
+<text x="468" y="646" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start" >수리 시점</text>
+<text x="468" y="678" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >적재화물목록 심사 완료 때</text>
+<rect x="850" y="366" width="390" height="358" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="850" y="366" width="390" height="8" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="4" />
+<text x="870" y="414" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >언제</text>
+<text x="870" y="446" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >입항 후, 통관할 보세구역</text>
+<text x="870" y="476" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >(부두 밖 CY·CFS, 내륙통관기지</text>
+<text x="870" y="506" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >포함)에 도착하기 전</text>
+<text x="870" y="560" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >신고 세관</text>
+<text x="870" y="592" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >도착할 보세구역 관할</text>
+<text x="870" y="646" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >수리 시점</text>
+<text x="870" y="678" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >보세운송 도착보고 때</text>
+<text x="870" y="708" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >(하역절차 반입은 반입신고 때)</text>
+<rect x="1252" y="366" width="374" height="358" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="1252" y="366" width="374" height="8" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="4" />
+<text x="1272" y="414" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start" >언제</text>
+<text x="1272" y="446" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >보세구역에 장치한 뒤</text>
+<text x="1272" y="560" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start" >신고 세관</text>
+<text x="1272" y="592" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >장치된 보세구역 관할</text>
+<text x="1272" y="646" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start" >수리 시점</text>
+<text x="1272" y="678" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >심사 후</text>
+<rect x="40" y="770" width="1592" height="124" fill="#fff4ef" stroke="#f3c3b3" stroke-width="2" rx="12" />
+<text x="64" y="820" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >입항전수입신고는 입항 5일 전(항공기 1일 전)부터 · 세율 인상·새 수입요건 적용 예정 물품 등은 도착 후 신고</text>
+<text x="64" y="862" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start" >별표 1 보세구역에 반입된 물품은 반입일부터 30일 안에 신고 · 넘기면 과세가격의 최대 2% 가산세(500만원 한도)</text>
+</svg>

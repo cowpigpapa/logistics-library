@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">로드 서베이 6단계 (한 포워더의 가이드)</text>
+<line x1="392" y1="206.0" x2="414" y2="206.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="772" y1="206.0" x2="794" y2="206.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="975.0" y1="318" x2="975.0" y2="354" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="798" y1="470.0" x2="776" y2="470.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="418" y1="470.0" x2="396" y2="470.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="40" y="96" width="350" height="220" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="41.5" y="97.5" width="347" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="72" cy="126" r="18" fill="#1f6fd1"/>
+<text x="72" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="100" y="135" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">경로 선정</text>
+<text x="60" y="188.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">대안 경로 2~3개. 지도와 운행허가</text>
+<text x="60" y="213.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">시스템의 구조물 정보로 불가능한</text>
+<text x="60" y="239.12" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">경로를 거름</text>
+<rect x="420" y="96" width="350" height="220" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="421.5" y="97.5" width="347" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="452" cy="126" r="18" fill="#1f6fd1"/>
+<text x="452" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="480" y="135" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">도로 조사</text>
+<text x="440" y="188.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">도로 폭, 노면 강도·상태, 경사,</text>
+<text x="440" y="213.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">교통량과 시간대 통제</text>
+<rect x="800" y="96" width="350" height="220" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="801.5" y="97.5" width="347" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="832" cy="126" r="18" fill="#1f6fd1"/>
+<text x="832" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="860" y="135" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">교량·구조물 검토</text>
+<text x="820" y="188.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">상부 구조물 높이, 교량 하중, 진입</text>
+<text x="820" y="213.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">각도, 보강 필요 여부</text>
+<rect x="800" y="360" width="350" height="220" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="801.5" y="361.5" width="347" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="832" cy="390" r="18" fill="#1f6fd1"/>
+<text x="832" y="397.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="860" y="399" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">현장 점검·시뮬레이션</text>
+<text x="820" y="452.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">실측, 3D 시뮬레이션이나 시험</text>
+<text x="820" y="477.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">주행으로 회전 반경·진입로 폭과</text>
+<text x="820" y="503.12" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">경사·대기 공간 확인</text>
+<rect x="420" y="360" width="350" height="220" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<rect x="421.5" y="361.5" width="347" height="58" fill="#e8f5ee" rx="13"/>
+<circle cx="452" cy="390" r="18" fill="#1f8a5b"/>
+<text x="452" y="397.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<text x="480" y="399" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">허가·행정</text>
+<text x="440" y="452.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">국내는 처리 기한 5일·10일·25일. 교통</text>
+<text x="440" y="477.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">통제가 필요하면 경찰 지원 요청</text>
+<rect x="40" y="360" width="350" height="220" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<rect x="41.5" y="361.5" width="347" height="58" fill="#e8f5ee" rx="13"/>
+<circle cx="72" cy="390" r="18" fill="#1f8a5b"/>
+<text x="72" y="397.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+<text x="100" y="399" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">최종 경로·비상 계획</text>
+<text x="60" y="452.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">고장·통제·기상 악화 때 쓸 대체</text>
+<text x="60" y="477.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">경로와 정차 장소</text>
+<rect x="1200" y="96" width="432" height="220" fill="#f1f3f6" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="1216" y="160.55" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">누가</text>
+<text x="1216" y="192.25" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">중량물·특수화물 전문 운송사가</text>
+<text x="1216" y="216.55" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">직접 하거나 서베이 업체·검정인</text>
+<text x="1216" y="240.85000000000002" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">에게 맡김. 포워더는 포함 여부와</text>
+<text x="1216" y="265.15000000000003" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">보고서 수령을 확인</text>
+<rect x="1200" y="360" width="432" height="220" fill="#f1f3f6" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="1216" y="424.54999999999995" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">언제</text>
+<text x="1216" y="456.25" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">견적 때 개략 경로로 가능 여부</text>
+<text x="1216" y="480.55" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">→ 트레일러가 정해지면 정식 서베이</text>
+<text x="1216" y="504.85" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">→ 그다음 운행허가 신청</text>
+<text x="1216" y="529.15" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">(허가 신청서에 경로·제원을 적음)</text>
+<rect x="40" y="612" width="1592" height="288" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="16"/>
+<text x="70" y="656" font-size="23" font-weight="800" fill="#d9482b" text-anchor="start">다시 해야 할 때</text>
+<rect x="70" y="684" width="370" height="130" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="12"/>
+<text x="90" y="724" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">경로가 바뀔 때</text>
+<rect x="460" y="684" width="370" height="130" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="12"/>
+<text x="480" y="724" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">일정이 크게 밀릴 때</text>
+<text x="480" y="784" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">그사이 공사·덧씌우기·시설물 설치</text>
+<rect x="850" y="684" width="370" height="130" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="12"/>
+<text x="870" y="724" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">화물 치수나 트레일러가 바뀔 때</text>
+<text x="870" y="784" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">적재 높이가 달라짐</text>
+<rect x="1240" y="684" width="370" height="130" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="12"/>
+<text x="1260" y="724" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">계절·시간대가 바뀔 때</text>
+<text x="1260" y="784" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">통제 조건이 달라짐</text>
+<text x="70" y="860" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">같은 경로를 여러 번 쓰는 프로젝트 카고는 회차마다 바뀐 점이 없는지 확인합니다. 경험은 서베이를 대신하지 못합니다.</text>
+</svg>

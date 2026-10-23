@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">9·14·15항을 함께 읽는 순서</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">14항(국제 운송)과 15항(국내 창고·도로 운반)의 판단은 서로를 대신하지 못하므로 화물마다 따로 봅니다.</text>
+<rect x="40.0" y="124.0" width="780.0" height="230.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="56.0" y="161.8" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">1  14항: 운송에 필요한 정보</text>
+<text x="56.0" y="195.8" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">UN 번호와 등급이 있으면 국제 운송 위험물</text>
+<text x="56.0" y="228.8" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">"해당 없음"이어도 해양오염물질 표기를 확인</text>
+<text x="56.0" y="261.8" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">배터리·자석·드라이아이스 같은 물품형 위험물은</text>
+<text x="56.0" y="294.8" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">SDS에 드러나지 않을 수 있어 구성품 확인서를 받음</text>
+<rect x="852.0" y="124.0" width="780.0" height="230.0" fill="#fdece6" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="868.0" y="161.8" font-size="23" font-weight="800" fill="#e4572e" text-anchor="start">2  15항: 법적 규제현황</text>
+<text x="868.0" y="195.8" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물안전관리법란: "제4류 제○석유류"와 지정수량</text>
+<text x="868.0" y="228.8" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화학물질관리법란: 유해화학물질 분류</text>
+<text x="868.0" y="261.8" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">해외 SDS는 한국 법령란이 없는 것이 보통이므로</text>
+<text x="868.0" y="294.8" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">국내 보관이 있으면 국문 MSDS를 따로 받음</text>
+<line x1="430.0" y1="360.0" x2="700.0" y2="392.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<line x1="1242.0" y1="360.0" x2="972.0" y2="392.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="40.0" y="398.0" width="1592.0" height="170.0" fill="#fbf3dc" stroke="#c98a00" stroke-width="2.5" rx="12"/>
+<text x="56.0" y="435.9" font-size="23" font-weight="800" fill="#c98a00" text-anchor="start">3  두 결론이 달라도 정상일 수 있음: 한쪽을 근거로 다른 쪽을 고치지 않음</text>
+<rect x="70.0" y="462.0" width="740.0" height="82.0" fill="#ffffff" stroke="#c98a00" stroke-width="2" rx="10"/>
+<text x="92.0" y="512.0" font-size="21" font-weight="800" fill="#8a5f00" text-anchor="start">윤활유</text>
+<rect x="240.0" y="482.0" width="230.0" height="42.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2" rx="8"/>
+<text x="355.0" y="510.0" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="middle">14항 비어 있음</text>
+<rect x="490.0" y="482.0" width="300.0" height="42.0" fill="#fdece6" stroke="#e4572e" stroke-width="2" rx="8"/>
+<text x="640.0" y="510.0" font-size="17" font-weight="700" fill="#e4572e" text-anchor="middle">15항 제4석유류</text>
+<rect x="860.0" y="462.0" width="740.0" height="82.0" fill="#ffffff" stroke="#c98a00" stroke-width="2" rx="10"/>
+<text x="882.0" y="512.0" font-size="21" font-weight="800" fill="#8a5f00" text-anchor="start">리튬배터리</text>
+<rect x="1030.0" y="482.0" width="230.0" height="42.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2" rx="8"/>
+<text x="1145.0" y="510.0" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="middle">14항 Class 9</text>
+<rect x="1280.0" y="482.0" width="300.0" height="42.0" fill="#fdece6" stroke="#e4572e" stroke-width="2" rx="8"/>
+<text x="1430.0" y="510.0" font-size="17" font-weight="700" fill="#e4572e" text-anchor="middle">15항 위험물안전관리법 "해당 없음"</text>
+<line x1="836.0" y1="572.0" x2="836.0" y2="600.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="40.0" y="604.0" width="518.0" height="304.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="60.0" y="645.9" font-size="23" font-weight="800" fill="#1f8a5b" text-anchor="start">4  9항 인화점으로 직접 대조</text>
+<text x="60.0" y="679.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">15항이 비었거나 의심스러울 때</text>
+<text x="60.0" y="719.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">인화점 250℃ 미만 액체는</text>
+<text x="60.0" y="759.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">제4류 해당 여부를 확인</text>
+<text x="60.0" y="799.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">성분은 화관법 지정 여부를 따로</text>
+<rect x="577.0" y="604.0" width="518.0" height="304.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="597.0" y="645.9" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">5  수량을 계산</text>
+<text x="597.0" y="679.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">국제 운송: 포장물당 수량</text>
+<text x="597.0" y="719.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">(한정수량 여부)</text>
+<text x="597.0" y="759.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">국내 보관: 장소 전체의 품명별</text>
+<text x="597.0" y="799.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">총량과 지정수량의 배수</text>
+<rect x="1114.0" y="604.0" width="518.0" height="304.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="12"/>
+<text x="1134.0" y="645.9" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">6  판단이 서지 않으면 소관 기관</text>
+<text x="1134.0" y="679.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물안전관리법: 관할 소방서</text>
+<text x="1134.0" y="719.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">화관법: 화학물질안전원</text>
+<text x="1134.0" y="759.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">고압가스: 한국가스안전공사</text>
+<text x="1134.0" y="799.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">운송: 항공사·선사·검사기관</text>
+<text x="1132.0" y="892.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">류별이 갈리지 않으면 화주에게 위험물판정시험 결과서 요청</text>
+</svg>

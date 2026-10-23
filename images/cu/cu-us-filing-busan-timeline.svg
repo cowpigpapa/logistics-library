@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="30" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">부산 선적 예시로 본 미국행 AMS·ISF 기한</text>
+<rect x="30" y="120" width="240" height="210" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="48" y="156" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">11. 2.(월)</text>
+<text x="48" y="192" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">부킹 확정</text>
+<text x="48" y="222" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">B/L 번호·선명·항차를</text>
+<text x="48" y="252" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">미국 관세사에 전달</text>
+<text x="48" y="282" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">셀러에 ISF 정보 요청</text>
+<line x1="150" y1="332" x2="124" y2="458" stroke="#8a96a3" stroke-width="2"/>
+<circle cx="124" cy="470" r="9" fill="#1f6fd1"/>
+<rect x="278" y="120" width="240" height="210" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="296" y="156" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">11. 5.(목)</text>
+<text x="296" y="192" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">인보이스·패킹리스트</text>
+<text x="296" y="222" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">최종본 전달</text>
+<text x="296" y="252" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">관세사가 ISF 첫 전송</text>
+<text x="296" y="282" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">(요소 1~8)</text>
+<line x1="398" y1="332" x2="388" y2="458" stroke="#8a96a3" stroke-width="2"/>
+<circle cx="388" cy="470" r="9" fill="#1d2a3a"/>
+<rect x="526" y="120" width="240" height="210" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="544" y="156" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">11. 6.(금)</text>
+<text x="544" y="192" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">공장에서 적입 완료</text>
+<text x="544" y="222" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">적입 장소·적입자 전달</text>
+<text x="544" y="252" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">ISF 수정 전송</text>
+<line x1="646" y1="332" x2="476" y2="458" stroke="#8a96a3" stroke-width="2"/>
+<circle cx="476" cy="470" r="9" fill="#1d2a3a"/>
+<rect x="774" y="120" width="240" height="210" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="792" y="156" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">11. 9.(월)</text>
+<text x="792" y="192" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">선사 자체 서류·AMS</text>
+<text x="792" y="222" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">마감(예시 시각)</text>
+<text x="792" y="252" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">실제는 선사 공지 확인</text>
+<line x1="894" y1="332" x2="740" y2="458" stroke="#8a96a3" stroke-width="2"/>
+<circle cx="740" cy="470" r="9" fill="#1f6fd1"/>
+<rect x="1040" y="120" width="602" height="210" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1062" y="156" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">예시 조건</text>
+<text x="1062" y="192" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">부산신항 적재 시작 11. 12.(목) 08:00, 출항 20:00</text>
+<text x="1062" y="222" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">LA 도착 11. 24.(화) 06:00 PST</text>
+<text x="1062" y="252" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">40ft 1개 공장 적입, 포워더가 AMS 직접 전송</text>
+<text x="1062" y="282" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">미국 수입자의 관세사가 ISF 전송</text>
+<text x="1062" y="312" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">이 기간 KST는 PST보다 17시간 빠름</text>
+<line x1="60" y1="470" x2="1240" y2="470" stroke="#1d2a3a" stroke-width="4"/>
+<path d="M1240 470 l10 -14 l14 28 l14 -28 l14 28 l10 -14" fill="none" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="1302" y1="470" x2="1630" y2="470" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<text x="1271" y="504" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="middle">항해</text>
+<line x1="80" y1="463" x2="80" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="124" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">2</text>
+<line x1="168" y1="463" x2="168" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="212" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">3</text>
+<line x1="256" y1="463" x2="256" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="300" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">4</text>
+<line x1="344" y1="463" x2="344" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="388" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">5</text>
+<line x1="432" y1="463" x2="432" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="476" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">6</text>
+<line x1="520" y1="463" x2="520" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="564" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">7</text>
+<line x1="608" y1="463" x2="608" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="652" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">8</text>
+<line x1="696" y1="463" x2="696" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="740" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">9</text>
+<line x1="784" y1="463" x2="784" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="828" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">10</text>
+<line x1="872" y1="463" x2="872" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="916" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">11</text>
+<line x1="960" y1="463" x2="960" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1004" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">12</text>
+<line x1="1048" y1="463" x2="1048" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1092" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">13</text>
+<line x1="1136" y1="463" x2="1136" y2="477" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1180" y="498" font-size="17" font-weight="600" fill="#8a96a3" text-anchor="middle">14</text>
+<circle cx="989" cy="470" r="9" fill="#1f8a5b"/><circle cx="1033" cy="470" r="9" fill="#1f8a5b"/>
+<text x="1011" y="406" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">적재 08:00 · 출항 20:00</text>
+<path d="M901 452 v-8 h88 v8" fill="none" stroke="#d9482b" stroke-width="3"/>
+<text x="945" y="436" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">24시간</text>
+<circle cx="1209" cy="470" r="9" fill="#1f8a5b"/>
+<circle cx="1380" cy="470" r="10" fill="#d9482b"/>
+<circle cx="1580" cy="470" r="10" fill="#1f8a5b"/>
+<text x="1630" y="406" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="end">LA 도착 11. 24. 23:00 (06:00 PST)</text>
+<path d="M1380 452 v-8 h200 v8" fill="none" stroke="#d9482b" stroke-width="3"/>
+<text x="1480" y="436" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">24시간</text>
+<circle cx="901" cy="470" r="11" fill="#d9482b"/>
+<line x1="901" y1="482" x2="901" y2="520" stroke="#d9482b" stroke-width="3"/>
+<rect x="660" y="520" width="360" height="170" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="680" y="556" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">법정 마감 11. 11.(수) 08:00</text>
+<text x="680" y="590" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">AMS House·Master 자료</text>
+<text x="680" y="618" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">ISF 요소 1~8</text>
+<text x="680" y="650" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">= 11. 10.(화) 15:00 PST</text>
+<text x="680" y="676" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">적재 시작 24시간 전</text>
+<line x1="1209" y1="482" x2="1209" y2="520" stroke="#1f8a5b" stroke-width="3"/>
+<rect x="1036" y="520" width="236" height="170" fill="#f1f8f4" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="1054" y="556" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">11. 14.(토) 20:00</text>
+<text x="1054" y="590" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">Stow plan 마감</text>
+<text x="1054" y="620" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">출항 후 48시간</text>
+<text x="1054" y="648" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">(부산이 마지막 외국항)</text>
+<text x="1054" y="676" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">선사</text>
+<line x1="1380" y1="482" x2="1380" y2="520" stroke="#d9482b" stroke-width="3"/>
+<rect x="1288" y="520" width="354" height="170" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="1306" y="556" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">최종 마감 11. 23.(월) 23:00</text>
+<text x="1306" y="590" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">ISF 요소 9·10</text>
+<text x="1306" y="618" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">범위로 보낸 요소 마무리</text>
+<text x="1306" y="650" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">= 11. 23.(월) 06:00 PST</text>
+<text x="1306" y="676" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">도착 24시간 전</text>
+<rect x="30" y="520" width="610" height="300" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="52" y="558" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">시간 계산</text>
+<text x="52" y="596" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">적재 11. 12. 08:00 KST − 24시간</text>
+<text x="52" y="626" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">= 11. 11. 08:00 KST = 11. 10. 23:00 UTC</text>
+<text x="52" y="656" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">= 11. 10. 15:00 PST</text>
+<text x="52" y="700" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">미국 서부 관세사 근무 09:00~18:00 PST</text>
+<text x="52" y="730" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">= 한국 시각 다음 날 02:00~11:00</text>
+<text x="52" y="768" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">한국 토요일 11:00 이후에 넘긴 자료는</text>
+<text x="52" y="796" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">미국 월요일 근무시간까지 처리되지 않을 수 있음</text>
+<rect x="660" y="712" width="982" height="108" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="682" y="752" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">모든 시각은 KST. 선사 마감은 법정 기한보다 앞서는 경우가 많음</text>
+<text x="682" y="786" font-size="19" font-weight="600" fill="#d9482b" text-anchor="start">Do Not Load가 오면 해당 컨테이너는 실을 수 없음</text>
+<text x="40" y="880" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">●</text>
+<text x="62" y="880" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">포워더 일정</text>
+<text x="200" y="880" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">●</text>
+<text x="222" y="880" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">셀러·관세사</text>
+<text x="360" y="880" font-size="18" font-weight="700" fill="#d9482b" text-anchor="start">●</text>
+<text x="382" y="880" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">법정 마감</text>
+<text x="500" y="880" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">●</text>
+<text x="522" y="880" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">선박 일정·선사</text>
+<text x="700" y="880" font-size="18" font-weight="600" fill="#8a96a3" text-anchor="start">축 아래 숫자는 11월 날짜(KST), 항해 구간은 줄여 그림</text>
+</svg>

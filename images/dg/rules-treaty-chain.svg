@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">조약에서 국내법으로: 한국이 받아들인 경로</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">한국에서 법적 의무가 되는 것은 한국이 당사국인 조약의 규칙을 국내 법률과 하위 규정으로 옮긴 부분입니다.</text>
+<text x="375.0" y="146.0" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="middle">조약(한국의 지위)</text>
+<text x="730.0" y="146.0" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="middle">국제 기술규칙</text>
+<text x="1085.0" y="146.0" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="middle">한국 법률</text>
+<text x="1461.0" y="146.0" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="middle">시행규칙·고시</text>
+<rect x="40.0" y="170.0" width="150.0" height="170.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="115.0" y="263.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">항공</text>
+<rect x="210.0" y="170.0" width="330.0" height="170.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="230.0" y="204.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">시카고협약 부속서 18</text>
+<text x="230.0" y="229.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">「위험물의 안전한 항공운송」</text>
+<text x="230.0" y="254.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">(1952년 가입)</text>
+<line x1="544.0" y1="255.0" x2="576.0" y2="255.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="580.0" y="170.0" width="300.0" height="170.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="600.0" y="204.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">ICAO 기술지침</text>
+<text x="600.0" y="230.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">(Doc 9284)</text>
+<line x1="884.0" y1="255.0" x2="916.0" y2="255.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="920.0" y="170.0" width="330.0" height="170.0" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="10"/>
+<text x="940.0" y="204.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">항공안전법</text>
+<text x="940.0" y="229.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">제70조 위험물 운송</text>
+<text x="940.0" y="254.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">제71조 포장·용기 검사</text>
+<text x="940.0" y="279.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">제72조 교육</text>
+<line x1="1254.0" y1="255.0" x2="1286.0" y2="255.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="1290.0" y="170.0" width="342.0" height="170.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="1310.0" y="204.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">시행규칙 제209조~제212조</text>
+<text x="1310.0" y="229.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">항공위험물운송기술기준</text>
+<text x="1310.0" y="254.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">(국토교통부고시)</text>
+<rect x="40.0" y="358.0" width="150.0" height="120.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="115.0" y="413.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">해상</text>
+<text x="115.0" y="439.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">(안전)</text>
+<rect x="210.0" y="358.0" width="330.0" height="120.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="230.0" y="392.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">SOLAS 협약 제VII장</text>
+<text x="230.0" y="417.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">(1981년 발효)</text>
+<line x1="544.0" y1="418.0" x2="576.0" y2="418.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="580.0" y="358.0" width="300.0" height="120.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="600.0" y="392.0" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start">IMDG Code</text>
+<line x1="884.0" y1="418.0" x2="916.0" y2="418.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="920.0" y="358.0" width="330.0" height="120.0" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="10"/>
+<text x="940.0" y="392.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">선박안전법</text>
+<text x="940.0" y="417.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">제41조·제41조의2(교육)</text>
+<line x1="1254.0" y1="418.0" x2="1286.0" y2="418.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="1290.0" y="358.0" width="342.0" height="120.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="1310.0" y="392.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물 선박운송 및 저장규칙</text>
+<text x="1310.0" y="417.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물 선박운송 기준(고시)</text>
+<rect x="40.0" y="496.0" width="150.0" height="120.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="115.0" y="551.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">해상</text>
+<text x="115.0" y="577.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">(오염)</text>
+<rect x="210.0" y="496.0" width="330.0" height="120.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="230.0" y="530.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">MARPOL 73/78 부속서 III</text>
+<text x="230.0" y="555.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">(1996년 발효)</text>
+<line x1="544.0" y1="556.0" x2="576.0" y2="556.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="580.0" y="496.0" width="300.0" height="120.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="600.0" y="530.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">IMDG Code</text>
+<text x="600.0" y="556.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">(해양오염물질 규정)</text>
+<line x1="884.0" y1="556.0" x2="916.0" y2="556.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="920.0" y="496.0" width="330.0" height="120.0" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="10"/>
+<text x="940.0" y="530.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">해양환경관리법</text>
+<text x="940.0" y="555.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">제29조 포장유해물질 운송</text>
+<line x1="1254.0" y1="556.0" x2="1286.0" y2="556.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="1290.0" y="496.0" width="342.0" height="120.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="1310.0" y="530.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">해양수산부령, 저장규칙의</text>
+<text x="1310.0" y="555.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">해양오염물질 표시 규정</text>
+<rect x="40.0" y="634.0" width="150.0" height="112.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="115.0" y="698.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">도로</text>
+<rect x="210.0" y="634.0" width="330.0" height="112.0" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10" stroke-dasharray="7 5"/>
+<text x="230.0" y="668.0" font-size="18" font-weight="600" fill="#d9482b" text-anchor="start">ADR</text>
+<text x="230.0" y="693.0" font-size="18" font-weight="600" fill="#d9482b" text-anchor="start">한국은 당사국 아님</text>
+<line x1="560.0" y1="690.0" x2="900.0" y2="690.0" stroke="#d9482b" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="730.0" y="680.0" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">조약에 뿌리를 두지 않은 국내법</text>
+<rect x="920.0" y="634.0" width="330.0" height="112.0" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="10"/>
+<text x="940.0" y="668.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">위험물안전관리법</text>
+<text x="940.0" y="693.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">제20·21·28조 등 국내법</text>
+<line x1="1254.0" y1="690.0" x2="1286.0" y2="690.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="1290.0" y="634.0" width="342.0" height="112.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="1310.0" y="668.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">각 법의 시행령·시행규칙</text>
+<rect x="40.0" y="764.0" width="150.0" height="112.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="115.0" y="828.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">철도</text>
+<rect x="210.0" y="764.0" width="330.0" height="112.0" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10" stroke-dasharray="7 5"/>
+<text x="230.0" y="798.0" font-size="18" font-weight="600" fill="#d9482b" text-anchor="start">COTIF 부록 C(RID)</text>
+<text x="230.0" y="823.0" font-size="18" font-weight="600" fill="#d9482b" text-anchor="start">한국은 체약국 아님</text>
+<line x1="560.0" y1="820.0" x2="900.0" y2="820.0" stroke="#d9482b" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="730.0" y="810.0" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">조약에 뿌리를 두지 않은 국내법</text>
+<rect x="920.0" y="764.0" width="330.0" height="112.0" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="10"/>
+<text x="940.0" y="798.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">철도안전법</text>
+<text x="940.0" y="823.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">제44조·제44조의3(교육)</text>
+<line x1="1254.0" y1="820.0" x2="1286.0" y2="820.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="1290.0" y="764.0" width="342.0" height="112.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="1310.0" y="798.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">철도안전법 시행령·시행규칙</text>
+<rect x="580.0" y="286.0" width="300.0" height="54.0" fill="#fff8e6" stroke="#c98a00" stroke-width="2" rx="8" stroke-dasharray="5 4"/>
+<text x="594.0" y="308.0" font-size="15" font-weight="600" fill="#8a5f00" text-anchor="start">IATA DGR: 민간 규정(현장 매뉴얼).</text>
+<text x="594.0" y="328.0" font-size="15" font-weight="600" fill="#8a5f00" text-anchor="start">항공사가 접수 조건으로 요구</text>
+<text x="40.0" y="916.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">헌법 제6조: 체결·공포된 조약은 국내법과 같은 효력. 다만 화주·포워더가 직접 따르는 의무와 제재는 국내 법률과 하위 규정이 정합니다.</text>
+</svg>

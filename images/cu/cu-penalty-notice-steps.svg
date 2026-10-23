@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="m1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">과태료 사전통지를 받은 뒤: 20일 안에 고르는 길이 결과를 정한다</text>
+<rect x="60" y="170" width="220" height="112" fill="#f1f4f7" stroke="#5f6b78" stroke-width="2.5" rx="10" />
+<text x="170.0" y="206.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">① 위반 확인·조사</text>
+<text x="170.0" y="233.0" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">사업장 검사는 원칙적으로</text>
+<text x="170.0" y="260.0" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">7일 전 통지</text>
+<line x1="284" y1="226" x2="316" y2="226" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="320" y="162" width="230" height="128" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2.5" rx="10" />
+<text x="435.0" y="192.5" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">② 사전통지</text>
+<text x="435.0" y="219.5" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">고지서 금액은</text>
+<text x="435.0" y="246.5" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">자진납부 감경을</text>
+<text x="435.0" y="273.5" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">적용한 금액</text>
+<line x1="554" y1="226" x2="590" y2="226" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="594" y="104" width="520" height="296" fill="#fff7e0" stroke="#b7791f" stroke-width="2.5" rx="14" stroke-dasharray="9 6"/>
+<text x="616" y="140" font-size="20" font-weight="800" fill="#b7791f" text-anchor="start">통지일부터 20일 안 (의견제출 기한)</text>
+<rect x="616" y="160" width="476" height="100" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="10" />
+<text x="854.0" y="203.5" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">④ 자진납부</text>
+<text x="854.0" y="230.5" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">부과될 과태료의 20% 범위에서 감경</text>
+<rect x="616" y="280" width="476" height="100" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="10" />
+<text x="854.0" y="323.5" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">③ 의견제출</text>
+<text x="854.0" y="350.5" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">서면(전자문서 포함)이나 말로, 증거를 붙여서</text>
+<line x1="1096" y1="210" x2="1166" y2="210" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<rect x="1170" y="160" width="442" height="100" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="10" />
+<text x="1391.0" y="203.5" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">납부하면 절차 종결</text>
+<text x="1391.0" y="230.5" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">의견제출·이의제기는 더 할 수 없음</text>
+<line x1="1096" y1="330" x2="1166" y2="330" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m1f6fd1)"/>
+<rect x="1170" y="280" width="442" height="100" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2.5" rx="10" />
+<text x="1391.0" y="323.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">상당한 이유가 있으면</text>
+<text x="1391.0" y="350.5" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">부과하지 않거나 통지 내용을 변경</text>
+<path d="M854 384 L854 430 L210 430 L210 476" stroke="#1d2a3a" stroke-width="3" fill="none" marker-end="url(#m1d2a3a)"/>
+<text x="880" y="422" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">의견에 이유가 없거나 기한까지 아무것도 하지 않으면</text>
+<rect x="60" y="480" width="300" height="130" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2.5" rx="10" />
+<text x="210.0" y="525.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">⑤ 부과통지</text>
+<text x="210.0" y="552.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">자진납부 감경을 뺀 금액</text>
+<text x="210.0" y="579.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">이의제기서 서식 동봉</text>
+<path d="M364 520 L404 520 L404 488 L430 488" stroke="#1d2a3a" stroke-width="3" fill="none" marker-end="url(#m1d2a3a)"/>
+<path d="M364 570 L404 570 L404 600 L430 600" stroke="#1d2a3a" stroke-width="3" fill="none" marker-end="url(#m1d2a3a)"/>
+<rect x="434" y="458" width="340" height="62" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5" rx="10" />
+<text x="604.0" y="496.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">납부: 받은 날부터 30일 안</text>
+<rect x="434" y="568" width="340" height="64" fill="#fdeeea" stroke="#d9482b" stroke-width="2.5" rx="10" />
+<text x="604.0" y="607.0" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">⑥ 이의제기: 받은 날부터 60일 안, 서면</text>
+<line x1="778" y1="600" x2="812" y2="600" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="816" y="562" width="240" height="76" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="10" />
+<text x="936.0" y="593.5" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">부과처분은</text>
+<text x="936.0" y="620.5" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">효력을 잃음</text>
+<line x1="1060" y1="600" x2="1094" y2="600" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="1098" y="562" width="240" height="76" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="10" />
+<text x="1218.0" y="593.5" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">⑦ 세관이 14일 안에</text>
+<text x="1218.0" y="620.5" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">법원에 통보</text>
+<line x1="1342" y1="600" x2="1376" y2="600" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="1380" y="554" width="232" height="92" fill="#fdeeea" stroke="#d9482b" stroke-width="2.5" rx="10" />
+<text x="1496.0" y="580.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">과태료 재판</text>
+<text x="1496.0" y="607.0" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">약식재판은 고지받은</text>
+<text x="1496.0" y="634.0" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">날부터 7일 안 이의신청</text>
+<text x="434" y="668" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">법원 통보 사실을 통지받기 전까지는 이의제기를 철회할 수 있습니다.</text>
+<text x="60" y="750" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">⑧ 내지 않으면</text>
+<rect x="240" y="716" width="220" height="56" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5" rx="10" />
+<text x="350.0" y="751.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">가산금 3%</text>
+<line x1="464" y1="744" x2="500" y2="744" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="506" y="716" width="420" height="56" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5" rx="10" />
+<text x="716.0" y="751.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">이후 1개월마다 1.2% (최대 60개월)</text>
+<line x1="930" y1="744" x2="966" y2="744" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="972" y="716" width="330" height="56" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5" rx="10" />
+<text x="1137.0" y="751.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">체납처분, 관허사업 제한 등</text>
+<text x="1352" y="752" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">징수유예 신청 가능(법정 사유)</text>
+<text x="60" y="840" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">부과 제척기간: 위반행위가 끝난 날부터 5년. 확정된 과태료도 5년간 징수하지 않으면 시효로 소멸합니다.</text>
+<text x="60" y="868" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">의견을 내고 결과를 기다리다 20일이 지나면 자진납부 감경 없이 부과통지를 받을 수 있습니다(재통지는 세관장 재량).</text>
+</svg>

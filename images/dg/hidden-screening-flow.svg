@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">숨은 위험물을 거르는 두 번의 기회</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">견적·부킹 서류 단계가 가장 싼 시점이고, 놓친 화물은 창고·CFS 반입 때 외관으로 한 번 더 걸러냅니다.</text>
+<rect x="30.0" y="116.0" width="1612.0" height="316.0" fill="#f5f8fd" stroke="#1f6fd1" stroke-width="2" rx="16"/>
+<text x="54.0" y="152.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">A. 견적·부킹 서류 단계</text>
+<text x="330.0" y="152.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">포워더: 화물을 열지 않고 화주 서류로 판단</text>
+<rect x="54.0" y="176.0" width="238.0" height="232.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<circle cx="84.0" cy="208.0" r="17.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="84.0" y="214.8" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="110.0" y="215.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">품명·HS 코드</text>
+<text x="72.0" y="268.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">"AUTO PARTS", "샘플"</text>
+<text x="72.0" y="302.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">같은 일반 품명,</text>
+<text x="72.0" y="336.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">HS 2710·3208·8507 등</text>
+<line x1="294.0" y1="292.0" x2="314.0" y2="292.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="316.0" y="176.0" width="238.0" height="232.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<circle cx="346.0" cy="208.0" r="17.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="346.0" y="214.8" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="372.0" y="215.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">키워드 점검</text>
+<text x="334.0" y="268.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">battery, aerosol,</text>
+<text x="334.0" y="302.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">flammable, 충전식,</text>
+<text x="334.0" y="336.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">뭉뚱그린 품명</text>
+<line x1="556.0" y1="292.0" x2="576.0" y2="292.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="578.0" y="176.0" width="238.0" height="232.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<circle cx="608.0" cy="208.0" r="17.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="608.0" y="214.8" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="634.0" y="215.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">서류 받기</text>
+<text x="596.0" y="268.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">SDS, UN 38.3·Wh,</text>
+<text x="596.0" y="302.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">품목별 목록·사진,</text>
+<text x="596.0" y="336.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">비위험물 확인서</text>
+<line x1="818.0" y1="292.0" x2="838.0" y2="292.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="840.0" y="176.0" width="238.0" height="232.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<circle cx="870.0" cy="208.0" r="17.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="870.0" y="214.8" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="896.0" y="215.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">서로 대조</text>
+<text x="858.0" y="268.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">제품명·모델·수량·</text>
+<text x="858.0" y="302.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">UN 번호가 맞는가,</text>
+<text x="858.0" y="336.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">다르면 정정 요청</text>
+<line x1="1094.0" y1="292.0" x2="1096.0" y2="292.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<path d="M 1170 222 L 1244 292 L 1170 362 L 1096 292 Z" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="1170.0" y="299.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">위험물?</text>
+<rect x="1294.0" y="128.0" width="330.0" height="88.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="1305.0" y="156.1" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">5  위험물로 부킹</text>
+<text x="1305.0" y="183.5" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">DGD·위험물 명세서, 무역항</text>
+<text x="1305.0" y="204.5" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">반입 신고자에게 위험물 통지</text>
+<rect x="1294.0" y="224.0" width="330.0" height="88.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1305.0" y="252.1" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">품목별 근거가 있는 확인서</text>
+<text x="1305.0" y="279.5" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">받아 두고 일반 부킹</text>
+<text x="1305.0" y="300.5" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">(분류 책임은 화주에게 남음)</text>
+<rect x="1294.0" y="322.0" width="330.0" height="88.0" fill="#fbf3dc" stroke="#c98a00" stroke-width="2.5" rx="12"/>
+<text x="1305.0" y="350.1" font-size="18" font-weight="800" fill="#c98a00" text-anchor="start">부킹 확정 보류</text>
+<text x="1305.0" y="377.5" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">어긋남이 풀릴 때까지</text>
+<text x="1305.0" y="398.5" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">개별 품목 서류 보완 요구</text>
+<line x1="1170.0" y1="222.0" x2="1290.0" y2="172.0" stroke="#d9482b" stroke-width="2.5" marker-end="url(#a-red)"/>
+<line x1="1244.0" y1="292.0" x2="1290.0" y2="292.0" stroke="#1f8a5b" stroke-width="2.5" marker-end="url(#a-green)"/>
+<line x1="1170.0" y1="362.0" x2="1290.0" y2="366.0" stroke="#c98a00" stroke-width="2.5" marker-end="url(#a-amber)"/>
+<text x="1214.0" y="196.0" font-size="16" font-weight="800" fill="#d9482b" text-anchor="start">예</text>
+<text x="1247.0" y="283.0" font-size="14" font-weight="800" fill="#1f8a5b" text-anchor="start">아니오</text>
+<text x="1196.0" y="392.0" font-size="16" font-weight="800" fill="#8a5f00" text-anchor="start">의심</text>
+<line x1="160.0" y1="432.0" x2="160.0" y2="482.0" stroke="#d9482b" stroke-width="3" marker-end="url(#a-red)"/>
+<text x="176.0" y="466.0" font-size="16" font-weight="800" fill="#d9482b" text-anchor="start">서류 단계에서 놓친 위험물</text>
+<rect x="30.0" y="488.0" width="1612.0" height="420.0" fill="#fdf7f2" stroke="#e4572e" stroke-width="2" rx="16"/>
+<text x="54.0" y="524.0" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">B. 창고·CFS 반입 단계</text>
+<text x="330.0" y="524.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">창고·CFS 작업자와 반입 담당자. 보세구역은 운영인의 법적 의무</text>
+<rect x="54.0" y="548.0" width="300.0" height="336.0" fill="#fdece6" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="70.0" y="583.0" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">입고 예정 정보 대조</text>
+<text x="70.0" y="613.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">의심 품명·화학제품·</text>
+<text x="70.0" y="645.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">배터리 제품·혼재·이삿짐을</text>
+<text x="70.0" y="677.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">미리 표시</text>
+<text x="70.0" y="709.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">담당 포워더에게 SDS·</text>
+<text x="70.0" y="741.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">확인서 여부를 물음</text>
+<line x1="356.0" y1="716.0" x2="384.0" y2="716.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="388.0" y="548.0" width="330.0" height="336.0" fill="#fdece6" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="404.0" y="583.0" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">하차 때 외관 신호</text>
+<text x="404.0" y="613.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">운송 라벨·UN 번호·배터리 마크</text>
+<text x="404.0" y="645.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">GHS 그림문자, 재사용 박스 옛 라벨</text>
+<text x="404.0" y="677.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">냄새·연기·열(냄새에 의존 금지)</text>
+<text x="404.0" y="709.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">누액·얼룩·부풂</text>
+<text x="404.0" y="741.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">실린더·캔·배터리 팩 모양</text>
+<text x="404.0" y="773.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너 외부 경고 표지</text>
+<line x1="720.0" y1="716.0" x2="748.0" y2="716.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="752.0" y="548.0" width="280.0" height="164.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<circle cx="780.0" cy="580.0" r="15.0" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="780.0" y="585.8" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="804.0" y="587.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">멈춘다</text>
+<text x="770.0" y="638.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">하차·이동·적입 중지</text>
+<text x="770.0" y="668.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">누액·연기·열이면 사람 먼저</text>
+<rect x="1044.0" y="548.0" width="280.0" height="164.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<circle cx="1072.0" cy="580.0" r="15.0" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1072.0" y="585.8" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="1096.0" y="587.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">떼어 놓는다</text>
+<text x="1062.0" y="638.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">열원·다른 화물과 분리</text>
+<text x="1062.0" y="668.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">보류 표시, 열거나 재포장 금지</text>
+<rect x="1336.0" y="548.0" width="280.0" height="164.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<circle cx="1364.0" cy="580.0" r="15.0" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1364.0" y="585.8" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="1388.0" y="587.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">보고한다</text>
+<text x="1354.0" y="638.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">창고 책임자·담당 포워더</text>
+<text x="1354.0" y="668.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">보세구역은 운영인→세관장</text>
+<rect x="752.0" y="720.0" width="280.0" height="164.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<circle cx="780.0" cy="752.0" r="15.0" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="780.0" y="757.8" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="804.0" y="759.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">확인 요청</text>
+<text x="770.0" y="810.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">포워더가 화주에게</text>
+<text x="770.0" y="840.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">SDS·목록·사진 요청</text>
+<rect x="1044.0" y="720.0" width="280.0" height="164.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<circle cx="1072.0" cy="752.0" r="15.0" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1072.0" y="757.8" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="1096.0" y="759.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">싣지 않는다</text>
+<text x="1062.0" y="810.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">확인될 때까지 출고·</text>
+<text x="1062.0" y="840.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">적입·빌드업 보류</text>
+<rect x="1336.0" y="720.0" width="280.0" height="164.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<circle cx="1364.0" cy="752.0" r="15.0" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1364.0" y="757.8" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="1388.0" y="759.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">기록한다</text>
+<text x="1354.0" y="810.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">사진, 시각·장소·발견자,</text>
+<text x="1354.0" y="840.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">연락 내역, 처리 결과</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="m1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="m5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="930" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">끝에서 본 모습: 40ft 플랫랙 위 예시 화물</text>
+<line x1="70" y1="870" x2="900" y2="870" stroke="#1d2a3a" stroke-width="3"/>
+<rect x="320.9" y="790" width="358.2" height="34" fill="#d7dde5" stroke="#7d8da3" stroke-width="2" rx="4"/>
+<text x="500" y="814" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">샤시</text>
+<circle cx="350" cy="850" r="20" fill="#3b4552"/>
+<circle cx="400" cy="850" r="20" fill="#3b4552"/>
+<circle cx="600" cy="850" r="20" fill="#3b4552"/>
+<circle cx="650" cy="850" r="20" fill="#3b4552"/>
+<rect x="310.9" y="689.095" width="378.2" height="100.90499999999997" fill="#c5d3e8" stroke="#2f5aa8" stroke-width="3" rx="2"/>
+<text x="500" y="746.5475" font-size="18" font-weight="700" fill="#2f5aa8" text-anchor="middle">플랫랙 바닥 구조</text>
+<rect x="370" y="673.595" width="60" height="15.5" fill="#b07a43" stroke="#7a5228" stroke-width="1.5"/>
+<rect x="570" y="673.595" width="60" height="15.5" fill="#b07a43" stroke="#7a5228" stroke-width="1.5"/>
+<rect x="267.5" y="239.59500000000003" width="465.0" height="434.0" fill="#f2e3cf" stroke="#a8743a" stroke-width="3" rx="4"/>
+<rect x="267.5" y="239.59500000000003" width="43.400000000000006" height="434.0" fill="#d9482b" opacity="0.2"/>
+<rect x="689.1" y="239.59500000000003" width="43.400000000000006" height="434.0" fill="#d9482b" opacity="0.2"/>
+<rect x="310.9" y="239.59500000000003" width="378.2" height="148.8" fill="#d9482b" opacity="0.2"/>
+<rect x="310.9" y="338.795" width="378.2" height="350.3" fill="none" stroke="#1f8a5b" stroke-width="2" stroke-dasharray="4 6"/>
+<rect x="310.9" y="388.39500000000004" width="378.2" height="300.7" fill="none" stroke="#1f6fd1" stroke-width="3" stroke-dasharray="10 7"/>
+<text x="500" y="444.595" font-size="22" font-weight="800" fill="#7a5228" text-anchor="middle">예시 화물</text>
+<text x="500" y="474.595" font-size="18" font-weight="600" fill="#7a5228" text-anchor="middle">폭 3,000 × 높이 2,800</text>
+<text x="500" y="500.595" font-size="18" font-weight="600" fill="#7a5228" text-anchor="middle">중량 28,000kg</text>
+<line x1="267.5" y1="209.59500000000003" x2="732.5" y2="209.59500000000003" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#m1d2a3a)" marker-start="url(#m1d2a3a)"/>
+<text x="500" y="197.59500000000003" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">화물 폭 3,000</text>
+<line x1="267.5" y1="239.59500000000003" x2="267.5" y2="203.59500000000003" stroke="#5f6b78" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="732.5" y1="239.59500000000003" x2="732.5" y2="203.59500000000003" stroke="#5f6b78" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="289.2" y="599.595" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">280</text>
+<text x="710.8" y="599.595" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">280</text>
+<text x="500" y="631.095" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="middle">in-gauge 폭 2,440</text>
+<line x1="314.9" y1="649.095" x2="685.1" y2="649.095" stroke="#1f6fd1" stroke-width="2" marker-end="url(#m1f6fd1)" marker-start="url(#m1f6fd1)"/>
+<text x="500" y="275.595" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">오버하이트</text>
+<line x1="782.5" y1="689.095" x2="782.5" y2="388.39500000000004" stroke="#1f6fd1" stroke-width="2.5" marker-end="url(#m1f6fd1)" marker-start="url(#m1f6fd1)"/>
+<text x="794.5" y="538.745" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">1,940</text>
+<text x="794.5" y="560.745" font-size="15" font-weight="600" fill="#1f6fd1" text-anchor="start">일반 플랫랙</text>
+<text x="794.5" y="580.745" font-size="15" font-weight="600" fill="#1f6fd1" text-anchor="start">in-gauge 높이</text>
+<line x1="782.5" y1="388.39500000000004" x2="782.5" y2="239.59500000000003" stroke="#d9482b" stroke-width="2.5" marker-end="url(#md9482b)" marker-start="url(#md9482b)"/>
+<text x="794.5" y="273.595" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">960 초과</text>
+<line x1="689.1" y1="338.795" x2="922.5" y2="338.795" stroke="#1f8a5b" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="794.5" y="360.795" font-size="15" font-weight="700" fill="#1f8a5b" text-anchor="start">하이큐브 2,260</text>
+<text x="794.5" y="378.795" font-size="15" font-weight="700" fill="#1f8a5b" text-anchor="start">→ 640 초과</text>
+<text x="794.5" y="750" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">가는 점선: in-gauge 범위</text>
+<text x="794.5" y="772" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">붉은 칸: 기준을 넘는 부분</text>
+<line x1="177.5" y1="790" x2="177.5" y2="689.095" stroke="#5f6b78" stroke-width="2" marker-end="url(#m5f6b78)" marker-start="url(#m5f6b78)"/>
+<text x="167.5" y="745.5475" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="end">약 651</text>
+<line x1="177.5" y1="689.095" x2="177.5" y2="239.59500000000003" stroke="#5f6b78" stroke-width="2" marker-end="url(#m5f6b78)" marker-start="url(#m5f6b78)"/>
+<text x="167.5" y="464.345" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="end">2,900</text>
+<text x="167.5" y="486.345" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="end">받침목 100</text>
+<text x="167.5" y="504.345" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="end">포함</text>
+<line x1="177.5" y1="870" x2="177.5" y2="790" stroke="#5f6b78" stroke-width="2" marker-end="url(#m5f6b78)" marker-start="url(#m5f6b78)"/>
+<text x="167.5" y="837.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="end">h</text>
+<line x1="161.5" y1="239.59500000000003" x2="267.5" y2="239.59500000000003" stroke="#5f6b78" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="161.5" y1="790" x2="310.9" y2="790" stroke="#5f6b78" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="161.5" y1="689.095" x2="310.9" y2="689.095" stroke="#5f6b78" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="980" y="30" width="662" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="1004" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">계산 (단위 mm, 6절 예시)</text>
+<rect x="1004" y="97" width="614" height="40" fill="#fdeee9" rx="8"/>
+<text x="1018" y="124" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">선사에 신고할 값</text>
+<text x="1018" y="172" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">① 오버와이드</text>
+<text x="1186" y="172" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">3,000 − 2,440 = 560 → 좌우 각 280</text>
+<text x="1018" y="214" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">② 바닥 위 높이</text>
+<text x="1186" y="214" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">2,800 + 100(받침목) = 2,900</text>
+<text x="1018" y="256" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">③ 오버하이트</text>
+<text x="1186" y="256" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">2,900 − 1,940 = 960 (하이큐브 640)</text>
+<rect x="1004" y="283" width="614" height="40" fill="#eaf2fc" rx="8"/>
+<text x="1018" y="310" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">운송사와 함께 볼 값</text>
+<text x="1018" y="358" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">④ 바닥 높이 어림</text>
+<text x="1186" y="358" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">2,591 − 1,940 = 약 651</text>
+<text x="1018" y="400" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">⑤ 도로 높이</text>
+<text x="1186" y="400" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">h + 651 + 2,900 = h + 3,551</text>
+<text x="1186" y="442" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">4,000 이하가 되려면 h ≤ 449</text>
+<text x="1018" y="484" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">⑥ 도로 폭</text>
+<text x="1186" y="484" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">3,000 &gt; 2,500 → 운행허가 대상</text>
+<text x="1018" y="526" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">⑦ 도로 총중량</text>
+<text x="1186" y="526" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">9 + 5 + 5.2 + 28 = 47.2t &gt; 40t</text>
+<text x="1018" y="568" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">⑧ 허가 기준표</text>
+<text x="1186" y="568" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">6축 이상 48t · 5축 45.2t까지</text>
+<text x="1186" y="610" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(가장 먼 축간거리 13.0m 이상 14.0m 미만)</text>
+<text x="1004" y="670" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">컨테이너 샤시 상면 높이는 대체로 449mm보다 높아 4.0m를 넘기 쉽습니다. 트랙터</text>
+<text x="1004" y="695" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">9t·샤시 5t·플랫랙 5.2t은 대표값·공개 사양이고, 실제 장비 값으로 다시</text>
+<text x="1004" y="720" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">계산합니다.</text>
+</svg>

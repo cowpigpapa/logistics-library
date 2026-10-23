@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="mb7791f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#b7791f"/></marker><marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">받은 서류 이름부터 확인: 세 제재는 정하는 사람, 기한, 다투는 길이 다르다</text>
+<rect x="60" y="100" width="1552" height="240" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="14" />
+<rect x="60" y="100" width="300" height="240" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2" rx="14" />
+<text x="84" y="150" font-size="26" font-weight="800" fill="#1f6fd1" text-anchor="start">가산세</text>
+<text x="84" y="188" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">세금(관세의 세목)</text>
+<text x="84" y="228" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">세관장이 세액과 함께 징수</text>
+<rect x="392" y="140" width="240" height="104" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2" rx="10" />
+<text x="512.0" y="199.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">과세전통지</text>
+<line x1="636" y1="192" x2="702" y2="192" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m1f6fd1)"/>
+<text x="669.0" y="174" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="middle">30일 안</text>
+<rect x="708" y="140" width="240" height="104" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2" rx="10" />
+<text x="828.0" y="185.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">과세전적부심사</text>
+<text x="828.0" y="212.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">청구</text>
+<line x1="952" y1="192" x2="1018" y2="192" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m1f6fd1)"/>
+<rect x="1024" y="140" width="240" height="104" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2" rx="10" />
+<text x="1144.0" y="185.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">가산세 포함</text>
+<text x="1144.0" y="212.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">납부고지</text>
+<line x1="1268" y1="192" x2="1334" y2="192" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m1f6fd1)"/>
+<text x="1301.0" y="174" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="middle">90일 안</text>
+<rect x="1340" y="140" width="240" height="104" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2" rx="10" />
+<text x="1460.0" y="185.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">이의신청·심사청구</text>
+<text x="1460.0" y="212.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">·심판청구</text>
+<text x="392" y="322" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">내지 않으면 체납 관세와 같이 징수</text>
+<rect x="60" y="370" width="1552" height="240" fill="#ffffff" stroke="#b7791f" stroke-width="2" rx="14" />
+<rect x="60" y="370" width="300" height="240" fill="#fff7e0" stroke="#b7791f" stroke-width="2" rx="14" />
+<text x="84" y="420" font-size="26" font-weight="800" fill="#b7791f" text-anchor="start">과태료</text>
+<text x="84" y="458" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">행정질서벌</text>
+<text x="84" y="498" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">세관장 (질서위반행위규제법 절차)</text>
+<rect x="392" y="410" width="240" height="104" fill="#fff7e0" stroke="#b7791f" stroke-width="2" rx="10" />
+<text x="512.0" y="469.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">사전통지</text>
+<line x1="636" y1="462" x2="702" y2="462" stroke="#b7791f" stroke-width="4" marker-end="url(#mb7791f)"/>
+<text x="669.0" y="444" font-size="18" font-weight="800" fill="#b7791f" text-anchor="middle">20일 안</text>
+<rect x="708" y="410" width="240" height="104" fill="#fff7e0" stroke="#b7791f" stroke-width="2" rx="10" />
+<text x="828.0" y="455.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">의견제출 또는</text>
+<text x="828.0" y="482.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">자진납부(20% 감경)</text>
+<line x1="952" y1="462" x2="1018" y2="462" stroke="#b7791f" stroke-width="4" marker-end="url(#mb7791f)"/>
+<rect x="1024" y="410" width="240" height="104" fill="#fff7e0" stroke="#b7791f" stroke-width="2" rx="10" />
+<text x="1144.0" y="455.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">부과통지</text>
+<text x="1144.0" y="482.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">(납부 30일)</text>
+<line x1="1268" y1="462" x2="1334" y2="462" stroke="#b7791f" stroke-width="4" marker-end="url(#mb7791f)"/>
+<text x="1301.0" y="444" font-size="18" font-weight="800" fill="#b7791f" text-anchor="middle">60일 안</text>
+<rect x="1340" y="410" width="240" height="104" fill="#fff7e0" stroke="#b7791f" stroke-width="2" rx="10" />
+<text x="1460.0" y="455.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">이의제기 →</text>
+<text x="1460.0" y="482.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">법원 과태료 재판</text>
+<text x="392" y="592" font-size="19" font-weight="600" fill="#b7791f" text-anchor="start">감경된 금액을 내면 절차가 끝나 이의제기를 할 수 없음</text>
+<rect x="60" y="640" width="1552" height="240" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="14" />
+<rect x="60" y="640" width="300" height="240" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="14" />
+<text x="84" y="690" font-size="26" font-weight="800" fill="#d9482b" text-anchor="start">벌금·통고처분</text>
+<text x="84" y="728" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">형벌</text>
+<text x="84" y="768" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">벌금은 법원,</text>
+<text x="84" y="794" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">통고처분은 관세청장·세관장</text>
+<rect x="392" y="680" width="240" height="104" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="10" />
+<text x="512.0" y="725.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">세관 조사</text>
+<text x="512.0" y="752.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">(관세범)</text>
+<line x1="636" y1="732" x2="702" y2="732" stroke="#d9482b" stroke-width="4" marker-end="url(#md9482b)"/>
+<rect x="708" y="680" width="240" height="104" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="10" />
+<text x="828.0" y="725.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">통고서</text>
+<text x="828.0" y="752.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">(벌금 최고액의 30%)</text>
+<line x1="952" y1="732" x2="1018" y2="732" stroke="#d9482b" stroke-width="4" marker-end="url(#md9482b)"/>
+<text x="985.0" y="714" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">15일 안</text>
+<rect x="1024" y="680" width="240" height="104" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="10" />
+<text x="1144.0" y="725.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">이행하면 종결</text>
+<text x="1144.0" y="752.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">(다시 처벌받지 않음)</text>
+<rect x="1340" y="680" width="240" height="104" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="10" />
+<text x="1460.0" y="725.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">이행 안 하면</text>
+<text x="1460.0" y="752.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">고발 → 형사재판</text>
+<path d="M828.0 786 L828.0 806 L1460.0 806 L1460.0 790" stroke="#d9482b" stroke-width="3" fill="none" marker-end="url(#md9482b)" stroke-dasharray="7 5"/>
+<text x="1144.0" y="834" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">15일이 지나도록 이행하지 않으면</text>
+<text x="392" y="862" font-size="19" font-weight="600" fill="#d9482b" text-anchor="start">통고처분은 관세법상 이의신청·심사청구 대상이 아님</text>
+</svg>

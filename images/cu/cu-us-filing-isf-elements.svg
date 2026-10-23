@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="30" y="64" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">ISF 10+2: 요소별로 누가 정보를 갖고 있나</text>
+<circle cx="905" cy="56" r="11" fill="#d9482b"/>
+<text x="924" y="63" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">적재 24시간 전</text>
+<circle cx="1085" cy="56" r="11" fill="#1f6fd1"/>
+<text x="1104" y="63" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">늦어도 미국 도착 24시간 전</text>
+<circle cx="1385" cy="56" r="11" fill="#1f8a5b"/>
+<text x="1404" y="63" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">선사가 보내는 +2</text>
+<rect x="30" y="100" width="520" height="690" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="144" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">한국 셀러</text>
+<text x="54" y="174" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">인보이스 발행인 · 공장 정보</text>
+<rect x="576" y="100" width="520" height="690" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="600" y="144" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">미국 수입자 · 관세사</text>
+<text x="600" y="174" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">포워더는 3·4에 관여하지 않음</text>
+<rect x="1122" y="100" width="520" height="690" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="1146" y="144" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">적입한 쪽 · 선사</text>
+<text x="1146" y="174" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">셀러(FCL) 또는 포워더·CFS(LCL)</text>
+<rect x="45" y="194" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="85" cy="234" r="25" fill="#d9482b"/>
+<text x="85" y="242" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="127" y="232" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">판매자(Seller)</text>
+<text x="127" y="262" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">물건을 판 마지막 알려진 자</text>
+<text x="127" y="290" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">→ 인보이스 발행인과 같은지 확인</text>
+<rect x="45" y="340" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="85" cy="380" r="25" fill="#d9482b"/>
+<text x="85" y="388" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="127" y="378" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">구매자(Buyer)</text>
+<text x="127" y="408" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">셀러·미국 수입자 모두 보유</text>
+<text x="127" y="436" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">→ 인보이스의 Buyer와 대조</text>
+<rect x="45" y="486" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="85" cy="526" r="25" fill="#d9482b"/>
+<text x="85" y="534" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="127" y="524" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">제조자(또는 공급자)</text>
+<text x="127" y="554" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">마지막으로 제조·조립한 자</text>
+<text x="127" y="582" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">→ 무역회사 셀러면 공장 주소 따로 받음</text>
+<rect x="45" y="632" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="85" cy="672" r="25" fill="#d9482b"/>
+<text x="85" y="680" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="127" y="670" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">원산지</text>
+<text x="127" y="700" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">셀러 자료, 최종 판단은 미국 관세사</text>
+<text x="127" y="728" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">→ 셀러 자료를 바꾸지 않고 전달</text>
+<rect x="591" y="194" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="631" cy="234" r="25" fill="#d9482b"/>
+<text x="631" y="242" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="673" y="232" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">수입자 번호(IOR)</text>
+<text x="673" y="262" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">관세 납부 책임자의 IRS 번호 등</text>
+<text x="673" y="290" font-size="18" font-weight="700" fill="#8a96a3" text-anchor="start">미국 측이 직접 입력</text>
+<rect x="591" y="340" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="631" cy="380" r="25" fill="#d9482b"/>
+<text x="631" y="388" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="673" y="378" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">수하인 번호</text>
+<text x="673" y="408" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">자기 계산으로 받는 미국 내 자의 번호</text>
+<text x="673" y="436" font-size="18" font-weight="700" fill="#8a96a3" text-anchor="start">미국 측이 직접 입력</text>
+<rect x="591" y="486" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="631" cy="526" r="25" fill="#d9482b"/>
+<text x="631" y="534" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="673" y="524" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">인도처(Ship to party)</text>
+<text x="673" y="554" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">반출 뒤 처음 실제로 받을 자</text>
+<text x="673" y="582" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">→ House B/L Consignee·Notify와 대조</text>
+<rect x="591" y="632" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="631" cy="672" r="25" fill="#d9482b"/>
+<text x="631" y="680" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">8</text>
+<text x="673" y="670" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">HS 번호(HTSUS)</text>
+<text x="673" y="700" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">미국 관세사, 셀러 HS 코드는 참고</text>
+<text x="673" y="728" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">→ 품목별 HS 6단위를 받아 전달</text>
+<rect x="1137" y="194" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="1177" cy="234" r="25" fill="#1f6fd1"/>
+<text x="1177" y="242" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">9</text>
+<text x="1219" y="232" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">컨테이너 적입 장소</text>
+<text x="1219" y="262" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">실제로 컨테이너에 넣은 시설</text>
+<text x="1219" y="290" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">→ 적입 끝나면 장소·운영자 전달</text>
+<rect x="1137" y="340" width="490" height="112" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="1177" cy="380" r="25" fill="#1f6fd1"/>
+<text x="1177" y="388" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">10</text>
+<text x="1219" y="378" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">적입자(Consolidator)</text>
+<text x="1219" y="408" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">적입했거나 적입을 주선한 자</text>
+<text x="1219" y="436" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">→ LCL이면 적입 주선 콘솔사 확인</text>
+<line x1="1146" y1="476" x2="1618" y2="476" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="1146" y="516" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">+2 운항 선사</text>
+<rect x="1137" y="536" width="490" height="100" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="1177" cy="576" r="25" fill="#1f8a5b"/>
+<text x="1177" y="584" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">+2</text>
+<text x="1219" y="574" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Stow plan</text>
+<text x="1219" y="604" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">마지막 외국항 출항 후 48시간 이내</text>
+<rect x="1137" y="652" width="490" height="100" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="1177" cy="692" r="25" fill="#1f8a5b"/>
+<text x="1177" y="700" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">+2</text>
+<text x="1219" y="690" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">컨테이너 상태 메시지(CSM)</text>
+<text x="1219" y="720" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">장비 추적 시스템 입력 후 24시간 이내</text>
+<rect x="30" y="806" width="1612" height="104" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="846" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">한국 포워더: 셀러 서류로 재료를 모아 House B/L 번호와 함께 미국 관세사에 넘기고, 적입 직후 9·10을 전달</text>
+<text x="54" y="882" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">ISF는 AMS에 올라간 가장 낮은 단계 B/L(대개 House B/L) 번호로 연결 · 파란 글씨는 한국 포워더가 할 일</text>
+</svg>

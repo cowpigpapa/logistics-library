@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+  <marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+  <marker id="m1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+  <marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+  <marker id="me4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30.0" y="30.0" width="1612.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56.0" y="80.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">CITES 부속서 I·II·III: 어떤 서류가 먼저 있어야 하나</text>
+<text x="56.0" y="114.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">종 전체와 모든 부분·파생물이 같은 부속서에 속합니다(부속서 II·III 식물 등은 주석으로 범위를 좁힘)</text>
+<rect x="56.0" y="146.0" width="506.0" height="456.0" fill="#fdecea" stroke="#d9482b" stroke-width="2.5" rx="14"/>
+<text x="78.0" y="190.0" font-size="28" font-weight="800" fill="#d9482b" text-anchor="start">부속서 I</text>
+<text x="78.0" y="222.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">멸종위기에 처한 종</text>
+<text x="78.0" y="252.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">호랑이, 아시아코끼리, 천산갑 8종,</text>
+<text x="78.0" y="274.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">브라질자단, 목향</text>
+<rect x="583.0" y="146.0" width="506.0" height="456.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2.5" rx="14"/>
+<text x="605.0" y="190.0" font-size="28" font-weight="800" fill="#e4572e" text-anchor="start">부속서 II</text>
+<text x="605.0" y="222.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">규제하지 않으면 멸종위기가 될 수 있는 종</text>
+<text x="605.0" y="252.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">철갑상어목, 악어목, 비단뱀과, 돌산호목,</text>
+<text x="605.0" y="274.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">난초과, 자단속, 침향속</text>
+<rect x="1110.0" y="146.0" width="506.0" height="456.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<text x="1132.0" y="190.0" font-size="28" font-weight="800" fill="#1f6fd1" text-anchor="start">부속서 III</text>
+<text x="1132.0" y="222.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">한 당사국이 협력을 요청한 종</text>
+<text x="1132.0" y="252.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">중국이 등재한 붉은산호</text>
+<text x="1132.0" y="274.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">(Corallium japonicum) 등</text>
+<text x="78.0" y="330.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">수입 쪽이 먼저</text>
+<rect x="78.0" y="346.0" width="200.0" height="64.0" fill="#fff" stroke="#d9482b" stroke-width="2.5" rx="8"/>
+<text x="178.0" y="377.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">수입국 수입허가</text>
+<text x="178.0" y="399.0" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="middle">한국: 환경청 허가</text>
+<line x1="282.0" y1="378.0" x2="324.0" y2="378.0" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="332.0" y="346.0" width="200.0" height="64.0" fill="#fff" stroke="#d9482b" stroke-width="2.5" rx="8"/>
+<text x="432.0" y="377.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">수출국 수출허가</text>
+<text x="432.0" y="399.0" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="middle">수입허가 사본 첨부</text>
+<text x="78.0" y="452.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">주로 상업적 목적으로 이용되지</text>
+<text x="78.0" y="478.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">않을 것이 수입 조건이라 일반</text>
+<text x="78.0" y="504.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">상거래로는 사실상 들여올 수 없음</text>
+<text x="78.0" y="556.0" font-size="16" font-weight="800" fill="#d9482b" text-anchor="start">외국에서 얻은 것은 휴대품·이삿짐도 면제 안 됨</text>
+<text x="605.0" y="330.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">수출 쪽이 먼저</text>
+<rect x="605.0" y="346.0" width="200.0" height="64.0" fill="#fff" stroke="#e4572e" stroke-width="2.5" rx="8"/>
+<text x="705.0" y="377.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="middle">수출국 수출허가서</text>
+<text x="705.0" y="399.0" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="middle">또는 재수출증명서</text>
+<line x1="809.0" y1="378.0" x2="851.0" y2="378.0" stroke="#e4572e" stroke-width="3" marker-end="url(#me4572e)"/>
+<rect x="859.0" y="346.0" width="200.0" height="64.0" fill="#fff" stroke="#e4572e" stroke-width="2.5" rx="8"/>
+<text x="959.0" y="377.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="middle">한국 수입허가</text>
+<text x="959.0" y="399.0" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="middle">유역(지방)환경청</text>
+<text x="605.0" y="452.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">수출허가서 사본을 내고</text>
+<text x="605.0" y="478.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">종의 생존에 위협이 없을 것</text>
+<text x="605.0" y="560.0" font-size="15" font-weight="700" fill="#e4572e" text-anchor="start">철갑상어·악어·비단뱀·난초는 일부 종이 I</text>
+<text x="1132.0" y="330.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">어디서 오느냐에 따라</text>
+<text x="1132.0" y="378.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">등재국에서</text>
+<line x1="1292.0" y1="372.0" x2="1346.0" y2="372.0" stroke="#1f6fd1" stroke-width="3" marker-end="url(#m1f6fd1)"/>
+<rect x="1354.0" y="346.0" width="240.0" height="50.0" fill="#fff" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
+<text x="1474.0" y="377.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">수출허가서</text>
+<text x="1132.0" y="444.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">그 밖의 나라에서</text>
+<line x1="1292.0" y1="438.0" x2="1346.0" y2="438.0" stroke="#1f6fd1" stroke-width="3" marker-end="url(#m1f6fd1)"/>
+<rect x="1354.0" y="412.0" width="240.0" height="50.0" fill="#fff" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
+<text x="1474.0" y="443.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">원산지증명서</text>
+<text x="1132.0" y="510.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">재수출국에서</text>
+<line x1="1292.0" y1="504.0" x2="1346.0" y2="504.0" stroke="#1f6fd1" stroke-width="3" marker-end="url(#m1f6fd1)"/>
+<rect x="1354.0" y="478.0" width="240.0" height="50.0" fill="#fff" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
+<text x="1474.0" y="509.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">재수출증명서</text>
+<rect x="56.0" y="622.0" width="1560.0" height="258.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="80.0" y="664.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">한국에서는</text>
+<rect x="80.0" y="686.0" width="354.2" height="38.0" fill="#fff" stroke="#1d2a3a" stroke-width="1.5" rx="19.0"/>
+<text x="257.1" y="711.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">유역(지방)환경청 허가(야생생물법 제16조)</text>
+<line x1="440.2" y1="705.0" x2="468.2" y2="705.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="476.2" y="686.0" width="306.3" height="38.0" fill="#fff" stroke="#1d2a3a" stroke-width="1.5" rx="19.0"/>
+<text x="629.4" y="711.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">세관장확인: 수입허가증·수출허가증</text>
+<line x1="788.5" y1="705.0" x2="816.5" y2="705.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="824.5" y="686.0" width="69.3" height="38.0" fill="#fff" stroke="#1d2a3a" stroke-width="1.5" rx="19.0"/>
+<text x="859.2" y="711.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">통관</text>
+<text x="80.0" y="770.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">· 같은 속이라도 개체군에 따라 부속서가 갈립니다(사향노루속, 아프리카코끼리). 학명과 원산지를 함께 봅니다.</text>
+<text x="80.0" y="802.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">· 견본·전시품·무상 물품도 면제가 아니고, 세관장확인도 생략되지 않습니다.</text>
+<text x="80.0" y="834.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">· 허가 없이 수출입하면 3년 이하 징역 또는 300만원 이상 3천만원 이하 벌금, 들여온 물품은 몰수(제68조·제71조).</text>
+</svg>

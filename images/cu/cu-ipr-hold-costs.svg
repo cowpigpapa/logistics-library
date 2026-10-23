@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+  <marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+  <marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+
+<!-- Panel A -->
+<rect x="30" y="30" width="520" height="750" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a">① 보류 중에도 쌓이는 비용</text>
+<!-- warehouse -->
+<polygon points="56,170 112,132 168,170" fill="#c9d2dc" stroke="#5f6b78" stroke-width="2"/>
+<rect x="62" y="170" width="100" height="72" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<rect x="96" y="200" width="32" height="42" fill="#5f6b78"/>
+<text x="188" y="186" font-size="22" font-weight="800" fill="#1d2a3a">보세창고 보관료</text>
+<text x="188" y="218" font-size="19" font-weight="600" fill="#5f6b78">창고와의 계약 · 창고 요율</text>
+<!-- container -->
+<rect x="58" y="292" width="108" height="64" fill="#dce8f8" stroke="#1f6fd1" stroke-width="2"/>
+<g stroke="#1f6fd1" stroke-width="2"><line x1="76" y1="296" x2="76" y2="352"/><line x1="94" y1="296" x2="94" y2="352"/><line x1="112" y1="296" x2="112" y2="352"/><line x1="130" y1="296" x2="130" y2="352"/><line x1="148" y1="296" x2="148" y2="352"/></g>
+<text x="188" y="318" font-size="22" font-weight="800" fill="#1d2a3a">선사 Demurrage·Detention</text>
+<text x="188" y="350" font-size="19" font-weight="600" fill="#5f6b78">B/L 약관 · 선사 tariff</text>
+<line x1="290" y1="380" x2="290" y2="438" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<rect x="60" y="448" width="460" height="86" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="290" y="484" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">화물 쪽(화주)이</text>
+<text x="290" y="516" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">계약에 따라 부담</text>
+<text x="60" y="594" font-size="21" font-weight="800" fill="#d9482b">세관의 보류라는 사정만으로</text>
+<text x="60" y="626" font-size="21" font-weight="800" fill="#d9482b">계약상 요금이 멈추지 않음</text>
+<text x="60" y="686" font-size="19" font-weight="600" fill="#5f6b78">보관 장소: 세관장이 지정한 장소</text>
+<text x="60" y="716" font-size="19" font-weight="600" fill="#5f6b78">보관료를 누가 내는지는</text>
+<text x="60" y="744" font-size="19" font-weight="600" fill="#5f6b78">관세법·시행령·고시에 없음</text>
+
+<!-- Panel B -->
+<rect x="576" y="30" width="520" height="750" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="600" y="72" font-size="26" font-weight="800" fill="#1d2a3a">② 반송으로 빠져나갈 수 없음</text>
+<rect x="620" y="104" width="432" height="76" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="648" y="152" font-size="24" font-weight="800" fill="#1d2a3a">반송 · 신고취하</text>
+<circle cx="1000" cy="142" r="30" fill="#d9482b"/>
+<text x="1000" y="150" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">불가</text>
+<text x="620" y="228" font-size="21" font-weight="800" fill="#1d2a3a">침해 여부 확인 중이거나</text>
+<text x="620" y="260" font-size="21" font-weight="800" fill="#1d2a3a">침해물품이면 할 수 없음</text>
+<text x="620" y="296" font-size="20" font-weight="500" fill="#1d2a3a">조사의뢰되면 사건이 끝날 때까지</text>
+<text x="620" y="334" font-size="18" font-weight="600" fill="#5f6b78">예외: 국내 반입 의도가 없었음을 증명하고</text>
+<text x="620" y="360" font-size="18" font-weight="600" fill="#5f6b78">침해 부분을 제거한 경우</text>
+<!-- growing bars -->
+<line x1="630" y1="640" x2="1050" y2="640" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="650" y="610" width="56" height="30" fill="#9fb6d6"/><rect x="650" y="590" width="56" height="20" fill="#e4572e"/>
+<rect x="730" y="580" width="56" height="60" fill="#9fb6d6"/><rect x="730" y="540" width="56" height="40" fill="#e4572e"/>
+<rect x="810" y="550" width="56" height="90" fill="#9fb6d6"/><rect x="810" y="490" width="56" height="60" fill="#e4572e"/>
+<rect x="890" y="520" width="56" height="120" fill="#9fb6d6"/><rect x="890" y="440" width="56" height="80" fill="#e4572e"/>
+<text x="1050" y="672" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="end">보류 기간 →</text>
+<rect x="970" y="420" width="18" height="18" fill="#9fb6d6"/><text x="996" y="436" font-size="18" font-weight="600" fill="#1d2a3a">보관료</text>
+<rect x="970" y="450" width="18" height="18" fill="#e4572e"/><text x="996" y="466" font-size="18" font-weight="600" fill="#1d2a3a">D&amp;D</text>
+<text x="620" y="716" font-size="21" font-weight="800" fill="#d9482b">보류가 길어지면 보관료와</text>
+<text x="620" y="748" font-size="21" font-weight="800" fill="#d9482b">Demurrage가 그대로 늘어남</text>
+
+<!-- Panel C -->
+<rect x="1122" y="30" width="520" height="750" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="1146" y="72" font-size="26" font-weight="800" fill="#1d2a3a">③ 나중에 되찾는 길</text>
+<rect x="1146" y="100" width="472" height="318" fill="#f1f8f4" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="1170" y="140" font-size="23" font-weight="800" fill="#1f8a5b">권리자가 낸 담보에서</text>
+<rect x="1170" y="162" width="130" height="56" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="1235" y="198" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">수입자</text>
+<line x1="1304" y1="190" x2="1352" y2="190" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<rect x="1360" y="162" width="234" height="56" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="1477" y="198" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">법원 손해배상 판결</text>
+<text x="1170" y="262" font-size="20" font-weight="600" fill="#1d2a3a">부당한 보류였다면 판결을 받아</text>
+<text x="1170" y="292" font-size="20" font-weight="600" fill="#1d2a3a">권리자의 담보에서 배상받음</text>
+<text x="1170" y="342" font-size="19" font-weight="600" fill="#5f6b78">보관료·Demurrage도 손해로 다툴 수</text>
+<text x="1170" y="370" font-size="19" font-weight="600" fill="#5f6b78">있지만 자동 정산이 아니라 소송 필요</text>
+<rect x="1146" y="438" width="472" height="318" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="1170" y="478" font-size="23" font-weight="800" fill="#d9482b">국가배상은 어려움</text>
+<text x="1170" y="520" font-size="20" font-weight="600" fill="#1d2a3a">세관 공무원의 선의 조치에</text>
+<text x="1170" y="550" font-size="20" font-weight="600" fill="#1d2a3a">고의·중대한 과실이 없으면</text>
+<text x="1170" y="580" font-size="20" font-weight="600" fill="#1d2a3a">배상책임 없음 (고시 제7조)</text>
+<text x="1170" y="632" font-size="19" font-weight="600" fill="#5f6b78">통관보류처분이 행정소송에서</text>
+<text x="1170" y="660" font-size="19" font-weight="600" fill="#5f6b78">취소됐어도 국가배상을 부정한 판결</text>
+<text x="1170" y="688" font-size="19" font-weight="600" fill="#5f6b78">대법원 2001. 3. 13. 선고 2000다20731</text>
+
+<!-- bottom -->
+<rect x="30" y="802" width="1612" height="108" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="846" font-size="22" font-weight="800" fill="#1d2a3a">순서: 화주가 계약대로 먼저 낸다 → 부당한 보류였다면 소송으로 권리자 담보에서 되찾는다</text>
+<text x="54" y="884" font-size="20" font-weight="600" fill="#5f6b78">포워더가 선사·창고에 먼저 지급하는 구조라면 화주와의 계약에 보류·폐기 비용 부담 조항을 넣어 둔다</text>
+</svg>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">같은 수출 화물이 구간마다 만나는 기준</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">구간이 바뀔 때마다 "이 화물이 위험물인가"를 판단하는 기준 자체가 바뀝니다.</text>
+<path d="M 46 150 L 46 136 L 326 136 L 326 150" fill="none" stroke="#8a96a3" stroke-width="3"/>
+<text x="186.0" y="126.0" font-size="18" font-weight="800" fill="#8a96a3" text-anchor="middle">물질의 등록·유해성</text>
+<path d="M 363 150 L 363 136 L 960 136 L 960 150" fill="none" stroke="#e4572e" stroke-width="3"/>
+<text x="661.5" y="126.0" font-size="18" font-weight="800" fill="#e4572e" text-anchor="middle">국내 물질법: 유별·품명·지정수량</text>
+<path d="M 997 150 L 997 136 L 1277 136 L 1277 150" fill="none" stroke="#c98a00" stroke-width="3"/>
+<text x="1137.0" y="126.0" font-size="18" font-weight="800" fill="#c98a00" text-anchor="middle">두 기준이 겹침</text>
+<path d="M 1314 150 L 1314 136 L 1594 136 L 1594 150" fill="none" stroke="#1f6fd1" stroke-width="3"/>
+<text x="1454.0" y="126.0" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="middle">국제 기준: UN 번호·등급</text>
+<rect x="40.0" y="164.0" width="292.0" height="466.0" fill="#ffffff" stroke="#8a96a3" stroke-width="2.5" rx="14"/>
+<rect x="40.0" y="164.0" width="292.0" height="58.0" fill="#eef1f4" stroke="none" stroke-width="0" rx="14"/>
+<rect x="40.0" y="204.0" width="292.0" height="18.0" fill="#eef1f4" stroke="none" stroke-width="0" rx="0"/>
+<line x1="40.0" y1="222.0" x2="332.0" y2="222.0" stroke="#8a96a3" stroke-width="2"/>
+<circle cx="70.0" cy="193.0" r="17.0" fill="#5f6b78" stroke="none" stroke-width="2"/>
+<text x="70.0" y="199.8" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="96.0" y="201.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">제조·수입</text>
+<text x="56.0" y="256.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">적용 법령</text>
+<text x="56.0" y="282.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화평법, 산업안전보건법,</text>
+<text x="56.0" y="308.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화관법</text>
+<text x="56.0" y="346.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">판단 기준</text>
+<text x="56.0" y="372.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">물질의 유해성</text>
+<text x="56.0" y="398.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">(등록·지정 여부), GHS 분류</text>
+<text x="56.0" y="436.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">실무에서 묻는 질문</text>
+<text x="56.0" y="462.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">SDS가 있는가,</text>
+<text x="56.0" y="488.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">유해화학물질로 지정된</text>
+<text x="56.0" y="514.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">성분이 있는가</text>
+<line x1="335.0" y1="397.0" x2="354.0" y2="397.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="357.0" y="164.0" width="292.0" height="466.0" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="14"/>
+<rect x="357.0" y="164.0" width="292.0" height="58.0" fill="#fdece6" stroke="none" stroke-width="0" rx="14"/>
+<rect x="357.0" y="204.0" width="292.0" height="18.0" fill="#fdece6" stroke="none" stroke-width="0" rx="0"/>
+<line x1="357.0" y1="222.0" x2="649.0" y2="222.0" stroke="#e4572e" stroke-width="2"/>
+<circle cx="387.0" cy="193.0" r="17.0" fill="#e4572e" stroke="none" stroke-width="2"/>
+<text x="387.0" y="199.8" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="413.0" y="201.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">창고 보관</text>
+<text x="373.0" y="256.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">적용 법령</text>
+<text x="373.0" y="282.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물안전관리법 제4·5조,</text>
+<text x="373.0" y="308.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화관법(보관·저장업),</text>
+<text x="373.0" y="334.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">고압가스법(저장소),</text>
+<text x="373.0" y="360.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화재예방법(특수가연물)</text>
+<text x="373.0" y="398.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">판단 기준</text>
+<text x="373.0" y="424.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">별표 1의 품명과 지정수량.</text>
+<text x="373.0" y="450.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">품명이 여럿이면 배수 합산</text>
+<text x="373.0" y="488.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">실무에서 묻는 질문</text>
+<text x="373.0" y="514.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">창고 전체에 어떤 품명이</text>
+<text x="373.0" y="540.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">몇 L·kg 있는가</text>
+<line x1="652.0" y1="397.0" x2="671.0" y2="397.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="674.0" y="164.0" width="292.0" height="466.0" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="14"/>
+<rect x="674.0" y="164.0" width="292.0" height="58.0" fill="#fdece6" stroke="none" stroke-width="0" rx="14"/>
+<rect x="674.0" y="204.0" width="292.0" height="18.0" fill="#fdece6" stroke="none" stroke-width="0" rx="0"/>
+<line x1="674.0" y1="222.0" x2="966.0" y2="222.0" stroke="#e4572e" stroke-width="2"/>
+<circle cx="704.0" cy="193.0" r="17.0" fill="#e4572e" stroke="none" stroke-width="2"/>
+<text x="704.0" y="199.8" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="730.0" y="201.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">도로 운송</text>
+<text x="690.0" y="256.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">적용 법령</text>
+<text x="690.0" y="282.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물안전관리법 제20·21조,</text>
+<text x="690.0" y="308.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화관법 제13·15조,</text>
+<text x="690.0" y="334.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">고압가스법 제22조,</text>
+<text x="690.0" y="360.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">물류정책기본법 제29조의2</text>
+<text x="690.0" y="398.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">판단 기준</text>
+<text x="690.0" y="424.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">물질별 법의 운반 기준.</text>
+<text x="690.0" y="450.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">지정수량 이상 운반 시</text>
+<text x="690.0" y="476.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">운전자 자격·교육</text>
+<text x="690.0" y="514.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">실무에서 묻는 질문</text>
+<text x="690.0" y="540.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">운반용기·표시·혼재가</text>
+<text x="690.0" y="566.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">맞는가, 운전자 요건은</text>
+<line x1="969.0" y1="397.0" x2="988.0" y2="397.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="991.0" y="164.0" width="292.0" height="466.0" fill="#ffffff" stroke="#c98a00" stroke-width="2.5" rx="14"/>
+<rect x="991.0" y="164.0" width="292.0" height="58.0" fill="#fbf3dc" stroke="none" stroke-width="0" rx="14"/>
+<rect x="991.0" y="204.0" width="292.0" height="18.0" fill="#fbf3dc" stroke="none" stroke-width="0" rx="0"/>
+<line x1="991.0" y1="222.0" x2="1283.0" y2="222.0" stroke="#c98a00" stroke-width="2"/>
+<circle cx="1021.0" cy="193.0" r="17.0" fill="#c98a00" stroke="none" stroke-width="2"/>
+<text x="1021.0" y="199.8" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="1047.0" y="201.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">항만·공항 터미널</text>
+<text x="1007.0" y="256.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">적용 법령</text>
+<text x="1007.0" y="282.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물안전관리법</text>
+<text x="1007.0" y="308.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">(육상 저장 구간),</text>
+<text x="1007.0" y="334.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물 선박운송 및</text>
+<text x="1007.0" y="360.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">저장규칙 제213조</text>
+<text x="1007.0" y="398.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">판단 기준</text>
+<text x="1007.0" y="424.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">국내 저장 기준과</text>
+<text x="1007.0" y="450.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">국제 운송 신고가</text>
+<text x="1007.0" y="476.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">함께 걸림</text>
+<text x="1007.0" y="514.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">실무에서 묻는 질문</text>
+<text x="1007.0" y="540.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">국내 저장 수량과</text>
+<text x="1007.0" y="566.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">IMDG 위험물 신고를</text>
+<text x="1007.0" y="592.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">둘 다 챙겼는가</text>
+<line x1="1286.0" y1="397.0" x2="1305.0" y2="397.0" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="1308.0" y="164.0" width="292.0" height="466.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="1308.0" y="164.0" width="292.0" height="58.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="14"/>
+<rect x="1308.0" y="204.0" width="292.0" height="18.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="0"/>
+<line x1="1308.0" y1="222.0" x2="1600.0" y2="222.0" stroke="#1f6fd1" stroke-width="2"/>
+<circle cx="1338.0" cy="193.0" r="17.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="1338.0" y="199.8" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="1364.0" y="201.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">해상·항공 운송</text>
+<text x="1324.0" y="256.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">적용 법령</text>
+<text x="1324.0" y="282.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">선박안전법 → IMDG Code,</text>
+<text x="1324.0" y="308.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">항공안전법 → ICAO 기술지침,</text>
+<text x="1324.0" y="334.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">항공사는 IATA DGR</text>
+<text x="1324.0" y="372.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">판단 기준</text>
+<text x="1324.0" y="398.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">UN 번호, 등급,</text>
+<text x="1324.0" y="424.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">용기등급·포장지침</text>
+<text x="1324.0" y="462.0" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">실무에서 묻는 질문</text>
+<text x="1324.0" y="488.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">목록에 있는가, LQ·면제,</text>
+<text x="1324.0" y="514.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">여객기·화물기 허용 여부</text>
+<text x="40.0" y="672.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">이 흐름에서 생기는 세 가지 어려움</text>
+<rect x="40.0" y="690.0" width="512.0" height="218.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="56.0" y="726.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">판단 단위가 다르다</text>
+<text x="56.0" y="757.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">국제: 포장물과 화물 한 건 단위</text>
+<text x="56.0" y="791.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">국내 저장: 한 장소의 총량(지정수량 배수)</text>
+<text x="56.0" y="825.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">한정수량 포장물도 창고에 모이면</text>
+<text x="56.0" y="859.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">지정수량을 넘을 수 있음</text>
+<rect x="576.0" y="690.0" width="512.0" height="218.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="592.0" y="726.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">판단 기준이 다르다</text>
+<text x="592.0" y="757.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">인화점: UN 60℃ 이하, 국내 250℃ 미만까지</text>
+<text x="592.0" y="791.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">UN Class 9처럼 국내 물질법에</text>
+<text x="592.0" y="825.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">대응하는 유별이 없는 등급도 있음</text>
+<rect x="1112.0" y="690.0" width="512.0" height="218.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1128.0" y="726.0" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">서류가 다르다</text>
+<text x="1128.0" y="757.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">국제: UN 번호·등급(위험물 신고서)</text>
+<text x="1128.0" y="791.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">국내: 유별·품명·지정수량</text>
+<text x="1128.0" y="825.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">두 정보가 함께 적힌 문서는</text>
+<text x="1128.0" y="859.2" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">SDS 14항·15항뿐인 경우가 많음</text>
+</svg>

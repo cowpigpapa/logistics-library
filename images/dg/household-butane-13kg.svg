@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">부탄캔을 트럭에 실을 때: 합산 13kg 기준</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">고압가스 안전관리법 시행규칙 별표 30. 캔 1개 충전량 220g, 1상자 28개라고 가정한 예시입니다(캔 저장능력 = 충전량으로 봄).</text>
+<line x1="160.0" y1="760.0" x2="1100.0" y2="760.0" stroke="#1d2a3a" stroke-width="2.5"/>
+<line x1="152.0" y1="760.0" x2="160.0" y2="760.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="144.0" y="766.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">0kg</text>
+<line x1="152.0" y1="630.0" x2="160.0" y2="630.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="144.0" y="636.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">5kg</text>
+<line x1="152.0" y1="500.0" x2="160.0" y2="500.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="144.0" y="506.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">10kg</text>
+<line x1="152.0" y1="370.0" x2="160.0" y2="370.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="144.0" y="376.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">15kg</text>
+<line x1="152.0" y1="240.0" x2="160.0" y2="240.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="144.0" y="246.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">20kg</text>
+<rect x="240.0" y="599.8" width="180.0" height="160.2" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="6"/>
+<line x1="240.0" y1="599.8" x2="420.0" y2="599.8" stroke="#1f8a5b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="330.0" y="635.8" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="middle">6.16kg</text>
+<text x="330.0" y="794.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">1상자</text>
+<text x="330.0" y="820.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">0.22kg × 28 × 1</text>
+<rect x="530.0" y="439.7" width="180.0" height="320.3" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="6"/>
+<line x1="530.0" y1="599.8" x2="710.0" y2="599.8" stroke="#1f8a5b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="530.0" y1="439.7" x2="710.0" y2="439.7" stroke="#1f8a5b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="620.0" y="475.7" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="middle">12.32kg</text>
+<text x="620.0" y="794.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">2상자</text>
+<text x="620.0" y="820.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">0.22kg × 28 × 2</text>
+<rect x="820.0" y="279.5" width="180.0" height="480.5" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="6"/>
+<line x1="820.0" y1="599.8" x2="1000.0" y2="599.8" stroke="#d9482b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="820.0" y1="439.7" x2="1000.0" y2="439.7" stroke="#d9482b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="820.0" y1="279.5" x2="1000.0" y2="279.5" stroke="#d9482b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="910.0" y="315.5" font-size="24" font-weight="800" fill="#d9482b" text-anchor="middle">18.48kg</text>
+<text x="910.0" y="794.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">3상자</text>
+<text x="910.0" y="820.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">0.22kg × 28 × 3</text>
+<line x1="160.0" y1="422.0" x2="1100.0" y2="422.0" stroke="#d9482b" stroke-width="3" stroke-dasharray="9 6"/>
+<text x="1100.0" y="410.0" font-size="22" font-weight="800" fill="#d9482b" text-anchor="end">13kg</text>
+<rect x="1140.0" y="200.0" width="492.0" height="250.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1156.0" y="236.9" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">13kg 이하</text>
+<text x="1156.0" y="269.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">경계표지·포장상자·운반책임자</text>
+<text x="1156.0" y="305.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">동승 등 일부 기준 적용 제외</text>
+<text x="1156.0" y="341.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(1상자, 2상자)</text>
+<rect x="1140.0" y="480.0" width="492.0" height="280.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="1156.0" y="516.9" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">13kg 초과(3상자)</text>
+<text x="1156.0" y="549.5" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">차량 앞뒤 붉은 글씨 "위험고압가스"</text>
+<text x="1156.0" y="583.5" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">경계표지와 전화번호</text>
+<text x="1156.0" y="617.5" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">외면 표시가 있는 포장상자만 적재,</text>
+<text x="1156.0" y="651.5" font-size="18.5" font-weight="500" fill="#1d2a3a" text-anchor="start">적재함 보호망 등 운반 기준 적용</text>
+<text x="40.0" y="900.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">가연성 액화가스를 납붙임·접합용기로 2천kg 이상 실으면 운반책임자가 동승합니다. 캠핑용 부탄캔도 같은 운반 기준을 준용합니다.</text>
+</svg>

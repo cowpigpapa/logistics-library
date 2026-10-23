@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">규칙별 적용판과 전환 시점(2026년 10월 기준)</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">UN 모델 규정은 2년마다 개정되고, 운송수단별 규칙은 그 개정을 한 박자 늦게 받아들입니다.</text>
+<line x1="330.0" y1="130.0" x2="330.0" y2="860.0" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="490.0" y="134.0" font-size="20" font-weight="800" fill="#5f6b78" text-anchor="middle">2025</text>
+<line x1="650.0" y1="130.0" x2="650.0" y2="860.0" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="810.0" y="134.0" font-size="20" font-weight="800" fill="#5f6b78" text-anchor="middle">2026</text>
+<line x1="970.0" y1="130.0" x2="970.0" y2="860.0" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1130.0" y="134.0" font-size="20" font-weight="800" fill="#5f6b78" text-anchor="middle">2027</text>
+<line x1="1290.0" y1="130.0" x2="1290.0" y2="860.0" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1450.0" y="134.0" font-size="20" font-weight="800" fill="#5f6b78" text-anchor="middle">2028</text>
+<line x1="1610.0" y1="130.0" x2="1610.0" y2="860.0" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="40.0" y="188.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">UN 모델 규정</text>
+<text x="40.0" y="212.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">권고, 2년 주기</text>
+<circle cx="490.0" cy="189.0" r="10.0" fill="#e4572e" stroke="none" stroke-width="2"/>
+<text x="508.0" y="196.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">제24차 개정판(Rev.24) 2025년 발간</text>
+<text x="508.0" y="222.0" font-size="15.5" font-weight="700" fill="#e4572e" text-anchor="start">IATA: 2027-01-01부터 DGR에 반영 예정</text>
+<text x="40.0" y="280.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">ICAO 기술지침</text>
+<text x="40.0" y="304.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">법적 근거, 2년 주기</text>
+<rect x="333.0" y="258.0" width="634.0" height="46.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
+<text x="344.0" y="288.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">2025-2026판 (2025-01-01 ~ 2026-12-31)</text>
+<rect x="973.0" y="258.0" width="634.0" height="46.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
+<text x="984.0" y="288.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">2027-2028판</text>
+<text x="40.0" y="372.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">IATA DGR</text>
+<text x="40.0" y="396.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">민간 규정, 매년</text>
+<rect x="333.0" y="350.0" width="314.0" height="46.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="8"/>
+<text x="344.0" y="380.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">제66판</text>
+<rect x="653.0" y="350.0" width="314.0" height="46.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
+<text x="664.0" y="380.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">제67판 (현행)</text>
+<rect x="973.0" y="350.0" width="314.0" height="46.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
+<text x="984.0" y="380.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">제68판 2027-01-01</text>
+<text x="40.0" y="464.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">IMDG Code</text>
+<text x="40.0" y="488.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">SOLAS 의무, 2년 주기</text>
+<rect x="333.0" y="442.0" width="314.0" height="46.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
+<text x="344.0" y="472.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">42-24 임의 적용</text>
+<rect x="653.0" y="442.0" width="634.0" height="46.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
+<text x="664.0" y="472.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">42-24 의무 (2026-01-01부터)</text>
+<text x="40.0" y="556.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start"></text>
+<text x="40.0" y="580.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start"></text>
+<rect x="973.0" y="534.0" width="314.0" height="46.0" fill="#ffffff" stroke="#8a96a3" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
+<text x="984.0" y="564.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">43-26 임의(보도)</text>
+<rect x="1293.0" y="534.0" width="314.0" height="46.0" fill="#ffffff" stroke="#8a96a3" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
+<text x="1304.0" y="564.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">43-26 의무(보도)</text>
+<text x="40.0" y="648.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">ADR (유럽 도로)</text>
+<text x="40.0" y="672.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">조약, 홀수 해 1월 1일</text>
+<rect x="333.0" y="626.0" width="634.0" height="46.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="8"/>
+<text x="344.0" y="656.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">ADR 2025 (2025-07-01부터 전면 의무)</text>
+<rect x="973.0" y="626.0" width="634.0" height="46.0" fill="#ffffff" stroke="#8a96a3" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
+<text x="984.0" y="656.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">ADR 2027 (2027-01-01 발효 예정)</text>
+<text x="40.0" y="740.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">RID (철도)</text>
+<text x="40.0" y="764.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">COTIF 부록 C</text>
+<rect x="333.0" y="718.0" width="634.0" height="46.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="8"/>
+<text x="344.0" y="748.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">RID 2025 (2025-01-01 발효)</text>
+<rect x="973.0" y="718.0" width="634.0" height="46.0" fill="#ffffff" stroke="#8a96a3" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
+<text x="984.0" y="748.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">RID 2027 (개정 채택)</text>
+<text x="40.0" y="832.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">ADN (내륙수로)</text>
+<text x="40.0" y="856.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">유럽</text>
+<rect x="333.0" y="810.0" width="634.0" height="46.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="8"/>
+<text x="344.0" y="840.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">ADN 2025 (2025-01-01 발효)</text>
+<line x1="903.3" y1="144.0" x2="903.3" y2="860.0" stroke="#d9482b" stroke-width="3" stroke-dasharray="6 4"/>
+<rect x="831.3" y="866.0" width="144.0" height="30.0" fill="#d9482b" stroke="none" stroke-width="0" rx="6"/>
+<text x="903.3" y="887.0" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">2026년 10월</text>
+<rect x="40.0" y="900.0" width="34.0" height="20.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2" rx="4"/>
+<text x="84.0" y="916.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">적용 중</text>
+<rect x="210.0" y="900.0" width="34.0" height="20.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2" rx="4" stroke-dasharray="6 4"/>
+<text x="254.0" y="916.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">임의 적용</text>
+<rect x="380.0" y="900.0" width="34.0" height="20.0" fill="#fff" stroke="#1f6fd1" stroke-width="2" rx="4" stroke-dasharray="6 4"/>
+<text x="424.0" y="916.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">예정·다음 판</text>
+<text x="1632.0" y="916.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="end">43-26 일정은 업계 보도 기준. 실제 운송 전에 현행판과 항공사·선사 요건을 확인하십시오.</text>
+</svg>

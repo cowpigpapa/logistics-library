@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">통지 기한과 제소 기한 한눈에 보기</text>
+<text x="70" y="104" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="start">규칙</text>
+<text x="420" y="104" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="start">보이지 않는 손해의 서면 통지</text>
+<text x="940" y="104" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="start">통지를 놓치면</text>
+<text x="1260" y="104" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="start">제소 기한</text>
+<rect x="50" y="130" width="1572" height="94" fill="#ffffff" rx="8"/>
+<text x="70" y="182" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">해상(헤이그-비스비·상법)</text>
+<rect x="420" y="152" width="67.14285714285714" height="26" fill="#1f6fd1" rx="5"/>
+<text x="420" y="206" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">3일</text>
+<text x="940" y="182" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">정상 인도로 추정</text>
+<rect x="1260" y="152" width="113.33333333333334" height="26" fill="#1f6fd1" rx="5"/>
+<text x="1260" y="206" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">1년(합의 연장 가능)</text>
+<rect x="50" y="234" width="1572" height="94" fill="#f6f8fa" rx="8"/>
+<text x="70" y="286" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">항공(몬트리올·상법)</text>
+<rect x="420" y="256" width="313.3333333333333" height="26" fill="#1f8a5b" rx="5"/>
+<text x="420" y="310" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">14일(연착 21일)</text>
+<text x="940" y="286" font-size="17" font-weight="700" fill="#d9482b" text-anchor="start">소송할 수 없음</text>
+<rect x="1260" y="256" width="226.66666666666669" height="26" fill="#1f8a5b" rx="5"/>
+<text x="1260" y="310" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">2년</text>
+<rect x="50" y="338" width="1572" height="94" fill="#ffffff" rx="8"/>
+<text x="70" y="390" font-size="20" font-weight="800" fill="#8a6d3b" text-anchor="start">도로 CMR</text>
+<rect x="420" y="360" width="156.66666666666666" height="26" fill="#8a6d3b" rx="5"/>
+<text x="420" y="414" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">7일(일요일·공휴일 제외)</text>
+<text x="940" y="390" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">정상 인도로 추정</text>
+<rect x="1260" y="360" width="113.33333333333334" height="26" fill="#8a6d3b" rx="5"/>
+<text x="1260" y="414" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">1년(고의 등 3년)</text>
+<rect x="50" y="442" width="1572" height="94" fill="#f6f8fa" rx="8"/>
+<text x="70" y="494" font-size="20" font-weight="800" fill="#8a6d3b" text-anchor="start">국내 육상(상법)</text>
+<rect x="420" y="464" width="313.3333333333333" height="26" fill="#8a6d3b" rx="5"/>
+<text x="420" y="518" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">2주</text>
+<text x="940" y="494" font-size="17" font-weight="700" fill="#d9482b" text-anchor="start">운송인 책임 소멸(악의 제외)</text>
+<rect x="1260" y="464" width="113.33333333333334" height="26" fill="#8a6d3b" rx="5"/>
+<text x="1260" y="518" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">1년</text>
+<rect x="50" y="546" width="1572" height="94" fill="#ffffff" rx="8"/>
+<text x="70" y="598" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">복합운송(FIATA FBL)</text>
+<rect x="420" y="568" width="134.28571428571428" height="26" fill="#e4572e" rx="5"/>
+<text x="420" y="622" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">연속 6일</text>
+<text x="940" y="598" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">기재대로 인도된 것으로 추정</text>
+<rect x="1260" y="568" width="85.0" height="26" fill="#e4572e" rx="5"/>
+<text x="1260" y="622" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">9개월</text>
+<rect x="50" y="650" width="1572" height="94" fill="#f6f8fa" rx="8"/>
+<text x="70" y="702" font-size="20" font-weight="800" fill="#6b4fa0" text-anchor="start">적하보험 보험금</text>
+<rect x="420" y="672" width="8" height="26" fill="#6b4fa0" rx="3"/>
+<text x="420" y="726" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">사고를 안 때 지체 없이</text>
+<text x="940" y="702" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">늘어난 손해는 보상 안 됨</text>
+<rect x="1260" y="672" width="340.0" height="26" fill="#6b4fa0" rx="5"/>
+<text x="1260" y="726" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">3년(상법상 소멸시효)</text>
+<line x1="420" y1="762" x2="890" y2="762" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="420.0" y1="762" x2="420.0" y2="770" stroke="#1d2a3a" stroke-width="2"/>
+<text x="420.0" y="790" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">0일</text>
+<line x1="487.1428571428571" y1="762" x2="487.1428571428571" y2="770" stroke="#1d2a3a" stroke-width="2"/>
+<text x="487.1428571428571" y="790" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">3일</text>
+<line x1="576.6666666666666" y1="762" x2="576.6666666666666" y2="770" stroke="#1d2a3a" stroke-width="2"/>
+<text x="576.6666666666666" y="790" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">7일</text>
+<line x1="733.3333333333333" y1="762" x2="733.3333333333333" y2="770" stroke="#1d2a3a" stroke-width="2"/>
+<text x="733.3333333333333" y="790" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">14일</text>
+<line x1="890.0" y1="762" x2="890.0" y2="770" stroke="#1d2a3a" stroke-width="2"/>
+<text x="890.0" y="790" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">21일</text>
+<line x1="1260" y1="762" x2="1600" y2="762" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="1260.0" y1="762" x2="1260.0" y2="770" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1260.0" y="790" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">0개월</text>
+<line x1="1373.3333333333333" y1="762" x2="1373.3333333333333" y2="770" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1373.3333333333333" y="790" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">12개월</text>
+<line x1="1486.6666666666667" y1="762" x2="1486.6666666666667" y2="770" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1486.6666666666667" y="790" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">24개월</text>
+<line x1="1600.0" y1="762" x2="1600.0" y2="770" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1600.0" y="790" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">36개월</text>
+<text x="70" y="832" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">외관상 보이는 손해는 인수 때(또는 지체 없이) 서면으로. 기한 계산에 다툼이 있을 수 있으면 날짜를 앞당겨 서면 처리</text>
+</svg>

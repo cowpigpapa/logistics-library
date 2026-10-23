@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">UN 9개 등급과 국내에서 주로 걸리는 법령</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">방향을 잡기 위한 대략적 대응입니다. 일대일이 아니며, 조성·농도·압력·수량에 따라 해당 여부가 달라집니다.</text>
+<rect x="30.0" y="122.0" width="1612.0" height="84.0" fill="#f6f8fa" stroke="none" stroke-width="0" rx="10"/>
+<rect x="44.0" y="132.0" width="300.0" height="64.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="10"/>
+<text x="62.0" y="172.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Class 1</text>
+<text x="160.0" y="172.0" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">화약류</text>
+<line x1="352.0" y1="164.0" x2="396.0" y2="164.0" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="410.0" y="132.0" width="426.5" height="36.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="8"/>
+<text x="425.0" y="157.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">총포·도검·화약류 등의 안전관리에 관한 법률</text>
+<text x="410.0" y="192.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">일부 자기반응성 물질은 위험물안전관리법 제5류에도 해당할 수 있음. 화약류는 화관법 적용 제외</text>
+<rect x="44.0" y="216.0" width="300.0" height="64.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="10"/>
+<text x="62.0" y="256.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Class 2</text>
+<text x="160.0" y="256.0" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">고압가스</text>
+<line x1="352.0" y1="248.0" x2="396.0" y2="248.0" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="410.0" y="216.0" width="212.0" height="36.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="8"/>
+<text x="425.0" y="241.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">고압가스 안전관리법</text>
+<rect x="632.0" y="216.0" width="167.0" height="36.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="8"/>
+<text x="647.0" y="241.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">액화석유가스법</text>
+<rect x="809.0" y="216.0" width="167.0" height="36.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="8"/>
+<text x="824.0" y="241.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">도시가스사업법</text>
+<text x="410.0" y="276.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">국내는 "압력"이 기준이라 압력 기준에 못 미치는 가스 제품은 고압가스가 아닐 수 있음</text>
+<rect x="30.0" y="290.0" width="1612.0" height="84.0" fill="#f6f8fa" stroke="none" stroke-width="0" rx="10"/>
+<rect x="44.0" y="300.0" width="300.0" height="64.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="10"/>
+<text x="62.0" y="340.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Class 3</text>
+<text x="160.0" y="340.0" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">인화성 액체류</text>
+<line x1="352.0" y1="332.0" x2="396.0" y2="332.0" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="410.0" y="300.0" width="243.7" height="36.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2" rx="8"/>
+<text x="425.0" y="325.0" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">위험물안전관리법 제4류</text>
+<text x="410.0" y="360.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">인화점 기준이 서로 다름(UN 60℃ 이하, 국내 250℃ 미만까지). 성분에 따라 화관법 유해화학물질에도 해당</text>
+<rect x="44.0" y="384.0" width="300.0" height="64.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="10"/>
+<text x="62.0" y="424.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Class 4</text>
+<text x="160.0" y="424.0" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">가연성 물질류</text>
+<line x1="352.0" y1="416.0" x2="396.0" y2="416.0" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="410.0" y="384.0" width="413.4" height="36.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2" rx="8"/>
+<text x="425.0" y="409.0" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">위험물안전관리법 제2류·제3류, 일부 제5류</text>
+<text x="410.0" y="444.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">석탄·목탄류처럼 위험물은 아니지만 특수가연물(화재예방법)로 관리되는 것도 있음</text>
+<rect x="30.0" y="458.0" width="1612.0" height="84.0" fill="#f6f8fa" stroke="none" stroke-width="0" rx="10"/>
+<rect x="44.0" y="468.0" width="300.0" height="64.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="10"/>
+<text x="62.0" y="508.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Class 5</text>
+<text x="160.0" y="508.0" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">산화성 물질류</text>
+<line x1="352.0" y1="500.0" x2="396.0" y2="500.0" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="410.0" y="468.0" width="568.0" height="36.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2" rx="8"/>
+<text x="425.0" y="493.0" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">위험물안전관리법 제1류·제6류(산화성), 제5류(유기과산화물)</text>
+<text x="410.0" y="528.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">과산화수소는 36중량퍼센트 이상, 질산은 비중 1.49 이상만 제6류</text>
+<rect x="44.0" y="552.0" width="300.0" height="64.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="10"/>
+<text x="62.0" y="592.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Class 6</text>
+<text x="160.0" y="592.0" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">독물류</text>
+<line x1="352.0" y1="584.0" x2="396.0" y2="584.0" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="410.0" y="552.0" width="302.0" height="36.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2" rx="8"/>
+<text x="425.0" y="577.0" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="start">화관법(인체급성유해성물질 등)</text>
+<rect x="722.0" y="552.0" width="127.9" height="36.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="8"/>
+<text x="737.0" y="577.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">농약관리법</text>
+<rect x="859.9" y="552.0" width="257.0" height="36.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="8"/>
+<text x="874.9" y="577.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">폐기물관리법(의료폐기물)</text>
+<text x="410.0" y="612.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">위험물안전관리법에는 독성만을 이유로 한 유별이 없음</text>
+<rect x="30.0" y="626.0" width="1612.0" height="84.0" fill="#f6f8fa" stroke="none" stroke-width="0" rx="10"/>
+<rect x="44.0" y="636.0" width="300.0" height="64.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="10"/>
+<text x="62.0" y="676.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Class 7</text>
+<text x="160.0" y="676.0" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">방사성 물질</text>
+<line x1="352.0" y1="668.0" x2="396.0" y2="668.0" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="410.0" y="636.0" width="147.4" height="36.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="8"/>
+<text x="425.0" y="661.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">원자력안전법</text>
+<text x="410.0" y="696.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">화관법·화평법 적용 제외</text>
+<rect x="44.0" y="720.0" width="300.0" height="64.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="10"/>
+<text x="62.0" y="760.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Class 8</text>
+<text x="160.0" y="760.0" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">부식성 물질</text>
+<line x1="352.0" y1="752.0" x2="396.0" y2="752.0" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="410.0" y="720.0" width="273.3" height="36.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2" rx="8"/>
+<text x="425.0" y="745.0" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="start">화관법(지정된 산·알칼리류)</text>
+<rect x="693.3" y="720.0" width="167.0" height="36.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="8"/>
+<text x="708.3" y="745.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">산업안전보건법</text>
+<text x="410.0" y="780.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">위험물안전관리법에는 부식성만을 이유로 한 유별이 없음</text>
+<rect x="30.0" y="794.0" width="1612.0" height="84.0" fill="#f6f8fa" stroke="none" stroke-width="0" rx="10"/>
+<rect x="44.0" y="804.0" width="300.0" height="64.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="10"/>
+<text x="62.0" y="844.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">Class 9</text>
+<text x="160.0" y="844.0" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">유해성 물질</text>
+<line x1="352.0" y1="836.0" x2="396.0" y2="836.0" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="410.0" y="804.0" width="327.5" height="36.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2" rx="8"/>
+<text x="425.0" y="829.0" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">대부분 대응하는 국내 물질법 없음</text>
+<text x="410.0" y="864.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">리튬배터리·드라이아이스·자성물질 등. 환경유해물질 중 고시로 지정된 것만 화관법 생태유해성물질</text>
+<rect x="44.0" y="893.0" width="20.0" height="20.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2" rx="4"/>
+<text x="72.0" y="908.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">위험물안전관리법</text>
+<rect x="250.0" y="893.0" width="20.0" height="20.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2" rx="4"/>
+<text x="278.0" y="908.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">화학물질관리법</text>
+<rect x="439.0" y="893.0" width="20.0" height="20.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="4"/>
+<text x="467.0" y="908.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">그 밖의 국내법</text>
+<rect x="621.2" y="893.0" width="20.0" height="20.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2" rx="4"/>
+<text x="649.2" y="908.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">대응하는 국내 물질법 없음</text>
+<text x="1628.0" y="908.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="end">출처: 위험물 선박운송 및 저장규칙 제3조, 위험물안전관리법 시행령 별표 1, 화학물질관리법 제3조</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="m-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="m-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="m-org" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="388" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="438" y="30" width="388" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="846" y="30" width="388" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="1254" y="30" width="388" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">① 인보이스마다 결제</text>
+<text x="54" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">총액으로 따로 송금·수금</text>
+<rect x="84" y="150" width="280" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="224.0" y="194.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">한국 포워더</text>
+<text x="224.0" y="222.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">거주자</text>
+<rect x="84" y="520" width="280" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="224.0" y="564.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">해외 파트너</text>
+<text x="224.0" y="592.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">비거주자</text>
+<line x1="164.0" y1="256" x2="164.0" y2="508" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m-blue)"/>
+<line x1="284.0" y1="508" x2="284.0" y2="258" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m-green)"/>
+<text x="150.0" y="350" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="end">줄 돈</text>
+<text x="150.0" y="378" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="end">송금</text>
+<text x="298.0" y="350" font-size="20" font-weight="700" fill="#1f8a5b" text-anchor="start">받을 돈</text>
+<text x="298.0" y="378" font-size="20" font-weight="700" fill="#1f8a5b" text-anchor="start">수금</text>
+<rect x="50" y="668" width="348" height="84" rx="12" fill="#e6f4ed" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="224" y="704" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="middle">상계 아님</text>
+<text x="224" y="736" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="middle">총액 결제</text>
+<text x="54" y="796" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">인보이스마다 따로 송금·수금하면</text>
+<text x="54" y="826" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">상계가 아닙니다.</text>
+<text x="462" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">② SOA로 차감 정산</text>
+<text x="462" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">받을 돈과 줄 돈을 맞춰 차액만</text>
+<rect x="492" y="150" width="280" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="632.0" y="194.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">한국 포워더</text>
+<text x="632.0" y="222.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">거주자</text>
+<rect x="492" y="520" width="280" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="632.0" y="564.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">해외 파트너</text>
+<text x="632.0" y="592.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">비거주자</text>
+<rect x="512" y="272" width="240" height="190" rx="8" fill="#ffffff" stroke="#1d2a3a" stroke-width="2"/>
+<text x="632" y="304" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">SOA</text>
+<line x1="526" y1="318" x2="738" y2="318" stroke="#c9d2dc" stroke-width="2"/>
+<text x="530" y="352" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="start">받을 쪽 합계</text>
+<rect x="662" y="336" width="76" height="20" fill="#1f8a5b"/>
+<text x="530" y="388" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">줄 쪽 합계</text>
+<rect x="662" y="372" width="60" height="20" fill="#1f6fd1"/>
+<line x1="526" y1="406" x2="738" y2="406" stroke="#c9d2dc" stroke-width="2"/>
+<text x="530" y="440" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">차액</text>
+<rect x="662" y="424" width="16" height="20" fill="#d9482b"/>
+<line x1="632.0" y1="466" x2="632.0" y2="508" stroke="#d9482b" stroke-width="5" marker-end="url(#m-red)"/>
+<text x="658.0" y="496" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">차액만 송금</text>
+<rect x="458" y="668" width="348" height="84" rx="12" fill="#fdecea" stroke="#d9482b" stroke-width="2.5"/>
+<text x="632" y="704" font-size="24" font-weight="800" fill="#d9482b" text-anchor="middle">상계 등</text>
+<text x="632" y="736" font-size="19" font-weight="700" fill="#d9482b" text-anchor="middle">법 제16조 제1호</text>
+<text x="462" y="796" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">받을 쪽·줄 쪽 각각 미화 5천불 초과:</text>
+<text x="462" y="826" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">외국환은행 신고 또는</text>
+<text x="462" y="856" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">상계처리 후 1개월 이내 사후 보고</text>
+<text x="870" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">③ 착지불 운임에서 공제</text>
+<text x="870" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">대신 받은 운임에서 수수료를 떼고</text>
+<rect x="900" y="150" width="280" height="84" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1040.0" y="200.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">수입자</text>
+<rect x="900" y="336" width="280" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1040.0" y="380.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">한국 포워더</text>
+<text x="1040.0" y="408.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">거주자</text>
+<rect x="900" y="520" width="280" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1040.0" y="564.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">해외 파트너</text>
+<text x="1040.0" y="592.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">비거주자</text>
+<line x1="1040.0" y1="240" x2="1040.0" y2="328" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m-green)"/>
+<text x="1056.0" y="292" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="start">착지불 운임</text>
+<line x1="1040.0" y1="438" x2="1040.0" y2="512" stroke="#d9482b" stroke-width="5" marker-end="url(#m-red)"/>
+<text x="1056.0" y="472" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">운임 − 받을 수수료</text>
+<rect x="866" y="668" width="348" height="84" rx="12" fill="#fdecea" stroke="#d9482b" stroke-width="2.5"/>
+<text x="1040" y="704" font-size="24" font-weight="800" fill="#d9482b" text-anchor="middle">상계 등</text>
+<text x="1040" y="736" font-size="19" font-weight="700" fill="#d9482b" text-anchor="middle">법 제16조 제1호</text>
+<text x="870" y="796" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">광고비에서 수수료를 떼고 잔액만</text>
+<text x="870" y="826" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">송금한 2011도11064 판결과</text>
+<text x="870" y="856" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">같은 구조</text>
+<text x="1278" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">④ 다른 회사 계좌로 송금</text>
+<text x="1278" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">파트너가 관계사 계좌를 지정</text>
+<rect x="1308" y="150" width="280" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1448.0" y="194.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">한국 포워더</text>
+<text x="1448.0" y="222.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">거주자</text>
+<rect x="1274" y="520" width="166" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1357.0" y="564.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">해외 파트너</text>
+<text x="1357.0" y="592.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">거래 당사자</text>
+<rect x="1456" y="520" width="166" height="96" rx="12" fill="#fff7f4" stroke="#e4572e" stroke-width="2"/>
+<text x="1539.0" y="564.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">관계사 계좌</text>
+<text x="1539.0" y="592.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">당사자 아님</text>
+<line x1="1357" y1="512" x2="1357" y2="256" stroke="#5f6b78" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#m-ink)"/>
+<text x="1370" y="380" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="start">이 계좌로</text>
+<text x="1370" y="406" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="start">보내 주세요</text>
+<line x1="1504" y1="256" x2="1544" y2="512" stroke="#d9482b" stroke-width="5" marker-end="url(#m-red)"/>
+<text x="1546" y="380" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">송금</text>
+<rect x="1274" y="668" width="348" height="84" rx="12" fill="#fdf0eb" stroke="#e4572e" stroke-width="2.5"/>
+<text x="1448" y="704" font-size="24" font-weight="800" fill="#e4572e" text-anchor="middle">제3자 지급</text>
+<text x="1448" y="736" font-size="19" font-weight="700" fill="#e4572e" text-anchor="middle">법 제16조 제3호</text>
+<text x="1278" y="796" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">미화 5천불 이하: 신고 불필요</text>
+<text x="1278" y="826" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">5천불 초과 1만불 이내: 외국환은행</text>
+<text x="1278" y="856" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">그 밖(1만불 초과 등): 한국은행</text>
+</svg>

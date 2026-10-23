@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">예약부터 완료 증명까지: 체크리스트의 흐름</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">숫자는 이 문서의 절 번호입니다. 화물 지위에 따라 2·3·4절로 갈리고, 픽업부터는 다시 한 줄로 이어집니다.</text>
+<rect x="40.0" y="360.0" width="250.0" height="230.0" fill="#eef1f4" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<circle cx="66" cy="388" r="16" fill="#1d2a3a"/>
+<text x="66.0" y="394.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="92.0" y="395.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">예약</text>
+<text x="58.0" y="426.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">·</text>
+<text x="70.0" y="426.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">운송 목적을 서면으로 확정</text>
+<text x="58.0" y="453.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">·</text>
+<text x="70.0" y="453.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">화주가 신고한 지위와 근거</text>
+<text x="58.0" y="480.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">·</text>
+<text x="70.0" y="480.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">의견이 갈리면 폐기물로</text>
+<text x="70.0" y="503.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">취급</text>
+<text x="58.0" y="530.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">·</text>
+<text x="70.0" y="530.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">우리 회사의 지위 확인</text>
+<rect x="340.0" y="128.0" width="300.0" height="170.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<circle cx="366" cy="156" r="16" fill="#1f8a5b"/>
+<text x="366.0" y="162.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="392.0" y="163.0" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">신품·제품</text>
+<text x="358.0" y="194.0" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="start">·</text>
+<text x="370.0" y="194.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">분리수거 기호·CE 표시·수입자</text>
+<text x="370.0" y="217.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">주소</text>
+<text x="358.0" y="244.0" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="start">·</text>
+<text x="370.0" y="244.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">2kWh 초과는 성능·내구성 문서</text>
+<rect x="340.0" y="326.0" width="300.0" height="170.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<circle cx="366" cy="354" r="16" fill="#1f6fd1"/>
+<text x="366.0" y="360.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="392.0" y="361.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">중고 배터리</text>
+<text x="358.0" y="392.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="370.0" y="392.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">부속서 XIV 서류 일곱 가지</text>
+<text x="358.0" y="419.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="370.0" y="419.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">하나라도 없으면 중고품으로</text>
+<text x="370.0" y="442.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">예약하지 않음</text>
+<rect x="340.0" y="528.0" width="300.0" height="200.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<circle cx="366" cy="556" r="16" fill="#d9482b"/>
+<text x="366.0" y="562.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="392.0" y="563.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">폐배터리 절차</text>
+<text x="358.0" y="594.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">·</text>
+<text x="370.0" y="594.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">처분인지 회수인지</text>
+<text x="358.0" y="621.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">·</text>
+<text x="370.0" y="621.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">PIC인지 부속서 VII인지 화주가</text>
+<text x="370.0" y="644.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">확정</text>
+<text x="358.0" y="671.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">·</text>
+<text x="370.0" y="671.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">2026.12.9부터 리튬계는 PIC</text>
+<rect x="690.0" y="470.0" width="300.0" height="150.0" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="12"/>
+<circle cx="716" cy="498" r="16" fill="#d9482b"/>
+<text x="716.0" y="504.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="742.0" y="505.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">PIC 운송</text>
+<text x="708.0" y="536.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">·</text>
+<text x="720.0" y="536.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">모든 동의와 유효기간</text>
+<text x="708.0" y="563.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">·</text>
+<text x="720.0" y="563.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">이동서류 2영업일 전 제출</text>
+<rect x="690.0" y="640.0" width="300.0" height="150.0" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="12"/>
+<circle cx="716" cy="668" r="16" fill="#d9482b"/>
+<text x="716.0" y="674.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="742.0" y="675.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">부속서 VII 운송</text>
+<text x="708.0" y="706.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">·</text>
+<text x="720.0" y="706.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">2영업일 전 전자 작성</text>
+<text x="708.0" y="733.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">·</text>
+<text x="720.0" y="733.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">시설 허가 증빙, 혼적 금지</text>
+<rect x="1010.0" y="640.0" width="230.0" height="190.0" fill="#ffffff" stroke="#e4572e" stroke-width="2" rx="12" stroke-dasharray="8 6"/>
+<circle cx="1036" cy="668" r="16" fill="#e4572e"/>
+<text x="1036.0" y="674.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="1062.0" y="675.0" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">EU 밖이면</text>
+<text x="1028.0" y="706.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">·</text>
+<text x="1040.0" y="706.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">지정 세관 이용</text>
+<text x="1028.0" y="733.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">·</text>
+<text x="1040.0" y="733.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">경유국 동의</text>
+<text x="1028.0" y="760.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">·</text>
+<text x="1040.0" y="760.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">2027.5.21부터 시설</text>
+<text x="1040.0" y="783.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">감사</text>
+<polyline points="290.0,475.0 315.0,475.0 315.0,213.0 336.0,213.0" fill="none" stroke="#1d2a3a" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar-1d2a3a)"/>
+<line x1="315.0" y1="411.0" x2="336.0" y2="411.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar-1d2a3a)"/>
+<polyline points="315.0,475.0 315.0,628.0 336.0,628.0" fill="none" stroke="#1d2a3a" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar-1d2a3a)"/>
+<polyline points="640.0,600.0 662.0,600.0 662.0,545.0 686.0,545.0" fill="none" stroke="#d9482b" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar-d9482b)"/>
+<polyline points="662.0,600.0 662.0,715.0 686.0,715.0" fill="none" stroke="#d9482b" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar-d9482b)"/>
+<line x1="990.0" y1="735.0" x2="1006.0" y2="735.0" stroke="#e4572e" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#ar-e4572e)"/>
+<line x1="640.0" y1="213.0" x2="1270.0" y2="213.0" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="640.0" y1="411.0" x2="1270.0" y2="411.0" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="990.0" y1="545.0" x2="1270.0" y2="545.0" stroke="#d9482b" stroke-width="3"/>
+<line x1="1240.0" y1="755.0" x2="1270.0" y2="755.0" stroke="#e4572e" stroke-width="3"/>
+<polyline points="1270.0,755.0 1270.0,190.0 1296.0,190.0" fill="none" stroke="#1d2a3a" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar-1d2a3a)"/>
+<rect x="1300.0" y="120.0" width="332.0" height="170.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<circle cx="1326" cy="148" r="16" fill="#1f6fd1"/>
+<text x="1326.0" y="154.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">8</text>
+<text x="1352.0" y="155.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">픽업과 창고</text>
+<text x="1318.0" y="186.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="1330.0" y="186.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">수량·포장 상태를 예약과 대조</text>
+<text x="1318.0" y="213.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="1330.0" y="213.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">중고품 포장 외부 기록 사진</text>
+<text x="1318.0" y="240.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="1330.0" y="240.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">경유 창고의 허가·보험 서류</text>
+<rect x="1300.0" y="318.0" width="332.0" height="150.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<circle cx="1326" cy="346" r="16" fill="#1f6fd1"/>
+<text x="1326.0" y="352.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">9</text>
+<text x="1352.0" y="353.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">운송 중 검사</text>
+<text x="1318.0" y="384.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="1330.0" y="384.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">증빙을 바로 낼 수 있게</text>
+<text x="1318.0" y="411.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="1330.0" y="411.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">못 내면 억류될 수 있음</text>
+<rect x="1300.0" y="496.0" width="332.0" height="178.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<circle cx="1326" cy="524" r="16" fill="#1f6fd1"/>
+<text x="1326.0" y="530.0" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">10</text>
+<text x="1352.0" y="531.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">도착과 완료</text>
+<text x="1318.0" y="562.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="1330.0" y="562.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">수령 확인, 완료 증명 추적</text>
+<text x="1318.0" y="589.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="1330.0" y="589.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">완료 불가면 90일 안 반송</text>
+<text x="1318.0" y="616.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">·</text>
+<text x="1330.0" y="616.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">문서 5년 이상 보관</text>
+<rect x="1300.0" y="702.0" width="332.0" height="168.0" fill="#eef1f4" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<rect x="1310.0" y="714.0" width="62.0" height="32.0" fill="#1d2a3a" stroke="#1d2a3a" stroke-width="0" rx="16"/>
+<text x="1341.0" y="736.0" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">11·12</text>
+<text x="1382.0" y="737.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">선적 파일</text>
+<text x="1318.0" y="768.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">·</text>
+<text x="1330.0" y="768.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">화물별 문서 묶음</text>
+<text x="1318.0" y="795.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">·</text>
+<text x="1330.0" y="795.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">선적별 확인 기록(표지)</text>
+<line x1="1466.0" y1="290.0" x2="1466.0" y2="314.0" stroke="#1f6fd1" stroke-width="3" marker-end="url(#ar-1f6fd1)"/>
+<line x1="1466.0" y1="468.0" x2="1466.0" y2="492.0" stroke="#1f6fd1" stroke-width="3" marker-end="url(#ar-1f6fd1)"/>
+<line x1="1466.0" y1="674.0" x2="1466.0" y2="698.0" stroke="#1f6fd1" stroke-width="3" marker-end="url(#ar-1f6fd1)"/>
+</svg>

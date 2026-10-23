@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">포워더가 "송하인"이 되는 구조</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">자기 이름으로 House B/L을 발행하면 화주에게는 운송인(NVOCC), 선사에게는 Master B/L의 송하인입니다.</text>
+<rect x="60.0" y="180.0" width="340.0" height="250.0" fill="#fdece6" stroke="#e4572e" stroke-width="3" rx="16"/>
+<text x="230.0" y="270.0" font-size="30" font-weight="800" fill="#e4572e" text-anchor="middle">실화주</text>
+<text x="230.0" y="318.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">House B/L의 송하인</text>
+<rect x="666.0" y="180.0" width="340.0" height="250.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="3" rx="16"/>
+<text x="836.0" y="270.0" font-size="30" font-weight="800" fill="#1f6fd1" text-anchor="middle">포워더(NVOCC)</text>
+<text x="836.0" y="318.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">화주에게는 운송인</text>
+<text x="836.0" y="348.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">선사에게는 송하인</text>
+<rect x="1272.0" y="180.0" width="340.0" height="250.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="3" rx="16"/>
+<text x="1442.0" y="270.0" font-size="30" font-weight="800" fill="#1f8a5b" text-anchor="middle">선사</text>
+<text x="1442.0" y="318.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">실제운송인</text>
+<text x="1442.0" y="348.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">Master B/L 발행</text>
+<line x1="406.0" y1="250.0" x2="658.0" y2="250.0" stroke="#1d2a3a" stroke-width="3.5" marker-end="url(#a-ink)"/>
+<text x="533.0" y="236.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">House B/L</text>
+<text x="533.0" y="278.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">운송계약</text>
+<line x1="1012.0" y1="250.0" x2="1264.0" y2="250.0" stroke="#1d2a3a" stroke-width="3.5" marker-end="url(#a-ink)"/>
+<text x="1139.0" y="236.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">Master B/L</text>
+<text x="1139.0" y="278.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">선복 예약</text>
+<line x1="1264.0" y1="380.0" x2="1016.0" y2="380.0" stroke="#d9482b" stroke-width="3.5" marker-end="url(#a-red)"/>
+<text x="1139.0" y="366.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">① 청구</text>
+<line x1="658.0" y1="380.0" x2="410.0" y2="380.0" stroke="#c98a00" stroke-width="3.5" marker-end="url(#a-amber)"/>
+<text x="533.0" y="366.0" font-size="20" font-weight="800" fill="#8a5f00" text-anchor="middle">② 구상</text>
+<text x="1139.0" y="470.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">헤이그 규칙 제4조 제6항,</text>
+<text x="1139.0" y="496.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">B/L 약관의 위험물 조항은</text>
+<text x="1139.0" y="522.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">shipper에게 책임을 지움</text>
+<text x="1139.0" y="548.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">(실화주가 신고하지 않았어도)</text>
+<text x="533.0" y="470.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">포워더는 배상한 뒤</text>
+<text x="533.0" y="496.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">실화주에게 구상.</text>
+<text x="533.0" y="522.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">실화주가 해외에 있거나</text>
+<text x="533.0" y="548.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">자력이 없으면 손해가 남음</text>
+<rect x="40.0" y="620.0" width="518.0" height="168.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="12"/>
+<text x="60.0" y="659.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">Senator Linie (미국, 2002)</text>
+<text x="60.0" y="689.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">NVOCC 겸 포워더도 다른 관계자와</text>
+<text x="60.0" y="721.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">함께 "송하인"으로 보아 무과실 책임</text>
+<rect x="577.0" y="620.0" width="518.0" height="168.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="12"/>
+<text x="597.0" y="659.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">MSC Flaminia (미국, 2018·2023)</text>
+<text x="597.0" y="689.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화주 55%·NVOCC 45%,</text>
+<text x="597.0" y="721.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">항소심은 경고의무 위반 책임만 유지</text>
+<rect x="1114.0" y="620.0" width="518.0" height="168.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="12"/>
+<text x="1134.0" y="659.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">대법원 2007다4943 (한국)</text>
+<text x="1134.0" y="689.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">운송인인지 운송주선인인지를 House B/L</text>
+<text x="1134.0" y="721.0" font-size="17.5" font-weight="500" fill="#1d2a3a" text-anchor="start">발행 명의, 운임 지급 형태 등으로 판단</text>
+<text x="40.0" y="850.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">정확한 신고와 화주에게서 받은 SDS·확인서 보관이 선사 청구에 대한 방어이자 구상의 근거입니다.</text>
+</svg>

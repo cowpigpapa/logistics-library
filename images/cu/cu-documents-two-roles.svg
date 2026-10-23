@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start" >두 서류를 다섯 곳이 그대로 옮겨 씁니다</text>
+<path d="M150 88 H710 L750 128 V388 H150 Z" fill="#ffffff" stroke="#9aa7b5" stroke-width="2"/>
+<path d="M710 88 V128 H750" fill="#eef2f6" stroke="#9aa7b5" stroke-width="2"/>
+<rect x="150" y="88" width="10" height="300" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="0" />
+<text x="184" y="132" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start" >COMMERCIAL INVOICE</text>
+<text x="184" y="162" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >상업송장 · 거래 서류</text>
+<text x="184" y="208" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start" >무엇을 얼마에 팔았나</text>
+<line x1="184" y1="234" x2="716" y2="234" stroke="#e3e8ee" stroke-width="1"/>
+<text x="184" y="260" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start" >Seller → Consignee / Buyer</text>
+<line x1="184" y1="270" x2="716" y2="270" stroke="#e3e8ee" stroke-width="1"/>
+<text x="184" y="296" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start" >CP-50  20 PCS × USD 850.00</text>
+<line x1="184" y1="306" x2="716" y2="306" stroke="#e3e8ee" stroke-width="1"/>
+<text x="184" y="332" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start" >CP-80  10 PCS × USD 1,300.00</text>
+<line x1="184" y1="342" x2="716" y2="342" stroke="#e3e8ee" stroke-width="1"/>
+<text x="184" y="368" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start" >FOB Busan · Total USD 30,000.00</text>
+<path d="M922 88 H1482 L1522 128 V388 H922 Z" fill="#ffffff" stroke="#9aa7b5" stroke-width="2"/>
+<path d="M1482 88 V128 H1522" fill="#eef2f6" stroke="#9aa7b5" stroke-width="2"/>
+<rect x="922" y="88" width="10" height="300" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="0" />
+<text x="956" y="132" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start" >PACKING LIST</text>
+<text x="956" y="162" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >포장명세서 · 화물 서류</text>
+<text x="956" y="208" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start" >어떤 포장에 몇 개, 몇 kg인가</text>
+<line x1="956" y1="234" x2="1488" y2="234" stroke="#e3e8ee" stroke-width="1"/>
+<text x="956" y="260" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start" >P/NO. 1~6 · C/NO. 1~30</text>
+<line x1="956" y1="270" x2="1488" y2="270" stroke="#e3e8ee" stroke-width="1"/>
+<text x="956" y="296" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start" >30 CARTONS on 6 PALLETS</text>
+<line x1="956" y1="306" x2="1488" y2="306" stroke="#e3e8ee" stroke-width="1"/>
+<text x="956" y="332" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start" >Gross 1,230 KGS / Net 1,010 KGS</text>
+<line x1="956" y1="342" x2="1488" y2="342" stroke="#e3e8ee" stroke-width="1"/>
+<text x="956" y="368" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start" >120 × 100 × 110cm · 7.920 CBM</text>
+<line x1="450" y1="388" x2="450" y2="430" stroke="#1f6fd1" stroke-width="4"/>
+<line x1="150" y1="430" x2="1418" y2="430" stroke="#1f6fd1" stroke-width="4"/>
+<line x1="1222" y1="388" x2="1222" y2="452" stroke="#1f8a5b" stroke-width="4"/>
+<line x1="234" y1="452" x2="1502" y2="452" stroke="#1f8a5b" stroke-width="4"/>
+<line x1="150" y1="430" x2="150" y2="494" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<line x1="234" y1="452" x2="234" y2="494" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<rect x="40" y="500" width="304" height="400" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="64" y="546" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >세관</text>
+<text x="64" y="578" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >수출입신고</text>
+<rect x="64" y="604" width="256" height="4" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="2" />
+<text x="64" y="640" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >인보이스에서</text>
+<text x="64" y="676" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >품명·규격, 수량·단가·금액</text>
+<text x="64" y="708" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >인도조건·통화·원산지</text>
+<rect x="64" y="756" width="256" height="4" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="2" />
+<text x="64" y="792" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start" >패킹리스트에서</text>
+<text x="64" y="828" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >포장 종류·개수</text>
+<text x="64" y="860" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >총중량·순중량</text>
+<line x1="467" y1="430" x2="467" y2="494" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<line x1="551" y1="452" x2="551" y2="494" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<rect x="357" y="500" width="304" height="400" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="381" y="546" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >운송</text>
+<text x="381" y="578" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >B/L·AWB, 적재화물목록</text>
+<rect x="381" y="604" width="256" height="4" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="2" />
+<text x="381" y="640" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >인보이스에서</text>
+<text x="381" y="676" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >송하인·수하인</text>
+<text x="381" y="708" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >품명</text>
+<rect x="381" y="756" width="256" height="4" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="2" />
+<text x="381" y="792" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start" >패킹리스트에서</text>
+<text x="381" y="828" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >포장 수·화인</text>
+<text x="381" y="860" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >총중량·용적</text>
+<line x1="784" y1="430" x2="784" y2="494" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<line x1="868" y1="452" x2="868" y2="494" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<rect x="674" y="500" width="304" height="400" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="698" y="546" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >적하보험</text>
+<text x="698" y="578" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >보험금액, 사고 클레임</text>
+<rect x="698" y="604" width="256" height="4" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="2" />
+<text x="698" y="640" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >인보이스에서</text>
+<text x="698" y="676" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >보험금액의 기준 가격</text>
+<text x="698" y="708" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >통화</text>
+<rect x="698" y="756" width="256" height="4" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="2" />
+<text x="698" y="792" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start" >패킹리스트에서</text>
+<text x="698" y="828" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >멸실·손상 포장 특정</text>
+<text x="698" y="860" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >중량</text>
+<line x1="1101" y1="430" x2="1101" y2="494" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<line x1="1185" y1="452" x2="1185" y2="494" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<rect x="991" y="500" width="304" height="400" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="1015" y="546" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >FTA</text>
+<text x="1015" y="578" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >원산지증명서</text>
+<rect x="1015" y="604" width="256" height="4" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="2" />
+<text x="1015" y="640" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >인보이스에서</text>
+<text x="1015" y="676" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >품명·수량·송장번호 대조</text>
+<text x="1015" y="708" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >제3국 송장 여부</text>
+<rect x="1015" y="756" width="256" height="4" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="2" />
+<text x="1015" y="792" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start" >패킹리스트에서</text>
+<text x="1015" y="828" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >분할 선적 수량</text>
+<line x1="1418" y1="430" x2="1418" y2="494" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<line x1="1502" y1="452" x2="1502" y2="494" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<rect x="1308" y="500" width="304" height="400" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="1332" y="546" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >은행</text>
+<text x="1332" y="578" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >신용장</text>
+<rect x="1332" y="604" width="256" height="4" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="2" />
+<text x="1332" y="640" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >인보이스에서</text>
+<text x="1332" y="676" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >물품 명세·금액·통화 일치</text>
+<rect x="1332" y="756" width="256" height="4" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="2" />
+<text x="1332" y="792" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start" >패킹리스트에서</text>
+<text x="1332" y="828" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >신용장이 요구하면 제출</text>
+</svg>

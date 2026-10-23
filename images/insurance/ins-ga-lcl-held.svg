@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">공동해손 선언 뒤 혼재(LCL) 컨테이너는 전부 모여야 나옵니다</text>
+<rect x="56" y="100" width="290" height="130" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="72" y="136" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">선언</text>
+<text x="72" y="168" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">선주가 공동해손 선언</text>
+<text x="72" y="193" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">정산인 지정</text>
+<line x1="350" y1="165" x2="370" y2="165" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="374" y="100" width="290" height="130" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="390" y="136" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">내역 요청</text>
+<text x="390" y="168" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">정산인이 포워더에게</text>
+<text x="390" y="193" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">혼재 내역을 급히 요구</text>
+<line x1="668" y1="165" x2="688" y2="165" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="692" y="100" width="290" height="130" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="708" y="136" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">담보 제출</text>
+<text x="708" y="168" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">화주별 맹약서 +</text>
+<text x="708" y="193" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">보증장 또는 현금 공탁</text>
+<line x1="986" y1="165" x2="1006" y2="165" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="1010" y="100" width="290" height="130" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="1026" y="136" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">담보 확인 목록</text>
+<text x="1026" y="168" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">정산인 사이트에</text>
+<text x="1026" y="193" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">확인된 컨테이너 게시</text>
+<line x1="1304" y1="165" x2="1324" y2="165" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="1328" y="100" width="290" height="130" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="1344" y="136" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">반출 요청</text>
+<text x="1344" y="168" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">목록에 오르면</text>
+<text x="1344" y="193" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">선사에 반출 요청</text>
+<rect x="120" y="320" width="980" height="330" fill="#eef3f8" stroke="#1d2a3a" stroke-width="4" rx="6"/>
+<line x1="201.66666666666669" y1="326" x2="201.66666666666669" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="283.33333333333337" y1="326" x2="283.33333333333337" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="365.0" y1="326" x2="365.0" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="446.6666666666667" y1="326" x2="446.6666666666667" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="528.3333333333333" y1="326" x2="528.3333333333333" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="610.0" y1="326" x2="610.0" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="691.6666666666666" y1="326" x2="691.6666666666666" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="773.3333333333334" y1="326" x2="773.3333333333334" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="855.0" y1="326" x2="855.0" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="936.6666666666666" y1="326" x2="936.6666666666666" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<line x1="1018.3333333333334" y1="326" x2="1018.3333333333334" y2="644" stroke="#d4dde7" stroke-width="2"/>
+<rect x="150" y="410" width="210" height="210" fill="#d9a066" stroke="#a8743a" stroke-width="2.5" rx="4"/>
+<text x="255" y="460" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">House B/L A</text>
+<circle cx="255" cy="530" r="34" fill="#1f8a5b"/>
+<path d="M238 530 l12 14 l24 -28" fill="none" stroke="#ffffff" stroke-width="6"/>
+<text x="255" y="598" font-size="17" font-weight="700" fill="#1f8a5b" text-anchor="middle">담보 제출</text>
+<rect x="386" y="410" width="210" height="210" fill="#d9a066" stroke="#a8743a" stroke-width="2.5" rx="4"/>
+<text x="491" y="460" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">House B/L B</text>
+<circle cx="491" cy="530" r="34" fill="#1f8a5b"/>
+<path d="M474 530 l12 14 l24 -28" fill="none" stroke="#ffffff" stroke-width="6"/>
+<text x="491" y="598" font-size="17" font-weight="700" fill="#1f8a5b" text-anchor="middle">담보 제출</text>
+<rect x="622" y="410" width="210" height="210" fill="#d9a066" stroke="#a8743a" stroke-width="2.5" rx="4"/>
+<text x="727" y="460" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">House B/L C</text>
+<circle cx="727" cy="530" r="34" fill="#1f8a5b"/>
+<path d="M710 530 l12 14 l24 -28" fill="none" stroke="#ffffff" stroke-width="6"/>
+<text x="727" y="598" font-size="17" font-weight="700" fill="#1f8a5b" text-anchor="middle">담보 제출</text>
+<rect x="858" y="410" width="210" height="210" fill="#e2b07e" stroke="#a8743a" stroke-width="2.5" rx="4"/>
+<text x="963" y="460" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">House B/L D</text>
+<circle cx="963" cy="530" r="34" fill="#d9482b"/>
+<line x1="950" y1="517" x2="976" y2="543" stroke="#ffffff" stroke-width="6"/>
+<line x1="976" y1="517" x2="950" y2="543" stroke="#ffffff" stroke-width="6"/>
+<text x="963" y="598" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">담보 미제출</text>
+<text x="610.0" y="370" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">혼재 컨테이너 1대(Master B/L에는 포워더 이름만)</text>
+<rect x="1140" y="420" width="120" height="100" fill="#d9482b" rx="14"/>
+<path d="M1165 420 v-30 a35 35 0 0 1 70 0 v30" fill="none" stroke="#d9482b" stroke-width="12"/>
+<text x="1200" y="486" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">반출 불가</text>
+<text x="1290" y="440" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">한 화주라도 담보를 내지 않으면</text>
+<text x="1290" y="470" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">같은 컨테이너의 다른 화주</text>
+<text x="1290" y="500" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">화물까지 나가지 못함</text>
+<rect x="56" y="690" width="760" height="190" fill="#f5f9fe" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="72" y="726" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">포워더가 그날 할 일</text>
+<text x="72" y="758" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">House B/L 번호·품명·중량·송하인·수하인 내역을</text>
+<text x="72" y="783" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">정산인에게 바로 보냄</text>
+<text x="72" y="808" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">안내문(서식·제출처·기한·사이트 접속 정보)을 화주에게 전달</text>
+<rect x="856" y="690" width="760" height="190" fill="#fff7f5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="872" y="726" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">하지 않을 것</text>
+<text x="872" y="758" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">화주 대신 자기 이름으로 맹약서에 서명하거나</text>
+<text x="872" y="783" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">분담금을 보증하지 않음</text>
+<text x="872" y="808" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">분담 의무는 화물 소유자에게 있음</text>
+</svg>

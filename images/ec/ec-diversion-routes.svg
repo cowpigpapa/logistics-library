@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+  <marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+  <marker id="m1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+  <marker id="m8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+  <marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30.0" y="30.0" width="640.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54.0" y="72.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">① 서류 속 품명 위장</text>
+<text x="54.0" y="106.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">실제 물품 → 신고한 품명(국내 단속 사례)</text>
+<rect x="54.0" y="130.0" width="250.0" height="70.0" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="70.0" y="173.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">총기 부품</text>
+<line x1="310.0" y1="165.0" x2="352.0" y2="165.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="360.0" y="130.0" width="286.0" height="70.0" fill="#fff" stroke="#8a96a3" stroke-width="2" rx="10"/>
+<text x="376.0" y="162.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">기계 공구 부분품·철강 제품</text>
+<text x="376.0" y="186.0" font-size="14" font-weight="500" fill="#5f6b78" text-anchor="start">2024 부산세관 송치</text>
+<rect x="54.0" y="218.0" width="250.0" height="70.0" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="70.0" y="261.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">무기 생산장비</text>
+<line x1="310.0" y1="253.0" x2="352.0" y2="253.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="360.0" y="218.0" width="286.0" height="70.0" fill="#fff" stroke="#8a96a3" stroke-width="2" rx="10"/>
+<text x="376.0" y="250.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">일반 산업용 생산장비</text>
+<text x="376.0" y="274.0" font-size="14" font-weight="500" fill="#5f6b78" text-anchor="start">같은 사건, 280차례</text>
+<rect x="54.0" y="306.0" width="250.0" height="70.0" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="70.0" y="349.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">미국산 고성능 AD 컨버터</text>
+<line x1="310.0" y1="341.0" x2="352.0" y2="341.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="360.0" y="306.0" width="286.0" height="70.0" fill="#fff" stroke="#8a96a3" stroke-width="2" rx="10"/>
+<text x="376.0" y="338.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">PCB·실제 가격 1/100 반도체</text>
+<text x="376.0" y="362.0" font-size="14" font-weight="500" fill="#5f6b78" text-anchor="start">2025 부산세관 송치</text>
+<rect x="54.0" y="394.0" width="250.0" height="70.0" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="70.0" y="437.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">초정밀 공작기계</text>
+<line x1="310.0" y1="429.0" x2="352.0" y2="429.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="360.0" y="394.0" width="286.0" height="70.0" fill="#fff" stroke="#8a96a3" stroke-width="2" rx="10"/>
+<text x="376.0" y="426.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">저사양 기종(명판 제거)</text>
+<text x="376.0" y="450.0" font-size="14" font-weight="500" fill="#5f6b78" text-anchor="start">2024 부산세관 송치</text>
+<rect x="54.0" y="482.0" width="250.0" height="70.0" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="70.0" y="525.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">러시아행 통제 품목</text>
+<line x1="310.0" y1="517.0" x2="352.0" y2="517.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="360.0" y="482.0" width="286.0" height="70.0" fill="#fff" stroke="#8a96a3" stroke-width="2" rx="10"/>
+<text x="376.0" y="514.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">비해당 자가판정서</text>
+<text x="376.0" y="538.0" font-size="14" font-weight="500" fill="#5f6b78" text-anchor="start">2024 부산세관 송치</text>
+<rect x="54.0" y="586.0" width="592.0" height="300.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="76.0" y="626.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">서류에서 보이는 모습</text>
+<text x="76.0" y="662.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· “machine parts”, “spare parts”, “PCB”처럼</text>
+<text x="89.5" y="692.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">넓은 품명, 모델명 없음</text>
+<text x="76.0" y="722.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 단가가 업계 상식보다 지나치게 낮음</text>
+<text x="76.0" y="752.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 인보이스 모델명과 사양서가 다르거나</text>
+<text x="89.5" y="782.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">사양서를 주지 않음</text>
+<text x="76.0" y="812.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 자가판정서는 있지만 근거 사양서가 없음</text>
+<text x="76.0" y="842.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 같은 모델의 반복 수출</text>
+<rect x="700.0" y="30.0" width="942.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="724.0" y="72.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">② 제3국 우회와 운송 중 변경</text>
+<text x="724.0" y="106.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">서류상 목적지와 실제 목적지가 다른 경로(국내·미국 사례에서 확인된 것)</text>
+<rect x="740.0" y="380.0" width="170.0" height="90.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="3" rx="10"/>
+<text x="825.0" y="421.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">한국</text>
+<text x="825.0" y="447.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">수출신고</text>
+<rect x="1420.0" y="380.0" width="190.0" height="90.0" fill="#fdecea" stroke="#d9482b" stroke-width="3" rx="10"/>
+<text x="1515.0" y="421.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">러시아</text>
+<text x="1515.0" y="447.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">실제 목적지</text>
+<rect x="1060.0" y="160.0" width="230.0" height="90.0" fill="#fff" stroke="#1d2a3a" stroke-width="3" rx="10"/>
+<text x="1175.0" y="201.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">카자흐스탄·키르기스스탄</text>
+<text x="1175.0" y="227.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">서류상 목적지</text>
+<rect x="1060.0" y="380.0" width="230.0" height="90.0" fill="#fff" stroke="#1d2a3a" stroke-width="3" rx="10"/>
+<text x="1175.0" y="421.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">중국·튀르키예</text>
+<text x="1175.0" y="447.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">경유지</text>
+<rect x="1060.0" y="570.0" width="230.0" height="90.0" fill="#fff" stroke="#1d2a3a" stroke-width="3" rx="10"/>
+<text x="1175.0" y="611.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">몰디브·UAE 환적업자</text>
+<text x="1175.0" y="637.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">최종수하인이 물류회사</text>
+<path d="M910 405 C 970 330, 1000 230, 1052 210" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#m1f6fd1)" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="914.0" y1="425.0" x2="1052.0" y2="425.0" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m1f6fd1)"/>
+<path d="M1290 210 C 1350 230, 1390 330, 1428 378" stroke="#d9482b" stroke-width="4" fill="none" marker-end="url(#md9482b)" stroke-dasharray="10 7" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1294.0" y1="425.0" x2="1412.0" y2="425.0" stroke="#d9482b" stroke-width="4" marker-end="url(#md9482b)"/>
+<path d="M1290 615 C 1360 600, 1400 520, 1460 478" stroke="#d9482b" stroke-width="4" fill="none" marker-end="url(#md9482b)" stroke-dasharray="10 7" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="740.0" y="580.0" width="170.0" height="70.0" fill="#fff" stroke="#8a96a3" stroke-width="3" rx="10"/>
+<text x="825.0" y="622.0" font-size="19" font-weight="800" fill="#8a96a3" text-anchor="middle">미국 공급사</text>
+<line x1="914.0" y1="615.0" x2="1052.0" y2="615.0" stroke="#8a96a3" stroke-width="3" marker-end="url(#m8a96a3)"/>
+<text x="1358.0" y="270.0" font-size="16" font-weight="700" fill="#d9482b" text-anchor="start">운송 중 수취인 변경</text>
+<text x="1300.0" y="408.0" font-size="16" font-weight="700" fill="#d9482b" text-anchor="start">통과</text>
+<text x="740.0" y="680.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">미국산 항공기 부품</text>
+<text x="740.0" y="702.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">(2025 미국 법무부 사례)</text>
+<rect x="724.0" y="730.0" width="894.0" height="156.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="746.0" y="768.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">포워더가 직접 받는 신호</text>
+<text x="746.0" y="804.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· B/L 발행 뒤 수하인·통지처·도착항 변경 요청</text>
+<text x="746.0" y="832.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 러시아 인접국의 무역회사가 수하인, 목적지와 맞지 않는 소국·중계지</text>
+<text x="746.0" y="860.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 통상보다 높은 운임·대금을 기꺼이 지불, 서두르는 납기, 갑작스러운 경유지 지정</text>
+</svg>

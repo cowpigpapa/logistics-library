@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="me4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="462" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">세액이 부족하다는 것을 알았을 때: 언제 고치느냐에 따라 부담이 달라진다</text>
+<rect x="130" y="176" width="312" height="116" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="0" />
+<text x="286.0" y="213.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">보정</text>
+<text x="286.0" y="241.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">가산세 없음</text>
+<text x="286.0" y="269.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">이자 연 3.1%만</text>
+<rect x="442" y="176" width="312" height="116" fill="#fff7e0" stroke="#b7791f" stroke-width="2" rx="0" />
+<text x="598.0" y="213.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">수정신고</text>
+<text x="598.0" y="241.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">10% 가산세의</text>
+<text x="598.0" y="269.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">30% 감면</text>
+<rect x="754" y="176" width="312" height="116" fill="#fff1e8" stroke="#e4572e" stroke-width="2" rx="0" />
+<text x="910.0" y="213.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">수정신고</text>
+<text x="910.0" y="241.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">10% 가산세의</text>
+<text x="910.0" y="269.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">20% 감면</text>
+<rect x="1066" y="176" width="312" height="116" fill="#fde4dc" stroke="#d9482b" stroke-width="2" rx="0" />
+<text x="1222.0" y="213.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">수정신고</text>
+<text x="1222.0" y="241.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">10% 가산세의</text>
+<text x="1222.0" y="269.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">10% 감면</text>
+<rect x="1378" y="176" width="197.60000000000002" height="116" fill="#f6d5cc" stroke="#d9482b" stroke-width="2" rx="0" />
+<text x="1476.8000000000002" y="241.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">감면 없음</text>
+<line x1="130" y1="162" x2="130" y2="306" stroke="#1d2a3a" stroke-width="2"/>
+<text x="130" y="154" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">신고납부일</text>
+<line x1="442" y1="162" x2="442" y2="306" stroke="#1d2a3a" stroke-width="2"/>
+<text x="442" y="154" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">6개월</text>
+<line x1="754" y1="162" x2="754" y2="306" stroke="#1d2a3a" stroke-width="2"/>
+<text x="754" y="154" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">1년</text>
+<line x1="1066" y1="162" x2="1066" y2="306" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1066" y="154" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">1년 6개월</text>
+<line x1="1378" y1="162" x2="1378" y2="306" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1378" y="154" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">2년</text>
+<line x1="130" y1="332" x2="438" y2="332" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)" marker-start="url(#m1f8a5b)"/>
+<text x="286" y="364" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="middle">보정기간 6개월 (제38조의2)</text>
+<line x1="446" y1="332" x2="1374" y2="332" stroke="#e4572e" stroke-width="3" marker-end="url(#me4572e)" marker-start="url(#me4572e)"/>
+<text x="910" y="364" font-size="19" font-weight="700" fill="#e4572e" text-anchor="middle">보정기간이 지난 뒤 스스로 수정신고하면 기간별 감면 (제42조의2제1항제5호)</text>
+<rect x="442" y="384" width="1133.6000000000001" height="72" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5" rx="10" />
+<text x="462" y="414" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">보정기간이 지나면(수정신고·세관 경정): 부족세액의 10% 가산세 + 납부지연 가산세(1일 10만분의 22)</text>
+<text x="462" y="442" font-size="19" font-weight="600" fill="#d9482b" text-anchor="start">이중송품장 등 부정한 행위로 과소신고했다면 부족세액의 60%</text>
+<text x="136" y="414" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">보정 신청 다음 날까지</text>
+<text x="136" y="442" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">납부</text>
+<circle cx="286" cy="110" r="16" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="286" y="117" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+<text x="310" y="117" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="start">90일 뒤 보정</text>
+<line x1="286" y1="126" x2="286" y2="174" stroke="#1f8a5b" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="754" cy="110" r="16" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="754" y="117" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
+<text x="778" y="117" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">1년 뒤 세관 경정: 10% 가산세 그대로</text>
+<rect x="30" y="506" width="1612" height="404" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="548" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">예시: 과세가격 30,170,000원, 신고 세율 0%·정당 세율 8%, 부족세액 2,413,600원 (관세만)</text>
+<circle cx="70" cy="616" r="16" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<text x="70" y="623" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+<text x="98" y="608" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">납부 90일 뒤 보정</text>
+<text x="98" y="636" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">(단순 계산)</text>
+<rect x="470" y="594" width="38.155258150800144" height="44" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="1" rx="4" />
+<text x="522.1552581508001" y="624" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">이자 약 18,449원</text>
+<circle cx="70" cy="726" r="16" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="70" y="733" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
+<text x="98" y="718" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">1년 뒤 세관 경정</text>
+<text x="98" y="746" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">(납부지연 365일 가정)</text>
+<rect x="470" y="704" width="499.16814500932963" height="44" fill="#e4572e" stroke="#e4572e" stroke-width="1" rx="4" />
+<rect x="969.1681450093297" y="704" width="400.83185499067037" height="44" fill="#d9482b" stroke="#d9482b" stroke-width="1" rx="4" />
+<text x="719.5840725046648" y="734" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">과소신고 가산세 241,360원</text>
+<text x="1169.5840725046648" y="734" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">납부지연 193,812원</text>
+<text x="470" y="782" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">관세 쪽 합계(부족세액 포함) 2,848,772원</text>
+<line x1="460" y1="580" x2="460" y2="800" stroke="#c9d2dc" stroke-width="2"/>
+<text x="70" y="858" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">관세가 늘면 부가가치세도 함께 추징되며, 그 가산세는 별도 기준으로 계산됩니다. 같은 실수라도 6개월 안에 찾으면 부담이 크게 줄어듭니다.</text>
+</svg>

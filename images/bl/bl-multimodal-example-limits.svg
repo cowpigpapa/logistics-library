@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">예시 1: 같은 화물, 손해가 확인된 구간에 따라 달라지는 한도</text>
+<text x="56" y="104" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">기계 부품 팔레트 10개, 총중량 5,000kg, FBL에 &#x27;10 PALLETS&#x27; 기재. 운송인 책임이 인정되고 면책이 없다고 가정</text>
+<rect x="102" y="191" width="246" height="18" fill="#8a6d3b" rx="5"/>
+<text x="225.0" y="180" font-size="18" font-weight="800" fill="#8a6d3b" text-anchor="middle">국내 트럭</text>
+<rect x="372" y="191" width="596" height="18" fill="#1f6fd1" rx="5"/>
+<text x="670.0" y="180" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="middle">바다</text>
+<rect x="992" y="191" width="266" height="18" fill="#6b4fa0" rx="5"/>
+<text x="1125.0" y="180" font-size="18" font-weight="800" fill="#6b4fa0" text-anchor="middle">국제 철도</text>
+<rect x="1282" y="191" width="266" height="18" fill="#8a6d3b" rx="5"/>
+<text x="1415.0" y="180" font-size="18" font-weight="800" fill="#8a6d3b" text-anchor="middle">트럭</text>
+<circle cx="90" cy="200" r="11" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="90" y="240" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">경기도 공장</text>
+<text x="90" y="264" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">수취지</text>
+<circle cx="360" cy="200" r="11" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="360" y="240" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">부산항</text>
+<circle cx="980" cy="200" r="11" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="980" y="240" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">로테르담</text>
+<circle cx="1270" cy="200" r="11" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="1270" y="240" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">체코 내륙 기지</text>
+<circle cx="1560" cy="200" r="11" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="1560" y="240" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">체코 공장</text>
+<text x="1560" y="264" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">인도지</text>
+<text x="70" y="354" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">바다에서 확인</text>
+<text x="70" y="380" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">로테르담 터미널 손상 기록</text>
+<rect x="520" y="336" width="97.77777777777777" height="34" fill="#1f6fd1" rx="6"/>
+<text x="629.7777777777778" y="361" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">10,000 SDR</text>
+<text x="520" y="394" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">포장당 6,666.7 &lt; kg당 10,000</text>
+<text x="70" y="446" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">국제 철도에서 확인</text>
+<text x="70" y="472" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">철도 인수증 이상 기재</text>
+<rect x="520" y="428" width="831.1111111111111" height="34" fill="#6b4fa0" rx="6"/>
+<text x="1363.111111111111" y="453" font-size="20" font-weight="800" fill="#6b4fa0" text-anchor="start">85,000 SDR</text>
+<text x="520" y="486" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">CIM kg당 17 SDR, 바다의 8.5배</text>
+<text x="70" y="538" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">구간 불명</text>
+<text x="70" y="564" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">도착지 개봉 때 처음 발견</text>
+<rect x="520" y="520" width="97.77777777777777" height="34" fill="#9aa5b1" rx="6"/>
+<text x="629.7777777777778" y="545" font-size="20" font-weight="800" fill="#9aa5b1" text-anchor="start">10,000 SDR</text>
+<text x="520" y="578" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">바다가 가장 긴 구간 + FBL 기본 한도</text>
+<text x="70" y="630" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">마지막 트럭에서 확인</text>
+<text x="70" y="656" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">체코 국내 구간</text>
+<rect x="520" y="612" width="300" height="34" fill="#ffffff" stroke="#5f6b78" stroke-width="2" rx="6" stroke-dasharray="6 5"/>
+<text x="670" y="636" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="middle">체코 국내법 확인 필요</text>
+<text x="520" y="670" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">이 문서에서 확인하지 않음</text>
+<text x="70" y="722" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">국경 넘는 트럭이었다면</text>
+<text x="70" y="748" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">독일 기지~체코 공장(CMR)</text>
+<rect x="520" y="704" width="407.2444444444444" height="34" fill="#8a6d3b" rx="6"/>
+<text x="939.2444444444444" y="729" font-size="20" font-weight="800" fill="#8a6d3b" text-anchor="start">41,650 SDR</text>
+<text x="520" y="762" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">kg당 8.33 SDR</text>
+<line x1="520" y1="800" x2="1400" y2="800" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="520.0" y1="800" x2="520.0" y2="810" stroke="#1d2a3a" stroke-width="2"/>
+<text x="520.0" y="834" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">0</text>
+<line x1="715.5555555555555" y1="800" x2="715.5555555555555" y2="810" stroke="#1d2a3a" stroke-width="2"/>
+<text x="715.5555555555555" y="834" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">20,000</text>
+<line x1="911.1111111111111" y1="800" x2="911.1111111111111" y2="810" stroke="#1d2a3a" stroke-width="2"/>
+<text x="911.1111111111111" y="834" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">40,000</text>
+<line x1="1106.6666666666665" y1="800" x2="1106.6666666666665" y2="810" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1106.6666666666665" y="834" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">60,000</text>
+<line x1="1302.2222222222222" y1="800" x2="1302.2222222222222" y2="810" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1302.2222222222222" y="834" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">80,000</text>
+<text x="1420" y="834" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">SDR</text>
+<text x="70" y="872" font-size="17" font-weight="700" fill="#d9482b" text-anchor="start">출발 전 국내 트럭 구간은 상법 육상 규정에 kg당 한도가 없어 약관 한도가 통하는지 다툼이 생길 수 있음(4절)</text>
+</svg>

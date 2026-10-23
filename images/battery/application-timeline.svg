@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="62.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">두 규정의 적용 일정 (물류에 영향이 있는 날짜)</text>
+<text x="40.0" y="98.0" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">2026~2027년은 날짜가 몰려 있어 넓게 그렸습니다. 옅은 세로선이 각 해의 1월 1일입니다.</text>
+<line x1="70.0" y1="130.0" x2="70.0" y2="880.0" stroke="#e3e8ee" stroke-width="2"/>
+<text x="78.0" y="910.0" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">2023</text>
+<line x1="249.8" y1="130.0" x2="249.8" y2="880.0" stroke="#e3e8ee" stroke-width="2"/>
+<text x="257.8" y="910.0" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">2024</text>
+<line x1="430.2" y1="130.0" x2="430.2" y2="880.0" stroke="#e3e8ee" stroke-width="2"/>
+<text x="438.2" y="910.0" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">2025</text>
+<line x1="610.0" y1="130.0" x2="610.0" y2="880.0" stroke="#e3e8ee" stroke-width="2"/>
+<text x="618.0" y="910.0" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">2026</text>
+<line x1="1000.0" y1="130.0" x2="1000.0" y2="880.0" stroke="#e3e8ee" stroke-width="2"/>
+<text x="1008.0" y="910.0" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">2027</text>
+<line x1="1390.0" y1="130.0" x2="1390.0" y2="880.0" stroke="#e3e8ee" stroke-width="2"/>
+<text x="1398.0" y="910.0" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">2028</text>
+<line x1="1495.1" y1="130.0" x2="1495.1" y2="880.0" stroke="#e3e8ee" stroke-width="2"/>
+<text x="1503.1" y="910.0" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">2029</text>
+<line x1="1600.0" y1="130.0" x2="1600.0" y2="880.0" stroke="#e3e8ee" stroke-width="2"/>
+<rect x="70.0" y="485.0" width="1530.0" height="14.0" fill="#dfe6ee" stroke="#dfe6ee" stroke-width="0" rx="7"/>
+<rect x="70.0" y="485.0" width="836.0" height="14.0" fill="#8fb0d6" stroke="#8fb0d6" stroke-width="0" rx="7"/>
+<path d="M897.0 522 L915.0 522 L906.0 504 Z" fill="#1d2a3a"/>
+<rect x="1120.0" y="40.0" width="512.0" height="70.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<rect x="1140.0" y="60.0" width="46.0" height="12.0" fill="#8fb0d6" stroke="#8fb0d6" stroke-width="0" rx="6"/>
+<text x="1196.0" y="72.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">이미 적용 중인 기간</text>
+<path d="M1154 98 L1172 98 L1163 82 Z" fill="#1d2a3a"/>
+<text x="1196.0" y="98.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">기준일 2026년 10월 5일</text>
+<text x="40.0" y="168.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">배터리 규정 2023/1542</text>
+<text x="40.0" y="800.0" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">폐기물운송규정 2024/1157 · EU 폐기물 목록</text>
+<polyline points="182.3,482.0 182.3,456.0 163.0,332.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="182.3" cy="492" r="8" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<rect x="40.0" y="210.0" width="246.0" height="122.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="54.0" y="240.0" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">2023.8.17</text>
+<text x="54.0" y="268.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">배터리 규정 발효</text>
+<polyline points="273.5,482.0 273.5,456.0 432.2,332.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="273.5" cy="492" r="8" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<rect x="309.2" y="210.0" width="246.0" height="122.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="323.2" y="240.0" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">2024.2.18</text>
+<text x="323.2" y="268.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">일반 적용 시작</text>
+<polyline points="363.2,482.0 363.2,456.0 701.4,332.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="363.2" cy="492" r="8" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<rect x="578.4" y="210.0" width="246.0" height="122.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="592.4" y="240.0" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">2024.8.18</text>
+<text x="592.4" y="268.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">적합성 평가, 수입자·</text>
+<text x="592.4" y="293.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">유통자·풀필먼트 의무</text>
+<polyline points="543.0,482.0 543.0,456.0 970.6,332.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="543.0" cy="492" r="8" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<rect x="847.6" y="210.0" width="246.0" height="122.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="861.6" y="240.0" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">2025.8.18</text>
+<text x="861.6" y="268.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">폐배터리 관리(제8장)·</text>
+<text x="861.6" y="293.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">부속서 XIV, 분리수거</text>
+<text x="861.6" y="318.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">기호, 구 지침 폐지</text>
+<polyline points="854.7,482.0 854.7,456.0 1239.8,332.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="854.7" cy="492" r="8" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<rect x="1116.8" y="210.0" width="246.0" height="122.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="1130.8" y="240.0" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">2026.8.18 이후</text>
+<text x="1130.8" y="268.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">일반정보·용량 라벨</text>
+<text x="1130.8" y="293.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">(이행법률 발효일에</text>
+<text x="1130.8" y="318.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">따라 달라짐)</text>
+<polyline points="1051.3,482.0 1051.3,456.0 1509.0,332.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="1051.3" cy="492" r="8" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<rect x="1386.0" y="210.0" width="246.0" height="122.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="1400.0" y="240.0" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">2027.2.18</text>
+<text x="1400.0" y="268.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">QR 코드, 배터리 여권</text>
+<text x="1400.0" y="293.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">(LMT·2kWh 초과</text>
+<text x="1400.0" y="318.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">산업용·전기차)</text>
+<polyline points="318.8,502.0 318.8,532.0 147.0,620.0" fill="none" stroke="#e4572e" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="318.8" cy="492" r="8" fill="#e4572e" stroke="#fff" stroke-width="2"/>
+<rect x="40.0" y="620.0" width="214.0" height="122.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="52.0" y="650.0" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">2024.5.20</text>
+<text x="52.0" y="678.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">폐기물운송규정 발효,</text>
+<text x="52.0" y="703.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">일부 조항 먼저 적용</text>
+<polyline points="759.6,502.0 759.6,532.0 376.7,620.0" fill="none" stroke="#e4572e" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="759.6" cy="492" r="8" fill="#e4572e" stroke="#fff" stroke-width="2"/>
+<rect x="269.7" y="620.0" width="214.0" height="122.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="281.7" y="650.0" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">2026.5.21</text>
+<text x="281.7" y="678.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">일반 적용 시작,</text>
+<text x="281.7" y="703.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">전자 제출 의무,</text>
+<text x="281.7" y="728.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">구 규정 경과 적용 끝</text>
+<polyline points="956.2,502.0 956.2,532.0 606.3,620.0" fill="none" stroke="#e4572e" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="956.2" cy="492" r="8" fill="#e4572e" stroke="#fff" stroke-width="2"/>
+<rect x="499.3" y="620.0" width="214.0" height="122.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="511.3" y="650.0" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">2026.11.21</text>
+<text x="511.3" y="678.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">B3011 플라스틱</text>
+<text x="511.3" y="703.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">폐기물 비OECD국</text>
+<text x="511.3" y="728.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">수출 금지</text>
+<polyline points="975.4,502.0 975.4,532.0 836.0,620.0" fill="none" stroke="#d9482b" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="975.4" cy="492" r="8" fill="#d9482b" stroke="#fff" stroke-width="2"/>
+<rect x="729.0" y="620.0" width="214.0" height="122.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="741.0" y="650.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">2026.12.9</text>
+<text x="741.0" y="678.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">EU 폐기물 목록 개정:</text>
+<text x="741.0" y="703.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">리튬계 폐배터리</text>
+<text x="741.0" y="728.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">16 06 07*(유해)→PIC</text>
+<polyline points="1000.0,502.0 1000.0,532.0 1065.7,620.0" fill="none" stroke="#e4572e" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="1000.0" cy="492" r="8" fill="#e4572e" stroke="#fff" stroke-width="2"/>
+<rect x="958.7" y="620.0" width="214.0" height="122.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="970.7" y="650.0" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">2027.1.1</text>
+<text x="970.7" y="678.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">EU 안 폐전기·전자</text>
+<text x="970.7" y="703.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">제품 Y49·A1181</text>
+<text x="970.7" y="728.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">→ PIC</text>
+<polyline points="1149.6,502.0 1149.6,532.0 1295.3,620.0" fill="none" stroke="#e4572e" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="1149.6" cy="492" r="8" fill="#e4572e" stroke="#fff" stroke-width="2"/>
+<rect x="1188.3" y="620.0" width="214.0" height="122.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="1200.3" y="650.0" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">2027.5.21</text>
+<text x="1200.3" y="678.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">비OECD국 비유해 수출</text>
+<text x="1200.3" y="703.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">은 허용국 목록만,</text>
+<text x="1200.3" y="728.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">목적지 시설 감사</text>
+<polyline points="1535.4,502.0 1535.4,532.0 1525.0,620.0" fill="none" stroke="#e4572e" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="1535.4" cy="492" r="8" fill="#e4572e" stroke="#fff" stroke-width="2"/>
+<rect x="1418.0" y="620.0" width="214.0" height="122.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="1430.0" y="650.0" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">2029.5.21</text>
+<text x="1430.0" y="678.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">구 사전동의 운송</text>
+<text x="1430.0" y="703.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">완료 기한</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">배터리에 붙는 표시와 적용 시점</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">배터리 규정 제13조. 표시는 제조자가 하고, 수입자는 출시 전, 유통자는 공급 전에 확인합니다(제41조(2)(b), 제42조(2)(b)).</text>
+<rect x="280.0" y="136.0" width="70.0" height="34.0" fill="#b8c2cc" stroke="#7d8a97" stroke-width="2" rx="4"/>
+<rect x="450.0" y="136.0" width="70.0" height="34.0" fill="#b8c2cc" stroke="#7d8a97" stroke-width="2" rx="4"/>
+<text x="315.0" y="128.0" font-size="26" font-weight="800" fill="#5f6b78" text-anchor="middle">−</text>
+<text x="485.0" y="128.0" font-size="26" font-weight="800" fill="#5f6b78" text-anchor="middle">+</text>
+<rect x="120.0" y="170.0" width="560.0" height="640.0" fill="#f3f6f9" stroke="#7d8a97" stroke-width="3" rx="18"/>
+<rect x="150.0" y="200.0" width="500.0" height="250.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="10"/>
+<text x="170.0" y="238.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">일반정보 라벨</text>
+<text x="170.0" y="278.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">제조자 · 범주·식별정보 · 제조 장소</text>
+<text x="170.0" y="308.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">제조 연월 · 중량 · 용량 · 화학계</text>
+<text x="170.0" y="338.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">유해물질 · 소화약제 · 핵심원자재</text>
+<rect x="170.0" y="380.0" width="200.0" height="48.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="1.5" rx="8"/>
+<text x="270.0" y="411.0" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="middle">용량 라벨</text>
+<text x="390.0" y="411.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">(충전식 휴대용·LMT·SLI)</text>
+<polygon points="521.5,491.5 578.5,491.5 572.8,558.0 527.2,558.0" fill="none" stroke="#1d2a3a" stroke-width="3.8" stroke-linejoin="round"/>
+<rect x="515.8" y="482.0" width="68.4" height="7.6" fill="#1d2a3a"/>
+<rect x="540.5" y="474.4" width="19.0" height="5.7" fill="#1d2a3a"/>
+<circle cx="532.9" cy="563.7" r="6.6" fill="none" stroke="#1d2a3a" stroke-width="3.8"/>
+<line x1="508.2" y1="472.5" x2="591.8" y2="571.3" stroke="#1d2a3a" stroke-width="4.9"/>
+<line x1="591.8" y1="472.5" x2="508.2" y2="571.3" stroke="#1d2a3a" stroke-width="4.9"/>
+<text x="550.0" y="628.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">Cd</text>
+<text x="550.0" y="654.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">(해당 시)</text>
+<rect x="164.0" y="584.0" width="182.0" height="182.0" fill="#ffffff" stroke="#ffffff" stroke-width="0" rx="2"/>
+<path d="M234.76 590.00h8.10v8.10h-8.10zM242.86 590.00h8.10v8.10h-8.10zM259.05 590.00h8.10v8.10h-8.10zM234.76 598.10h8.10v8.10h-8.10zM242.86 598.10h8.10v8.10h-8.10zM259.05 598.10h8.10v8.10h-8.10zM267.14 598.10h8.10v8.10h-8.10zM234.76 606.19h8.10v8.10h-8.10zM242.86 606.19h8.10v8.10h-8.10zM250.95 606.19h8.10v8.10h-8.10zM267.14 606.19h8.10v8.10h-8.10zM234.76 614.29h8.10v8.10h-8.10zM267.14 614.29h8.10v8.10h-8.10zM242.86 622.38h8.10v8.10h-8.10zM259.05 622.38h8.10v8.10h-8.10zM267.14 622.38h8.10v8.10h-8.10zM234.76 630.48h8.10v8.10h-8.10zM242.86 630.48h8.10v8.10h-8.10zM259.05 630.48h8.10v8.10h-8.10zM242.86 638.57h8.10v8.10h-8.10zM259.05 638.57h8.10v8.10h-8.10zM267.14 638.57h8.10v8.10h-8.10zM234.76 646.67h8.10v8.10h-8.10zM250.95 646.67h8.10v8.10h-8.10zM259.05 646.67h8.10v8.10h-8.10zM170.00 654.76h8.10v8.10h-8.10zM178.10 654.76h8.10v8.10h-8.10zM202.38 654.76h8.10v8.10h-8.10zM242.86 654.76h8.10v8.10h-8.10zM259.05 654.76h8.10v8.10h-8.10zM267.14 654.76h8.10v8.10h-8.10zM283.33 654.76h8.10v8.10h-8.10zM299.52 654.76h8.10v8.10h-8.10zM170.00 662.86h8.10v8.10h-8.10zM202.38 662.86h8.10v8.10h-8.10zM226.67 662.86h8.10v8.10h-8.10zM242.86 662.86h8.10v8.10h-8.10zM283.33 662.86h8.10v8.10h-8.10zM291.43 662.86h8.10v8.10h-8.10zM307.62 662.86h8.10v8.10h-8.10zM315.71 662.86h8.10v8.10h-8.10zM323.81 662.86h8.10v8.10h-8.10zM331.90 662.86h8.10v8.10h-8.10zM170.00 670.95h8.10v8.10h-8.10zM186.19 670.95h8.10v8.10h-8.10zM194.29 670.95h8.10v8.10h-8.10zM202.38 670.95h8.10v8.10h-8.10zM218.57 670.95h8.10v8.10h-8.10zM226.67 670.95h8.10v8.10h-8.10zM267.14 670.95h8.10v8.10h-8.10zM275.24 670.95h8.10v8.10h-8.10zM283.33 670.95h8.10v8.10h-8.10zM307.62 670.95h8.10v8.10h-8.10zM315.71 670.95h8.10v8.10h-8.10zM323.81 670.95h8.10v8.10h-8.10zM331.90 670.95h8.10v8.10h-8.10zM186.19 679.05h8.10v8.10h-8.10zM194.29 679.05h8.10v8.10h-8.10zM202.38 679.05h8.10v8.10h-8.10zM210.48 679.05h8.10v8.10h-8.10zM267.14 679.05h8.10v8.10h-8.10zM307.62 679.05h8.10v8.10h-8.10zM315.71 679.05h8.10v8.10h-8.10zM323.81 679.05h8.10v8.10h-8.10zM170.00 687.14h8.10v8.10h-8.10zM178.10 687.14h8.10v8.10h-8.10zM186.19 687.14h8.10v8.10h-8.10zM194.29 687.14h8.10v8.10h-8.10zM202.38 687.14h8.10v8.10h-8.10zM210.48 687.14h8.10v8.10h-8.10zM218.57 687.14h8.10v8.10h-8.10zM226.67 687.14h8.10v8.10h-8.10zM234.76 687.14h8.10v8.10h-8.10zM242.86 687.14h8.10v8.10h-8.10zM250.95 687.14h8.10v8.10h-8.10zM275.24 687.14h8.10v8.10h-8.10zM283.33 687.14h8.10v8.10h-8.10zM291.43 687.14h8.10v8.10h-8.10zM299.52 687.14h8.10v8.10h-8.10zM307.62 687.14h8.10v8.10h-8.10zM331.90 687.14h8.10v8.10h-8.10zM242.86 695.24h8.10v8.10h-8.10zM250.95 695.24h8.10v8.10h-8.10zM259.05 695.24h8.10v8.10h-8.10zM267.14 695.24h8.10v8.10h-8.10zM283.33 695.24h8.10v8.10h-8.10zM291.43 695.24h8.10v8.10h-8.10zM315.71 695.24h8.10v8.10h-8.10zM331.90 695.24h8.10v8.10h-8.10zM267.14 703.33h8.10v8.10h-8.10zM275.24 703.33h8.10v8.10h-8.10zM283.33 703.33h8.10v8.10h-8.10zM315.71 703.33h8.10v8.10h-8.10zM323.81 703.33h8.10v8.10h-8.10zM275.24 711.43h8.10v8.10h-8.10zM291.43 711.43h8.10v8.10h-8.10zM299.52 711.43h8.10v8.10h-8.10zM307.62 711.43h8.10v8.10h-8.10zM315.71 711.43h8.10v8.10h-8.10zM323.81 711.43h8.10v8.10h-8.10zM242.86 719.52h8.10v8.10h-8.10zM275.24 719.52h8.10v8.10h-8.10zM283.33 719.52h8.10v8.10h-8.10zM291.43 719.52h8.10v8.10h-8.10zM299.52 719.52h8.10v8.10h-8.10zM307.62 719.52h8.10v8.10h-8.10zM234.76 727.62h8.10v8.10h-8.10zM259.05 727.62h8.10v8.10h-8.10zM299.52 727.62h8.10v8.10h-8.10zM307.62 727.62h8.10v8.10h-8.10zM323.81 727.62h8.10v8.10h-8.10zM242.86 735.71h8.10v8.10h-8.10zM250.95 735.71h8.10v8.10h-8.10zM275.24 735.71h8.10v8.10h-8.10zM283.33 735.71h8.10v8.10h-8.10zM291.43 735.71h8.10v8.10h-8.10zM315.71 735.71h8.10v8.10h-8.10zM242.86 743.81h8.10v8.10h-8.10zM259.05 743.81h8.10v8.10h-8.10zM267.14 743.81h8.10v8.10h-8.10zM307.62 743.81h8.10v8.10h-8.10zM331.90 743.81h8.10v8.10h-8.10zM234.76 751.90h8.10v8.10h-8.10zM242.86 751.90h8.10v8.10h-8.10zM250.95 751.90h8.10v8.10h-8.10zM267.14 751.90h8.10v8.10h-8.10zM275.24 751.90h8.10v8.10h-8.10zM283.33 751.90h8.10v8.10h-8.10zM299.52 751.90h8.10v8.10h-8.10zM307.62 751.90h8.10v8.10h-8.10zM331.90 751.90h8.10v8.10h-8.10z" fill="#1d2a3a"/>
+<rect x="170.0" y="590.0" width="56.7" height="56.7" fill="#1d2a3a"/>
+<rect x="178.1" y="598.1" width="40.5" height="40.5" fill="#ffffff"/>
+<rect x="186.2" y="606.2" width="24.3" height="24.3" fill="#1d2a3a"/>
+<rect x="283.3" y="590.0" width="56.7" height="56.7" fill="#1d2a3a"/>
+<rect x="291.4" y="598.1" width="40.5" height="40.5" fill="#ffffff"/>
+<rect x="299.5" y="606.2" width="24.3" height="24.3" fill="#1d2a3a"/>
+<rect x="170.0" y="703.3" width="56.7" height="56.7" fill="#1d2a3a"/>
+<rect x="178.1" y="711.4" width="40.5" height="40.5" fill="#ffffff"/>
+<rect x="186.2" y="719.5" width="24.3" height="24.3" fill="#1d2a3a"/>
+<rect x="760.0" y="130.0" width="872.0" height="150.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="776.0" y="164.5" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">일반정보 라벨·용량 라벨</text>
+<text x="776.0" y="195.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">"2026년 8월 18일 또는 이행법률 발효 후 18개월 중 늦은 날"부터. 실제 적용일은 제13조(10)</text>
+<text x="776.0" y="220.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">이행법률의 발효일로 계산합니다.</text>
+<line x1="650.0" y1="290.0" x2="760.0" y2="205.0" stroke="#1f6fd1" stroke-width="2"/>
+<circle cx="650" cy="290" r="5" fill="#1f6fd1"/>
+<rect x="760.0" y="296.0" width="872.0" height="150.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="776.0" y="330.5" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">분리수거 기호 · 2025년 8월 18일부터(시행 중)</text>
+<text x="776.0" y="361.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">가장 넓은 면의 3% 이상(원통형 셀은 1.5% 이상), 최대 5 × 5 cm. 0.47 × 0.47 cm보다 작아지면 본체</text>
+<text x="776.0" y="386.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">대신 포장에 1 × 1 cm 이상</text>
+<line x1="620.0" y1="530.0" x2="760.0" y2="371.0" stroke="#1f8a5b" stroke-width="2"/>
+<circle cx="620" cy="530" r="5" fill="#1f8a5b"/>
+<rect x="760.0" y="462.0" width="872.0" height="120.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="776.0" y="496.5" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">Cd·Pb 기호 · 별도 유예 없음</text>
+<text x="776.0" y="527.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">카드뮴 0.002% 초과 또는 납 0.004% 초과 시. 분리수거 기호 아래, 그 기호의 4분의 1 이상 크기</text>
+<line x1="582.0" y1="620.0" x2="760.0" y2="522.0" stroke="#1d2a3a" stroke-width="2"/>
+<circle cx="582" cy="620" r="5" fill="#1d2a3a"/>
+<rect x="760.0" y="598.0" width="872.0" height="150.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="776.0" y="632.5" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">QR 코드 · 2027년 2월 18일부터</text>
+<text x="776.0" y="663.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">모든 배터리. LMT·2kWh 초과 산업용·전기차는 배터리 여권으로, 그 밖의 배터리는 라벨 정보·적합성</text>
+<text x="776.0" y="688.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">선언 등으로 연결</text>
+<line x1="344.0" y1="756.0" x2="760.0" y2="673.0" stroke="#e4572e" stroke-width="2"/>
+<circle cx="344" cy="756" r="5" fill="#e4572e"/>
+<rect x="760.0" y="764.0" width="872.0" height="120.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="776.0" y="800.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">본체에 표시할 수 없으면 포장과 동봉 서류에 표시합니다(제13조(7)). 이때는 포장이 법정 표시</text>
+<text x="776.0" y="825.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">매체이므로 재포장·라벨 작업으로 가리면 안 됩니다.</text>
+<text x="400.0" y="860.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">그림의 배치와 비율은 예시입니다</text>
+</svg>

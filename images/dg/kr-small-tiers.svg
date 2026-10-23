@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">지정수량 배수로 보는 세 구간과 시·도마다 다른 "소량위험물" 하한</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">서울·경기·부산·인천 조례 비교(2026년 10월 5일 게시 조례 기준). 운반 기준(법 제20조)은 수량과 관계없이 적용됩니다.</text>
+<text x="40.0" y="222.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">서울·경기·부산</text>
+<text x="40.0" y="250.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">하한: 지정수량의 5분의 1</text>
+<text x="40.0" y="272.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">(부산은 100분의 20)</text>
+<rect x="300.0" y="170.0" width="212.0" height="100.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="0"/>
+<text x="406.0" y="214.0" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="middle">일반 기준</text>
+<text x="406.0" y="240.0" font-size="16" font-weight="600" fill="#1f8a5b" text-anchor="middle">(조례)</text>
+<rect x="512.0" y="170.0" width="848.0" height="100.0" fill="#fbf3dc" stroke="#c98a00" stroke-width="2.5" rx="0"/>
+<text x="936.0" y="214.0" font-size="20" font-weight="800" fill="#8a5f00" text-anchor="middle">소량위험물</text>
+<text x="936.0" y="240.0" font-size="16" font-weight="600" fill="#8a5f00" text-anchor="middle">표지·게시판, 적재 높이, 저장 장소 구조, 공지</text>
+<rect x="1360.0" y="170.0" width="265.0" height="100.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="0"/>
+<text x="1492.5" y="214.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">지정수량 이상</text>
+<text x="1492.5" y="240.0" font-size="16" font-weight="600" fill="#d9482b" text-anchor="middle">허가 저장소만</text>
+<text x="40.0" y="412.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">인천</text>
+<text x="40.0" y="440.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">하한: 지정수량의 2분의 1</text>
+<rect x="300.0" y="360.0" width="530.0" height="100.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="0"/>
+<text x="565.0" y="404.0" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="middle">일반 기준</text>
+<text x="565.0" y="430.0" font-size="16" font-weight="600" fill="#1f8a5b" text-anchor="middle">(조례)</text>
+<rect x="830.0" y="360.0" width="530.0" height="100.0" fill="#fbf3dc" stroke="#c98a00" stroke-width="2.5" rx="0"/>
+<text x="1095.0" y="404.0" font-size="20" font-weight="800" fill="#8a5f00" text-anchor="middle">소량위험물</text>
+<text x="1095.0" y="430.0" font-size="16" font-weight="600" fill="#8a5f00" text-anchor="middle">표지·게시판, 적재 높이, 저장 장소 구조, 공지</text>
+<rect x="1360.0" y="360.0" width="265.0" height="100.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="0"/>
+<text x="1492.5" y="404.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">지정수량 이상</text>
+<text x="1492.5" y="430.0" font-size="16" font-weight="600" fill="#d9482b" text-anchor="middle">허가 저장소만</text>
+<line x1="300.0" y1="560.0" x2="1625.0" y2="560.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#a-ink)"/>
+<line x1="300.0" y1="553.0" x2="300.0" y2="567.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="300.0" y="590.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">0</text>
+<line x1="512.0" y1="553.0" x2="512.0" y2="567.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="512.0" y="590.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">0.2</text>
+<line x1="618.0" y1="553.0" x2="618.0" y2="567.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="618.0" y="590.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">0.3</text>
+<line x1="830.0" y1="553.0" x2="830.0" y2="567.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="830.0" y="590.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">0.5</text>
+<line x1="1360.0" y1="553.0" x2="1360.0" y2="567.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1360.0" y="590.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">1.0</text>
+<text x="1625.0" y="590.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="end">지정수량 배수</text>
+<line x1="618.0" y1="150.0" x2="618.0" y2="560.0" stroke="#1f6fd1" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="468.0" y="120.0" width="300.0" height="30.0" fill="#ffffff" stroke="none" stroke-width="0" rx="0"/>
+<text x="618.0" y="142.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">예: 제1석유류 비수용성 60L = 0.3배</text>
+<text x="630.0" y="300.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">← 서울·경기·부산: 소량위험물에 해당</text>
+<text x="630.0" y="490.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">← 인천: 소량위험물 아님(일반 기준만)</text>
+<rect x="40.0" y="650.0" width="512.0" height="258.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="56.0" y="686.9" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">하한 미만도 조례 적용</text>
+<text x="56.0" y="719.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">누출·비산 방지, 선반 고정,</text>
+<text x="56.0" y="757.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">용기 전도·낙하 방지,</text>
+<text x="56.0" y="795.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">혼촉 위험 물품 분리.</text>
+<text x="56.0" y="833.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">서울·부산·인천은 위반 시 과태료</text>
+<rect x="576.0" y="650.0" width="512.0" height="258.0" fill="#fbf3dc" stroke="#c98a00" stroke-width="2.5" rx="12"/>
+<text x="592.0" y="686.9" font-size="22" font-weight="800" fill="#c98a00" text-anchor="start">소량위험물 시설 기준</text>
+<text x="592.0" y="719.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">표지와 품명·최대수량·주의사항</text>
+<text x="592.0" y="757.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">게시판, 적재 높이 4m 이하</text>
+<text x="592.0" y="795.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">(옥외 선반 6m), 불연·내화 구조,</text>
+<text x="592.0" y="833.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">옥외 폭 2m 이상 공지</text>
+<rect x="1112.0" y="650.0" width="512.0" height="258.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="1128.0" y="686.9" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">지정수량 이상</text>
+<text x="1128.0" y="719.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">허가받은 저장소에서만 저장.</text>
+<text x="1128.0" y="757.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위반은 3년 이하 징역 또는</text>
+<text x="1128.0" y="795.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">3천만원 이하 벌금.</text>
+<text x="1128.0" y="833.5" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">임시는 소방서장 승인 90일 이내</text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">배터리·폐기물 운송 사례 7건</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">판결 4건은 제품·중고품·폐기물의 경계를, 단속 2건과 화재 1건은 서류와 실물이 다를 때의 결과를 보여 줍니다.</text>
+<circle cx="1180" cy="128" r="9" fill="#1f6fd1"/>
+<text x="1196.0" y="135.0" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">CJEU 판결</text>
+<circle cx="1340" cy="128" r="9" fill="#c98a0b"/>
+<text x="1356.0" y="135.0" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">당국 단속</text>
+<circle cx="1500" cy="128" r="9" fill="#d9482b"/>
+<text x="1516.0" y="135.0" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">운송 중 화재</text>
+<rect x="70.0" y="464.0" width="1530.0" height="12.0" fill="#dfe6ee" stroke="#dfe6ee" stroke-width="0" rx="6"/>
+<line x1="80.0" y1="458.0" x2="80.0" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="80.0" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2006</text>
+<line x1="223.8" y1="458.0" x2="223.8" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="223.8" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2008</text>
+<line x1="367.6" y1="458.0" x2="367.6" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="367.6" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2010</text>
+<line x1="511.4" y1="458.0" x2="511.4" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="511.4" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2012</text>
+<line x1="655.2" y1="458.0" x2="655.2" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="655.2" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2014</text>
+<line x1="799.0" y1="458.0" x2="799.0" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="799.0" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2016</text>
+<line x1="942.9" y1="458.0" x2="942.9" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="942.9" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2018</text>
+<line x1="1086.7" y1="458.0" x2="1086.7" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="1086.7" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2020</text>
+<line x1="1230.5" y1="458.0" x2="1230.5" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="1230.5" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2022</text>
+<line x1="1374.3" y1="458.0" x2="1374.3" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="1374.3" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2024</text>
+<line x1="1518.1" y1="458.0" x2="1518.1" y2="482.0" stroke="#5f6b78" stroke-width="2"/>
+<text x="1518.1" y="510.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">2026</text>
+<circle cx="187.9" cy="470" r="10" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<polyline points="187.9,458.0 187.9,430.0 230.0,350.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="60.0" y="150.0" width="340.0" height="200.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="76.0" y="182.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">2007  Omni Metal Service</text>
+<text x="76.0" y="212.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">폐전선 17개 컨테이너</text>
+<text x="76.0" y="244.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">녹색목록 두 물질의 결합물은 녹색목록</text>
+<text x="76.0" y="268.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">아님</text>
+<text x="76.0" y="330.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">→ "녹색목록"이라는 말보다 코드 문언</text>
+<circle cx="619.3" cy="470" r="10" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<polyline points="619.3,482.0 619.3,522.0 370.0,560.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="200.0" y="560.0" width="340.0" height="200.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="216.0" y="592.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">2013  Shell</text>
+<text x="216.0" y="622.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">규격 미달로 반품된 경유</text>
+<text x="216.0" y="654.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">계약대로 환불받으려 반품한 것은 버린</text>
+<text x="216.0" y="678.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">것 아님</text>
+<text x="216.0" y="740.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">→ 반품 계약과 처리 계획을 서류로</text>
+<circle cx="1050.7" cy="470" r="10" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<polyline points="1050.7,458.0 1050.7,430.0 670.0,350.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="500.0" y="150.0" width="340.0" height="200.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="516.0" y="182.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">2019  Tronex</text>
+<text x="516.0" y="212.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">반품·단종 재고 소형 가전</text>
+<text x="516.0" y="244.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">작동 미확인·보호 부족 기기가 섞이면</text>
+<text x="516.0" y="268.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">폐기물</text>
+<text x="516.0" y="330.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">→ 로트 전체의 시험 기록과 포장</text>
+<circle cx="1122.6" cy="470" r="10" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
+<polyline points="1122.6,482.0 1122.6,522.0 890.0,560.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="720.0" y="560.0" width="340.0" height="200.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="736.0" y="592.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">2020  Interseroh</text>
+<text x="736.0" y="622.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">이물질 최대 10% 폐지 혼합물</text>
+<text x="736.0" y="654.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">단일 녹색목록 항목이 아님</text>
+<text x="736.0" y="740.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">→ 섞이면 PIC가 될 수 있음</text>
+<circle cx="1194.5" cy="470" r="10" fill="#d9482b" stroke="#fff" stroke-width="2"/>
+<polyline points="1194.5,458.0 1194.5,430.0 1060.0,350.0" fill="none" stroke="#d9482b" stroke-width="2" stroke-linejoin="round"/>
+<rect x="890.0" y="150.0" width="340.0" height="200.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="906.0" y="182.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">2021  미국 컨테이너 화재</text>
+<text x="906.0" y="212.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">폐리튬배터리, B/L "컴퓨터 부품"</text>
+<text x="906.0" y="244.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">항만 반입 중 고속도로에서 전소</text>
+<text x="906.0" y="330.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">→ 수거품의 품명과 단락 방지</text>
+<circle cx="1482.1" cy="470" r="10" fill="#c98a0b" stroke="#fff" stroke-width="2"/>
+<polyline points="1482.1,482.0 1482.1,522.0 1410.0,560.0" fill="none" stroke="#c98a0b" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1240.0" y="560.0" width="340.0" height="200.0" fill="#fdf4dc" stroke="#c98a0b" stroke-width="2" rx="12"/>
+<text x="1256.0" y="592.0" font-size="20" font-weight="800" fill="#c98a0b" text-anchor="start">2025  로테르담항 납축전지</text>
+<text x="1256.0" y="622.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">825,000kg, 컨테이너 33개</text>
+<text x="1256.0" y="654.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">비유해로 신고, 운송 중지·반송</text>
+<text x="1256.0" y="740.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">→ EU 환적만 해도 EU 당국이 세운다</text>
+<circle cx="1554.0" cy="470" r="10" fill="#c98a0b" stroke="#fff" stroke-width="2"/>
+<polyline points="1554.0,458.0 1554.0,430.0 1450.0,350.0" fill="none" stroke="#c98a0b" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1280.0" y="150.0" width="340.0" height="200.0" fill="#fdf4dc" stroke="#c98a0b" stroke-width="2" rx="12"/>
+<text x="1296.0" y="182.0" font-size="20" font-weight="800" fill="#c98a0b" text-anchor="start">2026  3R Technology(영국)</text>
+<text x="1296.0" y="212.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">"깨끗한 플라스틱" 신고 폐기물</text>
+<text x="1296.0" y="244.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">전기 폐기물을 안쪽에 숨김, 벌금</text>
+<text x="1296.0" y="268.0" font-size="17.5" font-weight="600" fill="#1d2a3a" text-anchor="start">£80,000</text>
+<text x="1296.0" y="330.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">→ 녹색목록 허위 기재와 반복 선적</text>
+<rect x="40.0" y="800.0" width="1592.0" height="104.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="64.0" y="838.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">반복되는 실패</text>
+<text x="64.0" y="876.0" font-size="18.5" font-weight="600" fill="#1d2a3a" text-anchor="start">품명 오신고·일반 품명  ·  "녹색목록"이라는 화주 설명을 그대로 믿음  ·  반품·재고를 묶음으로 보냄  ·  경유국·환적항 누락  ·  위험물 요건 누락</text>
+</svg>

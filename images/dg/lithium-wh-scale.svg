@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">Wh 계산과 기준선</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">와트시(Wh) = 공칭 전압(V) × 정격 용량(Ah). mAh는 1,000으로 나눠 Ah로 바꿉니다. 사양은 설명용 예시입니다.</text>
+<text x="40.0" y="292.0" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">셀</text>
+<text x="40.0" y="320.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">단일 셀 배터리 포함</text>
+<rect x="300.0" y="240.0" width="747.8" height="130.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="8"/>
+<rect x="1047.8" y="240.0" width="552.2" height="130.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="8"/>
+<text x="314.0" y="270.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">20Wh 이하</text>
+<text x="1586.0" y="270.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="end">20Wh 초과: 완전 규제</text>
+<text x="40.0" y="462.0" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">배터리</text>
+<text x="40.0" y="490.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">팩·모듈</text>
+<rect x="300.0" y="410.0" width="975.0" height="150.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="8"/>
+<rect x="1275.0" y="410.0" width="325.0" height="150.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="8"/>
+<text x="314.0" y="440.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">100Wh 이하</text>
+<text x="1586.0" y="440.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="end">100Wh 초과: 완전 규제</text>
+<circle cx="386.8" cy="326.0" r="11.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="406.8" y="320.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">무선 이어폰 셀 0.185Wh</text>
+<text x="406.8" y="344.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">3.7V × 50mAh</text>
+<circle cx="1028.2" cy="326.0" r="11.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="1008.2" y="320.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="end">스마트폰 셀 17.4Wh</text>
+<text x="1008.2" y="344.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="end">3.87V × 4,500mAh</text>
+<circle cx="1134.7" cy="522.0" r="11.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="1114.7" y="528.0" font-size="16.5" font-weight="800" fill="#1d2a3a" text-anchor="end">보조배터리 37Wh (3.7V × 10,000mAh)</text>
+<circle cx="1260.1" cy="472.0" r="11.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="1240.1" y="478.0" font-size="16.5" font-weight="800" fill="#1d2a3a" text-anchor="end">전동공구 배터리 90Wh (18V × 5.0Ah)</text>
+<circle cx="1503.3" cy="496.0" r="11.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="1483.3" y="490.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="end">전기자전거 배터리 504Wh</text>
+<text x="1483.3" y="514.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="end">36V × 14Ah</text>
+<line x1="300.0" y1="618.0" x2="1600.0" y2="618.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#a-ink)"/>
+<line x1="300.0" y1="610.0" x2="300.0" y2="626.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="300.0" y="650.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">0.1Wh</text>
+<line x1="625.0" y1="610.0" x2="625.0" y2="626.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="625.0" y="650.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">1Wh</text>
+<line x1="950.0" y1="610.0" x2="950.0" y2="626.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="950.0" y="650.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">10Wh</text>
+<line x1="1275.0" y1="610.0" x2="1275.0" y2="626.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1275.0" y="650.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">100Wh</text>
+<line x1="1600.0" y1="610.0" x2="1600.0" y2="626.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1600.0" y="650.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">1000Wh</text>
+<text x="1600.0" y="674.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="end">로그 눈금</text>
+<line x1="765.2" y1="190.0" x2="765.2" y2="618.0" stroke="#c98a00" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="575.2" y="150.0" width="380.0" height="34.0" fill="#ffffff" stroke="#c98a00" stroke-width="2" rx="8"/>
+<text x="765.2" y="173.0" font-size="15" font-weight="800" fill="#8a5f00" text-anchor="middle">2.7Wh: 항공 PI 966 Section II의 SoC 의무 기준</text>
+<rect x="40.0" y="696.0" width="760.0" height="212.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="62.0" y="738.9" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">리튬금속은 리튬 함량(g)으로</text>
+<text x="62.0" y="771.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">셀 1g, 배터리(합계) 2g이 기준선</text>
+<text x="62.0" y="809.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">리튬 함량은 계산하지 말고 제조사가</text>
+<text x="62.0" y="847.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">시험 요약서에 적은 값을 씀</text>
+<rect x="830.0" y="696.0" width="802.0" height="212.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="852.0" y="738.9" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">자주 하는 오분류</text>
+<text x="852.0" y="771.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">셀 단품에 배터리 기준 100Wh를 적용(30Wh 셀은 완전 규제)</text>
+<text x="852.0" y="809.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">기준선 아래면 위험물이 아니라고 봄(조건 완화일 뿐)</text>
+<text x="852.0" y="847.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">2011년 12월 31일 이후 제조 리튬배터리는 외장에 Wh 표시</text>
+</svg>

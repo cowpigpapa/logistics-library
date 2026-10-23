@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start" >수입 화물의 시계: 시작하는 날과 멈추는 날이 다릅니다</text>
+<text x="40" y="94" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="start" >운송 쪽 시계는 주로 양하일에, 세관 쪽 시계는 반입일과 수리일에 묶여 있습니다 (날짜 간격은 비례가 아님)</text>
+<line x1="480" y1="190" x2="480" y2="860" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="480" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="480" y="156" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >양하</text>
+<line x1="610" y1="190" x2="610" y2="860" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="610" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="610" y="156" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >반입</text>
+<line x1="800" y1="190" x2="800" y2="860" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="800" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="800" y="156" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >수입신고</text>
+<line x1="960" y1="190" x2="960" y2="860" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="960" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="960" y="156" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >수리</text>
+<line x1="1120" y1="190" x2="1120" y2="860" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="1120" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="1120" y="156" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >납부</text>
+<line x1="1300" y1="190" x2="1300" y2="860" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="1300" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="1300" y="156" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >반출</text>
+<line x1="1530" y1="190" x2="1530" y2="860" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="1530" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="1530" y="156" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >빈 컨테이너 반납</text>
+<rect x="40" y="222" width="1592" height="36" fill="#fff4ef" stroke="none" stroke-width="0" rx="8" />
+<text x="56" y="248" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start" >운송 쪽 시계</text>
+<text x="56" y="302" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >터미널 보관료 (해상 FCL)</text>
+<rect x="480" y="280" width="820" height="34" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="6" />
+<text x="494" y="304" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start" >양하일부터 반출(gate-out)까지 · 무료 기간은 터미널 요율표</text>
+<path d="M1299 276 v42" stroke="#1d2a3a" stroke-width="4"/>
+<text x="56" y="368" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >선사 D&amp;D</text>
+<rect x="480" y="346" width="1050" height="34" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="6" />
+<text x="494" y="370" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start" >반출 뒤에도 빈 컨테이너가 돌아올 때까지 계속</text>
+<path d="M1529 342 v42" stroke="#1d2a3a" stroke-width="4"/>
+<text x="56" y="434" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >CFS 보관료 (해상 LCL)</text>
+<rect x="610" y="412" width="690" height="34" fill="#e4572e" fill-opacity="0.18" stroke="#e4572e" stroke-width="2" stroke-dasharray="7 5" rx="6"/>
+<text x="624" y="436" font-size="18" font-weight="700" fill="#e4572e" text-anchor="start" >시작 기준은 CFS·콘솔사 요율표</text>
+<path d="M1299 408 v42" stroke="#1d2a3a" stroke-width="4"/>
+<text x="56" y="500" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >공항 창고 보관료 (항공)</text>
+<rect x="610" y="478" width="690" height="34" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="6" />
+<text x="624" y="502" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start" >창고 반입 시점부터 출고까지 · 일반화물 24시간 무료</text>
+<path d="M1299 474 v42" stroke="#1d2a3a" stroke-width="4"/>
+<rect x="40" y="532" width="1592" height="36" fill="#eef4fc" stroke="none" stroke-width="0" rx="8" />
+<text x="56" y="558" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start" >세관 쪽 시계</text>
+<text x="56" y="612" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >수입신고 기한</text>
+<rect x="610" y="590" width="190" height="34" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="6" />
+<text x="624" y="614" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start" >30일</text>
+<path d="M799 586 v42" stroke="#1d2a3a" stroke-width="4"/>
+<text x="56" y="678" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >장치기간</text>
+<rect x="610" y="656" width="690" height="34" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="6" />
+<text x="624" y="680" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start" >부산항·인천항, 인천·김해공항 등 2개월 · 그 밖의 보세창고 6개월</text>
+<path d="M1299 652 v42" stroke="#1d2a3a" stroke-width="4"/>
+<text x="56" y="744" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >수리 후 반출</text>
+<rect x="960" y="722" width="340" height="34" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="6" />
+<text x="974" y="746" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start" >15일 (별표 1 보세구역)</text>
+<path d="M1299 718 v42" stroke="#1d2a3a" stroke-width="4"/>
+<text x="56" y="810" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >관세 납부기한</text>
+<rect x="960" y="788" width="160" height="34" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="6" />
+<text x="974" y="812" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start" >15일 이내</text>
+<path d="M1119 784 v42" stroke="#1d2a3a" stroke-width="4"/>
+<text x="40" y="904" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >법정 기간은 첫날을 넣지 않고(민법 제157조), 터미널·선사 무료 기간은 대부분 양하일이나 반입일을 1일로 셉니다.</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+  <marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30.0" y="30.0" width="1612.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56.0" y="80.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">허가 품목 수출: 신청에서 인도까지</text>
+<text x="56.0" y="114.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">폐기물국가간이동법 제6조~제8조, 시행령 제3조. 권한은 유역환경청장·지방환경청장에게 위임(시행령 제24조)</text>
+<rect x="56.0" y="150.0" width="248.0" height="290.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="74.0" y="187.8" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">① 허가 신청</text>
+<text x="74.0" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">F.O.B. 가격이 적힌 계약서</text>
+<text x="74.0" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">운반·보관 계획서(운반업자·</text>
+<text x="74.0" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">경로·일정·보관장소)</text>
+<text x="74.0" y="306.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">시험성적서, 보증금·보험,</text>
+<text x="74.0" y="336.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">폐기물 사진</text>
+<line x1="306.0" y1="295.0" x2="318.0" y2="295.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="318.0" y="150.0" width="248.0" height="290.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="336.0" y="187.8" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">② 동의 요청</text>
+<text x="336.0" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">환경청이 적합하면</text>
+<text x="336.0" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">5일 이내 수입국·경유국</text>
+<text x="336.0" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">주무관청에 동의 요청</text>
+<text x="336.0" y="306.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">(동의서를 직접 내면 생략)</text>
+<line x1="568.0" y1="295.0" x2="580.0" y2="295.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="580.0" y="150.0" width="248.0" height="290.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="598.0" y="187.8" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">③ 허가서 발급</text>
+<text x="598.0" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">동의서를 받으면</text>
+<text x="598.0" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">5일 이내 발급</text>
+<text x="598.0" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">같은 상대·세관 반복분은</text>
+<text x="598.0" y="306.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">12개월 범위 포괄허가</text>
+<line x1="830.0" y1="295.0" x2="842.0" y2="295.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="842.0" y="150.0" width="248.0" height="290.0" fill="#fdeee8" stroke="#e4572e" stroke-width="3" rx="12"/>
+<text x="860.0" y="187.8" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">④ 이동서류 작성</text>
+<text x="860.0" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">허가받은 자가</text>
+<text x="860.0" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">수출이동서류 작성(제7조)</text>
+<text x="860.0" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">포괄수출은 선적마다</text>
+<text x="860.0" y="306.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">신고일 10일 전까지 사진 등</text>
+<line x1="1092.0" y1="295.0" x2="1104.0" y2="295.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="1104.0" y="150.0" width="248.0" height="290.0" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="3" rx="12"/>
+<text x="1122.0" y="187.8" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">⑤ 수출신고</text>
+<text x="1122.0" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">세관장확인: 폐기물 수출</text>
+<text x="1122.0" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">허가(신고)확인서</text>
+<text x="1122.0" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">견본품·소량이라도</text>
+<text x="1122.0" y="306.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">확인이 생략되지 않음</text>
+<line x1="1354.0" y1="295.0" x2="1366.0" y2="295.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="1366.0" y="150.0" width="248.0" height="290.0" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="3" rx="12"/>
+<text x="1384.0" y="187.8" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">⑥ 운반·인도</text>
+<text x="1384.0" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">운반자는 이동서류를 지니고</text>
+<text x="1384.0" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">인도할 때 인도일 등을</text>
+<text x="1384.0" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">적고 서명(제8조)</text>
+<text x="1384.0" y="306.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">미휴대는 과태료 대상</text>
+<rect x="56.0" y="470.0" width="770.0" height="200.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="78.0" y="510.0" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">계획과 달라지면 변경허가</text>
+<text x="78.0" y="546.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">수출자·수입자 상호나 소재지, 폐기물 명칭·성상, 수량,</text>
+<text x="78.0" y="574.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">처리방법·장소, 상대국 세관·주무관청이 바뀌면 변경허가(시행령 제4조).</text>
+<text x="78.0" y="602.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">허가 서류에 포워더·운송사 이름과 경로가 들어가므로</text>
+<text x="78.0" y="630.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">다른 경로·장치장을 쓰면 화주에게 알립니다.</text>
+<rect x="846.0" y="470.0" width="770.0" height="200.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="868.0" y="510.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">신고 품목과 국내 경유</text>
+<text x="868.0" y="546.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">신고 품목: 서류를 붙여 신고, 환경청은 10일 이내 수리 여부 통지.</text>
+<text x="868.0" y="574.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">수입폐기물을 들어온 상태 그대로 다시 수출하는 것은 금지.</text>
+<text x="868.0" y="602.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">국내를 경유해 규제폐기물을 다른 나라로 보내려면</text>
+<text x="868.0" y="630.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">한국의 경유 동의가 있어야 합니다(제16조제2항).</text>
+<rect x="56.0" y="690.0" width="1560.0" height="190.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="78.0" y="730.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">어기면</text>
+<text x="78.0" y="772.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">허가 없이 수출입</text>
+<text x="328.0" y="772.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">5년 이하 징역 또는 5천만원 이하 벌금(제28조)</text>
+<text x="858.0" y="772.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">이동서류 미작성·거짓 작성</text>
+<text x="1108.0" y="772.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">3년 이하 징역 또는 3천만원 이하 벌금(제29조)</text>
+<text x="78.0" y="824.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">이동서류 미휴대·미기재</text>
+<text x="328.0" y="824.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">200만원 이하 과태료(제32조제3항)</text>
+<text x="858.0" y="824.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">반입·반출명령 불이행</text>
+<text x="1108.0" y="824.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">대집행 후 비용을 수출입자에게 징수(제21조)</text>
+</svg>

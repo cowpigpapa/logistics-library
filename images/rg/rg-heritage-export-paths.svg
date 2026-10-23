@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+  <marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+  <marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+  <marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30.0" y="30.0" width="1612.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56.0" y="80.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">오래된 물건을 내보낼 때의 길</text>
+<text x="56.0" y="114.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">문화유산법 제60조, 시행규칙 제43조·제48조, 세관장확인 고시 별표 1</text>
+<rect x="56.0" y="160.0" width="300.0" height="110.0" fill="#eef1f5" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="206.0" y="200.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">오인 우려가 있는 물건</text>
+<text x="206.0" y="226.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">포장·적재 전에 실물을 들고</text>
+<text x="206.0" y="252.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">공항·항만 감정관실로</text>
+<line x1="360.0" y1="215.0" x2="420.0" y2="215.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="428.0" y="160.0" width="260.0" height="110.0" fill="#fff" stroke="#1d2a3a" stroke-width="3" rx="12"/>
+<text x="558.0" y="204.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">문화유산감정위원</text>
+<text x="558.0" y="234.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">감정</text>
+<path d="M690 190 C 740 190, 740 170, 780 170" stroke="#1f8a5b" stroke-width="3" fill="none" marker-end="url(#m1f8a5b)" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="788.0" y="140.0" width="828.0" height="100.0" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="810.0" y="176.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">일반동산문화유산 아님</text>
+<text x="810.0" y="208.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">비문화유산 국외반출 확인서 → 수출신고 때 세관장확인 요건(여행자 휴대품엔 확인표지)</text>
+<path d="M690 240 C 740 240, 740 300, 780 300" stroke="#d9482b" stroke-width="3" fill="none" marker-end="url(#md9482b)" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="788.0" y="262.0" width="828.0" height="70.0" fill="#fdecea" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="810.0" y="305.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">일반동산문화유산: 확인서가 나오지 않음</text>
+<rect x="788.0" y="352.0" width="828.0" height="84.0" fill="#fff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="808.0" y="386.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">이사·판매·선물</text>
+<rect x="808.0" y="398.0" width="121.8" height="28.0" fill="#d9482b" stroke="#d9482b" stroke-width="1.5" rx="14.0"/>
+<text x="868.9" y="417.2" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">반출할 수 없음</text>
+<text x="1080.0" y="386.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">이삿짐·판매 화물에서 뺍니다</text>
+<rect x="788.0" y="446.0" width="828.0" height="84.0" fill="#fff" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="808.0" y="480.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">국외 전시, 조사·연구</text>
+<rect x="808.0" y="492.0" width="121.8" height="28.0" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="1.5" rx="14.0"/>
+<text x="868.9" y="511.2" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">국외 반출 허가</text>
+<text x="1080.0" y="480.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">반출 예정일 1개월 전 신청(보험증서, 소유자 동의서, 전시·연구계획서)</text>
+<text x="1080.0" y="508.0" font-size="15" font-weight="800" fill="#1f6fd1" text-anchor="start">2년 안에 재반입(2년 범위 연장)</text>
+<rect x="788.0" y="540.0" width="828.0" height="84.0" fill="#fff" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="808.0" y="574.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">박물관 간 반출</text>
+<rect x="808.0" y="586.0" width="121.8" height="28.0" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="1.5" rx="14.0"/>
+<text x="868.9" y="605.2" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">국외 반출 허가</text>
+<text x="1080.0" y="574.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">박물관진흥법에 따라 설립된 박물관 등</text>
+<text x="1080.0" y="602.0" font-size="15" font-weight="800" fill="#1f6fd1" text-anchor="start">10년 이내 재반입</text>
+<rect x="788.0" y="634.0" width="828.0" height="84.0" fill="#fff" stroke="#b7791f" stroke-width="2" rx="10"/>
+<text x="808.0" y="668.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">외국 공인 박물관의 구입·기증</text>
+<rect x="808.0" y="680.0" width="159.6" height="28.0" fill="#b7791f" stroke="#b7791f" stroke-width="1.5" rx="14.0"/>
+<text x="887.8" y="699.2" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">구입·기증 반출 허가</text>
+<text x="1080.0" y="668.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">반출 예정일 1개월 전, 취득 경위서·인증서 등</text>
+<text x="1080.0" y="696.0" font-size="15" font-weight="800" fill="#b7791f" text-anchor="start">재반입 조건 없음</text>
+<path d="M760 300 L 760 730" stroke="#d9482b" stroke-width="2" fill="none" stroke-dasharray="5 5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="760.0" y1="394.0" x2="782.0" y2="394.0" stroke="#d9482b" stroke-width="2" marker-end="url(#md9482b)"/>
+<line x1="760.0" y1="488.0" x2="782.0" y2="488.0" stroke="#d9482b" stroke-width="2" marker-end="url(#md9482b)"/>
+<line x1="760.0" y1="582.0" x2="782.0" y2="582.0" stroke="#d9482b" stroke-width="2" marker-end="url(#md9482b)"/>
+<line x1="760.0" y1="676.0" x2="782.0" y2="676.0" stroke="#d9482b" stroke-width="2" marker-end="url(#md9482b)"/>
+<rect x="56.0" y="300.0" width="690.0" height="236.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="78.0" y="340.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">허가받아 반출한 뒤</text>
+<text x="78.0" y="372.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 다시 들여오면 반입한 날부터 15일 이내</text>
+<text x="90.0" y="398.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">국내 반입신고(미신고 200만원 이하 과태료)</text>
+<text x="78.0" y="424.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 기한까지 재반입하지 않으면 무허가 반출과</text>
+<text x="90.0" y="450.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">같은 형벌 조항(제90조) 적용</text>
+<text x="78.0" y="476.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 전시 화물은 반출 기간·재반입 기한을 운송 일정에</text>
+<text x="90.0" y="502.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">함께 적어 귀환 운송까지 관리</text>
+<rect x="56.0" y="550.0" width="690.0" height="180.0" fill="#eef1f5" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="78.0" y="590.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">지정·등록 문화유산(국보·보물 등)</text>
+<text x="78.0" y="624.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">수출·반출 금지. 국제 문화교류 목적만 예외로,</text>
+<text x="78.0" y="652.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">반출 예정일 5개월 전 신청, 2년 안에 재반입.</text>
+<text x="78.0" y="680.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">천연기념물도 국외 전시·학술연구 목적 2년 조건 허가만.</text>
+<rect x="56.0" y="752.0" width="1560.0" height="128.0" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="78.0" y="792.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">허가 없이 내보내면</text>
+<text x="78.0" y="828.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">일반동산문화유산은 3년 이상의 유기징역, 지정문화유산·천연기념물은 5년 이상의 유기징역이고 문화유산은 몰수(필요적 몰수).</text>
+<text x="78.0" y="856.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">반출 사실을 알고 양도·양수·중개한 사람도 3년 이상의 유기징역(제90조제3항). 몰수할 수 없으면 감정가격을 추징합니다.</text>
+</svg>

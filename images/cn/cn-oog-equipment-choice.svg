@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="me4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">OOG 장비와 운송 방식 고르는 순서 (CTU Code §7.2 원칙 + 선사 in-gauge 기준)</text>
+<rect x="40" y="100" width="300" height="130" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="190.0" y="144.875" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">① 최종 치수·중량 확정</text>
+<text x="190.0" y="175.32500000000002" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">포장·받침목·고박재로 늘어나는</text>
+<text x="190.0" y="198.27500000000003" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">치수 포함</text>
+<rect x="410" y="100" width="340" height="130" fill="#fbf3e2" stroke="#c98a12" stroke-width="2.5" rx="12"/>
+<text x="580.0" y="158.7" font-size="21" font-weight="800" fill="#c98a12" text-anchor="middle">② 드라이 컨테이너 문과 안에</text>
+<text x="580.0" y="184.95" font-size="21" font-weight="800" fill="#c98a12" text-anchor="middle">들어가나?</text>
+<rect x="820" y="100" width="340" height="130" fill="#fbf3e2" stroke="#c98a12" stroke-width="2.5" rx="12"/>
+<text x="990.0" y="171.825" font-size="21" font-weight="800" fill="#c98a12" text-anchor="middle">③ 폭은 들어가고 높이만 넘나?</text>
+<rect x="1230" y="100" width="400" height="130" fill="#fdeee8" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="1430.0" y="156.35" font-size="21" font-weight="800" fill="#e4572e" text-anchor="middle">플랫랙(P1·P3) 또는 플랫폼(P0)</text>
+<text x="1430.0" y="186.8" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">폭이 넘으면 측벽 있는 장비는 못 씀</text>
+<line x1="340" y1="165" x2="404" y2="165" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="750" y1="165" x2="814" y2="165" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<text x="782" y="152" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">아니요</text>
+<line x1="1160" y1="165" x2="1224" y2="165" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<text x="1195" y="152" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">아니요</text>
+<line x1="580" y1="230" x2="580" y2="294" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)"/>
+<text x="594" y="268" font-size="16" font-weight="700" fill="#1f8a5b" text-anchor="start">예</text>
+<rect x="410" y="300" width="340" height="150" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="580.0" y="354.875" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">드라이 컨테이너</text>
+<text x="580.0" y="385.325" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">지게차가 안에서 들기 어려운 무게면</text>
+<text x="580.0" y="408.275" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">위에서 싣는 오픈탑·플랫랙 검토(§7.2.7)</text>
+<line x1="990" y1="230" x2="990" y2="294" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)"/>
+<text x="1004" y="268" font-size="16" font-weight="700" fill="#1f8a5b" text-anchor="start">예</text>
+<rect x="820" y="300" width="340" height="150" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="990.0" y="343.4" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">오픈탑(U)과 플랫랙 비교</text>
+<text x="990.0" y="373.84999999999997" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">오픈탑은 화물 폭이 상부 개구부 폭</text>
+<text x="990.0" y="396.79999999999995" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">이하일 때만. 높이 초과분은 비바람에</text>
+<text x="990.0" y="419.74999999999994" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">노출</text>
+<path d="M990 450 L990 500 L1430 500" stroke="#1d2a3a" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1430 230 L1430 500" stroke="#1d2a3a" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1210" y1="500" x2="1210" y2="534" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="990" y="540" width="640" height="100" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="1310.0" y="581.35" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">④ 선사 in-gauge 기준과 비교</text>
+<text x="1310.0" y="611.8" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">OOG 여부와 over-height·over-width·over-length 계산(6절)</text>
+<line x1="1210" y1="640" x2="1210" y2="674" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="990" y="680" width="640" height="90" fill="#fbf3e2" stroke="#c98a12" stroke-width="2.5" rx="12"/>
+<text x="1310.0" y="731.825" font-size="21" font-weight="800" fill="#c98a12" text-anchor="middle">플랫랙 한 대의 적재 중량·바닥 길이를 넘나?</text>
+<line x1="1210" y1="770" x2="1210" y2="804" stroke="#e4572e" stroke-width="3" marker-end="url(#me4572e)"/>
+<text x="1224" y="796" font-size="16" font-weight="700" fill="#e4572e" text-anchor="start">예</text>
+<rect x="990" y="810" width="640" height="96" fill="#fdeee8" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="1310.0" y="849.025" font-size="20" font-weight="800" fill="#e4572e" text-anchor="middle">⑤ 플랫랙 베드·재래선·RoRo를 견적 때 함께 문의</text>
+<text x="1310.0" y="879.175" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="middle">선사 본선 적재 검토와 양·적하항 터미널 승인</text>
+<line x1="990" y1="725" x2="760" y2="725" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<text x="875" y="712" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">아니요</text>
+<rect x="410" y="680" width="344" height="90" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="582.0" y="731.825" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">OOG 부킹 승인 요청(4절)</text>
+<rect x="40" y="300" width="300" height="470" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2.5" rx="12"/>
+<text x="56" y="404.175" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">⑥ 육상 구간도 함께</text>
+<text x="56" y="435.57500000000005" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">해상 장비가 정해져도</text>
+<text x="56" y="459.87500000000006" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">트레일러에 실은</text>
+<text x="56" y="484.17500000000007" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">높이·폭·중량이</text>
+<text x="56" y="508.4750000000001" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">도로 한도를 넘으면</text>
+<text x="56" y="532.7750000000001" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">제한차량 운행허가(5절)</text>
+<text x="56" y="557.075" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start"></text>
+<text x="56" y="581.375" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">축하중 10톤</text>
+<text x="56" y="605.675" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">총중량 40톤</text>
+<text x="56" y="629.9749999999999" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">폭 2.5m</text>
+<text x="56" y="654.2749999999999" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">높이 4.0m</text>
+<text x="56" y="678.5749999999998" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">길이 16.7m</text>
+<text x="40" y="830" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">선사 기준 치수는 선사·장비</text>
+<text x="40" y="856" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">시리즈마다 다름</text>
+</svg>

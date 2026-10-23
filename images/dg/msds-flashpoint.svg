@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">2항·14항·9항이 어긋날 때: 인화점으로 나눠 보기</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">GHS 분류는 작업장 기준이고, Class 3은 밀폐식 인화점 60℃ 이하인 액체입니다(UN 모델 규정 2.3.1.2).</text>
+<line x1="619.8" y1="124.0" x2="619.8" y2="576.0" stroke="#5f6b78" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="771.0" y1="124.0" x2="771.0" y2="576.0" stroke="#5f6b78" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="1086.0" y1="124.0" x2="1086.0" y2="576.0" stroke="#5f6b78" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="40.0" y="160.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">2항 GHS 분류</text>
+<text x="40.0" y="184.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">작업장 유해성</text>
+<rect x="619.8" y="130.0" width="466.2" height="74.0" fill="#fbf3dc" stroke="#c98a00" stroke-width="2.5" rx="6"/>
+<text x="852.9" y="162.0" font-size="18" font-weight="800" fill="#8a5f00" text-anchor="middle">인화성 액체 구분 3</text>
+<text x="852.9" y="188.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">23℃ 이상 60℃ 이하</text>
+<rect x="1086.0" y="130.0" width="415.8" height="74.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="6"/>
+<text x="1293.9" y="162.0" font-size="18" font-weight="800" fill="#5f6b78" text-anchor="middle">구분 4</text>
+<text x="1293.9" y="188.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">60℃ 초과 93℃ 이하: Class 3 아님</text>
+<text x="40.0" y="266.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">운송 분류</text>
+<text x="40.0" y="290.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">Class 3과 용기등급</text>
+<rect x="330.0" y="236.0" width="289.8" height="74.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="6"/>
+<text x="474.9" y="268.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">PG Ⅱ</text>
+<text x="474.9" y="294.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">23℃ 미만, 끓는점 35℃ 초과</text>
+<rect x="619.8" y="236.0" width="466.2" height="74.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="6"/>
+<text x="852.9" y="268.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">PG Ⅲ</text>
+<text x="852.9" y="294.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">23~60℃, 끓는점 35℃ 초과</text>
+<rect x="1086.0" y="236.0" width="504.0" height="74.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="6"/>
+<text x="1338.0" y="268.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="middle">Class 3 아님</text>
+<text x="1338.0" y="294.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">인화점 이상으로 가열 운송하면 예외</text>
+<text x="330.0" y="336.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">초기 끓는점 35℃ 이하이면 PG Ⅰ</text>
+<text x="40.0" y="402.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">14항 "해당 없음"</text>
+<text x="40.0" y="426.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">9항 인화점이 이렇다면</text>
+<rect x="330.0" y="372.0" width="441.0" height="74.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="6"/>
+<text x="550.5" y="404.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">정정 SDS 전에는 비위험물 예약 금지</text>
+<text x="550.5" y="430.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">2.3.1.3 예외가 적용되지 않는 구간</text>
+<rect x="771.0" y="372.0" width="315.0" height="74.0" fill="#fbf3dc" stroke="#c98a00" stroke-width="2.5" rx="6"/>
+<text x="928.5" y="404.0" font-size="18" font-weight="800" fill="#8a5f00" text-anchor="middle">근거를 서면으로 요청</text>
+<text x="928.5" y="430.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">2.3.1.3의 세 가지 근거 중 무엇인지</text>
+<rect x="1086.0" y="372.0" width="504.0" height="74.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="6"/>
+<text x="1338.0" y="404.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="middle">모순 없음</text>
+<text x="1338.0" y="430.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">Class 3 범위 밖</text>
+<text x="40.0" y="508.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">14항 "Class 3"</text>
+<text x="40.0" y="532.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">9항 인화점이 이렇다면</text>
+<rect x="330.0" y="478.0" width="756.0" height="74.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="6"/>
+<text x="708.0" y="510.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="middle">모순 없음</text>
+<text x="708.0" y="536.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">용기등급이 인화점·끓는점과 맞는지만 대조</text>
+<rect x="1086.0" y="478.0" width="504.0" height="74.0" fill="#fbf3dc" stroke="#c98a00" stroke-width="2.5" rx="6"/>
+<text x="1338.0" y="510.0" font-size="18" font-weight="800" fill="#8a5f00" text-anchor="middle">화주에게 확인</text>
+<text x="1338.0" y="536.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">가열 운송인지, 다른 성분·등급인지</text>
+<line x1="330.0" y1="584.0" x2="1590.0" y2="584.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#a-ink)"/>
+<line x1="330.0" y1="577.0" x2="330.0" y2="591.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="330.0" y="614.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">0℃</text>
+<line x1="619.8" y1="577.0" x2="619.8" y2="591.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="619.8" y="614.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">23℃</text>
+<line x1="771.0" y1="577.0" x2="771.0" y2="591.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="771.0" y="614.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">35℃</text>
+<line x1="1086.0" y1="577.0" x2="1086.0" y2="591.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1086.0" y="614.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">60℃</text>
+<line x1="1501.8" y1="577.0" x2="1501.8" y2="591.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1501.8" y="614.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">93℃</text>
+<line x1="1590.0" y1="577.0" x2="1590.0" y2="591.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1590.0" y="614.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">100℃</text>
+<text x="1590.0" y="638.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="end">9항 인화점(밀폐식)</text>
+<rect x="40.0" y="666.0" width="900.0" height="242.0" fill="#fbf3dc" stroke="#c98a00" stroke-width="2.5" rx="12"/>
+<text x="62.0" y="708.0" font-size="21" font-weight="800" fill="#c98a00" text-anchor="start">35℃ 초과 60℃ 이하에서 Class 3으로 보지 않을 수 있는 근거(2.3.1.3)</text>
+<text x="62.0" y="739.2" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">연소 지속성 시험을 통과한 경우</text>
+<text x="62.0" y="779.2" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">ISO 2592에 따른 연소점이 100℃를 넘는 경우</text>
+<text x="62.0" y="819.2" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">물과 섞이는 용액으로 수분이 질량 기준 90%를 넘는 경우</text>
+<text x="62.0" y="859.2" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">근거가 오면 그 취지가 14항에 적힌 SDS로 정정을 요청</text>
+<rect x="970.0" y="666.0" width="662.0" height="242.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="992.0" y="708.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">포워더가 하는 일</text>
+<text x="992.0" y="739.2" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">수치를 다시 재지 않습니다.</text>
+<text x="992.0" y="779.2" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">SDS 안의 모순을 지적하고</text>
+<text x="992.0" y="819.2" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화주의 설명과 정정본을 받습니다.</text>
+<text x="992.0" y="859.2" font-size="19.5" font-weight="500" fill="#1d2a3a" text-anchor="start">분류 책임은 화주(송하인)에게 있습니다.</text>
+</svg>

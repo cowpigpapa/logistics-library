@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">항공 리튬이온: 포장지침 965~967과 Section</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">IATA 리튬배터리 지침서(2026) 기준. 항공사 고유규정이 더해질 수 있습니다(예: 대한항공 여객기는 Section II만).</text>
+<text x="678.0" y="140.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="middle">기준선 초과 (셀 20Wh 또는 배터리 100Wh 초과)</text>
+<text x="1314.0" y="140.0" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="middle">기준선 이하</text>
+<rect x="40.0" y="160.0" width="304.0" height="200.0" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="62.0" y="214.0" font-size="28" font-weight="800" fill="#1f6fd1" text-anchor="start">UN 3480</text>
+<text x="62.0" y="250.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">배터리만</text>
+<text x="62.0" y="284.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">PI 965 (Section II 없음)</text>
+<rect x="366.0" y="160.0" width="624.0" height="200.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<rect x="366.0" y="160.0" width="170.0" height="42.0" fill="#d9482b" stroke="none" stroke-width="0" rx="12"/>
+<rect x="366.0" y="182.0" width="170.0" height="20.0" fill="#d9482b" stroke="none" stroke-width="0" rx="0"/>
+<text x="382.0" y="190.0" font-size="19" font-weight="800" fill="#ffffff" text-anchor="start">965 IA</text>
+<text x="386.0" y="236.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">여객기 금지 · 화물기 포장당 35kg</text>
+<text x="386.0" y="268.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">UN 규격 포장, DGD 필요</text>
+<text x="386.0" y="300.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">9A 라벨 + 화물기 전용(CAO) 라벨</text>
+<text x="386.0" y="332.0" font-size="18" font-weight="800" fill="#8a5f00" text-anchor="start">SoC 30% 이하 의무</text>
+<rect x="1002.0" y="160.0" width="624.0" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="1002.0" y="160.0" width="170.0" height="42.0" fill="#1f8a5b" stroke="none" stroke-width="0" rx="12"/>
+<rect x="1002.0" y="182.0" width="170.0" height="20.0" fill="#1f8a5b" stroke="none" stroke-width="0" rx="0"/>
+<text x="1018.0" y="190.0" font-size="19" font-weight="800" fill="#ffffff" text-anchor="start">965 IB</text>
+<text x="1022.0" y="236.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">여객기 금지 · 화물기 포장당 10kg</text>
+<text x="1022.0" y="268.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">1.2m 낙하·3m 적재 포장, DGD 필요</text>
+<text x="1022.0" y="300.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">9A·CAO 라벨 + 배터리 마크</text>
+<text x="1022.0" y="332.0" font-size="18" font-weight="800" fill="#8a5f00" text-anchor="start">SoC 30% 이하 의무</text>
+<rect x="40.0" y="374.0" width="304.0" height="200.0" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="62.0" y="428.0" font-size="28" font-weight="800" fill="#1f6fd1" text-anchor="start">UN 3481</text>
+<text x="62.0" y="464.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">장비와 함께 포장</text>
+<text x="62.0" y="498.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">PI 966</text>
+<rect x="366.0" y="374.0" width="624.0" height="200.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<rect x="366.0" y="374.0" width="170.0" height="42.0" fill="#d9482b" stroke="none" stroke-width="0" rx="12"/>
+<rect x="366.0" y="396.0" width="170.0" height="20.0" fill="#d9482b" stroke="none" stroke-width="0" rx="0"/>
+<text x="382.0" y="404.0" font-size="19" font-weight="800" fill="#ffffff" text-anchor="start">966 Section I</text>
+<text x="386.0" y="450.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">여객기 5kg · 화물기 35kg</text>
+<text x="386.0" y="482.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">UN 규격 포장, DGD 필요</text>
+<text x="386.0" y="514.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">9A 라벨</text>
+<text x="386.0" y="546.0" font-size="18" font-weight="800" fill="#8a5f00" text-anchor="start">SoC 30% 이하 의무(2026년 신설)</text>
+<rect x="1002.0" y="374.0" width="624.0" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="1002.0" y="374.0" width="170.0" height="42.0" fill="#1f8a5b" stroke="none" stroke-width="0" rx="12"/>
+<rect x="1002.0" y="396.0" width="170.0" height="20.0" fill="#1f8a5b" stroke="none" stroke-width="0" rx="0"/>
+<text x="1018.0" y="404.0" font-size="19" font-weight="800" fill="#ffffff" text-anchor="start">966 Section II</text>
+<text x="1022.0" y="450.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">여객기 5kg · 화물기 5kg</text>
+<text x="1022.0" y="482.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">DGD 없음, AWB 준수 문구</text>
+<text x="1022.0" y="514.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">배터리 마크</text>
+<text x="1022.0" y="546.0" font-size="18" font-weight="800" fill="#8a5f00" text-anchor="start">2.7Wh 초과면 SoC 30% 이하(2026년 신설)</text>
+<rect x="40.0" y="588.0" width="304.0" height="200.0" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="62.0" y="642.0" font-size="28" font-weight="800" fill="#1f6fd1" text-anchor="start">UN 3481</text>
+<text x="62.0" y="678.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">장비에 내장</text>
+<text x="62.0" y="712.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">PI 967</text>
+<rect x="366.0" y="588.0" width="624.0" height="200.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<rect x="366.0" y="588.0" width="170.0" height="42.0" fill="#d9482b" stroke="none" stroke-width="0" rx="12"/>
+<rect x="366.0" y="610.0" width="170.0" height="20.0" fill="#d9482b" stroke="none" stroke-width="0" rx="0"/>
+<text x="382.0" y="618.0" font-size="19" font-weight="800" fill="#ffffff" text-anchor="start">967 Section I</text>
+<text x="386.0" y="664.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">여객기 5kg · 화물기 35kg</text>
+<text x="386.0" y="696.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">튼튼한 외부 포장(3m 적재), DGD 필요</text>
+<text x="386.0" y="728.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">9A 라벨</text>
+<text x="386.0" y="760.0" font-size="18" font-weight="800" fill="#8a5f00" text-anchor="start">SoC 의무 아님: 30%(표시 잔량 25%) 이하 권고</text>
+<rect x="1002.0" y="588.0" width="624.0" height="200.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="1002.0" y="588.0" width="170.0" height="42.0" fill="#1f8a5b" stroke="none" stroke-width="0" rx="12"/>
+<rect x="1002.0" y="610.0" width="170.0" height="20.0" fill="#1f8a5b" stroke="none" stroke-width="0" rx="0"/>
+<text x="1018.0" y="618.0" font-size="19" font-weight="800" fill="#ffffff" text-anchor="start">967 Section II</text>
+<text x="1022.0" y="664.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">여객기 5kg · 화물기 5kg</text>
+<text x="1022.0" y="696.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">DGD 없음</text>
+<text x="1022.0" y="728.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">배터리 마크(소량이면 예외 있음)</text>
+<text x="1022.0" y="760.0" font-size="18" font-weight="800" fill="#8a5f00" text-anchor="start">SoC 의무 아님: 권고</text>
+<text x="40.0" y="826.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">포장당 한도는 포장물 총중량이 아니라 그 안의 리튬 셀·배터리 순중량입니다(장비 무게와 포장재 제외).</text>
+<text x="40.0" y="860.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">리튬금속 PI 968·969·970도 같은 구조입니다(968 IB 화물기 포장당 2.5kg). 배터리 단독 PI 965·968은 A201 승인이 없으면 여객기에 실을 수 없습니다.</text>
+<text x="40.0" y="894.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">함께 포장(PI 966·969)은 장비 작동에 필요한 최소 수 + 여분 2세트까지. 화물기 포장당 35kg 초과는 특별규정 A99 승인.</text>
+</svg>

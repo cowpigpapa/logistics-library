@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">누구의 손해를 채워 주는 보험인가</text>
+<rect x="60" y="100" width="500" height="640" fill="#ffffff" stroke="#1f8a5b" stroke-width="3" rx="16"/>
+<rect x="60" y="100" width="500" height="96" fill="#1f8a5b" rx="16"/>
+<rect x="60" y="170" width="500" height="26" fill="#1f8a5b" rx="0"/>
+<text x="310" y="144" font-size="27" font-weight="800" fill="#ffffff" text-anchor="middle">적하보험</text>
+<text x="310" y="180" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">화물을 지키는 보험</text>
+<text x="88" y="240" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">피보험자</text>
+<text x="88" y="270" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">화주·수하인(화물에 이해관계)</text>
+<text x="88" y="324" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">언제 나오나</text>
+<text x="88" y="354" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">담보 위험으로 화물이 손해를 입으면</text>
+<text x="88" y="382" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">누구 잘못이든 보상</text>
+<text x="88" y="436" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">얼마나</text>
+<text x="88" y="466" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">보험금액(보통 CIF+10%) 한도의</text>
+<text x="88" y="494" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">실제 손해</text>
+<text x="88" y="548" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">천재지변</text>
+<text x="88" y="578" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">담보 조건에 따라 보상</text>
+<rect x="580" y="100" width="500" height="640" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="16"/>
+<rect x="580" y="100" width="500" height="96" fill="#1f6fd1" rx="16"/>
+<rect x="580" y="170" width="500" height="26" fill="#1f6fd1" rx="0"/>
+<text x="830" y="144" font-size="27" font-weight="800" fill="#ffffff" text-anchor="middle">포워더 배상책임보험</text>
+<text x="830" y="180" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">포워더의 책임을 지키는 보험</text>
+<text x="608" y="240" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start">피보험자</text>
+<text x="608" y="270" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">포워더</text>
+<text x="608" y="324" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start">언제 나오나</text>
+<text x="608" y="354" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">포워더에게 법률상 배상 책임이</text>
+<text x="608" y="382" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">있을 때만</text>
+<text x="608" y="436" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start">얼마나</text>
+<text x="608" y="466" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">법적으로 물어야 하는 금액</text>
+<text x="608" y="494" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(책임 제한이 적용되면 그 한도까지)</text>
+<text x="608" y="548" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start">청구 시점</text>
+<text x="608" y="578" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">배상금을 지급했거나</text>
+<text x="608" y="606" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">채무가 확정된 뒤</text>
+<rect x="1100" y="100" width="500" height="640" fill="#ffffff" stroke="#e4572e" stroke-width="3" rx="16"/>
+<rect x="1100" y="100" width="500" height="96" fill="#e4572e" rx="16"/>
+<rect x="1100" y="170" width="500" height="26" fill="#e4572e" rx="0"/>
+<text x="1350" y="144" font-size="27" font-weight="800" fill="#ffffff" text-anchor="middle">전문인 배상책임(E&amp;O)</text>
+<text x="1350" y="180" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">업무상 과실을 지키는 보험</text>
+<text x="1128" y="240" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start">무엇을</text>
+<text x="1128" y="270" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">업무상 과실로 인한 금전 손해</text>
+<text x="1128" y="324" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start">예</text>
+<text x="1128" y="354" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">들어 주기로 한 보험을 들지 않아</text>
+<text x="1128" y="382" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">화주가 화물과 보험을 함께 잃음</text>
+<text x="1128" y="436" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start">주의</text>
+<text x="1128" y="466" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">화물 배상책임 담보와 다른 영역</text>
+<text x="1128" y="494" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">상품에 따라 부담보 → 별도 확인</text>
+<rect x="60" y="768" width="1540" height="110" fill="#fdf4dc" stroke="#c99a2e" stroke-width="2" rx="14"/>
+<text x="830" y="812" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="middle">&quot;포워더가 보험이 있으니 다 보상된다&quot;는 틀린 말</text>
+<text x="830" y="850" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="middle">화주가 화물 가치를 지키려면 적하보험이 따로 필요합니다</text>
+</svg>

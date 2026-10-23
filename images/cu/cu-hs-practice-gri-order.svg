@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">HS 코드는 통칙 순서대로 정한다: 앞 단계에서 정해지면 거기서 멈춘다</text>
+<rect x="60" y="92" width="1552" height="54" fill="#f1f4f7" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<text x="84" y="127" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">통칙 5호</text>
+<text x="190" y="127" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">케이스·포장은 1~4호를 적용하면서 함께 본다.     예: 전기면도기 케이스 → 제8510호 (반복 사용에 적합한 용기는 예외)</text>
+<rect x="60" y="172" width="315" height="350" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14" />
+<text x="80" y="210" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start">통칙 1호</text>
+<text x="80" y="238" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">가장 먼저</text>
+<text x="80" y="282" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">호의 용어와</text>
+<text x="80" y="311" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">부·류의 주로 정한다</text>
+<text x="80" y="352" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">부·류·절의 표제는</text>
+<text x="80" y="378" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">참고용일 뿐</text>
+<rect x="74" y="408" width="287" height="98" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="1.5" rx="12" />
+<text x="217.5" y="450.5" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">예: 지우개 달린 연필</text>
+<text x="217.5" y="477.5" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">→ 제9609호(연필)</text>
+<rect x="445" y="172" width="315" height="350" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14" />
+<text x="465" y="210" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start">통칙 2호</text>
+<text x="465" y="238" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">1호로 안 될 때</text>
+<text x="465" y="280" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">가목  미완성·미조립도</text>
+<text x="465" y="308" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">완성품의 특성이 있으면 완성품</text>
+<text x="465" y="352" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">나목  다른 재료가 섞여도</text>
+<text x="465" y="380" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">그 재료의 호 (2가지 이상 재료면 3호)</text>
+<rect x="459" y="408" width="287" height="98" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="1.5" rx="12" />
+<text x="602.5" y="450.5" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">예: 안장·타이어 없는 자전거</text>
+<text x="602.5" y="477.5" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">→ 자전거(완성품)의 호</text>
+<rect x="830" y="172" width="390" height="350" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14" />
+<text x="850" y="210" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start">통칙 3호</text>
+<text x="850" y="238" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">2호까지로 안 될 때, 가→나→다 순서</text>
+<rect x="844" y="256" width="362" height="76" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="10" />
+<circle cx="876" cy="294" r="20" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="876" y="302" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle">가</text>
+<text x="910" y="288" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">가장 구체적인 호</text>
+<text x="910" y="316" font-size="19" font-weight="600" fill="#1f8a5b" text-anchor="start">전동 면도기 → 제8510호</text>
+<rect x="844" y="344" width="362" height="76" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="10" />
+<circle cx="876" cy="382" r="20" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="876" y="390" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle">나</text>
+<text x="910" y="376" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">본질적 특성</text>
+<text x="910" y="404" font-size="19" font-weight="600" fill="#1f8a5b" text-anchor="start">스마트폰 링홀더 → 제7907.00호</text>
+<rect x="844" y="432" width="362" height="76" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="10" />
+<circle cx="876" cy="470" r="20" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="876" y="478" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle">다</text>
+<text x="910" y="464" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">번호가 가장 뒤인 호</text>
+<text x="910" y="492" font-size="19" font-weight="600" fill="#1f8a5b" text-anchor="start">완구 겸 게임기 → 제9504.50호</text>
+<rect x="1290" y="172" width="322" height="350" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14" />
+<text x="1310" y="210" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start">통칙 4호</text>
+<text x="1310" y="238" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">1~3호로 안 될 때</text>
+<text x="1310" y="282" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">가장 유사한 물품의</text>
+<text x="1310" y="311" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">호로 분류</text>
+<text x="1310" y="352" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">관세율표에 '기타' 호가 많아</text>
+<text x="1310" y="377" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">대부분 1~3호에서 정해진다</text>
+<rect x="1304" y="408" width="294" height="98" fill="#f1f4f7" stroke="#c9d2dc" stroke-width="1.5" rx="12" />
+<text x="1451.0" y="450.5" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">예: 해당 호가 없는</text>
+<text x="1451.0" y="477.5" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">신종 물품</text>
+<line x1="379" y1="322" x2="441" y2="322" stroke="#d9482b" stroke-width="4" marker-end="url(#md9482b)"/>
+<text x="410.0" y="304" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">안 되면</text>
+<line x1="764" y1="322" x2="826" y2="322" stroke="#d9482b" stroke-width="4" marker-end="url(#md9482b)"/>
+<text x="795.0" y="304" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">안 되면</text>
+<line x1="1224" y1="322" x2="1286" y2="322" stroke="#d9482b" stroke-width="4" marker-end="url(#md9482b)"/>
+<text x="1255.0" y="304" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">안 되면</text>
+<line x1="217.5" y1="526" x2="217.5" y2="590" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<line x1="602.5" y1="526" x2="602.5" y2="590" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<line x1="1025.0" y1="526" x2="1025.0" y2="590" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<line x1="1451.0" y1="526" x2="1451.0" y2="590" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<text x="231.5" y="568" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">정해지면 멈춤</text>
+<rect x="60" y="596" width="1552" height="56" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12" />
+<text x="836" y="633" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="middle">4단위 호 결정</text>
+<line x1="836" y1="654" x2="836" y2="700" stroke="#1d2a3a" stroke-width="4" marker-end="url(#m1d2a3a)"/>
+<rect x="330" y="704" width="1012" height="92" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12" />
+<text x="354" y="742" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">통칙 6호</text>
+<text x="460" y="742" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">그 호 안에서 같은 수준의 소호끼리만 비교해 소호를 정한다</text>
+<text x="460" y="776" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">예: 에어백 커버  제8708.99호(기타) → 제8708.95호(에어백과 그 부분품)</text>
+<text x="836" y="850" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="middle">지우개 달린 연필은 HS 해설서가 제96.09호에 포함된다고 적고 있어 1호에서 끝나고, 3호(본질적 특성)까지 가지 않는다.</text>
+</svg>

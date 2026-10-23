@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >지수 연동 BAF: 공식과 시차 (개념도, 금액 없음)</text>
+<rect x="30" y="80" width="1612" height="280" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="60" y="160" width="280" height="110" fill="#ffffff" stroke="#c27a00" stroke-width="3" rx="10" />
+<text x="200.0" y="197.2" font-size="20" font-weight="800" fill="#c27a00" text-anchor="middle">① 기준 기간</text>
+<text x="200.0" y="223.2" font-size="20" font-weight="800" fill="#c27a00" text-anchor="middle">연료 가격</text>
+<text x="200.0" y="247.5" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">주요 급유항 평균 등</text>
+<text x="362" y="227.0" font-size="36" font-weight="800" fill="#1d2a3a" text-anchor="middle" >−</text>
+<rect x="385" y="160" width="220" height="110" fill="#ffffff" stroke="#c27a00" stroke-width="3" rx="10" />
+<text x="495.0" y="198.2" font-size="20" font-weight="800" fill="#c27a00" text-anchor="middle">② 기준가</text>
+<text x="495.0" y="222.5" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">빼는 고정 금액</text>
+<text x="495.0" y="246.5" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">(없는 방식도 있음)</text>
+<text x="628" y="227.0" font-size="36" font-weight="800" fill="#1d2a3a" text-anchor="middle" >×</text>
+<rect x="652" y="160" width="260" height="110" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="10" />
+<text x="782.0" y="198.2" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">③ 항로 소비 계수</text>
+<text x="782.0" y="222.5" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">TEU를 그 항로로</text>
+<text x="782.0" y="246.5" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">나르는 데 드는 연료량</text>
+<text x="935" y="227.0" font-size="36" font-weight="800" fill="#1d2a3a" text-anchor="middle" >=</text>
+<rect x="958" y="160" width="200" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="10" />
+<text x="1058.0" y="222.9" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">TEU당 BAF</text>
+<text x="1180" y="227.0" font-size="36" font-weight="800" fill="#1d2a3a" text-anchor="middle" >×</text>
+<rect x="1203" y="160" width="200" height="110" fill="#ffffff" stroke="#1f8a5b" stroke-width="3" rx="10" />
+<text x="1303.0" y="198.2" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">⑤ 장비 환산</text>
+<text x="1303.0" y="222.5" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">40ft = 2TEU</text>
+<text x="1303.0" y="246.5" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">리퍼는 다른 배율</text>
+<line x1="1405" y1="215.0" x2="1440" y2="215.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="1444" y="160" width="176" height="110" fill="#fff6f3" stroke="#d9482b" stroke-width="3" rx="10" />
+<text x="1532.0" y="207.7" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">컨테이너당</text>
+<text x="1532.0" y="235.9" font-size="22" font-weight="800" fill="#d9482b" text-anchor="middle">BAF</text>
+<text x="60" y="132" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start" ></text>
+<text x="60" y="320" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >( ① − ② ) × ③ 을 ④ 정해진 주기마다 다시 계산한다. ②·③이 선사·항로마다 달라 같은 분기, 같은 항로라도 BAF가 일치하지 않는 것이 정상이다.</text>
+<rect x="30" y="380" width="1612" height="530" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="422" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start" >④ 시차: 직전 기간 평균으로 다음 기간 요율을 정한다 (예: 월마다 검토하고 두 달 뒤 적용, HMM 2008년 안내)</text>
+<line x1="120" y1="820" x2="1440" y2="820" stroke="#1d2a3a" stroke-width="2" marker-end="url(#a-ink)"/>
+<line x1="120" y1="820" x2="120" y2="500" stroke="#1d2a3a" stroke-width="2" marker-end="url(#a-ink)"/>
+<text x="1440" y="860" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="end" >기간(월)</text>
+<text x="108" y="510" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="end" >높음</text>
+<polyline points="184.0,715.0 312.0,700.0 440.0,676.0 568.0,634.0 696.0,565.0 824.0,610.0 952.0,685.0 1080.0,706.0 1208.0,712.0 1336.0,709.0" fill="none" stroke="#c27a00" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="184.0" cy="715.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<circle cx="312.0" cy="700.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<circle cx="440.0" cy="676.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<circle cx="568.0" cy="634.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<circle cx="696.0" cy="565.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<circle cx="824.0" cy="610.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<circle cx="952.0" cy="685.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<circle cx="1080.0" cy="706.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<circle cx="1208.0" cy="712.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<circle cx="1336.0" cy="709.0" r="5" fill="#c27a00" stroke="#c27a00" stroke-width="1"/>
+<path d="M120.0 721.0 L248.0 721.0 L248.0 721.0 L376.0 721.0 L376.0 715.0 L504.0 715.0 L504.0 700.0 L632.0 700.0 L632.0 676.0 L760.0 676.0 L760.0 634.0 L888.0 634.0 L888.0 565.0 L1016.0 565.0 L1016.0 610.0 L1144.0 610.0 L1144.0 685.0 L1272.0 685.0 L1272.0 706.0 L1400.0 706.0" stroke="#1f6fd1" stroke-width="5" fill="none" />
+<line x1="120.0" y1="820" x2="120.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="248.0" y1="820" x2="248.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="376.0" y1="820" x2="376.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="504.0" y1="820" x2="504.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="632.0" y1="820" x2="632.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="760.0" y1="820" x2="760.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="888.0" y1="820" x2="888.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="1016.0" y1="820" x2="1016.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="1144.0" y1="820" x2="1144.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="1272.0" y1="820" x2="1272.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<line x1="1400.0" y1="820" x2="1400.0" y2="828" stroke="#5f6b78" stroke-width="2"/>
+<text x="184.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >1</text>
+<text x="312.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >2</text>
+<text x="440.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >3</text>
+<text x="568.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >4</text>
+<text x="696.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >5</text>
+<text x="824.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >6</text>
+<text x="952.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >7</text>
+<text x="1080.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >8</text>
+<text x="1208.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >9</text>
+<text x="1336.0" y="850" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >10</text>
+<path d="M696.0 553.0 Q836.8 495.0 952.0 551.0" stroke="#d9482b" stroke-width="3" fill="none" marker-end="url(#a-red)" />
+<text x="824.0" y="503.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="middle" >두 기간 늦게 반영</text>
+<text x="1041.6" y="580.0" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start" ></text>
+<rect x="1022.4" y="484.0" width="330" height="72" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<text x="1038.4" y="514.8" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">유가가 내렸는데 BAF는 그대로?</text>
+<text x="1038.4" y="539.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">→ ①과 ④로 설명한다</text>
+<rect x="132.8" y="460" width="420" height="72" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<text x="148.8" y="490.8" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">시차로 메우지 못하는 급등분</text>
+<text x="148.8" y="515.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">→ 긴급 유류할증(EBS 등)을 따로 붙인다</text>
+<line x1="1420" y1="560" x2="1470" y2="560" stroke="#c27a00" stroke-width="4"/>
+<text x="1480" y="567" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start" >연료 가격</text>
+<line x1="1420" y1="600" x2="1470" y2="600" stroke="#1f6fd1" stroke-width="5"/>
+<text x="1480" y="607" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start" >BAF 요율</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">C조건 계약서에는 장소가 두 곳 필요합니다</text>
+<rect x="80" y="100" width="1512" height="90" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="110" y="157" font-size="28" font-weight="600" fill="#1d2a3a" text-anchor="start">CPT </text>
+<text x="173.0" y="157" font-size="28" font-weight="800" fill="#1f6fd1" text-anchor="start">[창고 주소], Frankfurt</text>
+<line x1="173.0" y1="170" x2="466.43999999999994" y2="170" stroke="#1f6fd1" stroke-width="4"/>
+<text x="466.43999999999994" y="157" font-size="28" font-weight="600" fill="#1d2a3a" text-anchor="start">, Incoterms® 2020. </text>
+<text x="734.1199999999999" y="157" font-size="28" font-weight="600" fill="#1d2a3a" text-anchor="start">Place of delivery: </text>
+<text x="995.9199999999998" y="157" font-size="28" font-weight="800" fill="#d9482b" text-anchor="start">[포워더 창고], Incheon</text>
+<line x1="995.9199999999998" y1="170" x2="1287.12" y2="170" stroke="#d9482b" stroke-width="4"/>
+<line x1="200" y1="360" x2="1460" y2="360" stroke="#9aa5b1" stroke-width="5"/>
+<circle cx="260" cy="360" r="16" fill="#d9482b"/>
+<circle cx="1400" cy="360" r="16" fill="#1f6fd1"/>
+<text x="830" y="340" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="middle">항공·해상 등 주운송(운송계약은 매도인)</text>
+<line x1="400" y1="360" x2="1260" y2="360" stroke="#9aa5b1" stroke-width="5" marker-end="url(#a-gray)"/>
+<text x="260" y="412" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">인천 포워더 창고</text>
+<text x="1400" y="412" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">프랑크푸르트 창고</text>
+<text x="260" y="442" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">Place of delivery에 적은 곳</text>
+<text x="1400" y="442" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">조건명 바로 뒤에 적은 곳</text>
+<rect x="90" y="470" width="700" height="190" fill="#fff7f5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="106" y="508" font-size="24" font-weight="800" fill="#d9482b" text-anchor="start">인도 장소 = 위험이 넘어가는 곳</text>
+<text x="106" y="543" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">표기에서 조건명 뒤에 드러나지 않으므로</text>
+<text x="106" y="572" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">Place of delivery로 따로 적습니다.</text>
+<text x="106" y="601" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">여기서 최초 운송인에게 넘기면 위험은 매수인.</text>
+<rect x="880" y="470" width="700" height="190" fill="#f5f9fe" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="896" y="508" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start">지정 목적지 = 운송비가 끝나는 곳</text>
+<text x="896" y="543" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">조건명 바로 뒤의 장소.</text>
+<text x="896" y="572" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">매도인은 이곳까지 운송계약을 맺고 운임을 냅니다.</text>
+<text x="896" y="601" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">인도 장소가 아닙니다.</text>
+<rect x="90" y="690" width="700" height="160" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="106" y="727" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">인도 장소를 안 적으면</text>
+<text x="106" y="760" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">매도인이 고른 지점에서 최초 운송인에게</text>
+<text x="106" y="789" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">넘길 때 위험 이전(매수인이 통제 못 함)</text>
+<rect x="880" y="690" width="700" height="160" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="896" y="727" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">목적지 안의 지점을 안 적으면</text>
+<text x="896" y="760" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">매도인이 자기에게 편한 지점을 고르고</text>
+<text x="896" y="789" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">그 지점까지만 운임을 냄</text>
+</svg>

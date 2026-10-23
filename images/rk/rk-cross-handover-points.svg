@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">크로스가 나는 곳: 화물을 받고, 나누고, 내주는 순간 (2절)</text>
+<text x="40" y="100" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">수출 쪽</text>
+<rect x="40" y="110" width="375" height="200" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<text x="58" y="146" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">공장 출고·집하</text>
+<text x="58" y="206" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">판단: 화주 창고, 집하 기사</text>
+<text x="58" y="234" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">출고 지시서, 패킹리스트, 인수증</text>
+<line x1="417" y1="210" x2="438" y2="210" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="440" y="110" width="375" height="200" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<text x="458" y="146" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">수출 CFS 반입</text>
+<text x="458" y="206" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">판단: CFS 반입 담당</text>
+<text x="458" y="234" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">화물반출입대장, 부킹 내역</text>
+<line x1="817" y1="210" x2="838" y2="210" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="840" y="110" width="375" height="200" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<text x="858" y="146" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">혼재·적입</text>
+<text x="858" y="206" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">판단: CFS 적입 작업자, 콘솔사</text>
+<text x="858" y="234" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">적입 계획·검수표, 컨테이너·씰 번호</text>
+<rect x="1240" y="110" width="375" height="200" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<text x="1258" y="146" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">항공 수출 창고 (라벨·빌드업·인계)</text>
+<text x="1258" y="206" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">판단: 포워더 창고 작업자</text>
+<text x="1258" y="234" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">House 라벨, ULD별 적재 목록, AWB</text>
+<text x="1227" y="104" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">또는(항공)</text>
+<rect x="40" y="350" width="1592" height="110" fill="#fbf3e2" stroke="#c98a12" stroke-width="2.5" rx="14"/>
+<text x="70" y="392" font-size="21" font-weight="800" fill="#c98a12" text-anchor="start">서류 작성</text>
+<text x="70" y="424" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">판단: 포워더, 선사, 화주</text>
+<text x="380" y="392" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너 번호 옮겨 적기 실수, 비슷한 B/L 번호, 패킹리스트 바뀜 → House·Master B/L, 적재화물목록, VGM에서 같은 번호인지 대조</text>
+<text x="40" y="502" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">수입 쪽</text>
+<rect x="40" y="520" width="375" height="200" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<text x="58" y="556" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">수입 하선·CY 반출입</text>
+<text x="58" y="616" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">판단: 터미널, 보세운송 기사</text>
+<text x="58" y="644" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너 반출입신고, 반출 사전정보</text>
+<line x1="417" y1="620" x2="438" y2="620" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="440" y="520" width="375" height="200" fill="#fdeee9" stroke="#d9482b" stroke-width="3" rx="14"/>
+<text x="458" y="556" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">CFS 적출·분류</text>
+<text x="458" y="616" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">판단: CFS 적출 작업자</text>
+<text x="458" y="644" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">House B/L별 적출 검수, 반입신고(House B/L</text>
+<text x="458" y="667" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">단위)</text>
+<line x1="817" y1="620" x2="838" y2="620" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="840" y="520" width="375" height="200" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<text x="858" y="556" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">보관·피킹</text>
+<text x="858" y="616" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">판단: 창고 재고 담당</text>
+<text x="858" y="644" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">재고 장부, 분기별 재고조사</text>
+<line x1="1217" y1="620" x2="1238" y2="620" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="1240" y="520" width="375" height="200" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<text x="1258" y="556" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">출고·상차</text>
+<text x="1258" y="616" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">판단: 출고 담당, 수령 기사</text>
+<text x="1258" y="644" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">반출신고, D/O, 배차 정보, 인수증</text>
+<text x="627.5" y="756" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">▲ 크로스가 가장 많이 나는 곳 (LCL 수입)</text>
+<rect x="40" y="780" width="1592" height="120" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="14"/>
+<text x="70" y="820" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">특히 잦은 경우</text>
+<text x="70" y="856.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">같은 수하인에게 House B/L 여러 건 · 분할 선적·재선적 · 같은 공급자의 같은 박스 · 화인 없는 무지 박스 · 비슷한 회사 이름·B/L 번호 · 코로딩으로 B/L이 한 층 더 생김</text>
+</svg>

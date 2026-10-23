@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">계산 예시: 3억 원어치 수입 컨테이너가 터미널 → 창고 길에 통째로 도난 (5절, 예시 금액)</text>
+<rect x="30" y="90" width="1612" height="380" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="132" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">적하보험이 없거나 (B)·(C) 조건이면</text>
+<text x="310" y="204" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="end">운송사 책임 약 3억</text>
+<text x="310" y="230" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="end">상법 제135조</text>
+<rect x="330" y="170" width="72.0" height="70" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="6"/>
+<text x="366.0" y="214" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="middle">2천만</text>
+<rect x="402.0" y="170" width="1008.0" height="70" fill="#fbf3e2" stroke="#c98a12" stroke-width="2" rx="6"/>
+<text x="906.0" y="214" font-size="19" font-weight="800" fill="#c98a12" text-anchor="middle">2억 8천만원: 운송사 자기 재산으로 받아야 함</text>
+<text x="340" y="290" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">↑ 적재물배상책임보험</text>
+<text x="340" y="316" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">   사고 건당 한도 2천만원(법정 최소)까지 운송사 책임을 대신 이행</text>
+<text x="416.0" y="362" font-size="17" font-weight="600" fill="#c98a12" text-anchor="start">회수 여부는 운송사 자력에 달림. 운송사에 책임이 없으면 책임보험도 나오지 않음</text>
+<rect x="30" y="500" width="1612" height="300" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="542" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">수입자가 ICC (A) 적하보험(보험금액 3억 3천만원)을 들었다면</text>
+<text x="310" y="614" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="end">수입자 손해 3억</text>
+<text x="310" y="640" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="end">도난은 ICC (A) 담보</text>
+<rect x="330" y="580" width="1080.0" height="70" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2" rx="6"/>
+<text x="870.0" y="624" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">적하보험이 보험금액 범위에서 수입자에게 보상</text>
+<path d="M1410.0 615 C 1500.0 615, 1500.0 700, 1370.0 720" stroke="#1f6fd1" stroke-width="3" fill="none" marker-end="url(#m1f6fd1)" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1360.0" y="740" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="end">보험사가 운송사(와 그 책임보험사)에 구상</text>
+<text x="330" y="700" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">양륙 후 60일 안이고 최종 창고 도착 전이면 보험기간 안</text>
+<rect x="30" y="820" width="1612" height="90" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="14"/>
+<text x="56" y="858" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">FOB·FCA로 판 수출자는 공장에서 인도 지점까지의 트럭 구간이 매수인 보험 밖일 수 있어 자기 쪽 보험을 따로 확인합니다. 포워더는 운송사 보험 한도를 받아 두고, 화물 가액이 한도를 크게 넘으면</text>
+<text x="56" y="885" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">화주에게 알립니다.</text>
+</svg>

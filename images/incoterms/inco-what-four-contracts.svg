@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">인코텀스는 매매계약 안에만 들어갑니다</text>
+<rect x="506" y="320" width="660" height="300" fill="#f5f9fe" stroke="#1f6fd1" stroke-width="4" rx="20"/>
+<text x="836" y="372" font-size="32" font-weight="800" fill="#1f6fd1" text-anchor="middle">매매계약</text>
+<text x="836" y="410" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">매도인 ↔ 매수인</text>
+<rect x="576" y="440" width="520" height="120" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<text x="836" y="480" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">Incoterms® 2020</text>
+<text x="836" y="514" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">조건 + 지정 장소 + 연도로 편입</text>
+<text x="836" y="544" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">인도·위험 이전·비용·서류·통관</text>
+<rect x="80" y="110" width="460" height="150" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="14"/>
+<text x="310.0" y="154" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">운송계약</text>
+<text x="310.0" y="190" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">송하인 ↔ 운송인·포워더</text>
+<text x="310.0" y="222" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="middle">운송인은 운송계약(B/L·운송장 약관)대로</text>
+<text x="310.0" y="246" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="middle">움직임</text>
+<rect x="1132" y="110" width="460" height="150" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="14"/>
+<text x="1362.0" y="154" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">보험계약</text>
+<text x="1362.0" y="190" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">보험계약자 ↔ 보험자</text>
+<text x="1362.0" y="222" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="middle">담보 범위는 보험증권이 정함</text>
+<text x="1362.0" y="246" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="middle">CIF·CIP만 매도인에게 부보 의무</text>
+<rect x="606" y="720" width="460" height="150" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="14"/>
+<text x="836.0" y="764" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">신용장</text>
+<text x="836.0" y="800" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">개설은행 ↔ 수익자(매도인)</text>
+<text x="836.0" y="832" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="middle">은행은 서류만 봄</text>
+<text x="836.0" y="856" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="middle">신용장과 UCP 600이 정함</text>
+<line x1="540" y1="260" x2="636" y2="320" stroke="#9aa5b1" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="1132" y1="260" x2="1036" y2="320" stroke="#9aa5b1" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="836" y1="620" x2="836" y2="720" stroke="#9aa5b1" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="560" y="310" font-size="18" font-weight="700" fill="#d9482b" text-anchor="end">구속하지 않음</text>
+<text x="1112" y="310" font-size="18" font-weight="700" fill="#d9482b" text-anchor="start">구속하지 않음</text>
+<text x="850" y="690" font-size="18" font-weight="700" fill="#d9482b" text-anchor="start">구속하지 않음</text>
+<text x="90" y="760" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">조건이 서로 어긋나지 않게</text>
+<text x="90" y="790" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="start">맞추는 것은 당사자의 몫</text>
+<text x="1582" y="760" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="end">포워더는 매매계약 당사자가 아니어서</text>
+<text x="1582" y="788" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="end">인코텀스로 직접 의무를 지지 않음</text>
+</svg>

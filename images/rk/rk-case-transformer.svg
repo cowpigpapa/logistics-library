@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">재구성 사례 7: 같은 화물, 같은 경로인데 결과가 달라진 이유 (예시 수치, mm)</text>
+<rect x="40" y="84" width="782" height="827" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="64" y="126" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">지난번 운송</text>
+<line x1="70" y1="800" x2="792" y2="800" stroke="#1d2a3a" stroke-width="3"/>
+<rect x="70" y="202.0" width="722" height="46" fill="#d7dde5" stroke="#7d8da3" stroke-width="2.5" rx="2"/>
+<rect x="80" y="186.0" width="702" height="16" fill="#e6eaef" stroke="#7d8da3" stroke-width="1.5"/>
+<text x="431.0" y="230.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">육교: 표지 4.4m · 실제 높이 4,600</text>
+<line x1="70" y1="272.0" x2="792" y2="272.0" stroke="#1f6fd1" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="780" y="266.0" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="end">허가 가능 높이 4,400 (4,600 − 200)</text>
+<rect x="170.0" y="692.0" width="200" height="82.0" fill="#dfe4ea" stroke="#8a96a3" stroke-width="2" rx="3"/>
+<circle cx="200.0" cy="778" r="22" fill="#3b4552"/>
+<circle cx="340.0" cy="778" r="22" fill="#3b4552"/>
+<rect x="220" y="680.0" width="24" height="12.0" fill="#b07a43"/>
+<rect x="296" y="680.0" width="24" height="12.0" fill="#b07a43"/>
+<rect x="184.0" y="284.0" width="172" height="396.0" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="3" rx="6"/>
+<text x="270" y="489.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="middle">변압기 3,300</text>
+<text x="270" y="758.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">데크 900</text>
+<text x="400" y="344.0" font-size="26" font-weight="800" fill="#1f8a5b" text-anchor="start">적재 높이 4,300</text>
+<text x="400" y="372.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">900 + 100 + 3,300</text>
+<text x="400" y="400.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">허가 신청 제원 4,300</text>
+<rect x="64" y="836" width="734" height="60" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="80" y="872.0" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">허가 4,300 · 허가 가능 높이 4,400 안 → 무사히 통과</text>
+<rect x="850" y="84" width="782" height="827" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="874" y="126" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">이번 운송</text>
+<line x1="880" y1="800" x2="1602" y2="800" stroke="#1d2a3a" stroke-width="3"/>
+<rect x="880" y="214.0" width="722" height="46" fill="#d7dde5" stroke="#7d8da3" stroke-width="2.5" rx="2"/>
+<rect x="890" y="198.0" width="702" height="16" fill="#e6eaef" stroke="#7d8da3" stroke-width="1.5"/>
+<text x="1241.0" y="242.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">육교: 표지 4.4m 그대로 · 실제 약 4,500 (덧씌우기 약 10cm)</text>
+<rect x="980.0" y="668.0" width="200" height="106.0" fill="#dfe4ea" stroke="#8a96a3" stroke-width="2" rx="3"/>
+<circle cx="1010.0" cy="778" r="22" fill="#3b4552"/>
+<circle cx="1150.0" cy="778" r="22" fill="#3b4552"/>
+<rect x="1030" y="656.0" width="24" height="12.0" fill="#b07a43"/>
+<rect x="1106" y="656.0" width="24" height="12.0" fill="#b07a43"/>
+<rect x="994.0" y="260.0" width="172" height="396.0" fill="#fdeee9" stroke="#d9482b" stroke-width="3" rx="6"/>
+<text x="1080" y="465.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">변압기 3,300</text>
+<text x="1080" y="746.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">데크 1,100</text>
+<text x="1210" y="320.0" font-size="26" font-weight="800" fill="#d9482b" text-anchor="start">적재 높이 4,500</text>
+<text x="1210" y="348.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">1,100 + 100 + 3,300</text>
+<text x="1210" y="376.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">허가 신청 제원 4,300</text>
+<rect x="874" y="836" width="734" height="60" fill="#fdeee9" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="890" y="872.0" font-size="18" font-weight="700" fill="#d9482b" text-anchor="start">허가 4,300으로 4,500 운행 → 덧씌우기로 낮아진 육교와 여유 없음 → 충돌</text>
+<text x="440" y="470" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">서베이 보고서는 없었음</text>
+<text x="1210" y="450" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">빠진 것</text>
+<text x="1210" y="486" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 트레일러 변경 뒤 재서베이</text>
+<text x="1210" y="516" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 보고서의 지점별 실측 높이</text>
+<text x="1210" y="546" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 출발 전 적재 높이 실측</text>
+<text x="1210" y="576" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 측정봉 단 유도차량과 서행</text>
+<text x="1210" y="606" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 출발 전·도착 후 사진 대조</text>
+</svg>

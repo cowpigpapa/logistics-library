@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start" >실제 흐름: 부산항, 인천공항, 환적</text>
+<text x="40" y="94" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="start" >보세운송에 관한 고시, 보세화물 입출항 하선 하기 및 적재에 관한 고시, 환적화물 처리절차에 관한 특례고시</text>
+<rect x="30" y="114" width="1612" height="272" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="30" y="114" width="10" height="272" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="4" />
+<text x="60" y="152" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start" >예시 1. 부산 신항 FCL → 의왕ICD 또는 수도권 내륙 보세창고</text>
+<rect x="56" y="174" width="236" height="192" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12" />
+<text x="72" y="208" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start" >입항 전</text>
+<text x="72" y="242" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >House 적재화물목록을</text>
+<text x="72" y="271" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >인보이스·패킹리스트와</text>
+<text x="72" y="300" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >맞춰 제출 → 화물관리번호</text>
+<line x1="294" y1="270.0" x2="318" y2="270.0" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<rect x="320" y="174" width="236" height="192" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12" />
+<text x="336" y="208" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start" >보세운송신고</text>
+<text x="336" y="242" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >등록 보세운송업자·관세사</text>
+<text x="336" y="271" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >단일화주 FCL은</text>
+<text x="336" y="300" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >Master B/L 단위도 가능</text>
+<text x="336" y="329" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >입항 전 신고: 최대 +5일</text>
+<line x1="558" y1="270.0" x2="582" y2="270.0" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<rect x="584" y="174" width="236" height="192" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12" />
+<text x="600" y="208" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start" >출발</text>
+<text x="600" y="242" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >트럭: 출발 전 차량 신고</text>
+<text x="600" y="271" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >(철도는 차량 신고 없음)</text>
+<text x="600" y="300" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >터미널 반출신고</text>
+<line x1="822" y1="270.0" x2="846" y2="270.0" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<rect x="848" y="174" width="236" height="192" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12" />
+<text x="864" y="208" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start" >10일 안 도착</text>
+<text x="864" y="242" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >보세운송 수리일부터 10일</text>
+<text x="864" y="271" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >도착지 운영인이</text>
+<text x="864" y="300" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >컨테이너·봉인번호 대조</text>
+<line x1="1086" y1="270.0" x2="1110" y2="270.0" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<rect x="1112" y="174" width="236" height="192" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12" />
+<text x="1128" y="208" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start" >도착지 반입신고</text>
+<text x="1128" y="242" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >운영인의 반입신고가</text>
+<text x="1128" y="271" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >도착보고를 갈음</text>
+<line x1="1350" y1="270.0" x2="1374" y2="270.0" stroke="#1f6fd1" stroke-width="4" marker-end="url(#a-blue)"/>
+<rect x="1376" y="174" width="236" height="192" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12" />
+<text x="1392" y="208" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start" >수입신고 수리</text>
+<text x="1392" y="242" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >반출신고 거쳐 화주 인도</text>
+<text x="1392" y="271" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >빈 컨테이너 반납까지</text>
+<text x="1392" y="300" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >선사 D&amp;D는 계속</text>
+<rect x="30" y="402" width="1612" height="248" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="30" y="402" width="10" height="248" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="4" />
+<text x="60" y="440" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start" >예시 3. 인천공항 → 내륙 보세창고 (특송 제외)</text>
+<rect x="56" y="460" width="520" height="80" fill="#e7f4ee" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<text x="72" y="494" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start" >하기장소 반입 전 보세운송신고 수리</text>
+<text x="72" y="528" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >하역장소에 두었다가 바로 반출(즉시 반출 대상)</text>
+<rect x="56" y="554" width="520" height="84" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<text x="72" y="588" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start" >그렇지 않으면: 입항 다음 날까지 반입</text>
+<text x="72" y="622" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >House AWB 단위 반입신고 → 보관료·장치기간·30일 시작</text>
+<line x1="580" y1="500" x2="700" y2="548" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<line x1="580" y1="596" x2="700" y2="560" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<rect x="706" y="460" width="440" height="178" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<text x="722" y="494" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start" >5일 안 도착</text>
+<text x="722" y="528" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >보세운송 수리일부터 5일 안에</text>
+<text x="722" y="557" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >내륙 보세창고에 도착</text>
+<line x1="1150" y1="549" x2="1196" y2="549" stroke="#1f8a5b" stroke-width="4" marker-end="url(#a-green)"/>
+<rect x="1200" y="460" width="426" height="178" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<text x="1216" y="494" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start" >도착지 반입신고</text>
+<text x="1216" y="528" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >운영인의 반입신고가</text>
+<text x="1216" y="557" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >도착보고를 갈음</text>
+<rect x="30" y="666" width="1612" height="240" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="30" y="666" width="10" height="240" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="4" />
+<text x="60" y="704" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start" >환적과 복합환적</text>
+<rect x="56" y="724" width="500" height="166" fill="#ffffff" stroke="#e4572e" stroke-width="2" rx="12" />
+<text x="72" y="758" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start" >환적: 같은 세관 관할 안</text>
+<text x="72" y="792" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >보세운송은 House B/L 단위 신고 원칙</text>
+<text x="72" y="821" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >목적지는 물품을 실을 항만·공항의</text>
+<text x="72" y="850" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >하선·하기장소로 한정</text>
+<rect x="576" y="724" width="560" height="166" fill="#ffffff" stroke="#e4572e" stroke-width="2" rx="12" />
+<text x="592" y="758" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start" >복합환적: 다른 세관 관할로</text>
+<text x="592" y="792" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >예) 선박으로 들어와 공항에서 항공기로</text>
+<text x="592" y="821" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >적재화물목록에 보세운송인·목적지를 적어</text>
+<text x="592" y="850" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >신고 갈음 · 하선(기)신고일부터 7일</text>
+<rect x="1156" y="724" width="470" height="166" fill="#ffffff" stroke="#e4572e" stroke-width="2" rx="12" />
+<text x="1172" y="758" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start" >같은 공항 항공기 환적</text>
+<text x="1172" y="792" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >입항 후 10일 범위 안이면</text>
+<text x="1172" y="821" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >계류장 안 지정 장소에 일시보관</text>
+<text x="1172" y="850" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >(위험물품 제외)</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30.0" y="30.0" width="1612.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56.0" y="80.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">승인된 처리 방법과 나무껍질 기준</text>
+<text x="56.0" y="114.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">ISPM 15 부속서 1(2018년 4월 CPM-13 개정). 어떤 처리든 나무껍질을 벗긴 목재로 만듭니다</text>
+<rect x="56.0" y="150.0" width="375.0" height="350.0" fill="#fdecea" stroke="#d9482b" stroke-width="2.5" rx="14"/>
+<text x="78.0" y="194.0" font-size="24" font-weight="800" fill="#d9482b" text-anchor="start">HT 열처리</text>
+<text x="78.0" y="262.0" font-size="40" font-weight="800" fill="#1d2a3a" text-anchor="start">56℃ · 30분</text>
+<text x="78.0" y="320.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">목재 전체 단면(중심부 포함)이</text>
+<text x="78.0" y="350.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">최소 56℃에서 연속 30분 이상</text>
+<text x="78.0" y="380.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">고열건조(KD)·열 가압 처리도</text>
+<text x="78.0" y="410.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">조건을 충족하면 인정</text>
+<rect x="451.0" y="150.0" width="375.0" height="350.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2.5" rx="14"/>
+<text x="473.0" y="194.0" font-size="24" font-weight="800" fill="#e4572e" text-anchor="start">DH 유전가열</text>
+<text x="473.0" y="262.0" font-size="40" font-weight="800" fill="#1d2a3a" text-anchor="start">60℃ · 1분</text>
+<text x="473.0" y="320.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">마이크로파·고주파로 전체 단면</text>
+<text x="473.0" y="350.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">(표면 포함)이 60℃에서 연속 1분</text>
+<text x="473.0" y="380.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">두께 5cm 초과를 2.45GHz로 처리하면</text>
+<text x="473.0" y="410.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">양방향 조사 또는 여러 도파관</text>
+<rect x="846.0" y="150.0" width="375.0" height="350.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<text x="868.0" y="194.0" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start">MB 메틸브로마이드</text>
+<text x="868.0" y="262.0" font-size="40" font-weight="800" fill="#1d2a3a" text-anchor="start">24시간 CT</text>
+<text x="868.0" y="320.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">21℃ 이상 650, 16~20.9℃ 800,</text>
+<text x="868.0" y="350.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">10~15.9℃ 900 g·h/m³</text>
+<text x="868.0" y="380.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">가장 작은 단면이 20cm를 넘는</text>
+<text x="868.0" y="410.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">목재가 있으면 금지</text>
+<rect x="1241.0" y="150.0" width="375.0" height="350.0" fill="#f0ecfa" stroke="#6b4fbb" stroke-width="2.5" rx="14"/>
+<text x="1263.0" y="194.0" font-size="24" font-weight="800" fill="#6b4fbb" text-anchor="start">SF 불화설퍼릴</text>
+<text x="1263.0" y="262.0" font-size="40" font-weight="800" fill="#1d2a3a" text-anchor="start">24·48시간 CT</text>
+<text x="1263.0" y="320.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">30℃ 이상 24시간 CT 1,400 또는</text>
+<text x="1263.0" y="350.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">20℃ 이상 48시간 CT 3,000</text>
+<text x="1263.0" y="380.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">단면 20cm 초과, 함수율 75%</text>
+<text x="1263.0" y="410.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">(건량 기준) 초과 목재는 금지</text>
+<rect x="56.0" y="524.0" width="1000.0" height="356.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="80.0" y="566.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">남아도 되는 나무껍질</text>
+<rect x="84.0" y="630.0" width="560.0" height="120.0" fill="#f3e3c8" stroke="#c9a47a" stroke-width="3" rx="6"/>
+<rect x="130.0" y="648.0" width="24.0" height="84.0" fill="#7a5230" stroke="#5c3d22" stroke-width="2" rx="4"/>
+<path d="M330 660 L388 656 L392 708 L334 714 Z" fill="#7a5230" stroke="#5c3d22" stroke-width="2"/>
+<path d="M130 758 L130 766 L154 766 L154 758" stroke="#1f8a5b" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="142.0" y="792.0" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="middle">폭 3cm 미만</text>
+<text x="142.0" y="814.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="middle">(길이 무관)</text>
+<text x="362.0" y="792.0" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="middle">폭 3cm 이상이면</text>
+<text x="362.0" y="814.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="middle">한 조각 면적 50㎠ 미만</text>
+<text x="680.0" y="644.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">눈으로 따로 구분되는 작은 조각만</text>
+<text x="680.0" y="674.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">허용됩니다.</text>
+<text x="680.0" y="704.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">훈증(MB·SF)은 처리 전에 벗기고,</text>
+<text x="680.0" y="734.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">열처리는 처리 전후 어느 때 벗겨도</text>
+<text x="680.0" y="764.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">됩니다.</text>
+<rect x="1076.0" y="524.0" width="540.0" height="356.0" fill="#eef1f5" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1098.0" y="566.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">나라마다 목록이 다를 수 있음</text>
+<text x="1098.0" y="632.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 한국 고시의 처리 코드: HT·DH·MB</text>
+<text x="1110.0" y="659.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">(열처리업자 HT·DH, 수출입식물방제업자 MB)</text>
+<text x="1098.0" y="686.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 미국 CBP 안내: 열처리, MB 훈증,</text>
+<text x="1110.0" y="713.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">유전가열 세 가지</text>
+<text x="1098.0" y="740.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· SF 마크 포장재가 섞일 수 있으면</text>
+<text x="1110.0" y="767.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">수입국 요건을 미리 확인</text>
+<text x="1098.0" y="794.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 기준이 바뀌어도 이전 기준 처리·마크품은</text>
+<text x="1110.0" y="821.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">재처리 불필요(3.2절)</text>
+</svg>

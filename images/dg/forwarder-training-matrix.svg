@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">직무별 교육 대상: 직함이 아니라 실제로 하는 일로 정합니다</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">「항공위험물운송기술기준」(2026. 10. 22. 전부개정) 표 1-4·1-4(b)와 「위험물 선박운송 기준」 별표 28·29를 포워더 직무에 대응시킨 해석입니다.</text>
+<rect x="40.0" y="114.0" width="240.0" height="44.0" fill="#eef1f4" stroke="#1d2a3a" stroke-width="2" rx="8"/>
+<text x="54.0" y="143.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">직무</text>
+<rect x="290.0" y="114.0" width="530.0" height="44.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2" rx="8"/>
+<text x="304.0" y="143.0" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start">항공: 표 1-4 직무기능(초기/정기 최소 시간)</text>
+<rect x="830.0" y="114.0" width="410.0" height="44.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2" rx="8"/>
+<text x="844.0" y="143.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">해상: 별표 28(초기교육)</text>
+<rect x="1250.0" y="114.0" width="382.0" height="44.0" fill="#fdece6" stroke="#e4572e" stroke-width="2" rx="8"/>
+<text x="1264.0" y="143.0" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start">도로·국내법</text>
+<rect x="30.0" y="166.0" width="1612.0" height="76.0" fill="#f7f9fb" stroke="none" stroke-width="0" rx="8"/>
+<text x="54.0" y="212.0" font-size="18.5" font-weight="800" fill="#1d2a3a" text-anchor="start">영업·예약 접수</text>
+<rect x="302.0" y="176.0" width="35.5" height="32.0" fill="#1f6fd1" stroke="none" stroke-width="0" rx="16"/>
+<text x="319.7" y="198.0" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="302.0" y="230.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">위험물 건 · 40/24h</text>
+<rect x="471.0" y="176.0" width="35.5" height="32.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.2" rx="16" stroke-dasharray="5 3"/>
+<text x="488.8" y="198.0" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="middle">2</text>
+<text x="471.0" y="230.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">일반화물만 · 8/4h</text>
+<text x="844.0" y="196.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">위험물 건 주선: 제3호 24h</text>
+<text x="844.0" y="219.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">일반화물만이면 문언상 대상 아님</text>
+<text x="1264.0" y="196.0" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">—</text>
+<rect x="30.0" y="246.0" width="1612.0" height="76.0" fill="#ffffff" stroke="none" stroke-width="0" rx="8"/>
+<text x="54.0" y="292.0" font-size="18.5" font-weight="800" fill="#1d2a3a" text-anchor="start">서류(DGD 작성·검토)</text>
+<rect x="302.0" y="256.0" width="35.5" height="32.0" fill="#1f6fd1" stroke="none" stroke-width="0" rx="16"/>
+<text x="319.7" y="278.0" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="302.0" y="310.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">작성·검토 · 40/24h</text>
+<text x="484.6" y="272.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">화주 대신 작성·서명하면</text>
+<text x="484.6" y="294.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">위임받은 자로서 이수 필요</text>
+<text x="484.6" y="316.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">(5.1.4.1 나.·5.4.1.6.1 다.)</text>
+<text x="844.0" y="276.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">제3호, 화주 대리면</text>
+<text x="844.0" y="299.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">제1호 대리인(24h)</text>
+<text x="1264.0" y="276.0" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">—</text>
+<rect x="30.0" y="326.0" width="1612.0" height="76.0" fill="#f7f9fb" stroke="none" stroke-width="0" rx="8"/>
+<text x="54.0" y="372.0" font-size="18.5" font-weight="800" fill="#1d2a3a" text-anchor="start">화물 접수·검수</text>
+<rect x="302.0" y="336.0" width="35.5" height="32.0" fill="#1f6fd1" stroke="none" stroke-width="0" rx="16"/>
+<text x="319.7" y="358.0" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="302.0" y="390.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">위험물 · 40/24h</text>
+<rect x="450.9" y="336.0" width="35.5" height="32.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.2" rx="16" stroke-dasharray="5 3"/>
+<text x="468.6" y="358.0" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="middle">2</text>
+<text x="450.9" y="390.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">일반화물 · 8/4h</text>
+<text x="844.0" y="356.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">위험물을 접수하면 제3호</text>
+<text x="1264.0" y="356.0" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">—</text>
+<rect x="30.0" y="406.0" width="1612.0" height="76.0" fill="#ffffff" stroke="none" stroke-width="0" rx="8"/>
+<text x="54.0" y="452.0" font-size="18.5" font-weight="800" fill="#1d2a3a" text-anchor="start">포장·적입</text>
+<rect x="302.0" y="416.0" width="35.5" height="32.0" fill="#1f6fd1" stroke="none" stroke-width="0" rx="16"/>
+<text x="319.7" y="438.0" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="302.0" y="470.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">포장 · 40/24h</text>
+<rect x="435.4" y="416.0" width="35.5" height="32.0" fill="#1f6fd1" stroke="none" stroke-width="0" rx="16"/>
+<text x="453.1" y="438.0" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="435.4" y="470.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">창고·ULD 작업 · 8/4h</text>
+<text x="844.0" y="436.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">포장: 제2호</text>
+<text x="844.0" y="459.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">포워더 직원의 컨테이너 적입: 제3호</text>
+<text x="1264.0" y="436.0" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">—</text>
+<rect x="30.0" y="486.0" width="1612.0" height="88.0" fill="#f7f9fb" stroke="none" stroke-width="0" rx="8"/>
+<text x="54.0" y="538.0" font-size="18.5" font-weight="800" fill="#1d2a3a" text-anchor="start">창고 보관·취급</text>
+<rect x="302.0" y="496.0" width="35.5" height="32.0" fill="#1f6fd1" stroke="none" stroke-width="0" rx="16"/>
+<text x="319.7" y="518.0" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="302.0" y="550.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">취급·보관 · 8/4h</text>
+<text x="844.0" y="516.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">위험물을 취급하는 포워더</text>
+<text x="844.0" y="539.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">직원이면 제3호</text>
+<text x="1264.0" y="516.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">허가 시설 안전관리자(위안법 제28조)</text>
+<text x="1264.0" y="539.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">유해화학물질 화관법 제33조</text>
+<text x="1264.0" y="562.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">MSDS 대상물질 산안법 MSDS 교육</text>
+<rect x="30.0" y="578.0" width="1612.0" height="94.0" fill="#ffffff" stroke="none" stroke-width="0" rx="8"/>
+<text x="54.0" y="633.0" font-size="18.5" font-weight="800" fill="#1d2a3a" text-anchor="start">항공사 인도</text>
+<rect x="302.0" y="588.0" width="35.5" height="32.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.2" rx="16" stroke-dasharray="5 3"/>
+<text x="319.7" y="610.0" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="middle">2</text>
+<text x="302.0" y="642.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">일반화물 · 8/4h</text>
+<rect x="447.2" y="588.0" width="35.5" height="32.0" fill="#1f6fd1" stroke="none" stroke-width="0" rx="16"/>
+<text x="464.9" y="610.0" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="447.2" y="642.0" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">위험물 · 40/24h</text>
+<text x="302.0" y="666.0" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">보안검색(직무기능 10) 교육과는 별개</text>
+<text x="844.0" y="608.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">—</text>
+<text x="1264.0" y="608.0" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">—</text>
+<rect x="30.0" y="676.0" width="1612.0" height="88.0" fill="#f7f9fb" stroke="none" stroke-width="0" rx="8"/>
+<text x="54.0" y="728.0" font-size="18.5" font-weight="800" fill="#1d2a3a" text-anchor="start">운전자</text>
+<text x="302.0" y="706.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">고시 표에 운전자 구분 없음</text>
+<text x="844.0" y="706.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">위험물 적재차량 운전자: 제7호 4h</text>
+<text x="844.0" y="729.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">(다른 법 교육 이수자는 제외)</text>
+<text x="1264.0" y="706.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">지정수량 이상 운반: 위험물운반자</text>
+<text x="1264.0" y="729.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">(강습 8h, 실무 4h)</text>
+<text x="1264.0" y="752.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">탱크로리: 위험물운송자</text>
+<rect x="30.0" y="768.0" width="1612.0" height="88.0" fill="#ffffff" stroke="none" stroke-width="0" rx="8"/>
+<text x="54.0" y="820.0" font-size="18.5" font-weight="800" fill="#1d2a3a" text-anchor="start">관리자</text>
+<text x="302.0" y="798.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">교육훈련프로그램 수립·운영(1.4.1.1)</text>
+<text x="302.0" y="821.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">보안 교육훈련 확인(1.5.2.3), 기록 36개월(1.4.4.3 가.)</text>
+<text x="302.0" y="844.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">본인이 그 업무를 하면 해당 직무기능</text>
+<text x="844.0" y="798.0" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">본인이 위험물을 취급하면 제3호</text>
+<text x="1264.0" y="798.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">운송사 운전자의 자격·교육 확인</text>
+<rect x="40.0" y="866.0" width="30.0" height="24.0" fill="#1f6fd1" stroke="none" stroke-width="0" rx="12"/>
+<text x="80.0" y="884.0" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">고시 구분에 해당</text>
+<rect x="230.0" y="866.0" width="30.0" height="24.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12" stroke-dasharray="5 3"/>
+<text x="270.0" y="884.0" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">"2에 준함": 고시에 꼭 맞는 구분이 없어 고용주가 정하는 해석(표 1-4의 주)</text>
+<text x="40.0" y="912.0" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">항공 시간은 표 1-4(b)의 초기/정기 최소 시간. 항공·해상 모두 24개월 이내 재교육(해상 재교육 8h, 운전자 4h). 항공과 해상 교육을 서로 인정하는 조문은 없습니다.</text>
+</svg>

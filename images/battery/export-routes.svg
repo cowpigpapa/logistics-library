@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">EU에서 제3국으로 폐기물을 내보낼 때 타는 조문</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">폐기물운송규정 제4편. 첫 갈림길은 처분용인지, 둘째는 목적지가 OECD 결정 적용국인지입니다.</text>
+<rect x="40.0" y="150.0" width="260.0" height="110.0" fill="#eef1f4" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="170.0" y="198.2" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="middle">EU → 제3국</text>
+<text x="170.0" y="230.6" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="middle">폐기물 수출</text>
+<rect x="360.0" y="150.0" width="300.0" height="110.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="510.0" y="214.1" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="middle">처분용인가?</text>
+<line x1="300.0" y1="205.0" x2="356.0" y2="205.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar-1d2a3a)"/>
+<rect x="740.0" y="140.0" width="400.0" height="130.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="756.0" y="185.6" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">수출 금지(제37조)</text>
+<text x="756.0" y="216.6" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">예외는 바젤협약 당사국인 EFTA</text>
+<text x="756.0" y="241.6" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">국가뿐(제38조 절차)</text>
+<line x1="660.0" y1="205.0" x2="736.0" y2="205.0" stroke="#d9482b" stroke-width="3" marker-end="url(#ar-d9482b)"/>
+<text x="698.0" y="192.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">예</text>
+<line x1="510.0" y1="260.0" x2="510.0" y2="320.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar-1d2a3a)"/>
+<text x="526.0" y="298.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">아니오(회수용)</text>
+<rect x="330.0" y="324.0" width="360.0" height="120.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="510.0" y="377.1" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">OECD 결정 적용국인가?</text>
+<text x="510.0" y="408.1" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="middle">목적지 기준. 경유국도 따로 확인</text>
+<polyline points="690.0,384.0 740.0,384.0 740.0,330.0 776.0,330.0" fill="none" stroke="#1f6fd1" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar-1f6fd1)"/>
+<text x="712.0" y="372.0" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start">예</text>
+<polyline points="510.0,444.0 510.0,640.0 776.0,640.0" fill="none" stroke="#e4572e" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar-e4572e)"/>
+<text x="526.0" y="620.0" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start">아니오</text>
+<rect x="780.0" y="300.0" width="852.0" height="260.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="14"/>
+<text x="800.0" y="336.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">OECD 결정 적용국(한국 등): 제44조, 제2편 절차 준용</text>
+<rect x="800.0" y="356.0" width="400.0" height="186.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="816.0" y="388.7" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">유해·황색목록·미분류 등 제4조(2)</text>
+<text x="816.0" y="412.7" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">폐기물</text>
+<text x="816.0" y="442.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">PIC로 수출 가능. 통지·동의, 계약, 재정보증,</text>
+<text x="816.0" y="466.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">이동서류, 세관 통보</text>
+<rect x="1216.0" y="356.0" width="400.0" height="186.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="1232.0" y="388.7" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">오염 없는 녹색목록</text>
+<text x="1232.0" y="418.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">일반정보 요건(부속서 VII 서류). B3011과</text>
+<text x="1232.0" y="442.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">부속서 IIIB는 PIC. 시설이 시스템에 없으면</text>
+<text x="1232.0" y="466.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">주선자가 대신 입력</text>
+<rect x="780.0" y="580.0" width="852.0" height="230.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="14"/>
+<text x="800.0" y="616.0" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">OECD 결정 비적용국</text>
+<rect x="800.0" y="636.0" width="400.0" height="156.0" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="816.0" y="668.7" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">유해폐기물: 수출 금지(제39조)</text>
+<text x="816.0" y="698.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">A1160·A1170, EU 폐기물 목록의 유해폐기물,</text>
+<text x="816.0" y="722.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">오염된 녹색목록 등</text>
+<rect x="1216.0" y="636.0" width="400.0" height="156.0" fill="#ffffff" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="1232.0" y="668.7" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">비유해 폐기물(제40조)</text>
+<text x="1232.0" y="698.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">2027.5.20까지 구법 국가별 절차.</text>
+<text x="1232.0" y="722.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">2027.5.21부터 수출 허용국 목록의</text>
+<text x="1232.0" y="746.2" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">국가·품목만</text>
+<rect x="40.0" y="480.0" width="440.0" height="150.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="56.0" y="513.6" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">2026년 12월 9일부터</text>
+<text x="56.0" y="544.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">리튬계 폐배터리는 EU 폐기물 목록상</text>
+<text x="56.0" y="569.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">유해(16 06 07*). 한국행은 PIC, 비OECD국행은</text>
+<text x="56.0" y="594.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">금지</text>
+<rect x="40.0" y="650.0" width="440.0" height="160.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="56.0" y="683.6" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">2027년 5월 21일부터</text>
+<text x="56.0" y="714.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">목적지 시설의 독립 제3자 감사(수출 전 2년 이내,</text>
+<text x="56.0" y="739.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">부속서 X)가 있어야 수출(제46조). OECD국 시설도</text>
+<text x="56.0" y="764.3" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">대상</text>
+<rect x="40.0" y="836.0" width="1592.0" height="66.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="64.0" y="877.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">OECD국행이라도 비OECD국을 경유하면 그 경유국 당국에 60일의 동의 기간이 주어집니다(제44조(6)). 환적항 선택이 일정을 바꿉니다.</text>
+</svg>

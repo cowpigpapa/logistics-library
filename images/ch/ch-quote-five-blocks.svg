@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >견적서의 다섯 덩어리: 화물이 움직이는 순서대로 묶는다</text>
+<rect x="30" y="80" width="1612" height="800" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<path d="M90 260 V210 L130 185 V210 L170 185 V210 L210 185 V260 Z" fill="#eef3fb" stroke="#1d2a3a" stroke-width="3"/>
+<rect x="450" y="210" width="140" height="50" fill="#eef3fb" stroke="#1d2a3a" stroke-width="3" rx="4" />
+<path d="M480 210 V170 H570 M480 170 L460 170" stroke="#1d2a3a" stroke-width="4" fill="none" />
+<line x1="550" y1="170" x2="550" y2="205" stroke="#1d2a3a" stroke-width="2"/>
+<rect x="538" y="193" width="24" height="12" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="0" />
+<rect x="1080" y="210" width="140" height="50" fill="#eef3fb" stroke="#1d2a3a" stroke-width="3" rx="4" />
+<path d="M1110 210 V170 H1200 M1110 170 L1090 170" stroke="#1d2a3a" stroke-width="4" fill="none" />
+<line x1="1180" y1="170" x2="1180" y2="205" stroke="#1d2a3a" stroke-width="2"/>
+<rect x="1168" y="193" width="24" height="12" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="0" />
+<path d="M1460 260 V210 L1500 185 V210 L1540 185 V210 L1580 185 V260 Z" fill="#eef3fb" stroke="#1d2a3a" stroke-width="3"/>
+<text x="150" y="295" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle" >수출자 공장·창고</text>
+<text x="520" y="295" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle" >출발지 터미널·CFS·공항</text>
+<text x="1150" y="295" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle" >도착지 터미널·CFS·공항</text>
+<text x="1520" y="295" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle" >수입자 창고</text>
+<line x1="225" y1="235" x2="435" y2="235" stroke="#5f6b78" stroke-width="4" marker-end="url(#a-sub)"/>
+<line x1="1235" y1="235" x2="1440" y2="235" stroke="#5f6b78" stroke-width="4" marker-end="url(#a-sub)"/>
+<text x="330" y="220" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >내륙 운송</text>
+<text x="1338" y="220" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >내륙 운송</text>
+<line x1="605" y1="235" x2="1060" y2="235" stroke="#1f6fd1" stroke-width="5" marker-end="url(#a-blue)"/>
+<path d="M690 210 H835 L820 232 H702 Z" fill="#2f5aa8"/>
+<rect x="710" y="194" width="24" height="16" fill="#d9482b" stroke="#ffffff" stroke-width="1" rx="0" />
+<rect x="736" y="194" width="24" height="16" fill="#1f8a5b" stroke="#ffffff" stroke-width="1" rx="0" />
+<rect x="762" y="194" width="24" height="16" fill="#e4a23a" stroke="#ffffff" stroke-width="1" rx="0" />
+<rect x="788" y="194" width="24" height="16" fill="#5f6b78" stroke="#ffffff" stroke-width="1" rx="0" />
+<rect x="810" y="182" width="14" height="28" fill="#ffffff" stroke="#2f5aa8" stroke-width="2" rx="0" />
+<path d="M982 208 L972 202 L930 202 L908 158 L894 158 L906 202 L874 202 L862 184 L854 184 L858 202 L858 214 L854 232 L862 232 L874 214 L906 214 L894 258 L908 258 L930 214 L972 214 Z" fill="#2f5aa8"/>
+<text x="832" y="280" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="middle" >해상 · 항공</text>
+<rect x="60" y="380" width="190" height="270" fill="#ffffff" stroke="#e4572e" stroke-width="3" rx="12" />
+<rect x="60" y="380" width="190" height="72" fill="#e4572e" stroke="#e4572e" stroke-width="3" rx="12" />
+<rect x="60" y="430" width="190" height="22" fill="#e4572e" stroke="none" stroke-width="2" rx="0" />
+<text x="155.0" y="414" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >⑤ 통관·내륙</text>
+<text x="155.0" y="440" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle" >수출 쪽</text>
+<text x="155.0" y="494" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >수출신고 대행</text>
+<text x="155.0" y="532" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >수수료</text>
+<text x="155.0" y="570" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >내륙 운송</text>
+<rect x="265" y="380" width="330" height="270" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12" />
+<rect x="265" y="380" width="330" height="72" fill="#1d2a3a" stroke="#1d2a3a" stroke-width="3" rx="12" />
+<rect x="265" y="430" width="330" height="22" fill="#1d2a3a" stroke="none" stroke-width="2" rx="0" />
+<text x="430.0" y="414" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >① 출발지 비용</text>
+<text x="430.0" y="440" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle" >origin</text>
+<text x="430.0" y="494" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >THC·서류비·씰비</text>
+<text x="430.0" y="532" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >부두사용료·보안료</text>
+<text x="430.0" y="570" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >LCL: CFS 작업료</text>
+<text x="430.0" y="608" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >항공: 조업료·AWB 발행비</text>
+<rect x="610" y="380" width="220" height="270" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="12" />
+<rect x="610" y="380" width="220" height="72" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="3" rx="12" />
+<rect x="610" y="430" width="220" height="22" fill="#1f6fd1" stroke="none" stroke-width="2" rx="0" />
+<text x="720.0" y="414" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >② 주운임</text>
+<text x="720.0" y="440" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle" >main freight</text>
+<text x="720.0" y="494" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >FCL: 컨테이너당</text>
+<text x="720.0" y="532" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >LCL: R/T당</text>
+<text x="720.0" y="570" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >항공: 운임 중량 kg당</text>
+<text x="720.0" y="608" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >최소 운임(M)</text>
+<rect x="845" y="380" width="210" height="270" fill="#ffffff" stroke="#d9482b" stroke-width="3" rx="12" />
+<rect x="845" y="380" width="210" height="72" fill="#d9482b" stroke="#d9482b" stroke-width="3" rx="12" />
+<rect x="845" y="430" width="210" height="22" fill="#d9482b" stroke="none" stroke-width="2" rx="0" />
+<text x="950.0" y="414" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >③ 할증료</text>
+<text x="950.0" y="440" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle" >surcharges</text>
+<text x="950.0" y="494" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >BAF·LSS·EBS</text>
+<text x="950.0" y="532" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >CAF·PSS</text>
+<text x="950.0" y="570" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >항공: 유류할증료,</text>
+<text x="950.0" y="608" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >보안료 등</text>
+<rect x="1070" y="380" width="330" height="270" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12" />
+<rect x="1070" y="380" width="330" height="72" fill="#1d2a3a" stroke="#1d2a3a" stroke-width="3" rx="12" />
+<rect x="1070" y="430" width="330" height="22" fill="#1d2a3a" stroke="none" stroke-width="2" rx="0" />
+<text x="1235.0" y="414" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >④ 도착지 비용</text>
+<text x="1235.0" y="440" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle" >destination</text>
+<text x="1235.0" y="494" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >도착지 THC·부두사용료</text>
+<text x="1235.0" y="532" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >D/O 비용·청소비</text>
+<text x="1235.0" y="570" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >포워더 취급 수수료</text>
+<text x="1235.0" y="608" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >LCL: CFS 작업료·보관료</text>
+<rect x="1415" y="380" width="197" height="270" fill="#ffffff" stroke="#e4572e" stroke-width="3" rx="12" />
+<rect x="1415" y="380" width="197" height="72" fill="#e4572e" stroke="#e4572e" stroke-width="3" rx="12" />
+<rect x="1415" y="430" width="197" height="22" fill="#e4572e" stroke="none" stroke-width="2" rx="0" />
+<text x="1513.5" y="414" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle" >⑤ 통관·내륙</text>
+<text x="1513.5" y="440" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle" >수입 쪽</text>
+<text x="1513.5" y="494" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >수입신고 대행 수수료</text>
+<text x="1513.5" y="532" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >관세·수입 부가세</text>
+<text x="1513.5" y="570" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >(실비)</text>
+<text x="1513.5" y="608" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >내륙 운송·적하보험</text>
+<text x="832" y="690" font-size="19" font-weight="700" fill="#d9482b" text-anchor="middle" >할증료는 기본운임과 따로 수시로 바뀌고, 적용 기준일이 따로 정해진다</text>
+<rect x="60" y="742" width="1552" height="122" fill="#eef3fb" stroke="none" stroke-width="2" rx="12" />
+<text x="84" y="780" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start" >수입 견적에서는 줄을 나눠 적는다 (3절)</text>
+<text x="84" y="816" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >②·③ 수입항까지의 운임·할증료는 관세 과세가격에 더하고, ④·⑤ 수입항 도착 뒤의 비용은 명백히 구분할 수 있으면 과세가격에서 뺀다.</text>
+<text x="84" y="842" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >덩어리 ①·④에는 선사 요금, 항만공사·터미널 몫을 선사가 대신 걷는 돈, 포워더 자신의 수수료가 섞여 있다.</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">하청 운송사 검증과 배송 완료(POD) 확인 (7절, TAPA EMEA 지침)</text>
+<rect x="30" y="84" width="620" height="827" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="126" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">하청은 한 단계까지</text>
+<rect x="120" y="150" width="420" height="74" fill="#eef1f5" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="330.0" y="194.15" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주</text>
+<line x1="330" y1="224" x2="330" y2="274" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="120" y="280" width="420" height="74" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="330.0" y="324.15" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">포워더</text>
+<line x1="330" y1="354" x2="330" y2="404" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="120" y="410" width="420" height="74" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="330.0" y="454.15" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">인증 운송사 (TSR)</text>
+<line x1="330" y1="484" x2="330" y2="534" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="120" y="540" width="420" height="74" fill="#fbf3e2" stroke="#c98a12" stroke-width="2.5" rx="12"/>
+<text x="330.0" y="584.15" font-size="22" font-weight="800" fill="#c98a12" text-anchor="middle">하청 운송사</text>
+<text x="346" y="506" font-size="15" font-weight="700" fill="#c98a12" text-anchor="start">화주·포워더 서면 동의</text>
+<text x="346" y="526" font-size="15" font-weight="700" fill="#c98a12" text-anchor="start">비인증이면 화주 승인 + 현장 심사</text>
+<line x1="330" y1="614" x2="330" y2="644" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)" stroke-dasharray="6 5"/>
+<rect x="120" y="650" width="420" height="64" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="12" stroke-dasharray="8 6"/>
+<text x="330.0" y="688.825" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">재하청(이중 중개) ✕</text>
+<rect x="54" y="734" width="572" height="160" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="12"/>
+<text x="76" y="770" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">"Everything can be subcontracted,</text>
+<text x="76" y="800" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start"> except liability!" 책임은 인증 운송사에 남음</text>
+<text x="76" y="830" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">· 명단에 오른 차량·기사만</text>
+<text x="76" y="860" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">· 사고는 즉시, 상세 보고는 24시간 안</text>
+<rect x="670" y="84" width="972" height="827" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="694" y="126" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">"배송 완료"는 보고일 뿐: POD 확인 순서</text>
+<rect x="694" y="140" width="924" height="112" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<circle cx="728" cy="172" r="18" fill="#1f6fd1"/>
+<text x="728" y="179.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="758" y="180" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">사진 POD</text>
+<text x="758" y="216" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">서명된 인수증 + 하차 장소·배경(간판, 입구, 도크 번호) 사진. 촬영 시각·위치 확인, 이전 사진</text>
+<text x="758" y="242" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">재사용 여부</text>
+<rect x="694" y="268" width="924" height="86" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<circle cx="728" cy="300" r="18" fill="#1f6fd1"/>
+<text x="728" y="307.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="758" y="308" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">GPS 대조</text>
+<text x="758" y="344" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">도착 시점 관제 위치를 수하인 주소와 비교. 지오펜스를 걸면 출입 시각이 남음</text>
+<rect x="694" y="370" width="924" height="86" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<circle cx="728" cy="402" r="18" fill="#1f6fd1"/>
+<text x="728" y="409.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="758" y="410" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">수하인 직접 확인</text>
+<text x="758" y="446" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">운송사가 준 번호가 아니라 원래 알던 수하인 담당자에게 같은 날 확인</text>
+<rect x="694" y="472" width="924" height="86" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<circle cx="728" cy="504" r="18" fill="#1f6fd1"/>
+<text x="728" y="511.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="758" y="512" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">전자 POD 서명</text>
+<text x="758" y="548" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">받은 사람의 이름·서명·시각. 기사는 넘기기 전에 신분 확인</text>
+<rect x="694" y="574" width="924" height="112" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<circle cx="728" cy="606" r="18" fill="#d9482b"/>
+<text x="728" y="613.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<text x="758" y="614" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">맞지 않으면 그날</text>
+<text x="758" y="650" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">운송사 책임자에게 기사·차량·관제 기록을 요구하고 화주에게 알림. 확인되지 않으면 도난</text>
+<text x="758" y="676" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">가능성으로 보고 9절의 보고·보존과 보험 통지를 시작</text>
+<text x="694" y="726" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">고위험 구간(고가 화물, 처음 쓰는 운송사, 플랫폼·하청이 낀 운송)에 쓰고, 이 증빙을 운임 지급 조건으로 계약에</text>
+<text x="694" y="753" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">넣습니다.</text>
+</svg>

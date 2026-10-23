@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">계산 예시: 노트북 3팔레트 도난, 손해 6,000만원은 어디서 메워지나 (3절, 예시 금액)</text>
+<rect x="30" y="90" width="1612" height="520" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<line x1="60" y1="520" x2="1610" y2="520" stroke="#1d2a3a" stroke-width="2"/>
+<rect x="90" y="208.0" width="170" height="312.0" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="6"/>
+<text x="175" y="194.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">6,000만</text>
+<text x="175" y="554" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">손해액</text>
+<text x="175" y="576" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">2,000만 × 3팔레트</text>
+<line x1="275" y1="403.0" x2="345" y2="403.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="350" y="286.0" width="170" height="234.0" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="6"/>
+<text x="435" y="272.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">4,500만</text>
+<text x="435" y="554" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">재고 보험 일부보험</text>
+<text x="435" y="576" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">6,000 × 1.5억 ÷ 2억</text>
+<line x1="535" y1="416.0" x2="605" y2="416.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="610" y="312.0" width="170" height="208.0" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="6"/>
+<text x="695" y="298.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">4,000만</text>
+<text x="695" y="554" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">공제액 500만 뺀</text>
+<text x="695" y="576" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">보험금</text>
+<line x1="795" y1="468.0" x2="865" y2="468.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="870" y="416.0" width="170" height="104.0" fill="#fbf3e2" stroke="#c98a12" stroke-width="2.5" rx="6"/>
+<text x="955" y="402.0" font-size="21" font-weight="800" fill="#c98a12" text-anchor="middle">2,000만</text>
+<text x="955" y="554" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">남는 금액</text>
+<text x="955" y="576" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">6,000 − 4,000</text>
+<line x1="1080" y1="364.0" x2="1320" y2="364.0" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6"/>
+<rect x="1120" y="364.0" width="160" height="156.0" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="6" stroke-dasharray="6 4"/>
+<text x="1200" y="350.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">창고 한도 3,000만</text>
+<text x="1200" y="554" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">창고 책임(예시)</text>
+<text x="1200" y="576" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">사고 1건당 한도</text>
+<text x="1340" y="160" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">보험금을 준 보험사는 그 금액</text>
+<text x="1340" y="185" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">한도에서 창고에 대한 화주의 권리를</text>
+<text x="1340" y="210" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">넘겨받아 구상(상법 제682조).</text>
+<text x="1340" y="300" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">남은 2,000만을 창고 한도 안에서</text>
+<text x="1340" y="325" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">화주가 따로 청구할 수 있는지는</text>
+<text x="1340" y="350" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">계약서와 보험사 안내로 확인.</text>
+<text x="1340" y="375" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">창고에서 받지 못하면 화주 부담.</text>
+<text x="60" y="130" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="start">보험가액 2억원(10팔레트 × 2,000만) · 보험금액 1억 5,000만원으로 신고</text>
+<rect x="40" y="640" width="512" height="260" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<text x="62" y="682" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">적하보험</text>
+<text x="62" y="714" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">드는 사람: 화주</text>
+<text x="62" y="756" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">운송과 통상 운송 과정의 보관. 장기 보관은 담보 밖일 수</text>
+<text x="62" y="783" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">있음</text>
+<rect x="576" y="640" width="512" height="260" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<text x="598" y="682" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">재고(재물) 보험</text>
+<text x="598" y="714" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">드는 사람: 화주</text>
+<text x="598" y="756" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">보관 중 자기 화물의 화재·도난. 보험금액을 실제 가액대로</text>
+<text x="598" y="783" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">신고</text>
+<rect x="1112" y="640" width="512" height="260" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<text x="1134" y="682" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">창고의 배상책임보험</text>
+<text x="1134" y="714" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">드는 사람: 창고 운영자</text>
+<text x="1134" y="756" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">창고에 법률상 배상책임이 있을 때만. 한도·공제·야적·도난</text>
+<text x="1134" y="783" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">면책 확인</text>
+<text x="836" y="888" font-size="10" font-weight="500" fill="#1d2a3a" text-anchor="start"></text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">인화점으로 보는 두 기준: UN Class 3과 위험물안전관리법 제4류</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">같은 액체라도 60℃와 250℃라는 서로 다른 선으로 판단합니다(1기압, 밀폐식 인화점 기준).</text>
+<text x="40.0" y="196.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">UN 기준</text>
+<text x="40.0" y="220.0" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">(해상·항공)</text>
+<text x="40.0" y="366.0" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">국내</text>
+<text x="40.0" y="390.0" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">위험물안전관리법</text>
+<rect x="190.0" y="168.0" width="241.1" height="64.0" fill="#f7c9c0" stroke="#d9482b" stroke-width="2" rx="0"/>
+<text x="310.6" y="198.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">Class 3  PG Ⅱ</text>
+<text x="310.6" y="222.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">인화점 23℃ 미만</text>
+<rect x="431.1" y="168.0" width="168.4" height="64.0" fill="#fbe3dd" stroke="#d9482b" stroke-width="2" rx="0"/>
+<text x="515.3" y="198.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">Class 3  PG Ⅲ</text>
+<text x="515.3" y="222.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">23℃ 이상 60℃ 이하</text>
+<rect x="599.5" y="168.0" width="1001.0" height="64.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="0"/>
+<text x="1100.0" y="207.0" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="middle">Class 3 아님 (인화점 이상의 온도로 운송하는 경우는 제외)</text>
+<text x="190.0" y="258.0" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">PG Ⅰ은 인화점이 아니라 초기 끓는점 35℃ 이하로 정합니다.</text>
+<rect x="190.0" y="338.0" width="232.0" height="64.0" fill="#fbd5c4" stroke="#e4572e" stroke-width="2" rx="0"/>
+<text x="306.0" y="368.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">제1석유류</text>
+<text x="306.0" y="392.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">21℃ 미만</text>
+<rect x="422.0" y="338.0" width="223.0" height="64.0" fill="#fde1d3" stroke="#e4572e" stroke-width="2" rx="0"/>
+<text x="510.8" y="368.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">제2석유류</text>
+<text x="510.8" y="392.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">21℃ 이상 70℃ 미만</text>
+<rect x="645.0" y="338.0" width="591.5" height="64.0" fill="#feebe1" stroke="#e4572e" stroke-width="2" rx="0"/>
+<text x="940.8" y="368.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">제3석유류</text>
+<text x="940.8" y="392.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">70℃ 이상 200℃ 미만</text>
+<rect x="1236.5" y="338.0" width="227.5" height="64.0" fill="#fff3ec" stroke="#e4572e" stroke-width="2" rx="0"/>
+<text x="1350.2" y="368.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">제4석유류</text>
+<text x="1350.2" y="392.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">200℃ 이상 250℃ 미만</text>
+<rect x="1464.0" y="338.0" width="136.5" height="64.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="0"/>
+<text x="1532.2" y="368.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="middle">제4류</text>
+<text x="1532.2" y="390.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="middle">아님</text>
+<text x="40.0" y="432.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">지정수량</text>
+<text x="306.0" y="432.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">비수용성 200L · 수용성 400L</text>
+<text x="533.5" y="432.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">1,000L · 2,000L</text>
+<text x="940.8" y="432.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">비수용성 2,000L · 수용성 4,000L</text>
+<text x="1350.2" y="432.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">6,000L</text>
+<line x1="190.0" y1="330.0" x2="235.5" y2="330.0" stroke="#e4572e" stroke-width="5"/>
+<text x="190.0" y="320.0" font-size="15" font-weight="600" fill="#e4572e" text-anchor="start">특수인화물(50L): 인화점 -20℃ 이하·비점 40℃ 이하 또는 발화점 100℃ 이하</text>
+<rect x="599.5" y="164.0" width="45.5" height="72.0" fill="none" stroke="#d9482b" stroke-width="3" rx="0" stroke-dasharray="6 4"/>
+<rect x="599.5" y="334.0" width="45.5" height="72.0" fill="none" stroke="#d9482b" stroke-width="3" rx="0" stroke-dasharray="6 4"/>
+<line x1="190.0" y1="500.0" x2="1600.5" y2="500.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#a-ink)"/>
+<line x1="235.5" y1="493.0" x2="235.5" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="235.5" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">-20℃</text>
+<line x1="326.5" y1="493.0" x2="326.5" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="326.5" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">0℃</text>
+<line x1="422.0" y1="493.0" x2="422.0" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="413.0" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="end">21℃</text>
+<line x1="431.1" y1="493.0" x2="431.1" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="440.1" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">23℃</text>
+<line x1="599.5" y1="493.0" x2="599.5" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="599.5" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">60℃</text>
+<line x1="645.0" y1="493.0" x2="645.0" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="645.0" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">70℃</text>
+<line x1="781.5" y1="493.0" x2="781.5" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="781.5" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">100℃</text>
+<line x1="1009.0" y1="493.0" x2="1009.0" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1009.0" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">150℃</text>
+<line x1="1236.5" y1="493.0" x2="1236.5" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1236.5" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">200℃</text>
+<line x1="1464.0" y1="493.0" x2="1464.0" y2="507.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1464.0" y="530.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">250℃</text>
+<text x="1600.5" y="530.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="end">인화점</text>
+<line x1="622.2" y1="164.0" x2="622.2" y2="142.0" stroke="#d9482b" stroke-width="2"/>
+<text x="632.2" y="140.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">60℃ 초과 70℃ 미만: UN 기준으로는 비위험물, 국내는 제2석유류</text>
+<path d="M 599.5 552 L 599.5 566 L 1464.0 566 L 1464.0 552" fill="none" stroke="#d9482b" stroke-width="2.5"/>
+<text x="1031.8" y="592.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">UN Class 3은 아니지만 국내에서는 제4류(제2~제4석유류)인 범위</text>
+<rect x="40.0" y="626.0" width="1592.0" height="282.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="64.0" y="666.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">표 밖의 조건</text>
+<circle cx="70.0" cy="700.0" r="4.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="84.0" y="706.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">알코올류(탄소 원자 1~3개인 포화1가 알코올, 지정수량 400L)는 인화점이 아니라 성분으로 정합니다. 알코올 24부피퍼센트 이하 수용액은 UN 규정 적용 제외(특별규정 144).</text>
+<circle cx="70.0" cy="740.0" r="4.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="84.0" y="746.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">동식물유류(인화점 250℃ 미만, 10,000L)는 용기기준·수납·저장기준을 지키고 통칭명·수량·화기엄금 표시가 있으면 위험물에서 제외됩니다.</text>
+<circle cx="70.0" cy="780.0" r="4.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="84.0" y="786.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">제3석유류·제4석유류·동식물유류는 1기압·20℃에서 액체인 것만 제4류입니다. 도료류 등은 가연성 액체량 40중량퍼센트 이하이면 제외 단서가 있습니다.</text>
+<circle cx="70.0" cy="820.0" r="4.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="84.0" y="826.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">UN 기준: 인화점이 35℃를 넘고 연소가 지속되지 않는 액체는 인화성 액체로 보지 않을 수 있습니다(2.3.1.3). 국내 제2석유류 단서와는 요건이 다릅니다.</text>
+<circle cx="70.0" cy="860.0" r="4.0" fill="#1d2a3a" stroke="none" stroke-width="2"/>
+<text x="84.0" y="866.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">인화점 250℃ 이상이거나 제4류에서 빠진 가연성 액체 일부는 특수가연물 "가연성 액체류"(2세제곱미터 이상)로 관리됩니다.</text>
+</svg>

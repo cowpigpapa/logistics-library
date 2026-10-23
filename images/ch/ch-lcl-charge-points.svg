@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="412" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56" y="72" font-size="26" font-weight="800" fill="#1d2a3a">한국 수출 LCL: 어디서 무엇을 받나</text>
+<rect x="56" y="94" width="150" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<text x="131.0" y="144" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">송하인</text>
+<rect x="226" y="94" width="320" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<text x="386.0" y="130" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">수출 CFS</text>
+<text x="386.0" y="160" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">반입·계측·적입</text>
+<rect x="566" y="94" width="210" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="671.0" y="130" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">셔틀·드레이지</text>
+<text x="671.0" y="160" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CFS → 터미널</text>
+<rect x="796" y="94" width="320" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<text x="956.0" y="130" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">터미널</text>
+<text x="956.0" y="160" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항만</text>
+<rect x="1136" y="94" width="230" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<text x="1251.0" y="130" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">본선</text>
+<text x="1251.0" y="160" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">선사</text>
+<rect x="1386" y="94" width="236" height="84" rx="12" fill="#fdf0eb" stroke="#e4572e" stroke-width="2"/>
+<text x="1504.0" y="130" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">B/L(건)당</text>
+<text x="1504.0" y="160" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">장소와 무관</text>
+<line x1="208" y1="136" x2="223" y2="136" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="548" y1="136" x2="563" y2="136" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="778" y1="136" x2="793" y2="136" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="1118" y1="136" x2="1133" y2="136" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="1376" y1="88" x2="1376" y2="392" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="226" y="198" width="320" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="226" y="198" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="246" y="228" font-size="20" font-weight="800" fill="#1d2a3a">CFS 작업료</text>
+<text x="246" y="256" font-size="19" font-weight="600" fill="#1f6fd1">6,500원/WM</text>
+<rect x="226" y="284" width="320" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="226" y="284" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="246" y="314" font-size="20" font-weight="800" fill="#1d2a3a">보관료</text>
+<text x="246" y="342" font-size="19" font-weight="600" fill="#1f6fd1">5일 무료 뒤 1,000원/WM/일</text>
+<rect x="566" y="198" width="210" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="566" y="198" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="586" y="228" font-size="20" font-weight="800" fill="#1d2a3a">드레이지</text>
+<text x="586" y="256" font-size="19" font-weight="600" fill="#1f6fd1">3,500원/WM</text>
+<rect x="796" y="198" width="320" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="796" y="198" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="816" y="228" font-size="20" font-weight="800" fill="#1d2a3a">THC</text>
+<text x="816" y="256" font-size="19" font-weight="600" fill="#1f6fd1">6,500원/WM</text>
+<rect x="796" y="284" width="320" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="796" y="284" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="816" y="314" font-size="20" font-weight="800" fill="#1d2a3a">부두사용료</text>
+<text x="816" y="342" font-size="19" font-weight="600" fill="#1f6fd1">203원/WM</text>
+<rect x="1136" y="198" width="230" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="1136" y="198" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="1156" y="228" font-size="20" font-weight="800" fill="#1d2a3a">해상운임</text>
+<text x="1156" y="256" font-size="19" font-weight="600" fill="#1f6fd1">R/T(W/M) 견적</text>
+<rect x="1386" y="198" width="236" height="72" rx="8" fill="#fdf0eb" stroke="#e4572e" stroke-width="1.5"/>
+<rect x="1386" y="198" width="8" height="72" rx="3" fill="#e4572e"/>
+<text x="1406" y="228" font-size="20" font-weight="800" fill="#1d2a3a">서류비</text>
+<text x="1406" y="256" font-size="19" font-weight="600" fill="#e4572e">50,000원</text>
+<rect x="1386" y="284" width="236" height="72" rx="8" fill="#fdf0eb" stroke="#e4572e" stroke-width="1.5"/>
+<rect x="1386" y="284" width="8" height="72" rx="3" fill="#e4572e"/>
+<text x="1406" y="314" font-size="20" font-weight="800" fill="#1d2a3a">MFF</text>
+<text x="1406" y="342" font-size="19" font-weight="600" fill="#e4572e">USD 30 (사전신고용)</text>
+<text x="56" y="422" font-size="18" font-weight="500" fill="#5f6b78">수출의 CFS 작업료·THC·부두사용료·드레이지는 최소 1 WM. 수입 항목에는 이 표시가 없음.</text>
+<rect x="30" y="462" width="1612" height="412" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56" y="504" font-size="26" font-weight="800" fill="#1d2a3a">한국 수입 LCL: 어디서 무엇을 받나</text>
+<rect x="56" y="526" width="230" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<text x="171.0" y="562" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">본선</text>
+<text x="171.0" y="592" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">선사</text>
+<rect x="306" y="526" width="320" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<text x="466.0" y="562" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">터미널</text>
+<text x="466.0" y="592" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">부산·인천</text>
+<rect x="646" y="526" width="210" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="751.0" y="562" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">셔틀·드레이지</text>
+<text x="751.0" y="592" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">터미널 → CFS</text>
+<rect x="876" y="526" width="320" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<text x="1036.0" y="562" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">수입 CFS</text>
+<text x="1036.0" y="592" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">적출·분류</text>
+<rect x="1216" y="526" width="150" height="84" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<text x="1291.0" y="576" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">수하인</text>
+<rect x="1386" y="526" width="236" height="84" rx="12" fill="#fdf0eb" stroke="#e4572e" stroke-width="2"/>
+<text x="1504.0" y="562" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">B/L(건)당</text>
+<text x="1504.0" y="592" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">장소와 무관</text>
+<line x1="288" y1="568" x2="303" y2="568" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="628" y1="568" x2="643" y2="568" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="858" y1="568" x2="873" y2="568" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="1198" y1="568" x2="1213" y2="568" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="1376" y1="520" x2="1376" y2="824" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="56" y="630" width="230" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="56" y="630" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="76" y="660" font-size="20" font-weight="800" fill="#1d2a3a">해상운임</text>
+<text x="76" y="688" font-size="19" font-weight="600" fill="#1f6fd1">착불이면 도착지 청구</text>
+<rect x="306" y="630" width="320" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="306" y="630" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="326" y="660" font-size="20" font-weight="800" fill="#1d2a3a">THC</text>
+<text x="326" y="688" font-size="19" font-weight="600" fill="#1f6fd1">15,000원/WM</text>
+<rect x="306" y="716" width="320" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="306" y="716" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="326" y="746" font-size="20" font-weight="800" fill="#1d2a3a">부두사용료</text>
+<text x="326" y="774" font-size="19" font-weight="600" fill="#1f6fd1">341원/WM</text>
+<rect x="646" y="630" width="210" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="646" y="630" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="666" y="660" font-size="20" font-weight="800" fill="#1d2a3a">드레이지</text>
+<text x="666" y="688" font-size="19" font-weight="600" fill="#1f6fd1">8,000원/WM</text>
+<rect x="876" y="630" width="320" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="876" y="630" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="896" y="660" font-size="20" font-weight="800" fill="#1d2a3a">CFS 작업료</text>
+<text x="896" y="688" font-size="19" font-weight="600" fill="#1f6fd1">12,000원/WM</text>
+<rect x="876" y="716" width="320" height="72" rx="8" fill="#eef4fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<rect x="876" y="716" width="8" height="72" rx="3" fill="#1f6fd1"/>
+<text x="896" y="746" font-size="20" font-weight="800" fill="#1d2a3a">보관료</text>
+<text x="896" y="774" font-size="19" font-weight="600" fill="#1f6fd1">CFS 실비 전가, 무료 0일</text>
+<rect x="1386" y="630" width="236" height="72" rx="8" fill="#fdf0eb" stroke="#e4572e" stroke-width="1.5"/>
+<rect x="1386" y="630" width="8" height="72" rx="3" fill="#e4572e"/>
+<text x="1406" y="660" font-size="20" font-weight="800" fill="#1d2a3a">서류비</text>
+<text x="1406" y="688" font-size="19" font-weight="600" fill="#e4572e">50,000원</text>
+<rect x="1386" y="716" width="236" height="72" rx="8" fill="#fdf0eb" stroke="#e4572e" stroke-width="1.5"/>
+<rect x="1386" y="716" width="8" height="72" rx="3" fill="#e4572e"/>
+<text x="1406" y="746" font-size="20" font-weight="800" fill="#1d2a3a">핸들링 비용</text>
+<text x="1406" y="774" font-size="19" font-weight="600" fill="#e4572e">60,000원</text>
+<text x="56" y="854" font-size="18" font-weight="500" fill="#5f6b78">B/L당 항목은 부가세 10% 별도. 포워더 House D/O 비용과 취급 수수료는 회사마다 따로 정함.</text>
+<rect x="1180" y="48" width="22" height="22" rx="4" fill="#1f6fd1"/><text x="1210" y="67" font-size="19" font-weight="700" fill="#1d2a3a">R/T(W/M)당</text>
+<rect x="1350" y="48" width="22" height="22" rx="4" fill="#e4572e"/><text x="1380" y="67" font-size="19" font-weight="700" fill="#1d2a3a">B/L(건)당</text>
+<text x="56" y="910" font-size="18" font-weight="600" fill="#5f6b78">금액: Maersk LCL 한국 요율(2024. 6. 15. 시행) 예. 현재도 같은지는 확인되지 않았고, 콘솔사·CFS마다 금액과 최소 단위가 다릅니다.</text>
+</svg>

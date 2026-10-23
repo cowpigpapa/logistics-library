@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">직접운송의무와 다단계 위탁 제한: 허용되는 길과 막힌 길 (5절)</text>
+<rect x="40" y="330" width="220" height="110" fill="#eef1f5" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="150.0" y="392.475" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주</text>
+<rect x="330" y="330" width="260" height="110" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="460.0" y="366.875" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="middle">포워더</text>
+<text x="460.0" y="396.97499999999997" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">국제물류주선업자 ·</text>
+<text x="460.0" y="418.575" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">운송주선사업자</text>
+<rect x="680" y="330" width="280" height="110" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="820.0" y="366.875" font-size="23" font-weight="800" fill="#1f8a5b" text-anchor="middle">일반 운송사업자</text>
+<text x="820.0" y="396.97499999999997" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">연간 50% 이상 소속 차량으로 직접</text>
+<text x="820.0" y="418.575" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">운송</text>
+<line x1="260" y1="385" x2="324" y2="385" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="590" y1="385" x2="674" y2="385" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="1060" y="120" width="560" height="120" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1340.0" y="161.225" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">① 소속 차량으로 직접 운송</text>
+<text x="1340.0" y="190.725" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">1년 이상 계약·연 96회 이상인 다른 운송사업자 차량, 인증 화물정보망</text>
+<text x="1340.0" y="212.325" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">위탁은 기준 범위에서 직접운송으로 인정</text>
+<rect x="1060" y="290" width="560" height="100" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1340.0" y="346.825" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">② 나머지는 다른 운송사업자에게만 위탁</text>
+<rect x="1060" y="420" width="560" height="100" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1340.0" y="462.025" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">③ 또는 그 소속 위·수탁차주에게만 위탁</text>
+<text x="1340.0" y="491.525" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">1.5톤 이상 차량이면 화물위탁증 발급</text>
+<path d="M960 370 L1010 370 L1010 180 L1054 180" stroke="#1f8a5b" stroke-width="3" fill="none" marker-end="url(#m1f8a5b)" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M960 385 L1054 340" stroke="#1f8a5b" stroke-width="3" fill="none" marker-end="url(#m1f8a5b)" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M960 400 L1010 400 L1010 470 L1054 470" stroke="#1f8a5b" stroke-width="3" fill="none" marker-end="url(#m1f8a5b)" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1060" y="560" width="560" height="90" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="1340.0" y="596.7" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">위탁받은 운송사업자의 재위탁 ✕</text>
+<text x="1340.0" y="625.9000000000001" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">받은 물량은 소속 차량으로 직접 운송(제11조의2 제3항)</text>
+<line x1="1340" y1="520" x2="1340" y2="554" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="330" y="520" width="630" height="380" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="16"/>
+<text x="356" y="560" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">포워더(운송주선사업자)에게 막힌 길</text>
+<circle cx="372" cy="602" r="13" fill="#d9482b"/>
+<text x="372" y="609" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">✕</text>
+<text x="396" y="608" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">계약금액 일부를 떼고 다른 운송주선사업자와 재계약</text>
+<text x="396" y="640" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">제26조 제1항</text>
+<circle cx="372" cy="686" r="13" fill="#d9482b"/>
+<text x="372" y="693" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">✕</text>
+<text x="396" y="692" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">수수료를 받고 다른 운송주선사업자에게 중개·대리 의뢰</text>
+<text x="396" y="724" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">제26조 제2항</text>
+<circle cx="372" cy="770" r="13" fill="#d9482b"/>
+<text x="372" y="777" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">✕</text>
+<text x="396" y="776" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">자가용 화물자동차의 소유자·사용자에게 주선</text>
+<text x="396" y="808" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">시행규칙 제38조의3</text>
+<text x="356" y="862" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">예외: 위·수탁차주나 개인 운송사업자에게 직접 위탁하려고 다른 주선사에 중개·대리를</text>
+<text x="356" y="883" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">의뢰하는 것, 운송가맹사업자에게 주선하는 것</text>
+<path d="M460 440 L460 514" stroke="#d9482b" stroke-width="3" fill="none" marker-end="url(#md9482b)" stroke-dasharray="8 6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="40" y="120" width="900" height="160" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="14"/>
+<text x="64" y="160" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">왜 단계를 줄이나</text>
+<text x="64" y="196" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">여러 단계를 거치면 실제로 누가 운전하는지 알기 어렵고 운임도 깎입니다. 위반하면 운송사업자는 사업</text>
+<text x="64" y="223" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">전부정지·감차·허가취소, 운송주선사업자는 사업정지·허가취소 대상입니다.</text>
+<rect x="1060" y="690" width="560" height="210" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2" rx="14"/>
+<text x="1084" y="730" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">포워더가 받아 둘 것</text>
+<text x="1084" y="766" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 재위탁 여부 확인서 또는 직접운송 조항</text>
+<text x="1084" y="796" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 위탁한다면 상대가 운송사업자나</text>
+<text x="1084" y="826" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">  그 소속 위·수탁차주인지</text>
+<text x="1084" y="856" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 화물위탁증 사본(위탁한 경우)</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">크로스가 났을 때: 먼저 다섯 가지, 그다음 화물 위치에 따라 (9절, 한국 세관 기준)</text>
+<polygon points="40,96 326,96 348,136 326,176 40,176" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="80" y="128" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">멈춘다</text>
+<text x="80" y="158" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">관련 B/L 모두 출고·배송 정지</text>
+<polygon points="358,96 644,96 666,136 644,176 358,176 380,136" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="398" y="128" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">남긴다</text>
+<text x="398" y="158" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">현품 위치·화인·라벨·개수 사진</text>
+<polygon points="676,96 962,96 984,136 962,176 676,176 698,136" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="716" y="128" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">맞춘다</text>
+<text x="716" y="158" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">섞였을 수 있는 B/L 모두 수량 대조</text>
+<polygon points="994,96 1280,96 1302,136 1280,176 994,176 1016,136" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1034" y="128" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">알린다</text>
+<text x="1034" y="158" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">두 화주, CFS, 운송사에 서면</text>
+<polygon points="1312,96 1598,96 1620,136 1598,176 1312,176 1334,136" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1352" y="128" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">정한다</text>
+<text x="1352" y="158" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">화주가 원하는 처리와 반송 계획</text>
+<line x1="60" y1="236" x2="1612" y2="236" stroke="#1d2a3a" stroke-width="3"/>
+<circle cx="230.0" cy="236" r="14" fill="#1f6fd1"/>
+<rect x="40" y="268" width="380" height="420" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="41.5" y="269.5" width="377" height="76" fill="#eaf2fc" rx="13"/>
+<text x="60" y="300" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">아직 운송 중 (도착 전)</text>
+<text x="60" y="386" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">할 일</text>
+<text x="60" y="416" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">운송인에게 오선적을 알리고 반송 운송</text>
+<text x="60" y="443" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">요청. 수하인에게 수입신고하지 말라고</text>
+<text x="60" y="470" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">알림</text>
+<text x="60" y="523" font-size="16" font-weight="800" fill="#5f6b78" text-anchor="start">근거·주의</text>
+<text x="60" y="553" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">출항한 화물의 적재화물목록이 다르면 출항지</text>
+<text x="60" y="578" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">세관에 정정신청</text>
+<circle cx="634.0" cy="236" r="14" fill="#1f8a5b"/>
+<rect x="444" y="268" width="380" height="420" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<rect x="445.5" y="269.5" width="377" height="76" fill="#e8f5ee" rx="13"/>
+<text x="464" y="300" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">도착, 수입신고 전</text>
+<text x="464" y="386" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">할 일</text>
+<text x="464" y="416" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">수입신고를 하지 않고 멈춤. 돌려보낼</text>
+<text x="464" y="443" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">화물은 반송신고</text>
+<text x="464" y="496" font-size="16" font-weight="800" fill="#5f6b78" text-anchor="start">근거·주의</text>
+<text x="464" y="526" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">잘못 반입된 물품은 단순반송물품.</text>
+<text x="464" y="551" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">반입일부터 30일 안에 수입 또는 반송신고</text>
+<circle cx="1038.0" cy="236" r="14" fill="#c98a12"/>
+<rect x="848" y="268" width="380" height="420" fill="#ffffff" stroke="#c98a12" stroke-width="2.5" rx="14"/>
+<rect x="849.5" y="269.5" width="377" height="76" fill="#fbf3e2" rx="13"/>
+<text x="868" y="300" font-size="21" font-weight="800" fill="#c98a12" text-anchor="start">수입신고 뒤, 보세구역 반출 전</text>
+<text x="868" y="386" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">할 일</text>
+<text x="868" y="416" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">관세사를 통해 수입신고 취하 승인 신청 →</text>
+<text x="868" y="443" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">승인되면 반송신고</text>
+<text x="868" y="496" font-size="16" font-weight="800" fill="#5f6b78" text-anchor="start">근거·주의</text>
+<text x="868" y="526" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">오송물품 반송은 취하 승인 사유. 세관장은</text>
+<text x="868" y="551" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">접수일부터 10일 안에 통지</text>
+<circle cx="1442.0" cy="236" r="14" fill="#d9482b"/>
+<rect x="1252" y="268" width="380" height="420" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="14"/>
+<rect x="1253.5" y="269.5" width="377" height="76" fill="#fdeee9" rx="13"/>
+<text x="1272" y="300" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">수리 후 반출·배송까지 끝남</text>
+<text x="1272" y="386" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">할 일</text>
+<text x="1272" y="416" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">수입자·관세사를 통해 회수하고</text>
+<text x="1272" y="443" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">수출신고로 내보냄</text>
+<text x="1272" y="496" font-size="16" font-weight="800" fill="#5f6b78" text-anchor="start">근거·주의</text>
+<text x="1272" y="526" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">반출 뒤에는 수입신고 취하 불가. 계약 상이</text>
+<text x="1272" y="551" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">물품 환급은 수리일부터 1년 안 재수출 등</text>
+<text x="1272" y="576" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">요건 확인</text>
+<text x="1380" y="214" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="end">화물이 나아간 단계 →</text>
+<rect x="40" y="716" width="1592" height="184" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="14"/>
+<text x="70" y="756" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">반송신고</text>
+<text x="70" y="792" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">화물이 장치 장소에 있을 때만, 수하인이나 화주(관세사 명의 가능)가 B/L 단위로 합니다. 수입신고를 한 화물은 '취하 승인 뒤 반송신고' 순서.</text>
+<text x="70" y="824" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">한 포워더의 준비 서류: 경위를 시간 순서로 적은 반송 사유서, 처음 B/L·AWB와 인보이스·패킹리스트, 반송용 새 인보이스·패킹리스트</text>
+<text x="70" y="856" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">외국에 있는 화물은 그 나라 절차를 따르므로 현지 파트너·통관업체가 정합니다.</text>
+</svg>

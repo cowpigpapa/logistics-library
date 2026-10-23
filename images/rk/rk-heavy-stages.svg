@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">대형화물 단계별 점검: 포워더는 요청하고, 받고, 맞춰 본다 (5절)</text>
+<polygon points="40,96 400,96 424,130 400,164 40,164" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="64" y="140" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start">선적지 계획</text>
+<rect x="40" y="184" width="364" height="400" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="64" cy="219" r="5" fill="#1f6fd1"/>
+<text x="80" y="226" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">패킹리스트로 제원·무게중심 파악</text>
+<circle cx="64" cy="261" r="5" fill="#1f6fd1"/>
+<text x="80" y="268" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">출발국 도로 한도 비교, 허가 필요 여부</text>
+<circle cx="64" cy="303" r="5" fill="#1f6fd1"/>
+<text x="80" y="310" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">로드 서베이 보고서 수령</text>
+<circle cx="64" cy="345" r="5" fill="#1f6fd1"/>
+<text x="80" y="352" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">허가·비용 분담 합의</text>
+<circle cx="64" cy="387" r="5" fill="#1f6fd1"/>
+<text x="80" y="394" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">적하보험 담보 구간 확인</text>
+<polygon points="444,96 804,96 828,130 804,164 444,164" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="468" y="140" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="start">선적</text>
+<rect x="444" y="184" width="364" height="400" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="468" cy="219" r="5" fill="#1f8a5b"/>
+<text x="484" y="226" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">포장 협의, 출하 사진 수령</text>
+<circle cx="468" cy="261" r="5" fill="#1f8a5b"/>
+<text x="484" y="268" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">리프팅 포인트 표기</text>
+<circle cx="468" cy="303" r="5" fill="#1f8a5b"/>
+<text x="484" y="310" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">선사 선복·장비 확보</text>
+<circle cx="468" cy="345" r="5" fill="#1f8a5b"/>
+<text x="484" y="352" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">저상·무진동 차량 수배</text>
+<circle cx="468" cy="387" r="5" fill="#1f8a5b"/>
+<text x="484" y="394" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">CFS 고박·쇼어링, 최종 제원 갱신</text>
+<circle cx="468" cy="429" r="5" fill="#1f8a5b"/>
+<text x="484" y="436" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">도착지에 Pre-Alert</text>
+<polygon points="848,96 1208,96 1232,130 1208,164 848,164" fill="#fbf3e2" stroke="#c98a12" stroke-width="2.5"/>
+<text x="872" y="140" font-size="24" font-weight="800" fill="#c98a12" text-anchor="start">운송 중</text>
+<rect x="848" y="184" width="364" height="400" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="872" cy="219" r="5" fill="#c98a12"/>
+<text x="888" y="226" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">최초 ETA 관리</text>
+<circle cx="872" cy="261" r="5" fill="#c98a12"/>
+<text x="888" y="268" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">도착 7일 전부터 갱신 ETA 확인</text>
+<circle cx="872" cy="303" r="5" fill="#c98a12"/>
+<text x="888" y="310" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">변동을 화주·도착지에 공유</text>
+<polygon points="1252,96 1612,96 1636,130 1612,164 1252,164" fill="#fdeee8" stroke="#e4572e" stroke-width="2.5"/>
+<text x="1276" y="140" font-size="24" font-weight="800" fill="#e4572e" text-anchor="start">도착지</text>
+<rect x="1252" y="184" width="364" height="400" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="1276" cy="219" r="5" fill="#e4572e"/>
+<text x="1292" y="226" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">하역 장비·슬링 사전 검토</text>
+<circle cx="1276" cy="261" r="5" fill="#e4572e"/>
+<text x="1292" y="268" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">통관 서류 일체 확보</text>
+<circle cx="1276" cy="303" r="5" fill="#e4572e"/>
+<text x="1292" y="310" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">최종 배송 경로 서베이·허가·호송</text>
+<circle cx="1276" cy="345" r="5" fill="#e4572e"/>
+<text x="1292" y="352" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">현지 운송사 선정, 보험·보상 조항</text>
+<circle cx="1276" cy="387" r="5" fill="#e4572e"/>
+<text x="1292" y="394" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">하역 때 포장·고박 이상 확인</text>
+<rect x="40" y="616" width="1592" height="284" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="16"/>
+<text x="70" y="660" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">사진 한 줄: 손상이 어느 구간에서 생겼는지 가리는 근거</text>
+<rect x="80" y="690" width="330" height="150" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="104" y="724" width="54" height="38" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="6"/>
+<rect x="118" y="716" width="22" height="10" fill="#1f6fd1" rx="2"/>
+<circle cx="131" cy="743" r="11" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="176" y="740" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">출하 사진</text>
+<text x="104" y="816" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">송하인</text>
+<line x1="416" y1="765" x2="470" y2="765" stroke="#1f6fd1" stroke-width="3" marker-end="url(#m1f6fd1)"/>
+<rect x="476" y="690" width="330" height="150" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="500" y="724" width="54" height="38" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="6"/>
+<rect x="514" y="716" width="22" height="10" fill="#1f6fd1" rx="2"/>
+<circle cx="527" cy="743" r="11" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="572" y="740" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">CFS 작업 완료</text>
+<text x="572" y="766" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">사진·점검표</text>
+<text x="500" y="816" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">CFS·창고 작업자</text>
+<line x1="812" y1="765" x2="866" y2="765" stroke="#1f6fd1" stroke-width="3" marker-end="url(#m1f6fd1)"/>
+<rect x="872" y="690" width="330" height="150" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="896" y="724" width="54" height="38" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="6"/>
+<rect x="910" y="716" width="22" height="10" fill="#1f6fd1" rx="2"/>
+<circle cx="923" cy="743" r="11" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="968" y="740" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">CY 출발 전 4면 사진</text>
+<text x="896" y="816" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">운송사</text>
+<line x1="1208" y1="765" x2="1262" y2="765" stroke="#1f6fd1" stroke-width="3" marker-end="url(#m1f6fd1)"/>
+<rect x="1268" y="690" width="330" height="150" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="1292" y="724" width="54" height="38" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="6"/>
+<rect x="1306" y="716" width="22" height="10" fill="#1f6fd1" rx="2"/>
+<circle cx="1319" cy="743" r="11" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="1364" y="740" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">최종 도착 후 사진</text>
+<text x="1292" y="816" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">운송사 → 포워더 대조</text>
+<text x="80" y="878" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">출하 → CFS → CY → 도착 사진이 이어져 있어야 보험 클레임과 운송사 구상이 가능합니다.</text>
+</svg>

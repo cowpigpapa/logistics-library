@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+  <marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+  <marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+
+<!-- Lane 1 -->
+<rect x="30" y="30" width="1220" height="250" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="26" font-weight="800" fill="#1d2a3a">① 세관신고 권리의 침해 의심 통보 → 권리자 요청</text>
+<rect x="54" y="100" width="330" height="158" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="219" y="146" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">권리자가 권리를</text>
+<text x="219" y="178" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">세관에 미리 신고</text>
+<text x="219" y="222" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">협회 접수 · 유효기간 10년</text>
+<line x1="390" y1="179" x2="466" y2="179" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<rect x="475" y="100" width="330" height="158" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="640" y="146" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">세관이 의심 화물 발견</text>
+<text x="640" y="182" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="middle">권리자와 수출입자등에</text>
+<text x="640" y="212" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="middle">신고 사실 통보</text>
+<line x1="811" y1="179" x2="887" y2="179" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<rect x="896" y="100" width="330" height="158" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="1061" y="142" font-size="23" font-weight="800" fill="#d9482b" text-anchor="middle">7일 안 (긴급 물품 5일)</text>
+<text x="1061" y="186" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="middle">권리자: 요청서·감정서·담보</text>
+<text x="1061" y="222" font-size="20" font-weight="600" fill="#1f6fd1" text-anchor="middle">수출입자등: 비침해 소명</text>
+
+<!-- Lane 2 -->
+<rect x="30" y="300" width="1220" height="250" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="344" font-size="26" font-weight="800" fill="#1d2a3a">② 들어올 화물에 대한 사전 보류 요청</text>
+<rect x="54" y="370" width="330" height="158" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="219" y="420" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">권리자가 침해 의심</text>
+<text x="219" y="452" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">화물이 들어온다는</text>
+<text x="219" y="484" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">정보를 가짐</text>
+<line x1="390" y1="449" x2="466" y2="449" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<rect x="475" y="370" width="330" height="158" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="640" y="410" font-size="23" font-weight="800" fill="#d9482b" text-anchor="middle">예정일 20일 전부터</text>
+<text x="640" y="448" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="middle">요청서·증빙·담보를</text>
+<text x="640" y="478" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="middle">예정지 세관에 제출</text>
+<text x="640" y="512" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">수입·수출·환적별 예정일 기준</text>
+<line x1="811" y1="449" x2="887" y2="449" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<rect x="896" y="370" width="330" height="158" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1061" y="420" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">세관이 타당하다고 보면</text>
+<text x="1061" y="452" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">정보시스템에 등록해</text>
+<text x="1061" y="484" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">검사에 활용</text>
+
+<!-- Lane 3 -->
+<rect x="30" y="570" width="1220" height="250" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="614" font-size="26" font-weight="800" fill="#1d2a3a">③ 침해가 명백하면 세관 직권 보류</text>
+<rect x="54" y="640" width="330" height="158" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="219" y="676" font-size="23" font-weight="800" fill="#d9482b" text-anchor="middle">침해가 명백</text>
+<text x="219" y="710" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">확정판결 · 위원회 감정·판정</text>
+<text x="219" y="740" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">수출입자등의 침해 인정 서류</text>
+<text x="219" y="770" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">물품 성질·포장·원산지 등 종합</text>
+<line x1="390" y1="719" x2="466" y2="719" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<rect x="475" y="640" width="330" height="158" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="640" y="710" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">세관장이 인정하면</text>
+<text x="640" y="742" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">직권으로 보류</text>
+<line x1="811" y1="719" x2="887" y2="719" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<rect x="896" y="640" width="330" height="158" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1061" y="710" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">즉시 통보</text>
+<text x="1061" y="742" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">조사의뢰</text>
+
+<!-- arrows into result -->
+<line x1="1226" y1="179" x2="1284" y2="179" stroke="#d9482b" stroke-width="5" marker-end="url(#a-red)"/>
+<line x1="1226" y1="449" x2="1284" y2="449" stroke="#d9482b" stroke-width="5" marker-end="url(#a-red)"/>
+<line x1="1226" y1="719" x2="1284" y2="719" stroke="#d9482b" stroke-width="5" marker-end="url(#a-red)"/>
+
+<!-- Result -->
+<rect x="1292" y="30" width="350" height="790" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="16"/>
+<text x="1467" y="84" font-size="30" font-weight="800" fill="#d9482b" text-anchor="middle">통관보류</text>
+<text x="1467" y="120" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">세관 지정 장소에 보관</text>
+<line x1="1320" y1="146" x2="1614" y2="146" stroke="#e8c4b9" stroke-width="2"/>
+<text x="1316" y="190" font-size="21" font-weight="800" fill="#1d2a3a">보류를 이어 가려면</text>
+<text x="1316" y="226" font-size="20" font-weight="500" fill="#1d2a3a">권리자가 보류 통보 후</text>
+<text x="1316" y="258" font-size="22" font-weight="800" fill="#d9482b">10일 안에</text>
+<text x="1316" y="290" font-size="20" font-weight="500" fill="#1d2a3a">법원 제소 또는</text>
+<text x="1316" y="320" font-size="20" font-weight="500" fill="#1d2a3a">무역위원회 조사신청 입증</text>
+<text x="1316" y="352" font-size="18" font-weight="600" fill="#5f6b78">공휴일 등 제외, 10일 연장 가능</text>
+<line x1="1320" y1="384" x2="1614" y2="384" stroke="#e8c4b9" stroke-width="2"/>
+<text x="1316" y="428" font-size="21" font-weight="800" fill="#1f6fd1">수입자는</text>
+<text x="1316" y="462" font-size="20" font-weight="500" fill="#1d2a3a">담보를 내고 해제 요청</text>
+<text x="1316" y="494" font-size="20" font-weight="500" fill="#1d2a3a">세관은 15일 안에 결정</text>
+<text x="1316" y="530" font-size="18" font-weight="600" fill="#5f6b78">위조상표 부착 물품처럼</text>
+<text x="1316" y="558" font-size="18" font-weight="600" fill="#5f6b78">명백한 침해물품은 해제 불가</text>
+<line x1="1320" y1="590" x2="1614" y2="590" stroke="#e8c4b9" stroke-width="2"/>
+<text x="1316" y="634" font-size="21" font-weight="800" fill="#1d2a3a">확인 중이거나</text>
+<text x="1316" y="666" font-size="21" font-weight="800" fill="#1d2a3a">침해물품이면</text>
+<text x="1316" y="700" font-size="20" font-weight="500" fill="#1d2a3a">반송·신고취하도 막힘</text>
+<text x="1316" y="750" font-size="18" font-weight="600" fill="#5f6b78">기한 상세는 3절 기한표</text>
+
+<!-- note -->
+<text x="40" y="872" font-size="20" font-weight="700" fill="#1d2a3a">소량화물 간이절차</text>
+<text x="230" y="872" font-size="20" font-weight="500" fill="#5f6b78">특송 미화 2,000달러·우편 1,000달러 이하 등의 상표권 침해 의심: 통보 후 10일 안 상표권자·수입자 각각 입증, 세관은 접수일부터 10일 안 결정, 담보 생략</text>
+<text x="40" y="908" font-size="18" font-weight="500" fill="#5f6b78">대상 단계: 수출입신고 · 환적·복합환적 신고 · 보세구역 반입신고 · 보세운송신고 · 일시양륙 신고 · 통관우체국 도착 물품 (관세법 제235조 제3항)</text>
+</svg>

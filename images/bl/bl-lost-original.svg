@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">원본 B/L을 잃어버렸을 때: 법원 절차와 실무</text>
+<rect x="56" y="130" width="238" height="200" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="72" y="167" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">원본 분실</text>
+<text x="72" y="200" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">최종 소지인</text>
+<line x1="296" y1="230" x2="316" y2="230" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="318" y="130" width="238" height="200" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="334" y="167" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">공시최고 신청</text>
+<text x="334" y="200" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">증권에 적힌 이행지의</text>
+<text x="334" y="225" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">지방법원</text>
+<text x="334" y="250" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">(민사소송법</text>
+<text x="334" y="275" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">제492·493·476조)</text>
+<line x1="558" y1="230" x2="578" y2="230" stroke="#1f6fd1" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="580" y="130" width="238" height="200" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="596" y="167" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">공고</text>
+<text x="596" y="200" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">법원이 공고</text>
+<line x1="820" y1="230" x2="840" y2="230" stroke="#1f6fd1" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="842" y="130" width="238" height="200" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="858" y="167" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">공시최고 기간</text>
+<text x="858" y="200" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">공고가 끝난 날부터</text>
+<text x="858" y="225" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">3개월 뒤 이후로 정함</text>
+<text x="858" y="250" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">(제481조)</text>
+<line x1="1082" y1="230" x2="1102" y2="230" stroke="#1f6fd1" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="1104" y="130" width="238" height="200" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="1120" y="167" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">제권판결</text>
+<text x="1120" y="200" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">증권 무효 선고</text>
+<text x="1120" y="225" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">(제496조)</text>
+<line x1="1344" y1="230" x2="1364" y2="230" stroke="#1f6fd1" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="1366" y="130" width="238" height="200" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1382" y="167" font-size="23" font-weight="800" fill="#1f8a5b" text-anchor="start">권리 행사</text>
+<text x="1382" y="200" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">증권 없이 권리 행사</text>
+<text x="1382" y="225" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">(제497조)</text>
+<line x1="580" y1="364" x2="1080" y2="364" stroke="#d9482b" stroke-width="3" marker-end="url(#a-red)" marker-start="url(#a-red)"/>
+<text x="830.0" y="396" font-size="19" font-weight="700" fill="#d9482b" text-anchor="middle">공고가 끝난 날부터 3개월 뒤 이후 → 그동안 화물을 묶어 둘 수 없음</text>
+<rect x="56" y="450" width="1560" height="220" fill="#fdf4dc" stroke="#c99a2e" stroke-width="2" rx="14"/>
+<text x="84" y="496" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">실무: 공시최고와 함께 진행하는 인도</text>
+<text x="84" y="542" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">은행 보증을 붙인 보증서를 받고 화물을 인도하면서 공시최고를 함께 진행하는 경우가 많음</text>
+<text x="84" y="578" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">민법 제522조: 공시최고 신청 뒤에는 채무자(운송인)에게 목적물을 공탁하게 하거나,</text>
+<text x="84" y="614" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">소지인이 상당한 담보를 제공하고 이행받을 수 있음</text>
+<rect x="56" y="700" width="760" height="180" fill="#f5f9fe" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="72" y="737" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">3통 중 1통만 잃었다면</text>
+<text x="72" y="770" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">나머지 원본으로 양륙항 인도 가능(상법 제857조)</text>
+<text x="72" y="798" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">잃은 1통이 다른 사람 손에 들어갈 위험 때문에</text>
+<text x="72" y="826" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">운송인은 보증을 요구하는 것이 보통</text>
+<rect x="856" y="700" width="760" height="180" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="872" y="737" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">근거</text>
+<text x="872" y="770" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">B/L은 상법 제65조로 민법 지시채권 규정을 적용받는</text>
+<text x="872" y="798" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">유가증권 → 잃은 증권은 공시최고로 무효로 할 수 있음</text>
+<text x="872" y="826" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">(민법 제521조)</text>
+</svg>

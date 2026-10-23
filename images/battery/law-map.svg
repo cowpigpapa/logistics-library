@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="62.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">화물 상태별로 적용되는 법</text>
+<text x="40.0" y="98.0" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">두 규정은 각각 따로 적용되고, 위험물 운송 규칙은 어느 경우든 별개로 적용됩니다.</text>
+<rect x="410.0" y="124.0" width="490.0" height="696.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="410.0" y="124.0" width="490.0" height="92.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="16"/>
+<text x="428.0" y="160.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">배터리 규정 (EU) 2023/1542</text>
+<text x="428.0" y="198.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">배터리라는 물건의 전 생애주기</text>
+<rect x="920.0" y="124.0" width="490.0" height="696.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="920.0" y="124.0" width="490.0" height="92.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="16"/>
+<text x="938.0" y="160.0" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">폐기물운송규정 (EU) 2024/1157</text>
+<text x="938.0" y="198.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">폐기물의 국경 간 이동</text>
+<rect x="1430.0" y="124.0" width="202.0" height="696.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="1430.0" y="124.0" width="202.0" height="92.0" fill="#eef1f4" stroke="#5f6b78" stroke-width="2" rx="16"/>
+<text x="1448.0" y="160.0" font-size="20" font-weight="800" fill="#5f6b78" text-anchor="start">위험물 운송 규칙</text>
+<text x="1448.0" y="200.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">ADR·RID·IMDG·IATA</text>
+<rect x="40.0" y="236.0" width="350.0" height="176.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="64.0" y="310.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">신품 배터리</text>
+<text x="64.0" y="346.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">배터리가 든 제품 포함</text>
+<rect x="40.0" y="430.0" width="350.0" height="176.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="64.0" y="504.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">중고 배터리</text>
+<text x="64.0" y="540.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">재사용 목적</text>
+<rect x="40.0" y="624.0" width="350.0" height="176.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="64.0" y="698.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">폐배터리</text>
+<text x="64.0" y="734.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">블랙매스 등 그 분획 포함</text>
+<rect x="430.0" y="254.0" width="450.0" height="140.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="446.0" y="303.0" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">적용</text>
+<text x="446.0" y="335.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">라벨·CE 표시·수입자 의무를 확인</text>
+<text x="446.0" y="362.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(제1장 범위, 제3장 라벨, 제6장 경제운영자)</text>
+<rect x="940.0" y="254.0" width="450.0" height="140.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="12"/>
+<text x="956.0" y="303.0" font-size="22" font-weight="800" fill="#5f6b78" text-anchor="start">적용되지 않음</text>
+<text x="956.0" y="335.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">폐기물이 아니므로 통지·동의나 부속서 VII</text>
+<text x="956.0" y="362.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">서류가 없습니다</text>
+<rect x="430.0" y="448.0" width="410.0" height="140.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="446.0" y="497.0" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">증빙을 갖추면 제품</text>
+<text x="446.0" y="529.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">제72조(2)와 부속서 XIV의 증빙(송장·시험</text>
+<text x="446.0" y="556.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">기록·신고서·포장 등)</text>
+<rect x="980.0" y="448.0" width="410.0" height="140.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="996.0" y="497.0" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">갖추지 못하면 폐기물</text>
+<text x="996.0" y="529.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">폐기물로 간주되고 불법 운송으로 추정. 검사</text>
+<text x="996.0" y="556.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">때 증빙 요구(제61조)</text>
+<line x1="842.0" y1="518.0" x2="976.0" y2="518.0" stroke="#d9482b" stroke-width="4" marker-end="url(#ar-d9482b)"/>
+<text x="909.0" y="504.0" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">하나라도</text>
+<text x="909.0" y="550.0" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">없으면</text>
+<rect x="430.0" y="642.0" width="450.0" height="140.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="446.0" y="704.5" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">적용</text>
+<text x="446.0" y="736.6" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">제8장 수거·처리, 제72조 폐배터리 운송</text>
+<rect x="940.0" y="642.0" width="450.0" height="140.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="956.0" y="691.0" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">적용</text>
+<text x="956.0" y="723.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">사전 서면 통지 및 동의(PIC) 또는 부속서 VII</text>
+<text x="956.0" y="750.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">절차, EU 밖 수출 제한</text>
+<rect x="1446.0" y="254.0" width="170.0" height="140.0" fill="#ffffff" stroke="#5f6b78" stroke-width="2" rx="12"/>
+<text x="1462.0" y="305.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">별개 적용</text>
+<text x="1462.0" y="334.6" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">분류·포장·</text>
+<text x="1462.0" y="358.6" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">표시·서류</text>
+<rect x="1446.0" y="448.0" width="170.0" height="140.0" fill="#ffffff" stroke="#5f6b78" stroke-width="2" rx="12"/>
+<text x="1462.0" y="499.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">별개 적용</text>
+<text x="1462.0" y="528.6" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">분류·포장·</text>
+<text x="1462.0" y="552.6" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">표시·서류</text>
+<rect x="1446.0" y="642.0" width="170.0" height="140.0" fill="#ffffff" stroke="#5f6b78" stroke-width="2" rx="12"/>
+<text x="1462.0" y="693.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">별개 적용</text>
+<text x="1462.0" y="722.6" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">분류·포장·</text>
+<text x="1462.0" y="746.6" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">표시·서류</text>
+<rect x="40.0" y="842.0" width="1592.0" height="66.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="14"/>
+<text x="64.0" y="884.0" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">두 규정이 서로를 가리키는 조문</text>
+<text x="410.0" y="884.0" font-size="21" font-weight="600" fill="#1d2a3a" text-anchor="start">배터리 규정 제72조 · 부속서 XIV   ↔   폐기물운송규정 제29조(중고품과 폐기물) · 제61조(검사)</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+  <marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30.0" y="30.0" width="1612.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56.0" y="80.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">농림축산업용 LMO 국경검사와 불합격 뒤</text>
+<text x="56.0" y="114.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">통합고시 제3-27조~제3-33조, 국경검사 세부실시요령. 수입지 관할 농림축산검역본부 지역본부·사무소</text>
+<rect x="56.0" y="150.0" width="290.0" height="210.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="74.0" y="187.8" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">① 검사 신청</text>
+<text x="74.0" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">UNI-PASS 신청서에</text>
+<text x="74.0" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">수입승인서 번호 입력</text>
+<text x="74.0" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">(확인되면 사본 생략)</text>
+<line x1="348.0" y1="255.0" x2="362.0" y2="255.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="373.5" y="150.0" width="290.0" height="210.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="391.5" y="187.8" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">② 서류검사</text>
+<text x="391.5" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">승인서·신고서·검정</text>
+<text x="391.5" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">증명서 내용 일치 확인</text>
+<text x="391.5" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">비LMO는 검정증명서·</text>
+<text x="391.5" y="306.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">구분유통증명서</text>
+<line x1="665.5" y1="255.0" x2="679.5" y2="255.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="691.0" y="150.0" width="290.0" height="210.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="709.0" y="187.8" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">③ 현장검사</text>
+<text x="709.0" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">표시사항 확인</text>
+<text x="709.0" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">(벌크는 L/C·인보이스)</text>
+<text x="709.0" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">시료 채취</text>
+<line x1="983.0" y1="255.0" x2="997.0" y2="255.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="1008.5" y="150.0" width="290.0" height="210.0" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="1026.5" y="187.8" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">④ 실험실검사</text>
+<text x="1026.5" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">간이속성검정과</text>
+<text x="1026.5" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">PCR로 LMO 포함</text>
+<text x="1026.5" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">여부 정밀 검사</text>
+<line x1="1300.5" y1="255.0" x2="1314.5" y2="255.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="1326.0" y="150.0" width="290.0" height="210.0" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="3" rx="12"/>
+<text x="1344.0" y="187.8" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">⑤ 합격</text>
+<text x="1344.0" y="216.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">수입검사서 교부</text>
+<text x="1344.0" y="246.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">세관장에게 전자문서로</text>
+<text x="1344.0" y="276.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">통보하면 교부 생략</text>
+<rect x="56.0" y="376.0" width="914.0" height="46.0" fill="#e6f4ec" stroke="none" stroke-width="0" rx="10"/>
+<text x="76.0" y="406.0" font-size="16" font-weight="600" fill="#1f8a5b" text-anchor="start">수출국 정부·인정 기관이나 국내 검정기관의 검정증명서가 있으면 검사를 생략할 수 있음(제3-28조제4항)</text>
+<rect x="56.0" y="470.0" width="760.0" height="410.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="80.0" y="510.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">사료용·농업가공용 비의도적 혼입 허용치</text>
+<text x="80.0" y="572.0" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="start">국내 승인 LMO</text>
+<rect x="300.0" y="548.0" width="470.0" height="34.0" fill="#f1f3f5" stroke="#c9d2dc" stroke-width="1.5" rx="6"/>
+<rect x="300.0" y="548.0" width="352.5" height="34.0" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="1" rx="6"/>
+<text x="662.5" y="572.0" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="start">3% 이하</text>
+<text x="80.0" y="634.0" font-size="16" font-weight="800" fill="#6b4fbb" text-anchor="start">수출국에서만 승인된 LMO</text>
+<rect x="300.0" y="610.0" width="470.0" height="34.0" fill="#f1f3f5" stroke="#c9d2dc" stroke-width="1.5" rx="6"/>
+<rect x="300.0" y="610.0" width="58.8" height="34.0" fill="#6b4fbb" stroke="#6b4fbb" stroke-width="1" rx="6"/>
+<text x="368.8" y="634.0" font-size="16" font-weight="800" fill="#6b4fbb" text-anchor="start">0.5% 이하</text>
+<line x1="300.0" y1="666.0" x2="770.0" y2="666.0" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="300.0" y1="666.0" x2="300.0" y2="674.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="300.0" y="694.0" font-size="14" font-weight="700" fill="#1d2a3a" text-anchor="middle">0%</text>
+<line x1="358.8" y1="666.0" x2="358.8" y2="674.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="358.8" y="694.0" font-size="14" font-weight="700" fill="#1d2a3a" text-anchor="middle">0.5%</text>
+<line x1="417.5" y1="666.0" x2="417.5" y2="674.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="417.5" y="694.0" font-size="14" font-weight="700" fill="#1d2a3a" text-anchor="middle">1%</text>
+<line x1="535.0" y1="666.0" x2="535.0" y2="674.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="535.0" y="694.0" font-size="14" font-weight="700" fill="#1d2a3a" text-anchor="middle">2%</text>
+<line x1="652.5" y1="666.0" x2="652.5" y2="674.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="652.5" y="694.0" font-size="14" font-weight="700" fill="#1d2a3a" text-anchor="middle">3%</text>
+<line x1="770.0" y1="666.0" x2="770.0" y2="674.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="770.0" y="694.0" font-size="14" font-weight="700" fill="#1d2a3a" text-anchor="middle">4%</text>
+<text x="80.0" y="740.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 0.5%는 검사방법과 표준물질을 제출한 경우(제3-13조)</text>
+<text x="80.0" y="770.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 승인 LMO가 3%를 넘게 섞였으면 수입승인서를 15일 안에</text>
+<text x="92.0" y="800.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">내면 합격 처리</text>
+<text x="80.0" y="830.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 표시가 없거나 부적정하면 15일 이내 보완 요구</text>
+<rect x="846.0" y="470.0" width="770.0" height="410.0" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="868.0" y="510.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">미승인 LMO가 나오면</text>
+<rect x="868.0" y="540.0" width="726.0" height="56.0" fill="#fff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="888.0" y="576.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">폐기·반송 명령</text>
+<text x="1010.0" y="576.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">명령일부터 30일 이내(부득이하면 30일 범위 연장 요청)</text>
+<line x1="900.0" y1="598.0" x2="900.0" y2="610.0" stroke="#1d2a3a" stroke-width="2" marker-end="url(#m1d2a3a)"/>
+<rect x="868.0" y="612.0" width="726.0" height="56.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="888.0" y="648.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">폐기</text>
+<text x="1010.0" y="648.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">소각 또는 매몰 원칙, 발아·번식능력을 없애는 파쇄·가열로 대체 가능</text>
+<line x1="900.0" y1="670.0" x2="900.0" y2="682.0" stroke="#1d2a3a" stroke-width="2" marker-end="url(#m1d2a3a)"/>
+<rect x="868.0" y="684.0" width="726.0" height="56.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="888.0" y="720.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">반송</text>
+<text x="1010.0" y="720.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">선하증권(B/L) 등 반송 증명 서류로 이행 확인</text>
+<line x1="900.0" y1="742.0" x2="900.0" y2="754.0" stroke="#1d2a3a" stroke-width="2" marker-end="url(#m1d2a3a)"/>
+<rect x="868.0" y="756.0" width="726.0" height="56.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="888.0" y="792.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">불이행</text>
+<text x="1010.0" y="792.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">소유자 부담으로 공무원이 직접 폐기·반송(제23조의2)</text>
+<text x="868.0" y="852.0" font-size="15" font-weight="700" fill="#d9482b" text-anchor="start">명령을 어기고 국내에 유통시키면 5년 이하 징역 또는 7천만원 이하 벌금(제39조)</text>
+</svg>

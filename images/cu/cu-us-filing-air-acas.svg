@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="420" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">인천발 LA행 예시: Trade Act 기한보다 ACAS 기한이 먼저 온다</text>
+<rect x="150" y="128" width="483.0" height="56" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="391.5" y="164" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">ACAS 자료: 비행기에 싣기 전까지</text>
+<rect x="633.0" y="210" width="885.5" height="30" fill="#1f6fd1" rx="6"/>
+<text x="914.75" y="232" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">비행 11시간(예시)</text>
+<line x1="130" y1="272" x2="1610" y2="272" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<line x1="150.0" y1="264" x2="150.0" y2="280" stroke="#1d2a3a" stroke-width="2"/>
+<text x="150.0" y="304" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">15:00</text>
+<text x="150.0" y="330" font-size="18" font-weight="600" fill="#8a96a3" text-anchor="middle">22:00</text>
+<line x1="391.5" y1="264" x2="391.5" y2="280" stroke="#1d2a3a" stroke-width="2"/>
+<text x="391.5" y="304" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">18:00</text>
+<text x="391.5" y="330" font-size="18" font-weight="600" fill="#8a96a3" text-anchor="middle">01:00</text>
+<line x1="633.0" y1="264" x2="633.0" y2="280" stroke="#1d2a3a" stroke-width="2"/>
+<text x="633.0" y="304" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">21:00</text>
+<text x="633.0" y="330" font-size="18" font-weight="600" fill="#8a96a3" text-anchor="middle">04:00</text>
+<line x1="874.5" y1="264" x2="874.5" y2="280" stroke="#1d2a3a" stroke-width="2"/>
+<text x="874.5" y="304" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">00:00</text>
+<text x="874.5" y="330" font-size="18" font-weight="600" fill="#8a96a3" text-anchor="middle">07:00</text>
+<line x1="1116.0" y1="264" x2="1116.0" y2="280" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1116.0" y="304" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">03:00</text>
+<text x="1116.0" y="330" font-size="18" font-weight="600" fill="#8a96a3" text-anchor="middle">10:00</text>
+<line x1="1357.5" y1="264" x2="1357.5" y2="280" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1357.5" y="304" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">06:00</text>
+<text x="1357.5" y="330" font-size="18" font-weight="600" fill="#8a96a3" text-anchor="middle">13:00</text>
+<line x1="1599.0" y1="264" x2="1599.0" y2="280" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1599.0" y="304" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">09:00</text>
+<text x="1599.0" y="330" font-size="18" font-weight="600" fill="#8a96a3" text-anchor="middle">16:00</text>
+<text x="54" y="304" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">KST</text>
+<text x="54" y="330" font-size="18" font-weight="800" fill="#8a96a3" text-anchor="start">PST</text>
+<text x="874.5" y="304" font-size="1" font-weight="400" fill="#1d2a3a" text-anchor="start"></text>
+<text x="156.0" y="258" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">11. 12.</text>
+<text x="880.5" y="258" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">11. 13.(KST)</text>
+<line x1="633.0" y1="118" x2="633.0" y2="272" stroke="#1d2a3a" stroke-width="2" stroke-dasharray="6 5"/>
+<circle cx="633.0" cy="272" r="10" fill="#1d2a3a"/>
+<line x1="1196.5" y1="104" x2="1196.5" y2="272" stroke="#d9482b" stroke-width="3"/>
+<circle cx="1196.5" cy="272" r="10" fill="#d9482b"/>
+<text x="1184.5" y="112" font-size="21" font-weight="800" fill="#d9482b" text-anchor="end">Trade Act 사전정보 기한</text>
+<text x="1184.5" y="138" font-size="19" font-weight="700" fill="#d9482b" text-anchor="end">도착 4시간 전</text>
+<path d="M1196.5 196 v-8 h322.0 v8" fill="none" stroke="#d9482b" stroke-width="3"/>
+<text x="1357.5" y="180" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">4시간</text>
+<circle cx="1518.5" cy="272" r="10" fill="#1f8a5b"/>
+<text x="633.0" y="368" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">인천 출발 21:00 KST</text>
+<text x="1196.5" y="368" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">04:00 KST = 11:00 PST</text>
+<text x="1196.5" y="394" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">이미 출발한 뒤</text>
+<text x="1620" y="368" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="end">LA 도착 15:00 PST</text>
+<text x="1620" y="394" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="end">(11. 13. 08:00 KST)</text>
+<text x="54" y="432" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">북미(멕시코 포함)·중미·카리브·버뮤다·적도 이북 남미에서 출발하면 Trade Act 기한은 이륙 때까지</text>
+<rect x="30" y="470" width="800" height="440" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="514" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">House AWB 자료는 누가 보내나</text>
+<rect x="54" y="548" width="170" height="56" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="139.0" y="583.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">포워더</text>
+<line x1="228" y1="576" x2="290" y2="576" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<rect x="298" y="548" width="170" height="56" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="383.0" y="583.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">항공사</text>
+<line x1="472" y1="576" x2="534" y2="576" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<rect x="542" y="548" width="170" height="56" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="627.0" y="583.0" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="middle">CBP</text>
+<text x="54" y="640" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">원칙: 항공사가 Master·House 자료 전송</text>
+<text x="54" y="666" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">직접 보내는 자가 없으면 포워더가 House 자료를 항공사에 모두 제공</text>
+<rect x="54" y="692" width="300" height="56" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10"/>
+<text x="204.0" y="727.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">수입자·관세사(ABI)·CFS 등</text>
+<path d="M358 720 H627 V608" fill="none" stroke="#1f6fd1" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#a-blue)"/>
+<text x="372" y="708" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">선택하면 직접 전송</text>
+<text x="54" y="778" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">한 Master AWB 아래 House 자료는 모두 같은 자가 보냄</text>
+<text x="54" y="828" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">외국 항공화물 주선업자(FIAC)도 ACAS 신고인 가능</text>
+<text x="54" y="858" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">보증 · 송신 코드 신고 · 24시간 연락 가능한 전화번호와 이메일</text>
+<rect x="846" y="470" width="796" height="440" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="870" y="514" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">강화 ACAS 항목 (2025. 11. 21. 시행)</text>
+<rect x="870" y="544" width="360" height="56" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="1050" y="579" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="middle">수하인 이메일</text>
+<rect x="1250" y="544" width="360" height="56" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="1430" y="579" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="middle">수하인 전화번호</text>
+<rect x="870" y="616" width="360" height="56" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="1050" y="651" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="middle">포장 또는 집하 예정 장소</text>
+<rect x="1250" y="616" width="360" height="56" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="1430" y="651" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="middle">인도처(Ship to party)</text>
+<text x="870" y="712" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">기존 필수: 송하인·수하인 이름·주소, 품명, 총수량, 총중량, AWB 번호</text>
+<text x="870" y="740" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">House 단계 송하인은 외국 판매자·제조자 등(포워더·콘솔사 불가)</text>
+<text x="870" y="780" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">단계적 집행 기간 2027. 5. 1.까지, 의무 자체는 시행 중</text>
+<rect x="870" y="806" width="748" height="82" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="890" y="840" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">정보 보완·보안검색 요청이 풀리기 전에는 탑재 불가</text>
+<text x="890" y="870" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">Do Not Load 지시가 나오면 그 화물은 실을 수 없음</text>
+</svg>

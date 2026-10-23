@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >할증료가 늘어난 계기 (간격은 연도 비례가 아님)</text>
+<rect x="30" y="80" width="1612" height="830" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+
+<rect x="60" y="464" width="692" height="32" fill="#e6eaef" stroke="none" stroke-width="2" rx="16" />
+<rect x="752" y="464" width="860" height="32" fill="#fbe1d9" stroke="none" stroke-width="2" rx="16" />
+<line x1="60" y1="480" x2="1620" y2="480" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<circle cx="160" cy="480" r="11" fill="#ffffff" stroke="#1f6fd1" stroke-width="5"/>
+<line x1="160" y1="468" x2="160" y2="410" stroke="#1f6fd1" stroke-width="3"/>
+<rect x="60.0" y="240" width="200" height="170" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="12" />
+<rect x="60.0" y="240" width="200" height="40" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="3" rx="12" />
+<rect x="60.0" y="266" width="200" height="14" fill="#1f6fd1" stroke="none" stroke-width="2" rx="0" />
+<text x="160" y="269" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >1971~1973</text>
+<text x="160" y="326" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >고정환율 체제 붕괴</text>
+<text x="160" y="374" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle" >CAF(통화할증)</text>
+<circle cx="308" cy="480" r="11" fill="#ffffff" stroke="#c27a00" stroke-width="5"/>
+<line x1="308" y1="492" x2="308" y2="550" stroke="#c27a00" stroke-width="3"/>
+<rect x="208.0" y="550" width="200" height="170" fill="#ffffff" stroke="#c27a00" stroke-width="3" rx="12" />
+<rect x="208.0" y="550" width="200" height="40" fill="#c27a00" stroke="#c27a00" stroke-width="3" rx="12" />
+<rect x="208.0" y="576" width="200" height="14" fill="#c27a00" stroke="none" stroke-width="2" rx="0" />
+<text x="308" y="579" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >1973</text>
+<text x="308" y="636" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >석유 파동</text>
+<text x="308" y="684" font-size="21" font-weight="800" fill="#c27a00" text-anchor="middle" >BAF(유류할증)</text>
+<circle cx="456" cy="480" r="11" fill="#ffffff" stroke="#d9482b" stroke-width="5"/>
+<line x1="456" y1="468" x2="456" y2="410" stroke="#d9482b" stroke-width="3"/>
+<rect x="356.0" y="240" width="200" height="170" fill="#ffffff" stroke="#d9482b" stroke-width="3" rx="12" />
+<rect x="356.0" y="240" width="200" height="40" fill="#d9482b" stroke="#d9482b" stroke-width="3" rx="12" />
+<rect x="356.0" y="266" width="200" height="14" fill="#d9482b" stroke="none" stroke-width="2" rx="0" />
+<text x="456" y="269" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >2004. 7. 1.</text>
+<text x="456" y="326" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >ISPS Code 발효</text>
+<text x="456" y="374" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle" >보안 비용 항목</text>
+<circle cx="604" cy="480" r="11" fill="#ffffff" stroke="#d9482b" stroke-width="5"/>
+<line x1="604" y1="492" x2="604" y2="550" stroke="#d9482b" stroke-width="3"/>
+<rect x="504.0" y="550" width="200" height="170" fill="#ffffff" stroke="#d9482b" stroke-width="3" rx="12" />
+<rect x="504.0" y="550" width="200" height="40" fill="#d9482b" stroke="#d9482b" stroke-width="3" rx="12" />
+<rect x="504.0" y="576" width="200" height="14" fill="#d9482b" stroke="none" stroke-width="2" rx="0" />
+<text x="604" y="579" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >2008년 전후</text>
+<text x="604" y="636" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >소말리아 해적</text>
+<text x="604" y="684" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle" >위험 할증</text>
+<circle cx="752" cy="480" r="11" fill="#ffffff" stroke="#1d2a3a" stroke-width="5"/>
+<line x1="752" y1="468" x2="752" y2="410" stroke="#1d2a3a" stroke-width="3"/>
+<rect x="652.0" y="240" width="200" height="170" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12" />
+<rect x="652.0" y="240" width="200" height="40" fill="#1d2a3a" stroke="#1d2a3a" stroke-width="3" rx="12" />
+<rect x="652.0" y="266" width="200" height="14" fill="#1d2a3a" stroke="none" stroke-width="2" rx="0" />
+<text x="752" y="269" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >2008. 10. 18.</text>
+<text x="752" y="326" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >EU 운임동맹 예외 종료</text>
+<text x="752" y="374" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle" >선사별 할증료 공식</text>
+<circle cx="900" cy="480" r="11" fill="#ffffff" stroke="#c27a00" stroke-width="5"/>
+<line x1="900" y1="492" x2="900" y2="550" stroke="#c27a00" stroke-width="3"/>
+<rect x="800.0" y="550" width="200" height="170" fill="#ffffff" stroke="#c27a00" stroke-width="3" rx="12" />
+<rect x="800.0" y="550" width="200" height="40" fill="#c27a00" stroke="#c27a00" stroke-width="3" rx="12" />
+<rect x="800.0" y="576" width="200" height="14" fill="#c27a00" stroke="none" stroke-width="2" rx="0" />
+<text x="900" y="579" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >2015. 1. 1.</text>
+<text x="900" y="636" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >ECA 황 0.10%</text>
+<text x="900" y="684" font-size="21" font-weight="800" fill="#c27a00" text-anchor="middle" >LSS·ECA 할증</text>
+<circle cx="1048" cy="480" r="11" fill="#ffffff" stroke="#c27a00" stroke-width="5"/>
+<line x1="1048" y1="468" x2="1048" y2="410" stroke="#c27a00" stroke-width="3"/>
+<rect x="948.0" y="240" width="200" height="170" fill="#ffffff" stroke="#c27a00" stroke-width="3" rx="12" />
+<rect x="948.0" y="240" width="200" height="40" fill="#c27a00" stroke="#c27a00" stroke-width="3" rx="12" />
+<rect x="948.0" y="266" width="200" height="14" fill="#c27a00" stroke="none" stroke-width="2" rx="0" />
+<text x="1048" y="269" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >2020. 1. 1.</text>
+<text x="1048" y="326" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >IMO 2020 황 0.50%</text>
+<text x="1048" y="374" font-size="21" font-weight="800" fill="#c27a00" text-anchor="middle" >새 BAF 공식</text>
+<circle cx="1196" cy="480" r="11" fill="#ffffff" stroke="#7a4fc4" stroke-width="5"/>
+<line x1="1196" y1="492" x2="1196" y2="550" stroke="#7a4fc4" stroke-width="3"/>
+<rect x="1096.0" y="550" width="200" height="170" fill="#ffffff" stroke="#7a4fc4" stroke-width="3" rx="12" />
+<rect x="1096.0" y="550" width="200" height="40" fill="#7a4fc4" stroke="#7a4fc4" stroke-width="3" rx="12" />
+<rect x="1096.0" y="576" width="200" height="14" fill="#7a4fc4" stroke="none" stroke-width="2" rx="0" />
+<text x="1196" y="579" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >2020~2022</text>
+<text x="1196" y="636" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >팬데믹·항만 혼잡</text>
+<text x="1196" y="684" font-size="21" font-weight="800" fill="#7a4fc4" text-anchor="middle" >혼잡 할증</text>
+<circle cx="1344" cy="480" r="11" fill="#ffffff" stroke="#7a4fc4" stroke-width="5"/>
+<line x1="1344" y1="468" x2="1344" y2="410" stroke="#7a4fc4" stroke-width="3"/>
+<rect x="1244.0" y="240" width="200" height="170" fill="#ffffff" stroke="#7a4fc4" stroke-width="3" rx="12" />
+<rect x="1244.0" y="240" width="200" height="40" fill="#7a4fc4" stroke="#7a4fc4" stroke-width="3" rx="12" />
+<rect x="1244.0" y="266" width="200" height="14" fill="#7a4fc4" stroke="none" stroke-width="2" rx="0" />
+<text x="1344" y="269" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >2023. 12.~</text>
+<text x="1344" y="326" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >홍해 사태 희망봉 우회</text>
+<text x="1344" y="374" font-size="21" font-weight="800" fill="#7a4fc4" text-anchor="middle" >우회·긴급 할증</text>
+<circle cx="1492" cy="480" r="11" fill="#ffffff" stroke="#1f8a5b" stroke-width="5"/>
+<line x1="1492" y1="492" x2="1492" y2="550" stroke="#1f8a5b" stroke-width="3"/>
+<rect x="1392.0" y="550" width="200" height="170" fill="#ffffff" stroke="#1f8a5b" stroke-width="3" rx="12" />
+<rect x="1392.0" y="550" width="200" height="40" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="3" rx="12" />
+<rect x="1392.0" y="576" width="200" height="14" fill="#1f8a5b" stroke="none" stroke-width="2" rx="0" />
+<text x="1492" y="579" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle" >2024 / 2025</text>
+<text x="1492" y="636" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle" >EU ETS·FuelEU</text>
+<text x="1492" y="684" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle" >환경 할증</text>
+<text x="70" y="485" font-size="1" font-weight="600" fill="#1d2a3a" text-anchor="start" ></text>
+<text x="60" y="130" font-size="20" font-weight="700" fill="#5f6b78" text-anchor="start" >← 운임동맹 시절: 항로마다 BAF·CAF 등을 동맹이 함께 정함</text>
+<text x="1612" y="130" font-size="20" font-weight="700" fill="#d9482b" text-anchor="end" >예외 종료 뒤: 이름은 같아도 선사마다 공식·주기·적용일이 갈라짐 →</text>
+<rect x="80" y="856" width="22" height="22" fill="#1f6fd1" stroke="none" stroke-width="2" rx="4" />
+<text x="110" y="874" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >통화</text>
+<rect x="180" y="856" width="22" height="22" fill="#c27a00" stroke="none" stroke-width="2" rx="4" />
+<text x="210" y="874" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >유류</text>
+<rect x="280" y="856" width="22" height="22" fill="#d9482b" stroke="none" stroke-width="2" rx="4" />
+<text x="310" y="874" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >보안·위험</text>
+<rect x="440" y="856" width="22" height="22" fill="#1d2a3a" stroke="none" stroke-width="2" rx="4" />
+<text x="470" y="874" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >시장 구조</text>
+<rect x="600" y="856" width="22" height="22" fill="#7a4fc4" stroke="none" stroke-width="2" rx="4" />
+<text x="630" y="874" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >혼잡·우회</text>
+<rect x="760" y="856" width="22" height="22" fill="#1f8a5b" stroke="none" stroke-width="2" rx="4" />
+<text x="790" y="874" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >환경</text>
+<rect x="60" y="760" width="1552" height="64" fill="#eef3fb" stroke="none" stroke-width="2" rx="12" />
+<text x="84" y="800" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="start" >비용 공식이 있는 할증(BAF·LSS·환경)은 공식과 주기를, 정액으로 정하는 할증(PSS·긴급·위험)은 발동 이유와 종료 조건을 묻는다</text>
+<text x="1600" y="874" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="end" >GRI는 할증료가 아니라 기본운임 인상 공지</text>
+</svg>

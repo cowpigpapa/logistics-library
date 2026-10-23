@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start" >보세운송: 신고가 원칙, 정해진 물품만 승인</text>
+<text x="40" y="94" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="start" >관세법 제213조·제214조, 시행령 제226조, 보세운송에 관한 고시 제6조·제25조·제31조·제32조</text>
+<rect x="40" y="116" width="1592" height="170" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<line x1="120" y1="176" x2="1600" y2="176" stroke="#1d2a3a" stroke-width="3"/>
+<circle cx="220" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="220" y="154" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle" >화물관리번호 부여</text>
+<circle cx="640" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="640" y="154" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle" >입항</text>
+<circle cx="1040" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="1040" y="154" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle" >하선(기)장소 반입</text>
+<circle cx="1420" cy="176" r="9" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="1420" y="154" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle" >최초 반입 후 30일</text>
+<rect x="220" y="198" width="1200" height="30" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="6" />
+<text x="236" y="220" font-size="18" font-weight="800" fill="#ffffff" text-anchor="start" >보세운송신고 가능 (입항 전에도)</text>
+<rect x="1040" y="240" width="560" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="6" />
+<text x="1056" y="262" font-size="18" font-weight="800" fill="#ffffff" text-anchor="start" >승인신청 가능 (차상반출만 반입 전 가능)</text>
+<rect x="1420" y="198" width="180" height="30" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="6" />
+<text x="1430" y="220" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start" >승인 대상(제5호)</text>
+<rect x="40" y="306" width="560" height="594" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="40" y="306" width="560" height="10" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="4" />
+<text x="64" y="356" font-size="28" font-weight="800" fill="#1f6fd1" text-anchor="start" >신고</text>
+<text x="140" y="356" font-size="22" font-weight="700" fill="#5f6b78" text-anchor="start" >원칙</text>
+<text x="64" y="404" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >신고인</text>
+<text x="64" y="436" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >화주, 관세사등,</text>
+<text x="64" y="466" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >등록한 보세운송업자</text>
+<text x="64" y="522" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >언제</text>
+<text x="64" y="554" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >화물관리번호가 부여된 뒤,</text>
+<text x="64" y="584" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >입항 전에도</text>
+<text x="64" y="640" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >운송기간</text>
+<text x="64" y="672" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >신고수리일부터 해상 10일, 항공 5일</text>
+<text x="64" y="702" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >입항 전 신고는 5일 이내 추가 가능</text>
+<text x="64" y="758" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >예외</text>
+<text x="64" y="790" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >승인 대상이라도 관세청장이 정한</text>
+<text x="64" y="820" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start" >물품은 신고로 가능(제226조 제4항)</text>
+<rect x="620" y="306" width="1012" height="594" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="620" y="306" width="1012" height="10" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="4" />
+<text x="644" y="356" font-size="28" font-weight="800" fill="#e4572e" text-anchor="start" >승인</text>
+<text x="720" y="356" font-size="22" font-weight="700" fill="#5f6b78" text-anchor="start" >시행령 제226조 제3항 (제3호의2 포함 14개 항목)</text>
+<rect x="644" y="384" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="652" y="392" width="36" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="670.0" y="413" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >1</text>
+<text x="702" y="414" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >재보세운송</text>
+<rect x="1138" y="384" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="1146" y="392" width="36" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="1164.0" y="413" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >2</text>
+<text x="1196" y="414" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >검역을 요하는 물품</text>
+<rect x="644" y="440" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="652" y="448" width="84" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="694.0" y="469" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >3·3의2</text>
+<text x="750" y="470" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >위험물·유해화학물질</text>
+<rect x="1138" y="440" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="1146" y="448" width="36" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="1164.0" y="469" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >4</text>
+<text x="1196" y="470" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >비금속설(고철류)</text>
+<rect x="644" y="496" width="470" height="46" fill="#fff4ef" stroke="#e4572e" stroke-width="2" rx="10" />
+<rect x="652" y="504" width="36" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="670.0" y="525" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >5</text>
+<text x="702" y="526" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >최초 반입 후 30일이 지난 물품</text>
+<rect x="1138" y="496" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="1146" y="504" width="36" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="1164.0" y="525" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >6</text>
+<text x="1196" y="526" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >통관보류·수리 불가 물품</text>
+<rect x="644" y="552" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="652" y="560" width="36" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="670.0" y="581" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >7</text>
+<text x="702" y="582" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >보세구역외장치 장소로</text>
+<rect x="1138" y="552" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="1146" y="560" width="36" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="1164.0" y="581" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >8</text>
+<text x="1196" y="582" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >귀금속·의약품 등 고가 소형</text>
+<rect x="644" y="608" width="470" height="46" fill="#fff4ef" stroke="#e4572e" stroke-width="2" rx="10" />
+<rect x="652" y="616" width="36" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="670.0" y="637" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >9</text>
+<text x="702" y="638" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >화주가 직접 운송</text>
+<rect x="1138" y="608" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="1146" y="616" width="48" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="1170.0" y="637" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >10</text>
+<text x="1208" y="638" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >통관지 제한 물품</text>
+<rect x="644" y="664" width="470" height="46" fill="#fff4ef" stroke="#e4572e" stroke-width="2" rx="10" />
+<rect x="652" y="672" width="48" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="676.0" y="693" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >11</text>
+<text x="714" y="694" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >같은 B/L 분할 보세운송</text>
+<rect x="1138" y="664" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="1146" y="672" width="48" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="1170.0" y="693" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >12</text>
+<text x="1208" y="694" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >세관장이 지정한 물품</text>
+<rect x="644" y="720" width="470" height="46" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<rect x="652" y="728" width="48" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="8" />
+<text x="676.0" y="749" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >13</text>
+<text x="714" y="750" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >관세범 조사·기소 중인 업자 운송</text>
+<text x="644" y="804" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >승인 기준(고시 제31조)에 맞는 목적지로만 승인</text>
+<text x="644" y="840" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >관세·제세 상당액 담보 제공 (무세·면세, 간이보세운송업자 등은 제외)</text>
+<text x="644" y="876" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start" >색칠한 항목: 항만에 30일 넘게 두기, 화주가 직접 옮기기, 한 B/L을 나눠 보내기</text>
+</svg>

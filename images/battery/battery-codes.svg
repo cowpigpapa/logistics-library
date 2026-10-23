@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">폐배터리 코드와 절차: 녹색목록인가, 황색목록인가</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">부속서 III·IV 본문에는 battery·lithium·black mass라는 말이 없고, 배터리 항목은 부속서 V 1부(바젤 목록)에 있습니다.</text>
+<rect x="40.0" y="140.0" width="640.0" height="250.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="56.0" y="176.2" font-size="23" font-weight="800" fill="#1f8a5b" text-anchor="start">B1090 · 녹색목록(부속서 III)</text>
+<text x="56.0" y="208.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">규격에 부합하는 폐배터리. 납·카드뮴·수은으로 만든 것은 제외</text>
+<text x="56.0" y="235.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">녹색으로 보려면: 규격 부합 · EU 폐기물 목록상 유해 아님 · 다른 물질에</text>
+<text x="56.0" y="262.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">오염되지 않음</text>
+<rect x="40.0" y="410.0" width="640.0" height="200.0" fill="#fdf4dc" stroke="#c98a0b" stroke-width="2" rx="12"/>
+<text x="56.0" y="446.2" font-size="23" font-weight="800" fill="#c98a0b" text-anchor="start">A1160 · A1170 · 황색목록(부속서 IV)</text>
+<text x="56.0" y="478.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">A1160 폐 납축전지(원형 또는 파쇄)</text>
+<text x="56.0" y="505.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">A1170 분류되지 않은 폐배터리(목록 B 배터리만의 혼합물 제외),</text>
+<text x="56.0" y="532.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">유해할 정도로 부속서 I 성분을 함유한 폐배터리</text>
+<rect x="40.0" y="630.0" width="640.0" height="200.0" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="56.0" y="666.2" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">배터리가 든 폐전기·전자제품</text>
+<text x="56.0" y="698.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">A1181(목록 A 배터리 등 유해 부품) · Y49(그 밖의 것). 위임규정 (EU)</text>
+<text x="56.0" y="725.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">2024/3230으로 A1180·B1110 대체</text>
+<text x="56.0" y="752.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">EU 안 운송의 Y49만 2026.12.31까지 적절한 경우</text>
+<text x="56.0" y="779.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">GC010·GC020(녹색)</text>
+<rect x="1180.0" y="160.0" width="452.0" height="210.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="1196.0" y="245.5" font-size="26" font-weight="800" fill="#1f8a5b" text-anchor="start">일반정보 요건</text>
+<text x="1196.0" y="278.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">제18조, 부속서 VII 서류. 회수 목적이고 20kg</text>
+<text x="1196.0" y="305.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">초과일 때(제4조(4))</text>
+<rect x="1180.0" y="450.0" width="452.0" height="300.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="1196.0" y="580.5" font-size="26" font-weight="800" fill="#d9482b" text-anchor="start">사전 서면 통지 및 동의(PIC)</text>
+<text x="1196.0" y="613.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">통지서·이동서류, 관할당국 동의, 계약, 재정보증</text>
+<text x="1196.0" y="640.1" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">제4조(2)</text>
+<line x1="680.0" y1="240.0" x2="1176.0" y2="240.0" stroke="#1f8a5b" stroke-width="4" marker-end="url(#ar-1f8a5b)"/>
+<text x="930.0" y="226.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="middle">조건을 모두 갖추면</text>
+<polyline points="680.0,330.0 900.0,330.0 900.0,520.0 1176.0,520.0" fill="none" stroke="#d9482b" stroke-width="4" stroke-linejoin="round" marker-end="url(#ar-d9482b)"/>
+<rect x="720.0" y="344.0" width="360.0" height="110.0" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="732.0" y="393.6" font-size="17.5" font-weight="700" fill="#d9482b" text-anchor="start">EU 폐기물 목록상 유해(제4조(2)(d)) 또는</text>
+<text x="732.0" y="417.6" font-size="17.5" font-weight="700" fill="#d9482b" text-anchor="start">오염(제4조(2)(e))이면</text>
+<line x1="680.0" y1="560.0" x2="1176.0" y2="590.0" stroke="#d9482b" stroke-width="4" marker-end="url(#ar-d9482b)"/>
+<text x="930.0" y="600.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">제4조(2)(a)</text>
+<polyline points="680.0,730.0 1000.0,730.0 1000.0,660.0 1176.0,660.0" fill="none" stroke="#d9482b" stroke-width="4" stroke-linejoin="round" marker-end="url(#ar-d9482b)"/>
+<text x="840.0" y="716.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">A1181·Y49</text>
+<rect x="40.0" y="852.0" width="1592.0" height="56.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="64.0" y="888.0" font-size="19.5" font-weight="700" fill="#1d2a3a" text-anchor="start">2026년 12월 9일부터 리튬계 폐배터리는 EU 폐기물 목록상 유해(16 06 07*)이므로 B1090에 해당해도 PIC 대상입니다.</text>
+</svg>

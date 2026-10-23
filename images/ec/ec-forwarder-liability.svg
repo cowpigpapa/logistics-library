@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30.0" y="30.0" width="1612.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56.0" y="80.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">포워더의 상태와 적용될 수 있는 책임</text>
+<text x="56.0" y="114.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">같은 사건에서도 무엇을 알았는지, 무엇을 남겼는지가 갈림길이 됩니다(포워더의 수출통제 점검 6절 표 요지)</text>
+<defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9482b"/><stop offset="0.55" stop-color="#e4a12e"/><stop offset="1" stop-color="#1f8a5b"/></linearGradient></defs>
+<rect x="60.0" y="150.0" width="22.0" height="640.0" fill="url(#lg)" stroke="none" stroke-width="0" rx="11"/>
+<text x="60.0" y="140.0" font-size="14" font-weight="600" fill="#1d2a3a" text-anchor="start"></text>
+<rect x="104.0" y="150.0" width="1512.0" height="112.0" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="12"/>
+<rect x="126.0" y="168.0" width="104.6" height="36.0" fill="#d9482b" stroke="#d9482b" stroke-width="1.5" rx="18.0"/>
+<text x="178.3" y="192.7" font-size="19" font-weight="700" fill="#fff" text-anchor="middle">알고 가담</text>
+<text x="126.0" y="238.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">품명 위장이나 무허가를 알고 부킹·서류 작성</text>
+<text x="560.0" y="196.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">적용될 수 있는 것</text>
+<text x="560.0" y="230.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">관세법 제271조제1항: 정범에 준해 처벌. 대외무역법 위반은 공동정범·종범</text>
+<rect x="104.0" y="282.0" width="1512.0" height="112.0" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="12"/>
+<rect x="126.0" y="300.0" width="185.1" height="36.0" fill="#d9482b" stroke="#d9482b" stroke-width="1.5" rx="18.0"/>
+<text x="218.6" y="324.6" font-size="19" font-weight="700" fill="#fff" text-anchor="middle">신호를 보고도 진행</text>
+<text x="126.0" y="370.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">확실히 알지는 못했지만 신호를 보고도 그대로 진행</text>
+<text x="560.0" y="328.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">적용될 수 있는 것</text>
+<text x="560.0" y="362.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">고의 인정 여부가 쟁점. 신호를 보고도 진행한 기록은 고의 판단 정황</text>
+<rect x="104.0" y="414.0" width="1512.0" height="112.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<rect x="126.0" y="432.0" width="152.4" height="36.0" fill="#e4572e" stroke="#e4572e" stroke-width="1.5" rx="18.0"/>
+<text x="202.2" y="456.6" font-size="19" font-weight="700" fill="#fff" text-anchor="middle">직접 환적·중개</text>
+<text x="126.0" y="502.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">국내 환적·삼국간 주선을 직접 하며 허가 없이 진행</text>
+<text x="560.0" y="460.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">적용될 수 있는 것</text>
+<text x="560.0" y="494.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">의무자로 인정되면 직접 위반자(제53조제2항), 3년 이내 수출입 등 제한</text>
+<rect x="104.0" y="546.0" width="1512.0" height="112.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<rect x="126.0" y="564.0" width="166.5" height="36.0" fill="#e4572e" stroke="#e4572e" stroke-width="1.5" rx="18.0"/>
+<text x="209.2" y="588.6" font-size="19" font-weight="700" fill="#fff" text-anchor="middle">직원 개인의 위반</text>
+<text x="126.0" y="634.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">담당자가 업무에 관해 위반</text>
+<text x="560.0" y="592.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">적용될 수 있는 것</text>
+<text x="560.0" y="626.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">양벌규정으로 회사도 벌금형. 점검 절차·교육·보류 기록이 면책 근거</text>
+<rect x="104.0" y="678.0" width="1512.0" height="112.0" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<rect x="126.0" y="696.0" width="160.4" height="36.0" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="1.5" rx="18.0"/>
+<text x="206.2" y="720.6" font-size="19" font-weight="700" fill="#fff" text-anchor="middle">확인했으나 속음</text>
+<text x="126.0" y="766.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">정상 확인했으나 화주가 서류를 위조해 속임</text>
+<text x="560.0" y="724.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">적용될 수 있는 것</text>
+<text x="560.0" y="758.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">대외무역법에 과실범 규정 없음. 받은 서류와 확인 기록이 이 상태를 보여 줌</text>
+<text x="60.0" y="868.0" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">“전략물자인 줄 몰랐다”는 주장은 오인에 정당한 이유가 있을 때만 벌하지 않습니다(형법 제16조). 확인 절차를 거친 기록이 있어야 다툴 근거가 생깁니다.</text>
+</svg>

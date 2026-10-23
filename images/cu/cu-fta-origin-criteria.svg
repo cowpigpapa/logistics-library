@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="m1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="383" height="640" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="52" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">완전생산기준</text>
+<text x="52" y="106" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">법 제7조제1항제1호</text>
+<line x1="52" y1="124" x2="391" y2="124" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="439" y="30" width="383" height="640" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="461" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">세번변경기준</text>
+<text x="461" y="106" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">법 제7조제1항제2호가목</text>
+<line x1="461" y1="124" x2="800" y2="124" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="848" y="30" width="383" height="640" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="870" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">부가가치기준</text>
+<text x="870" y="106" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">법 제7조제1항제2호나목</text>
+<line x1="870" y1="124" x2="1209" y2="124" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="1257" y="30" width="383" height="640" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="1279" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">가공공정기준</text>
+<text x="1279" y="106" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">법 제7조제1항제2호다목</text>
+<line x1="1279" y1="124" x2="1618" y2="124" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="52" y="150" width="339" height="250" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="14" />
+<text x="221.5" y="184" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">한 나라 안에서 전부</text>
+<circle cx="110" cy="260" r="38" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="110" y="268" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">기르고</text>
+<line x1="152" y1="260" x2="178" y2="260" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)"/>
+<circle cx="222" cy="260" r="38" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="222" y="268" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">잡아</text>
+<line x1="264" y1="260" x2="290" y2="260" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)"/>
+<circle cx="334" cy="260" r="38" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="334" y="268" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">손질</text>
+<line x1="221.5" y1="304" x2="221.5" y2="334" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)"/>
+<text x="221.5" y="370" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">베트남산 새우</text>
+<text x="52" y="450" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">예: 베트남에서 기르고 잡아 손질한</text>
+<text x="52" y="480" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">새우, 칠레 농장에서 재배·수확한 포도</text>
+<rect x="52" y="530" width="339" height="96" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5" rx="10" />
+<text x="70" y="568" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">수입 재료가 조금이라도 들어가면</text>
+<text x="70" y="598" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">이 기준으로는 안 됩니다</text>
+<rect x="479" y="154" width="303" height="86" fill="#f1f4f7" stroke="#5f6b78" stroke-width="2" rx="12" />
+<text x="630.5" y="190.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">중국산 원목</text>
+<text x="630.5" y="217.5" font-size="22" font-weight="800" fill="#5f6b78" text-anchor="middle">제44류</text>
+<line x1="630.5" y1="244" x2="630.5" y2="298" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m1f6fd1)"/>
+<text x="644.5" y="278" font-size="19" font-weight="600" fill="#1f6fd1" text-anchor="start">한국에서 가구 제조</text>
+<rect x="479" y="302" width="303" height="86" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<text x="630.5" y="338.5" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">가구</text>
+<text x="630.5" y="365.5" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">제94류</text>
+<text x="630.5" y="426" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">류(2단위)가 바뀜 → 원산지 인정</text>
+<rect x="469" y="480" width="100" height="60" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="8" />
+<text x="519" y="507" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">류</text>
+<text x="519" y="530" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">2단위</text>
+<rect x="581" y="480" width="100" height="60" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="8" />
+<text x="631" y="507" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">호</text>
+<text x="631" y="530" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">4단위</text>
+<rect x="693" y="480" width="100" height="60" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="8" />
+<text x="743" y="507" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">소호</text>
+<text x="743" y="530" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">6단위</text>
+<text x="461" y="586" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">품목 기준이 "호 변경(CTH)"이면</text>
+<text x="461" y="616" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">4단위가 달라져야 합니다</text>
+<text x="1039.5" y="170" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">기준 가격 (협정에 따라 FOB 등)</text>
+<rect x="888" y="200" width="303" height="300" fill="#f1f4f7" stroke="#5f6b78" stroke-width="2" rx="6" />
+<rect x="888" y="380.0" width="303" height="120.0" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="0" />
+<text x="1039.5" y="447.0" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">역내 부가가치</text>
+<text x="1039.5" y="297.0" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="middle">그 밖의 가치</text>
+<line x1="872" y1="380.0" x2="1207" y2="380.0" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 5"/>
+<text x="1185" y="368.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="end">40% 선</text>
+<text x="870" y="546" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">품목 기준이 "역내부가가치 40% 이상"</text>
+<text x="870" y="576" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">이면 원가계산서로 40% 이상임을</text>
+<text x="870" y="606" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">보여야 합니다 (40%는 설명용 예시)</text>
+<rect x="1279" y="150" width="339" height="380" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="14" />
+<text x="1448.5" y="184" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">모두 역내에서</text>
+<rect x="1327" y="208" width="243" height="54" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<text x="1448.5" y="242.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">원사부터 방적</text>
+<line x1="1448.5" y1="264" x2="1448.5" y2="284" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)"/>
+<rect x="1327" y="286" width="243" height="54" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<text x="1448.5" y="320.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">제직</text>
+<line x1="1448.5" y1="342" x2="1448.5" y2="362" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)"/>
+<rect x="1327" y="364" width="243" height="54" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<text x="1448.5" y="398.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">재단</text>
+<line x1="1448.5" y1="420" x2="1448.5" y2="440" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)"/>
+<rect x="1327" y="442" width="243" height="54" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<text x="1448.5" y="476.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">봉제</text>
+<text x="1279" y="570" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">섬유·의류처럼 특정 공정을 요구하는</text>
+<text x="1279" y="600" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">품목. 공정 하나라도 역외에서 하면</text>
+<text x="1279" y="630" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">충족하지 못합니다</text>
+<rect x="30.0" y="696" width="520.0" height="170" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="14" />
+<text x="52.0" y="734" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">불충분한 가공</text>
+<text x="52.0" y="770" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">보존, 운송·판매용 포장, 단순 절단·선별,</text>
+<text x="52.0" y="800" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">라벨·마크 부착, 단순 혼합은</text>
+<text x="52.0" y="830" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">원산지를 만들지 못함 (RCEP 제3.6조)</text>
+<rect x="576.0" y="696" width="520.0" height="170" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2" rx="14" />
+<text x="598.0" y="734" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">미소기준</text>
+<text x="598.0" y="770" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">세번변경을 못 한 비원산지 재료가</text>
+<text x="598.0" y="800" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">FOB 가격의 10% 이하면 원산지 인정</text>
+<text x="598.0" y="830" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(RCEP 제3.7조, 한-중 제3.8조)</text>
+<rect x="1122.0" y="696" width="520.0" height="170" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="14" />
+<text x="1144.0" y="734" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">누적</text>
+<text x="1144.0" y="770" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">협정 안 다른 나라의 원산지 재료를</text>
+<text x="1144.0" y="800" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">자기 재료처럼 셈 (한-EU 양자 누적,</text>
+<text x="1144.0" y="830" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">RCEP 15개국). 협정 밖 재료는 안 됨</text>
+<text x="836" y="905" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">같은 물품도 협정마다 품목별 기준이 다르므로 "어느 협정 기준으로"를 함께 확인합니다.</text>
+</svg>

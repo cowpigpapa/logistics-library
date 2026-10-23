@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="520" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">DAP · DDP</text>
+<rect x="390" y="150" width="130" height="180" fill="#e6ebf1" stroke="#1d2a3a" stroke-width="2" rx="0"/>
+<rect x="412" y="220" width="86" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="0"/>
+<text x="455" y="180" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">매수인 창고</text>
+<line x1="70" y1="330" x2="520" y2="330" stroke="#b8c2cc" stroke-width="3"/>
+<rect x="150" y="278" width="44" height="40" fill="#5b7da6" stroke="#1d2a3a" stroke-width="2" rx="6"/>
+<rect x="158" y="284" width="22" height="14" fill="#dfe9f5" rx="2"/>
+<rect x="194" y="308" width="146" height="10" fill="#7d8a99" stroke="#1d2a3a" stroke-width="2" rx="2"/>
+<circle cx="174" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="174" cy="326" r="4" fill="#ffffff"/>
+<circle cx="290" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="290" cy="326" r="4" fill="#ffffff"/>
+<circle cx="318" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="318" cy="326" r="4" fill="#ffffff"/>
+<rect x="212" y="268" width="70" height="40" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="0"/>
+<text x="255" y="250" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">차량 위 화물</text>
+<rect x="576" y="30" width="520" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="600" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">DPU</text>
+<rect x="936" y="150" width="130" height="180" fill="#e6ebf1" stroke="#1d2a3a" stroke-width="2" rx="0"/>
+<rect x="958" y="220" width="86" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="0"/>
+<text x="1001" y="180" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">매수인 창고</text>
+<line x1="616" y1="330" x2="1066" y2="330" stroke="#b8c2cc" stroke-width="3"/>
+<rect x="636" y="278" width="44" height="40" fill="#5b7da6" stroke="#1d2a3a" stroke-width="2" rx="6"/>
+<rect x="644" y="284" width="22" height="14" fill="#dfe9f5" rx="2"/>
+<rect x="680" y="308" width="126" height="10" fill="#7d8a99" stroke="#1d2a3a" stroke-width="2" rx="2"/>
+<circle cx="660" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="660" cy="326" r="4" fill="#ffffff"/>
+<circle cx="756" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="756" cy="326" r="4" fill="#ffffff"/>
+<circle cx="784" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="784" cy="326" r="4" fill="#ffffff"/>
+<rect x="836" y="290" width="70" height="40" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="0"/>
+<text x="871" y="278" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">내린 뒤 인도</text>
+<rect x="1122" y="30" width="520" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="1146" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">CPT · CIP</text>
+<rect x="1482" y="150" width="130" height="180" fill="#e6ebf1" stroke="#1d2a3a" stroke-width="2" rx="0"/>
+<rect x="1504" y="220" width="86" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="0"/>
+<text x="1547" y="180" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">매수인 창고</text>
+<line x1="1162" y1="330" x2="1612" y2="330" stroke="#b8c2cc" stroke-width="3"/>
+<rect x="1242" y="278" width="44" height="40" fill="#5b7da6" stroke="#1d2a3a" stroke-width="2" rx="6"/>
+<rect x="1250" y="284" width="22" height="14" fill="#dfe9f5" rx="2"/>
+<rect x="1286" y="308" width="146" height="10" fill="#7d8a99" stroke="#1d2a3a" stroke-width="2" rx="2"/>
+<circle cx="1266" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="1266" cy="326" r="4" fill="#ffffff"/>
+<circle cx="1382" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="1382" cy="326" r="4" fill="#ffffff"/>
+<circle cx="1410" cy="326" r="10" fill="#1d2a3a"/>
+<circle cx="1410" cy="326" r="4" fill="#ffffff"/>
+<rect x="1304" y="268" width="70" height="40" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="0"/>
+<text x="1347" y="250" font-size="17" font-weight="800" fill="#5f6b78" text-anchor="middle">차량 위 화물</text>
+<rect x="56" y="380" width="468" height="250" fill="#fff7f5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="72" y="418" font-size="24" font-weight="800" fill="#d9482b" text-anchor="start">인도</text>
+<text x="72" y="453" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">도착 운송수단 위에서</text>
+<text x="72" y="482" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">하차 준비된 상태로 인도</text>
+<text x="72" y="511" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start"> </text>
+<text x="72" y="540" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">하차 작업과 그 위험: 매수인</text>
+<text x="72" y="569" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">DDP도 하차는 DAP와 같음</text>
+<rect x="56" y="660" width="468" height="200" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="72" y="698" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">하차 비용</text>
+<text x="72" y="733" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">매수인</text>
+<text x="72" y="761" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">매도인 운송계약에 하차비가 들어 있으면</text>
+<text x="72" y="789" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">매도인이 내고 따로 합의 없이 회수 불가</text>
+<rect x="602" y="380" width="468" height="250" fill="#fff7f5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="618" y="418" font-size="24" font-weight="800" fill="#d9482b" text-anchor="start">인도</text>
+<text x="618" y="453" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">지정 장소에서 내린 뒤 인도</text>
+<text x="618" y="482" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start"> </text>
+<text x="618" y="511" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">하차 작업·위험·비용: 매도인</text>
+<text x="618" y="540" font-size="21" font-weight="500" fill="#d9482b" text-anchor="start">매도인이 목적지에서 하차를</text>
+<text x="618" y="569" font-size="21" font-weight="500" fill="#d9482b" text-anchor="start">해야 하는 유일한 조건</text>
+<rect x="602" y="660" width="468" height="200" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="618" y="698" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">확인할 것</text>
+<text x="618" y="733" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">그 장소에서 하차를 수배할 수 있는지</text>
+<text x="618" y="761" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">하차 위험을 지기 싫으면 DAP</text>
+<rect x="1148" y="380" width="468" height="250" fill="#fff8f4" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="1164" y="418" font-size="24" font-weight="800" fill="#e4572e" text-anchor="start">인도·위험</text>
+<text x="1164" y="453" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">위험은 이미 출발지에서</text>
+<text x="1164" y="482" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">최초 운송인에게 넘긴 때 이전</text>
+<text x="1164" y="511" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start"> </text>
+<text x="1164" y="540" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">하차 작업과 위험: 매수인</text>
+<rect x="1148" y="660" width="468" height="200" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="1164" y="698" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">하차·양하 비용</text>
+<text x="1164" y="733" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">운송계약에 매도인 부담으로</text>
+<text x="1164" y="761" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">되어 있으면 매도인, 아니면 매수인</text>
+<text x="1164" y="789" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">CFR·CIF 목적항 양하비도 같은 구조</text>
+</svg>

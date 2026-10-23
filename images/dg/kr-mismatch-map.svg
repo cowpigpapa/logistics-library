@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">한쪽 기준에서만 위험물인 품목 15개</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">국제 규칙(항공·해상)과 국내법의 판단은 서로를 대신하지 못합니다. 실제 해당 여부는 제품 SDS와 시험 결과로 정합니다.</text>
+<rect x="40.0" y="124.0" width="516.0" height="784.0" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="16"/>
+<rect x="40.0" y="124.0" width="516.0" height="92.0" fill="#fdece6" stroke="none" stroke-width="0" rx="16"/>
+<rect x="40.0" y="190.0" width="516.0" height="26.0" fill="#fdece6" stroke="none" stroke-width="0" rx="0"/>
+<line x1="40.0" y1="216.0" x2="556.0" y2="216.0" stroke="#e4572e" stroke-width="2"/>
+<text x="62.0" y="164.0" font-size="24" font-weight="800" fill="#e4572e" text-anchor="start">국내법에서만 위험물</text>
+<text x="62.0" y="198.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">국제: 대개 비위험물  ·  국내: 위험물</text>
+<circle cx="74.0" cy="254.0" r="16.0" fill="#e4572e" stroke="none" stroke-width="2"/>
+<text x="74.0" y="260.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="102.0" y="261.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">윤활유(엔진오일·기어유)</text>
+<text x="102.0" y="292.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">제4석유류(200~250℃ 미만) 또는 제3석유류</text>
+<circle cx="74.0" cy="382.0" r="16.0" fill="#e4572e" stroke="none" stroke-width="2"/>
+<text x="74.0" y="388.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="102.0" y="389.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">인화점 60℃ 초과 70℃ 미만 액체</text>
+<text x="102.0" y="420.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">국내 제2석유류, UN Class 3 아님</text>
+<circle cx="74.0" cy="510.0" r="16.0" fill="#e4572e" stroke="none" stroke-width="2"/>
+<text x="74.0" y="516.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="102.0" y="517.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">동식물유(식용유·팜유)</text>
+<text x="102.0" y="548.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">동식물유류. 용기·표시 조건이면 제외</text>
+<circle cx="74.0" cy="638.0" r="16.0" fill="#e4572e" stroke="none" stroke-width="2"/>
+<text x="74.0" y="644.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="102.0" y="645.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">화관법 유해화학물질(만성 유해성)</text>
+<text x="102.0" y="676.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">급성 독성 기준이 아니면 UN 비위험물</text>
+<rect x="578.0" y="124.0" width="516.0" height="784.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="16"/>
+<rect x="578.0" y="124.0" width="516.0" height="92.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="16"/>
+<rect x="578.0" y="190.0" width="516.0" height="26.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="0"/>
+<line x1="578.0" y1="216.0" x2="1094.0" y2="216.0" stroke="#1f6fd1" stroke-width="2"/>
+<text x="600.0" y="164.0" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start">국제 규칙에서만 위험물</text>
+<text x="600.0" y="198.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">국제: 위험물  ·  국내 위험물 법령: 대개 비해당</text>
+<circle cx="612.0" cy="254.0" r="16.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="612.0" y="260.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="640.0" y="261.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">리튬배터리</text>
+<text x="640.0" y="292.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">UN 3480·3481·3090·3091 Class 9</text>
+<circle cx="612.0" cy="362.0" r="16.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="612.0" y="368.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="640.0" y="369.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">배터리 내장 기기</text>
+<text x="640.0" y="400.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">UN 3481·3091, 이동장치는 UN 3556·3557</text>
+<circle cx="612.0" cy="470.0" r="16.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="612.0" y="476.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="640.0" y="477.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">환경유해물질</text>
+<text x="640.0" y="508.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">UN 3077·3082 Class 9</text>
+<circle cx="612.0" cy="578.0" r="16.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="612.0" y="584.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">8</text>
+<text x="640.0" y="585.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">드라이아이스</text>
+<text x="640.0" y="616.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">UN 1845 Class 9</text>
+<circle cx="612.0" cy="686.0" r="16.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="612.0" y="692.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">9</text>
+<text x="640.0" y="693.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">자석(자성물질)</text>
+<text x="640.0" y="724.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">UN 2807, 항공에서만</text>
+<circle cx="612.0" cy="794.0" r="16.0" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<text x="612.0" y="800.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">10</text>
+<text x="640.0" y="801.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">향수·화장품·의약품·손소독제</text>
+<text x="640.0" y="832.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">Class 3. 국내는 운반용기면 제외(알코올류 손소독제는 남음)</text>
+<rect x="1116.0" y="124.0" width="516.0" height="784.0" fill="#ffffff" stroke="#c98a00" stroke-width="2.5" rx="16"/>
+<rect x="1116.0" y="124.0" width="516.0" height="92.0" fill="#fbf3dc" stroke="none" stroke-width="0" rx="16"/>
+<rect x="1116.0" y="190.0" width="516.0" height="26.0" fill="#fbf3dc" stroke="none" stroke-width="0" rx="0"/>
+<line x1="1116.0" y1="216.0" x2="1632.0" y2="216.0" stroke="#c98a00" stroke-width="2"/>
+<text x="1138.0" y="164.0" font-size="24" font-weight="800" fill="#8a5f00" text-anchor="start">경우에 따라 갈리는 품목</text>
+<text x="1138.0" y="198.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">농도·인화점·제품 구조에 따라</text>
+<circle cx="1150.0" cy="254.0" r="16.0" fill="#b07a00" stroke="none" stroke-width="2"/>
+<text x="1150.0" y="260.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">11</text>
+<text x="1178.0" y="261.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">알코올 수용액·주류</text>
+<text x="1178.0" y="292.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">UN 24부피% vs 국내 60중량%</text>
+<circle cx="1150.0" cy="358.0" r="16.0" fill="#b07a00" stroke="none" stroke-width="2"/>
+<text x="1150.0" y="364.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">12</text>
+<text x="1178.0" y="365.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">페인트·잉크</text>
+<text x="1178.0" y="396.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">제외 요건이 서로 달라 네 조합 모두 가능</text>
+<circle cx="1150.0" cy="462.0" r="16.0" fill="#b07a00" stroke="none" stroke-width="2"/>
+<text x="1150.0" y="468.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">13</text>
+<text x="1178.0" y="469.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">에어로졸·스프레이, 소화기</text>
+<text x="1178.0" y="500.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">UN Class 2, 국내는 고압가스법</text>
+<circle cx="1150.0" cy="566.0" r="16.0" fill="#b07a00" stroke="none" stroke-width="2"/>
+<text x="1150.0" y="572.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">14</text>
+<text x="1178.0" y="573.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">에어백·프리텐셔너</text>
+<text x="1178.0" y="604.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">UN 3268 Class 9, 국내는 화약류 법령</text>
+<circle cx="1150.0" cy="670.0" r="16.0" fill="#b07a00" stroke="none" stroke-width="2"/>
+<text x="1150.0" y="676.1" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">15</text>
+<text x="1178.0" y="677.0" font-size="19.5" font-weight="800" fill="#1d2a3a" text-anchor="start">목탄(숯)·활성탄</text>
+<text x="1178.0" y="708.0" font-size="16.5" font-weight="500" fill="#5f6b78" text-anchor="start">UN 1361·1362 Class 4.2, 국내 특수가연물</text>
+</svg>

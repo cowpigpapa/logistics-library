@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">President Eisenhower(2024): 부킹을 나누다 틀어진 VGM이 적부 계획까지 간 경로 (NTSB)</text>
+<rect x="40" y="96" width="370" height="230" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="41.5" y="97.5" width="367" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="72" cy="126" r="18" fill="#1f6fd1"/>
+<text x="72" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="100" y="135" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">부킹 분할</text>
+<text x="60" y="188.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너 40개 부킹 중 1개가 중량 초과로</text>
+<text x="60" y="213.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">시스템에서 걸려 1개 + 39개로 나눔</text>
+<line x1="414" y1="211.0" x2="442" y2="211.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="448" y="96" width="370" height="230" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="14"/>
+<rect x="449.5" y="97.5" width="367" height="58" fill="#fdeee8" rx="13"/>
+<circle cx="480" cy="126" r="18" fill="#e4572e"/>
+<text x="480" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="508" y="135" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">수기 재입력</text>
+<text x="468" y="188.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">시스템 오류로 새 부킹에 화물 중량이</text>
+<text x="468" y="213.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">넘어오지 않아 다시 입력. 39개 모두</text>
+<text x="468" y="239.12" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">2,500kg으로 잘못 넣음</text>
+<line x1="822" y1="211.0" x2="850" y2="211.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="856" y="96" width="370" height="230" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="14"/>
+<rect x="857.5" y="97.5" width="367" height="58" fill="#fdeee8" rx="13"/>
+<circle cx="888" cy="126" r="18" fill="#e4572e"/>
+<text x="888" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="916" y="135" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">틀린 VGM 생성</text>
+<text x="876" y="188.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">시스템이 자체중량을 더해 VGM 개당</text>
+<text x="876" y="213.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">6.2~6.4톤. 터미널은 따로 확인하지</text>
+<text x="876" y="239.12" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">않았고 크레인 계량 기능도 없었음</text>
+<line x1="1230" y1="211.0" x2="1258" y2="211.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="1264" y="96" width="370" height="230" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="14"/>
+<rect x="1265.5" y="97.5" width="367" height="58" fill="#fdeee9" rx="13"/>
+<circle cx="1296" cy="126" r="18" fill="#d9482b"/>
+<text x="1296" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="1324" y="135" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">틀린 값으로 적부</text>
+<text x="1284" y="188.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">42베이 좌현 스택이 최대 스택 중량을</text>
+<text x="1284" y="213.56" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">최대 26% 초과, 무거운 컨테이너가 위에</text>
+<text x="1284" y="239.12" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">실린 역순 적재</text>
+<rect x="40" y="360" width="1000" height="330" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="64" y="402" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">같은 컨테이너, 두 개의 VGM (톤)</text>
+<text x="230" y="452" font-size="20" font-weight="700" fill="#e4572e" text-anchor="end">적부 계획에 쓴 값</text>
+<rect x="250" y="425" width="136.4" height="40" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="6"/>
+<rect x="386.4" y="425" width="4.4" height="40" fill="#e4572e"/>
+<text x="404.8" y="453" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">6.2~6.4</text>
+<text x="230" y="532" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="end">B/L의 실제 VGM</text>
+<rect x="250" y="505" width="539.0" height="40" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2" rx="6"/>
+<rect x="789.0" y="505" width="90.19999999999999" height="40" fill="#1f6fd1"/>
+<text x="893.2" y="533" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">24.5~28.6</text>
+<line x1="250" y1="575" x2="250" y2="585" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="250" y="606" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">0</text>
+<line x1="360" y1="575" x2="360" y2="585" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="360" y="606" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">5</text>
+<line x1="470" y1="575" x2="470" y2="585" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="470" y="606" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">10</text>
+<line x1="580" y1="575" x2="580" y2="585" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="580" y="606" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">15</text>
+<line x1="690" y1="575" x2="690" y2="585" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="690" y="606" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">20</text>
+<line x1="800" y1="575" x2="800" y2="585" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="800" y="606" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">25</text>
+<line x1="910" y1="575" x2="910" y2="585" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="910" y="606" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">30</text>
+<line x1="250" y1="580" x2="910" y2="580" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="70" y="648.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">40ft 하이큐브 적컨테이너의 VGM이 자체중량에 가까운 값이면 입력 오류부터 의심합니다.</text>
+<rect x="1080" y="360" width="552" height="330" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="1356.0" y="455.2" font-size="26" font-weight="800" fill="#d9482b" text-anchor="middle">결과 (2024. 2. 6.)</text>
+<text x="1356.0" y="491.9" font-size="22" font-weight="500" fill="#1d2a3a" text-anchor="middle">선석을 기다리며 표류하던 중</text>
+<text x="1356.0" y="521.6" font-size="22" font-weight="500" fill="#1d2a3a" text-anchor="middle">고박 장비가 견디지 못함</text>
+<text x="1356.0" y="551.3000000000001" font-size="22" font-weight="500" fill="#1d2a3a" text-anchor="middle"></text>
+<text x="1356.0" y="581.0000000000001" font-size="22" font-weight="500" fill="#1d2a3a" text-anchor="middle">컨테이너 23개 유실</text>
+<text x="1356.0" y="610.7000000000002" font-size="22" font-weight="500" fill="#1d2a3a" text-anchor="middle">10개 손상</text>
+<rect x="40" y="720" width="1592" height="180" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="16"/>
+<text x="70" y="764" font-size="23" font-weight="800" fill="#1f8a5b" text-anchor="start">포워더가 할 일</text>
+<text x="70" y="806" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">부킹을 나누거나 고친 뒤 선사 부킹 확인서와 VGM 회신에 찍힌 컨테이너별 값을 화주의 VGM 자료와 다시 대조</text>
+<text x="70" y="840" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">후속: 부킹 담당 회사는 수정 때 원래 VGM을 자동으로 가져오고, 10톤 미만으로 신고된 VGM은 하나씩 확인하도록 바꿈</text>
+</svg>

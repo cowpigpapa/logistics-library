@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">중고 배터리를 제품으로 보내기 위한 일곱 가지</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">배터리 규정 부속서 XIV. 수송을 주선하는 보유자의 의무이며, 하나라도 빠지면 그 화물은 폐기물로 간주됩니다.</text>
+<rect x="40.0" y="130.0" width="262.0" height="300.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="14"/>
+<text x="60.0" y="182.0" font-size="34" font-weight="800" fill="#1f6fd1" text-anchor="start">①</text>
+<rect x="234.8" y="152.0" width="51.2" height="26.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="1.5" rx="13.0"/>
+<text x="260.4" y="170.4" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">서류</text>
+<text x="60.0" y="230.0" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">송장·계약서</text>
+<text x="60.0" y="280.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">"직접 재사용 예정", "완전히</text>
+<text x="60.0" y="305.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">기능한다" 문구</text>
+<text x="60.0" y="364.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">제1항(a)</text>
+<rect x="54.0" y="378.0" width="234.0" height="38.0" fill="#ffffff" stroke="#e4572e" stroke-width="1.5" rx="8" stroke-dasharray="5 4"/>
+<text x="171.0" y="403.0" font-size="16.5" font-weight="700" fill="#e4572e" text-anchor="middle">B2B 면제 가능(제2항)</text>
+<rect x="318.0" y="130.0" width="262.0" height="300.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="14"/>
+<text x="338.0" y="182.0" font-size="34" font-weight="800" fill="#1f6fd1" text-anchor="start">②</text>
+<rect x="512.8" y="152.0" width="51.2" height="26.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="1.5" rx="13.0"/>
+<text x="538.4" y="170.4" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">서류</text>
+<text x="338.0" y="230.0" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">평가·시험 증빙</text>
+<text x="338.0" y="280.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">화물 안 모든 배터리의 시험</text>
+<text x="338.0" y="305.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">기록. 표본 예외 없음</text>
+<text x="338.0" y="364.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">제1항(b)</text>
+<rect x="332.0" y="378.0" width="234.0" height="38.0" fill="#ffffff" stroke="#e4572e" stroke-width="1.5" rx="8" stroke-dasharray="5 4"/>
+<text x="449.0" y="403.0" font-size="16.5" font-weight="700" fill="#e4572e" text-anchor="middle">B2B 면제 가능(제2항)</text>
+<rect x="596.0" y="130.0" width="262.0" height="300.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="14"/>
+<text x="616.0" y="182.0" font-size="34" font-weight="800" fill="#1f6fd1" text-anchor="start">③</text>
+<rect x="790.8" y="152.0" width="51.2" height="26.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="1.5" rx="13.0"/>
+<text x="816.4" y="170.4" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">서류</text>
+<text x="616.0" y="230.0" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">보유자 신고서</text>
+<text x="616.0" y="280.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">화물 안 어떤 것도 폐기물이</text>
+<text x="616.0" y="305.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">아니라는 신고</text>
+<text x="616.0" y="408.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">제1항(c)</text>
+<rect x="874.0" y="130.0" width="262.0" height="300.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="14"/>
+<text x="894.0" y="182.0" font-size="34" font-weight="800" fill="#1f8a5b" text-anchor="start">④</text>
+<rect x="1068.8" y="152.0" width="51.2" height="26.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="1.5" rx="13.0"/>
+<text x="1094.4" y="170.4" font-size="15" font-weight="700" fill="#1f8a5b" text-anchor="middle">화물</text>
+<text x="894.0" y="230.0" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">포장·적층</text>
+<text x="894.0" y="280.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">운송·적재·하역 중 손상을</text>
+<text x="894.0" y="305.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">막는 보호</text>
+<text x="894.0" y="408.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">제1항(d)</text>
+<rect x="40.0" y="450.0" width="262.0" height="300.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="14"/>
+<text x="60.0" y="502.0" font-size="34" font-weight="800" fill="#1f8a5b" text-anchor="start">⑤</text>
+<rect x="234.8" y="472.0" width="51.2" height="26.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="1.5" rx="13.0"/>
+<text x="260.4" y="490.4" font-size="15" font-weight="700" fill="#1f8a5b" text-anchor="middle">화물</text>
+<text x="60.0" y="550.0" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">배터리별 기록 부착</text>
+<text x="60.0" y="600.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">배터리 또는 포장 외부.</text>
+<text x="60.0" y="625.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">포장을 뜯지 않고 읽힘</text>
+<text x="60.0" y="684.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">제3항</text>
+<rect x="54.0" y="698.0" width="234.0" height="38.0" fill="#ffffff" stroke="#e4572e" stroke-width="1.5" rx="8" stroke-dasharray="5 4"/>
+<text x="171.0" y="723.0" font-size="16.5" font-weight="700" fill="#e4572e" text-anchor="middle">B2B 면제 가능(제2항)</text>
+<rect x="318.0" y="450.0" width="262.0" height="300.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="14"/>
+<text x="338.0" y="502.0" font-size="34" font-weight="800" fill="#1f6fd1" text-anchor="start">⑥</text>
+<rect x="512.8" y="472.0" width="51.2" height="26.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="1.5" rx="13.0"/>
+<text x="538.4" y="490.4" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">서류</text>
+<text x="338.0" y="550.0" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">운송서류</text>
+<text x="338.0" y="600.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너·화물차 등 적재</text>
+<text x="338.0" y="625.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">단위마다 동반</text>
+<text x="338.0" y="728.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">제4항(a)</text>
+<rect x="596.0" y="450.0" width="262.0" height="300.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="14"/>
+<text x="616.0" y="502.0" font-size="34" font-weight="800" fill="#1f6fd1" text-anchor="start">⑦</text>
+<rect x="790.8" y="472.0" width="51.2" height="26.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="1.5" rx="13.0"/>
+<text x="816.4" y="490.4" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">서류</text>
+<text x="616.0" y="550.0" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">책임 신고서</text>
+<text x="616.0" y="600.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">책임을 지는 자의 신고서,</text>
+<text x="616.0" y="625.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">적재 단위마다</text>
+<text x="616.0" y="728.0" font-size="17" font-weight="700" fill="#5f6b78" text-anchor="start">제4항(b)</text>
+<rect x="874.0" y="450.0" width="262.0" height="300.0" fill="#eef1f4" stroke="#1d2a3a" stroke-width="2" rx="14"/>
+<text x="894.0" y="492.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">면제가 되어도</text>
+<text x="894.0" y="526.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">보증 수리·재정비·근본</text>
+<text x="894.0" y="551.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">원인 분석(B2B 계약)이라도</text>
+<text x="894.0" y="576.0" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">③④⑥⑦은 필요합니다.</text>
+<rect x="1150.0" y="130.0" width="482.0" height="240.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="1166.0" y="167.1" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="start">모두 갖췄을 때</text>
+<text x="1166.0" y="199.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">제품으로 운송합니다. 그래도 검사에서</text>
+<text x="1166.0" y="226.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">출처·목적지와 폐기물이 아니라는 증빙을 바로 낼 수</text>
+<text x="1166.0" y="253.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">있어야 합니다(폐기물운송규정 제61조(2)).</text>
+<rect x="1150.0" y="390.0" width="482.0" height="360.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="1166.0" y="427.1" font-size="24" font-weight="800" fill="#d9482b" text-anchor="start">하나라도 없거나 포장 보호가 부족할 때</text>
+<text x="1166.0" y="459.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">폐기물로 간주되고, 불법 운송으로</text>
+<text x="1166.0" y="486.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">추정됩니다(제5항).</text>
+<text x="1166.0" y="513.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">반송과 비용: 폐기물운송규정 제25조·제26조(당국이</text>
+<text x="1166.0" y="540.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">안 날부터 30일 안 반송).</text>
+<text x="1166.0" y="567.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">폐배터리로 확인되면 분석·검사·보관 비용이 생산자,</text>
+<text x="1166.0" y="594.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">그 대리인 또는 운송을 주선한 그 밖의 자에게 청구될</text>
+<text x="1166.0" y="621.5" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">수 있습니다(제72조(2)).</text>
+<rect x="40.0" y="790.0" width="1592.0" height="110.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="64.0" y="830.0" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">⑤의 기재 사항</text>
+<text x="64.0" y="866.0" font-size="18.5" font-weight="600" fill="#1d2a3a" text-anchor="start">배터리(분획) 명칭 · 식별번호(해당 시) · 생산 연도(알 수 있는 경우) · 건전상태(SoH) 시험 책임 회사의 명칭·주소 · 시험 종류 · 시험 결과와 일자</text>
+</svg>

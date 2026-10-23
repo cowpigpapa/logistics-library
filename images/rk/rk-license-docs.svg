@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">운송사에게 받는 서류는 서로 맞아야 한다: 같은 색 칸끼리 대조 (4·7절)</text>
+<rect x="40" y="100" width="300" height="360" fill="#ffffff" stroke="#9aa5b1" stroke-width="2" rx="6"/>
+<polygon points="300,100 340,140 300,140" fill="#e6eaef" stroke="#9aa5b1" stroke-width="2"/>
+<text x="60" y="144" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">운송사업 허가증 사본</text>
+<line x1="60" y1="210" x2="310" y2="210" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="60" y1="228" x2="270" y2="228" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="60" y1="246" x2="230" y2="246" stroke="#d5dbe2" stroke-width="6"/>
+<rect x="56" y="262" width="268" height="42" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
+<text x="70" y="290" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start">상호 · 대표자</text>
+<text x="70" y="344" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">일반·개인 운송사업 구분</text>
+<rect x="363" y="100" width="300" height="360" fill="#ffffff" stroke="#9aa5b1" stroke-width="2" rx="6"/>
+<polygon points="623,100 663,140 623,140" fill="#e6eaef" stroke="#9aa5b1" stroke-width="2"/>
+<text x="383" y="144" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">자동차등록증 사본</text>
+<line x1="383" y1="210" x2="633" y2="210" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="383" y1="228" x2="593" y2="228" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="383" y1="246" x2="553" y2="246" stroke="#d5dbe2" stroke-width="6"/>
+<rect x="379" y="262" width="268" height="42" fill="#fdeee8" stroke="#e4572e" stroke-width="2.5" rx="8"/>
+<text x="393" y="290" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start">차량번호</text>
+<rect x="379" y="316" width="268" height="42" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
+<text x="393" y="344" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start">소속(상호)</text>
+<text x="393" y="398" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">용도: 자동차운수사업용</text>
+<rect x="686" y="100" width="300" height="360" fill="#ffffff" stroke="#9aa5b1" stroke-width="2" rx="6"/>
+<polygon points="946,100 986,140 946,140" fill="#e6eaef" stroke="#9aa5b1" stroke-width="2"/>
+<text x="706" y="144" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">차량 사진</text>
+<line x1="706" y1="210" x2="956" y2="210" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="706" y1="228" x2="916" y2="228" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="706" y1="246" x2="876" y2="246" stroke="#d5dbe2" stroke-width="6"/>
+<rect x="702" y="262" width="268" height="42" fill="#fdeee8" stroke="#e4572e" stroke-width="2.5" rx="8"/>
+<text x="716" y="290" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start">번호판의 차량번호</text>
+<text x="716" y="344" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">황색 바탕 = 운수사업용</text>
+<rect x="1009" y="100" width="300" height="360" fill="#ffffff" stroke="#9aa5b1" stroke-width="2" rx="6"/>
+<polygon points="1269,100 1309,140 1269,140" fill="#e6eaef" stroke="#9aa5b1" stroke-width="2"/>
+<text x="1029" y="144" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">화물운송 종사자격증 사본</text>
+<line x1="1029" y1="210" x2="1279" y2="210" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="1029" y1="228" x2="1239" y2="228" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="1029" y1="246" x2="1199" y2="246" stroke="#d5dbe2" stroke-width="6"/>
+<rect x="1025" y="262" width="268" height="42" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="8"/>
+<text x="1039" y="290" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">운전자 이름</text>
+<rect x="1332" y="100" width="300" height="360" fill="#ffffff" stroke="#9aa5b1" stroke-width="2" rx="6"/>
+<polygon points="1592,100 1632,140 1592,140" fill="#e6eaef" stroke="#9aa5b1" stroke-width="2"/>
+<text x="1352" y="144" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">적재물배상책임보험</text>
+<text x="1352" y="170" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">가입증명</text>
+<line x1="1352" y1="210" x2="1602" y2="210" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="1352" y1="228" x2="1562" y2="228" stroke="#d5dbe2" stroke-width="6"/>
+<line x1="1352" y1="246" x2="1522" y2="246" stroke="#d5dbe2" stroke-width="6"/>
+<rect x="1348" y="262" width="268" height="42" fill="#fdeee8" stroke="#e4572e" stroke-width="2.5" rx="8"/>
+<text x="1362" y="290" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start">피보험 차량</text>
+<text x="1362" y="344" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">보험기간 · 보상한도</text>
+<rect x="40" y="520" width="1592" height="180" fill="#f1f3f6" stroke="#1d2a3a" stroke-width="2.5" rx="14"/>
+<text x="70" y="562" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">배차 정보 · 운송장 · 인수증</text>
+<rect x="70" y="590" width="480" height="70" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="3" rx="10"/>
+<text x="310" y="634" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">계약한 운송사 상호</text>
+<rect x="590" y="590" width="480" height="70" fill="#fdeee8" stroke="#e4572e" stroke-width="3" rx="10"/>
+<text x="830" y="634" font-size="21" font-weight="800" fill="#e4572e" text-anchor="middle">사전에 받은 차량번호</text>
+<rect x="1110" y="590" width="480" height="70" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="3" rx="10"/>
+<text x="1350" y="634" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">배차 기사 이름</text>
+<rect x="40" y="730" width="1592" height="170" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="70" y="772" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">맞지 않으면</text>
+<text x="70" y="810" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">사전에 받은 차량번호와 실제 차량이 다르면 운송사에 경위를 묻습니다. 포워더는 차량을 직접 살피지 않고 서류끼리 대조합니다.</text>
+<text x="70" y="842" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">이 서류들은 운송사를 등록할 때 받고 연 1회 갱신합니다. 자가용 화물자동차 소유자·사용자에게는 운송을 맡기지 않습니다.</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+  <marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+  <marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+  <marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30.0" y="30.0" width="1612.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56.0" y="80.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">자단(Dalbergia) 제품: 주석 #15로 허가 여부 가르기</text>
+<text x="56.0" y="114.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">2019년 11월 26일부터 현재(CoP18 #15, 한국 고시 비고 8). D. cochinchinensis(#4)와 멕시코 원산·수출분(#6)은 따로 봅니다</text>
+<path d="M330 152.0 L540.0 210 L330 268.0 L120.0 210 Z" fill="#fff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="330.0" y="204.5" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">브라질자단(D. nigra)</text>
+<text x="330.0" y="227.5" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">부속서 I인가?</text>
+<line x1="542.0" y1="210.0" x2="630.0" y2="210.0" stroke="#d9482b" stroke-width="4" marker-end="url(#md9482b)"/>
+<text x="556.0" y="200.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">예</text>
+<rect x="638.0" y="170.0" width="260.0" height="80.0" fill="#fdecea" stroke="#d9482b" stroke-width="2.5" rx="10"/>
+<text x="768.0" y="219.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">허가·증명서 필요</text>
+<text x="920.0" y="202.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">#15가 적용되지 않음. 비상업 연주·여행용은</text>
+<text x="920.0" y="224.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">악기 인증서 가능(등재 후 얻은 목재 악기 제외)</text>
+<line x1="330.0" y1="270.0" x2="330.0" y2="298.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<text x="342.0" y="292.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">아니오</text>
+<path d="M330 302.0 L540.0 360 L330 418.0 L120.0 360 Z" fill="#fff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="330.0" y="354.5" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">잎·꽃·화분·</text>
+<text x="330.0" y="377.5" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">열매·종자인가?</text>
+<line x1="542.0" y1="360.0" x2="630.0" y2="360.0" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<text x="556.0" y="350.0" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="start">예</text>
+<rect x="638.0" y="320.0" width="260.0" height="80.0" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="2.5" rx="10"/>
+<text x="768.0" y="369.0" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">제외</text>
+<text x="920.0" y="352.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">규제 대상 아님</text>
+<line x1="330.0" y1="420.0" x2="330.0" y2="448.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<text x="342.0" y="442.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">아니오</text>
+<path d="M330 452.0 L540.0 510 L330 568.0 L120.0 510 Z" fill="#fff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="330.0" y="504.5" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">악기 완제품·부품 완제품·</text>
+<text x="330.0" y="527.5" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">부속물품 완제품인가?</text>
+<line x1="542.0" y1="510.0" x2="630.0" y2="510.0" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<text x="556.0" y="500.0" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="start">예</text>
+<rect x="638.0" y="470.0" width="260.0" height="80.0" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="2.5" rx="10"/>
+<text x="768.0" y="519.0" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">제외</text>
+<text x="920.0" y="502.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">곧바로 연주·조립하거나 추가 변형 없이</text>
+<text x="920.0" y="524.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">쓰는 품목(HS 제92류 참조)</text>
+<line x1="330.0" y1="570.0" x2="330.0" y2="598.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<text x="342.0" y="592.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">아니오</text>
+<path d="M330 602.0 L540.0 660 L330 718.0 L120.0 660 Z" fill="#fff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="330.0" y="654.5" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">완제품이고 화물당 등재 종별</text>
+<text x="330.0" y="677.5" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">목재 무게 합이 10kg 이하?</text>
+<line x1="542.0" y1="660.0" x2="630.0" y2="660.0" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m1f8a5b)"/>
+<text x="556.0" y="650.0" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="start">예</text>
+<rect x="638.0" y="620.0" width="260.0" height="80.0" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="2.5" rx="10"/>
+<text x="768.0" y="669.0" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">제외</text>
+<text x="920.0" y="652.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">상업 거래도 제외. 화물 전체 무게가</text>
+<text x="920.0" y="674.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">아니라 각 등재 종 목재 무게의 합</text>
+<line x1="330.0" y1="720.0" x2="330.0" y2="750.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<text x="342.0" y="742.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">아니오</text>
+<rect x="80.0" y="758.0" width="760.0" height="120.0" fill="#fdecea" stroke="#d9482b" stroke-width="3" rx="12"/>
+<text x="104.0" y="796.0" font-size="23" font-weight="800" fill="#d9482b" text-anchor="start">허가 대상</text>
+<text x="104.0" y="828.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">원목·제재목·판재·단판, 지판용 블랭크·측판·후판용 판재 같은 반제품,</text>
+<text x="104.0" y="852.0" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">자단 목재가 화물당 10kg을 넘는 가구·조각품·공예품</text>
+<rect x="880.0" y="758.0" width="736.0" height="120.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="902.0" y="796.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">자단이 풀렸다고 열대 목재 전체가 풀린 것은 아님</text>
+<text x="902.0" y="828.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">아프리카 Pterocarpus·아프젤리아·카야속(#17, 2023~),</text>
+<text x="902.0" y="852.0" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">페르남부코(2026. 3. 5.부터 상업 목적 야생 채취품 수출 쿼터 0)</text>
+</svg>

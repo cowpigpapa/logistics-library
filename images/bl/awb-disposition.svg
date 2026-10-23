@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">AWB 화물에 지시할 수 있는 사람: 송하인의 처분권과 수하인의 권리</text>
+<rect x="120" y="170" width="640" height="60" fill="#e3eefb" rx="10"/>
+<rect x="760" y="170" width="370" height="60" fill="#f3f6f9" rx="0"/>
+<rect x="1130" y="170" width="450" height="60" fill="#e2f3ea" rx="10"/>
+<text x="440.0" y="208" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">송하인이 처분권을 가짐</text>
+<text x="945.0" y="208" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="middle">도착 통지</text>
+<text x="1355.0" y="208" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">수하인이 인도 청구, 송하인 처분권 끝</text>
+<line x1="120" y1="140" x2="120" y2="240" stroke="#1d2a3a" stroke-width="3"/>
+<text x="120" y="128" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">출발</text>
+<line x1="760" y1="140" x2="760" y2="240" stroke="#1d2a3a" stroke-width="3"/>
+<text x="760" y="128" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">도착</text>
+<line x1="1130" y1="140" x2="1130" y2="240" stroke="#1d2a3a" stroke-width="3"/>
+<text x="1130" y="128" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">수하인 인도 청구</text>
+<rect x="120" y="290" width="620" height="300" fill="#f5f9fe" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="136" y="328" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="start">송하인이 할 수 있는 지시</text>
+<text x="136" y="363" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">출발지·도착지 공항에서 화물 회수</text>
+<text x="136" y="392" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">중간 착륙지에서 운송 중지</text>
+<text x="136" y="421" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">처음 지정한 수하인이 아닌 사람에게 인도</text>
+<text x="136" y="450" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">출발지 공항으로 반송</text>
+<text x="136" y="479" font-size="21" font-weight="500" fill="#5f6b78" text-anchor="start">비용은 송하인, 운송인·다른 송하인에게 손해 금지</text>
+<rect x="780" y="290" width="400" height="300" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="796" y="328" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">운송인</text>
+<text x="796" y="363" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">도착하면 다른 약정이 없는 한</text>
+<text x="796" y="392" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">수하인에게 지체 없이 통지</text>
+<text x="796" y="421" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start"> </text>
+<text x="796" y="450" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">지시를 따를 수 없으면</text>
+<text x="796" y="479" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">즉시 송하인에게 알림</text>
+<rect x="1220" y="290" width="390" height="300" fill="#f4fbf7" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1236" y="328" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="start">수하인</text>
+<text x="1236" y="363" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">운임 등을 치르고</text>
+<text x="1236" y="392" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">운송 조건을 지키면</text>
+<text x="1236" y="421" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">원본 없이 인도 청구</text>
+<text x="1236" y="450" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start"> </text>
+<text x="1236" y="479" font-size="21" font-weight="500" fill="#d9482b" text-anchor="start">수령 거부·연락 불가 시</text>
+<text x="1236" y="508" font-size="21" font-weight="500" fill="#d9482b" text-anchor="start">처분권은 송하인에게 복귀</text>
+<rect x="120" y="620" width="1490" height="120" fill="#fdf4dc" stroke="#c99a2e" stroke-width="2" rx="12"/>
+<text x="146" y="666" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">송하인용 원본을 확인하지 않고 처분 지시를 따랐다가 그 원본을 적법하게 가진 사람이 손해를 입으면 운송인이 배상</text>
+<text x="146" y="700" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">(협약 제12조 제3항, 상법 제917조 제3항) → 수하인 변경 요청은 송하인에게서 왔는지, 도착 전인지부터 확인</text>
+<rect x="120" y="760" width="1490" height="120" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="146" y="806" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">화물이 없어졌을 때: 운송인이 멸실을 인정하거나 도착 예정일부터 7일이 지나도 도착하지 않으면</text>
+<text x="146" y="840" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">수하인이 운송계약상 권리를 운송인에게 행사(협약 제13조 제3항)</text>
+</svg>

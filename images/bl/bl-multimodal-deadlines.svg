@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="790" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">서면 통지 기한(보이지 않는 손해)</text>
+<rect x="852" y="30" width="790" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="876" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">제소 기한</text>
+<line x1="120" y1="690" x2="760" y2="690" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="120.0" y1="690" x2="120.0" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="120.0" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">0일</text>
+<line x1="162.66666666666666" y1="690" x2="162.66666666666666" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="205.33333333333331" y1="690" x2="205.33333333333331" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="248.0" y1="690" x2="248.0" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="248.0" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">3일</text>
+<line x1="290.66666666666663" y1="690" x2="290.66666666666663" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="333.3333333333333" y1="690" x2="333.3333333333333" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="376.0" y1="690" x2="376.0" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="376.0" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">6일</text>
+<line x1="418.66666666666663" y1="690" x2="418.66666666666663" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="418.66666666666663" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">7일</text>
+<line x1="461.3333333333333" y1="690" x2="461.3333333333333" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="504.0" y1="690" x2="504.0" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="546.6666666666666" y1="690" x2="546.6666666666666" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="589.3333333333333" y1="690" x2="589.3333333333333" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="632.0" y1="690" x2="632.0" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="674.6666666666666" y1="690" x2="674.6666666666666" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="717.3333333333333" y1="690" x2="717.3333333333333" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="717.3333333333333" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">14일</text>
+<line x1="760.0" y1="690" x2="760.0" y2="695" stroke="#1d2a3a" stroke-width="2"/>
+<text x="60" y="140" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">해상 규정(상법)</text>
+<rect x="120" y="154" width="128.0" height="34" fill="#1f6fd1" rx="6"/>
+<text x="260.0" y="178" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">수령일부터 3일 이내 발송</text>
+<text x="60" y="270" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">FBL 약관</text>
+<rect x="120" y="284" width="256.0" height="34" fill="#e4572e" rx="6"/>
+<text x="388.0" y="308" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">인도 후 연속 6일</text>
+<text x="60" y="400" font-size="20" font-weight="800" fill="#6b4fa0" text-anchor="start">CMR · CIM</text>
+<rect x="120" y="414" width="298.66666666666663" height="34" fill="#6b4fa0" rx="6"/>
+<text x="430.66666666666663" y="438" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">인도·인수 후 7일</text>
+<text x="60" y="530" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">항공(몬트리올)</text>
+<rect x="120" y="544" width="597.3333333333333" height="34" fill="#1f8a5b" rx="6"/>
+<text x="703.3333333333333" y="568" font-size="17" font-weight="700" fill="#ffffff" text-anchor="end">수령일부터 14일</text>
+<line x1="248.0" y1="150" x2="248.0" y2="690" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6"/>
+<rect x="70" y="790" width="720" height="96" fill="#fbe7e2" rx="10"/>
+<text x="90" y="826" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">사고 직후에는 구간을 모르므로 가장 짧은 기한에 맞춰</text>
+<text x="90" y="854" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">하청 운송인 전원과 복합운송인에게 서면 통지</text>
+<line x1="940" y1="690" x2="1590" y2="690" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="940.0" y1="690" x2="940.0" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="940.0" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">0개월</text>
+<line x1="1102.5" y1="690" x2="1102.5" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1102.5" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">6개월</text>
+<line x1="1183.75" y1="690" x2="1183.75" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1183.75" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">9개월</text>
+<line x1="1265.0" y1="690" x2="1265.0" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1265.0" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">12개월</text>
+<line x1="1427.5" y1="690" x2="1427.5" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1427.5" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">18개월</text>
+<line x1="1590.0" y1="690" x2="1590.0" y2="700" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1590.0" y="722" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">24개월</text>
+<text x="880" y="140" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">FBL 약관</text>
+<rect x="940" y="154" width="243.75" height="34" fill="#e4572e" rx="6"/>
+<text x="1195.75" y="178" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">인도일(인도했어야 할 날)부터 9개월</text>
+<text x="880" y="270" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">해상(상법 제814조)</text>
+<rect x="940" y="284" width="325.0" height="34" fill="#1f6fd1" rx="6"/>
+<text x="1277.0" y="308" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">1년, 합의로 연장 가능</text>
+<text x="880" y="400" font-size="20" font-weight="800" fill="#6b4fa0" text-anchor="start">CMR · CIM</text>
+<rect x="940" y="414" width="325.0" height="34" fill="#6b4fa0" rx="6"/>
+<text x="1277.0" y="438" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">1년(고의 등은 따로)</text>
+<text x="880" y="530" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">항공(몬트리올)</text>
+<rect x="940" y="544" width="650.0" height="34" fill="#1f8a5b" rx="6"/>
+<text x="954" y="568" font-size="17" font-weight="700" fill="#ffffff" text-anchor="start">2년</text>
+<rect x="890" y="790" width="720" height="96" fill="#e3eefb" rx="10"/>
+<text x="910" y="826" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">해상 기간은 늘릴 수는 있어도 줄일 수 없어 FBL 9개월로</text>
+<text x="910" y="854" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">줄기 어렵고, 국내 육상 구간이 명백하면 9개월이 유효</text>
+</svg>

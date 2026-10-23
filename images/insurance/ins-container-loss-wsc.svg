@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">바다에서 유실된 컨테이너 수(WSC 추정)</text>
+<text x="56" y="104" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">연간 숫자는 몇 건의 대형 사고가 좌우합니다</text>
+<line x1="150" y1="790" x2="1600" y2="790" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="150" y1="790.0" x2="1600" y2="790.0" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="140" y="796.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">0</text>
+<line x1="150" y1="690.0" x2="1600" y2="690.0" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="140" y="696.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">1,000</text>
+<line x1="150" y1="590.0" x2="1600" y2="590.0" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="140" y="596.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">2,000</text>
+<line x1="150" y1="490.0" x2="1600" y2="490.0" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="140" y="496.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">3,000</text>
+<line x1="150" y1="390.0" x2="1600" y2="390.0" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="140" y="396.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">4,000</text>
+<line x1="150" y1="290.0" x2="1600" y2="290.0" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="140" y="296.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">5,000</text>
+<line x1="150" y1="190.0" x2="1600" y2="190.0" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="140" y="196.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="end">6,000</text>
+<rect x="190" y="627.1" width="130" height="162.9" fill="#e3eefb" stroke="#1f6fd1" stroke-width="2.5" rx="4" stroke-dasharray="7 5"/>
+<text x="255.0" y="613.1" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">1,629</text>
+<text x="255.0" y="820" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2008~2021</text>
+<text x="255.0" y="844" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">14년 평균</text>
+<rect x="390" y="232.19999999999993" width="130" height="557.8000000000001" fill="#1f6fd1" rx="4"/>
+<text x="455.0" y="218.19999999999993" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">5,578</text>
+<text x="455.0" y="820" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2013</text>
+<text x="455.0" y="188.19999999999993" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">조사 이래 최고</text>
+<rect x="590" y="478.7" width="130" height="311.3" fill="#e3eefb" stroke="#1f6fd1" stroke-width="2.5" rx="4" stroke-dasharray="7 5"/>
+<text x="655.0" y="464.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">3,113</text>
+<text x="655.0" y="820" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2020~2021</text>
+<text x="655.0" y="844" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">평균</text>
+<text x="655.0" y="434.7" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">ONE APUS·MAERSK ESSEN</text>
+<rect x="790" y="723.9" width="130" height="66.10000000000001" fill="#1f6fd1" rx="4"/>
+<text x="855.0" y="709.9" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">661</text>
+<text x="855.0" y="820" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2022</text>
+<rect x="990" y="767.9" width="130" height="22.1" fill="#1f6fd1" rx="4"/>
+<text x="1055.0" y="753.9" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">221</text>
+<text x="1055.0" y="820" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2023</text>
+<text x="1055.0" y="723.9" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">조사 이래 최저</text>
+<rect x="1190" y="732.4" width="130" height="57.6" fill="#1f6fd1" rx="4"/>
+<text x="1255.0" y="718.4" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">576</text>
+<text x="1255.0" y="820" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2024</text>
+<rect x="1390" y="642.2" width="130" height="147.8" fill="#1f6fd1" rx="4"/>
+<text x="1455.0" y="628.2" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">1,478</text>
+<text x="1455.0" y="820" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2025</text>
+<text x="1455.0" y="598.2" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">한 사고 640개(약 43%)</text>
+<text x="455.0" y="290" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">MOL Comfort</text>
+<text x="455.0" y="312" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">침몰 4,293개가</text>
+<text x="455.0" y="334" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">큰 몫</text>
+<rect x="1180" y="120" width="430" height="120" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1200" y="156" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">2025년 1,478개 = 운송량 약 2억 8천만 개의 0.0005%</text>
+<text x="1200" y="184" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">회수 128개(회수 집계 이래 최대)</text>
+<text x="1200" y="212" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">점선 막대는 여러 해 평균</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">품명만 보고 내리는 첫 판단: 네 단계</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">표의 "국제 운송"란 맨 앞 굵은 글씨입니다. 최종 분류는 화주가 SDS 14항으로 정합니다(해상 기준 예시).</text>
+<rect x="40.0" y="124.0" width="386.0" height="784.0" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="16"/>
+<rect x="40.0" y="124.0" width="386.0" height="104.0" fill="#fbe9e5" stroke="none" stroke-width="0" rx="16"/>
+<rect x="40.0" y="200.0" width="386.0" height="28.0" fill="#fbe9e5" stroke="none" stroke-width="0" rx="0"/>
+<line x1="40.0" y1="228.0" x2="426.0" y2="228.0" stroke="#d9482b" stroke-width="2"/>
+<text x="60.0" y="166.0" font-size="23" font-weight="800" fill="#d9482b" text-anchor="start">대개 위험물</text>
+<text x="60.0" y="200.0" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">서류를 받아 위험물로 부킹 준비</text>
+<text x="62.0" y="270.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">향수·코롱</text>
+<text x="62.0" y="298.0" font-size="15.5" font-weight="600" fill="#d9482b" text-anchor="start">UN 1266</text>
+<text x="62.0" y="358.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">헤어스프레이(분사형)</text>
+<text x="62.0" y="386.0" font-size="15.5" font-weight="600" fill="#d9482b" text-anchor="start">UN 1950</text>
+<text x="62.0" y="446.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">라이터</text>
+<text x="62.0" y="474.0" font-size="15.5" font-weight="600" fill="#d9482b" text-anchor="start">UN 1057</text>
+<text x="62.0" y="534.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">캠핑용 부탄가스</text>
+<text x="62.0" y="562.0" font-size="15.5" font-weight="600" fill="#d9482b" text-anchor="start">UN 2037</text>
+<text x="62.0" y="622.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">보조배터리</text>
+<text x="62.0" y="650.0" font-size="15.5" font-weight="600" fill="#d9482b" text-anchor="start">UN 3480</text>
+<text x="62.0" y="710.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">신너, 용제형 접착제</text>
+<text x="62.0" y="738.0" font-size="15.5" font-weight="600" fill="#d9482b" text-anchor="start">Class 3</text>
+<text x="62.0" y="798.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">드라이아이스</text>
+<text x="62.0" y="826.0" font-size="15.5" font-weight="600" fill="#d9482b" text-anchor="start">UN 1845</text>
+<rect x="442.0" y="124.0" width="386.0" height="784.0" fill="#ffffff" stroke="#c98a00" stroke-width="2.5" rx="16"/>
+<rect x="442.0" y="124.0" width="386.0" height="104.0" fill="#fbf3dc" stroke="none" stroke-width="0" rx="16"/>
+<rect x="442.0" y="200.0" width="386.0" height="28.0" fill="#fbf3dc" stroke="none" stroke-width="0" rx="0"/>
+<line x1="442.0" y1="228.0" x2="828.0" y2="228.0" stroke="#c98a00" stroke-width="2"/>
+<text x="462.0" y="166.0" font-size="23" font-weight="800" fill="#8a5f00" text-anchor="start">조성·인화점·농도에 따라</text>
+<text x="462.0" y="200.0" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">SDS 9항·14항과 성분으로 확인</text>
+<text x="464.0" y="270.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">락스</text>
+<text x="464.0" y="298.0" font-size="15.5" font-weight="600" fill="#8a5f00" text-anchor="start">UN 1791(농도)</text>
+<text x="464.0" y="358.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">산소계 표백제</text>
+<text x="464.0" y="386.0" font-size="15.5" font-weight="600" fill="#8a5f00" text-anchor="start">UN 2984·3378</text>
+<text x="464.0" y="446.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">방향제·탈취제</text>
+<text x="464.0" y="474.0" font-size="15.5" font-weight="600" fill="#8a5f00" text-anchor="start">제형별</text>
+<text x="464.0" y="534.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">알코올 물티슈</text>
+<text x="464.0" y="562.0" font-size="15.5" font-weight="600" fill="#8a5f00" text-anchor="start">UN 3175 또는 제외</text>
+<text x="464.0" y="622.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">부동액·워셔액</text>
+<text x="464.0" y="650.0" font-size="15.5" font-weight="600" fill="#8a5f00" text-anchor="start">인화점</text>
+<text x="464.0" y="710.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">소독제·살균제</text>
+<text x="464.0" y="738.0" font-size="15.5" font-weight="600" fill="#8a5f00" text-anchor="start">성분별</text>
+<rect x="844.0" y="124.0" width="386.0" height="784.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="16"/>
+<rect x="844.0" y="124.0" width="386.0" height="104.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="16"/>
+<rect x="844.0" y="200.0" width="386.0" height="28.0" fill="#e8f0fb" stroke="none" stroke-width="0" rx="0"/>
+<line x1="844.0" y1="228.0" x2="1230.0" y2="228.0" stroke="#1f6fd1" stroke-width="2"/>
+<text x="864.0" y="166.0" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">운송 수단에 따라</text>
+<text x="864.0" y="200.0" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">해상과 항공 결론이 다름</text>
+<text x="866.0" y="270.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">스피커(자석)</text>
+<text x="866.0" y="298.0" font-size="15.5" font-weight="600" fill="#1f6fd1" text-anchor="start">해상 제외, 항공 UN 2807</text>
+<text x="866.0" y="358.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">네오디뮴 자석</text>
+<text x="866.0" y="386.0" font-size="15.5" font-weight="600" fill="#1f6fd1" text-anchor="start">항공에서만 Class 9</text>
+<text x="866.0" y="446.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">수은 체온계</text>
+<text x="866.0" y="474.0" font-size="15.5" font-weight="600" fill="#1f6fd1" text-anchor="start">UN 3506, 해상 1kg 이하 제외</text>
+<text x="866.0" y="534.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">주류</text>
+<text x="866.0" y="562.0" font-size="15.5" font-weight="600" fill="#1f6fd1" text-anchor="start">해상 PG Ⅲ 250L 이하 제외</text>
+<rect x="1246.0" y="124.0" width="386.0" height="784.0" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="16"/>
+<rect x="1246.0" y="124.0" width="386.0" height="104.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="16"/>
+<rect x="1246.0" y="200.0" width="386.0" height="28.0" fill="#e6f3ec" stroke="none" stroke-width="0" rx="0"/>
+<line x1="1246.0" y1="228.0" x2="1632.0" y2="228.0" stroke="#1f8a5b" stroke-width="2"/>
+<text x="1266.0" y="166.0" font-size="23" font-weight="800" fill="#1f8a5b" text-anchor="start">대개 비위험물이지만 확인</text>
+<text x="1266.0" y="200.0" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">근거 조건을 화주 서류로 남김</text>
+<text x="1268.0" y="270.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">엔진오일·윤활유</text>
+<text x="1268.0" y="298.0" font-size="15.5" font-weight="600" fill="#1f8a5b" text-anchor="start">국내는 제4류일 수 있음</text>
+<text x="1268.0" y="358.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">할로겐 램프</text>
+<text x="1268.0" y="386.0" font-size="15.5" font-weight="600" fill="#1f8a5b" text-anchor="start">IMDG 1.1.1.9</text>
+<text x="1268.0" y="446.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">형광등(수은)</text>
+<text x="1268.0" y="474.0" font-size="15.5" font-weight="600" fill="#1f8a5b" text-anchor="start">특별규정 366</text>
+<text x="1268.0" y="534.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">캡슐세제</text>
+<text x="1268.0" y="562.0" font-size="15.5" font-weight="600" fill="#1f8a5b" text-anchor="start">SDS 14항 확인</text>
+<text x="1268.0" y="622.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">소변기 탈취제</text>
+<text x="1268.0" y="650.0" font-size="15.5" font-weight="600" fill="#1f8a5b" text-anchor="start">성분 확인</text>
+</svg>

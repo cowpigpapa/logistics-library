@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">한 제품에 두 번 묻는다: 헤어스프레이의 예</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">두 질문은 근거 법도 다르고 답도 서로를 대신하지 못합니다. 제품 안전 인증은 위험물 분류와 별개입니다.</text>
+<rect x="60.0" y="330.0" width="260.0" height="280.0" fill="#f4f6f8" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="150.0" y="380.0" width="80.0" height="190.0" fill="#9fb4cc" stroke="#4a5d75" stroke-width="2.5" rx="14"/>
+<rect x="170.0" y="356.0" width="40.0" height="26.0" fill="#4a5d75" stroke="none" stroke-width="0" rx="4"/>
+<rect x="182.0" y="344.0" width="16.0" height="14.0" fill="#2b333b" stroke="none" stroke-width="0" rx="3"/>
+<text x="190.0" y="600.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">헤어스프레이(분사형)</text>
+<line x1="322.0" y1="420.0" x2="400.0" y2="260.0" stroke="#1f6fd1" stroke-width="3" marker-end="url(#a-blue)"/>
+<rect x="410.0" y="130.0" width="1222.0" height="250.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="426.0" y="167.8" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">질문 1  항공·해상 규칙에서 위험물인가</text>
+<text x="436.0" y="222.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">기준: 내용물의 성질(인화점, 가스 압력, 부식성, 배터리 종류와 Wh)</text>
+<text x="436.0" y="254.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">판매 경로나 국내 인증은 보지 않음</text>
+<rect x="436.0" y="288.0" width="1170.0" height="72.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="456.0" y="332.0" font-size="18.5" font-weight="800" fill="#1f6fd1" text-anchor="start">→ UN 1950 에어로졸 Class 2(2.1 또는 2.2). 캔 1,000mL 이하·무독성이면 해상 한정수량 가능</text>
+<line x1="322.0" y1="500.0" x2="400.0" y2="560.0" stroke="#e4572e" stroke-width="3" marker-end="url(#a-orange)"/>
+<rect x="410.0" y="410.0" width="1222.0" height="250.0" fill="#fdece6" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="426.0" y="447.9" font-size="23" font-weight="800" fill="#e4572e" text-anchor="start">질문 2  국내 창고·트럭 단계에서 어떤 법이 걸리나</text>
+<text x="436.0" y="502.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">위험물안전관리법: 가스는 유별이 없음(위험물 아님)</text>
+<text x="436.0" y="534.0" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">고압가스 안전관리법: 접합·납붙임용기 차량 운반 기준(시행규칙 별표 30)</text>
+<rect x="436.0" y="568.0" width="1170.0" height="72.0" fill="#ffffff" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="456.0" y="612.0" font-size="18.5" font-weight="800" fill="#e4572e" text-anchor="start">→ 차량 합산 저장능력 13kg 초과면 "위험고압가스" 경계표지·포장상자 표시 등 운반 기준</text>
+<line x1="190.0" y1="612.0" x2="190.0" y2="760.0" stroke="#8a96a3" stroke-width="3" stroke-dasharray="6 5"/>
+<rect x="60.0" y="760.0" width="1572.0" height="148.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="12"/>
+<text x="76.0" y="796.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">별개: 제품 안전 제도(화장품법, 화학제품안전법, 전기용품 및 생활용품 안전관리법)</text>
+<text x="76.0" y="827.2" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">화장품 표시, 안전확인 신고번호, KC 인증은 "소비자가 쓰기에 안전한가"를 묻습니다.</text>
+<text x="76.0" y="859.2" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">신고번호나 KC 마크가 있다는 사실은 항공·해상 분류에 아무 영향을 주지 않습니다.</text>
+</svg>

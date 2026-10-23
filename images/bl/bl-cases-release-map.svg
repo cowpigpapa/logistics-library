@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="520" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">해상: 원본 B/L과 바꾸지 않고 화물이 나간 경로</text>
+<rect x="60" y="120" width="240" height="80" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="180" y="154" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">운송인·선주</text>
+<text x="180" y="182" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">선장</text>
+<line x1="304" y1="160" x2="386" y2="160" stroke="#d9482b" stroke-width="3" marker-end="url(#a-red)"/>
+<rect x="390" y="120" width="240" height="80" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="510" y="154" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">선박대리점</text>
+<text x="510" y="182" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">Master D/O</text>
+<line x1="634" y1="160" x2="716" y2="160" stroke="#d9482b" stroke-width="3" marker-end="url(#a-red)"/>
+<rect x="720" y="120" width="240" height="80" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="840" y="154" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">도착지 포워더</text>
+<text x="840" y="182" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">House D/O</text>
+<line x1="964" y1="160" x2="1046" y2="160" stroke="#d9482b" stroke-width="3" marker-end="url(#a-red)"/>
+<rect x="1050" y="120" width="240" height="80" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="1170" y="154" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">보세창고·터미널</text>
+<text x="1170" y="182" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">반출</text>
+<line x1="1294" y1="160" x2="1376" y2="160" stroke="#d9482b" stroke-width="3" marker-end="url(#a-red)"/>
+<rect x="1380" y="120" width="240" height="80" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="1500" y="154" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">수입자</text>
+<text x="1500" y="182" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">원본 없이 수령</text>
+<rect x="1340" y="232" width="280" height="76" fill="#eef1f4" stroke="#9aa5b1" stroke-width="2" rx="10"/>
+<text x="1480" y="262" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">원본 B/L 소지인(은행 등)은</text>
+<text x="1480" y="288" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">화물을 받지 못함</text>
+<circle cx="76" cy="244" r="15" fill="#d9482b"/>
+<text x="76" y="250" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="100" y="250" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">L/G·위조 L/G: 운송인 책임</text>
+<circle cx="76" cy="280" r="15" fill="#d9482b"/>
+<text x="76" y="286" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="100" y="286" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">LOI 받고 지시한 선주 책임</text>
+<circle cx="76" cy="316" r="15" fill="#d9482b"/>
+<text x="76" y="322" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">11</text>
+<text x="100" y="322" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">원본 없는 인도는 자기 위험</text>
+<circle cx="76" cy="352" r="15" fill="#d9482b"/>
+<text x="76" y="358" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">12</text>
+<text x="100" y="358" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">핀 코드 제공 ≠ 인도</text>
+<circle cx="76" cy="388" r="15" fill="#1f8a5b"/>
+<text x="76" y="394" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="100" y="394" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">소지인이 승낙했으면 책임 없음</text>
+<circle cx="406" cy="244" r="15" fill="#1f8a5b"/>
+<text x="406" y="250" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="430" y="250" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">서렌더를 운송인에게 확인</text>
+<text x="430" y="278" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">→ 대리점 책임 없음</text>
+<circle cx="736" cy="244" r="15" fill="#d9482b"/>
+<text x="736" y="250" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="760" y="250" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">Master D/O 사본을 넘김</text>
+<text x="760" y="278" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">→ 포워더·대표이사 책임</text>
+<text x="760" y="302" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">보세창고 출고분도 포함</text>
+<text x="1090" y="244" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">창고가 B/L 확인 없이</text>
+<text x="1090" y="268" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">Master D/O만 보고 내준</text>
+<text x="1090" y="292" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">판례도 사례 7에 함께 수록</text>
+<rect x="56" y="420" width="1560" height="110" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="12"/>
+<text x="80" y="456" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">서류의 성질을 다툰 사건</text>
+<circle cx="96" cy="490" r="15" fill="#1f6fd1"/>
+<text x="96" y="496" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="120" y="496" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">서렌더 B/L: 유가증권 아님, 이면약관은 유효</text>
+<circle cx="636" cy="490" r="15" fill="#1f6fd1"/>
+<text x="636" y="496" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="660" y="496" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">기명식 B/L: 배서금지 문구가 있어야 배서 양도 불가</text>
+<circle cx="1216" cy="490" r="15" fill="#1f6fd1"/>
+<text x="1216" y="496" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">10</text>
+<text x="1240" y="496" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">기명식도 원본과 바꿔 인도</text>
+<rect x="30" y="572" width="790" height="338" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="614" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">항공: AWB</text>
+<rect x="60" y="650" width="220" height="70" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="170" y="692" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">운송취급인</text>
+<rect x="560" y="630" width="230" height="54" fill="#e2f3ea" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="675" y="664" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="middle">수하인(개설은행)</text>
+<rect x="560" y="700" width="230" height="54" fill="#fbe7e2" stroke="#d9482b" stroke-width="2" rx="10"/>
+<text x="675" y="734" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">통지처(수입자)</text>
+<line x1="284" y1="680" x2="552" y2="657" stroke="#1f8a5b" stroke-width="3" marker-end="url(#a-green)"/>
+<line x1="284" y1="690" x2="552" y2="727" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#a-red)"/>
+<text x="420" y="652" font-size="15" font-weight="700" fill="#1f8a5b" text-anchor="middle">인도할 상대</text>
+<text x="420" y="738" font-size="15" font-weight="700" fill="#d9482b" text-anchor="middle">사례 8에서 교부한 상대</text>
+<circle cx="76" cy="794" r="15" fill="#d9482b"/>
+<text x="76" y="800" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">8</text>
+<text x="100" y="800" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">통지처에게 AWB 교부 → 수하인 인도청구권 침해</text>
+<circle cx="76" cy="840" r="15" fill="#d9482b"/>
+<text x="76" y="846" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">9</text>
+<text x="100" y="846" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">원본 3부의 수하인이 다름 → 발행자 배상</text>
+<rect x="852" y="572" width="790" height="338" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="876" y="614" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">복합운송: 책임 구간과 기간</text>
+<circle cx="896" cy="664" r="15" fill="#6b4fa0"/>
+<text x="896" y="670" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">13</text>
+<text x="920" y="670" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">구간 불명 → 가장 긴 구간(해상) 규정</text>
+<text x="920" y="694" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">1년 제척기간, 인도되지 않았으면 &#x27;인도할 날&#x27;부터</text>
+<circle cx="896" cy="754" r="15" fill="#6b4fa0"/>
+<text x="896" y="760" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">14</text>
+<text x="920" y="760" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">육상 구간이 명백 → 복합운송증권 9개월 유효</text>
+<text x="920" y="784" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">구간 불명이면 육상 책임 소멸 규정(제146조) 부적용</text>
+<circle cx="890" cy="862" r="9" fill="#d9482b"/>
+<text x="906" y="868" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">책임 인정</text>
+<circle cx="1030" cy="862" r="9" fill="#1f8a5b"/>
+<text x="1046" y="868" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">책임 부정</text>
+<circle cx="1170" cy="862" r="9" fill="#1f6fd1"/>
+<text x="1186" y="868" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">서류의 성질</text>
+<circle cx="1330" cy="862" r="9" fill="#6b4fa0"/>
+<text x="1346" y="868" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">구간·기간</text>
+</svg>

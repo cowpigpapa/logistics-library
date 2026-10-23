@@ -20,6 +20,7 @@
 
 <h3>2. 반올림 규칙: 치수는 반올림, 중량은 0.5kg 올림</h3>
 <p>운임 중량은 세 번 반올림을 거칩니다. 치수를 정수로 만들고, 부피 중량을 소수 셋째 자리까지 계산한 다음, 실중량과 부피 중량을 각각 0.5kg 단위로 올립니다. 순서를 바꾸면 결과가 달라지므로 순서도 규칙의 일부입니다.</p>
+<figure class="lib-figure"><img src="/images/ch/ch-air-weight-rounding-steps.svg" alt="상자 1개(62.4 × 41.6 × 38.5cm, 9.3kg)의 운임 중량 계산 흐름. 위 줄은 치수를 62 × 42 × 39cm로 반올림해 부피 101,556cm³를 6,000으로 나눈 16.926kg을 17.0kg으로 올리고, 아래 줄은 실중량 9.3kg을 9.5kg으로 올려 큰 값 17.0kg이 운임 중량이 된다. 아래에 치수·중량 반올림 규칙과 치수를 모두 올림했을 때 17.5kg이 되는 실수를 함께 보인다." loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>도해</span> 운임 중량은 치수 반올림, 부피 중량 계산, 0.5kg 올림 순서로 구합니다. 7절 예시 1의 숫자로 그렸고, 치수를 모두 올림하면 17.5kg이 되어 운임이 커집니다.</figcaption></figure>
 <table class="lib-table">
 <thead><tr><th>단계</th><th>규칙</th><th>예</th></tr></thead>
 <tbody>
@@ -75,6 +76,7 @@
 <h3>5. 높은 구간이 더 싸면 높은 구간: 분기점 계산</h3>
 <p class="lib-disclaimer">아래 요율은 구조를 보여 주려고 만든 예시 금액입니다. 요율은 항공사·포워더마다 다르고 수시로 바뀌므로, 실제 견적과 청구는 해당 항공사나 업체의 공식 요율표를 확인하십시오.</p>
 <p>중량 구간 요율은 구간이 올라갈수록 kg당 요율이 내려가므로, 다음 구간 바로 아래의 화물은 다음 구간의 최저 중량으로 계산하는 편이 오히려 쌀 수 있습니다. TACT 교재는 995kg 화물을 예로 들어 Q500 요율(995kg × AUD 2.10 = AUD 2,089.50)과 Q1000 요율(1,000kg × AUD 1.85 = AUD 1,850.00)을 비교하고, 더 낮은 금액인 1,000kg × 1.85를 적용한다고 설명합니다. 이때 AWB의 운임 중량은 실제 계산 중량 995kg이 아니라 적용한 구간의 최저 중량 1,000kg이 됩니다.</p>
+<figure class="lib-figure"><img src="/images/ch/ch-air-weight-break-points.svg" alt="5절 예시 요율표로 운임 중량에 따라 실제로 내는 운임을 그린 꺾은선. 0~110kg에서는 12.0kg부터 N, 34.0kg부터 45kg, 84.5kg부터 100kg으로 계산해 평평한 구간이 생기고, 0~1,100kg에서는 261.0kg부터 300kg, 455.0kg부터 500kg, 900kg을 넘으면 1,000kg으로 계산한다. 예시 3의 270kg 화물은 300kg × 3,300원 = 990,000원이 적용된다." loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>도해</span> 예시 요율표(실제 요율 아님)로 그린 운임 곡선입니다. 분기점을 넘으면 다음 구간의 최저 중량으로 계산한 금액이 더 싸서 운임이 평평해지고, 그동안 AWB 운임 중량은 그 구간의 최저 중량으로 적힙니다.</figcaption></figure>
 <p>어느 중량부터 높은 구간이 유리한지는 분기점(break point)으로 미리 계산할 수 있습니다. 공식은 "높은 구간의 최저 중량 × 높은 구간 요율 ÷ 낮은 구간 요율"이고, 결과를 0.5kg 단위로 올린 값부터 높은 구간을 적용합니다. 최소 운임과 기본 요율 사이도 같은 방식으로 "최소 운임 ÷ N 요율"을 계산합니다. 아래는 계산을 보이기 위한 예시 요율표입니다(원/kg, 할증료 별도, 실제 요율 아님).</p>
 <table class="lib-table">
 <thead><tr><th>구간</th><th>예시 요율</th><th>분기점 계산</th><th>결과</th></tr></thead>
@@ -174,6 +176,7 @@
 
 <h3>8. 혼재: House 운임 중량과 Master 운임 중량</h3>
 <p>포워더가 여러 화주의 화물을 모아 항공사에 한 건으로 맡기면(혼재, consolidation) 항공사는 Master AWB 한 장을 발행하고 포워더는 화주마다 House AWB를 발행합니다. 운임 중량도 두 층으로 계산됩니다. House AWB는 그 화주 화물만으로, Master AWB는 혼재 화물 전체를 한 건으로 보고 계산합니다. CTA 견본 약관은 "한 건(shipment)"을 한 송하인이 한 번에 맡겨 "한 AWB로 운송되는" 한 개 이상의 화물로 정의하고, 3절의 TACT 규칙대로 여러 개 화물은 총실중량과 총부피 중량을 비교합니다. 그래서 Master에서는 무거운 화물의 남는 무게 여유가 가벼운 화물의 부피를 흡수합니다.</p>
+<figure class="lib-figure"><img src="/images/ch/ch-air-weight-house-master.svg" alt="세 화주 혼재의 운임 중량 비교 막대. House는 H1 기계 부품 실중량 180.0kg(부피 중량 40.0kg), H2 쿠션 부피 중량 400.0kg(실중량 60.0kg), H3 샘플 12.0kg을 각각 골라 합계 592.0kg이고, Master는 총실중량 252.0kg과 총부피 중량 452.0kg 가운데 452.0kg이다. 차이 140kg은 H1의 실중량과 부피 중량의 차이와 같다." loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>도해</span> 8절 예시 4를 막대로 비교했습니다. House는 화주마다 큰 값을 골라 더하고 Master는 전체를 더한 뒤 큰 값을 고르므로, 무거운 화물과 가벼운 화물이 섞이면 Master가 작아집니다.</figcaption></figure>
 <h4>예시 4. 세 화주의 혼재</h4>
 <table class="lib-table">
 <thead><tr><th>House</th><th>화물(패킹리스트)</th><th>실중량</th><th>부피</th><th>부피 중량</th><th>House 운임 중량</th></tr></thead>

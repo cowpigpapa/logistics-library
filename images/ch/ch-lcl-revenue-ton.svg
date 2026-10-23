@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<!-- top band -->
+<rect x="30" y="30" width="1612" height="168" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56" y="74" font-size="26" font-weight="800" fill="#1d2a3a">운임톤(R/T): 용적과 중량을 각각 R/T로 바꿔 큰 쪽, 최소 1 R/T</text>
+<rect x="56" y="98" width="380" height="56" rx="10" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="246" y="134" font-size="22" font-weight="700" fill="#1f6fd1" text-anchor="middle">용적 R/T = 총 CBM</text>
+<rect x="456" y="98" width="470" height="56" rx="10" fill="#e6f4ed" stroke="#1f8a5b" stroke-width="2"/>
+<text x="691" y="134" font-size="22" font-weight="700" fill="#1f8a5b" text-anchor="middle">중량 R/T = 총중량(kg) ÷ 1,000</text>
+<rect x="946" y="98" width="670" height="56" rx="10" fill="#fdecea" stroke="#d9482b" stroke-width="2"/>
+<text x="1281" y="134" font-size="22" font-weight="700" fill="#d9482b" text-anchor="middle">청구 R/T = 둘 중 큰 값(최소 R/T보다 작으면 최소)</text>
+<text x="56" y="184" font-size="18" font-weight="500" fill="#5f6b78">해상운임 USD 25/R/T는 계산을 보여 주려고 정한 가상의 요율입니다. CBM은 소수 셋째 자리까지 반올림했습니다.</text>
+
+<!-- ===== Panel 1 ===== -->
+<g transform="translate(30,218)">
+<rect x="0" y="0" width="520" height="692" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="24" y="44" font-size="26" font-weight="800" fill="#1d2a3a">예시 1 · 가벼운 화물</text>
+<text x="24" y="80" font-size="20" font-weight="500" fill="#5f6b78">박스 0.60 × 0.40 × 0.50m, 20개, 개당 8kg</text>
+<text x="24" y="116" font-size="20" font-weight="600" fill="#1f6fd1">용적 0.120CBM × 20 = 2.400</text>
+<text x="24" y="146" font-size="20" font-weight="600" fill="#1f8a5b">중량 160kg ÷ 1,000 = 0.160</text>
+<!-- legend -->
+<line x1="300" y1="208" x2="350" y2="208" stroke="#e4572e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="360" y="214" font-size="18" font-weight="600" fill="#e4572e">최소 1 R/T</text>
+<!-- chart baseline 542 (abs 760), 100px per R/T -->
+<line x1="40" y1="542" x2="480" y2="542" stroke="#1d2a3a" stroke-width="2"/>
+<rect x="70" y="302" width="100" height="240" fill="#1f6fd1"/>
+<text x="120" y="292" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">2.400</text>
+<rect x="210" y="526" width="100" height="16" fill="#cfe9dc" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="260" y="516" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">0.160</text>
+<rect x="350" y="302" width="100" height="240" fill="#d9482b"/>
+<text x="400" y="292" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">2.400</text>
+<line x1="40" y1="442" x2="480" y2="442" stroke="#e4572e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="120" y="570" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">용적</text>
+<text x="260" y="570" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">중량</text>
+<text x="400" y="570" font-size="20" font-weight="700" fill="#d9482b" text-anchor="middle">청구</text>
+<rect x="24" y="592" width="472" height="80" rx="10" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="260" y="626" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">청구 2.400 R/T (용적 기준)</text>
+<text x="260" y="658" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="middle">USD 25 × 2.400 = USD 60.00</text>
+</g>
+
+<!-- ===== Panel 2 ===== -->
+<g transform="translate(576,218)">
+<rect x="0" y="0" width="520" height="692" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="24" y="44" font-size="26" font-weight="800" fill="#1d2a3a">예시 2 · 무거운 화물</text>
+<text x="24" y="80" font-size="20" font-weight="500" fill="#5f6b78">팔레트 포함 1.00 × 0.80 × 0.60m, 2개, 개당 900kg</text>
+<text x="24" y="116" font-size="20" font-weight="600" fill="#1f6fd1">용적 0.480CBM × 2 = 0.960</text>
+<text x="24" y="146" font-size="20" font-weight="600" fill="#1f8a5b">중량 1,800kg ÷ 1,000 = 1.800</text>
+<line x1="300" y1="208" x2="350" y2="208" stroke="#e4572e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="360" y="214" font-size="18" font-weight="600" fill="#e4572e">최소 1 R/T</text>
+<line x1="40" y1="542" x2="480" y2="542" stroke="#1d2a3a" stroke-width="2"/>
+<rect x="70" y="446" width="100" height="96" fill="#cfe0f6" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="120" y="478" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">0.960</text>
+<rect x="210" y="362" width="100" height="180" fill="#1f8a5b"/>
+<text x="260" y="352" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">1.800</text>
+<rect x="350" y="362" width="100" height="180" fill="#d9482b"/>
+<text x="400" y="352" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">1.800</text>
+<line x1="40" y1="442" x2="480" y2="442" stroke="#e4572e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="120" y="570" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">용적</text>
+<text x="260" y="570" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">중량</text>
+<text x="400" y="570" font-size="20" font-weight="700" fill="#d9482b" text-anchor="middle">청구</text>
+<rect x="24" y="592" width="472" height="80" rx="10" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="260" y="626" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">청구 1.800 R/T (중량 기준)</text>
+<text x="260" y="658" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="middle">USD 45.00 (용적으로만 셌다면 USD 24.00)</text>
+</g>
+
+<!-- ===== Panel 3 ===== -->
+<g transform="translate(1122,218)">
+<rect x="0" y="0" width="520" height="692" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="24" y="44" font-size="26" font-weight="800" fill="#1d2a3a">참고 · 최소 R/T에 걸리는 화물</text>
+<text x="24" y="80" font-size="20" font-weight="500" fill="#5f6b78">박스 0.50 × 0.40 × 0.30m, 3개, 총 45kg</text>
+<text x="24" y="116" font-size="20" font-weight="600" fill="#1f6fd1">용적 0.060CBM × 3 = 0.180</text>
+<text x="24" y="146" font-size="20" font-weight="600" fill="#1f8a5b">중량 45kg ÷ 1,000 = 0.045</text>
+<line x1="300" y1="208" x2="350" y2="208" stroke="#e4572e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="360" y="214" font-size="18" font-weight="600" fill="#e4572e">최소 1 R/T</text>
+<line x1="40" y1="542" x2="480" y2="542" stroke="#1d2a3a" stroke-width="2"/>
+<rect x="70" y="524" width="100" height="18" fill="#cfe0f6" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="120" y="512" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">0.180</text>
+<rect x="210" y="537" width="100" height="5" fill="#cfe9dc" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="260" y="526" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">0.045</text>
+<rect x="350" y="442" width="100" height="100" fill="#d9482b"/>
+<text x="400" y="432" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">1</text>
+<line x1="40" y1="442" x2="480" y2="442" stroke="#e4572e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="120" y="570" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">용적</text>
+<text x="260" y="570" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">중량</text>
+<text x="400" y="570" font-size="20" font-weight="700" fill="#d9482b" text-anchor="middle">청구</text>
+<rect x="24" y="592" width="472" height="80" rx="10" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="260" y="626" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">청구 1 R/T (최소 적용)</text>
+<text x="260" y="658" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="middle">USD 25 × 1 = USD 25.00</text>
+</g>
+</svg>

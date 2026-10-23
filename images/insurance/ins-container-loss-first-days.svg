@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">내 컨테이너가 유실 명단에 올랐을 때: 첫 며칠</text>
+<rect x="56" y="96" width="360" height="150" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="72" y="132" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">선사 고객 공지</text>
+<text x="72" y="164" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">선박·항차, 사고 개요</text>
+<text x="72" y="189" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">피난항·기항 변경</text>
+<text x="72" y="214" font-size="18" font-weight="500" fill="#d9482b" text-anchor="start">내 B/L 운송인의 공지가 기준</text>
+<line x1="420" y1="171" x2="480" y2="171" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="484" y="96" width="360" height="150" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="500" y="132" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">개별 통지</text>
+<text x="500" y="164" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">해당 컨테이너가 확인되면</text>
+<text x="500" y="189" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">B/L 운송인이 화주·포워더에게</text>
+<text x="500" y="214" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">공동운항은 운항 선사와 다를 수 있음</text>
+<rect x="900" y="96" width="716" height="150" fill="#fbe7e2" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="924" y="136" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">첫 명단은 바뀔 수 있음</text>
+<text x="924" y="172" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">피난항 양하가 끝나 최종 확인이 나올 때까지</text>
+<text x="924" y="198" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">유실·손상·무사를 확정된 사실로 다루지 않음</text>
+<text x="924" y="224" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">MAERSK ESSEN: 약 215개 → 다음 날 732개 → 양하 뒤 689개</text>
+<rect x="56" y="270" width="1560" height="250" fill="#f5f9fe" rx="14"/>
+<text x="80" y="306" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">포워더(서류로)</text>
+<rect x="80" y="324" width="370" height="180" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="96" y="359" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">번호 대조</text>
+<text x="96" y="390" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">B/L·적재화물목록·VGM의</text>
+<text x="96" y="415" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너 번호를 한 자리씩,</text>
+<text x="96" y="440" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">체크 디지트까지</text>
+<rect x="464" y="324" width="370" height="180" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="480" y="359" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">혼재(LCL)면</text>
+<text x="480" y="390" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">그 안의 House B/L과</text>
+<text x="480" y="415" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">화주·수하인 목록을 뽑아</text>
+<text x="480" y="440" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">각자에게 알림</text>
+<rect x="848" y="324" width="370" height="180" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="864" y="359" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">통지</text>
+<text x="864" y="390" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">실제운송인(선사)과</text>
+<text x="864" y="415" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">자기 배상책임보험사에</text>
+<text x="864" y="440" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">바로 통지</text>
+<rect x="1232" y="324" width="370" height="180" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="1248" y="359" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">하지 않을 것</text>
+<text x="1248" y="390" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">책임 인정이나</text>
+<text x="1248" y="415" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">합의 제안</text>
+<text x="1248" y="440" font-size="18" font-weight="500" fill="#d9482b" text-anchor="start">첫 명단을 확정처럼 전달</text>
+<rect x="56" y="536" width="1560" height="250" fill="#f4fbf7" rx="14"/>
+<text x="80" y="572" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">화주(피보험자)</text>
+<rect x="80" y="590" width="370" height="180" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="96" y="625" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">적하보험 통지</text>
+<text x="96" y="656" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">보험사 또는 증권의</text>
+<text x="96" y="681" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">클레임 대리인에게 지체 없이</text>
+<text x="96" y="706" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">늦어 늘어난 손해는 보상 안 함</text>
+<rect x="464" y="590" width="370" height="180" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="480" y="625" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">운송인 서면 통지</text>
+<text x="480" y="656" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">손해 통지·청구 의사</text>
+<text x="480" y="681" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">(Notice of Claim)</text>
+<text x="480" y="706" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">1년 기간 관리의 출발점</text>
+<rect x="848" y="590" width="370" height="180" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="864" y="625" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">서류 모으기</text>
+<text x="864" y="656" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">송장·패킹리스트·B/L(이면약관)</text>
+<text x="864" y="681" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">수출신고필증·VGM·적입 사진</text>
+<text x="864" y="706" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">보험증권·선사 유실 확인</text>
+<rect x="1232" y="590" width="370" height="180" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1248" y="625" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">매매 상대방</text>
+<text x="1248" y="656" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">사고를 알리고</text>
+<text x="1248" y="681" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">대체 선적·결제 조건 협의</text>
+<text x="1248" y="706" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">위험 부담은 매매 조건에 따름</text>
+<rect x="56" y="806" width="1560" height="80" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="836" y="856" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">유실은 검정할 화물이 없으므로 서류가 곧 증거입니다</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >House 운임 중량 합계와 Master 운임 중량 (8절 예시 4: 세 화주의 혼재)</text>
+<rect x="30" y="80" width="1612" height="470" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="118" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start" >House AWB: 화주마다 따로 계산</text>
+<text x="1500" y="118" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >House 운임 중량</text>
+<text x="54" y="170" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start" >H1 기계 부품</text>
+<text x="54" y="196" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start" >4상자, 개당 45kg</text>
+<rect x="380" y="144" width="270.0" height="30" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="3" rx="4" />
+<text x="660.0" y="167" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start" >180.0kg</text>
+<text x="366" y="167" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="end" >실중량</text>
+<rect x="380" y="182" width="60.0" height="30" fill="#f3f6f8" stroke="#1f6fd1" stroke-width="2" rx="4" />
+<text x="450.0" y="205" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >40.0kg</text>
+<text x="366" y="205" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="end" >부피 중량</text>
+<rect x="1400" y="150" width="200" height="56" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<text x="1500.0" y="186.6" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="middle">180.0kg</text>
+<text x="54" y="288" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start" >H2 쿠션</text>
+<text x="54" y="314" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start" >10상자, 개당 6kg</text>
+<rect x="380" y="262" width="90.0" height="30" fill="#f3f6f8" stroke="#1f8a5b" stroke-width="2" rx="4" />
+<text x="480.0" y="285" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >60.0kg</text>
+<text x="366" y="285" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="end" >실중량</text>
+<rect x="380" y="300" width="600.0" height="30" fill="#e2edfb" stroke="#1f6fd1" stroke-width="3" rx="4" />
+<text x="990.0" y="323" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >400.0kg</text>
+<text x="366" y="323" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="end" >부피 중량</text>
+<rect x="1400" y="268" width="200" height="56" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<text x="1500.0" y="304.6" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="middle">400.0kg</text>
+<text x="54" y="406" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start" >H3 샘플</text>
+<text x="54" y="432" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start" >2상자, 개당 6kg</text>
+<rect x="380" y="380" width="18.0" height="30" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="3" rx="4" />
+<text x="408.0" y="403" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start" >12.0kg</text>
+<text x="366" y="403" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="end" >실중량</text>
+<rect x="380" y="418" width="18.0" height="30" fill="#e2edfb" stroke="#1f6fd1" stroke-width="2" rx="4" />
+<text x="408.0" y="441" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >12.0kg</text>
+<text x="366" y="441" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="end" >부피 중량</text>
+<rect x="1400" y="386" width="200" height="56" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="10" />
+<text x="1500.0" y="422.6" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="middle">12.0kg</text>
+<line x1="1400" y1="488" x2="1600" y2="488" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1500" y="522" font-size="24" font-weight="800" fill="#d9482b" text-anchor="middle" >합계 592.0kg</text>
+<text x="54" y="522" font-size="20" font-weight="700" fill="#5f6b78" text-anchor="start" >큰 값을 화주마다 골라 더한다</text>
+<rect x="30" y="570" width="1612" height="340" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="608" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start" >Master AWB: 혼재 화물 전체를 한 건으로 계산</text>
+<text x="1500" y="608" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >Master 운임 중량</text>
+<rect x="380" y="628" width="378.0" height="30" fill="#f3f6f8" stroke="#1f8a5b" stroke-width="2" rx="4" />
+<text x="768.0" y="651" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >252.0kg</text>
+<text x="366" y="651" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="end" >총실중량</text>
+<rect x="380" y="666" width="678.0" height="30" fill="#e2edfb" stroke="#1f6fd1" stroke-width="3" rx="4" />
+<text x="1068.0" y="689" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start" >452.0kg</text>
+<text x="366" y="689" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="end" >총부피 중량</text>
+<text x="54" y="660" font-size="20" font-weight="700" fill="#5f6b78" text-anchor="start" >252.0kg vs 452.0kg</text>
+<text x="54" y="686" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start" >(2,712,000 ÷ 6,000)</text>
+<rect x="1400" y="632" width="200" height="56" fill="#fff6f3" stroke="#d9482b" stroke-width="3" rx="10" />
+<text x="1500.0" y="668.6" font-size="24" font-weight="800" fill="#d9482b" text-anchor="middle">452.0kg</text>
+<text x="366" y="766" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end" >House 합계</text>
+<rect x="380" y="740" width="270.0" height="36" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="2" rx="0" />
+<text x="515.0" y="766" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="middle" >H1 180</text>
+<rect x="650.0" y="740" width="600.0" height="36" fill="#e2edfb" stroke="#1f6fd1" stroke-width="2" rx="0" />
+<text x="950.0" y="766" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle" >H2 400</text>
+<rect x="1250.0" y="740" width="18.0" height="36" fill="#e2edfb" stroke="#1f6fd1" stroke-width="2" rx="0" />
+<text x="1278.0" y="766" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start" >592.0kg</text>
+<text x="366" y="826" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end" >Master</text>
+<rect x="380" y="800" width="678.0" height="36" fill="#fff6f3" stroke="#d9482b" stroke-width="3" rx="0" />
+<text x="719.0" y="826" font-size="19" font-weight="800" fill="#d9482b" text-anchor="middle" >452.0kg</text>
+<rect x="1058.0" y="800" width="210.0" height="36" fill="none" stroke="#d9482b" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="1163.0" y="826" font-size="19" font-weight="800" fill="#d9482b" text-anchor="middle" >−140kg</text>
+<text x="1284.0" y="816" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >= H1의 실중량 180kg − 부피 중량 40kg</text>
+<text x="1284.0" y="842" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start" >H1의 남는 무게 여유를 H2의 부피가 채운 몫</text>
+<text x="54" y="890" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >같은 규칙으로 계산하면 Master 운임 중량은 House 합계보다 클 수 없다. 화주에게는 그 화주 House AWB의 값을 청구한다.</text>
+</svg>

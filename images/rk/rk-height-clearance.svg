@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1090" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">육교 한 곳을 지날 수 있나: 2절 계산 예시 (단위 mm)</text>
+<line x1="60" y1="860" x2="1090" y2="860" stroke="#1d2a3a" stroke-width="3"/>
+<rect x="60" y="281.0" width="760" height="50" fill="#d7dde5" stroke="#7d8da3" stroke-width="2.5" rx="2"/>
+<text x="440" y="313.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">육교: 실제 높이 4,600 (표지 4.4m)</text>
+<line x1="60" y1="342.5" x2="820" y2="342.5" stroke="#1f8a5b" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M820 342.5 L832 377.0" stroke="#1f8a5b" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="838" y="383.0" font-size="15" font-weight="700" fill="#1f8a5b" text-anchor="start">속도 제한 등 조치 시 허가 4,500 (−100)</text>
+<line x1="60" y1="354.0" x2="820" y2="354.0" stroke="#1f6fd1" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M820 354.0 L832 409.0" stroke="#1f6fd1" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="838" y="415.0" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="start">허가 가능 4,400 (−200) = 표지값</text>
+<line x1="60" y1="400.0" x2="820" y2="400.0" stroke="#5f6b78" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M820 400.0 L832 449.0" stroke="#5f6b78" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="838" y="455.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">운행허가 기준 4,000</text>
+<text x="838" y="313.0" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">← 실제 높이 기준</text>
+<rect x="115.0" y="687.5" width="170" height="146.5" fill="#dfe4ea" stroke="#8a96a3" stroke-width="2" rx="3"/>
+<circle cx="145.0" cy="838" r="22" fill="#3b4552"/>
+<circle cx="255.0" cy="838" r="22" fill="#3b4552"/>
+<rect x="150" y="676.0" width="24" height="11.5" fill="#b07a43"/>
+<rect x="226" y="676.0" width="24" height="11.5" fill="#b07a43"/>
+<rect x="129.0" y="308.0" width="142" height="368.0" fill="#fdeee9" stroke="#d9482b" stroke-width="3" rx="6"/>
+<text x="200" y="499.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">굴착기 3,200</text>
+<text x="200" y="779.75" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">평판 1,500</text>
+<text x="300" y="428.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">평판 트레일러</text>
+<text x="300" y="456.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">4,800</text>
+<text x="300" y="484.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">4,600도 넘음</text>
+<text x="300" y="512.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">→ 통과 불가</text>
+<rect x="525.0" y="756.5" width="170" height="77.5" fill="#dfe4ea" stroke="#8a96a3" stroke-width="2" rx="3"/>
+<circle cx="555.0" cy="838" r="22" fill="#3b4552"/>
+<circle cx="665.0" cy="838" r="22" fill="#3b4552"/>
+<rect x="560" y="745.0" width="24" height="11.5" fill="#b07a43"/>
+<rect x="636" y="745.0" width="24" height="11.5" fill="#b07a43"/>
+<rect x="539.0" y="377.0" width="142" height="368.0" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="3" rx="6"/>
+<text x="610" y="568.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="middle">굴착기 3,200</text>
+<text x="610" y="818.25" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">저상 900</text>
+<text x="740" y="520" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start">저상 트레일러</text>
+<text x="740" y="548" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start">4,200</text>
+<text x="740" y="576" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start">4,400 이하</text>
+<line x1="720" y1="377.0" x2="720" y2="331.0" stroke="#1f8a5b" stroke-width="2.5" marker-end="url(#m1f8a5b)" marker-start="url(#m1f8a5b)"/>
+<text x="732" y="371.0" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">여유 400</text>
+<text x="420" y="840" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">받침목 100</text>
+<text x="80" y="140" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">적재 높이 = 데크 높이 + 받침목 + 화물 높이</text>
+<text x="80" y="170" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">트레일러만 바꿔도 600 차이. 데크 높이는 운송사에게 배차 장비 값을 받음</text>
+<text x="80" y="200" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">표지값이 맞다는 전제이므로 서베이로 실측 확인. 같은 경로의 통신선(실측 4,600)도 여유 400</text>
+<rect x="1140" y="30" width="502" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="1164" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">여유를 줄이는 것</text>
+<rect x="1164" y="100" width="454" height="116" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="1184" y="136" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">노면 덧씌우기</text>
+<text x="1184" y="170" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">덧씌우기로 노면이 10~20cm 높아져 실제 통과 높이가</text>
+<text x="1184" y="195" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">줄어듦 (1994 종암동 육교 보도)</text>
+<rect x="1164" y="232" width="454" height="116" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="1184" y="268" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">주행 중 튀어오름</text>
+<text x="1184" y="302" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">요철에서 트레일러가 10여cm 튀어올라 충돌한 것으로</text>
+<text x="1184" y="327" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">경찰이 봄 (같은 사고)</text>
+<rect x="1164" y="364" width="454" height="116" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="1184" y="400" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">차로마다 다른 높이</text>
+<text x="1184" y="434" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">아치·트러스 교량은 차로 안에서도 높이가 다름 (2013</text>
+<text x="1184" y="459" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">Skagit River, NTSB)</text>
+<rect x="1164" y="496" width="454" height="91" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="1184" y="532" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">잘못 잰 화물 높이</text>
+<text x="1184" y="566" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">기사가 잰 15ft 9in, NTSB가 잰 15ft 11in (같은 사고)</text>
+<rect x="1164" y="603" width="454" height="116" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="1184" y="639" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">표지가 없는 곳</text>
+<text x="1184" y="673" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">차높이 제한 표지는 4.7m 미만 구조물에만 둠. 통신선</text>
+<text x="1184" y="698" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">법정 최저 높이는 4.5m</text>
+</svg>

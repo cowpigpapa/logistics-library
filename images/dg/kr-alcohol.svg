@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+<marker id="a-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a00"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="58.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">알코올 수용액: 두 기준은 단위부터 다릅니다</text>
+<text x="40.0" y="94.0" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">UN은 부피퍼센트와 인화점, 위험물안전관리법은 중량퍼센트로 봅니다. 두 눈금은 같은 값이 아닙니다.</text>
+<text x="40.0" y="220.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">국제 운송</text>
+<text x="40.0" y="248.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">UN 모델 규정 (부피%)</text>
+<rect x="330.0" y="180.0" width="302.4" height="90.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="0"/>
+<text x="481.2" y="218.0" font-size="17.5" font-weight="700" fill="#1f8a5b" text-anchor="middle">24부피% 이하</text>
+<text x="481.2" y="244.0" font-size="17.5" font-weight="700" fill="#1f8a5b" text-anchor="middle">적용 제외(특별규정 144)</text>
+<rect x="632.4" y="180.0" width="957.6" height="90.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="0"/>
+<text x="1111.2" y="218.0" font-size="17.5" font-weight="700" fill="#1f6fd1" text-anchor="middle">24부피% 초과: 인화점 60℃ 이하이면 Class 3</text>
+<text x="1111.2" y="244.0" font-size="17.5" font-weight="700" fill="#1f6fd1" text-anchor="middle">주류는 UN 3065. PG Ⅲ는 250L 이하 용기면 항공 외 적용 제외(특별규정 145)</text>
+<line x1="330.0" y1="292.0" x2="1590.0" y2="292.0" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="330.0" y1="285.0" x2="330.0" y2="299.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="330.0" y="322.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">0</text>
+<line x1="582.0" y1="285.0" x2="582.0" y2="299.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="582.0" y="322.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">20</text>
+<line x1="834.0" y1="285.0" x2="834.0" y2="299.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="834.0" y="322.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">40</text>
+<line x1="1086.0" y1="285.0" x2="1086.0" y2="299.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1086.0" y="322.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">60</text>
+<line x1="1338.0" y1="285.0" x2="1338.0" y2="299.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1338.0" y="322.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">80</text>
+<line x1="1590.0" y1="285.0" x2="1590.0" y2="299.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1590.0" y="322.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">100</text>
+<line x1="632.4" y1="166.0" x2="632.4" y2="299.0" stroke="#d9482b" stroke-width="3"/>
+<text x="632.4" y="158.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">24부피%</text>
+<text x="40.0" y="490.0" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">국내 창고</text>
+<text x="40.0" y="518.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">위험물안전관리법 (중량%)</text>
+<rect x="330.0" y="450.0" width="756.0" height="90.0" fill="#e6f3ec" stroke="#1f8a5b" stroke-width="2.5" rx="0"/>
+<text x="708.0" y="488.0" font-size="17.5" font-weight="700" fill="#1f8a5b" text-anchor="middle">60중량% 미만 수용액은</text>
+<text x="708.0" y="514.0" font-size="17.5" font-weight="700" fill="#1f8a5b" text-anchor="middle">"알코올류"에서 제외</text>
+<rect x="1086.0" y="450.0" width="504.0" height="90.0" fill="#fdece6" stroke="#e4572e" stroke-width="2.5" rx="0"/>
+<text x="1338.0" y="488.0" font-size="17.5" font-weight="700" fill="#e4572e" text-anchor="middle">60중량% 이상: 제4류 알코올류</text>
+<text x="1338.0" y="514.0" font-size="17.5" font-weight="700" fill="#e4572e" text-anchor="middle">(지정수량 400L)</text>
+<line x1="330.0" y1="562.0" x2="1590.0" y2="562.0" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="330.0" y1="555.0" x2="330.0" y2="569.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="330.0" y="592.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">0</text>
+<line x1="582.0" y1="555.0" x2="582.0" y2="569.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="582.0" y="592.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">20</text>
+<line x1="834.0" y1="555.0" x2="834.0" y2="569.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="834.0" y="592.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">40</text>
+<line x1="1086.0" y1="555.0" x2="1086.0" y2="569.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1086.0" y="592.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">60</text>
+<line x1="1338.0" y1="555.0" x2="1338.0" y2="569.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1338.0" y="592.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">80</text>
+<line x1="1590.0" y1="555.0" x2="1590.0" y2="569.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1590.0" y="592.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">100</text>
+<line x1="1086.0" y1="436.0" x2="1086.0" y2="569.0" stroke="#d9482b" stroke-width="3"/>
+<text x="1086.0" y="428.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">60중량%</text>
+<rect x="40.0" y="700.0" width="1592.0" height="160.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="64.0" y="745.9" font-size="23" font-weight="800" fill="#d9482b" text-anchor="start">두 기준 사이에 있는 수용액(대략 24부피% 초과 ~ 60중량% 미만)</text>
+<text x="64.0" y="779.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">인화점에 따라 국제 운송에서는 Class 3일 수 있지만 국내 "알코올류"에는 해당하지 않습니다.</text>
+<text x="64.0" y="819.8" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">알코올류에서 빠진 수용액이 인화점에 따라 다른 품명(석유류)이 되는지는 판정 시험 결과나 관할 소방서 확인을 받으십시오.</text>
+</svg>

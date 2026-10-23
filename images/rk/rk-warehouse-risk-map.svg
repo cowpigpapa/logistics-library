@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">창고 사고는 어디서 나나: 입고 · 보관 · 출고 (1절)</text>
+<rect x="40" y="90" width="380" height="810" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="16"/>
+<text x="230.0" y="134" font-size="28" font-weight="800" fill="#1f6fd1" text-anchor="middle">입고</text>
+<rect x="60.0" y="166" width="340.0" height="330" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="78.0" y="204" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">입고 수량 차이</text>
+<text x="78.0" y="240" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">패킹리스트 대조 생략, 파손 박스 그대로</text>
+<text x="78.0" y="265" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">인수</text>
+<text x="78.0" y="304" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">먼저 막을 사람</text>
+<text x="78.0" y="330" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">창고 작업자(검수), 기사(인수증 기재)</text>
+<rect x="470" y="90" width="720" height="810" fill="#fbf3e2" stroke="#c98a12" stroke-width="2.5" rx="16"/>
+<text x="830.0" y="134" font-size="28" font-weight="800" fill="#c98a12" text-anchor="middle">보관</text>
+<rect x="490.0" y="166" width="330.0" height="330" fill="#ffffff" stroke="#c98a12" stroke-width="2" rx="12"/>
+<text x="508.0" y="204" font-size="21" font-weight="800" fill="#c98a12" text-anchor="start">내부자 발하</text>
+<text x="508.0" y="240" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">고가품 일반 랙 보관, 출입 권한 관리</text>
+<text x="508.0" y="265" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">부실, 실사 간격이 김</text>
+<text x="508.0" y="304" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">먼저 막을 사람</text>
+<text x="508.0" y="330" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">창고 운영자</text>
+<rect x="840.0" y="166" width="330.0" height="330" fill="#ffffff" stroke="#c98a12" stroke-width="2" rx="12"/>
+<text x="858.0" y="204" font-size="21" font-weight="800" fill="#c98a12" text-anchor="start">야간 침입 도난</text>
+<text x="858.0" y="240" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">경보 없음, 조명·CCTV 사각, 도크 문</text>
+<text x="858.0" y="265" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">잠금 누락</text>
+<text x="858.0" y="304" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">먼저 막을 사람</text>
+<text x="858.0" y="330" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">창고 운영자</text>
+<rect x="490.0" y="526" width="330.0" height="330" fill="#ffffff" stroke="#c98a12" stroke-width="2" rx="12"/>
+<text x="508.0" y="564" font-size="21" font-weight="800" fill="#c98a12" text-anchor="start">야적 중 젖음·녹·변색</text>
+<text x="508.0" y="600" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">야적하면 안 되는 품목, 받침·덮개·배수</text>
+<text x="508.0" y="625" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">불량</text>
+<text x="508.0" y="664" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">먼저 막을 사람</text>
+<text x="508.0" y="690" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">창고 운영자, 화주(고지)</text>
+<rect x="840.0" y="526" width="330.0" height="330" fill="#ffffff" stroke="#c98a12" stroke-width="2" rx="12"/>
+<text x="858.0" y="564" font-size="21" font-weight="800" fill="#c98a12" text-anchor="start">화재</text>
+<text x="858.0" y="600" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">가연물 과다 적치, 화기 작업, 전기</text>
+<text x="858.0" y="625" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">설비, 위험물 무단 보관</text>
+<text x="858.0" y="664" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">먼저 막을 사람</text>
+<text x="858.0" y="690" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">창고 운영자, 화주(위험물 고지)</text>
+<rect x="1250" y="90" width="382" height="810" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="16"/>
+<text x="1441.0" y="134" font-size="28" font-weight="800" fill="#d9482b" text-anchor="middle">출고</text>
+<rect x="1270.0" y="166" width="342.0" height="228" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="1288.0" y="204" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">가짜 픽업</text>
+<text x="1288.0" y="240" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">기사·차량 사전 통보 없음, 메일 한</text>
+<text x="1288.0" y="265" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">통으로 차량 변경 수락</text>
+<text x="1288.0" y="304" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">먼저 막을 사람</text>
+<text x="1288.0" y="330" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">창고 작업자, 화주·포워더, 운송사</text>
+<rect x="1270.0" y="410" width="342.0" height="228" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="1288.0" y="448" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">오출고</text>
+<text x="1288.0" y="484" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">비슷한 품번·화인, 출고지시서 대조 생략</text>
+<text x="1288.0" y="523" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">먼저 막을 사람</text>
+<text x="1288.0" y="549" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">창고 작업자</text>
+<rect x="1270.0" y="654" width="342.0" height="228" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="1288.0" y="692" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">강탈</text>
+<text x="1288.0" y="728" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">출입 통제 없음, 고가 화물 정보 유출</text>
+<text x="1288.0" y="767" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">먼저 막을 사람</text>
+<text x="1288.0" y="793" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">창고 운영자, 운송사</text>
+<line x1="420" y1="300" x2="466" y2="300" stroke="#1d2a3a" stroke-width="4" marker-end="url(#m1d2a3a)"/>
+<line x1="1190" y1="300" x2="1246" y2="300" stroke="#1d2a3a" stroke-width="4" marker-end="url(#m1d2a3a)"/>
+<rect x="60" y="540" width="340" height="340" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12" stroke-dasharray="6 5"/>
+<text x="80" y="580" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">포워더의 자리</text>
+<text x="80" y="616" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">어느 것도 직접 지키지 않지만, 보관까지</text>
+<text x="80" y="642" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">위임받아 창고를 정했다면 그 창고의</text>
+<text x="80" y="668" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">사고도 포워더 책임이 될 수 있음</text>
+<text x="80" y="694" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">(대법원 2015다246186)</text>
+</svg>

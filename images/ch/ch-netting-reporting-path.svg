@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="600" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">‘일방의 금액’은 각 쪽 합계</text>
+<text x="56" y="110" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">상계하는 채권 쪽과 채무 쪽 각각의 금액이며,</text>
+<text x="56" y="138" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">차감한 뒤의 잔액이 아닙니다</text>
+<line x1="430" y1="190" x2="430" y2="452" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="430" y="180" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">미화 5천불</text>
+<text x="56" y="242" font-size="20" font-weight="700" fill="#1f8a5b" text-anchor="start">받을 쪽 합계</text>
+<rect x="236" y="212" width="354" height="44" rx="4" fill="#1f8a5b"/>
+<text x="56" y="324" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="start">줄 쪽 합계</text>
+<rect x="236" y="294" width="314" height="44" rx="4" fill="#1f6fd1"/>
+<text x="56" y="406" font-size="20" font-weight="700" fill="#d9482b" text-anchor="start">차액</text>
+<rect x="236" y="376" width="40" height="44" rx="4" fill="#d9482b"/>
+<rect x="56" y="480" width="548" height="110" rx="12" fill="#fdecea" stroke="#d9482b" stroke-width="2"/>
+<text x="330.0" y="528.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">차액이 작아도 양쪽이 5천불을 넘으면</text>
+<text x="330.0" y="556.0" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">신고 면제가 아닙니다</text>
+<text x="56" y="646" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">· 분할하여 지급하면 각각의 금액을 합산</text>
+<text x="56" y="690" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">· 면제 목록의 제8호(국내 항공·선박회사)와</text>
+<text x="76" y="720" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">제15호(해운대리점)는 포워더의</text>
+<text x="76" y="750" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">해외 파트너 정산에 해당하지 않음</text>
+<text x="56" y="794" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="start">· 막대 길이는 개념 표시이며 실제 금액이 아님</text>
+<text x="56" y="880" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">외국환거래규정 제5-4조 제1항</text>
+<rect x="650" y="30" width="992" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="676" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">차감 정산(상계)은 어디에 신고하나</text>
+<rect x="680" y="100" width="420" height="56" rx="12" fill="#eef2f6" stroke="#5f6b78" stroke-width="2"/>
+<text x="890.0" y="135.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">해외 파트너와 차감 정산</text>
+<line x1="890.0" y1="156" x2="890.0" y2="190" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
+<rect x="680" y="192" width="420" height="84" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="890.0" y="227.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">여러 당사자를 한꺼번에 상계?</text>
+<text x="890.0" y="255.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">다국적 기업 상계센터 경유?</text>
+<line x1="1100" y1="234" x2="1172" y2="234" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
+<text x="1138.0" y="224" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="middle">예</text>
+<rect x="1176" y="192" width="440" height="84" rx="12" fill="#fdecea" stroke="#d9482b" stroke-width="2"/>
+<text x="1396.0" y="227.0" font-size="22" font-weight="800" fill="#d9482b" text-anchor="middle">한국은행총재 신고</text>
+<text x="1396.0" y="255.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">제5-4조 제3항</text>
+<line x1="890.0" y1="276" x2="890.0" y2="310" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
+<text x="902.0" y="300" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="start">아니오</text>
+<rect x="680" y="312" width="420" height="84" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="890.0" y="347.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">상호계산계정을 통한 상계?</text>
+<text x="890.0" y="375.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">(상호계산신고서 제출 뒤)</text>
+<line x1="1100" y1="354" x2="1172" y2="354" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
+<text x="1138.0" y="344" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="middle">예</text>
+<rect x="1176" y="312" width="440" height="84" rx="12" fill="#e6f4ed" stroke="#1f8a5b" stroke-width="2"/>
+<text x="1396.0" y="347.0" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">상계 신고는 따로 안 함</text>
+<text x="1396.0" y="375.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">월 단위 결산, 결산 후 3월 이내 잔액 신고</text>
+<line x1="890.0" y1="396" x2="890.0" y2="430" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
+<text x="902.0" y="420" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="start">아니오</text>
+<rect x="680" y="432" width="420" height="84" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="890.0" y="467.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">받을 쪽·줄 쪽 각각</text>
+<text x="890.0" y="495.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">미화 5천불 이하인가?</text>
+<line x1="890.0" y1="516" x2="890.0" y2="546" stroke="#5f6b78" stroke-width="3"/>
+<line x1="830.0" y1="546" x2="1466.0" y2="546" stroke="#5f6b78" stroke-width="3"/>
+<line x1="830.0" y1="546" x2="830.0" y2="586" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
+<line x1="1148.0" y1="546" x2="1148.0" y2="586" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
+<line x1="1466.0" y1="546" x2="1466.0" y2="586" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
+<rect x="680" y="590" width="300" height="150" rx="12" fill="#e6f4ed" stroke="#1f8a5b" stroke-width="2"/>
+<text x="830.0" y="644.0" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">둘 다 이하</text>
+<text x="830.0" y="672.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">신고 불필요</text>
+<text x="830.0" y="700.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">제5-4조 제1항 제1호</text>
+<rect x="998" y="590" width="300" height="150" rx="12" fill="#fdf0eb" stroke="#e4572e" stroke-width="2"/>
+<text x="1148.0" y="644.0" font-size="22" font-weight="800" fill="#e4572e" text-anchor="middle">한쪽만 초과</text>
+<text x="1148.0" y="672.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">면제 여부를</text>
+<text x="1148.0" y="700.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">거래외국환은행에 확인</text>
+<rect x="1316" y="590" width="300" height="150" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1466.0" y="630.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">둘 다 초과</text>
+<text x="1466.0" y="658.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">외국환은행의 장 신고</text>
+<text x="1466.0" y="686.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">또는 1개월 이내 사후 보고</text>
+<text x="1466.0" y="714.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">제5-4조 제2항</text>
+<rect x="680" y="770" width="936" height="112" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="704" y="812" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">신고·사후보고 내용은 다음 반기 첫째 달 말일까지 국세청장·관세청장에게 통보</text>
+<text x="704" y="848" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="start">상계를 실시한 자는 관계 증빙서류를 5년간 보관(제5-4조 제4항·제5항)</text>
+</svg>

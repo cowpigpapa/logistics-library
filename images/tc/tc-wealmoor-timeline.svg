@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">다구간 항공 운송에서 화물이 냉장 밖에 있던 시간(Wealmoor v KLM)</text>
+<text x="56" y="104" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">페루산 생 아스파라거스, 약정 +2~+8℃(창고·램프 취급 때만 외기 노출 가능 조건). 막대 길이는 실제 시간에 비례하지 않음</text>
+<rect x="70" y="170" width="144" height="80" fill="#e3eefb" stroke="#1f6fd1" stroke-width="2" rx="8"/>
+<text x="142.0" y="204" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">리마 냉장 창고</text>
+<rect x="220" y="170" width="164" height="80" fill="#fbe7e2" stroke="#d9482b" stroke-width="2" rx="8"/>
+<text x="302.0" y="204" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">램프</text>
+<text x="302.0" y="230" font-size="14" font-weight="600" fill="#1d2a3a" text-anchor="middle">약 34분 · 21~25℃</text>
+<rect x="390" y="170" width="204" height="80" fill="#fbe7e2" stroke="#d9482b" stroke-width="2" rx="8"/>
+<text x="492.0" y="204" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">출발 전 화물칸</text>
+<text x="492.0" y="230" font-size="14" font-weight="600" fill="#1d2a3a" text-anchor="middle">2시간 17분 · 22℃ 안팎</text>
+<rect x="600" y="170" width="84" height="80" fill="#f3f6f9" stroke="#5f6b78" stroke-width="2" rx="8"/>
+<text x="642.0" y="204" font-size="17" font-weight="800" fill="#5f6b78" text-anchor="middle">비행</text>
+<rect x="690" y="170" width="204" height="80" fill="#fbe7e2" stroke="#d9482b" stroke-width="2" rx="8"/>
+<text x="792.0" y="204" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">키토 지상</text>
+<text x="792.0" y="230" font-size="14" font-weight="600" fill="#1d2a3a" text-anchor="middle">2시간 3분 · 화물칸 문 열림</text>
+<rect x="900" y="170" width="84" height="80" fill="#f3f6f9" stroke="#5f6b78" stroke-width="2" rx="8"/>
+<text x="942.0" y="204" font-size="17" font-weight="800" fill="#5f6b78" text-anchor="middle">비행</text>
+<rect x="990" y="170" width="164" height="80" fill="#fbe7e2" stroke="#d9482b" stroke-width="2" rx="8"/>
+<text x="1072.0" y="204" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">마이애미 지상</text>
+<text x="1072.0" y="230" font-size="14" font-weight="600" fill="#1d2a3a" text-anchor="middle">1시간 18분</text>
+<rect x="1160" y="170" width="84" height="80" fill="#f3f6f9" stroke="#5f6b78" stroke-width="2" rx="8"/>
+<text x="1202.0" y="204" font-size="17" font-weight="800" fill="#5f6b78" text-anchor="middle">비행</text>
+<rect x="1250" y="170" width="124" height="80" fill="#f3f6f9" stroke="#5f6b78" stroke-width="2" rx="8"/>
+<text x="1312.0" y="204" font-size="17" font-weight="800" fill="#5f6b78" text-anchor="middle">암스테르담</text>
+<rect x="1380" y="170" width="144" height="80" fill="#f3f6f9" stroke="#1d2a3a" stroke-width="2" rx="8"/>
+<text x="1452.0" y="204" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">런던 히스로</text>
+<path d="M220 266 l0 14 L1270 280 l0 -14" fill="none" stroke="#d9482b" stroke-width="3"/>
+<text x="745.0" y="312" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">리마 창고에서 꺼낸 때부터 암스테르담행 순항 고도까지 +2~+8℃를 넘는 외기에 7시간 29분 노출(양측 전문가 합의)</text>
+<rect x="140" y="682.2857142857143" width="1460" height="58.28571428571422" fill="#e2f3ea" rx="0"/>
+<text x="1590" y="674.2857142857143" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="end">약정 +2~+8℃</text>
+<line x1="140" y1="760" x2="1600" y2="760" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="140" y1="760" x2="140" y2="420" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="134" y1="760.0" x2="140" y2="760.0" stroke="#1d2a3a" stroke-width="2"/>
+<text x="128" y="766.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="end">0℃</text>
+<line x1="134" y1="662.8571428571429" x2="140" y2="662.8571428571429" stroke="#1d2a3a" stroke-width="2"/>
+<text x="128" y="668.8571428571429" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="end">10℃</text>
+<line x1="134" y1="565.7142857142858" x2="140" y2="565.7142857142858" stroke="#1d2a3a" stroke-width="2"/>
+<text x="128" y="571.7142857142858" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="end">20℃</text>
+<line x1="134" y1="468.57142857142856" x2="140" y2="468.57142857142856" stroke="#1d2a3a" stroke-width="2"/>
+<text x="128" y="474.57142857142856" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="end">30℃</text>
+<text x="140" y="404" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">기록이 확인된 화물 온도</text>
+<line x1="220" y1="760" x2="220" y2="713.3714285714286" stroke="#c9d2dc" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="220" cy="713.3714285714286" r="9" fill="#d9482b"/>
+<text x="234" y="701.3714285714286" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">창고 출고 4.8℃</text>
+<line x1="384" y1="760" x2="384" y2="565.7142857142858" stroke="#c9d2dc" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="384" cy="565.7142857142858" r="9" fill="#d9482b"/>
+<text x="398" y="553.7142857142858" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">램프 뒤 약 20℃</text>
+<line x1="1450" y1="760" x2="1450" y2="480.22857142857146" stroke="#c9d2dc" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="1450" cy="480.22857142857146" r="9" fill="#d9482b"/>
+<text x="1358" y="486.22857142857146" font-size="17" font-weight="800" fill="#d9482b" text-anchor="end">히스로 도착 28.8℃</text>
+<rect x="1370" y="424.85714285714283" width="160" height="155.4285714285714" fill="none" stroke="#e4572e" stroke-width="2.5" rx="6" stroke-dasharray="6 4"/>
+<text x="1360" y="442.85714285714283" font-size="16" font-weight="800" fill="#e4572e" text-anchor="end">품온 18.5~34.5℃</text>
+<text x="860" y="624.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">그 사이 구간의 화물 온도 값은 판결 요약에 없어 표시하지 않음</text>
+<rect x="70" y="790" width="1530" height="90" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="96" y="826" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">항공사는 하강 중·경유지 지상에서 화물칸 냉방을 끄는 것이 통상 관행이라고 했지만, 법원은 그 노출이 몬트리올 협약 제18조의</text>
+<text x="96" y="854" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">&quot;사건&quot;에 해당한다고 보고 항공사 책임을 인정(손해 18,442파운드). 구간별 온도 기록이 맞물려 이길 수 있었음</text>
+</svg>

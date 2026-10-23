@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30.0" y="30.0" width="1000.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54.0" y="72.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">ISPM 15 마크 읽는 법</text>
+<text x="54.0" y="106.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">아래는 자리만 보여 주는 예시이며 실제 업체 번호가 아닙니다(부속서 2, 한국 고시 별표 2)</text>
+<rect x="110.0" y="160.0" width="840.0" height="470.0" fill="#f3e3c8" stroke="#d2b48c" stroke-width="3" rx="8"/>
+<path d="M120 190 C 350 182, 600 200, 940 186" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 236 C 350 228, 600 246, 940 232" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 282 C 350 274, 600 292, 940 278" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 328 C 350 320, 600 338, 940 324" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 374 C 350 366, 600 384, 940 370" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 420 C 350 412, 600 430, 940 416" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 466 C 350 458, 600 476, 940 462" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 512 C 350 504, 600 522, 940 508" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 558 C 350 550, 600 568, 940 554" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 604 C 350 596, 600 614, 940 600" stroke="#e2c9a2" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="300.0" y="270.0" width="470.0" height="250.0" fill="none" stroke="#1d2a3a" stroke-width="6" rx="4"/>
+<line x1="450.0" y1="288.0" x2="450.0" y2="502.0" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="375.0" y1="315.0" x2="375.0" y2="475.0" stroke="#1d2a3a" stroke-width="4"/>
+<ellipse cx="364" cy="333.0" rx="8" ry="14" transform="rotate(-30 364 333.0)" fill="#1d2a3a"/>
+<ellipse cx="386" cy="333.0" rx="8" ry="14" transform="rotate(30 386 333.0)" fill="#1d2a3a"/>
+<ellipse cx="364" cy="350.6" rx="8" ry="14" transform="rotate(-30 364 350.6)" fill="#1d2a3a"/>
+<ellipse cx="386" cy="350.6" rx="8" ry="14" transform="rotate(30 386 350.6)" fill="#1d2a3a"/>
+<ellipse cx="364" cy="368.2" rx="8" ry="14" transform="rotate(-30 364 368.2)" fill="#1d2a3a"/>
+<ellipse cx="386" cy="368.2" rx="8" ry="14" transform="rotate(30 386 368.2)" fill="#1d2a3a"/>
+<ellipse cx="364" cy="385.8" rx="8" ry="14" transform="rotate(-30 364 385.8)" fill="#1d2a3a"/>
+<ellipse cx="386" cy="385.8" rx="8" ry="14" transform="rotate(30 386 385.8)" fill="#1d2a3a"/>
+<ellipse cx="364" cy="403.4" rx="8" ry="14" transform="rotate(-30 364 403.4)" fill="#1d2a3a"/>
+<ellipse cx="386" cy="403.4" rx="8" ry="14" transform="rotate(30 386 403.4)" fill="#1d2a3a"/>
+<ellipse cx="375" cy="317" rx="7" ry="13" fill="#1d2a3a"/>
+<text x="610.0" y="382.0" font-size="56" font-weight="800" fill="#1d2a3a" text-anchor="middle">KR-00000</text>
+<text x="610.0" y="476.0" font-size="64" font-weight="800" fill="#1d2a3a" text-anchor="middle">HT</text>
+<text x="780.0" y="560.0" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start">(XX-000)</text>
+<line x1="505.0" y1="322.0" x2="440.0" y2="232.0" stroke="#1f8a5b" stroke-width="3"/>
+<circle cx="505.0" cy="322.0" r="7" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="1"/>
+<text x="440.0" y="206.0" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="end">국가코드</text>
+<text x="440.0" y="228.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="end">ISO 두 글자(한국 KR)</text>
+<line x1="690.0" y1="322.0" x2="730.0" y2="232.0" stroke="#e4572e" stroke-width="3"/>
+<circle cx="690.0" cy="322.0" r="7" fill="#e4572e" stroke="#e4572e" stroke-width="1"/>
+<text x="740.0" y="206.0" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">처리업체 코드</text>
+<text x="740.0" y="228.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">한국: 지역본부 2자리 + 등록번호</text>
+<line x1="375.0" y1="482.0" x2="250.0" y2="672.0" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="375.0" cy="482.0" r="7" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="1"/>
+<text x="250.0" y="696.0" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">IPPC 심볼</text>
+<text x="250.0" y="718.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">테두리 안 왼쪽(이삭 모양)</text>
+<line x1="610.0" y1="500.0" x2="560.0" y2="672.0" stroke="#d9482b" stroke-width="3"/>
+<circle cx="610.0" cy="500.0" r="7" fill="#d9482b" stroke="#d9482b" stroke-width="1"/>
+<text x="560.0" y="696.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="middle">처리 코드</text>
+<text x="560.0" y="718.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">HT·DH·MB·SF 중 하나</text>
+<text x="560.0" y="739.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">(한국 고시는 HT·DH·MB)</text>
+<line x1="840.0" y1="572.0" x2="880.0" y2="672.0" stroke="#6b4fbb" stroke-width="3"/>
+<circle cx="840.0" cy="572.0" r="7" fill="#6b4fbb" stroke="#6b4fbb" stroke-width="1"/>
+<text x="880.0" y="696.0" font-size="19" font-weight="800" fill="#6b4fbb" text-anchor="middle">테두리 밖 정보</text>
+<text x="880.0" y="718.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">한국: 업체 고유부호 영문 2자리</text>
+<text x="880.0" y="739.0" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">+ 마크 일련번호 3자리</text>
+<text x="54.0" y="806.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 읽을 수 있고 오래가며 옮겨 붙일 수 없게, 가능하면 마주 보는 두 면 이상(한국: 열처리 포장재는 2개 면 이상)</text>
+<text x="54.0" y="834.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 손으로 그린 마크는 불인정, 위험물 표지와 헷갈리지 않게 빨간색·주황색은 피함</text>
+<rect x="1060.0" y="30.0" width="582.0" height="881.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="1084.0" y="72.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">재사용·수선·재제작</text>
+<text x="1084.0" y="106.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">ISPM 15 4.3절과 한국 고시 제3조제2항</text>
+<rect x="1084.0" y="132.0" width="534.0" height="170.0" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="3" rx="12"/>
+<text x="1102.0" y="169.8" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">재사용</text>
+<text x="1102.0" y="198.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">수선·변형하지 않은 마크 포장재</text>
+<text x="1102.0" y="228.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">다시 처리·마크할 필요 없음</text>
+<text x="1102.0" y="258.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">병해충에 재감염되지 않았을 것</text>
+<rect x="1084.0" y="318.0" width="534.0" height="170.0" fill="#fdeee8" stroke="#e4572e" stroke-width="3" rx="12"/>
+<text x="1102.0" y="355.8" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">수선(약 1/3까지 교체)</text>
+<text x="1102.0" y="384.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">처리된 목재·가공목재로만 고치고</text>
+<text x="1102.0" y="414.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">새로 댄 부재마다 마크</text>
+<text x="1102.0" y="444.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">나라에 따라 전체 재처리를 요구</text>
+<rect x="1084.0" y="504.0" width="534.0" height="170.0" fill="#fdecea" stroke="#d9482b" stroke-width="3" rx="12"/>
+<text x="1102.0" y="541.8" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">재제작(1/3 초과 교체)</text>
+<text x="1102.0" y="570.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">기존 마크를 페인트·연마 등으로</text>
+<text x="1102.0" y="600.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">영구히 지우고</text>
+<text x="1102.0" y="630.5" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">재처리 후 새 마크</text>
+<rect x="1084.0" y="690.0" width="534.0" height="196.0" fill="#fff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1106.0" y="728.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">알아 둘 점</text>
+<text x="1106.0" y="762.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 마크가 여러 개 있는 것 자체는 위반 아님(4.6절)</text>
+<text x="1106.0" y="787.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 처리는 그 시점의 병해충만 죽이고</text>
+<text x="1118.0" y="812.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">이후 재감염까지 막지는 못함</text>
+<text x="1106.0" y="837.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 마크만으로는 처리의 증거가 되지 않음:</text>
+<text x="1118.0" y="862.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">소독처리증명서·소독작업결과서를 함께</text>
+</svg>

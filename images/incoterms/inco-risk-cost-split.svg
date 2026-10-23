@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">위험이 넘어가는 곳과 매도인의 운송비가 끝나는 곳</text>
+<line x1="300" y1="190" x2="1580" y2="190" stroke="#9aa5b1" stroke-width="4"/>
+<text x="1075.0" y="178" font-size="20" font-weight="700" fill="#5f6b78" text-anchor="middle">주운송</text>
+<circle cx="360" cy="190" r="9" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="360" y="124" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">매도인 구내</text>
+<circle cx="600" cy="190" r="9" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="600" y="124" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">출발지에서</text>
+<text x="600" y="146" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">운송인 인도</text>
+<circle cx="760" cy="190" r="9" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="760" y="124" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">선측</text>
+<circle cx="900" cy="190" r="9" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="900" y="124" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">본선 적재</text>
+<circle cx="1250" cy="190" r="9" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="1250" y="124" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">목적항·</text>
+<text x="1250" y="146" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">도착 터미널</text>
+<circle cx="1500" cy="190" r="9" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="1500" y="124" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">지정 목적지</text>
+<text x="1500" y="146" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">(매수인 창고 등)</text>
+<rect x="56" y="250" width="1560" height="134" fill="#ffffff" rx="10"/>
+<text x="80" y="300" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">EXW</text>
+<rect x="56" y="400" width="1560" height="134" fill="#f6f8fa" rx="10"/>
+<text x="80" y="450" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">F조건</text>
+<rect x="56" y="550" width="1560" height="134" fill="#ffffff" rx="10"/>
+<text x="80" y="600" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">C조건</text>
+<rect x="56" y="700" width="1560" height="134" fill="#f6f8fa" rx="10"/>
+<text x="80" y="750" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">D조건</text>
+<text x="80" y="332" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">공장인도</text>
+<text x="80" y="482" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">FCA·FAS·FOB</text>
+<text x="80" y="632" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">CPT·CIP</text>
+<text x="80" y="654" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">CFR·CIF</text>
+<text x="80" y="782" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">DAP·DPU·DDP</text>
+<polygon points="360,308 347,287.2 373,287.2" fill="#d9482b"/>
+<text x="382" y="296" font-size="18" font-weight="600" fill="#d9482b" text-anchor="start">물품을 매수인의 처분에 맡긴 때(싣지 않은 상태)</text>
+<text x="382" y="346" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">매도인 비용도 여기서 끝: 위험과 비용이 같은 곳</text>
+<rect x="300" y="324" width="60" height="18" fill="#1f6fd1" rx="4"/>
+<rect x="300" y="474" width="600" height="18" fill="#1f6fd1" rx="4"/>
+<polygon points="600,458 587,437.2 613,437.2" fill="#d9482b"/>
+<text x="600" y="430" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">FCA</text>
+<polygon points="760,458 747,437.2 773,437.2" fill="#d9482b"/>
+<text x="760" y="430" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">FAS</text>
+<polygon points="900,458 887,437.2 913,437.2" fill="#d9482b"/>
+<text x="900" y="430" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">FOB</text>
+<text x="930" y="464" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">조건마다 인도 지점이 다르지만</text>
+<text x="930" y="490" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">그 지점에서 위험과 비용이 함께 넘어감</text>
+<text x="930" y="518" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">주운송 운임은 매수인</text>
+<rect x="600" y="616" width="900" height="34" fill="#fdebe4" rx="6"/>
+<rect x="300" y="624" width="1200" height="18" fill="#1f6fd1" rx="4"/>
+<polygon points="600,608 587,587.2 613,587.2" fill="#d9482b"/>
+<text x="600" y="580" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">CPT·CIP</text>
+<polygon points="900,608 887,587.2 913,587.2" fill="#d9482b"/>
+<text x="900" y="580" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">CFR·CIF</text>
+<text x="1075.0" y="676" font-size="18" font-weight="700" fill="#e4572e" text-anchor="middle">주운송 중 위험은 매수인, 운임은 매도인</text>
+<line x1="1500" y1="600" x2="1500" y2="662" stroke="#1f6fd1" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="1490" y="580" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="middle">운송비 종점(조건 뒤 장소)</text>
+<rect x="300" y="774" width="1200" height="18" fill="#1f6fd1" rx="4"/>
+<polygon points="1500,758 1487,737.2 1513,737.2" fill="#d9482b"/>
+<text x="1500" y="730" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">DAP·DPU·DDP</text>
+<text x="1210" y="826" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="end">지정 목적지에 도착해야 인도(DPU는 내린 뒤)</text>
+<rect x="80" y="852" width="40" height="18" fill="#1f6fd1" rx="4"/>
+<text x="132" y="868" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">매도인이 운송비를 내는 구간</text>
+<polygon points="470,874 457,853.2 483,853.2" fill="#d9482b"/>
+<text x="492" y="868" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">위험 이전(인도) 지점</text>
+<text x="1590" y="868" font-size="18" font-weight="700" fill="#e4572e" text-anchor="end">C조건만 두 지점이 다릅니다(A2·A3·A9)</text>
+</svg>

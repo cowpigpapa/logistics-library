@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">AWB 번호 11자리 읽기</text>
+<rect x="350" y="170" width="82" height="110" fill="#e3eefb" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="391.0" y="248" font-size="60" font-weight="800" fill="#1f6fd1" text-anchor="middle">1</text>
+<rect x="442" y="170" width="82" height="110" fill="#e3eefb" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="483.0" y="248" font-size="60" font-weight="800" fill="#1f6fd1" text-anchor="middle">8</text>
+<rect x="534" y="170" width="82" height="110" fill="#e3eefb" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="575.0" y="248" font-size="60" font-weight="800" fill="#1f6fd1" text-anchor="middle">0</text>
+<text x="646" y="252" font-size="60" font-weight="800" fill="#5f6b78" text-anchor="middle">-</text>
+<rect x="670" y="170" width="82" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12"/>
+<text x="711.0" y="248" font-size="60" font-weight="800" fill="#1d2a3a" text-anchor="middle">1</text>
+<rect x="762" y="170" width="82" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12"/>
+<text x="803.0" y="248" font-size="60" font-weight="800" fill="#1d2a3a" text-anchor="middle">2</text>
+<rect x="854" y="170" width="82" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12"/>
+<text x="895.0" y="248" font-size="60" font-weight="800" fill="#1d2a3a" text-anchor="middle">3</text>
+<rect x="946" y="170" width="82" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12"/>
+<text x="987.0" y="248" font-size="60" font-weight="800" fill="#1d2a3a" text-anchor="middle">4</text>
+<rect x="1038" y="170" width="82" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12"/>
+<text x="1079.0" y="248" font-size="60" font-weight="800" fill="#1d2a3a" text-anchor="middle">5</text>
+<rect x="1130" y="170" width="82" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12"/>
+<text x="1171.0" y="248" font-size="60" font-weight="800" fill="#1d2a3a" text-anchor="middle">6</text>
+<rect x="1222" y="170" width="82" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="3" rx="12"/>
+<text x="1263.0" y="248" font-size="60" font-weight="800" fill="#1d2a3a" text-anchor="middle">7</text>
+<rect x="1340" y="170" width="82" height="110" fill="#fbe7e2" stroke="#d9482b" stroke-width="3" rx="12"/>
+<text x="1381.0" y="248" font-size="60" font-weight="800" fill="#d9482b" text-anchor="middle">5</text>
+<path d="M350 300 q0 18 18 18 L471.0 318 q12 0 12 16 q0 -16 12 -16 L598 318 q18 0 18 -18" fill="none" stroke="#1f6fd1" stroke-width="3"/>
+<text x="483.0" y="366" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">1~3 항공사 Prefix</text>
+<text x="483.0" y="394" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="middle">발행 항공사 코드(예: 180)</text>
+<path d="M670 300 q0 18 18 18 L975.0 318 q12 0 12 16 q0 -16 12 -16 L1286 318 q18 0 18 -18" fill="none" stroke="#1d2a3a" stroke-width="3"/>
+<text x="987.0" y="366" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">4~10 일련번호 7자리</text>
+<text x="987.0" y="394" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사가 매김</text>
+<path d="M1340 300 q0 18 18 18 L1369.0 318 q12 0 12 16 q0 -16 12 -16 L1404 318 q18 0 18 -18" fill="none" stroke="#d9482b" stroke-width="3"/>
+<text x="1381.0" y="366" font-size="22" font-weight="800" fill="#d9482b" text-anchor="middle">11 체크 디지트</text>
+<text x="1381.0" y="394" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="middle"></text>
+<rect x="350" y="470" width="1190" height="150" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="14"/>
+<text x="380" y="518" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">체크 디지트 = 일련번호 7자리를 7로 나눈 나머지(가중치 없는 모듈러스 7)</text>
+<text x="380" y="578" font-size="32" font-weight="800" fill="#d9482b" text-anchor="start">1234567 ÷ 7 = 176366 … 나머지 5</text>
+<text x="940" y="578" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start">→ 체크 디지트 5</text>
+<rect x="350" y="660" width="570" height="180" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="366" y="698" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">걸러 주는 것</text>
+<text x="366" y="733" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">숫자 하나를 잘못 옮겨 적으면</text>
+<text x="366" y="762" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">대부분 여기서 걸림</text>
+<text x="366" y="791" font-size="21" font-weight="500" fill="#d9482b" text-anchor="start">맞는다고 실제 발행된 번호라는 뜻은 아님</text>
+<rect x="970" y="660" width="570" height="180" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="986" y="698" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">House AWB 번호</text>
+<text x="986" y="733" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">IATA 공통 규칙 없이 포워더가 정함</text>
+<text x="986" y="762" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">항공사 사이트 조회는 MAWB 번호로</text>
+<text x="986" y="791" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">미국 세관 규정: 하우스 번호 12자리까지</text>
+</svg>

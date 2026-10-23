@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start" >보세구역은 세 갈래입니다</text>
+<text x="40" y="94" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="start" >관세법 제154조 · 외국물품은 수입신고가 수리되기 전까지 원칙적으로 보세구역 안에만 둡니다</text>
+<rect x="636" y="120" width="400" height="80" fill="#1d2a3a" stroke="#1d2a3a" stroke-width="0" rx="14" />
+<text x="836.0" y="156" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle" >보세구역</text>
+<text x="836.0" y="184" font-size="19" font-weight="600" fill="#ffffff" text-anchor="middle" >관세법 제154조</text>
+<line x1="836" y1="200" x2="836" y2="240" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="222.0" y1="240" x2="1510.0" y2="240" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="222.0" y1="240" x2="222.0" y2="300" stroke="#1d2a3a" stroke-width="3"/>
+<rect x="40" y="300" width="364" height="90" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="12" />
+<text x="222.0" y="340" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle" >지정보세구역</text>
+<text x="222.0" y="370" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle" >세관장이 지정 (제166조)</text>
+<line x1="128.0" y1="390" x2="128.0" y2="440" stroke="#1f6fd1" stroke-width="3"/>
+<rect x="40" y="440" width="176" height="420" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12" />
+<rect x="40" y="440" width="176" height="8" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="4" />
+<text x="128.0" y="490" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle" >지정장치장</text>
+<text x="56" y="538" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start" >용도</text>
+<text x="56" y="568" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >통관하려는 물품을</text>
+<text x="56" y="596" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >일시 장치</text>
+<text x="56" y="668" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start" >실무</text>
+<text x="56" y="698" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >항만·공항의</text>
+<text x="56" y="726" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >지정장치장,</text>
+<text x="56" y="754" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >세관지정장치장</text>
+<line x1="316.0" y1="390" x2="316.0" y2="440" stroke="#1f6fd1" stroke-width="3"/>
+<rect x="228" y="440" width="176" height="420" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12" />
+<rect x="228" y="440" width="176" height="8" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="4" />
+<text x="316.0" y="490" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle" >세관검사장</text>
+<text x="244" y="538" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start" >용도</text>
+<text x="244" y="568" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >통관하려는 물품을</text>
+<text x="244" y="596" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >검사</text>
+<text x="244" y="668" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start" >실무</text>
+<text x="244" y="698" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >검사 대상으로</text>
+<text x="244" y="726" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >선별된 화물</text>
+<line x1="896.0" y1="240" x2="896.0" y2="300" stroke="#1d2a3a" stroke-width="3"/>
+<rect x="432" y="300" width="928" height="90" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="12" />
+<text x="896.0" y="340" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle" >특허보세구역</text>
+<text x="896.0" y="370" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle" >세관장의 특허 (제174조)</text>
+<line x1="520.0" y1="390" x2="520.0" y2="440" stroke="#1f8a5b" stroke-width="3"/>
+<rect x="432" y="440" width="176" height="420" fill="#fffaf0" stroke="#e4572e" stroke-width="3" rx="12" />
+<rect x="432" y="440" width="176" height="8" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="4" />
+<text x="520.0" y="490" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle" >보세창고</text>
+<text x="448" y="538" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >용도</text>
+<text x="448" y="568" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >외국물품 등을</text>
+<text x="448" y="596" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >장치</text>
+<text x="448" y="668" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >실무</text>
+<text x="448" y="698" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >CY·CFS,</text>
+<text x="448" y="726" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >내륙 보세창고,</text>
+<text x="448" y="754" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >공항물류단지 창고</text>
+<rect x="444" y="790" width="152" height="56" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="10" />
+<text x="520.0" y="814" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >포워더가</text>
+<text x="520.0" y="836" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" >자주 다루는 곳</text>
+<line x1="708.0" y1="390" x2="708.0" y2="440" stroke="#1f8a5b" stroke-width="3"/>
+<rect x="620" y="440" width="176" height="420" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<rect x="620" y="440" width="176" height="8" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="4" />
+<text x="708.0" y="490" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle" >보세공장</text>
+<text x="636" y="538" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >용도</text>
+<text x="636" y="568" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >외국물품을</text>
+<text x="636" y="596" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >원재료로 제조·가공</text>
+<text x="636" y="668" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >실무</text>
+<text x="636" y="698" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >원자재를 들여와</text>
+<text x="636" y="726" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >가공 후 수출</text>
+<line x1="896.0" y1="390" x2="896.0" y2="440" stroke="#1f8a5b" stroke-width="3"/>
+<rect x="808" y="440" width="176" height="420" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<rect x="808" y="440" width="176" height="8" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="4" />
+<text x="896.0" y="490" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle" >보세전시장</text>
+<text x="824" y="538" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >용도</text>
+<text x="824" y="568" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >박람회·전시회용</text>
+<text x="824" y="596" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >장치·전시·사용</text>
+<text x="824" y="668" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >실무</text>
+<text x="824" y="698" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >국제 전시회장</text>
+<line x1="1084.0" y1="390" x2="1084.0" y2="440" stroke="#1f8a5b" stroke-width="3"/>
+<rect x="996" y="440" width="176" height="420" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<rect x="996" y="440" width="176" height="8" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="4" />
+<text x="1084.0" y="490" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle" >보세건설장</text>
+<text x="1012" y="538" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >용도</text>
+<text x="1012" y="568" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >산업시설 건설용</text>
+<text x="1012" y="596" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >기계류·장비를</text>
+<text x="1012" y="624" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >장치·사용</text>
+<text x="1012" y="668" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >실무</text>
+<text x="1012" y="698" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >플랜트 건설 현장</text>
+<line x1="1272.0" y1="390" x2="1272.0" y2="440" stroke="#1f8a5b" stroke-width="3"/>
+<rect x="1184" y="440" width="176" height="420" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12" />
+<rect x="1184" y="440" width="176" height="8" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="4" />
+<text x="1272.0" y="490" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle" >보세판매장</text>
+<text x="1200" y="538" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >용도</text>
+<text x="1200" y="568" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >외국 반출·면세</text>
+<text x="1200" y="596" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >조건으로 판매</text>
+<text x="1200" y="668" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start" >실무</text>
+<text x="1200" y="698" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >면세점</text>
+<line x1="1510.0" y1="240" x2="1510.0" y2="300" stroke="#1d2a3a" stroke-width="3"/>
+<rect x="1388" y="300" width="244" height="90" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="12" />
+<text x="1510.0" y="340" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle" >종합보세구역</text>
+<text x="1510.0" y="370" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle" >관세청장이 지정 (제197조)</text>
+<line x1="1510.0" y1="390" x2="1510.0" y2="440" stroke="#e4572e" stroke-width="3"/>
+<rect x="1388" y="440" width="244" height="420" fill="#ffffff" stroke="#e4572e" stroke-width="2" rx="12" />
+<rect x="1388" y="440" width="244" height="8" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="4" />
+<text x="1510.0" y="490" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle" >종합보세구역</text>
+<text x="1404" y="538" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start" >용도</text>
+<text x="1404" y="568" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >위 기능 중</text>
+<text x="1404" y="596" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >둘 이상 수행</text>
+<text x="1404" y="668" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start" >실무</text>
+<text x="1404" y="698" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >물류와 제조를</text>
+<text x="1404" y="726" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start" >함께 하는 지역</text>
+</svg>

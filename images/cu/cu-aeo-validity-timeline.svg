@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="me4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">공인 5년 동안 챙길 날짜 (예시: 2023년 4월 공인, 증서상 만료일 2028년 4월 16일)</text>
+<rect x="270.0" y="120" width="1238.8095238095239" height="52" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2.5" rx="8" />
+<text x="889.4047619047619" y="154" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">공인 유효기간 5년 (법 제255조의2제5항)</text>
+<rect x="1509.4920634920634" y="120" width="110.50793650793662" height="52" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="8" />
+<text x="1521.4920634920634" y="154" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">새 5년</text>
+<line x1="260" y1="214" x2="1610" y2="214" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="270.0" y1="204" x2="270.0" y2="224" stroke="#1d2a3a" stroke-width="3"/>
+<text x="270.0" y="252" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">2023.4</text>
+<line x1="515.7142857142857" y1="204" x2="515.7142857142857" y2="224" stroke="#1d2a3a" stroke-width="3"/>
+<text x="515.7142857142857" y="252" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">2024.4</text>
+<line x1="761.4285714285713" y1="204" x2="761.4285714285713" y2="224" stroke="#1d2a3a" stroke-width="3"/>
+<text x="761.4285714285713" y="252" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">2025.4</text>
+<line x1="1007.1428571428571" y1="204" x2="1007.1428571428571" y2="224" stroke="#1d2a3a" stroke-width="3"/>
+<text x="1007.1428571428571" y="252" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">2026.4</text>
+<line x1="1252.8571428571427" y1="204" x2="1252.8571428571427" y2="224" stroke="#1d2a3a" stroke-width="3"/>
+<text x="1252.8571428571427" y="252" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">2027.4</text>
+<line x1="1498.5714285714284" y1="204" x2="1498.5714285714284" y2="224" stroke="#1d2a3a" stroke-width="3"/>
+<text x="1498.5714285714284" y="252" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">2028.4</text>
+<line x1="60" y1="274" x2="1612" y2="274" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="66" y="356" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">정기 자율 평가</text>
+<line x1="60" y1="424" x2="1612" y2="424" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="66" y="506" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">관리책임자 교육</text>
+<line x1="60" y1="584" x2="1612" y2="584" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="66" y="666" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">갱신</text>
+<path d="M545.7460317460318 334 L559.7460317460318 350 L545.7460317460318 366 L531.7460317460318 350 Z" fill="#1f8a5b"/>
+<text x="545.7460317460318" y="324" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="middle">2024.5.15</text>
+<path d="M791.4603174603175 334 L805.4603174603175 350 L791.4603174603175 366 L777.4603174603175 350 Z" fill="#1f8a5b"/>
+<text x="791.4603174603175" y="324" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="middle">2025.5.15</text>
+<path d="M1037.1746031746034 334 L1051.1746031746034 350 L1037.1746031746034 366 L1023.1746031746034 350 Z" fill="#1f8a5b"/>
+<text x="1037.1746031746034" y="324" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="middle">2026.5.15</text>
+<path d="M1282.888888888889 334 L1296.888888888889 350 L1282.888888888889 366 L1268.888888888889 350 Z" fill="#1f8a5b"/>
+<text x="1282.888888888889" y="324" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="middle">2027.5.15</text>
+<text x="505.7460317460318" y="400" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">매년 공인일자가 속한 달(4월)에 점검하고 다음 달 15일까지 제출. 제출 기한부터 1개월 안에 내지 않으면(6월 중순) 혜택 정지 사유</text>
+<path d="M515.7142857142857 484 L529.7142857142857 500 L515.7142857142857 516 L501.71428571428567 500 Z" fill="#e4572e"/>
+<text x="515.7142857142857" y="474" font-size="18" font-weight="700" fill="#e4572e" text-anchor="middle">2024.4까지 첫 교육</text>
+<line x1="535.7142857142857" y1="500" x2="1252.8571428571427" y2="500" stroke="#e4572e" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#me4572e)"/>
+<text x="555.7142857142857" y="532" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">이후 이수 연도 기준 2년마다 (총괄책임자 4시간·수출입관리책임자 8시간 이상)</text>
+<text x="555.7142857142857" y="558" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">관리책임자가 바뀌면 바뀐 날부터 180일 이내</text>
+<rect x="1263.095238095238" y="636" width="122.85714285714289" height="48" fill="#fff7e0" stroke="#b7791f" stroke-width="2" rx="6" />
+<text x="1249.095238095238" y="656" font-size="19" font-weight="800" fill="#b7791f" text-anchor="end">갱신심사 신청 기간</text>
+<text x="1249.095238095238" y="682" font-size="18" font-weight="600" fill="#b7791f" text-anchor="end">만료 1년 전 ~ 6개월 전 (2027.4 중순 ~ 10 중순)</text>
+<line x1="1365.4761904761904" y1="686" x2="1365.4761904761904" y2="726" stroke="#1f6fd1" stroke-width="2.5"/>
+<path d="M1365.4761904761904 724 L1377.4761904761904 738 L1365.4761904761904 752 L1353.4761904761904 738 Z" fill="#1f6fd1"/>
+<text x="1343.4761904761904" y="745" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="end">관세청 사전 안내: 2027.9 중순까지 (만료 7개월 전까지)</text>
+<line x1="1508.8095238095239" y1="174" x2="1508.8095238095239" y2="220" stroke="#d9482b" stroke-width="2.5" stroke-dasharray="6 5"/>
+<line x1="1508.8095238095239" y1="270" x2="1508.8095238095239" y2="646" stroke="#d9482b" stroke-width="2.5" stroke-dasharray="6 5"/>
+<circle cx="1508.8095238095239" cy="660" r="12" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1508.8095238095239" y="704" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">2028.4.16 만료</text>
+<text x="1508.8095238095239" y="730" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">4.17부터 새 5년</text>
+<rect x="60" y="790" width="1552" height="96" fill="#f1f4f7" stroke="#c9d2dc" stroke-width="1.5" rx="10" />
+<text x="84" y="828" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">갱신심사가 진행 중에 유효기간이 끝나도 공인은 유효한 것으로 보지만, 신청을 철회하거나 각하·기각되면 그날 끝납니다.</text>
+<text x="84" y="858" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">날짜는 설명을 위해 만든 값이며, 정확한 기한 계산은 증서와 관세청 안내를 기준으로 합니다.</text>
+</svg>

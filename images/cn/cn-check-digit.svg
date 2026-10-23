@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="390" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">컨테이너 번호 11자리의 구조 (가상 코드 KQXU 123456 3)</text>
+<rect x="229.0" y="150" width="92" height="104" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="3" rx="10"/>
+<text x="275.0" y="226" font-size="62" font-weight="800" fill="#1f6fd1" text-anchor="middle">K</text>
+<rect x="331.0" y="150" width="92" height="104" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="3" rx="10"/>
+<text x="377.0" y="226" font-size="62" font-weight="800" fill="#1f6fd1" text-anchor="middle">Q</text>
+<rect x="433.0" y="150" width="92" height="104" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="3" rx="10"/>
+<text x="479.0" y="226" font-size="62" font-weight="800" fill="#1f6fd1" text-anchor="middle">X</text>
+<rect x="569.0" y="150" width="92" height="104" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="3" rx="10"/>
+<text x="615.0" y="226" font-size="62" font-weight="800" fill="#1f8a5b" text-anchor="middle">U</text>
+<rect x="705.0" y="150" width="92" height="104" fill="#eef1f5" stroke="#1d2a3a" stroke-width="3" rx="10"/>
+<text x="751.0" y="226" font-size="62" font-weight="800" fill="#1d2a3a" text-anchor="middle">1</text>
+<rect x="807.0" y="150" width="92" height="104" fill="#eef1f5" stroke="#1d2a3a" stroke-width="3" rx="10"/>
+<text x="853.0" y="226" font-size="62" font-weight="800" fill="#1d2a3a" text-anchor="middle">2</text>
+<rect x="909.0" y="150" width="92" height="104" fill="#eef1f5" stroke="#1d2a3a" stroke-width="3" rx="10"/>
+<text x="955.0" y="226" font-size="62" font-weight="800" fill="#1d2a3a" text-anchor="middle">3</text>
+<rect x="1011.0" y="150" width="92" height="104" fill="#eef1f5" stroke="#1d2a3a" stroke-width="3" rx="10"/>
+<text x="1057.0" y="226" font-size="62" font-weight="800" fill="#1d2a3a" text-anchor="middle">4</text>
+<rect x="1113.0" y="150" width="92" height="104" fill="#eef1f5" stroke="#1d2a3a" stroke-width="3" rx="10"/>
+<text x="1159.0" y="226" font-size="62" font-weight="800" fill="#1d2a3a" text-anchor="middle">5</text>
+<rect x="1215.0" y="150" width="92" height="104" fill="#eef1f5" stroke="#1d2a3a" stroke-width="3" rx="10"/>
+<text x="1261.0" y="226" font-size="62" font-weight="800" fill="#1d2a3a" text-anchor="middle">6</text>
+<rect x="1351.0" y="150" width="92" height="104" fill="#fdeee9" stroke="#d9482b" stroke-width="3" rx="10"/>
+<text x="1397.0" y="226" font-size="62" font-weight="800" fill="#d9482b" text-anchor="middle">3</text>
+<path d="M229.0 270 L229.0 284 L525.0 284 L525.0 270" stroke="#1f6fd1" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="377.0" y="320" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="middle">소유자 코드</text>
+<text x="377.0" y="350" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">BIC에 등록, 전 세계에서 겹치지 않음</text>
+<path d="M569.0 270 L569.0 284 L661.0 284 L661.0 270" stroke="#1f8a5b" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="615.0" y="320" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="middle">장비 구분</text>
+<text x="615.0" y="350" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">U 화물 컨테이너</text>
+<path d="M705.0 270 L705.0 284 L1307.0 284 L1307.0 270" stroke="#1d2a3a" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1006.0" y="320" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="middle">일련번호</text>
+<text x="1006.0" y="350" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">여섯 자리</text>
+<path d="M1351.0 270 L1351.0 284 L1443.0 284 L1443.0 270" stroke="#d9482b" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1397.0" y="320" font-size="24" font-weight="800" fill="#d9482b" text-anchor="middle">체크 디지트</text>
+<text x="1397.0" y="350" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">옮겨 적기 오류 확인</text>
+<path d="M229.0 140 L229.0 128 L661.0 128 L661.0 140" stroke="#1f6fd1" stroke-width="2.5" fill="none" stroke-dasharray="6 5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="445.0" y="118" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="middle">Prefix(BIC 코드) = 앞 네 글자</text>
+<text x="836" y="400" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">J는 컨테이너에 붙이는 장비, Z는 트레일러·샤시. Prefix는 소유자를 나타내므로 리스 컨테이너는 운항 선사 사이트에서 조회합니다.</text>
+<rect x="30" y="440" width="1612" height="471" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="482" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">체크 디지트 계산: 자리마다 값 × 가중치(1, 2, 4 … 512)를 더해 11로 나눈 나머지</text>
+<text x="236" y="528" font-size="21" font-weight="800" fill="#5f6b78" text-anchor="end">자리</text>
+<text x="236" y="584" font-size="21" font-weight="800" fill="#5f6b78" text-anchor="end">값</text>
+<text x="236" y="640" font-size="21" font-weight="800" fill="#5f6b78" text-anchor="end">가중치</text>
+<text x="236" y="696" font-size="21" font-weight="800" fill="#5f6b78" text-anchor="end">곱</text>
+<rect x="260" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="320.0" y="528" font-size="26" font-weight="800" fill="#1f6fd1" text-anchor="middle">K</text>
+<text x="320.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">21</text>
+<text x="320.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×1</text>
+<text x="320.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">21</text>
+<rect x="388" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="448.0" y="528" font-size="26" font-weight="800" fill="#1f6fd1" text-anchor="middle">Q</text>
+<text x="448.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">28</text>
+<text x="448.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×2</text>
+<text x="448.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">56</text>
+<rect x="516" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="576.0" y="528" font-size="26" font-weight="800" fill="#1f6fd1" text-anchor="middle">X</text>
+<text x="576.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">36</text>
+<text x="576.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×4</text>
+<text x="576.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">144</text>
+<rect x="644" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="704.0" y="528" font-size="26" font-weight="800" fill="#1f8a5b" text-anchor="middle">U</text>
+<text x="704.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">32</text>
+<text x="704.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×8</text>
+<text x="704.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">256</text>
+<rect x="772" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="832.0" y="528" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">1</text>
+<text x="832.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">1</text>
+<text x="832.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×16</text>
+<text x="832.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">16</text>
+<rect x="900" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="960.0" y="528" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">2</text>
+<text x="960.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">2</text>
+<text x="960.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×32</text>
+<text x="960.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">64</text>
+<rect x="1028" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="1088.0" y="528" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">3</text>
+<text x="1088.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">3</text>
+<text x="1088.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×64</text>
+<text x="1088.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">192</text>
+<rect x="1156" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="1216.0" y="528" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">4</text>
+<text x="1216.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">4</text>
+<text x="1216.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×128</text>
+<text x="1216.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">512</text>
+<rect x="1284" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="1344.0" y="528" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">5</text>
+<text x="1344.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">5</text>
+<text x="1344.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×256</text>
+<text x="1344.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">1280</text>
+<rect x="1412" y="498" width="120" height="220" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="1472.0" y="528" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">6</text>
+<text x="1472.0" y="584" font-size="22" font-weight="600" fill="#1d2a3a" text-anchor="middle">6</text>
+<text x="1472.0" y="640" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="middle">×512</text>
+<text x="1472.0" y="696" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">3072</text>
+<line x1="260" y1="600" x2="1532" y2="600" stroke="#c9d2dc" stroke-width="1"/>
+<line x1="260" y1="656" x2="1532" y2="656" stroke="#c9d2dc" stroke-width="1"/>
+<text x="260" y="772" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="start">합계 21 + 56 + 144 + 256 + 16 + 64 + 192 + 512 + 1280 + 3072 = 5613</text>
+<rect x="260" y="796" width="760" height="76" fill="#fdeee9" stroke="#d9482b" stroke-width="3" rx="12"/>
+<text x="284" y="845" font-size="26" font-weight="800" fill="#d9482b" text-anchor="start">5613 ÷ 11 = 510 … 나머지 3  →  KQXU 123456 3</text>
+<text x="1060" y="812" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">글자 값: A=10부터 차례로, 11의 배수(11, 22, 33)는</text>
+<text x="1060" y="838" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">건너뜀 → B=12, L=23, V=34 / K=21, Q=28, X=36, U=32</text>
+<text x="1060" y="864" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">나머지가 10이면 체크 디지트는 0</text>
+</svg>

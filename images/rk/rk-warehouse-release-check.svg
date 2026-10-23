@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">출고 때 본인 확인 순서: 가짜 픽업 막기 (5절, 창고 작업자)</text>
+<rect x="40" y="96" width="250" height="300" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="41.5" y="97.5" width="247" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="72" cy="126" r="18" fill="#1f6fd1"/>
+<text x="72" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="100" y="135" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">사전 통보 확인</text>
+<text x="60" y="188.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">계약서에 정한 경로(등록</text>
+<text x="60" y="212.14" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">이메일, 시스템 계정)로</text>
+<text x="60" y="236.28" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">출고지시서·차량번호·기사</text>
+<text x="60" y="260.42" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">이름이 왔는지</text>
+<line x1="291" y1="246" x2="306" y2="246" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="308" y="96" width="250" height="300" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="309.5" y="97.5" width="247" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="340" cy="126" r="18" fill="#1f6fd1"/>
+<text x="340" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="368" y="135" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">차량 대조</text>
+<text x="328" y="188.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">도착 차량의 번호판과</text>
+<text x="328" y="212.14" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">차종을 사전 통보와</text>
+<text x="328" y="236.28" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">대조하고 기록</text>
+<line x1="559" y1="246" x2="574" y2="246" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="576" y="96" width="250" height="300" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="577.5" y="97.5" width="247" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="608" cy="126" r="18" fill="#1f6fd1"/>
+<text x="608" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="636" y="135" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">기사 신분 확인</text>
+<text x="596" y="188.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">사진 신분증으로 본인·유효</text>
+<text x="596" y="212.14" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">여부와 통보된 이름 대조.</text>
+<text x="596" y="236.28" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">눈으로 대조하고</text>
+<text x="596" y="260.42" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">이름·차량번호만 기록</text>
+<line x1="827" y1="246" x2="842" y2="246" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="844" y="96" width="250" height="300" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="845.5" y="97.5" width="247" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="876" cy="126" r="18" fill="#1f6fd1"/>
+<text x="876" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="904" y="135" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">서류 대조</text>
+<text x="864" y="188.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">출고지시서 번호, 품목,</text>
+<text x="864" y="212.14" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">수량, 화인을 창고 시스템</text>
+<text x="864" y="236.28" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">출고 예정 내역과 맞춤</text>
+<line x1="1095" y1="246" x2="1110" y2="246" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="1112" y="96" width="250" height="300" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="1113.5" y="97.5" width="247" height="58" fill="#eaf2fc" rx="13"/>
+<circle cx="1144" cy="126" r="18" fill="#1f6fd1"/>
+<text x="1144" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<text x="1172" y="135" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">상차와 씰</text>
+<text x="1132" y="188.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">상차 수량을 기사와 함께</text>
+<text x="1132" y="212.14" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">세고 창고 직원이 씰을 붙인</text>
+<text x="1132" y="236.28" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">뒤 씰 번호를 출고증에 기록</text>
+<line x1="1363" y1="246" x2="1378" y2="246" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="1380" y="96" width="250" height="300" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<rect x="1381.5" y="97.5" width="247" height="58" fill="#e8f5ee" rx="13"/>
+<circle cx="1412" cy="126" r="18" fill="#1f8a5b"/>
+<text x="1412" y="133.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+<text x="1440" y="135" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">서명과 기록</text>
+<text x="1400" y="188.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">기사 서명, 출고 시각,</text>
+<text x="1400" y="212.14" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">번호판이 보이는 차량 사진</text>
+<rect x="40" y="430" width="1592" height="470" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="16"/>
+<text x="70" y="474" font-size="23" font-weight="800" fill="#d9482b" text-anchor="start">하나라도 맞지 않으면 출고 보류</text>
+<rect x="70" y="500" width="292" height="370" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="12"/>
+<text x="88" y="538" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">메일로 차량 변경 요청</text>
+<text x="88" y="600" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">신호</text>
+<text x="88" y="626" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">출고 직전, 발신 주소가 한두 글자</text>
+<text x="88" y="649" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">다름</text>
+<text x="88" y="700" font-size="15" font-weight="800" fill="#1f8a5b" text-anchor="start">대응</text>
+<text x="88" y="726" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">메일의 번호가 아니라</text>
+<text x="88" y="749" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">계약서·시스템에 등록된 담당자</text>
+<text x="88" y="772" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">번호로 되걸어 확인(call-back)</text>
+<rect x="382" y="500" width="292" height="370" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="12"/>
+<text x="400" y="538" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">운송사 사칭</text>
+<text x="400" y="600" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">신호</text>
+<text x="400" y="626" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">낯선 운송사, 회사 표시 없는 차량</text>
+<text x="400" y="700" font-size="15" font-weight="800" fill="#1f8a5b" text-anchor="start">대응</text>
+<text x="400" y="726" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">사전 통보된 운송사가 아니면 보류,</text>
+<text x="400" y="749" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">화주·포워더에 확인</text>
+<rect x="694" y="500" width="292" height="370" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="12"/>
+<text x="712" y="538" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">서류 위조</text>
+<text x="712" y="600" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">신호</text>
+<text x="712" y="626" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">양식·서명이 평소와 다름, 수량이</text>
+<text x="712" y="649" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">시스템과 다름</text>
+<text x="712" y="700" font-size="15" font-weight="800" fill="#1f8a5b" text-anchor="start">대응</text>
+<text x="712" y="726" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">시스템 출고 예정 내역과 다르면</text>
+<text x="712" y="749" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">보류</text>
+<rect x="1006" y="500" width="292" height="370" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="12"/>
+<text x="1024" y="538" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">재하청 차량</text>
+<text x="1024" y="600" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">신호</text>
+<text x="1024" y="626" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">운송사가 다른 회사·기사에게 다시</text>
+<text x="1024" y="649" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">넘김</text>
+<text x="1024" y="700" font-size="15" font-weight="800" fill="#1f8a5b" text-anchor="start">대응</text>
+<text x="1024" y="726" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">실제 도착 차량 기준으로 다시 확인</text>
+<rect x="1318" y="500" width="292" height="370" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="12"/>
+<text x="1336" y="538" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">급하게 몰아붙이기</text>
+<text x="1336" y="600" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">신호</text>
+<text x="1336" y="626" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">"지금 안 실으면 선적을 놓친다"</text>
+<text x="1336" y="700" font-size="15" font-weight="800" fill="#1f8a5b" text-anchor="start">대응</text>
+<text x="1336" y="726" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">확인이 끝나기 전에는 내주지</text>
+<text x="1336" y="749" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">않는다는 원칙을 계약서·현장에</text>
+<text x="1336" y="772" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">명시</text>
+</svg>

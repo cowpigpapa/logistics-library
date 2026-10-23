@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">OOG 부킹부터 선적까지: 같은 치수·중량 값이 모든 단계를 지나간다</text>
+<line x1="400" y1="210.0" x2="438" y2="210.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="804" y1="210.0" x2="842" y2="210.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="1208" y1="210.0" x2="1246" y2="210.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="1432.0" y1="320" x2="1432.0" y2="394" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="1252" y1="510.0" x2="1214" y2="510.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="848" y1="510.0" x2="810" y2="510.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="40" y="100" width="360" height="220" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="41.5" y="101.5" width="357" height="62" fill="#eaf2fc" rx="13"/>
+<circle cx="74" cy="133" r="18" fill="#1f6fd1"/>
+<text x="74" y="140.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="102" y="141" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">견적·사전 문의</text>
+<text x="62" y="198" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">포워더</text>
+<text x="62" y="234" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">화주 도면·중량·무게중심·사진으로</text>
+<text x="62" y="261" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">장비와 초과 치수를 선사에 알림</text>
+<rect x="444" y="100" width="360" height="220" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="445.5" y="101.5" width="357" height="62" fill="#eaf2fc" rx="13"/>
+<circle cx="478" cy="133" r="18" fill="#1f6fd1"/>
+<text x="478" y="140.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="506" y="141" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">선사 승인</text>
+<text x="466" y="198" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">선사</text>
+<text x="466" y="234" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">적재 위치(갑판·창내), 환적, 양하항</text>
+<text x="466" y="261" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">터미널 수용 여부 검토</text>
+<rect x="848" y="100" width="360" height="220" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="14"/>
+<rect x="849.5" y="101.5" width="357" height="62" fill="#eaf2fc" rx="13"/>
+<circle cx="882" cy="133" r="18" fill="#1f6fd1"/>
+<text x="882" y="140.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="910" y="141" font-size="23" font-weight="800" fill="#1f6fd1" text-anchor="start">장비 배정·내륙 준비</text>
+<text x="870" y="198" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">선사 · 운송사</text>
+<text x="870" y="234" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">플랫랙·오픈탑 배정, 트레일러 결정,</text>
+<text x="870" y="261" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">필요하면 도로 운행허가</text>
+<rect x="1252" y="100" width="360" height="220" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<rect x="1253.5" y="101.5" width="357" height="62" fill="#e8f5ee" rx="13"/>
+<circle cx="1286" cy="133" r="18" fill="#1f8a5b"/>
+<text x="1286" y="140.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="1314" y="141" font-size="23" font-weight="800" fill="#1f8a5b" text-anchor="start">적입·고박</text>
+<text x="1274" y="198" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">화주 공장 · 고박업체</text>
+<text x="1274" y="234" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">고박 계획서대로 싣고 고정</text>
+<rect x="1252" y="400" width="360" height="220" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="14"/>
+<rect x="1253.5" y="401.5" width="357" height="62" fill="#e8f5ee" rx="13"/>
+<circle cx="1286" cy="433" r="18" fill="#1f8a5b"/>
+<text x="1286" y="440.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<text x="1314" y="441" font-size="23" font-weight="800" fill="#1f8a5b" text-anchor="start">고박 검정</text>
+<text x="1274" y="498" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">검정업체</text>
+<text x="1274" y="534" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">선사가 요구하면 고박 증명서(lashing</text>
+<text x="1274" y="561" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">certificate) 발행</text>
+<rect x="848" y="400" width="360" height="220" fill="#ffffff" stroke="#e4572e" stroke-width="2.5" rx="14"/>
+<rect x="849.5" y="401.5" width="357" height="62" fill="#fdeee8" rx="13"/>
+<circle cx="882" cy="433" r="18" fill="#e4572e"/>
+<text x="882" y="440.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+<text x="910" y="441" font-size="23" font-weight="800" fill="#e4572e" text-anchor="start">확정 치수 갱신·반입</text>
+<text x="870" y="498" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">포워더 → 선사 · 터미널</text>
+<text x="870" y="534" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">고박 후 확정 치수·중량 송부.</text>
+<text x="870" y="561" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">터미널은 반입 때 치수와 고박 확인</text>
+<rect x="444" y="400" width="360" height="220" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="14"/>
+<rect x="445.5" y="401.5" width="357" height="62" fill="#eef1f5" rx="13"/>
+<circle cx="478" cy="433" r="18" fill="#1d2a3a"/>
+<text x="478" y="440.2" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">7</text>
+<text x="506" y="441" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">선적·양하</text>
+<text x="466" y="498" font-size="18" font-weight="700" fill="#5f6b78" text-anchor="start">터미널 · 선사</text>
+<text x="466" y="534" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">오버하이트는 스프레더에</text>
+<text x="466" y="561" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">슬링·체인을 연결해 수직으로 듦</text>
+<rect x="40" y="400" width="360" height="220" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="14" stroke-dasharray="8 6"/>
+<text x="60" y="440" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">입력값(화주가 준 값)</text>
+<text x="60" y="478" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">포장 포함 치수와 도면</text>
+<text x="60" y="510" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">개별 중량 · 무게중심</text>
+<text x="60" y="542" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">들어 올리는 위치 · 받침 형태</text>
+<text x="60" y="574" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">사진(포장 전·후, 고박)</text>
+<rect x="40" y="660" width="1592" height="240" fill="#fdeee9" stroke="#d9482b" stroke-width="2.5" rx="16"/>
+<text x="70" y="704" font-size="23" font-weight="800" fill="#d9482b" text-anchor="start">치수·중량이 신고와 다르면 (Maersk 안내)</text>
+<rect x="70" y="730" width="290" height="64" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="10"/>
+<text x="215" y="770" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">부킹 취소</text>
+<rect x="382" y="730" width="290" height="64" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="10"/>
+<text x="527" y="770" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">추가 운임·작업비</text>
+<rect x="694" y="730" width="290" height="64" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="10"/>
+<text x="839" y="770" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">오신고 비용(MID)</text>
+<rect x="1006" y="730" width="290" height="64" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="10"/>
+<text x="1151" y="770" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">터미널 선적 거부</text>
+<rect x="1318" y="730" width="290" height="64" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="10"/>
+<text x="1463" y="770" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">선적에서 빠짐(shut-out)</text>
+<text x="70" y="836" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">본선 적재 칸은 받은 치수로 미리 배정됩니다. 견적 때 치수가 확정되지 않았으면 예상 치수로 승인을 받고, 고박이 끝나 확정 치수가 나오면 바로 선사에 갱신합니다.</text>
+</svg>

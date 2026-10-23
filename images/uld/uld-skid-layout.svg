@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="790" height="428" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="52" y="70" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">PAG 위의 1,100 × 1,100 mm(T11) 스키드</text>
+<rect x="60" y="100" width="428.625" height="301.725" fill="#e7ecf1" stroke="#6f7d8a" stroke-width="2.5" rx="4"/>
+<rect x="69.1125" y="109.1125" width="410.40000000000003" height="283.5" fill="#ffffff" stroke="#1f6fd1" stroke-width="1.5" rx="0" stroke-dasharray="6 4"/>
+<rect x="69.1125" y="109.1125" width="146.5" height="146.5" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="143.3625" y="189.3625" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">110×110</text>
+<rect x="217.6125" y="109.1125" width="146.5" height="146.5" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="291.8625" y="189.3625" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">110×110</text>
+<text x="518.625" y="180" font-size="20" font-weight="700" fill="#5f6b78" text-anchor="start">한 층</text>
+<text x="518.625" y="240" font-size="56" font-weight="800" fill="#1f6fd1" text-anchor="start">2개</text>
+<text x="518.625" y="290" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">적재 가능 면적</text>
+<text x="518.625" y="314" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">304 × 210 cm</text>
+<text x="518.625" y="338" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">팔레트 바닥</text>
+<text x="518.625" y="362" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">317.5 × 223.5 cm</text>
+<text x="518.625" y="386" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start"> </text>
+<text x="518.625" y="410" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">스키드 칸의 숫자는 cm</text>
+<rect x="852" y="30" width="790" height="428" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="874" y="70" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">PMC 위의 1,100 × 1,100 mm(T11) 스키드</text>
+<rect x="882" y="100" width="428.625" height="329.13000000000005" fill="#e7ecf1" stroke="#6f7d8a" stroke-width="2.5" rx="4"/>
+<rect x="891.1125" y="109.31500000000001" width="410.40000000000003" height="310.5" fill="#ffffff" stroke="#1f6fd1" stroke-width="1.5" rx="0" stroke-dasharray="6 4"/>
+<rect x="891.1125" y="109.31500000000001" width="146.5" height="146.5" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="965.3625" y="189.565" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">110×110</text>
+<rect x="1039.6125" y="109.31500000000001" width="146.5" height="146.5" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="1113.8625" y="189.565" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">110×110</text>
+<rect x="891.1125" y="257.815" width="146.5" height="146.5" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="965.3625" y="338.06500000000005" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">110×110</text>
+<rect x="1039.6125" y="257.815" width="146.5" height="146.5" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="1113.8625" y="338.06500000000005" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">110×110</text>
+<text x="1340.625" y="180" font-size="20" font-weight="700" fill="#5f6b78" text-anchor="start">한 층</text>
+<text x="1340.625" y="240" font-size="56" font-weight="800" fill="#1f6fd1" text-anchor="start">4개</text>
+<text x="1340.625" y="290" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">적재 가능 면적</text>
+<text x="1340.625" y="314" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">304 × 230 cm</text>
+<text x="1340.625" y="338" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">팔레트 바닥</text>
+<text x="1340.625" y="362" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">317.5 × 243.8 cm</text>
+<text x="1340.625" y="386" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start"> </text>
+<text x="1340.625" y="410" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">스키드 칸의 숫자는 cm</text>
+<rect x="30" y="482" width="790" height="428" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="52" y="522" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">PAG 위의 1,200 × 1,000 mm 스키드</text>
+<rect x="60" y="552" width="428.625" height="301.725" fill="#e7ecf1" stroke="#6f7d8a" stroke-width="2.5" rx="4"/>
+<rect x="69.1125" y="561.1125" width="410.40000000000003" height="283.5" fill="#ffffff" stroke="#1f6fd1" stroke-width="1.5" rx="0" stroke-dasharray="6 4"/>
+<rect x="69.1125" y="561.1125" width="160.0" height="133.0" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="150.1125" y="634.6125" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">120×100</text>
+<rect x="231.1125" y="561.1125" width="160.0" height="133.0" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="312.1125" y="634.6125" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">120×100</text>
+<rect x="69.1125" y="696.1125" width="160.0" height="133.0" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="150.1125" y="769.6125" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">120×100</text>
+<rect x="231.1125" y="696.1125" width="160.0" height="133.0" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="312.1125" y="769.6125" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">120×100</text>
+<text x="518.625" y="632" font-size="20" font-weight="700" fill="#5f6b78" text-anchor="start">한 층</text>
+<text x="518.625" y="692" font-size="56" font-weight="800" fill="#1f6fd1" text-anchor="start">4개</text>
+<text x="518.625" y="742" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">적재 가능 면적</text>
+<text x="518.625" y="766" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">304 × 210 cm</text>
+<text x="518.625" y="790" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">팔레트 바닥</text>
+<text x="518.625" y="814" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">317.5 × 223.5 cm</text>
+<text x="518.625" y="838" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start"> </text>
+<text x="518.625" y="862" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">스키드 칸의 숫자는 cm</text>
+<rect x="852" y="482" width="790" height="428" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="874" y="522" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">PMC 위의 1,200 × 1,000 mm 스키드</text>
+<rect x="882" y="552" width="428.625" height="329.13000000000005" fill="#e7ecf1" stroke="#6f7d8a" stroke-width="2.5" rx="4"/>
+<rect x="891.1125" y="561.315" width="410.40000000000003" height="310.5" fill="#ffffff" stroke="#1f6fd1" stroke-width="1.5" rx="0" stroke-dasharray="6 4"/>
+<rect x="891.1125" y="561.315" width="133.0" height="160.0" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="958.6125" y="648.315" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">100×120</text>
+<rect x="1026.1125" y="561.315" width="133.0" height="160.0" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="1093.6125" y="648.315" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">100×120</text>
+<rect x="1161.1125" y="561.315" width="133.0" height="160.0" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="1228.6125" y="648.315" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">100×120</text>
+<rect x="891.1125" y="723.315" width="160.0" height="133.0" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="972.1125" y="796.815" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">120×100</text>
+<rect x="1053.1125" y="723.315" width="160.0" height="133.0" fill="#d9a066" stroke="#a8743a" stroke-width="2" rx="2"/>
+<text x="1134.1125" y="796.815" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">120×100</text>
+<text x="1340.625" y="632" font-size="20" font-weight="700" fill="#5f6b78" text-anchor="start">한 층</text>
+<text x="1340.625" y="692" font-size="56" font-weight="800" fill="#1f6fd1" text-anchor="start">5개</text>
+<text x="1340.625" y="742" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">적재 가능 면적</text>
+<text x="1340.625" y="766" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">304 × 230 cm</text>
+<text x="1340.625" y="790" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">팔레트 바닥</text>
+<text x="1340.625" y="814" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">317.5 × 243.8 cm</text>
+<text x="1340.625" y="838" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start"> </text>
+<text x="1340.625" y="862" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">스키드 칸의 숫자는 cm</text>
+</svg>

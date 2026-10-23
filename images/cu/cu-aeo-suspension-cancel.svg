@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="md9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="500" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="30" y="30" width="500" height="64" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="16" />
+<rect x="30" y="70" width="500" height="24" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="0" />
+<text x="54" y="74" font-size="26" font-weight="800" fill="#ffffff" text-anchor="start">공인 뒤 지켜야 할 일</text>
+<rect x="590" y="30" width="500" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="590" y="30" width="500" height="64" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="16" />
+<rect x="590" y="70" width="500" height="24" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="0" />
+<text x="614" y="74" font-size="26" font-weight="800" fill="#ffffff" text-anchor="start">혜택 적용 정지</text>
+<rect x="1150" y="30" width="492" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<rect x="1150" y="30" width="492" height="64" fill="#d9482b" stroke="#d9482b" stroke-width="0" rx="16" />
+<rect x="1150" y="70" width="492" height="24" fill="#d9482b" stroke="#d9482b" stroke-width="0" rx="0" />
+<text x="1174" y="74" font-size="26" font-weight="800" fill="#ffffff" text-anchor="start">공인 취소</text>
+<text x="1070" y="74" font-size="19" font-weight="700" fill="#ffffff" text-anchor="end">6개월 범위, 전부 또는 일부</text>
+<rect x="50" y="120" width="460" height="132" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="12" />
+<text x="70" y="156" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">변동사항 보고</text>
+<text x="70" y="192" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">생긴 날부터 30일 이내</text>
+<text x="70" y="226" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">범칙행위·부도 등 중대한 일은 지체 없이</text>
+<rect x="50" y="270" width="460" height="132" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="12" />
+<text x="70" y="306" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">정기 자율 평가</text>
+<text x="70" y="342" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">매년 공인일자가 속한 달의 다음 달 15일</text>
+<text x="70" y="376" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">제출 전에 확인자의 확인</text>
+<rect x="50" y="420" width="460" height="132" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="12" />
+<text x="70" y="456" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">관리책임자 교육</text>
+<text x="70" y="492" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">공인 후 1년 이내, 그 뒤 매 2년</text>
+<text x="70" y="526" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">관리책임자가 바뀌면 180일 이내</text>
+<rect x="50" y="570" width="460" height="132" fill="#eef3fb" stroke="#1f6fd1" stroke-width="1.5" rx="12" />
+<text x="70" y="606" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">개선 요구를 받으면</text>
+<text x="70" y="642" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">30일 이내 개선계획</text>
+<text x="70" y="676" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">그 제출일부터 90일 이내 완료 보고서</text>
+<text x="54" y="750" font-size="19" font-weight="700" fill="#e4572e" text-anchor="start">기한을 놓치거나 위반이 생기면</text>
+<text x="54" y="790" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">범칙행위는 30일을 기다리지 않고</text>
+<text x="54" y="820" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">지체 없이 보고합니다. 보고하지 않으면</text>
+<text x="54" y="850" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">그 자체가 정지 사유입니다.</text>
+<text x="634" y="142" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">수출입 관련 법령 위반으로 고발·송치되거나</text>
+<text x="634" y="170" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">통고처분을 받음 (업체·대표자·관리책임자)</text>
+<text x="634" y="214" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">변동사항 미보고, 정기 자율 평가서를</text>
+<text x="634" y="242" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">제출 기한부터 1개월 안에 내지 않음</text>
+<text x="634" y="286" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">공인 유효기간 중 개선 요구 3회 이상</text>
+<text x="634" y="330" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">교육 권고 뒤에도 관리책임자 교육 미이수</text>
+<text x="634" y="374" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">직원 안전관리 교육 미실시, 위반 직원을</text>
+<text x="634" y="402" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">관련 직무에서 빼지 않음</text>
+<circle cx="618" cy="136" r="6" fill="#e4572e" stroke="none" stroke-width="2"/>
+<circle cx="618" cy="208" r="6" fill="#e4572e" stroke="none" stroke-width="2"/>
+<circle cx="618" cy="280" r="6" fill="#e4572e" stroke="none" stroke-width="2"/>
+<circle cx="618" cy="324" r="6" fill="#e4572e" stroke="none" stroke-width="2"/>
+<circle cx="618" cy="368" r="6" fill="#e4572e" stroke="none" stroke-width="2"/>
+<text x="614" y="550" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">정지가 쌓이면 (같은 공인부문 유효기간 안)</text>
+<circle cx="650" cy="616" r="32" fill="#fff1e8" stroke="#e4572e" stroke-width="3"/>
+<text x="650" y="624" font-size="20" font-weight="800" fill="#e4572e" text-anchor="middle">1회</text>
+<circle cx="740" cy="616" r="32" fill="#fff1e8" stroke="#e4572e" stroke-width="3"/>
+<text x="740" y="624" font-size="20" font-weight="800" fill="#e4572e" text-anchor="middle">2회</text>
+<circle cx="830" cy="616" r="32" fill="#fff1e8" stroke="#e4572e" stroke-width="3"/>
+<text x="830" y="624" font-size="20" font-weight="800" fill="#e4572e" text-anchor="middle">3회</text>
+<circle cx="920" cy="616" r="32" fill="#fff1e8" stroke="#e4572e" stroke-width="3"/>
+<text x="920" y="624" font-size="20" font-weight="800" fill="#e4572e" text-anchor="middle">4회</text>
+<circle cx="1010" cy="616" r="32" fill="#d9482b" stroke="#d9482b" stroke-width="3"/>
+<text x="1010" y="624" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">5회</text>
+<text x="614" y="700" font-size="21" font-weight="800" fill="#d9482b" text-anchor="start">5회 이상이면 공인 취소 사유</text>
+<text x="614" y="750" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">정지 기간은 사안마다 관세청이 정합니다.</text>
+<text x="614" y="780" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">통지를 받으면 기한 안에 사정과 재발 방지</text>
+<text x="614" y="810" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">조치를 서면으로 냅니다 (행정절차법).</text>
+<circle cx="1178" cy="130" r="6" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1194" y="136" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">거짓·부정한 방법으로 공인·갱신</text>
+<text x="1622" y="136" font-size="18" font-weight="800" fill="#d9482b" text-anchor="end">반드시 취소</text>
+<circle cx="1178" cy="174" r="6" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1194" y="180" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">양도·합병 등으로 공인 당시 업체와 다름</text>
+<circle cx="1178" cy="218" r="6" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1194" y="224" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">개선·자료 제출 요구 불이행, 이행해도 기준 미달</text>
+<circle cx="1178" cy="262" r="6" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1194" y="268" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">혜택 정지 5회 이상</text>
+<circle cx="1178" cy="306" r="6" fill="#d9482b" stroke="none" stroke-width="2"/>
+<text x="1194" y="312" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">밀수출입·관세포탈 등으로 벌금형 이상 또는</text>
+<text x="1194" y="340" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">통고처분 이행, 제276조 위반 벌금형 등</text>
+<text x="1174" y="392" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">(양벌규정으로만 처벌된 경우는 제외)</text>
+<rect x="1174" y="550" width="444" height="58" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5" rx="12" />
+<text x="1396.0" y="585.65" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">즉시 혜택 적용 중단</text>
+<line x1="1396.0" y1="610" x2="1396.0" y2="632" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="1174" y="634" width="444" height="58" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5" rx="12" />
+<text x="1396.0" y="669.65" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">청문 (예정일 10일 전까지 서면 통지)</text>
+<line x1="1396.0" y1="694" x2="1396.0" y2="716" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="1174" y="718" width="444" height="58" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5" rx="12" />
+<text x="1396.0" y="753.65" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">심의위원회 결정</text>
+<line x1="1396.0" y1="778" x2="1396.0" y2="800" stroke="#d9482b" stroke-width="3" marker-end="url(#md9482b)"/>
+<rect x="1174" y="802" width="444" height="58" fill="#d9482b" stroke="#d9482b" stroke-width="1.5" rx="12" />
+<text x="1396.0" y="837.65" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">2년간 재공인 불가, 증서·AEO 카드 반납</text>
+<line x1="534" y1="480" x2="584" y2="480" stroke="#d9482b" stroke-width="4" marker-end="url(#md9482b)"/>
+<line x1="1094" y1="480" x2="1144" y2="480" stroke="#d9482b" stroke-width="4" marker-end="url(#md9482b)"/>
+</svg>

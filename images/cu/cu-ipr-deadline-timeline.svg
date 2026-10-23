@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+  <marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+  <marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+
+<!-- Top panel -->
+<rect x="30" y="30" width="1612" height="440" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="26" font-weight="800" fill="#1d2a3a">침해 의심 통보부터 보류 계속까지</text>
+<text x="54" y="106" font-size="19" font-weight="600" fill="#5f6b78">세관신고 권리의 침해 의심 통보 → 권리자 요청 경로</text>
+
+<!-- segment 1: 0..7 days, 70px/day from x=100 -->
+<text x="100" y="168" font-size="21" font-weight="800" fill="#d9482b">권리자: 보류 요청서·감정서·담보 제출</text>
+<rect x="100" y="184" width="490" height="18" fill="#d9482b" rx="4"/>
+<line x1="100" y1="250" x2="590" y2="250" stroke="#1d2a3a" stroke-width="4"/>
+<g stroke="#1d2a3a" stroke-width="2">
+<line x1="100" y1="240" x2="100" y2="260"/><line x1="170" y1="244" x2="170" y2="256"/><line x1="240" y1="244" x2="240" y2="256"/><line x1="310" y1="244" x2="310" y2="256"/><line x1="380" y1="244" x2="380" y2="256"/><line x1="450" y1="240" x2="450" y2="260"/><line x1="520" y1="244" x2="520" y2="256"/><line x1="590" y1="236" x2="590" y2="264"/>
+</g>
+<circle cx="100" cy="250" r="9" fill="#1d2a3a"/>
+<text x="100" y="290" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">통보일</text>
+<text x="450" y="290" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">5일(긴급)</text>
+<text x="590" y="292" font-size="26" font-weight="800" fill="#d9482b" text-anchor="middle">7일</text>
+<rect x="100" y="316" width="490" height="18" fill="#1f6fd1" rx="4"/>
+<text x="100" y="364" font-size="21" font-weight="800" fill="#1f6fd1">수출입자등: 비침해 소명자료 제출</text>
+
+<!-- break box -->
+<line x1="600" y1="250" x2="636" y2="250" stroke="#1d2a3a" stroke-width="4" stroke-dasharray="6 6"/>
+<rect x="644" y="196" width="220" height="108" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="754" y="238" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">세관 통관보류</text>
+<text x="754" y="272" font-size="20" font-weight="600" fill="#1d2a3a" text-anchor="middle">보류 사실 통보</text>
+<line x1="866" y1="250" x2="900" y2="250" stroke="#1d2a3a" stroke-width="4" stroke-dasharray="6 6"/>
+
+<!-- segment 2: 0..20 days, 33px/day from x=910 -->
+<text x="910" y="168" font-size="21" font-weight="800" fill="#d9482b">권리자: 법원 제소 또는 무역위원회 조사신청 입증</text>
+<rect x="910" y="184" width="330" height="18" fill="#d9482b" rx="4"/>
+<line x1="1240" y1="193" x2="1560" y2="193" stroke="#d9482b" stroke-width="6" stroke-dasharray="12 8"/>
+<line x1="910" y1="250" x2="1570" y2="250" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<line x1="910" y1="240" x2="910" y2="260" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="1240" y1="236" x2="1240" y2="264" stroke="#1d2a3a" stroke-width="2"/>
+<line x1="1560" y1="240" x2="1560" y2="260" stroke="#1d2a3a" stroke-width="2"/>
+<circle cx="910" cy="250" r="9" fill="#1d2a3a"/>
+<text x="898" y="290" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">보류 통보</text>
+<text x="1240" y="292" font-size="26" font-weight="800" fill="#d9482b" text-anchor="middle">10일</text>
+<text x="1560" y="290" font-size="19" font-weight="700" fill="#d9482b" text-anchor="end">+10일 연장(부득이할 때)</text>
+<text x="910" y="334" font-size="19" font-weight="600" fill="#5f6b78">공휴일 등(관세법 제8조 제3항)은 날수에서 제외</text>
+<rect x="910" y="364" width="704" height="74" fill="#fff5f2" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="934" y="398" font-size="21" font-weight="800" fill="#d9482b">입증하지 못하면</text>
+<text x="934" y="426" font-size="20" font-weight="600" fill="#1d2a3a">보류를 계속할 근거가 없어짐 (영 제239조 제3항)</text>
+
+<!-- Bottom panel -->
+<rect x="30" y="494" width="1612" height="416" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="538" font-size="26" font-weight="800" fill="#1d2a3a">그 밖의 기한</text>
+
+<!-- row 1 -->
+<text x="54" y="624" font-size="22" font-weight="800" fill="#1f6fd1">수입자 해제 요청</text>
+<circle cx="380" cy="616" r="9" fill="#1d2a3a"/>
+<line x1="380" y1="616" x2="900" y2="616" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<line x1="910" y1="596" x2="910" y2="636" stroke="#d9482b" stroke-width="4"/>
+<text x="380" y="596" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">요청일</text>
+<text x="922" y="584" font-size="22" font-weight="800" fill="#d9482b" text-anchor="end">15일 안 세관 결정</text>
+<text x="980" y="608" font-size="19" font-weight="600" fill="#1d2a3a">담보: 과세가격의 120%(중소기업 40%)</text>
+<text x="980" y="638" font-size="19" font-weight="600" fill="#5f6b78">위조상표 부착 등 명백한 침해물품은 해제 대상 아님</text>
+
+<!-- row 2 -->
+<text x="54" y="734" font-size="22" font-weight="800" fill="#1f8a5b">법원 임시보호조치</text>
+<circle cx="380" cy="726" r="9" fill="#1d2a3a"/>
+<line x1="380" y1="726" x2="900" y2="726" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<line x1="910" y1="706" x2="910" y2="746" stroke="#d9482b" stroke-width="4"/>
+<text x="380" y="706" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">개시일</text>
+<text x="922" y="694" font-size="22" font-weight="800" fill="#d9482b" text-anchor="end">기간 미정이면 31일</text>
+<text x="980" y="718" font-size="19" font-weight="600" fill="#1d2a3a">법원이 기간을 정했으면 그 마지막 날까지</text>
+<text x="980" y="748" font-size="19" font-weight="600" fill="#5f6b78">정하지 않았으면 개시일부터 31일</text>
+
+<!-- row 3 -->
+<text x="54" y="844" font-size="22" font-weight="800" fill="#1d2a3a">담보해제 신청</text>
+<circle cx="380" cy="836" r="9" fill="#1d2a3a"/>
+<line x1="380" y1="836" x2="900" y2="836" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<line x1="910" y1="816" x2="910" y2="856" stroke="#d9482b" stroke-width="4"/>
+<text x="380" y="816" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">통보일</text>
+<text x="922" y="804" font-size="22" font-weight="800" fill="#d9482b" text-anchor="end">10일 안 소송 입증</text>
+<text x="980" y="828" font-size="19" font-weight="600" fill="#1d2a3a">상대방이 손해배상 소송 제기를 입증하면 담보 반환 안 함</text>
+<text x="980" y="858" font-size="19" font-weight="600" fill="#5f6b78">공휴일 등 제외, 10일 이내 연장 가능</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">직접운송: 같은 화물도 경로와 B/L에 따라 판단이 달라진다</text>
+<text x="340" y="116" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">원산지국</text>
+<text x="625" y="116" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">원산지 아닌 나라</text>
+<text x="910" y="116" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">한국</text>
+<text x="1010" y="116" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">직접운송 판단과 준비할 것</text>
+<line x1="54" y1="132" x2="1618" y2="132" stroke="#c9d2dc" stroke-width="2"/>
+<text x="66" y="190" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">직항</text>
+<line x1="360" y1="182" x2="888" y2="182" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<circle cx="340" cy="182" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<circle cx="910" cy="182" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<rect x="340" y="214" width="566" height="36" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2" rx="6" />
+<text x="623.0" y="239" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">B/L 1장</text>
+<circle cx="1030" cy="182" r="18" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<path d="M1021.9 182 L1028.2 188.84 L1039.0 174.8" stroke="#ffffff" stroke-width="4" fill="none"/>
+<text x="1060" y="189" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">가장 단순. 직접운송 문제는 거의 없음</text>
+<text x="1060" y="222" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">B/L 선적항·선적일이 원산지증명서·인보이스와</text>
+<text x="1060" y="247" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">맞는지 확인</text>
+<line x1="54" y1="268" x2="1618" y2="268" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="66" y="306" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">제3국 환적</text>
+<text x="66" y="332" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">(같은 B/L)</text>
+<line x1="360" y1="310" x2="601" y2="310" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="649" y1="310" x2="888" y2="310" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<circle cx="625" cy="310" r="16" fill="#ffffff" stroke="#d9482b" stroke-width="3"/>
+<circle cx="340" cy="310" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<circle cx="910" cy="310" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<rect x="340" y="342" width="566" height="36" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2" rx="6" />
+<text x="623.0" y="367" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">통과 B/L 1장 (환적항 표시)</text>
+<circle cx="1030" cy="310" r="18" fill="#1f8a5b" stroke="none" stroke-width="2"/>
+<path d="M1021.9 310 L1028.2 316.84 L1039.0 302.8" stroke="#ffffff" stroke-width="4" fill="none"/>
+<text x="1060" y="317" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">보세구역 내 운송 목적 환적이면 예외 인정</text>
+<text x="1060" y="350" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">처음부터 통과 B/L로 부킹, 환적 일자·선사</text>
+<text x="1060" y="375" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">스케줄 기록 보관</text>
+<line x1="54" y1="396" x2="1618" y2="396" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="66" y="434" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">제3국에서</text>
+<text x="66" y="460" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">B/L 새로 발행</text>
+<line x1="360" y1="438" x2="601" y2="438" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="649" y1="438" x2="888" y2="438" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<circle cx="625" cy="438" r="16" fill="#ffffff" stroke="#d9482b" stroke-width="3"/>
+<circle cx="340" cy="438" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<circle cx="910" cy="438" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<rect x="340" y="470" width="281" height="36" fill="#eef3fb" stroke="#1f6fd1" stroke-width="2" rx="6" />
+<text x="480.5" y="495" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">B/L ①</text>
+<rect x="625" y="470" width="281" height="36" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="6" />
+<text x="765.5" y="495" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">B/L ② 선적항=제3국</text>
+<path d="M1030 420 L1048.9 452.4 L1011.1 452.4 Z" fill="#b7791f"/>
+<text x="1030" y="449.16" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">!</text>
+<text x="1060" y="445" font-size="20" font-weight="800" fill="#b7791f" text-anchor="start">"제3국 선적물품"으로 서류 제출 요구 대상</text>
+<text x="1060" y="478" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">두 B/L을 잇는 기록(컨테이너·씰 번호, 일자),</text>
+<text x="1060" y="503" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">경유국 세관의 비가공증명서·보세 반출입 기록</text>
+<line x1="54" y1="524" x2="1618" y2="524" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="66" y="562" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">제3국 보세창고</text>
+<text x="66" y="588" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">일시 보관</text>
+<line x1="360" y1="566" x2="601" y2="566" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="649" y1="566" x2="888" y2="566" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<path d="M599 582 L599 560 L625 544 L651 560 L651 582 Z" stroke="#d9482b" stroke-width="3" fill="#ffffff"/>
+<text x="625" y="578" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">보세</text>
+<circle cx="340" cy="566" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<circle cx="910" cy="566" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<rect x="340" y="598" width="566" height="36" fill="#fff7e0" stroke="#b7791f" stroke-width="2" rx="18" />
+<text x="623.0" y="623" font-size="18" font-weight="700" fill="#b7791f" text-anchor="middle">보세 상태 유지, 하역·보관·보존 외 작업 없음</text>
+<path d="M1030 548 L1048.9 580.4 L1011.1 580.4 Z" fill="#b7791f"/>
+<text x="1030" y="577.16" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">!</text>
+<text x="1060" y="573" font-size="20" font-weight="800" fill="#b7791f" text-anchor="start">세관 통제가 유지되고 작업이 없으면 예외 가능</text>
+<text x="1060" y="606" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">창고 반입·반출 기록, 세관 통제 증빙.</text>
+<text x="1060" y="631" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">한-중 FTA는 비당사국 체류 3개월 이내</text>
+<line x1="54" y1="652" x2="1618" y2="652" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="66" y="690" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">제3국에서 분할·</text>
+<text x="66" y="716" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">재포장·라벨</text>
+<line x1="360" y1="694" x2="601" y2="694" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="649" y1="694" x2="888" y2="694" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<rect x="601" y="680" width="22" height="18" fill="#f3d9b1" stroke="#a8743a" stroke-width="2" rx="2" />
+<rect x="627" y="680" width="22" height="18" fill="#f3d9b1" stroke="#a8743a" stroke-width="2" rx="2" />
+<rect x="614" y="700" width="22" height="18" fill="#f3d9b1" stroke="#a8743a" stroke-width="2" rx="2" />
+<circle cx="340" cy="694" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<circle cx="910" cy="694" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<rect x="340" y="726" width="566" height="36" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="18" />
+<text x="623.0" y="751" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">창고에서 나누거나 재포장·라벨 부착 후 일부만 한국행</text>
+<circle cx="1030" cy="694" r="18" fill="#d9482b" stroke="none" stroke-width="2"/>
+<line x1="1022.8" y1="686.8" x2="1037.2" y2="701.2" stroke="#ffffff" stroke-width="4"/>
+<line x1="1022.8" y1="701.2" x2="1037.2" y2="686.8" stroke="#ffffff" stroke-width="4"/>
+<text x="1060" y="701" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">국제운송에 필요한 작업을 넘으면 불인정</text>
+<text x="1060" y="734" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">협정마다 다름(한-중은 운송상 분할, RCEP 연결</text>
+<text x="1060" y="759" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">원산지증명서는 분할 허용). 관세사 확인 뒤 진행</text>
+<line x1="54" y1="780" x2="1618" y2="780" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="66" y="818" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">제3국에서 통관</text>
+<text x="66" y="844" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">(내국 반입) 후 재수출</text>
+<line x1="360" y1="822" x2="601" y2="822" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<line x1="649" y1="822" x2="888" y2="822" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<circle cx="625" cy="822" r="22" fill="#fdeeea" stroke="#d9482b" stroke-width="3"/>
+<text x="625" y="829" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">통관</text>
+<circle cx="340" cy="822" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<circle cx="910" cy="822" r="16" fill="#1f6fd1" stroke="none" stroke-width="2"/>
+<rect x="340" y="854" width="566" height="36" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="18" />
+<text x="623.0" y="879" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">경유국에서 수입통관(내국 반입) 후 다시 수출</text>
+<circle cx="1030" cy="822" r="18" fill="#d9482b" stroke="none" stroke-width="2"/>
+<line x1="1022.8" y1="814.8" x2="1037.2" y2="829.2" stroke="#ffffff" stroke-width="4"/>
+<line x1="1022.8" y1="829.2" x2="1037.2" y2="814.8" stroke="#ffffff" stroke-width="4"/>
+<text x="1060" y="829" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">자유유통된 물품이 되어 예외에 해당하지 않음</text>
+<text x="1060" y="862" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">FTA 적용이 목적이면 경유국에서 통관하지</text>
+<text x="1060" y="887" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">않도록 부킹 단계에서 막음</text>
+</svg>

@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="30" y="62" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">20개 사례가 어느 단계에서 어긋났나</text>
+<text x="30" y="94" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">번호는 사례 번호, 색은 주제. 각 사례를 문제가 생기거나 걸린 단계에 한 번씩 놓았습니다.</text>
+<rect x="30" y="124" width="258" height="76" fill="#1d2a3a" rx="12"/>
+<text x="159.0" y="158" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">1. 의뢰·계약</text>
+<text x="159.0" y="184" font-size="18" font-weight="600" fill="#c9d2dc" text-anchor="middle">견적·부킹 단계</text>
+<path d="M289 152 l9 10 l-9 10z" fill="#1d2a3a"/>
+<rect x="30" y="214" width="258" height="520" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<rect x="40" y="228" width="238" height="60" fill="#ffffff" stroke="#0f8ea8" stroke-width="2" rx="10"/>
+<rect x="40" y="228" width="40" height="60" fill="#0f8ea8" rx="10"/>
+<rect x="64" y="228" width="16" height="60" fill="#0f8ea8"/>
+<text x="60" y="266" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">12</text>
+<text x="90" y="265" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">제한 대상자 수출 주선</text>
+<rect x="40" y="298" width="238" height="60" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<rect x="40" y="298" width="40" height="60" fill="#d9482b" rx="10"/>
+<rect x="64" y="298" width="16" height="60" fill="#d9482b"/>
+<text x="60" y="336" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">17</text>
+<text x="90" y="335" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">위조 담배 환적 위장</text>
+<rect x="30" y="748" width="258" height="78" fill="#f1f8f4" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="44" y="776" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">수하인 대조,</text>
+<text x="44" y="804" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">품명·출발지 바꾼 의뢰 거절</text>
+<rect x="300" y="124" width="258" height="76" fill="#1d2a3a" rx="12"/>
+<text x="429.0" y="158" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">2. 운송서류·운임</text>
+<text x="429.0" y="184" font-size="18" font-weight="600" fill="#c9d2dc" text-anchor="middle">B/L·운임 청구서</text>
+<path d="M559 152 l9 10 l-9 10z" fill="#1d2a3a"/>
+<rect x="300" y="214" width="258" height="520" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<rect x="310" y="228" width="238" height="60" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<rect x="310" y="228" width="40" height="60" fill="#1f8a5b" rx="10"/>
+<rect x="334" y="228" width="16" height="60" fill="#1f8a5b"/>
+<text x="330" y="266" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="360" y="265" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">통과 B/L 없는 경유</text>
+<rect x="310" y="298" width="238" height="60" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<rect x="310" y="298" width="40" height="60" fill="#1f8a5b" rx="10"/>
+<rect x="334" y="298" width="16" height="60" fill="#1f8a5b"/>
+<text x="330" y="336" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="360" y="335" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">비당사국 창고 경유</text>
+<rect x="310" y="368" width="238" height="60" fill="#ffffff" stroke="#e08a00" stroke-width="2" rx="10"/>
+<rect x="310" y="368" width="40" height="60" fill="#e08a00" rx="10"/>
+<rect x="334" y="368" width="16" height="60" fill="#e08a00"/>
+<text x="330" y="406" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="360" y="405" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">C&amp;F 신고·운임 별도</text>
+<rect x="310" y="438" width="238" height="60" fill="#ffffff" stroke="#e08a00" stroke-width="2" rx="10"/>
+<rect x="310" y="438" width="40" height="60" fill="#e08a00" rx="10"/>
+<rect x="334" y="438" width="16" height="60" fill="#e08a00"/>
+<text x="330" y="476" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="360" y="475" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">운임 높여 신고</text>
+<rect x="310" y="508" width="238" height="60" fill="#ffffff" stroke="#e08a00" stroke-width="2" rx="10"/>
+<rect x="310" y="508" width="40" height="60" fill="#e08a00" rx="10"/>
+<rect x="334" y="508" width="16" height="60" fill="#e08a00"/>
+<text x="330" y="546" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="360" y="545" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">EXW→DDU 항공운임</text>
+<rect x="300" y="748" width="258" height="78" fill="#f1f8f4" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="314" y="776" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">통과 B/L·경유 서류,</text>
+<text x="314" y="804" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">실제 운임대로 청구</text>
+<rect x="570" y="124" width="258" height="76" fill="#1d2a3a" rx="12"/>
+<text x="699.0" y="158" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">3. 수출 신고·적재</text>
+<text x="699.0" y="184" font-size="18" font-weight="600" fill="#c9d2dc" text-anchor="middle">S/R·선적</text>
+<path d="M829 152 l9 10 l-9 10z" fill="#1d2a3a"/>
+<rect x="570" y="214" width="258" height="520" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<rect x="580" y="228" width="238" height="60" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<rect x="580" y="228" width="40" height="60" fill="#1f6fd1" rx="10"/>
+<rect x="604" y="228" width="16" height="60" fill="#1f6fd1"/>
+<text x="600" y="266" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">9</text>
+<text x="630" y="265" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">검사 전 선적</text>
+<rect x="580" y="298" width="238" height="60" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<rect x="580" y="298" width="40" height="60" fill="#1f6fd1" rx="10"/>
+<rect x="604" y="298" width="16" height="60" fill="#1f6fd1"/>
+<text x="600" y="336" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">10</text>
+<text x="630" y="335" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">컨테이너 번호 미통보</text>
+<rect x="570" y="748" width="258" height="78" fill="#f1f8f4" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="584" y="776" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">S/R 전 수리·검사 확인,</text>
+<text x="584" y="804" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">번호 바뀌면 동시 정정</text>
+<rect x="840" y="124" width="258" height="76" fill="#1d2a3a" rx="12"/>
+<text x="969.0" y="158" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">4. 보세 보관·반출</text>
+<text x="969.0" y="184" font-size="18" font-weight="600" fill="#c9d2dc" text-anchor="middle">창고·특송 시설</text>
+<path d="M1099 152 l9 10 l-9 10z" fill="#1d2a3a"/>
+<rect x="840" y="214" width="258" height="520" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<rect x="850" y="228" width="238" height="60" fill="#ffffff" stroke="#5f6b78" stroke-width="2" rx="10"/>
+<rect x="850" y="228" width="40" height="60" fill="#5f6b78" rx="10"/>
+<rect x="874" y="228" width="16" height="60" fill="#5f6b78"/>
+<text x="870" y="266" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">8</text>
+<text x="900" y="265" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">보세구역 밖 참깨 도난</text>
+<rect x="850" y="298" width="238" height="60" fill="#ffffff" stroke="#0f8ea8" stroke-width="2" rx="10"/>
+<rect x="850" y="298" width="40" height="60" fill="#0f8ea8" rx="10"/>
+<rect x="874" y="298" width="16" height="60" fill="#0f8ea8"/>
+<text x="870" y="336" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">11</text>
+<text x="900" y="335" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">UPS 미보고 반출</text>
+<rect x="850" y="368" width="238" height="60" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<rect x="850" y="368" width="40" height="60" fill="#d9482b" rx="10"/>
+<rect x="874" y="368" width="16" height="60" fill="#d9482b"/>
+<text x="870" y="406" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">18</text>
+<text x="900" y="405" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">운송·창고 종사자 가담</text>
+<rect x="840" y="748" width="258" height="78" fill="#f1f8f4" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="854" y="776" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">책임자·보험 명시,</text>
+<text x="854" y="804" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">승인 없는 반출 차단</text>
+<rect x="1110" y="124" width="258" height="76" fill="#1d2a3a" rx="12"/>
+<text x="1239.0" y="158" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">5. 수입 신고·심사</text>
+<text x="1239.0" y="184" font-size="18" font-weight="600" fill="#c9d2dc" text-anchor="middle">분류·가격·지재권</text>
+<path d="M1369 152 l9 10 l-9 10z" fill="#1d2a3a"/>
+<rect x="1110" y="214" width="258" height="520" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<rect x="1120" y="228" width="238" height="60" fill="#ffffff" stroke="#7a4fc4" stroke-width="2" rx="10"/>
+<rect x="1120" y="228" width="40" height="60" fill="#7a4fc4" rx="10"/>
+<rect x="1144" y="228" width="16" height="60" fill="#7a4fc4"/>
+<text x="1140" y="266" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="1170" y="265" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">설비 &quot;노의 부분품&quot;</text>
+<rect x="1120" y="298" width="238" height="60" fill="#ffffff" stroke="#7a4fc4" stroke-width="2" rx="10"/>
+<rect x="1120" y="298" width="40" height="60" fill="#7a4fc4" rx="10"/>
+<rect x="1144" y="298" width="16" height="60" fill="#7a4fc4"/>
+<text x="1140" y="336" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="1170" y="335" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">손목 웨어러블</text>
+<rect x="1120" y="368" width="238" height="60" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<rect x="1120" y="368" width="40" height="60" fill="#d9482b" rx="10"/>
+<rect x="1144" y="368" width="16" height="60" fill="#d9482b"/>
+<text x="1140" y="406" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">13</text>
+<text x="1170" y="405" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">스타크래프트 병행수입</text>
+<rect x="1120" y="438" width="238" height="60" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<rect x="1120" y="438" width="40" height="60" fill="#d9482b" rx="10"/>
+<rect x="1144" y="438" width="16" height="60" fill="#d9482b"/>
+<text x="1140" y="476" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">14</text>
+<text x="1170" y="475" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">K·SWISS 병행수입</text>
+<rect x="1120" y="508" width="238" height="60" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<rect x="1120" y="508" width="40" height="60" fill="#d9482b" rx="10"/>
+<rect x="1144" y="508" width="16" height="60" fill="#d9482b"/>
+<text x="1140" y="546" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">15</text>
+<text x="1170" y="545" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">폴로 병행수입</text>
+<rect x="1120" y="578" width="238" height="60" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<rect x="1120" y="578" width="40" height="60" fill="#d9482b" rx="10"/>
+<rect x="1144" y="578" width="16" height="60" fill="#d9482b"/>
+<text x="1140" y="616" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">19</text>
+<text x="1170" y="615" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">위조상품 집중단속</text>
+<rect x="1120" y="648" width="238" height="60" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<rect x="1120" y="648" width="40" height="60" fill="#d9482b" rx="10"/>
+<rect x="1144" y="648" width="16" height="60" fill="#d9482b"/>
+<text x="1140" y="686" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">20</text>
+<text x="1170" y="685" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">통관보류 국가배상</text>
+<rect x="1110" y="748" width="258" height="78" fill="#f1f8f4" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="1124" y="776" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">사양서 전달,</text>
+<text x="1124" y="804" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">정품 구매 경로 서류</text>
+<rect x="1380" y="124" width="258" height="76" fill="#1d2a3a" rx="12"/>
+<text x="1509.0" y="158" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">6. 국내 판매</text>
+<text x="1509.0" y="184" font-size="18" font-weight="600" fill="#c9d2dc" text-anchor="middle">통관 뒤</text>
+<rect x="1380" y="214" width="258" height="520" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<rect x="1390" y="228" width="238" height="60" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
+<rect x="1390" y="228" width="40" height="60" fill="#d9482b" rx="10"/>
+<rect x="1414" y="228" width="16" height="60" fill="#d9482b"/>
+<text x="1410" y="266" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">16</text>
+<text x="1440" y="265" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">병행수입 상표 사용</text>
+<rect x="1380" y="748" width="258" height="78" fill="#f1f8f4" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="1394" y="776" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">통관 인정과</text>
+<text x="1394" y="804" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">판매 방식은 별개</text>
+<text x="30" y="862" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start">초록 칸: 그 단계에서 막는 방법(9절 반복되는 실패)</text>
+<rect x="30" y="886" width="20" height="20" fill="#1f8a5b" rx="4"/>
+<text x="58" y="902" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">원산지·직접운송</text>
+<rect x="234" y="886" width="20" height="20" fill="#7a4fc4" rx="4"/>
+<text x="262" y="902" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">품목분류</text>
+<rect x="370" y="886" width="20" height="20" fill="#e08a00" rx="4"/>
+<text x="398" y="902" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">과세가격·운임</text>
+<rect x="557" y="886" width="20" height="20" fill="#5f6b78" rx="4"/>
+<text x="585" y="902" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">보세화물 도난</text>
+<rect x="744" y="886" width="20" height="20" fill="#1f6fd1" rx="4"/>
+<text x="772" y="902" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">수출 적재·적하목록</text>
+<rect x="982" y="886" width="20" height="20" fill="#0f8ea8" rx="4"/>
+<text x="1010" y="902" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">해외 신고·수출통제</text>
+<rect x="1220" y="886" width="20" height="20" fill="#d9482b" rx="4"/>
+<text x="1248" y="902" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="start">지식재산권 통관보류</text>
+</svg>

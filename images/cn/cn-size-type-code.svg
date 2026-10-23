@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">크기·형식 코드 네 자리 읽기</text>
+<rect x="120" y="150" width="150" height="150" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="195.0" y="258" font-size="92" font-weight="800" fill="#1f6fd1" text-anchor="middle">4</text>
+<rect x="288" y="150" width="150" height="150" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="3" rx="12"/>
+<text x="363.0" y="258" font-size="92" font-weight="800" fill="#1f8a5b" text-anchor="middle">5</text>
+<rect x="456" y="150" width="150" height="150" fill="#fdeee8" stroke="#e4572e" stroke-width="3" rx="12"/>
+<text x="531.0" y="258" font-size="92" font-weight="800" fill="#e4572e" text-anchor="middle">G</text>
+<rect x="624" y="150" width="150" height="150" fill="#fbf3e2" stroke="#c98a12" stroke-width="3" rx="12"/>
+<text x="699.0" y="258" font-size="92" font-weight="800" fill="#c98a12" text-anchor="middle">1</text>
+<text x="120" y="130" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">45G1 = 40ft 하이큐브 드라이(40HC/40HQ)</text>
+<rect x="800" y="160" width="26" height="26" fill="#1f6fd1" rx="6"/>
+<text x="813" y="180" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="840" y="181" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">길이</text>
+<text x="950" y="181" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">4 = 40ft (12192mm)</text>
+<rect x="800" y="196" width="26" height="26" fill="#1f8a5b" rx="6"/>
+<text x="813" y="216" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="840" y="217" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">높이</text>
+<text x="950" y="217" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">5 = 9ft 6in (2896mm) 하이큐브</text>
+<rect x="800" y="232" width="26" height="26" fill="#e4572e" rx="6"/>
+<text x="813" y="252" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="840" y="253" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">형식 그룹</text>
+<text x="950" y="253" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">G = 일반용 드라이 컨테이너</text>
+<rect x="800" y="268" width="26" height="26" fill="#c98a12" rx="6"/>
+<text x="813" y="288" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="840" y="289" font-size="20" font-weight="800" fill="#c98a12" text-anchor="start">세부 형식</text>
+<text x="950" y="289" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">1 = 상부 패시브 벤트</text>
+<rect x="120" y="430" width="150" height="150" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="195.0" y="538" font-size="92" font-weight="800" fill="#1f6fd1" text-anchor="middle">2</text>
+<rect x="288" y="430" width="150" height="150" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="3" rx="12"/>
+<text x="363.0" y="538" font-size="92" font-weight="800" fill="#1f8a5b" text-anchor="middle">2</text>
+<rect x="456" y="430" width="150" height="150" fill="#fdeee8" stroke="#e4572e" stroke-width="3" rx="12"/>
+<text x="531.0" y="538" font-size="92" font-weight="800" fill="#e4572e" text-anchor="middle">G</text>
+<rect x="624" y="430" width="150" height="150" fill="#fbf3e2" stroke="#c98a12" stroke-width="3" rx="12"/>
+<text x="699.0" y="538" font-size="92" font-weight="800" fill="#c98a12" text-anchor="middle">1</text>
+<text x="120" y="410" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">22G1 = 20ft 일반 드라이(20GP/20DV)</text>
+<rect x="800" y="440" width="26" height="26" fill="#1f6fd1" rx="6"/>
+<text x="813" y="460" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="840" y="461" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">길이</text>
+<text x="950" y="461" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">2 = 20ft (6058mm)</text>
+<rect x="800" y="476" width="26" height="26" fill="#1f8a5b" rx="6"/>
+<text x="813" y="496" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="840" y="497" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">높이</text>
+<text x="950" y="497" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">2 = 8ft 6in (2591mm) 표준</text>
+<rect x="800" y="512" width="26" height="26" fill="#e4572e" rx="6"/>
+<text x="813" y="532" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="840" y="533" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">형식 그룹</text>
+<text x="950" y="533" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">G = 일반용 드라이 컨테이너</text>
+<rect x="800" y="548" width="26" height="26" fill="#c98a12" rx="6"/>
+<text x="813" y="568" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="840" y="569" font-size="20" font-weight="800" fill="#c98a12" text-anchor="start">세부 형식</text>
+<text x="950" y="569" font-size="20" font-weight="500" fill="#1d2a3a" text-anchor="start">1 = 상부 패시브 벤트</text>
+<text x="1450.0" y="108" font-size="20" font-weight="800" fill="#5f6b78" text-anchor="middle">문에 붙은 표시(예)</text>
+<rect x="1290" y="124" width="320" height="440" fill="#eef3fb" stroke="#2f5aa8" stroke-width="4" rx="4"/>
+<line x1="1450.0" y1="124" x2="1450.0" y2="564" stroke="#2f5aa8" stroke-width="3"/>
+<rect x="1319" y="140" width="10" height="408" fill="#b8c4d4" stroke="#7d8da3" stroke-width="1.5" rx="3"/>
+<rect x="1411" y="140" width="10" height="408" fill="#b8c4d4" stroke="#7d8da3" stroke-width="1.5" rx="3"/>
+<rect x="1479" y="140" width="10" height="408" fill="#b8c4d4" stroke="#7d8da3" stroke-width="1.5" rx="3"/>
+<rect x="1571" y="140" width="10" height="408" fill="#b8c4d4" stroke="#7d8da3" stroke-width="1.5" rx="3"/>
+<rect x="1491" y="154" width="78" height="66" fill="#ffffff" stroke="#2f5aa8" stroke-width="1.5" rx="4"/>
+<text x="1530" y="174" font-size="12" font-weight="800" fill="#1d2a3a" text-anchor="middle">KQXU</text>
+<text x="1530" y="190" font-size="12" font-weight="800" fill="#1d2a3a" text-anchor="middle">123456 3</text>
+<text x="1530" y="212" font-size="17" font-weight="800" fill="#e4572e" text-anchor="middle">45G1</text>
+<text x="1450.0" y="596" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">번호 11자리 아래에 네 자리 코드</text>
+<line x1="60" y1="662" x2="1612" y2="662" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="60" y="694" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">자리별로 자주 보는 값</text>
+<rect x="60" y="712" width="372" height="170" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="80" y="748" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start">첫째 길이</text>
+<text x="80" y="784" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">2 = 20ft</text>
+<text x="80" y="814" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">4 = 40ft</text>
+<text x="80" y="844" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">L 또는 5 = 45ft</text>
+<rect x="452" y="712" width="372" height="170" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="472" y="748" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="start">둘째 높이</text>
+<text x="472" y="784" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">2 = 8ft 6in 표준</text>
+<text x="472" y="814" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">5 = 9ft 6in 하이큐브</text>
+<text x="472" y="844" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">8 = 4ft 3in 하프하이트</text>
+<rect x="844" y="712" width="372" height="170" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="864" y="748" font-size="21" font-weight="800" fill="#e4572e" text-anchor="start">셋째 형식 그룹</text>
+<text x="864" y="784" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">G 드라이 · R 리퍼</text>
+<text x="864" y="814" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">U 오픈탑 · P 플랫랙</text>
+<text x="864" y="844" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">T·K·N 탱크</text>
+<rect x="1236" y="712" width="372" height="170" fill="#fbf3e2" stroke="#c98a12" stroke-width="2" rx="12"/>
+<text x="1256" y="748" font-size="21" font-weight="800" fill="#c98a12" text-anchor="start">넷째 세부 형식</text>
+<text x="1256" y="784" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">R1 냉동·가열</text>
+<text x="1256" y="814" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">U1 헤더 탈착</text>
+<text x="1256" y="844" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">P3 접이식 끝벽</text>
+<text x="1612" y="694" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="end">45ft 표기(L·5)와 탱크 코드(T·K·N)는 판(1995·2022)에 따라 다름</text>
+</svg>

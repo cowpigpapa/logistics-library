@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#9aa5b1"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">사고가 난 뒤에 드는 보험: 누가 알았느냐가 가른다</text>
+<rect x="60" y="110" width="760" height="320" fill="#f4fbf7" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="76" y="154" font-size="30" font-weight="800" fill="#1f8a5b" text-anchor="start">아무도 몰랐던 사고</text>
+<text x="76" y="197" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start">당사자 쌍방과 피보험자 모두 몰랐다면</text>
+<text x="76" y="232" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start">계약은 유효(상법 제644조 단서)</text>
+<text x="76" y="267" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start"> </text>
+<text x="76" y="302" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start">보험기간 중 생긴 손해라면 계약 체결 전에</text>
+<text x="76" y="337" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start">생긴 손해라도 보상(ICC 제11.2조)</text>
+<rect x="394.0" y="450" width="92.0" height="38" fill="#1f8a5b" rx="19.0"/>
+<text x="440.0" y="477.64" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">보호됨</text>
+<rect x="852" y="110" width="760" height="320" fill="#fff7f5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="868" y="154" font-size="30" font-weight="800" fill="#d9482b" text-anchor="start">피보험자만 알았던 사고</text>
+<text x="868" y="197" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start">계약 당시 사고가 이미 발생했으면 무효</text>
+<text x="868" y="232" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start">(상법 제644조)</text>
+<text x="868" y="267" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start"> </text>
+<text x="868" y="302" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start">피보험자는 알고 보험사는 몰랐다면</text>
+<text x="868" y="337" font-size="25" font-weight="500" fill="#1d2a3a" text-anchor="start">ICC 제11.2조의 보상에서도 제외</text>
+<rect x="1146.76" y="450" width="170.48" height="38" fill="#d9482b" rx="19.0"/>
+<text x="1232.0" y="477.64" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">보호되지 않음</text>
+<rect x="60" y="540" width="1552" height="160" fill="#fbe7e2" stroke="#d9482b" stroke-width="2" rx="14"/>
+<text x="90" y="600" font-size="23" font-weight="700" fill="#1d2a3a" text-anchor="start">&quot;배가 사고 났다는데 지금 보험 들면 되나요?&quot; → 이미 알고 있는 손해는 보험으로 넘길 수 없음</text>
+<text x="90" y="646" font-size="23" font-weight="700" fill="#1d2a3a" text-anchor="start">사고 소식을 숨기고 청약하면 계약이 무효가 되거나 보상을 받지 못하고, 사기 문제로 번질 수 있음</text>
+<rect x="60" y="730" width="1552" height="140" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="90" y="786" font-size="23" font-weight="600" fill="#1d2a3a" text-anchor="start">예정보험(open cover)에서 선적 통지를 사후에 하는 구조라면</text>
+<text x="90" y="826" font-size="23" font-weight="600" fill="#1d2a3a" text-anchor="start">모든 선적을 빠짐없이 통지하는 것이 조건인지 증권 문구를 확인</text>
+</svg>

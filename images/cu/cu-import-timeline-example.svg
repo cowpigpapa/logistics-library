@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start" >날짜 예시: 원본 B/L 하나가 늦으면 두 시계가 함께 넘칩니다</text>
+<text x="40" y="94" font-size="20" font-weight="600" fill="#5f6b78" text-anchor="start" >부산 신항 PNC 20ft 드라이 FCL · 터미널 무료 1~4일, Maersk D&amp;D 무료 1~10일(양하일 포함) · 모든 날짜는 예시</text>
+<text x="404.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >2</text>
+<text x="404.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >월</text>
+<text x="473.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >3</text>
+<text x="473.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >화</text>
+<text x="542.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >4</text>
+<text x="542.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >수</text>
+<text x="611.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >5</text>
+<text x="611.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >목</text>
+<text x="680.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >6</text>
+<text x="680.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >금</text>
+<rect x="715" y="150" width="69" height="740" fill="#f2f5f8" stroke="none" stroke-width="0" rx="0" />
+<text x="749.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >7</text>
+<text x="749.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >토</text>
+<rect x="784" y="150" width="69" height="740" fill="#f2f5f8" stroke="none" stroke-width="0" rx="0" />
+<text x="818.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >8</text>
+<text x="818.5" y="162" font-size="18" font-weight="600" fill="#d9482b" text-anchor="middle" >일</text>
+<text x="887.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >9</text>
+<text x="887.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >월</text>
+<text x="956.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >10</text>
+<text x="956.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >화</text>
+<text x="1025.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >11</text>
+<text x="1025.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >수</text>
+<text x="1094.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >12</text>
+<text x="1094.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >목</text>
+<text x="1163.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >13</text>
+<text x="1163.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >금</text>
+<rect x="1198" y="150" width="69" height="740" fill="#f2f5f8" stroke="none" stroke-width="0" rx="0" />
+<text x="1232.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >14</text>
+<text x="1232.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >토</text>
+<rect x="1267" y="150" width="69" height="740" fill="#f2f5f8" stroke="none" stroke-width="0" rx="0" />
+<text x="1301.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >15</text>
+<text x="1301.5" y="162" font-size="18" font-weight="600" fill="#d9482b" text-anchor="middle" >일</text>
+<text x="1370.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >16</text>
+<text x="1370.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >월</text>
+<text x="1439.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >17</text>
+<text x="1439.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >화</text>
+<text x="1508.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >18</text>
+<text x="1508.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >수</text>
+<text x="1577.5" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle" >19</text>
+<text x="1577.5" y="162" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle" >목</text>
+<text x="358" y="138" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="end" >11월</text>
+<line x1="370" y1="172" x2="370" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="439" y1="172" x2="439" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="508" y1="172" x2="508" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="577" y1="172" x2="577" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="646" y1="172" x2="646" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="715" y1="172" x2="715" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="784" y1="172" x2="784" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="853" y1="172" x2="853" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="922" y1="172" x2="922" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="991" y1="172" x2="991" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="1060" y1="172" x2="1060" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="1129" y1="172" x2="1129" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="1198" y1="172" x2="1198" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="1267" y1="172" x2="1267" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="1336" y1="172" x2="1336" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="1405" y1="172" x2="1405" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="1474" y1="172" x2="1474" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="1543" y1="172" x2="1543" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<line x1="1612" y1="172" x2="1612" y2="890" stroke="#e3e8ee" stroke-width="1"/>
+<rect x="30" y="184" width="1612" height="300" fill="none" stroke="#c9d2dc" stroke-width="2" rx="14" />
+<text x="48" y="222" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start" >정상 진행</text>
+<circle cx="404.5" cy="280" r="8" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="404.5" y="264" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" >입항·양하·반입</text>
+<circle cx="542.5" cy="280" r="8" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="542.5" y="264" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" >수리·D/O</text>
+<circle cx="611.5" cy="280" r="8" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="611.5" y="264" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" ></text>
+<text x="625.5" y="274" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start" ></text>
+<circle cx="887.5" cy="280" r="8" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="887.5" y="264" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" >빈 컨테이너 반납</text>
+<text x="611.5" y="314" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" >반출</text>
+<text x="48" y="362" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >터미널 보관료</text>
+<rect x="372" y="336" width="272" height="38" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="6" />
+<text x="382" y="362" font-size="18" font-weight="800" fill="#ffffff" text-anchor="start" >4일 · 무료 안</text>
+<text x="48" y="422" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >선사 D&amp;D</text>
+<rect x="372" y="396" width="548" height="38" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="6" />
+<text x="382" y="422" font-size="18" font-weight="800" fill="#ffffff" text-anchor="start" >8일 · 무료 안에서 멈춤</text>
+<rect x="924" y="396" width="134" height="38" fill="none" stroke="#1f8a5b" stroke-width="2.5" stroke-dasharray="7 5" rx="6"/>
+<text x="1070" y="422" font-size="18" font-weight="700" fill="#1f8a5b" text-anchor="start" >무료 마지막 날 11/11</text>
+<rect x="30" y="508" width="1612" height="382" fill="none" stroke="#c9d2dc" stroke-width="2" rx="14" />
+<text x="48" y="546" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start" >원본 B/L이 11월 13일(금)에 도착하면</text>
+<circle cx="542.5" cy="604" r="8" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="542.5" y="588" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" >수리</text>
+<circle cx="1163.5" cy="604" r="8" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="1163.5" y="588" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" >원본 B/L 도착</text>
+<circle cx="1370.5" cy="604" r="8" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="1370.5" y="588" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" >반출</text>
+<circle cx="1508.5" cy="604" r="8" fill="#1d2a3a" stroke="none" stroke-width="0"/>
+<text x="1508.5" y="588" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle" >반납</text>
+<text x="48" y="686" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >터미널 보관료</text>
+<rect x="372" y="660" width="272" height="38" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="6" />
+<text x="382" y="686" font-size="18" font-weight="800" fill="#ffffff" text-anchor="start" >무료 4일</text>
+<rect x="648" y="660" width="755" height="38" fill="#d9482b" stroke="#d9482b" stroke-width="0" rx="6" />
+<text x="658" y="686" font-size="18" font-weight="800" fill="#ffffff" text-anchor="start" >15일 장치 → 11일 × 45,500원 = 500,500원</text>
+<text x="48" y="746" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start" >선사 D&amp;D</text>
+<rect x="372" y="720" width="686" height="38" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="6" />
+<text x="382" y="746" font-size="18" font-weight="800" fill="#ffffff" text-anchor="start" >무료 10일</text>
+<rect x="1062" y="720" width="479" height="38" fill="#d9482b" stroke="#d9482b" stroke-width="0" rx="6" />
+<text x="1072" y="746" font-size="18" font-weight="800" fill="#ffffff" text-anchor="start" >17일 중 7일 초과 → 135,000원</text>
+<rect x="48" y="790" width="560" height="80" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="10" />
+<text x="70" y="840" font-size="26" font-weight="800" fill="#d9482b" text-anchor="start" >합계 635,500원</text>
+<text x="300" y="840" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start" >(부가세·리퍼 전원비 제외)</text>
+<text x="863" y="820" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >수입신고는 11월 4일에 수리됐어도</text>
+<text x="863" y="850" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start" >D/O가 나오지 않아 반출이 밀렸습니다</text>
+<line x1="1577.5" y1="172" x2="1577.5" y2="890" stroke="#1f6fd1" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="1569.5" y="236" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="end" >납부기한</text>
+<text x="1569.5" y="260" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="end" >11/19</text>
+<text x="40" y="922" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start" >요율은 PNC 2026 Standard Tariff와 Maersk 한국 수입 통합 D&amp;D 20ft 기준의 예시이며 언제든 바뀔 수 있습니다.</text>
+</svg>

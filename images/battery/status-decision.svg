@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar-1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="ar-5f6b78" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="ar-d9482b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="ar-1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="ar-1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="ar-e4572e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="ar-c98a0b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#c98a0b"/></marker><marker id="ar-8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40.0" y="62.0" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">화물 상태 판정: 운송 목적에서 시작합니다</text>
+<text x="40.0" y="98.0" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">"리튬인가"가 아니라 "제품인가, 중고품인가, 폐기물인가"가 첫 질문입니다.</text>
+<rect x="40.0" y="400.0" width="250.0" height="150.0" fill="#eef1f4" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="165.0" y="457.1" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">운송 목적은?</text>
+<text x="165.0" y="488.6" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="middle">화주에게 서면으로</text>
+<text x="165.0" y="513.6" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="middle">확정받기</text>
+<line x1="290.0" y1="475.0" x2="330.0" y2="475.0" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="330.0" y1="174.0" x2="330.0" y2="754.0" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="330.0" y1="174.0" x2="356.0" y2="174.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar-1d2a3a)"/>
+<rect x="360.0" y="128.0" width="400.0" height="92.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="376.0" y="181.6" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">신품 판매, 배터리 내장 제품</text>
+<line x1="760.0" y1="174.0" x2="796.0" y2="174.0" stroke="#1f8a5b" stroke-width="3" marker-end="url(#ar-1f8a5b)"/>
+<rect x="800.0" y="128.0" width="300.0" height="92.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="950.0" y="182.4" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">제품</text>
+<rect x="1120.0" y="128.0" width="512.0" height="92.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1132.0" y="155.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">라벨·CE 표시·수입자 표시 확인, 위험물 요건으로 접수</text>
+<text x="1134.0" y="208.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">배터리 규정 제1조(3)</text>
+<line x1="330.0" y1="302.0" x2="356.0" y2="302.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar-1d2a3a)"/>
+<rect x="360.0" y="236.0" width="400.0" height="132.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="376.0" y="309.6" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">정상 중고품, 직접 재사용 목적</text>
+<line x1="330.0" y1="430.0" x2="356.0" y2="430.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar-1d2a3a)"/>
+<rect x="360.0" y="384.0" width="400.0" height="92.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="376.0" y="423.6" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">B2B 보증 수리, 재정비·수리, 결함 원인</text>
+<text x="376.0" y="451.6" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">분석 반송</text>
+<line x1="760.0" y1="430.0" x2="796.0" y2="430.0" stroke="#1f6fd1" stroke-width="3" marker-end="url(#ar-1f6fd1)"/>
+<rect x="800.0" y="384.0" width="300.0" height="92.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="950.0" y="438.4" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">일부 증빙 면제</text>
+<rect x="1120.0" y="384.0" width="512.0" height="92.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1132.0" y="411.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">면제는 송장 문구·시험 증빙·기록 부착뿐.</text>
+<text x="1132.0" y="435.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">신고서·포장·운송서류는 필요</text>
+<text x="1134.0" y="464.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">부속서 XIV 제2항</text>
+<line x1="330.0" y1="538.0" x2="356.0" y2="538.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar-1d2a3a)"/>
+<rect x="360.0" y="492.0" width="400.0" height="92.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="376.0" y="531.6" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">재사용 준비·용도변경 준비를 거친</text>
+<text x="376.0" y="559.6" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">배터리</text>
+<line x1="760.0" y1="538.0" x2="796.0" y2="538.0" stroke="#1f6fd1" stroke-width="3" marker-end="url(#ar-1f6fd1)"/>
+<rect x="800.0" y="492.0" width="300.0" height="92.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="950.0" y="546.4" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">입증하면 폐기물 아님</text>
+<rect x="1120.0" y="492.0" width="512.0" height="92.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1132.0" y="519.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">건전상태(SoH) 평가·시험 기록, 송장·계약서, 포장 증빙</text>
+<text x="1134.0" y="572.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">배터리 규정 제73조(1)</text>
+<line x1="330.0" y1="646.0" x2="356.0" y2="646.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar-1d2a3a)"/>
+<rect x="360.0" y="600.0" width="400.0" height="92.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="376.0" y="653.6" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">선별·진단·수리 예정, 기능 미확인</text>
+<line x1="760.0" y1="646.0" x2="796.0" y2="646.0" stroke="#e4572e" stroke-width="3" marker-end="url(#ar-e4572e)"/>
+<rect x="800.0" y="600.0" width="300.0" height="92.0" fill="#fdeee8" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="950.0" y="654.4" font-size="22" font-weight="800" fill="#e4572e" text-anchor="middle">폐기물로 볼 위험 큼</text>
+<rect x="1120.0" y="600.0" width="512.0" height="92.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1132.0" y="627.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">"수리 목적" 문구만으로 접수하지 않고 폐기물 절차 검토</text>
+<text x="1134.0" y="680.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">WSR 제29조(1), 제61조(3)</text>
+<line x1="330.0" y1="754.0" x2="356.0" y2="754.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar-1d2a3a)"/>
+<rect x="360.0" y="708.0" width="400.0" height="92.0" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="376.0" y="747.6" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">회수·재활용·처분 목적, 블랙매스 등</text>
+<text x="376.0" y="775.6" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">분획</text>
+<line x1="760.0" y1="754.0" x2="796.0" y2="754.0" stroke="#d9482b" stroke-width="3" marker-end="url(#ar-d9482b)"/>
+<rect x="800.0" y="708.0" width="300.0" height="92.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="950.0" y="762.4" font-size="22" font-weight="800" fill="#d9482b" text-anchor="middle">폐기물</text>
+<rect x="1120.0" y="708.0" width="512.0" height="92.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1132.0" y="735.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">화주가 폐기물 코드와 절차(PIC 또는 부속서 VII)를 확정한 뒤</text>
+<text x="1132.0" y="759.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">접수</text>
+<text x="1134.0" y="788.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">제72조(1), WSR 제4조</text>
+<line x1="760.0" y1="270.0" x2="796.0" y2="270.0" stroke="#1f8a5b" stroke-width="3" marker-end="url(#ar-1f8a5b)"/>
+<line x1="760.0" y1="334.0" x2="796.0" y2="334.0" stroke="#d9482b" stroke-width="3" marker-end="url(#ar-d9482b)"/>
+<rect x="800.0" y="236.0" width="300.0" height="60.0" fill="#e7f4ed" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="950.0" y="273.6" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">모두 있으면 제품</text>
+<rect x="800.0" y="306.0" width="300.0" height="62.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="950.0" y="332.5" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">하나라도 없으면 폐기물 간주·불법</text>
+<text x="950.0" y="354.5" font-size="17" font-weight="800" fill="#d9482b" text-anchor="middle">운송 추정</text>
+<rect x="1120.0" y="236.0" width="512.0" height="132.0" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1136.0" y="267.8" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">부속서 XIV 증빙 일곱 가지가 모두 있을 때만 제품으로</text>
+<text x="1136.0" y="292.8" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">진행. 표본 시험 예외는 없음</text>
+<text x="1136.0" y="354.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">제72조(2), 부속서 XIV 제1·3·4·5항</text>
+<rect x="40.0" y="832.0" width="790.0" height="76.0" fill="#fbeae6" stroke="#d9482b" stroke-width="2" rx="14"/>
+<text x="60.0" y="864.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">발송·목적지 관할당국의 의견이 다르면 폐기물로 취급합니다(WSR 제29조(2)).</text>
+<rect x="850.0" y="832.0" width="782.0" height="76.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2" rx="14"/>
+<text x="870.0" y="864.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">팽창·누액·열손상은 폐기물 여부와 별개의 축입니다. 포장 요건은 위험물 운송 규칙에서</text>
+<text x="870.0" y="890.0" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">따로 확인합니다.</text>
+</svg>

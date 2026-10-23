@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">TAPA 세 표준의 등급과 인증 방식 (3·4절)</text>
+<rect x="40" y="90" width="380" height="560" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="64" y="134" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">FSR</text>
+<text x="150" y="134" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">창고·환적 시설</text>
+<rect x="64" y="170" width="332" height="112" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="100" y="242" font-size="46" font-weight="800" fill="#1f6fd1" text-anchor="middle">A</text>
+<text x="144" y="216" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">Elevated</text>
+<text x="144" y="250" font-size="18" font-weight="600" fill="#1f6fd1" text-anchor="start">IAB 심사</text>
+<rect x="64" y="300" width="332" height="112" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="100" y="372" font-size="46" font-weight="800" fill="#1f6fd1" text-anchor="middle">B</text>
+<text x="144" y="346" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">Moderate</text>
+<text x="144" y="380" font-size="18" font-weight="600" fill="#1f6fd1" text-anchor="start">IAB 심사</text>
+<rect x="64" y="430" width="332" height="112" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="100" y="502" font-size="46" font-weight="800" fill="#1f8a5b" text-anchor="middle">C</text>
+<text x="144" y="476" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">Standard</text>
+<text x="144" y="510" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">자체 인증 가능 (AA)</text>
+<text x="64" y="600" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">↑ 위로 갈수록 엄격</text>
+<rect x="440" y="90" width="380" height="560" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="464" y="134" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">TSR</text>
+<text x="550" y="134" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">트럭 도로 운송</text>
+<rect x="464" y="170" width="332" height="112" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="500" y="242" font-size="46" font-weight="800" fill="#1f6fd1" text-anchor="middle">1</text>
+<text x="544" y="216" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">Elevated</text>
+<text x="544" y="250" font-size="18" font-weight="600" fill="#1f6fd1" text-anchor="start">IAB 심사</text>
+<rect x="464" y="300" width="332" height="112" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="500" y="372" font-size="46" font-weight="800" fill="#1f6fd1" text-anchor="middle">2</text>
+<text x="544" y="346" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">Moderate</text>
+<text x="544" y="380" font-size="18" font-weight="600" fill="#1f6fd1" text-anchor="start">IAB 심사</text>
+<rect x="464" y="430" width="332" height="112" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="500" y="502" font-size="46" font-weight="800" fill="#1f8a5b" text-anchor="middle">3</text>
+<text x="544" y="476" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">Basic</text>
+<text x="544" y="510" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">자체 인증 가능 (AA)</text>
+<text x="464" y="600" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="start">↑ 위로 갈수록 엄격</text>
+<rect x="840" y="90" width="380" height="560" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="14"/>
+<text x="864" y="134" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">PSR</text>
+<text x="950" y="134" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">트럭 주차장</text>
+<rect x="864" y="170" width="332" height="112" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="900" y="242" font-size="46" font-weight="800" fill="#1f6fd1" text-anchor="middle">1</text>
+<text x="944" y="234" font-size="18" font-weight="600" fill="#1f6fd1" text-anchor="start">IAB 심사</text>
+<rect x="864" y="300" width="332" height="112" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="900" y="372" font-size="46" font-weight="800" fill="#1f6fd1" text-anchor="middle">2</text>
+<text x="944" y="364" font-size="18" font-weight="600" fill="#1f6fd1" text-anchor="start">IAB 심사</text>
+<rect x="864" y="430" width="332" height="112" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="900" y="502" font-size="46" font-weight="800" fill="#1f8a5b" text-anchor="middle">3</text>
+<text x="944" y="494" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="start">자체 인증 가능 (AA)</text>
+<rect x="864" y="560" width="332" height="70" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="12" stroke-dasharray="6 5"/>
+<text x="884" y="590" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">파트너 (선언)</text>
+<text x="884" y="616" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">등급 없음, 매년 갱신</text>
+<rect x="1240" y="90" width="392" height="560" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="14"/>
+<text x="1264" y="134" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">확인할 것</text>
+<text x="1264" y="174" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 표준 · 판(2023/2026) · 등급</text>
+<text x="1264" y="205" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 인증 대상 시설(사이트)</text>
+<text x="1264" y="236" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 인증서 유효기간</text>
+<text x="1264" y="267" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">  (FSR 3년, 연장 없이 재인증)</text>
+<text x="1264" y="298" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 면제(waiver) 항목</text>
+<text x="1264" y="329" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">· 재하청 업체도 계약으로</text>
+<text x="1264" y="360" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">  준수하는지</text>
+<text x="1264" y="391" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start"></text>
+<text x="1264" y="422" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">TAPA 인증은 보험이나</text>
+<text x="1264" y="453" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">책임 한도를 대신하지 않음</text>
+<text x="40" y="700" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">2026년판 전환 일정</text>
+<line x1="80" y1="790" x2="1600" y2="790" stroke="#1d2a3a" stroke-width="3"/>
+<circle cx="140" cy="790" r="11" fill="#1f6fd1"/>
+<text x="140" y="770" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="middle">2026. 9. 15.</text>
+<text x="140" y="830" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">EMEA: FSR·TSR 2026 시행</text>
+<circle cx="440" cy="790" r="11" fill="#c98a12"/>
+<text x="440" y="770" font-size="18" font-weight="800" fill="#c98a12" text-anchor="middle">2026. 9. 30.</text>
+<text x="440" y="830" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">APAC: FSR 2023 심사 번호 신청 마감</text>
+<circle cx="740" cy="790" r="11" fill="#c98a12"/>
+<text x="740" y="770" font-size="18" font-weight="800" fill="#c98a12" text-anchor="middle">2026. 10. 1.</text>
+<text x="740" y="830" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">APAC: 2026년판 심사 신청 시작</text>
+<circle cx="1040" cy="790" r="11" fill="#c98a12"/>
+<text x="1040" y="770" font-size="18" font-weight="800" fill="#c98a12" text-anchor="middle">11. 30. / 12. 31.</text>
+<text x="1040" y="830" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">APAC: 2023년판 서류 제출 / 인증 처리</text>
+<text x="1040" y="852" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">마감</text>
+<circle cx="1400" cy="790" r="11" fill="#c98a12"/>
+<text x="1400" y="770" font-size="18" font-weight="800" fill="#c98a12" text-anchor="middle">2027. 1.부터</text>
+<text x="1400" y="830" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">APAC: FSR 2023 인증서 발급 안 함</text>
+<text x="1600" y="900" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="end">이미 발급된 2023년판 인증서는 유효기간까지 유효</text>
+</svg>
