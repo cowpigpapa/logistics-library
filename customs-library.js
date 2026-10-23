@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/customs';
-  const DOCS_VERSION = '20261023-01';
+  const DOCS_VERSION = '20261023-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -40,8 +40,9 @@
     { id: 'cu-fta', tag: "FTA", level: 3, title: "FTA 원산지 — 협정관세 요건, 원산지증명, 직접운송과 B/L", short: "FTA 원산지와 직접운송", summary: "협정관세를 받는 요건과 원산지 결정기준, 협정별 증명 방식과 유효기간, 수입 쪽 적용신청·사후적용·검증, 직접운송 원칙과 제3국 경유 때 필요한 서류, B/L 문구를 정리합니다." },
     { id: 'cu-aeo', checked: '2026-10-19', tag: "AEO", level: 2, title: "수출입 안전관리 우수업체(AEO) — 공인 기준·등급·혜택과 공인 뒤 관리", short: "AEO 공인과 사후관리", summary: "관세법·AEO 고시 기준으로 공인기준과 A·AA·AAA 등급, 신청부터 갱신까지의 기간, 업종별 혜택과 MRA, 공인 뒤 의무와 혜택 정지·취소 사유, 법규준수도 감점, 위반을 막는 사전 점검표와 위반이 생겼을 때의 대응, 실제 사례 2건을 정리합니다." },
     { id: 'cu-penalty', checked: '2026-10-19', tag: "제재", level: 3, title: "세관 과태료·가산세·벌금 — 무엇이 다르고, 통지를 받으면 어떻게 대응하나", short: "과태료·가산세·벌금", summary: "관세법상 가산세(세금)·과태료(행정질서벌)·벌금과 통고처분(형벌)을 물류 위반 사례로 구분하고, 과태료 사전통지 뒤 의견제출·자진납부 감경·이의제기 절차와 역할별 책임, 기록 관리, 기한 달력을 정리합니다." },
+    { id: 'cu-ipr', checked: '2026-10-23', tag: "지식재산권", level: 3, title: "지식재산권 침해 의심 화물의 통관보류 — 관세법 제235조, 담보·기한, 비용과 폐기", short: "지재권 통관보류", summary: "상표·디자인·특허 침해 의심 화물의 통관보류 경로와 7일·10일·15일 기한, 과세가격 120% 담보, 병행수입 요건, 보류 중 보관료·Demurrage 부담의 법적 근거, 포기·폐기 비용, 수출·환적 적용을 정리했습니다." },
     { id: 'cu-us-filing', checked: '2026-10-20', tag: "사전신고", level: 3, title: "미국·캐나다 사전신고 — AMS·ISF·ACAS·ACI와 미국 수출 AES, 기한과 벌금 피하는 법", short: "미국·캐나다 사전신고", summary: "미국행 해상 AMS와 ISF(10+2), 항공 사전정보·ACAS, 캐나다 ACI(eManifest), 미국발 수출 AES(EEI)를 누가 무엇을 언제까지 보내는지 미국·캐나다 규정 원문으로 정리하고, 부산 선적 일정으로 기한을 계산하며 벌금과 자주 하는 실수, 일정 변경 때 수정 신고를 보여 줍니다." },
-    { id: 'cu-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "통관 사례 — 원산지·품목분류·운임·보세·해외 신고 판결과 처분 12건", short: "통관 사례", summary: "통과선하증권 없는 FTA 경유 화물, 공장 설비와 웨어러블의 품목분류, 운임을 빠뜨리거나 부풀린 신고, 보세화물 도난의 관세 책임, 적재지검사·컨테이너 번호 위반, 캐나다 AMPS와 미국 수출통제까지 판결·결정·처분 12건을 원문으로 정리합니다." }
+    { id: 'cu-cases', checked: '2026-10-23', tag: "사례", level: 2, title: "통관 사고 사례 — 원산지·품목분류·운임·보세·지재권·해외 신고 판결과 처분 20건", short: "통관 사고 사례", summary: "통과선하증권 없는 FTA 경유 화물, 공장 설비·웨어러블 품목분류, 운임 누락·과다 신고, 보세화물 도난, 적재지검사 위반, 지재권 통관보류와 병행수입 판결, 캐나다 AMPS·미국 수출통제까지 판결·결정·처분 20건을 원문으로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -55,8 +56,8 @@
   const SECTIONS = [
     { title: "통관 절차와 서류", sub: "인보이스·패킹리스트 · 수출입신고와 세금 · 수입 도착·반출 일정 · 보세구역과 보세운송", docs: ["cu-documents", "cu-clearance", "cu-import-timeline", "cu-bonded"] },
     { title: "품목분류와 원산지", sub: "HS 코드 정하는 법 · 사전심사 · FTA 협정관세와 직접운송", docs: ["cu-hs-practice", "cu-fta"] },
-    { title: "AEO·위반 제재·해외 사전신고", sub: "AEO 공인 · 과태료·가산세·벌금 · 미국·캐나다 사전신고", docs: ["cu-aeo", "cu-penalty", "cu-us-filing"] },
-    { title: "사례", sub: "직접운송·품목분류·운임 판결 · 보세화물 도난 · 수출 적재 위반 · 해외 처분", docs: ["cu-cases"] }
+    { title: "AEO·제재·통관보류·해외 신고", sub: "AEO 공인 · 과태료·가산세·벌금 · 지재권 통관보류 · 미국·캐나다 사전신고", docs: ["cu-aeo", "cu-penalty", "cu-ipr", "cu-us-filing"] },
+    { title: "사고 사례", sub: "직접운송·품목분류·운임 판결 · 보세화물 도난 · 수출 적재 위반 · 지재권 보류 · 해외 처분", docs: ["cu-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
@@ -93,7 +94,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>통관은 관세사가 하지만, 일정과 비용은 포워더 서류에서 갈린다</h2><p>수출입신고 시기, HS 코드, FTA 원산지 요건, 보세운송은 모두 화주와 관세사의 일이지만, B/L·AWB에 적힌 품명·중량·경유지와 화물이 머무는 보세구역이 결과를 바꿉니다. 포워더가 알아야 할 통관의 흐름과 근거 법령을 정리했습니다. 통관 절차와 서류, 품목분류와 원산지, AEO·제재·해외 신고 순으로 읽고, 실제 판결과 처분은 마지막 장 사례에 모았습니다.</p><a class="lib-summary-button" href="${link('cu-clearance')}">수출입 통관부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('관세법, 자유무역협정의 이행을 위한 관세법의 특례에 관한 법률과 관세청 고시·안내를 바탕으로 정리했습니다. 실제 신고와 품목분류, 협정관세 적용 판단은 관세사와 세관의 몫입니다. 해설은 AI가 작성했으며 관세청이나 관세사가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>통관은 관세사가 하지만, 일정과 비용은 포워더 서류에서 갈린다</h2><p>수출입신고 시기, HS 코드, FTA 원산지 요건, 보세운송은 모두 화주와 관세사의 일이지만, B/L·AWB에 적힌 품명·중량·경유지와 화물이 머무는 보세구역이 결과를 바꿉니다. 포워더가 알아야 할 통관의 흐름과 근거 법령을 정리했습니다. 통관 절차와 서류, 품목분류와 원산지, AEO·제재·해외 신고 순으로 읽고, 실제 판결과 처분은 마지막 장 사고 사례에 모았습니다.</p><a class="lib-summary-button" href="${link('cu-clearance')}">수출입 통관부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('관세법, 자유무역협정의 이행을 위한 관세법의 특례에 관한 법률과 관세청 고시·안내를 바탕으로 정리했습니다. 실제 신고와 품목분류, 협정관세 적용 판단은 관세사와 세관의 몫입니다. 해설은 AI가 작성했으며 관세청이나 관세사가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

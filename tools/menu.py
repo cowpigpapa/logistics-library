@@ -17,10 +17,12 @@ NAV = [
         ('/library/air-uld', 'Air ULD', '항공 ULD·컨투어·빌드업'),
         ('/library/ctu-code', 'CTU Code', '컨테이너 적입·고박 국제 규범'),
     ]),
-    ('특수 화물', [
+    ('특수·규제 화물', [
         ('/library/dangerous-goods', 'Dangerous Goods', '국제·국내 위험물 규칙과 사례'),
         ('/library/eu-lithium-battery', 'EU Battery', 'EU 배터리·폐배터리 운송 규정'),
         ('/library/temperature-cargo', 'Cold Chain · 온도유지 화물', '온도유지 화물 항공·해상'),
+        ('/library/export-control', 'Export Control · 수출통제', '전략물자·방산물자 허가와 제재 확인'),
+        ('/library/regulated-goods', 'Regulated Goods · 반출입 규제 물품', '폐기물·목재 포장재·CITES·문화유산·LMO'),
     ]),
     ('화물 사고·보험', [
         ('/library/cargo-risk', 'Cargo Risk · 화물 사고 예방', '운송·창고·젖음·뒤바뀜·보안'),
@@ -48,6 +50,8 @@ PAGES = {
     'charges-library.html': '/library/charges',
     'customs-library.html': '/library/customs',
     'risk-library.html': '/library/cargo-risk',
+    'regulated-goods-library.html': '/library/regulated-goods',
+    'export-control-library.html': '/library/export-control',
     'container-library.html': '/library/container',
     'airtracking.html': '/airtracking',
     'containertracking.html': '/containertracking',

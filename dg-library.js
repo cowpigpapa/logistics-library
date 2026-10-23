@@ -72,7 +72,7 @@
     { title: "국제·국내 규칙", sub: "UN 권고·IATA·IMDG·ADR · 국내 법체계 · 소량 기준 · 국제와 국내가 다른 품목", docs: ["dg-rules", "kr-system", "kr-small", "kr-mismatch"] },
     { title: "화물 확인과 표시", sub: "MSDS 읽기 · 생활용품 · 숨은 위험물 · 리튬배터리 · 라벨과 표찰", docs: ["dg-msds", "dg-household", "dg-hidden", "dg-lithium", "dg-marks"] },
     { title: "교육과 제재", sub: "직무별 교육 대상 · 국제·국내 교육 요건 · 미이수·미신고 제재", docs: ["dg-forwarder"] },
-    { title: "사례", sub: "국내·해외의 사고, 판결·처분, 단속", docs: ["case-kr-accident", "case-accident", "case-kr-litigation", "case-litigation", "case-inspection"] }
+    { title: "사고 사례", sub: "국내·해외의 사고, 판결·처분, 단속", docs: ["case-kr-accident", "case-accident", "case-kr-litigation", "case-litigation", "case-inspection"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [

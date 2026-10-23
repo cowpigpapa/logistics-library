@@ -51,7 +51,7 @@
   const SECTIONS = [
     { title: "온도 기준과 항공 운송", sub: "온도대 표기·의약품 유통 기준 · 항공 패시브 포장 · 항공 액티브 컨테이너", docs: ["tc-basics", "tc-air-passive", "tc-air-active"] },
     { title: "해상 리퍼 운송", sub: "리퍼 컨테이너 구조와 설정 · 리퍼 선적 실무", docs: ["tc-reefer", "tc-reefer-practice"] },
-    { title: "사례", sub: "판례·사고와 익명 사고 기록 16건", docs: ["tc-cases"] }
+    { title: "사고 사례", sub: "판례·사고와 익명 사고 기록 16건", docs: ["tc-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [

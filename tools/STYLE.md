@@ -91,9 +91,11 @@
 | /library/charges | Charges · 부대비용 | 부대비용·DEM/DET·보관료·운임 계산 |
 | /library/customs | Customs · 통관 | 수출입 통관·HS 코드·FTA·보세운송 |
 | /library/cargo-risk | Cargo Risk · 화물 사고 예방 | 운송·창고·보안·특수화물·젖음·뒤바뀜 |
-| /library/container | Container | 컨테이너 번호·코드·치수 |
+| /library/container | Container | 컨테이너 번호·코드·치수·OOG |
+| /library/export-control | Export Control · 수출통제 | 전략물자·방산물자 허가와 제재 확인 |
+| /library/regulated-goods | Regulated Goods · 반출입 규제 물품 | 폐기물·목재 포장재·CITES·문화유산·LMO |
 
-메뉴 이름은 `tools/menu.py`의 NAV가 기준이다.
+메뉴 이름은 `tools/menu.py`의 NAV가 기준이다. 카테고리마다 장은 3~4개, 마지막 장은 "사고 사례"(2026-10-22·23 운영자).
 
 ## 6. 고지 문구와 버전
 

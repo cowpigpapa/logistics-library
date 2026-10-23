@@ -83,6 +83,22 @@
       "destination": "/customs-library"
     },
     {
+      "source": "/library/export-control",
+      "destination": "/export-control-library"
+    },
+    {
+      "source": "/library/export-control/:id",
+      "destination": "/export-control-library"
+    },
+    {
+      "source": "/library/regulated-goods",
+      "destination": "/regulated-goods-library"
+    },
+    {
+      "source": "/library/regulated-goods/:id",
+      "destination": "/regulated-goods-library"
+    },
+    {
       "source": "/library/cargo-risk",
       "destination": "/risk-library"
     },
@@ -288,6 +304,32 @@
         {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
+    {
+      "source": "/ec-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
+    {
+      "source": "/rg-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
         },
         {
           "key": "Cache-Control",

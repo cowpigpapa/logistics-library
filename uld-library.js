@@ -38,7 +38,7 @@
     { id: 'uld-holds', tag: "화물칸", level: 3, title: "항공기 화물칸과 탑재 배치 — 메인덱, 로어덱 FWD·AFT 홀드, 벌크, 탑재 위치와 문", short: "항공기 화물칸과 탑재 위치", summary: "메인덱·로어덱 FWD/AFT·벌크 구성과 기종별 ULD 탑재 수·화물 문 크기, 위치 이름 읽는 법과 위치별 하중 제한." },
     { id: 'uld-buildup', tag: "빌드업", level: 3, title: "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형", short: "컨투어와 빌드업 기준", summary: "로어덱 64 in, 메인덱 96·118 in와 위치별 컨투어 차이, 반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트." },
     { id: 'uld-safety', tag: "안전", level: 2, title: "ULD 안전과 특수화물 — 손상 기준, 빌린 ULD의 점검·반납, 특수화물 고정과 규정", short: "ULD 안전과 특수화물", summary: "ULD 손상 점검 기준과 BUP용으로 빌린 ULD의 점검·반납·손상 책임, 화물 고정·적재 위치·중량 오류 사고·준사고 7건, 특수화물 취급과 관련 규정." },
-    { id: 'uld-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "ULD·탑재 사례 — 화물 고정·잠금장치와 중량·적재 위치 오류로 난 항공 사고·준사고", short: "ULD·탑재 사례", summary: "차량 고정 실패로 추락한 National Airlines 102편, 겹친 빈 팔레트가 밀린 Aloha 601편, 잠금장치를 올리지 않은 에어뉴질랜드·G-CLNK·G-JMCZ, 팔레트·받침목 중량이 빠진 Fine Air 101편·MK 1602편 등 9건을 조사보고서로 정리했습니다." }
+    { id: 'uld-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "ULD·탑재 사고 사례 — 화물 고정·잠금장치와 중량·적재 위치 오류로 난 항공 사고·준사고", short: "ULD·탑재 사고 사례", summary: "차량 고정 실패로 추락한 National Airlines 102편, 겹친 빈 팔레트가 밀린 Aloha 601편, 잠금장치를 올리지 않은 에어뉴질랜드·G-CLNK·G-JMCZ, 팔레트·받침목 중량이 빠진 Fine Air 101편·MK 1602편 등 9건을 조사보고서로 정리했습니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -52,7 +52,7 @@
   const SECTIONS = [
     { title: "ULD 종류와 코드", sub: "ULD란과 코드 읽는 법 · 88·96인치 팔레트", docs: ["uld-code", "uld-pallets"] },
     { title: "탑재와 빌드업", sub: "화물칸과 탑재 배치 · 컨투어와 빌드업 · ULD 안전과 특수화물", docs: ["uld-holds", "uld-buildup", "uld-safety"] },
-    { title: "사례", sub: "화물 고정·잠금장치와 중량·적재 위치 오류 사고 9건", docs: ["uld-cases"] }
+    { title: "사고 사례", sub: "화물 고정·잠금장치와 중량·적재 위치 오류 사고 9건", docs: ["uld-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [

@@ -983,7 +983,7 @@
           <li>비나 눈이 오거나 덥고 습할 때 적입하면 그 습기가 함께 갇힙니다. 가능하면 피하고, 젖은 팔레트·더니지는 쓰지 않습니다.</li>
           <li>건조제는 마른 화물을 지키는 보조 수단입니다. 젖은 화물을 말리지는 못합니다.</li>
           <li>열대 항로나 기후대를 넘는 장거리 운송이면 화주와 상의해 포장 방습과 적출 시점까지 계획합니다.</li>
-          <li>결로 손상을 두고 운송인이 무엇을 입증해야 하는지 다툰 영국 대법원 판결(Volcafe v CSAV)은 <a href="/library/cargo-insurance/ins-cases">화물보험 사례</a>를 보십시오.</li>
+          <li>결로 손상을 두고 운송인이 무엇을 입증해야 하는지 다툰 영국 대법원 판결(Volcafe v CSAV)은 <a href="/library/cargo-insurance/ins-cases">화물보험 사고 사례</a>를 보십시오.</li>
           </ul>
           ${note}
       `
@@ -1038,8 +1038,8 @@
     },
     {
       id: 'cargo-cases',
-      title: '적입·고박 사례 — 보험금 거절과 운송인 면책 판결, 부실 적입이 부르는 결과',
-      short: '적입·고박 사례',
+      title: '적입·고박 사고 사례 — 보험금 거절과 운송인 면책 판결, 부실 적입이 부르는 결과',
+      short: '적입·고박 사고 사례',
       tag: '사례',
       summary:
         '적입·고박·포장이 부족해 보험금을 받지 못하거나 운송인 상대 소송에서 진 국내외 판결 5건과 기록으로 보험 거절을 되돌린 사례, 부실 적입이 부르는 다섯 가지 결과(IM1). 사례마다 바로 아래 출처.',
@@ -1139,7 +1139,7 @@
           <li><b>누가 적입했는지 남긴다</b>: 자사 직원이 적입했거나 보험 개시 전에 포장했다면 보험 면책이 적용될 수 있고(사례 2·5), 화주가 적입·고박한 화물은 운송인도 면책되기 쉽습니다(사례 3·4).</li>
           <li><b>문을 닫기 전에 기록한다</b>: 적입 계획, 고박 위치, 문 닫기 전 사진이 분쟁에서 결과를 바꿉니다(사례 6).</li>
         </ul>
-        <p>결로 손상과 운송인의 입증책임을 다룬 영국 대법원 판결(Volcafe v CSAV) 같은 보험·운송 판결은 <a href="/library/cargo-insurance/ins-cases">화물보험 사례</a>를 보십시오.</p>
+        <p>결로 손상과 운송인의 입증책임을 다룬 영국 대법원 판결(Volcafe v CSAV) 같은 보험·운송 판결은 <a href="/library/cargo-insurance/ins-cases">화물보험 사고 사례</a>를 보십시오.</p>
         <p class="lib-disclaimer">확인 기준일 2026-10-01. 판결과 보도의 표현을 옮겨 적지 않고 AI가 요약했습니다.</p>
     `
     }
@@ -1148,7 +1148,7 @@
   const overview = DOCS.find(d => d.id === 'ctu-overview');
   if (overview) {
     overview.body = `
-      <p>CTU Code 자료가 어떻게 짜여 있는지, 어느 순서로 읽으면 좋은지, 원문의 장과 부속서가 이 사이트의 어느 해설에 있는지를 한곳에 모았습니다. 장별 내용은 각 해설에서 다루고, 사고와 판결은 사례 장의 <a href="/library/ctu-code/cargo-cases">적입·고박 사례</a>에 모았습니다.</p>
+      <p>CTU Code 자료가 어떻게 짜여 있는지, 어느 순서로 읽으면 좋은지, 원문의 장과 부속서가 이 사이트의 어느 해설에 있는지를 한곳에 모았습니다. 장별 내용은 각 해설에서 다루고, 사고와 판결은 사례 장의 <a href="/library/ctu-code/cargo-cases">적입·고박 사고 사례</a>에 모았습니다.</p>
       <figure class="lib-figure"><img src="/images/ctu/ctu-code-scope-v2.webp" alt="화물 준비부터 적입, 고정, 운송, 개문까지 이어지는 CTU Code 적용 범위" loading="lazy" decoding="async"><figcaption><span>AI 생성 도해</span> CTU Code는 적입 작업뿐 아니라 준비, 운송, 인수와 개문까지 이어지는 전체 운송 사슬을 다룹니다.</figcaption></figure>
       <h3>1. 자료 구조</h3>
       <p>CTU Code 자료는 역할이 다른 세 문서로 나뉩니다. 먼저 1497에서 원칙을 확인하고, 계산표나 기술 배경이 필요할 때 1498을 찾아보는 순서가 가장 간단합니다.</p>
@@ -1164,7 +1164,7 @@
         <tr><td>CTU 고르기와 운송 조건</td><td><a href="/library/ctu-code/ch5-accel">운송 중 가속도</a> · <a href="/library/ctu-code/ch6-ctu">CTU 종류와 고르기</a> · <a href="/library/ctu-code/ch8-arrival">빈 CTU 받기·점검</a> · <a href="/library/ctu-code/a2-handling">들기와 터미널 반입</a></td><td>운송 중 화물에 걸리는 힘, 화물과 경로에 맞는 CTU, CSC 명판과 빈 컨테이너 점검, 터미널 인양과 반입 점검</td></tr>
         <tr><td>적입과 고정</td><td><a href="/library/ctu-code/ch9-packing">적입 계획과 고정재</a> · <a href="/library/ctu-code/a7-load-distribution">하중 분포와 적재 기법</a> · <a href="/library/ctu-code/im6-load-distribution">복합운송 하중 분포</a> · <a href="/library/ctu-code/a7-securing">고정 평가·래싱·고박점</a> · <a href="/library/ctu-code/a7-calc">고정 계산</a> · <a href="/library/ctu-code/a3-condensation">결로 손상 방지</a></td><td>마찰계수·MSL 같은 기본 값, 무게중심과 축하중, 래싱 줄 수, 각재·더니지 백 계산, 결로 대책, 손으로 싣는 작업</td></tr>
         <tr><td>닫기·보내기·받기</td><td><a href="/library/ctu-code/ch11-after">적입 완료 후·운송서류</a> · <a href="/library/ctu-code/im9-seals">CTU 봉인</a> · <a href="/library/ctu-code/a5-receiving">받기·개문·반납</a></td><td>VGM·봉인 번호·운송서류, 봉인 등급과 대조, 가스 측정과 문 열기, 빈 CTU 반납</td></tr>
-        <tr><td>사례</td><td><a href="/library/ctu-code/cargo-cases">적입·고박 사례</a></td><td>적입·고박 불량으로 보험금을 못 받거나 운송인 상대 소송에서 진 판결, 부실 적입이 부르는 결과</td></tr>
+        <tr><td>사례</td><td><a href="/library/ctu-code/cargo-cases">적입·고박 사고 사례</a></td><td>적입·고박 불량으로 보험금을 못 받거나 운송인 상대 소송에서 진 판결, 부실 적입이 부르는 결과</td></tr>
       </tbody></table>
       <p>국내 도로의 축하중·총중량·제원 한도는 CTU 고르기와 운송 조건 장의 <a href="/library/ctu-code/kr-road">한국 도로 운송 중량·제원 한도</a>에 있습니다.</p>
       <h3>3. 어떻게 읽을까</h3>
@@ -1314,7 +1314,7 @@
       docs: ['ch9-packing', 'a7-load-distribution', 'im6-load-distribution', 'a7-securing', 'a7-calc', 'a3-condensation', 'ch11-after', 'im9-seals', 'a5-receiving']
     },
     {
-      title: '사례',
+      title: '사고 사례',
       sub: '판결·보험 결정과 부실 적입의 결과',
       docs: ['cargo-cases']
     }

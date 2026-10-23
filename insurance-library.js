@@ -41,7 +41,7 @@
     { id: 'ins-general-average', checked: '2026-10-19', tag: "공동해손", level: 3, title: "공동해손과 구조 — GA 선언 시 화주가 낼 담보, 컨테이너 유실과의 관계, 실제 사고 사례", short: "공동해손과 구조", summary: "화물이 멀쩡해도 담보를 내야 하는 공동해손의 개념과 YAR 2016·상법, 컨테이너 유실이 공동해손이 되는 경우, 맹약서·보증장·현금 공탁과 정산인 안내문 읽는 법, Yantian Express·Maersk Honam·Dali·CMA CGM LIBRA 등 실제 사고 사례를 정리합니다." },
     { id: 'ins-container-loss', checked: '2026-10-19', tag: "유실", level: 2, title: "컨테이너 유실 사고 — 본선에서 컨테이너가 바다에 떨어졌을 때", short: "컨테이너 유실 사고", summary: "해상 운송 중 컨테이너가 바다에 떨어졌을 때 화주·포워더·보험 담당이 할 일을 정리합니다. WSC 통계와 TopTier가 밝힌 원인, 2026년 SOLAS 유실 보고 의무, 운송인 면책·한도·1년 기한, ICC (A)(B)(C)의 담보 차이를 다룹니다." },
     { id: 'ins-forwarder', tag: "포워더", level: 3, title: "포워더와 보험 — 배상책임보험, House B/L 책임, 보험업법", short: "포워더 배상책임과 보험", summary: "포워더가 운송주선인이 아니라 운송인으로 책임지는 경우, 포워더 배상책임보험과 적하보험의 차이, 국제물류주선업 등록의 보증보험·화물배상책임보험 요건, 화주 보험을 들어 주는 행위와 보험업법상 모집 규제를 다룹니다." },
-    { id: 'ins-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "화물보험 사례 — 보험금 분쟁, 운송인·포워더 책임, 공동해손·컨테이너 유실, 온도유지 화물", short: "화물보험 사례", summary: "영국법 준거약관·고유 하자·포장·제재 면책 같은 보험금 분쟁, 포장당 한도와 House B/L 포워더 책임, Yantian Express·CMA CGM LIBRA 등 공동해손과 컨테이너 유실, 리퍼 온도 오설정까지 24개 판례·사고를 같은 형식으로 정리합니다." }
+    { id: 'ins-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "화물보험 사고 사례 — 보험금 분쟁, 운송인·포워더 책임, 공동해손·컨테이너 유실, 온도유지 화물", short: "화물보험 사고 사례", summary: "영국법 준거약관·고유 하자·포장·제재 면책 같은 보험금 분쟁, 포장당 한도와 House B/L 포워더 책임, Yantian Express·CMA CGM LIBRA 등 공동해손과 컨테이너 유실, 리퍼 온도 오설정까지 24개 판례·사고를 같은 형식으로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -55,7 +55,7 @@
   const SECTIONS = [
     { title: "적하보험 기초", sub: "누가 들고 얼마를 · ICC 약관과 면책 · 가입이 어려운 화물", docs: ["ins-basics", "ins-icc", "ins-uninsurable"] },
     { title: "운송인 책임과 클레임", sub: "운송인 책임 한도 · 클레임 절차와 기한 · 공동해손 · 컨테이너 유실 · 포워더와 보험", docs: ["ins-carrier-liability", "ins-claims", "ins-general-average", "ins-container-loss", "ins-forwarder"] },
-    { title: "사례", sub: "보험금 분쟁 · 운송인·포워더 책임 · 공동해손·유실 · 온도유지 화물", docs: ["ins-cases"] }
+    { title: "사고 사례", sub: "보험금 분쟁 · 운송인·포워더 책임 · 공동해손·유실 · 온도유지 화물", docs: ["ins-cases"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
