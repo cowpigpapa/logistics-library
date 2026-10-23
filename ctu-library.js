@@ -1178,7 +1178,7 @@
     `;
   }
 
-  // 개별 해설에 흩어져 있던 CubeStow 적용 설명은 별도 참고 문서로 모은다.
+  // 개별 해설에 남은 CubeStow 적용 설명은 화면에 보이지 않게 지운다(2026-10-23 CubeStow 적용 기준 문서 삭제).
   const stripProductNotes = html => {
     const template = document.createElement('template');
     template.innerHTML = html.replaceAll('Cubestow 도면', 'AI 생성 도해');
@@ -1202,32 +1202,6 @@
     return template.innerHTML;
   };
   DOCS.forEach(doc => (doc.body = stripProductNotes(doc.body)));
-  DOCS.push({
-    id: 'cubestow-application',
-    checked: '2026-10-01',   // 10/14 사실관계 점검 대상에서 빠진 문서
-    title: 'CTU Code를 CubeStow에 적용한 기준',
-    short: 'CubeStow 적용 기준',
-    tag: '참고 자료',
-    summary: 'CTU Code와 관련 자료에서 CubeStow의 계산·검사·출력에 반영한 범위와 반영하지 않은 범위.',
-    body: `
-      <p>CubeStow가 CTU Code의 어느 부분을 계산과 결과에 사용했는지 한곳에 모았습니다. 이 표는 제품 구현 범위를 설명하는 참고 자료이며, 프로그램 결과가 현장 점검이나 공식 원문의 판단을 대신하지 않습니다.</p>
-      <h3>1. 적용한 기준</h3>
-      <table class="lib-table"><thead><tr><th>기능</th><th>적용 내용</th><th>근거 해설</th></tr></thead><tbody>
-        <tr><td>컨테이너 선택</td><td>20ft·40ft·40HC·45HC 드라이 컨테이너의 대표 내부 치수와 적재 한도를 사용합니다. 실제 장비의 명판과 내부 치수는 현장에서 다시 확인해야 합니다.</td><td><a href="/library/ctu-code/ch6-ctu">CTU의 특성과 고르기</a></td></tr>
-        <tr><td>중량·공간 검사</td><td>화물 합계가 적재 한도를 넘는 배치를 만들지 않고 공간 사용률, 무게중심과 바닥 선하중을 계산합니다.</td><td><a href="/library/ctu-code/a7-load-distribution">하중 분포</a></td></tr>
-        <tr><td>운송 중 힘</td><td>도로·복합철도·해역 조건의 종·횡·수직 가속도 계수를 고정 계산에 사용합니다.</td><td><a href="/library/ctu-code/ch5-accel">운송 조건</a></td></tr>
-        <tr><td>마찰·블로킹</td><td>마찰계수, 형상 고정, 빈 공간 합계 15cm 원칙과 더니지 조건을 배치 검사에 반영합니다.</td><td><a href="/library/ctu-code/ch9-packing">적입 계획과 고정재</a></td></tr>
-        <tr><td>고정재 계산</td><td>방향별 미끄럼·전도 조건을 비교하고 각재와 못, 에어백 간극, 래싱 필요량을 계산합니다.</td><td><a href="/library/ctu-code/a7-securing">고정 평가</a> · <a href="/library/ctu-code/a7-calc">고정 계산</a></td></tr>
-        <tr><td>래싱 수량</td><td>IM5 빠른 래싱 가이드의 표와 마찰 보간, MSL 환산을 이용해 필요한 줄 수를 구합니다.</td><td><a href="/library/ctu-code/a7-securing#s5">빠른 래싱 가이드</a></td></tr>
-        <tr><td>고박점 한도</td><td>바닥 고박점과 위쪽 래싱 고리의 허용하중을 구분하고, 래싱재와 고박점 가운데 약한 쪽을 한도로 사용합니다.</td><td><a href="/library/ctu-code/a7-securing#s6">고박점 허용하중</a></td></tr>
-        <tr><td>한국 도로 한도</td><td>차량 총중량과 축하중을 추정하고, 한국 도로 운송용 적재 한도를 별도 선택값으로 제공합니다.</td><td><a href="/library/ctu-code/kr-road">한국 도로 한도</a> · <a href="/library/ctu-code/im6-load-distribution">IM6 하중 분포</a></td></tr>
-        <tr><td>작업 결과</td><td>적재 순서, 고정재 권고와 계산 결과를 PDF·Excel 작업 자료로 내보내 현장 확인과 기록에 활용합니다.</td><td><a href="/library/ctu-code/ch11-after">적입 완료 후</a></td></tr>
-      </tbody></table>
-      <h3>2. 적용하지 않은 범위</h3>
-      <p>위험물 분류와 서류, VGM 신고, 실제 CTU의 CSC 명판·검사기한·손상, 결로와 훈증가스, 냉동·탱크·벌크 CTU, 봉인 번호, 작업자 교육·자격, 수작업 부담과 현장 장비 상태는 계산하지 않습니다. 개별 컨테이너와 차량의 실제 제원, 고정재 상태와 현장 조건은 담당자가 별도로 확인해야 합니다.</p>
-      ${note}
-    `
-  });
 
   // 참조 지도: [원문, 위치, 내용, 중요도, 예전 제품 적용 메모, 해설 id]. 목록에는 제품 메모와 완료 상태를 표시하지 않는다.
   const MAP = [
@@ -1295,7 +1269,7 @@
     `<a class="lib-doc" href="/library/ctu-code/${d.id}"><span class="lib-doc-head"><span class="lib-tag">${esc(d.tag)}</span>${levelBadge(d.id)}</span><b>${esc(d.title)}</b></a>`;
   // 문장이 마침표로 끝나면 줄을 바꾼다(안내 문구를 한 문장씩 읽히게).
   const lines = text => text.replace(/\.\s+/g, '.<br>');
-  // 목록 구간(2026-10-22 재구성): 원문 번호 순서가 아니라 책처럼 일의 흐름에 따라 세 장 + 사례로 묶고 CubeStow 적용 기준은 부록으로 둔다.
+  // 목록 구간(2026-10-22 재구성): 원문 번호 순서가 아니라 책처럼 일의 흐름에 따라 세 장 + 사고 사례로 묶는다.
   // 같은 내용은 한 해설(집)에만 두고 다른 해설은 링크로 안내한다. 합친 해설의 옛 주소는 아래 MOVED로 옮긴다.
   const SECTIONS = [
     {
@@ -1319,7 +1293,7 @@
       docs: ['cargo-cases']
     }
   ];
-  const REFERENCE_DOCS = ['cubestow-application'];
+  const REFERENCE_DOCS = [];
   // 한국어 번역은 원문 카드 바로 옆에 둔다(IMO 허가 전까지 준비 중).
   const TRANSLATIONS = {
     [IMO + '1497.pdf']: 'CTU Code 본문 1497 한국어 번역',
@@ -1391,8 +1365,7 @@
     view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>CTU Code란?</h2><p>CTU Code는 컨테이너·차량·철도화차 같은 화물운송단위에 화물을 안전하게 적입하고 고정하는 국제 실무규칙입니다. 화물의 준비부터 적입·운송·인수·개문까지 운송 과정 전체에서 누가 무엇을 확인하고 책임지는지 설명합니다.</p><a class="lib-summary-button" href="/library/ctu-code/ctu-overview">CTU Code 설명 및 요약 →</a></div><div class="lib-notice"><b>저작권과 해설</b><p>${lines('CTU Code와 정보자료의 저작권은 IMO에 있으며 원문은 아래 공식 배포 사이트를 통해 내려받을 수 있습니다. 해설과 참고 자료는 AI가 원문과 법령을 읽고 직접 작성하였으며 IMO·ILO·UNECE가 만들거나 검토한 것이 아닙니다. CTU Code 본문(1497)과 정보자료(1498)의 전체 한국어 번역 초안은 준비되어 있으나 저작권자인 IMO의 사전 서면 허가 없이는 번역본을 게시할 수 없어, IMO의 게시 허가를 기다리는 중입니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
-      ${sections}
-      <section class="lib-section"><h3>부록 <small>CubeStow 적용 기준</small></h3><div class="lib-docs">${REFERENCE_DOCS.map(byId).filter(Boolean).map(docCard).join('')}</div></section>`;
+      ${sections}`;
     makeFoldable(view);
   }
   // 첫 화면 구간 접기: 처음에는 "작업 순서로 보기"만 펼친다. 펼친 상태는 같은 탭 안에서만 기억한다(sessionStorage).
@@ -1446,7 +1419,8 @@
     'im2-documents': 'ch11-after#s4',
     'qlg-c': 'a7-securing#s5',
     'anchor-points': 'a7-securing#s6',
-    'im7-manual': 'a7-load-distribution#s4'
+    'im7-manual': 'a7-load-distribution#s4',
+    'cubestow-application': 'ctu-overview'
   };
   // 원문·법령·판결문과 대조한 날짜. 해설을 고치거나 다시 대조하면 바꾼다(해설마다 checked 로 따로 둘 수 있음).
   const CHECKED = '2026-10-14';

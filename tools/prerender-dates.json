@@ -1,7 +1,7 @@
 {
  "https://logistics.onharu.app/": {
-  "hash": "bf6df866e5066a3c",
-  "modified": "2026-10-23T10:27:23+09:00",
+  "hash": "18ab8e6e9495a4b5",
+  "modified": "2026-10-23T16:18:11+09:00",
   "published": "2026-10-11T23:23:57+09:00"
  },
  "https://logistics.onharu.app/library/air-uld": {
@@ -327,11 +327,6 @@
  "https://logistics.onharu.app/library/ctu-code/ctu-overview": {
   "hash": "1dc1720b2d86521b",
   "modified": "2026-10-23T10:13:31+09:00",
-  "published": "2026-10-03T18:10:15+09:00"
- },
- "https://logistics.onharu.app/library/ctu-code/cubestow-application": {
-  "hash": "1ee56e38cb3f2869",
-  "modified": "2026-10-22T23:35:21+09:00",
   "published": "2026-10-03T18:10:15+09:00"
  },
  "https://logistics.onharu.app/library/ctu-code/im6-load-distribution": {

@@ -484,6 +484,11 @@
       "source": "/library/ctu-code/anchor-points",
       "destination": "/library/ctu-code/a7-securing",
       "permanent": true
+    },
+    {
+      "source": "/library/ctu-code/cubestow-application",
+      "destination": "/library/ctu-code",
+      "permanent": true
     }
   ]
 }
