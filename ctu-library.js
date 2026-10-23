@@ -117,6 +117,9 @@
       <tr><td>해상 C</td><td>0.4</td><td>0.4</td><td>0.2</td><td>0.8</td><td>1.0</td></tr>
       </tbody></table>
       <p>철도의 괄호 값은 150밀리초 이하의 짧은 충격하중에만 쓰며, 포장 설계 같은 용도의 값입니다. 해상 표는 종방향 앞뒤를 나누지 않고 한 값만 줍니다(위 표에는 같은 값을 두 칸에 적었습니다).</p>
+      <p>해상 가속도가 도로·철도보다 큰 것은 배가 파도에 따라 여섯 방향으로 움직이기 때문입니다. 배의 무게중심을 지나는 세 축을 기준으로 세로축을 따라 앞뒤로 움직이는 것을 서지(surging), 가로축을 따라 옆으로 밀리는 것을 스웨이(swaying), 수직축을 따라 오르내리는 것을 히빙(heaving, 상하동요)이라 하고, 세로축을 중심으로 도는 것을 롤링(rolling, 횡동요), 가로축을 중심으로 도는 것을 피칭(pitching, 종동요), 수직축을 중심으로 도는 것을 요잉(yawing, 선수동요)이라 합니다. 수직 가속도는 피칭과 롤링에서 특히 크고, 화물이 컨테이너 옆벽으로 밀리는 것은 거의 롤링 때입니다. 요잉은 화물 손상의 원인으로 보지 않습니다.</p>
+      <figure class="lib-figure"><img src="/images/ctu/ship-six-motions.webp" alt="파도 위 컨테이너선에 표시한 여섯 가지 운동: 앞뒤로 움직이는 서지, 옆으로 움직이는 스웨이, 위아래로 움직이는 히브, 세로축을 중심으로 기우는 롤, 선수와 선미가 번갈아 들리는 피치, 선수가 좌우로 도는 요" loading="lazy" decoding="async" width="1672" height="941"><figcaption>해상운송에서 선박에 작용하는 6가지 운동. 직선운동은 서지(전후동요)·스웨이(좌우동요)·히브(상하동요), 회전운동은 롤(횡동요)·피치(종동요)·요(선수동요)입니다(AI 생성 도해).</figcaption></figure>
+      <p class="lib-source">출처: GDV Container Handbook 2.3.3 「Mechanical stresses in maritime transport」 — <a href="https://containerhandbuch.de/chb_e/stra/stra_02_03_03.html" target="_blank" rel="noopener noreferrer">containerhandbuch.de</a></p>
       <h3>3. 해역 구분 (§5.5)</h3>
       <p>해상 A·B·C는 20년 재현 유의파고 Hs, 즉 가장 높은 3분의 1 파도의 평균이 20년에 한 번만 넘는 값으로 나눕니다.</p>
       <table class="lib-table"><thead><tr><th>구분</th><th>Hs</th><th>대표 해역</th></tr></thead><tbody>
