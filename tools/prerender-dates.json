@@ -265,8 +265,8 @@
   "published": "2026-10-11T23:14:00+09:00"
  },
  "https://logistics.onharu.app/library/ctu-code/a2-handling": {
-  "hash": "40157d4dab3b8ad5",
-  "modified": "2026-10-26T23:40:56+09:00",
+  "hash": "c7e000701dbeffef",
+  "modified": "2026-10-26T23:43:17+09:00",
   "published": "2026-10-03T18:10:15+09:00"
  },
  "https://logistics.onharu.app/library/ctu-code/a3-condensation": {
@@ -370,8 +370,8 @@
   "published": "2026-10-19T14:12:06+09:00"
  },
  "https://logistics.onharu.app/library/customs/cu-bonded": {
-  "hash": "e713a24eb4bb5416",
-  "modified": "2026-10-26T22:56:19+09:00",
+  "hash": "b520a7a8e033a949",
+  "modified": "2026-10-26T23:45:00+09:00",
   "published": "2026-10-18T17:29:40+09:00"
  },
  "https://logistics.onharu.app/library/customs/cu-cases": {
@@ -450,8 +450,8 @@
   "published": "2026-10-05T21:25:48+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-forwarder": {
-  "hash": "1c63162a2f6a4b54",
-  "modified": "2026-10-23T17:33:59+09:00",
+  "hash": "0e7de6158fc70d43",
+  "modified": "2026-10-26T23:45:00+09:00",
   "published": "2026-10-05T21:25:48+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-hidden": {
@@ -460,8 +460,8 @@
   "published": "2026-10-19T16:24:14+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-household": {
-  "hash": "0613bcb640c22b43",
-  "modified": "2026-10-23T17:33:59+09:00",
+  "hash": "c2c26024c5d557bc",
+  "modified": "2026-10-26T23:45:00+09:00",
   "published": "2026-10-19T21:06:56+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-lithium": {
@@ -480,8 +480,8 @@
   "published": "2026-10-11T23:23:30+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-rules": {
-  "hash": "50fdd5528d6d47cb",
-  "modified": "2026-10-26T23:35:20+09:00",
+  "hash": "7fb3a00c75b8eb50",
+  "modified": "2026-10-26T23:45:00+09:00",
   "published": "2026-10-05T21:25:48+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/kr-mismatch": {
@@ -840,8 +840,8 @@
   "published": "2026-10-23T10:27:10+09:00"
  },
  "https://logistics.onharu.app/library/regulated-goods/rg-waste": {
-  "hash": "2754f5162f7be6d1",
-  "modified": "2026-10-26T22:55:41+09:00",
+  "hash": "c9031e1c6c0a9480",
+  "modified": "2026-10-26T23:45:00+09:00",
   "published": "2026-10-23T10:27:10+09:00"
  },
  "https://logistics.onharu.app/library/temperature-cargo": {

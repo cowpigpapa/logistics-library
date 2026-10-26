@@ -1,0 +1,64 @@
+[
+ {
+  "src": "rev-special.json#0",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000280794&type=XML (기후에너지환경부고시 제2026-151호, 2026. 6. 23. 발령·시행, 현행): 현행 [별표 2] 수출입관리폐기물의 품목은 1~27호로 번호가 매겨져 있지만 \"18. <삭  제>\"이므로 살아 있는 품목은 26개입니다. 개정문 \"별표 2 제27호를 다음과 같이 신설 한다. 27. 폐전기전자부품 및 스크랩(수입하거나 OECD 가입국에 수출하는 경우로 한정)\". 따라서 문서의 '26개 품목'은 지금도 맞는 숫자이고 '27개 품목'으로 바꾸면 틀립니다. 같은 문서 5절의 '제27호' 인용과도 모순이 없습니다(번호 27, 품목 수 26). 바꾸려면 '26개 품목(제18호 삭제)'처럼 근거를 붙이는 정도만 하면 됩니다."
+ },
+ {
+  "src": "rev-special.json#1",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000280794&type=XML (기후에너지환경부고시 제2026-151호, 2026. 6. 23. 발령·시행, 현행): [별표 2]는 1~27호이고 \"18. <삭  제>\"이므로 품목 수는 26개입니다. 제27호 \"폐전기전자부품 및 스크랩(수입하거나 OECD 가입국에 수출하는 경우로 한정)\"은 2026. 6. 23. 개정으로 신설되었습니다. 신설 사실을 덧붙이는 것은 맞지만 숫자는 27이 아니라 26이어야 합니다.",
+  "new": "<td>[별표 2]: 26개 품목(제1~27호 중 제18호 삭제. 제27호 폐전기전자부품 및 스크랩은 2026. 6. 23. 신설)</td>"
+ },
+ {
+  "src": "rev-special.json#2",
+  "verdict": "confirmed",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000280794&type=XML (기후에너지환경부고시 제2026-151호, 2026. 6. 23. 발령·시행, 현행): 별표 2 비고 6 \"제27호는 재활용 목적으로 수입하거나 OECD 가입국에 수출하는 「OECD 회수가능 폐기물의 국가 간 이동 통제에 관한 이사회 결정문」 GC010(금속 또는 합금으로 구성된 전기 조립품)과 GC020(전자 스크랩(예 : 인쇄회로기판, 전자 부품, 전선 등)과 비철금속 및 귀금속 회수에 적합한 전자부품)에 해당하는 폐기물에 한한다.\" 제개정이유 \"PCB 등 비유해성 전자폐기물을 사전동의절차 이행이 필요한 규제폐기물로 규정('25.1월 시행)\" / \"폐전기전자부품 및 스크랩을 관리폐기물로 규정(비OECD국 수출 제외)\". 부칙 \"이 고시는 발령한 날부터 시힝한다\"(발령일 2026. 6. 23.). 별지 비고 1도 '별표 2 목록에 수록된 것은 … 수출입규제폐기물로 보지 아니한다'로 개정되었습니다."
+ },
+ {
+  "src": "rev-special.json#3",
+  "verdict": "confirmed",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000280794&type=XML (기후에너지환경부고시 제2026-151호, 2026. 6. 23. 발령·시행, 현행): 개정문 \"별표 2 제27호를 다음과 같이 신설 한다\", 비고 6(위 인용, 재활용 목적 수입 또는 OECD 가입국 수출, GC010·GC020), 제개정이유 \"폐전기전자부품 및 스크랩을 관리폐기물로 규정(비OECD국 수출 제외)\". 수입은 출발국을 따지지 않으므로 제27호가 'OECD 가입국 사이' 예외를 반영했다는 기존 설명은 틀렸고, 비OECD국 수출은 별지(Y49)에 따라 계속 허가 대상입니다. 제안 문장은 고시와 맞습니다."
+ },
+ {
+  "src": "rev-special.json#4",
+  "verdict": "confirmed",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000280794&type=XML (기후에너지환경부고시 제2026-151호, 2026. 6. 23. 발령·시행, 현행): 2026. 6. 23. 개정으로 전자 스크랩(GC010·GC020, 인쇄회로기판 포함)이 재활용 목적 수입·OECD 가입국 수출에 한해 관리폐기물(신고)로 전환되었습니다(제개정이유 \"폐인쇄회로기판 등 폐전자부품 및 스크랩의 수입 규제 유연화\"). 요약에 '2026년 전자 스크랩(PCB) 신고 전환'을 넣는 것은 사실에 맞습니다."
+ },
+ {
+  "src": "rev-customs-equip.json#21",
+  "verdict": "confirmed",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000263872&type=XML (보세화물장치기간 및 체화관리에 관한 고시 제2025-47호, 현행) 제4조⑧ \"제5항에도 불구하고 다음 각 호의 어느 하나에 해당하는 보세창고에 반입되는 물품의 장치기간은 2개월로 하되 … 2. 부산항 부두 내 보세창고와 부두 밖 컨테이너전용보세창고(CFS 포함)\", 제4조① 단서 \"부산항ㆍ인천항ㆍ인천공항ㆍ김해공항 항역내의 지정장치장으로 반입된 물품 … 장치기간은 2개월\". / https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000275032&type=XML (보세화물관리에 관한 고시 제2026-12호, 현행) 제34조① \"다음 각호의 물품은 반입일로부터 30일 이내에 수입 또는 반송신고하여야 한다 … 1. 다음 각 목의 보세구역 별표 1에 반입된 물품 … 나. 부산항의 하선장소 중 부두내와 부두밖의 컨테이너전용보세창고(CY)ㆍ컨테이너전용지정장치장(CY)ㆍ컨테이너화물조작장(CFS)\", 제19조(별표 1 보세구역 수리일부터 15일 반출), 별표 1 제목 \"수입신고수리물품 반출의무 및 신고지연 가산세 적용대상 보세구역\". 2개월은 체화관리 고시, 별표 1은 가산세·반출 대상만 정하므로 제안 문장이 맞습니다."
+ },
+ {
+  "src": "rev-dg.json#0",
+  "verdict": "confirmed",
+  "evidence": "https://britanniapandi.com/2026/06/imo-maritime-safety-committee-update-111/ (WebFetch): \"The IMO recently hosted the 111th session of the MSC from 13 to 22 May 2026.\" / \"Adopted amendment 43-26 of the IMDG Code with entry into force from 1 January 2028 ... along with possible early adoption from 1 January 2027.\" 보조: amnautical.com IMDG Code 2026 Edition 판매 설명 \"adopted by ... the Maritime Safety Committee at its one hundred and eleventh session in May 2026 and is mandatory from 1 January 2028 but may be applied ... on a voluntary basis from 1 January 2027\"; RPMASA 웨비나(IMO 발표) \"MSC.587(111) incorporating amendment (43-26)\". IMO 원문 결의서는 직접 확인하지 못함."
+ },
+ {
+  "src": "rev-dg.json#1",
+  "verdict": "confirmed",
+  "evidence": "rev-dg.json#0과 같은 근거. https://britanniapandi.com/2026/06/imo-maritime-safety-committee-update-111/ (WebFetch): \"The IMO recently hosted the 111th session of the MSC from 13 to 22 May 2026.\" / \"Adopted amendment 43-26 of the IMDG Code with entry into force from 1 January 2028 ... along with possible early adoption from 1 January 2027.\" 보조: amnautical.com IMDG Code 2026 Edition 판매 설명 \"adopted by ... the Maritime Safety Committee at its one hundred and eleventh session in May 2026 and is mandatory from 1 January 2028 but may be applied ... on a voluntary basis from 1 January 2027\"; RPMASA 웨비나(IMO 발표) \"MSC.587(111) incorporating amendment (43-26)\". IMO 원문 결의서는 직접 확인하지 못함."
+ },
+ {
+  "src": "rev-dg.json#2",
+  "verdict": "confirmed",
+  "evidence": "rev-dg.json#0과 같은 근거(의무 적용 2028-01-01). https://britanniapandi.com/2026/06/imo-maritime-safety-committee-update-111/ (WebFetch): \"The IMO recently hosted the 111th session of the MSC from 13 to 22 May 2026.\" / \"Adopted amendment 43-26 of the IMDG Code with entry into force from 1 January 2028 ... along with possible early adoption from 1 January 2027.\" 보조: amnautical.com IMDG Code 2026 Edition 판매 설명 \"adopted by ... the Maritime Safety Committee at its one hundred and eleventh session in May 2026 and is mandatory from 1 January 2028 but may be applied ... on a voluntary basis from 1 January 2027\"; RPMASA 웨비나(IMO 발표) \"MSC.587(111) incorporating amendment (43-26)\". IMO 원문 결의서는 직접 확인하지 못함."
+ },
+ {
+  "src": "rev-dg.json#3",
+  "verdict": "confirmed",
+  "evidence": "rev-dg.json#0과 같은 근거(MSC 111, 2026. 5. 13~22. 채택). https://britanniapandi.com/2026/06/imo-maritime-safety-committee-update-111/ (WebFetch): \"The IMO recently hosted the 111th session of the MSC from 13 to 22 May 2026.\" / \"Adopted amendment 43-26 of the IMDG Code with entry into force from 1 January 2028 ... along with possible early adoption from 1 January 2027.\" 보조: amnautical.com IMDG Code 2026 Edition 판매 설명 \"adopted by ... the Maritime Safety Committee at its one hundred and eleventh session in May 2026 and is mandatory from 1 January 2028 but may be applied ... on a voluntary basis from 1 January 2027\"; RPMASA 웨비나(IMO 발표) \"MSC.587(111) incorporating amendment (43-26)\". IMO 원문 결의서는 직접 확인하지 못함."
+ },
+ {
+  "src": "rev-dg.json#6",
+  "verdict": "partly",
+  "evidence": "https://www.law.go.kr/flDownload.do?flSeq=170893199 (「항공위험물운송기술기준」 국토교통부고시 제2026-584호 개정 전문 PDF, admrul ID 2100000287230, 2026. 10. 22. 시행, 현행) 3.4.1.2: \"가. 제2류: 제2.1군과 제2.2군의 UN1950, 부차 위험성이 없는 제2.1군과 제2.2군의 UN2037, UN3478(Fuel cell cartridges, containing liquefied flammable gas) 및 UN3479(...) 나. 제3류: 포장등급 Ⅱ 및 Ⅲ 및 UN3473(Fuel cell cartridges, containing flammable liquids) … 라. 제4.3군: 포장등급 Ⅱ 및 Ⅲ의 고체와 UN3476(...) … 바. 제5.2군: 화학시험 키트(chemical kit)나 구급용 키트(first-aid kit)에 포함된 위험물 … 아. 제8류: 포장등급 Ⅱ 및 III와 UN3477(...). 다만, UN2794, UN2795, UN2803, UN2809, UN3028 및 UN3506은 제외 자. 제9류: UN1941, UN1990, UN2071, UN3077, UN3082, UN3316, UN3334, UN3335 및 ID8000\". 4.3급 고체와 5.2급 키트 누락 지적은 맞지만, 연료전지 카트리지는 9급이 아니라 2·3·4.3·8급(UN 3473·3476·3477·3478·3479)에 들어 있으므로 제안문처럼 '9급 … (그 밖에 연료전지 카트리지 일부)'로 쓰면 9급 품목처럼 읽힙니다.",
+  "new": "Class 3·4.1·5.1·6.1·8급의 PG Ⅱ·Ⅲ(4.1급 중 자기반응성·중합 물질과 UN 2555·2557·2907 제외, 8급 중 UN 2794·2795·2803·2809·3028·3506 제외), 4.3급의 PG Ⅱ·Ⅲ 고체, 화학시험 키트·구급용 키트에 든 5.2급, 연료전지 카트리지(UN 3473·3476·3477·3478·3479), 9급은 정해진 몇 개 번호만 허용하므로"
+ },
+ {
+  "src": "rev-dg.json#7",
+  "verdict": "confirmed",
+  "evidence": "https://www.law.go.kr/flDownload.do?flSeq=170893199 (「항공위험물운송기술기준」 국토교통부고시 제2026-584호 개정 전문 PDF, admrul ID 2100000287230, 2026. 10. 22. 시행, 현행) 표 1-4 주 2) \"직무기능 1 부터 10 까지는 교육의 효율성을 고려하여 분류된 것으로, 종사자의 업무 특성에 적합한 직무기능 및 교육과목과 역량평가 방식을 사업자 또는 고용주가 정하고 …\" / \"2. 일반화물을 취급하는 화물운송 종사자(조업사 포함) ※ 위험물운송 허가를 받지 않은 항공운송사업자 대상\" / 표 1-4(b) 직무기능 2 교육시간 초기 8, 정기 4. 직무기능 1은 \"위험물을 취급하는 화주, 포장업체, 화물운송업체 등 ※ 제5장 화주의 책임을 갖는 자\". 직무기능 2가 항공운송사업자 대상이라는 지적과 '준해 고용주가 정함'이라는 제안문이 고시와 맞습니다."
+ }
+]

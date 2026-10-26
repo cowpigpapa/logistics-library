@@ -49,9 +49,9 @@
 <text x="40.0" y="556.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start"></text>
 <text x="40.0" y="580.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start"></text>
 <rect x="973.0" y="534.0" width="314.0" height="46.0" fill="#ffffff" stroke="#8a96a3" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
-<text x="984.0" y="564.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">43-26 임의(보도)</text>
+<text x="984.0" y="564.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">43-26 임의 적용</text>
 <rect x="1293.0" y="534.0" width="314.0" height="46.0" fill="#ffffff" stroke="#8a96a3" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
-<text x="1304.0" y="564.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">43-26 의무(보도)</text>
+<text x="1304.0" y="564.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">43-26 의무(2028-01-01)</text>
 <text x="40.0" y="648.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">ADR (유럽 도로)</text>
 <text x="40.0" y="672.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">조약, 홀수 해 1월 1일</text>
 <rect x="333.0" y="626.0" width="634.0" height="46.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="8"/>
@@ -77,5 +77,5 @@
 <text x="254.0" y="916.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">임의 적용</text>
 <rect x="380.0" y="900.0" width="34.0" height="20.0" fill="#fff" stroke="#1f6fd1" stroke-width="2" rx="4" stroke-dasharray="6 4"/>
 <text x="424.0" y="916.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">예정·다음 판</text>
-<text x="1632.0" y="916.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="end">43-26 일정은 업계 보도 기준. 실제 운송 전에 현행판과 항공사·선사 요건을 확인하십시오.</text>
+<text x="1632.0" y="916.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="end">43-26은 2026년 5월 MSC 111에서 채택. 실제 운송 전에 현행판과 항공사·선사 요건을 확인하십시오.</text>
 </svg>
