@@ -10,8 +10,8 @@
   "published": "2026-10-11T23:19:50+09:00"
  },
  "https://logistics.onharu.app/library/air-uld/uld-buildup": {
-  "hash": "31cdf10ed523f5b9",
-  "modified": "2026-10-23T10:13:31+09:00",
+  "hash": "bd0fc50382427458",
+  "modified": "2026-10-26T18:20:03+09:00",
   "published": "2026-10-05T23:47:33+09:00"
  },
  "https://logistics.onharu.app/library/air-uld/uld-cases": {
@@ -440,8 +440,8 @@
   "published": "2026-10-05T21:25:48+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-hidden": {
-  "hash": "c7b5a30c542626f4",
-  "modified": "2026-10-23T17:32:37+09:00",
+  "hash": "0f54edab6aff7c33",
+  "modified": "2026-10-23T17:33:59+09:00",
   "published": "2026-10-19T16:24:14+09:00"
  },
  "https://logistics.onharu.app/library/dangerous-goods/dg-household": {
