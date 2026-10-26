@@ -33,11 +33,11 @@
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
-    { id: 'uld-code', tag: "기본", level: 3, title: "ULD란과 코드 읽는 법 — 정의, 인증·비인증, 코드와 대표 ULD", short: "ULD 개요와 식별 코드", summary: "ULD의 정의와 형태, 인증·비인증 구분과 TSO-C90e·IATA ULDR, AKE 12345 KE를 글자별로 읽는 법과 ULD 태그와의 차이, LD3·PMC·20ft 팔레트 등 주요 ULD의 치수·최대 중량·자중과 출처마다 값이 다른 이유." },
-    { id: 'uld-pallets', tag: "팔레트", level: 3, title: "88인치와 96인치 팔레트 — PAG·PMC·20ft 팔레트, 네트와 스트랩", short: "항공 팔레트 규격(88·96인치)", summary: "PAG와 PMC의 치수·위치별 최대 중량, 같은 화물을 짤 때의 차이, 네트·오버행·바닥 하중." },
+    { id: 'uld-code', tag: "기본", level: 3, title: "ULD란과 코드 읽는 법 — 정의, 인증·비인증, 코드와 대표 ULD", short: "ULD 개요와 식별 코드", summary: "ULD의 정의와 형태, 인증·비인증 구분과 TSO-C90e·IATA ULDR, AKE 12345 KE를 글자별로 읽는 법과 ULD 태그와의 차이, LD3·LD9·AMA 등 대표 컨테이너의 치수·최대 중량·자중과 출처마다 값이 다른 이유(팔레트 치수는 88·96인치 팔레트 문서)." },
+    { id: 'uld-pallets', tag: "팔레트", level: 3, title: "88인치와 96인치 팔레트 — PAG·PMC·20ft 팔레트, 네트와 스트랩", short: "항공 팔레트 규격(88·96인치)", summary: "PAG(88인치)와 PMC(96인치)의 치수·위치별 최대 총중량·자중, T11 스키드가 한 층에 몇 개 들어가는지, 16ft·20ft 팔레트, 테두리 레일·네트·보조 스트랩, 오버행 기준, 바닥 하중과 쇼어링을 항공사 공개 자료로 비교합니다." },
     { id: 'uld-holds', tag: "화물칸", level: 3, title: "항공기 화물칸과 탑재 배치 — 메인덱, 로어덱 FWD·AFT 홀드, 벌크, 탑재 위치와 문", short: "항공기 화물칸과 탑재 위치", summary: "메인덱·로어덱 FWD/AFT·벌크 구성과 기종별 ULD 탑재 수·화물 문 크기, 위치 이름 읽는 법과 위치별 하중 제한." },
     { id: 'uld-buildup', tag: "빌드업", level: 3, title: "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형", short: "컨투어와 빌드업 기준", summary: "로어덱 64 in, 메인덱 96·118 in와 위치별 컨투어 차이, 반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트." },
-    { id: 'uld-safety', tag: "안전", level: 2, title: "ULD 안전과 특수화물 — 손상 기준, 빌린 ULD의 점검·반납, 특수화물 고정과 규정", short: "ULD 안전과 특수화물", summary: "ULD 손상 점검 기준과 BUP용으로 빌린 ULD의 점검·반납·손상 책임, 화물 고정·적재 위치·중량 오류 사고·준사고 7건, 특수화물 취급과 관련 규정." },
+    { id: 'uld-safety', tag: "안전", level: 2, title: "ULD 안전과 특수화물 — 손상 기준, 빌린 ULD의 점검·반납, 특수화물 고정과 규정", short: "ULD 안전과 특수화물", summary: "ULD 손상 점검 기준과 서비스 불가 ULD 처리, BUP용으로 빌린 ULD의 점검·반납 기한·지체료·손상 책임, 무거운 화물·차량·동물·온도관리 화물 같은 특수화물의 고정과 항공 보안, 관련 국제 규정과 포워더 체크리스트." },
     { id: 'uld-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "ULD·탑재 사고 사례 — 화물 고정·잠금장치와 중량·적재 위치 오류로 난 항공 사고·준사고", short: "ULD·탑재 사고 사례", summary: "차량 고정 실패로 추락한 National Airlines 102편, 겹친 빈 팔레트가 밀린 Aloha 601편, 잠금장치를 올리지 않은 에어뉴질랜드·G-CLNK·G-JMCZ, 팔레트·받침목 중량이 빠진 Fine Air 101편·MK 1602편 등 9건을 조사보고서로 정리했습니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
@@ -159,7 +159,7 @@
   }
   async function renderDoc(view, doc) {
     const head = `<nav class="lib-crumb"><a href="${home}">← Air ULD</a></nav>`;
-    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${CHECKED} · 치수와 중량은 항공사·제조사마다 다를 수 있으니 실제 탑재는 해당 항공사 기준으로 확인하세요.</p>`;
+    const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${doc.checked || CHECKED} · 치수와 중량은 항공사·제조사마다 다를 수 있으니 실제 탑재는 해당 항공사 기준으로 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
     try {

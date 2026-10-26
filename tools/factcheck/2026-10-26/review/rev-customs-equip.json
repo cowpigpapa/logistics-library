@@ -1,0 +1,307 @@
+[
+ {
+  "file": "container-library.js",
+  "type": "findability",
+  "severity": "medium",
+  "problem": "cn-codes 문서 6절에 20GP·40HC·리퍼·오픈탑·플랫랙의 내부 치수·문 크기·최대 적재 중량 표가 있는데(cn-dimensions를 합친 결과) 제목에 '치수'가 없어, '40HC 내부 치수'를 찾는 사용자가 목록에서 이 문서를 고르기 어렵습니다.",
+  "evidence": "cn-docs/cn-codes.html 6절 제목 '형식별 내부 치수와 문 크기(선사 공개 사양)'; container-library.js SECTIONS sub '형식별 내부 치수와 문 크기', MOVED 'cn-dimensions': 'cn-codes'",
+  "old": "길이·높이·형식 그룹, 자주 보는 코드\", short: \"컨테이너 번호와 크기·형식 코드\"",
+  "new": "길이·높이·형식 그룹, 자주 보는 코드, 형식별 내부 치수\", short: \"컨테이너 번호와 크기·형식 코드\""
+ },
+ {
+  "file": "container-library.js",
+  "type": "findability",
+  "severity": "medium",
+  "problem": "같은 이유로 요약에도 치수 표 이야기가 없습니다. 요약 끝에 6절 내용을 한 줄 더합니다.",
+  "evidence": "cn-docs/cn-codes.html 6절 표(ONE·Maersk 공개 사양, 내부 길이×폭×높이, 문 폭×높이, 최대 적재, 자중)",
+  "old": "45ft의 L/5 표기 차이, 자주 보는 코드 20여 개.\" }",
+  "new": "45ft의 L/5 표기 차이, 자주 보는 코드 20여 개, ONE·Maersk 공개 사양으로 본 20GP·40GP·40HC·리퍼·오픈탑·플랫랙의 내부 치수·문 크기·최대 적재 중량.\" }"
+ },
+ {
+  "file": "cn-docs/cn-oog.html",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "6절 계산표 뒤 문장은 '⑤~⑧은 운송사와 함께 볼 값'이라고 해 ④(플랫랙 바닥 높이 어림)가 빠져 있고, 바로 위 그림 캡션은 '운송사와 함께 볼 값(④~⑧)'이라고 적어 서로 다릅니다. ④는 ⑤ 도로 높이 계산의 입력값이라 운송사 쪽 값입니다.",
+  "evidence": "같은 문서 그림 캡션: '선사에 신고할 값(①~③)과 운송사와 함께 볼 값(④~⑧)을 나눠 봅니다.'; 그림 SVG 문구 '운송사와 함께 볼 값 ④ 바닥 높이 어림'",
+  "old": "①~③은 선사에 신고할 값, ⑤~⑧은 운송사와 함께 볼 값입니다.",
+  "new": "①~③은 선사에 신고할 값, ④~⑧은 운송사와 함께 볼 값입니다."
+ },
+ {
+  "file": "cn-docs/cn-oog.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "다른 문서의 사례 번호를 글로만 적고 링크는 문서 첫머리로 가서, 사용자가 사례를 다시 찾아야 합니다. STYLE.md 5절은 해설 문서의 사례 안내를 사례 번호 링크(data-doc=\"xx-cases#c번호\")로 두도록 정합니다.",
+  "evidence": "tools/STYLE.md 5절 '해설 문서에는 … 사례 번호와 링크(data-doc=\"xx-cases#c번호\")만 둔다'; library/ctu-code/cargo-cases.html 의 <h4 id=\"c3\">3. 플랫랙 위 방수포 포장, cn-cases.html <h4 id=\"c6\">6. 평택항",
+  "old": "<a href=\"/library/ctu-code/cargo-cases\">적입·고박 사고 사례</a> 사례 3, 접이식 플랫랙 끝벽이 쓰러져 작업자가 숨진 평택항 사고는 <a data-doc=\"cn-cases\">컨테이너 사고 사례</a> 6번",
+  "new": "<a href=\"/library/ctu-code/cargo-cases#c3\">적입·고박 사고 사례</a> 사례 3, 접이식 플랫랙 끝벽이 쓰러져 작업자가 숨진 평택항 사고는 <a data-doc=\"cn-cases#c6\">컨테이너 사고 사례</a> 6번"
+ },
+ {
+  "file": "cn-docs/cn-cases.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "5절 '다른 문서에 있는 사례' 표가 사례 번호를 적으면서 링크는 문서 첫머리로 갑니다. 번호 앵커를 붙이면 바로 그 사례로 갑니다.",
+  "evidence": "insurance-docs/ins-cases.html <h4 id=\"c18\">18. ONE APUS·MAERSK ESSEN; STYLE.md 5절 사례 링크 규칙",
+  "old": "<td><a href=\"/library/cargo-insurance/ins-cases\">화물보험 사고 사례</a> 18번</td>",
+  "new": "<td><a href=\"/library/cargo-insurance/ins-cases#c18\">화물보험 사고 사례</a> 18번</td>"
+ },
+ {
+  "file": "cn-docs/cn-cases.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "같은 표의 공동해손 사례 줄도 첫 번호(14번)로 가도록 앵커를 붙입니다.",
+  "evidence": "insurance-docs/ins-cases.html <h4 id=\"c14\">14. CMA CGM LIBRA",
+  "old": "<td><a href=\"/library/cargo-insurance/ins-cases\">화물보험 사고 사례</a> 14·16·17·20번</td>",
+  "new": "<td><a href=\"/library/cargo-insurance/ins-cases#c14\">화물보험 사고 사례</a> 14·16·17·20번</td>"
+ },
+ {
+  "file": "uld-library.js",
+  "type": "error",
+  "severity": "low",
+  "problem": "Air ULD 문서 머리의 '자료 확인' 날짜는 doc.checked를 읽지 않고 늘 CHECKED(2026-10-14)를 씁니다. 그래서 2026-10-22에 확인한 uld-cases도 화면에는 2026-10-14로 나옵니다(Customs·Container는 doc.checked || CHECKED).",
+  "evidence": "uld-library.js DOCS의 uld-cases checked: '2026-10-22'; renderDoc의 '자료 확인 ${CHECKED}'; customs-library.js·container-library.js는 '자료 확인 ${doc.checked || CHECKED}'",
+  "old": "자료 확인 ${CHECKED} · 치수와 중량은",
+  "new": "자료 확인 ${doc.checked || CHECKED} · 치수와 중량은"
+ },
+ {
+  "file": "uld-library.js",
+  "type": "contradiction",
+  "severity": "medium",
+  "problem": "uld-safety 요약이 '화물 고정·적재 위치·중량 오류 사고·준사고 7건'을 담고 있다고 하지만, 본문에는 사고 사례가 없고 모두 uld-cases(9건)로 옮겨져 있습니다. 요약을 믿고 사례를 찾으러 들어온 사용자는 헛걸음합니다.",
+  "evidence": "uld-docs/uld-safety.html 첫 문단 '화물 고정·중량 오류로 난 사고·준사고는 ULD·탑재 사고 사례에'; h3 목록 1. 손상 기준 2. 빌린 ULD 3. 특수화물 4. 국제 규정 5. 체크리스트; uld-cases 요약 '…등 9건'",
+  "old": "summary: \"ULD 손상 점검 기준과 BUP용으로 빌린 ULD의 점검·반납·손상 책임, 화물 고정·적재 위치·중량 오류 사고·준사고 7건, 특수화물 취급과 관련 규정.\"",
+  "new": "summary: \"ULD 손상 점검 기준과 서비스 불가 ULD 처리, BUP용으로 빌린 ULD의 점검·반납 기한·지체료·손상 책임, 무거운 화물·차량·동물·온도관리 화물 같은 특수화물의 고정과 항공 보안, 관련 국제 규정과 포워더 체크리스트.\""
+ },
+ {
+  "file": "uld-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "uld-code 요약이 'LD3·PMC·20ft 팔레트 등 주요 ULD의 치수'를 다룬다고 하지만, 팔레트(PMC·20ft) 치수는 uld-pallets 5절로 옮겨졌고 uld-code 16절은 그쪽으로 안내만 합니다.",
+  "evidence": "uld-docs/uld-code.html 16절 'PAG·PMC·PAJ·PLA·16ft(PRA)·20ft(PGA)·PEB의 바닥 치수, 출처별 최대 총중량과 자중은 88인치와 96인치 팔레트 5절 표에 모았습니다'",
+  "old": "LD3·PMC·20ft 팔레트 등 주요 ULD의 치수·최대 중량·자중과 출처마다 값이 다른 이유.\"",
+  "new": "LD3·LD9·AMA 등 대표 컨테이너의 치수·최대 중량·자중과 출처마다 값이 다른 이유(팔레트 치수는 88·96인치 팔레트 문서).\""
+ },
+ {
+  "file": "uld-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "uld-pallets 요약이 한 줄 메모라 'T11 스키드 몇 개', '20ft 팔레트', '쇼어링'처럼 사용자가 찾는 말이 빠져 있습니다. 다른 문서와 같은 문장형으로 내용을 드러냅니다.",
+  "evidence": "uld-docs/uld-pallets.html 4절(T11 스키드 PAG 2개·PMC 4개), 5절(16ft PRA·20ft PGA), 6절(테두리 레일·네트), 8절(오버행), 9절(바닥 하중과 쇼어링)",
+  "old": "summary: \"PAG와 PMC의 치수·위치별 최대 중량, 같은 화물을 짤 때의 차이, 네트·오버행·바닥 하중.\"",
+  "new": "summary: \"PAG(88인치)와 PMC(96인치)의 치수·위치별 최대 총중량·자중, T11 스키드가 한 층에 몇 개 들어가는지, 16ft·20ft 팔레트, 테두리 레일·네트·보조 스트랩, 오버행 기준, 바닥 하중과 쇼어링을 항공사 공개 자료로 비교합니다.\""
+ },
+ {
+  "file": "uld-docs/uld-safety.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "사례 번호를 글로 적었지만 링크는 사례 문서 첫머리로 갑니다. STYLE.md 5절의 사례 링크 형식(#c번호)으로 바로 그 사례로 보냅니다.",
+  "evidence": "uld-docs/uld-cases.html <h4 id=\"c2\">2. National Airlines 102편; STYLE.md 5절",
+  "old": "National Airlines 102편의 차량이 이 요건의 대상이었습니다(<a data-doc=\"uld-cases\">ULD·탑재 사고 사례</a> 2번)",
+  "new": "National Airlines 102편의 차량이 이 요건의 대상이었습니다(<a data-doc=\"uld-cases#c2\">ULD·탑재 사고 사례</a> 2번)"
+ },
+ {
+  "file": "uld-docs/uld-safety.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "체크리스트의 Aloha 601편 안내도 사례 3번으로 바로 가게 합니다.",
+  "evidence": "uld-docs/uld-cases.html <h4 id=\"c3\">3. Aloha Air Cargo 601편",
+  "old": "(<a data-doc=\"uld-cases\">ULD·탑재 사고 사례</a>의 Aloha Air Cargo 601편)",
+  "new": "(<a data-doc=\"uld-cases#c3\">ULD·탑재 사고 사례</a> 3번의 Aloha Air Cargo 601편)"
+ },
+ {
+  "file": "uld-docs/uld-code.html",
+  "type": "figure",
+  "severity": "medium",
+  "problem": "첫 그림(uld-family.webp)의 'MAIN DECK CONTAINER'는 바다 컨테이너처럼 여덟 모서리에 ISO 코너 피팅(corner casting)이 달리고 그 위에 서 있습니다. 항공 메인덱 컨테이너(AMA 등)는 얇은 알루미늄 바닥판과 테두리 레일 위에 셸을 얹은 구조로 ISO 코너 피팅이 없고, 항공기 잠금장치는 바닥 레일을 물기 때문에 기술적으로 틀린 그림입니다. 다른 두 컨테이너도 위 모서리에 같은 블록이 있습니다.",
+  "evidence": "그림 직접 확인(images/uld/uld-family.webp). 같은 문서 3절 'ULD는 화물칸 바닥의 롤러, 사이드 가이드, 팔레트 락에 직접 맞물려 고정', uld-pallets 6절 '레일의 바깥쪽 면은 항공기 바닥의 잠금 장치가 팔레트를 붙잡는 데 씀'"
+ },
+ {
+  "file": "uld-docs/uld-holds.html",
+  "type": "figure",
+  "severity": "medium",
+  "problem": "화물기 단면 그림(freighter-cutaway.webp)에서 'LOWER DECK' 이름표의 지시선이 화물칸이 아니라 엔진 나셀을 가리킵니다. 처음 보는 사용자는 엔진 주변을 로어덱으로 오해할 수 있습니다. 지시선을 FWD·AFT 홀드 사이 바닥 아래 화물칸으로 옮기거나, FWD HOLD·AFT HOLD·BULK를 묶는 괄호로 고쳐 다시 그리는 것을 제안합니다(메인덱 화물문을 날개 뒤 왼쪽에 둔 배치는 맞음).",
+  "evidence": "그림 직접 확인(images/uld/freighter-cutaway.webp): 'LOWER DECK' 지시선 끝이 엔진 나셀 앞쪽에 닿음"
+ },
+ {
+  "file": "uld-docs/uld-safety.html",
+  "type": "figure",
+  "severity": "low",
+  "problem": "첫 그림(uld-inspection.webp)은 팔레트와 컨테이너를 모두 맨바닥에 내려놓은 모습인데, 같은 사이트의 체크리스트는 'ULD를 땅바닥이 아닌 달리·롤러·랙 위에 두었다', IATA 화물조업위원회는 'ULD를 땅바닥에 두지 말 것'이라고 적어 그림이 본문과 반대되는 관행을 보여 줍니다. 팔레트를 롤러 베드나 달리 위에 둔 장면으로 다시 그리는 것을 제안합니다.",
+  "evidence": "uld-docs/uld-buildup.html 13절 'ULD를 땅바닥이 아닌 달리·롤러·랙 위에 두었다', 12절 'IATA 화물조업위원회도 ULD를 땅바닥에 두지 말 것', AirBridgeCargo '땅바닥 보관 금지'"
+ },
+ {
+  "file": "uld-docs/uld-buildup.html",
+  "type": "figure",
+  "severity": "low",
+  "problem": "빌드업 그림(buildup.webp)에서 왼쪽 작업자가 네트를 이미 씌우고 잠근 팔레트 위에 상자를 더 얹고 있고, 화물이 테두리 레일 바로 앞까지 붙어 있습니다. 본문 원칙(네트는 다 쌓은 뒤 씌움, 둘레 약 50 mm 비우기)과 다른 장면이라, 상자를 다 쌓은 뒤 네트를 거는 장면과 가장자리 여유가 보이게 다시 그리는 것을 제안합니다.",
+  "evidence": "같은 문서 9절 '가장자리 비우기: 테두리 레일과 둘레 약 50 mm', 13절 체크리스트 순서(쌓기 → 보조 스트랩 → 네트)"
+ },
+ {
+  "file": "customs-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "cu-hs-practice 요약이 명사 나열로 끝나 다른 문서와 형식이 다르고, 사용자가 찾을 말(지우개 달린 연필, 스마트워치, 선물세트, 6개월 보정, 사전심사 30일, 나라마다 다른 코드)이 빠져 있습니다.",
+  "evidence": "cu-docs/cu-hs-practice.html 2절(지우개 달린 연필), 5절(세트·선물세트), 6절(웨어러블), 8절(보정 6개월·10% 가산세), 9절(사전심사 30일·신속 15일), 10절(한국 10자리·일본 9자리·미국 10자리·EU 8자리)",
+  "old": "summary: \"헷갈리는 물품이 통칙 1~6호와 주로 하나의 코드가 되는 과정, 잘못 분류했을 때의 보정·가산세, 사전심사와 분류 변경, 역할별 점검표.\"",
+  "new": "summary: \"지우개 달린 연필·스마트워치·선물세트·분할 선적 설비처럼 헷갈리는 물품이 통칙 1~6호와 부·류의 주로 하나의 코드가 되는 과정, 잘못 분류했을 때의 6개월 보정과 10% 가산세, 품목분류 사전심사(30일)와 분류 변경, 나라마다 다른 10자리 코드, 역할별 점검표를 정리합니다.\""
+ },
+ {
+  "file": "cu-docs/cu-clearance.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "'통칙 1~6호와 실무 사례'까지 HS 품목분류 실무 8절에 있다고 안내하지만, 통칙과 사례는 1~7절이고 8절은 보정·가산세와 코드 요청 대응입니다.",
+  "evidence": "cu-docs/cu-hs-practice.html h3: 1. 분류는 정해진 순서로 … 7. 통칙 4·5·6호, 8. '세율 낮은 코드로 해 주세요'가 안 되는 이유: 보정·가산세·처벌, 9. 품목분류 사전심사와 분류가 바뀔 때",
+  "old": "<p>통칙 1~6호와 실무 사례, 잘못 분류했을 때의 보정·가산세 계산과 HS 코드 요청을 받았을 때의 대응은 <a data-doc=\"cu-hs-practice\">HS 품목분류 실무</a> 8절,",
+  "new": "<p>통칙 1~6호와 실무 사례는 <a data-doc=\"cu-hs-practice\">HS 품목분류 실무</a> 1~7절, 잘못 분류했을 때의 보정·가산세 계산과 HS 코드 요청을 받았을 때의 대응은 같은 문서 8절,"
+ },
+ {
+  "file": "cu-docs/cu-hs-practice.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "링크 글자 'FTA 협정관세와 원산지'가 대상 문서 이름(FTA 원산지와 직접운송, 메뉴 짧은 이름 'FTA 원산지와 직접운송')과 다릅니다. 같은 이름으로 맞춥니다.",
+  "evidence": "customs-library.js cu-fta short: \"FTA 원산지와 직접운송\"; cu-documents·cu-cases는 같은 링크를 'FTA 원산지와 직접운송'으로 표기",
+  "old": "코드가 틀리면 원산지 판정 자체가 틀어집니다. <a data-doc=\"cu-fta\">FTA 협정관세와 원산지</a>를 보십시오.",
+  "new": "코드가 틀리면 원산지 판정 자체가 틀어집니다. <a data-doc=\"cu-fta\">FTA 원산지와 직접운송</a>을 보십시오."
+ },
+ {
+  "file": "cu-docs/cu-hs-practice.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "10절의 같은 링크도 글자를 대상 문서 이름에 맞춥니다.",
+  "evidence": "customs-library.js cu-fta short: \"FTA 원산지와 직접운송\"",
+  "old": "HS 버전 차이와 결정기준은 <a data-doc=\"cu-fta\">FTA 협정관세와 원산지</a>를 보십시오.",
+  "new": "HS 버전 차이와 결정기준은 <a data-doc=\"cu-fta\">FTA 원산지와 직접운송</a>을 보십시오."
+ },
+ {
+  "file": "cu-docs/cu-aeo.html",
+  "type": "contradiction",
+  "severity": "medium",
+  "problem": "같은 문서 안에서 혜택 정지 사유인 직원 교육 범위가 7절 표에는 '세부기준 4.8.1~4.8.4', 9절 끝에는 '4.8.1~4.8.3'으로 다릅니다. 고시 제25조 제5호 가목 원문은 4.8.1부터 4.8.4까지입니다(보세운송업자 부문은 교육 기준이 4.8.4까지 있음).",
+  "evidence": "tools/factcheck/2026-10-19/cu-aeo.facts.md: AEO고시 제25조 '5. 가. … 4.8.1부터 4.8.4까지에 따른 교육을 … 상당한 기간 실시하지 않았음'; 같은 문서 7절 표 '⑤ 직원 안전관리 교육(세부기준 4.8.1~4.8.4)'",
+  "old": "<p>직원 안전관리 교육(세부기준 4.8.1~4.8.3)을 상당 기간 하지 않으면 혜택 정지 사유입니다(고시 제25조제5호).</p>",
+  "new": "<p>직원 안전관리 교육(세부기준 4.8.1~4.8.4)을 상당 기간 하지 않으면 혜택 정지 사유입니다(고시 제25조제5호).</p>"
+ },
+ {
+  "file": "cu-docs/cu-bonded.html",
+  "type": "clarity",
+  "severity": "medium",
+  "problem": "'설명할 때' 예문이 '고시 별표 1에 이름이 오른 부산항 CY·CFS는 장치기간이 2개월'이라고 해, 2개월 장치기간이 별표 1에 달린 것처럼 읽힙니다. 2개월은 부산항 부두 안 보세창고·부두 밖 컨테이너전용보세창고 전체에 적용되고(체화관리 고시 제4조), 별표 1은 30일 신고지연 가산세·15일 반출의 대상만 정합니다. 화주가 별표 1 밖의 부산 CY는 6개월이라고 오해할 수 있습니다.",
+  "evidence": "같은 문서 2절 표 '부산항·인천항 부두 안 보세창고와 부두 밖 컨테이너전용보세창고(CFS 포함) 2개월'; cu-import-timeline 1절 '가산세(제4항)는 … 별표 1 보세구역에 반입된 물품 … 별표 1에 없더라도 30일 신고 의무와 장치기간은 그대로 남습니다'",
+  "old": "고시 별표 1에 이름이 오른 부산항 CY·CFS는 장치기간이 2개월이고 반입 후 30일 안에 수입신고를 하지 않으면 가산세가 붙지만,",
+  "new": "부산항 부두 안 CY와 부두 밖 컨테이너전용보세창고(CFS 포함)는 장치기간이 2개월이고, 그중 고시 별표 1에 이름이 오른 곳은 반입 후 30일 안에 수입신고를 하지 않으면 가산세가 붙지만,"
+ },
+ {
+  "file": "cu-docs/cu-cases.html",
+  "type": "rule",
+  "severity": "low",
+  "problem": "요약 표가 '비조작증명서'라고 적어, 같은 서류를 cu-fta가 '비가공증명서(non-manipulation certificate)'로 부르는 것과 다릅니다. STYLE.md는 '비가공증명서'를 정식 표기로 정했습니다(심판 결정문 인용 부분은 그대로 둘 수 있음).",
+  "evidence": "tools/STYLE.md 2026-10-18 '…원산지인증수출자, 사후적용, 직접운송, 통과선하증권(through B/L), 비가공증명서, 제3국 송장…'; cu-docs/cu-fta.html 'RCEP … 비가공증명서(non-manipulation certificate)'",
+  "old": "<td>경유국 세관의 보세운송 서류와 비조작증명서가 결론을 바꿈</td>",
+  "new": "<td>경유국 세관의 보세운송 서류와 비가공증명서가 결론을 바꿈</td>"
+ },
+ {
+  "file": "cu-docs/cu-cases.html",
+  "type": "rule",
+  "severity": "low",
+  "problem": "사례 2의 교훈 문장도 사이트 표기(비가공증명서)로 맞춥니다.",
+  "evidence": "tools/STYLE.md 2026-10-18 정한 말 '비가공증명서'",
+  "old": "경유국 세관이 발급한 보세운송 서류, 비조작증명서, 차량·컨테이너 번호가 이어진다는 기록이 결론을 좌우합니다.",
+  "new": "경유국 세관이 발급한 보세운송 서류, 비가공증명서(심판 결정문 표현은 비조작증명서), 차량·컨테이너 번호가 이어진다는 기록이 결론을 좌우합니다."
+ },
+ {
+  "file": "cu-docs/cu-cases.html",
+  "type": "rule",
+  "severity": "low",
+  "problem": "9절 '반복되는 실패' 표도 같은 표기로 맞춥니다.",
+  "evidence": "tools/STYLE.md '비가공증명서'",
+  "old": "부킹 단계에서 통과 B/L, 경유 때는 경유국 세관 서류·비조작증명서·번호 연속 기록",
+  "new": "부킹 단계에서 통과 B/L, 경유 때는 경유국 세관 서류·비가공증명서·번호 연속 기록"
+ },
+ {
+  "file": "cu-docs/cu-fta.html",
+  "type": "outdated",
+  "severity": "low",
+  "problem": "'한-아세안 원산지 결정기준(별표 4)은 2026년 5월 1일부터 다시 개정 시행되며'는 이미 지난 날짜를 앞으로 있을 일처럼 읽힙니다(오늘 2026-10-26).",
+  "evidence": "같은 문서 머리 '시행규칙(각각 시행 2026. 5. 1.)'; 출처 줄 '시행규칙 … 부칙(재정경제부령 제8호, 2026. 3. 20. 등)'",
+  "old": "2026년 5월 1일부터 다시 개정 시행되며,",
+  "new": "2026년 5월 1일부터 다시 개정되어 시행되고 있으며,"
+ },
+ {
+  "file": "cu-docs/cu-bonded.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "사례 번호를 글로 적었지만 링크는 사례 문서 첫머리로 갑니다. STYLE.md 5절 형식(#c번호)으로 바로 그 사례로 보냅니다.",
+  "evidence": "cu-docs/cu-cases.html <h4 id=\"c8\">8. 보세구역 밖에 둔 수입 참깨 도난; STYLE.md 5절",
+  "old": "보았습니다(<a data-doc=\"cu-cases\">통관 사고 사례</a> 8번).",
+  "new": "보았습니다(<a data-doc=\"cu-cases#c8\">통관 사고 사례</a> 8번)."
+ },
+ {
+  "file": "cu-docs/cu-documents.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "같은 이유로 사례 5번 앵커를 붙입니다.",
+  "evidence": "cu-docs/cu-cases.html <h4 id=\"c5\">5. C&amp;F로 신고했지만…",
+  "old": "두 사건의 경위와 교훈은 <a data-doc=\"cu-cases\">통관 사고 사례</a> 5번·6번에 있습니다.",
+  "new": "두 사건의 경위와 교훈은 <a data-doc=\"cu-cases#c5\">통관 사고 사례</a> 5번·6번에 있습니다."
+ },
+ {
+  "file": "cu-docs/cu-fta.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "같은 이유로 사례 1번 앵커를 붙입니다.",
+  "evidence": "cu-docs/cu-cases.html <h4 id=\"c1\">1. 통과선하증권 없는 제3국 경유 화물",
+  "old": "결정은 <a data-doc=\"cu-cases\">통관 사고 사례</a> 1번·2번에 있습니다.",
+  "new": "결정은 <a data-doc=\"cu-cases#c1\">통관 사고 사례</a> 1번·2번에 있습니다."
+ },
+ {
+  "file": "cu-docs/cu-hs-practice.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "같은 이유로 사례 3번 앵커를 붙입니다.",
+  "evidence": "cu-docs/cu-cases.html <h4 id=\"c3\">3. 냉연공장 설비 \"노의 부분품\"",
+  "old": "분류한다고 보았습니다(<a data-doc=\"cu-cases\">통관 사고 사례</a> 3번).",
+  "new": "분류한다고 보았습니다(<a data-doc=\"cu-cases#c3\">통관 사고 사례</a> 3번)."
+ },
+ {
+  "file": "cu-docs/cu-hs-practice.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "같은 이유로 사례 4번 앵커를 붙입니다.",
+  "evidence": "cu-docs/cu-cases.html <h4 id=\"c4\">4. 손목 웨어러블 분류 변경",
+  "old": "결정 내용은 <a data-doc=\"cu-cases\">통관 사고 사례</a> 4번에 있습니다.",
+  "new": "결정 내용은 <a data-doc=\"cu-cases#c4\">통관 사고 사례</a> 4번에 있습니다."
+ },
+ {
+  "file": "cu-docs/cu-us-filing.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "같은 이유로 사례 11번 앵커를 붙입니다.",
+  "evidence": "cu-docs/cu-cases.html <h4 id=\"c11\">11. UPS 캐나다 미보고 반출 174건",
+  "old": "사례는 <a data-doc=\"cu-cases\">통관 사고 사례</a> 11번·12번에 있습니다.",
+  "new": "사례는 <a data-doc=\"cu-cases#c11\">통관 사고 사례</a> 11번·12번에 있습니다."
+ },
+ {
+  "file": "cu-docs/cu-aeo.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "같은 이유로 사례 9번 앵커를 붙입니다(문서 안의 다른 '9번·10번' 안내도 같은 방식으로 #c9를 붙이면 됩니다).",
+  "evidence": "cu-docs/cu-cases.html <h4 id=\"c9\">9. 적재지검사로 지정된 수출화물을 검사 없이 선적",
+  "old": "선적을 요청하지 않습니다(<a data-doc=\"cu-cases\">통관 사고 사례</a> 9번).",
+  "new": "선적을 요청하지 않습니다(<a data-doc=\"cu-cases#c9\">통관 사고 사례</a> 9번)."
+ },
+ {
+  "file": "cu-docs/cu-aeo.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "같은 이유로 사례 10번 앵커를 붙입니다.",
+  "evidence": "cu-docs/cu-cases.html <h4 id=\"c10\">10. 컨테이너 번호 변경을 선사에 알리지 않음",
+  "old": "<a data-doc=\"cu-cases\">통관 사고 사례</a> 10번</td>",
+  "new": "<a data-doc=\"cu-cases#c10\">통관 사고 사례</a> 10번</td>"
+ },
+ {
+  "file": "cu-docs/cu-cases.html",
+  "type": "proposal",
+  "severity": "low",
+  "problem": "9번·10번 제목이 '(한 포워더)'로 끝나 STYLE.md 사례 형식 '(연도, 장소)'를 따르지 않습니다. 사고 사례 모음(ac-all) 표에서 두 사례의 연도 칸이 '—'로 나옵니다. 내부 가이드의 연도를 공개하지 않을 방침이면 '(연도 미공개, 국내)'처럼 형식만 맞추는 방안을 운영자가 정해 주십시오.",
+  "evidence": "tools/STYLE.md 5절 '제목: <h4>번호. 이름 — 요지 (연도, 장소)</h4>'; ac-docs/ac-all.html cu-cases#c9·#c10 행 연도 칸 '—'"
+ }
+]

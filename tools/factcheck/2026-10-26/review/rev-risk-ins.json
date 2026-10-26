@@ -1,0 +1,450 @@
+[
+ {
+  "file": "rk-docs/rk-license.html",
+  "type": "error",
+  "severity": "medium",
+  "problem": "문서 머리의 법령 기준이 틀렸습니다. 화물자동차 운수사업법은 2026. 5. 29. 공포됐지만 시행은 2026. 7. 1.이고, 시행규칙(국토교통부령 제1551호)은 2025. 12. 29. 공포·2026. 6. 30. 시행인데 공포일을 시행일로 적었습니다. 같은 법령을 다룬 rk-truck 출처 줄(법 시행 2026. 7. 1., 시행규칙 시행 2026. 6. 30.)과도 어긋납니다.",
+  "evidence": "국가법령정보센터 lsInfoP.do?lsiSeq=286393: '[법률 제21711호, 2026. 5. 29., 일부개정] [시행 2026. 7. 1.]'; lsInfoP.do?lsiSeq=282123: '[국토교통부령 제1551호, 2025. 12. 29., 일부개정] [시행 2026. 6. 30.]'(2026-10-26 plain fetch). rk-truck.html 출처 줄: '화물자동차 운수사업법 …(시행 2026. 7. 1.)', '같은 법 시행규칙 …(시행 2026. 6. 30.)'",
+  "old": "화물자동차 운수사업법(법률 제21711호, 2026. 5. 29. 공포·시행), 같은 법 시행령(대통령령 제36353호, 시행 2026. 6. 3.)과 시행규칙(국토교통부령 제1551호, 시행 2025. 12. 29.)",
+  "new": "화물자동차 운수사업법(법률 제21711호, 2026. 5. 29. 공포, 시행 2026. 7. 1.), 같은 법 시행령(대통령령 제36353호, 시행 2026. 6. 3.)과 시행규칙(국토교통부령 제1551호, 2025. 12. 29. 공포, 시행 2026. 6. 30.)"
+ },
+ {
+  "file": "risk-library.js",
+  "type": "contradiction",
+  "severity": "low",
+  "problem": "Cargo Risk 문서 머리의 '자료 확인' 날짜가 모든 문서에서 2026-10-19로 고정돼, DOCS에 checked: '2026-10-23'이 있는 rk-license·rk-cases도 머리에는 10-19로 나오고 본문('2026년 10월 23일에 … 확인')과 어긋납니다. insurance-library.js처럼 문서별 checked를 먼저 쓰게 하면 됩니다(고친 뒤 DOCS_VERSION과 HTML ?v= 올림).",
+  "evidence": "library/cargo-risk/rk-license.html: 'lib-checked\">자료 확인 2026-10-19'; rk-license.html 머리 고지: '이 문서는 2026년 10월 23일에 국가법령정보센터에서 확인한'; insurance-library.js: '자료 확인 ${doc.checked || CHECKED}'",
+  "old": "<p class=\"lib-checked\">자료 확인 ${CHECKED} · 회사·보험·계약",
+  "new": "<p class=\"lib-checked\">자료 확인 ${doc.checked || CHECKED} · 회사·보험·계약"
+ },
+ {
+  "file": "rk-docs/rk-cases.html",
+  "type": "rule",
+  "severity": "medium",
+  "problem": "사례 제목 끝 괄호에 연도가 없어 사고 사례 모음(build_cases.py)이 사건번호 '2015다246186'의 2015를 연도로 읽습니다. 모음 표에 이 사례가 2015년으로 나오지만 화재는 2013년, 판결은 2018년입니다(같은 판결을 다룬 ins-cases 10번은 2018로 표시).",
+  "evidence": "ac-docs/ac-all.html: 'rk-cases#c12 … <td>2015</td>'; tools/build_cases.py: 괄호 안에 연도가 없으면 제목 전체에서 첫 4자리 연도를 찾음; 사례 본문: '2013년 7월 25일 … 화재. 대법원 2018년 12월 13일 선고'",
+  "old": "<h4 id=\"c12\">12. 거래하던 보세창고의 화재 — 보관까지 위임받은 포워더에게 창고업자는 이행보조자 (대법원 2015다246186, 인천)</h4>",
+  "new": "<h4 id=\"c12\">12. 거래하던 보세창고의 화재 — 보관까지 위임받은 포워더에게 창고업자는 이행보조자 (2018 판결, 인천, 대법원 2015다246186)</h4>"
+ },
+ {
+  "file": "rk-docs/rk-cases.html",
+  "type": "rule",
+  "severity": "medium",
+  "problem": "같은 이유로 13번 사례가 모음 표에서 사건번호의 2015년으로 표시됩니다. 실제 화재는 2012년, 판결은 2016년입니다.",
+  "evidence": "ac-docs/ac-all.html의 rk-cases#c13 연도 칸(사건번호 2015가합537726에서 읽음); 사례 본문: '2012년 9월 27일 … 화재. 서울중앙지방법원 2016년 5월 27일 선고'",
+  "old": "<h4 id=\"c13\">13. 다시 맡긴 창고의 원인 불명 화재 — 주의를 다했음을 증명하지 못한 창고업자가 손해 전액 배상 (서울중앙지법 2015가합537726, 경기 남양주)</h4>",
+  "new": "<h4 id=\"c13\">13. 다시 맡긴 창고의 원인 불명 화재 — 주의를 다했음을 증명하지 못한 창고업자가 손해 전액 배상 (2016 판결, 경기 남양주, 서울중앙지법 2015가합537726)</h4>"
+ },
+ {
+  "file": "rk-docs/rk-warehouse.html",
+  "type": "error",
+  "severity": "medium",
+  "problem": "운전면허번호와 주민등록번호를 같은 규칙으로 묶어 '별도 동의나 법령 근거'가 있으면 보관할 수 있는 것처럼 읽힙니다. 주민등록번호는 제24조의2에 따라 동의를 받아도 법령 근거 등이 없으면 처리할 수 없어, 창고가 '동의서 받고 신분증 사본 보관'으로 오해할 수 있습니다.",
+  "evidence": "개인정보 보호법 제24조의2 제1항(국가법령정보센터, 시행 2026. 9. 11.): '제24조 제1항에도 불구하고 개인정보처리자는 다음 각 호의 어느 하나에 해당하는 경우를 제외하고는 주민등록번호를 처리할 수 없다. 1. 법률ㆍ대통령령…에서 구체적으로 주민등록번호의 처리를 요구하거나 허용한 경우 2. …급박한 생명, 신체, 재산의 이익… 3. …보호위원회가 고시로 정하는 경우'",
+  "old": "운전면허번호·주민등록번호는 고유식별정보라 별도 동의나 법령 근거 없이 사본으로 보관할 수 없습니다(개인정보 보호법 제24조·제24조의2).",
+  "new": "운전면허번호는 고유식별정보라 별도 동의나 법령 근거 없이 사본으로 보관할 수 없고(개인정보 보호법 제24조), 주민등록번호는 동의를 받아도 법령 근거가 없으면 처리할 수 없습니다(같은 법 제24조의2)."
+ },
+ {
+  "file": "rk-docs/rk-cross.html",
+  "type": "clarity",
+  "severity": "medium",
+  "problem": "설명 문안이 '받은 날부터 3일 안에 저희(포워더)에게 서면으로' 알리라고 해서, 3일이 포워더에게 알리는 기한이고 모든 운송 수단에 같은 것처럼 읽힙니다. 3일은 해상에서 보이지 않는 손해를 운송인에게 서면 통지하는 기한(상법 제804조)이고 트럭은 2주(제146조)입니다.",
+  "evidence": "rk-cross.html 9절: '해상운송에서 수하인이 일부 멸실을 발견하면 수령 후 지체 없이, 즉시 발견할 수 없으면 수령한 날부터 3일 이내에 운송인에게 서면 통지를 보내야 하고 … 육상운송은 … 2주 안에 통지'; ins-claims.html 3절 비교표",
+  "old": "받은 날부터 3일 안에 저희에게 서면으로 알려 주시고, 섞여 들어온 다른 회사 화물은 쓰지 말고 보관해 주십시오.\"",
+  "new": "그날 바로 저희에게 서면으로 알려 주십시오. 해상 화물은 받은 날부터 3일 안에(트럭 구간은 2주 안에) 운송인에게 서면 통지가 나가야 합니다. 섞여 들어온 다른 회사 화물은 쓰지 말고 보관해 주십시오.\""
+ },
+ {
+  "file": "rk-docs/rk-truck.html",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "조건절이 두 번 겹쳐('…받으면, …받고 운임을 내면 소멸하는 것이 원칙') 무엇을 하면 책임이 소멸하는지 한 번에 읽히지 않습니다.",
+  "evidence": "상법 제146조 제1항: 운송인의 책임은 수하인이 유보 없이 운송물을 수령하고 운임 기타의 비용을 지급한 때에는 소멸(즉시 발견할 수 없는 훼손·일부 멸실은 2주 안 통지 시 예외)",
+  "old": "이상이 있는데도 \"이상 없음\"으로 서명하거나 아무 말 없이 받으면, 국내 육상운송인의 책임은 수하인이 유보 없이 화물을 받고 운임을 내면 소멸하는 것이 원칙입니다(상법 제146조 제1항).",
+  "new": "이상이 있는데도 \"이상 없음\"으로 서명하거나 아무 말 없이 받고 운임을 내면, 국내 육상운송인의 책임은 원칙적으로 소멸합니다(상법 제146조 제1항)."
+ },
+ {
+  "file": "insurance-docs/ins-uninsurable.html",
+  "type": "outdated",
+  "severity": "low",
+  "problem": "JWC 위험 지역 회람을 JWLA-034(2026. 7. 29.)까지만 적었습니다. 그 뒤 JWLA-035(2026. 9. 16.)가 나왔고 홍해 경계(북위 25.5도 이남)는 그대로라 결론은 맞지만, 최신 회람 번호를 알려 주면 독자가 바로 확인할 수 있습니다.",
+  "evidence": "https://lmalloyds.com/wp-content/uploads/2026/09/JWLA-035-Black-Sea.pdf: 'JWLA-035 16th September 2026 … Amended: Europe 2) Black Sea …', 같은 회람 Defined Waters: 'Southern Red Sea … a) On the northwest, by the Red Sea, south of Latitude 25.5°N, (not including Egyptian territorial waters)'(2026-10-26 plain fetch)",
+  "old": "이전 회람(JWLA-033)의 경계는 북위 18도 이남이었습니다. 이 목록은",
+  "new": "이전 회람(JWLA-033)의 경계는 북위 18도 이남이었습니다. 2026년 9월 16일 최신 회람 JWLA-035는 흑해 구역만 고치고 홍해 경계는 그대로 두었습니다. 이 목록은"
+ },
+ {
+  "file": "insurance-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "클레임 문서 요약에 '적하보험 청구 기한', '3일', '14일', '9개월' 같은 사용자가 찾는 말이 없고, 다른 요약과 달리 명사로 끝납니다. 본문 3절 비교표의 핵심 기한을 요약에 넣으면 검색과 카드에서 바로 보입니다.",
+  "evidence": "ins-claims.html 3절 표: 해상 3일·1년, 항공 14일·2년, CMR 7일·1년, 국내 육상 2주·1년, FBL 연속 6일·9개월, 적하보험 '사고를 안 때 지체 없이 … 소멸시효 3년(제662조)'",
+  "old": "summary: \"사고 발견 시 인수증 기재·사진·운송인 통지·보험사 연락·검정 순서, 해상·항공·도로의 통지·제소 기한 비교표, 운송 형태별 클레임 서류, 대위와 구상, 포워더가 할 수 있는 일과 하지 않는 일.\" }",
+  "new": "summary: \"사고 발견 시 인수증 기재·사진·운송인 통지·보험사 연락·검정 순서, 해상(3일·1년)·항공(14일·2년)·도로(CMR 7일, 국내 2주)·복합운송(FBL 6일·9개월)의 통지·제소 기한과 적하보험금 청구(지체 없는 통지, 3년 시효) 비교표, 운송 형태별 클레임 서류, 대위와 구상, 포워더가 할 수 있는 일과 하지 않는 일을 정리합니다.\" }"
+ },
+ {
+  "file": "insurance-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "운송인 책임 한도 요약의 조사 '26 SDR와'는 'SDR(에스디알)' 받침에 맞지 않고, 요약이 '정리.'로 끝납니다. 사용자가 찾을 'FBL'도 요약에 없습니다(본문 2·5절에 FIATA FBL 한도가 있음).",
+  "evidence": "tools/STYLE.md: '괄호 뒤 조사는 앞의 한국어 낱말 받침에 맞춘다', SDR 표기; ins-carrier-liability.html 2절 표 '복합운송(UNCTAD/ICC 규칙, FIATA FBL 1992)'",
+  "old": "몬트리올 협약 26 SDR와 상법 제915조 19 SDR, CMR 8.33 SDR, 복합운송의 한도를 비교하고, 원화 계산 예시로 운송인 배상이 화물값의 몇 %인지와 가액 신고, 포워더가 운송인이 되는 경우를 정리.\" }",
+  "new": "몬트리올 협약 26 SDR과 상법 제915조 19 SDR, CMR 8.33 SDR, 복합운송(FIATA FBL)의 한도를 비교하고, 원화 계산 예시로 운송인 배상이 화물값의 몇 %인지와 가액 신고, 포워더가 운송인이 되는 경우를 정리합니다.\" }"
+ },
+ {
+  "file": "insurance-docs/ins-basics.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "링크 글자 '조건별 위험·비용 분기점'이 대상 문서 이름('위험·비용의 분기와 애매한 구간')과 달라, 같은 문장 앞의 '11개 조건 해설과 정리표'와 헷갈립니다.",
+  "evidence": "library/incoterms-2020/inco-gray.html <title>: '위험·비용의 분기와 애매한 구간 — 비용 항목별 부담표와 계약 문구 예시'",
+  "old": "<a href=\"/library/incoterms-2020/inco-gray\">조건별 위험·비용 분기점</a>",
+  "new": "<a href=\"/library/incoterms-2020/inco-gray\">위험·비용의 분기와 애매한 구간</a>"
+ },
+ {
+  "file": "insurance-docs/ins-uninsurable.html",
+  "type": "findability",
+  "severity": "low",
+  "problem": "같은 판결을 ins-uninsurable은 'Exportadora Valle de Colina v A.P. Moller-Maersk'로, 링크된 사례 문서(22번)와 사고 사례 모음은 'Santa Elena v Maersk'로 불러 같은 사건인지 알기 어렵습니다.",
+  "evidence": "ins-cases.html 22번 제목: 'Santa Elena v Maersk — 칠레산 포도와 냉동기 전원 차단 …', 판결 표기: 'Exportadora Valle de Colina SA (t/a Exportadora Santa Elena) & Ors v A.P. Moller-Maersk A/S'",
+  "old": "영국 법원은 칠레산 포도 리퍼 사건에서 운송인 책임을 인정(Exportadora Valle de Colina v A.P. Moller-Maersk [2010] EWHC 3224 (Comm),",
+  "new": "영국 법원은 칠레산 포도 리퍼 사건(Santa Elena v Maersk)에서 운송인 책임을 인정(Exportadora Valle de Colina v A.P. Moller-Maersk [2010] EWHC 3224 (Comm),"
+ },
+ {
+  "file": "insurance-docs/ins-basics.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(3번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c3)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c3\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 3",
+  "new": "<a data-doc=\"ins-cases#c3\">화물보험 사고 사례</a> 3"
+ },
+ {
+  "file": "insurance-docs/ins-carrier-liability.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(8번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c8)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c8\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": " <a data-doc=\"ins-cases\">화물보험 사고 사례</a> 8",
+  "new": " <a data-doc=\"ins-cases#c8\">화물보험 사고 사례</a> 8"
+ },
+ {
+  "file": "insurance-docs/ins-carrier-liability.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(8번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c8)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c8\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "(<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 8",
+  "new": "(<a data-doc=\"ins-cases#c8\">화물보험 사고 사례</a> 8"
+ },
+ {
+  "file": "insurance-docs/ins-carrier-liability.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(21번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c21)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c21\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 21",
+  "new": "<a data-doc=\"ins-cases#c21\">화물보험 사고 사례</a> 21"
+ },
+ {
+  "file": "insurance-docs/ins-claims.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(11번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c11)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c11\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 11",
+  "new": "<a data-doc=\"ins-cases#c11\">화물보험 사고 사례</a> 11"
+ },
+ {
+  "file": "insurance-docs/ins-container-loss.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(18번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c18)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c18\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "난조사 결론은 <a data-doc=\"ins-cases\">화물보험 사고 사례</a> 18",
+  "new": "난조사 결론은 <a data-doc=\"ins-cases#c18\">화물보험 사고 사례</a> 18"
+ },
+ {
+  "file": "insurance-docs/ins-container-loss.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(18번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c18)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c18\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": " 조사 결론은 <a data-doc=\"ins-cases\">화물보험 사고 사례</a> 18",
+  "new": " 조사 결론은 <a data-doc=\"ins-cases#c18\">화물보험 사고 사례</a> 18"
+ },
+ {
+  "file": "insurance-docs/ins-container-loss.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(1번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c1)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c1\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "는 <a data-doc=\"ins-cases\">화물보험 사고 사례</a> 1",
+  "new": "는 <a data-doc=\"ins-cases#c1\">화물보험 사고 사례</a> 1"
+ },
+ {
+  "file": "insurance-docs/ins-forwarder.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(9번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c9)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c9\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 9",
+  "new": "<a data-doc=\"ins-cases#c9\">화물보험 사고 사례</a> 9"
+ },
+ {
+  "file": "insurance-docs/ins-forwarder.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(10번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c10)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c10\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 10",
+  "new": "<a data-doc=\"ins-cases#c10\">화물보험 사고 사례</a> 10"
+ },
+ {
+  "file": "insurance-docs/ins-forwarder.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(13번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c13)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c13\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 13",
+  "new": "<a data-doc=\"ins-cases#c13\">화물보험 사고 사례</a> 13"
+ },
+ {
+  "file": "insurance-docs/ins-general-average.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(14번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c14)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c14\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 14",
+  "new": "<a data-doc=\"ins-cases#c14\">화물보험 사고 사례</a> 14"
+ },
+ {
+  "file": "insurance-docs/ins-general-average.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(18번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c18)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c18\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 18",
+  "new": "<a data-doc=\"ins-cases#c18\">화물보험 사고 사례</a> 18"
+ },
+ {
+  "file": "insurance-docs/ins-general-average.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(15번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c15)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c15\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 15",
+  "new": "<a data-doc=\"ins-cases#c15\">화물보험 사고 사례</a> 15"
+ },
+ {
+  "file": "insurance-docs/ins-icc.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(4번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c4)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c4\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": ". <a data-doc=\"ins-cases\">화물보험 사고 사례</a> 4",
+  "new": ". <a data-doc=\"ins-cases#c4\">화물보험 사고 사례</a> 4"
+ },
+ {
+  "file": "insurance-docs/ins-icc.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(6번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c6)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c6\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 6",
+  "new": "<a data-doc=\"ins-cases#c6\">화물보험 사고 사례</a> 6"
+ },
+ {
+  "file": "insurance-docs/ins-icc.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(4번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c4)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c4\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "는 <a data-doc=\"ins-cases\">화물보험 사고 사례</a> 4",
+  "new": "는 <a data-doc=\"ins-cases#c4\">화물보험 사고 사례</a> 4"
+ },
+ {
+  "file": "insurance-docs/ins-icc.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(1번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c1)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c1\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 1",
+  "new": "<a data-doc=\"ins-cases#c1\">화물보험 사고 사례</a> 1"
+ },
+ {
+  "file": "insurance-docs/ins-uninsurable.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(21번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c21)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c21\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 21",
+  "new": "<a data-doc=\"ins-cases#c21\">화물보험 사고 사례</a> 21"
+ },
+ {
+  "file": "insurance-docs/ins-uninsurable.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(22번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c22)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c22\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 22",
+  "new": "<a data-doc=\"ins-cases#c22\">화물보험 사고 사례</a> 22"
+ },
+ {
+  "file": "insurance-docs/ins-uninsurable.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(7번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c7)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "ins-cases.html의 사례 제목에 id=\"c7\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"ins-cases\">화물보험 사고 사례</a> 7",
+  "new": "<a data-doc=\"ins-cases#c7\">화물보험 사고 사례</a> 7"
+ },
+ {
+  "file": "rk-docs/rk-cross.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(19번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c19)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c19\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"rk-cases\">화물 사고 사례</a> 19",
+  "new": "<a data-doc=\"rk-cases#c19\">화물 사고 사례</a> 19"
+ },
+ {
+  "file": "rk-docs/rk-cross.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(16번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c16)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c16\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": " <a data-doc=\"rk-cases\">화물 사고 사례</a> 16",
+  "new": " <a data-doc=\"rk-cases#c16\">화물 사고 사례</a> 16"
+ },
+ {
+  "file": "rk-docs/rk-cross.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(16번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c16)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c16\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "(<a data-doc=\"rk-cases\">화물 사고 사례</a> 16",
+  "new": "(<a data-doc=\"rk-cases#c16\">화물 사고 사례</a> 16"
+ },
+ {
+  "file": "rk-docs/rk-cross.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(17번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c17)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c17\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"rk-cases\">화물 사고 사례</a> 17",
+  "new": "<a data-doc=\"rk-cases#c17\">화물 사고 사례</a> 17"
+ },
+ {
+  "file": "rk-docs/rk-damage.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(15번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c15)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c15\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"rk-cases\">화물 사고 사례</a> 15",
+  "new": "<a data-doc=\"rk-cases#c15\">화물 사고 사례</a> 15"
+ },
+ {
+  "file": "rk-docs/rk-security.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(18번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c18)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c18\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": " <a data-doc=\"rk-cases\">화물 사고 사례</a> 18",
+  "new": " <a data-doc=\"rk-cases#c18\">화물 사고 사례</a> 18"
+ },
+ {
+  "file": "rk-docs/rk-security.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(18번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c18)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c18\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "(<a data-doc=\"rk-cases\">화물 사고 사례</a> 18",
+  "new": "(<a data-doc=\"rk-cases#c18\">화물 사고 사례</a> 18"
+ },
+ {
+  "file": "rk-docs/rk-special.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(1번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c1)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c1\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "례는 <a data-doc=\"rk-cases\">화물 사고 사례</a> 1",
+  "new": "례는 <a data-doc=\"rk-cases#c1\">화물 사고 사례</a> 1"
+ },
+ {
+  "file": "rk-docs/rk-special.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(7번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c7)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c7\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"rk-cases\">화물 사고 사례</a> 7",
+  "new": "<a data-doc=\"rk-cases#c7\">화물 사고 사례</a> 7"
+ },
+ {
+  "file": "rk-docs/rk-special.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(2번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c2)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c2\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"rk-cases\">화물 사고 사례</a> 2",
+  "new": "<a data-doc=\"rk-cases#c2\">화물 사고 사례</a> 2"
+ },
+ {
+  "file": "rk-docs/rk-special.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(1번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c1)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c1\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "처는 <a data-doc=\"rk-cases\">화물 사고 사례</a> 1",
+  "new": "처는 <a data-doc=\"rk-cases#c1\">화물 사고 사례</a> 1"
+ },
+ {
+  "file": "rk-docs/rk-truck.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(10번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c10)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c10\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "은 <a data-doc=\"rk-cases\">화물 사고 사례</a> 10",
+  "new": "은 <a data-doc=\"rk-cases#c10\">화물 사고 사례</a> 10"
+ },
+ {
+  "file": "rk-docs/rk-truck.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(10번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c10)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c10\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": ", <a data-doc=\"rk-cases\">화물 사고 사례</a> 10",
+  "new": ", <a data-doc=\"rk-cases#c10\">화물 사고 사례</a> 10"
+ },
+ {
+  "file": "rk-docs/rk-warehouse.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(12번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c12)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c12\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "결은 <a data-doc=\"rk-cases\">화물 사고 사례</a> 12",
+  "new": "결은 <a data-doc=\"rk-cases#c12\">화물 사고 사례</a> 12"
+ },
+ {
+  "file": "rk-docs/rk-warehouse.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(12번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c12)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c12\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "단은 <a data-doc=\"rk-cases\">화물 사고 사례</a> 12",
+  "new": "단은 <a data-doc=\"rk-cases#c12\">화물 사고 사례</a> 12"
+ },
+ {
+  "file": "rk-docs/rk-warehouse.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "본문이 사례 번호(13번)를 적었지만 링크는 사례 문서 맨 위로 갑니다. 사례 바로가기 주소(#c13)를 붙이면 그 사례가 바로 열립니다(rk-license는 이미 rk-cases#c21처럼 씀).",
+  "evidence": "rk-cases.html의 사례 제목에 id=\"c13\"가 있음; risk-library.js·insurance-library.js가 data-doc의 #hash를 주소에 붙임",
+  "old": "<a data-doc=\"rk-cases\">화물 사고 사례</a> 13",
+  "new": "<a data-doc=\"rk-cases#c13\">화물 사고 사례</a> 13"
+ },
+ {
+  "file": "rk-docs/rk-cases.html",
+  "type": "proposal",
+  "severity": "low",
+  "problem": "대법원 2015다246186(보세창고 화재와 포워더 책임) 판결이 rk-cases 12번과 ins-cases 10번에 거의 같은 경위·판단으로 두 번 실려 있어, 사고 사례 모음 표에 같은 사건이 두 줄로 잡힙니다(한 주제 한 곳 원칙). 한쪽(예: 보험 쟁점까지 다루는 ins-cases 10번)에 전문을 두고 다른 쪽은 짧은 요약과 링크로 줄이는 것을 제안합니다.",
+  "evidence": "rk-cases.html c12와 ins-cases.html c10이 같은 판결 요지를 반복; ac-docs/ac-all.html에 rk-cases#c12와 ins-cases#c10이 각각 있음"
+ }
+]

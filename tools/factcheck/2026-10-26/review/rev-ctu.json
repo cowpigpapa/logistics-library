@@ -1,0 +1,164 @@
+[
+ {
+  "file": "ctu-library.js",
+  "type": "error",
+  "severity": "medium",
+  "problem": "ch11 현장 체크포인트가 '총중량은 계산값이 아니라'라고 해서, 공인된 합산 방식(SOLAS 방법 2)으로 낸 VGM도 안 되는 것처럼 읽힙니다. 막는 대상은 적입 계획 단계의 추정값입니다. 또 VGM을 어떻게 정하는지(방법 1·2)는 이 카테고리 어디에도 없어서, 'VGM'을 검색해 들어온 포워더가 가장 먼저 찾는 내용이 빠져 있습니다.",
+  "evidence": "IM3 §1.1.7.3(1498): 'This estimated gross mass should not be used when providing the verified gross mass ... see MSC.1/Circ.1475'. SOLAS 제VI장 제2규칙(2016. 7. 1. 시행)과 MSC.1/Circ.1475는 방법 1(적입을 마친 컨테이너를 계량)과 방법 2(모든 포장·화물·팔레트·더니지·고정재 질량에 컨테이너 자중을 더하는 방식, 당국이 승인한 인증 방법)를 둘 다 인정하고, VGM이 없는 컨테이너는 선적하지 않게 합니다. 같은 문서 4절 끝에도 '추정값으로 대신할 수 없습니다'라고 적혀 있습니다.",
+  "old": "<li>총중량은 계산값이 아니라 규정이 정한 방법으로 확정한 값을 씁니다. 해상 운송이면 선적 전에 VGM을 운송인에게 제출합니다.</li>",
+  "new": "<li>총중량은 적입 계획 단계의 추정값이 아니라 규정이 정한 방법으로 확정한 값을 씁니다. 해상 운송이면 SOLAS 제VI장 제2규칙(2016년 7월 1일 시행)의 컨테이너 총중량 검증(VGM)에 따라, 적입을 마친 컨테이너를 계량하거나(방법 1) 화물·포장·팔레트·더니지·고정재의 질량을 모두 더하고 컨테이너 자중을 더하는 인증 방법(방법 2)으로 정한 값을 선적 전에 운송인에게 제출합니다. VGM이 없는 컨테이너는 선박에 싣지 않습니다.</li>"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "contradiction",
+  "severity": "medium",
+  "problem": "ch11의 IM2 서류표가 CMR은 '체약국이 한 곳이라도 끼면 적용'된다고 적었습니다. 그러면 한 나라 안의 국내 운송에도 적용되는 것처럼 읽힙니다. B/L·AWB 카테고리의 CMR 문서는 인수지와 인도지가 서로 다른 나라여야 한다고 정확히 적고 있어 두 문서가 서로 다릅니다.",
+  "evidence": "bl-docs/bl-cmr.html: 'CMR은 인수지와 인도지가 서로 다른 나라이고 그중 한 나라가 당사국인 유상 도로운송 계약에 ... 강행 적용됩니다(제1조, 제41조)'. IM2 §1 원문 'when at least one of the countries is a Contracting Country'는 국경을 넘는 운송을 전제로 한 줄임 표현입니다.",
+  "old": "<td>CMR 협약 체약국이 한 곳이라도 끼면 적용</td>",
+  "new": "<td>인수지와 인도지가 서로 다른 나라이고 그중 한 나라가 CMR 당사국이면 적용(<a href=\"/library/bl-awb/bl-cmr\">CMR과 유럽 트럭 운송</a>)</td>"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "clarity",
+  "severity": "medium",
+  "problem": "5장 해역 구분은 유럽 해역 이름만 나열해서, 한국 포워더는 부산~상하이, 부산~도쿄 같은 자기 항로를 A·B·C 중 어디로 봐야 하는지 알 수 없습니다. 표에 이름이 나오는 한국 근해는 동해(Sea of Japan, B)뿐이고, A의 태평양 연안 항해 조건은 북위 30°~남위 35° 구간입니다.",
+  "evidence": "MSC.1/Circ.1497 §5.5 표: B에 'Sea of Japan', A에 'Coastal or inter-island voyages ... Central Pacific Ocean (between 30°N and 35°S)'. 황해·동중국해와 일본 태평양 연안은 표에 이름이 없고, 이 해설 자체도 '해역을 확인할 수 없으면 해상 C'라고 적고 있습니다.",
+  "old": "해역(발트해·지중해·북해·동해 등)과, 지정된 대양 구역의 연안·도서 간 항해만 A·B로 낮출 수 있습니다.</li>",
+  "new": "해역(발트해·지중해·북해·동해 등)과, 지정된 대양 구역의 연안·도서 간 항해만 A·B로 낮출 수 있습니다. 한국 출발 항로라면 표에 이름이 나오는 곳은 동해(Sea of Japan, B)뿐입니다. 부산~상하이·칭다오(황해·동중국해)나 부산~도쿄(일본 태평양 연안)처럼 표에 이름이 없는 해역을 지나는 항로는 해상 C로 계산하는 것이 안전합니다.</li>"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "clarity",
+  "severity": "medium",
+  "problem": "받는 쪽(수하인) 문서의 빈 CTU 반납 표에 실무자가 가장 많이 다투는 두 가지가 빠져 있습니다. 하나는 언제까지 돌려줘야 하나(늦으면 반납 지연 요금), 다른 하나는 기존 손상을 누가 책임지나입니다. 원문 부속서 5 §8에는 둘 다 있습니다(8장 해설에는 §8.4가 인용되어 있지만 정작 받는 쪽 문서에는 없습니다).",
+  "evidence": "MSC.1/Circ.1497 부속서 5 §8.2.2: 'Returned in a timely manner as agreed with the CTU operator ... CTU operators may charge demurrage if the CTU is not returned as soon as practically possible after unpacking.' §8.4.3: 'The consignee will generally be held responsible for any damage incurred, other than those that have been verifiably observed and endorsed by the CTU operator. For unaccompanied CTUs this endorsement should be shown on the interchange document.'",
+  "old": "<tr><td>표지</td><td>직전 화물에 관한 표찰과 표시(위험물 표시 포함)를 떼거나 가리거나 지웁니다.</td><td>§12.3.4</td></tr>",
+  "new": "<tr><td>표지</td><td>직전 화물에 관한 표찰과 표시(위험물 표시 포함)를 떼거나 가리거나 지웁니다.</td><td>§12.3.4</td></tr>\n          <tr><td>반납 시점</td><td>CTU 운영자와 합의한 때에 돌려줍니다. 적출 뒤 늦게 돌려주면 운영자가 반납 지연 요금을 물릴 수 있습니다(원문 표현은 demurrage, 국내 실무에서는 대개 Detention).</td><td>부속서 5 §8.2.2</td></tr>\n          <tr><td>손상 책임</td><td>운영자가 확인하고 기기인수도증(EIR) 같은 인수도 서류에 적은 손상이 아니면 대개 수하인 책임으로 봅니다. 도착 때 기존 손상을 찾아 바로 알리고 기록합니다.</td><td>부속서 5 §8.4.3</td></tr>"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "figure",
+  "severity": "medium",
+  "problem": "부속서 2 그림(ctu-lifting-methods.webp)의 포크 포켓 칸에 'EMPTY ONLY'가 붙어 있고 그린 컨테이너는 20ft입니다. 그런데 바로 아래 표와 원문은 20ft·10ft를 적입된 상태에서도 포크로 들 수 있다고 합니다. 그림만 본 사람은 20ft도 빈 상태로만 들 수 있다고 오해합니다. 캡션에서 바로잡습니다(그림 수정은 별도 제안).",
+  "evidence": "MSC.1/Circ.1497 부속서 2 §3.3.6: 'This method can be used on 20-foot and 10-foot freight containers in an empty or packed state ...'. IM3 §1.1.9: 20ft 포켓은 중심 간격 2,050mm이며 'may be used for lifting full containers'. 같은 문서 표: '지게차 포크 ... 적입된 컨테이너 20ft·10ft'.",
+  "old": "포크 포켓은 긴 옆면에 있으며, 포켓 종류에 따라 빈 컨테이너만 들 수 있습니다.</figcaption>",
+  "new": "포크 포켓은 긴 옆면에 있습니다. 그림의 \"EMPTY ONLY\"는 빈 상태에서만 쓰는 포켓(900mm 간격 포켓, 30ft 이상 컨테이너의 포켓)을 말하며, 20ft·10ft 컨테이너는 2,050mm 간격 포켓으로 적입된 상태에서도 포크로 들 수 있습니다.</figcaption>"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "받기·개문 문서는 봉인 이상 때 '통보하거나 ... 인수를 거부'라고 써서 둘 중 하나를 골라도 되는 것처럼 읽힙니다. 원문과 같은 카테고리의 IM9 문서는 통보가 먼저이고, 통보 의무가 없을 때만 인수를 거부한다고 적고 있습니다.",
+  "evidence": "부속서 5 §1.2.3(원문): 'notify Customs or law enforcement agencies, in accordance with national legislation. Where no such notification requirements exist, the consignee should refuse custody of the CTU ...'. im9-seals: '국내 법령에 따라 세관이나 수사기관에 통보합니다. 통보 의무가 없으면 해결될 때까지 인수를 거부합니다(§2.1.4.1)'.",
+  "old": "국내 법령에 따라 세관이나 법 집행 기관에 통보하거나 해결될 때까지 인수를 거부합니다",
+  "new": "국내 법령에 따라 세관이나 법 집행 기관에 통보하고, 그런 통보 의무가 없으면 해결될 때까지 인수를 거부합니다"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "FCT 설명 '바꿀 수 없는 목적지가 아니라 지정된 목적지까지'는 원문을 그대로 옮긴 말이라 FCR과 무엇이 다른지 알기 어렵습니다.",
+  "evidence": "IM2 §2.4~2.5: FCR은 'not a negotiable document ... only one original is issued'. FCT는 'negotiable. This means that the forwarder accepts responsibility to deliver to a destination specified - not to an unchangeable destination as with the FCR.'",
+  "old": "FCR과 비슷한 포워더 운송증명서(FCT)는 유통 가능하며, 포워더가 바꿀 수 없는 목적지가 아니라 지정된 목적지까지 인도할 책임을 집니다(IM2 §2.5).",
+  "new": "FCR과 비슷한 포워더 운송증명서(FCT)는 유통 가능한 서류입니다. FCR은 받는 사람과 목적지가 정해져 바꿀 수 없는 지시를 증명할 뿐이지만, FCT를 발행한 포워더는 서류에 지정된 목적지까지 화물을 인도할 책임을 집니다(IM2 §2.4~§2.5)."
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "한국 도로 한도 문서가 운전자가 '신고하면' 과태료를 면한다고만 써서 조건이 빠졌습니다. 법은 신고에 따라 지시·요구한 쪽(화주·운송사업자 등)에 과태료가 부과될 때 면제합니다. Cargo Risk의 rk-special 문서는 이 조건을 적고 있습니다.",
+  "evidence": "도로법 제117조제5항(국가법령정보센터 DRF, 시행 2026. 9. 18.): 운전자가 화주 등의 지시·요구 또는 사실과 다른 중량 통보를 신고하여 제1항제3호에 따라 화주 등에게 과태료를 부과하는 경우 운전자에게 제1항제1호 과태료를 부과하지 아니한다. rk-special: '운전자가 이를 신고해 지시한 쪽에 과태료가 부과되면 운전자는…'",
+  "old": "운전자가 이를 신고하면 운전자는 과태료를 면합니다(제117조제5항).",
+  "new": "운전자가 이를 신고해 지시·요구한 쪽에 과태료가 부과되면 운전자는 과태료를 면합니다(제117조제5항)."
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "link",
+  "severity": "low",
+  "problem": "결로 해설이 Volcafe 판결을 '화물보험 사고 사례'로 안내하지만 사례 문서 첫머리로만 연결됩니다. STYLE의 사례 링크 규칙(사례 번호 #cN로 연결)에 맞지 않고, 독자가 20여 건 가운데에서 직접 찾아야 합니다. Volcafe는 ins-cases의 12번입니다.",
+  "evidence": "insurance-docs/ins-cases.html: '<h4 id=\"c12\">12. Volcafe v CSAV — 콜롬비아 원두의 결로 손상, 운송인이 입증해야 하는 것 (2018, 영국)'. STYLE.md 5절: 사례 번호와 링크(data-doc=\"xx-cases#c번호\").",
+  "old": "다툰 영국 대법원 판결(Volcafe v CSAV)은 <a href=\"/library/cargo-insurance/ins-cases\">화물보험 사고 사례</a>를 보십시오.",
+  "new": "다툰 영국 대법원 판결(Volcafe v CSAV)은 <a href=\"/library/cargo-insurance/ins-cases#c12\">화물보험 사고 사례 12번</a>을 보십시오."
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "link",
+  "severity": "low",
+  "problem": "적입·고박 사고 사례 끝의 Volcafe 안내도 사례 번호 없이 문서 첫머리로만 연결됩니다.",
+  "evidence": "insurance-docs/ins-cases.html의 c12가 Volcafe v CSAV입니다.",
+  "old": "판결(Volcafe v CSAV) 같은 보험·운송 판결은 <a href=\"/library/cargo-insurance/ins-cases\">화물보험 사고 사례</a>를 보십시오.",
+  "new": "판결(Volcafe v CSAV, <a href=\"/library/cargo-insurance/ins-cases#c12\">12번</a>) 같은 보험·운송 판결은 <a href=\"/library/cargo-insurance/ins-cases\">화물보험 사고 사례</a>를 보십시오."
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "현장에서는 '에어백'이라고 더 많이 부르는데, 고정 계산 문서의 요약에는 '더니지 백'만 있습니다. 색인 검색은 제목과 요약을 보기 때문에 '에어백'으로 찾으면 이 문서가 나오지 않습니다(9장 요약에는 '에어백'이 있음).",
+  "evidence": "ctu-library.js indexShell 검색 대상: 링크 글자, d.title, d.tag, d.summary. ch9-packing 요약: '빈 공간 15cm·에어백'.",
+  "old": "더니지 백의 필요 힘과 허용 힘 계산, 경사 시험 각도 표(부록 5).'",
+  "new": "더니지 백(에어백)의 필요 힘과 허용 힘 계산, 경사 시험 각도 표(부록 5).'"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "개요의 '해설 지도'는 원문의 장·부속서·정보자료가 어느 해설에 있는지 보여 준다고 하지만, 부속서 6·8·9와 IM4·IM8·IM10이 아예 빠져 있습니다. 그래서 훈증(부속서 9)이나 가스 측정(IM10)을 찾는 사람은 원문에 그런 내용이 없다고 생각하게 됩니다. 해설이 없는 부분은 링크 없는 줄로 넣고, 일부만 다룬 부분은 받기·개문 해설에 연결합니다.",
+  "evidence": "MSC.1/Circ.1497 목차: Annex 6 Minimizing the risk of recontamination, Annex 8 Access to tank and bulk tops, working at height, Annex 9 Fumigation. MSC.1/Circ.1498 목차: IM 4 Species of concern regarding recontamination, IM 8 Transport of perishable cargo, IM 10 Testing CTUs for hazardous gases. a5-receiving은 훈증 표시와 가스 측정을 다룹니다.",
+  "old": "    ['1497', '부속서 5', 'CTU 받기·안전한 개문', '참고', '계산하지 않음', 'a5-receiving'],\n    ['1497', '부속서 7 §1~2', '적입 계획·더니지·마찰·블로킹·래싱재', '핵심', '마찰계수 선택, 빈 공간 15cm, 각재·못', 'ch9-packing'],\n    ['1497', '부속서 7 §3', '하중 분포·적재 기법·화물 취급', '핵심', '무게중심 사전검사, 바닥 선하중', 'a7-load-distribution'],\n    ['1497', '부속서 7 §4', '화물 고정·고정 평가', '핵심', '방향별 억제력 균형, 전도 조건', 'a7-securing'],\n    ['1497', '부속서 7 부록 4·5', '고정 계산(각재 울타리·더니지 백·경사 시험)', '핵심', '못 수, 에어백 간극', 'a7-calc'],",
+  "new": "    ['1497', '부속서 5', 'CTU 받기·안전한 개문', '참고', '계산하지 않음', 'a5-receiving'],\n    ['1497', '부속서 6', '재오염 위험 줄이기(해충·흙·식물, 해설 없음)', '참고', '', ''],\n    ['1497', '부속서 7 §1~2', '적입 계획·더니지·마찰·블로킹·래싱재', '핵심', '마찰계수 선택, 빈 공간 15cm, 각재·못', 'ch9-packing'],\n    ['1497', '부속서 7 §3', '하중 분포·적재 기법·화물 취급', '핵심', '무게중심 사전검사, 바닥 선하중', 'a7-load-distribution'],\n    ['1497', '부속서 7 §4', '화물 고정·고정 평가', '핵심', '방향별 억제력 균형, 전도 조건', 'a7-securing'],\n    ['1497', '부속서 7 부록 4·5', '고정 계산(각재 울타리·더니지 백·경사 시험)', '핵심', '못 수, 에어백 간극', 'a7-calc'],\n    ['1497', '부속서 8', '탱크·벌크 상부 접근과 높은 곳 작업(해설 없음)', '참고', '', ''],\n    ['1497', '부속서 9', '훈증(받는 쪽 주의는 받기·개문 해설에 일부)', '참고', '', 'a5-receiving'],"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "(위 항목의 계속) 해설 지도에 IM4·IM8·IM10 줄을 넣습니다.",
+  "evidence": "MSC.1/Circ.1498 목차(IM1~IM10).",
+  "old": "    ['1498', 'IM3', 'CTU 종류', '참고', '컨테이너 종류 선택', 'ch6-ctu'],\n    ['1498', 'IM5', '빠른 래싱 가이드 C(고정 평가 해설에 합침)', '핵심', '래싱 줄 수(마찰 보간, MSL 환산)', 'a7-securing'],\n    ['1498', 'IM6', '복합운송 하중 분포', '핵심', '도로 축하중 추정(지렛대 방법)', 'im6-load-distribution'],\n    ['1498', 'IM7', '수작업 취급(하중 분포 해설에 합침)', '참고', '계산하지 않음', 'a7-load-distribution'],\n    ['1498', 'IM9', 'CTU 봉인', '참고', '계산하지 않음', 'im9-seals'],",
+  "new": "    ['1498', 'IM3', 'CTU 종류', '참고', '컨테이너 종류 선택', 'ch6-ctu'],\n    ['1498', 'IM4', '재오염 우려 생물종(해설 없음)', '참고', '', ''],\n    ['1498', 'IM5', '빠른 래싱 가이드 C(고정 평가 해설에 합침)', '핵심', '래싱 줄 수(마찰 보간, MSL 환산)', 'a7-securing'],\n    ['1498', 'IM6', '복합운송 하중 분포', '핵심', '도로 축하중 추정(지렛대 방법)', 'im6-load-distribution'],\n    ['1498', 'IM7', '수작업 취급(하중 분포 해설에 합침)', '참고', '계산하지 않음', 'a7-load-distribution'],\n    ['1498', 'IM8', '부패성 화물 운송(해설 없음)', '참고', '', ''],\n    ['1498', 'IM9', 'CTU 봉인', '참고', '계산하지 않음', 'im9-seals'],\n    ['1498', 'IM10', 'CTU 유해가스 측정(받기·개문 해설에 일부)', '참고', '', 'a5-receiving'],"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "(위 두 항목과 함께) 해설 지도에 링크 없는 줄이 생기므로 그 뜻을 한 문장으로 알려 줍니다.",
+  "evidence": "mapTable(): id가 빈 줄은 링크 없이 표시됩니다(이미 10장 줄이 그렇습니다).",
+  "old": "IM7은 하중 분포 해설에 합쳐 두었습니다.</p>",
+  "new": "IM7은 하중 분포 해설에 합쳐 두었습니다. 링크가 없는 줄은 이 사이트에 해설이 없는 부분이니 원문을 보십시오.</p>"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "error",
+  "severity": "low",
+  "problem": "참조 지도(MAP)의 kr-road 메모가 '20ft 21t·40ft 25t'으로 되어 있어 본문(20ft 약 25t, 40ft 약 22t)과 반대입니다. 이 메모 열은 화면에 나오지 않지만, 나중에 누가 이 값을 재사용하면 틀린 숫자가 퍼집니다.",
+  "evidence": "kr-road 본문: '40ft는 9 + 5 + 4 = 18톤이므로 ... 화물 약 22톤 ... 20ft는 ... 약 25톤'. mapTable은 used 열을 출력하지 않습니다.",
+  "old": "'20ft 21t·40ft 25t 한도, 축 10t·총 40t'",
+  "new": "'화물 한도 20ft 약 25t·40ft 약 22t, 축 10t·총 40t'"
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "proposal",
+  "severity": "medium",
+  "problem": "개정판 동향(낡을 위험): IMO 화물·컨테이너 운송 전문위원회 CCC 12(2026. 9. 14.~18.)에 '개정 CTU Code' 승인을 요청하는 문서(CCC 12/12/3)가 제출되었습니다. 문서는 'updated and expanded provisions'와 Technical Body 설치를 요청합니다. IMO CTU Code 페이지는 아직 2014년판(MSC.1/Circ.1497)만 싣고 있어 승인·발간 여부는 확인하지 못했습니다. 이후 MSC 승인과 새 회람 번호를 확인하면, 1~2장 '법적 성격'과 개요에 '이 해설은 2014년판 기준'이라는 문장을 넣고 장 번호와 수치를 다시 대조해야 합니다.",
+  "evidence": "https://www.worldshipping.org/regulatory-filings/revision-of-the-imoilounece-code-of-practice-for-packing-of-cargo-transport-units-ctu-code ('respectfully commend the revised CTU Code to the Sub-Committee', 첨부 파일 이름 CCC-12-12-3); https://www.dnv.com/news/2026/imo-ccc-12/ (CCC 12는 2026년 9월 14~18일); https://www.imo.org/en/ourwork/safety/pages/ctu-code.aspx (2014년판만 게재)."
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "proposal",
+  "severity": "medium",
+  "problem": "구조 제안: CTU Code 10장(위험물 적입 추가 지침)을 다루는 해설이 없습니다(해설 지도에도 링크가 없음). 내용은 CTU 안 격리와 혼적, 컨테이너/차량 적입 증명서(CPC), 표찰, 훈증 CTU입니다. Dangerous Goods 카테고리에도 적입 증명서를 설명한 문서가 없어서(dg-hidden에 한 번 언급될 뿐), 위험물 컨테이너를 다루는 포워더가 'CPC'나 '적입 증명서'를 검색하면 찾을 곳이 없습니다. 이 주제의 집을 DG 쪽에 둘지 CTU 쪽에 둘지 정해 한 문서를 만들고, 10장 줄을 그 문서에 연결할 것을 제안합니다.",
+  "evidence": "MSC.1/Circ.1497 Chapter 10 'Additional advice on the packing of dangerous goods'(원문 40~42쪽). ctu-library.js MAP: ['1497', '10장', '위험물 적입', '참고', '계산하지 않음', '']. grep '적입 증명서' dg-docs/*.html → dg-hidden.html만 나옴."
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "proposal",
+  "severity": "low",
+  "problem": "그림 용어: anchor-points.svg('바닥 고정점', '고정점 위치')와 lashing-and-tipping.svg('화물의 고정점과 바닥 고정점')가 STYLE에서 쓰지 않기로 한 '고정점'을 씁니다(정식 표기는 고박점). 본문과 alt는 '고박점'이라 그림과 글이 어긋납니다. SVG 글자만 '고박점'으로 바꾸면 됩니다.",
+  "evidence": "tools/STYLE.md 2026-10-13: '고박점(고정점 ×, lashing·securing point)'. a7-securing alt: '바닥 고박점(최소 1,000daN)'."
+ },
+ {
+  "file": "ctu-library.js",
+  "type": "proposal",
+  "severity": "low",
+  "problem": "그림 제안: ctu-lifting-methods.webp의 'EMPTY ONLY' 표지를 지우거나 '900mm 포켓·30ft 이상: EMPTY ONLY / 20ft 2,050mm 포켓: 적입 상태도 가능'으로 다시 그리는 편이 정확합니다(위 캡션 수정은 임시 조치)."
+ }
+]

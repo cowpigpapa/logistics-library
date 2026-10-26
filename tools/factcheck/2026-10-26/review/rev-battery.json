@@ -1,0 +1,140 @@
+[
+ {
+  "file": "battery-library.js",
+  "type": "error",
+  "severity": "medium",
+  "problem": "공식 원문 표에서 구 폐기물운송규정 1013/2006을 '2026-05-21 폐지'로 적었습니다. 실제 폐지일은 2024년 5월 20일이고 2026년 5월 21일까지는 경과 적용이었습니다. 같은 사이트의 overview·timeline 문장('폐지 자체는 2024년 5월 20일')과도 어긋납니다.",
+  "evidence": "규정 (EU) 2024/1157 제85조(1) 'Regulation (EC) No 1013/2006 is repealed with effect from 20 May 2024.' (2) 'However, the provisions of Regulation (EC) No 1013/2006 shall continue to apply until 21 May 2026 except for ... Article 37 that shall continue to apply until 21 May 2027' (publications.europa.eu/resource/celex/32024R1157, 관보본). overview.html: '규정 (EC) No 1013/2006 (2024년 5월 20일 폐지, 다만 경과조치에 따라 대부분의 조항은 2026년 5월 21일까지 계속 적용)'; timeline.html: '구 규정 1013/2006의 경과 적용 종료(폐지 자체는 2024년 5월 20일)'.",
+  "old": "lang: '2026-05-21 폐지',",
+  "new": "lang: '2024-05-20 폐지 · 2026-05-21까지 경과 적용',"
+ },
+ {
+  "file": "battery-docs/timeline.html",
+  "type": "outdated",
+  "severity": "medium",
+  "problem": "일반정보·용량 라벨 줄이 '이미 적용 중인 날짜' 표에 있어서, 독자는 2026년 8월 18일부터 라벨 의무가 시작됐다고 읽습니다. 그런데 라벨 규격을 정할 이행법률(제13조(10))이 2026년 10월까지 관보에 실리지 않았습니다. '늦은 날' 규칙에 따라 라벨 의무는 아직 적용되지 않고, 이행법률 발효 후 18개월이 지나야 시작됩니다. 구 지침의 용량 표시(제21조(2))는 2026년 8월 18일에 끝났으므로 그 공백도 알려야 합니다. 이 줄은 '2. 앞으로 적용될 날짜' 표로 옮기는 편이 맞습니다.",
+  "evidence": "규정 2023/1542 제13조(1)~(3) 'From 18 August 2026 or 18 months after the date of entry into force of the implementing act referred to in paragraph 10, whichever is the latest', 제13조(10) 'The Commission shall, by 18 August 2025, adopt implementing acts'. 제95조(c) 'Article 21(2) until 18 August 2026'. 2023/1542를 인용하는 2025~2026년 법령 목록(Cellar, publications.europa.eu/resource/celex/32023R1542, 2026-10-26 조회)에 라벨 이행규정이 없습니다. 2026년 8월 업계 해설도 '초안 상태로 약 1년 늦어짐'이라고 적었습니다(pryormarking.com/?p=23818).",
+  "old": "<tr><td>2026-08-18 이후</td><td>배터리</td><td>일반정보 라벨과 용량 라벨. \"2026년 8월 18일 또는 이행법률 발효 후 18개월 중 늦은 날\"부터이므로 실제 적용일은 이행법률 발효일에 따라 달라집니다. 별도로 확인하세요.</td><td>제13조(1)~(3), (10)</td></tr>",
+  "new": "<tr><td>2026-08-18 이후</td><td>배터리</td><td>일반정보 라벨과 용량 라벨. \"2026년 8월 18일 또는 이행법률 발효 후 18개월 중 늦은 날\"부터입니다. 라벨 규격을 정할 이행법률(제13조(10), 채택 기한 2025년 8월 18일)이 2026년 10월 현재 관보에 실리지 않아 <b>아직 적용되지 않습니다</b>. 실제 적용일은 이행법률 발효 후 18개월이 지난 날이므로 관보 게재 여부를 확인하세요. 구 지침의 용량 표시 의무(제21조(2))는 2026년 8월 18일에 끝났습니다.</td><td>제13조(1)~(3), (10), 제95조</td></tr>"
+ },
+ {
+  "file": "battery-docs/b-ch3.html",
+  "type": "outdated",
+  "severity": "medium",
+  "problem": "'이행법률이 언제 발효되었는지 별도로 확인하라'고만 해서, 독자는 이행법률이 이미 발효됐는지조차 알 수 없습니다. 2026년 10월 현재 관보에 실리지 않았으므로 라벨 의무는 아직 적용되지 않는다고 바로 알려 주는 편이 실무에 맞습니다.",
+  "evidence": "제13조(1)~(3), (10) 원문(위 timeline 항목과 같음). Cellar의 2023/1542 관련 법령 목록에 라벨 이행규정 없음(2026-10-26 조회). 2026년 8월 업계 해설은 '초안 상태'(pryormarking.com/?p=23818), 2026년 10월 22일 기준 해설은 'act not published'(dpp-tool.com/en/guide/eu-battery-regulation/).",
+  "old": "일반정보·용량 라벨은 \"2026년 8월 18일 또는 이행법률 발효 후 18개월 중 늦은 날\"부터이므로, 제13조(10)의 이행법률이 언제 발효되었는지를 별도로 확인해야 실제 적용일을 알 수 있습니다(제13조(1)~(3), (10)).</li>",
+  "new": "일반정보·용량 라벨은 \"2026년 8월 18일 또는 이행법률 발효 후 18개월 중 늦은 날\"부터입니다. 제13조(10)의 이행법률은 채택 기한(2025년 8월 18일)이 지났지만 2026년 10월 현재 관보에 실리지 않았으므로, 이 라벨들은 아직 의무가 아니고 이행법률 발효 후 18개월이 지나야 적용됩니다(제13조(1)~(3), (10)). 관보 게재 여부를 계속 확인합니다.</li>"
+ },
+ {
+  "file": "battery-docs/b-ch2.html",
+  "type": "outdated",
+  "severity": "medium",
+  "problem": "위임규정 (EU) 2026/1770(2026년 10월 22일 관보 게재, 2026년 11월 11일 발효)이 제11조(2)를 통째로 바꿔 분리·교체 예외를 넓혔는데, 해설에는 옛 예외만 있습니다. 제11조는 2027년 2월 18일부터 적용되므로, 배터리 내장 제품을 수입하는 고객은 새 예외 목록으로 대상 여부를 판단해야 합니다.",
+  "evidence": "Commission Delegated Regulation (EU) 2026/1770 of 14 July 2026, OJ L 2026/1770, 22.10.2026, 제1조 'Article 11(2) of Regulation (EU) 2023/1542 is replaced by the following: ... (a) appliances, including wearable devices, ... (c) wearable devices ... (d) until 31 July 2030, electric toys that incorporate rechargeable batteries ... (e) wireless thermometer probes specifically designed for food contact ... (f) products falling within the scope of Article 1 of Directive 2014/34/EU; (g) on-body delivery systems ... (h) telematics devices intended for roof-mounted installation in agricultural and construction machinery ... The derogations set out in points (a), (c), (d), (e), (f), (g) and (h) ... shall only be applicable where such derogation is required to ensure the safety of the user and the appliance.' 제2조 '관보 게재 후 20일째 날 발효' (publications.europa.eu/resource/celex/32026R1770).",
+  "old": "<li>분리·교체 의무의 예외: 물에 정기적으로 노출되고 세척 가능한 기기(안전상 필요한 경우에 한함), 전문가용 의료 영상·방사선 치료 기기와 체외진단 의료기기는 독립 전문가만 교체하도록 설계할 수 있습니다(제11조(2)).",
+  "new": "<li>분리·교체 의무의 예외: 물에 정기적으로 노출되고 세척 가능한 기기(안전상 필요한 경우에 한함), 전문가용 의료 영상·방사선 치료 기기와 체외진단 의료기기는 독립 전문가만 교체하도록 설계할 수 있습니다(제11조(2)). 위임규정 (EU) 2026/1770(2026년 11월 11일 발효)은 제11조(2)를 바꿔 이 예외에 다음 제품을 더했습니다: 웨어러블 기기, 충전식 배터리가 든 전기 장난감(2030년 7월 31일까지), 식품 조리용 무선 온도계 프로브, 폭발 위험 장소용 기기(지침 2014/34/EU), 피하 약물 주입 장치, 농업·건설 기계 지붕에 다는 텔레매틱스 기기. 의료 기기를 뺀 예외는 사용자와 기기의 안전에 필요한 경우에만 적용됩니다. 아래 번역은 개정 전 문안입니다."
+ },
+ {
+  "file": "battery-docs/b-ch2.html",
+  "type": "proposal",
+  "severity": "low",
+  "problem": "2026/1770이 2026년 11월 11일에 발효되면 여러 문구가 낡게 됩니다. b-ch2 '발효 후 개정' 행('제6~12조 본문에는 M1~M3 개정이 없습니다'), 아래 제11조(2) 번역, overview 6절과 battery-library.js OFFICIAL의 '2024/1781·2025/1561·2026/1738 개정 반영' 문구입니다. EUR-Lex 새 연결본이 나오면 제11조(2) 번역을 고치고 개정 목록에 2026/1770을 넣으십시오.",
+  "evidence": "OJ L 2026/1770(22.10.2026), 제1조가 2023/1542 제11조(2)를 대체. Cellar의 현재 최신 연결본은 02023R1542-20260813."
+ },
+ {
+  "file": "battery-docs/changes.html",
+  "type": "outdated",
+  "severity": "low",
+  "problem": "구 지침 제21조(2)(용량 표시)의 경과 적용은 2026년 8월 18일에 이미 끝났는데, '더 오래 적용됩니다'라고 앞으로의 일처럼 적혀 있습니다. 새 용량 라벨이 아직 적용 전이라 생긴 공백도 실무자가 알아야 합니다.",
+  "evidence": "규정 2023/1542 제95조 '(a) Article 11 until 18 February 2027; (b) Article 12(4) and (5) until 31 December 2025 ...; (c) Article 21(2) until 18 August 2026.' (publications.europa.eu/resource/celex/32023R1542). 오늘 날짜 2026-10-26. 라벨 이행법률 미게재는 timeline 항목의 근거와 같음.",
+  "old": "다만 제11조(분리 용이성)는 2027년 2월 18일까지, 제21조(2)(용량 라벨)는 2026년 8월 18일까지 등 일부 조항은 더 오래 적용됩니다(배터리 규정 제95조).",
+  "new": "다만 일부 조항은 폐지 뒤에도 적용됩니다. 제11조(분리 용이성)는 2027년 2월 18일까지 적용되고, 제12조(4)·(5)는 2025년 12월 31일까지, 제21조(2)(용량 표시)는 2026년 8월 18일까지 적용됐습니다(배터리 규정 제95조). 새 용량 라벨(제13조(2))은 이행법률이 아직 나오지 않아 적용 전이므로, 그 사이에는 용량 표시 의무가 비어 있습니다(<a data-doc=\"timeline\">적용 일정</a>)."
+ },
+ {
+  "file": "battery-docs/changes.html",
+  "type": "error",
+  "severity": "low",
+  "problem": "DIWASS라는 이름의 근거로 이행규정 (EU) 2025/1290을 괄호에 넣었지만, 그 이행규정 본문에도 DIWASS라는 이름은 없고 'central system'이라고만 씁니다. 근거 표시가 사실과 다릅니다.",
+  "evidence": "Commission Implementing Regulation (EU) 2025/1290 of 2 July 2025 (OJ L 2025/1290, 14.7.2025): 전문·부속서 전체에서 'DIWASS', 'Digital Waste'를 검색하면 0건이고, 'the central system for the electronic submission and exchange of information'으로만 표기합니다(publications.europa.eu/resource/celex/32025R1290).",
+  "old": "<b>DIWASS</b>(Digital Waste Shipment System)는 집행위원회가 운영하는 이 중앙시스템의 명칭(이행규정 (EU) 2025/1290)이며, 규정 본문에는 이 명칭이 나오지 않음</td>",
+  "new": "<b>DIWASS</b>(Digital Waste Shipment System)는 집행위원회가 운영하는 이 중앙시스템을 부르는 이름이며, 규정 본문과 상호운용 요건을 정한 이행규정 (EU) 2025/1290에는 이 이름이 나오지 않음</td>"
+ },
+ {
+  "file": "battery-docs/w-t2-5.html",
+  "type": "outdated",
+  "severity": "low",
+  "problem": "'세부 요건은 이행법률로 정해지므로'라고 앞으로의 일처럼 썼지만, 제27조(5)의 이행규정은 2025년 7월에 이미 채택됐습니다. 실무자가 검색할 시스템 이름(DIWASS)도 이 문서에는 없습니다.",
+  "evidence": "Commission Implementing Regulation (EU) 2025/1290 of 2 July 2025 laying down rules for the application of Regulation (EU) 2024/1157 as regards the requirements necessary for the interoperability between the central system ... (OJ L 2025/1290, 14.7.2025). changes.html은 이미 DIWASS와 2025/1290을 적어 둠.",
+  "old": "이 규정 본문에는 시스템의 명칭이 없고 세부 요건은 이행법률로 정해지므로(제27조(5)), 접속 방법과 계정은 해당 회원국 관할당국의 안내를 별도로 확인합니다.</li>",
+  "new": "이 규정 본문에는 시스템의 명칭이 없고, 상호운용 등 세부 요건은 이행규정 (EU) 2025/1290으로 정해졌습니다(제27조(5)). 집행위원회가 운영하는 중앙시스템은 흔히 DIWASS(Digital Waste Shipment System)라고 부르며, 접속 방법과 계정은 해당 회원국 관할당국의 안내를 별도로 확인합니다.</li>"
+ },
+ {
+  "file": "battery-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "전자 제출 문서의 요약에 실무자가 검색할 'DIWASS'라는 말이 없어 찾기 어렵습니다.",
+  "evidence": "",
+  "old": "summary: \"서류 전자 제출 의무, 중고품과 폐기물의 구분 기준, 제3국 경유 운송.\" }",
+  "new": "summary: \"통지서·부속서 VII 서류의 전자 제출 의무(중앙시스템 DIWASS), 중고품과 폐기물의 구분 기준, 제3국 경유 운송.\" }"
+ },
+ {
+  "file": "battery-library.js",
+  "type": "findability",
+  "severity": "medium",
+  "problem": "앞으로 생길 가장 큰 실무 변화는 2026년 12월 9일부터 리튬계 폐배터리가 유해 코드(16 06 07*)가 되어 PIC 대상이 되는 것입니다. 이 내용이 판정 문서 본문에는 있지만 요약에 없어 목록에서 찾기 어렵습니다.",
+  "evidence": "",
+  "old": "summary: \"중고 배터리가 제품으로 인정받는 증빙, 폐배터리의 절차와 코드, 접수를 멈춰야 하는 신호.\" }",
+  "new": "summary: \"중고 배터리가 제품으로 인정받는 증빙, 폐배터리의 절차와 코드(2026년 12월 9일부터 리튬계 폐배터리는 유해 코드 16 06 07*로 PIC 대상), 접수를 멈춰야 하는 신호.\" }"
+ },
+ {
+  "file": "battery-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "적용 일정 문서 제목은 '2031년까지'인데 본문 표와 그림은 2029년 5월 21일까지만 다룹니다(목표 연도는 다른 문서로 보냄). 제목과 내용이 다릅니다.",
+  "evidence": "timeline.html 마지막 행 '2029-05-21 폐기물운송 구 규정 제14조(2)에 따라 동의받은 운송의 완료 기한', 그림 alt '2023년부터 2029년까지의 시간축'.",
+  "old": "title: \"적용 일정 — 2023년부터 2031년까지\"",
+  "new": "title: \"적용 일정 — 2023년부터 2029년까지\""
+ },
+ {
+  "file": "battery-docs/de-nl.html",
+  "type": "outdated",
+  "severity": "low",
+  "problem": "'2026년 1월 기한이 중요합니다'라고 앞으로의 일처럼 썼지만, 그 기한(2026년 1월 15일)은 이미 지났고 무슨 기한인지도 적혀 있지 않습니다.",
+  "evidence": "BattDG(2025. 9. 30. 공포) 제64조(1)~(3): 구 BattG 등록은 'längstens bis zum Ablauf des 15. Januar 2026' 유효. 제64조(7): 그때까지 생산자책임조직 참여 증빙을 내지 않으면 'gelten rückwirkend ab dem 1. Januar 2026 als aufgehoben'. 제64조(5): 구 BattG는 2025년 10월 6일까지의 문안(gesetze-im-internet.de/battdg/BJNR0E90B0025.html).",
+  "old": "<li><b>배터리법</b>: BattDG(배터리법 시행법)가 2025년에 구 BattG를 대부분 대체했고, 생산자 등록과 생산자책임조직 전환에서 2026년 1월 기한이 중요합니다.",
+  "new": "<li><b>배터리법</b>: BattDG(배터리법 시행법)가 2025년 10월에 구 BattG를 대체했습니다. 구 BattG에 따른 생산자 등록은 2026년 1월 15일까지만 유효했고, 그때까지 생산자책임조직 참여 증빙을 내지 않은 등록은 2026년 1월 1일로 소급해 취소됐습니다(BattDG 제64조). 지금은 BattDG에 따른 등록이 있어야 합니다."
+ },
+ {
+  "file": "battery-docs/overview.html",
+  "type": "outdated",
+  "severity": "low",
+  "problem": "번역 기준 설명은 폐기물운송규정 관보본 이후의 개정 가운데 2024/3230만 '번역에 반영되지 않음'으로 알립니다. 그런데 규정 (EU) 2026/1703(2026년 7월 30일 발효)도 제44조(2)(f)를 고쳐 혼합 생활폐기물의 스위스행 회수용 수출을 허용했고, 이 개정은 EUR-Lex 연결본(2026-07-30)에 반영돼 있습니다.",
+  "evidence": "Regulation (EU) 2026/1703 of 8 July 2026 (OJ L 2026/1703, 10.7.2026) 제1조 'In Article 44(2) of Regulation (EU) 2024/1157, point (f) is replaced by the following: ... the export of waste referred to in Article 4(3) shall be prohibited, except to Switzerland', 제2조 관보 게재 후 20일째 발효. Cellar의 2024/1157 연결본 목록: 02024R1157-20250109, 02024R1157-20260730.",
+  "old": "배터리가 든 폐전기전자제품은 개정 원문으로 확인하세요.</p>",
+  "new": "배터리가 든 폐전기전자제품은 개정 원문으로 확인하세요. 또 규정 (EU) 2026/1703(2026년 7월 30일 발효)이 제44조(2)(f)를 고쳐 혼합 생활폐기물의 회수용 수출 금지에서 스위스를 예외로 두었는데, 이 내용도 번역에 반영되지 않았습니다.</p>"
+ },
+ {
+  "file": "battery-docs/w-t4.html",
+  "type": "outdated",
+  "severity": "low",
+  "problem": "제44조 해설에 '혼합 생활폐기물 수출 금지'만 있고, 2026년 7월 30일부터 스위스행은 예외라는 개정이 빠졌습니다. 아래 제44조(2)(f) 번역도 개정 전 문안입니다.",
+  "evidence": "Regulation (EU) 2026/1703 제1조 '... the export of waste referred to in Article 4(3) shall be prohibited, except to Switzerland' (publications.europa.eu/resource/celex/32026R1703).",
+  "old": "혼합 생활폐기물 수출 금지, 시설의 수령 확인 3영업일",
+  "new": "혼합 생활폐기물 수출 금지(2026년 7월 30일부터 스위스행은 예외, 규정 (EU) 2026/1703), 시설의 수령 확인 3영업일"
+ },
+ {
+  "file": "battery-docs/timeline.html",
+  "type": "proposal",
+  "severity": "low",
+  "problem": "'3. 날짜를 읽을 때 주의할 점'에 진행 중인 개정안을 한 줄 넣을 것을 제안합니다. 집행위원회의 Omnibus VIII 제안(COM(2025) 981, 2025. 12. 10.)은 배터리 규정의 생산자 정의(원격판매자 포함)와 LMT 배터리팩의 분리·교체 요건 등을 바꾸려 합니다. 2026년 6월 이사회가 협상안을 정했다는 보도가 있지만 아직 채택되지 않았습니다. 1차 출처(EUR-Lex 절차 페이지)를 확인한 뒤 '개정 논의 중'으로만 적으십시오. 이 항목은 이차 출처로만 확인했습니다.",
+  "evidence": "europarl.europa.eu/legislative-train (file-omnibus-viii-industrial-emissions-reporting-batteries); public.cdxsystem.com 'EU Batteries Regulation: Key Simplifications Agreed Under Omnibus VIII'(2026-06-30)."
+ },
+ {
+  "file": "battery-docs/b-ch7.html",
+  "type": "proposal",
+  "severity": "low",
+  "problem": "실사 지침 공표 기한(제48조(5), 2025/1561로 2026년 7월 26일로 바뀜)이 지났습니다. 집행위원회가 지침을 실제로 공표했는지는 확인하지 못했습니다. 공표됐다면 해설에 문서 번호와 함께 '공표됨'을, 늦어지고 있다면 그 사실을 한 줄 적으면 독자에게 도움이 됩니다.",
+  "evidence": "b-ch7 번역 '집행위원회는 2026년 7월 26일까지 ... 실사 의무의 적용에 관한 지침을 공표한다'. 웹 검색으로는 공표 여부를 확인하지 못함."
+ }
+]

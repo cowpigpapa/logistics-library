@@ -1,0 +1,169 @@
+[
+ {
+  "file": "bl-docs/bl-cases.html",
+  "type": "error",
+  "severity": "medium",
+  "problem": "사례 21(Hatzl)의 교훈이 '다른 나라 판단이 소송을 막는다'는 예로 '8번'을 가리키지만 8번은 항공 AWB 사례입니다. 해당 내용은 사례 22(Huawei v DSV)입니다.",
+  "evidence": "같은 문서 사례 22 판단: '관할이 있는 네덜란드 법원의 기간 경과 판단이 제31조 제2항의 집행 가능한 판결이어서 같은 당사자가 같은 근거로 영국에서 다시 다툴 수 없다'. 사례 8은 '수하인(은행) 대신 통지처에게 건넨 AWB'.",
+  "old": "그 판단이 다른 나라 소송을 막을 수 있으므로(8번), 사고 후 대응은 빨라야 합니다.",
+  "new": "그 판단이 다른 나라 소송을 막을 수 있으므로(22번), 사고 후 대응은 빨라야 합니다."
+ },
+ {
+  "file": "bl-docs/bl-cases.html",
+  "type": "rule",
+  "severity": "medium",
+  "problem": "사례 6 제목에 ' — 요지'가 없어 사고 사례 모음(ac-all.html)에서 이 사례만 요지 줄이 비어 나옵니다. 사례 제목 형식('번호. 이름 — 요지 (연도, 장소)')을 어긴 유일한 사례입니다(세 카테고리 44건 중).",
+  "evidence": "tools/build_cases.py는 제목을 ' — '로 나눠 이름과 요지를 읽습니다(core.partition(' — ')). ac-docs/ac-all.html의 bl-cases#c6 줄에는 <small> 요지가 없습니다.",
+  "old": "<h4 id=\"c6\">6. 기명식 B/L의 배서금지 문구와 늦게 발행된 Master B/L (2001·2003, 대법원)</h4>",
+  "new": "<h4 id=\"c6\">6. 기명식 B/L과 늦게 발행된 Master B/L — 배서금지 문구가 있으면 배서로 못 넘기고, 늦은 Master B/L로는 권리를 되찾지 못함 (2001·2003, 대법원)</h4>"
+ },
+ {
+  "file": "bl-docs/bl-cases.html",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "'사례를 읽는 법'이 판결을 네 갈래(사례 1~14)로만 나눠, 나중에 추가된 유럽 트럭(CMR) 사례 15~22가 어디에 속하는지 빠져 있습니다.",
+  "evidence": "같은 문서 9절 '해외 판례: 유럽 트럭 운송(CMR)'에 사례 15~22가 있고 한눈에 보기 표도 22건입니다.",
+  "old": "아래 판결은 다툰 내용에 따라 네 갈래로 나뉩니다.",
+  "new": "아래 판결은 다툰 내용에 따라 다섯 갈래로 나뉩니다."
+ },
+ {
+  "file": "bl-docs/bl-cases.html",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "위 '다섯 갈래' 수정에 맞춰 CMR 사례 묶음을 문장 끝에 더합니다(두 항목을 함께 적용).",
+  "evidence": "같은 문서 사례 15~22(CMR의 한도·포워더 지위·관할·제소기간).",
+  "old": "복합운송에서 손해 구간과 적용 법을 다툰 소송(사례 13, 14)입니다.</p>",
+  "new": "복합운송에서 손해 구간과 적용 법을 다툰 소송(사례 13, 14), 유럽 트럭 운송(CMR)의 한도·포워더 지위·관할·제소기간을 다툰 소송(사례 15~22)입니다.</p>"
+ },
+ {
+  "file": "ch-docs/ch-sea-charges.html",
+  "type": "rule",
+  "severity": "medium",
+  "problem": "할증료의 현재 금액을 쓰지 않는다는 원칙과 달리, 같은 문서가 '선사가 정하는 할증료'라고 설명한 미국 수입 Port Security Service의 금액(컨테이너당 USD 15)을 7절 표에 적었습니다.",
+  "evidence": "같은 문서 5절: '미국 수입의 Port Security Service 등)은 선사가 정하는 할증료라 범위와 금액이 또 다릅니다.' ch-surcharges 4절 표도 Port Security Service를 '보안' 할증료로 분류. STYLE.md: 할증료는 현재 금액을 쓰지 않는다(2026-10-18).",
+  "old": "<td>중국은 상하이·닝보만, 미국은 컨테이너당 USD 15</td>",
+  "new": "<td>중국은 상하이·닝보 등 일부 항만만, 미국은 선사가 정하는 Port Security Service 할증료(컨테이너당)</td>"
+ },
+ {
+  "file": "incoterms-docs/inco-cases.html",
+  "type": "outdated",
+  "severity": "low",
+  "problem": "Scottish & Newcastle 사건을 2006년 항소법원 판결로 끝난 것처럼 적었지만, 매수인이 상고해 영국 상원이 2008년에 상고를 기각했습니다. 최종 판단을 함께 적어야 결론의 무게가 드러납니다.",
+  "evidence": "Scottish & Newcastle International Ltd v Othon Ghalanos Ltd [2008] UKHL 11(2008. 2. 20.): 상원은 인도 장소를 리버풀로 보아 영국 관할을 인정하고 매수인의 상고를 기각(Steamship Mutual 해설 https://steamshipmutual.com/publications/articles/scottish0508 , Inner Temple Library WLR Daily https://www.innertemplelibrary.com/2008/02/scottish-newcastle-international-ltd-v-othon-galanos-ltd-wlr-daily). 1심·항소심·상원 모두 매도인 승소.",
+  "old": "매수인의 항소를 기각해 영국 법원의 관할을 인정했습니다.",
+  "new": "매수인의 항소를 기각해 영국 법원의 관할을 인정했습니다. 매수인이 다시 상고했지만 영국 상원도 2008년 2월 20일 인도 장소를 선적지 리버풀로 보고 상고를 기각했습니다([2008] UKHL 11)."
+ },
+ {
+  "file": "incoterms-docs/inco-what.html",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "'판별 조건'은 '판(版)마다 다른 조건'이라는 뜻인데 '판별(判別, 가려냄)'로 읽혀 처음 읽는 사람이 무슨 조건인지 헷갈립니다.",
+  "evidence": "같은 문서 6절 표는 2000·2010·2020 판의 조건 대응표입니다.",
+  "old": "그리고 판별 조건의 변화와 2010에서 2020으로 바뀐 것을 정리합니다.",
+  "new": "그리고 판마다 달라진 조건과 2010에서 2020으로 바뀐 것을 정리합니다."
+ },
+ {
+  "file": "incoterms-docs/inco-what.html",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "6절 제목의 '판별 조건'도 같은 이유로 고칩니다(문서 머리 소제목 바로가기에 그대로 보입니다).",
+  "evidence": "6절 내용: 2000(13개)·2010(11개)·2020(11개) 판의 조건 대응.",
+  "old": "<h3>6. 판별 조건의 변화: 2000·2010·2020</h3>",
+  "new": "<h3>6. 판마다 달라진 조건: 2000·2010·2020</h3>"
+ },
+ {
+  "file": "incoterms-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "문서 카드 요약의 '판별 조건 변화'가 '판별'로 읽혀 내용(판마다 달라진 조건)이 드러나지 않습니다.",
+  "evidence": "inco-what 6절 '2000·2010·2020 판의 조건 대응'.",
+  "old": "판별 조건 변화와 2010에서 2020으로 바뀐 9가지.",
+  "new": "판마다 달라진 조건(2000·2010·2020)과 2010에서 2020으로 바뀐 9가지."
+ },
+ {
+  "file": "ch-docs/ch-air-weight.html",
+  "type": "rule",
+  "severity": "low",
+  "problem": "괄호 앞 낱말 '한도'에 받침이 없으므로 조사는 '를'이어야 합니다(STYLE.md: 괄호 뒤 조사는 앞의 한국어 낱말 받침에 맞춘다). 같은 링크를 쓴 다른 문서는 모두 '를'입니다.",
+  "evidence": "bl-basics·awb-basics·bl-multimodal의 같은 링크 뒤 조사, STYLE.md 2026-10-13 병기 원칙.",
+  "old": "운송인 책임 한도(해상·항공·육상)</a>을 보십시오.",
+  "new": "운송인 책임 한도(해상·항공·육상)</a>를 보십시오."
+ },
+ {
+  "file": "charges-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "문서 제목에 '부산'이 없어 '부산 보관료', '부산 신항 보관료'로 찾는 사용자가 제목에서 이 문서를 알아보기 어렵습니다. 짧은 이름(short)과 질문으로 찾기는 이미 '부산 터미널 보관료와 선사 D&D'입니다.",
+  "evidence": "charges-library.js 같은 항목 short: \"부산 터미널 보관료와 선사 D&D\"; 본문은 PNC·BNCT·HJNC(부산 신항) 요율과 계산이 중심이고 인천·광양은 직접 청구 공지만 다룸.",
+  "old": "title: \"한국 해상: 시계가 두 개 — 터미널 보관료와 선사 D&D가 따로 쌓이는 구조, PNC 2026 계산 예시\"",
+  "new": "title: \"부산 터미널 보관료와 선사 D&D — 따로 쌓이는 두 시계, 부산 신항 요율과 PNC 2026 계산 예시\""
+ },
+ {
+  "file": "charges-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "화주와 본문이 모두 '창고료'라고 부르는데(본문 첫 문장 '인천공항 수입화물 창고료') 카드 요약에는 '보관료'만 있어 '공항 창고료'로 찾으면 걸리지 않습니다.",
+  "evidence": "ch-air-storage.html 첫 문단 '인천공항 수입화물 창고료를 받은 화주는', 대한항공 요율표 이름 '창고료 적용 요율'.",
+  "old": "summary: \"인천공항 수입화물 보관료가 종가액",
+  "new": "summary: \"인천공항 수입화물 보관료(창고료)가 종가액"
+ },
+ {
+  "file": "charges-library.js",
+  "type": "findability",
+  "severity": "low",
+  "problem": "ch-sea-charges 카드 요약 첫머리에 이 문서가 금액을 다루지 않는 할증료 약어(BAF·LSS·EBS·EIS)까지 섞여 있어 '누가 받는 돈인가'라는 핵심이 흐려집니다(목록에서 가장 긴 요약). 할증료는 별도 문서(ch-surcharges)가 맡습니다.",
+  "evidence": "ch-sea-charges.html 1절 표는 할증료를 한 줄로만 두고 '할증료의 종류와 산정 원리는 해상 할증료를 보십시오'라고 넘김.",
+  "old": "summary: \"THC·서류비·D/O 비용·씰비·부두사용료(화물입출항료)·항만시설보안료·BAF·LSS·EBS·EIS·CFS 작업료·청소·수리비를 선사·항만공사·터미널·포워더 중 누가 받는지로 정리하고,",
+  "new": "summary: \"THC·서류비·D/O 비용·씰비·부두사용료(화물입출항료)·항만시설보안료·CFS 작업료·청소·수리비가 선사·항만공사·터미널·포워더 가운데 누가 받는 돈인지 정리하고,"
+ },
+ {
+  "file": "ch-docs/ch-lcl.html",
+  "type": "clarity",
+  "severity": "low",
+  "problem": "6절 표에 'MFF'가 풀이 없이 나옵니다. 처음 보는 사람은 무슨 비용인지 알 수 없습니다.",
+  "evidence": "같은 줄 괄호의 'AMS·ACI·ENS 등 사전신고용'(적재목록 사전신고 전송 비용).",
+  "old": "수출 MFF USD 30/B/L(AMS·ACI·ENS 등 사전신고용)",
+  "new": "수출 MFF(Manifest Filing Fee, 사전신고 전송료) USD 30/B/L(AMS·ACI·ENS 등 사전신고용)"
+ },
+ {
+  "file": "bl-docs/bl-multimodal.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "2025다211111 판결의 사실관계가 화물보험 사고 사례에 있다고 하면서 링크가 사례 목록 첫머리로만 가서 24건 가운데서 다시 찾아야 합니다. 해당 사례는 21번입니다.",
+  "evidence": "insurance-docs/ins-cases.html <h4 id=\"c21\">21. 대법원 2025다211111 — +18℃를 -18℃로, 육상 구간 사고에는 해상운송인 책임제한이 없다",
+  "old": "사실관계는 <a href=\"/library/cargo-insurance/ins-cases\">화물보험 사고 사례</a>에 있습니다.</li>",
+  "new": "사실관계는 <a href=\"/library/cargo-insurance/ins-cases#c21\">화물보험 사고 사례</a> 21번에 있습니다.</li>"
+ },
+ {
+  "file": "bl-docs/bl-cases.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "사례 14의 '함께 볼 판례'도 2025다211111 사실관계를 화물보험 사고 사례 첫머리로 연결합니다. 21번으로 바로 가게 합니다.",
+  "evidence": "insurance-docs/ins-cases.html id=\"c21\" (2025다211111).",
+  "old": "사실관계는 <a href=\"/library/cargo-insurance/ins-cases\">화물보험 사고 사례</a>에 있습니다. 대법원 2018. 12. 13.",
+  "new": "사실관계는 <a href=\"/library/cargo-insurance/ins-cases#c21\">화물보험 사고 사례</a> 21번에 있습니다. 대법원 2018. 12. 13."
+ },
+ {
+  "file": "bl-docs/bl-cases.html",
+  "type": "link",
+  "severity": "low",
+  "problem": "'사례 9에서 다룹니다'라고 번호까지 적었는데 링크가 사례 목록 첫머리로 갑니다.",
+  "evidence": "insurance-docs/ins-cases.html <h4 id=\"c9\">9. 대법원 2007다4943 — House B/L을 발행한 포워더는 운송인인가",
+  "old": "<a href=\"/library/cargo-insurance/ins-cases\">화물보험 사고 사례</a>의 사례 9에서 다룹니다.",
+  "new": "<a href=\"/library/cargo-insurance/ins-cases#c9\">화물보험 사고 사례</a>의 사례 9에서 다룹니다."
+ },
+ {
+  "file": "incoterms-docs/inco-what.html",
+  "type": "proposal",
+  "severity": "low",
+  "problem": "4절 '다루는 것과 다루지 않는 것' 표는 좌우 칸이 같은 줄끼리 대응하지 않는다고 본문에서 따로 설명해야 할 만큼 헷갈립니다(예: '인도' 옆에 '소유권 이전', '통지' 옆에 '운송계약의 내용'). 표를 '다루는 것(조항)'과 '다루지 않는 것' 두 개로 나누거나 다루지 않는 것을 목록으로 바꾸기를 제안합니다.",
+  "evidence": "inco-what.html 4절 표 아래 문장 '표의 좌우는 같은 줄끼리 대응하는 것이 아니라 두 목록을 나란히 놓은 것입니다.'"
+ },
+ {
+  "file": "bl-docs/bl-cases.html",
+  "type": "proposal",
+  "severity": "low",
+  "problem": "그림 제안: 사례 지도(bl-cases-release-map.svg)는 사례 1~14만 담고 있어, 뒤에 추가된 CMR 사례 15~22(한도를 깬 사례·못 깬 사례, 포워더가 운송인인지, 관할·제소기간)를 한눈에 볼 그림이 없습니다. '누구에게(제36조)·어디서(제31조)·언제까지(제30·32조)·얼마까지(제23·29조)' 네 칸에 사례 번호를 놓은 도해를 제안합니다(bl-cmr-forwarder-layers.svg 하단 네 칸 구조 재활용 가능).",
+  "evidence": "bl-cases-release-map.svg 텍스트에는 사례 1~14만 있음. 한눈에 보기 표는 22건."
+ }
+]
