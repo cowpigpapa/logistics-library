@@ -547,6 +547,37 @@ def insert_case_link(body, link):
     return body[:m.start()] + link + body[m.start():] if m else body
 
 
+# ---------- 이전·다음 문서 ----------
+# 색인과 같은 읽는 순서(장 → 문서)로 문서 끝에 이전·다음을 단다. 분야의 마지막 문서 다음은 다음 분야의 개요.
+
+def reading_order(data):
+    cats = [c for g in data for c in g['cats']]
+    out = {}
+    for n, c in enumerate(cats):
+        seq = [(sec['title'], i) for sec in c['sections'] for i in sec['docs']]
+        for k, (chap, i) in enumerate(seq):
+            prev = seq[k - 1] if k else None
+            nxt = seq[k + 1] if k + 1 < len(seq) else None
+            def cell(item, label, cls):
+                if not item:
+                    return '<span></span>'
+                d = c['docs'][item[1]]
+                name = d['short'] or d['title'].split(' — ')[0]
+                return (f'<a class="{cls}" href="/library/{c["slug"]}/{item[1]}"><small>{label} · {html.escape(item[0])}</small>'
+                        f'<b>{html.escape(name)}</b></a>')
+            left = cell(prev, '← 이전', 'li-prev')
+            if nxt:
+                right = cell(nxt, '다음 →', 'li-next')
+            elif n + 1 < len(cats):
+                nc = cats[n + 1]
+                right = (f'<a class="li-next" href="/library/{nc["slug"]}"><small>다음 분야 →</small>'
+                         f'<b>{html.escape(nc["name"])}</b></a>')
+            else:
+                right = '<span></span>'
+            out[(c['slug'], i)] = f'<nav class="li-pager" aria-label="이전·다음 문서">{left}{right}</nav>'
+    return out
+
+
 def seo_head(*, title, description, url, image, og_type, ld):
     meta = [
         f'<title>{html.escape(title, quote=False)}</title>',
@@ -637,6 +668,7 @@ def main():
     ledger = Ledger()
     data = frame.index_data()
     cases = load_cases_index()
+    pagers = reading_order(data)
     overview_id = {c['slug']: c.get('overview') for g in data for c in g['cats']}
     search = []   # 본문 검색용(색인 검색칸): 문서마다 제목과 본문 글자
     fresh = []    # 문서마다 자료 확인일
@@ -665,7 +697,8 @@ def main():
                 breadcrumb([home, (cat['name'], landing), (short_title(doc), url)])]}
             seo = seo_head(title=title, description=description, url=url, image=image, og_type='article', ld=ld)
             route = f"{cat['base']}/{doc['id']}"
-            page = shell_page(seo, frame.kicker(cat['slug']) + body, route, frame.tree_html(data, cat['slug'], doc['id']))
+            page = shell_page(seo, frame.kicker(cat['slug']) + body + pagers.get((cat['slug'], doc['id']), ''), route,
+                              frame.tree_html(data, cat['slug'], doc['id']))
             files[OUT / cat['slug'] / f"{doc['id']}.html"] = page
             # 검색용 본문: 문서 머리(분류·중요도·제목·확인 날짜)와 소제목 바로가기는 뺀다(미리보기에 같은 말이 먼저 걸리지 않게).
             text = body

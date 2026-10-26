@@ -421,3 +421,19 @@ mark.li-hit { background: #fff1a8; color: inherit; border-radius: 2px; padding: 
 }
 .lib-case-link a:hover { background: #dcebf7; }
 .lib-case-link a + a { background: var(--surface); color: var(--text); font-weight: 600; }
+
+/* 문서 끝 이전·다음(tools/prerender.py가 색인 순서로 단다) */
+.li-pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 22px 0 6px; }
+.li-pager a {
+  display: flex; flex-direction: column; gap: 3px; padding: 13px 16px;
+  border: 1px solid var(--line); border-radius: 12px; background: var(--surface);
+  color: var(--value); text-decoration: none;
+}
+.li-pager a:hover { border-color: var(--blue); }
+.li-pager .li-next { text-align: right; }
+.li-pager small { color: var(--muted); font-size: 12px; }
+.li-pager b { font-size: 14.5px; line-height: 1.45; }
+@media (max-width: 640px) {
+  .li-pager { grid-template-columns: 1fr; }
+  .li-pager span { display: none; }
+}
