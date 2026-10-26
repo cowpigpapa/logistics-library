@@ -517,6 +517,36 @@ def overview_inner(slug, landing, overview_doc):
     return out
 
 
+# ---------- 사고 사례 바로가기 ----------
+# tools/build_cases.py가 쓴 tools/cases-index.json(분야별 사례 건수·사례 문서)으로 문서마다 '이 분야 사고 사례 보기' 줄을 넣는다.
+# 해설 문서는 핵심 요약 바로 뒤(없으면 첫 소제목 앞), 사례 문서는 같은 자리에 '다른 분야 사례' 줄, 개요 화면은 카드 아래.
+
+def load_cases_index():
+    p = ROOT / 'tools' / 'cases-index.json'
+    return json.loads(read(p)) if p.is_file() else None
+
+
+def case_link(cases, slug, doc_id=None):
+    if not cases or slug not in cases['cats']:
+        return ''
+    c = cases['cats'][slug]
+    hub = cases['hub']
+    if doc_id in c['case_docs']:
+        return (f'<p class="lib-case-link"><a href="{hub}">다른 분야 사고 사례까지 찾기 →</a>'
+                f'<a href="{hub}?cat={slug}">이 분야 사례 {c["count"]}건 목록</a></p>')
+    return f'<p class="lib-case-link"><a href="{hub}?cat={slug}">{html.escape(c["label"])} 사고 사례 {c["count"]}건 보기 →</a></p>'
+
+
+def insert_case_link(body, link):
+    if not link:
+        return body
+    span = find_element(body, r'<p class="lib-summary"')
+    if span:
+        return body[:span[1]] + link + body[span[1]:]
+    m = re.search(r'<h3\b', body)
+    return body[:m.start()] + link + body[m.start():] if m else body
+
+
 def seo_head(*, title, description, url, image, og_type, ld):
     meta = [
         f'<title>{html.escape(title, quote=False)}</title>',
@@ -606,6 +636,7 @@ def main():
     entries = []
     ledger = Ledger()
     data = frame.index_data()
+    cases = load_cases_index()
     overview_id = {c['slug']: c.get('overview') for g in data for c in g['cats']}
     search = []   # 본문 검색용(색인 검색칸): 문서마다 제목과 본문 글자
     fresh = []    # 문서마다 자료 확인일
@@ -621,7 +652,7 @@ def main():
             source = cat['docs_dir'] / f"{doc['id']}.html" if cat['docs_dir'] else cat['js']
             url = f"{landing}/{doc['id']}"
             description = describe(doc['summary'] or doc['title'])
-            body = doc_inner(inner)
+            body = insert_case_link(doc_inner(inner), case_link(cases, cat['slug'], doc['id']))
             date, pub = ledger.stamp(url, 'shell1' + title + description + (image or '') + body, modified(source),
                                      published(source, modified(source)))
             ld = {'@context': 'https://schema.org', '@graph': [
@@ -638,7 +669,7 @@ def main():
             files[OUT / cat['slug'] / f"{doc['id']}.html"] = page
             # 검색용 본문: 문서 머리(분류·중요도·제목·확인 날짜)와 소제목 바로가기는 뺀다(미리보기에 같은 말이 먼저 걸리지 않게).
             text = body
-            for pat in (r'<span class="lib-doc-head"', r'<h1 class="lib-doc-title"', r'<p class="lib-checked"', r'<[a-z]+ class="[^"]*\btoc\b|<[a-z]+ class="[a-z-]*-toc\b'):
+            for pat in (r'<p class="lib-case-link"', r'<span class="lib-doc-head"', r'<h1 class="lib-doc-title"', r'<p class="lib-checked"', r'<[a-z]+ class="[^"]*\btoc\b|<[a-z]+ class="[a-z-]*-toc\b'):
                 text = drop_elements(text, pat)
             search.append({'u': route, 't': doc['title'], 'b': plain_text(text)})
             # 자료 확인일(문서 머리의 '자료 확인 YYYY-MM-DD' 등에서 마지막 날짜) → /linkcheck의 '자료 확인일' 표
@@ -657,6 +688,10 @@ def main():
             ov = overview_id.get(cat['slug'])
             ov_html = rendered.get(f"{local}{cat['base']}/{ov}?capture=1", (None,))[0] if ov else None
             body = overview_inner(cat['slug'], inner, ov_html)
+            link = case_link(cases, cat['slug'])
+            if link and '<div class="li-home">' in body:
+                end = element_end(body, body.index('<div class="li-home">'))
+                body = body[:end] + link + body[end:]
             date, _ = ledger.stamp(landing, 'shell1' + title + description + (image or '') + body,
                                    max(dates, key=lambda d: datetime.fromisoformat(d)))
             listed = [d for d in cat['docs'] if f"{cat['base']}/{d['id']}\"" in inner]

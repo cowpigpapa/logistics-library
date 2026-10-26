@@ -14,6 +14,8 @@ HUB_JS = ROOT / 'accident-cases-library.js'
 HUB_HTML = ROOT / 'accident-cases-library.html'
 HUB_DOC = ROOT / 'ac-docs' / 'ac-all.html'
 CARDS = ROOT / 'tools' / 'home-cards.html'
+INDEX = ROOT / 'tools' / 'cases-index.json'   # prerender.py가 읽는다: 분야별 건수·사례 문서(문서마다 '사고 사례 보기' 링크)
+HUB_URL = '/library/' + HUB_SLUG + '/ac-all'
 
 H4 = re.compile(r'<h4((?:\s[^>]*)?)>(\d{1,3})\.\s(.*?)</h4>', re.S)
 GUBUN = re.compile(r'<li><b>구분</b>:\s*(.*?)</li>', re.S)
@@ -176,6 +178,8 @@ def render(groups):
             for k in d['cases']:
                 q = ' '.join([k['name'], k['sub'], k['when'], k['gubun'], label, d['short']])
                 sub = f'<br><small>{E(k["sub"])}</small>' if k['sub'] else ''
+                meta = ' · '.join(x for x in (label, k['year'], k['gubun'].split(' · ')[0], k['mode_txt'], k['kind_txt']) if x)
+                sub += f'<small class="case-meta">{E(meta)}</small>'
                 gub = ' · '.join(x for x in ([k['gubun'].split(' · ')[0]] + [k['mode_txt'], k['kind_txt']]) if x)
                 rows.append(
                     f'<tr data-cat="{g["slug"]}" data-scope="{" ".join(k["scope"])}" data-mode="{" ".join(m.replace("·", "") for m in k["modes"])}" '
@@ -244,6 +248,12 @@ def main():
         CARDS.write_text(cards2, encoding='utf-8', newline='')
     for js_path, path in changed:
         print('사례 주소(id) 붙임:', (path or js_path).relative_to(ROOT).as_posix())
+    index = {'hub': HUB_URL, 'total': total, 'cats': {g['slug']: {
+        'label': cat_label(g['name'], g['slug']), 'count': sum(len(d['cases']) for d in g['docs']),
+        'case_docs': [d['id'] for d in g['docs']]} for g in groups}}
+    text = json.dumps(index, ensure_ascii=False, indent=1) + chr(10)
+    if not INDEX.is_file() or INDEX.read_text(encoding='utf-8') != text:
+        INDEX.write_text(text, encoding='utf-8', newline='')
     print(f'사고 사례 모음: {n_cats}개 분야, {total}건')
     return changed
 

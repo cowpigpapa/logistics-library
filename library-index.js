@@ -129,34 +129,44 @@
   }
 
   // 사고 사례 모음(/library/accident-cases/ac-all): 표 위의 찾기 칸(tools/build_cases.py가 만든 .case-finder)을 움직인다.
+  // 여러 번 불러도 된다: 처음에는 칸을 연결하고, 그 뒤에는 주소의 ?cat=(분야)만 다시 맞춘다.
   function caseFinder() {
     const box = view.querySelector('.case-finder');
     const table = view.querySelector('.case-table');
     if (!box || !table) return;
-    const rows = [...table.tBodies[0].rows];
-    const empty = view.querySelector('.case-empty');
-    const count = box.querySelector('.case-count');
     const f = k => box.querySelector(`[data-f="${k}"]`);
-    const apply = () => {
-      const words = f('q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
-      const want = { scope: f('scope').value, mode: f('mode').value, kind: f('kind').value };
-      const cat = f('cat').value;
-      let n = 0;
-      rows.forEach(tr => {
-        const ok = (!cat || tr.dataset.cat === cat)
-          && Object.keys(want).every(k => !want[k] || tr.dataset[k].split(' ').includes(want[k]))
-          && words.every(w => tr.dataset.q.includes(w));
-        tr.hidden = !ok;
-        if (ok) n++;
-      });
-      count.textContent = `${n}건`;
-      if (empty) empty.hidden = n > 0;
-      table.hidden = n === 0;
-    };
-    box.addEventListener('input', apply);
-    box.addEventListener('change', apply);
-    f('reset').addEventListener('click', () => { box.querySelectorAll('input, select').forEach(el => (el.value = '')); apply(); });
-    box.hidden = false;
+    if (!box.caseApply) {
+      const rows = [...table.tBodies[0].rows];
+      const empty = view.querySelector('.case-empty');
+      const count = box.querySelector('.case-count');
+      box.caseApply = () => {
+        const words = f('q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+        const want = { scope: f('scope').value, mode: f('mode').value, kind: f('kind').value };
+        const cat = f('cat').value;
+        let n = 0;
+        rows.forEach(tr => {
+          const ok = (!cat || tr.dataset.cat === cat)
+            && Object.keys(want).every(k => !want[k] || tr.dataset[k].split(' ').includes(want[k]))
+            && words.every(w => tr.dataset.q.includes(w));
+          tr.hidden = !ok;
+          if (ok) n++;
+        });
+        count.textContent = `${n}건`;
+        if (empty) empty.hidden = n > 0;
+        table.hidden = n === 0;
+      };
+      box.addEventListener('input', box.caseApply);
+      box.addEventListener('change', box.caseApply);
+      f('reset').addEventListener('click', () => { box.querySelectorAll('input, select').forEach(el => (el.value = '')); box.caseApply(); });
+      box.hidden = false;
+    }
+    // 문서의 '이 분야 사고 사례 보기'(?cat=분야)로 들어오면 그 분야로 걸러 둔다. 주소가 바뀔 때만 맞춘다(직접 고른 조건은 그대로).
+    if (box.dataset.search !== location.search) {
+      box.dataset.search = location.search;
+      const want = new URLSearchParams(location.search).get('cat') || '';
+      f('cat').value = [...f('cat').options].some(o => o.value === want) ? want : '';
+      box.caseApply();
+    }
   }
 
   // 화면을 바꾼 뒤: 검색어 표시, 굴림 위치
@@ -174,18 +184,18 @@
 
 
   // 주소 옮기기
-  function go(path, hash) {
+  function go(path, hash, search) {
     const r = parse(path);
-    if (!r) { location.href = path + (hash || ''); return; }
+    if (!r) { location.href = path + (search || '') + (hash || ''); return; }
     try { history.replaceState({ ...(history.state || {}), scroll: window.scrollY }, ''); } catch (_) {}
-    // 받는 중에 같은 링크를 또 눌러도 방문 기록은 한 번만 쌓는다.
-    if (r.path !== location.pathname || hash) history.pushState({ scroll: 0 }, '', r.path + (hash || ''));
+    // 받는 중에 같은 링크를 또 눌러도 방문 기록은 한 번만 쌓는다. 찾기 조건(?cat= 등)은 주소에 남긴다.
+    if (r.path !== location.pathname || hash || (search || '') !== location.search) history.pushState({ scroll: 0 }, '', r.path + (search || '') + (hash || ''));
     show(r);
   }
   window.addEventListener('popstate', e => {
     const r = parse(location.pathname);
     if (!r) { location.reload(); return; }
-    if (r.path === view.dataset.route) return;   // 같은 화면 안의 목차(#) 이동
+    if (r.path === view.dataset.route) { caseFinder(); return; }   // 같은 화면 안의 목차(#) 이동, 사고 사례 모음의 조건(?cat=) 바꿈
     show(r, { scroll: (e.state && e.state.scroll) || 0 });
   });
 
@@ -213,8 +223,14 @@
       fromTree = tree.contains(a);
       setSide(false);
     }
-    if (parse(path).path === view.dataset.route && !url.hash) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
-    go(path, url.hash);
+    if (parse(path).path === view.dataset.route && !url.hash && url.search === location.search) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    if (parse(path).path === view.dataset.route && url.search !== location.search) {
+      // 같은 화면에서 조건만 바뀌면(사고 사례 모음의 분야 링크) 화면을 다시 받지 않고 조건만 적용한다.
+      history.pushState({ scroll: 0 }, '', path + url.search + url.hash);
+      caseFinder();
+      return;
+    }
+    go(path, url.hash, url.search);
   });
   // 카테고리 줄의 '개요' 버튼
   tree.addEventListener('click', e => {

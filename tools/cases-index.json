@@ -1,0 +1,108 @@
+{
+ "hub": "/library/accident-cases/ac-all",
+ "total": 264,
+ "cats": {
+  "incoterms-2020": {
+   "label": "Incoterms",
+   "count": 10,
+   "case_docs": [
+    "inco-cases"
+   ]
+  },
+  "charges": {
+   "label": "부대비용",
+   "count": 12,
+   "case_docs": [
+    "ch-cases"
+   ]
+  },
+  "bl-awb": {
+   "label": "B/L·AWB",
+   "count": 22,
+   "case_docs": [
+    "bl-cases"
+   ]
+  },
+  "customs": {
+   "label": "통관",
+   "count": 20,
+   "case_docs": [
+    "cu-cases"
+   ]
+  },
+  "container": {
+   "label": "컨테이너",
+   "count": 7,
+   "case_docs": [
+    "cn-cases"
+   ]
+  },
+  "air-uld": {
+   "label": "항공 ULD",
+   "count": 9,
+   "case_docs": [
+    "uld-cases"
+   ]
+  },
+  "ctu-code": {
+   "label": "적입·고박(CTU)",
+   "count": 6,
+   "case_docs": [
+    "cargo-cases"
+   ]
+  },
+  "dangerous-goods": {
+   "label": "위험물",
+   "count": 52,
+   "case_docs": [
+    "case-kr-accident",
+    "case-accident",
+    "case-kr-litigation",
+    "case-litigation",
+    "case-inspection"
+   ]
+  },
+  "eu-lithium-battery": {
+   "label": "EU 배터리",
+   "count": 7,
+   "case_docs": [
+    "cases"
+   ]
+  },
+  "temperature-cargo": {
+   "label": "온도유지 화물",
+   "count": 16,
+   "case_docs": [
+    "tc-cases"
+   ]
+  },
+  "export-control": {
+   "label": "수출통제",
+   "count": 17,
+   "case_docs": [
+    "ec-cases"
+   ]
+  },
+  "regulated-goods": {
+   "label": "반출입 규제 물품",
+   "count": 34,
+   "case_docs": [
+    "rg-cases"
+   ]
+  },
+  "cargo-risk": {
+   "label": "화물 사고 예방",
+   "count": 28,
+   "case_docs": [
+    "rk-cases"
+   ]
+  },
+  "cargo-insurance": {
+   "label": "화물보험",
+   "count": 24,
+   "case_docs": [
+    "ins-cases"
+   ]
+  }
+ }
+}

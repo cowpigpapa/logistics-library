@@ -395,3 +395,28 @@ mark.li-hit { background: #fff1a8; color: inherit; border-radius: 2px; padding: 
 @media (max-width: 640px) {
   .case-finder select { flex: 1 1 calc(50% - 4px); min-width: 0; }
 }
+.case-table .case-meta { display: none; }
+@media (max-width: 640px) {
+  /* 휴대폰: 분야·연도·구분 칸을 숨기고 사례 이름 아래 한 줄로 보여 준다(표를 옆으로 밀지 않게) */
+  .library-view .lib-article .case-table th:not(:first-child),
+  .library-view .lib-article .case-table td:not(:first-child) { display: none; }
+  .library-view .lib-article .case-table td { min-width: 0; }
+  .case-table .case-meta { display: block; margin-top: 4px; color: var(--blue); font-size: 12.5px; }
+}
+
+/* 문서마다 '이 분야 사고 사례 보기'(tools/prerender.py가 핵심 요약 뒤나 개요 카드 아래에 넣는다) */
+.lib-case-link { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 18px; }
+.lib-case-link a {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 13px;
+  border: 1px solid #c9d9ea;
+  border-radius: 999px;
+  background: var(--blue-soft);
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.lib-case-link a:hover { background: #dcebf7; }
+.lib-case-link a + a { background: var(--surface); color: var(--text); font-weight: 600; }
