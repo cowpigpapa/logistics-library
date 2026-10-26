@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1080" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56" y="76" font-size="28" font-weight="800" fill="#1d2a3a">전부 멸실 계산 예시: 총중량 2,400kg, 인수지 가액 3억 원</text>
+<text x="56" y="110" font-size="19" font-weight="600" fill="#5f6b78">1 SDR = 1,810.39원(IMF, 2026. 10. 8.)으로 환산. 막대 길이는 금액 비율</text>
+<!-- scale: 300,000,000 = 1000px ; x0=60 -->
+<!-- bar 1 value -->
+<text x="60" y="165" font-size="21" font-weight="800" fill="#1d2a3a">화물값 (제23조 제1항: 인수한 곳·때의 가액)</text>
+<rect x="60" y="180" width="1000" height="44" fill="#c9d2dc" rx="4"/>
+<text x="1050" y="210" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="end">3억 원</text>
+<!-- bar 2 CMR -->
+<text x="60" y="275" font-size="21" font-weight="800" fill="#1f6fd1">CMR 한도: 2,400 × 8.33 = 19,992 SDR (제23조 제3항)</text>
+<rect x="60" y="290" width="120.6" height="44" fill="#1f6fd1" rx="4"/>
+<text x="194" y="320" font-size="20" font-weight="800" fill="#1f6fd1">약 3,619만 원 · 화물값의 약 12%</text>
+<!-- bar 3 sea -->
+<text x="60" y="385" font-size="21" font-weight="700" fill="#5f6b78">비교: 해상 kg당 2 SDR 기준 = 4,800 SDR</text>
+<rect x="60" y="400" width="29" height="44" fill="#9aa5b1" rx="4"/>
+<text x="103" y="430" font-size="20" font-weight="700" fill="#5f6b78">약 869만 원 · 약 2.9%</text>
+<!-- bar 4 air -->
+<text x="60" y="495" font-size="21" font-weight="700" fill="#5f6b78">비교: 항공(몬트리올 협약) kg당 26 SDR = 62,400 SDR</text>
+<rect x="60" y="510" width="376.6" height="44" fill="#9aa5b1" rx="4"/>
+<text x="450" y="540" font-size="20" font-weight="700" fill="#5f6b78">약 1억 1,297만 원 · 약 37.7%</text>
+<!-- bar 5 declared value -->
+<text x="60" y="605" font-size="21" font-weight="800" fill="#1f8a5b">가액 3억 원을 운송장에 신고하고 추가 요금을 냈다면 (제24조)</text>
+<rect x="60" y="620" width="1000" height="44" fill="#1f8a5b" rx="4"/>
+<text x="1050" y="650" font-size="20" font-weight="800" fill="#ffffff" text-anchor="end">신고액이 한도를 대신함: 3억 원까지</text>
+<!-- note -->
+<rect x="60" y="700" width="1020" height="186" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="84" y="740" font-size="20" font-weight="800" fill="#1d2a3a">한도와 별도로</text>
+<text x="84" y="778" font-size="19" font-weight="600" fill="#1d2a3a">운임·관세 등 운송 관련 비용은 전부 멸실이면 전액, 일부 멸실이면 비율만큼 환급 (제23조 제4항)</text>
+<text x="84" y="814" font-size="19" font-weight="600" fill="#1d2a3a">배상금에는 연 5% 이자 (서면 청구일부터, 제27조 제1항)</text>
+<text x="84" y="850" font-size="19" font-weight="600" fill="#5f6b78">원화 환산은 판결일 또는 당사자가 합의한 날의 SDR 가치로 합니다 (제23조 제7항)</text>
+<!-- right panel -->
+<rect x="1130" y="30" width="512" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="1156" y="76" font-size="26" font-weight="800" fill="#1d2a3a">한도가 바뀌는 경우</text>
+<rect x="1156" y="110" width="460" height="200" fill="#fff4ef" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="1180" y="150" font-size="21" font-weight="800" fill="#d9482b">한도가 깨짐 (제29조)</text>
+<text x="1180" y="190" font-size="19" font-weight="600" fill="#1d2a3a">운송인 또는 그 사용인·하청</text>
+<text x="1180" y="220" font-size="19" font-weight="600" fill="#1d2a3a">운송인의 고의(wilful misconduct)</text>
+<text x="1180" y="250" font-size="19" font-weight="600" fill="#1d2a3a">또는 법정지법상 고의에 준하는 과실</text>
+<text x="1180" y="285" font-size="17" font-weight="600" fill="#5f6b78">제소기간도 1년에서 3년 (제32조 제1항)</text>
+<rect x="1156" y="330" width="460" height="170" fill="#eaf6f0" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="1180" y="370" font-size="21" font-weight="800" fill="#1f8a5b">특별 이익 신고 (제26조)</text>
+<text x="1180" y="410" font-size="19" font-weight="600" fill="#1d2a3a">운송장에 금액을 적고 추가 요금을 내면</text>
+<text x="1180" y="440" font-size="19" font-weight="600" fill="#1d2a3a">증명한 추가 손해를 신고액까지</text>
+<text x="1180" y="475" font-size="17" font-weight="600" fill="#5f6b78">연착 손해도 대상 (제26조 제1항)</text>
+<rect x="1156" y="520" width="460" height="170" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="1180" y="560" font-size="21" font-weight="800" fill="#1f6fd1">연착 (제19조, 제23조 제5항)</text>
+<text x="1180" y="600" font-size="19" font-weight="600" fill="#1d2a3a">손해를 증명하면 배상하되</text>
+<text x="1180" y="630" font-size="19" font-weight="600" fill="#1d2a3a">운임을 넘지 못함</text>
+<text x="1180" y="665" font-size="17" font-weight="600" fill="#5f6b78">21일 안에 서면 유보 (제30조 제3항)</text>
+<rect x="1156" y="710" width="460" height="176" fill="#f3f4f6" stroke="#9aa5b1" stroke-width="2" rx="12"/>
+<text x="1180" y="750" font-size="21" font-weight="800" fill="#5f6b78">1978 의정서 비당사국</text>
+<text x="1180" y="790" font-size="19" font-weight="600" fill="#1d2a3a">8.33 SDR는 1978 의정서로 바뀐 값</text>
+<text x="1180" y="820" font-size="19" font-weight="600" fill="#1d2a3a">원문 한도는 kg당 25 금프랑</text>
+<text x="1180" y="855" font-size="17" font-weight="600" fill="#5f6b78">CMR 58개국 중 10개국이 의정서 비당사국</text>
+</svg>

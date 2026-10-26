@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<!-- left panel -->
+<rect x="30" y="30" width="800" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56" y="76" font-size="28" font-weight="800" fill="#1d2a3a">CMR 운송장 원본 3통 (제5조 제1항)</text>
+<text x="56" y="110" font-size="19" font-weight="600" fill="#5f6b78">송하인과 운송인이 서명하고, 세 통은 각자 다른 곳으로 갑니다</text>
+<!-- copy 1 -->
+<g>
+<rect x="70" y="150" width="200" height="250" fill="#eef4fc" stroke="#1f6fd1" stroke-width="3" rx="8"/>
+<text x="170" y="196" font-size="26" font-weight="800" fill="#1f6fd1" text-anchor="middle">제1통</text>
+<line x1="95" y1="225" x2="245" y2="225" stroke="#9fbfe8" stroke-width="4"/><line x1="95" y1="250" x2="245" y2="250" stroke="#9fbfe8" stroke-width="4"/><line x1="95" y1="275" x2="215" y2="275" stroke="#9fbfe8" stroke-width="4"/><line x1="95" y1="300" x2="245" y2="300" stroke="#9fbfe8" stroke-width="4"/>
+<text x="170" y="360" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">송하인 보관</text>
+</g>
+<g>
+<rect x="330" y="150" width="200" height="250" fill="#eaf6f0" stroke="#1f8a5b" stroke-width="3" rx="8"/>
+<text x="430" y="196" font-size="26" font-weight="800" fill="#1f8a5b" text-anchor="middle">제2통</text>
+<line x1="355" y1="225" x2="505" y2="225" stroke="#9fd3b8" stroke-width="4"/><line x1="355" y1="250" x2="505" y2="250" stroke="#9fd3b8" stroke-width="4"/><line x1="355" y1="275" x2="475" y2="275" stroke="#9fd3b8" stroke-width="4"/><line x1="355" y1="300" x2="505" y2="300" stroke="#9fd3b8" stroke-width="4"/>
+<text x="430" y="360" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">화물과 함께 이동</text>
+</g>
+<g>
+<rect x="590" y="150" width="200" height="250" fill="#f3f4f6" stroke="#5f6b78" stroke-width="3" rx="8"/>
+<text x="690" y="196" font-size="26" font-weight="800" fill="#5f6b78" text-anchor="middle">제3통</text>
+<line x1="615" y1="225" x2="765" y2="225" stroke="#c3c9d0" stroke-width="4"/><line x1="615" y1="250" x2="765" y2="250" stroke="#c3c9d0" stroke-width="4"/><line x1="615" y1="275" x2="735" y2="275" stroke="#c3c9d0" stroke-width="4"/><line x1="615" y1="300" x2="765" y2="300" stroke="#c3c9d0" stroke-width="4"/>
+<text x="690" y="360" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">운송인 보관</text>
+</g>
+<!-- roles -->
+<rect x="60" y="440" width="740" height="120" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="84" y="482" font-size="21" font-weight="800" fill="#1f6fd1">제1통</text>
+<text x="160" y="482" font-size="20" font-weight="600" fill="#1d2a3a">처분권을 쓸 때 새 지시를 적어 운송인에게 제시</text>
+<text x="160" y="520" font-size="18" font-weight="600" fill="#5f6b78">제12조 제5항 (a). 제시받지 않고 지시를 따른 운송인은 책임 (제7항)</text>
+<rect x="60" y="575" width="740" height="150" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="84" y="617" font-size="21" font-weight="800" fill="#1f8a5b">제2통</text>
+<text x="160" y="617" font-size="20" font-weight="600" fill="#1d2a3a">도착지에서 수령증을 받고 화물과 함께 수하인에게 교부</text>
+<text x="160" y="655" font-size="18" font-weight="600" fill="#5f6b78">제13조 제1항. 다음 운송인은 여기에 이름·주소와 유보를 적고</text>
+<text x="160" y="685" font-size="18" font-weight="600" fill="#5f6b78">앞 운송인에게 날짜·서명이 있는 수령증을 줌 (제35조 제1항)</text>
+<rect x="60" y="740" width="740" height="140" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="84" y="782" font-size="21" font-weight="800" fill="#5f6b78">유보</text>
+<text x="160" y="782" font-size="20" font-weight="600" fill="#1d2a3a">인수 때 포장 수·외관을 확인하고 이상은 근거와 함께 기재</text>
+<text x="160" y="820" font-size="18" font-weight="600" fill="#5f6b78">제8조. 유보가 없으면 외관 양호·수량 일치로 추정 (제9조 제2항)</text>
+<text x="160" y="852" font-size="18" font-weight="600" fill="#5f6b78">e-CMR도 같은 증거력과 효력 (2008 추가의정서 제2조 제2항)</text>
+<!-- right panel -->
+<rect x="850" y="30" width="792" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="876" y="76" font-size="28" font-weight="800" fill="#1d2a3a">처분권은 누구에게 (제12조)</text>
+<text x="876" y="110" font-size="19" font-weight="600" fill="#5f6b78">운송 중지, 인도지 변경, 다른 수하인에게 인도를 지시하는 권리</text>
+<!-- timeline -->
+<line x1="900" y1="240" x2="1600" y2="240" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<circle cx="920" cy="240" r="10" fill="#1d2a3a"/>
+<circle cx="1330" cy="240" r="10" fill="#1d2a3a"/>
+<text x="920" y="210" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">운송장 작성</text>
+<text x="1125" y="210" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">운송 중</text>
+<text x="1330" y="200" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">제2통 교부 또는</text>
+<text x="1330" y="224" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">수하인의 인도 청구</text>
+<rect x="920" y="275" width="410" height="56" fill="#1f6fd1" rx="8"/>
+<text x="1125" y="312" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">송하인 (원칙)</text>
+<rect x="1330" y="275" width="260" height="56" fill="#1f8a5b" rx="8"/>
+<text x="1460" y="312" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">수하인</text>
+<text x="920" y="372" font-size="18" font-weight="600" fill="#5f6b78">제12조 제1항</text>
+<text x="1330" y="372" font-size="18" font-weight="600" fill="#5f6b78">제12조 제2항: 그때부터 수하인의 지시</text>
+<rect x="920" y="400" width="670" height="56" fill="#eaf6f0" stroke="#1f8a5b" stroke-width="2" rx="8"/>
+<text x="1255" y="436" font-size="20" font-weight="700" fill="#1f8a5b" text-anchor="middle">송하인이 운송장에 적으면 수하인이 처음부터 처분권 (제12조 제3항)</text>
+<!-- conditions -->
+<rect x="880" y="490" width="732" height="250" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="904" y="532" font-size="22" font-weight="800" fill="#1d2a3a">지시가 효력을 가지려면 (제12조 제5항)</text>
+<text x="904" y="575" font-size="19" font-weight="600" fill="#1d2a3a">(a) 새 지시를 적은 제1통을 제시하고 비용·손해를 보상</text>
+<text x="904" y="615" font-size="19" font-weight="600" fill="#1d2a3a">(b) 지시가 도달한 때 이행할 수 있고 영업·다른 화주에 지장 없음</text>
+<text x="904" y="655" font-size="19" font-weight="600" fill="#1d2a3a">(c) 화물을 나누는 지시가 아님</text>
+<text x="904" y="705" font-size="18" font-weight="600" fill="#5f6b78">이행할 수 없으면 운송인은 지시한 사람에게 즉시 통지 (제6항)</text>
+<rect x="880" y="760" width="732" height="120" fill="#fff4ef" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="904" y="802" font-size="20" font-weight="800" fill="#d9482b">B/L과 다른 점</text>
+<text x="904" y="840" font-size="19" font-weight="600" fill="#1d2a3a">CMR 운송장은 권리증권이 아니고, 인도는 수하인에게 합니다</text>
+<text x="904" y="868" font-size="17" font-weight="600" fill="#5f6b78">권리증권 운송장은 자국 안의 운송에 한해 당사국끼리 허용 (제1조 제5항)</text>
+</svg>

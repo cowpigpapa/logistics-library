@@ -1,0 +1,146 @@
+[
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "Micro Anvika 경위: 기사가 CCTV 없는 거리에서 일당이 화물을 내리는 것을 '지켜봤다'",
+  "verdict": "wrong",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2006/230 para 21: \"As I was keen to help, my partner and I became engaged in stripping the pallets and handing over the smaller boxes to the four men. We remained inside the trailer and goods were wheeled out of sight.\" The driver and his partner actively helped unload; he did not merely watch.",
+  "old": "기사는 CCTV가 없는 거리로 가서 그 일당이 화물을 내리는 것을 지켜봤고, 화물은 사라졌습니다.",
+  "fix": "기사는 CCTV가 없는 거리로 가서 동승한 동반자와 함께 트레일러 안에서 팔레트를 풀어 그 일당에게 상자를 건넸고, 화물은 사라졌습니다."
+ },
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "Huawei v DSV 교훈: 인도일부터 1년이 '절대' 기준",
+  "verdict": "wrong",
+  "evidence": "CMR Art. 32(1) (UNTS vol. 399): 1 year, but 3 years for wilful misconduct; the start date differs for total loss; Art. 32(2) a written claim suspends the period; Art. 32(3) extension is governed by the law of the forum. The doc's next sentence itself explains suspension, so '절대 기준' overstates and contradicts it.",
+  "old": "CMR 사고는 인도일부터 1년이 절대 기준입니다.",
+  "fix": "일부 멸실·훼손·연착이면 CMR 제소기간은 인도일부터 1년이고, 고의 등을 주장할 근거가 없다면 이 기간이 지난 뒤에는 청구할 길이 거의 없습니다."
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "kg당 8.33 SDR ≈ 15,080원 (1 SDR = 1,810.39원)",
+  "verdict": "wrong",
+  "evidence": "8.33 × 1,810.39 = 15,080.55원. 문서 7절의 '원 단위에서 반올림' 규칙이면 15,081원. Minor rounding only.",
+  "old": "kg당 8.33 SDR ≈ 15,080원",
+  "fix": "kg당 8.33 SDR ≈ 15,081원"
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "e-CMR 당사국 42개국, 2026년 세르비아(8. 4.) 가입서 기탁; 가입서 기탁 후 90일째부터 적용(제8조 제2항)",
+  "verdict": "unclear",
+  "evidence": "UNTC XI-B-11-b (status as at 26-10-2026): 'Parties : 42', Serbia '4 Aug 2026 a', Montenegro '6 Jul 2026 a', North Macedonia '27 Apr 2026 a', Albania '7 Apr 2026 a'. e-CMR Art. 8(2): 'shall enter into force on the ninetieth day after the said State has deposited its instrument'. All facts are correct, but for Serbia the protocol takes effect only on 2026-11-02 (90th day), so on the check date (2026-10-26) UNTC counts it as a party although the protocol is not yet in force for it (Montenegro took effect 2026-10-04). Optional wording: old '2026년에는 알바니아(4. 7.), 북마케도니아(4. 27.), 몬테네그로(7. 6.), 세르비아(8. 4.)가 가입서를 기탁했습니다.' -> '2026년에는 알바니아(4. 7.), 북마케도니아(4. 27.), 몬테네그로(7. 6.), 세르비아(8. 4.)가 가입서를 기탁했고, 세르비아에는 2026년 11월 2일부터 적용됩니다.'"
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "8절: 세 나라(영국·독일·네덜란드) 모두 '보안 주차장을 쓰지 않았다', '도난이 났다'는 사실만으로는 한도를 깨기 어렵다는 쪽",
+  "verdict": "unclear",
+  "evidence": "BGH I ZR 176/08 Rn. 21-26 (https://rws-verlag.de/fileadmin/zbb-volltexte/IZR17608.pdf): the security required depends on whether the carrier knew or should have known the special risk (type and value of goods); here it did not. DWF, 'Gross negligence under the CMR: European perspectives' (2026-02, listed in meta sources): 'In comparison to other European jurisdictions, breaking limitation of liability seems rather easy in Germany.' The sentence holds for the facts of the cited cases but overgeneralizes Germany. Optional wording: old '세 나라 모두 \"보안 주차장을 쓰지 않았다\", \"도난이 났다\"는 사실만으로는 한도를 깨기 어렵다는 쪽입니다.' -> '세 나라 판결 모두 \"보안 주차장을 쓰지 않았다\", \"도난이 났다\"는 사실만으로 한도를 깨지는 않았습니다. 다만 독일은 운송인이 화물의 가치와 위험을 알았던 경우에는 다른 나라보다 비교적 쉽게 한도를 깨는 편이라는 평가가 있습니다.'"
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "CMR 당사국 58개국, 한국 비당사국, EU 전 회원국과 열거된 나라 모두 당사국, 1956. 5. 19. 채택·1961. 7. 2. 발효",
+  "verdict": "correct",
+  "evidence": "UNTC XI-B-11 (status as at 26-10-2026): 'Entry into force: 2 July 1961', 'Signatories : 9. Parties : 58'; all 27 EU states, UK, Norway, Switzerland, Türkiye, Russia, Belarus, Ukraine, Kazakhstan, Uzbekistan, Iran, Jordan, Lebanon, Syria, Oman, Morocco, Tunisia, Mongolia, Pakistan, Afghanistan are listed; Republic of Korea is absent."
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "1978 의정서 당사국 48개국, 비가입 CMR 당사국 10개국(아프가니스탄·아제르바이잔·불가리아·카자흐스탄·몽골·몬테네그로·모로코·오만·시리아·타지키스탄), 원문 한도 kg당 25 금프랑",
+  "verdict": "correct",
+  "evidence": "UNTC XI-B-11-a: 'Parties : 48'; set difference against the XI-B-11 list = exactly Afghanistan, Azerbaijan, Bulgaria, Kazakhstan, Mongolia, Montenegro, Morocco, Oman, Syrian Arab Republic, Tajikistan. Original Art. 23(3): 'Compensation shall not, however, exceed 25 francs per kilogram of gross weight short.'"
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "e-CMR 2008. 2. 20. 채택, 2011. 6. 5. 발효, 나라별 가입일(독일 2022.1.5, 프랑스 2016.10.5, 스페인 2011.5.11, 네덜란드 2009.1.7 비준, 폴란드 2019.6.13, 영국 2019.12.20, 이탈리아 2024.6.28, 오스트리아 2024.8.6, 헝가리 2024.8.28, 튀르키예 2018.1.31), 벨기에 서명만, 크로아티아·키프로스·아일랜드·몰타 없음, 제2조~제6조 요약",
+  "verdict": "correct",
+  "evidence": "UNTC XI-B-11-b: 'Geneva, 20 February 2008'; 'Entry into force: 5 June 2011'; all listed dates match; Belgium '27 May 2008' signature only; Croatia, Cyprus, Ireland, Malta absent. Protocol text (CTC-xi-B-11b.pdf) Arts. 2-6 and 8(2) match the doc."
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "CMR 조문 요약 전반(제1조~제41조, 1978 의정서로 바뀐 제23조 제3항·제7항): 8.33 SDR/kg, 판결일 또는 합의일 환산, 제23조 제4항 운임 등 환급, 제24조·제26조, 제27조 연 5%, 제30조 7일(일·공휴일 제외)/21일, 제32조 1년·3년과 기산점, 제31조 관할, 제34~40조 연속 운송인, 제41조 무효",
+  "verdict": "correct",
+  "evidence": "UNTS vol. 399 No. 5742 English text (https://treaties.un.org/doc/Publication/UNTS/Volume%20399/volume-399-I-5742-English.pdf) and UNTS vol. 1208 No. 19487 Art. 2 ('8.33 units of account per kilogram of gross weight short'; new para 7 'on the date of the judgement or the date agreed upon by the Parties'). Every article/paragraph number in the doc checked, incl. Art. 1(1)-(5), 2(1)-(2), 6(1)(a)-(k), 6(2)(a)-(g), 7(1)(a) list b,d,e,f,g,h,j, 7(3), 8(1)-(3), 9, 10, 11(1)-(2), 12(1)-(3),(5)(a)-(c),(7), 13, 14(1), 15(1), 16(2)-(3), 17(1)-(5), 18(1)-(4), 19, 20(1) 30/60 days, 21, 22, 25, 27(1), 28, 29, 30(1)-(4), 31(1)-(3), 32(1)(a)(b),(2)-(4), 33, 34-38, 39(4), 40, 41(1)-(2)."
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "계산 예시: 19,992 SDR=36,193,317원(약 12.1%), 3,998.4 SDR=7,238,663원, 해상 4,800 SDR=8,689,872원(2.9%), 항공 62,400 SDR=112,968,336원(37.7%)",
+  "verdict": "correct",
+  "evidence": "Recomputed with 1 SDR = 1,810.39원: 36,193,316.88 / 7,238,663.38 / 8,689,872 / 112,968,336; ratios 12.06%, 12.06%, 2.90%, 37.66%. SVG values (약 3,619만, 869만, 1억 1,297만, 약 12%) consistent. ins-carrier-liability uses the same rate, 2 SDR/kg (Hague-Visby) and 26 SDR/kg (Montreal, 2024.12.28~)."
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "독일 HGB 제458조(Selbsteintritt)·제459조(Spedition zu festen Kosten)·제460조(Sammelladung): 운송에 관해 운송인의 권리의무",
+  "verdict": "correct",
+  "evidence": "https://www.gesetze-im-internet.de/hgb/__459.html: 'Soweit als Vergütung ein bestimmter Betrag vereinbart ist, der Kosten für die Beförderung einschließt, hat der Spediteur hinsichtlich der Beförderung die Rechte und Pflichten eines Frachtführers oder Verfrachters.' §458 and §460(2) have the same effect."
+ },
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "BGH 2010. 7. 1. I ZR 176/08: 740유로 all in, '도난 위험 화물' 문구, 혼자 운전하는 천막 트럭, 벨기에 경비 없는 휴게소 20시경, 라디오 356대 22,858.76유로, 원심 뒤셀도르프 2008.10.1 파기·환송, Rn.16 확정 운임 포워더=CMR 운송인, 1998년 개정 후 bewusste Leichtfertigkeit, 제24조 지적, 제23조 한도와 앞선 소송비용 불인정",
+  "verdict": "correct",
+  "evidence": "https://rws-verlag.de/fileadmin/zbb-volltexte/IZR17608.pdf Tenor ('Urteil des 18. Zivilsenats des Oberlandesgerichts Düsseldorf vom 1. Oktober 2008 aufgehoben ... zurückverwiesen'), Rn. 2-3, 16-17, 23-27, 29 (remand only to fix the amount under Art. 23)."
+ },
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "Datec v UPS: 2002.7.25 발송, Bletchley→Luton(도로)→Cologne(항공)→Amsterdam 허브→Schiphol, 한도 £657.73, 전액 £241,241.14, US$50,000 약관, 1심 제41조 무효, CA 2005.11.29 직원 절도 인정; 영국 상원 2007년 만장일치 상고 기각",
+  "verdict": "correct",
+  "evidence": "[2005] EWCA Civ 1418 'Date: 29 November 2005', paras 1-2, 5, 89 (https://caselaw.nationalarchives.gov.uk/ewca/civ/2005/1418): 'the full value of the three packages that were lost, namely £241,241.14'. HL outcome: bailii and publications.parliament.uk are behind Cloudflare and Find Case Law has no ukhl/2007/23; confirmed via Steamship Mutual (published 1 Sept 2007): 'the House of Lords unanimously rejected UPS' appeal' and theft 'was shown on a strong balance of probability to have been the cause of this loss'."
+ },
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "Micro Anvika: 도난 2003.10.9 Tottenham Court Road 인근, 2003.10.3 룩셈부르크 인수, 약 29팔레트, Ninatrans 하청, Ashford 보안 주차장, 한도 약 £21,000, 화물값 약 £672,500, 2006.2.20 판결, Laceys 구별, 비행·과실 없음",
+  "verdict": "correct",
+  "evidence": "[2006] EWHC 230 (Comm) 'Date: 20/02/2006', paras 1-2, 7-9, 17, 43-45: 'Mr Branson was certainly not guilty of any misconduct ... I do not consider that he was guilty of any negligence ... I dismiss the claim.'"
+ },
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "RSA v MK Digital [2006] EWCA Civ 629 (2006.5.17): 노키아 18,000대 약 £3.3m, 2004.11.4 Ressons 부근, Exel 송하인 칸 서명·실제 운송사 운송인 기재, 송장 3항목, 프랑스 항소법원에서 commissionnaire 인정, 영국 소송 set aside",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2006/629 'Wednesday 17 May 2006', paras 1, 32-33, 57-61 ('signed by Exel for Hi-Tec as sender with others signing as carriers'; 'TRS INT'L ... HANDLING ... CONTROL'), and the conclusion 'Exel's claim form will have to be set aside'."
+ },
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "ECLI:NL:RBZWB:2022:7627 (2022.12.14): 올덴잘→무르데이크→루아→다간소, 22상자 760점, Achmea 청구 €33,496.84, Nord Cargo 제17조 인정·한도와 이자 지급, 주선인 기준(r.o. 4.5), 기본계약서·FENEX·홈페이지(4.6), 9개월 시효 소장 송달로 중단(4.13), 청구 전부 기각",
+  "verdict": "correct",
+  "evidence": "https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBZWB:2022:7627 r.o. 2.1-2.3, 3.1 ('€ 33.496,84'), 3.6, 4.5 ('moet zich bij het aangaan van de overeenkomst duidelijk als zodanig presenteren'), 4.6, 4.13, 4.37-4.38, 5.1 'wijst de vorderingen af'. Nuance only: Achmea's pleaded ground against Nord Cargo was breach of the aggravated duty to substantiate; opzet/bewuste roekeloosheid was raised only at the hearing (4.22) and the court noted she could have pleaded it subsidiarily (4.37). Doc wording acceptable."
+ },
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "BAT v Kazemier [2015] UKSC 65 (2015.10.28): 벨기에 탈취·코펜하겐 부근 1,386상자 중 756상자, 세금 €2.9m·€0.5m 초과, Exel 첫 운송인, 제31조 완결 규칙, 운송장에 없는 관할 합의 불구속, Cooke J 송달 취소 결정 회복, 상업적 합리성 인정(Lord Sumption·Lord Clarke)",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/uksc/2015/65 paras 1, 4, 9, 29-30, 59 ('restore Cooke J's order setting aside the service of the claim forms'), 60 ('The commercial logic of these provisions points towards ... Nevertheless ... the language of the CMR points clearly in the other direction'), 65, 69."
+ },
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "Hatzl v XL [2009] EWCA Civ 223 (2009.3.19): 여성 의류 37상자, Wiener Neustadt→Bergamo 부근, 이탈리아 고속도로 주차장에서 기사 수면 중 도난, XL 양수 후 €137,000 청구, 영국 관할 부정",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/223 'Date: 19/03/2009', paras 3-5 ('Some of the goods were stolen while the driver was asleep at a parking place on a motorway in Italy'; '€137,000'), paras 55-71 ('I would allow the appeal')."
+ },
+ {
+  "file": "cases-bl-cmr.html",
+  "claim": "Huawei v DSV [2023] EWHC 1505 (Comm) (2023.6.23): Feltham→Amsterdam, 2020.11.24 인도, 약 300대 약 £150,000, 2022.6.7 서한, 7.5 네덜란드 소송, 8.31 영국 소송, 2023.2.22 네덜란드 판단, 제31조 제2항, 불법행위·6년 불가, 약식판결",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2023/1505 'Date: 23 June 2023', para 4(iii)-(viii), paras 41-42, 58-64."
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "Quantum v Plane Trucking(2002, 싱가포르~파리 항공 + 프랑스~아일랜드 도로·페리)와 BGH 2008.7.17(일본~로테르담 해상 + 로테르담~독일 도로, 제2조 외에는 CMR 직접 적용 안 됨), TT Club 2008.9.11",
+  "verdict": "correct",
+  "evidence": "TT Club, TT Talk (Date 11/09/2008): 'first by air from Singapore to Paris CDG and then by road (and ferry) from France to Ireland'; BGH 17 July 2008: 'carried by sea from Tokyo to Rotterdam ... CMR did not apply directly ... only the special case of Article 2 CMR'."
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "기존 문서와의 일관성(ins-carrier-liability CMR 행, ins-claims CMR 행, bl-multimodal 2·3·4·7·8절, rk-security 7절, rk-cases 18번, ins-forwarder 2절)",
+  "verdict": "correct",
+  "evidence": "Repo read-only check: ins-carrier-liability row 'CMR(1956, 1978 의정서) ... 한국 비당사국 ... 총중량 kg당 8.33 SDR(제23조 제3항) ... 제29조 ... 제24조·제26조' and 1 SDR = 1,810.39원; ins-claims row 'CMR 인도 때 유보 / 7일(일요일·공휴일 제외) / 21일 / 1년(고의 등 3년), 서면 청구로 정지'; bl-multimodal §3 table has 'CMR 제2조 도로 중심의 네트워크', §7 figure has 'CMR·CIM 7일·1년' and the 제814조/CMR 제32조 point, §8 has the Czech example; rk-security §7 is sub-carrier/POD verification; rk-cases #18 is the platform sub-carrier / false POD case (5일 뒤 인지); ins-forwarder §2 cites 상법 제116조·제119조 and 2007다4943. No contradictions found."
+ },
+ {
+  "file": "bl-cmr.html",
+  "claim": "금지 사항 점검: 한국 회사 실명, 현행 운임·할증료 금액, 포워더에게 화물 개봉·검사 지시",
+  "verdict": "correct",
+  "evidence": "No Korean company names in bl-cmr.html, cases-bl-cmr.html, meta-bl-cmr.json or the three SVGs; only historical case amounts (e.g. 2004 '740유로 all in') and the hypothetical SDR example, no current freight/surcharge figures; physical checks are assigned to the carrier (Art. 8) or the receiving warehouse (Art. 30), and the forwarder checklist only compares documents."
+ },
+ {
+  "file": "images/bl/bl-cmr-copies.svg",
+  "claim": "SVG 3종(copies, limit-example, forwarder-layers)의 조문 번호·숫자",
+  "verdict": "correct",
+  "evidence": "Checked every text node against CMR text and the doc: 제5조 제1항 3통, 제12조 제1~3항·제5항 (a)~(c)·제6항·제7항, 제13조 제1항, 제35조 제1항, 제8조·제9조 제2항, 제1조 제5항, e-CMR 제2조 제2항; 19,992 SDR·약 3,619만 원·4,800 SDR·약 869만 원·62,400 SDR·약 1억 1,297만 원, 제23조 제4항·제7항, 제27조 제1항 5%, 제26조 제1항, 제19조·제23조 제5항·제30조 제3항, '58개국 중 10개국'; 제36조, 제31조, 제30조·제32조, 제23조, HGB 제459조, 상법 제816조. All consistent."
+ }
+]

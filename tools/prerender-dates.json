@@ -1,7 +1,7 @@
 {
  "https://logistics.onharu.app/": {
-  "hash": "18ab8e6e9495a4b5",
-  "modified": "2026-10-23T16:18:11+09:00",
+  "hash": "3fb022004b1182aa",
+  "modified": "2026-10-26T19:07:20+09:00",
   "published": "2026-10-11T23:23:57+09:00"
  },
  "https://logistics.onharu.app/library/air-uld": {
@@ -40,8 +40,8 @@
   "published": "2026-10-05T23:47:33+09:00"
  },
  "https://logistics.onharu.app/library/bl-awb": {
-  "hash": "5f2acda6d0d25be5",
-  "modified": "2026-10-22T23:35:58+09:00",
+  "hash": "d4413594509fc695",
+  "modified": "2026-10-26T19:06:59+09:00",
   "published": "2026-10-11T23:19:47+09:00"
  },
  "https://logistics.onharu.app/library/bl-awb/awb-basics": {
@@ -55,13 +55,18 @@
   "published": "2026-10-09T20:57:07+09:00"
  },
  "https://logistics.onharu.app/library/bl-awb/bl-cases": {
-  "hash": "8a716e9cc2847ed4",
-  "modified": "2026-10-23T17:05:57+09:00",
+  "hash": "05d247fc327ad4f9",
+  "modified": "2026-10-26T19:06:07+09:00",
   "published": "2026-10-09T20:57:07+09:00"
  },
+ "https://logistics.onharu.app/library/bl-awb/bl-cmr": {
+  "hash": "671bad0c7dc03162",
+  "modified": "2026-10-26T19:06:07+09:00",
+  "published": "2026-10-26T19:06:07+09:00"
+ },
  "https://logistics.onharu.app/library/bl-awb/bl-multimodal": {
-  "hash": "fed99a886fba3c93",
-  "modified": "2026-10-23T17:05:57+09:00",
+  "hash": "41574220bbc165d4",
+  "modified": "2026-10-26T19:06:59+09:00",
   "published": "2026-10-18T23:49:54+09:00"
  },
  "https://logistics.onharu.app/library/bl-awb/bl-release": {
@@ -85,8 +90,8 @@
   "published": "2026-10-09T17:22:33+09:00"
  },
  "https://logistics.onharu.app/library/cargo-insurance/ins-carrier-liability": {
-  "hash": "ea2d6a9e4b82a6cc",
-  "modified": "2026-10-23T17:05:57+09:00",
+  "hash": "2673de37922e690d",
+  "modified": "2026-10-26T19:06:59+09:00",
   "published": "2026-10-09T17:22:33+09:00"
  },
  "https://logistics.onharu.app/library/cargo-insurance/ins-cases": {
@@ -95,8 +100,8 @@
   "published": "2026-10-09T17:22:33+09:00"
  },
  "https://logistics.onharu.app/library/cargo-insurance/ins-claims": {
-  "hash": "5b8b311c866f393d",
-  "modified": "2026-10-23T17:05:57+09:00",
+  "hash": "d779ebd34337b244",
+  "modified": "2026-10-26T19:06:59+09:00",
   "published": "2026-10-09T17:22:33+09:00"
  },
  "https://logistics.onharu.app/library/cargo-insurance/ins-container-loss": {
