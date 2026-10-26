@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="30" font-weight="800" fill="#1d2a3a">유럽 트럭 운송(CMR) 판례 8건이 다룬 네 가지 쟁점</text>
+<text x="40" y="92" font-size="19" font-weight="600" fill="#5f6b78">번호는 B/L·AWB 사고 사례의 사례 번호입니다. 같은 판결(17)이 두 쟁점에 걸칩니다.</text>
+<rect x="40" y="120" width="776" height="380" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="40" y="120" width="10" height="380" fill="#d9482b" rx="5"/>
+<text x="72" y="166" font-size="24" font-weight="800" fill="#d9482b">도난과 한도: 고의가 있어야 한도가 깨진다 (제29조)</text>
+<circle cx="96" cy="230" r="22" fill="#d9482b"/>
+<text x="96" y="238" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">15</text>
+<text x="136" y="222" font-size="21" font-weight="800" fill="#1d2a3a">Micro Anvika (영국 2006)</text>
+<text x="136" y="254" font-size="19" font-weight="600" fill="#5f6b78">사칭범에게 인도, 기사의 비행 없음</text>
+<text x="784" y="238" font-size="20" font-weight="800" fill="#d9482b" text-anchor="end">→ 한도만 배상</text>
+<line x1="72" y1="280" x2="784" y2="280" stroke="#e2e7ec" stroke-width="2"/>
+<circle cx="96" cy="328" r="22" fill="#d9482b"/>
+<text x="96" y="336" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">16</text>
+<text x="136" y="320" font-size="21" font-weight="800" fill="#1d2a3a">Datec v UPS (영국 2005·2007)</text>
+<text x="136" y="352" font-size="19" font-weight="600" fill="#5f6b78">운송인 직원의 절도가 증명됨</text>
+<text x="784" y="336" font-size="20" font-weight="800" fill="#d9482b" text-anchor="end">→ 고의 → 화물값 전액</text>
+<line x1="72" y1="378" x2="784" y2="378" stroke="#e2e7ec" stroke-width="2"/>
+<circle cx="96" cy="426" r="22" fill="#d9482b"/>
+<text x="96" y="434" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">17</text>
+<text x="136" y="418" font-size="21" font-weight="800" fill="#1d2a3a">독일 연방대법원 (2010)</text>
+<text x="136" y="450" font-size="19" font-weight="600" fill="#5f6b78">경비 없는 휴게소에서 자다 도난</text>
+<text x="784" y="434" font-size="20" font-weight="800" fill="#d9482b" text-anchor="end">→ 고의에 준하는 과실 아님 → 한도</text>
+<rect x="856" y="120" width="776" height="380" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="856" y="120" width="10" height="380" fill="#1f6fd1" rx="5"/>
+<text x="888" y="166" font-size="24" font-weight="800" fill="#1f6fd1">포워더는 운송인인가, 주선인인가</text>
+<circle cx="912" cy="230" r="22" fill="#1f6fd1"/>
+<text x="912" y="238" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">17</text>
+<text x="952" y="222" font-size="21" font-weight="800" fill="#1d2a3a">독일 연방대법원 (2010)</text>
+<text x="952" y="254" font-size="19" font-weight="600" fill="#5f6b78">확정 운임으로 국경 트럭 운송을 맡음</text>
+<text x="1600" y="238" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="end">→ CMR상 운송인</text>
+<line x1="888" y1="280" x2="1600" y2="280" stroke="#e2e7ec" stroke-width="2"/>
+<circle cx="912" cy="328" r="22" fill="#1f6fd1"/>
+<text x="912" y="336" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">18</text>
+<text x="952" y="320" font-size="21" font-weight="800" fill="#1d2a3a">Exel·노키아 (영국 2006)</text>
+<text x="952" y="352" font-size="19" font-weight="600" fill="#5f6b78">운송장 송하인 칸 서명, 송장 구조</text>
+<text x="1600" y="336" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="end">→ 주선인 쪽 증거</text>
+<line x1="888" y1="378" x2="1600" y2="378" stroke="#e2e7ec" stroke-width="2"/>
+<circle cx="912" cy="426" r="22" fill="#1f6fd1"/>
+<text x="912" y="434" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">19</text>
+<text x="952" y="418" font-size="21" font-weight="800" fill="#1d2a3a">Achmea (네덜란드 2022)</text>
+<text x="952" y="450" font-size="19" font-weight="600" fill="#5f6b78">기본계약서에 주선인으로만 계약 명시</text>
+<text x="1600" y="434" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="end">→ 주선인, 운송사는 한도까지</text>
+<rect x="40" y="520" width="776" height="300" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="40" y="520" width="10" height="300" fill="#1f8a5b" rx="5"/>
+<text x="72" y="566" font-size="24" font-weight="800" fill="#1f8a5b">어느 나라 법원에 낼 수 있나 (제31조)</text>
+<circle cx="96" cy="630" r="22" fill="#1f8a5b"/>
+<text x="96" y="638" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">20</text>
+<text x="136" y="622" font-size="21" font-weight="800" fill="#1d2a3a">BAT v Kazemier (영국 2015)</text>
+<text x="136" y="654" font-size="19" font-weight="600" fill="#5f6b78">운송장에 없는 관할 합의</text>
+<text x="784" y="638" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="end">→ 하청 운송사를 영국 소송에 못 묶음</text>
+<line x1="72" y1="680" x2="784" y2="680" stroke="#e2e7ec" stroke-width="2"/>
+<circle cx="96" cy="728" r="22" fill="#1f8a5b"/>
+<text x="96" y="736" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">21</text>
+<text x="136" y="720" font-size="21" font-weight="800" fill="#1d2a3a">Hatzl (영국 2009)</text>
+<text x="136" y="752" font-size="19" font-weight="600" fill="#5f6b78">운송인이 먼저 낸 채무부존재확인 소송</text>
+<text x="784" y="736" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="end">→ 제31조 법원에서만 가능</text>
+<rect x="856" y="520" width="776" height="300" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="856" y="520" width="10" height="300" fill="#e4572e" rx="5"/>
+<text x="888" y="566" font-size="24" font-weight="800" fill="#e4572e">언제까지 청구하나 (제32조)</text>
+<circle cx="912" cy="630" r="22" fill="#e4572e"/>
+<text x="912" y="638" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">22</text>
+<text x="952" y="622" font-size="21" font-weight="800" fill="#1d2a3a">Huawei v DSV (영국 2023)</text>
+<text x="952" y="654" font-size="19" font-weight="600" fill="#5f6b78">1년이 지난 휴대폰 도난 청구</text>
+<text x="1600" y="638" font-size="20" font-weight="800" fill="#e4572e" text-anchor="end">→ 다른 나라의 기간 경과 판단에 막힘</text>
+<line x1="888" y1="680" x2="1600" y2="680" stroke="#e2e7ec" stroke-width="2"/>
+<text x="952" y="736" font-size="19" font-weight="600" fill="#5f6b78">불법행위로 바꿔 청구해도</text>
+<text x="1600" y="736" font-size="20" font-weight="800" fill="#e4572e" text-anchor="end">→ 영국 6년이 아니라 CMR 1년</text>
+<text x="856" y="866" font-size="19" font-weight="700" fill="#1d2a3a">교훈: 고가 화물은 서면 인도 지시, 계약 때 자격(운송인·주선인) 명시,</text>
+<text x="856" y="896" font-size="19" font-weight="700" fill="#1d2a3a">관할 합의는 운송장에, 서면 청구로 1년 기간 정지.</text>
+</svg>
