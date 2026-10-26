@@ -56,8 +56,8 @@
 <rect x="1116.8" y="210.0" width="246.0" height="122.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
 <text x="1130.8" y="240.0" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">2026.8.18 이후</text>
 <text x="1130.8" y="268.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">일반정보·용량 라벨</text>
-<text x="1130.8" y="293.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">(이행법률 발효일에</text>
-<text x="1130.8" y="318.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">따라 달라짐)</text>
+<text x="1130.8" y="293.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">(이행법률 미공포,</text>
+<text x="1130.8" y="318.0" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">아직 적용 전)</text>
 <polyline points="1051.3,482.0 1051.3,456.0 1509.0,332.0" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
 <circle cx="1051.3" cy="492" r="8" fill="#1f6fd1" stroke="#fff" stroke-width="2"/>
 <rect x="1386.0" y="210.0" width="246.0" height="122.0" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
