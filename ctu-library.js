@@ -1224,7 +1224,7 @@
     ['1497', '7장', 'CTU 적합성(6장 해설에 합침)', '참고', '계산하지 않음', 'ch6-ctu'],
     ['1497', '8장', 'CTU 도착·점검·배치', '참고', '계산하지 않음', 'ch8-arrival'],
     ['1497', '9장', '화물 적입', '핵심', '배치·고정재 계획의 원칙', 'ch9-packing'],
-    ['1497', '10장', '위험물 적입', '참고', '계산하지 않음', ''],
+    ['1497', '10장', '위험물 적입(Dangerous Goods 카테고리)', '참고', '계산하지 않음', '/library/dangerous-goods/dg-container-packing'],
     ['1497', '11장', '적입 완료 후', '참고', '계산하지 않음(문쪽 윗단 도어 스트랩만)', 'ch11-after'],
     ['1497', '12장', '인수와 적출', '참고', '계산하지 않음', 'a5-receiving'],
     ['1497', '13장·부속서 10', '적입 교육(4장 해설에 합침)', '참고', '계산하지 않음', 'ch4-chain'],
@@ -1256,7 +1256,7 @@
   const mapTable = () =>
     `<table class="lib-table"><thead><tr><th>원문</th><th>위치</th><th>내용</th><th>중요도</th></tr></thead><tbody>${MAP.map(
       ([src, where, what, level, used, id]) =>
-        `<tr><td>${esc(src)}</td><td>${esc(where)}</td><td>${id ? `<a href="/library/ctu-code/${id}">${esc(what)}</a>` : esc(what)}</td><td>${level === '핵심' ? '<b>핵심</b>' : esc(level)}</td></tr>`
+        `<tr><td>${esc(src)}</td><td>${esc(where)}</td><td>${id ? `<a href="${id.startsWith('/') ? LIBRARY_ORIGIN + id : `/library/ctu-code/${id}`}">${esc(what)}</a>` : esc(what)}</td><td>${level === '핵심' ? '<b>핵심</b>' : esc(level)}</td></tr>`
     ).join('')}</tbody></table>`;
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${[o.date, o.lang].filter(Boolean).map(esc).join(' · ')})</small></td><td class="lib-official-note">${lines(esc(o.note)).replace(/\.<br>\(/g, '. (')}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">원문 열기 ↗</a></td></tr>`;

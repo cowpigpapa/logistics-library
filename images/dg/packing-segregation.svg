@@ -1,0 +1,377 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="930" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="980" y="30" width="662" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">한 컨테이너에 같이 넣을 수 있나: 등급별 격리표</text>
+<text x="54" y="104" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">IMDG Code 7.2.4 격리표(국내 「위험물 선박운송 기준」 별표 18과 같은 값)에서 1급·6.2급·7급을 뺀 부분</text>
+<text x="276.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2.1</text>
+<text x="328.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2.2</text>
+<text x="380.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2.3</text>
+<text x="432.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">3</text>
+<text x="484.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">4.1</text>
+<text x="536.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">4.2</text>
+<text x="588.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">4.3</text>
+<text x="640.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">5.1</text>
+<text x="692.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">5.2</text>
+<text x="744.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">6.1</text>
+<text x="796.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">8</text>
+<text x="848.0" y="164" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">9</text>
+<text x="236" y="211.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">2.1  인화성 가스</text>
+<rect x="250" y="178" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="211.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="302" y="178" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="211.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="354" y="178" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="211.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="406" y="178" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="211.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="458" y="178" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="211.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="510" y="178" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="211.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="562" y="178" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="211.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="614" y="178" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="211.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="666" y="178" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="211.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="718" y="178" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="211.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="770" y="178" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="211.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="822" y="178" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="211.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="263.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">2.2  비인화성 가스</text>
+<rect x="250" y="230" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="263.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="302" y="230" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="263.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="354" y="230" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="263.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="406" y="230" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="263.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="458" y="230" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="263.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="510" y="230" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="263.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="562" y="230" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="263.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="614" y="230" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="263.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="666" y="230" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="263.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="718" y="230" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="263.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="770" y="230" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="263.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="822" y="230" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="263.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="315.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">2.3  독성 가스</text>
+<rect x="250" y="282" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="315.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="302" y="282" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="315.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="354" y="282" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="315.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="406" y="282" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="315.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="458" y="282" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="315.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="510" y="282" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="315.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="562" y="282" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="315.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="614" y="282" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="315.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="666" y="282" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="315.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="718" y="282" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="315.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="770" y="282" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="315.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="822" y="282" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="315.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="367.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">3  인화성 액체</text>
+<rect x="250" y="334" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="367.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="302" y="334" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="367.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="354" y="334" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="367.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="406" y="334" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="367.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="458" y="334" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="367.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="510" y="334" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="367.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="562" y="334" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="367.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="614" y="334" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="367.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="666" y="334" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="367.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="718" y="334" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="367.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="770" y="334" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="367.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="822" y="334" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="367.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="419.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">4.1  가연성 고체</text>
+<rect x="250" y="386" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="419.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="302" y="386" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="419.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="354" y="386" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="419.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="406" y="386" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="419.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="458" y="386" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="419.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="510" y="386" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="419.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="562" y="386" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="419.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="614" y="386" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="419.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="666" y="386" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="419.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="718" y="386" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="419.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="770" y="386" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="419.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="822" y="386" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="419.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="471.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">4.2  자연발화성</text>
+<rect x="250" y="438" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="471.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="302" y="438" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="471.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="354" y="438" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="471.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="406" y="438" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="471.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="458" y="438" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="471.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="510" y="438" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="471.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="562" y="438" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="471.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="614" y="438" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="471.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="666" y="438" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="471.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="718" y="438" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="471.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="770" y="438" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="471.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="822" y="438" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="471.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="523.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">4.3  물 반응성</text>
+<rect x="250" y="490" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="523.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="302" y="490" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="523.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="354" y="490" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="523.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="406" y="490" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="523.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="458" y="490" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="523.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="510" y="490" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="523.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="562" y="490" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="523.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="614" y="490" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="523.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="666" y="490" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="523.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="718" y="490" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="523.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="770" y="490" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="523.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="822" y="490" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="523.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="575.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">5.1  산화성 물질</text>
+<rect x="250" y="542" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="575.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="302" y="542" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="575.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="354" y="542" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="575.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="406" y="542" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="575.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="458" y="542" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="575.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="510" y="542" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="575.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="562" y="542" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="575.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="614" y="542" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="575.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="666" y="542" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="575.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="718" y="542" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="575.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="770" y="542" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="575.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="822" y="542" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="575.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="627.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">5.2  유기과산화물</text>
+<rect x="250" y="594" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="627.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="302" y="594" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="627.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="354" y="594" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="627.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="406" y="594" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="627.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="458" y="594" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="627.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="510" y="594" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="627.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="562" y="594" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="627.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="614" y="594" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="627.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="666" y="594" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="627.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="718" y="594" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="627.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="770" y="594" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="627.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="822" y="594" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="627.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="679.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">6.1  독물</text>
+<rect x="250" y="646" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="679.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="302" y="646" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="679.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="354" y="646" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="679.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="406" y="646" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="679.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="458" y="646" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="679.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="510" y="646" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="679.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="562" y="646" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="679.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="614" y="646" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="679.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="666" y="646" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="679.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="718" y="646" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="679.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="770" y="646" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="679.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="822" y="646" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="679.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="731.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">8  부식성 물질</text>
+<rect x="250" y="698" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="731.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="302" y="698" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="731.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="354" y="698" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="731.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="406" y="698" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="731.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="458" y="698" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="731.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="510" y="698" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="731.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="562" y="698" width="52" height="52" fill="#fff1c2" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="731.0" font-size="19" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<rect x="614" y="698" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="731.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="666" y="698" width="52" height="52" fill="#fde2dc" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="731.0" font-size="19" font-weight="800" fill="#b42318" text-anchor="middle">2</text>
+<rect x="718" y="698" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="731.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="770" y="698" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="731.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="822" y="698" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="731.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="236" y="783.0" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">9  기타</text>
+<rect x="250" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="276.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="302" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="328.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="354" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="380.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="406" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="432.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="458" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="484.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="510" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="536.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="562" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="588.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="614" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="640.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="666" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="692.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="718" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="744.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="770" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="796.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="822" y="750" width="52" height="52" fill="#eaf5ee" stroke="#ffffff" stroke-width="2"/>
+<text x="848.0" y="783.0" font-size="19" font-weight="600" fill="#1f6b46" text-anchor="middle">X</text>
+<rect x="616" y="336" width="48" height="48" fill="none" stroke="#1d2a3a" stroke-width="3"/>
+<circle cx="658" cy="343" r="9" fill="#1d2a3a"/>
+<text x="658" y="348" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="304" y="336" width="48" height="48" fill="none" stroke="#1d2a3a" stroke-width="3"/>
+<circle cx="346" cy="343" r="9" fill="#1d2a3a"/>
+<text x="346" y="348" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="772" y="336" width="48" height="48" fill="none" stroke="#1d2a3a" stroke-width="3"/>
+<circle cx="814" cy="343" r="9" fill="#1d2a3a"/>
+<text x="814" y="348" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="772" y="492" width="48" height="48" fill="none" stroke="#1d2a3a" stroke-width="3"/>
+<circle cx="814" cy="499" r="9" fill="#1d2a3a"/>
+<text x="814" y="504" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
+<rect x="54" y="818" width="56" height="24" rx="4" fill="#fde2dc"/>
+<text x="82" y="836" font-size="16" font-weight="800" fill="#b42318" text-anchor="middle">2·3·4</text>
+<text x="124" y="836" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">같은 컨테이너 금지</text>
+<rect x="54" y="848" width="56" height="24" rx="4" fill="#fff1c2"/>
+<text x="82" y="866" font-size="16" font-weight="800" fill="#8a5a00" text-anchor="middle">1</text>
+<text x="124" y="866" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">"away from": 원칙 금지, IMDG는 당국 승인 때만</text>
+<rect x="54" y="878" width="56" height="24" rx="4" fill="#eaf5ee"/>
+<text x="82" y="896" font-size="16" font-weight="800" fill="#1f6b46" text-anchor="middle">X</text>
+<text x="124" y="896" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">등급표로는 격리 없음, 위험물 목록 16b 확인</text>
+<text x="1004" y="74" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">읽는 법</text>
+<text x="1004" y="118" font-size="18" font-weight="800" fill="#2f5aa8" text-anchor="start">숫자 칸</text>
+<text x="1096" y="118" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">서로 격리해야 하는 조합. 같은 컨테이너에</text>
+<text x="1096" y="144" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">넣지 않습니다(IMDG 7.2.3.2, 저장규칙 제32조).</text>
+<text x="1004" y="188" font-size="18" font-weight="800" fill="#2f5aa8" text-anchor="start">1 칸</text>
+<text x="1096" y="188" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">"away from". IMDG 7.3.4.1은 관할 당국이</text>
+<text x="1096" y="214" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">승인하고 같은 수준의 안전이 있을 때만 허용.</text>
+<text x="1004" y="258" font-size="18" font-weight="800" fill="#2f5aa8" text-anchor="start">X 칸</text>
+<text x="1096" y="258" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">표만으로는 격리 없음. 위험물 목록 16b의</text>
+<text x="1096" y="284" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">격리 코드·격리 그룹이 표보다 우선합니다.</text>
+<text x="1004" y="328" font-size="18" font-weight="800" fill="#2f5aa8" text-anchor="start">부위험성</text>
+<text x="1096" y="328" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">부위험성 라벨이 붙는 물질은 그 등급 줄도</text>
+<text x="1096" y="354" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">같이 보고 더 엄격한 쪽을 따릅니다.</text>
+<text x="1004" y="398" font-size="18" font-weight="800" fill="#2f5aa8" text-anchor="start">같은 급</text>
+<text x="1096" y="398" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">산과 알칼리(격리 그룹 1·18)처럼 같은</text>
+<text x="1096" y="424" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">Class 8끼리도 함께 못 넣는 경우가 있습니다.</text>
+<text x="1004" y="468" font-size="18" font-weight="800" fill="#2f5aa8" text-anchor="start">식품</text>
+<text x="1096" y="468" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">2.3·6.1·6.2·7·8급 등은 식품과 같은 컨테이너</text>
+<text x="1096" y="494" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">금지, 일부는 3m 이상 떼면 허용(7.3.4.2).</text>
+<line x1="1004" y1="520" x2="1618" y2="520" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="1004" y="550" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">예시(표 칸에 표시)</text>
+<circle cx="1015" cy="580" r="11" fill="#1d2a3a"/>
+<text x="1015" y="585" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+<text x="1036" y="586" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">페인트(3) + 표백용 차아염소산칼슘(5.1)</text>
+<text x="1036" y="611" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">2 → 같은 컨테이너 불가</text>
+<circle cx="1015" cy="642" r="11" fill="#1d2a3a"/>
+<text x="1015" y="647" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
+<text x="1036" y="648" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">페인트(3) + 소화기(2.2)</text>
+<text x="1036" y="673" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">1 → 원칙 불가, IMDG는 당국 승인 때만</text>
+<circle cx="1015" cy="704" r="11" fill="#1d2a3a"/>
+<text x="1015" y="709" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">C</text>
+<text x="1036" y="710" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">페인트(3) + 부식성 세척제(8)</text>
+<text x="1036" y="735" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">X → 위험물 목록 16b 확인 뒤 판단</text>
+<circle cx="1015" cy="766" r="11" fill="#1d2a3a"/>
+<text x="1015" y="771" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
+<text x="1036" y="772" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">물 반응성 물질(4.3) + 부식성 물질(8)</text>
+<text x="1036" y="797" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="start">1 → 원칙 불가</text>
+</svg>

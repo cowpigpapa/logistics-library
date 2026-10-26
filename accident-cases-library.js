@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/accident-cases';
-  const DOCS_VERSION = 'h9d7838ad';
+  const DOCS_VERSION = 'h5615904c';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -27,7 +27,7 @@
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
-    { id: 'ac-all', checked: '2026-10-26', tag: "사례", level: 3, title: "전체 사고 사례 찾기 — 14개 분야 264건을 분야·국내외·운송·유형으로", short: "전체 사고 사례 찾기", summary: "포워더·화주가 겪는 사고와 판결·처분 264건을 분야(Incoterms부터 화물보험까지 14개), 국내·해외, 해상·항공·도로·창고, 판결·처분·사고 유형으로 거르고 이름·화물·쟁점으로 찾아 각 사례로 바로 갑니다." }
+    { id: 'ac-all', checked: '2026-10-26', tag: "사례", level: 3, title: "전체 사고 사례 찾기 — 14개 분야 267건을 분야·국내외·운송·유형으로", short: "전체 사고 사례 찾기", summary: "포워더·화주가 겪는 사고와 판결·처분 267건을 분야(Incoterms부터 화물보험까지 14개), 국내·해외, 해상·항공·도로·창고, 판결·처분·사고 유형으로 거르고 이름·화물·쟁점으로 찾아 각 사례로 바로 갑니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -64,7 +64,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>흩어진 사고 사례를 한 표로</h2><p>사고 사례는 분야마다 마지막 장에 있습니다. 이 모음은 14개 분야의 사례 264건을 한 표로 모아 분야, 국내·해외, 운송·장소, 유형으로 거르고, 누르면 그 사례로 바로 갑니다.</p><a class="lib-summary-button" href="${link('ac-all')}">전체 사례 찾기 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('각 분야의 사고 사례 문서에서 모은 목록입니다. 사례의 경위, 판단, 교훈과 출처는 각 사례 문서에 있습니다. 판례와 처분의 결론은 그 사건의 사실관계와 당시 법에 따른 것입니다. 해설은 AI가 작성했으며 법률 자문이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>흩어진 사고 사례를 한 표로</h2><p>사고 사례는 분야마다 마지막 장에 있습니다. 이 모음은 14개 분야의 사례 267건을 한 표로 모아 분야, 국내·해외, 운송·장소, 유형으로 거르고, 누르면 그 사례로 바로 갑니다.</p><a class="lib-summary-button" href="${link('ac-all')}">전체 사례 찾기 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('각 분야의 사고 사례 문서에서 모은 목록입니다. 사례의 경위, 판단, 교훈과 출처는 각 사례 문서에 있습니다. 판례와 처분의 결론은 그 사건의 사실관계와 당시 법에 따른 것입니다. 해설은 AI가 작성했으며 법률 자문이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

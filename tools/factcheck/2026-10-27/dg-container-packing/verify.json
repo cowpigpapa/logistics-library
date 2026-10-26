@@ -1,0 +1,200 @@
+[
+ {
+  "file": "dg-container-packing.html",
+  "claim": "KOMDI가 위험물 컨테이너는 CSC 승인 외에 정기 점검(PES)·계속 점검(ACEP) 유효기간 안에 있어야 한다고 안내한다 / '일반 컨테이너를 쓸 수 있다'",
+  "verdict": "wrong",
+  "evidence": "https://www.komdi.or.kr/ukiwi/biz/cust/ukiwiBizCustFAQList.do 위험물 검사 준비 2번: \"위험물의 운송을 위한 별도의 컨테이너는 존재하지 않으며, 일반 컨테이너를 사용하여도 위험물 운송이 가능합니다. 다만, 1972년 안전한 컨테이너를 위한 국제협약(CSC)에 따라 승인된 컨테이너이어야 하며, 구조 및 강도 등에 관한 결함없이 위험물을 수납하기에 적합하여야 합니다.\" PES/ACEP는 KOMDI 안내에 없음. 항만 점검 근거는 「위험물컨테이너 등의 점검에 관한 요령」 별표 5 \"컨테이너에 유효한 안전승인판이 부착되어 있는지 여부를 확인한다\"(https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&type=XML&ID=2100000192524). 또 tools/STYLE.md 124행: \"드라이 컨테이너(GP). '일반 (화물)컨테이너' ... 쓰지 않는다\".",
+  "old": "KOMDI는 위험물 전용 컨테이너가 따로 있는 것이 아니며 일반 컨테이너를 쓸 수 있지만, CSC에 따라 승인되고 정기 점검(PES)이나 계속 점검(ACEP)의 유효기간 안에 있으며 구조·강도에 결함이 없어야 한다고 안내합니다.",
+  "fix": "KOMDI는 위험물 전용 컨테이너가 따로 있는 것이 아니며 드라이 컨테이너(GP) 같은 보통 컨테이너를 쓸 수 있지만, CSC에 따라 승인되고 구조·강도에 결함이 없어 위험물을 넣기에 알맞아야 한다고 안내합니다. 항만의 위험물컨테이너 점검에서도 유효한 CSC 안전승인판이 붙어 있는지 확인합니다(점검 요령 별표)."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "포장 위험물을 화물창에 바로 싣는 경우는 (모두) 선장이 받는 적재검사(제204조)의 영역",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=240831 저장규칙 제204조①: 선장은 \"다음 각 호의 위험물을 운송하려는 경우\" 검사를 받는다 — 1. 해양수산부장관이 정하는 화약류 2. 용적 300세제곱미터 이상의 액화가스 외의 고압가스 또는 질량 3천킬로그램 이상의 액화가스 3. 장관이 정하는 독물 4. 장관이 정하는 유기과산화물. 고시 제20조(https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&type=XML&ID=2100000280940): 1.1·1.2·1.5 순화약질량 250kg 이상 등, 6.1·6.2 용기등급 1 순성분 15kg 이상, 온도관리 유기과산화물. 화물창 직적재 포장 위험물 전부가 대상은 아님.",
+  "old": "포장 위험물을 컨테이너에 넣지 않고 선박 화물창에 바로 싣는 경우는 수납검사가 아니라 선장이 받는 적재검사(제204조)의 영역이고",
+  "fix": "포장 위험물을 컨테이너에 넣지 않고 선박 화물창에 바로 싣는 경우는 수납검사가 아니라 선장이 받는 적재검사(제204조)의 영역이고(고시 제20조가 정한 일정량 이상의 화약류·독물, 온도 관리가 필요한 유기과산화물, 300㎥ 이상의 고압가스나 3,000kg 이상의 액화가스만 대상)"
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "냉매 포장물 표시·환기 CTU·포장하지 않은 드라이아이스 30mm 이격의 근거를 '5.5.3.3·5.5.3.5'로 인용",
+  "verdict": "wrong",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.556(108).pdf 5.5.3.3 Packages containing a coolant or conditioner (\"shall be transported in well-ventilated cargo transport units\"), 5.5.3.4 Marking of packages containing a coolant or conditioner (\"proper shipping name ... followed by the words 'AS COOLANT' or 'AS CONDITIONER'\"), 5.5.3.5 CTUs containing unpackaged dry ice (\"a minimum of 30 mm separation\"). 포장물 표시는 5.5.3.4.",
+  "old": "드라이아이스가 승화한 뒤에도 포장물이 제자리에 있게 합니다(5.5.3.3·5.5.3.5).",
+  "fix": "드라이아이스가 승화한 뒤에도 포장물이 제자리에 있게 합니다(5.5.3.3~5.5.3.5)."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "컨테이너 네 면에 '주위험성 표찰'만 붙인다고 서술(부위험성 표찰 누락)",
+  "verdict": "wrong",
+  "evidence": "MSC.556(108) 5.3.1.1.3: \"Placards shall also be displayed for those subsidiary hazards for which a subsidiary hazard label is required according to 5.2.2.1.2. However, cargo transport units ... containing goods of more than one class need not bear a subsidiary hazard placard if the hazard represented by that placard is already indicated by a primary hazard placard.\" 5.3.1.1.4.1 .1 freight container: one on each side and one on each end; 5.3.1.2.2 최소 250 mm × 250 mm.",
+  "old": "네 곳에 주위험성 표찰(최소 250mm × 250mm)을 붙이고",
+  "fix": "네 곳에 주위험성 표찰과, 부위험성 라벨이 필요한 위험물이면 부위험성 표찰(최소 250mm × 250mm)을 붙이고"
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "CPC 항목 .5 '산적한 화물을 고르게 펼쳤다'(용어)",
+  "verdict": "wrong",
+  "evidence": "tools/STYLE.md 131행: \"벌크 화물(산적 ×, 법령 이름 인용 제외)\". IMDG 5.4.2.1 .5 원문 \"Goods loaded in bulk have been evenly distributed within the container/vehicle\". 내용은 맞고 용어만 사이트 기준 위반.",
+  "old": "<td>산적한 화물을 고르게 펼쳤다</td>",
+  "fix": "<td>벌크로 실은 화물을 고르게 펼쳤다</td>"
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "(작성자 추론) 수납검사 대상인데 검사를 받지 않으면 「선박안전법」 과태료(제89조②24) — 10절 표",
+  "verdict": "unclear",
+  "evidence": "법령 구조상 근거는 있음: 저장규칙 제1조 \"이 규칙은 「선박안전법」 제41조, 제41조의2 및 제65조에 따른 ... 사항을 규정함을 목적으로 한다\"(MST=240831); 제205조① 검사는 \"관할지방해양수산청장등에게\" 받음; 선박안전법 시행령 제21조①8의2 \"법 제41조제2항에 따른 위험물의 적재ㆍ운송ㆍ저장 방법의 적합 여부에 관한 검사 또는 승인\" 권한을 지방해양수산청장에게 위임(https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=266313); 법 제89조②24 \"정당한 사유 없이 제41조제2항의 규정에 따른 ... 검사 또는 승인을 받지 아니한 자\" 500만원 이하(시행령 별표 처목: 1회 200·2회 350·3회 이상 500만원)(MST=246611). 그러나 수납검사 미수검을 제89조②24로 직접 연결한 조문·공개 부과 사례는 찾지 못함 → 단정 대신 '대상이 될 수 있음'. 7절 본문(제41조②, 제89조②23·24 설명)은 법조문 그대로라 맞음.",
+  "old": "<td>검사증이 없어 선적 불가, 「선박안전법」 과태료</td>",
+  "fix": "<td>검사증이 없어 선적 불가. 수납검사는 「선박안전법」 제41조제2항의 검사로 운영되므로 받지 않으면 같은 법 제89조제2항제24호의 과태료 대상이 될 수 있음</td>"
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "검사증이 없으면 선장이 선적을 받지 않는다(저장규칙 제205조제5항, 제16조제5항)",
+  "verdict": "unclear",
+  "evidence": "MST=240831 제205조⑤ \"위험물컨테이너수납검사증을 발급받은 자는 선적 전에 해당 위험물컨테이너수납검사증을 선장에게 제출하여야 한다.\" 제16조⑤ \"선장은 제1항에 따른 위험물명세서가 제출되지 아니하거나 위험물의 안전운송에 지장이 있다고 인정되는 경우에는 해당 위험물의 선적을 거부할 수 있다.\" 검사증 미제출 자체를 선적 거부 사유로 정한 조문은 없음. 근거를 나눠 쓰는 편이 정확.",
+  "old": "실무에서 더 직접적인 결과는 검사증이 없어 선장이 선적을 받지 않는 것입니다(저장규칙 제205조제5항, 제16조제5항).",
+  "fix": "실무에서 더 직접적인 결과는 선적이 막히는 것입니다. 검사증은 선적 전에 선장에게 내야 하고(저장규칙 제205조제5항), 선장은 위험물의 안전 운송에 지장이 있다고 보면 선적을 거부할 수 있습니다(제16조제5항)."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "점검 요령: 기준에 맞지 않으면 '운송인'에게 위반통지서",
+  "verdict": "unclear",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&type=XML&ID=2100000192524 제6조② \"선장, 수하인(受荷人), 송하인(送荷人) 또는 그 대리인(이하 '운송인'이라 한다)\"; 제11조② 위반통지서는 이 '운송인'에게 교부. 요령의 '운송인'은 송하인·수하인을 포함하는 특수 정의라 선사로만 읽힐 수 있음. 위반통지·10일 이의신청·제11조④ 과태료 4개 사유는 맞음.",
+  "old": "기준에 맞지 않으면 운송인에게 위반통지서를 주고",
+  "fix": "기준에 맞지 않으면 운송인(요령은 선장·송하인·수하인과 그 대리인을 함께 '운송인'이라 부릅니다)에게 위반통지서를 주고"
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "UN 3359 서류에 '남은 훈증제 처리 방법을 적는다'",
+  "verdict": "unclear",
+  "evidence": "MSC.556(108) 5.5.2.4.1 서류 기재: \".1 UN 3359, fumigated cargo transport unit, 9 ... .2 The date and time of fumigation; and .3 The type and amount of the fumigant used.\" 5.5.2.4.3 \"Instructions for disposal of any residual fumigant including fumigation devices (if used) shall be provided.\" 처리 지침은 제공 의무이고 운송서류 기재 항목은 아님.",
+  "old": "훈증제 종류·양과 남은 훈증제 처리 방법을 적는다",
+  "fix": "훈증제 종류·양을 적고, 남은 훈증제(훈증 장치 포함)의 처리 방법을 따로 제공한다"
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "12절 설명 문구 '페인트와 표백제처럼 ... 한 컨테이너에 넣을 수 없으니'",
+  "verdict": "unclear",
+  "evidence": "도해 예시 A는 페인트(3)+표백용 차아염소산칼슘(5.1)=2로 맞음(IMDG 7.2.4, 3행 5.1열 '2'). 그러나 흔한 액체 표백제(차아염소산나트륨 용액, UN 1791 HYPOCHLORITE SOLUTION)는 Class 8이고 격리표 3행 8열은 'X'(16b 확인)라 '표백제' 일반으로 쓰면 도해·격리표와 어긋날 수 있음.",
+  "old": "페인트와 표백제처럼 서로 반응할 수 있는 위험물은",
+  "fix": "페인트와 표백분(차아염소산칼슘)처럼 서로 반응할 수 있는 위험물은"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 1 교훈: 법원은 겉으로 이상 없는 하주적입 컨테이너를 운송인이 열어 볼 의무를 인정하지 않았고, 손해의 책임은 포장·적입한 쪽에 남는다",
+  "verdict": "unclear",
+  "evidence": "https://law.go.kr/LSW/precInfoP.do?mode=0&precSeq=191523 (DRF target=prec ID=191523) 판결요지[3]: \"...그 컨테이너는 외관상 아무런 이상이 없었고 또한 위 화학물질이 위험물선박운송및저장규칙이나 국제해상위험물규칙상 위험물로 분류되어 있지 아니하므로 ... 컨테이너를 열고 ... 살피지 아니하였다고 하더라도 이를 잘못이라고 할 수 없고\". 의무 부정은 '당시 위험물이 아니었다'는 조건이 붙은 판단이고, 피고는 실제운송인뿐이라 송하인·적입자의 책임은 판단되지 않음. '손해의 책임은 포장·적입한 쪽에 남는다'는 판결 밖의 추론.",
+  "old": "컨테이너 안의 포장과 고박이 원인인 사고에서 법원은 겉으로 이상 없는 하주적입 컨테이너를 운송인이 열어 볼 의무를 인정하지 않았고, 손해의 책임은 포장·적입한 쪽에 남습니다.",
+  "fix": "컨테이너 안의 포장과 고박이 원인인 사고에서 법원은 당시 위험물이 아니었고 겉으로 이상 없던 하주적입 컨테이너를 운송인이 열어 볼 의무를 인정하지 않았습니다. 운송인에게 책임을 물을 수 없으면 손해는 포장·적입한 쪽을 상대로 따질 수밖에 없습니다(이 판결이 송하인의 책임을 직접 판단한 것은 아닙니다)."
+ },
+ {
+  "file": "meta.json",
+  "claim": "\"checked\": \"2026-10-26\"",
+  "verdict": "unclear",
+  "evidence": "본문 면책 문구는 \"2026년 10월 26일~27일에 확인\", 10절 WSC 출처와 cases.html 출처는 \"2026. 10. 27. 확인\". 마지막 확인일에 맞추려면 2026-10-27.",
+  "old": "\"checked\": \"2026-10-26\"",
+  "fix": "\"checked\": \"2026-10-27\""
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "「위험물 선박운송 기준」 해양수산부고시 제2026-67호(시행 2026. 6. 21.) 제21조 수납검사 대상 표(1·2급 전부, 3급은 고인화점 무부표찰 제외, 4급 PG1 또는 PG2·3+부표찰, 5.1 PG1·2 또는 PG3+부표찰, 5.2 전부, 6급 PG1·2 또는 PG3+부표찰, 8급 부표찰 3 또는 6.1만, 9급 자동차만)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&type=XML&ID=2100000280940 (발령번호 2026-67, 시행 20260621, 현행) 제21조 각 호 원문과 일치. 고인화점 정의(인화점 23℃ 이상 60℃ 이하 등)는 저장규칙 제2조. 고시 제4조의2·제4조의3·제9조·제11조·제13조·별표 18 비고 가·나·사도 일치."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "저장규칙(해양수산부령 제486호, 시행 2022. 5. 18.) 제16조①②④⑤⑥⑦, 제20조, 제26조①, 제30조~제35조, 제205조①②④~⑨, 제213조",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=240831 (공포번호 00486, 시행 20220518) 원문 일치: 제32조①(품명이 다른 위험물·비위험물 화물의 위험한 작용) ②(제20조 격리 대상), 제33조④ 훈증소독주의 부표찰 ⑤ 냉각제 주의 부표찰 ⑥ 제거, 제34조⑥ AS COOLANT ⑦ 제어·비상온도, 제35조③ 투입 후 최소 24시간 ④ 송하인 사전 정보, 제205조② 외국항 수납·탱크컨테이너 면제, ⑨ 임의 검사."
+ },
+ {
+  "file": "images/dg/packing-segregation.svg",
+  "claim": "격리표 12×12(2.1~9, 1급·6.2·7 제외) 값이 IMDG 7.2.4와 정확히 일치하고 별표 18과 같은 값; 예시 A~D 배지 위치",
+  "verdict": "correct",
+  "evidence": "MSC.556(108) 7.2.4 segregation table과 고시 별표 18 포장위험물 상호간 격리표를 144칸 전부 대조해 일치(예: 2.1-4.3=2, 3-4.3=2, 3-2.2=1, 4.3-8=1, 6.1-5.1=1, 9행 전부 X). 배지 A(3행·5.1열=2), B(3행·2.2열=1), C(3행·8열=X), D(4.3행·8열=1) 모두 해당 칸에 있음. 범례(7.2.3.2, 7.3.4.1, 16b 우선, 7.3.4.2 식품)도 원문과 맞음."
+ },
+ {
+  "file": "images/dg/packing-flow.svg",
+  "claim": "흐름도 일곱 칸 문구와 근거(저장규칙 제16·31·32·34·35·205조, 고시 제21조, 선박입출항법 제32조·시행규칙 제14·15조, 1.1~1.3 화약류·6.2급·방사성 물질 반입 제한, 증인 입회 개방)",
+  "verdict": "correct",
+  "evidence": "MST=240831 제35조② \"증인이 참관한 상태에서 컨테이너를 개방\"; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=266487 시행규칙 제15조①(저장규칙 제3조제1호 가·나·다목=1.1·1.2·1.3, 제6호나목=6.2, 제7호 방사성). 포워더에게 개봉·검사를 시키는 문구 없음."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "IMDG 5.4.2.1 CPC 아홉 항목·이동식 탱크 제외, 5.4.2.2~5.4.2.4, 5.4.1.6 신고 문구·출하자 서명, 5.4.5 MDGF(양식 비의무, CPC 칸·뒷면 box 20 문구), 5.4.6 출하자·운송인 최소 3개월 보관",
+  "verdict": "correct",
+  "evidence": "MSC.556(108): 5.4.2.1 .1~.9와 Note \"not required for portable tanks\"; 5.4.2.2 \"It is declared that the packing of the goods into the container/vehicle has been carried out in accordance with the applicable provisions\"; 5.4.5.1 \"the layout of this form is not mandatory\"; MDGF \"MUST BE COMPLETED AND SIGNED FOR ALL CONTAINER/VEHICLE LOADS BY PERSON RESPONSIBLE FOR PACKING/LOADING\", 뒷면 \"The signature given overleaf in box 20 must be that of the person controlling the container/vehicle operation\"; 5.4.1.6.1 \"The certification shall be signed and dated by the consignor\"; 5.4.6.1 \"The consignor and the carrier shall retain a copy ... for a minimum period of three months.\""
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "IMDG 7.2.3.2, 7.3.4.1(away from만 당국 승인), 7.3.4.2(2.3·6.1·6.2·7(UN 2908~2911 제외)·8, SG29·SG50; 3m 예외), 7.2.3.1·7.2.3.3·7.2.3.4, 7.2.5(18개 격리 그룹, N.O.S.는 출하자 판단·서류 기재), 7.2.5.4, 7.2.6.1, 7.2.6.3, 7.3.2.1, 7.3.3, 7.3.5, 7.1.2, 5.3.1(3개월 침수, 9A 표찰 금지, 4,000kg UN 번호)",
+  "verdict": "correct",
+  "evidence": "MSC.556(108) 원문 일치. 7.2.3.2 \"not permitted to be packed in the same outer packaging; and not permitted to be transported in the same cargo transport unit except as provided in 7.2.6 and 7.3.4\"; 7.3.4.1 \"...with the exception of dangerous goods which shall be segregated 'away from' each other which may be transported in the same cargo transport unit with the approval of the competent authority\"; 7.3.4.2.1 \"...segregation code SG29 or SG50 in column 16b ... shall not be transported together with foodstuffs\"."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "훈증 표지(5.5.2): 출입구마다, 흰 바탕 검은 글씨, 최소 400mm×300mm, 글자 25mm, 개정 41-22 옛 표지 2026. 12. 31.까지, 24시간, 선적 후 투입 금지; 냉매 표지(5.5.3.6): 최소 150mm×250mm, WARNING 빨강 또는 흰색 25mm 이상, 품명 대문자 한 줄 25mm; 5.5.3.7 서류 문구",
+  "verdict": "correct",
+  "evidence": "MSC.556(108) 5.5.2.3.3 \"minimum dimensions shall be 400 mm wide × 300 mm high ... black print on a white background with lettering not less than 25 mm high\"; Note \"The fumigation warning mark in 5.5.2.3.2 of the IMDG Code Amendment 41-22 may continue to be applied until 31 December 2026.\"; 5.5.3.6.2 \"minimum dimensions shall be 150 mm wide × 250 mm high. The word 'WARNING' shall be in red or white and be at least 25 mm high\"; 5.5.3.7.1 \"For example: UN 1845, CARBON DIOXIDE, SOLID, AS COOLANT.\""
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "CTU Code 4.2.2~4.2.4, 10.1.1~10.1.6, 10.2.1~10.2.10, 10.3.1~10.3.8, 11.2, 11.3.6, 12.1.5, 부속서 7 3.2.7, 부속서 9",
+  "verdict": "correct",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf 4.2 packer: \"Providing the container/vehicle packing certificate (new document or signed statement in the dangerous goods transport documentation as appropriate)\"; 11.3.1 \"In conformance with paragraph 4.2.4, the shipper is responsible...\"; 10.3.2 \"...e.g., acids and alkalis of class 8. The requirements of the IMDG Code ... are usually more stringent than those for road and rail transport\"; 10.3.8 \"annex 7, subsection 3.2.7\"; 12.1.5 \"ascertained by measurement\"; 부속서 9 1.2 \"throwing in a fumigation bomb just before the CTU doors are closed ... is not permitted under ISPM 15\", 4.2 \"desorbed over a long period of time, even over many days\"."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "선박안전법(시행 2023. 6. 28.) 제41조②, 제41조의2①, 제89조②23·24·24의2(500만원 이하 과태료), 제85조 제1호의3(거짓·부정 검사 1천만원 이하 벌금)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=246611 제85조 \"1의3. 거짓이나 그 밖의 부정한 방법으로 제41조제2항의 규정에 따른 위험물의 적재ㆍ운송 또는 저장방법의 적합 여부에 관한 검사를 받거나 승인을 얻은 자\"(1천만원 이하 벌금); 제89조② 500만원 이하 과태료 23·24·24의2호 원문 일치."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "선박입출항법 제32조①③④(통지 의무자: 해상화물운송사업자·국제물류주선업자·해운대리점·수출입 화주), 제34조, 제59조②15·15의2(200만원 이하, 통지 못 받은 신고자 제외); 시행규칙 제14조, 제15조①②, 제15조의2",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=285971 (법률 제21638호, 2026. 5. 12. 공포·일부 시행[제4조·제55조], 나머지 2026. 11. 13. 시행 예정) 및 직전 MST=265951 비교: 제32조·제34조·제59조②15·15의2 내용 동일. MST=266487 시행규칙 제14조(24시간 전, 육상은 들여오기 전, 확인란 날인)·제15조·제15조의2 원문 일치. 면책 문구 '시행 2026. 5. 12.'은 현재 적용 판으로 맞음."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "「위험물컨테이너 등의 점검에 관한 요령」(고시 제2020-145호) 제7조(PORT-MIS 반입신고 자료로 대상 선정, 컨테이너위험물명세서 = Multi modal Dangerous Goods Form), 제8조, 제11조(위반통지, 10일 이의, 과태료 4개 사유), 별표 점검 항목",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&type=XML&ID=2100000192524 원문 일치. 제11조④ \"1. 선박 안에 컨테이너 위험물명세서 또는 위험물운송적합증을 비치하지 아니하거나 허위로 기재한 경우 2. 유엔마크가 표시되지 않은 용기를 사용한 경우 3. 용기의 손상 등으로 인하여 내용물이 유출되는 경우 4. 컨테이너 내부의 위험물이 이동, 전도 또는 파손된 경우\"; 별표 1.가.① \"4측면에 적절한 표찰(한변이 25cm 이상의 것)\"."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "KOMDI 관련: 1990년 정부 대행, 본부(안양)·7개 지부, 기본 신청 서류 4종, MSDS 운송 정보·운송인 제공, 수납검사 신청 시 용기·포장검사 별도 신청 불필요, 격리 점검 메시지는 일반규정만 반영한 참고용, 일반 화물 혼적 가능(식품·일부 독성·감염성 예외), 하송인이 적입하지 않으면 서류 사전 검토, 국제물류주선업자 중 위험물 취급자 초기교육 대상",
+  "verdict": "correct",
+  "evidence": "https://www.komdi.or.kr/ukiwi/biz/cust/ukiwiBizCustFAQList.do 검사 신청 1·2·4·5·6번, 검사 준비 6·7번, 교육 2-1 1번 원문 일치; https://www.komdi.or.kr/ukiwi/biz/intro/introStatus.do \"1990년 2월 16일 위험물 검사업무 정부대행\", 주소 경기도 안양시; https://www.komdi.or.kr/ukiwi/biz/dngr/guide/ukiwiBizDngrGuide.do \"포장된 위험물을 컨테이너에 수납하는 경우의 법정검사\"."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "WSC: 2025년 7개국(칠레·핀란드·독일·네덜란드·한국·스웨덴·미국)이 IMO에 보고한 93,079개 점검 중 9,645개(10.36%) 결함, 서류·표시·라벨·부적절한 적입·불충분한 고박; 발표 2026-09-14",
+  "verdict": "correct",
+  "evidence": "https://www.worldshipping.org/news/one-in-ten-inspected-cargo-units-found-with-safety-deficiencies (14 September 2026): 93,079 unit inspections in 2025, deficiencies in 9,645 (10.36%), \"Problems included incorrect documentation, marking and labelling, improper packing and inadequate cargo securing\"."
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 1 사실관계와 인용: 이산화티오요소 300드럼, 1994. 3. 28. 부산 환적, 1994. 4. 28. 노퍽 2번 선창 연기, 금속 드럼·버팀대 없음, 필름 2,941롤 폐기, 환기통 폐쇄·CO2 주입, 192,167.36달러, 운송계약·불법행위 책임 부정, 상고기각, 원심 서울지법 1999. 9. 3. 98나59377; 현재 UN 3341 Class 4.2; 1984 82가합6826 대비",
+  "verdict": "correct",
+  "evidence": "대법원 2001. 7. 10. 선고 99다58327 판결(https://law.go.kr/LSW/precInfoP.do?mode=0&precSeq=191523) 원문 일치; MSC.556(108) DGL \"3341 THIOUREA DIOXIDE 4.2 ... II / III\". 1984 서울민사지법 82가합6826(운송인 화재 면책 부정)은 기존 case-kr-litigation#c3과 일치. 국내 회사 실명 없음. 99다58327은 기존 사이트 문서에 아직 없음(중복 아님)."
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 2: 2019년 2월 ILT·세관, 남미→아시아 환적 컨테이너 27개, 오래된 폐기 판정 배터리, 서류·표시 미기재, 팔레트 미고정, 선사에 last onder bestuursdwang, 송하인 비용으로 전문 업체; ILT 원문 주소 접속 불가",
+  "verdict": "correct",
+  "evidence": "https://www.bijzonderstrafrecht.nl/home/containers-met-gevaarlijke-stoffen-onderschept-door-ilt-en-douane: \"27 containers vol met oude afgekeurde accu's onderschept. Deze waren via Rotterdam onderweg van Zuid Amerika naar Azië\", \"Tegen de rederij is een zogenoemde Last onder bestuursdwang opgelegd\", \"Op kosten van de afzender is een gespecialiseerd bedrijf ingeschakeld\". ilent.nl 원문 URL은 2026-10-27 HTTP 404."
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 3: 같은 선사·항로 연속 3항차 표본 점검, 컨테이너 4개, 80여 톤 중 50~60톤, 품목 목록, 생리대 신고, 2025. 8. 불입건(절차·비용 절감 목적), 2026. 4. 연구기관 보고서 검찰 보충, 2026. 6. 포산·광저우·하이난 물류업체 危险作业罪 입건, 2026. 8. 3. 연합조사조 통보, 8. 1.부터 '清源除患' 100일 정비",
+  "verdict": "correct",
+  "evidence": "https://www.yicai.com/news/103314048.html (2026-08-11): \"在同一个船公司同一条航线连续三个航次抽查发现有4个集装箱存在问题，总共估算80多吨货物里有大约五六十吨危险货物和危险化学品\", \"涉事主体主观上是为了省手续和成本\", \"2026年4月，港航管理处向海口市人民检察院补充国内权威科研院所出具的《海口港秀英港区集装箱危险货物现实危险性科学研究报告》\", \"今年6月，有关部门对涉事的佛山、广州和海南物流企业以涉嫌危险作业罪进行立案\"; https://www.yzwb.net/news/sh/202608/t20260807_380232.html: 8월 3일 통보 \"公安机关已于今年6月依法立案查处\", '妇女卫生巾' 신고, 8월 1일 시작한 \"清源除患\"百日专项整治."
+ },
+ {
+  "file": "dg-container-packing.html",
+  "claim": "포워더 역할 한정·금지 사항·기존 문서와의 일치(포워더는 개봉·검사하지 않고 서류 대조; 국내 회사 실명·현재 운임/할증료 금액 없음)",
+  "verdict": "correct",
+  "evidence": "본문 전체 검토: 포워더에게 개봉·검사를 지시하는 문장 없음(1·3·9·11절 모두 서류 대조, 고박은 적입 업체에 사진·기록 요청). 회사 실명은 공공기관 KOMDI뿐, 금액은 법정 과태료·벌금 상한만. dg-lithium 7절(리튬배터리는 제205조제9항 임의 검사, 반입신고 통지·200만원), dg-marks 4절(250mm 표찰 네 면, 4,000kg UN 번호, 9A 표찰 미사용), dg-forwarder(제89조②24의2 500만원)와 모순 없음. 본문의 dg-lithium 링크(7절)는 실제 '서류, 부킹과 국내 수출 절차' 절과 맞음."
+ }
+]

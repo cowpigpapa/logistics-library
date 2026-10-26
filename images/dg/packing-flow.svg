@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start">위험물 컨테이너가 배에 오르기까지: 누가 무엇을 하나</text>
+<text x="54" y="106" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">국내 수출항(무역항) 기준. 칸마다 "포워더가 볼 것"은 포워더가 서류로 확인하는 점입니다.</text>
+<rect x="54" y="128" width="373" height="356" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="84" cy="162" r="18" fill="#1d2a3a"/>
+<text x="84" y="169" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="112" y="170" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">부킹과 위험물 신청</text>
+<rect x="74" y="192" width="144" height="30" rx="15" fill="#c2410c" fill-opacity="0.12" stroke="#c2410c" stroke-width="1.5"/>
+<text x="85" y="213" font-size="17" font-weight="700" fill="#c2410c" text-anchor="start">포워더 → 선사</text>
+<text x="74" y="256" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">UN 번호·정식운송품명·급·용기등급·수량을</text>
+<text x="74" y="284" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">선사에 따로 신청하고 승인을 받는다.</text>
+<text x="74" y="312" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">선박·항로·항만의 접수 조건을 확인한다.</text>
+<line x1="74" y1="354" x2="407" y2="354" stroke="#e3e8ee" stroke-width="1.5"/>
+<rect x="74" y="370" width="5" height="46" fill="#c2410c"/>
+<text x="88" y="388" font-size="16" font-weight="700" fill="#c2410c" text-anchor="start">포워더가 볼 것</text>
+<text x="88" y="414" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">화주 SDS 14항과 신청 내용이 같은가</text>
+<text x="74" y="466" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">선사 접수 절차 · 저장규칙 제16조</text>
+<rect x="451" y="128" width="373" height="356" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="481" cy="162" r="18" fill="#1d2a3a"/>
+<text x="481" y="169" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="509" y="170" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">위험물 서류</text>
+<rect x="471" y="192" width="129" height="30" rx="15" fill="#1f6fd1" fill-opacity="0.12" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="482" y="213" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">화주(송하인)</text>
+<text x="471" y="256" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물 명세서(위험물 신고서)에 분류·포장·</text>
+<text x="471" y="284" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">표시가 규정에 맞는다고 서명한다.</text>
+<text x="471" y="312" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">SDS, UN 규격 용기 검사증을 준비한다.</text>
+<line x1="471" y1="354" x2="804" y2="354" stroke="#e3e8ee" stroke-width="1.5"/>
+<rect x="471" y="370" width="5" height="46" fill="#c2410c"/>
+<text x="485" y="388" font-size="16" font-weight="700" fill="#c2410c" text-anchor="start">포워더가 볼 것</text>
+<text x="485" y="414" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">UN 번호·용기등급·수량이 서류마다 같은가</text>
+<text x="471" y="466" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">IMDG 5.4.1 · 저장규칙 제16조</text>
+<rect x="848" y="128" width="373" height="356" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="878" cy="162" r="18" fill="#1d2a3a"/>
+<text x="878" y="169" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="906" y="170" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">적입</text>
+<rect x="868" y="192" width="221" height="30" rx="15" fill="#a8743a" fill-opacity="0.12" stroke="#a8743a" stroke-width="1.5"/>
+<text x="879" y="213" font-size="17" font-weight="700" fill="#a8743a" text-anchor="start">적입자(화주·적입 업체)</text>
+<text x="868" y="256" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너 상태 점검, 손상 포장물 제외,</text>
+<text x="868" y="284" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">격리 대상 혼적 금지, 드럼은 세워서,</text>
+<text x="868" y="312" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">고박하고 네 면에 표찰을 붙인다.</text>
+<line x1="868" y1="354" x2="1201" y2="354" stroke="#e3e8ee" stroke-width="1.5"/>
+<rect x="868" y="370" width="5" height="46" fill="#c2410c"/>
+<text x="882" y="388" font-size="16" font-weight="700" fill="#c2410c" text-anchor="start">포워더가 볼 것</text>
+<text x="882" y="414" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">적입 장소·일시와 적입 책임자가 정해졌나</text>
+<text x="868" y="466" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">CTU Code 10장 · IMDG 7.3 · 저장규칙 제31·32조</text>
+<rect x="1245" y="128" width="373" height="356" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="1275" cy="162" r="18" fill="#1d2a3a"/>
+<text x="1275" y="169" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="1303" y="170" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">적입 증명과 명세서</text>
+<rect x="1265" y="192" width="114" height="30" rx="15" fill="#a8743a" fill-opacity="0.12" stroke="#a8743a" stroke-width="1.5"/>
+<text x="1276" y="213" font-size="17" font-weight="700" fill="#a8743a" text-anchor="start">적입 책임자</text>
+<rect x="1386.8" y="192" width="68" height="30" rx="15" fill="#1f6fd1" fill-opacity="0.12" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="1397.8" y="213" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">송하인</text>
+<text x="1265" y="256" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">적입 책임자가 컨테이너 적입 증명서(CPC)에,</text>
+<text x="1265" y="284" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">송하인이 컨테이너마다 컨테이너 위험물</text>
+<text x="1265" y="312" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">명세서에 서명한다(한 서식으로 합칠 수 있다).</text>
+<line x1="1265" y1="354" x2="1598" y2="354" stroke="#e3e8ee" stroke-width="1.5"/>
+<rect x="1265" y="370" width="5" height="46" fill="#c2410c"/>
+<text x="1279" y="388" font-size="16" font-weight="700" fill="#c2410c" text-anchor="start">포워더가 볼 것</text>
+<text x="1279" y="414" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">컨테이너·씰 번호, 서명자·날짜가 있나</text>
+<text x="1265" y="466" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">IMDG 5.4.2 · 저장규칙 제34조</text>
+<rect x="54" y="512" width="373" height="356" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="84" cy="546" r="18" fill="#1d2a3a"/>
+<text x="84" y="553" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="112" y="554" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">수납검사</text>
+<rect x="74" y="576" width="114" height="30" rx="15" fill="#1f6fd1" fill-opacity="0.12" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="85" y="597" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">송하인 신청</text>
+<rect x="195.8" y="576" width="98" height="30" rx="15" fill="#1f8a5b" fill-opacity="0.12" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="206.8" y="597" font-size="17" font-weight="700" fill="#1f8a5b" text-anchor="start">KOMDI</text>
+<text x="74" y="640" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">대상 위험물이면 수납방법·용기·표시·표찰을</text>
+<text x="74" y="668" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">검사받고 위험물컨테이너수납검사증을</text>
+<text x="74" y="696" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">받는다(대상 밖이어도 신청할 수 있다).</text>
+<line x1="74" y1="738" x2="407" y2="738" stroke="#e3e8ee" stroke-width="1.5"/>
+<rect x="74" y="754" width="5" height="46" fill="#c2410c"/>
+<text x="88" y="772" font-size="16" font-weight="700" fill="#c2410c" text-anchor="start">포워더가 볼 것</text>
+<text x="88" y="798" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">검사 대상인지, 검사증 번호가 나왔나</text>
+<text x="74" y="850" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">저장규칙 제205조 · 고시 제21조</text>
+<rect x="451" y="512" width="373" height="356" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="481" cy="546" r="18" fill="#1d2a3a"/>
+<text x="481" y="553" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="509" y="554" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">반입신고와 터미널</text>
+<rect x="471" y="576" width="160" height="30" rx="15" fill="#6b4fbb" fill-opacity="0.12" stroke="#6b4fbb" stroke-width="1.5"/>
+<text x="482" y="597" font-size="17" font-weight="700" fill="#6b4fbb" text-anchor="start">선사·대리점 신고</text>
+<rect x="638.7" y="576" width="160" height="30" rx="15" fill="#c2410c" fill-opacity="0.12" stroke="#c2410c" stroke-width="1.5"/>
+<text x="649.7" y="597" font-size="17" font-weight="700" fill="#c2410c" text-anchor="start">포워더·화주 통지</text>
+<text x="471" y="640" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">무역항 반입 24시간 전(육상은 들여오기 전)</text>
+<text x="471" y="668" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물 반입신고. 관청은 1.1~1.3 화약류,</text>
+<text x="471" y="696" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">6.2급, 방사성 물질 반입을 제한할 수 있다.</text>
+<line x1="471" y1="738" x2="804" y2="738" stroke="#e3e8ee" stroke-width="1.5"/>
+<rect x="471" y="754" width="5" height="46" fill="#c2410c"/>
+<text x="485" y="772" font-size="16" font-weight="700" fill="#c2410c" text-anchor="start">포워더가 볼 것</text>
+<text x="485" y="798" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">신고자에게 위험물 내용을 통지했나</text>
+<text x="471" y="850" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">선박입출항법 제32조 · 시행규칙 제14·15조</text>
+<rect x="848" y="512" width="373" height="356" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<circle cx="878" cy="546" r="18" fill="#1d2a3a"/>
+<text x="878" y="553" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="906" y="554" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">선적</text>
+<rect x="868" y="576" width="53" height="30" rx="15" fill="#6b4fbb" fill-opacity="0.12" stroke="#6b4fbb" stroke-width="1.5"/>
+<text x="879" y="597" font-size="17" font-weight="700" fill="#6b4fbb" text-anchor="start">선장</text>
+<text x="868" y="640" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너 표시와 명세서를 대조하고 손상·</text>
+<text x="868" y="668" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">누출을 살핀다. 위반 의심이면 증인 입회로</text>
+<text x="868" y="696" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">개방할 수 있고, 수납검사증을 받아 둔다.</text>
+<line x1="868" y1="738" x2="1201" y2="738" stroke="#e3e8ee" stroke-width="1.5"/>
+<rect x="868" y="754" width="5" height="46" fill="#c2410c"/>
+<text x="882" y="772" font-size="16" font-weight="700" fill="#c2410c" text-anchor="start">포워더가 볼 것</text>
+<text x="882" y="798" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">B/L 위험물 기재가 서류와 같은가</text>
+<text x="868" y="850" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">저장규칙 제35조 · 제205조제5·6항</text>
+<line x1="430" y1="162" x2="448" y2="162" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="430" y1="546" x2="448" y2="546" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="827" y1="162" x2="845" y2="162" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="827" y1="546" x2="845" y2="546" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<line x1="1224" y1="162" x2="1242" y2="162" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<path d="M1431.5 486 V498 H240.5 V508" fill="none" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="1245" y="512" width="373" height="356" fill="#fff6ef" stroke="#c2410c" stroke-width="2" rx="12"/>
+<text x="1269" y="564" font-size="24" font-weight="800" fill="#c2410c" text-anchor="start">포워더가 하지 않는 일</text>
+<text x="1269" y="604" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">컨테이너를 열거나 포장물을</text>
+<text x="1269" y="637" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">검사·측정하지 않습니다.</text>
+<text x="1269" y="670" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">적입은 적입자, 수납검사는 검사기관,</text>
+<text x="1269" y="703" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">분류와 서명은 화주의 일입니다.</text>
+<text x="1269" y="736" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">포워더는 서류끼리 맞는지 대조하고,</text>
+<text x="1269" y="769" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">틀리면 직접 고치지 않고</text>
+<text x="1269" y="802" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">화주에게 정정을 요청합니다.</text>
+</svg>

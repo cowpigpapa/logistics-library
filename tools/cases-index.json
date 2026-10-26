@@ -1,6 +1,6 @@
 {
  "hub": "/library/accident-cases/ac-all",
- "total": 264,
+ "total": 267,
  "cats": {
   "incoterms-2020": {
    "label": "Incoterms",
@@ -53,7 +53,7 @@
   },
   "dangerous-goods": {
    "label": "위험물",
-   "count": 52,
+   "count": 55,
    "case_docs": [
     "case-kr-accident",
     "case-accident",
