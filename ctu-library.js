@@ -1468,7 +1468,7 @@
   // 마크업과 모양은 Logistics Library 색인(library-index.js renderTree, library-index.css)과 같다. 묶음은 SECTIONS + 참고 자료,
   // '설명 및 요약'은 색인에 따로 두지 않고 '개요'(첫 화면)에서 연다. Logistics Library 안(독립 페이지)에서는 쓰지 않는다.
   const EMBED_INDEX = !isStandalone;
-  const INDEX_CSS = LIBRARY_ORIGIN + '/library-index.css?v=20261017-02';
+  const INDEX_CSS = LIBRARY_ORIGIN + '/library-index.css?v=20261026-03';
   function indexTree() {
     const overview = DOCS.find(d => d.title.includes('설명 및 요약'))?.id;
     const used = new Set();
@@ -1500,14 +1500,14 @@
       link.href = INDEX_CSS;
       document.head.append(link);
     }
-    view.innerHTML = `<div class="li-body ctu-index-shell"><div class="li-main"><button type="button" class="li-toggle" aria-controls="ctuSide" aria-expanded="false">목차</button><aside class="li-side" id="ctuSide" aria-label="CTU Code 색인"><div class="li-side-head"><input type="search" placeholder="제목 검색" aria-label="CTU Code 해설 제목으로 찾기" autocomplete="off"><div class="li-side-tools"><button type="button" data-all="open">모두 펼치기</button><button type="button" data-all="close">모두 접기</button></div></div><nav class="li-tree">${indexTree()}</nav></aside><div class="li-view"></div></div></div>`;
+    view.innerHTML = `<div class="li-body ctu-index-shell"><div class="li-main"><button type="button" class="li-toggle" aria-controls="ctuSide" aria-expanded="false">목록·검색</button><aside class="li-side" id="ctuSide" aria-label="CTU Code 색인"><div class="li-side-head"><input type="search" placeholder="제목 검색" aria-label="CTU Code 해설 제목으로 찾기" autocomplete="off"><div class="li-side-tools"><button type="button" data-all="open">모두 펼치기</button><button type="button" data-all="close">모두 접기</button></div></div><nav class="li-tree">${indexTree()}</nav></aside><div class="li-view"></div></div></div>`;
     const shell = view.querySelector('.ctu-index-shell'),
       toggle = shell.querySelector('.li-toggle'),
       tree = shell.querySelector('.li-tree');
     const setSide = open => {
       shell.classList.toggle('li-side-open', open);
       toggle.setAttribute('aria-expanded', String(open));
-      toggle.textContent = open ? '닫기' : '목차';
+      toggle.textContent = open ? '닫기' : '목록·검색';
     };
     toggle.addEventListener('click', () => setSide(!shell.classList.contains('li-side-open')));
     tree.addEventListener('click', e => {

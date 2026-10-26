@@ -268,7 +268,7 @@
   const setSide = open => {
     document.body.classList.toggle('li-side-open', open);
     $('liToggle').setAttribute('aria-expanded', String(open));
-    $('liToggle').textContent = open ? '닫기' : '목차';
+    $('liToggle').textContent = open ? '닫기' : '목록·검색';
   };
   $('liToggle').addEventListener('click', () => setSide(!document.body.classList.contains('li-side-open')));
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && document.body.classList.contains('li-side-open')) setSide(false); });
@@ -345,31 +345,52 @@
   }
 
   // 문서마다 점수: 제목 30 · 짧은 제목 10 · 태그 8 · 요약 6 · 본문 횟수(로그) 최대 20. 비슷한 말은 0.7배.
+  // 여러 낱말("적하보험 청구 기한")은 낱말마다 따로 찾아 모두 들어 있는 문서를 보여 주고, 붙어 나오면 점수를 더한다.
+  // 모든 낱말이 든 문서가 없으면 낱말이 많이 맞는 문서를 '일부만 맞음'으로 보여 준다.
+  function words(raw) {
+    const ws = raw.split(/\s+/).filter(w => w.length >= 2);
+    return ws.length > 1 ? ws : [raw];
+  }
   function rank(raw) {
-    const ts = terms(raw), out = [];
+    const groups = words(raw).map(terms);
+    const phrase = groups.length > 1 ? terms(raw).slice(0, 2) : [];
+    const all = [];
     let order = 0;
+    const scoreOf = (ts, d, body, hit) => {
+      let score = 0;
+      ts.forEach(t => {
+        let sc = 0;
+        if (has(d.title, t.re)) sc += 30;
+        if (d.short && has(d.short, t.re)) sc += 10;
+        if (d.tag && has(d.tag, t.re)) sc += 8;
+        if (d.summary && has(d.summary, t.re)) sc += 6;
+        const k = body ? count(body, t.re) : 0;
+        if (k) { sc += Math.min(20, 4 * Math.log2(1 + k)); hit.n += k; if (!hit.snip) hit.snip = snippet(body, t.re); }
+        score += sc * t.weight;
+      });
+      return score;
+    };
     DATA.forEach(g => g.cats.forEach(c => {
       c.sections.forEach(s => s.docs.forEach(id => {
         const d = c.docs[id], url = `/library/${c.slug}/${id}`, body = SEARCH && SEARCH[url];
-        let score = 0, n = 0, snip = '';
-        ts.forEach(t => {
-          let sc = 0;
-          if (has(d.title, t.re)) sc += 30;
-          if (d.short && has(d.short, t.re)) sc += 10;
-          if (d.tag && has(d.tag, t.re)) sc += 8;
-          if (d.summary && has(d.summary, t.re)) sc += 6;
-          const k = body ? count(body, t.re) : 0;
-          if (k) { sc += Math.min(20, 4 * Math.log2(1 + k)); n += k; if (!snip) snip = snippet(body, t.re); }
-          score += sc * t.weight;
-        });
-        if (score > 0) out.push({ c, id, d, url, score, n, snip: snip || (d.summary ? snippet(d.summary, ts[0].re) || esc(d.summary.slice(0, 80)) + '…' : ''), order: order++ });
+        const hit = { n: 0, snip: '' };
+        const per = groups.map(ts => scoreOf(ts, d, body, hit));
+        const matched = per.filter(x => x > 0).length;
+        const score = per.reduce((a, b) => a + b, 0) + (phrase.length ? scoreOf(phrase, d, body, { n: 0, snip: '' }) : 0);
+        if (matched) all.push({ c, id, d, url, score, matched, n: hit.n, snip: hit.snip || (d.summary ? snippet(d.summary, groups[0][0].re) || esc(d.summary.slice(0, 80)) + '…' : ''), order: order++ });
         else order++;
       }));
     }));
-    out.sort((x, y) => y.score - x.score || x.order - y.order);
+    let list = all.filter(x => x.matched === groups.length);
+    const partial = !list.length && all.length > 0 && groups.length > 1;
+    if (partial) list = all;
+    list.sort((x, y) => y.matched - x.matched || y.score - x.score || x.order - y.order);
     const catsHit = [];
-    DATA.forEach(g => g.cats.forEach(c => { if (ts.some(t => has(c.name, t.re) || has(c.sub || '', t.re))) catsHit.push(c); }));
-    return { list: out, cats: catsHit, words: ts.filter(t => t.weight < 0.9).map(t => t.word) };
+    DATA.forEach(g => g.cats.forEach(c => {
+      const hits = ts => ts.some(t => has(c.name, t.re) || has(c.sub || '', t.re));
+      if (groups.every(hits) || (phrase.length && hits(phrase))) catsHit.push(c);
+    }));
+    return { list, cats: catsHit, partial, words: [...new Set(groups.flatMap(ts => ts.filter(t => t.weight < 0.9).map(t => t.word)))] };
   }
 
   const results = document.createElement('div');
@@ -385,7 +406,7 @@
     if (raw.length >= 2) loadSearch();
     const r = rank(raw);
     const loading = raw.length >= 2 && !(SEARCH && Object.keys(SEARCH).length > 60);
-    results.innerHTML = `<p class="li-res-head"><b>${r.list.length}</b>건${loading ? ' · 본문 자료를 받는 중…' : ''}${r.words.length ? `<span>함께 찾은 말: ${r.words.map(esc).join(', ')}</span>` : ''}</p>`
+    results.innerHTML = `<p class="li-res-head"><b>${r.list.length}</b>건${r.partial ? ' · 모든 낱말이 든 문서가 없어 일부만 맞는 문서' : ''}${loading ? ' · 본문 자료를 받는 중…' : ''}${r.words.length ? `<span>함께 찾은 말: ${r.words.map(esc).join(', ')}</span>` : ''}</p>`
       + r.cats.map(c => `<a class="li-res li-res-cat" href="/library/${c.slug}"><b>${esc(c.name)}</b><small>개요 및 원문 · ${esc(c.sub || '')}</small></a>`).join('')
       + r.list.slice(0, LIMIT).map(x => `<a class="li-res" href="${x.url}"${x.url === view.dataset.route ? ' aria-current="page"' : ''}><b>${esc(x.d.short || x.d.title.split(' — ')[0])}</b><small>${esc(x.c.name)}${x.n ? ` · 본문 ${x.n}곳` : ''}</small>${x.snip ? `<span class="li-snip">${x.snip}</span>` : ''}</a>`).join('')
       + (r.list.length > LIMIT ? `<p class="li-res-more">관련도가 높은 ${LIMIT}건만 보여 줍니다. 검색어를 더 구체적으로 넣어 보세요.</p>` : '')
@@ -408,7 +429,7 @@
   }
   function highlight(raw) {
     clearHighlight();
-    const re = new RegExp(terms(raw).map(t => t.re.source).join('|'), 'gi');
+    const re = new RegExp(words(raw).flatMap(terms).map(t => t.re.source).join('|'), 'gi');
     const walker = document.createTreeWalker(view.querySelector('.lib-article') || view, NodeFilter.SHOW_TEXT, {
       acceptNode: n => n.parentElement.closest('script, style, svg, mark') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT
     });

@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 import images  # 그림 작은 판(srcset)·지연 로딩
 CARD_SIZES = '(max-width: 900px) calc(100vw - 72px), 400px'   # 카드 그림 칸 폭
 DOC_SIZES = '(max-width: 900px) calc(100vw - 40px), 920px'    # 문서 본문 폭
-V = '20261026-02'   # library-index.css/js, library-index-data.js 캐시 버전
+V = '20261026-03'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')
@@ -77,7 +77,7 @@ for gi, (group, items) in enumerate(NAV):
 blocks += list(by_href.values())
 HOME_INNER = ('    <div class="li-home">\n'
               '      <header class="li-intro"><h1>Logistics Library</h1><p>물류 규정·운송 실무 자료를 주제별로 정리했습니다. '
-              '왼쪽 색인에서 고르면 이 자리에서 바로 읽을 수 있습니다.</p></header>\n'
+              '색인에서 고르거나 찾는 말을 검색하면 이 자리에서 바로 읽을 수 있습니다.</p></header>\n'
               + '\n'.join(blocks) + '\n    </div>')
 
 
@@ -148,7 +148,7 @@ def page(seo, inner, route='/', tree=''):
 <a class="li-skip" href="#liView">본문으로 건너뛰기</a>
 {HEADER}
 <main class="li-main">
-  <button type="button" class="li-toggle" id="liToggle" aria-controls="liSide" aria-expanded="false">목차</button>
+  <button type="button" class="li-toggle" id="liToggle" aria-controls="liSide" aria-expanded="false">목록·검색</button>
   <aside class="li-side" id="liSide" aria-label="자료 색인">
     <div class="li-side-head">
       <input type="search" id="liFilter" placeholder="제목·본문 검색" aria-label="제목·본문으로 자료 찾기" autocomplete="off">
@@ -185,7 +185,7 @@ def main():
     # 없는 주소(404): 같은 화면 틀에 안내와 색인. 검색엔진에는 올리지 않는다.
     seo404 = '<title>페이지를 찾을 수 없습니다 · Logistics Library</title>\n  <meta name="robots" content="noindex">'
     inner404 = ('    <div class="li-home"><header class="li-intro"><h1>페이지를 찾을 수 없습니다</h1>'
-                '<p>주소가 바뀌었거나 없는 문서입니다. 왼쪽 색인에서 고르거나 검색칸에 찾는 말을 넣어 보세요. '
+                '<p>주소가 바뀌었거나 없는 문서입니다. 색인에서 고르거나 검색칸에 찾는 말을 넣어 보세요. '
                 '<a href="/">첫 화면으로 가기</a></p></header></div>')
     (ROOT / '404.html').write_text(page(seo404, inner404, '/404', tree_html(data)), encoding='utf-8', newline='\n')
     print('index.html 생성: 카드', len(CARDS), '/ 도구 화면', len(TOOL_TYPES), '/ 404.html')
