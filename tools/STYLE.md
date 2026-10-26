@@ -94,8 +94,14 @@
 | /library/container | Container | 컨테이너 번호·코드·치수·OOG |
 | /library/export-control | Export Control · 수출통제 | 전략물자·방산물자 허가와 제재 확인 |
 | /library/regulated-goods | Regulated Goods · 반출입 규제 물품 | 폐기물·목재 포장재·CITES·문화유산·LMO |
+| /library/accident-cases | Accident Cases · 사고 사례 모음 | 분야별 사고·판결·처분을 한 표로 |
 
 메뉴 이름은 `tools/menu.py`의 NAV가 기준이다. 카테고리마다 장은 3~4개, 마지막 장은 "사고 사례"(2026-10-22·23 운영자).
+
+사고 사례 모음(2026-10-26 운영자: "사례가 흩어져 있는데 한군데로 모으자"): 각 카테고리 "사고 사례" 장의 사례를 `tools/build_cases.py`가 한 표(ac-docs/ac-all.html)로 모은다. library_index.py가 먼저 부르므로 빌드 순서는 그대로다. 표는 사례 문서의 형식을 읽으므로 사례는 반드시 아래 형식을 지킨다.
+- 제목: `<h4>번호. 이름 — 요지 (연도, 장소)</h4>`. 번호는 문서 안에서 1부터, 제목의 id="c번호"는 스크립트가 붙인다(모음 표의 바로가기 주소라 바꾸지 않는다).
+- 첫 줄: `<li><b>구분</b>: 국내|해외 · 운송 수단이나 장소 · 판결|처분|단속|사고 · 화물 · 쟁점: … · 결과: …</li>`.
+- 해설 문서에는 사례 요약을 다시 쓰지 않고 "관련 사고 사례" 한 줄로 사례 번호와 링크(`data-doc="xx-cases#c번호"`)만 둔다.
 
 ## 6. 고지 문구와 버전
 

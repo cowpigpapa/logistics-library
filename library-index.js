@@ -128,8 +128,40 @@
     }
   }
 
+  // 사고 사례 모음(/library/accident-cases/ac-all): 표 위의 찾기 칸(tools/build_cases.py가 만든 .case-finder)을 움직인다.
+  function caseFinder() {
+    const box = view.querySelector('.case-finder');
+    const table = view.querySelector('.case-table');
+    if (!box || !table) return;
+    const rows = [...table.tBodies[0].rows];
+    const empty = view.querySelector('.case-empty');
+    const count = box.querySelector('.case-count');
+    const f = k => box.querySelector(`[data-f="${k}"]`);
+    const apply = () => {
+      const words = f('q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      const want = { scope: f('scope').value, mode: f('mode').value, kind: f('kind').value };
+      const cat = f('cat').value;
+      let n = 0;
+      rows.forEach(tr => {
+        const ok = (!cat || tr.dataset.cat === cat)
+          && Object.keys(want).every(k => !want[k] || tr.dataset[k].split(' ').includes(want[k]))
+          && words.every(w => tr.dataset.q.includes(w));
+        tr.hidden = !ok;
+        if (ok) n++;
+      });
+      count.textContent = `${n}건`;
+      if (empty) empty.hidden = n > 0;
+      table.hidden = n === 0;
+    };
+    box.addEventListener('input', apply);
+    box.addEventListener('change', apply);
+    f('reset').addEventListener('click', () => { box.querySelectorAll('input, select').forEach(el => (el.value = '')); apply(); });
+    box.hidden = false;
+  }
+
   // 화면을 바꾼 뒤: 검색어 표시, 굴림 위치
   function afterRender(opts) {
+    caseFinder();
     const q = $('liFilter').value.trim();
     if (q.length >= 2 && view.querySelector('.lib-article')) highlight(q);
     if (opts.scroll != null) window.scrollTo({ top: opts.scroll });
@@ -418,4 +450,5 @@
   try { history.replaceState({ scroll: window.scrollY }, ''); } catch (_) {}
   if (start && start.path !== (view.dataset.route || '/')) show(start);   // 예전 주소
   else markActive(start);
+  caseFinder();
 })();

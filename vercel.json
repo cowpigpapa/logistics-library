@@ -99,6 +99,14 @@
       "destination": "/regulated-goods-library"
     },
     {
+      "source": "/library/accident-cases",
+      "destination": "/accident-cases-library"
+    },
+    {
+      "source": "/library/accident-cases/:id",
+      "destination": "/accident-cases-library"
+    },
+    {
       "source": "/library/cargo-risk",
       "destination": "/risk-library"
     },
@@ -326,6 +334,19 @@
     },
     {
       "source": "/rg-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
+    {
+      "source": "/ac-docs/(.*)",
       "headers": [
         {
           "key": "X-Robots-Tag",

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 372" width="660" height="372">
+  <rect width="660" height="372" fill="#e7f1fb"/>
+  <rect x="70" y="40" width="520" height="292" rx="14" fill="#fff" stroke="#c9d6e6" stroke-width="3"/>
+  <g font-family="SUIT, Pretendard, sans-serif" font-weight="700">
+    <text x="330" y="84" font-size="17" fill="#5f6b7a" letter-spacing="2" text-anchor="middle">사고 사례 모음</text>
+    <rect x="104" y="104" width="452" height="34" rx="8" fill="#e1edf8"/>
+    <g font-size="14" fill="#10243e">
+      <text x="120" y="126">사례</text><text x="330" y="126">분야</text><text x="420" y="126">연도</text><text x="480" y="126">구분</text>
+    </g>
+    <g font-size="14" fill="#33465c" font-weight="600">
+      <line x1="104" y1="172" x2="556" y2="172" stroke="#e2e7ec"/>
+      <text x="120" y="162" fill="#1769aa" font-weight="700">보증도와 위조 L/G</text><text x="330" y="162">B/L·AWB</text><text x="420" y="162">1992</text><text x="480" y="162">국내·판결</text>
+      <line x1="104" y1="206" x2="556" y2="206" stroke="#e2e7ec"/>
+      <text x="120" y="196" fill="#1769aa" font-weight="700">화물칸 화재</text><text x="330" y="196">위험물</text><text x="420" y="196">2011</text><text x="480" y="196">국내·사고</text>
+      <text x="120" y="230" fill="#1769aa" font-weight="700">무허가 수출</text><text x="330" y="230">수출통제</text><text x="420" y="230">2010</text><text x="480" y="230">국내·판결</text>
+    </g>
+    <rect x="104" y="266" width="452" height="40" rx="10" fill="#1476d4"/>
+    <text x="330" y="292" font-size="16" fill="#fff" text-anchor="middle">분야 · 국내외 · 운송 · 유형으로 찾기</text>
+  </g>
+</svg>

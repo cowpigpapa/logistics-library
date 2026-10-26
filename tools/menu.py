@@ -27,6 +27,7 @@ NAV = [
     ('화물 사고·보험', [
         ('/library/cargo-risk', 'Cargo Risk · 화물 사고 예방', '운송·창고·젖음·뒤바뀜·보안'),
         ('/library/cargo-insurance', 'Cargo Insurance · 화물보험', '적하보험·책임 한도·클레임'),
+        ('/library/accident-cases', 'Accident Cases · 사고 사례 모음', '분야별 사고·판결·처분을 한 표로'),
     ]),
     ('도구', [
         ('/airtracking', 'AWB Tracking', '항공사별 화물 추적 바로가기'),
@@ -50,6 +51,7 @@ PAGES = {
     'charges-library.html': '/library/charges',
     'customs-library.html': '/library/customs',
     'risk-library.html': '/library/cargo-risk',
+    'accident-cases-library.html': '/library/accident-cases',
     'regulated-goods-library.html': '/library/regulated-goods',
     'export-control-library.html': '/library/export-control',
     'container-library.html': '/library/container',

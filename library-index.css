@@ -362,3 +362,36 @@ mark.li-hit { background: #fff1a8; color: inherit; border-radius: 2px; padding: 
   .li-body.li-side-open .li-toggle { position: fixed; top: 56px; left: 16px; }
   .li-body.li-side-open .li-toggle::before { content: '✕'; }
 }
+
+/* ---------------------------------------------------------------- 사고 사례 모음: 찾기 칸과 표 */
+.case-finder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 14px 0 12px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--soft);
+}
+.case-finder[hidden] { display: none; }
+.case-finder input,
+.case-finder select,
+.case-finder button {
+  padding: 7px 10px;
+  border: 1px solid #d3dbe4;
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--value);
+  font: inherit;
+  font-size: 14px;
+}
+.case-finder input { flex: 1 1 260px; min-width: 0; }
+.case-finder button { cursor: pointer; }
+.case-finder :focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+.case-count { margin-left: auto; color: var(--navy); font-weight: 700; white-space: nowrap; }
+.case-table small { color: var(--muted); font-size: 13px; }
+@media (max-width: 640px) {
+  .case-finder select { flex: 1 1 calc(50% - 4px); min-width: 0; }
+}

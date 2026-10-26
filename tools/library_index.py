@@ -1,6 +1,6 @@
 """색인 트리 페이지(/library-index)용 목록을 만든다: 메뉴 순서대로 카테고리 → 묶음(SECTIONS) → 문서.
 각 카테고리의 *-library.js를 Node vm으로 읽어 DOCS·SECTIONS를 꺼내고 library-index-data.js에 쓴다.
-문서를 더하거나 고친 뒤 `python tools/library_index.py`를 다시 실행한다(prerender.py와 함께)."""
+문서를 더하거나 고친 뒤 `python tools/library_index.py`를 다시 실행한다(prerender.py와 함께). 먼저 build_cases.py로 사고 사례 모음을 다시 만든다."""
 import json, re, subprocess, sys
 from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
@@ -39,6 +39,8 @@ def menu_order():
 
 
 def main():
+    import build_cases
+    build_cases.main()   # 사고 사례 모음 표와 사례 주소(id)를 먼저 맞춘다
     vercel = json.loads((ROOT / 'vercel.json').read_text(encoding='utf-8'))
     cats = {c['base']: c for c in prerender.categories(vercel)}
     groups = []
