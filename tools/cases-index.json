@@ -1,6 +1,6 @@
 {
  "hub": "/library/accident-cases/ac-all",
- "total": 276,
+ "total": 288,
  "cats": {
   "incoterms-2020": {
    "label": "Incoterms",
@@ -88,7 +88,7 @@
   },
   "cargo-risk": {
    "label": "화물 사고 예방",
-   "count": 28,
+   "count": 40,
    "case_docs": [
     "rk-cases"
    ]

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f6b78"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="27" font-weight="800" fill="#1d2a3a">계좌 변경 요청을 받았을 때: 송금 전 확인 순서</text>
+<text x="40" y="92" font-size="18" fill="#5f6b78">요청이 어떤 경로로 왔든 같은 순서로 확인합니다. 하나라도 맞지 않으면 송금하지 않습니다.</text>
+
+<!-- start -->
+<rect x="40" y="128" width="250" height="150" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="62" y="168" font-size="20" font-weight="800" fill="#1d2a3a">요청 도착</text>
+<text x="62" y="202" font-size="16" fill="#1d2a3a">메일, 메신저, 전화,</text>
+<text x="62" y="226" font-size="16" fill="#1d2a3a">"새 은행 정보" 첨부,</text>
+<text x="62" y="250" font-size="16" fill="#1d2a3a">계좌가 적힌 새 인보이스</text>
+<line x1="294" y1="203" x2="326" y2="203" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+
+<!-- steps row -->
+<g>
+<rect x="332" y="128" width="250" height="300" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="2" rx="16"/>
+<circle cx="370" cy="166" r="21" fill="#1f6fd1"/><text x="370" y="173" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="402" y="173" font-size="20" font-weight="800" fill="#1d2a3a">멈춘다</text>
+<text x="352" y="214" font-size="16" fill="#1d2a3a">요청 메일에 적힌 전화번호,</text>
+<text x="352" y="238" font-size="16" fill="#1d2a3a">링크, 새 담당자 연락처는</text>
+<text x="352" y="262" font-size="16" fill="#1d2a3a">쓰지 않는다.</text>
+<text x="352" y="300" font-size="16" fill="#1d2a3a">"급하다", "오늘 안에"는</text>
+<text x="352" y="324" font-size="16" fill="#1d2a3a">확인을 건너뛸 이유가</text>
+<text x="352" y="348" font-size="16" fill="#1d2a3a">아니라 확인할 이유.</text>
+</g>
+<line x1="586" y1="203" x2="618" y2="203" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+<g>
+<rect x="624" y="128" width="250" height="300" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="2" rx="16"/>
+<circle cx="662" cy="166" r="21" fill="#1f6fd1"/><text x="662" y="173" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="694" y="173" font-size="20" font-weight="800" fill="#1d2a3a">콜백</text>
+<text x="644" y="214" font-size="16" fill="#1d2a3a">계약서·거래처 등록 기록에</text>
+<text x="644" y="238" font-size="16" fill="#1d2a3a">있는 번호로 이쪽에서 건다.</text>
+<text x="644" y="276" font-size="16" fill="#1d2a3a">알던 담당자나 재무 담당과</text>
+<text x="644" y="300" font-size="16" fill="#1d2a3a">통화하고, 계좌번호를</text>
+<text x="644" y="324" font-size="16" fill="#1d2a3a">상대가 불러 주게 한다.</text>
+<text x="644" y="362" font-size="16" fill="#1d2a3a">통화한 사람·시각 기록.</text>
+</g>
+<line x1="878" y1="203" x2="910" y2="203" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+<g>
+<rect x="916" y="128" width="250" height="300" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="2" rx="16"/>
+<circle cx="954" cy="166" r="21" fill="#1f6fd1"/><text x="954" y="173" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="986" y="173" font-size="20" font-weight="800" fill="#1d2a3a">서면 확인</text>
+<text x="936" y="214" font-size="16" fill="#1d2a3a">회사 서식에 권한자가</text>
+<text x="936" y="238" font-size="16" fill="#1d2a3a">서명한 변경 공문을 받는다.</text>
+<text x="936" y="276" font-size="16" fill="#1d2a3a">계약에 "공문 + 전화"</text>
+<text x="936" y="300" font-size="16" fill="#1d2a3a">2단계 절차가 있으면</text>
+<text x="936" y="324" font-size="16" fill="#1d2a3a">그 절차를 그대로 밟는다.</text>
+<text x="936" y="362" font-size="16" fill="#1d2a3a">인감만 믿지 않는다(위조 사례).</text>
+</g>
+<line x1="1170" y1="203" x2="1202" y2="203" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+<g>
+<rect x="1208" y="128" width="424" height="300" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="2" rx="16"/>
+<circle cx="1246" cy="166" r="21" fill="#1f6fd1"/><text x="1246" y="173" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="1278" y="173" font-size="20" font-weight="800" fill="#1d2a3a">계좌 대조</text>
+<text x="1228" y="214" font-size="16" fill="#1d2a3a">· 예금주 = 계약서의 법인명인가(개인·DBA 이름 주의)</text>
+<text x="1228" y="246" font-size="16" fill="#1d2a3a">· 은행 국가 = 거래처 소재국인가</text>
+<text x="1228" y="278" font-size="16" fill="#1d2a3a">· 지금까지 쓰던 계좌인가, 처음 쓰는 계좌인가</text>
+<text x="1228" y="310" font-size="16" fill="#1d2a3a">· 국내 원화 이체는 예금주 이름 표시를 확인</text>
+<text x="1228" y="342" font-size="16" fill="#1d2a3a">· EU 은행 유로 이체는 수취인 확인(VoP) 결과 확인</text>
+<text x="1228" y="380" font-size="15" fill="#5f6b78">은행이 수취인·계좌 국가 불일치나 과거 사기 계좌를</text>
+<text x="1228" y="402" font-size="15" fill="#5f6b78">안내하면 무시하지 않는다(금융감독원·은행권 대책)</text>
+</g>
+
+<!-- second row: approval and pay -->
+<line x1="1420" y1="432" x2="1420" y2="474" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+<g>
+<rect x="1040" y="480" width="592" height="150" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="2" rx="16"/>
+<circle cx="1078" cy="518" r="21" fill="#1f6fd1"/><text x="1078" y="525" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="1110" y="525" font-size="20" font-weight="800" fill="#1d2a3a">이중 승인</text>
+<text x="1060" y="566" font-size="16" fill="#1d2a3a">계좌 등록·변경을 입력한 사람과 승인하는 사람을 나눈다.</text>
+<text x="1060" y="592" font-size="16" fill="#1d2a3a">승인자는 1~4의 기록(통화 메모, 공문)을 보고 승인한다.</text>
+</g>
+<line x1="1036" y1="555" x2="1004" y2="555" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="760" y="490" width="240" height="130" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="16"/>
+<text x="880" y="546" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">송금</text>
+<text x="880" y="580" font-size="16" fill="#1d2a3a" text-anchor="middle">송금 직후 거래처에</text>
+<text x="880" y="604" font-size="16" fill="#1d2a3a" text-anchor="middle">전화로 입금 확인 요청</text>
+
+<!-- stop branch -->
+<rect x="40" y="480" width="680" height="150" fill="#fff6f3" stroke="#d9482b" stroke-width="2.5" rx="16"/>
+<text x="64" y="520" font-size="20" font-weight="800" fill="#d9482b">하나라도 맞지 않으면: 송금 보류</text>
+<text x="64" y="556" font-size="16" fill="#1d2a3a">· 기존 계좌로 보내거나 확인될 때까지 기다린다(계약서의 계좌 조항을 근거로).</text>
+<text x="64" y="584" font-size="16" fill="#1d2a3a">· 거래처에 메일이 아닌 경로로 "귀사 메일이 도용된 것 같다"고 알린다.</text>
+<text x="64" y="612" font-size="16" fill="#1d2a3a">· 거래 은행 외환 창구에 의심 거래로 상담한다.</text>
+
+<!-- header box -->
+<rect x="40" y="660" width="1592" height="196" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="64" y="700" font-size="21" font-weight="800" fill="#1d2a3a">메일 자체에서 볼 것 (보조 확인이며 콜백을 대신하지 않음)</text>
+<rect x="64" y="720" width="372" height="114" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="82" y="752" font-size="17" font-weight="700" fill="#1d2a3a">발신 도메인 철자</text>
+<text x="82" y="780" font-size="15" fill="#1d2a3a">기존 메일과 나란히 놓고 한 글자씩.</text>
+<text x="82" y="804" font-size="15" fill="#1d2a3a">휴대폰에서는 주소 전체를 펼쳐 본다.</text>
+<rect x="452" y="720" width="372" height="114" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="470" y="752" font-size="17" font-weight="700" fill="#1d2a3a">회신 주소(Reply-To)</text>
+<text x="470" y="780" font-size="15" fill="#1d2a3a">답장을 누르면 다른 주소로 가는지,</text>
+<text x="470" y="804" font-size="15" fill="#1d2a3a">처음 보는 참조(CC)가 붙었는지.</text>
+<rect x="840" y="720" width="372" height="114" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="858" y="752" font-size="17" font-weight="700" fill="#1d2a3a">인증 결과 헤더</text>
+<text x="858" y="780" font-size="15" fill="#1d2a3a">Authentication-Results의 spf·dkim·</text>
+<text x="858" y="804" font-size="15" fill="#1d2a3a">dmarc가 fail이면 위조 가능성.</text>
+<rect x="1228" y="720" width="380" height="114" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="10"/>
+<text x="1246" y="752" font-size="17" font-weight="700" fill="#d9482b">한계</text>
+<text x="1246" y="780" font-size="15" fill="#1d2a3a">진짜 계정이 털리면 주소·인증 결과가</text>
+<text x="1246" y="804" font-size="15" fill="#1d2a3a">모두 정상으로 보입니다. 그래서 전화.</text>
+<text x="40" y="896" font-size="15" fill="#5f6b78">자료: 금융감독원 보도자료(2025. 9. 29.), KOTRA·경찰청·한국무역보험공사 「2024 무역사기 예방 및 대응 매뉴얼」의 결제계좌 변경 프로토콜, FBI IC3 I-091124-PSA,</text>
+<text x="40" y="920" font-size="15" fill="#5f6b78">IETF RFC 8601(Authentication-Results)·RFC 7489(DMARC). 순서와 역할 분담은 이 자료들을 물류 회사 송금 절차에 맞춰 정리한 예입니다.</text>
+</svg>

@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/accident-cases';
-  const DOCS_VERSION = 'h04fcb1a2';
+  const DOCS_VERSION = 'h6d61d59d';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -27,7 +27,7 @@
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
-    { id: 'ac-all', checked: '2026-10-27', tag: "사례", level: 3, title: "전체 사고 사례 찾기 — 14개 분야 276건을 분야·국내외·운송·유형으로", short: "전체 사고 사례 찾기", summary: "포워더·화주가 겪는 사고와 판결·처분 276건을 분야(Incoterms부터 화물보험까지 14개), 국내·해외, 해상·항공·도로·창고, 판결·처분·사고 유형으로 거르고 이름·화물·쟁점으로 찾아 각 사례로 바로 갑니다." },
+    { id: 'ac-all', checked: '2026-10-27', tag: "사례", level: 3, title: "전체 사고 사례 찾기 — 14개 분야 288건을 분야·국내외·운송·유형으로", short: "전체 사고 사례 찾기", summary: "포워더·화주가 겪는 사고와 판결·처분 288건을 분야(Incoterms부터 화물보험까지 14개), 국내·해외, 해상·항공·도로·창고, 판결·처분·사고 유형으로 거르고 이름·화물·쟁점으로 찾아 각 사례로 바로 갑니다." },
     { id: 'inco-cases', checked: '2026-10-22', tag: "사례", level: 3, title: "인코텀스 사고 사례 — 위험 이전·품질 기준 시점·인도 장소를 다툰 판결 10건", short: "인코텀스 사고 사례", summary: "CIF·CFR·FOB에서 위험이 언제 넘어갔는지, 물품 적합성을 언제 기준으로 보는지, 인도 장소와 운송계약 당사자를 한국·미국·영국·중국 법원이 판단한 판결 10건과 포워더가 챙길 서류." },
     { id: 'ch-cases', checked: '2026-10-23', tag: "사례", level: 3, title: "부대비용·보관료 사고 사례 — 누가, 언제까지, 얼마나 내는가", short: "부대비용·보관료 사고 사례", summary: "포워더 명의 부킹과 컨테이너 요금, 수령하지 않은 수하인의 Demurrage, 대납 비용과 1년 제척기간, 회생과 유치권, 외환 상계 판결까지 한국 판결 8건, 미국 FMC 3건, 영국 Cottonex를 한눈에 보기 표와 함께 정리합니다." },
     { id: 'bl-cases', checked: '2026-10-26', tag: "사례", level: 3, title: "B/L·AWB 사고 사례 — 원본 없는 인도, 서렌더, 기명식 B/L, AWB, 복합운송 책임 구간, 유럽 트럭(CMR) 판례", short: "B/L·AWB 사고 사례", summary: "보증도와 위조 L/G, 서렌더·기명식 B/L, Master D/O를 넘긴 도착지 포워더, 통지처에 건넨 AWB, 복합운송 구간과 제척기간, 유럽 트럭 운송의 도난·한도·포워더 지위·관할, 운임 미수와 유치권 등 한국 판례 15건과 영국·홍콩·독일·네덜란드·미국 판례 12건을 한눈에 보기 표와 함께 정리합니다." },
@@ -40,7 +40,7 @@
     { id: 'tc-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "온도 사고 사례 — 항공 램프·경유지와 리퍼 지시·전원 공백에서 난 온도 일탈 16건", short: "온도 사고 사례", summary: "뮌헨 램프의 인슐린, 경유지 냉방 정지, 도착지 비냉장 창고, 백신 과냉각, 모호한 온도 지시와 부킹 확인서 오류, 터미널 전원 공백, 환기 설정 실수 같은 판례·사고와 한 포워더의 익명 사고 4건, 국내 독감 백신 상온 노출까지 16건을 같은 형식으로 정리했습니다." },
     { id: 'ec-cases', checked: '2026-10-23', tag: "사례", level: 2, title: "수출통제 사고 사례 — 방산·전략물자 무허가 수출과 제재 위반, 해외 포워더 처분 17건", short: "수출통제 사고 사례", summary: "미얀마 전략물자 대법원 판결, 총기 부품·공작기계·이차전지 설비 무허가 수출과 러시아 우회, 북한산 석탄 위장 반입, 제재 선박, DHL·Toll·Fracht 등 해외 포워더·운송인 처분까지 국내 9건과 해외 8건을 원문으로 정리합니다." },
     { id: 'rg-cases', checked: '2026-10-23', tag: "사례", level: 2, title: "반출입 규제 물품 사고 사례 — 폐기물·목재 포장재·LMO·CITES·문화유산 단속과 판결 34건", short: "반출입 규제 물품 사고 사례", summary: "재활용 원료로 신고한 폐기물의 반송, 위조 소독마크와 해충 팔레트로 인한 재수출, 미승인 LMO 종자·곡물 폐기, 냉동 화물·목재로 위장한 멸종위기종, 서적·가구로 위장한 문화유산 반출까지 국내외 단속·처분·판결 34건을 품목별로 정리했습니다." },
-    { id: 'rk-cases', checked: '2026-10-23', tag: "사례", level: 2, title: "화물 사고 사례 — 육교 충돌·적재물 낙하, 창고 화재 판결, 젖음·크로스, 가짜 운송사", short: "화물 사고 사례", summary: "대형 화물의 육교·지하차도 충돌과 적재물 낙하, 창고 화재 판결, 컨테이너 젖음과 크로스, 가짜 운송사·하청 사기, 무허가 주선·자가용 유상운송 판결까지 화물 사고·판결 28건을 다섯 묶음으로 정리합니다." },
+    { id: 'rk-cases', checked: '2026-10-23', tag: "사례", level: 2, title: "화물 사고 사례 — 육교 충돌·적재물 낙하, 창고 화재 판결, 젖음·크로스, 가짜 운송사", short: "화물 사고 사례", summary: "대형 화물의 육교·지하차도 충돌과 적재물 낙하, 창고 화재 판결, 컨테이너 젖음과 크로스, 가짜 운송사·하청 사기, 무허가 주선·자가용 유상운송 판결까지 화물 사고·판결 40건을 다섯 묶음으로 정리합니다." },
     { id: 'ins-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "화물보험 사고 사례 — 보험금 분쟁, 운송인·포워더 책임, 공동해손·컨테이너 유실, 온도유지 화물", short: "화물보험 사고 사례", summary: "영국법 준거약관·고유 하자·포장·제재 면책 같은 보험금 분쟁, 포장당 한도와 House B/L 포워더 책임, Yantian Express·CMA CGM LIBRA 등 공동해손과 컨테이너 유실, 리퍼 온도 오설정까지 24개 판례·사고를 같은 형식으로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
@@ -88,7 +88,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>사고·판례·보험 사례를 한 곳에</h2><p>14개 분야의 사례 276건을 이 카테고리에 모았습니다. 분야별 사례 문서는 해설과 같은 묶음 순서로 놓았고, 첫 문서의 표에서 분야·국내외·운송·유형으로 거르거나 검색어로 찾아 각 사례로 바로 갈 수 있습니다.</p><a class="lib-summary-button" href="${link('ac-all')}">전체 사례 찾기 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('각 분야의 사고 사례 문서에서 모은 목록입니다. 사례의 경위, 판단, 교훈과 출처는 각 사례 문서에 있습니다. 판례와 처분의 결론은 그 사건의 사실관계와 당시 법에 따른 것입니다. 해설은 AI가 작성했으며 법률 자문이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>사고·판례·보험 사례를 한 곳에</h2><p>14개 분야의 사례 288건을 이 카테고리에 모았습니다. 분야별 사례 문서는 해설과 같은 묶음 순서로 놓았고, 첫 문서의 표에서 분야·국내외·운송·유형으로 거르거나 검색어로 찾아 각 사례로 바로 갈 수 있습니다.</p><a class="lib-summary-button" href="${link('ac-all')}">전체 사례 찾기 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('각 분야의 사고 사례 문서에서 모은 목록입니다. 사례의 경위, 판단, 교훈과 출처는 각 사례 문서에 있습니다. 판례와 처분의 결론은 그 사건의 사실관계와 당시 법에 따른 것입니다. 해설은 AI가 작성했으며 법률 자문이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

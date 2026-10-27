@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-risk';
-  const DOCS_VERSION = '20261027-05';
+  const DOCS_VERSION = '20261027-10';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -36,6 +36,7 @@
     { id: 'rk-damage', checked: '2026-10-19', tag: "손상", level: 3, title: "젖음 손상 예방 — 컨테이너 누수·결로·비 오는 날 작업, 손상이 났을 때 기록과 책임", short: "젖음 손상 예방", summary: "컨테이너 누수·결로·비 오는 날 작업·악천후 침수로 생기는 젖음 손상을 빈 컨테이너 점검과 회차 기준(예), 수침 예방 포장, 항공 비닐 보강으로 막는 법과, 손상 발견 시 기록·통지 기한·사전 클레임, ICC와 상법상 책임을 역할별로 정리합니다." },
     { id: 'rk-cross', checked: '2026-10-19', tag: "뒤바뀜", level: 3, title: "화물 뒤바뀜(크로스) 방지 — 섞이고 잘못 실리고 잘못 나가는 사고는 어디서 나고 어떻게 막나", short: "화물 뒤바뀜(크로스) 방지", summary: "CFS·창고·선적지에서 다른 화물이 섞이거나 다른 목적지로 실리는 크로스가 왜 생기는지, 화인·라벨, 해상·항공 선적지 단계별 점검, 컨테이너·씰 번호 대조, 출고 확인으로 막는 법과, 실제 사례 2건, 화물 위치별 대응(반송신고·수입신고 취하)과 비용 부담을 정리합니다." },
     { id: 'rk-security', checked: '2026-10-20', tag: "보안", level: 2, title: "물류 보안 점검 — TAPA 기준, 하청 운송사 검증과 POD 확인, 영역별 보안 점검표", short: "도난·사기 예방과 보안 점검", summary: "TAPA FSR·TSR·PSR의 등급·인증 방식·2026년판 전환과 요구사항 구조, TSR 하청·가짜 운송사 지침에 따른 운송사·하청 운송사 검증과 배송 완료(POD) 확인을 정리하고, AEO·CTPAT 조항을 붙인 시설·CCTV·화물·씰·운송·정보·거래처·사고 보고 통합 점검표를 창고·운송사·포워더·화주 역할별로 제시합니다." },
+    { id: 'rk-payment-fraud', checked: '2026-10-27', tag: "사기", level: 3, title: "송금 사기(BEC) — 계좌 변경 메일, 가짜 포워더·선사·바이어, 송금 전 확인과 사고 직후 대응, 손해 분담 판결", short: "송금 사기(이메일 계좌 변경)", summary: "국내 은행 송금 무역사기의 95%를 차지하는 이메일 계좌 변경 사기(인보이스 위조, 유사 도메인, 메일 계정 탈취)와 가짜 포워더·선사·바이어 수법, 포워더 메일이 털리거나 해외 파트너가 사칭될 때, 콜백·서면 확인·이중 승인·계좌 대조로 막는 송금 전 절차, 사기 송금 직후 은행 반환 요청·경찰·FBI IC3 신고와 통신사기피해환급법의 한계, 속은 쪽과 해킹당한 쪽의 손해 분담에 관한 영국·독일·미국 판결을 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -49,10 +50,11 @@
   const SECTIONS = [
     { title: "운송·보관 사고 예방", sub: "트럭 사고·도난 · 내륙운송 주선 자격과 자가용 화물차 · 창고 보관 · 특수화물 육상 운송", docs: ["rk-truck", "rk-license", "rk-warehouse", "rk-special"] },
     { title: "젖음·뒤바뀜 예방", sub: "젖음 손상 · 화물 뒤바뀜(크로스)", docs: ["rk-damage", "rk-cross"] },
-    { title: "도난·사기와 보안", sub: "TAPA · 운송사·하청 검증 · 보안 점검표", docs: ["rk-security"] }
+    { title: "도난·사기와 보안", sub: "TAPA · 운송사·하청 검증 · 보안 점검표 · 송금 사기(이메일 계좌 변경)", docs: ["rk-security", "rk-payment-fraud"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
+    { name: "거래처가 계좌가 바뀌었다는 메일을 보냈어요", ids: ["rk-payment-fraud"] },
     { name: "트럭 주차 중 화물이 없어졌어요", ids: ["rk-truck", "rk-security"] },
     { name: "고가 화물을 창고에 둘 때 무엇을 확인하나요", ids: ["rk-warehouse"] },
     { name: "창고에 불이 나면 누가 물어 주나요", ids: ["rk-warehouse"] },

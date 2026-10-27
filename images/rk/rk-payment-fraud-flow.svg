@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="27" font-weight="800" fill="#1d2a3a">"계좌가 바뀌었다"는 메일이 오기까지: 이메일 송금 사기의 네 단계</text>
+<text x="40" y="92" font-size="18" fill="#5f6b78">사기범은 돈이 움직이는 순간을 기다립니다. 단계마다 남는 신호를 알면 송금 전에 멈출 수 있습니다.</text>
+
+<!-- stage panels -->
+<g>
+<rect x="40" y="122" width="370" height="430" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<circle cx="84" cy="168" r="24" fill="#1f6fd1"/><text x="84" y="176" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="122" y="164" font-size="23" font-weight="800" fill="#1d2a3a">들어온다</text>
+<text x="122" y="190" font-size="16" fill="#5f6b78">메일 계정 탈취 또는 비슷한 주소</text>
+<text x="64" y="236" font-size="17" fill="#1d2a3a">· 비밀번호 유출·악성코드로</text>
+<text x="80" y="260" font-size="17" fill="#1d2a3a">거래처나 우리 회사 메일함에 접속</text>
+<text x="64" y="292" font-size="17" fill="#1d2a3a">· 또는 한 글자 다른 주소를 만든다</text>
+<rect x="64" y="310" width="322" height="118" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="80" y="338" font-size="15" font-weight="700" fill="#5f6b78">KOTRA가 모은 바꿔치기 예</text>
+<text x="80" y="364" font-size="16" fill="#1d2a3a"><tspan font-family="Consolas, 'Courier New', monospace" font-size="17">sales → saIes</tspan> <tspan font-size="14">(소문자 엘을 대문자 아이로)</tspan></text>
+<text x="80" y="388" font-size="16" fill="#1d2a3a"><tspan font-family="Consolas, 'Courier New', monospace" font-size="18">group → gruop</tspan> (글자 순서)</text>
+<text x="80" y="412" font-size="16" fill="#1d2a3a"><tspan font-family="Consolas, 'Courier New', monospace" font-size="18">163 → l63</tspan> (숫자 1 → 소문자 엘)</text>
+<text x="64" y="466" font-size="16" font-weight="700" fill="#d9482b">신호</text>
+<text x="64" y="492" font-size="16" fill="#1d2a3a">발신 주소 철자, 회신 주소(Reply-To)가</text>
+<text x="64" y="516" font-size="16" fill="#1d2a3a">발신 주소와 다름, 처음 보는 참조 주소</text>
+</g>
+<line x1="414" y1="337" x2="446" y2="337" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+
+<g>
+<rect x="452" y="122" width="370" height="430" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<circle cx="496" cy="168" r="24" fill="#1f6fd1"/><text x="496" y="176" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="534" y="164" font-size="23" font-weight="800" fill="#1d2a3a">지켜본다</text>
+<text x="534" y="190" font-size="16" fill="#5f6b78">거래 메일을 오래 읽는다</text>
+<text x="476" y="236" font-size="17" fill="#1d2a3a">· 거래처 이름, 담당자 말투, 서명 양식</text>
+<text x="476" y="268" font-size="17" fill="#1d2a3a">· 인보이스 번호·금액·결제일</text>
+<text x="476" y="300" font-size="17" fill="#1d2a3a">· 큰 대금이 나갈 시점</text>
+<text x="476" y="342" font-size="17" fill="#1d2a3a">KOTRA는 이메일사기가 "장기간</text>
+<text x="476" y="366" font-size="17" fill="#1d2a3a">수·발신 메일을 모니터링한 뒤 규모가</text>
+<text x="476" y="390" font-size="17" fill="#1d2a3a">큰 거래" 때 들어온다고 설명합니다.</text>
+<text x="476" y="466" font-size="16" font-weight="700" fill="#d9482b">신호</text>
+<text x="476" y="492" font-size="16" fill="#1d2a3a">이 단계에서는 거의 보이지 않음.</text>
+<text x="476" y="516" font-size="16" fill="#1d2a3a">그래서 절차로 막아야 합니다.</text>
+</g>
+<line x1="826" y1="337" x2="858" y2="337" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+
+<g>
+<rect x="864" y="122" width="370" height="430" fill="#fbfcfd" stroke="#d9482b" stroke-width="2.5" rx="16"/>
+<circle cx="908" cy="168" r="24" fill="#d9482b"/><text x="908" y="176" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="946" y="164" font-size="23" font-weight="800" fill="#1d2a3a">끼어든다</text>
+<text x="946" y="190" font-size="16" fill="#5f6b78">결제 직전 계좌 변경 메일</text>
+<text x="888" y="236" font-size="17" fill="#1d2a3a">· "계좌가 바뀌었다", 위조 인보이스</text>
+<text x="888" y="268" font-size="17" fill="#1d2a3a">· 수취인 이름은 기존 거래처명 그대로</text>
+<text x="888" y="300" font-size="17" fill="#1d2a3a">· 은행은 다른 나라, 서두르게 함</text>
+<rect x="888" y="320" width="322" height="104" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="10"/>
+<text x="904" y="350" font-size="15" font-weight="700" fill="#5f6b78">금융감독원 집계(2021~2025 상반기)</text>
+<text x="904" y="380" font-size="16" fill="#1d2a3a">피해액의 24%는 수취인 국적과</text>
+<text x="904" y="404" font-size="16" fill="#1d2a3a">수취 계좌 은행 국적이 달랐음</text>
+<text x="888" y="466" font-size="16" font-weight="700" fill="#d9482b">신호</text>
+<text x="888" y="492" font-size="16" fill="#1d2a3a">처음 쓰는 계좌, 거래처와 다른 나라</text>
+<text x="888" y="516" font-size="16" fill="#1d2a3a">은행, 개인 명의, "오늘 안에"</text>
+</g>
+<line x1="1238" y1="337" x2="1270" y2="337" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+
+<g>
+<rect x="1276" y="122" width="356" height="430" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<circle cx="1320" cy="168" r="24" fill="#1f6fd1"/><text x="1320" y="176" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="1358" y="164" font-size="23" font-weight="800" fill="#1d2a3a">숨긴다</text>
+<text x="1358" y="190" font-size="16" fill="#5f6b78">발견을 늦춘다</text>
+<text x="1298" y="236" font-size="17" fill="#1d2a3a">· 위조 송금증을 거래처에 보냄</text>
+<text x="1298" y="268" font-size="17" fill="#1d2a3a">· "은행 문제로 반환됐으니</text>
+<text x="1314" y="292" font-size="17" fill="#1d2a3a">다른 계좌로 다시" 요청</text>
+<text x="1298" y="324" font-size="17" fill="#1d2a3a">· 진짜 거래처 메일을 가로챔</text>
+<text x="1298" y="366" font-size="17" fill="#1d2a3a">대부분 거래처의 미입금 통지나</text>
+<text x="1298" y="390" font-size="17" fill="#1d2a3a">독촉을 받고서야 알게 됩니다</text>
+<text x="1298" y="414" font-size="17" fill="#1d2a3a">(금융감독원).</text>
+<text x="1298" y="466" font-size="16" font-weight="700" fill="#d9482b">신호</text>
+<text x="1298" y="492" font-size="16" fill="#1d2a3a">재송금 요청, 두 번째 계좌 변경,</text>
+<text x="1298" y="516" font-size="16" fill="#1d2a3a">거래처 연락이 메일로만 옴</text>
+</g>
+
+<!-- where it hits logistics -->
+<rect x="40" y="580" width="1592" height="262" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="64" y="620" font-size="22" font-weight="800" fill="#1d2a3a">물류에서 계좌 변경 메일이 끼어드는 세 길목</text>
+<rect x="64" y="642" width="490" height="176" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="84" y="678" font-size="19" font-weight="800" fill="#1f6fd1">수출자 ↔ 수입자: 물품 대금</text>
+<text x="84" y="712" font-size="16" fill="#1d2a3a">금융감독원 집계의 대부분. 해외 수출자를</text>
+<text x="84" y="738" font-size="16" fill="#1d2a3a">사칭해 국내 수입자에게 바뀐 계좌를 보냄.</text>
+<text x="84" y="772" font-size="16" fill="#1d2a3a">포워더는 선적 일정 메일에 함께 들어가 있어</text>
+<text x="84" y="798" font-size="16" fill="#1d2a3a">사기 메일의 참조나 사칭 대상이 되기도 함</text>
+<rect x="578" y="642" width="490" height="176" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="598" y="678" font-size="19" font-weight="800" fill="#d9482b">화주 ↔ 포워더: 운임·로컬 차지</text>
+<text x="598" y="712" font-size="16" fill="#1d2a3a">포워더 메일이 털리면 그 메일함의 청구서가</text>
+<text x="598" y="738" font-size="16" fill="#1d2a3a">모두 재료가 됨. 운임 청구 직후 "계좌 변경"</text>
+<text x="598" y="772" font-size="16" fill="#1d2a3a">메일이 여러 화주에게 한꺼번에 가는 일이</text>
+<text x="598" y="798" font-size="16" fill="#1d2a3a">생길 수 있음</text>
+<rect x="1092" y="642" width="516" height="176" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="1112" y="678" font-size="19" font-weight="800" fill="#1f8a5b">포워더 ↔ 해외 파트너: 정산</text>
+<text x="1112" y="712" font-size="16" fill="#1d2a3a">SOA 정산, 도착지 비용, 이익 분배 송금 때</text>
+<text x="1112" y="738" font-size="16" fill="#1d2a3a">파트너를 사칭한 계좌 변경 요청이</text>
+<text x="1112" y="772" font-size="16" fill="#1d2a3a">정산 메일에 섞여 들어옴</text>
+<text x="40" y="880" font-size="15" fill="#5f6b78">자료: 금융감독원 보도자료 「최근 외환 무역사기거래 현황 및 유의사항」(2025. 9. 29.), KOTRA·경찰청·한국무역보험공사 「2024 무역사기 예방 및 대응 매뉴얼」(2024. 7.),</text>
+<text x="40" y="904" font-size="15" fill="#5f6b78">FBI IC3 공익 경보 I-091124-PSA(2024. 9. 11.). 세 길목은 이 자료의 수법을 물류 거래 흐름에 맞춰 정리한 것입니다.</text>
+</svg>
