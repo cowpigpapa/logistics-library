@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#9aa6b2"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="56" y="70" font-size="32" font-weight="800" fill="#1d2a3a">수출 한 건의 흐름으로 찾기</text>
+<text x="56" y="106" font-size="20" font-weight="600" fill="#5f6b78">단계마다 확인할 것이 다르고, 앞 단계에서 정한 조건이 뒤 단계의 비용과 책임을 가릅니다.</text>
+<rect x="56" y="150" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="56" y="150" width="280" height="10" rx="5" fill="#6254a3"/>
+<circle cx="100" cy="212" r="24" fill="#6254a3"/><text x="100" y="220" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="138" y="221" font-size="25" font-weight="800" fill="#1d2a3a">견적·계약 조건</text>
+<text x="90" y="290" font-size="21" font-weight="600" fill="#5f6b78">· 인코텀스</text>
+<text x="90" y="336" font-size="21" font-weight="600" fill="#5f6b78">· 운임·부대비용</text>
+<text x="90" y="382" font-size="21" font-weight="600" fill="#5f6b78">· 책임 구간</text>
+<line x1="342" y1="295.0" x2="374" y2="295.0" stroke="#9aa6b2" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="382" y="150" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="382" y="150" width="280" height="10" rx="5" fill="#b2473e"/>
+<circle cx="426" cy="212" r="24" fill="#b2473e"/><text x="426" y="220" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="464" y="221" font-size="25" font-weight="800" fill="#1d2a3a">화물 확인</text>
+<text x="416" y="290" font-size="21" font-weight="600" fill="#5f6b78">· 위험물</text>
+<text x="416" y="336" font-size="21" font-weight="600" fill="#5f6b78">· 수출통제</text>
+<text x="416" y="382" font-size="21" font-weight="600" fill="#5f6b78">· 규제 물품</text>
+<line x1="668" y1="295.0" x2="700" y2="295.0" stroke="#9aa6b2" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="708" y="150" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="708" y="150" width="280" height="10" rx="5" fill="#397b70"/>
+<circle cx="752" cy="212" r="24" fill="#397b70"/><text x="752" y="220" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="790" y="221" font-size="25" font-weight="800" fill="#1d2a3a">부킹·장비</text>
+<text x="742" y="290" font-size="21" font-weight="600" fill="#5f6b78">· 컨테이너·ULD</text>
+<text x="742" y="336" font-size="21" font-weight="600" fill="#5f6b78">· 리퍼·온도</text>
+<text x="742" y="382" font-size="21" font-weight="600" fill="#5f6b78">· 빈 CTU</text>
+<line x1="994" y1="295.0" x2="1026" y2="295.0" stroke="#9aa6b2" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="1034" y="150" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="1034" y="150" width="280" height="10" rx="5" fill="#6254a3"/>
+<circle cx="1078" cy="212" r="24" fill="#6254a3"/><text x="1078" y="220" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="1116" y="221" font-size="25" font-weight="800" fill="#1d2a3a">서류</text>
+<text x="1068" y="290" font-size="21" font-weight="600" fill="#5f6b78">· 인보이스</text>
+<text x="1068" y="336" font-size="21" font-weight="600" fill="#5f6b78">· B/L·AWB</text>
+<text x="1068" y="382" font-size="21" font-weight="600" fill="#5f6b78">· 사전신고</text>
+<line x1="1320" y1="295.0" x2="1352" y2="295.0" stroke="#9aa6b2" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="1360" y="150" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="1360" y="150" width="280" height="10" rx="5" fill="#397b70"/>
+<circle cx="1404" cy="212" r="24" fill="#397b70"/><text x="1404" y="220" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<text x="1442" y="221" font-size="25" font-weight="800" fill="#1d2a3a">적입·탑재</text>
+<text x="1394" y="290" font-size="21" font-weight="600" fill="#5f6b78">· 고박·하중</text>
+<text x="1394" y="336" font-size="21" font-weight="600" fill="#5f6b78">· 결로·젖음</text>
+<text x="1394" y="382" font-size="21" font-weight="600" fill="#5f6b78">· 봉인</text>
+<rect x="56" y="520" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="56" y="520" width="280" height="10" rx="5" fill="#6254a3"/>
+<circle cx="100" cy="582" r="24" fill="#6254a3"/><text x="100" y="590" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+<text x="138" y="591" font-size="25" font-weight="800" fill="#1d2a3a">통관·출항</text>
+<text x="90" y="660" font-size="21" font-weight="600" fill="#5f6b78">· 수출신고·HS</text>
+<text x="90" y="706" font-size="21" font-weight="600" fill="#5f6b78">· 보세운송</text>
+<text x="90" y="752" font-size="21" font-weight="600" fill="#5f6b78">· 트럭·도로</text>
+<line x1="342" y1="665.0" x2="374" y2="665.0" stroke="#9aa6b2" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="382" y="520" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="382" y="520" width="280" height="10" rx="5" fill="#36689c"/>
+<circle cx="426" cy="582" r="24" fill="#36689c"/><text x="426" y="590" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">7</text>
+<text x="464" y="591" font-size="25" font-weight="800" fill="#1d2a3a">운송 중</text>
+<text x="416" y="660" font-size="21" font-weight="600" fill="#5f6b78">· 가속도</text>
+<text x="416" y="706" font-size="21" font-weight="600" fill="#5f6b78">· 보험</text>
+<text x="416" y="752" font-size="21" font-weight="600" fill="#5f6b78">· 창고·보안</text>
+<line x1="668" y1="665.0" x2="700" y2="665.0" stroke="#9aa6b2" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="708" y="520" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="708" y="520" width="280" height="10" rx="5" fill="#6254a3"/>
+<circle cx="752" cy="582" r="24" fill="#6254a3"/><text x="752" y="590" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">8</text>
+<text x="790" y="591" font-size="25" font-weight="800" fill="#1d2a3a">도착·인도</text>
+<text x="742" y="660" font-size="21" font-weight="600" fill="#5f6b78">· 반출 일정</text>
+<text x="742" y="706" font-size="21" font-weight="600" fill="#5f6b78">· D/O·서렌더</text>
+<text x="742" y="752" font-size="21" font-weight="600" fill="#5f6b78">· 보관료·D&amp;D</text>
+<line x1="994" y1="665.0" x2="1026" y2="665.0" stroke="#9aa6b2" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="1034" y="520" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="1034" y="520" width="280" height="10" rx="5" fill="#6254a3"/>
+<circle cx="1078" cy="582" r="24" fill="#6254a3"/><text x="1078" y="590" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">9</text>
+<text x="1116" y="591" font-size="25" font-weight="800" fill="#1d2a3a">정산</text>
+<text x="1068" y="660" font-size="21" font-weight="600" fill="#5f6b78">· 해외 정산</text>
+<text x="1068" y="706" font-size="21" font-weight="600" fill="#5f6b78">· 외환 신고</text>
+<line x1="1320" y1="665.0" x2="1352" y2="665.0" stroke="#9aa6b2" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="1360" y="520" width="280" height="290" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="1360" y="520" width="280" height="10" rx="5" fill="#8a4a6e"/>
+<circle cx="1404" cy="582" r="24" fill="#8a4a6e"/><text x="1404" y="590" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">10</text>
+<text x="1442" y="591" font-size="25" font-weight="800" fill="#1d2a3a">사고·클레임</text>
+<text x="1394" y="660" font-size="21" font-weight="600" fill="#5f6b78">· 통지·제소 기한</text>
+<text x="1394" y="706" font-size="21" font-weight="600" fill="#5f6b78">· 책임 한도</text>
+<text x="1394" y="752" font-size="21" font-weight="600" fill="#5f6b78">· 사고 사례</text>
+<path d="M1500.0 448 L1500.0 480 L196.0 480 L196.0 512" fill="none" stroke="#9aa6b2" stroke-width="4" marker-end="url(#ar)"/>
+</svg>

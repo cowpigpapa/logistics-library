@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 372" width="660" height="372">
+  <rect width="660" height="372" fill="#e7f1fb"/>
+  <rect x="70" y="40" width="520" height="292" rx="14" fill="#fff" stroke="#c9d6e6" stroke-width="3"/>
+  <g font-family="SUIT, Pretendard, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="330" y="84" font-size="17" fill="#5f6b7a" letter-spacing="2">업무 흐름으로 찾기</text>
+    <g font-size="15" fill="#10243e">
+      <rect x="96" y="108" width="140" height="50" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="166" y="139">1 견적</text>
+      <rect x="260" y="108" width="140" height="50" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="330" y="139">2 화물 확인</text>
+      <rect x="424" y="108" width="140" height="50" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="494" y="139">3 서류</text>
+      <rect x="96" y="182" width="140" height="50" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="166" y="213">4 통관</text>
+      <rect x="260" y="182" width="140" height="50" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="330" y="213">5 도착·인도</text>
+      <rect x="424" y="182" width="140" height="50" rx="10" fill="#eef4fb" stroke="#c9d6e6"/><text x="494" y="213">6 사고·클레임</text>
+    </g>
+    <rect x="96" y="262" width="468" height="40" rx="10" fill="#2d7a8c"/>
+    <text x="330" y="288" font-size="16" fill="#fff">용어집 · 새로 바뀐 것</text>
+  </g>
+</svg>

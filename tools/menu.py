@@ -6,6 +6,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 NAV = [
+    ('길잡이', [
+        ('/library/guide', 'Guide · 길잡이', '업무 흐름으로 찾기 · 용어집 · 새로 바뀐 것'),
+    ]),
     ('계약·서류·통관', [
         ('/library/incoterms-2020', 'Incoterms 2020 · 인코텀스', '무역조건별 위험·비용 분기'),
         ('/library/charges', 'Charges · 부대비용', '운임 계산·부대비용·D&D·보관료'),
@@ -56,6 +59,7 @@ PAGES = {
     'charges-library.html': '/library/charges',
     'customs-library.html': '/library/customs',
     'risk-library.html': '/library/cargo-risk',
+    'guide-library.html': '/library/guide',
     'accident-cases-library.html': '/library/accident-cases',
     'regulated-goods-library.html': '/library/regulated-goods',
     'export-control-library.html': '/library/export-control',

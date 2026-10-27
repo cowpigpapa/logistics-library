@@ -107,6 +107,14 @@
       "destination": "/accident-cases-library"
     },
     {
+      "source": "/library/guide",
+      "destination": "/guide-library"
+    },
+    {
+      "source": "/library/guide/:id",
+      "destination": "/guide-library"
+    },
+    {
       "source": "/library/cargo-risk",
       "destination": "/risk-library"
     },
@@ -347,6 +355,19 @@
     },
     {
       "source": "/ac-docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
+    {
+      "source": "/gd-docs/(.*)",
       "headers": [
         {
           "key": "X-Robots-Tag",

@@ -80,7 +80,7 @@ for group, items in NAV:
 blocks += list(by_href.values())
 HOME_INNER = ('    <div class="li-home">\n'
               '      <header class="li-intro"><h1>Logistics Library</h1><p>물류 규정·운송 실무 자료를 주제별로 정리했습니다. '
-              '색인에서 고르거나 찾는 말을 검색하면 이 자리에서 바로 읽을 수 있습니다.</p></header>\n'
+              '색인에서 고르거나 찾는 말을 검색하면 이 자리에서 바로 읽을 수 있습니다. 처음이라면 <a href="/library/guide/guide-flow">업무 흐름으로 찾기</a>에서 지금 하는 일의 단계부터 보세요.</p></header>\n'
               + '\n'.join(blocks) + '\n    </div>')
 
 
