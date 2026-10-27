@@ -1,6 +1,6 @@
 {
  "hub": "/library/accident-cases/ac-all",
- "total": 267,
+ "total": 266,
  "cats": {
   "incoterms-2020": {
    "label": "Incoterms",
@@ -99,7 +99,7 @@
   },
   "cargo-insurance": {
    "label": "화물보험",
-   "count": 24,
+   "count": 23,
    "case_docs": [
     "ins-cases"
    ]

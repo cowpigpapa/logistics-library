@@ -4,7 +4,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-insurance';
-  const DOCS_VERSION = '20261026-03';
+  const DOCS_VERSION = '20261027-03';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -87,7 +87,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>화물보험, 사고가 나면 돈은 어디서 나오나</h2><p>화물이 파손되거나 없어지면 보상은 운송인의 책임, 적하보험, 공동해손 정산이 얽혀 결정됩니다. 1장은 누가 보험을 드는지와 ICC (A)(B)(C), 가입이 어려운 화물, 2장은 운송인 책임 한도와 클레임 절차·기한, 공동해손, 컨테이너 유실, 포워더와 보험을 다루고, 3장에 보험금 분쟁과 운송인 책임 판례·사고 24건을 모았습니다.</p><a class="lib-summary-button" href="${link('ins-basics')}">적하보험 기초부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('약관·협약·법령·판례와 보험사·협회의 공개 자료를 바탕으로 정리했습니다. ICC 약관과 Incoterms 본문은 싣지 않고 요약했습니다. 법률·보험 자문이 아니며, 실제 보상 여부는 보험증권의 약관과 보험사·법원의 판단에 따릅니다. 해설은 AI가 작성했으며 보험사나 법률 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>화물보험, 사고가 나면 돈은 어디서 나오나</h2><p>화물이 파손되거나 없어지면 보상은 운송인의 책임, 적하보험, 공동해손 정산이 얽혀 결정됩니다. 1장은 누가 보험을 드는지와 ICC (A)(B)(C), 가입이 어려운 화물, 2장은 운송인 책임 한도와 클레임 절차·기한, 공동해손, 컨테이너 유실, 포워더와 보험을 다루고, 3장에 보험금 분쟁과 운송인 책임 판례·사고 23건을 모았습니다.</p><a class="lib-summary-button" href="${link('ins-basics')}">적하보험 기초부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('약관·협약·법령·판례와 보험사·협회의 공개 자료를 바탕으로 정리했습니다. ICC 약관과 Incoterms 본문은 싣지 않고 요약했습니다. 법률·보험 자문이 아니며, 실제 보상 여부는 보험증권의 약관과 보험사·법원의 판단에 따릅니다. 해설은 AI가 작성했으며 보험사나 법률 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;
