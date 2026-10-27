@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<style>text{paint-order:stroke;stroke:#fbfcfd;stroke-width:6px;stroke-linejoin:round} g.nb text, text.nb{stroke:none}</style>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text class="nb" x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a">물류에 닿는 탄소 규제의 시간표(2024~2030년)</text>
+<rect x="30" y="80" width="1612" height="830" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+
+<!-- year grid: 2024 at x=260, 190 px per year -->
+<g font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">
+<text x="355" y="125">2024</text><text x="545" y="125">2025</text><text x="735" y="125">2026</text><text x="925" y="125">2027</text><text x="1115" y="125">2028</text><text x="1305" y="125">2029</text><text x="1495" y="125">2030</text>
+</g>
+<g stroke="#dfe5ec" stroke-width="1.5">
+<line x1="260" y1="140" x2="260" y2="800"/><line x1="450" y1="140" x2="450" y2="800"/><line x1="640" y1="140" x2="640" y2="800"/><line x1="830" y1="140" x2="830" y2="800"/><line x1="1020" y1="140" x2="1020" y2="800"/><line x1="1210" y1="140" x2="1210" y2="800"/><line x1="1400" y1="140" x2="1400" y2="800"/><line x1="1590" y1="140" x2="1590" y2="800"/>
+</g>
+<!-- today line: 2026-10-27 -->
+<g stroke="#d9482b" stroke-width="2.5" stroke-dasharray="8 6"><line x1="796" y1="140" x2="796" y2="224"/><line x1="796" y1="250" x2="796" y2="346"/><line x1="796" y1="372" x2="796" y2="472"/><line x1="796" y1="520" x2="796" y2="590"/><line x1="796" y1="634" x2="796" y2="800"/></g>
+<rect x="736" y="804" width="120" height="30" fill="#d9482b" rx="6"/>
+<text x="796" y="825" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" class="nb">2026. 10. 27.</text>
+
+<!-- row labels -->
+<g font-size="19" font-weight="700" fill="#1d2a3a">
+<text x="50" y="200">EU ETS 해운</text>
+<text x="50" y="322">FuelEU Maritime</text>
+<text x="50" y="444">EU CBAM</text>
+<text x="50" y="566">IMO Net-Zero</text>
+<text x="50" y="590">Framework</text>
+<text x="50" y="700">CountEmissionsEU</text>
+</g>
+<g font-size="15" fill="#5f6b78">
+<text x="50" y="224">지침 (EU) 2023/959</text>
+<text x="50" y="346">규칙 (EU) 2023/1805</text>
+<text x="50" y="468">규칙 (EU) 2023/956</text>
+<text x="50" y="614">MARPOL 부속서 VI 개정안</text>
+<text x="50" y="724">규칙 (EU) 2026/1030</text>
+</g>
+
+<!-- EU ETS row -->
+<rect x="262" y="176" width="186" height="40" fill="#cfe0f7" rx="6"/>
+<rect x="452" y="176" width="186" height="40" fill="#8fb7ea" rx="6"/>
+<rect x="642" y="176" width="946" height="40" fill="#1f6fd1" rx="6"/>
+<g font-size="17" font-weight="700" text-anchor="middle" class="nb">
+<text x="355" y="202" fill="#1d2a3a">배출량의 40%</text>
+<text x="545" y="202" fill="#1d2a3a">70%</text>
+<text x="1115" y="202" fill="#ffffff">100% · 메탄·아산화질소 포함</text>
+</g>
+<text x="270" y="244" font-size="15" fill="#5f6b78">그해 배출분을 다음 해 9월 30일까지 배출권으로 제출 · EU 역내 항해 100%, EU와 역외 사이 항해 50%</text>
+
+<!-- FuelEU row -->
+<rect x="452" y="298" width="946" height="40" fill="#bfe3d1" rx="6"/>
+<rect x="1402" y="298" width="186" height="40" fill="#1f8a5b" rx="6"/>
+<g font-size="17" font-weight="700" text-anchor="middle" class="nb">
+<text x="925" y="324" fill="#1d2a3a">온실가스 집약도 2% 감축(2025~2029년)</text>
+<text x="1495" y="324" fill="#ffffff">6% 감축</text>
+</g>
+<text x="460" y="366" font-size="15" fill="#5f6b78">기준값은 2020년 평균(91.16 gCO2e/MJ), well-to-wake 기준 · 2035년 14.5%, 2050년 80%까지 강화</text>
+
+<!-- CBAM row -->
+<rect x="262" y="420" width="376" height="40" fill="#f6d7cc" rx="6"/>
+<rect x="642" y="420" width="946" height="40" fill="#e4572e" rx="6"/>
+<g font-size="17" font-weight="700" text-anchor="middle" class="nb">
+<text x="450" y="446" fill="#1d2a3a">전환기간: 분기 보고만</text>
+<text x="1210" y="446" fill="#ffffff">확정 기간: 인증서 구매·제출</text>
+</g>
+<circle cx="846" cy="440" r="8" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<circle cx="957" cy="440" r="8" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="846" y="492" font-size="15" fill="#1d2a3a" text-anchor="middle">2027년 2월</text>
+<text x="846" y="511" font-size="15" fill="#1d2a3a" text-anchor="middle">인증서 판매 시작</text>
+<text x="1000" y="492" font-size="15" fill="#1d2a3a">2027. 9. 30.</text>
+<text x="1000" y="511" font-size="15" fill="#1d2a3a">2026년 수입분 신고·제출 기한</text>
+<text x="1260" y="492" font-size="15" fill="#5f6b78">수입자당 연 50t 이하(철강·알루미늄·</text>
+<text x="1260" y="511" font-size="15" fill="#5f6b78">시멘트·비료)는 면제</text>
+
+<!-- IMO row -->
+<line x1="262" y1="576" x2="1588" y2="576" stroke="#c9d2dc" stroke-width="4"/>
+<line x1="498" y1="576" x2="814" y2="576" stroke="#5f6b78" stroke-width="4"/>
+<circle cx="498" cy="576" r="9" fill="#1d2a3a"/>
+<circle cx="593" cy="576" r="9" fill="#d9482b"/>
+<circle cx="688" cy="576" r="9" fill="#1d2a3a"/>
+<circle cx="814" cy="576" r="10" fill="#ffffff" stroke="#d9482b" stroke-width="3"/>
+<g font-size="15" text-anchor="middle" fill="#1d2a3a">
+<text x="470" y="556">MEPC 83 승인(2025. 4.)</text>
+<text x="593" y="608" fill="#d9482b">채택 회의 1년 연기(2025. 10.)</text>
+<text x="688" y="530">MEPC 84(2026. 4.)</text>
+<text x="688" y="550">작업반 구성</text>
+<text x="880" y="608" fill="#d9482b">MEPC 85·특별회기 재개 예정</text>
+<text x="880" y="628" fill="#d9482b">(2026. 11. 30.~12. 4.)</text>
+</g>
+<text x="1000" y="566" font-size="16" font-weight="700" fill="#5f6b78">채택 전 · 발효 시점 미정</text>
+
+<!-- CountEmissionsEU row -->
+<circle cx="719" cy="700" r="9" fill="#1d2a3a"/>
+<line x1="728" y1="700" x2="1564" y2="700" stroke="#c9d2dc" stroke-width="4" stroke-dasharray="10 6"/>
+<circle cx="1574" cy="700" r="10" fill="#1f6fd1"/>
+<text x="719" y="680" font-size="15" fill="#1d2a3a" text-anchor="middle">발효(2026. 6.)</text>
+<text x="1574" y="740" font-size="15" fill="#1f6fd1" text-anchor="end">대부분 2030년 12월부터 적용</text>
+<text x="1000" y="690" font-size="15" fill="#5f6b78">운송 배출량을 계산·공개할 때 EN ISO 14083 방식으로 통일</text>
+
+<text x="50" y="880" font-size="15" fill="#5f6b78">IMO 일정은 IMO 회의 일정표(2026년 10월 확인) 기준이며 MEPC 85에서 바뀔 수 있다. CountEmissionsEU 날짜는 규칙 (EU) 2026/1030 제20조 기준.</text>
+</svg>

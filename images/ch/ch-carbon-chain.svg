@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a">운송 체인 배출량: 구간(TCE)마다 따로 계산해 더한다</text>
+<rect x="30" y="80" width="1612" height="830" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+
+<!-- five TCE boxes -->
+<g font-size="18" fill="#1d2a3a">
+<rect x="60" y="120" width="290" height="210" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="60" y="120" width="290" height="44" fill="#1f6fd1" rx="12"/><rect x="60" y="150" width="290" height="14" fill="#1f6fd1"/>
+<text x="205" y="150" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">① 도로 운송</text>
+<text x="80" y="195" font-weight="700">공장 → 부산항</text>
+<text x="80" y="232" fill="#5f6b78">활동량</text><text x="80" y="258">화물 t × km</text>
+<text x="80" y="292" fill="#5f6b78">원단위</text><text x="80" y="318">g CO2e/t-km</text>
+
+<rect x="372" y="120" width="290" height="210" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="372" y="120" width="290" height="44" fill="#1f8a5b" rx="12"/><rect x="372" y="150" width="290" height="14" fill="#1f8a5b"/>
+<text x="517" y="150" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">② 허브</text>
+<text x="392" y="195" font-weight="700">부산 컨테이너 터미널</text>
+<text x="392" y="232" fill="#5f6b78">활동량</text><text x="392" y="258">처리한 화물 t 또는 컨테이너</text>
+<text x="392" y="292" fill="#5f6b78">원단위</text><text x="392" y="318">kg CO2e/t, kg CO2e/컨테이너</text>
+
+<rect x="684" y="120" width="290" height="210" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="684" y="120" width="290" height="44" fill="#1f6fd1" rx="12"/><rect x="684" y="150" width="290" height="14" fill="#1f6fd1"/>
+<text x="829" y="150" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">③ 해상 운송</text>
+<text x="704" y="195" font-weight="700">부산 → 로테르담</text>
+<text x="704" y="232" fill="#5f6b78">활동량</text><text x="704" y="258">TEU × km (또는 t × km)</text>
+<text x="704" y="292" fill="#5f6b78">원단위</text><text x="704" y="318">g CO2e/TEU-km</text>
+
+<rect x="996" y="120" width="290" height="210" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<rect x="996" y="120" width="290" height="44" fill="#1f8a5b" rx="12"/><rect x="996" y="150" width="290" height="14" fill="#1f8a5b"/>
+<text x="1141" y="150" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">④ 허브</text>
+<text x="1016" y="195" font-weight="700">로테르담 컨테이너 터미널</text>
+<text x="1016" y="232" fill="#5f6b78">활동량</text><text x="1016" y="258">처리한 화물 t 또는 컨테이너</text>
+<text x="1016" y="292" fill="#5f6b78">원단위</text><text x="1016" y="318">kg CO2e/t, kg CO2e/컨테이너</text>
+
+<rect x="1308" y="120" width="290" height="210" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<rect x="1308" y="120" width="290" height="44" fill="#1f6fd1" rx="12"/><rect x="1308" y="150" width="290" height="14" fill="#1f6fd1"/>
+<text x="1453" y="150" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">⑤ 도로 운송</text>
+<text x="1328" y="195" font-weight="700">로테르담 → 수입자 창고</text>
+<text x="1328" y="232" fill="#5f6b78">활동량</text><text x="1328" y="258">화물 t × km</text>
+<text x="1328" y="292" fill="#5f6b78">원단위</text><text x="1328" y="318">g CO2e/t-km</text>
+</g>
+<g stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)">
+<line x1="350" y1="225" x2="368" y2="225"/><line x1="662" y1="225" x2="680" y2="225"/><line x1="974" y1="225" x2="992" y2="225"/><line x1="1286" y1="225" x2="1304" y2="225"/>
+</g>
+
+<!-- formula band -->
+<rect x="60" y="360" width="1538" height="112" fill="#eef3fb" stroke="#c9d2dc" stroke-width="1.5" rx="12"/>
+<text x="90" y="402" font-size="21" font-weight="700" fill="#1d2a3a">운송 구간 배출량 = 화물량 × 거리 × 배출 원단위</text>
+<text x="830" y="402" font-size="21" font-weight="700" fill="#1d2a3a">허브 배출량 = 처리량 × 허브 원단위</text>
+<text x="90" y="445" font-size="19" fill="#d9482b" font-weight="700">운송 체인 배출량 = ① + ② + ③ + ④ + ⑤</text>
+<text x="600" y="445" font-size="18" fill="#5f6b78">구간마다 원단위와 거리 기준(실제 거리·최단 실행 거리·대권 거리)이 다르므로 합치기 전에 각각 계산한다</text>
+
+<!-- bottom left: WTW -->
+<rect x="60" y="500" width="760" height="380" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="12"/>
+<text x="85" y="540" font-size="21" font-weight="700" fill="#1d2a3a">WTW = WTT + TTW</text>
+<text x="85" y="572" font-size="17" fill="#5f6b78">예: 아시아-북유럽 드라이 컨테이너, GLEC v3.0 기본값(g CO2e/TEU-km)</text>
+<rect x="85" y="600" width="82" height="64" fill="#e4572e"/>
+<rect x="167" y="600" width="518" height="64" fill="#1f6fd1"/>
+<text x="126" y="640" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">6.8</text>
+<text x="426" y="640" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">43.1</text>
+<text x="700" y="640" font-size="20" font-weight="700" fill="#1d2a3a">= 49.9</text>
+<line x1="126" y1="664" x2="126" y2="700" stroke="#e4572e" stroke-width="2"/>
+<text x="85" y="724" font-size="18" font-weight="700" fill="#e4572e">WTT(Well-to-Tank)</text>
+<text x="85" y="750" font-size="17" fill="#1d2a3a">연료를 캐고 정제해 배까지 옮기는 단계</text>
+<line x1="426" y1="664" x2="426" y2="700" stroke="#1f6fd1" stroke-width="2"/>
+<text x="400" y="724" font-size="18" font-weight="700" fill="#1f6fd1">TTW(Tank-to-Wheel/Wake)</text>
+<text x="400" y="750" font-size="17" fill="#1d2a3a">엔진에서 연료를 태우는 단계</text>
+<text x="85" y="806" font-size="17" fill="#1d2a3a">ISO 14083·GLEC는 WTW로 보고한다. TTW만 쓴 숫자는</text>
+<text x="85" y="832" font-size="17" fill="#1d2a3a">같은 운송이라도 작게 나오므로 어느 기준인지 함께 적는다.</text>
+<text x="85" y="862" font-size="15" fill="#5f6b78">값은 GLEC Framework v3.0(2023) 표 16. 최신판 v3.2(2025)에서 기본값이 갱신되었다.</text>
+
+<!-- bottom right: data ladder -->
+<rect x="850" y="500" width="748" height="380" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="12"/>
+<text x="875" y="540" font-size="21" font-weight="700" fill="#1d2a3a">어떤 데이터로 계산했나</text>
+<rect x="900" y="570" width="560" height="78" fill="#e9f5ef" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="920" y="603" font-size="19" font-weight="700" fill="#1f8a5b">1차 데이터(primary)</text>
+<text x="920" y="632" font-size="17" fill="#1d2a3a">운송인의 실제 연료 사용량, 운송인이 낸 노선별 원단위</text>
+<rect x="900" y="664" width="560" height="78" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="920" y="697" font-size="19" font-weight="700" fill="#1f6fd1">모델 데이터(modeled)</text>
+<text x="920" y="726" font-size="17" fill="#1d2a3a">선박·항공기 종류, 적재율 등으로 추정한 값</text>
+<rect x="900" y="758" width="560" height="78" fill="#fdf0ec" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="920" y="791" font-size="19" font-weight="700" fill="#e4572e">기본값(default)</text>
+<text x="920" y="820" font-size="17" fill="#1d2a3a">업계 평균. 다른 자료가 없을 때 마지막 수단</text>
+<line x1="1572" y1="830" x2="1572" y2="580" stroke="#1f8a5b" stroke-width="3" marker-end="url(#a-green)"/>
+<text x="1480" y="690" font-size="17" fill="#1f8a5b" font-weight="700">정확도</text>
+<text x="1480" y="714" font-size="17" fill="#1f8a5b" font-weight="700">높음</text>
+<text x="875" y="866" font-size="15" fill="#5f6b78">ISO 14083은 1차·2차(모델·기본값) 데이터를 구분하고 기본값의 출처를 밝히게 한다.</text>
+</svg>

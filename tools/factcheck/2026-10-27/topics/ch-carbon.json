@@ -1,0 +1,182 @@
+[
+ {
+  "file": "ch-carbon.html",
+  "claim": "탄소중립기본법 법률 제21527호의 시행일을 2026. 4. 7.로만 적음",
+  "verdict": "unclear",
+  "evidence": "law.go.kr DRF lawService(target=eflaw, MST 285267, efYd=20261008): 현행본 <시행일자>20261008. 법률 제21527호 부칙 제1조: '이 법은 공포한 날부터 시행한다. 다만 … 2. 제2조제5호, 제8조, 제16조, …, 제31조 … 의 개정규정: 공포 후 6개월이 경과한 날'(공포 2026. 4. 7.). 제8조 본문(35% 이상, 대통령령 비율)과 헌법불합치 주석은 10. 8. 시행본에서도 같음. 시행령(대통령령 제36693호, 시행 2026. 10. 8.) 제3조 '40퍼센트', 제31조 교통부문감축목표 내용 확인.",
+  "old": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법(법률 제21527호, 시행 2026. 4. 7.)",
+  "fix": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법(법률 제21527호, 2026. 4. 7. 시행, 제8조 등 일부 개정 조항은 2026. 10. 8. 시행)"
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "CountEmissionsEU: '업계 해설에 따르면' 2026년 6월 발효, 주요 규정 2030년 12월부터 적용",
+  "verdict": "unclear",
+  "evidence": "https://publications.europa.eu/resource/celex/32026R1030 (OJ L series 2026/1030, 12.5.2026) 제20조: 'shall enter into force on the twentieth day following that of its publication' → 2026. 6. 1.; 'It shall apply from 2 December 2030. However, Article 3(4)…'; 제1조: 'transport services that start or end on the Union territory, where … calculated and disclosed, on a contractual or voluntary basis …'. 내용은 맞고 원문으로 확인되므로 날짜를 정확히 적을 수 있음.",
+  "old": "업계 해설에 따르면 2026년 6월 발효했고 주요 규정은 2030년 12월부터 적용됩니다",
+  "fix": "2026년 5월 12일 관보에 실려 6월 1일 발효했고, 주요 규정은 2030년 12월 2일부터 적용됩니다(제20조)"
+ },
+ {
+  "file": "images/ch/ch-carbon-regulation-timeline.svg",
+  "claim": "그림 주석: CountEmissionsEU 적용일은 업계 해설 기준",
+  "verdict": "unclear",
+  "evidence": "규칙 (EU) 2026/1030 제20조(위 항목)로 원문 확인됨: 발효 2026. 6. 1., 적용 2030. 12. 2.",
+  "old": "CountEmissionsEU 적용일은 업계 해설 기준.",
+  "fix": "CountEmissionsEU 날짜는 규칙 (EU) 2026/1030 제20조 기준."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "항공 거리 보정: '거리 보정이 필요한데 구체 자료가 없으면 대권 거리에 95km를 더하는 비율'",
+  "verdict": "unclear",
+  "evidence": "https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf 1부 4장 Requirements for air transport: 'Distance is measured as the GCD … If the actual distance is used in the calculation, you need to apply a DAF to prevent underreporting … In case the specific information for the DAF is not available, you use the ratio of (GCD + 95km) / GCD'. 보정은 실제 비행 거리를 쓸 때의 규정이라 조건을 밝히는 편이 정확함.",
+  "old": "거리 보정이 필요한데 구체 자료가 없으면 대권 거리에 95km를 더하는 비율을 쓰라는 규정도 있습니다.",
+  "fix": "대권 거리 대신 실제 비행 거리로 계산했다면 과소 보고를 막는 거리 보정계수(DAF)를 붙여야 하고, 구체 자료가 없으면 (대권 거리 + 95km) ÷ 대권 거리의 비율을 쓰라는 규정도 있습니다."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "ES.2 휴회 표결 찬성 57, 반대 49, 기권 21: 출처 줄의 Global Maritime Forum 보도에는 표결 수가 없음",
+  "verdict": "unclear",
+  "evidence": "수치는 맞음: https://www.hilldickinson.com/our-view/articles/imo-s-net-zero-framework-adoption-adjourned-and-consensus-building-continues/ (2025. 10. 30.) 'passed with 57 votes in favour, 49 against, and 21 abstentions'. GMF 보도는 'failed to come to a consensus or call a vote'라고만 적어 근거 출처를 보태야 함. IMO 요약(MEPC-ES-2)도 표결 수를 싣지 않음.",
+  "old": "<a href=\"https://globalmaritimeforum.org/press/negotiations-at-IMO-adjourn-without-a-decision-on-NZF/\" target=\"_blank\" rel=\"noopener noreferrer\">보도</a>;",
+  "fix": "<a href=\"https://globalmaritimeforum.org/press/negotiations-at-IMO-adjourn-without-a-decision-on-NZF/\" target=\"_blank\" rel=\"noopener noreferrer\">보도</a>; IMO's Net-Zero Framework – Adoption adjourned(Hill Dickinson, 2025. 10. 30., 휴회 표결 수) — <a href=\"https://www.hilldickinson.com/our-view/articles/imo-s-net-zero-framework-adoption-adjourned-and-consensus-building-continues/\" target=\"_blank\" rel=\"noopener noreferrer\">해설</a>;"
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "면책 문구: EU 법령 원문(EUR-Lex)을 열지 못해 해설로 대조",
+  "verdict": "unclear",
+  "evidence": "사실 확인에서 EU 출판국 Cellar(publications.europa.eu/resource/celex/…, Accept: application/xhtml+xml)로 지침 2023/959(제출·비용 상환·발효), 규칙 2023/1805(제2조·제4조 91,16 g, 2/6/14.5/31/62/80%, 1월 31일 FuelEU 보고서, 2025. 1. 1. 적용), 이행규칙 2023/2297(탕헤르메드·동포트사이드), 규칙 2025/2083(50t, 3. 31. 신청, 2027. 2. 1. 판매, 9. 30. 신고, 2026년 분기 평균 가격), 규칙 2026/1030 원문을 모두 확인함. 본문 내용은 원문과 일치하므로 문구를 원문 확인으로 바꿀 수 있음.",
+  "old": "EU 법령 원문(EUR-Lex)은 이번에 직접 열지 못해 집행위원회 설명과 선급·법률사무소 해설로 대조했고, 그런 항목은 본문에 밝혔습니다.",
+  "fix": "EU 법령 원문은 EU 출판국(Publications Office)의 관보 사본으로 대조했습니다."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "6절 출처 줄: EUR-Lex 원문은 열리지 않아 집행위원회 설명과 대조",
+  "verdict": "unclear",
+  "evidence": "위 항목과 같음. 지침 2023/959 원문(관보 L 130, 2023. 5. 16.): 'entitled to reimbursement from that entity for the costs arising from the surrender of allowances', 발효 'twentieth day following' → 2023. 6. 5.",
+  "old": "(2026년 10월 27일 확인. EUR-Lex 원문은 이번에 열리지 않아 집행위원회 설명과 대조함)",
+  "fix": "(2026년 10월 27일 확인. 법령 원문은 EU 출판국 관보 사본으로 대조함)"
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "FuelEU 기준값 91.16 gCO2e/MJ를 '선급 해설에 따르면'으로 적음",
+  "verdict": "unclear",
+  "evidence": "https://publications.europa.eu/resource/celex/32023R1805 제4조 제2항: 'reducing the reference value of 91,16 grams of CO2 equivalent per MJ by the following percentage: 2 % from 1 January 2025; 6 % … 2030; 14,5 % … 2035; 31 % … 2040; 62 % … 2045; 80 % … 2050'. 원문 조항이 있으므로 해설 인용이 불필요.",
+  "old": "선급 해설에 따르면 기준값은 91.16 gCO2e/MJ이고,",
+  "fix": "규칙 제4조가 정한 기준값은 91.16 gCO2e/MJ이고,"
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "CBAM 간소화 내용을 '집행위원회 설명과 법률사무소 해설로 확인'",
+  "verdict": "unclear",
+  "evidence": "https://publications.europa.eu/resource/celex/32025R2083 (관보 2025. 10. 17., 제2조 'third day following' → 10. 20. 발효): 단일 중량 기준 50 tonnes(Annex VII), 전기·수소 제외('This Article shall not apply to imports of electricity or hydrogen'), 'application … by 31 March 2026 … may provisionally continue to import', 'From 1 February 2027, a Member State shall sell CBAM certificates', 'By 30 September of each year, and for the first time in 2027 for the year 2026', 2026년분 가격 'quarterly average'. 표 내용 모두 원문과 일치.",
+  "old": "집행위원회 설명과 법률사무소 해설로 확인한 주요 내용은 다음과 같습니다.",
+  "fix": "규칙 원문과 집행위원회 설명으로 확인한 주요 내용은 다음과 같습니다."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "GLEC v3.0 표 16 아시아-북유럽 드라이 WTW 49.9 = WTT 6.8 + TTW 43.1, 리퍼 128.7, 업계 평균 드라이 89.0·리퍼 172.2 g CO2e/TEU-km",
+  "verdict": "correct",
+  "evidence": "https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf p.98 Table 16 'Asia to-from North Europe Dry 39.6 | 6.8 | 43.1 | 49.9; Reefer 102.1 | 17.6 | 111.2 | 128.7'; 'Industry Average … Dry 70.6 | 12.1 | 76.9 | 89.0; Reefer 136.5 | 23.5 | 148.7 | 172.2'."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "컨테이너선 원단위에 SFD 대비 +15% 거리 보정 포함, SFD를 그대로 곱함; Clean Cargo 기반",
+  "verdict": "correct",
+  "evidence": "https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf Module 2 'derived from the latest Clean Cargo trade lane GHG emission factors … end user factors include a + 15% distance conversion to correct for the difference between actual and shortest feasible distance'; p.116 'end user factors shown in tables 16 and 17 … have been adjusted for this already, so that the user can apply the planned distance directly'."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "TEU→톤 환산 10t/TEU(일반), 6t(가벼운), 14.5t(무거운)",
+  "verdict": "correct",
+  "evidence": "https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf 1부 4장 sea: 'a standard conversion factor of 10 tonnes per TEU … 6 tonnes per TEU for lightweight cargo, and … 14.5 tonnes per TEU for heavyweight cargo'."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "항공 표 1: 화물기 장거리 629·단거리 1,509, belly 971·1,237, 기종 모름 817·1,359(WTW), belly 55%·화물기 45% 가중",
+  "verdict": "correct",
+  "evidence": "https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf p.85 Table 1 (WTW: Freighter short 1509/long 629; Belly short 1237/long 971; Unknown short 1359/long 817); 'weighted average … in the ratio 55% belly freight, 45% freighter'. 검산 0.55×971+0.45×629=817."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "항공은 실제 화물 중량, 운임 중량 같은 대용값 금지; 편명 확보; 경유 구간별 계산",
+  "verdict": "correct",
+  "evidence": "https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf 'Use the actual consignment mass, not proxies like chargeable weight'; 'you should aim to obtain the flight numbers'; 'If flights include intermediate stops, you should apply the appropriate default factor for each flight leg'."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "유럽 대형 화물차(>20t GVW) 출발값 115 g CO2e/t-km(WTW)",
+  "verdict": "correct",
+  "evidence": "https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf Table 7 Europe and South America: 'HGV: (>20 t GVW): 115 g CO2e/t-km (WTW)', 'starting points … little knowledge other than a basic vehicle type'."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "계산 예시 산술(2.0t·1.72t·0.27t·5.1t, LCL 0.2t, 항공 3.5t·5.6t·60%·2.7t·4.1t, 트럭 0.69t·0.52t, 합계 약 3.2t, 160배 이상)",
+  "verdict": "correct",
+  "evidence": "검산: 2×20,000×49.9=1,996,000g; ×43.1=1,724,000g; ×128.7=5,148,000g; 2×20,000×4.99=199,600g; 0.5×8,500×817=3,472,250g; 0.8×8,500×817=5,555,600g; ×629=2,673,250g; ×971=4,126,750g; 15×400×115=690,000g; 15×300×115=517,500g; 817/4.99≈164."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "허브 기본값(표 3)은 표본이 작아 계속 갱신; 상쇄·배출권 거래 결과는 운송 체인 배출에서 제외; 기본값은 마지막 수단, 1차 데이터를 운송인에게서 수집",
+  "verdict": "correct",
+  "evidence": "https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf Table 3 'The sample size … is still relatively small; the values will continue to be updated'; 'the outcomes of any form of carbon offsetting actions or GHG emissions trading are excluded'; 'last resort is to use default data'; 'transport buyers should aim to collect from carriers for their Scope 3'."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "GLEC v3.2 2025년 10월 23일 공개, 컨테이너선·도로·허브·해상 연료 계수 갱신과 대기오염물질 모듈 추가; 기본값 엑셀은 회원·인증 도구에만",
+  "verdict": "correct",
+  "evidence": "https://searoutes.com/en/blog/glec-framework-v3-2-2025 'published on October 23rd, 2025'; Clean Cargo 갱신, SmartWay 2024·CNG/LNG, Fraunhofer IML 허브, MEPC81 연료 계수, 'New Module 6: Air Pollutant Emissions Methodology'; SEI(2025. 10. 23.)도 v3.2 편입 확인. 엑셀 제공 조건은 Searoutes 해설 근거(SFC 원문 미확인)."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "ISO 14083:2023 2023년 3월(20일) 발행, IWA 16 대체",
+  "verdict": "correct",
+  "evidence": "BSI Knowledge 페이지 '20 Mar 2023'; SIS 목록: IWA 16:2015 Withdrawn, replaced by ISO 14083:2023."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "GHG Protocol 카테고리 4: 직접 또는 중개인을 통해 산 운송 서비스(출고 포함), 판매 후 비용을 내지 않은 운송은 카테고리 9",
+  "verdict": "correct",
+  "evidence": "https://ghgprotocol.org/sites/default/files/standards/Scope3_Calculation_Guidance_0.pdf Category 4: 'Third-party transportation and distribution services purchased by the reporting company … (either directly or through an intermediary), including inbound logistics, outbound logistics (e.g., of sold products)'; Category 9 '(… not paid for by the reporting company)'. '포워더=중개인'은 지침이 명시하지 않은 해석이나 무리 없음."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "EU ETS 해운: 5,000GT, 해양작업선 2027, 400~5,000GT MRV 2025, 100%/50%, 40/70/100%, CH4·N2O 2026, 9월 30일 제출, 의무자 정의, 비용 상환권, 인근 환적항(300해리, 65%, 탕헤르메드·동포트사이드)",
+  "verdict": "correct",
+  "evidence": "https://climate.ec.europa.eu/eu-action/transport-decarbonisation/reducing-emissions-shipping-sector/faq-maritime-transport-eu-emissions-trading-system-ets_en 해당 문구 모두 확인; 이행규칙 2023/2297 원문(Cellar) 'Tanger Med should therefore be identified as a neighbouring container transhipment port', East Port Said 동일; 지침 2023/959 관보 2023. 5. 16., 20일째 발효 = 2023. 6. 5."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "FuelEU: 5,000GT 초과, 2025. 1. 1. 적용, 2/6/14.5/31/62/80%, 91.16, 매년 1월 31일 FuelEU 보고서, 2030년 AFIR 제9조 항만 OPS",
+  "verdict": "correct",
+  "evidence": "Cellar 32023R1805: 제2조 'all ships of above 5 000 gross tonnage'; 'It shall apply from 1 January 2025, with the exception of Articles 8 and 9 which shall apply from 31 August 2024'; 제4조 감축률; 'By 31 January of the verification period, companies shall provide to the verifier a ship-specific report (the FuelEU report)'."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "IMO NZF: MEPC 83(2025. 4.) 승인, ES.2(2025. 10. 14~17) 휴회·12개월 뒤 재개, MEPC 84(2026. 4. 27~5. 1) 작업반·수정안 허용, 작업반 9. 1~4·11. 23~27, MEPC 85 11. 30~12. 3, ES.2 재개 12. 4.(MEPC 85에서 확정), 9월 회의 합의 없음 → 2026. 10. 27. 현재 채택 전",
+  "verdict": "correct",
+  "evidence": "IMO MEPC-ES-2 요약 '14 to 17 October 2025 … agreed to adjourn … reconvene in 12 months' time'; Temporary-MEPC-84th-session 요약 '27 April to 1 May 2026', intersessional group, 'new amendments and adjustments', '1 to 4 September and 23 to 27 November', MEPC 85 '30 November to 3 December', ES.2 'Friday 4 December 2026' subject to MEPC 85; iswg-ghg-22 요약 'genuine willingness … to make concrete further progress', 'remaining concerns'. 2026년 10월 채택 보도 없음(검색)."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "CBAM: 6개 부문, 전환기간 2023. 10.~2025년 말, 확정 기간 2026. 1. 1., 2025/2083 관보 2025. 10. 17.·10. 20. 발효, 50t(전기·수소 제외), 초과 시 그해 전체, 3. 31. 신청, 9. 30. 신고(종전 5. 31.), 2027. 2. 판매, 2026년 분기·2027년부터 주간 평균, 기본값 이행규칙 2025/2621(정정 2026/1740), 생산국 탄소 가격 공제, COM(2025) 989는 제안 단계",
+  "verdict": "correct",
+  "evidence": "Cellar 32025R2083 해당 조문; DG TAXUD definitive regime 'applies from 1 January 2026', 'quarterly average in 2026 and as a weekly average from 2027'; legislation 페이지 '2025/2621 … legally binding values', '2026/1740 (correcting act)', COM(2025) 989는 'Review and legislative proposals' 아래 제안으로만 게재."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "물류정책기본법(법률 제21065호, 시행 2025. 10. 1.) 제59조·제60조·제60조의3~제60조의8 내용",
+  "verdict": "correct",
+  "evidence": "law.go.kr DRF MST 276993: 제59조 국토교통부장관ㆍ해양수산부장관 또는 시ㆍ도지사의 환경친화적 물류 시책·지원(운송수단·포장재료, 시설·장비 전환); 제60조 전환 권고·지원; 제60조의3 국토교통부장관이 우수기업 지정, '우수녹색물류실천기업'. 참고: 제60조의5는 삭제 조문."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "할증료·배출권 가격 금액 없음, 포워더에게 화물 개봉·측정 지시 없음",
+  "verdict": "correct",
+  "evidence": "본문·SVG 전체 확인: 금액·가격 없음(GLEC 원단위만 인용). '화물을 직접 재거나 열어 볼 필요는 없습니다', CBAM 점검표도 화주 서류 대조만."
+ },
+ {
+  "file": "ch-carbon.html",
+  "claim": "ch-surcharges 4절(계산 공식)·7절(인보이스 대조), ch-sea-charges 8절(공표 제도) 연결과 내용 일치",
+  "verdict": "correct",
+  "evidence": "ch-docs/ch-surcharges.html 4절 표 'EU ETS 할증 … 항해 배출량 × 대상 비율(EU 역내 100%, EU와 역외 사이 50%) × 단계별 제출 비율 × 배출권 가격', 연표 '2024년 배출분 40%, 2025년분 70%, 2026년분부터 100%', FuelEU '2025년 2%부터'; 7절 '인보이스의 할증료 줄 대조'; ch-sea-charges.html 8절 '한국의 운임·요금 공표 제도'. 모순 없음."
+ }
+]

@@ -1,0 +1,214 @@
+<p>화주가 포워더에게 "이번 운송의 탄소 배출량을 알려 달라"고 묻는 일이 늘었습니다. 화주의 온실가스 보고에서 외부에 맡긴 운송은 Scope 3에 들어가고, 그 숫자를 만들 자료를 가진 쪽이 운송을 설계한 포워더이기 때문입니다. 이 문서는 국제 표준 ISO 14083:2023과 Smart Freight Centre의 GLEC Framework가 정한 계산 방식(WTW와 TTW, 운송 체인 요소, 허브, 배출 원단위, 1차 데이터와 기본값)을 실제 숫자로 풀고, 포워더가 모아야 할 자료를 정리한 뒤, EU 배출권거래제(EU ETS)와 FuelEU Maritime, IMO Net-Zero Framework, EU 탄소국경조정제도(CBAM)가 물류에 닿는 지점을 원리 중심으로 설명합니다. 이 규제들이 해상운임의 할증료로 붙는 이름과 계산 공식은 <a data-doc="ch-surcharges">해상 할증료 종류와 BAF</a>에 있으므로 여기서는 되풀이하지 않습니다.</p>
+
+<p class="lib-summary"><b>핵심 3줄</b><br>① 운송 배출량은 구간(운송 체인 요소)마다 "화물량 × 거리 × 배출 원단위"로 계산해 더하고, 연료 생산 단계까지 포함한 WTW(Well-to-Wheel) 기준으로 보고합니다. 항공은 운임 중량이 아니라 실제 화물 중량을 씁니다.<br>② 기본값은 다른 자료가 없을 때 쓰는 업계 평균이므로, 계산서에는 방식(ISO 14083·GLEC 판)과 WTW·TTW 구분, 데이터 종류, 기본값 출처와 거리 기준을 함께 적어야 비교할 수 있습니다.<br>③ EU ETS·FuelEU는 선박 단위 의무가 선사 할증료로 넘어오는 것이고, IMO Net-Zero Framework는 2026년 10월 27일 현재 채택 전이며, CBAM 신고의 내재 배출량은 생산자가 만드는 숫자라 포워더의 운송 배출량과는 별개입니다.</p>
+
+<p class="lib-disclaimer">이 문서는 2026년 10월 27일에 확인한 자료를 바탕으로 썼습니다. 계산 방식은 GLEC Framework v3.0(2023년 9월) 원문과 GHG Protocol Scope 3 기술 지침을, EU 규제는 유럽연합 집행위원회 기후행동총국·운송총국·조세관세총국의 공식 설명 페이지를, IMO 일정은 IMO 회의 요약과 일정표를, 한국 법령은 국가법령정보센터 원문을 확인했습니다. EU 법령 원문은 EU 출판국(Publications Office)의 관보 사본으로 대조했습니다. 계산 예시의 배출 원단위는 GLEC Framework v3.0에 실린 공개 기본값이며, 거리는 계산을 보이려고 정한 가정값입니다. GLEC 최신판(v3.2, 2025년 10월)은 기본값을 갱신했고 전체 기본값 표는 회원·인증 도구에만 제공되므로, 실제 보고에는 최신 기본값이나 운송인의 1차 데이터를 쓰십시오. 할증료와 배출권 가격은 계속 바뀌므로 금액을 싣지 않았습니다. 포워더는 화물을 직접 확인하지 않고 화주 서류와 운송인 기록으로 계산한다는 전제로 썼습니다.</p>
+
+<h3>1. 누가, 왜 운송 배출량을 묻나</h3>
+<p>기업의 온실가스 보고는 GHG Protocol의 구분을 따르는 경우가 많습니다. 자기 차량·설비에서 직접 나온 배출은 Scope 1, 사 온 전기는 Scope 2, 그 밖에 가치사슬에서 나온 배출은 Scope 3이고, Scope 3은 15개 카테고리로 나뉩니다. 운송은 주로 카테고리 4(업스트림 운송·유통)와 카테고리 9(다운스트림 운송·유통)에 들어갑니다. 포워더가 보내는 운송 배출량 계산서는 화주 입장에서 이 두 카테고리의 재료입니다.</p>
+<p>어느 카테고리인지는 "누가 운송비를 냈나"로 갈립니다. GHG Protocol 기술 지침은 카테고리 4에 ① 1차 공급자에게서 산 물건을 자기 사업장까지 옮긴 운송과 ② 보고 회사가 직접 또는 중개인을 통해 산 운송 서비스(판매한 제품의 출고 운송 포함)를 넣고, 판매 후 보고 회사가 돈을 내지 않은 운송만 카테고리 9로 둡니다. 포워더는 지침이 말하는 "중개인"에 해당합니다. 그래서 같은 해상 구간이 무역조건에 따라 수출자의 카테고리 4가 되기도 하고 9가 되기도 합니다.</p>
+<table class="lib-table">
+<thead><tr><th>상황</th><th>수출자(매도인)</th><th>수입자(매수인)</th></tr></thead>
+<tbody>
+<tr><td>CIF·CIP·DAP처럼 매도인이 주 운송비를 내는 조건</td><td>주 운송은 산 서비스이므로 카테고리 4</td><td>공급자에게서 산 물건이 들어오는 운송이므로 카테고리 4</td></tr>
+<tr><td>FOB·FCA처럼 매수인이 주 운송비를 내는 조건</td><td>판매 뒤 돈을 내지 않은 운송이므로 카테고리 9</td><td>직접 산 운송 서비스이므로 카테고리 4</td></tr>
+<tr><td>자기 공장과 창고 사이를 외부 운송사가 옮김</td><td colspan="2">자기 시설 사이의 외부 운송도 카테고리 4</td></tr>
+</tbody>
+</table>
+<p>표는 GHG Protocol 기술 지침의 정의를 무역조건에 대입해 본 것이며, 실제 분류는 화주의 보고 경계에 따라 다를 수 있습니다. 조건별로 주 운송비를 누가 내는지는 <a href="/library/incoterms-2020/inco-gray#s5">위험·비용의 분기와 애매한 구간</a>을 보십시오.</p>
+<p>공개 방식도 하나로 모이고 있습니다. EU는 운송 서비스의 온실가스 배출량을 계산해 공개할 때 쓰는 공통 방법을 정한 규칙 (EU) 2026/1030(이른바 CountEmissionsEU, 2026년 4월 29일 채택)을 만들었습니다. 모든 기업에 계산 의무를 지우는 것은 아니지만, 자발적·계약상으로 배출량을 계산해 공개할 때는 EN ISO 14083:2023 방식을 따르도록 하는 내용이며, 2026년 5월 12일 관보에 실려 6월 1일 발효했고, 주요 규정은 2030년 12월 2일부터 적용됩니다(제20조). EU 화주와 거래하는 포워더라면 지금부터 ISO 14083에 맞춰 계산해 두는 편이 나중에 다시 계산하는 일을 줄입니다.</p>
+<p class="lib-source">출처: Technical Guidance for Calculating Scope 3 Emissions(GHG Protocol, 2013) — <a href="https://ghgprotocol.org/sites/default/files/standards/Scope3_Calculation_Guidance_0.pdf" target="_blank" rel="noopener noreferrer">PDF</a>; GLEC Framework v3.0(Smart Freight Centre, 2023) 2부 1장 Scope 3 카테고리 설명 — <a href="https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf" target="_blank" rel="noopener noreferrer">PDF(ECTA 게시본)</a>; New EU rules harmonising transport emissions calculations take effect(ERTICO, 2026. 6. 5.) — <a href="https://ertico.com/new-eu-rules-harmonising-transport-emissions-calculations-take-effect" target="_blank" rel="noopener noreferrer">ERTICO</a>; CountEmissionsEU: Implications of Regulation (EU) 2026/1030(ETP-ALICE) — <a href="https://www.etp-logistics.eu/?p=29626" target="_blank" rel="noopener noreferrer">ETP-ALICE</a> (2026년 10월 27일 확인)</p>
+
+<h3>2. 두 기준: ISO 14083과 GLEC Framework</h3>
+<p>ISO 14083:2023(Greenhouse gases — Quantification and reporting of greenhouse gas emissions arising from transport chain operations)은 2023년 3월에 나온 국제 표준으로, 화물·여객 운송 체인의 온실가스를 계산하고 보고하는 공통 규칙을 정합니다. 2015년의 ISO 워크숍 합의문 IWA 16을 대신합니다. GLEC Framework는 Smart Freight Centre(SFC)가 운영하는 업계 계산 지침으로, 2023년 9월에 나온 v3.0부터 ISO 14083의 요구 사항을 그대로 반영하고 수단별 세부 방법과 기본값을 붙였습니다. 표준이 "무엇을 어떻게 세라"를 정한다면 GLEC는 "수단별로 실제로 이렇게 계산하고, 자료가 없으면 이 기본값을 쓰라"를 덧붙인 실무서에 가깝습니다.</p>
+<p>최신판은 2025년 10월 23일에 나온 v3.2로, 업계 해설에 따르면 기본값(컨테이너선, 도로, 허브, 해상 연료 배출계수 등)을 갱신하고 대기오염물질 배출 계산 모듈을 새로 넣은 개정입니다. 본문은 SFC 홈페이지에서 받을 수 있지만 전체 기본값 엑셀 표는 SFC 회원과 인증 도구에만 신청을 받아 제공합니다. 그래서 공개 자료로 계산을 보이려면 v3.0 본문의 표를 인용할 수밖에 없고, 이 문서의 예시도 그렇게 했습니다.</p>
+<h4>꼭 알아야 할 용어</h4>
+<table class="lib-table">
+<thead><tr><th>용어</th><th>뜻</th><th>포워더에게 주는 의미</th></tr></thead>
+<tbody>
+<tr><td>WTT(Well-to-Tank)</td><td>연료를 캐고 정제해 차량·선박·항공기의 연료 탱크까지 옮기는 단계의 배출. ISO 14083·GLEC는 "에너지 공급 배출"이라 부름</td><td>운송인이 직접 내지 않는 배출이지만 운송 배출량에 포함됨</td></tr>
+<tr><td>TTW(Tank-to-Wheel, 해상·항공은 Tank-to-Wake)</td><td>엔진에서 연료를 태울 때의 배출. "운행 배출"</td><td>운송인 보고서에 TTW만 적힌 경우가 있어 WTW와 섞으면 안 됨</td></tr>
+<tr><td>WTW(Well-to-Wheel/Wake)</td><td>WTT + TTW. ISO 14083·GLEC v3의 보고 기준</td><td>계산서의 기본 숫자. TTW를 함께 적어 두면 비교가 쉬움</td></tr>
+<tr><td>운송 체인 요소(TCE, Transport Chain Element)</td><td>운송 체인을 이루는 한 구간. 운송 구간 하나 또는 허브 하나</td><td>환적·환승·창고 경유마다 구간을 나눠 따로 계산</td></tr>
+<tr><td>운송 운영 범주(TOC)·허브 운영 범주(HOC)</td><td>비슷한 성격의 운송·허브 운영을 묶은 범주. 범주마다 배출 원단위를 정함</td><td>예: 아시아-북유럽 드라이 컨테이너 정기선, 장거리 화물기</td></tr>
+<tr><td>배출 원단위(emission intensity)</td><td>운송 활동 한 단위당 배출량. g CO2e/t-km(화물 1톤을 1km 옮길 때), 컨테이너는 g CO2e/TEU-km</td><td>CO2e는 이산화탄소 외 메탄·아산화질소 등을 이산화탄소로 환산한 양</td></tr>
+<tr><td>배분(allocation)</td><td>한 차량·선박의 배출을 실린 화물들에 나누는 규칙. 원칙적으로 운송 활동량(t-km 등) 비율</td><td>혼재 화물은 자기 몫(중량 × 거리)만큼 배출을 가져감</td></tr>
+<tr><td>1차 데이터·2차 데이터</td><td>1차는 실측 연료 사용량처럼 직접 측정에 근거한 값, 2차는 모델 데이터와 기본값</td><td>기본값은 마지막 수단. 출처를 반드시 밝힘</td></tr>
+</tbody>
+</table>
+<p>GLEC v3.0은 데이터를 1차 데이터, 2차 데이터(모델 데이터와 기본값)로 나누고, 운송 구매자가 Scope 3 계산을 위해 운송인에게서 모아야 할 것은 1차 데이터라고 적습니다. 기본값은 "업계 평균 운영을 대표하는 마지막 수단"으로서 대략의 규모와 배출이 많은 구간을 찾는 데 쓰라는 것이고, 사용한 기본값의 출처를 밝히도록 합니다.</p>
+<p class="lib-source">출처: GLEC Framework v3.0(Smart Freight Centre, 2023. 9.) 1부 1~3장, 3부 모듈 1~2 — <a href="https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf" target="_blank" rel="noopener noreferrer">PDF(ECTA 게시본)</a>; ISO 14083:2023 서지 정보(BSI Knowledge, 2023. 3. 20. 발행) — <a href="https://knowledge.bsigroup.com/products/greenhouse-gases-quantification-and-reporting-of-greenhouse-gas-emissions-arising-from-transport-chain-operations" target="_blank" rel="noopener noreferrer">BSI</a>; GLEC Framework v3.2 개정 내용 해설(Searoutes, 2025) — <a href="https://searoutes.com/en/blog/glec-framework-v3-2-2025" target="_blank" rel="noopener noreferrer">Searoutes</a>; Smart Freight Centre — <a href="https://smartfreightcentre.org/page/emissions-accounting" target="_blank" rel="noopener noreferrer">Emissions Accounting</a> (2026년 10월 27일 확인)</p>
+
+<h3>3. 계산 순서와 예시: 해상 FCL·LCL, 항공, 트럭</h3>
+<p>계산은 운송 체인을 구간으로 나누고, 구간마다 활동량에 배출 원단위를 곱해 더하는 것입니다. GLEC v3.0의 계산 단계도 "운송 체인 요소를 정한다, 요소마다 활동량을 구한다, 해당 범주의 원단위를 찾는다, 곱한다, 더한다"의 순서입니다.</p>
+<figure class="lib-figure"><img src="/images/ch/ch-carbon-chain.svg" alt="공장에서 부산항까지 도로 운송, 부산 컨테이너 터미널, 부산에서 로테르담까지 해상 운송, 로테르담 컨테이너 터미널, 로테르담에서 수입자 창고까지 도로 운송의 다섯 구간을 상자로 놓고, 도로는 화물 톤 × km와 g CO2e/t-km, 해상은 TEU × km와 g CO2e/TEU-km, 허브는 처리량과 kg CO2e/t 또는 컨테이너당 원단위를 쓴다고 표시했다. 가운데 띠에는 운송 구간 배출량 = 화물량 × 거리 × 배출 원단위, 허브 배출량 = 처리량 × 허브 원단위, 운송 체인 배출량은 다섯 구간의 합이라는 식이 있다. 아래 왼쪽은 GLEC v3.0 아시아-북유럽 드라이 컨테이너 기본값 49.9 g CO2e/TEU-km가 WTT 6.8과 TTW 43.1로 이루어진다는 막대, 아래 오른쪽은 1차 데이터, 모델 데이터, 기본값 순으로 정확도가 낮아진다는 사다리 그림이다." loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>도해</span> 운송 체인 배출량은 구간마다 따로 계산해 더합니다. 해상 원단위 49.9는 연료 생산 단계(WTT) 6.8과 연소 단계(TTW) 43.1의 합이며, GLEC v3.0 기본값입니다.</figcaption></figure>
+<h4>계산 예시에 쓴 기본값(GLEC Framework v3.0)</h4>
+<table class="lib-table">
+<thead><tr><th>구간</th><th>GLEC v3.0 기본값</th><th>단위</th><th>원문 위치</th></tr></thead>
+<tbody>
+<tr><td>해상: 아시아-북유럽 드라이 컨테이너</td><td>WTW 49.9(WTT 6.8 + TTW 43.1). 같은 항로 리퍼는 WTW 128.7</td><td>g CO2e/TEU-km</td><td>3부 모듈 2 표 16(Clean Cargo 데이터 기반, 최단 실행 거리 대비 15% 거리 보정 포함)</td></tr>
+<tr><td>해상: 출발·도착지를 모를 때 업계 평균</td><td>드라이 WTW 89.0, 리퍼 WTW 172.2</td><td>g CO2e/TEU-km</td><td>같은 표 16</td></tr>
+<tr><td>항공: 장거리(1,500km 초과)</td><td>화물기 629, 여객기 하부 화물칸(belly) 971, 기종 모름 817(모두 WTW)</td><td>g CO2e/t-km</td><td>3부 모듈 2 표 1(기종 모름 = belly 55%, 화물기 45% 가중 평균)</td></tr>
+<tr><td>항공: 단거리(1,500km 미만)</td><td>화물기 1,509, belly 1,237, 기종 모름 1,359(모두 WTW)</td><td>g CO2e/t-km</td><td>같은 표 1</td></tr>
+<tr><td>도로: 유럽 대형 화물차(총중량 20t 초과)</td><td>WTW 115(차량 정보가 거의 없을 때 쓰는 출발값)</td><td>g CO2e/t-km</td><td>3부 모듈 2 도로 운송 절(유럽·남미)</td></tr>
+</tbody>
+</table>
+<p class="lib-disclaimer">위 값은 2023년 9월판 GLEC Framework v3.0에 실린 기본값이며, v3.2(2025년 10월)에서 컨테이너선·도로 등의 값이 갱신되었습니다. 한국 국내 도로에 맞춘 기본값은 v3.0에 없어 유럽 값을 계산 방법을 보이는 데만 썼습니다. 아래 예시의 거리는 가정값입니다. 실제 보고에는 운송인의 1차 데이터나 최신 기본값과 실제 경로 거리를 쓰십시오.</p>
+<h4>예시 1. 해상 FCL: 40ft 드라이 컨테이너 1개, 부산 → 로테르담</h4>
+<p>40ft 컨테이너는 2TEU입니다. 항로 거리를 20,000km로 가정하면 2TEU × 20,000km × 49.9g = 1,996,000g, 약 <b>2.0t CO2e(WTW)</b>입니다. 같은 계산을 TTW 원단위 43.1로 하면 약 1.72t이 나옵니다. 같은 운송인데 기준에 따라 0.27t 차이가 나므로 계산서에는 어느 기준인지 반드시 적습니다. 리퍼 컨테이너라면 원단위가 128.7로 올라 약 5.1t이 됩니다. 컨테이너선 원단위는 TEU 단위라 FCL은 화물 중량과 관계없이 컨테이너 수와 종류로 계산합니다.</p>
+<p>거리에도 함정이 있습니다. GLEC v3.0은 이 항로별 원단위에 실제 항해 거리와 최단 실행 거리(SFD, Shortest Feasible Distance)의 차이를 메우는 15% 보정이 이미 들어 있다고 적습니다. 따라서 이 원단위에는 항구 간 거리 계산기의 SFD를 그대로 곱하고, 거리에 다시 여유분을 더하지 않습니다.</p>
+<h4>예시 2. 해상 LCL: 2t 화물을 같은 항로로</h4>
+<p>LCL은 컨테이너 일부만 쓰므로 TEU 원단위를 톤 원단위로 바꿔 배분합니다. GLEC v3.0은 실제 TEU당 화물 중량을 모르면 일반 화물 10t/TEU, 가벼운 화물 6t/TEU, 무거운 화물 14.5t/TEU의 환산값을 쓸 수 있다고 적습니다. 10t/TEU로 바꾸면 49.9 ÷ 10 = 4.99g CO2e/t-km이고, 2t × 20,000km × 4.99g = 199,600g, 약 <b>0.2t CO2e</b>입니다. LCL 운임을 계산하는 운임톤(R/T)과 배출량 배분 기준이 다르다는 점에 주의합니다. 운임은 부피가 크면 CBM으로 매기지만, 이 배분은 중량 기준입니다. 운임톤 계산은 <a data-doc="ch-lcl">LCL·운임톤 계산</a>을 보십시오.</p>
+<h4>예시 3. 항공: 실중량 500kg, 운임 중량 800kg, 인천 → 유럽 공항</h4>
+<p>GLEC v3.0은 항공 배출량에 <b>실제 화물 중량을 쓰고 운임 중량(chargeable weight) 같은 대용값을 쓰지 말라</b>고 적습니다. 공항 간 대권 거리(GCD)를 8,500km로 가정하고 기종을 모를 때의 장거리 원단위 817을 쓰면 0.5t × 8,500km × 817g = 3,472,250g, 약 <b>3.5t CO2e</b>입니다. 운임 중량 800kg을 넣으면 약 5.6t이 되어 60% 부풀려집니다. 부피가 큰 화물일수록 이 차이가 커지므로, AWB의 운임 중량 칸이 아니라 실중량(Gross Weight) 칸이나 패킹리스트의 중량을 씁니다. 두 중량의 차이는 <a data-doc="ch-air-weight">항공 운임 중량 계산</a>에 있습니다.</p>
+<p>항공기 종류에 따라서도 결과가 크게 갈립니다. 같은 조건에서 화물기로 보면 약 2.7t, 여객기 하부 화물칸으로 보면 약 4.1t입니다. 그래서 GLEC는 편명을 확보해 기종과 경유지를 확인하라고 권합니다. 경유지가 있으면 구간마다 따로 계산해 더하고(경유를 빼고 출발·도착만 재면 거리가 줄어 배출이 과소 계산됩니다), 1,500km 미만 구간에는 단거리 원단위를 씁니다. 대권 거리 대신 실제 비행 거리로 계산했다면 과소 보고를 막는 거리 보정계수(DAF)를 붙여야 하고, 구체 자료가 없으면 (대권 거리 + 95km) ÷ 대권 거리의 비율을 쓰라는 규정도 있습니다.</p>
+<h4>예시 4. 트럭: 15t 화물, 400km</h4>
+<p>유럽 대형 화물차 출발값 115를 쓰면 15t × 400km × 115g = 690,000g, 약 <b>0.69t CO2e</b>입니다. 트럭 원단위는 적재율과 공차 운행 비율에 따라 크게 달라지므로, 운송사가 실제 연료 사용량을 줄 수 있으면 그 값이 우선입니다.</p>
+<h4>체인으로 합치면</h4>
+<p>예시 1의 40ft 컨테이너에 15t을 실어 공장에서 부산항까지 400km(0.69t), 해상 20,000km(2.0t), 로테르담에서 창고까지 300km(15t × 300km × 115g ≈ 0.52t)를 옮긴다고 하면 운송 구간 합계는 약 3.2t이고, 여기에 두 터미널의 허브 배출을 더합니다. GLEC v3.0에는 환적 허브, 창고, 해상 컨테이너 터미널 등의 허브 기본값이 있지만 표본이 작아 계속 갱신 중이라고 밝히므로, 터미널·창고가 자기 값을 주면 그 값을 씁니다. 원단위를 톤 단위로 나란히 놓으면 해상(약 5g/t-km)과 항공(817g/t-km) 사이에 160배 넘는 차이가 있어, 화주가 감축을 고민할 때 가장 먼저 보는 것이 수단 선택인 이유가 여기에 있습니다.</p>
+<p class="lib-source">출처: GLEC Framework v3.0(Smart Freight Centre, 2023. 9.) 1부 2장 계산 단계, 1부 4장 해상·항공 요구 사항(TEU-톤 환산, 실제 화물 중량, 대권 거리와 95km 보정), 3부 모듈 2 표 1(항공)·표 16(컨테이너선)·도로 운송 절·표 3(허브) — <a href="https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf" target="_blank" rel="noopener noreferrer">PDF(ECTA 게시본)</a> (2026년 10월 27일 확인)</p>
+
+<h3>4. 포워더가 모아야 할 자료와 계산서에 적을 것</h3>
+<p>화주가 배출량을 물으면 "어느 기준으로 몇 건을, 어느 기간분"인지부터 정합니다. 그다음 아래 자료를 화주 서류와 운송인 기록에서 모읍니다. 화물을 직접 재거나 열어 볼 필요는 없습니다.</p>
+<table class="lib-table">
+<thead><tr><th>자료</th><th>해상</th><th>항공</th><th>도로</th><th>어디서 받나</th></tr></thead>
+<tbody>
+<tr><td>화물량</td><td>FCL은 컨테이너 수·종류(드라이·리퍼), LCL은 중량(t)</td><td>실제 화물 중량(포장 포함). 운임 중량 아님</td><td>화물 중량(t)</td><td>패킹리스트·상업송장, B/L·AWB의 중량 칸</td></tr>
+<tr><td>거리</td><td>항구 간 최단 실행 거리(SFD)</td><td>공항 간 대권 거리(GCD), 구간별</td><td>실제 운행 거리 또는 경로 계산 거리</td><td>항구·공항 코드(B/L·AWB), 운송사 배차 기록</td></tr>
+<tr><td>수단·장비</td><td>항로(trade lane), 선사, 리퍼 여부</td><td>화물기·여객기(편명으로 확인), 단거리·장거리</td><td>차종·크기, 연료, 냉장 여부</td><td>부킹 확인서, 편명, 운송사</td></tr>
+<tr><td>경유·환적</td><td>환적항, 피더 구간</td><td>경유 공항, 트럭 대체 운송(RFS) 구간</td><td>창고·크로스도킹 경유</td><td>운송인 스케줄, 실제 운송 기록</td></tr>
+<tr><td>운송인 1차 자료</td><td>선사의 부킹·항로별 배출 보고서</td><td>항공사의 편별·노선별 배출 자료</td><td>실제 연료 사용량</td><td>운송인 요청. 방식·판·WTW 여부 확인</td></tr>
+</tbody>
+</table>
+<p>운송인이 배출 보고서를 주더라도 그대로 합치기 전에 기준을 맞춥니다. 선사·항공사 보고서는 TTW만 적은 것, 자사 평균 원단위를 쓴 것, 연료 인증서(바이오 연료 등)를 반영한 것이 섞여 있습니다. 계산서에는 최소한 다음을 적어야 화주가 다른 포워더의 숫자와 비교할 수 있습니다.</p>
+<ul class="lib-check">
+<li>계산 방식과 판: ISO 14083:2023, GLEC Framework v3.x 중 어느 것인지.</li>
+<li>WTW 숫자와 TTW 숫자(가능하면 둘 다).</li>
+<li>구간별 배출량과 합계, 허브 포함 여부.</li>
+<li>구간마다 쓴 데이터 종류(1차·모델·기본값)와 기본값의 출처·판.</li>
+<li>거리 기준(실제 거리·SFD·GCD)과 보정 여부, 화물량 기준(TEU·t, 항공은 실중량).</li>
+<li>가정(TEU당 환산 중량, 항공기 종류를 모를 때의 처리 등)과 계산 기간.</li>
+</ul>
+<p>GLEC v3.0은 보고서에 GLEC Framework를 계산 방법으로 밝히고, 공급자·가치사슬 협력사에게서 받은 데이터로 계산한 배출량 비율을 적도록 권합니다. 화주가 "탄소중립 운송"이나 상쇄(offset)를 묻는 경우도 있는데, GLEC는 탄소 상쇄와 배출권 거래의 결과를 운송 체인 배출량 계산에서 빼도록 하므로 계산서의 배출량과 상쇄량은 따로 적습니다.</p>
+<p class="lib-source">출처: GLEC Framework v3.0(Smart Freight Centre, 2023. 9.) 1부 2장 데이터 범주, 1부 4장 수단별 요구 사항, 2부 1장 보고 — <a href="https://knowledgeplatform.ecta.com/wp-content/uploads/2023/09/2023_GLEC_FRAMEWORK_v3.0_September.pdf" target="_blank" rel="noopener noreferrer">PDF(ECTA 게시본)</a> (2026년 10월 27일 확인)</p>
+
+<h3>5. 해운·물류 탄소 규제 한눈에</h3>
+<p>배출량 계산과 별개로, 운송 비용에 직접 영향을 주는 규제가 있습니다. 해운에서는 EU ETS와 FuelEU Maritime이 이미 적용 중이고 IMO의 전 세계 제도는 논의 중이며, 화물 자체에는 EU CBAM이 2026년부터 본격 적용되었습니다.</p>
+<figure class="lib-figure"><img src="/images/ch/ch-carbon-regulation-timeline.svg" alt="2024년부터 2030년까지의 가로 시간축에 다섯 줄을 놓은 그림. EU ETS 해운은 2024년 배출량의 40%, 2025년 70%, 2026년부터 100%와 메탄·아산화질소 포함이며 그해 배출분을 다음 해 9월 30일까지 제출하고 EU 역내 항해는 100%, EU와 역외 사이 항해는 50%가 대상이다. FuelEU Maritime은 2025~2029년 온실가스 집약도 2% 감축, 2030년 6% 감축이며 기준값은 2020년 평균 91.16 gCO2e/MJ이다. EU CBAM은 2025년까지 전환기간, 2026년부터 확정 기간이며 2027년 2월 인증서 판매 시작, 2027년 9월 30일 2026년 수입분 신고 기한, 수입자당 연 50t 이하 면제가 표시되어 있다. IMO Net-Zero Framework는 2025년 4월 MEPC 83 승인, 2025년 10월 채택 회의 1년 연기, 2026년 4월 MEPC 84 작업반 구성, 2026년 11월 30일~12월 4일 MEPC 85와 특별회기 재개 예정이며 채택 전이다. CountEmissionsEU는 2026년 6월 발효, 대부분 2030년 12월부터 적용이다. 2026년 10월 27일에 붉은 점선이 있다." loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>도해</span> 2026년 10월 27일 현재 EU ETS는 2025년 배출분의 70% 제출이 끝났고 2026년분부터 100%입니다. IMO Net-Zero Framework는 아직 채택되지 않았습니다.</figcaption></figure>
+<table class="lib-table">
+<thead><tr><th>제도</th><th>의무를 지는 곳</th><th>무엇을 세나</th><th>물류에 닿는 방식</th></tr></thead>
+<tbody>
+<tr><td>EU ETS 해운(지침 (EU) 2023/959)</td><td>선사(ISM 회사 또는 등록 선주)</td><td>선박이 EU 항해에서 낸 배출량</td><td>배출권 비용을 선사가 할증료로 화주에게 청구</td></tr>
+<tr><td>FuelEU Maritime(규칙 (EU) 2023/1805)</td><td>선사</td><td>선박이 쓴 에너지의 온실가스 집약도(WTW)</td><td>저탄소 연료·풀링·벌금 비용을 할증료로 청구</td></tr>
+<tr><td>IMO Net-Zero Framework(MARPOL 부속서 VI 개정안)</td><td>5,000GT 초과 선박(채택되면)</td><td>선박 연료의 온실가스 집약도(GFI)</td><td>채택 전. 채택·발효되면 전 세계 항로로 확대</td></tr>
+<tr><td>EU CBAM(규칙 (EU) 2023/956)</td><td>EU 수입자(CBAM 신고인)</td><td>수입품의 생산 단계 배출량(내재 배출량)</td><td>운송비가 아니라 상품 원가. 생산자 배출 자료 요청이 공급망을 타고 옴</td></tr>
+</tbody>
+</table>
+<p class="lib-source">출처: 각 제도의 출처는 6~9절에 적었습니다.</p>
+
+<h3>6. EU ETS와 FuelEU Maritime: 무엇이 정해져 있나</h3>
+<h4>EU ETS 해운 적용</h4>
+<p>EU는 지침 (EU) 2023/959로 배출권거래제를 해운에 넓혔고, 이 개정은 2023년 6월 5일 발효했습니다. 2024년부터 총톤수 5,000GT 이상 화물선·여객선이 대상이고, 해양작업선(offshore)은 2027년부터 들어옵니다. 5,000GT 미만 400GT 이상 일반화물선·해양작업선은 2025년부터 배출량 보고(MRV) 대상이 되었고, ETS 편입은 ETS 재검토에서 다루기로 되어 있습니다.</p>
+<table class="lib-table">
+<thead><tr><th>항목</th><th>내용</th></tr></thead>
+<tbody>
+<tr><td>대상 배출 범위</td><td>EU 항구 사이 항해와 EU 항구 안 정박 중 배출은 100%, EU 항구와 역외 항구 사이 항해는 50%</td></tr>
+<tr><td>단계적 제출 비율</td><td>2024년 배출분의 40%(2025년 제출), 2025년 배출분의 70%(2026년 제출), 2026년 배출분부터 100%(2027년 제출부터)</td></tr>
+<tr><td>대상 가스</td><td>2024~2025년은 이산화탄소만, 2026년부터 메탄(CH4)과 아산화질소(N2O) 포함. 보고(MRV)는 2024년부터 세 가스 모두</td></tr>
+<tr><td>제출 기한</td><td>매년 9월 30일까지 직전 연도 검증 배출량만큼 배출권 제출. 첫 제출(2024년분)은 2025년 9월 30일</td></tr>
+<tr><td>의무자</td><td>선사(shipping company): 선주 또는 선박 운항과 ISM Code 책임을 넘겨받은 관리회사·나용선자. 문서로 정하지 않으면 등록 선주</td></tr>
+<tr><td>비용 상환</td><td>연료 구매나 선박 운항을 계약으로 맡은 다른 주체가 있으면 선사가 그 주체에게 배출권 비용을 돌려받을 권리를 회원국이 보장해야 함</td></tr>
+<tr><td>인근 환적항 규칙</td><td>EU 항구에서 300해리 안의 역외 컨테이너 환적항 가운데 환적 비중이 65%를 넘고 그 나라가 같은 수준의 제도를 두지 않은 곳은 항해의 시작·끝으로 치지 않음. 이행규칙 (EU) 2023/2297이 처음 지정한 곳은 모로코 탕헤르메드와 이집트 동포트사이드</td></tr>
+</tbody>
+</table>
+<p>포워더에게 실무적으로 중요한 것은 마지막 두 줄입니다. 한국에서 유럽으로 가는 화물은 마지막 역외 기항지에서 첫 EU 항구까지의 항해가 50% 대상이고, 그 뒤 EU 항구 사이 구간은 100% 대상입니다. 선사가 EU 바로 밖의 환적항에 들러 항해를 끊어도, 그 항구가 인근 환적항으로 지정되어 있으면 50% 구간이 줄지 않습니다. 같은 유럽 항로라도 기항 순서와 환적항에 따라 선사의 ETS 비용이 달라지는 이유입니다.</p>
+<h4>FuelEU Maritime</h4>
+<p>규칙 (EU) 2023/1805(FuelEU Maritime)는 2025년 1월 1일부터 전면 적용되었습니다. EU 항구에 기항하는 5,000GT 초과 선박은 국적과 관계없이 연간 사용 에너지의 온실가스 집약도를 2020년 기준값보다 2025년 2%, 2030년 6%, 2035년 14.5%, 2040년 31%, 2045년 62%, 2050년 80% 낮춰야 합니다. 집약도는 이산화탄소·메탄·아산화질소를 연료 생산부터 연소까지(well-to-wake) 셉니다. 규칙 제4조가 정한 기준값은 91.16 gCO2e/MJ이고, EU 항구 사이 항해와 정박 중 에너지는 100%, 역외 항구와의 항해는 50%가 대상이며, 목표를 못 맞춘 선박에는 부족분에 비례한 벌금이 부과됩니다. 여러 선박의 실적을 묶어 맞추는 풀링(pooling)도 허용됩니다. 2030년부터는 AFIR 제9조 대상 항구에서 컨테이너선과 여객선이 정박 중 육상전원(OPS) 등 무배출 기술을 써야 합니다. 첫 보고 기간은 2025년이고, 2026년부터 매년 1월 31일까지 선박별 FuelEU 보고서를 검증기관에 냅니다.</p>
+<p>EU ETS가 "배출한 만큼 배출권을 사라"는 가격 제도라면, FuelEU는 "쓰는 에너지를 점점 깨끗하게 하라"는 기준 제도입니다. 두 제도는 함께 적용되므로 유럽 항로 화물에는 두 종류의 비용이 따로 또는 합쳐서 붙을 수 있습니다.</p>
+<p class="lib-source">출처: FAQ – Maritime transport in EU Emissions Trading System (ETS)(European Commission, DG CLIMA) — <a href="https://climate.ec.europa.eu/eu-action/transport-decarbonisation/reducing-emissions-shipping-sector/faq-maritime-transport-eu-emissions-trading-system-ets_en" target="_blank" rel="noopener noreferrer">EU ETS 해운 FAQ</a>; Directive (EU) 2023/959 — <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L0959" target="_blank" rel="noopener noreferrer">EUR-Lex</a>; Commission Implementing Regulation (EU) 2023/2297(인근 컨테이너 환적항) — <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2297" target="_blank" rel="noopener noreferrer">EUR-Lex</a>; Decarbonising maritime transport – FuelEU Maritime(European Commission, DG MOVE) — <a href="https://transport.ec.europa.eu/transport-modes/maritime/decarbonising-maritime-transport-fueleu-maritime_en" target="_blank" rel="noopener noreferrer">FuelEU</a>; Regulation (EU) 2023/1805 — <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1805" target="_blank" rel="noopener noreferrer">EUR-Lex</a>; FuelEU Maritime 규제 해설(ABS) — <a href="https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/fueleu-maritime.html" target="_blank" rel="noopener noreferrer">ABS</a> (2026년 10월 27일 확인. 법령 원문은 EU 출판국 관보 사본으로 대조함)</p>
+
+<h3>7. 규제 비용이 할증료로 넘어오는 구조</h3>
+<p>EU ETS와 FuelEU의 의무는 화물이 아니라 선박에 붙습니다. 배출권을 제출하고 집약도 목표를 맞추는 것은 선사이고, 지침이 정한 비용 상환 권리도 선사와 연료 구매·운항을 맡은 용선자 같은 선박 쪽 당사자 사이의 것입니다. EU 지침과 규칙에는 화주에게 얼마를 받으라는 규정이 없고, 화주에게 붙는 ETS·FuelEU 할증료는 선사가 정하는 운임·요금입니다. 그래서 같은 항로라도 선사마다 이름과 금액, 적용일 기준이 다릅니다.</p>
+<p>원리는 이렇습니다. 선사는 항로별로 선박이 낼 배출량을 추정하고, 거기에 대상 비율(EU 역내 100%, 역외 연결 50%), 해당 연도의 단계적 제출 비율, 배출권 가격을 곱한 뒤 그 항로의 컨테이너 수로 나눕니다. FuelEU는 저탄소 연료를 쓰는 추가 비용이나 풀링·벌금 비용을 같은 식으로 나눕니다. 이 계산의 구체 형태와 인보이스에서 확인하는 순서는 <a data-doc="ch-surcharges">해상 할증료 종류와 BAF</a> 4절과 7절에 있습니다.</p>
+<p>여기서 포워더가 화주에게 꼭 짚어 줄 점이 두 가지 있습니다.</p>
+<ul>
+<li><b>할증료로 배출량을 역산하지 않는다</b>: ETS 할증료는 선사가 항로 전체 비용을 컨테이너 수로 나눈 가격이라, 그 화물의 실제 배출량과 비례하지 않습니다. 화주의 Scope 3 숫자는 3절 방식으로 따로 계산합니다.</li>
+<li><b>할증료가 오르내리는 이유를 제도에서 찾는다</b>: 2024년 40%, 2025년 70%, 2026년 100%로 제출 비율이 오르고 2026년부터 메탄·아산화질소가 들어간 것, 기항 순서와 환적항이 바뀐 것은 모두 할증료 변동 요인입니다. 다만 금액이 맞는지는 선사 공지로 확인할 문제이며, 이 문서는 금액을 다루지 않습니다.</li>
+</ul>
+<p>한국 항만을 거치는 정기 컨테이너 화물의 ETS 같은 할증료는 해운법의 운임·요금 공표 대상입니다. 공표 제도와 새 할증료 공지를 받았을 때 확인할 점은 <a data-doc="ch-sea-charges">해상 부대비용 항목과 받는 곳</a> 8절을 보십시오.</p>
+<p class="lib-source">출처: FAQ – Maritime transport in EU Emissions Trading System (ETS)(European Commission, DG CLIMA, 의무자와 비용 상환) — <a href="https://climate.ec.europa.eu/eu-action/transport-decarbonisation/reducing-emissions-shipping-sector/faq-maritime-transport-eu-emissions-trading-system-ets_en" target="_blank" rel="noopener noreferrer">EU ETS 해운 FAQ</a> (2026년 10월 27일 확인)</p>
+
+<h3>8. IMO Net-Zero Framework: 2026년 10월 현재 상황</h3>
+<p>IMO 해양환경보호위원회(MEPC)는 2025년 4월 제83차 회의(MEPC 83)에서 MARPOL 부속서 VI 개정안 형태의 IMO Net-Zero Framework를 승인했습니다. 해설에 따르면 5,000GT 초과 선박에 선박 연료의 온실가스 집약도(GFI, GHG Fuel Intensity)를 well-to-wake 기준으로 낮추는 두 단계 목표(기본 목표와 직접 준수 목표)를 두고, 목표에 못 미친 선박은 부족분만큼 보정 단위(remedial unit)를 사며, 목표를 넘어선 선박은 잉여 단위(surplus unit)를 받아 팔거나 쌓아 둘 수 있게 하는 구조입니다. 거둔 돈은 IMO Net-Zero Fund로 모아 무배출·준무배출 연료 사용 보상과 개발도상국 지원에 쓰도록 했습니다. 전 세계 공통 연료 기준과 탄소 가격을 한 제도에 묶은 구조입니다.</p>
+<p>그러나 채택은 미뤄졌습니다. 2025년 10월 14일~17일 채택을 위해 열린 제2차 특별회기(MEPC/ES.2)는 결정 없이 휴회했고, IMO는 이 회기를 12개월 뒤 다시 연다고 밝혔습니다(업계 보도에 따르면 휴회 표결은 찬성 57, 반대 49, 기권 21). 2026년 4월 27일~5월 1일 MEPC 84는 우려 사항을 풀 회기 간 작업반을 만들고 회원국이 기존 개정안에 대한 새 수정안을 낼 수 있게 했으며, 작업반 회의를 2026년 9월 1일~4일과 11월 23일~27일에 열기로 했습니다. MEPC 85는 2026년 11월 30일~12월 3일로 잡혀 있고, 휴회한 특별회기는 2026년 12월 4일에 다시 열 예정이나 MEPC 85에서 확정합니다. 9월 작업반 회의 요약은 다음 회의에서 진전을 이루려는 의지가 있다고 적었을 뿐 합의를 밝히지 않았습니다.</p>
+<p>따라서 2026년 10월 27일 현재 IMO Net-Zero Framework는 <b>채택되지 않았고 발효 시점도 정해지지 않았습니다</b>. 처음 기대했던 2027년 발효 일정은 이미 지나갔습니다. 화주가 "IMO 탄소세가 붙느냐"고 물으면 아직 법적 근거가 없다고 답하고, 선사가 IMO를 이유로 한 새 할증료를 공지하면 근거 규정과 적용 시점을 묻습니다. 12월 회의 결과에 따라 이 절은 다시 확인해야 합니다.</p>
+<p class="lib-source">출처: MEPC 2nd extraordinary session (MEPC/ES.2) 요약(IMO, 2025. 10. 20.) — <a href="https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/MEPC-ES-2.aspx" target="_blank" rel="noopener noreferrer">IMO</a>; MEPC 84th session 요약(IMO, 2026. 5. 1.) — <a href="https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/Temporary-MEPC-84th-session.aspx" target="_blank" rel="noopener noreferrer">IMO</a>; ISWG-GHG 22 요약(IMO, 2026. 9. 4.) — <a href="https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/iswg-ghg-22.aspx" target="_blank" rel="noopener noreferrer">IMO</a>; IMO 회의 일정 — <a href="https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/Default.aspx" target="_blank" rel="noopener noreferrer">Meeting Summaries</a>; IMO MEPC83: New Net Zero Framework for shipping(Stephenson Harwood, 2025) — <a href="https://www.stephensonharwood.com/insights/imo-mepc83-new-net-zero-framework-for-shipping/" target="_blank" rel="noopener noreferrer">해설</a>; Negotiations at IMO adjourn without a decision on NZF(Global Maritime Forum, 2025. 10.) — <a href="https://globalmaritimeforum.org/press/negotiations-at-IMO-adjourn-without-a-decision-on-NZF/" target="_blank" rel="noopener noreferrer">보도</a>; IMO's Net-Zero Framework – Adoption adjourned(Hill Dickinson, 2025. 10. 30., 휴회 표결 수) — <a href="https://www.hilldickinson.com/our-view/articles/imo-s-net-zero-framework-adoption-adjourned-and-consensus-building-continues/" target="_blank" rel="noopener noreferrer">해설</a>; Q&amp;A: How countries got the global 'net-zero' shipping deal 'back on track'(Carbon Brief, 2026. 5. 5.) — <a href="https://www.carbonbrief.org/qa-how-countries-got-the-global-net-zero-shipping-deal-back-on-track" target="_blank" rel="noopener noreferrer">Carbon Brief</a> (2026년 10월 27일 확인)</p>
+
+<h3>9. EU CBAM: 수출 화주와 포워더가 받는 요청</h3>
+<p>EU 탄소국경조정제도(CBAM, 규칙 (EU) 2023/956)는 탄소 집약 수입품에 EU 안에서 만든 물건과 같은 탄소 가격을 매기는 제도입니다. 대상은 시멘트, 철강, 알루미늄, 비료, 전기, 수소 6개 부문입니다. 2023년 10월부터 2025년 말까지는 보고만 하는 전환기간이었고, 2026년 1월 1일부터 확정 기간이 시작되어 수입자가 인증서를 사서 제출해야 합니다.</p>
+<h4>2025년 간소화로 바뀐 것</h4>
+<p>개정 규칙 (EU) 2025/2083은 2025년 10월 17일 관보에 실려 10월 20일 발효했습니다. 규칙 원문과 집행위원회 설명으로 확인한 주요 내용은 다음과 같습니다.</p>
+<table class="lib-table">
+<thead><tr><th>항목</th><th>내용</th></tr></thead>
+<tbody>
+<tr><td>면제 기준</td><td>건당 금액 기준을 없애고 수입자당 연간 50t의 단일 중량 기준으로 바꿈. 철강·알루미늄·시멘트·비료 수입이 한 해 50t 이하인 수입자는 신고·인증서 의무에서 면제. 전기와 수소는 이 면제가 없음</td></tr>
+<tr><td>기준을 넘으면</td><td>한 해 중 50t을 넘는 순간 그해 수입분 전체가 CBAM 대상. 넘을 것으로 예상되는 수입자는 미리 승인 CBAM 신고인(authorised CBAM declarant) 지위를 신청해야 함(2026년 3월 31일까지 신청하면 승인 전에도 수입을 계속할 수 있음)</td></tr>
+<tr><td>신고·제출 기한</td><td>연간 CBAM 신고와 인증서 제출을 다음 해 9월 30일까지(종전 5월 31일). 2026년 수입분은 2027년 9월 30일까지</td></tr>
+<tr><td>인증서 판매</td><td>2027년 2월부터 판매. 가격은 EU ETS 배출권 경매 가격을 바탕으로 2026년분은 분기 평균, 2027년부터 주간 평균</td></tr>
+<tr><td>내재 배출량 값</td><td>검증된 실제값 또는 EU가 정한 기본값(이행규칙 (EU) 2025/2621, 2026년 정정) 가운데 선택. 실제값을 쓰면 인정받은 검증기관의 검증이 필요. 생산국에서 이미 낸 탄소 가격은 공제 가능</td></tr>
+</tbody>
+</table>
+<p>면제 기준이 "수입자당 연간"이라는 점이 중요합니다. 한 번 보내는 양이 적어도 그 수입자의 연간 수입이 50t을 넘으면 대상이 되므로, 포워더가 한 건의 중량만 보고 면제 여부를 판단할 수 없습니다. 하류 제품으로 범위를 넓히고 우회를 막는 개정안(COM(2025) 989)도 나와 있으나, 이 문서 확인 시점에 채택 여부는 확인하지 못했습니다.</p>
+<h4>내재 배출량은 생산자가 만드는 숫자</h4>
+<p>CBAM이 말하는 내재 배출량(embedded emissions)은 그 물건을 생산하는 과정에서 나온 직접 배출과, 부문에 따라 생산에 쓴 전기의 간접 배출, 그리고 전구물질(precursor)의 배출입니다. 원료 채굴과 운송, 제품 사용 단계는 경계 밖입니다. 운송 배출량은 CBAM 신고에 들어가지 않으므로, 포워더가 계산한 운송 배출량을 CBAM 자료로 낼 일은 없습니다.</p>
+<figure class="lib-figure"><img src="/images/ch/ch-carbon-cbam-data.svg" alt="위쪽 줄은 CBAM 신고에 들어가는 생산 단계 배출량의 흐름으로, 한국 생산자(설비 운영자)가 설비·공정 정보, 직접 배출량, 전구물질의 내재 배출량, 생산국에서 낸 탄소 가격, 검증 결과를 한국 수출자에게 넘기고, 수출자가 품목번호·수량·원산지와 함께 EU 수입자에게 전달하며, 승인 CBAM 신고인인 EU 수입자가 다음 해 9월 30일까지 EU CBAM 등록부에 신고한다. 가운데 점선에는 운송 배출량은 CBAM 내재 배출량에 들어가지 않는다고 적혀 있다. 아래쪽 줄은 포워더가 B/L·화물 중량·컨테이너 번호, 선적일·선명·경로, 상업송장·패킹리스트를 EU 수입 통관에 제공하고, 수입신고의 품목번호·중량·원산지가 세관을 거쳐 CBAM 신고와 대조되며, 포워더의 운송 배출량 계산서는 화주의 Scope 3 보고(카테고리 4 또는 9)로 간다는 내용이다. 포워더는 생산 배출량을 만들거나 추정하지 않고 받은 자료를 전달만 한다고 표시했다." loading="lazy" decoding="async" width="1672" height="941"><figcaption><span>도해</span> CBAM의 내재 배출량은 생산 설비에서 나오고, 포워더의 운송 배출량은 화주의 Scope 3 보고로 갑니다. 포워더가 CBAM에 기여하는 것은 수입신고와 맞아야 하는 운송 서류입니다.</figcaption></figure>
+<p>EU 수입자가 한국 쪽에 요청하는 자료는 대체로 두 갈래입니다. 하나는 생산자만 줄 수 있는 것으로, 생산 설비 식별 정보와 생산 공정, 톤당 직접·간접 배출량, 전구물질 정보, 생산국에서 낸 탄소 가격, 검증 보고서입니다. 다른 하나는 수입신고와 맞춰 볼 상업 자료로, 품목번호(CN), 순중량(t), 원산지, 상업송장과 운송 서류입니다. 포워더에게 오는 요청은 뒤의 것이며, 앞의 것이 포워더에게 오면 생산자(화주)에게 넘깁니다.</p>
+<ul class="lib-check">
+<li>상업송장·패킹리스트·B/L의 품명과 중량이 서로 맞는지 화주 서류로 확인한다. CBAM은 톤 단위로 세므로 순중량·총중량 구분을 분명히 한다.</li>
+<li>품목번호는 화주가 정한 것을 쓰고, EU 쪽 수입신고의 CN 코드와 다르다는 연락을 받으면 화주에게 확인을 요청한다. 품목분류는 <a href="/library/customs/cu-hs-practice">HS 코드는 어떻게 정해지나</a>를 보십시오.</li>
+<li>생산 배출량을 추정하거나 대신 채워 넣지 않는다. 생산자 자료를 받으면 손대지 않고 전달하고, 전달 기록을 남긴다.</li>
+<li>EU 쪽 파트너가 간접 관세대리인으로 CBAM 신고인 역할을 맡는 경우, 누가 신고인인지와 자료 전달 경로를 서면으로 정한다.</li>
+</ul>
+<p class="lib-source">출처: Carbon Border Adjustment Mechanism(European Commission, DG TAXUD) — <a href="https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en" target="_blank" rel="noopener noreferrer">CBAM</a>, <a href="https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en" target="_blank" rel="noopener noreferrer">확정 기간</a>, <a href="https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-legislation-and-guidance_en" target="_blank" rel="noopener noreferrer">법령·지침 목록(규칙 2023/956, 2025/2083, 이행규칙 2025/2621·2026/1740, COM(2025) 989)</a>; What you need to know as CBAM simplification comes into effect(Reed Smith, 2025) — <a href="https://www.reedsmith.com/our-insights/blogs/viewpoints/102lr9t/what-you-need-to-know-as-cbam-simplification-comes-into-effect/" target="_blank" rel="noopener noreferrer">해설</a>; CBAM – Carbon Border Adjustment Mechanism, 13th EU ETS Compliance Conference 발표 자료(2022. 11. 22., 내재 배출량 경계에서 원료 채굴·운송·사용 단계 제외) — <a href="https://climate.ec.europa.eu/system/files/2023-01/2022122_p1b_en.pdf" target="_blank" rel="noopener noreferrer">PDF</a> (2026년 10월 27일 확인)</p>
+
+<h3>10. 한국 법령에서 확인한 것</h3>
+<p>한국에는 포워더에게 화물별 운송 배출량 계산을 의무로 지우는 법령을 이번 확인에서 찾지 못했습니다. 물류와 닿는 조항은 다음과 같습니다.</p>
+<table class="lib-table">
+<thead><tr><th>법령</th><th>조항</th><th>내용</th></tr></thead>
+<tbody>
+<tr><td>기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법(법률 제21527호, 2026. 4. 7. 시행, 제8조 등 일부 개정 조항은 2026. 10. 8. 시행)</td><td>제7조, 제8조, 제32조</td><td>2050년 탄소중립을 국가비전으로 하고(제7조), 2030년까지 2018년 대비 35% 이상의 범위에서 대통령령으로 정하는 비율만큼 감축하는 중장기 목표와 수송 등 부문별 목표를 둠(제8조). 시행령 제3조는 그 비율을 40%로 정함. 제32조는 녹색교통 활성화와 교통부문 감축 목표를 정함</td></tr>
+<tr><td>같은 법 시행령(시행 2026. 10. 8.)</td><td>제31조</td><td>국토교통부장관이 교통수단별·연료별 배출 현황, 5년 단위와 연차별 교통부문 감축 목표를 세움</td></tr>
+<tr><td>물류정책기본법(법률 제21065호, 시행 2025. 10. 1.)</td><td>제59조, 제60조, 제60조의3~제60조의8</td><td>국토교통부장관·해양수산부장관 등이 환경친화적 물류 시책을 마련하고, 친환경 운송수단·포장재 사용, 설비 전환을 하는 물류기업·화주기업을 지원할 수 있음. 환경친화적 물류활동을 모범적으로 하는 물류기업·화주기업을 우수녹색물류실천기업으로 지정</td></tr>
+</tbody>
+</table>
+<p>국가법령정보센터의 탄소중립기본법 제8조에는 헌법재판소가 2024년 8월 29일 제1항에 헌법불합치 결정을 하고 2026년 2월 28일을 개정 시한으로 정했다는 주석이 붙어 있습니다. 2031년 이후 감축 경로가 법에 어떻게 반영되는지는 이 문서 확인 시점의 본문으로는 확인하지 못했습니다. 한국 화주가 운송 배출량을 묻는 이유는 대부분 국내 법령보다 해외 고객사의 공급망 요구와 자체 보고 때문입니다.</p>
+<p class="lib-source">출처: 기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법(법률 제21527호)과 같은 법 시행령 — <a href="https://www.law.go.kr/법령/기후위기대응을위한탄소중립ㆍ녹색성장기본법" target="_blank" rel="noopener noreferrer">law.go.kr</a>; 물류정책기본법(법률 제21065호) — <a href="https://www.law.go.kr/법령/물류정책기본법" target="_blank" rel="noopener noreferrer">law.go.kr</a> (국가법령정보센터 DRF 원문, 2026년 10월 27일 확인)</p>
+
+<h3>11. 역할별 점검표</h3>
+<h4>화주</h4>
+<ul class="lib-check">
+<li>운송 배출량을 어느 Scope 3 카테고리(4 또는 9)로 보고할지 무역조건과 운송비 부담으로 먼저 정한다.</li>
+<li>포워더에게 계산 기준(ISO 14083·GLEC 판, WTW)과 기간, 대상 선적을 서면으로 요청한다.</li>
+<li>항공 화물은 실중량, LCL은 화물 중량, FCL은 컨테이너 수·종류가 정확히 들어간 서류를 준다.</li>
+<li>CBAM 대상 품목을 EU로 수출하면 생산 설비의 배출 자료와 검증 준비를 생산 부서와 하고, 포워더에게 넘길 자료와 직접 EU 수입자에게 줄 자료를 나눈다.</li>
+<li>ETS·FuelEU 할증료 금액으로 배출량을 계산하지 않는다.</li>
+</ul>
+<h4>포워더</h4>
+<ul class="lib-check">
+<li>계산 전에 범위(구간, 허브 포함 여부, 기간)와 기준을 화주와 합의한다.</li>
+<li>구간마다 활동량을 화주 서류와 B/L·AWB·운송사 기록에서 가져오고, 항공은 운임 중량이 아니라 실중량을 쓴다.</li>
+<li>선사·항공사·운송사에 1차 데이터를 요청하고, 받은 값의 방식·판·WTW 여부를 확인한 뒤 합친다.</li>
+<li>기본값을 쓰면 출처와 판을 적고, 같은 화주에게는 같은 기본값 세트를 계속 쓴다.</li>
+<li>계산서에 WTW·TTW, 구간별 값, 데이터 종류, 거리 기준, 가정을 적는다(4절).</li>
+<li>CBAM 생산 배출량을 추정하지 않고, 받은 생산자 자료는 손대지 않고 전달한다.</li>
+<li>유럽 항로 견적에는 ETS·FuelEU 관련 할증료 포함 여부와 기준일을 적는다. 금액 확인은 <a data-doc="ch-surcharges">해상 할증료 종류와 BAF</a>의 순서를 따른다.</li>
+</ul>
+<h4>운송사·창고·터미널</h4>
+<ul class="lib-check">
+<li>차량·설비별 실제 연료·전력 사용량과 운송·처리 실적을 기록해 두고, 요청이 오면 기준을 밝혀 준다.</li>
+<li>냉장·냉동 운송과 보관은 냉매·전력 사용이 따로 들어가므로 상온과 구분해 기록한다.</li>
+<li>자체 원단위를 내는 경우 계산 방식(ISO 14083·GLEC)과 기간, WTW 여부를 함께 적는다.</li>
+</ul>
+
+<h3>12. 설명할 때</h3>
+<p>"이번 운송의 탄소 배출량은 국제 표준 ISO 14083과 GLEC Framework 방식으로, 트럭·해상·터미널 구간을 나눠 계산해 드리겠습니다. 숫자는 연료 생산 단계까지 포함한 WTW 기준으로 드리고, 선사가 준 실제 자료를 쓴 구간과 업계 평균 기본값을 쓴 구간을 표시하겠습니다. 항공 건은 운임 중량이 아니라 실제 중량으로 계산하므로 인보이스의 운임 중량과 다를 수 있습니다. 유럽 항로에 붙는 EU ETS 할증료는 선사가 배출권 비용을 컨테이너마다 나눠 받는 요금이라 이 화물의 배출량과는 다른 숫자입니다. 그리고 EU 고객사가 CBAM 자료를 요청하면 그건 공장에서 나온 생산 배출량이라 저희가 만들 수 없으니, 생산 담당 부서에서 준비해 주시면 저희는 운송 서류와 함께 전달하겠습니다."</p>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a">CBAM 내재 배출량과 운송 배출량: 숫자가 나오는 곳이 다르다</text>
+<rect x="30" y="80" width="1612" height="830" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+
+<!-- top lane label -->
+<text x="60" y="128" font-size="20" font-weight="700" fill="#d9482b">CBAM 신고에 들어가는 숫자: 생산 단계 배출량(내재 배출량)</text>
+
+<!-- producer -->
+<rect x="60" y="150" width="340" height="230" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="230" y="190" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">한국 생산자</text>
+<text x="230" y="216" font-size="16" fill="#5f6b78" text-anchor="middle">(설비 운영자, 철강·알루미늄 등)</text>
+<g font-size="17" fill="#1d2a3a">
+<text x="85" y="256">· 설비·생산 공정 정보</text>
+<text x="85" y="284">· 직접 배출량(필요하면 간접 배출량)</text>
+<text x="85" y="312">· 전구물질의 내재 배출량</text>
+<text x="85" y="340">· 생산국에서 낸 탄소 가격</text>
+<text x="85" y="368">· 검증기관 검증 결과</text>
+</g>
+
+<!-- exporter -->
+<rect x="500" y="150" width="320" height="230" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="660" y="190" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">한국 수출자</text>
+<g font-size="17" fill="#1d2a3a">
+<text x="525" y="236">· 생산자 배출 자료 전달</text>
+<text x="525" y="264">· 품목번호(CN), 수량(t)</text>
+<text x="525" y="292">· 원산지, 상업송장</text>
+<text x="525" y="330" fill="#5f6b78">생산자와 수출자가 같은</text>
+<text x="525" y="354" fill="#5f6b78">회사인 경우가 많다</text>
+</g>
+
+<!-- importer -->
+<rect x="920" y="150" width="340" height="230" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="1090" y="190" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">EU 수입자</text>
+<text x="1090" y="216" font-size="16" fill="#5f6b78" text-anchor="middle">(CBAM 신고인 승인 필요)</text>
+<g font-size="17" fill="#1d2a3a">
+<text x="945" y="256">· 연간 CBAM 신고</text>
+<text x="945" y="284">· 인증서 구매·제출</text>
+<text x="945" y="312">· 실제값 또는 기본값 선택</text>
+<text x="945" y="340">· 실제값은 검증 필요</text>
+</g>
+
+<!-- registry -->
+<rect x="1360" y="190" width="240" height="150" fill="#fdf0ec" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="1480" y="248" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">EU CBAM</text>
+<text x="1480" y="276" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">등록부</text>
+<text x="1480" y="308" font-size="16" fill="#5f6b78" text-anchor="middle">다음 해 9월 30일까지</text>
+
+<g stroke="#d9482b" stroke-width="3" marker-end="url(#a-red)">
+<line x1="400" y1="265" x2="494" y2="265"/><line x1="820" y1="265" x2="914" y2="265"/><line x1="1260" y1="265" x2="1354" y2="265"/>
+</g>
+
+<!-- divider -->
+<line x1="60" y1="420" x2="1600" y2="420" stroke="#c9d2dc" stroke-width="2" stroke-dasharray="10 8"/>
+<rect x="560" y="400" width="560" height="40" fill="#fbfcfd"/>
+<text x="840" y="428" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">운송 배출량은 CBAM 내재 배출량에 들어가지 않는다</text>
+
+<!-- bottom lane -->
+<text x="60" y="488" font-size="20" font-weight="700" fill="#1f6fd1">포워더가 만드는 숫자와 서류</text>
+
+<rect x="60" y="510" width="420" height="330" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="270" y="550" font-size="21" font-weight="700" fill="#1d2a3a" text-anchor="middle">포워더</text>
+<g font-size="17" fill="#1d2a3a">
+<text x="85" y="592">· B/L, 화물 중량, 컨테이너 번호</text>
+<text x="85" y="620">· 선적일, 선명·항차, 경로</text>
+<text x="85" y="648">· 상업송장·포장명세서(화주 서류)</text>
+<text x="85" y="690" fill="#1f6fd1" font-weight="700">· 운송 배출량 계산서</text>
+<text x="100" y="716" fill="#5f6b78">ISO 14083·GLEC 방식, 구간별 WTW</text>
+<text x="85" y="760" fill="#d9482b" font-weight="700">✕ 생산 배출량을 만들거나 추정하지 않는다</text>
+<text x="100" y="786" fill="#5f6b78">생산자 자료를 받으면 그대로 전달만 한다</text>
+</g>
+
+<rect x="600" y="540" width="420" height="160" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="810" y="584" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">EU 수입 통관</text>
+<text x="625" y="624" font-size="17" fill="#1d2a3a">수입신고의 품목번호·중량·원산지는</text>
+<text x="625" y="652" font-size="17" fill="#1d2a3a">세관을 거쳐 CBAM 신고와 대조된다</text>
+
+<rect x="1140" y="540" width="460" height="160" fill="#ffffff" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="1370" y="584" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">화주의 Scope 3 보고</text>
+<text x="1165" y="624" font-size="17" fill="#1d2a3a">카테고리 4(구매한 운송) 또는</text>
+<text x="1165" y="652" font-size="17" fill="#1d2a3a">카테고리 9(판매 후 운송)에 들어간다</text>
+
+<line x1="480" y1="620" x2="594" y2="620" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-blue)"/>
+<path d="M480 700 C 760 780, 1100 780, 1300 706" stroke="#1f8a5b" stroke-width="3" fill="none" marker-end="url(#a-green)"/>
+<text x="900" y="800" font-size="16" fill="#1f8a5b" text-anchor="middle">운송 배출량 계산서는 이쪽으로 간다</text>
+
+<text x="60" y="880" font-size="15" fill="#5f6b78">규칙 (EU) 2023/956과 개정 규칙 (EU) 2025/2083 기준. 실제값을 쓰려면 생산 설비의 배출 자료와 검증이 필요하고, 없으면 EU 기본값을 쓴다.</text>
+</svg>
