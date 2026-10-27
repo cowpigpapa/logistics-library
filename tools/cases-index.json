@@ -55,11 +55,7 @@
    "label": "위험물",
    "count": 55,
    "case_docs": [
-    "case-kr-accident",
-    "case-accident",
-    "case-kr-litigation",
-    "case-litigation",
-    "case-inspection"
+    "dg-cases"
    ]
   },
   "eu-lithium-battery": {

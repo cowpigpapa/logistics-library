@@ -510,6 +510,31 @@
       "source": "/library/ctu-code/cubestow-application",
       "destination": "/library/ctu-code",
       "permanent": true
+    },
+    {
+      "source": "/library/dangerous-goods/case-kr-accident",
+      "destination": "/library/dangerous-goods/dg-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/dangerous-goods/case-accident",
+      "destination": "/library/dangerous-goods/dg-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/dangerous-goods/case-kr-litigation",
+      "destination": "/library/dangerous-goods/dg-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/dangerous-goods/case-litigation",
+      "destination": "/library/dangerous-goods/dg-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/dangerous-goods/case-inspection",
+      "destination": "/library/dangerous-goods/dg-cases",
+      "permanent": true
     }
   ]
 }
