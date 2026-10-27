@@ -94,9 +94,10 @@
 | /library/container | Container · 컨테이너 | 컨테이너 번호·코드·치수·OOG |
 | /library/export-control | Export Control · 수출통제 | 전략물자·방산물자 허가와 제재 확인 |
 | /library/regulated-goods | Regulated Goods · 반출입 규제 물품 | 폐기물·목재 포장재·CITES·문화유산·LMO |
-| /library/accident-cases | Accident Cases · 사고 사례 모음 | 분야별 사고·판결·처분을 한 표로 |
+| /library/guide | Guide · 길잡이 | 업무 흐름으로 찾기 · 용어집 · 새로 바뀐 것(색인 맨 위 묶음 "길잡이") |
+| /library/accident-cases | Accident Cases · 사고 사례 모음 | 분야별 사고·판결·처분을 한 표로 | (색인 맨 아래 묶음 "사고 사례")
 
-메뉴 이름은 `tools/menu.py`의 NAV가 기준이다. 카테고리마다 장은 2~4개(해설만). 사고 사례·판례·보험 사례는 분야마다 두지 않고 **Accident Cases · 사고 사례 모음 카테고리 한곳**에 분야별 문서 하나씩(`ac-docs/<id>-cases.html`)으로 모은다(2026-10-27 운영자: "사고사례와, 판례, 보험사례 등을 하나의 카테고리로 한쪽으로 묶을려고 했지"). 새 분야의 사례 문서를 만들면 accident-cases-library.js의 DOCS·SECTIONS와 tools/build_cases.py의 CASE_ORIGIN에 한 줄씩 넣는다.
+메뉴 이름은 `tools/menu.py`의 NAV가 기준이다(묶음 색은 같은 파일의 GROUP_COLOR). 새 문서를 올리거나 법령 개정을 반영하면 gd-docs/guide-updates.html 맨 위 표에 한 줄, guide-flow의 해당 단계 표에 한 줄 더한다. 카테고리마다 장은 2~4개(해설만). 사고 사례·판례·보험 사례는 분야마다 두지 않고 **Accident Cases · 사고 사례 모음 카테고리 한곳**에 분야별 문서 하나씩(`ac-docs/<id>-cases.html`)으로 모은다(2026-10-27 운영자: "사고사례와, 판례, 보험사례 등을 하나의 카테고리로 한쪽으로 묶을려고 했지"). 새 분야의 사례 문서를 만들면 accident-cases-library.js의 DOCS·SECTIONS와 tools/build_cases.py의 CASE_ORIGIN에 한 줄씩 넣는다.
 
 사고 사례 모음의 첫 문서 "전체 사고 사례 찾기"(ac-docs/ac-all.html)는 `tools/build_cases.py`가 분야별 사례 문서의 사례를 한 표로 모아 만든다. library_index.py가 먼저 부르므로 빌드 순서는 그대로다. 표는 사례 문서의 형식을 읽으므로 사례는 반드시 아래 형식을 지킨다.
 - 제목: `<h4>번호. 이름 — 요지 (연도, 장소)</h4>`. 번호는 문서 안에서 1부터, 제목의 id="c번호"는 스크립트가 붙인다(모음 표의 바로가기 주소라 바꾸지 않는다).

@@ -34,6 +34,7 @@
   const DOCS = [
     { id: 'bl-basics', tag: "B/L", level: 3, title: "B/L 기초 — 세 기능, 종류, 기재사항, House B/L과 AWB 비교", short: "B/L 기초", summary: "선하증권의 세 기능(운송계약 증거·화물 수령증·권리증권), 기명식·지시식·소지인식과 배서, 선적·수취, Clean·Foul, 통 B/L·복합운송 B/L, 상법 제853조 기재사항, 원본 3통의 의미(제857조), Master·House B/L 구조, 운임 표시와 부지 약관을 포워더 입장에서 정리하고, 인도 조건·처분권·신용장·책임 한도까지 B/L과 AWB를 한 표로 비교합니다." },
     { id: 'awb-basics', tag: "AWB", level: 3, title: "AWB 기초 — 비유통 운송장, 원본 3부, 처분권, 번호 체계, e-AWB와 ONE Record", short: "AWB 기초", summary: "AWB가 권리증권이 아닌 이유, 원본 3부와 송하인 처분권, IATA 양식과 11자리 번호, Master·House AWB, e-AWB와 ONE Record, 신용장 거래의 은행 수하인과 UCP 600 제23조를 정리합니다." },
+    { id: 'bl-deviation', checked: '2026-10-27', tag: "경로변경", level: 3, title: "운송 경로가 바뀌었을 때 추가 비용은 누가 내나 — 이로와 자유 약관, 장애 조항, 전쟁 위험 조항, 홍해·호르무즈, 매매계약과 적하보험", short: "경로 변경과 추가 비용", summary: "이로(deviation)에 대한 영국 보통법·헤이그-비스비 규칙 제4조 제4항·상법 제796조 제8호, 선사 B/L과 FIATA FBL의 자유 약관과 장애 조항(다른 경로·운송 중단·운송 포기), BIMCO VOYWAR 2025의 운임 조정, 홍해 우회 할증과 FMC·해운법의 적용 시점, 2026년 호르무즈 사태의 운송 종료 공지, 매매계약의 좌절과 CISG 제79조·인코텀스, ICC 제8.3·9·12조와 협회전쟁약관, 공동해손을 Renton·Tsakiroglou·The Polar 판결과 함께 정리합니다." },
     { id: 'bl-release', tag: "인도", level: 3, title: "화물 인도 실무 — 원본 B/L, 서렌더, Sea Waybill, 보증도", short: "화물 인도 실무", summary: "원본 B/L 회수 인도와 상법 제857조~제861조, 서렌더(Telex Release)의 실무와 주의점, Sea Waybill의 성격(상법 제863조·제864조, CMI 규칙)과 인도, 수입화물선취보증서(L/G)·LOI 보증도의 위험, 기명식 B/L, 원본 분실 시 공시최고, D/O와 반출, 항공화물 도착 통지와 은행 수하인 화물 인도를 정리합니다." },
     { id: 'bl-lien', checked: '2026-10-27', tag: "유치권", level: 3, title: "운임을 못 받았을 때 화물을 잡을 수 있나 — 포워더·운송인의 유치권, 상사유치권, 보세화물 점유, 체화 공매", short: "운임 미수와 유치권", summary: "상법 제120조·제807조의 운송주선인·운송인 유치권과 민법·상사유치권의 차이, 다른 건 미수로 잡을 수 있는 조건, 보세창고 화물의 점유와 D/O, 해외 파트너 미수금, 체화 공매에서 유치권자의 권리와 폐기 비용, FBL·선사·BIFA 약관의 lien 조항, 미국·영국의 lien, 잘못 잡았을 때의 책임과 실무 절차를 판례와 함께 정리합니다." },
     { id: 'bl-special', tag: "특수", level: 3, title: "특수 B/L과 전자화 — Switch·분할 B/L, 선적일 소급, 전자선하증권(eBL)", short: "특수 B/L과 전자화", summary: "Switch·분할·통합 B/L의 정상 절차와 P&I 권고, 선적일 소급과 LOI를 받은 무사고 B/L의 결과, 상법 제862조와 KTNET 등록, MLETR·영국 ETDA 2023, DCSA 2030 약속, IG 승인 eBL을 정리합니다." },
@@ -51,11 +52,12 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "B/L·AWB 기초", sub: "B/L 기초(AWB 비교표 포함) · AWB 기초", docs: ["bl-basics", "awb-basics"] },
+    { title: "B/L·AWB 기초", sub: "B/L 기초(AWB 비교표 포함) · AWB 기초 · 경로 변경과 추가 비용", docs: ["bl-basics", "awb-basics", "bl-deviation"] },
     { title: "화물 인도와 특수 서류", sub: "화물 인도 실무 · 특수 B/L과 전자화 · 복합운송과 책임 구간 · 유럽 트럭 운송(CMR) · 운임 미수와 유치권 · 중국–유럽 철도(CIM·SMGS)", docs: ["bl-release", "bl-lien", "bl-special", "bl-multimodal", "bl-cmr", "bl-rail"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
+    { name: "항로가 바뀌어 추가 비용이 청구됐어요", ids: ["bl-deviation"] },
     { name: "중국–유럽 철도로 보내면 책임과 서류는요", ids: ["bl-rail"] },
     { name: "운임을 못 받았는데 화물을 잡아도 되나요", ids: ["bl-lien"] },
     { name: "B/L과 AWB는 뭐가 다른가요", ids: ["bl-basics", "awb-basics"] },

@@ -1,6 +1,6 @@
 {
  "hub": "/library/accident-cases/ac-all",
- "total": 299,
+ "total": 303,
  "cats": {
   "incoterms-2020": {
    "label": "Incoterms",
@@ -18,7 +18,7 @@
   },
   "bl-awb": {
    "label": "B/L·AWB",
-   "count": 27,
+   "count": 31,
    "case_docs": [
     "bl-cases"
    ]

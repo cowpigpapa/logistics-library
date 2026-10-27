@@ -1,0 +1,232 @@
+[
+ {
+  "file": "bl-deviation.html",
+  "claim": "Leduc v Ward 이후 약관에 '어떤 순서로든(in any order)'이 붙게 되었다",
+  "verdict": "wrong",
+  "evidence": "Leduc v Ward (1888) 20 QBD 475의 B/L 문구 자체가 이미 'liberty to call at any ports in any order'였고, 항소법원은 그 문구도 항로 위의 항구로 한정해 읽음(Ardan S.S. Co. v Theband, 35 F. 620 (S.D.N.Y. 1888) 인용: https://law.resource.org/pub/us/case/reporter/F/0035/0035.f.0620.pdf ; https://en.wikipedia.org/wiki/Leduc_v_Ward). 초안 출처 lowpartners.com은 'Liberty to call at any ports means in their geographical order, so the words in any order are added. They must, however, still be ports substantially on the course'라고만 써서 인과를 잘못 읽은 것. 선사 약관 19.1(d)는 'in any order in or out of the route or in a contrary direction'까지 씀.",
+  "old": "<li><b>Leduc v Ward(1888년)</b>: \"어느 항구든 들를 수 있다\"는 문구도 계약 항로를 기준으로, 대체로 항로 위에 있는 항구로 읽었습니다. 그 뒤 약관에 \"어떤 순서로든(in any order)\"이 붙게 된 이유입니다.</li>",
+  "fix": "<li><b>Leduc v Ward(1888년)</b>: \"어느 항구든 어떤 순서로든(any ports in any order) 들를 수 있다\"는 문구도 계약 항로를 기준으로, 대체로 항로 위에 있는 항구로 읽었습니다. 오늘날 선사 약관은 여기서 더 나아가 \"항로 안이든 밖이든(in or out of the route)\", \"반대 방향으로\"까지 적습니다.</li>"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "Tsakiroglou 판결문이 '가장 긴 항로가 부패하기 쉬운 화물을 망친다면 그런 운송계약은 합리적이지 않다'고 적었다",
+  "verdict": "wrong",
+  "evidence": "https://www.trans-lex.org/311500/ (The Law Reports [1962] AC 93): 'Plainly, if the longest route would destroy perishable goods, that would be an unreasonable contract'는 상원 의견이 아니라 'Their Lordships took time for consideration' 앞의 변론 요지(피상고인 측 주장)에 있음. 상원 의견 중 비슷한 말은 Lord Hodson: 'It might be, as Harman L.J. pointed out, that it was essential for the buyers to receive the goods within a given time and that this could only be done by sending them via Suez; moreover, the goods might be of a nature which would not stand a route crossing the Equator twice.'(Sale of Goods Act 1893 s.32(2) 적용 부분)",
+  "old": "<li>다만 판결문은 가장 긴 항로가 부패하기 쉬운 화물을 망친다면 그런 운송계약은 합리적이지 않다고도 적었습니다(1893년 영국 물품매매법 제32조 제2항).</li>",
+  "fix": "<li>다만 Hodson 경은 매도인은 화물의 성질과 그 밖의 사정에 비추어 합리적인 항로로 실어야 하므로(1893년 영국 물품매매법 제32조 제2항), 매수인이 정해진 기한 안에 받아야 하거나 화물이 적도를 두 번 건너는 항로를 견디지 못하는 성질이라면 사정이 달라질 수 있다고 했습니다.</li>"
+ },
+ {
+  "file": "cases.html",
+  "claim": "Tsakiroglou 판결문이 부패 화물 운송계약은 합리적이지 않다고 적었다(사례 2)",
+  "verdict": "wrong",
+  "evidence": "위와 같음. 해당 문장은 Law Reports 수록 변론 요지이고, 상원 의견으로는 Lord Hodson의 '적도를 두 번 건너는 항로를 견디지 못하는 화물' 언급이 있음 — https://www.trans-lex.org/311500/",
+  "old": "다만 판결문은 가장 긴 항로가 부패하기 쉬운 화물을 망친다면 그런 운송계약은 합리적이지 않다고 적었습니다.",
+  "fix": "다만 Hodson 경은 매수인이 정해진 기한 안에 받아야 하거나 화물이 적도를 두 번 건너는 항로를 견디지 못하는 성질이라면 사정이 달라질 수 있다고 했습니다(1893년 영국 물품매매법 제32조 제2항)."
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "VOYWAR 2025 (c)의 2013년판과 다른 점: 운임을 시간·비용 추정치로 조정하고 조정 운임에 유치권",
+  "verdict": "unclear",
+  "evidence": "VOYWAR 2013 (c)(https://www.bimco.org/contractual-affairs/bimco-clauses/earlier-clauses-list/war_risks_clause_for_voyage_chartering_2013/): 'within 48 hours ... The Owners shall be entitled to recover from the Charterers the extra expenses of such discharge and ... to receive the full freight ... and if the extra distance exceeds 100 miles, to additional freight ... the Owners having a lien on the cargo for such expenses and freight.' VOYWAR 2025 (c)(https://www.bimco.org/contractual-affairs/bimco-clauses/current-clauses/war_risks_clause_for_voyage_charter_parties_2025/): 'within seventy-two (72) hours ... the freight shall be adjusted based on the estimated time and/or expenses incurred or saved, as documented by the Owners ... The Owners shall have a lien on the cargo for the adjusted freight.' Explanatory Notes (c): 'extend the nomination period to 72 hours', 'The 100 miles threshold has been removed'. 즉 (c)에서도 48→72시간이 바뀌었고, 유치권은 2013년판에도 있었음. 현재 문구('운임을 들거나 아낀')는 뜻도 어색함.",
+  "old": "<td>운임을 들거나 아낀 시간·비용의 추정치로 조정하고, 조정 운임에 대해 화물 유치권을 가짐</td>",
+  "fix": "<td>용선자의 지정 기한 48시간 → 72시간. 2013년판은 양하 추가 비용과 전액 운임, 늘어난 거리가 100마일을 넘으면 거리 비율만큼 추가 운임을 주었으나, 2025년판은 선주가 증빙한 시간·비용의 증감 추정치로 운임을 늘리거나 줄임. 유치권은 조정 운임에 대해 유지</td>"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "VOYWAR (h) 이로 아님 조항은 2013년판과 같다",
+  "verdict": "unclear",
+  "evidence": "VOYWAR 2013 (h): '...shall be considered as due fulfilment of the Contract of Carriage.' VOYWAR 2025 (h): '...shall be considered as due fulfilment of the Charter Party and any contracts of carriage.' Explanatory Notes (h): '“Charter Party and any contracts of carriage” wording was inserted ... to cater for bills of lading and other similar documents' — 취지는 같지만 문구가 바뀜(BIMCO 링크 위와 같음).",
+  "old": "<td>이 조항에 따라 한 일은 이로가 아니라 용선계약과 운송계약의 정당한 이행으로 봄</td><td>같음</td>",
+  "fix": "<td>이 조항에 따라 한 일은 이로가 아니라 용선계약과 운송계약의 정당한 이행으로 봄</td><td>취지는 같음. 2013년판의 \"Contract of Carriage\"를 \"Charter Party and any contracts of carriage\"로 바꿔 B/L 같은 운송계약도 명시</td>"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "2013년판의 100마일 기준이 희망봉 우회처럼 큰 경로 변경에 맞지 않았다는 반성",
+  "verdict": "unclear",
+  "evidence": "BIMCO Explanatory Notes는 이유를 'the previous method was considered disproportionate. The new method introduced is considered common practice in the industry and it introduces a new documentation requirement for the owners.'라고만 씀. '희망봉 우회처럼 큰 경로 변경에 맞지 않았다'는 초안의 추론(https://www.bimco.org/contractual-affairs/bimco-clauses/current-clauses/war_risks_clause_for_voyage_charter_parties_2025/)",
+  "old": "2013년판의 100마일 기준이 희망봉 우회처럼 큰 경로 변경에 맞지 않았다는 반성입니다.",
+  "fix": "BIMCO는 2013년판의 100마일 기준과 거리 비율 계산을 \"균형이 맞지 않는다(disproportionate)\"고 보아, 업계에서 흔히 쓰는 시간·비용 추정 방식으로 바꾸고 선주에게 증빙 의무를 지웠다고 설명합니다."
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "The Polar 제62항: 위험의 성격이 바뀌거나 질적으로 달라진 경우에만 전쟁 위험 조항을 쓸 수 있다",
+  "verdict": "unclear",
+  "evidence": "[2024] UKSC 2 para 62(https://caselaw.nationalarchives.gov.uk/uksc/2024/2): 'If different war risks materialised in the Gulf of Aden or there was a change in the nature of the piracy risk, or a change in its degree sufficient to make it qualitatively different, then it may be that clause 39 could be relied upon, but not if there was no change in risk.' — '다른 전쟁 위험'이 빠졌고, 원문은 '~경우에만 쓸 수 있다'보다 조심스러운 'it may be'.",
+  "old": "위험의 성격이 바뀌거나 정도가 \"질적으로 달라질\" 만큼 바뀐 경우에만 전쟁 위험 조항을 쓸 수 있다고 했습니다(제62항).",
+  "fix": "다른 전쟁 위험이 생기거나 위험의 성격이 바뀌거나 정도가 \"질적으로 달라질\" 만큼 커졌다면 전쟁 위험 조항을 쓸 여지가 있을 수 있다고 했습니다(제62항)."
+ },
+ {
+  "file": "cases.html",
+  "claim": "The Polar 제62항 요지(사례 4)",
+  "verdict": "unclear",
+  "evidence": "위와 같음 — para 62 'If different war risks materialised ... or a change in the nature ... or a change in its degree sufficient to make it qualitatively different, then it may be that clause 39 could be relied upon'",
+  "old": "위험의 성격이 바뀌거나 질적으로 달라질 만큼 커진 경우에만 전쟁 위험 조항을 쓸 수 있다고 적었습니다(제62항).",
+  "fix": "다른 전쟁 위험이 생기거나 위험의 성격이 바뀌거나 질적으로 달라질 만큼 커졌다면 전쟁 위험 조항을 쓸 여지가 있을 수 있다고 적었습니다(제62항)."
+ },
+ {
+  "file": "cases.html",
+  "claim": "The Polar: 용선자가 추가 보험료를 냈다",
+  "verdict": "unclear",
+  "evidence": "[2024] UKSC 2 para 3: 'additional insurance cover ... the premium for which was payable by the charterer'; War Risk clause: 'Any additional insurance premia (including ... P&I kidnap risks and ransoms) ... shall be for chrtrs account. Max USD40,000'. 판결은 용선자 부담 의무를 말할 뿐 실제 지급 여부는 적지 않음.",
+  "old": "선주가 든 납치·몸값 보험의 추가 보험료를 용선자가 냈습니다.",
+  "fix": "선주가 든 납치·몸값 보험 등의 추가 보험료는 용선계약상 용선자가 부담하기로 되어 있었습니다."
+ },
+ {
+  "file": "cases.html",
+  "claim": "The Polar 제목: 전쟁 위험 보험료를 용선자가 냈어도",
+  "verdict": "unclear",
+  "evidence": "위와 같음(para 3 'payable by the charterer'). 실제 지급 사실이 판결에 없으므로 '부담했어도'가 정확.",
+  "old": "전쟁 위험 보험료를 용선자가 냈어도",
+  "fix": "전쟁 위험 보험료를 용선자가 부담했어도"
+ },
+ {
+  "file": "cases.html",
+  "claim": "The Kapitan Petko Voivoda 1심은 '같은 사실의' The Chanda 판결과 달리 한도를 인정",
+  "verdict": "wrong",
+  "evidence": "[2003] EWCA Civ 451 para 1(https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/451): 'Hirst J answered that question in the negative in The Chanda [1989] 2 Lloyds Rep 494; in the present case Langley J has answered the question in the affirmative ..., declining to follow The Chanda.' The Chanda는 같은 쟁점(허락 없는 갑판 적재와 한도)을 다룬 별개 사건이지 같은 사실이 아님.",
+  "old": "1심은 같은 사실의 The Chanda 판결과 달리 한도를 인정했습니다.",
+  "fix": "1심은 같은 쟁점에서 한도 적용을 부정한 The Chanda 판결(1989년)을 따르지 않고 한도를 인정했습니다."
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "선사 공지는 '걸프 행 화물'에 긴급 운임을 붙였다",
+  "verdict": "wrong",
+  "evidence": "선사 중동 운항 공지 19(2026. 4. 9.): 'we are adding an Emergency Freight rate on cargo loading from or destined to ports in Iraq, Kuwait, Saudi Arabia (Damman & Jubail), Bahrain, Qatar, the United Arab Emirates, and Oman (except Salalah)' — 수출(loading from)도 포함되고, 오만(살랄라 제외)은 해협 밖 소하르도 포함하므로 '걸프 행'은 범위가 틀림. (선사 사이트 원문, 익명화를 위해 링크 생략)",
+  "old": "공지는 걸프 행 화물에 긴급 운임(Emergency Freight)을 붙이며",
+  "fix": "공지는 이라크·쿠웨이트·사우디아라비아(담맘·주바일)·바레인·카타르·아랍에미리트·오만(살랄라 제외) 항구에서 싣거나 그곳으로 가는 화물에 긴급 운임(Emergency Freight)을 붙이며"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "선사 익명화: 출처 줄의 'Terms for Carriage' 영문 제목",
+  "verdict": "unclear",
+  "evidence": "'Terms for Carriage'는 특정 선사 약관의 고유 제목이라 검색하면 회사가 바로 드러남. 규칙: 회사 실명·식별 정보 금지.",
+  "old": "한 대형 컨테이너 선사의 공개 운송약관(Terms for Carriage) 제19조",
+  "fix": "한 대형 컨테이너 선사의 공개 운송약관 제19조"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "선사 익명화: 출처 줄의 'Middle East Operational Update' 영문 제목",
+  "verdict": "unclear",
+  "evidence": "공지 제목 'Middle East Operational Update'와 날짜를 함께 검색하면 특정 선사 공지가 바로 나옴.",
+  "old": "한 대형 컨테이너 선사의 Middle East Operational Update(2026. 4. 9.,",
+  "fix": "한 대형 컨테이너 선사의 중동 운항 공지(2026. 4. 9.,"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "Stag Line v Foscolo Mango 판결 연도 1932년",
+  "verdict": "unclear",
+  "evidence": "[1932] AC 328은 보고서 연도이고 영국 상원 판결은 1931년에 선고된 것으로 알려짐((1931) 41 Ll L Rep 165). 1차 원문으로 선고일을 확인하지 못해 연도 대신 보고서 인용으로 쓰는 편이 안전. The Kapitan Petko Voivoda para 11도 'Stag Line Ltd v Foscolo, Mango & Co Ltd [1932] AC 328, 347'로만 인용.",
+  "old": "Stag Line v Foscolo Mango(1932년)에서 Russell 경은",
+  "fix": "Stag Line v Foscolo Mango([1932] AC 328)에서 Russell 경은"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "Stag Line v Foscolo Mango(1932년, 영국 상원)",
+  "verdict": "unclear",
+  "evidence": "위와 같음 — 선고는 1931년으로 알려짐, 보고서는 [1932] AC 328.",
+  "old": "<b>Stag Line v Foscolo Mango(1932년, 영국 상원)</b>",
+  "fix": "<b>Stag Line v Foscolo Mango([1932] AC 328, 영국 상원)</b>"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "IMO: 분쟁 2026. 2. 28. 시작, 2026. 6. 15. 미국·이란 평화 합의 환영, 상선 공격 최소 46건 확인",
+  "verdict": "correct",
+  "evidence": "IMO Secretary-General welcomes US-Iran agreement (15 June 2026) https://www.imo.org/en/mediacentre/pressbriefings/pages/statement--on-us-iran-agreement.aspx : 'To date, IMO has verified at least 46 attacks against international shipping in and around the Strait of Hormuz since the conflict began on 28 February 2026.' / 'welcomes ... the peace agreement' / 'advance its plan to evacuate the thousands of seafarers stranded'"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "2026. 4. 9. 선사 공지: 긴급 운임 목적, 세 선택지(A 임시 보관 뒤 완주, B 반송, C 목적지 변경), 보관 14일 포함 뒤 TEU·일 보관료 2주마다, 운송 종료 선언권과 보관료 비환불, COD·72시간 조건, 걸프 안 부킹 중단·제다·살랄라·소하르 육로",
+  "verdict": "correct",
+  "evidence": "선사 중동 운항 공지 19, 2026-04-09(선사 공식 사이트 원문 확인, 익명화로 링크 생략): 'Strait of Hormuz Emergency Freight rate ... covers 14 days of storage in transit. Beyond this there will be storage fee ... per TEU day plus reefer monitoring and plug-in fee ... invoiced fortnightly' / 'reserves the right to declare termination of voyage if the situation becomes prolonged. In such an event, no waivers or refunds will apply to storage charges already billed or paid' / B·C: 'Freight payer pays the standard COD fee and pricing, alongside additional freight cost' / 'within 72 hours of planned discharge' / 'Suspension of all bookings to and from Iraq, Kuwait, Qatar, Bahrain, Saudi Arabia (Dammam & Al Jubail) and to the UAE' / landbridge via Jeddah, Sohar, Salalah. 초안의 'termination of voyage' 표기가 원문과 일치(브리프의 'end of carriage'는 원문 표현이 아님)."
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "선사 약관 제16.2·16.4·19(19.2)·20(a)(b)(c)·24.1조 요지와 Merchant 정의",
+  "verdict": "correct",
+  "evidence": "선사 공개 운송약관 원문(익명화로 링크 생략): 16.2 'Full Freight shall be considered completely earned on receipt ... non returnable in any event'; 19.2 'shall be deemed to be within the contractual Carriage and shall not be a deviation'; 20 '(even though the circumstances ... existed at the time this contract was entered into)' (a) alternative route + additional Freight, (b) suspend, 'no representations as to the maximum period', (c) abandon, 'full Freight', 'Merchant shall pay any additional costs', 'shall not prejudice his right subsequently to abandon'; 24.1 'York Antwerp Rules 1994'; Merchant 'includes the Shipper, Holder, Consignee, Receiver ... any Person owning'"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "FIATA FBL(1992) 제11·12.3·13.1·13.4·15조",
+  "verdict": "correct",
+  "evidence": "https://ocw.uca.es/mod/resource/view.php?id=4925 (FBL 1992 원문 PDF): 11 'Without notice to the Merchant, the Freight Forwarder has the liberty to carry the goods on or under deck and to choose or substitute the means, route and procedure'; 12.3 'Abandon the carriage ... delivery shall be deemed to have been made ... entitled to full freight ... Merchant shall pay any additional costs'; 13.1 'earned ... at the moment when the goods have been taken in his charge, and not to be returned in any event'; 13.4 'reimburse ... in proportion to the amount of freight for any costs for deviation or delay ... caused by war, warlike operations, epidemics, strikes, government directions or force majeure'; 15 'indemnify ... General Average ... provide such security'"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "상법 제796조 제8호·단서, 제794조, 제795조 제1항, 제799조 제1항, 제807조, 제865조(현행 법률 제21044호, 시행 2026. 9. 10.)",
+  "verdict": "correct",
+  "evidence": "law.go.kr DRF lawService(LM=상법, 공포번호 21044, 시행일자 20260910): 제796조 '8. 해상에서의 인명이나 재산의 구조행위 또는 이로 인한 항로이탈이나 그 밖의 정당한 사유로 인한 항로이탈', 단서 '제794조 및 제795조제1항에 따른 주의를 다하였더라면 ... 증명한 때에는 그러하지 아니하다'; 제799조① '제794조부터 제798조까지의 규정에 반하여 운송인의 의무 또는 책임을 경감 또는 면제하는 당사자 사이의 특약은 효력이 없다'; 제865조 '선박과 적하의 공동위험을 면하기 위한 선장의 선박 또는 적하에 대한 처분으로 인하여 생긴 손해 또는 비용은 공동해손으로 한다'. (브리프의 제798·810·811조는 초안 본문에 인용되지 않음. 제798조는 제799조①이 가리키는 범위로만 간접 관련)"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "해운법(법률 제22135호, 시행 2026. 10. 27.) 제28조 제1항, 시행규칙 제20조 제1항 적용일 15일 전 공표",
+  "verdict": "correct",
+  "evidence": "law.go.kr DRF: 해운법 공포번호 22135, 공포·시행일자 20261027; 제28조① '운임 및 요금을 정하여 화주 등 이해관계인이 알 수 있도록 각각 공표하여야 한다. 공표한 운임 및 요금을 변경하려는 때에도 또한 같다'; 해운법 시행규칙(2026. 7. 13. 공포·시행) 제20조① '운임 및 요금의 적용일 15일 전까지'. ch-surcharges와 일치"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "CISG 조약 제1711호, 한국 발효 2005. 3. 1., 제79조 제1·3·4항",
+  "verdict": "correct",
+  "evidence": "law.go.kr DRF target=trty ID=2146: 조약번호 1711, 발효일자 20050301; 제79조(1)(3)(4) 원문과 일치"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "헤이그-비스비 규칙 제4조 제4항 인용문",
+  "verdict": "correct",
+  "evidence": "https://www.legislation.gov.uk/ukpga/1971/19/schedule : 'Any deviation in saving or attempting to save life or property at sea or any reasonable deviation shall not be deemed to be an infringement or breach of these Rules or of the contract of carriage, and the carrier shall not be liable for any loss or damage resulting therefrom.'"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "BIMCO VOYWAR 2025: (a) Area·Insurance Costs 신설, (b) 48→72시간, (d) 2013년 100마일 거리 비율 → 시간·비용 추정 조정, 선적 전·중·후 적용, (e) 합리적 노력 입증, 2025년 4월 보도",
+  "verdict": "correct",
+  "evidence": "BIMCO VOYWAR 2025 본문·Explanatory Notes(초안 링크); VOYWAR 2013 (b)(d) 'within 48 hours', 'if the total extra distance exceeds 100 miles'; West P&I 2025-04-25(datePublished) 'extended from 48 hours to 72 hours', 'rough and ready mechanism ... 100 miles'; gCaptain 2025-04-11 보도"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "안보리 결의 2722호(2024. 1. 10.): 2023. 11. 19. 이후 후티 공격 규탄, Galaxy Leader와 선원 석방 요구",
+  "verdict": "correct",
+  "evidence": "S/RES/2722 (2024) 'Adopted by the Security Council at its 9527th meeting, on 10 January 2024'; '1. Condemns in the strongest terms the at least two dozen Houthi attacks ... since November 19, 2023, when the Houthis attacked and seized the Galaxy Leader and its crew; 2. ... demands that the Houthis immediately release the Galaxy Leader and its crew' (IMO 게시 사본 https://wwwcdn.imo.org/localresources/en/MediaCentre/HotTopics/Documents/Red%20Sea/SCR%202722(2024)%20on%20the%20Red%20Sea%20adopted%20(E)%201.pdf)"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "FMC 권고(2024. 1. 12.): 46 CFR 520.8 30일, 520.14(c) 특별 허가, 520.7(c) 화물 수령 때 유효",
+  "verdict": "correct",
+  "evidence": "https://www.fmc.gov/articles/commission-advisory-regarding-red-sea-surcharges/ 'Posted January 12, 2024'; '46 CFR 520.8(a)(1&2) require ... at least 30 days'; '46 CFR 520.14(c) ... Special Permission (SP) request showing good cause to reduce this 30-day waiting period'; 'Per 46 CFR 520.7(c), a tariff rate, charge, or rule must be in effect at the time the carrier or its agent receives cargo.'"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "ICC (A) 2009 제2·4.5·8.3·9·10·12조, 협회전쟁약관(화물) 2009 제3.7·5.2·5.3조, 전쟁약관에 계속운송비 조항 없음",
+  "verdict": "correct",
+  "evidence": "https://efuinsurance.com/resource/clauses/marine/1.pdf : 8.3 'during delay beyond the control of the Assured, any deviation, forced discharge, reshipment or transhipment and during any variation of the adventure arising from the exercise of a liberty'; 9 'prompt notice ... additional premium if required ... 60 days'; 12 'Forwarding Charges ... subject to the exclusions contained in Clauses 4, 5, 6 and 7'; 4.5 'even though the delay be caused by a risk insured against'. https://efuinsurance.com/resource/clauses/marine/6.pdf : 3.7 'any claim based upon loss of or frustration of the voyage or adventure'; 5.2 '15 days counting from midnight of the day of arrival'; 5.3 'deemed the final port of discharge ... notice ... additional premium ... reattaches'; 'Forwarding' 조항 없음"
+ },
+ {
+  "file": "cases.html",
+  "claim": "Renton v Palmyra [1957] AC 149(HL 1956. 12. 5.): Caspiana, 밴쿠버·나나이모 → 런던·헐, 함부르크 양하, B/L 4통 중 3통 헤이그 규칙(캐나다법) 편입·1통 갑판 화물, 14(c)·14(f), 화주가 운임·보관료·운송비 지급 후 청구, 1심 화주 승·항소심·상원 운송인 승, 합리적 항구 선택 의견",
+  "verdict": "correct",
+  "evidence": "CMI 판례 DB https://cmlcmidatabase.org/gh-renton-co-ltd-v-palmyra-trading-corp : 'House of Lords, 5 December 1956'; 'Hague Rules, as set out in the Canadian Water Carriage of Goods Act, 1936, applied to three bills ... not ... the fourth bill, which covered goods carried on deck'; 14(f) 'considered fulfilment of the contract' + extra expenses paid by merchant; Lord Somervell 'required the master to act reasonably ... both the consignee's and the ship's convenience'"
+ },
+ {
+  "file": "cases.html",
+  "claim": "Tsakiroglou: 계약 1956. 10. 4., 11~12월 선적, 운하 1956. 11. 2.~1957. 4. 9. 폐쇄, 4,386마일/11,137마일, 상원 1961. 3. 28., Simonds 자작 인용문, Carapanayoti 폐기, 전쟁·불가항력 조항상 '방해' 아님",
+  "verdict": "correct",
+  "evidence": "https://www.trans-lex.org/311500/ : 'The distance from Port Sudan to Hamburg via the Suez Canal is approximately 4,386 miles and ... via the Cape of Good Hope is approximately 11,137 miles'; 'blocked on November 2, 1956, and remained closed to shipping until April 9, 1957'; 'March 28. VISCOUNT SIMONDS'; 'an increase of expense is not a ground of frustration'; 'Carapanayoti & Co. Ltd. v. E. T. Green Ltd. ... overruled'; 'the shipment was not prevented by war or force majeure within the meaning of the contract'"
+ },
+ {
+  "file": "cases.html",
+  "claim": "The Kapitan Petko Voivoda [2003] EWCA Civ 451(2003. 4. 3.): 굴착기 34대, 불가리아 선박, 한국→튀르키예 2000년 9~11월, 'underdeck only', 'in any event', 'quasi-deviation', Photo Production 'sui generis', 'dead and buried', Stag Line 인용(제10~11·43항)",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/451 : 'Thursday 3rd April 2003'; 'a consignment of 34 new excavators carried on the Bulgarian vessel Kapitan Petko Voivoda from Korea to Turkey in September to November 2000'; 'underdeck only'; 'It has not yet been conclusively decided whether ... the deviation cases and the warehouse cases must be regarded as dead and buried along with the doctrine of fundamental breach'; para 43 'The limitation clause took effect in any event.'"
+ },
+ {
+  "file": "cases.html",
+  "claim": "The Polar [2024] UKSC 2(2024. 1. 17.): 2010. 10. 30. 나포, 2011. 8. 26. 석방, 몸값 770만 달러, 용선 2010. 9. 20., 중재 화주 승·1심/항소심 선주 승, 제57항, 제99항",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/uksc/2024/2 (judgment date 2024-01-17): para 1 'seized by Somali pirates ... 30 October 2010 ... released on 26 August 2011 following the payment of a ransom of US$7,700,000'; para 6 'fixture recap dated 20 September 2010'; para 57 'General average is a common law right ... requires a clear agreement ... that is a high threshold'; para 99 '(2) all material parts of those clauses were incorporated into the bills of lading'"
+ },
+ {
+  "file": "bl-deviation.html",
+  "claim": "저장소 문서와의 일관성(bl-basics, ch-surcharges, inco-gray, ins-general-average, bl-lien)",
+  "verdict": "correct",
+  "evidence": "ch-surcharges 6절: 해운법 제28조·시행규칙 제20조 15일, FMC 520.8 30일 — 일치. inco-gray 5절 '선적 후에 새로 부과된 할증료(전쟁위험 할증 ...)를 누가 내는지는 규칙에 명시가 없으므로' — 일치. ins-general-average: 상법 제865조, YAR 2016 제10·11조 피난항 비용, 선사 약관 제24.1조 1994년판 — 일치. bl-lien: 제807조를 해상 운송인 유치권으로 다룸 — 일치. bl-basics와 모순 없음. 기존 bl-cases는 27건이라 28~31 번호와 #c28 링크 맞음. 네 판결은 다른 사례 문서에 중복 없음. STYLE 위반 용어·본문 em dash·할증료 금액·화물 검사 지시 없음. 그림 3장의 글자·날짜도 본문과 일치. 국가법령정보센터 판례 전문 검색 '항로이탈' 14건 중 화물 운송 이로 판결 없음(초안의 '찾지 못했다' 표현 타당)."
+ }
+]
