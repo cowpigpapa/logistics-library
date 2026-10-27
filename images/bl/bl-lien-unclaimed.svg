@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="lu-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="lu-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="lu-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="24" width="1624" height="893" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="60" y="78" font-size="30" font-weight="800" fill="#1d2a3a">아무도 찾아가지 않는 보세화물: 세관 공매와 유치권자의 자리</text>
+<text x="60" y="114" font-size="19" font-weight="600" fill="#5f6b78">관세법 제208조~제212조, 보세화물장치기간 및 체화관리에 관한 고시(관세청고시 제2025-47호)</text>
+
+<!-- timeline axis -->
+<line x1="80" y1="240" x2="1590" y2="240" stroke="#1d2a3a" stroke-width="4" marker-end="url(#lu-ink)"/>
+<!-- steps -->
+<g font-weight="700">
+<circle cx="120" cy="240" r="11" fill="#1d2a3a"/>
+<text x="120" y="200" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">반입</text>
+<text x="120" y="282" font-size="17" fill="#5f6b78" text-anchor="middle">장치기간</text>
+<text x="120" y="306" font-size="17" fill="#5f6b78" text-anchor="middle">기산(제5조)</text>
+
+<circle cx="370" cy="240" r="11" fill="#1f6fd1"/>
+<text x="370" y="176" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">반출통고</text>
+<text x="370" y="204" font-size="17" fill="#1d2a3a" text-anchor="middle">만료 30일 전, 등기우편</text>
+<text x="370" y="282" font-size="17" fill="#5f6b78" text-anchor="middle">보세창고 운영인·</text>
+<text x="370" y="306" font-size="17" fill="#5f6b78" text-anchor="middle">화물관리인(제6조·제7조)</text>
+
+<circle cx="610" cy="240" r="11" fill="#1d2a3a"/>
+<text x="610" y="176" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">장치기간 만료</text>
+<text x="610" y="204" font-size="17" fill="#1d2a3a" text-anchor="middle">부두·CFS 등 2개월</text>
+<text x="610" y="282" font-size="17" fill="#5f6b78" text-anchor="middle">(연장 가능,</text>
+<text x="610" y="306" font-size="17" fill="#5f6b78" text-anchor="middle">고시 제4조)</text>
+
+<circle cx="850" cy="240" r="11" fill="#1d2a3a"/>
+<text x="850" y="176" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">매각 통고</text>
+<text x="850" y="204" font-size="17" fill="#1d2a3a" text-anchor="middle">1개월 안에 수출·수입·반송</text>
+<text x="850" y="282" font-size="17" fill="#5f6b78" text-anchor="middle">관세법 제209조</text>
+
+<circle cx="1090" cy="240" r="11" fill="#1d2a3a"/>
+<text x="1090" y="176" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">공고·입찰</text>
+<text x="1090" y="204" font-size="17" fill="#1d2a3a" text-anchor="middle">시작 10일 전 공고</text>
+<text x="1090" y="282" font-size="17" fill="#5f6b78" text-anchor="middle">유찰 시 5일 이상 간격,</text>
+<text x="1090" y="306" font-size="17" fill="#5f6b78" text-anchor="middle">예정가격 10% 이내씩 낮춤</text>
+
+<circle cx="1330" cy="240" r="11" fill="#1f8a5b"/>
+<text x="1330" y="176" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">매각</text>
+<text x="1330" y="204" font-size="17" fill="#1d2a3a" text-anchor="middle">유치권자는 물품을</text>
+<text x="1330" y="282" font-size="17" fill="#5f6b78" text-anchor="middle">매수인에게 인도</text>
+<text x="1330" y="306" font-size="17" fill="#5f6b78" text-anchor="middle">(관세법 제208조 제3항)</text>
+
+<circle cx="1530" cy="240" r="11" fill="#1f8a5b"/>
+<text x="1530" y="176" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">1개월</text>
+<text x="1530" y="204" font-size="17" fill="#1d2a3a" text-anchor="middle">권리 증명 서류</text>
+<text x="1530" y="282" font-size="17" fill="#5f6b78" text-anchor="middle">세관장에게 제출</text>
+<text x="1530" y="306" font-size="17" fill="#5f6b78" text-anchor="middle">(제211조 제2항)</text>
+</g>
+
+<!-- waterfall -->
+<rect x="60" y="350" width="760" height="300" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="84" y="390" font-size="22" font-weight="800" fill="#1d2a3a">매각대금을 나누는 순서(관세법 제211조)</text>
+<g font-size="19" font-weight="700">
+<rect x="90" y="412" width="700" height="40" fill="#f3f4f6" rx="6"/><text x="110" y="439" fill="#1d2a3a">① 매각비용</text>
+<rect x="90" y="458" width="700" height="40" fill="#f3f4f6" rx="6"/><text x="110" y="485" fill="#1d2a3a">② 관세</text>
+<rect x="90" y="504" width="700" height="40" fill="#f3f4f6" rx="6"/><text x="110" y="531" fill="#1d2a3a">③ 각종 세금</text>
+<rect x="90" y="550" width="700" height="40" fill="#eaf6f0" stroke="#1f8a5b" stroke-width="2" rx="6"/><text x="110" y="577" fill="#1f8a5b">④ 질권·유치권으로 담보된 채권(서류를 낸 경우)</text>
+<rect x="90" y="596" width="700" height="40" fill="#f3f4f6" rx="6"/><text x="110" y="623" fill="#1d2a3a">⑤ 남으면 화주에게</text>
+</g>
+
+<!-- unsold branch -->
+<rect x="852" y="350" width="760" height="140" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="876" y="390" font-size="22" font-weight="800" fill="#1d2a3a">끝내 팔리지 않으면: 국고귀속</text>
+<text x="876" y="426" font-size="18" font-weight="600" fill="#1d2a3a">화주등에게 지체 없이 반출하라고 통고하고, 1개월 안에 반출하지</text>
+<text x="876" y="454" font-size="18" font-weight="600" fill="#1d2a3a">않으면 소유권을 포기한 것으로 보고 국고에 귀속(제212조)</text>
+<text x="876" y="480" font-size="17" font-weight="600" fill="#5f6b78">유치권자에게 돌아갈 매각대금도 없습니다</text>
+
+<rect x="852" y="510" width="760" height="140" fill="#fdf0ec" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="876" y="550" font-size="22" font-weight="800" fill="#d9482b">썩거나 가치가 없어지면: 폐기 명령</text>
+<text x="876" y="586" font-size="18" font-weight="600" fill="#1d2a3a">1개월 기간을 정해 폐기·반송 명령, 비용은 화주등이 부담(제160조</text>
+<text x="876" y="614" font-size="18" font-weight="600" fill="#1d2a3a">제4항·제6항). 안 하면 대집행 후 15일 납기 비용납부명령(고시 제47조)</text>
+<text x="876" y="640" font-size="17" font-weight="600" fill="#5f6b78">긴급한 경우 통고 없이 폐기하고 즉시 통고할 수 있습니다</text>
+
+<!-- forwarder warning -->
+<rect x="60" y="680" width="1552" height="206" fill="#fff7f2" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="84" y="720" font-size="21" font-weight="800" fill="#e4572e">포워더가 알아둘 것</text>
+<text x="84" y="758" font-size="19" font-weight="600" fill="#1d2a3a">· 체화 고시의 "화주등"에는 반입자가 들어가고, 반입자는 적재화물목록 작성책임자입니다. 하우스적재화물목록의 작성책임자는 화물운송주선업자입니다.</text>
+<text x="84" y="794" font-size="19" font-weight="600" fill="#1d2a3a">· 그래서 화주가 사라진 화물의 반출통고·폐기 명령·비용 청구가 House B/L 포워더에게 올 수 있습니다. 대납 비용은 화주 상대 1년 기간 안에 청구합니다.</text>
+<text x="84" y="830" font-size="19" font-weight="600" fill="#1d2a3a">· 공매로 유치권 채권을 받으려면 매각일부터 1개월 안에 서류를 내야 하고, 순서가 관세·세금 뒤라 다 받는다는 보장이 없습니다.</text>
+<text x="84" y="866" font-size="17" font-weight="600" fill="#5f6b78">장치기간은 보세구역 종류와 장소마다 다릅니다. 전체 표는 통관 카테고리의 보세구역 문서를 보십시오.</text>
+</svg>

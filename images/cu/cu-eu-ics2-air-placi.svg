@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="370" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="74" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">인천 → 프랑크푸르트 항공 화물(예시, 비행 14시간): 기한이 두 개다</text>
+<rect x="140.0" y="110" width="378.29999999999995" height="40" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="2" rx="10" />
+<text x="329.15" y="137" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="middle">최소 자료(PLACI): 탑재 전까지</text>
+<rect x="140.0" y="162" width="1134.8" height="40" fill="#e6effb" stroke="#1f6fd1" stroke-width="2" rx="10" />
+<text x="707.4" y="189" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">전체 ENS: 도착 4시간 전까지(4시간 미만 비행은 출발 때)</text>
+<rect x="644.3" y="220" width="882.7" height="30" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="6" />
+<text x="1085.65" y="241" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">비행 14시간(예시)</text>
+<line x1="130" y1="272" x2="1610" y2="272" stroke="#1d2a3a" stroke-width="4" marker-end="url(#a-ink)"/>
+<line x1="140.0" y1="264" x2="140.0" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="140.0" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">-8h</text>
+<line x1="266.1" y1="264" x2="266.1" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="266.1" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">-6h</text>
+<line x1="392.2" y1="264" x2="392.2" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="392.2" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">-4h</text>
+<line x1="518.3" y1="264" x2="518.3" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="518.3" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">-2h</text>
+<line x1="644.3" y1="264" x2="644.3" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="644.3" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">0h</text>
+<line x1="770.4" y1="264" x2="770.4" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="770.4" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">+2h</text>
+<line x1="896.5" y1="264" x2="896.5" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="896.5" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">+4h</text>
+<line x1="1022.6" y1="264" x2="1022.6" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="1022.6" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">+6h</text>
+<line x1="1148.7" y1="264" x2="1148.7" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="1148.7" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">+8h</text>
+<line x1="1274.8" y1="264" x2="1274.8" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="1274.8" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">+10h</text>
+<line x1="1400.9" y1="264" x2="1400.9" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="1400.9" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">+12h</text>
+<line x1="1527.0" y1="264" x2="1527.0" y2="280" stroke="#1d2a3a" stroke-width="2" />
+<text x="1527.0" y="302" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle">+14h</text>
+<circle cx="140.0" cy="272" r="7" fill="#1d2a3a"/>
+<text x="140.0" y="332" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">화물 반입·House AWB 확정</text>
+<circle cx="203.0" cy="272" r="7" fill="#1f8a5b"/>
+<text x="203.0" y="358" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="middle">PLACI 전송 → 첫 위험 분석</text>
+<circle cx="518.3" cy="272" r="7" fill="#1f8a5b"/>
+<text x="518.3" y="332" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="middle">탑재</text>
+<circle cx="644.3" cy="272" r="7" fill="#1d2a3a"/>
+<text x="644.3" y="358" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">출발</text>
+<circle cx="1274.8" cy="272" r="7" fill="#1f6fd1"/>
+<text x="1274.8" y="332" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">전체 ENS 기한</text>
+<circle cx="1527.0" cy="272" r="7" fill="#1d2a3a"/>
+<text x="1527.0" y="358" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="end">프랑크푸르트 도착</text>
+<text x="54" y="388" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">시간축은 출발 시각 기준. 실제 반입·마감 시각은 항공사 공지를 따름(위임규정 제106조)</text>
+<rect x="30" y="420" width="1612" height="491" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="462" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">최소 자료 내용과 세관의 네 가지 응답(이행규정 제186조)</text>
+<rect x="60" y="488" width="420" height="400" fill="#ffffff" stroke="#1f8a5b" stroke-width="3" rx="14" />
+<text x="270" y="524" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">최소 자료(F23·F24)</text>
+<text x="86" y="566" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">· 송하인 이름·주소</text>
+<text x="86" y="602" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">· 수하인 이름·주소</text>
+<text x="86" y="638" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">· House AWB 번호</text>
+<text x="86" y="674" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">· 포장 수(가장 작은 외포장)</text>
+<text x="86" y="710" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">· 총중량</text>
+<text x="86" y="746" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">· 품명(금지어 불가)</text>
+<text x="86" y="782" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="start">· + Master AWB 번호(F24)</text>
+<text x="86" y="830" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">HS 6단위는 F23에서 선택 항목,</text>
+<text x="86" y="854" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">House 정보 신고(F22·F26)에서는 필수</text>
+<rect x="520" y="488" width="530" height="186" fill="#ffffff" stroke="#1f8a5b" stroke-width="3" rx="14" />
+<text x="546" y="534" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">평가 완료</text>
+<text x="546" y="578" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">위험 분석 종료 통지</text>
+<text x="546" y="614" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">항공사가 탑재 진행</text>
+<text x="546" y="650" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">제186조 제2항(e)</text>
+<rect x="1070" y="488" width="530" height="186" fill="#ffffff" stroke="#1f6fd1" stroke-width="3" rx="14" />
+<text x="1096" y="534" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">정보 요청(RFI)</text>
+<text x="1096" y="578" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">자료가 모자라거나 부정확</text>
+<text x="1096" y="614" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">ENS를 낸 사람이 답해야 분석 재개</text>
+<text x="1096" y="650" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">제186조 제3항</text>
+<rect x="520" y="692" width="530" height="186" fill="#ffffff" stroke="#e4572e" stroke-width="3" rx="14" />
+<text x="546" y="738" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">보안검색 요청(HRCM)</text>
+<text x="546" y="782" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">항공 보안 위협 의심</text>
+<text x="546" y="818" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">고위험 화물 기준 검색 후 결과 회신</text>
+<text x="546" y="854" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">제186조 제4항</text>
+<rect x="1070" y="692" width="530" height="186" fill="#ffffff" stroke="#d9482b" stroke-width="3" rx="14" />
+<text x="1096" y="738" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">적재 금지(DNL)</text>
+<text x="1096" y="782" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">즉각 조치가 필요한 위협</text>
+<text x="1096" y="818" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">해당 화물은 실을 수 없음</text>
+<text x="1096" y="854" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">제186조 제5항</text>
+</svg>

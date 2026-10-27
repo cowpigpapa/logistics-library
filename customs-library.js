@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/customs';
-  const DOCS_VERSION = '20261027-05';
+  const DOCS_VERSION = '20261027-10';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -42,6 +42,7 @@
     { id: 'cu-penalty', checked: '2026-10-19', tag: "제재", level: 3, title: "세관 과태료·가산세·벌금 — 무엇이 다르고, 통지를 받으면 어떻게 대응하나", short: "과태료·가산세·벌금", summary: "관세법상 가산세(세금)·과태료(행정질서벌)·벌금과 통고처분(형벌)을 물류 위반 사례로 구분하고, 과태료 사전통지 뒤 의견제출·자진납부 감경·이의제기 절차와 역할별 책임, 기록 관리, 기한 달력을 정리합니다." },
     { id: 'cu-ipr', checked: '2026-10-23', tag: "지식재산권", level: 3, title: "지식재산권 침해 의심 화물의 통관보류 — 관세법 제235조, 담보·기한, 비용과 폐기", short: "지재권 통관보류", summary: "상표·디자인·특허 침해 의심 화물의 통관보류 경로와 7일·10일·15일 기한, 과세가격 120% 담보, 병행수입 요건, 보류 중 보관료·Demurrage 부담의 법적 근거, 포기·폐기 비용, 수출·환적 적용을 정리했습니다." },
     { id: 'cu-us-filing', checked: '2026-10-20', tag: "사전신고", level: 3, title: "미국·캐나다 사전신고 — AMS·ISF·ACAS·ACI와 미국 수출 AES, 기한과 벌금 피하는 법", short: "미국·캐나다 사전신고", summary: "미국행 해상 AMS와 ISF(10+2), 항공 사전정보·ACAS, 캐나다 ACI(eManifest), 미국발 수출 AES(EEI)를 누가 무엇을 언제까지 보내는지 미국·캐나다 규정 원문으로 정리하고, 부산 선적 일정으로 기한을 계산하며 벌금과 자주 하는 실수, 일정 변경 때 수정 신고를 보여 줍니다." },
+    { id: 'cu-eu-ics2', checked: '2026-10-27', tag: "사전신고", level: 3, title: "EU ICS2 사전신고 — ENS 기한, 다중 신고, 항공 PLACI와 Do Not Load, 반려되는 품명", short: "EU ICS2 사전신고", summary: "EU로 들어가는 화물의 반입 요약신고(ENS)를 운송 수단별 기한, Release 1·2·3 시행 순서와 2026년 10월 현재 상태, 운송인과 House 신고인(포워더·EU 수하인)이 나눠 내는 다중 신고와 연결 키, 항공의 적재 전 최소 자료(PLACI)와 정보 요청·보안검색 요청·적재 금지 대응, 품명 금지어와 EORI·매도인·매수인처럼 자주 반려되는 항목, 한국 포워더가 EU 파트너·운송인과 정할 일, 미국·캐나다 사전신고와의 차이로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -55,10 +56,11 @@
   const SECTIONS = [
     { title: "통관 절차와 서류", sub: "인보이스·패킹리스트 · 수출입신고와 세금 · 수입 도착·반출 일정 · 보세구역과 보세운송", docs: ["cu-documents", "cu-clearance", "cu-import-timeline", "cu-bonded"] },
     { title: "품목분류와 원산지", sub: "HS 코드 정하는 법 · 사전심사 · FTA 협정관세와 직접운송", docs: ["cu-hs-practice", "cu-fta"] },
-    { title: "AEO·제재·통관보류·해외 신고", sub: "AEO 공인 · 과태료·가산세·벌금 · 지재권 통관보류 · 미국·캐나다 사전신고", docs: ["cu-aeo", "cu-penalty", "cu-ipr", "cu-us-filing"] }
+    { title: "AEO·제재·통관보류·해외 신고", sub: "AEO 공인 · 과태료·가산세·벌금 · 지재권 통관보류 · 미국·캐나다 사전신고 · EU ICS2", docs: ["cu-aeo", "cu-penalty", "cu-ipr", "cu-us-filing", "cu-eu-ics2"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
+    { name: "유럽행 화물 사전신고(ICS2)는 누가 하나요", ids: ["cu-eu-ics2"] },
     { name: "인보이스와 패킹리스트에 무엇을 적어야 하나요", ids: ["cu-documents"] },
     { name: "수입신고는 언제 할 수 있나요", ids: ["cu-clearance", "cu-import-timeline"] },
     { name: "화물이 도착하면 반출까지 며칠 걸리나요", ids: ["cu-import-timeline"] },

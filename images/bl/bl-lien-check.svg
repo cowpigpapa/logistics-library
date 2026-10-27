@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="lc-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="lc-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="lc-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="lc-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="24" width="1624" height="893" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="60" y="78" font-size="30" font-weight="800" fill="#1d2a3a">이 화물을 잡을 수 있나: 세 가지 질문</text>
+<text x="60" y="114" font-size="19" font-weight="600" fill="#5f6b78">한국 법 기준. 질문 1·2로 유치권이 생기는지 보고, 질문 3으로 지금도 살아 있는지 봅니다</text>
+
+<!-- Q1 -->
+<rect x="60" y="146" width="560" height="160" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="86" y="186" font-size="20" font-weight="800" fill="#1f6fd1">질문 1</text>
+<text x="86" y="224" font-size="22" font-weight="700" fill="#1d2a3a">받을 돈이 바로 이 화물(같은 기회에</text>
+<text x="86" y="256" font-size="22" font-weight="700" fill="#1d2a3a">함께 맡긴 화물 포함)의 운임·보수·</text>
+<text x="86" y="288" font-size="22" font-weight="700" fill="#1d2a3a">체당금인가?</text>
+
+<line x1="620" y1="226" x2="694" y2="226" stroke="#1f8a5b" stroke-width="3" marker-end="url(#lc-green)"/>
+<text x="657" y="212" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">예</text>
+
+<rect x="700" y="146" width="912" height="160" fill="#eaf6f0" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="726" y="186" font-size="23" font-weight="800" fill="#1f8a5b">운송주선인·운송인의 유치권</text>
+<text x="726" y="220" font-size="19" font-weight="600" fill="#1d2a3a">상법 제120조(주선인), 제147조(육상), 제807조·제808조(해상), 제920조(항공)</text>
+<text x="726" y="252" font-size="19" font-weight="600" fill="#1d2a3a">화물 주인이 채무자가 아니어도 성립합니다(대법원 92다32906)</text>
+<text x="726" y="284" font-size="19" font-weight="600" fill="#1d2a3a">다만 Freight Prepaid B/L을 사들인 소지인에게 운임을 이유로 잡기는 어렵습니다</text>
+
+<!-- down arrow Q1 -> Q2 -->
+<line x1="340" y1="306" x2="340" y2="356" stroke="#1d2a3a" stroke-width="3" marker-end="url(#lc-ink)"/>
+<text x="356" y="338" font-size="19" font-weight="700" fill="#5f6b78">아니오(다른 건 미수)</text>
+
+<!-- Q2 -->
+<rect x="60" y="362" width="560" height="270" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="86" y="402" font-size="20" font-weight="800" fill="#1f6fd1">질문 2</text>
+<text x="86" y="438" font-size="22" font-weight="700" fill="#1d2a3a">상사유치권 요건을 모두 갖췄나?</text>
+<text x="86" y="480" font-size="19" font-weight="600" fill="#1d2a3a">① 양쪽 모두 상인, 상행위 채권, 변제기 도래</text>
+<text x="86" y="516" font-size="19" font-weight="600" fill="#1d2a3a">② 그 채무자와의 상행위로 점유를 얻음</text>
+<text x="86" y="552" font-size="19" font-weight="600" fill="#1d2a3a">③ 화물이 채무자 소유(채무자가 B/L 소지인)</text>
+<text x="86" y="588" font-size="19" font-weight="600" fill="#1d2a3a">④ 유치권을 배제하는 약정이 없음</text>
+
+<line x1="620" y1="430" x2="694" y2="430" stroke="#1f6fd1" stroke-width="3" marker-end="url(#lc-blue)"/>
+<text x="657" y="416" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">모두 예</text>
+<rect x="700" y="362" width="912" height="128" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="726" y="400" font-size="23" font-weight="800" fill="#1f6fd1">상사유치권(상법 제58조)</text>
+<text x="726" y="434" font-size="19" font-weight="600" fill="#1d2a3a">다른 거래의 미수금도 담보하지만 채무자 소유 화물에만 성립합니다</text>
+<text x="726" y="466" font-size="19" font-weight="600" fill="#1d2a3a">은행 지시식 B/L 화물, 이미 넘어간 B/L의 화물은 안 됩니다(부산고법 2002나3518)</text>
+
+<line x1="620" y1="588" x2="694" y2="588" stroke="#d9482b" stroke-width="3" marker-end="url(#lc-red)"/>
+<text x="657" y="546" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">하나라도</text>
+<text x="657" y="570" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">아니오</text>
+<rect x="700" y="510" width="912" height="122" fill="#fdf0ec" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="726" y="548" font-size="23" font-weight="800" fill="#d9482b">잡을 수 없음: 인도를 거절하면 불법 유치가 될 수 있음</text>
+<text x="726" y="582" font-size="19" font-weight="600" fill="#1d2a3a">상계, 지급명령·소송, 거래 중단, 다음 건 선불 전환으로 회수합니다</text>
+<text x="726" y="612" font-size="19" font-weight="600" fill="#1d2a3a">화주가 상당한 담보를 내면 유치권 소멸을 청구할 수 있습니다(민법 제327조)</text>
+
+<!-- Q3 band -->
+<rect x="60" y="668" width="1552" height="216" fill="#fff7f2" stroke="#e4572e" stroke-width="2.5" rx="12"/>
+<text x="86" y="708" font-size="20" font-weight="800" fill="#e4572e">질문 3 (1·2 공통)</text>
+<text x="290" y="708" font-size="22" font-weight="800" fill="#1d2a3a">지금도 점유하고 있나?</text>
+<text x="86" y="750" font-size="19" font-weight="600" fill="#1d2a3a">· House D/O를 내주기 전이고 창고·CFS에 출고 보류를 서면으로 알렸다면 점유를 주장할 수 있습니다. 간접점유도 되지만 채무자가 직접 점유하면 안 됩니다(대법원 2007다27236).</text>
+<text x="86" y="790" font-size="19" font-weight="600" fill="#1d2a3a">· D/O를 내주거나 화물이 반출되면 유치권은 사라집니다(민법 제328조). 해상운송인의 경매권만 인도 후 30일, 제3자 점유 전까지 남습니다(상법 제808조 제2항).</text>
+<text x="86" y="830" font-size="19" font-weight="600" fill="#1d2a3a">· 잡고 있어도 1년 기간은 흐릅니다(민법 제326조, 상법 제122조·제814조). D&amp;D와 보관료도 계속 쌓이므로 소송·경매 준비를 같이 합니다.</text>
+<text x="86" y="866" font-size="17" font-weight="600" fill="#5f6b78">외국 법이 적용되거나 약관에 general lien이 있으면 결론이 달라질 수 있습니다. 본문 8·9절을 보십시오.</text>
+</svg>

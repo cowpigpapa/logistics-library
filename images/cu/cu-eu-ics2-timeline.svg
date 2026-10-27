@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
+<text x="54" y="78" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">ICS2 시행 순서: Release 1·2·3과 도로·철도 유예, 2026년 10월 현재</text>
+<text x="54" y="110" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">막대 왼쪽 끝 = 회원국이 체계를 여는 날, 오른쪽 끝 = 모든 업체가 연결해야 하는 마지막 날 (작업계획 결정 2023/2879)</text>
+<line x1="470.0" y1="150" x2="470.0" y2="760" stroke="#e3e8ee" stroke-width="2" />
+<text x="563.4" y="150" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">2021</text>
+<line x1="658.2" y1="150" x2="658.2" y2="760" stroke="#e3e8ee" stroke-width="2" />
+<text x="751.6" y="150" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">2022</text>
+<line x1="846.5" y1="150" x2="846.5" y2="760" stroke="#e3e8ee" stroke-width="2" />
+<text x="939.8" y="150" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">2023</text>
+<line x1="1034.7" y1="150" x2="1034.7" y2="760" stroke="#e3e8ee" stroke-width="2" />
+<text x="1128.6" y="150" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">2024</text>
+<line x1="1223.5" y1="150" x2="1223.5" y2="760" stroke="#e3e8ee" stroke-width="2" />
+<text x="1316.9" y="150" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">2025</text>
+<line x1="1411.8" y1="150" x2="1411.8" y2="760" stroke="#e3e8ee" stroke-width="2" />
+<text x="1505.1" y="150" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">2026</text>
+<line x1="1600.0" y1="150" x2="1600.0" y2="760" stroke="#e3e8ee" stroke-width="2" />
+<text x="54" y="212" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">Release 1</text>
+<text x="54" y="238" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">우편·특송 항공: 적재 전 최소 자료</text>
+<rect x="507.6" y="198" width="103.1" height="30" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="6" />
+<text x="622.8" y="220" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">2021. 3. 15. → 10. 1.</text>
+<text x="54" y="292" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">Release 2</text>
+<text x="54" y="318" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">모든 항공 화물: 최소 자료 + 전체 ENS</text>
+<rect x="876.9" y="278" width="110.9" height="30" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="0" rx="6" />
+<text x="999.8" y="300" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">2023. 3. 1. → 10. 2.</text>
+<text x="54" y="372" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">Release 3 · 1단계</text>
+<text x="54" y="398" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">해상·내륙수로 운송인</text>
+<rect x="1114.2" y="358" width="94.9" height="30" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="6" />
+<text x="1221.1" y="380" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">2024. 6. 3. → 12. 4.</text>
+<text x="54" y="452" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">Release 3 · 2단계</text>
+<text x="54" y="478" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">해상 House 신고인(포워더·NVOCC 등)</text>
+<rect x="1209.1" y="438" width="60.9" height="30" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="6" />
+<text x="1197.1" y="460" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">2024. 12. 4. → 2025. 4. 1.</text>
+<text x="54" y="532" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">Release 3 · 3단계</text>
+<text x="54" y="558" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">도로·철도 운송인</text>
+<rect x="1269.9" y="518" width="78.9" height="30" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="0" rx="6" />
+<text x="1257.9" y="540" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">2025. 4. 1. → 9. 1.</text>
+<text x="54" y="612" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">유예(결정 2025/2577)</text>
+<text x="54" y="638" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">IE·EL·ES·FR·IT·LT·HU·FI·북아일랜드 도로·철도</text>
+<rect x="1348.8" y="598" width="62.4" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="6" />
+<text x="1336.8" y="620" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">2025. 9. 1. → 12. 31. (ICS1 허용)</text>
+<text x="54" y="692" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">유예(결정 2025/2591)</text>
+<text x="54" y="718" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="start">BG·HR·LV·PL·RO·SK 도로·철도</text>
+<rect x="1348.8" y="678" width="140.3" height="30" fill="#e4572e" stroke="#e4572e" stroke-width="0" rx="6" />
+<text x="1336.8" y="700" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">→ 2026. 5. 31. (우편물은 2025. 12. 31.)</text>
+<line x1="1489.6" y1="170" x2="1489.6" y2="744" stroke="#d9482b" stroke-width="3" stroke-dasharray="7 5"/>
+<text x="1481.6" y="764" font-size="17" font-weight="800" fill="#d9482b" text-anchor="end">2026. 6. 1.</text>
+<text x="1481.6" y="786" font-size="17" font-weight="700" fill="#d9482b" text-anchor="end">모든 운송 수단 ICS2</text>
+<line x1="1522.1" y1="170" x2="1522.1" y2="794" stroke="#1f6fd1" stroke-width="3" stroke-dasharray="7 5"/>
+<text x="1514.1" y="814" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="end">2026. 8. 3.</text>
+<text x="1514.1" y="836" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="end">금지어 개정 목록</text>
+<line x1="1566.0" y1="170" x2="1566.0" y2="844" stroke="#1d2a3a" stroke-width="3" stroke-dasharray="7 5"/>
+<text x="1558.0" y="864" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="end">2026. 10. 27.</text>
+<text x="1558.0" y="886" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="end">현재</text>
+<text x="54" y="800" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">2026. 6. 1.부터 EU로 들어오는 모든 화물은</text>
+<text x="54" y="826" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">ICS2에 직접 내거나(연결을 고른 나라는 NCTS 6단계</text>
+<text x="54" y="852" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">통과운송 신고에 묶어) 유효한 ENS가 있어야 함</text>
+<text x="54" y="884" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">출처: 결정 2023/2879, 2025/2577, 2025/2591, DG TAXUD 공지(2026. 6. 1., 2026. 7. 1.)</text>
+</svg>

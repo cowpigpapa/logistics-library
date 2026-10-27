@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="lp-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="lp-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="24" width="1624" height="893" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="60" y="78" font-size="30" font-weight="800" fill="#1d2a3a">House B/L 수입 화물: 포워더의 지렛대는 House D/O</text>
+<text x="60" y="114" font-size="19" font-weight="600" fill="#5f6b78">화물이 보세창고에 있어도 D/O로 출고를 통제하는 동안은 운송 쪽의 지배 아래 있다고 봅니다(대법원 91다4249, 2001다33918)</text>
+
+<!-- four actors -->
+<g>
+<rect x="60" y="150" width="330" height="150" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="225" y="196" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="middle">선사</text>
+<text x="225" y="232" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">Master B/L 운송인</text>
+<text x="225" y="266" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">수하인: 도착지 포워더</text>
+</g>
+<g>
+<rect x="470" y="150" width="330" height="150" fill="#eef4fc" stroke="#1f6fd1" stroke-width="3" rx="12"/>
+<text x="635" y="196" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="middle">도착지 포워더</text>
+<text x="635" y="232" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">House B/L 발행인 또는</text>
+<text x="635" y="266" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">그 이행보조자</text>
+</g>
+<g>
+<rect x="880" y="150" width="330" height="150" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="1045" y="196" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="middle">보세창고·CFS</text>
+<text x="1045" y="232" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">화물을 실제로 보관</text>
+<text x="1045" y="266" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">(운송 쪽의 수치인)</text>
+</g>
+<g>
+<rect x="1290" y="150" width="322" height="150" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="1451" y="196" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="middle">수입자</text>
+<text x="1451" y="232" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">House B/L 소지인</text>
+<text x="1451" y="266" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">수입신고 후 반출</text>
+</g>
+<!-- arrows with document labels -->
+<line x1="390" y1="225" x2="464" y2="225" stroke="#1d2a3a" stroke-width="3" marker-end="url(#lp-ink)"/>
+<text x="427" y="212" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">Master</text>
+<text x="427" y="252" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">D/O</text>
+<line x1="800" y1="225" x2="874" y2="225" stroke="#1f6fd1" stroke-width="3" marker-end="url(#lp-blue)"/>
+<text x="837" y="212" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">출고</text>
+<text x="837" y="252" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">통제</text>
+<line x1="1210" y1="225" x2="1284" y2="225" stroke="#1f6fd1" stroke-width="3" marker-end="url(#lp-blue)"/>
+<text x="1247" y="212" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">House</text>
+<text x="1247" y="252" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">D/O</text>
+
+<!-- notes under each -->
+<rect x="60" y="322" width="330" height="214" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="80" y="358" font-size="19" font-weight="800" fill="#1d2a3a">선사가 잡는 것</text>
+<text x="80" y="392" font-size="18" font-weight="600" fill="#1d2a3a">Master 운임·부수비용이</text>
+<text x="80" y="420" font-size="18" font-weight="600" fill="#1d2a3a">밀리면 Master D/O를</text>
+<text x="80" y="448" font-size="18" font-weight="600" fill="#1d2a3a">내주지 않습니다</text>
+<text x="80" y="476" font-size="18" font-weight="600" fill="#1d2a3a">(상법 제807조 제2항)</text>
+<text x="80" y="512" font-size="17" font-weight="600" fill="#5f6b78">포워더의 미지급이 화주 화물을 묶음</text>
+
+<rect x="470" y="322" width="330" height="214" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="490" y="358" font-size="19" font-weight="800" fill="#1f6fd1">포워더가 잡는 것</text>
+<text x="490" y="392" font-size="18" font-weight="600" fill="#1d2a3a">이 화물의 운임·로컬 차지·</text>
+<text x="490" y="420" font-size="18" font-weight="600" fill="#1d2a3a">체당금이 정산될 때까지</text>
+<text x="490" y="448" font-size="18" font-weight="600" fill="#1d2a3a">House D/O를 내주지 않음</text>
+<text x="490" y="476" font-size="18" font-weight="600" fill="#1d2a3a">(상법 제120조·제807조)</text>
+<text x="490" y="512" font-size="17" font-weight="600" fill="#5f6b78">창고에 출고 보류를 서면으로 알림</text>
+
+<rect x="880" y="322" width="330" height="214" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="900" y="358" font-size="19" font-weight="800" fill="#1d2a3a">창고가 지켜야 할 것</text>
+<text x="900" y="392" font-size="18" font-weight="600" fill="#1d2a3a">D/O나 운송 쪽 동의 없이</text>
+<text x="900" y="420" font-size="18" font-weight="600" fill="#1d2a3a">내주면 B/L 소지인에게</text>
+<text x="900" y="448" font-size="18" font-weight="600" fill="#1d2a3a">불법행위 책임</text>
+<text x="900" y="476" font-size="18" font-weight="600" fill="#1d2a3a">(대법원 2001다33918)</text>
+<text x="900" y="512" font-size="17" font-weight="600" fill="#5f6b78">관세법은 D/O를 요구하지 않음</text>
+
+<rect x="1290" y="322" width="322" height="214" fill="#ffffff" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="1310" y="358" font-size="19" font-weight="800" fill="#1d2a3a">수입자가 할 수 있는 것</text>
+<text x="1310" y="392" font-size="18" font-weight="600" fill="#1d2a3a">금액을 다투면 상당한</text>
+<text x="1310" y="420" font-size="18" font-weight="600" fill="#1d2a3a">담보를 내고 유치권</text>
+<text x="1310" y="448" font-size="18" font-weight="600" fill="#1d2a3a">소멸을 청구</text>
+<text x="1310" y="476" font-size="18" font-weight="600" fill="#1d2a3a">(민법 제327조)</text>
+<text x="1310" y="512" font-size="17" font-weight="600" fill="#5f6b78">보관료는 그동안 계속 쌓임</text>
+
+<!-- timeline -->
+<text x="60" y="590" font-size="22" font-weight="800" fill="#1d2a3a">포워더 유치권이 살아 있는 구간</text>
+<line x1="80" y1="660" x2="1590" y2="660" stroke="#c9d2dc" stroke-width="6" stroke-linecap="round"/>
+<rect x="250" y="646" width="880" height="28" fill="#1f6fd1" opacity="0.85" rx="6"/>
+<text x="690" y="667" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">점유 유지: Master D/O 확보 ~ House D/O 발행 전</text>
+<rect x="1130" y="646" width="460" height="28" fill="#d9482b" opacity="0.85" rx="6"/>
+<text x="1360" y="667" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">점유 상실: 유치권 소멸(민법 제328조)</text>
+<circle cx="120" cy="660" r="10" fill="#1d2a3a"/>
+<text x="120" y="710" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">양하·반입</text>
+<circle cx="250" cy="660" r="10" fill="#1f6fd1"/>
+<text x="250" y="710" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">Master D/O 확보</text>
+<circle cx="1130" cy="660" r="10" fill="#d9482b"/>
+<text x="1130" y="710" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">House D/O 발행·반출</text>
+
+<rect x="60" y="742" width="1552" height="146" fill="#fff7f2" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="84" y="780" font-size="20" font-weight="800" fill="#e4572e">지렛대가 없는 경우</text>
+<text x="84" y="816" font-size="18" font-weight="600" fill="#1d2a3a">· Master B/L 수하인이 수입자이거나 선사가 수입자에게 바로 D/O를 내주는 구조, 수입자가 이미 컨테이너를 반출한 뒤(Detention 구간)</text>
+<text x="84" y="848" font-size="18" font-weight="600" fill="#1d2a3a">· 채무자인 수입자가 화물을 직접 점유하는 상태(대법원 2007다27236), 은행이 House B/L을 가진 화물에 다른 건 미수를 걸 때(상법 제58조)</text>
+<text x="84" y="876" font-size="17" font-weight="600" fill="#5f6b78">해상운송인의 경매권은 인도 후 30일, 제3자가 점유하기 전까지 남지만(상법 제808조 제2항) 화물을 붙잡는 힘은 아닙니다.</text>
+</svg>

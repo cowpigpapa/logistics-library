@@ -1,0 +1,206 @@
+[
+ {
+  "file": "images/cu/cu-eu-ics2-timeline.svg",
+  "claim": "결정 2025/2591 유예 막대: '→ 2026. 5. 31. (BG·우편물은 2025. 12. 31.)' — 불가리아만 2025. 12. 31.에 끝나는 것처럼 읽힘",
+  "verdict": "wrong",
+  "evidence": "https://eur-lex.europa.eu/eli/dec_impl/2025/2591/oj Art 4: 'This decision shall apply from 1 September 2025 until 31 May 2026 for the consignments referred to in Article 1(a) [road and rail consignments]. However, as regards the consignments referred to in Article 1(b) [postal consignments], it shall apply from 1 September 2025 until 31 December 2025.' 불가리아만 따로 다루는 조항은 없음(6개국 같은 기한). 본문 2절은 '우편물은 2025년 12월 31일까지'로 바르게 씀.",
+  "old": "→ 2026. 5. 31. (BG·우편물은 2025. 12. 31.)",
+  "fix": "→ 2026. 5. 31. (우편물은 2025. 12. 31.)"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "배가 EU 항구 여러 곳에 들르면 첫 EU 항구 세관이 그 배의 모든 화물을 위험 분석하고 그 뒤 항구에서 추가 분석할 수 있다",
+  "verdict": "unclear",
+  "evidence": "EUR-Lex/Cellar 02015R2447 consolidated 01.07.2026 — 이 문장은 이행규정 제187조 제4항(a)('for all the goods carried by the vessel or aircraft concerned, an entry summary declaration shall be lodged at the first Union port or airport ... Additional risk analyses may be carried out for those goods at the port or airport at which they are discharged')의 내용인데, 제187조는 'Transitional rules for risk analysis ... until the dates ... for deployment of the electronic system referred to in Article 182(1)'으로 ICS1 시절 경과 규정임. ICS2 아래 근거는 제186조 제2항(첫 입국 세관이 ENS에 적힌 회원국과 위험 정보를 가진 회원국 세관의 분석 결과를 받아 위험 분석을 끝냄)과 제7항(가장 적절한 검사 장소·조치 추천).",
+  "old": "배가 EU 항구 여러 곳에 들르면 첫 EU 항구 세관이 그 배의 모든 화물을 위험 분석하고, 그 뒤 항구에서 추가 분석할 수 있습니다.",
+  "fix": "첫 입국 세관은 ENS에 적힌 다른 회원국 세관의 위험 분석 결과까지 받아 위험 분석을 끝내고(이행규정 제186조 제2항), 화물을 내릴 다른 항구의 세관을 검사 장소로 추천할 수 있습니다(제186조 제7항)."
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "결정 2025/2591이 6개국에 'ICS1이나 통과운송 신고(NCTS)와 묶은 신고'를 허용",
+  "verdict": "unclear",
+  "evidence": "https://eur-lex.europa.eu/eli/dec_impl/2025/2591/oj — 제목 'derogation ... instead of component 2, phase 6, of the New Computerised Transit System'; Art 2(2) 'using either the Import Control System 1 (ICS1) or, where applicable ..., ICS1 in combination with the transit declaration in NCTS Phase 5'; 전문 (9) 'While all the Member States have successfully deployed ICS2 on time, these specific circumstances have prevented certain Member States from effectively developing the interconnection between NCTSP6 and ICS2 Release 3'. 국가·날짜는 맞지만 유예 이유(NCTS 6단계–ICS2 연결 지연)와 묶는 상대(NCTS 5단계)가 빠져 부정확함.",
+  "old": "결정 (EU) 2025/2591은 불가리아·크로아티아·라트비아·폴란드·루마니아·슬로바키아에 대해 도로·철도 화물은 2026년 5월 31일까지(우편물은 2025년 12월 31일까지) ICS1이나 통과운송 신고(NCTS)와 묶은 신고를 허용했습니다.",
+  "fix": "결정 (EU) 2025/2591은 NCTS 6단계와 ICS2의 연결이 늦어진 불가리아·크로아티아·라트비아·폴란드·루마니아·슬로바키아에 대해 도로·철도 화물은 2026년 5월 31일까지(우편물은 2025년 12월 31일까지) ICS1으로, 또는 ICS1과 NCTS 5단계 통과운송 신고를 묶어 안전·보안 자료를 낼 수 있게 했습니다."
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "알릴 의무·신원 기재 의무 적용 시기 근거 '(제184조 제3항~제7항)'",
+  "verdict": "unclear",
+  "evidence": "EUR-Lex/Cellar 02015R2447 consolidated 01.07.2026 Art 184: 해상은 제1항·제2항('From the date ... for deployment of release 3 ... in the cases referred to in Article 112(1)'), 항공은 제3항·제4항(release 2), 우편·특송은 제5항, 철도는 제6항·제7항(release 3). 문장이 해상도 말하므로 인용은 제1항부터여야 함.",
+  "old": "철도는 Release 3부터 적용됩니다(제184조 제3항~제7항).",
+  "fix": "철도는 Release 3부터 적용됩니다(제184조 제1항~제4항, 제6항·제7항)."
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "도입부: '해상 컨테이너는 한국에서 배에 싣기 24시간 전'",
+  "verdict": "unclear",
+  "evidence": "EUR-Lex/Cellar 02015R2446 consolidated 01.07.2026 Art 105(a): 'at the latest 24 hours before the goods are loaded onto the vessel on which they are to be brought into the customs territory of the Union'. 문서 1절은 환적 화물이면 EU로 들어갈 배에 싣는 때가 기준이라고 설명하므로 도입부가 본문과 어긋남(직항이면 결과 같음).",
+  "old": "해상 컨테이너는 한국에서 배에 싣기 24시간 전,",
+  "fix": "해상 컨테이너는 EU로 들어갈 배에 싣기 24시간 전(부산에서 바로 가는 배면 부산 적재 24시간 전),"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "6절: 도로 동반 운송은 운송사가 F50 한 건으로 내야 한다(일반 사실로 단정)",
+  "verdict": "unclear",
+  "evidence": "https://www.revenue.ie/ga/customs/documents/ics2-release-3.pdf : 'Multiple filing is not currently facilitated for Road (RoRo accompanied). Expected to be introduced in 2026.' 근거는 2025년 아일랜드 안내 하나이고 2026년 도입 예정이라 했으므로 2026년 10월 기준 단정은 확인되지 않음. 2절은 '아일랜드 세관은 2025년 안내에서'로 조심스럽게 썼으니 6절·9절도 맞춰야 함.",
+  "old": "도로는 동반 운송에서 운송사가 F50 한 건으로 내야 하므로 모든 자료를 운송사에 넘깁니다.",
+  "fix": "도로 동반 운송은 아일랜드 세관 2025년 안내 기준으로 다중 신고가 안 되어 운송사가 F50 한 건으로 내야 했으므로, 모든 자료를 운송사에 넘기고 다중 신고가 열렸는지는 운송사와 첫 입국 세관 안내로 확인합니다."
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "9절 운송인 점검표: 도로 동반 운송은 운송사가 F50 한 건으로 모든 자료를 내야 한다(단정)",
+  "verdict": "unclear",
+  "evidence": "위 항목과 같은 근거(revenue.ie 2025 안내 'Expected to be introduced in 2026').",
+  "old": "도로 동반 운송은 운송사가 F50 한 건으로 모든 자료를 내야 하므로 출발 전에 화주·포워더 자료를 모두 받는다.",
+  "fix": "도로 동반 운송에서 다중 신고가 안 되는 나라라면 운송사가 F50 한 건으로 모든 자료를 내야 하므로 출발 전에 화주·포워더 자료를 모두 받는다."
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "6절: 철도는 운송장 아래 포워더가 있으면 해상과 같은 방식의 부분 신고가 된다(NCTS 결합 신고 예외 누락)",
+  "verdict": "unclear",
+  "evidence": "DG TAXUD 'Release 3: Prepare your business for sending goods to or via the EU by rail'(op.europa.eu c0cd060f-1e30-11ef-a251-01aa75ed71a1): 'Only a full ENS data set can be filed with the transit declaration in NCTS, and multiple filling cannot be used.' ICS2 누리집도 도로·철도는 opt-in 국가에서 NCTS 6단계 결합 신고로 ENS를 낼 수 있다고 함. 폴란드 등 유라시아 철도 입국국이 opt-in 국가(결정 2025/2591 전문 (5))라 한국 포워더에게 중요한 예외.",
+  "old": "철도는 철도 운송인이 F51을 내고, 운송장 아래 포워더가 따로 있으면 해상과 같은 방식의 부분 신고가 됩니다(위임규정 제112a조).",
+  "fix": "철도는 철도 운송인이 F51을 내고, 운송장 아래 포워더가 따로 있으면 해상과 같은 방식의 부분 신고가 됩니다(위임규정 제112a조). 다만 NCTS 6단계 통과운송 신고에 ENS를 묶어 내는 나라에서는 전체 자료 한 건만 낼 수 있고 다중 신고는 쓸 수 없습니다(DG TAXUD 철도 자료표)."
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "용어: 문서 첫 NVOCC 표기",
+  "verdict": "unclear",
+  "evidence": "D:/Desktop/AI Project/LogisticsLibrary/tools/STYLE.md 134행 표준 표기 '무선박운송인(NVOCC)'. 이 문서는 첫 등장(2절 시행 순서 표)부터 NVOCC만 씀. cu-us-filing은 첫 등장에 '무선박운송인(NVOCC)'.",
+  "old": "House 단계 신고인(포워더, NVOCC, EU 수하인 등)",
+  "fix": "House 단계 신고인(포워더, 무선박운송인(NVOCC), EU 수하인 등)"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "용어: '중국횡단철도(TCR)'",
+  "verdict": "unclear",
+  "evidence": "사이트에서 TCR은 IATA 온도관리규정(Temperature Control Regulations)의 약어로 쓰임(STYLE.md 항공 항목, tc-basics·uld-buildup·uld-safety·ins-uninsurable). 같은 약어를 다른 뜻으로 쓰면 검색·용어집에서 헷갈림.",
+  "old": "중국횡단철도(TCR) 같은 유라시아 철도로",
+  "fix": "중국횡단철도 같은 유라시아 철도로"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 1 제목의 '벌크선'",
+  "verdict": "unclear",
+  "evidence": "https://www.agi.it/cronaca/news/2026-01-17/gdf-sequestra-nave-brindisi-sanzioni-russia-35133448/ : 'una nave ... e il relativo carico di 33.000 tonnellate di materiale ferroso', 'motonave'; DG TAXUD 보도자료: 'A merchant vessel and its entire cargo'. 선종(벌크선)은 두 출처 모두 밝히지 않음(물량으로 보아 개연성은 높음).",
+  "old": "브린디시 철 소재 벌크선 압수",
+  "fix": "브린디시 철 소재 33,000톤 화물선 압수"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 1 구분: 해상(벌크선)",
+  "verdict": "unclear",
+  "evidence": "위와 같음(선종 미공개).",
+  "old": "해상(벌크선)",
+  "fix": "해상(화물선, 선종 미공개)"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "해상 컨테이너 24시간 전, 벌크·브레이크벌크 4시간 전, 단거리 2시간 전(그린란드·페로·아이슬란드·발트해·북해·흑해·지중해·모로코·영국 본토·채널 제도·맨섬)",
+  "verdict": "correct",
+  "evidence": "EUR-Lex/Cellar 02015R2446 consolidated 01.07.2026 Art 105(a)-(c): '(iv) ports on the Baltic Sea, the North Sea, the Black Sea and the Mediterranean Sea; (v) all ports of Morocco; (vi) ports of the United Kingdom ... with the exception of ports located in Northern Ireland, and ports of the Channel Islands and the Isle of Man'"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "항공 전체 자료 도착 4시간 전(4시간 미만 비행은 출발 때), PLACI 탑재 전; 철도 1/2시간, 도로 1시간, 내륙수로 2시간, 복합은 능동 운송 수단 기한, 불가항력 제외",
+  "verdict": "correct",
+  "evidence": "EUR-Lex/Cellar 02015R2446 consolidated 01.07.2026 Art 106(1),(2),(2a), 107-111 원문 일치"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "House B/L 발행인이 자료를 주지 않으면 직접 첫 입국 세관에 제출, 최하위 House B/L 수하인도 같음; 항공 AWB 같은 원칙; 각자 낸 자료에 각자 책임",
+  "verdict": "correct",
+  "evidence": "EUR-Lex/Cellar 02015R2446 consolidated 01.07.2026 Art 112(1), 112a(1), 113(1), 113a(1) 'Each person submitting the particulars ... shall be responsible for the particulars that he/she has submitted'"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "EU 밖 업체도 ENS 제출 전 EORI 등록(위임규정 제5조 제1항(b)), 처음 신고하는 곳 세관에 등록(UCC 제9조 제2항)",
+  "verdict": "correct",
+  "evidence": "EUR-Lex/Cellar 02015R2446 consolidated 01.07.2026 Art 5(1)(b) 'lodging an exit or entry summary declaration in the customs territory of the Union'; Art 5(6); UCC Art 9(2)"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "위임규정 제182조~제188조는 ICS2와 무관(동물 신분, 보충신고 면제, 통과운송 등)",
+  "verdict": "correct",
+  "evidence": "EUR-Lex/Cellar 02015R2446 consolidated 01.07.2026 Art 182 'Customs status of animals born of animals placed under a special procedure', 183 'Waiver from the obligation to lodge a supplementary declaration', 184-187 transit/TIR, 188 'Special fiscal territories'"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "RFI·HRCM(2015/1998 부속서 6.7)·DNL, 해상 컨테이너 DNL은 ENS 접수 후 늦어도 24시간 안 통지, 정정 시 재분석·24시간 기한 유지, 정정·무효는 자기 부분만, MRN 통지, 183(2) 첫 입국 세관 결정",
+  "verdict": "correct",
+  "evidence": "EUR-Lex/Cellar 02015R2447 consolidated 01.07.2026 Art 186(1),(3),(4),(5) '... at the latest within 24 hours of the receipt of the entry summary declaration ...', 186(10), 188(1) 'each of those persons shall only be permitted to request the amendment or invalidation of the particulars that he/she submitted'; 183(2); 184(1)(2); 185(1)"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "UCC 제127조 제1·2(a)·4·5·6항, 제129조(정정 제한 3가지, 200일 무효), 제42조(회원국 제재, 금전·허가 취소 등)",
+  "verdict": "correct",
+  "evidence": "publications.europa.eu/resource/celex/02013R0952-20221212 (UCC consolidated 12.12.2022) Art 127, 129(1)(2)(b) 'after 200 days have elapsed since the declaration was lodged', 42(1)(2)"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "부속서 B: 해상 F10~F15·도로·철도 HS 6단위 필수, 항공 F23·F24는 C, F22·F26 필수, 비상업 물품 면제; 매도인·매수인 F10·F11·F15·F16·F50·F51, FROB·EU 밖 목적지 환적 제외; 각주 [47]·[49]; 최하위 House 송하인·수하인 제외 당사자; 포장 수·총중량 정의; 일반 품명 불가·목록 공표",
+  "verdict": "correct",
+  "evidence": "EUR-Lex/Cellar 02015R2446 consolidated 01.07.2026 Annex B Title I 각주 [9] 'shall not be provided in respect of cargo remaining on board (FROB) or transhipped cargo for which the destination is located outside the Customs territory of the Union', [47] 'Where an EORI number or third country unique identification number (TCUIN) was assigned, it shall be declared', [49]; Title II 13 02/13 03 'must be different from the carrier, freight forwarder, consolidator, postal operator, or customs agent', 13 08/13 09, 18 04, 18 05, 18 06 004, 18 09 notes; 표 F23·F24 = C for 18 09 056 000; 'C Optional for economic operators'"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "Release 1 2021.3.15→10.1, Release 2 2023.3.1→10.2(2023/438로 일부 회원국 2023.6.30), Release 3 단계 2024.6.3→12.4, 2024.12.4→2025.4.1, 2025.4.1→9.1",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/dec_impl/2023/2879/oj Annex Part II item 17 + 각주 (12) 'Until 30 June 2023 regarding the Member States to which Commission Implementing Decision (EU) 2023/438 is addressed'"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "결정 2025/2577: IE·EL·ES·FR·IT·LT·HU·FI·북아일랜드, 2025.9.1~12.31 ICS1",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/eli/dec_impl/2025/2577/oj Art 1(1)(2) 'shall use the Import Control System 1 (ICS1)', Art 2 'shall apply from 1 September 2025 until 31 December 2025'; 전문 (6)~(8) 도로·철도 3단계 지연"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "2026.6.1부터 모든 운송 수단 화물은 ICS2 직접 또는 opt-in 국가에서 NCTS 6단계 결합 신고로 유효한 ENS 필요; 같은 날 보도자료 '모든 운송 수단 완전 가동'",
+  "verdict": "correct",
+  "evidence": "https://taxation-customs.ec.europa.eu/customs-4/customs-security/import-control-system-2-ics2-0_en (Latest News 01 Jun 2026, 2026-10-27 직접 확인): 'All consignments that enter the EU territory by any means of transport as of 1 June 2026 should have a valid ENS that is submitted either directly to ICS2 or filed in the combined transit declaration through the NCTS Phase 6 in opt-in countries.'; 보도자료 'fully operational across all modes of transport'"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "품명 금지어: 처음 목록(2025 봄), xxx·Vegan 2025.8.1, Item·Miscellaneous·N/A 등 2026.2.2, SLAC 계열 2026.5.4, GENCA·General items 2026.8.3; 당사자 칸 금지어; 단·복수 구분 없음; 모든 ICS2 국가·신고 유형",
+  "verdict": "correct",
+  "evidence": "CIRCABC 'Introduction of Stop Words/Phrases in the Common Repository'(2026.8.3 시행본, ICS2 누리집 2026.7.1 공지): 'applied for all ICS2 countries and all filing types', 'Singular and plural forms are used interchangeably', 'GENCA 03.08.2026', 'General items 03.08.2026', 'SLAC 04.05.2026', 'Vegan 01.08.2025', 'Initial list: Refers to the first words/phrases added in Spring 2025'. ('Samples'는 목록에 'Sample'로 있으나 단·복수 같은 취급이라 문제없음)"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "아일랜드: 금지어 있으면 오류 코드 100 반려, EU 밖 업체는 EU EORI 필요; 포르투갈: 금지어 단독 사용 시 자동 반려 가능",
+  "verdict": "correct",
+  "evidence": "revenue.ie ICS2 Release 3 PDF 'the filing/amendment will be rejected with an error code 100 \"unsatisfactory data quality\"', 'Non-EU established traders will need to secure an EU EORI number'; portaldasfinancas 03-08-2026 'Se uma stop word for utilizada isoladamente como descrição da mercadoria, a declaração pode ser automaticamente rejeitada'"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "ICS2 FAQ: Master 운송 서류 1년 고유, House 권장, LRN 중복 IE3N99, 전화 '+' 뒤 7~15자리·'+' 뒤 공백 불가, UTC 'z' 또는 오프셋·CET 불가, ITSP는 송신자일 뿐",
+  "verdict": "correct",
+  "evidence": "https://taxation-customs.ec.europa.eu/customs-4/customs-security/import-control-system-2-ics2-0/faq_en : 'requirement for Transport document (master level) to be unique for at least 1 year', 'rejected with an IE3N99', ITU_E123_PATTERN '^\\+(?:[0-9] ?){6,14}[0-9]$', 'No local time zones or central European time should be used', 'the declarant/representative remains declarant/representative'"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "다중 신고 자료표: 순서 무관, 연결 키 3요소, F12에 House 신고인 EORI 적으면 책임 이전, 제재는 불이행 당사자; 핵심 요건 자료표(2026.3) 규칙",
+  "verdict": "correct",
+  "evidence": "op.europa.eu f0c54ba3-4e1b-11ef-acbc-01aa75ed71a1: 'can be submitted in any sequence', 'Carrier EORI number / Transport document (master level) reference number / Supplementary declarant EORI number', 'responsibility to file house level information is transferred to the house level filer', 'Sanctions might be imposed for non-compliance to the relevant carrier or house filer'; a5b5baa5-1dc1-11f1 'DO NOT USE unacceptable goods descriptions, including unknown or not available', 'SUBMIT amendments only when relevant data has changed (not for formatting or cosmetic corrections)'"
+ },
+ {
+  "file": "cases.html",
+  "claim": "브린디시: 오세아니아 소국 국기, 33,000톤 철 소재, 노보로시스크 2025.11.13~16, AIS 차단, gip 승인·Riesame 유지, 수입자·선주·선원 수사, 규정 833/2014; DG TAXUD는 ICS2 적재항으로 추가 조사가 이어졌다고 설명",
+  "verdict": "correct",
+  "evidence": "AGI 2026.1.17(직접 확인): 'battente bandiera di una piccola isola dell'Oceania', 'aveva sostato a Novorossijsk ... dal 13 al 16 novembre 2025', 'il sistema AIS ... era stato disattivato', 'convalidato dal gip di Brindisi e confermato dal Tribunale del Riesame'; DG TAXUD 2026.6.1 'further investigations due to the loading port indicated in the ICS2 data revealed inconsistencies and falsifications'"
+ },
+ {
+  "file": "cases.html",
+  "claim": "덴마크: ENS 부재로 주세 탈루 혐의 적발; 네덜란드: 독일과 ICS2 협력, 일회용 그릇 위장 담배 약 790만 개비, 프랑스 시장, 담배세 300만 유로 이상+VAT, 독일 약 350만 개비",
+  "verdict": "correct",
+  "evidence": "DG TAXUD 2026.6.1 보도자료(직접 확인): 'Danish customs uncovered a suspected alcohol duty evasion scheme triggered by the absence of an ICS2 Entry Summary Declaration'; 'almost 7.9 million untaxed cigarettes from a sea freight container. The cargo was disguised as disposable bowls ... intended for the French market ... over EUR 3 million in tobacco tax, plus the additional VAT evasion'; 'Germany intercepted roughly 3.5 million cigarettes'"
+ },
+ {
+  "file": "cu-eu-ics2.html",
+  "claim": "8절 미국·캐나다 비교(AMS·ISF 기한, ACAS 탑재 전, CBP 오류 548·2025.9.27, ISF USD 5,000, AMPS C378, CBSA carrier code, DNL/Hold/Do Not Unload)는 cu-us-filing과 일치; 사례 21~23번 링크 번호도 맞음",
+  "verdict": "correct",
+  "evidence": "D:/Desktop/AI Project/LogisticsLibrary/cu-docs/cu-us-filing.html 1절 표, 2절(오류 코드 548, 2025. 9. 27.), 6절(D3-5-1 제70항), 8절(113.62(j), C378) 대조. ac-docs/cu-cases.html은 현재 20건이라 새 사례가 21~23번"
+ }
+]

@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/bl-awb';
-  const DOCS_VERSION = '20261027-05';
+  const DOCS_VERSION = '20261027-10';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -35,9 +35,10 @@
     { id: 'bl-basics', tag: "B/L", level: 3, title: "B/L 기초 — 세 기능, 종류, 기재사항, House B/L과 AWB 비교", short: "B/L 기초", summary: "선하증권의 세 기능(운송계약 증거·화물 수령증·권리증권), 기명식·지시식·소지인식과 배서, 선적·수취, Clean·Foul, 통 B/L·복합운송 B/L, 상법 제853조 기재사항, 원본 3통의 의미(제857조), Master·House B/L 구조, 운임 표시와 부지 약관을 포워더 입장에서 정리하고, 인도 조건·처분권·신용장·책임 한도까지 B/L과 AWB를 한 표로 비교합니다." },
     { id: 'awb-basics', tag: "AWB", level: 3, title: "AWB 기초 — 비유통 운송장, 원본 3부, 처분권, 번호 체계, e-AWB와 ONE Record", short: "AWB 기초", summary: "AWB가 권리증권이 아닌 이유, 원본 3부와 송하인 처분권, IATA 양식과 11자리 번호, Master·House AWB, e-AWB와 ONE Record, 신용장 거래의 은행 수하인과 UCP 600 제23조를 정리합니다." },
     { id: 'bl-release', tag: "인도", level: 3, title: "화물 인도 실무 — 원본 B/L, 서렌더, Sea Waybill, 보증도", short: "화물 인도 실무", summary: "원본 B/L 회수 인도와 상법 제857조~제861조, 서렌더(Telex Release)의 실무와 주의점, Sea Waybill의 성격(상법 제863조·제864조, CMI 규칙)과 인도, 수입화물선취보증서(L/G)·LOI 보증도의 위험, 기명식 B/L, 원본 분실 시 공시최고, D/O와 반출, 항공화물 도착 통지와 은행 수하인 화물 인도를 정리합니다." },
+    { id: 'bl-lien', checked: '2026-10-27', tag: "유치권", level: 3, title: "운임을 못 받았을 때 화물을 잡을 수 있나 — 포워더·운송인의 유치권, 상사유치권, 보세화물 점유, 체화 공매", short: "운임 미수와 유치권", summary: "상법 제120조·제807조의 운송주선인·운송인 유치권과 민법·상사유치권의 차이, 다른 건 미수로 잡을 수 있는 조건, 보세창고 화물의 점유와 D/O, 해외 파트너 미수금, 체화 공매에서 유치권자의 권리와 폐기 비용, FBL·선사·BIFA 약관의 lien 조항, 미국·영국의 lien, 잘못 잡았을 때의 책임과 실무 절차를 판례와 함께 정리합니다." },
     { id: 'bl-special', tag: "특수", level: 3, title: "특수 B/L과 전자화 — Switch·분할 B/L, 선적일 소급, 전자선하증권(eBL)", short: "특수 B/L과 전자화", summary: "Switch·분할·통합 B/L의 정상 절차와 P&I 권고, 선적일 소급과 LOI를 받은 무사고 B/L의 결과, 상법 제862조와 KTNET 등록, MLETR·영국 ETDA 2023, DCSA 2030 약속, IG 승인 eBL을 정리합니다." },
     { id: 'bl-multimodal', checked: '2026-10-18', tag: "복합운송", level: 3, title: "복합운송과 책임 구간 — 손해 구간을 알 때와 모를 때", short: "복합운송과 책임 구간", summary: "문 앞까지 맡은 포워더가 복합운송인이 되는 경우, 네트워크·단일 책임제, 손해 구간을 알 때와 모를 때 상법 제816조와 FBL 약관의 답, 구간에 따라 바뀌는 기한, 경로별 가상 예시를 정리합니다." },
-    { id: 'bl-cmr', checked: '2026-10-26', tag: "CMR", level: 3, title: "CMR 운송장과 유럽 트럭 운송 — 적용 범위, 운송장과 처분권, kg당 8.33 SDR, 기한, 포워더의 지위", short: "CMR과 유럽 트럭 운송", summary: "국경을 넘는 유럽 트럭 운송에 강행 적용되는 CMR의 적용 범위와 당사국, 운송장 3통·유보·처분권, e-CMR, 운송인 면책과 kg당 8.33 SDR 한도 계산, 고의의 기준, 7일·21일·1년 기한과 관할, 연속 운송인, 포워더가 운송인이 되는 경우를 정리합니다." },
+    { id: 'bl-cmr', checked: '2026-10-26', tag: "CMR", level: 3, title: "CMR 운송장과 유럽 트럭 운송 — 적용 범위, 운송장과 처분권, kg당 8.33 SDR, 기한, 포워더의 지위", short: "CMR과 유럽 트럭 운송", summary: "국경을 넘는 유럽 트럭 운송에 강행 적용되는 CMR의 적용 범위와 당사국, 운송장 3통·유보·처분권, e-CMR, 운송인 면책과 kg당 8.33 SDR 한도 계산, 고의의 기준, 7일·21일·1년 기한과 관할, 연속 운송인, 포워더가 운송인이 되는 경우를 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -50,10 +51,11 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "B/L·AWB 기초", sub: "B/L 기초(AWB 비교표 포함) · AWB 기초", docs: ["bl-basics", "awb-basics"] },
-    { title: "화물 인도와 특수 서류", sub: "화물 인도 실무 · 특수 B/L과 전자화 · 복합운송과 책임 구간 · 유럽 트럭 운송(CMR)", docs: ["bl-release", "bl-special", "bl-multimodal", "bl-cmr"] }
+    { title: "화물 인도와 특수 서류", sub: "화물 인도 실무 · 특수 B/L과 전자화 · 복합운송과 책임 구간 · 유럽 트럭 운송(CMR) · 운임 미수와 유치권", docs: ["bl-release", "bl-lien", "bl-special", "bl-multimodal", "bl-cmr"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
+    { name: "운임을 못 받았는데 화물을 잡아도 되나요", ids: ["bl-lien"] },
     { name: "B/L과 AWB는 뭐가 다른가요", ids: ["bl-basics", "awb-basics"] },
     { name: "신용장 거래인데 AWB 수하인은 누구로?", ids: ["awb-basics", "bl-release"] },
     { name: "서렌더 해 달라는데 뭘 하면 되나요", ids: ["bl-release"] },

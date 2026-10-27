@@ -1,6 +1,6 @@
 {
  "hub": "/library/accident-cases/ac-all",
- "total": 266,
+ "total": 274,
  "cats": {
   "incoterms-2020": {
    "label": "Incoterms",
@@ -18,14 +18,14 @@
   },
   "bl-awb": {
    "label": "B/L·AWB",
-   "count": 22,
+   "count": 27,
    "case_docs": [
     "bl-cases"
    ]
   },
   "customs": {
    "label": "통관",
-   "count": 20,
+   "count": 23,
    "case_docs": [
     "cu-cases"
    ]
