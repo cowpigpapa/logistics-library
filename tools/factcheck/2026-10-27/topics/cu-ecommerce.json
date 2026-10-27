@@ -1,0 +1,326 @@
+[
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "EU 3유로 잠정 관세의 적용 범위: 비IOSS 비우편 화물은 일반 관세율(11절 표 '그 밖의 화물' 행)",
+  "verdict": "unclear",
+  "evidence": "규정 2026/382 제2조는 (a) IOSS로 부가가치세가 면제되는 수입 (b) 우편 화물로 정하고 전문 제6항은 그 밖의 사업자에 CCT 적용이라 적음(EUR-Lex OJ L 2026/382). 그러나 DG TAXUD 안내(https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en, 2026. 7. 20. 갱신): \"All goods in consignments up to €150 sold in distance sales ... regardless of VAT scheme (IOSS, Special Arrangements, or standard VAT)\". Access2Markets(https://trade.ec.europa.eu/access-to-markets/en/news/eu-applies-eu3-customs-duty-item-low-value-e-commerce-consignments, 2026. 6. 30.): \"regardless of the VAT regime used (IOSS, Special Arrangements or standard import VAT)\", 신고 유형 H1·H6·H7 무관, 시행규정 (EU) 2026/1200 인용. 집행위원회 실무 안내와 문서 서술이 충돌하므로 두 가지를 함께 적어야 함.",
+  "old": "<tr><td>그 밖의 화물</td><td>IOSS에 등록하지 않은 사업자의 비우편 화물은 공통관세율(Common Customs Tariff)의 일반 관세율 적용</td><td>규정 2026/382 전문 제6항</td></tr>",
+  "fix": "<tr><td>그 밖의 화물</td><td>규정 전문은 IOSS에 등록하지 않은 사업자의 비우편 화물에 공통관세율(Common Customs Tariff)의 일반 관세율이 계속 적용된다고 적었습니다. 그러나 집행위원회 안내는 150유로 이하 원격판매 화물이면 부가가치세 방식(IOSS, 특별 절차, 일반 수입 부가가치세)과 신고 유형(H1·H6·H7)에 관계없이 3유로를 적용한다고 설명합니다. 실제 처리는 수입국 세관 안내로 확인해야 합니다</td><td>규정 2026/382 전문 제6항, DG TAXUD 안내(2026. 6. 8.), 집행위원회 Access2Markets 안내(2026. 6. 30.)</td></tr>"
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "IOSS 없이 비우편으로 보내면 품목별 일반 관세율 적용(11절 본문)",
+  "verdict": "unclear",
+  "evidence": "위 항목과 같은 근거(DG TAXUD·Access2Markets: 부가가치세 방식과 관계없이 3유로 적용).",
+  "old": "IOSS로 신고하면 품목당 3유로 잠정 관세와 처리 수수료로 끝나지만, IOSS 없이 비우편으로 보내면 품목별 일반 관세율이 적용되고 수입 부가가치세도 수입 때 따로 내야 하므로, 판매 조건에 따라 받는 사람에게 청구될 수 있습니다.",
+  "fix": "IOSS로 신고하면 부가가치세는 판매 때 받았으므로 수입 때는 품목당 3유로 잠정 관세와 처리 수수료만 남습니다. IOSS 없이 보내면 수입 부가가치세를 수입 때 따로 내야 하고, 판매 조건에 따라 받는 사람에게 청구될 수 있습니다. 관세는 규정 전문이 IOSS가 아닌 비우편 화물에 일반 관세율을 적용한다고 적었지만, 집행위원회 안내는 이런 화물에도 3유로를 적용한다고 설명하므로 수입국 세관 안내로 확인해야 합니다."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "핵심 3줄 ③: 3유로는 IOSS·우편 화물에",
+  "verdict": "unclear",
+  "evidence": "위 항목과 같은 근거.",
+  "old": "IOSS·우편 화물에 품목당 3유로의 잠정 관세를 매기며",
+  "fix": "150유로 이하 원격판매 화물에 품목당 3유로의 잠정 관세를 매기며(규정 본문은 IOSS·우편 화물로 정했지만 집행위원회 안내는 부가가치세 방식과 관계없이 적용한다고 설명)"
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "시간축 그림 alt: IOSS·우편 3유로, 그 밖은 일반 관세율",
+  "verdict": "unclear",
+  "evidence": "위 항목과 같은 근거.",
+  "old": "IOSS·우편 화물 품목당 3유로 잠정 관세, 그 밖은 일반 관세율,",
+  "fix": "품목당 3유로 잠정 관세(규정 본문은 IOSS·우편 화물, 집행위원회 안내는 원격판매 화물 전체),"
+ },
+ {
+  "file": "images/cu/cu-ecommerce-us-eu-timeline.svg",
+  "claim": "시간축 그림 EU 막대 글자: IOSS·우편 3유로, 그 밖 일반 관세율",
+  "verdict": "unclear",
+  "evidence": "위 항목과 같은 근거. 막대 폭 747px, 15px 굵은 글씨로 40자 안팎이면 들어감(PNG로 다시 확인 필요).",
+  "old": "IOSS·우편: 품목당 3유로, 그 밖: 일반 관세율",
+  "fix": "품목당 3유로 (규정: IOSS·우편 / 집행위 안내: 원격판매 전체)"
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "목록통관 수출: 관세 환급 대상이면 목록통관 수출을 할 수 없다(8절)",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 수출 및 반송통관에 관한 고시(제2025-73호) 제55조 제1항: \"8. 환급대상이 아닌 물품가격 FOB 200만원 이하의 물품 ... 9. 법 제106조의2제1항제3호에 따른 환급대상 물품\". 제9호로 해외직구 자가사용물품 반품 환급 대상은 목록통관 수출이 가능하므로 단정은 틀림.",
+  "old": "관세 환급 대상이면 목록통관 수출을 할 수 없고(제55조 제1항 제8호는 \"환급대상이 아닌\" 물품만)",
+  "fix": "수출용 원재료 관세 환급 등을 받을 물품은 FOB 200만원 이하 목록통관 수출을 쓸 수 없고(제55조 제1항 제8호는 \"환급대상이 아닌\" 물품만. 해외직구 자가사용물품을 탁송품·우편물로 돌려보내 환급받는 관세법 제106조의2 제1항 제3호 물품은 같은 항 제9호로 목록통관 수출 가능)"
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "개인통관고유부호 갱신 신청은 만료일 전후 각 30일 안 — 근거 '부칙 제2조, 제9조'",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 통관고유부호 및 해외거래처부호 등록·관리에 관한 고시(제2026-21호) 제8조 제2항 제2호: \"갱신 ... (단, 갱신의 신청은 유효기간 만료일 전후 각각 30일 이내로 한다.)\". 제9조는 '해외거래처부호의 신청'.",
+  "old": "<td>같은 고시 부칙 제2조, 제9조</td>",
+  "fix": "<td>같은 고시 부칙(제2025-32호) 제2조, 제8조 제2항 제2호</td>"
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "5절 출처 줄의 통관고유부호 고시 조문 '제9조'",
+  "verdict": "wrong",
+  "evidence": "위 항목과 같은 근거(갱신 기간은 제8조 제2항, 제9조는 해외거래처부호).",
+  "old": "제2조·제9조·제13조·제16조, 별표 2",
+  "fix": "제2조·제8조·제13조·제16조, 별표 2"
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "협력인정업체 등록 2027. 1. 1. 시행 — 근거 '제10조·제15조, 부칙 제1조 제2항'",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 전자상거래물품의 특별통관에 관한 고시(제2026-51호) 부칙 제1조 제2항: \"제11조는 2027. 1. 1.부터 시행하고, 제12조는 2027. 7. 1.부터 시행한다. 다만 ... 2027. 1. 31.까지는 제15조제1항에 따라 요청하는 전자상거래업자에 대해 협력인정업체로 간주\". 등록 신청·심사는 제11조, 요건은 제10조, 'O' 부호 체계는 별표 1.",
+  "old": "<td>전자상거래 고시 제10조·제15조, 부칙 제1조 제2항</td>",
+  "fix": "<td>전자상거래 고시 제10조·제11조·제15조, 별표 1, 부칙 제1조 제2항</td>"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 7(새 번호 30) 교훈: 2026년부터 오픈마켓 입점 판매자도 등록해 주문 단위 거래정보를 내야 한다",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 전자상거래 고시 제4조 제3호(입점 판매자 = 등록 대상)이지만 제19조 제1항: \"관세청장은 ... 별표 3의 거래정보를 제4조제1호, 제2호 및 제4호에 해당하는 전자상거래업자에게 요청한다\". 입점 판매자(제3호)는 거래정보 요청 대상이 아니고 오픈마켓 운영자(판매 중개자)가 낸다.",
+  "old": "2026년부터 오픈마켓 입점 판매자도 전자상거래업자로 등록해 주문 단위 거래정보를 내야 하므로, 판매가와 신고가가 맞지 않으면 통관 단계에서 드러나기 쉬워졌습니다.",
+  "fix": "개정 전자상거래 고시는 오픈마켓 입점 판매자도 전자상거래업자 등록 대상으로 두고, 오픈마켓 운영자(판매 중개자)에게 주문 단위 거래정보를 요청하므로(제4조·제19조), 판매가와 신고가가 맞지 않으면 통관 단계에서 드러나기 쉬워졌습니다."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "FTA 특례법 시행령 제35조·시행규칙 제29조 인용문 \"미합중국으로부터 수입되는 특송물품으로서 200달러 이하\"",
+  "verdict": "unclear",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) FTA 특례법 시행령(대통령령 제36017호) 제35조: \"미합중국으로부터 수입되는 특송물품으로서 그 가격이 재정경제부령으로 정하는 금액 이하인 물품에 대해서는 ... 수입신고를 생략하게 할 수 있다\"; 시행규칙 제29조: \"미합중국 화폐 200달러\". 내용은 맞지만 따옴표 안 문장은 원문이 아닌 합성 인용.",
+  "old": "\"미합중국으로부터 수입되는 특송물품으로서 200달러 이하\"인 물품의 수입신고를 생략할 수 있게 한 데서 나옵니다",
+  "fix": "미합중국으로부터 수입되는 특송물품으로서 그 가격이 재정경제부령으로 정하는 금액(시행규칙 제29조의 미화 200달러) 이하인 물품의 수입신고를 생략할 수 있게 한 데서 나옵니다"
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "여러 고객의 물품을 한 House B/L로 묶으면 그 B/L은 합산과세 기준 1의 '하나의 B/L'이 된다(4절)",
+  "verdict": "unclear",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 수입통관 사무처리에 관한 고시 제68조 제1호: \"하나의 선하증권(B/L)이나 항공화물운송장(AWB)으로 반입된 과세대상물품을 면세범위 내로 분할하여 수입통관하는 경우\". 서로 다른 수신인(자가사용 주체)의 물품까지 합산하는지는 고시·관세청 질의응답에 직접 근거가 없음(추론). 한 고객의 여러 주문은 문언상 해당.",
+  "old": "고객 여러 명, 또는 한 고객의 여러 주문을 한 House B/L로 묶으면 그 B/L은 기준 1의 \"하나의 B/L\"이 됩니다.",
+  "fix": "한 고객의 여러 주문을 한 House B/L로 묶으면 그 B/L은 기준 1의 \"하나의 B/L\"이 됩니다. 여러 고객의 물품을 한 House B/L에 섞을 때 어떻게 합산하는지는 고시에 따로 정해져 있지 않으므로, 수신인별로 House B/L을 나누는 편이 안전합니다."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "관세청은 2026년 6월 5일 전용 등록 시스템을 열었다(7절)",
+  "verdict": "unclear",
+  "evidence": "뉴스핌 2026. 5. 28.(https://www.newspim.com/news/view/20260528000169): \"다음달 5일부터 이를 위한 전용 등록 시스템을 가동한다고 28일 밝혔다\". 사전 발표 기사이고 실제 가동을 전한 1차 출처는 찾지 못함(같은 기사는 플랫폼 개통을 8월 15일로 예고했으나 실제 시범은 8월 28일). 발표 사실로 적는 편이 정확.",
+  "old": "관세청은 2026년 6월 5일 전용 등록 시스템을 열었고",
+  "fix": "관세청은 2026년 5월 28일 전용 등록 시스템을 6월 5일부터 가동한다고 발표했고"
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "2유로 수수료는 위원회가 2년마다 보고서로 다시 정하는 금액(11절)",
+  "verdict": "unclear",
+  "evidence": "위임규정 (EU) 2026/2152 전문 제2항: 비용은 \"a report to be drawn up by the Commission every two years\"에 적고 그 보고서가 \"enabling the Commission to review and adjust the fee level periodically\". 2년마다 다시 '정한다'는 표현은 과장.",
+  "old": "2유로 수수료는 세관 처리 비용에 맞춰 위원회가 2년마다 보고서로 다시 정하는 금액입니다",
+  "fix": "2유로 수수료는 세관 처리 비용에 맞춘 금액으로, 위원회가 2년마다 내는 비용 보고서를 바탕으로 다시 조정할 수 있습니다"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 9(새 번호 32) 구분 '처분'",
+  "verdict": "unclear",
+  "evidence": "관세청·식약처 보도자료(2026. 7. 21.): \"수입과자할인점 총 8개 업소를 적발\". 개별 처분 내용은 발표에 없고 사례 본문도 그렇게 적음. 형식상 '단속'이 맞음.",
+  "old": "국내 · 특송(해외직구) · 처분 · 과자류",
+  "fix": "국내 · 특송(해외직구) · 단속 · 과자류"
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "특송 고시 제2026-56호, 발령·시행 2026. 9. 29.; 제9조 150/200/2,000달러 세 구간, 제9조 제2항 별표 1·2 배제",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 행정규칙 2100000285588 발령 20260929 시행 20260929. 제9조 제1항 제1호~제3호 원문 확인."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "특송 고시 별표 1(12개 항목)·별표 2(11개 항목), 별표 3 물품가격 작성요령과 화물운송주선업자 부호(영문 4자리), 제8조 제3항·제4항",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 특송 고시 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "특송 고시 제3조 단서, 제4조(자본금 3억원), 제6조(만료 1개월 전 갱신), 제14조, 제17조(30일), 제19조(5억원·AEO·2년·자기 명의 B/L·AWB), 제21조, 제32조 제2호, 제33조(6개월, 매출액 3% 과징금), 제36조",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 특송 고시 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "FTA 특례법 시행령 제35조(한미 FTA 제7.7조)·시행규칙 제29조 200달러",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 시행령 제35조, 시행규칙 제29조 \"미합중국 화폐 200달러\"."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "관세법 시행규칙 제45조 제2항 제1호 물품가격 정의·150달러·분할 단서, 제1항 제3호 견본품 250달러, 제79조의2, 제54조 제2항, 제58조의2(200만원)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 관세법 시행규칙(재정경제부령 제42호, 시행 2026. 7. 31.) 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "부가가치세법 제27조 제6호·제12호",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 부가가치세법 제27조 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "수입통관 고시 제67조·별표 11 자가사용 기준(각 5kg, 잣 1kg, 소·돼지고기 10kg, 인삼 300g, 상황버섯 300g, 녹용 150g, 기타 한약재 3kg, 건강기능식품·의약품 6병, 주류 1병 1L, 궐련 200, 엽궐련 50, 니코틴 용액 20ml, 향수 60ml), 제68조(제2호 삭제), 제69조, 제71조",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 수입통관 사무처리에 관한 고시(제2025-66호) 원문 일치. 제68조 \"2. <삭제>\"."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "같은 입항일 합산 기준 삭제: 2022. 11. 17. 시행, 그 뒤 수입신고·통관목록 제출분부터",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 부칙 <제2022-55호, 2022. 11. 17.> 제2조 제2항 \"제68조의 개정규정은 이 고시 시행 이후 수입신고를 하거나 법 제254조의2에 따른 통관목록을 제출하는 경우부터 적용\"; 더팩트 2022. 11. 16. 보도(민원 배경) 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "관세청 질의응답(2024. 5. 20.): 미국발 200달러, 목록통관 배제 때 국가 구분 없이 150달러, 합계 150달러 이하면 비과세, 5/2·5/7 구매 예, 2020. 12. 1. 목록통관 부호 의무화, 2023. 10. 1. 외국인 의무화",
+  "verdict": "correct",
+  "evidence": "관세청 보도자료 「관세청, 해외직구 악용한 불법행위 차단에 총력」(2024. 5. 20. 배포, 게시 5. 21., nttSn=10109375) 붙임 질의응답 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "개인통관고유부호 유효기간 1년(2026. 1. 1.), 만료 30일 전 안내·30일 경과 해지, 재발급·해지 후 신규 연 5회, 2027년 생일 전 갱신(여권 외국인 2027. 12. 31.), 별표 2 P+연도 2자리+9자리+검증 1자리",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 통관고유부호 고시 제13조 제4항, 제16조 제4항·제5항, 부칙(제2025-32호) 제1조·제2조, 별표 2 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "2026. 2. 2. 우편번호 대조(2025. 11. 21. 이후 발급·변경자), 배송지 20건",
+  "verdict": "correct",
+  "evidence": "관세청 보도자료 「관세청, 개인통관고유부호 검증 강화」(2026. 1. 14.) 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "통관플랫폼 2026. 8. 28. 시범, 10. 26. 정식 개통, 일회용 인증번호, 미인증 고위험 물품 X-ray·검사 강화",
+  "verdict": "correct",
+  "evidence": "관세청 보도자료 「관세청, 해외직구 전용 통관 플랫폼 정식 개통」(2026. 10. 26.): \"8월 28일부터 시범운영을 시작하여 이번에 정식 개통\". 전자상거래 고시 제13조~제16조, 제20조·제22조·제23조, 부칙 제1조·제2조 일치. 참고: 부칙 제2조 제3항은 개통 뒤 부호를 발급·변경·갱신하지 않은 사람에게는 인증번호를 전자상거래업자에게 줄 수 있게 함(문서는 단순화했지만 틀리지 않음)."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "관세법 제254조(2024. 12. 31. 전문개정) 등록 대상 3부류·국외 사업자 포함·유효기간 3년, 시행령 제258조 제5항·제7항, 전자상거래 고시 제4조 4부류, 별표 3(운송장·주문번호 PK, A/B/C, 3건 묶음 예)",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 관세법·시행령·고시 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "관세법 제2조 제18호·제19호, 제19조 제5항 제1호 다목, 제94조 제4호, 제222조 제1항 제2호·제6호·제5항(3년), 제241조 제2항, 제254조의2 제3항(다음 달 15일)·제4항·제6항·제7항, 제269조 제2항, 제270조 제1항, 제275조의3 제1항",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 관세법(법률 제21490호, 시행 2026. 10. 2.) 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "수출 고시 제2조 제15호(거래구분 15·17), 제42조 제2항(90일), 제43조(FOB 500만원, 제7조 제2항 제1호·제2호 제외), 제55조 제1항 제8호(FOB 200만원), 제56조, 제69조 제3항, 제72조 제2항·제4항",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 수출 및 반송통관에 관한 고시(제2025-73호, 시행 2026. 6. 26.) 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "관세법 제99조 제1호(2년, 가~라목), 제106조 제1항(1년, 보세구역·자유무역지역·통관우체국), 제106조의2 제1항(6개월), 시행령 제124조의2",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "국제우편물 고시 제2조 제4호 간이통관 1,000달러",
+  "verdict": "correct",
+  "evidence": "https://www.law.go.kr (DRF lawService, 2026-10-27 조회) 국제우편물 수입통관 사무처리에 관한 고시(2100000276774) 제2조 제4호 가목 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "해외직구 반품 환급권 전자 양도 2026. 4. 1. 시행(납세업무 처리에 관한 고시 개정)",
+  "verdict": "correct",
+  "evidence": "관세청 보도자료(2026. 3. 31.) 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "관세청 '공제 없이 총 과세가격(물품가격+운임+보험료 등)' 안내",
+  "verdict": "correct",
+  "evidence": "정책브리핑 「실패 없는 해외직구 필수 체크리스트」(2026. 1. 8., https://www.korea.kr/news/policyNewsView.do?newsId=148957712) 원문 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "EO 14256(90 FR 14899, 2025. 4. 2. 서명, 중국·홍콩 2025. 5. 2.), EO 14324(90 FR 37775, 2025. 7. 30. 서명, 8. 29. 시행), EO 14388(91 FR 9433, 2026. 2. 20. 서명), CBP 시행 공고 90 FR 42418(2025. 9. 2.)",
+  "verdict": "correct",
+  "evidence": "Federal Register API(https://www.federalregister.gov/api/v1/documents/2026-03829.json 등): citation·signing_date·effective_on 일치."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "연방대법원 Learning Resources v. Trump 2026. 2. 20. 선고, IEEPA는 관세 부과 권한을 주지 않음, de minimis 정지는 다루지 않음",
+  "verdict": "correct",
+  "evidence": "CBP IFR 91 FR 37789: \"On February 20, 2026, the United States Supreme Court decided Learning Resources, Inc. v. Trump ... That decision did not address the suspension of the de minimis administrative exemption\"."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "CBP 잠정최종규칙 91 FR 37789(2026. 6. 24. 시행, 우편 외 무기한 정지), 91 FR 37801(우편 2026. 7. 24. 시행), release from manifest 불가·Entry Type 11, 선물·여행자 면세 영향 없음",
+  "verdict": "correct",
+  "evidence": "Federal Register API dates: \"This interim final rule is effective on June 24, 2026\" / \"effective on July 24, 2026, except for amendatory instruction 4 (19 CFR 145.31), which is effective on June 24, 2026\"; IFR 본문 \"leaves Entry Type 11 as the main appropriate informal entry method\"."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "91 FR 66638(2026. 10. 22.) 준수일 2027. 1. 20.(PGA·제98류·제99류·FTA 우편 정식신고), 규칙안 91 FR 64532(2026. 10. 8., 의견 마감 12. 7.)",
+  "verdict": "correct",
+  "evidence": "Federal Register API: \"The compliance date for 19 CFR 145.12(a)(2)(v) and (vi) is January 20, 2027\"; abstract에 PGA·Chapter 98/99·FTA 명시; 64532 comments_close_on 2026-12-07."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "Public Law 119-21 제70531조, 2025. 7. 4. 제정, 2027. 7. 1. 면세 조항 폐지",
+  "verdict": "correct",
+  "evidence": "CBP IFR 91 FR 37789 각주 30·35: \"One Big Beautiful Bill Act, Public Law 119-21, Section 70531(b) ... terminated the de minimis exemption effective July 1, 2027\", \"enacted on July 4, 2025\"."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "EU 규정 2026/382(2026. 2. 11., OJ 2026. 2. 18.) 제1조 삭제, 제2조 2026. 7. 1.~2028. 7. 1. 품목당 3유로(IOSS·우편), 제3조(2026. 10. 1.부터 매달, 2027. 12. 1. 평가), 제4조 2026. 7. 1. 적용",
+  "verdict": "correct",
+  "evidence": "EUR-Lex OJ L 2026/382 원문 일치(적용 범위의 실무 해석은 위 unclear 항목 참조)."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "위임규정 2026/2152(2026. 9. 21., OJ 2026. 10. 22.) 품목당 2유로, 2026. 11. 1. 적용, 근거 규정 2026/2108 제20조",
+  "verdict": "correct",
+  "evidence": "EUR-Lex OJ L 2026/2152: \"shall be EUR 2 per item\", \"It shall apply from 1 November 2026\", Article 20(2)·(10) of Regulation (EU) 2026/2108."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "품목 계산: 티셔츠 5장 1품목(3유로), 티셔츠+시계 2품목(6유로)",
+  "verdict": "correct",
+  "evidence": "DG TAXUD 안내(2026. 6. 8.) FAQ 표 일치."
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 1·2(2022. 10. 14.): 부호 570여 개·가전 1,900여 점 3.6억 원 / 부호 300여 개·가짜 향수 3,000점 3억 원, 15개 업체 조사",
+  "verdict": "correct",
+  "evidence": "관세청 보도자료 「개인통관고유부호 불법 도용행위 단속 강화」(2022. 10. 14.) 원문 일치."
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 3: 2023. 6. 1. 인천지검 국제범죄수사부 구속 기소, 2018. 6.~2023. 4., 142회 4억 4,000만 원·관세 3,000여만 원, 191회 2,900만 원, 36회 5,700만 원, 차명계좌 추징보전, 개인정보 보호법 첫 적용",
+  "verdict": "correct",
+  "evidence": "보안뉴스 2023. 6. 6.(http://www.boannews.com/news/articleView.html?idxno=118827) 원문 일치."
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 4·5(2023. 12. 28.): 낚시용품 10,132개 54억 원 관세 3억 원 / 꿀 2,941kg 2억 원; 집중단속 10. 30.~11. 28.; 유형별 3건 62억·20건 148억·12건 43억",
+  "verdict": "correct",
+  "evidence": "관세청 보도자료 「관세청, 해외직구 악용 불법행위 688억원 적발」(2023. 12. 28.) 원문 일치."
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 6·7·8(2024. 10. 21. 참고자료): 주류 7,958병 40억 원 세금 13억 원(3월) / 위조 스마트폰 1,400여 개 부당이득 5억 원(4월) / 태국 식품·화장품 3만여 점 15억 원(8월)",
+  "verdict": "correct",
+  "evidence": "관세청 보도자료 「해외직구 불법 수입 608억 원 적발...」(2024. 10. 21.) 참고자료 원문 일치."
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 9(2026. 7. 21.): 15곳 점검(대상 8 + 인근 7), 8곳 적발(영업등록 없이 판매 4, 한글 표시 없음 4)",
+  "verdict": "correct",
+  "evidence": "관세청·식약처 보도자료(2026. 7. 21.) 원문 일치."
+ },
+ {
+  "file": "cases.html",
+  "claim": "새 사례가 기존 cu-cases 1~23과 겹치지 않고 24~32 번호가 맞음",
+  "verdict": "correct",
+  "evidence": "저장소 ac-docs/cu-cases.html 제목 23건 확인, 해외직구 부호 도용·목록통관 사례 없음."
+ },
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "저장소 기존 문서와의 정합·규칙",
+  "verdict": "correct",
+  "evidence": "cu-docs/cu-clearance.html 3절(수리일부터 30일 적재, 관세법 제251조), cu-documents.html 7절(분할 인보이스, 시행규칙 제45조 제2항 제1호)과 일치. cu-us-filing.html에는 de minimis 서술이 없어 모순 없음. 본문 em dash 없음, 회사 실명 없음, 할증료·운임 금액 없음, 화물 개봉 지시 없음."
+ }
+]

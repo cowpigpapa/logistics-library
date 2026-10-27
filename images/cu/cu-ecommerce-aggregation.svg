@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a">합산과세는 "같은 날 도착"이 아니라 "나눠서 들여왔는가"로 봅니다</text>
+<text x="40" y="94" font-size="20" font-weight="600" fill="#5f6b78">수입통관 사무처리에 관한 고시 제68조·제69조, 관세법 시행규칙 제45조 제2항 제1호 단서 (같은 입항일 기준은 2022. 11. 17.부터 삭제)</text>
+
+<!-- start -->
+<rect x="40" y="140" width="380" height="96" rx="16" fill="#fbfcfd" stroke="#1d2a3a" stroke-width="2"/>
+<text x="230" y="180" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">한 건씩 보면 150달러 이하인</text>
+<text x="230" y="210" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">과세대상물품 여러 건</text>
+<line x1="420" y1="188" x2="486" y2="188" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+
+<!-- Q1 -->
+<rect x="494" y="130" width="560" height="116" rx="16" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="3"/>
+<text x="520" y="166" font-size="18" font-weight="800" fill="#1f6fd1">기준 1 (제68조 제1호)</text>
+<text x="520" y="196" font-size="20" font-weight="700" fill="#1d2a3a">하나의 B/L·AWB로 들어온 물품을</text>
+<text x="520" y="224" font-size="20" font-weight="700" fill="#1d2a3a">면세 범위 안으로 나눠 통관하는가?</text>
+<line x1="1054" y1="188" x2="1150" y2="188" stroke="#d9482b" stroke-width="3" marker-end="url(#a-red)"/>
+<text x="1080" y="176" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">예</text>
+<line x1="774" y1="246" x2="774" y2="306" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<text x="790" y="284" font-size="18" font-weight="800" fill="#5f6b78">아니오</text>
+
+<!-- Q2 -->
+<rect x="494" y="314" width="560" height="116" rx="16" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="3"/>
+<text x="520" y="350" font-size="18" font-weight="800" fill="#1f6fd1">기준 2 (제68조 제3호)</text>
+<text x="520" y="380" font-size="20" font-weight="700" fill="#1d2a3a">같은 해외공급자에게 같은 날짜에 산 물품을</text>
+<text x="520" y="408" font-size="20" font-weight="700" fill="#1d2a3a">면세 범위 안으로 나눠 반입하는가?</text>
+<path d="M1054 372 H1112 V188" fill="none" stroke="#d9482b" stroke-width="3"/>
+<circle cx="1112" cy="188" r="5" fill="#d9482b"/>
+<text x="1070" y="362" font-size="18" font-weight="800" fill="#d9482b">예</text>
+<line x1="774" y1="430" x2="774" y2="490" stroke="#1f8a5b" stroke-width="3" marker-end="url(#a-green)"/>
+<text x="790" y="468" font-size="18" font-weight="800" fill="#5f6b78">아니오</text>
+
+<!-- no -> separate -->
+<rect x="494" y="498" width="560" height="96" rx="16" fill="#fbfcfd" stroke="#1f8a5b" stroke-width="3"/>
+<text x="520" y="538" font-size="20" font-weight="800" fill="#1f8a5b">건마다 따로 판단</text>
+<text x="520" y="568" font-size="18" fill="#1d2a3a">입항일이 같아도 합산하지 않음. 묶음배송으로 한 B/L이 되면 기준 1</text>
+
+<!-- aggregate -->
+<rect x="1150" y="130" width="482" height="116" rx="16" fill="#fbfcfd" stroke="#d9482b" stroke-width="3"/>
+<text x="1176" y="170" font-size="20" font-weight="800" fill="#d9482b">물품가격을 합산</text>
+<text x="1176" y="200" font-size="18" fill="#1d2a3a">합계가 150달러를 넘는가?</text>
+<text x="1176" y="228" font-size="17" fill="#5f6b78">넘지 않으면 합산해도 면세(관세청 안내)</text>
+<line x1="1391" y1="246" x2="1391" y2="306" stroke="#d9482b" stroke-width="3" marker-end="url(#a-red)"/>
+<text x="1406" y="284" font-size="18" font-weight="800" fill="#d9482b">넘음</text>
+<rect x="1150" y="314" width="482" height="280" rx="16" fill="#fbfcfd" stroke="#d9482b" stroke-width="3"/>
+<text x="1176" y="354" font-size="20" font-weight="800" fill="#d9482b">면세 제외, 합산해 과세 (제69조)</text>
+<text x="1176" y="392" font-size="18" fill="#1d2a3a">특송: 150달러 초과분은 목록통관 배제,</text>
+<text x="1176" y="418" font-size="18" fill="#1d2a3a">일반수입신고. 신고서 세관기재란에</text>
+<text x="1176" y="444" font-size="18" fill="#1d2a3a">근거 B/L 번호와 "합산과세" 표기</text>
+<text x="1176" y="484" font-size="18" fill="#1d2a3a">우편: 1,000달러 이하는 우편물목록으로</text>
+<text x="1176" y="510" font-size="18" fill="#1d2a3a">과세, 1,000달러 초과는 일반수입신고</text>
+<text x="1176" y="550" font-size="18" fill="#1d2a3a">통관 뒤 분석에서 상용물품·부당 분할이</text>
+<text x="1176" y="576" font-size="18" fill="#1d2a3a">확인되면 추징하거나 조사 의뢰</text>
+
+<!-- deleted rule -->
+<rect x="40" y="290" width="400" height="304" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="330" font-size="19" font-weight="800" fill="#5f6b78">삭제된 기준 (제68조 제2호)</text>
+<text x="64" y="370" font-size="18" fill="#5f6b78">2022. 11. 16.까지:</text>
+<text x="64" y="398" font-size="18" fill="#5f6b78">입항일이 같은 2건 이상의 물품</text>
+<line x1="60" y1="392" x2="340" y2="392" stroke="#d9482b" stroke-width="2.5"/>
+<text x="64" y="440" font-size="18" fill="#1d2a3a">배송이 늦어져 우연히 같은 날</text>
+<text x="64" y="466" font-size="18" fill="#1d2a3a">도착한 물품까지 과세된다는</text>
+<text x="64" y="492" font-size="18" fill="#1d2a3a">민원으로 삭제. 2022. 11. 17.</text>
+<text x="64" y="518" font-size="18" fill="#1d2a3a">이후 수입신고·통관목록 제출분부터</text>
+<text x="64" y="558" font-size="17" fill="#5f6b78">특송업체 검사요청 대상은 그대로</text>
+<text x="64" y="582" font-size="17" fill="#5f6b78">(특송 고시 제14조: 같은 주소·전화 분할)</text>
+
+<!-- example -->
+<rect x="40" y="626" width="1592" height="268" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="666" font-size="20" font-weight="800" fill="#1d2a3a">관세청 질의응답의 예 (2024. 5. 20. 보도자료 붙임)</text>
+<rect x="64" y="690" width="300" height="76" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="84" y="722" font-size="18" font-weight="700" fill="#1d2a3a">5월 2일 구매</text>
+<text x="84" y="750" font-size="18" fill="#1d2a3a">판매처 A · 주방용품 150달러</text>
+<rect x="64" y="782" width="300" height="76" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="84" y="814" font-size="18" font-weight="700" fill="#1d2a3a">5월 7일 구매</text>
+<text x="84" y="842" font-size="18" fill="#1d2a3a">판매처 A · 완구 100달러</text>
+<path d="M364 728 H430 V774 H478" fill="none" stroke="#1d2a3a" stroke-width="3"/>
+<path d="M364 820 H430 V774" fill="none" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="478" y1="774" x2="520" y2="774" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<rect x="528" y="726" width="380" height="96" rx="10" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="548" y="764" font-size="18" font-weight="700" fill="#1d2a3a">5월 15일 같은 날 도착</text>
+<text x="548" y="794" font-size="18" fill="#1d2a3a">B/L은 각각 다름 · 합계 250달러</text>
+<line x1="908" y1="774" x2="950" y2="774" stroke="#1f8a5b" stroke-width="3" marker-end="url(#a-green)"/>
+<rect x="958" y="700" width="650" height="148" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="980" y="736" font-size="18" font-weight="800" fill="#1f8a5b">구매일이 다르므로 기준 2에 해당하지 않음</text>
+<text x="980" y="766" font-size="18" fill="#1d2a3a">해외공급자와 구매일이 표시된 가격자료를 내면</text>
+<text x="980" y="794" font-size="18" fill="#1d2a3a">건마다 면세 여부를 판단할 수 있다는 것이 관세청 답변.</text>
+<text x="980" y="822" font-size="18" fill="#1d2a3a">같은 날 산 물품이었다면 합산 250달러로 과세 대상</text>
+</svg>

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a">미국과 EU의 소액 면세가 끝나는 순서</text>
+<text x="40" y="94" font-size="20" font-weight="600" fill="#5f6b78">미국 행정명령 14256·14324·14388, CBP 잠정최종규칙(2026. 6. 24.), Public Law 119-21 · EU 이사회 규정 2026/382, 위임규정 2026/2152</text>
+
+<!-- year grid: x = 200 + (year-2025)*373.3 -->
+<g stroke="#e3e8ee" stroke-width="2">
+<line x1="200" y1="120" x2="200" y2="880"/>
+<line x1="573" y1="120" x2="573" y2="880"/>
+<line x1="947" y1="120" x2="947" y2="880"/>
+<line x1="1320" y1="120" x2="1320" y2="880"/>
+</g>
+<g font-size="18" font-weight="800" fill="#5f6b78" text-anchor="middle">
+<text x="200" y="906">2025</text>
+<text x="573" y="906">2026</text>
+<text x="947" y="906">2027</text>
+<text x="1320" y="906">2028</text>
+</g>
+
+<!-- US lane -->
+<rect x="40" y="128" width="1592" height="368" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<line x1="880" y1="120" x2="880" y2="516" stroke="#e4572e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="64" y="168" font-size="24" font-weight="800" fill="#1d2a3a">미국</text>
+<text x="64" y="196" font-size="16" fill="#5f6b78">800달러 이하</text>
+<text x="64" y="216" font-size="16" fill="#5f6b78">de minimis</text>
+<text x="64" y="236" font-size="16" fill="#5f6b78">(Section 321)</text>
+<rect x="323" y="322" width="123" height="20" fill="#f6c9bd"/>
+<rect x="446" y="322" width="687" height="20" fill="#d9482b"/>
+<rect x="1133" y="322" width="467" height="20" fill="#5f6b78"/>
+<text x="536" y="338" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">모든 나라 정지</text>
+<text x="1366" y="338" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">법률상 면세 조항 폐지</text>
+<line x1="200" y1="332" x2="1600" y2="332" stroke="#1d2a3a" stroke-width="2" opacity="0.35"/>
+
+<!-- US events -->
+<g fill="#1d2a3a" stroke="#ffffff" stroke-width="2">
+<circle cx="323" cy="332" r="8"/><circle cx="390" cy="332" r="8"/><circle cx="446" cy="332" r="8"/>
+<circle cx="625" cy="332" r="8"/><circle cx="752" cy="332" r="8"/><circle cx="966" cy="332" r="8"/><circle cx="1133" cy="332" r="8"/>
+</g>
+<g stroke="#5f6b78" stroke-width="1.5">
+<line x1="323" y1="322" x2="323" y2="282"/>
+<line x1="446" y1="322" x2="446" y2="212"/>
+<line x1="625" y1="322" x2="625" y2="282"/>
+<line x1="966" y1="322" x2="966" y2="282"/>
+<line x1="390" y1="342" x2="390" y2="384"/>
+<line x1="752" y1="342" x2="752" y2="384"/>
+<line x1="1133" y1="342" x2="1133" y2="384"/>
+</g>
+<!-- above boxes -->
+<rect x="190" y="228" width="250" height="54" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="204" y="250" font-size="16" font-weight="800" fill="#1d2a3a">2025. 5. 2.</text>
+<text x="204" y="272" font-size="16" fill="#1d2a3a">중국·홍콩발 정지(EO 14256)</text>
+<rect x="446" y="158" width="250" height="54" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="460" y="180" font-size="16" font-weight="800" fill="#d9482b">2025. 8. 29.</text>
+<text x="460" y="202" font-size="16" fill="#1d2a3a">모든 나라 정지(EO 14324)</text>
+<rect x="560" y="228" width="320" height="54" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="574" y="250" font-size="16" font-weight="800" fill="#1d2a3a">2026. 2. 20. 대법원 IEEPA 관세 판결</text>
+<text x="574" y="272" font-size="16" fill="#1d2a3a">같은 날 EO 14388로 정지 계속</text>
+<rect x="900" y="228" width="300" height="54" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="914" y="250" font-size="16" font-weight="800" fill="#1d2a3a">2027. 1. 20.</text>
+<text x="914" y="272" font-size="16" fill="#1d2a3a">우편 정식통관 일부 의무 준수일</text>
+<!-- below boxes -->
+<rect x="250" y="384" width="290" height="76" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="264" y="406" font-size="16" font-weight="800" fill="#1d2a3a">2025. 7. 4. 법률 제정</text>
+<text x="264" y="428" font-size="16" fill="#1d2a3a">Public Law 119-21 제70531조:</text>
+<text x="264" y="450" font-size="16" fill="#1d2a3a">2027. 7. 1. 면세 조항 폐지</text>
+<rect x="600" y="384" width="330" height="76" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="614" y="406" font-size="16" font-weight="800" fill="#1d2a3a">2026. 6. 24. CBP 잠정최종규칙</text>
+<text x="614" y="428" font-size="16" fill="#1d2a3a">우편 외 모든 경로 무기한 정지</text>
+<text x="614" y="450" font-size="16" fill="#1d2a3a">우편은 2026. 7. 24.부터</text>
+<rect x="1010" y="384" width="290" height="76" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="1024" y="406" font-size="16" font-weight="800" fill="#1d2a3a">2027. 7. 1.</text>
+<text x="1024" y="428" font-size="16" fill="#1d2a3a">19 U.S.C. 1321(a)(2)(C)</text>
+<text x="1024" y="450" font-size="16" fill="#1d2a3a">법률상 폐지 시행</text>
+
+<!-- EU lane -->
+<rect x="40" y="516" width="1592" height="350" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<line x1="880" y1="516" x2="880" y2="880" stroke="#e4572e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="64" y="556" font-size="24" font-weight="800" fill="#1d2a3a">EU</text>
+<text x="64" y="584" font-size="16" fill="#5f6b78">150유로 이하</text>
+<text x="64" y="604" font-size="16" fill="#5f6b78">관세 면제</text>
+<rect x="760" y="710" width="747" height="20" fill="#1f6fd1"/>
+<rect x="1507" y="710" width="93" height="20" fill="#5f6b78"/>
+<text x="1196" y="726" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">품목당 3유로 (규정: IOSS·우편 / 집행위 안내: 원격판매 전체)</text>
+<line x1="200" y1="720" x2="1600" y2="720" stroke="#1d2a3a" stroke-width="2" opacity="0.35"/>
+<g fill="#1d2a3a" stroke="#ffffff" stroke-width="2">
+<circle cx="615" cy="720" r="8"/><circle cx="760" cy="720" r="8"/><circle cx="885" cy="720" r="8"/><circle cx="1507" cy="720" r="8"/>
+</g>
+<g stroke="#5f6b78" stroke-width="1.5">
+<line x1="615" y1="710" x2="615" y2="670"/>
+<line x1="885" y1="710" x2="885" y2="600"/>
+<line x1="1507" y1="710" x2="1507" y2="670"/>
+<line x1="760" y1="730" x2="760" y2="772"/>
+</g>
+<!-- 2021 note -->
+<rect x="190" y="760" width="350" height="76" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="204" y="782" font-size="16" font-weight="800" fill="#1d2a3a">앞서 2021. 7. 1.</text>
+<text x="204" y="804" font-size="16" fill="#1d2a3a">22유로 이하 수입 부가가치세 면제 폐지,</text>
+<text x="204" y="826" font-size="16" fill="#1d2a3a">150유로 이하는 IOSS로 판매 때 징수</text>
+<rect x="400" y="616" width="300" height="54" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="414" y="638" font-size="16" font-weight="800" fill="#1d2a3a">2026. 2. 11.</text>
+<text x="414" y="660" font-size="16" fill="#1d2a3a">이사회 규정 2026/382 채택</text>
+<rect x="600" y="772" width="340" height="76" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="614" y="794" font-size="16" font-weight="800" fill="#1f6fd1">2026. 7. 1.</text>
+<text x="614" y="816" font-size="16" fill="#1d2a3a">150유로 관세 면제 폐지</text>
+<text x="614" y="838" font-size="16" fill="#1d2a3a">품목(관세 분류)당 3유로 잠정 관세</text>
+<rect x="885" y="546" width="330" height="54" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="899" y="568" font-size="16" font-weight="800" fill="#1d2a3a">2026. 11. 1.</text>
+<text x="899" y="590" font-size="16" fill="#1d2a3a">원격판매 품목당 2유로 처리 수수료</text>
+<rect x="1290" y="616" width="310" height="54" rx="8" fill="#ffffff" stroke="#c9d2dc"/>
+<text x="1304" y="638" font-size="16" font-weight="800" fill="#1d2a3a">2028. 7. 1. 잠정 관세 종료 예정</text>
+<text x="1304" y="660" font-size="16" fill="#1d2a3a">이후 품목별 일반 관세(연장 검토)</text>
+
+<text x="880" y="932" font-size="18" font-weight="800" fill="#e4572e" text-anchor="middle">2026. 10. 27. 현재</text>
+</svg>
