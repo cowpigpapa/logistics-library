@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/incoterms-2020';
-  const DOCS_VERSION = '20261026-03';
+  const DOCS_VERSION = '20261027-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -36,7 +36,6 @@
     { id: 'inco-rules', tag: "한 장 정리·조건별", level: 3, title: "조건별 해설과 한 장 정리표 — 11개 조건의 구간별 비용·위험과 인도·통관·보험", short: "11개 조건 해설과 정리표", summary: "11개 조건을 13개 구간으로 나눠 비용 부담과 위험 이전 지점을 한 표에 놓고, 조건마다 인도 지점·위험·비용·통관·보험·상하차와 자주 틀리는 지점을 같은 틀로 정리했습니다." },
     { id: 'inco-gray', tag: "위험·비용", level: 3, title: "위험·비용의 분기와 애매한 구간 — 비용 항목별 부담표와 계약 문구 예시", short: "조건별 위험·비용 분기점", summary: "C조건의 위험·비용 분기, 인도 전 위험 이전, 비용 항목 30여 개의 조건별 부담표, 출발지·목적지 상하차와 터미널 비용, 통관·검사, 지연 비용을 누가 내는지와 계약 문구 예시." },
     { id: 'inco-choose', tag: "선택·표기", level: 2, title: "조건 고르기와 계약서에 쓰는 법 — 운송 형태별 선택과 표기", short: "조건 선택과 계약 표기", summary: "운송 형태별 조건 선택(컨테이너 화물과 FOB), 표기법의 좋은 예와 나쁜 예, 신용장 정합, 포워더 업무 분담." },
-    { id: 'inco-cases', checked: '2026-10-22', tag: "사례", level: 3, title: "인코텀스 사고 사례 — 위험 이전·품질 기준 시점·인도 장소를 다툰 판결 10건", short: "인코텀스 사고 사례", summary: "CIF·CFR·FOB에서 위험이 언제 넘어갔는지, 물품 적합성을 언제 기준으로 보는지, 인도 장소와 운송계약 당사자를 한국·미국·영국·중국 법원이 판단한 판결 10건과 포워더가 챙길 서류." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -49,8 +48,7 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "인코텀스 이해", sub: "정의와 2020 개정 · 11개 조건 한 장 정리와 조건별 해설", docs: ["inco-what", "inco-rules"] },
-    { title: "비용·위험 분기와 조건 선택", sub: "비용 항목별 부담과 애매한 구간 · 조건 고르기와 표기", docs: ["inco-gray", "inco-choose"] },
-    { title: "사고 사례", sub: "위험 이전·품질 기준 시점·인도 장소를 다툰 판결", docs: ["inco-cases"] }
+    { title: "비용·위험 분기와 조건 선택", sub: "비용 항목별 부담과 애매한 구간 · 조건 고르기와 표기", docs: ["inco-gray", "inco-choose"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
@@ -60,8 +58,7 @@
     { name: "상차·하차, 터미널 비용은 누가 내나요", ids: ["inco-gray"] },
     { name: "Demurrage·보관료는 누가 내나요", ids: ["inco-gray"] },
     { name: "어떤 조건을 골라야 하나요", ids: ["inco-choose", "inco-rules"] },
-    { name: "2010과 뭐가 달라졌나요", ids: ["inco-what"] },
-    { name: "법원은 어떻게 판단했나요", ids: ["inco-cases"] }
+    { name: "2010과 뭐가 달라졌나요", ids: ["inco-what"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -82,7 +79,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>Incoterms 2020, 어디서 갈리나</h2><p>인코텀스는 물품 매매계약에서 매도인과 매수인이 <b>비용과 위험을 어디서 나누는지</b>를 세 글자로 약속하는 ICC의 규칙입니다. 11개 조건을 구간별로 한 장에 놓고, 위험과 비용의 분기점, 비용에 포함되는 것과 포함되지 않는 것, 그리고 규칙만으로는 정해지지 않는 상차·하차·터미널 비용 같은 구간을 정리했습니다. 법원이 위험 이전과 인도 장소를 판단한 판결은 마지막 장 사고 사례에 모았습니다.</p><a class="lib-summary-button" href="${link('inco-rules')}">한 장 정리표와 조건별 해설 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('Incoterms® 2020 규칙 본문은 ICC의 저작물이어서 싣지 않았습니다. 규칙이 정한 내용을 자기 말로 설명하고 조항은 번호로만 가리킵니다. 해설은 AI가 ICC 공개 자료와 UNCITRAL 문서, 공신력 있는 해설을 읽고 작성했으며 ICC가 만들거나 검토한 것이 아닙니다. 규칙이 정한 것과 실무 관행, 계약으로 정해야 하는 것을 구분해 적었습니다. 실제 계약은 ICC 원문과 계약서 문언을 기준으로 하세요.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>Incoterms 2020, 어디서 갈리나</h2><p>인코텀스는 물품 매매계약에서 매도인과 매수인이 <b>비용과 위험을 어디서 나누는지</b>를 세 글자로 약속하는 ICC의 규칙입니다. 11개 조건을 구간별로 한 장에 놓고, 위험과 비용의 분기점, 비용에 포함되는 것과 포함되지 않는 것, 그리고 규칙만으로는 정해지지 않는 상차·하차·터미널 비용 같은 구간을 정리했습니다. 법원이 위험 이전과 인도 장소를 판단한 판결은 사고 사례 모음에 따로 모았습니다.</p><a class="lib-summary-button" href="${link('inco-rules')}">한 장 정리표와 조건별 해설 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('Incoterms® 2020 규칙 본문은 ICC의 저작물이어서 싣지 않았습니다. 규칙이 정한 내용을 자기 말로 설명하고 조항은 번호로만 가리킵니다. 해설은 AI가 ICC 공개 자료와 UNCITRAL 문서, 공신력 있는 해설을 읽고 작성했으며 ICC가 만들거나 검토한 것이 아닙니다. 규칙이 정한 것과 실무 관행, 계약으로 정해야 하는 것을 구분해 적었습니다. 실제 계약은 ICC 원문과 계약서 문언을 기준으로 하세요.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

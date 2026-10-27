@@ -527,14 +527,22 @@ def load_cases_index():
 
 
 def case_link(cases, slug, doc_id=None):
-    if not cases or slug not in cases['cats']:
+    """사례 문서는 모두 사고 사례 모음 카테고리에 있다. 해설·개요 → 그 분야의 사례 문서, 사례 문서 → 전체 표와 그 분야 해설."""
+    if not cases:
+        return ''
+    hub = cases['hub']
+    if slug == hub.split('/')[2]:
+        origin = cases.get('docs', {}).get(doc_id)
+        if not origin:
+            return ''
+        c = cases['cats'][origin]
+        return (f'<p class="lib-case-link"><a href="{hub}">다른 분야 사고 사례까지 찾기 →</a>'
+                f'<a href="/library/{origin}">{html.escape(c["label"])} 해설 보기</a></p>')
+    if slug not in cases['cats']:
         return ''
     c = cases['cats'][slug]
-    hub = cases['hub']
-    if doc_id in c['case_docs']:
-        return (f'<p class="lib-case-link"><a href="{hub}">다른 분야 사고 사례까지 찾기 →</a>'
-                f'<a href="{hub}?cat={slug}">이 분야 사례 {c["count"]}건 목록</a></p>')
-    return f'<p class="lib-case-link"><a href="{hub}?cat={slug}">{html.escape(c["label"])} 사고 사례 {c["count"]}건 보기 →</a></p>'
+    target = f"/library/{hub.split('/')[2]}/{c['case_docs'][0]}"
+    return f'<p class="lib-case-link"><a href="{target}">{html.escape(c["label"])} 사고 사례 {c["count"]}건 보기 →</a></p>'
 
 
 def insert_case_link(body, link):

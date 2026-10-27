@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/dangerous-goods';
-  const DOCS_VERSION = '20261027-04';
+  const DOCS_VERSION = '20261027-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -54,7 +54,6 @@
     { id: 'dg-marks', checked: '2026-10-19', tag: "표시", level: 3, title: "위험물 표시와 표찰 — 국제 운송 라벨·마크·플래카드와 국내 경고 표시의 차이", short: "위험물 표시·표찰", summary: "포장물의 UN 번호·라벨·취급 마크, 컨테이너 표찰과 UN 번호 패널, 위험물안전관리법·화학물질관리법·산업안전보건법이 요구하는 국내 표시를 원문으로 비교하고, 어느 표시가 다른 표시를 대신할 수 있는지와 자주 하는 실수를 정리합니다." },
     { id: 'dg-container-packing', checked: '2026-10-27', tag: "컨테이너 적입", level: 3, title: "위험물 컨테이너 적입 — 컨테이너 적입 증명서(CPC), 컨테이너 안 격리, 국내 수납검사에서 선적까지", short: "위험물 컨테이너 적입과 수납검사", summary: "CTU Code 10장과 IMDG Code의 적입·고박, 격리표로 보는 혼적 금지, 훈증·드라이아이스 경고 표지, 적입 책임자가 서명하는 CPC와 위험물 명세서의 관계, 고시 제21조 수납검사 대상과 KOMDI 신청 서류, 반입신고 통지 의무와 항만 점검, 포워더의 서류 대조표를 정리합니다." },
     { id: 'dg-forwarder', tag: "교육·제재", level: 3, title: "포워더의 위험물 교육 의무와 제재 — 누가 어떤 교육을 받고, 안 받으면 어떻게 되나", short: "포워더의 교육 의무와 제재", summary: "직무별 교육 대상, IATA·IMDG·ADR·49 CFR과 국내 각 법의 교육 대상·시간·주기, 상호 인정, 법령별 과태료·벌칙, 선사 벌과금·민사 책임과 점검표." },
-    { id: 'dg-cases', checked: '2026-10-27', tag: "사례", level: 3, title: "위험물 사고 사례 — 항공기·선박·항만·창고에서 난 사고와 누가 책임졌나(사고·판결·처분·단속 55건)", short: "위험물 사고 사례", summary: "아시아나 991편, ValuJet 592편, MSC Flaminia, 베이루트항, 화성 전지공장 등 국내·해외 사고 21건과 미신고·오신고 통계, 한국 판결 10건, 해외 판결·처분 13건, 국내 단속 11건을 같은 형식으로 묶고, 사례에서 반복되는 실패와 판단 기준, 실무 확인 사항을 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -68,8 +67,7 @@
   const SECTIONS = [
     { title: "국제·국내 규칙", sub: "UN 권고·IATA·IMDG·ADR · 국내 법체계 · 소량 기준 · 국제와 국내가 다른 품목", docs: ["dg-rules", "kr-system", "kr-small", "kr-mismatch"] },
     { title: "화물 확인과 표시", sub: "MSDS 읽기 · 생활용품 · 숨은 위험물 · 리튬배터리 · 라벨과 표찰 · 컨테이너 적입과 수납검사", docs: ["dg-msds", "dg-household", "dg-hidden", "dg-lithium", "dg-marks", "dg-container-packing"] },
-    { title: "교육과 제재", sub: "직무별 교육 대상 · 국제·국내 교육 요건 · 미이수·미신고 제재", docs: ["dg-forwarder"] },
-    { title: "사고 사례", sub: "국내·해외 사고 · 판결·처분 · 단속 55건", docs: ["dg-cases"] }
+    { title: "교육과 제재", sub: "직무별 교육 대상 · 국제·국내 교육 요건 · 미이수·미신고 제재", docs: ["dg-forwarder"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
@@ -83,9 +81,7 @@
     { name: "품명이 '부품'·'샘플'뿐이면 어떻게 걸러내나요", ids: ["dg-hidden"] },
     { name: "라벨·표찰은 무엇을 붙이나요", ids: ["dg-marks", "dg-lithium"] },
     { name: "우리 직원은 무슨 교육을 받아야 하나요", ids: ["dg-forwarder"] },
-    { name: "교육·신고를 안 하면 어떻게 되나요", ids: ["dg-forwarder", "dg-cases"] },
-    { name: "실제로 어떤 사고가 있었나요", ids: ["dg-cases"] },
-    { name: "누가 책임졌나요(판결·처분)", ids: ["dg-cases"] }
+    { name: "교육·신고를 안 하면 어떻게 되나요", ids: ["dg-forwarder"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -118,7 +114,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>위험물, 국제 규칙과 국내법을 나눠 본다</h2><p>같은 화물이 수출 서류에서는 위험물이 아닌데 국내 창고에서는 위험물일 수 있습니다. <b>국제 위험물</b>은 UN 권고를 뿌리로 항공(ICAO·IATA)·해상(IMDG)·도로(ADR)가 같은 9개 등급으로 정하고, <b>국내 위험물</b>은 위험물안전관리법·화학물질관리법·고압가스 안전관리법 등 부처별 법이 따로 정합니다. 이 자료는 먼저 국제 규칙과 국내법을 나눠 설명하고, 이어 MSDS·생활용품·숨은 위험물·리튬배터리·표시처럼 화물을 확인하는 법, 직원 교육과 제재를 다룬 뒤, 마지막 장에 국내·해외의 사고·판결·단속 사례를 모았습니다. 궁금한 것부터 찾으려면 아래 "질문으로 찾기"를 보십시오.</p><a class="lib-summary-button" href="${link('dg-rules')}">국제 위험물 운송 규칙 한눈에 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('위험물 분류 판정, 포장 방법, 신고서 작성은 각 규칙의 최신판과 지정 교육기관의 교육에서 확인하세요. 리튬배터리·표시·숨은 위험물 문서는 실무에서 확인할 점을 요약한 것입니다. 해설은 AI가 법령과 공개 자료를 읽고 작성했으며 법률 자문이 아닙니다. 조문과 사례에는 바로 아래에 출처를 달았습니다. 법령은 개정될 수 있으니 실제 판단은 국가법령정보센터의 현행 조문과 관할 기관의 안내를 기준으로 하세요.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>위험물, 국제 규칙과 국내법을 나눠 본다</h2><p>같은 화물이 수출 서류에서는 위험물이 아닌데 국내 창고에서는 위험물일 수 있습니다. <b>국제 위험물</b>은 UN 권고를 뿌리로 항공(ICAO·IATA)·해상(IMDG)·도로(ADR)가 같은 9개 등급으로 정하고, <b>국내 위험물</b>은 위험물안전관리법·화학물질관리법·고압가스 안전관리법 등 부처별 법이 따로 정합니다. 이 자료는 먼저 국제 규칙과 국내법을 나눠 설명하고, 이어 MSDS·생활용품·숨은 위험물·리튬배터리·표시처럼 화물을 확인하는 법, 직원 교육과 제재를 다룹니다. 국내·해외의 사고·판결·단속 사례는 사고 사례 모음에 따로 모았습니다. 궁금한 것부터 찾으려면 아래 "질문으로 찾기"를 보십시오.</p><a class="lib-summary-button" href="${link('dg-rules')}">국제 위험물 운송 규칙 한눈에 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('위험물 분류 판정, 포장 방법, 신고서 작성은 각 규칙의 최신판과 지정 교육기관의 교육에서 확인하세요. 리튬배터리·표시·숨은 위험물 문서는 실무에서 확인할 점을 요약한 것입니다. 해설은 AI가 법령과 공개 자료를 읽고 작성했으며 법률 자문이 아닙니다. 조문과 사례에는 바로 아래에 출처를 달았습니다. 법령은 개정될 수 있으니 실제 판단은 국가법령정보센터의 현행 조문과 관할 기관의 안내를 기준으로 하세요.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}

@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/bl-awb';
-  const DOCS_VERSION = '20261026-03';
+  const DOCS_VERSION = '20261027-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -38,7 +38,6 @@
     { id: 'bl-special', tag: "특수", level: 3, title: "특수 B/L과 전자화 — Switch·분할 B/L, 선적일 소급, 전자선하증권(eBL)", short: "특수 B/L과 전자화", summary: "Switch·분할·통합 B/L의 정상 절차와 P&I 권고, 선적일 소급과 LOI를 받은 무사고 B/L의 결과, 상법 제862조와 KTNET 등록, MLETR·영국 ETDA 2023, DCSA 2030 약속, IG 승인 eBL을 정리합니다." },
     { id: 'bl-multimodal', checked: '2026-10-18', tag: "복합운송", level: 3, title: "복합운송과 책임 구간 — 손해 구간을 알 때와 모를 때", short: "복합운송과 책임 구간", summary: "문 앞까지 맡은 포워더가 복합운송인이 되는 경우, 네트워크·단일 책임제, 손해 구간을 알 때와 모를 때 상법 제816조와 FBL 약관의 답, 구간에 따라 바뀌는 기한, 경로별 가상 예시를 정리합니다." },
     { id: 'bl-cmr', checked: '2026-10-26', tag: "CMR", level: 3, title: "CMR 운송장과 유럽 트럭 운송 — 적용 범위, 운송장과 처분권, kg당 8.33 SDR, 기한, 포워더의 지위", short: "CMR과 유럽 트럭 운송", summary: "국경을 넘는 유럽 트럭 운송에 강행 적용되는 CMR의 적용 범위와 당사국, 운송장 3통·유보·처분권, e-CMR, 운송인 면책과 kg당 8.33 SDR 한도 계산, 고의의 기준, 7일·21일·1년 기한과 관할, 연속 운송인, 포워더가 운송인이 되는 경우를 정리합니다." },
-    { id: 'bl-cases', checked: '2026-10-26', tag: "사례", level: 3, title: "B/L·AWB 사고 사례 — 원본 없는 인도, 서렌더, 기명식 B/L, AWB, 복합운송 책임 구간, 유럽 트럭(CMR) 판례", short: "B/L·AWB 사고 사례", summary: "보증도와 위조 L/G, 서렌더·기명식 B/L, Master D/O를 넘긴 도착지 포워더, 통지처에 건넨 AWB, 복합운송 구간과 제척기간, 유럽 트럭 운송의 도난·한도·포워더 지위·관할 등 한국 판례 11건과 영국·홍콩·독일·네덜란드 판례 11건을 한눈에 보기 표와 함께 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -51,21 +50,19 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "B/L·AWB 기초", sub: "B/L 기초(AWB 비교표 포함) · AWB 기초", docs: ["bl-basics", "awb-basics"] },
-    { title: "화물 인도와 특수 서류", sub: "화물 인도 실무 · 특수 B/L과 전자화 · 복합운송과 책임 구간 · 유럽 트럭 운송(CMR)", docs: ["bl-release", "bl-special", "bl-multimodal", "bl-cmr"] },
-    { title: "사고 사례", sub: "B/L·AWB·CMR 판례 22건", docs: ["bl-cases"] }
+    { title: "화물 인도와 특수 서류", sub: "화물 인도 실무 · 특수 B/L과 전자화 · 복합운송과 책임 구간 · 유럽 트럭 운송(CMR)", docs: ["bl-release", "bl-special", "bl-multimodal", "bl-cmr"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
     { name: "B/L과 AWB는 뭐가 다른가요", ids: ["bl-basics", "awb-basics"] },
     { name: "신용장 거래인데 AWB 수하인은 누구로?", ids: ["awb-basics", "bl-release"] },
-    { name: "서렌더 해 달라는데 뭘 하면 되나요", ids: ["bl-release", "bl-cases"] },
-    { name: "원본 B/L 없이 화물을 내줘도 되나요", ids: ["bl-release", "bl-cases"] },
+    { name: "서렌더 해 달라는데 뭘 하면 되나요", ids: ["bl-release"] },
+    { name: "원본 B/L 없이 화물을 내줘도 되나요", ids: ["bl-release"] },
     { name: "House B/L을 발행하면 책임은?", ids: ["bl-basics", "bl-multimodal"] },
     { name: "Switch B/L·선적일 변경 요청을 받았어요", ids: ["bl-special"] },
     { name: "전자 B/L과 e-AWB는 어디까지 왔나요", ids: ["bl-special", "awb-basics"] },
-    { name: "문 앞까지 맡았는데 사고가 났어요", ids: ["bl-multimodal", "bl-cases"] },
-    { name: "유럽에서 트럭으로 국경을 넘는데 책임은?", ids: ["bl-cmr", "bl-cases"] },
-    { name: "B/L·AWB 판례를 한눈에 보고 싶어요", ids: ["bl-cases"] }
+    { name: "문 앞까지 맡았는데 사고가 났어요", ids: ["bl-multimodal"] },
+    { name: "유럽에서 트럭으로 국경을 넘는데 책임은?", ids: ["bl-cmr"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -86,7 +83,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>B/L과 AWB, 같은 운송서류인데 왜 다르게 움직이나</h2><p>해상의 선하증권(B/L)은 화물을 대신하는 권리증권이라 원본이 있어야 화물을 받지만, 항공화물운송장(AWB)은 화물과 함께 움직이는 비유통 서류라 수하인이 바로 받습니다. 1장은 두 서류의 기초와 비교표, 2장은 서렌더·보증도 같은 화물 인도와 Switch B/L·전자 B/L, 복합운송의 책임 구간, 유럽 트럭 운송의 CMR 운송장, 3장은 한국·해외 판례 22건을 모았습니다.</p><a class="lib-summary-button" href="${link('bl-basics')}#s9">B/L과 AWB 비교표부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('상법·몬트리올 협약·헤이그-비스비 규칙 등 법령과 협약, 판례, IATA·DCSA·은행의 공개 자료를 바탕으로 정리했습니다. UCP 600 본문은 싣지 않고 요약했습니다. 법률 자문이 아니며, 실제 분쟁은 계약 조건과 법원의 판단에 따릅니다. 해설은 AI가 작성했으며 법률 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>B/L과 AWB, 같은 운송서류인데 왜 다르게 움직이나</h2><p>해상의 선하증권(B/L)은 화물을 대신하는 권리증권이라 원본이 있어야 화물을 받지만, 항공화물운송장(AWB)은 화물과 함께 움직이는 비유통 서류라 수하인이 바로 받습니다. 1장은 두 서류의 기초와 비교표, 2장은 서렌더·보증도 같은 화물 인도와 Switch B/L·전자 B/L, 복합운송의 책임 구간, 유럽 트럭 운송의 CMR 운송장을 다룹니다. 한국·해외 판례 22건은 사고 사례 모음에 따로 모았습니다.</p><a class="lib-summary-button" href="${link('bl-basics')}#s9">B/L과 AWB 비교표부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('상법·몬트리올 협약·헤이그-비스비 규칙 등 법령과 협약, 판례, IATA·DCSA·은행의 공개 자료를 바탕으로 정리했습니다. UCP 600 본문은 싣지 않고 요약했습니다. 법률 자문이 아니며, 실제 분쟁은 계약 조건과 법원의 판단에 따릅니다. 해설은 AI가 작성했으며 법률 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

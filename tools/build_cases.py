@@ -1,4 +1,4 @@
-"""사고 사례 모음(/library/accident-cases)을 만든다: 카테고리마다 마지막 장 '사고 사례' 문서의 사례를 한 표로 모은다.
+"""사고 사례 모음(/library/accident-cases)의 전체 표를 만든다: 이 카테고리에 모아 둔 분야별 사례 문서(ac-docs/*-cases.html)의 사례를 한 표로 모은다.
 - 사례는 각 사례 문서의 '<h4>번호. 이름 — 요지 (연도, 장소)</h4>'와 바로 아래 '<li><b>구분</b>: 국내 · 해상 · 판결 · …</li>'에서 읽는다.
 - 사례 제목에 id="c<번호>"가 없으면 붙인다(모음 표에서 그 사례로 바로 가는 주소).
 - ac-docs/ac-all.html(표)과 accident-cases-library.js의 문서 제목·요약(건수)·DOCS_VERSION, 홈 카드의 건수를 고친다.
@@ -104,44 +104,42 @@ def classify(gubun):
             'issue': issue, 'result': result, 'cargo': cargo}
 
 
+# 사례 문서(모두 이 사고 사례 모음 카테고리 안, ac-docs/<id>.html) → 그 사례가 다루는 분야(색인의 카테고리).
+# 2026-10-27 운영자: 사고 사례·판례·보험 사례는 분야마다 두지 않고 이 카테고리 한곳에 모은다.
+CASE_ORIGIN = {
+    'inco-cases': 'incoterms-2020', 'ch-cases': 'charges', 'bl-cases': 'bl-awb', 'cu-cases': 'customs',
+    'cn-cases': 'container', 'uld-cases': 'air-uld', 'cargo-cases': 'ctu-code',
+    'dg-cases': 'dangerous-goods', 'battery-cases': 'eu-lithium-battery', 'tc-cases': 'temperature-cargo',
+    'ec-cases': 'export-control', 'rg-cases': 'regulated-goods',
+    'rk-cases': 'cargo-risk', 'ins-cases': 'cargo-insurance',
+}
+
+
 def collect():
-    import prerender
-    vercel = json.loads((ROOT / 'vercel.json').read_text(encoding='utf-8'))
-    cats = {c['base']: c for c in prerender.categories(vercel)}
+    """사례 문서를 분야(메뉴 순서)별로 읽는다. 새 분야의 사례 문서를 더하면 CASE_ORIGIN에 한 줄 넣는다."""
+    js_src = HUB_JS.read_text(encoding='utf-8')
+    by_slug = {}
+    for doc_id, slug in CASE_ORIGIN.items():
+        by_slug.setdefault(slug, []).append(doc_id)
     groups, changed = [], []
     for g, href, name in menu_order():
-        if href == '/library/' + HUB_SLUG or href not in cats:
-            continue
-        c = cats[href]
-        js_path = Path(c['js'])
-        js_src = js_path.read_text(encoding='utf-8')
         slug = href.split('/')[2]
         docs = []
-        for doc_id in case_docs(js_src):
+        for doc_id in by_slug.get(slug, []):
             pos = js_src.find(f"id: '{doc_id}'")
+            if pos < 0:
+                continue
             short = js_string(js_src, pos, 'short') or js_string(js_src, pos, 'title').split(' — ')[0]
-            if c['docs_dir']:
-                path = Path(c['docs_dir']) / f'{doc_id}.html'
-                markup = path.read_text(encoding='utf-8')
-                fixed = add_ids(markup)
-                if fixed != markup:
-                    path.write_text(fixed, encoding='utf-8', newline='')
-                    changed.append((js_path, path))
-                cases = parse_cases(fixed)
-            else:
-                # CTU처럼 본문이 JS 안에 있는 문서: 그 문서의 body 템플릿 문자열만 고친다.
-                b0 = js_src.index('body: `', pos) + len('body: `')
-                b1 = js_src.index('`', b0)
-                body = js_src[b0:b1]
-                fixed = add_ids(body)
-                if fixed != body:
-                    js_src = js_src[:b0] + fixed + js_src[b1:]
-                    js_path.write_text(js_src, encoding='utf-8', newline='')
-                    changed.append((js_path, None))
-                cases = parse_cases(fixed)
+            path = ROOT / 'ac-docs' / f'{doc_id}.html'
+            markup = path.read_text(encoding='utf-8')
+            fixed = add_ids(markup)
+            if fixed != markup:
+                path.write_text(fixed, encoding='utf-8', newline='')
+                changed.append((HUB_JS, path))
+            cases = parse_cases(fixed)
             for k in cases:
                 k.update(classify(k['gubun']))
-            docs.append({'id': doc_id, 'short': short, 'url': f'{href}/{doc_id}', 'cases': cases})
+            docs.append({'id': doc_id, 'short': short, 'url': f'/library/{HUB_SLUG}/{doc_id}', 'cases': cases})
         if docs:
             groups.append({'group': g, 'slug': slug, 'name': name, 'href': href, 'docs': docs})
     return groups, changed
@@ -198,7 +196,7 @@ def render(groups):
         f'<button type="button" data-f="reset">처음으로</button><output class="case-count" aria-live="polite">{total}건</output>'
         '</div>')
     doc = (
-        f'<p>이 사이트의 사고 사례는 분야마다 마지막 장 "사고 사례"에 있습니다. 이 페이지는 {len(groups)}개 분야의 사례 {total}건을 한 표로 모았습니다. '
+        f'<p>이 카테고리에는 {len(groups)}개 분야의 사고 사례 문서가 있고, 이 표는 그 사례 {total}건을 한곳에 모은 것입니다. '
         '분야, 국내·해외, 운송·장소, 유형으로 거르거나 사례 이름·화물·쟁점으로 찾을 수 있고, 사례 이름을 누르면 그 분야 사례 문서의 해당 사례로 바로 갑니다. '
         '경위·쟁점·판단·교훈과 출처는 각 사례 문서에 있습니다.</p>\n\n'
         '<h3>1. 전체 사례 찾기</h3>\n'
@@ -208,7 +206,7 @@ def render(groups):
         + '\n'.join(rows) + '\n</tbody></table>\n'
         '<p class="case-empty" hidden>조건에 맞는 사례가 없습니다. 조건을 줄이거나 "처음으로"를 누르세요.</p>\n\n'
         '<h3>2. 분야별 사례 문서</h3>\n'
-        '<p>사례 문서는 분야의 해설과 같은 순서로 사례를 묶고, 한눈에 보기 표와 사례에서 뽑은 체크리스트를 함께 둡니다.</p>\n'
+        '<p>사례 문서는 분야마다 하나씩이고, 사례를 주제별로 묶은 한눈에 보기 표와 사례에서 뽑은 체크리스트를 함께 둡니다. 묶음은 색인의 분야 묶음과 같습니다.</p>\n'
         '<table class="lib-table"><thead><tr><th>묶음</th><th>분야</th><th>사례 문서</th><th>건수</th></tr></thead><tbody>\n'
         + '\n'.join(summary) + f'\n<tr><td></td><td><b>합계</b></td><td>{len(groups)}개 분야</td><td><b>{total}건</b></td></tr>\n</tbody></table>\n')
     return doc, total
@@ -250,7 +248,8 @@ def main():
         print('사례 주소(id) 붙임:', (path or js_path).relative_to(ROOT).as_posix())
     index = {'hub': HUB_URL, 'total': total, 'cats': {g['slug']: {
         'label': cat_label(g['name'], g['slug']), 'count': sum(len(d['cases']) for d in g['docs']),
-        'case_docs': [d['id'] for d in g['docs']]} for g in groups}}
+        'case_docs': [d['id'] for d in g['docs']]} for g in groups},
+        'docs': {d['id']: g['slug'] for g in groups for d in g['docs']}}
     text = json.dumps(index, ensure_ascii=False, indent=1) + chr(10)
     if not INDEX.is_file() or INDEX.read_text(encoding='utf-8') != text:
         INDEX.write_text(text, encoding='utf-8', newline='')

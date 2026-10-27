@@ -483,7 +483,7 @@
     },
     {
       "source": "/library/ctu-code/im1-consequences",
-      "destination": "/library/ctu-code/cargo-cases",
+      "destination": "/library/accident-cases/cargo-cases",
       "permanent": true
     },
     {
@@ -513,27 +513,97 @@
     },
     {
       "source": "/library/dangerous-goods/case-kr-accident",
-      "destination": "/library/dangerous-goods/dg-cases",
+      "destination": "/library/accident-cases/dg-cases",
       "permanent": true
     },
     {
       "source": "/library/dangerous-goods/case-accident",
-      "destination": "/library/dangerous-goods/dg-cases",
+      "destination": "/library/accident-cases/dg-cases",
       "permanent": true
     },
     {
       "source": "/library/dangerous-goods/case-kr-litigation",
-      "destination": "/library/dangerous-goods/dg-cases",
+      "destination": "/library/accident-cases/dg-cases",
       "permanent": true
     },
     {
       "source": "/library/dangerous-goods/case-litigation",
-      "destination": "/library/dangerous-goods/dg-cases",
+      "destination": "/library/accident-cases/dg-cases",
       "permanent": true
     },
     {
       "source": "/library/dangerous-goods/case-inspection",
-      "destination": "/library/dangerous-goods/dg-cases",
+      "destination": "/library/accident-cases/dg-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/incoterms-2020/inco-cases",
+      "destination": "/library/accident-cases/inco-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/charges/ch-cases",
+      "destination": "/library/accident-cases/ch-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/bl-awb/bl-cases",
+      "destination": "/library/accident-cases/bl-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/customs/cu-cases",
+      "destination": "/library/accident-cases/cu-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/container/cn-cases",
+      "destination": "/library/accident-cases/cn-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/air-uld/uld-cases",
+      "destination": "/library/accident-cases/uld-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/ctu-code/cargo-cases",
+      "destination": "/library/accident-cases/cargo-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/dangerous-goods/dg-cases",
+      "destination": "/library/accident-cases/dg-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/eu-lithium-battery/cases",
+      "destination": "/library/accident-cases/battery-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/temperature-cargo/tc-cases",
+      "destination": "/library/accident-cases/tc-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/export-control/ec-cases",
+      "destination": "/library/accident-cases/ec-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/regulated-goods/rg-cases",
+      "destination": "/library/accident-cases/rg-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/cargo-risk/rk-cases",
+      "destination": "/library/accident-cases/rk-cases",
+      "permanent": true
+    },
+    {
+      "source": "/library/cargo-insurance/ins-cases",
+      "destination": "/library/accident-cases/ins-cases",
       "permanent": true
     }
   ]

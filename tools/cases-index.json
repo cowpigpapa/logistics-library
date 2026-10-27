@@ -62,7 +62,7 @@
    "label": "EU 배터리",
    "count": 7,
    "case_docs": [
-    "cases"
+    "battery-cases"
    ]
   },
   "temperature-cargo": {
@@ -100,5 +100,21 @@
     "ins-cases"
    ]
   }
+ },
+ "docs": {
+  "inco-cases": "incoterms-2020",
+  "ch-cases": "charges",
+  "bl-cases": "bl-awb",
+  "cu-cases": "customs",
+  "cn-cases": "container",
+  "uld-cases": "air-uld",
+  "cargo-cases": "ctu-code",
+  "dg-cases": "dangerous-goods",
+  "battery-cases": "eu-lithium-battery",
+  "tc-cases": "temperature-cargo",
+  "ec-cases": "export-control",
+  "rg-cases": "regulated-goods",
+  "rk-cases": "cargo-risk",
+  "ins-cases": "cargo-insurance"
  }
 }

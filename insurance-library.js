@@ -4,7 +4,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-insurance';
-  const DOCS_VERSION = '20261027-03';
+  const DOCS_VERSION = '20261027-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -41,7 +41,6 @@
     { id: 'ins-general-average', checked: '2026-10-19', tag: "공동해손", level: 3, title: "공동해손과 구조 — GA 선언 시 화주가 낼 담보, 컨테이너 유실과의 관계, 실제 사고 사례", short: "공동해손과 구조", summary: "화물이 멀쩡해도 담보를 내야 하는 공동해손의 개념과 YAR 2016·상법, 컨테이너 유실이 공동해손이 되는 경우, 맹약서·보증장·현금 공탁과 정산인 안내문 읽는 법, Yantian Express·Maersk Honam·Dali·CMA CGM LIBRA 등 실제 사고 사례를 정리합니다." },
     { id: 'ins-container-loss', checked: '2026-10-19', tag: "유실", level: 2, title: "컨테이너 유실 사고 — 본선에서 컨테이너가 바다에 떨어졌을 때", short: "컨테이너 유실 사고", summary: "해상 운송 중 컨테이너가 바다에 떨어졌을 때 화주·포워더·보험 담당이 할 일을 정리합니다. WSC 통계와 TopTier가 밝힌 원인, 2026년 SOLAS 유실 보고 의무, 운송인 면책·한도·1년 기한, ICC (A)(B)(C)의 담보 차이를 다룹니다." },
     { id: 'ins-forwarder', tag: "포워더", level: 3, title: "포워더와 보험 — 배상책임보험, House B/L 책임, 보험업법", short: "포워더 배상책임과 보험", summary: "포워더가 운송주선인이 아니라 운송인으로 책임지는 경우, 포워더 배상책임보험과 적하보험의 차이, 국제물류주선업 등록의 보증보험·화물배상책임보험 요건, 화주 보험을 들어 주는 행위와 보험업법상 모집 규제를 다룹니다." },
-    { id: 'ins-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "화물보험 사고 사례 — 보험금 분쟁, 운송인·포워더 책임, 공동해손·컨테이너 유실, 온도유지 화물", short: "화물보험 사고 사례", summary: "영국법 준거약관·고유 하자·포장·제재 면책 같은 보험금 분쟁, 포장당 한도와 House B/L 포워더 책임, Yantian Express·CMA CGM LIBRA 등 공동해손과 컨테이너 유실, 리퍼 온도 오설정까지 24개 판례·사고를 같은 형식으로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -54,19 +53,17 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "적하보험 기초", sub: "누가 들고 얼마를 · ICC 약관과 면책 · 가입이 어려운 화물", docs: ["ins-basics", "ins-icc", "ins-uninsurable"] },
-    { title: "운송인 책임과 클레임", sub: "운송인 책임 한도 · 클레임 절차와 기한 · 공동해손 · 컨테이너 유실 · 포워더와 보험", docs: ["ins-carrier-liability", "ins-claims", "ins-general-average", "ins-container-loss", "ins-forwarder"] },
-    { title: "사고 사례", sub: "보험금 분쟁 · 운송인·포워더 책임 · 공동해손·유실 · 온도유지 화물", docs: ["ins-cases"] }
+    { title: "운송인 책임과 클레임", sub: "운송인 책임 한도 · 클레임 절차와 기한 · 공동해손 · 컨테이너 유실 · 포워더와 보험", docs: ["ins-carrier-liability", "ins-claims", "ins-general-average", "ins-container-loss", "ins-forwarder"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
     { name: "보험은 누가 들어야 하나요", ids: ["ins-basics", "ins-forwarder"] },
     { name: "파손됐는데 누가 물어주나요", ids: ["ins-carrier-liability", "ins-claims"] },
     { name: "ICC (A)와 (C)는 뭐가 다른가요", ids: ["ins-icc", "ins-basics"] },
-    { name: "냉동·냉장 화물도 보험이 되나요", ids: ["ins-uninsurable", "ins-cases"] },
-    { name: "공동해손 선언이 나왔어요", ids: ["ins-general-average", "ins-cases"] },
+    { name: "냉동·냉장 화물도 보험이 되나요", ids: ["ins-uninsurable"] },
+    { name: "공동해손 선언이 나왔어요", ids: ["ins-general-average"] },
     { name: "컨테이너가 바다에 떨어졌대요", ids: ["ins-container-loss", "ins-general-average"] },
-    { name: "포워더가 보험을 들어 줘도 되나요", ids: ["ins-forwarder", "ins-cases"] },
-    { name: "실제 판례와 사고를 보고 싶어요", ids: ["ins-cases"] }
+    { name: "포워더가 보험을 들어 줘도 되나요", ids: ["ins-forwarder"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -87,7 +84,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>화물보험, 사고가 나면 돈은 어디서 나오나</h2><p>화물이 파손되거나 없어지면 보상은 운송인의 책임, 적하보험, 공동해손 정산이 얽혀 결정됩니다. 1장은 누가 보험을 드는지와 ICC (A)(B)(C), 가입이 어려운 화물, 2장은 운송인 책임 한도와 클레임 절차·기한, 공동해손, 컨테이너 유실, 포워더와 보험을 다루고, 3장에 보험금 분쟁과 운송인 책임 판례·사고 23건을 모았습니다.</p><a class="lib-summary-button" href="${link('ins-basics')}">적하보험 기초부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('약관·협약·법령·판례와 보험사·협회의 공개 자료를 바탕으로 정리했습니다. ICC 약관과 Incoterms 본문은 싣지 않고 요약했습니다. 법률·보험 자문이 아니며, 실제 보상 여부는 보험증권의 약관과 보험사·법원의 판단에 따릅니다. 해설은 AI가 작성했으며 보험사나 법률 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>화물보험, 사고가 나면 돈은 어디서 나오나</h2><p>화물이 파손되거나 없어지면 보상은 운송인의 책임, 적하보험, 공동해손 정산이 얽혀 결정됩니다. 1장은 누가 보험을 드는지와 ICC (A)(B)(C), 가입이 어려운 화물, 2장은 운송인 책임 한도와 클레임 절차·기한, 공동해손, 컨테이너 유실, 포워더와 보험을 다룹니다. 보험금 분쟁과 운송인 책임 판례·사고 23건은 사고 사례 모음에 따로 모았습니다.</p><a class="lib-summary-button" href="${link('ins-basics')}">적하보험 기초부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('약관·협약·법령·판례와 보험사·협회의 공개 자료를 바탕으로 정리했습니다. ICC 약관과 Incoterms 본문은 싣지 않고 요약했습니다. 법률·보험 자문이 아니며, 실제 보상 여부는 보험증권의 약관과 보험사·법원의 판단에 따릅니다. 해설은 AI가 작성했으며 보험사나 법률 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

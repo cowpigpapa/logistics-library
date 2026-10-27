@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/regulated-goods';
-  const DOCS_VERSION = '20261026-03';
+  const DOCS_VERSION = '20261027-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -36,7 +36,6 @@
     { id: 'rg-lmo', checked: '2026-10-23', tag: "LMO", level: 3, title: "유전자변형생물체(LMO) 수입·수출 — 용도별 승인, 국경검사, 미승인 LMO 폐기·반송, GMO 표시와의 차이", short: "LMO 수입·수출", summary: "종자·원형 곡물·사료·연구용 미생물이 LMO이면 용도별 수입승인·신고와 검역본부 국경검사를 거칩니다. 비의도적 혼입 3%·0.5%, 30일 폐기·반송, 경유 신고, GMO 식품표시와의 차이, 받을 서류를 정리했습니다." },
     { id: 'rg-cites', checked: '2026-10-23', tag: "CITES", level: 2, title: "일반 화물 속 CITES(멸종위기종) — 가죽 가방, 자단 가구, 한약재가 허가 대상이 되는 이유", short: "일반 화물 속 CITES", summary: "야생생물법의 국제적 멸종위기종 수출입 허가, 부속서 I·II·III, 악어 가죽·산호·캐비아·사향·침향·자단 같은 의외의 대상, 2019년 자단 악기 면제 범위, 견본·이삿짐·환적 면제 여부, 몰수·처벌, 포워더가 받을 서류를 정리합니다." },
     { id: 'rg-heritage', checked: '2026-10-23', tag: "문화유산", level: 3, title: "고미술품·고서·표본의 국외 반출 — 일반동산문화유산, 비문화유산 확인, 허가와 처벌", short: "문화유산 국외 반출", summary: "지정되지 않은 고미술품·고서·민속품·자연사 표본도 1945년 이전 제작 등 기준을 갖추면 반출이 금지됩니다. 비문화유산 확인, 전시 목적 허가, 천연기념물, 세관 확인과 처벌, 포워더가 받을 서류를 정리했습니다." },
-    { id: 'rg-cases', checked: '2026-10-23', tag: "사례", level: 2, title: "반출입 규제 물품 사고 사례 — 폐기물·목재 포장재·LMO·CITES·문화유산 단속과 판결 34건", short: "반출입 규제 물품 사고 사례", summary: "재활용 원료로 신고한 폐기물의 반송, 위조 소독마크와 해충 팔레트로 인한 재수출, 미승인 LMO 종자·곡물 폐기, 냉동 화물·목재로 위장한 멸종위기종, 서적·가구로 위장한 문화유산 반출까지 국내외 단속·처분·판결 34건을 품목별로 정리했습니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -50,19 +49,17 @@
   const SECTIONS = [
     { title: "폐기물", sub: "중고품·재활용 원료와 폐기물의 경계 · 바젤 목록 · 허가·신고와 반송명령", docs: ["rg-waste"] },
     { title: "검역", sub: "목재 포장재(ISPM 15) · 유전자변형생물체(LMO)", docs: ["rg-ispm15", "rg-lmo"] },
-    { title: "보호 대상 물품", sub: "멸종위기종(CITES) · 문화유산 국외 반출", docs: ["rg-cites", "rg-heritage"] },
-    { title: "사고 사례", sub: "폐기물 반송 · 목재 포장재 반송·벌금 · LMO 검출 · 멸종위기종 밀수 · 문화유산 밀반출", docs: ["rg-cases"] }
+    { title: "보호 대상 물품", sub: "멸종위기종(CITES) · 문화유산 국외 반출", docs: ["rg-cites", "rg-heritage"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
     { name: "중고 기계·고철을 수출하는데 폐기물인가요", ids: ["rg-waste"] },
-    { name: "폐전선·전자 스크랩·폐플라스틱은요", ids: ["rg-waste", "rg-cases"] },
+    { name: "폐전선·전자 스크랩·폐플라스틱은요", ids: ["rg-waste"] },
     { name: "팔레트에 찍힌 마크는 무엇인가요", ids: ["rg-ispm15"] },
-    { name: "미국·호주에서 목재 포장재 때문에 반송됐어요", ids: ["rg-ispm15", "rg-cases"] },
+    { name: "미국·호주에서 목재 포장재 때문에 반송됐어요", ids: ["rg-ispm15"] },
     { name: "콩·옥수수·종자를 들여오는데 승인이 필요한가요", ids: ["rg-lmo"] },
     { name: "가죽 가방·자단 가구·한약재도 허가가 필요한가요", ids: ["rg-cites"] },
-    { name: "이삿짐에 오래된 도자기·고서가 있어요", ids: ["rg-heritage"] },
-    { name: "실제로 어떤 단속이 있었나요", ids: ["rg-cases"] }
+    { name: "이삿짐에 오래된 도자기·고서가 있어요", ids: ["rg-heritage"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -83,7 +80,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>화물이 아니라 그 성격이 허가를 부른다</h2><p>중고품이라고 신고한 기계가 폐기물이 되고, 팔레트 마크 하나 때문에 컨테이너가 반송되고, 가죽 가방·자단 가구·오래된 도자기가 허가 없이는 나갈 수 없는 경우가 있습니다. 폐기물, 검역(목재 포장재·LMO), 보호 대상 물품(멸종위기종·문화유산)을 차례로 다루고, 마지막 장에 국내외 단속·판결 사례를 모았습니다.</p><a class="lib-summary-button" href="${link('rg-waste')}">폐기물 수출입부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('각 법령 원문과 기후에너지환경부·농림축산검역본부·국가유산청·관세청 발표, 국제 기준(바젤협약·ISPM 15·CITES) 등 공개 자료를 바탕으로 정리했습니다. 해당 여부는 허가·검역 기관의 판단으로 정해지며 이 자료는 그 판단을 대신하지 않습니다. 해설은 AI가 작성했으며 법률 자문이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>화물이 아니라 그 성격이 허가를 부른다</h2><p>중고품이라고 신고한 기계가 폐기물이 되고, 팔레트 마크 하나 때문에 컨테이너가 반송되고, 가죽 가방·자단 가구·오래된 도자기가 허가 없이는 나갈 수 없는 경우가 있습니다. 폐기물, 검역(목재 포장재·LMO), 보호 대상 물품(멸종위기종·문화유산)을 차례로 다룹니다. 국내외 단속·판결 사례는 사고 사례 모음에 따로 모았습니다.</p><a class="lib-summary-button" href="${link('rg-waste')}">폐기물 수출입부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('각 법령 원문과 기후에너지환경부·농림축산검역본부·국가유산청·관세청 발표, 국제 기준(바젤협약·ISPM 15·CITES) 등 공개 자료를 바탕으로 정리했습니다. 해당 여부는 허가·검역 기관의 판단으로 정해지며 이 자료는 그 판단을 대신하지 않습니다. 해설은 AI가 작성했으며 법률 자문이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

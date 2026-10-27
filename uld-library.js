@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/air-uld';
-  const DOCS_VERSION = '20261026-03';
+  const DOCS_VERSION = '20261027-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -38,7 +38,6 @@
     { id: 'uld-holds', tag: "화물칸", level: 3, title: "항공기 화물칸과 탑재 배치 — 메인덱, 로어덱 FWD·AFT 홀드, 벌크, 탑재 위치와 문", short: "항공기 화물칸과 탑재 위치", summary: "메인덱·로어덱 FWD/AFT·벌크 구성과 기종별 ULD 탑재 수·화물 문 크기, 위치 이름 읽는 법과 위치별 하중 제한." },
     { id: 'uld-buildup', tag: "빌드업", level: 3, title: "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형", short: "컨투어와 빌드업 기준", summary: "로어덱 64 in, 메인덱 96·118 in와 위치별 컨투어 차이, 반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트." },
     { id: 'uld-safety', tag: "안전", level: 2, title: "ULD 안전과 특수화물 — 손상 기준, 빌린 ULD의 점검·반납, 특수화물 고정과 규정", short: "ULD 안전과 특수화물", summary: "ULD 손상 점검 기준과 서비스 불가 ULD 처리, BUP용으로 빌린 ULD의 점검·반납 기한·지체료·손상 책임, 무거운 화물·차량·동물·온도관리 화물 같은 특수화물의 고정과 항공 보안, 관련 국제 규정과 포워더 체크리스트." },
-    { id: 'uld-cases', checked: '2026-10-22', tag: "사례", level: 2, title: "ULD·탑재 사고 사례 — 화물 고정·잠금장치와 중량·적재 위치 오류로 난 항공 사고·준사고", short: "ULD·탑재 사고 사례", summary: "차량 고정 실패로 추락한 National Airlines 102편, 겹친 빈 팔레트가 밀린 Aloha 601편, 잠금장치를 올리지 않은 에어뉴질랜드·G-CLNK·G-JMCZ, 팔레트·받침목 중량이 빠진 Fine Air 101편·MK 1602편 등 9건을 조사보고서로 정리했습니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -51,8 +50,7 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "ULD 종류와 코드", sub: "ULD란과 코드 읽는 법 · 88·96인치 팔레트", docs: ["uld-code", "uld-pallets"] },
-    { title: "탑재와 빌드업", sub: "화물칸과 탑재 배치 · 컨투어와 빌드업 · ULD 안전과 특수화물", docs: ["uld-holds", "uld-buildup", "uld-safety"] },
-    { title: "사고 사례", sub: "화물 고정·잠금장치와 중량·적재 위치 오류 사고 9건", docs: ["uld-cases"] }
+    { title: "탑재와 빌드업", sub: "화물칸과 탑재 배치 · 컨투어와 빌드업 · ULD 안전과 특수화물", docs: ["uld-holds", "uld-buildup", "uld-safety"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
@@ -64,7 +62,7 @@
     { name: "BUP는 어떻게 짜나요", ids: ["uld-buildup", "uld-pallets"] },
     { name: "무거운 화물·차량·엔진은 어떻게 싣나요", ids: ["uld-safety", "uld-pallets"] },
     { name: "빌린 ULD를 늦게 돌려주거나 손상하면 어떻게 되나요", ids: ["uld-safety"] },
-    { name: "잘못 실으면 어떻게 되나요", ids: ["uld-cases", "uld-holds"] }
+    { name: "잘못 실으면 어떻게 되나요", ids: ["uld-holds"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -85,7 +83,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>항공 ULD, 무엇을 알아야 하나</h2><p>항공화물은 낱개가 아니라 <b>ULD(Unit Load Device)</b> — 항공기에 맞춰 만든 팔레트와 컨테이너 — 에 실려 비행기에 들어갑니다. ULD의 정의와 인증 구분, 코드를 읽는 법, 88인치와 96인치 팔레트의 차이, 메인덱·로어덱·벌크 같은 화물칸 구조, 화물을 쌓을 수 있는 외형 한계인 컨투어, 빌드업과 안전을 정리하고, 마지막 장에 화물 고정·중량 오류로 난 실제 사고 9건을 모았습니다.</p><a class="lib-summary-button" href="${link('uld-code')}">ULD란과 코드 읽는 법 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('ULD의 치수·중량·코드는 IATA·FAA·EASA와 항공사·제조사가 공개한 자료를 바탕으로 정리했으며, 유료 간행물인 IATA ULD Regulations 본문은 옮기지 않았습니다. 같은 ULD라도 항공사와 제조사마다 표기가 조금씩 다를 수 있습니다. 컨투어 단면도와 크기 비교 도면은 항공사 그림을 옮기지 않고 공개된 치수로 새로 그렸으며 개략도입니다. 해설은 AI가 작성했으며 IATA·항공사가 검토한 것이 아닙니다. 실제 탑재는 해당 항공사의 최신 기준을 따르세요.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>항공 ULD, 무엇을 알아야 하나</h2><p>항공화물은 낱개가 아니라 <b>ULD(Unit Load Device)</b> — 항공기에 맞춰 만든 팔레트와 컨테이너 — 에 실려 비행기에 들어갑니다. ULD의 정의와 인증 구분, 코드를 읽는 법, 88인치와 96인치 팔레트의 차이, 메인덱·로어덱·벌크 같은 화물칸 구조, 화물을 쌓을 수 있는 외형 한계인 컨투어, 빌드업과 안전을 정리했습니다. 화물 고정·중량 오류로 난 실제 사고 9건은 사고 사례 모음에 따로 모았습니다.</p><a class="lib-summary-button" href="${link('uld-code')}">ULD란과 코드 읽는 법 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('ULD의 치수·중량·코드는 IATA·FAA·EASA와 항공사·제조사가 공개한 자료를 바탕으로 정리했으며, 유료 간행물인 IATA ULD Regulations 본문은 옮기지 않았습니다. 같은 ULD라도 항공사와 제조사마다 표기가 조금씩 다를 수 있습니다. 컨투어 단면도와 크기 비교 도면은 항공사 그림을 옮기지 않고 공개된 치수로 새로 그렸으며 개략도입니다. 해설은 AI가 작성했으며 IATA·항공사가 검토한 것이 아닙니다. 실제 탑재는 해당 항공사의 최신 기준을 따르세요.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

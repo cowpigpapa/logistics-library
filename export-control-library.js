@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/export-control';
-  const DOCS_VERSION = '20261026-03';
+  const DOCS_VERSION = '20261027-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -33,7 +33,6 @@
     { id: 'ec-basics', checked: '2026-10-23', tag: "수출통제", level: 3, title: "전략물자·방산물자 수출통제 — 무엇이 통제되고, 어떤 허가가 있고, 위반하면 어떻게 되나", short: "수출통제 기초", summary: "대외무역법 전략물자(이중용도·군용물자)와 상황허가, 방위사업법 방산물자, 원자력·화학무기 품목의 통제 범위, 수출·상황·경유환적·중개허가와 판정, 세관 확인, 벌칙, 미국 EAR·ITAR 재수출 범위를 현행 원문으로 정리합니다." },
     { id: 'ec-forwarder', checked: '2026-10-23', tag: "수출통제", level: 3, title: "무허가 수출에 엮이는 경로 — 포워더가 서류로 거르는 법과 처벌 기준", short: "포워더의 수출통제 점검", summary: "품명 위장·제3국 우회·운송 중 수하인 변경 같은 국내 단속 수법, 대외무역법 12가지 의심 징후와 미국 BIS 위험 신호, 판정서·허가서·최종사용자 확인 순서, 한국 경유 환적 허가, 포워더의 공범·양벌 책임을 정리합니다." },
     { id: 'ec-sanctions', checked: '2026-10-23', tag: "제재", level: 3, title: "제재 대상자·선박·항공기와 우회 수출 — 품목 판정 밖에서 포워더가 확인할 것", short: "제재·우회 수출 스크리닝", summary: "화물이 합법이어도 거래처·실소유자, 선박·항공기, 경로·결제가 제재에 걸리면 거래가 막힙니다. 한국 외국환거래법·테러자금금지법·대외무역법 특별조치, UN·OFAC·BIS·EU·영국 목록, IMO 번호 조회와 우회 신호, 받을 서류를 정리했습니다." },
-    { id: 'ec-cases', checked: '2026-10-23', tag: "사례", level: 2, title: "수출통제 사고 사례 — 방산·전략물자 무허가 수출과 제재 위반, 해외 포워더 처분 17건", short: "수출통제 사고 사례", summary: "미얀마 전략물자 대법원 판결, 총기 부품·공작기계·이차전지 설비 무허가 수출과 러시아 우회, 북한산 석탄 위장 반입, 제재 선박, DHL·Toll·Fracht 등 해외 포워더·운송인 처분까지 국내 9건과 해외 8건을 원문으로 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -46,8 +45,7 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "전략물자·방산물자 수출허가", sub: "통제 대상과 허가 종류 · 판정과 세관 확인 · 포워더가 서류로 거르는 법", docs: ["ec-basics", "ec-forwarder"] },
-    { title: "제재와 우회 수출", sub: "제재 대상자·실소유자 · 선박·항공기 확인 · 우회 경로 신호", docs: ["ec-sanctions"] },
-    { title: "사고 사례", sub: "국내 무허가 수출 단속 · 해외 포워더·운송인 처분 · 제재 위반", docs: ["ec-cases"] }
+    { title: "제재와 우회 수출", sub: "제재 대상자·실소유자 · 선박·항공기 확인 · 우회 경로 신호", docs: ["ec-sanctions"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
@@ -55,10 +53,9 @@
     { name: "일반 기계 부품도 허가가 필요할 수 있나요", ids: ["ec-basics", "ec-forwarder"] },
     { name: "화주가 판정서가 없다고 해요", ids: ["ec-forwarder"] },
     { name: "한국을 거쳐 가는 환적 화물도 허가가 필요한가요", ids: ["ec-forwarder", "ec-basics"] },
-    { name: "포워더도 처벌받나요", ids: ["ec-forwarder", "ec-cases"] },
+    { name: "포워더도 처벌받나요", ids: ["ec-forwarder"] },
     { name: "수하인이 제재 대상인지 어떻게 확인하나요", ids: ["ec-sanctions"] },
-    { name: "선박이 제재 대상이면요", ids: ["ec-sanctions", "ec-cases"] },
-    { name: "실제로 어떤 단속이 있었나요", ids: ["ec-cases"] }
+    { name: "선박이 제재 대상이면요", ids: ["ec-sanctions"] }
   ];
   const stagePath = () =>
     `<section class="lib-section lib-path"><h3>질문으로 찾기</h3><div class="lib-stages">${STAGES.map(
@@ -79,7 +76,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>통관이 끝났다고 수출이 허가된 것은 아니다</h2><p>군용·이중용도 물품은 품명이 "부품"이어도 대외무역법·방위사업법의 수출허가 대상일 수 있고, 수출신고가 수리된 뒤에 무허가 수출로 적발되면 운송을 주선한 포워더도 수사 대상이 됩니다. 1장은 통제 대상과 허가 종류, 포워더가 서류로 거르는 법, 2장은 제재 대상자·선박과 우회 수출을 다루고, 마지막 장에 국내외 단속·처분 사례를 모았습니다.</p><a class="lib-summary-button" href="${link('ec-basics')}">수출통제 기초부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('대외무역법·방위사업법·관세법 원문과 산업통상부·관세청·무역안보관리원, 미국 BIS·OFAC 등 공개 자료를 바탕으로 정리했습니다. 품목의 전략물자 해당 여부는 무역안보관리원 판정이나 허가 기관의 확인으로 정해지며, 이 자료는 그 판단을 대신하지 않습니다. 해설은 AI가 작성했으며 법률 자문이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>통관이 끝났다고 수출이 허가된 것은 아니다</h2><p>군용·이중용도 물품은 품명이 "부품"이어도 대외무역법·방위사업법의 수출허가 대상일 수 있고, 수출신고가 수리된 뒤에 무허가 수출로 적발되면 운송을 주선한 포워더도 수사 대상이 됩니다. 1장은 통제 대상과 허가 종류, 포워더가 서류로 거르는 법, 2장은 제재 대상자·선박과 우회 수출을 다룹니다. 국내외 단속·처분 사례는 사고 사례 모음에 따로 모았습니다.</p><a class="lib-summary-button" href="${link('ec-basics')}">수출통제 기초부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('대외무역법·방위사업법·관세법 원문과 산업통상부·관세청·무역안보관리원, 미국 BIS·OFAC 등 공개 자료를 바탕으로 정리했습니다. 품목의 전략물자 해당 여부는 무역안보관리원 판정이나 허가 기관의 확인으로 정해지며, 이 자료는 그 판단을 대신하지 않습니다. 해설은 AI가 작성했으며 법률 자문이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;

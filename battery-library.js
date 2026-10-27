@@ -6,7 +6,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/eu-lithium-battery';
-  const DOCS_VERSION = '20261026-03';
+  const DOCS_VERSION = '20261027-05';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -124,7 +124,6 @@
     { id: 'w-anx6-8', law: 'w', tag: "부속서 VI~VIII", level: 3, title: "부속서 VI~VIII 사전동의 시설·부속서 VII 서류·등재 요청 양식", short: "부속서 VII 서류 양식", summary: "녹색목록 폐기물 운송 서류(부속서 VII) 양식과 칸별 작성 주체·기한." },
     { id: 'w-anx9-10', law: 'w', tag: "부속서 IX~X", level: 2, title: "부속서 IX~X 평가 참조 기준과 시설 감사 기준", short: "부속서 IX~X 시설 감사", summary: "EU 밖 폐기물 처리시설의 감사인 자격과 시설 기준." },
     { id: 'w-anx11-13', law: 'w', tag: "부속서 XI~XIII", level: 2, title: "부속서 XI~XIII 보고 설문·공개 정보·대조표", short: "부속서 XIII 대조표", summary: "회원국 보고 설문, 공개 정보 항목, 구 규정 1013/2006과의 조문 대조표." },
-    { id: 'cases', law: 'g', tag: "사례", level: 3, title: "EU 배터리·폐기물 운송 사례 — 판결·단속·운송 중 화재", short: "배터리·폐기물 운송 사고 사례", summary: "반품·재고·규격 미달 화물이 언제 폐기물인지 다툰 CJEU 판결(Shell, Omni Metal Service, Tronex, Interseroh), 로테르담항 폐 납축전지 운송 중지, 영국 녹색목록 허위 기재 유죄, 미국 폐리튬배터리 컨테이너 화재 7건을 쟁점·결과·포워더 교훈으로 정리." }
   ];
   const LAW_NAMES = { b: '배터리 규정 2023/1542', w: '폐기물운송규정 2024/1157', g: '실무 가이드' };
   const byId = id => DOCS.find(d => d.id === id);
@@ -140,19 +139,18 @@
   const SECTIONS = [
     { title: "실무 가이드", sub: "AI 작성 · 두 규정을 가로질러 정리한 판정·일정·체크리스트", docs: ["overview", "status", "changes", "timeline", "checklist", "de-nl"] },
     { title: "배터리 규정 2023/1542", sub: "전문, 제1~14장, 부속서 I~XV의 해설과 전체 번역", docs: ["b-recitals-a", "b-recitals-b", "b-ch1", "b-ch2", "b-ch3", "b-ch4", "b-ch5", "b-ch6", "b-ch7", "b-ch8a", "b-ch8b", "b-ch9", "b-ch10", "b-ch11", "b-ch12-14", "b-anx1-5", "b-anx6-7", "b-anx8", "b-anx9-10", "b-anx11-12", "b-anx13", "b-anx14", "b-anx15"] },
-    { title: "폐기물운송규정 2024/1157", sub: "전문, 제1~8편, 부속서 IA~XIII의 해설과 전체 번역", docs: ["w-recitals", "w-t1", "w-t2-1a", "w-t2-1b", "w-t2-2", "w-t2-4", "w-t2-5", "w-t3", "w-t4", "w-t5", "w-t6", "w-t7", "w-t8", "w-anx1", "w-anx2", "w-anx3-4", "w-anx5", "w-anx6-8", "w-anx9-10", "w-anx11-13"] },
-    { title: "사고 사례", sub: "CJEU 판결 · 당국 단속 · 운송 중 화재", docs: ["cases"] }
+    { title: "폐기물운송규정 2024/1157", sub: "전문, 제1~8편, 부속서 IA~XIII의 해설과 전체 번역", docs: ["w-recitals", "w-t1", "w-t2-1a", "w-t2-1b", "w-t2-2", "w-t2-4", "w-t2-5", "w-t3", "w-t4", "w-t5", "w-t6", "w-t7", "w-t8", "w-anx1", "w-anx2", "w-anx3-4", "w-anx5", "w-anx6-8", "w-anx9-10", "w-anx11-13"] }
   ];
   // 작업 순서로 보기: 조 번호를 몰라도 지금 하는 일에서 문서를 찾아가게 한다.
   const STAGES = [
     { group: "먼저 알아둘 것", name: "전체 그림", ids: ["overview", "changes", "timeline"] },
-    { group: "먼저 알아둘 것", name: "화물의 지위", ids: ["status", "b-ch1", "w-t1", "cases"] },
+    { group: "먼저 알아둘 것", name: "화물의 지위", ids: ["status", "b-ch1", "w-t1"] },
     { group: "먼저 알아둘 것", name: "우리 회사의 역할", ids: ["b-ch6", "b-ch8a", "w-t2-4"] },
     { group: "현장 순서", name: "1 예약", ids: ["checklist", "b-anx14", "w-t2-1a", "w-anx3-4", "w-anx5"] },
     { group: "현장 순서", name: "2 서류", ids: ["w-t2-2", "w-anx6-8", "w-t2-1b", "w-anx1", "w-t2-5"] },
     { group: "현장 순서", name: "3 픽업·창고", ids: ["b-ch3", "b-anx6-7", "b-anx11-12", "de-nl"] },
     { group: "현장 순서", name: "4 국경 통과", ids: ["w-t4", "w-t5", "w-t6", "b-ch8b"] },
-    { group: "현장 순서", name: "5 검사 대응", ids: ["w-t7", "b-ch10", "cases"] },
+    { group: "현장 순서", name: "5 검사 대응", ids: ["w-t7", "b-ch10"] },
     { group: "현장 순서", name: "6 도착·완료", ids: ["w-t8", "b-ch9"] }
   ];
   const stagePath = () => {
