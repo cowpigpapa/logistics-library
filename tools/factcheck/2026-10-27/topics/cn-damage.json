@@ -1,0 +1,294 @@
+[
+ {
+  "file": "cn-damage.html",
+  "claim": "4절: 현행 CSC 부속서 III의 문구는 확인하지 못했다",
+  "verdict": "wrong",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.355(92).pdf — Resolution MSC.355(92) (Adopted on 21 June 2013) 'the said amendments shall enter into force on 1 July 2014'; 'ANNEX III CONTROL AND VERIFICATION 25 The existing section 4 is replaced with the following: 4 Structurally sensitive components ... (ii) Serious deficiency requiring immediate out-of-service determination / (iii) Deficiency requiring advice to owner and restrictions for transport'. Top rail (ii) 'in excess of 60 mm ... 45 mm', (iii) 'in excess of 40 mm ... 10 mm'; Header (ii) 80/80, (iii) 50/10; Sill (ii) 100/100, (iii) 60/10; Corner posts (ii) 50/50, (iii) 30mm or cracks of any length; Corner fittings (ii) 'Missing corner fittings, any through cracks or tears in the fitting, any deformation of the fitting that precludes full engagement ... or any weld separation of adjoining components in excess of 50 mm'. Bottom rail (iii) per MSC 92/26/Add.1/Corr.1: 'in excess of 60 mm or separation cracks or tears ... in excess of 25 mm in length in the upper flange; or of web in any length'. Understructure (ii)(스페인어판 MSC 92/26/Add.1, directemar.cl 게시): 이웃 크로스 멤버 2개 이상 없음·분리, 또는 전체의 20% 이상 없음·분리. 레일·헤더·실·포스트의 정지 값은 Circ.134와 같고, 피팅·하부 구조는 넓어졌으며, 낮은 단계 기준이 새로 생김.",
+  "old": "현행 CSC 부속서 III의 문구는 확인하지 못했습니다.",
+  "fix": "이 기준은 2013년 CSC 개정(MSC.355(92), 2014. 7. 1. 발효)으로 협약 부속서 III 4절에 들어갔습니다. 레일·헤더·실·코너 포스트의 즉시 운송 정지 값은 같고, 코너 피팅은 길이와 관계없이 관통 균열이 있으면, 하부 구조는 크로스 멤버 전체의 20% 이상이 없거나 떨어져도 정지 대상으로 넓어졌습니다. 그보다 낮은 단계(예: 상부 레일 40mm, 헤더 50mm, 하부 레일·실 60mm, 코너 포스트 30mm 넘는 변형)는 소유자에게 알리고 적층·인양을 제한하는 결함으로 따로 정했습니다."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "4절 출처 줄에 CSC 부속서 III(MSC.355(92)) 근거가 없음",
+  "verdict": "unclear",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.355(92).pdf — 위 항목의 부속서 III 4절 개정문. 본문 수정과 함께 출처 추가 필요.",
+  "old": "; UCIRC Third Issue(2023) 2~4절",
+  "fix": "; Resolution MSC.355(92) Amendments to the International Convention for Safe Containers(IMO, 2013. 6. 21. 채택, 2014. 7. 1. 발효) 부속서 III 4절 — <a href=\"https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.355(92).pdf\" target=\"_blank\" rel=\"noopener noreferrer\">IMO</a>; UCIRC Third Issue(2023) 2~4절"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "4절 표: CSC 기준을 만든 곳이 CSC/Circ.134(2005)뿐으로 적힘",
+  "verdict": "unclear",
+  "evidence": "MSC.355(92) 부속서 III 4절(2014. 7. 1. 발효)이 같은 정지 기준을 협약 본문에 넣음 — https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.355(92).pdf",
+  "old": "<td>IMO, CSC/Circ.134(2005)</td>",
+  "fix": "<td>IMO, CSC/Circ.134(2005). 2014년 7월부터 CSC 부속서 III</td>"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "머리 고지: 근거 자료 목록에 CSC 부속서 III가 없음",
+  "verdict": "unclear",
+  "evidence": "MSC.355(92) 부속서 III 4절 — 위 URL",
+  "old": "국제해사기구(IMO) CSC/Circ.134(2005), ",
+  "fix": "국제해사기구(IMO) CSC/Circ.134(2005)와 CSC 부속서 III(MSC.355(92) 개정, 2014. 7. 1. 발효), "
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "1절: UIIA E.3.a(2) 수리비 청구서 요건(실제 수리 영수증, 없으면 수리업체·수리일·장소·관리 번호)",
+  "verdict": "wrong",
+  "evidence": "https://uiia.intermodal.org/documents/uiia/Newuiia-Home.pdf (UIIA Effective: June 18, 2026) E.3.a.2): 'Repair invoices or Approved Estimates must detail the repairs performed or approved and, in the case of repairs actually performed, include a copy of the actual repair bill ... and, in any event, include the factual documentation supporting the Provider's determination that the Motor Carrier is responsible. In the case of a gate transaction using Recorded Images such documentation must include images ... [Revised 09/01/25]'. 대체 서류(repair vendor's name, repair date, location and a control number) 문구는 결정문이 인용한 2018. 10. 1. 개정 문구(2020·2022판)에만 있음 — https://uiia.intermodal.org/documents/uiia/D.2.d.pdf",
+  "old": "UIIA는 수리비 청구서가 효력을 가지려면 수리 내역, 실제 수리 영수증(없으면 수리업체·수리일·장소와 청구서를 잇는 관리 번호), 사용자 책임으로 본 근거 자료를 붙이고, 사진으로 상태를 기록하는 게이트라면 인수도 때 사진도 붙여야 한다고 정합니다(E.3.a(2)).",
+  "fix": "UIIA는 수리비 청구서나 승인된 견적(Approved Estimate)에 수리 내역을 적고, 실제로 수리했다면 수리 영수증 사본을, 어느 경우든 사용자 책임으로 본 근거 자료를 붙이며, 사진으로 상태를 기록하는 게이트라면 인수도 때 사진도 붙이도록 정합니다(E.3.a(2), 2025. 9. 1. 개정). 그 전 판은 영수증이 없으면 수리업체·수리일·장소와 청구서를 잇는 관리 번호로 대신할 수 있게 했습니다."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "1절 출처: UIIA Section E.3의 링크가 조문이 아닌 중재 절차 소개 페이지",
+  "verdict": "unclear",
+  "evidence": "현행 UIIA 전문 PDF: https://uiia.intermodal.org/documents/uiia/Newuiia-Home.pdf ('The Intermodal Interchange Effective: June 18, 2026'). intermodal.org/uiia/uiia-binding-arbitration-process 는 중재 절차 안내라 E.3 조문이 없음.",
+  "old": "UIIA Section E.3 — <a href=\"https://intermodal.org/uiia/uiia-binding-arbitration-process\"",
+  "fix": "UIIA Section E.3(2026. 6. 18. 시행판) — <a href=\"https://uiia.intermodal.org/documents/uiia/Newuiia-Home.pdf\""
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "10절 출처: UIIA Section E.3.c·H.1 링크가 중재 절차 페이지",
+  "verdict": "unclear",
+  "evidence": "https://uiia.intermodal.org/documents/uiia/Newuiia-Home.pdf — E.3.c, H.1 조문이 실린 현행 전문",
+  "old": "UIIA Section E.3.c·H.1 — <a href=\"https://intermodal.org/uiia/uiia-binding-arbitration-process\"",
+  "fix": "UIIA Section E.3.c·H.1(2026. 6. 18. 시행판) — <a href=\"https://uiia.intermodal.org/documents/uiia/Newuiia-Home.pdf\""
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "10절: UIIA 청구 기한 유인 게이트 165일, 무인 자동 게이트 120일, 이의 30일",
+  "verdict": "unclear",
+  "evidence": "https://uiia.intermodal.org/documents/uiia/Newuiia-Home.pdf E.3.c: '1) Standard Gate System (manned) or Interchange between Motor Carriers: ... no later than one-hundred and sixty-five (165) calendar days from the date of Interchange at the time the Damage was documented. 2) Gate transactions using Recorded Images: ... one-hundred and twenty (120) calendar days'. H.1: 'Invoiced Party shall advise Invoicing Party in writing of any disputed items ... within thirty (30) calendar days'. 숫자는 맞음. 120일은 '무인 자동 게이트'가 아니라 사진(Recorded Images)으로 기록하는 게이트 기준이고, 운송사 사이 인수도도 165일.",
+  "old": "수리비 청구서를 유인 게이트는 인수도일부터 165일, 무인 자동 게이트는 120일 안에 내지 않으면 청구권을 잃게 하고",
+  "fix": "수리비 청구서를 일반(유인) 게이트나 운송사 사이 인수도는 손상을 기록한 인수도일부터 165일, 사진(Recorded Images)으로 상태를 기록하는 게이트는 120일 안에 내지 않으면 청구권을 잃게 하고"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "5절: IICL TB 002가 반출입을 GATEOUT·GATEIN 메시지로 예시",
+  "verdict": "wrong",
+  "evidence": "https://www.iicl.org/iicl/assets/File/public/bulletins/TB002_EDIS_Rev-12-May-2022.pdf — '2.1.1 Text File Structure for GATEIN', '2.1.2 Text File Structure for GATOUT', '4.1 GATEIN/GATOUT Record Format' (본문 13곳 GATOUT, 목차 한 곳만 GATEOUT)",
+  "old": "반출입을 GATEOUT·GATEIN",
+  "fix": "반출입을 GATOUT·GATEIN"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "9절 출처: CTU Code 부속서 5 §8.2.2(반납 지연 시 demurrage)",
+  "verdict": "wrong",
+  "evidence": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/1497.pdf 부속서 5 p.81: '8 Returning the CTU / 8.1 General / 8.1.2 The receiver or consignee should return the CTU in the same state ... Returned in a timely manner ... CTU operators may charge demurrage if the CTU is not returned as soon as practically possible after unpacking.' §8.2.2는 'After a CTU with dangerous cargoes, including fumigated cargoes, has been unpacked ... special cleaning ... placards ... should be removed'. 저장소 ctu-library.js a5-receiving '반납 시점' 행도 같은 오류(부속서 5 §8.2.2) — 별도 수정 필요.",
+  "old": "CTU Code(MSC.1/Circ.1497) 부속서 5 §8.2.2",
+  "fix": "CTU Code(MSC.1/Circ.1497) 부속서 5 §8.1.2"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "4절 표: UCIRC 코너 캐스팅은 금 가거나 변형돼 트위스트록이 안 들어가면 교체",
+  "verdict": "wrong",
+  "evidence": "https://www.worldshipping.org/s/UCIRC_Branded-Folder-Document-2023_EN.pdf 2.2 Posts: 'Corner castings | Cracked, deformed, broken | Replace / Deformation preventing correct twistlock operation | Replace' — 금·변형·파손 자체가 교체 대상이고, 트위스트록 작동을 막는 변형은 별도 항목",
+  "old": "캐스팅이 금 가거나 변형돼 트위스트록이 제대로 들어가지 않으면 교체",
+  "fix": "캐스팅이 금 가거나 변형·파손되면 교체(트위스트록이 제대로 들어가지 않는 변형 포함)"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "8절: Container Protect 한도 없는 형 의무 대상은 금속과 배터리(2022 안내문)",
+  "verdict": "unclear",
+  "evidence": "Maersk 한국 안내문(2022. 5. 12.) 'Container Protect Unlimited ... Mandatory for Metal and Battery' — https://ewscpcd.maersk.com/~/media_sc9/maersk/local-information/files/asia-pacific/korea/import/announcement-of-official-launch-of-container-protect-service-2022-05-12-updated.pdf (2022 기준으로는 맞음). 저장소 ch-docs/ch-sea-charges.html 6절(Maersk 2026. 10. 1. 기준 안내 인용): '금속·배터리·광물·폐타이어는 보장 한도가 없는 Unlimited ... 의무 적용'. 두 문서가 어긋나 보이지 않게 현재 범위 표시 권장(2026 안내문은 이번에 직접 확인하지 않았고 저장소 문서 기준).",
+  "old": "금속과 배터리에는 한도 없는 형이 의무이며",
+  "fix": "금속과 배터리에는 한도 없는 형이 의무이며(현재는 광물·폐타이어도 포함, <a href=\"/library/charges/ch-sea-charges#s6\">해상 부대비용 지도 6절</a>)"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "핵심 3줄: 청구하는 쪽의 반출 사진이 흐릴 때 청구 기각",
+  "verdict": "unclear",
+  "evidence": "https://uiia.intermodal.org/documents/uiia/D.2.d.pdf — 'the damage could not be seen on the outgate picture ... due to a large black line going through the image'; 'The outgate image was distorted' — 흐림(blur)이 아니라 굵은 검은 줄로 왜곡된 사진",
+  "old": "청구하는 쪽의 반출 사진이 흐릴 때는 청구가 기각되었습니다.",
+  "fix": "청구하는 쪽의 반출 사진이 왜곡되어 손상 부위를 볼 수 없을 때는 청구가 기각되었습니다."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "2절 관련 사고 사례 링크 문구 '흐린 반출 사진'",
+  "verdict": "unclear",
+  "evidence": "같은 결정문 — 'distorted', 'large black line going through the image'",
+  "old": "(흐린 반출 사진)",
+  "fix": "(손상이 보이지 않는 반출 사진)"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 2 제목: 반출 사진이 흐려 손상을 볼 수 없으면 청구 기각",
+  "verdict": "unclear",
+  "evidence": "https://uiia.intermodal.org/documents/uiia/D.2.d.pdf — 'The outgate image was distorted'",
+  "old": "반출 사진이 흐려 손상을 볼 수 없으면 청구 기각",
+  "fix": "반출 사진이 왜곡돼 손상을 볼 수 없으면 청구 기각"
+ },
+ {
+  "file": "images/cn/cn-damage-evidence-chain.svg",
+  "claim": "그림 아래 칸 제목 '반출 사진이 흐려 확인 불가'",
+  "verdict": "unclear",
+  "evidence": "같은 결정문 — distorted outgate image(굵은 검은 줄)",
+  "old": "반출 사진이 흐려 확인 불가",
+  "fix": "반출 사진으로 확인 불가"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 1 결과: 운송사(Motor Carrier) 청구 기각",
+  "verdict": "unclear",
+  "evidence": "https://uiia.intermodal.org/documents/uiia/d.3.b%20-%20MR.pdf — 'THE MOTOR CARRIER DISPUTES THE FOLLOWING INVOICES' ... 'The panel unanimously finds in favor of the Equipment Provider.' 운송사는 청구한 쪽이 아니라 청구서에 이의를 낸 쪽",
+  "old": "결과: 운송사(Motor Carrier) 청구 기각, 수리비 전액 부담",
+  "fix": "결과: 운송사(Motor Carrier)의 이의 기각, 수리비 전액 부담"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 2 손상 종류를 '찢어짐'으로 씀",
+  "verdict": "unclear",
+  "evidence": "https://uiia.intermodal.org/documents/uiia/D.2.d.pdf — 'showing cuts to the Left Side Rear (LSR) ... additional cuts to the LSR'; 'visible cuts to the panel' — 원문은 cut(베인 손상, CEDEX CU)이지 tear(찢어짐)가 아님",
+  "old": "컨테이너(왼쪽 뒤 측면 찢어짐 수리비)",
+  "fix": "컨테이너(왼쪽 측면 뒤쪽 패널의 베인 손상(cut) 수리비)"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 2 경위: 반납 사진의 LSR 찢어짐",
+  "verdict": "unclear",
+  "evidence": "같은 결정문 — 'ingate picture showing additional cuts to the LSR'",
+  "old": "왼쪽 측면 뒤쪽(LSR)의 찢어짐이 찍혔다며",
+  "fix": "왼쪽 측면 뒤쪽(LSR)의 베인 손상(cut)이 찍혔다며"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 2 경위: 반출 사진에 같은 부위 찢어짐",
+  "verdict": "unclear",
+  "evidence": "같은 결정문 — 'NS provided the only outgate picture ... showing cuts to the Left Side Rear (LSR)'",
+  "old": "이미 같은 부위의 찢어짐이 보이고",
+  "fix": "이미 같은 부위의 베인 손상이 보이고"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "규칙 점검(표시만): Maersk·MSC 실명 사용 — 공개 B/L 약관·한국 안내문·영국 판결 인용",
+  "verdict": "unclear",
+  "evidence": "terms.maersk.com/carriage, terms.maersk.com/node/208, Maersk 한국 안내문은 공개 문서. MSC 조항은 공개 판결 [2016] EWCA Civ 789 3항 인용이라 판결 예외에 해당. 저장소 선례: ch-docs/ch-sea-charges.html 6절(ONE·Hapag-Lloyd·Maersk 공표 요율), ch-docs/ch-dnd.html(Maersk·Hapag-Lloyd 요율표). 11절 '(예: ONE, Hapag-Lloyd)', '(Maersk)'도 같은 성격. 판결·당국 발표가 아닌 '공개 약관'을 예외로 볼지는 운영자 판단 사항이라 표시만 함(삭제 제안 없음)."
+ },
+ {
+  "file": "cases.html",
+  "claim": "규칙 점검(표시만): 익명 처리된 UIIA 결정에서 터미널 이름(CSX 59th Street, Bedford Park, NS 47th Street, UP Global 2)으로 당사자가 드러남",
+  "verdict": "unclear",
+  "evidence": "결정문은 당사자를 'UIIA MC', 'UIIA EP'로 가렸지만 표에 'CSX 59th/CSX Bedford Park', 'NS 47th /UP Global 2'가 있고, 2023년 결정 본문은 'Norfolk Southern (NS)', 'Union Pacific'을 직접 씀 — https://uiia.intermodal.org/documents/uiia/d.3.b%20-%20MR.pdf, https://uiia.intermodal.org/documents/uiia/D.2.d.pdf. 사례 1의 '같은 철도회사의 Bedford Park'는 장비 제공자를 CSX로 특정함. 공개 결정문이라 허용될 수 있으나, 결정문의 익명 취지를 따르려면 '시카고의 한 철도 터미널'처럼 줄이는 방안이 있음. 표시만 함."
+ },
+ {
+  "file": "cases.html",
+  "claim": "형식 점검: UIIA 중재 결정을 구분 '판결'로 분류",
+  "verdict": "unclear",
+  "evidence": "tools/STYLE.md 5절 구분 값은 '판결|처분|단속|사고'뿐이라 중재 결정을 가장 가까운 '판결'로 넣은 것으로 보임. 본문은 '구속력 있는 중재 결정'으로 정확히 설명함. 고칠 필요는 없고, 모음 표에서 법원 판결처럼 보일 수 있다는 점만 표시."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "용어 일관성: '디포'(이 문서) vs '데포'(ctu-library.js ch8-arrival, rk-damage)",
+  "verdict": "unclear",
+  "evidence": "저장소 grep: '데포' 10회(ctu-library.js, rk-docs/rk-damage.html 등), '디포' 9회(ch-docs/ch-dnd.html 등). tools/STYLE.md에 정한 표기 없음. 운영자에게 한쪽으로 정할지 묻는 것을 권장(이 문서만 고칠 일은 아님)."
+ },
+ {
+  "file": "images/cn/cn-damage-thresholds.svg",
+  "claim": "UCIRC 수리 기준 30·40·50·25mm, CSC 정지 기준 60·80·100·50mm, 네 부재 모두 정확히 두 배",
+  "verdict": "correct",
+  "evidence": "UCIRC 3판 2.1 'Top side rail ... Deformation in excess of 30mm', 'Bottom side rail ... in excess of 50mm', 'Front & rear headers ... in excess of 40mm', 2.2 'Corner posts ... Dents exceeding 25mm' — https://www.worldshipping.org/s/UCIRC_Branded-Folder-Document-2023_EN.pdf ; CSC/Circ.134 부속서 1 'Top rails ... in excess of 60 mm', 'Bottom rails ... 100 mm', 'Headers ... 80 mm', 'Corner posts ... exceeding 50 mm' — https://cimrc.shmtu.edu.cn/_upload/article/files/7d/e9/09125b45423986fa67fd969b51c4/58b120f2-8086-40d9-8c7d-f4aac659322d.pdf. 30×2=60, 40×2=80, 50×2=100, 25×2=50. 네 값은 CSC 부속서 III(2014) 열 (ii)와도 같음. 참고: 부속서 III 열 (iii) 소유자 통보 단계(40·50·60·30mm)가 노랑 구간 안에 있으므로 각주에 한 줄 넣을지 검토 가능."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "CSC/Circ.134 부속서 1 기준값 전체(상부 레일 60/45, 하부 레일 100/75, 헤더 80, 실 100, 포스트 50, 피팅 25·50, 크로스 멤버 2개, 잠금 막대)와 '수리·운용 기준으로 쓰지 말라'",
+  "verdict": "correct",
+  "evidence": "CSC/Circ.134 Annex 1 표와 2.2 'should not be used as repair and inservice criteria under a CSC approved continuous examination programme (ACEP) or a periodic examination scheme'; 4.1.5 'Many damages such as holes may infringe customs requirements but may not be structurally significant'"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "UCIRC 3판(2023. 7.) 1.2~1.5 정의, 바닥 15mm·6mm/150mm, 패널 50/70mm·40mm, 크로스 멤버 75/10/50mm, 4절 기타 항목, '가장 경제적인' 수리 방법",
+  "verdict": "correct",
+  "evidence": "UCIRC Third Issue July 2023 pp.4-12 — '1.2 Acceptable Damage ... All flange damage except damage to weld connections; Deformation ... up to ISO +10mm on the side face and ISO +5mm on the end face'; '1.4 ... Flooring delaminations resulting from routine cargo loading and unloading cycles'; '3.1 Gouge greater than 15mm deep irrespective of length / Gouge more than 6mm deep and greater than 150mm wide'; 'The repair method selected should be the most economical'"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "Maersk Terms for Carriage 1(Merchant·Goods 정의)·11.4·15.1·15.4·15.5조 요지",
+  "verdict": "correct",
+  "evidence": "https://terms.maersk.com/carriage — '11.4 The Shipper shall inspect Containers before packing them and the use of Containers shall be prima facie evidence of their being sound and suitable for use'; '15.1 ... jointly and severally liable'; '15.4 ... with interiors clean, odour free and in the same condition as received ... liable for any detention, loss or expense'; '15.5 ... at the sole risk of the Merchant until redelivered to the Carrier'; 'Goods ... includes any Container not supplied by or on behalf of the Carrier'"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "MSC B/L 14.9조(MSC v Cottonex [2016] EWCA Civ 789 3항 인용)",
+  "verdict": "correct",
+  "evidence": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/789 para 3 — '14.9 The Merchant shall redeliver ... in like good order and condition, undamaged, empty, odour free, cleaned and with all fittings installed by the Merchant removed and without any rubbish, dunnage or other debris inside. The Merchant shall be liable to indemnify the Carrier for any and all costs incurred reinstating or replacing Containers ... including the reasonable legal expenses and costs of recovering the costs incurred and interest thereon.'"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "Maersk 컨테이너 안심 한국 안내문(2022. 5. 12.): PCD 6. 1.부터 한국 수입 기본형, IMP·EMI 대체, 금속·배터리 Unlimited 의무, 한도 초과분만 청구, SOC 제외. Container Protect Terms 2~4조 예외",
+  "verdict": "correct",
+  "evidence": "Maersk 한국 안내문 — 'As from PCD (price calculation date) June 1st, Container Protect Essential ... applicable to all shipments imported into Korea ... replacing the existing Import Service (IMP) and Equipment Management Imports (EMI)'; 'customers will be charged only the difference'; 'SOC (Shippers' Owned Container) is not applicable.' Terms https://terms.maersk.com/node/208 — 15.6 Wilful Misconduct or gross negligence, 4.2.1 mis-declared, 4.4 theft or disappearance. 문서에 금액 없음 확인."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "UIIA D.2.a·D.2.d(1년 무료)·D.3.b·D.3.e",
+  "verdict": "correct",
+  "evidence": "현행 UIIA(2026. 6. 18. 시행) https://uiia.intermodal.org/documents/uiia/Newuiia-Home.pdf 및 결정문 인용 — D.2.d 'All such Recorded Images will be made available for each Party for a period of 1 year from Interchange without charge'; D.3.b 'pre-trip inspection prior to departing'; D.3.e 'in the same condition, reasonable Wear and Tear excepted'. 현행판 문구가 2020·2022판과 같음."
+ },
+ {
+  "file": "cases.html",
+  "claim": "UIIA 중재 20201214-3-XXXM-MR-OTH(2021. 3. 8.): 2020. 9. 8. 반출, 9. 22. 반납, 비AGS·모바일 앱·무인 단말기, 90분, 볼티모어, 14일, 만장일치로 운송사 부담",
+  "verdict": "correct",
+  "evidence": "https://uiia.intermodal.org/documents/uiia/d.3.b%20-%20MR.pdf — 'Date of Decision: 03/08/2021'; 'the damage could have occurred at any point during the 14 days between when the unit was out-gated on 9/8/2020 and when it was in-gated on 9/22/2020'; 'the unit ingated in Baltimore, MD without damage'; 'The panel unanimously finds in favor of the Equipment Provider.'"
+ },
+ {
+  "file": "cases.html",
+  "claim": "UIIA 중재 20230216-59-XXXP-MR-OTH(2023. 5. 1.): NS 47th→UP Global 2 크로스타운(2022. 10. 28.), 검은 줄 사진, D.2.d 문구 없음, 만장일치로 운송사 승",
+  "verdict": "correct",
+  "evidence": "https://uiia.intermodal.org/documents/uiia/D.2.d.pdf — 'Date of Decision: 05/01/2023'; 'The unit outgated NS 47th (AGS facility) and ingated UP/Global 2 (AGS facility) on 10/28/2022'; 'the words \"Damage is captured on Recorded Images\" was not indicated on the interchange receipt'; 'The panel unanimously finds in favor of the Motor Carrier based on Section D.2.d.'"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "상법 제814조 제1항(법률 제21044호, 시행 2026. 9. 10.)",
+  "verdict": "correct",
+  "evidence": "law.go.kr DRF lawService ID=001702: 공포번호 21044, 시행일자 20260910; '①운송인의 송하인 또는 수하인에 대한 채권 및 채무는 그 청구원인의 여하에 불구하고 운송인이 수하인에게 운송물을 인도한 날 또는 인도할 날부터 1년 이내에 재판상 청구가 없으면 소멸한다. 다만, 이 기간은 당사자의 합의에 의하여 연장할 수 있다.'"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "대법원 2022. 12. 1. 선고 2020다280685 판결: 인도할 날 뒤 날마다 생긴 컨테이너 요금은 채권 발생일부터 1년",
+  "verdict": "correct",
+  "evidence": "law.go.kr DRF prec ID=232563 판결요지 [3]: '‘화물의 인도가 행하여져야 했던 날’을 지나서 발생하는 위 손해배상채권의 제척기간 기산일은 그 채권의 발생일이라고 해석함이 타당하고, 그날부터 ... 1년의 제척기간이 적용'. 저장소 ac-docs/ch-cases.html c1과 일치."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "부산항 전자인수도증(올컨e): 2024. 5. 보도 기준 BPT(신선대·감만)·HJNC·HPNT, 7. 1. 북항·신항 10곳 확대 예정, 기재 항목 번호·크기·장치 위치, 손상 표시 언급 없음",
+  "verdict": "correct",
+  "evidence": "https://www.newsis.com/view/NISX20240516_0002736090 (2024. 5. 16.) — '부산항만공사(BPA)가 자체 개발한 모바일 앱 ‘올컨e’', '현재 북항 신선대·감만 부두(BPT), 신항 3부두(한진신항·HJNC), 신항 4부두(현대신항·HPNT) 등에서 운영', '오는 7월 1일 부산항 북항·신항 터미널 10곳에 전면 도입될 예정', '컨테이너 고유번호와 크기, ... 장치장 위치 등의 정보'. 손상 기록 언급 없음."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "IICL TB 002 5.3 책임 코드(U·O·D·I·J·T), 5.7 위치 코드 규칙, 7절 견적 양식 손상/정비 합계, 8절 '수리 크기', 크로스 멤버 한 줄 묶기, ECS 2022",
+  "verdict": "correct",
+  "evidence": "TB 002 Rev. 2022. 5. 12. — '5.3 IICL Preferred Responsibility Codes: Depot D, DPP/Insurance I, Joint survey allocation assigned J, Owner/Lessor O, Third Party T, User/Lessee U'; 'Summary ... Damage: User/Lessee, DPP/Insurance; Maintenance: Owner/Lessor'; 'The size fields should be used to indicate the size of the repair, not the damage'; 'Equipment Code Standards (ECS) developed by the IICL in 2022'. 견본 줄 0.75h×40+2.50=32.50으로 계산식 일치. IICL ECS 페이지: 드라이·오픈탑 ECS, 리퍼 ECS(Box & Machinery), 샤시 CCS(2024. 12. 10.)."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "ISO 9897(IS 13731:2003) 부속서 C 위치 코드(면·부분·구간, 문 쪽 기준 좌우, N·XX, IXXX·EXXX, 냉동기 M+Q/K/E/V/F/P/C+NN, 젠셋 G), 부속서 D 손상 코드, 냄새 제거 수리 코드",
+  "verdict": "correct",
+  "evidence": "https://law.resource.org/pub/in/bis/S13/is.13731.2003.pdf C.2.1~C.2.4 — 'divided into right and left halves when viewed from the door end'; 'When the damage covers one section only ... the fourth character shall be N'; 'removing of cargo stickers, then the code EXXX'; 'refrigeration unit M', 'compressor Q, condenser K, electrical E, evaporator V, frame F, piping P, regulation/control C'; 'generator set G'; Annex D 'Bent BT', 'Dent DT', 'Holed HO', 'Debris/dunnage DB', 'Nails NL', 'Markings/labels ML', 'Contaminated CT', 'Dirty DY'; Annex F 'Neutralize odour in container DO'. SVG cn-damage-estimate-line의 LB4N(4구간 아래 절반), LT24(2~4구간 위 절반), 문 쪽 오른쪽·1번 구간 문 쪽 배치도 맞음."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "IICL RTB 010(2023. 11. 21.) 리퍼 오용 사례",
+  "verdict": "correct",
+  "evidence": "https://www.iicl.org/iicl/assets/File/public/bulletins/RTB_010_Reefer_Misuse-November-2023.pdf — 'heavy paper rolls that can cause extensive damage to the T-floor, bulkhead panels and internal machinery components'; 'pallets with dimensions built for the interior of dry van containers'; ammonia·SO2 copper; 'Damage to T-floor caused by improper use of forklift equipment'; 'Air fresh cover incorrectly sealed with tape'; '40ft ... bottom rails show either inward or outward deformation close to the center'; 'Reefer repairs, especially due to contamination, can be very expensive'"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "UCIRC는 처음 ICS가 발행, IICL-6이 2016. 8. 1.부터 IICL-5와 CIC를 통합 대체(TT Club 2016. 8. 8.)",
+  "verdict": "correct",
+  "evidence": "https://www.ttclub.com/news-and-resources/news/article/tt-talk-maintaining-container-safety/ — 'Unified Container Inspection and Repair Criteria (UCIRC) issued by the International Chamber of Shipping (ICS)'; 'from 1 August 2016 the two lessor operated standards (IICL V and CIC) have been amalgamated into one ... IICL VI'. IICL Store에 'Guide for Container Equipment Inspection, 6th Ed.'·'General Guide for Refrigerated Container Inspection & Repair, 4th Ed.' 있음."
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "CTU Code 12.3.3 위험물 뒤 특별 세척·운영자 문의",
+  "verdict": "correct",
+  "evidence": "MSC.1/Circ.1497 12.3.3 — 'This may require special cleaning, particularly if spillage of a toxic or corrosive substance has occurred or is suspected. In case of doubt with regard to appropriate cleaning measures, the CTU operator should be contacted.'"
+ },
+ {
+  "file": "cn-damage.html",
+  "claim": "국내 연구: 해상운송용 컨테이너 수리비의 개선방안에 관한 연구(해양비즈니스 제28호, 한국해양비즈니스학회, 2014. 8.)",
+  "verdict": "correct",
+  "evidence": "https://scholar.kyobobook.co.kr/article/detail/4010024687563 — 해양비즈니스 제28호, 한국해양비즈니스학회, 2014년 8월, 51-74쪽; 초록 'how to standardize the costs of repairing damaged containers arising from stuffing marginal cargo'"
+ }
+]

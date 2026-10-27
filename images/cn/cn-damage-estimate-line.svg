@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a">수리 견적서 한 줄 읽기: CEDEX 위치 코드와 견적 항목</text>
+<text x="40" y="92" font-size="18" fill="#5f6b78">ISO 9897(CEDEX)의 위치 코드 규칙과 IICL TB 002의 견적 항목 구성을 바탕으로 그린 예시입니다(금액은 넣지 않음)</text>
+<rect x="40" y="118" width="820" height="800" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="70" y="160" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">40ft 컨테이너 왼쪽 측면(L)을 바깥에서 본 모습</text>
+<text x="70" y="186" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">왼쪽·오른쪽은 문 쪽 끝에서 앞쪽을 바라볼 때 기준이므로, 바깥에서 보면 문이 오른쪽에 옵니다</text>
+<rect x="110" y="250" width="700" height="230" fill="#ffffff" stroke="#1d2a3a" stroke-width="2"/>
+<rect x="110" y="250" width="700" height="16" fill="#dfe5ec" stroke="#1d2a3a" stroke-width="1"/>
+<rect x="110" y="464" width="700" height="16" fill="#dfe5ec" stroke="#1d2a3a" stroke-width="1"/>
+<line x1="110" y1="365.0" x2="810" y2="365.0" stroke="#5f6b78" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="180.0" y1="250" x2="180.0" y2="480" stroke="#aab4bf" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="250.0" y1="250" x2="250.0" y2="480" stroke="#aab4bf" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="320.0" y1="250" x2="320.0" y2="480" stroke="#aab4bf" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="390.0" y1="250" x2="390.0" y2="480" stroke="#aab4bf" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="460.0" y1="250" x2="460.0" y2="480" stroke="#aab4bf" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="530.0" y1="250" x2="530.0" y2="480" stroke="#aab4bf" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="600.0" y1="250" x2="600.0" y2="480" stroke="#aab4bf" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="670.0" y1="250" x2="670.0" y2="480" stroke="#aab4bf" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="740.0" y1="250" x2="740.0" y2="480" stroke="#aab4bf" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="775.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">1</text>
+<text x="705.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">2</text>
+<text x="635.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">3</text>
+<text x="565.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">4</text>
+<text x="495.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">5</text>
+<text x="425.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">6</text>
+<text x="355.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">7</text>
+<text x="285.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">8</text>
+<text x="215.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">9</text>
+<text x="145.0" y="512" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">0</text>
+<text x="110" y="230" font-size="16" font-weight="700" fill="#1f6fd1" text-anchor="start">◀ 앞쪽(Front)</text>
+<text x="810" y="230" font-size="16" font-weight="700" fill="#1f6fd1" text-anchor="end">문 쪽(Door) ▶</text>
+<text x="98" y="263" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="end">H</text>
+<text x="98" y="320" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="end">T</text>
+<text x="98" y="430" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="end">B</text>
+<text x="98" y="478" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="end">G</text>
+<ellipse cx="565.0" cy="417.0" rx="24" ry="18" fill="#d9482b" fill-opacity="0.25" stroke="#d9482b" stroke-width="2.5"/>
+<rect x="536.0" y="276" width="198.0" height="79.0" fill="#1f6fd1" fill-opacity="0.15" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="8 4"/>
+<text x="110" y="560" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">● LB4N  왼쪽 측면(L) · 아래 절반(B) · 4번 구간 · 한 구간만(N)</text>
+<text x="110" y="590" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">▭ LT24  왼쪽 측면(L) · 위 절반(T) · 2~4번 구간</text>
+<text x="70" y="640" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">첫째 글자: 면</text>
+<text x="220" y="640" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">L 왼쪽 · R 오른쪽 · T 지붕 · B 바닥 · U 하부 구조</text>
+<text x="220" y="666" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">F 앞쪽 끝 · D 문 쪽 끝 · M 냉동기 · X 전체</text>
+<text x="70" y="704" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">둘째 글자: 부분</text>
+<text x="220" y="704" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">T 위 절반 · B 아래 절반 · H 상부 부재 · G 하부 부재</text>
+<text x="220" y="730" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">X 양쪽 모두</text>
+<text x="70" y="768" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">셋째·넷째: 구간</text>
+<text x="220" y="768" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">20ft 5칸(1~5), 40ft 10칸(1~9, 0), 문 쪽부터</text>
+<text x="220" y="794" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">한 구간이면 넷째에 N, 면 전체 길이면 XX</text>
+<text x="70" y="832" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">면 전체 작업</text>
+<text x="220" y="832" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">IXXX 내부(예: 내부 세척)</text>
+<text x="220" y="858" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">EXXX 외부(예: 화물 스티커 제거)</text>
+<rect x="880" y="118" width="752" height="800" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="910" y="160" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">견적서 한 줄의 항목과 확인할 점</text>
+<rect x="895" y="196" width="722" height="40" fill="#eceff3"/>
+<text x="905" y="223" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">항목</text>
+<text x="1050" y="223" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">예시</text>
+<text x="1205" y="223" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">확인할 점</text>
+<line x1="895" y1="284" x2="1617" y2="284" stroke="#d6dde5" stroke-width="1"/>
+<text x="905" y="266" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">위치 코드</text>
+<text x="1050" y="266" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">LB4N</text>
+<text x="1205" y="266" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">사진 속 위치와 같은가</text>
+<line x1="895" y1="332" x2="1617" y2="332" stroke="#d6dde5" stroke-width="1"/>
+<text x="905" y="314" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">부품 코드</text>
+<text x="1050" y="314" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">PAA(패널)</text>
+<text x="1205" y="314" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">손상 부위와 맞는가</text>
+<line x1="895" y1="380" x2="1617" y2="380" stroke="#d6dde5" stroke-width="1"/>
+<text x="905" y="362" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">손상 코드</text>
+<text x="1050" y="362" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">DT(찌그러짐)</text>
+<text x="1205" y="362" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">사진에 그 손상이 보이는가</text>
+<line x1="895" y1="452" x2="1617" y2="452" stroke="#d6dde5" stroke-width="1"/>
+<text x="905" y="410" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">수리 코드</text>
+<text x="1050" y="410" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">디포 코드표</text>
+<text x="1205" y="410" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">가장 경제적인 방법인가</text>
+<text x="1205" y="434" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">(교체보다 펴기·부분 수리)</text>
+<line x1="895" y1="524" x2="1617" y2="524" stroke="#d6dde5" stroke-width="1"/>
+<text x="905" y="482" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">크기·수량</text>
+<text x="1050" y="482" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">수리 크기</text>
+<text x="1205" y="482" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">손상 크기가 아니라</text>
+<text x="1205" y="506" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">수리할 크기를 적는다</text>
+<line x1="895" y1="572" x2="1617" y2="572" stroke="#d6dde5" stroke-width="1"/>
+<text x="905" y="554" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">작업시간</text>
+<text x="1050" y="554" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">시간(h)</text>
+<text x="1205" y="554" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">같은 손상 대비 과하지 않은가</text>
+<line x1="895" y1="620" x2="1617" y2="620" stroke="#d6dde5" stroke-width="1"/>
+<text x="905" y="602" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">시간당 공임</text>
+<text x="1050" y="602" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">디포 요율</text>
+<text x="1205" y="602" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">계약·공표 요율과 같은가</text>
+<line x1="895" y1="668" x2="1617" y2="668" stroke="#d6dde5" stroke-width="1"/>
+<text x="905" y="650" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">재료비</text>
+<text x="1050" y="650" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">자재·부품</text>
+<text x="1205" y="650" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">교체 부품이 실제로 필요한가</text>
+<line x1="895" y1="740" x2="1617" y2="740" stroke="#d6dde5" stroke-width="1"/>
+<text x="905" y="698" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">책임 코드</text>
+<text x="1050" y="698" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">U·O·I·J…</text>
+<text x="1205" y="698" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">마모·노후 항목이 U(사용자)로</text>
+<text x="1205" y="722" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">잡히지 않았는가</text>
+<rect x="895" y="758" width="722" height="96" rx="12" fill="#fdf5e6" stroke="#c98a12" stroke-width="1.5"/>
+<text x="915" y="790" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">줄 금액 = 작업시간 × 시간당 공임 + 재료비 (+ 세금)</text>
+<text x="915" y="816" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">합계는 책임 코드별로 나뉩니다: U 사용자 · O 소유자</text>
+<text x="915" y="842" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">I 손상 보장(DPP)·보험 · J 공동 검사 배분 · D 디포 · T 제3자</text>
+</svg>

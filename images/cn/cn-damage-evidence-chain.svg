@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a">컨테이너 한 대의 손상 기록 사슬: 청구는 반납에서 시작하고, 다툼은 두 기록의 비교로 끝난다</text>
+<text x="40" y="92" font-size="18" fill="#5f6b78">반출 기기인수도증(EIR)·사진과 반납 EIR·사진이 같은 컨테이너, 같은 위치를 보여 주는지가 수리비 다툼의 출발점입니다</text>
+<rect x="40" y="118" width="1592" height="410" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="1.5"/>
+<rect x="84" y="166" width="196" height="160" rx="14" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="85.5" y="167.5" width="193" height="64" rx="13" fill="#e8f0fb"/>
+<circle cx="112" cy="199" r="16" fill="#1f6fd1"/>
+<text x="112" y="205" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="136" y="196" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">반출 게이트</text>
+<text x="136" y="220" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">디포·터미널</text>
+<text x="100" y="268" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 반출 EIR</text>
+<text x="100" y="298" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 게이트 사진(있으면)</text>
+<line x1="282" y1="246.0" x2="299" y2="246.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="302" y="166" width="196" height="160" rx="14" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="303.5" y="167.5" width="193" height="64" rx="13" fill="#e8f0fb"/>
+<circle cx="330" cy="199" r="16" fill="#1f6fd1"/>
+<text x="330" y="205" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="354" y="196" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">운송</text>
+<text x="354" y="220" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">운송사 기사</text>
+<text x="318" y="268" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 출발 전 외관 점검</text>
+<text x="318" y="298" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 이상은 EIR에 적기</text>
+<line x1="500" y1="246.0" x2="517" y2="246.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="520" y="166" width="196" height="160" rx="14" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="521.5" y="167.5" width="193" height="64" rx="13" fill="#e8f0fb"/>
+<circle cx="548" cy="199" r="16" fill="#1f6fd1"/>
+<text x="548" y="205" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="572" y="196" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">적입·적출</text>
+<text x="572" y="220" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">화주·적입자</text>
+<text x="536" y="268" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 적입 전 점검 사진</text>
+<text x="536" y="298" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 비우기·청소·라벨 제거</text>
+<line x1="718" y1="246.0" x2="735" y2="246.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="738" y="166" width="196" height="160" rx="14" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<rect x="739.5" y="167.5" width="193" height="64" rx="13" fill="#fdece6"/>
+<circle cx="766" cy="199" r="16" fill="#e4572e"/>
+<text x="766" y="205" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="790" y="196" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">반납 게이트</text>
+<text x="790" y="220" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">선사 지정 반납지</text>
+<text x="754" y="268" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 반입 EIR</text>
+<text x="754" y="298" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 게이트 사진</text>
+<line x1="936" y1="246.0" x2="953" y2="246.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="956" y="166" width="196" height="160" rx="14" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<rect x="957.5" y="167.5" width="193" height="64" rx="13" fill="#fdece6"/>
+<circle cx="984" cy="199" r="16" fill="#e4572e"/>
+<text x="984" y="205" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="1008" y="196" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">검사·견적</text>
+<text x="1008" y="220" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">디포</text>
+<text x="972" y="268" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· CEDEX 코드 견적</text>
+<text x="972" y="298" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 책임 구분 코드</text>
+<line x1="1154" y1="246.0" x2="1171" y2="246.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="1174" y="166" width="196" height="160" rx="14" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<rect x="1175.5" y="167.5" width="193" height="64" rx="13" fill="#fdece6"/>
+<circle cx="1202" cy="199" r="16" fill="#e4572e"/>
+<text x="1202" y="205" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="1226" y="196" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">승인·청구</text>
+<text x="1226" y="220" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">선사</text>
+<text x="1190" y="268" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 견적 승인</text>
+<text x="1190" y="298" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· B/L 당사자에게 청구</text>
+<line x1="1372" y1="246.0" x2="1389" y2="246.0" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="1392" y="166" width="196" height="160" rx="14" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<rect x="1393.5" y="167.5" width="193" height="64" rx="13" fill="#e6f3ec"/>
+<circle cx="1420" cy="199" r="16" fill="#1f8a5b"/>
+<text x="1420" y="205" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="1444" y="196" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">확인·이의</text>
+<text x="1444" y="220" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">수하인·포워더</text>
+<text x="1408" y="268" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 사진·EIR·견적 요청</text>
+<text x="1408" y="298" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 대조 후 지급·이의</text>
+<path d="M94 362 v14 H778 v-14" fill="none" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="436.0" y="406" font-size="16" font-weight="600" fill="#1f6fd1" text-anchor="middle">이면약관상 화주(Merchant) 위험 구간: 컨테이너를 넘겨받은 때부터 운송인에게 돌려줄 때까지</text>
+<text x="436.0" y="432" font-size="16" font-weight="600" fill="#1f6fd1" text-anchor="middle">(예: Maersk Terms for Carriage 15.5, 손상·멸실은 Merchant가 운송인에게 보상)</text>
+<path d="M798 362 v14 H1578 v-14" fill="none" stroke="#e4572e" stroke-width="2.5"/>
+<text x="1188.0" y="406" font-size="16" font-weight="600" fill="#e4572e" text-anchor="middle">반납 기록과 디포 견적이 청구서의 근거</text>
+<text x="1188.0" y="432" font-size="16" font-weight="600" fill="#e4572e" text-anchor="middle">견적은 실제 수리 전 사진과 함께 받아 둔다</text>
+<text x="836" y="500" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">청구서를 받으면 1번과 4번 기록을 나란히 놓고, 5번 견적의 위치 코드가 같은 자리를 가리키는지 봅니다</text>
+<rect x="40" y="552" width="1592" height="340" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="70" y="594" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">반출 기록과 반납 기록을 비교했을 때</text>
+<rect x="76" y="622" width="362" height="236" rx="14" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<rect x="77.5" y="623.5" width="359" height="50" rx="13" fill="#e6f3ec"/>
+<text x="257.0" y="656" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">반출 때 이미 적힌 손상</text>
+<text x="257.0" y="710" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">반출 EIR·사진에 같은 위치의</text>
+<text x="257.0" y="736" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">손상이 있다</text>
+<line x1="257.0" y1="750" x2="257.0" y2="772" stroke="#1f8a5b" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="257.0" y="802" font-size="17" font-weight="700" fill="#1f8a5b" text-anchor="middle">이번 사용자에게 청구할</text>
+<text x="257.0" y="829" font-size="17" font-weight="700" fill="#1f8a5b" text-anchor="middle">근거가 약하다</text>
+<rect x="462" y="622" width="362" height="236" rx="14" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<rect x="463.5" y="623.5" width="359" height="50" rx="13" fill="#fbe9e5"/>
+<text x="643.0" y="656" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">반출은 깨끗, 반납에 새 손상</text>
+<text x="643.0" y="710" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">반출 기록에 없던 손상이</text>
+<text x="643.0" y="736" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">반납 기록·사진에 나타난다</text>
+<line x1="643.0" y1="750" x2="643.0" y2="772" stroke="#d9482b" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="643.0" y="802" font-size="17" font-weight="700" fill="#d9482b" text-anchor="middle">사용 구간 손상으로 보고</text>
+<text x="643.0" y="829" font-size="17" font-weight="700" fill="#d9482b" text-anchor="middle">청구되기 쉽다</text>
+<rect x="848" y="622" width="362" height="236" rx="14" fill="#ffffff" stroke="#c98a12" stroke-width="2.5"/>
+<rect x="849.5" y="623.5" width="359" height="50" rx="13" fill="#fbf1dc"/>
+<text x="1029.0" y="656" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">보이는 손상을 반출 때 안 적음</text>
+<text x="1029.0" y="710" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">눈에 잘 띄는 손상인데</text>
+<text x="1029.0" y="736" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">반출 EIR에 적지 않았다</text>
+<line x1="1029.0" y1="750" x2="1029.0" y2="772" stroke="#c98a12" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="1029.0" y="802" font-size="17" font-weight="700" fill="#8a5a00" text-anchor="middle">반출 때 없었다고 보기 쉽다</text>
+<text x="1029.0" y="829" font-size="17" font-weight="700" fill="#8a5a00" text-anchor="middle">(UIIA 중재 2021)</text>
+<rect x="1234" y="622" width="362" height="236" rx="14" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="1235.5" y="623.5" width="359" height="50" rx="13" fill="#e8f0fb"/>
+<text x="1415.0" y="656" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">반출 사진으로 확인 불가</text>
+<text x="1415.0" y="710" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">청구하는 쪽의 반출 사진으로</text>
+<text x="1415.0" y="736" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">손상 여부를 볼 수 없다</text>
+<line x1="1415.0" y1="750" x2="1415.0" y2="772" stroke="#1f6fd1" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="1415.0" y="802" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="middle">청구하는 쪽 증명 부족</text>
+<text x="1415.0" y="829" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="middle">(UIIA 중재 2023)</text>
+<text x="836" y="920" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">UIIA는 미국 내륙 운송의 장비 인수도 표준계약이며, 한국 거래에 그대로 적용되지 않습니다. 증거를 다루는 방식의 예로 든 것입니다.</text>
+</svg>

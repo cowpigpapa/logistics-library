@@ -1,6 +1,6 @@
 {
  "hub": "/library/accident-cases/ac-all",
- "total": 274,
+ "total": 276,
  "cats": {
   "incoterms-2020": {
    "label": "Incoterms",
@@ -32,7 +32,7 @@
   },
   "container": {
    "label": "컨테이너",
-   "count": 7,
+   "count": 9,
    "case_docs": [
     "cn-cases"
    ]

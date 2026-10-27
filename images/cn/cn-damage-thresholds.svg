@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="28" font-weight="800" fill="#1d2a3a">같은 찌그러짐, 다른 기준선: UCIRC 수리 기준과 CSC 운송 정지 기준</text>
+<text x="40" y="92" font-size="18" fill="#5f6b78">부재가 휘거나 찌그러진 깊이(mm). UCIRC는 "고칠 것인가", CSC/Circ.134는 "짐을 실은 채 계속 운송해도 되는가"를 정하는 선입니다</text>
+<rect x="40" y="118" width="1592" height="600" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="80" y="224" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">상부 측면 레일</text>
+<text x="80" y="250" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">top side rail</text>
+<rect x="470" y="200" width="297.3" height="50" fill="#d7eee1"/>
+<rect x="767.3" y="200" width="297.3" height="50" fill="#f7e2b5"/>
+<rect x="1064.5" y="200" width="495.5" height="50" fill="#f6cfc6"/>
+<rect x="470" y="200" width="1090" height="50" fill="none" stroke="#9aa6b2" stroke-width="1"/>
+<line x1="767.3" y1="192" x2="767.3" y2="250" stroke="#8a5a00" stroke-width="3"/>
+<text x="773.2727272727273" y="188" font-size="16" font-weight="700" fill="#8a5a00" text-anchor="start">UCIRC 30mm 넘으면 수리</text>
+<line x1="1064.5" y1="192" x2="1064.5" y2="250" stroke="#d9482b" stroke-width="3"/>
+<text x="1070.5454545454545" y="188" font-size="16" font-weight="700" fill="#d9482b" text-anchor="start">CSC 60mm 넘으면 정지 기준</text>
+<text x="80" y="342" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">앞·뒤 헤더</text>
+<text x="80" y="368" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">front·rear header</text>
+<rect x="470" y="318" width="396.4" height="50" fill="#d7eee1"/>
+<rect x="866.4" y="318" width="396.4" height="50" fill="#f7e2b5"/>
+<rect x="1262.7" y="318" width="297.3" height="50" fill="#f6cfc6"/>
+<rect x="470" y="318" width="1090" height="50" fill="none" stroke="#9aa6b2" stroke-width="1"/>
+<line x1="866.4" y1="310" x2="866.4" y2="368" stroke="#8a5a00" stroke-width="3"/>
+<text x="872.3636363636363" y="306" font-size="16" font-weight="700" fill="#8a5a00" text-anchor="start">UCIRC 40mm 넘으면 수리</text>
+<line x1="1262.7" y1="310" x2="1262.7" y2="368" stroke="#d9482b" stroke-width="3"/>
+<text x="1268.7272727272725" y="306" font-size="16" font-weight="700" fill="#d9482b" text-anchor="start">CSC 80mm 넘으면 정지 기준</text>
+<text x="80" y="460" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">하부 측면 레일</text>
+<text x="80" y="486" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">bottom side rail</text>
+<rect x="470" y="436" width="495.5" height="50" fill="#d7eee1"/>
+<rect x="965.5" y="436" width="495.5" height="50" fill="#f7e2b5"/>
+<rect x="1460.9" y="436" width="99.1" height="50" fill="#f6cfc6"/>
+<rect x="470" y="436" width="1090" height="50" fill="none" stroke="#9aa6b2" stroke-width="1"/>
+<line x1="965.5" y1="428" x2="965.5" y2="486" stroke="#8a5a00" stroke-width="3"/>
+<text x="971.4545454545455" y="424" font-size="16" font-weight="700" fill="#8a5a00" text-anchor="start">UCIRC 50mm 넘으면 수리</text>
+<line x1="1460.9" y1="428" x2="1460.9" y2="486" stroke="#d9482b" stroke-width="3"/>
+<text x="1454.909090909091" y="424" font-size="16" font-weight="700" fill="#d9482b" text-anchor="end">CSC 100mm 넘으면 정지 기준</text>
+<text x="80" y="578" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="start">코너 포스트</text>
+<text x="80" y="604" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">corner post</text>
+<rect x="470" y="554" width="247.7" height="50" fill="#d7eee1"/>
+<rect x="717.7" y="554" width="247.7" height="50" fill="#f7e2b5"/>
+<rect x="965.5" y="554" width="594.5" height="50" fill="#f6cfc6"/>
+<rect x="470" y="554" width="1090" height="50" fill="none" stroke="#9aa6b2" stroke-width="1"/>
+<line x1="717.7" y1="546" x2="717.7" y2="604" stroke="#8a5a00" stroke-width="3"/>
+<text x="723.7272727272727" y="542" font-size="16" font-weight="700" fill="#8a5a00" text-anchor="start">UCIRC 25mm 넘으면 수리</text>
+<line x1="965.5" y1="546" x2="965.5" y2="604" stroke="#d9482b" stroke-width="3"/>
+<text x="971.4545454545455" y="542" font-size="16" font-weight="700" fill="#d9482b" text-anchor="start">CSC 50mm 넘으면 정지 기준</text>
+<line x1="470" y1="642" x2="1560" y2="642" stroke="#1d2a3a" stroke-width="1.5"/>
+<line x1="470.0" y1="642" x2="470.0" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="470.0" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">0</text>
+<line x1="569.1" y1="642" x2="569.1" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="569.0909090909091" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">10</text>
+<line x1="668.2" y1="642" x2="668.2" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="668.1818181818181" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">20</text>
+<line x1="767.3" y1="642" x2="767.3" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="767.2727272727273" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">30</text>
+<line x1="866.4" y1="642" x2="866.4" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="866.3636363636363" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">40</text>
+<line x1="965.5" y1="642" x2="965.5" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="965.4545454545455" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">50</text>
+<line x1="1064.5" y1="642" x2="1064.5" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="1064.5454545454545" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">60</text>
+<line x1="1163.6" y1="642" x2="1163.6" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="1163.6363636363635" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">70</text>
+<line x1="1262.7" y1="642" x2="1262.7" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="1262.7272727272725" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">80</text>
+<line x1="1361.8" y1="642" x2="1361.8" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="1361.8181818181818" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">90</text>
+<line x1="1460.9" y1="642" x2="1460.9" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="1460.909090909091" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">100</text>
+<line x1="1560.0" y1="642" x2="1560.0" y2="650" stroke="#1d2a3a" stroke-width="1.5"/>
+<text x="1560.0" y="672" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">110</text>
+<text x="1560" y="696" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="end">휨·찌그러짐 깊이(mm)</text>
+<rect x="40" y="738" width="1592" height="180" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="1.5"/>
+<rect x="70" y="760" width="34" height="22" fill="#d7eee1" stroke="#9aa6b2"/>
+<text x="116" y="778" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">UCIRC 표의 수리 기준 미만</text>
+<rect x="590" y="760" width="34" height="22" fill="#f7e2b5" stroke="#9aa6b2"/>
+<text x="636" y="778" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">UCIRC 수리 대상, CSC 정지 기준에는 못 미침</text>
+<rect x="1110" y="760" width="34" height="22" fill="#f6cfc6" stroke="#9aa6b2"/>
+<text x="1156" y="778" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">CSC/Circ.134 정지 기준(실린 컨테이너)</text>
+<text x="70" y="822" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 구멍·절단·찢어짐·균열은 깊이와 관계없이 UCIRC 수리 대상입니다. CSC는 균열·찢어짐 길이 기준을 따로 둡니다(예: 상부 레일 45mm, 코너 포스트 50mm).</text>
+<text x="70" y="852" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· UCIRC 코너 포스트 값은 찌그러짐(dent) 25mm, CSC 값은 국부 변형 50mm입니다. CSC 기준은 수리·운용 기준으로 쓰지 말라고 원문이 명시합니다.</text>
+<text x="70" y="882" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· IICL-6(리스 반납 기준)은 유료 자료라 수치를 싣지 않았습니다. 출처: UCIRC 제3판(BIC·ICS·WSC, 2023), IMO CSC/Circ.134(2005) 부속서 1.</text>
+</svg>
