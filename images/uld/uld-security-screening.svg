@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+
+<!-- left panel -->
+<rect x="30" y="30" width="930" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="25" font-weight="800" fill="#1d2a3a">화물 보안검색 방법 (항공보안법 시행령 제12조)</text>
+
+<!-- passenger -->
+<rect x="54" y="100" width="882" height="470" fill="#ffffff" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="74" y="136" font-size="21" font-weight="800" fill="#1f6fd1">여객기에 싣는 화물 (제11조 제2항·제3항 준용)</text>
+<g font-size="18" fill="#1d2a3a" text-anchor="middle">
+<rect x="80" y="160" width="250" height="80" fill="#e8f1fc" stroke="#1f6fd1" stroke-width="2" rx="10"/>
+<text x="205" y="196" font-weight="800">엑스선 검색</text>
+<text x="205" y="222" fill="#5f6b78">탑재 전 기본</text>
+
+<rect x="400" y="148" width="510" height="190" fill="#fff6e8" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="655" y="180" font-weight="800" fill="#e4572e">이런 경우 개봉검색</text>
+<text x="420" y="212" text-anchor="start">· 엑스선 장비가 정상 작동하지 않음</text>
+<text x="420" y="242" text-anchor="start">· 무기·위해물품이 숨겨졌다고 의심됨</text>
+<text x="420" y="272" text-anchor="start">· 영상으로 내용물을 판독할 수 없음</text>
+<text x="420" y="302" text-anchor="start">· 엑스선 장비로 검색할 수 없는 크기</text>
+<text x="420" y="328" text-anchor="start" font-size="16" fill="#5f6b78">  (예: 두꺼운 금속 덩어리·대형 기계, 다 쌓은 ULD)</text>
+</g>
+<line x1="332" y1="200" x2="396" y2="200" stroke="#e4572e" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="205" y1="242" x2="205" y2="420" stroke="#1f8a5b" stroke-width="3" marker-end="url(#ag)"/>
+<text x="218" y="330" font-size="17" font-weight="700" fill="#1f8a5b">판독 가능·이상 없음</text>
+<rect x="80" y="424" width="250" height="70" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="2" rx="10"/>
+<text x="205" y="466" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="middle">검색 완료</text>
+<line x1="655" y1="340" x2="655" y2="388" stroke="#e4572e" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="400" y="392" width="510" height="150" fill="#ffffff" stroke="#e4572e" stroke-width="2" rx="10"/>
+<text x="655" y="426" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">개봉해 내용물 검색</text>
+<text x="655" y="458" font-size="17" fill="#1d2a3a" text-anchor="middle">폭발물 의심이나 크기 초과면</text>
+<text x="655" y="484" font-size="17" fill="#1d2a3a" text-anchor="middle">폭발물 흔적탐지장비 등을 추가</text>
+<text x="655" y="518" font-size="15" fill="#5f6b78" text-anchor="middle">시행령 제11조 제3항</text>
+
+<!-- freighter -->
+<rect x="54" y="590" width="882" height="300" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="74" y="626" font-size="21" font-weight="800" fill="#1d2a3a">화물기에 싣는 화물: 다음 중 하나 (제12조 제2항)</text>
+<g font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">
+<rect x="80" y="650" width="196" height="80" fill="#eef2f6" stroke="#5f6b78" stroke-width="1.5" rx="10"/>
+<text x="178" y="696">개봉검색</text>
+<rect x="290" y="650" width="196" height="80" fill="#eef2f6" stroke="#5f6b78" stroke-width="1.5" rx="10"/>
+<text x="388" y="696">엑스선</text>
+<rect x="500" y="650" width="196" height="80" fill="#eef2f6" stroke="#5f6b78" stroke-width="1.5" rx="10"/>
+<text x="598" y="684">폭발물 탐지·</text>
+<text x="598" y="710">흔적탐지 장비</text>
+<rect x="710" y="650" width="196" height="80" fill="#eef2f6" stroke="#5f6b78" stroke-width="1.5" rx="10"/>
+<text x="808" y="696">폭발물 탐지견</text>
+</g>
+<text x="80" y="776" font-size="17" fill="#d9482b">압력실 검색: 2025. 12. 16. 시행령 개정으로 삭제</text>
+<text x="80" y="808" font-size="17" fill="#1d2a3a">화물기 기준으로 검색한 화물을 여객기로 옮기면 다시 검색</text>
+<text x="80" y="834" font-size="15" fill="#5f6b78">(항공보안법 제17조의4 제3항 제5호)</text>
+<text x="80" y="866" font-size="15" fill="#5f6b78">의료품·바이오 의약품·유골·이식용 장기: 개봉 또는 서류 확인+흔적탐지 가능(제13조 제3항)</text>
+
+<!-- right panel -->
+<rect x="980" y="30" width="662" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="1004" y="74" font-size="25" font-weight="800" fill="#1d2a3a">통제화물 무작위 표본검색</text>
+<text x="1004" y="104" font-size="17" fill="#5f6b78">「상용화주 항공화물 보안기준」 제12조 제3항</text>
+<text x="1004" y="128" font-size="17" fill="#5f6b78">1일 접수한 항공화물보안신고서 기준</text>
+
+<g font-size="18" fill="#1d2a3a">
+<!-- axis -->
+<line x1="1180" y1="160" x2="1180" y2="640" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1180" y="664" font-size="15" fill="#5f6b78" text-anchor="middle">0%</text>
+<line x1="1600" y1="160" x2="1600" y2="640" stroke="#c9d2dc" stroke-width="1.5" stroke-dasharray="5 5"/>
+<text x="1600" y="664" font-size="15" fill="#5f6b78" text-anchor="middle">100%</text>
+
+<text x="1004" y="200" font-weight="800">평시·관심</text>
+<text x="1004" y="224" font-size="15" fill="#5f6b78">Green·Blue</text>
+<rect x="1180" y="180" width="8" height="56" fill="#1f8a5b"/>
+<text x="1200" y="204" font-size="17">항공사가 정한 기준</text>
+<text x="1200" y="228" font-size="15" fill="#5f6b78">조건 충족 시 면제 가능(아래)</text>
+
+<text x="1004" y="330" font-weight="800">주의</text>
+<text x="1004" y="354" font-size="15" fill="#5f6b78">Yellow</text>
+<rect x="1180" y="310" width="21" height="56" fill="#e0b000"/>
+<text x="1214" y="345" font-size="19" font-weight="800">5% 이상</text>
+
+<text x="1004" y="460" font-weight="800">경계</text>
+<text x="1004" y="484" font-size="15" fill="#5f6b78">Orange</text>
+<rect x="1180" y="440" width="42" height="56" fill="#e4572e"/>
+<text x="1236" y="475" font-size="19" font-weight="800">10% 이상</text>
+
+<text x="1004" y="590" font-weight="800">심각</text>
+<text x="1004" y="614" font-size="15" fill="#5f6b78">Red</text>
+<rect x="1180" y="570" width="420" height="56" fill="#d9482b"/>
+<text x="1390" y="605" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">모든 화물 검색</text>
+
+<text x="1004" y="720" font-size="16" fill="#5f6b78">등급: 국가항공보안 우발계획의 항공보안등급</text>
+<text x="1004" y="746" font-size="16" fill="#5f6b78">국토교통부장관이 비율을 조정할 수 있음(제4항)</text>
+</g>
+<rect x="1004" y="806" width="614" height="88" fill="#ffffff" stroke="#1f8a5b" stroke-width="1.5" rx="10"/>
+<text x="1020" y="834" font-size="16" fill="#1d2a3a">평시·관심 면제 조건: 상용화주가 모든 화물을 엑스선 검색</text>
+<text x="1020" y="858" font-size="16" fill="#1d2a3a">+ 차량 내·외부 CCTV + 실시간 감시 또는 감독자 동승</text>
+<text x="1020" y="882" font-size="15" fill="#5f6b78">이 경우 지방항공청장이 반기 1회 점검</text>
+</svg>

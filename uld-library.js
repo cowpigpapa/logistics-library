@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/air-uld';
-  const DOCS_VERSION = '20261027-06';
+  const DOCS_VERSION = '20261027-10';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -38,6 +38,7 @@
     { id: 'uld-holds', tag: "화물칸", level: 3, title: "항공기 화물칸과 탑재 배치 — 메인덱, 로어덱 FWD·AFT 홀드, 벌크, 탑재 위치와 문", short: "항공기 화물칸과 탑재 위치", summary: "메인덱·로어덱 FWD/AFT·벌크 구성과 기종별 ULD 탑재 수·화물 문 크기, 위치 이름 읽는 법과 위치별 하중 제한." },
     { id: 'uld-buildup', tag: "빌드업", level: 3, title: "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형", short: "컨투어와 빌드업 기준", summary: "로어덱 64 in, 메인덱 96·118 in와 위치별 컨투어 차이, 반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트." },
     { id: 'uld-safety', tag: "안전", level: 2, title: "ULD 안전과 특수화물 — 손상 기준, 빌린 ULD의 점검·반납, 특수화물 고정과 규정", short: "ULD 안전과 특수화물", summary: "ULD 손상 점검 기준과 서비스 불가 ULD 처리, BUP용으로 빌린 ULD의 점검·반납 기한·지체료·손상 책임, 무거운 화물·차량·동물·온도관리 화물 같은 특수화물의 고정과 항공 보안, 관련 국제 규정과 포워더 체크리스트." },
+    { id: 'uld-security', checked: '2026-10-27', tag: "보안", level: 3, title: "항공화물 보안 — 상용화주·RA·KC와 보안검색, 미국·EU행 요건, CSD", short: "항공화물 보안과 상용화주", summary: "ICAO 보안 공급망(RA·KC, SPX·SHR)과 한국 항공보안법의 상용화주 제도(지정 기준, 「상용화주 항공화물 보안기준」의 운송·접수·표본검색), 여객기·화물기 보안검색 방법과 엑스선으로 잘 보이지 않는 화물, 통제화물이 다시 검색되는 8가지 경우, 미국행 100% 검색과 EU행 ACC3·RA3·KC3, CSD·항공화물보안신고서, 포워더가 남길 기록과 처벌을 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -50,10 +51,11 @@
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
     { title: "ULD 종류와 코드", sub: "ULD란과 코드 읽는 법 · 88·96인치 팔레트", docs: ["uld-code", "uld-pallets"] },
-    { title: "탑재와 빌드업", sub: "화물칸과 탑재 배치 · 컨투어와 빌드업 · ULD 안전과 특수화물", docs: ["uld-holds", "uld-buildup", "uld-safety"] }
+    { title: "탑재와 빌드업", sub: "화물칸과 탑재 배치 · 컨투어와 빌드업 · ULD 안전과 특수화물 · 항공화물 보안", docs: ["uld-holds", "uld-buildup", "uld-safety", "uld-security"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
+    { name: "상용화주·보안검색은 무엇인가요", ids: ["uld-security"] },
     { name: "ULD란 무엇이고 인증·비인증은 뭐가 다른가요", ids: ["uld-code"] },
     { name: "AKE 12345 KE는 무슨 뜻인가요", ids: ["uld-code"] },
     { name: "88과 96 팔레트는 뭐가 다른가요", ids: ["uld-pallets", "uld-code"] },

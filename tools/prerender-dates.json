@@ -1,17 +1,17 @@
 {
  "https://logistics.onharu.app/": {
-  "hash": "996d9cea4c852dff",
-  "modified": "2026-10-28T00:04:29+09:00",
+  "hash": "c4bfff74e15828ef",
+  "modified": "2026-10-28T00:11:04+09:00",
   "published": "2026-10-11T23:23:57+09:00"
  },
  "https://logistics.onharu.app/library/accident-cases": {
-  "hash": "fad97637bfcb6ef9",
-  "modified": "2026-10-28T00:04:28+09:00",
+  "hash": "059bb3d2e9646431",
+  "modified": "2026-10-28T00:11:01+09:00",
   "published": "2026-10-26T21:35:18+09:00"
  },
  "https://logistics.onharu.app/library/accident-cases/ac-all": {
-  "hash": "adca713feeac75e4",
-  "modified": "2026-10-28T00:04:28+09:00",
+  "hash": "c0f607d57cc2a53a",
+  "modified": "2026-10-28T00:11:01+09:00",
   "published": "2026-10-26T21:35:18+09:00"
  },
  "https://logistics.onharu.app/library/accident-cases/battery-cases": {
@@ -80,39 +80,44 @@
   "published": "2026-10-27T20:58:07+09:00"
  },
  "https://logistics.onharu.app/library/accident-cases/uld-cases": {
-  "hash": "862b73322c319a65",
-  "modified": "2026-10-27T20:58:07+09:00",
+  "hash": "ca5dda39f716fb9f",
+  "modified": "2026-10-28T00:11:00+09:00",
   "published": "2026-10-27T20:58:07+09:00"
  },
  "https://logistics.onharu.app/library/air-uld": {
-  "hash": "6a756e7616a34f4a",
-  "modified": "2026-10-27T21:40:58+09:00",
+  "hash": "f85f57a393639f23",
+  "modified": "2026-10-28T00:10:59+09:00",
   "published": "2026-10-11T23:19:50+09:00"
  },
  "https://logistics.onharu.app/library/air-uld/uld-buildup": {
-  "hash": "5b8c33e13dfdb8ae",
+  "hash": "d2e36579702dc6ce",
   "modified": "2026-10-27T21:05:38+09:00",
   "published": "2026-10-05T23:47:33+09:00"
  },
  "https://logistics.onharu.app/library/air-uld/uld-code": {
-  "hash": "8c3c1f0e9467d96c",
+  "hash": "682e039f93c90b50",
   "modified": "2026-10-22T23:44:20+09:00",
   "published": "2026-10-05T23:47:33+09:00"
  },
  "https://logistics.onharu.app/library/air-uld/uld-holds": {
-  "hash": "c29a4c2e1ab7e6df",
+  "hash": "1b4e8931a5195691",
   "modified": "2026-10-27T21:05:38+09:00",
   "published": "2026-10-05T23:47:33+09:00"
  },
  "https://logistics.onharu.app/library/air-uld/uld-pallets": {
-  "hash": "2177486cd8d8fa6f",
+  "hash": "52a40f8fb716c34b",
   "modified": "2026-10-27T21:05:38+09:00",
   "published": "2026-10-05T23:47:33+09:00"
  },
  "https://logistics.onharu.app/library/air-uld/uld-safety": {
-  "hash": "43969f40040cdf20",
-  "modified": "2026-10-27T21:05:38+09:00",
+  "hash": "8965c324c74fbe36",
+  "modified": "2026-10-28T00:10:59+09:00",
   "published": "2026-10-05T23:47:33+09:00"
+ },
+ "https://logistics.onharu.app/library/air-uld/uld-security": {
+  "hash": "a5c1fcd48b5c0f61",
+  "modified": "2026-10-28T00:10:44+09:00",
+  "published": "2026-10-28T00:10:44+09:00"
  },
  "https://logistics.onharu.app/library/bl-awb": {
   "hash": "4cb11943543378b6",
@@ -820,8 +825,8 @@
   "published": "2026-10-27T21:50:00+09:00"
  },
  "https://logistics.onharu.app/library/guide/guide-flow": {
-  "hash": "d3bf5a905baf8758",
-  "modified": "2026-10-28T00:04:01+09:00",
+  "hash": "cff2547d5dd85301",
+  "modified": "2026-10-28T00:10:44+09:00",
   "published": "2026-10-27T21:49:59+09:00"
  },
  "https://logistics.onharu.app/library/guide/guide-glossary": {
@@ -830,8 +835,8 @@
   "published": "2026-10-27T21:49:59+09:00"
  },
  "https://logistics.onharu.app/library/guide/guide-updates": {
-  "hash": "d5b31a06a03fb3e3",
-  "modified": "2026-10-28T00:04:01+09:00",
+  "hash": "40c513de75acf191",
+  "modified": "2026-10-28T00:10:44+09:00",
   "published": "2026-10-27T21:49:59+09:00"
  },
  "https://logistics.onharu.app/library/incoterms-2020": {

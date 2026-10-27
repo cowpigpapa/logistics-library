@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="520" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="26" font-weight="800" fill="#1d2a3a">한국 항공화물 보안 공급망: 통제화물과 비통제 화물</text>
+<text x="54" y="104" font-size="18" fill="#5f6b78">항공보안법 제15조·제17조의4, 「상용화주 항공화물 보안기준」 제4조·제8조~제14조</text>
+
+<!-- lane A -->
+<text x="60" y="146" font-size="20" font-weight="800" fill="#1f8a5b">통제화물 (상용화주가 검색)</text>
+<g font-size="18" fill="#1d2a3a" text-anchor="middle">
+<rect x="60" y="160" width="280" height="150" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="200" y="198" font-weight="800">상용화주</text>
+<text x="200" y="226">화주 또는 포워더</text>
+<text x="200" y="254">지방항공청 지정</text>
+<text x="200" y="282" fill="#5f6b78">장비·검색요원 2명 이상</text>
+
+<rect x="380" y="160" width="280" height="150" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="520" y="198" font-weight="800">검색·보안통제</text>
+<text x="520" y="226">포장단위별 완료표지</text>
+<text x="520" y="254">항공화물보안신고서</text>
+<text x="520" y="282" fill="#5f6b78">화물명세서(통제 구분)</text>
+
+<rect x="700" y="160" width="280" height="150" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="840" y="198" font-weight="800">운송</text>
+<text x="840" y="226">밀폐 적재함 잠금·봉인</text>
+<text x="840" y="254">통제·비통제 차량 분리</text>
+<text x="840" y="282" fill="#5f6b78">교육받은 운전자·신분증</text>
+
+<rect x="1020" y="160" width="280" height="150" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="1160" y="198" font-weight="800">항공사 접수 확인</text>
+<text x="1160" y="226">신고서·차량·신분증</text>
+<text x="1160" y="254">봉인·표지·외관</text>
+<text x="1160" y="282" fill="#5f6b78">책임: 접수 전 상용화주</text>
+
+<rect x="1340" y="160" width="280" height="150" fill="#e3f3ea" stroke="#1f8a5b" stroke-width="2" rx="12"/>
+<text x="1480" y="198" font-weight="800">통제화물로 보관·탑재</text>
+<text x="1480" y="226">비통제 화물과 분리 보관</text>
+<text x="1480" y="254">일부 무작위 표본검색</text>
+<text x="1480" y="282" fill="#5f6b78">책임: 접수 후 항공사</text>
+</g>
+<line x1="342" y1="235" x2="376" y2="235" stroke="#1f8a5b" stroke-width="3" marker-end="url(#ag)"/>
+<line x1="662" y1="235" x2="696" y2="235" stroke="#1f8a5b" stroke-width="3" marker-end="url(#ag)"/>
+<line x1="982" y1="235" x2="1016" y2="235" stroke="#1f8a5b" stroke-width="3" marker-end="url(#ag)"/>
+<line x1="1302" y1="235" x2="1336" y2="235" stroke="#1f8a5b" stroke-width="3" marker-end="url(#ag)"/>
+
+<!-- down arrow from acceptance -->
+<line x1="1160" y1="312" x2="1160" y2="400" stroke="#d9482b" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="1172" y="330" width="372" height="56" fill="#ffffff" stroke="#d9482b" stroke-width="1.5" rx="8"/>
+<text x="1186" y="353" font-size="16" font-weight="700" fill="#d9482b">미흡하거나 의심스러우면</text>
+<text x="1186" y="376" font-size="16" fill="#d9482b">비통제 화물로 처리 (고시 제10조 제2항)</text>
+
+<!-- lane B -->
+<text x="60" y="390" font-size="20" font-weight="800" fill="#d9482b">비통제 화물 (항공사가 검색)</text>
+<g font-size="18" fill="#1d2a3a" text-anchor="middle">
+<rect x="60" y="404" width="280" height="120" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="200" y="444" font-weight="800">상용화주가 아닌</text>
+<text x="200" y="472">화주·포워더의 화물</text>
+<text x="200" y="500" fill="#5f6b78">통제가 끊긴 화물 포함</text>
+
+<rect x="380" y="404" width="600" height="120" fill="#fdecea" stroke="#d9482b" stroke-width="2" rx="12"/>
+<text x="680" y="444" font-weight="800">화물터미널 반입</text>
+<text x="680" y="472">보안 상태가 확인되지 않은 화물로 접수</text>
+<text x="680" y="500" fill="#5f6b78">BUP는 항공사마다 받는 조건이 다름</text>
+
+<rect x="1020" y="404" width="280" height="120" fill="#ffffff" stroke="#d9482b" stroke-width="2.5" rx="12"/>
+<text x="1160" y="444" font-weight="800">항공사 보안검색</text>
+<text x="1160" y="472">직접 또는 지정 업체 위탁</text>
+<text x="1160" y="500" fill="#5f6b78">법 제15조 제2항·제3항</text>
+
+<rect x="1340" y="404" width="280" height="120" fill="#ffffff" stroke="#1d2a3a" stroke-width="2" rx="12"/>
+<text x="1480" y="452" font-weight="800">탑재</text>
+<text x="1480" y="482" fill="#5f6b78">검색을 통과한 화물만</text>
+</g>
+<line x1="342" y1="464" x2="376" y2="464" stroke="#d9482b" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="982" y1="464" x2="1016" y2="464" stroke="#d9482b" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="1302" y1="464" x2="1336" y2="464" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ak)"/>
+
+<!-- bottom panel -->
+<rect x="30" y="570" width="1612" height="341" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="612" font-size="23" font-weight="800" fill="#1d2a3a">상용화주가 검색한 화물이라도 항공사가 다시 검색하는 경우 (항공보안법 제17조의4 제3항)</text>
+<g font-size="19" fill="#1d2a3a">
+<circle cx="76" cy="660" r="15" fill="#d9482b"/><text x="76" y="666" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="102" y="667">상용화주에게서 받았으나 상용화주가 아닌 자가 취급</text>
+<circle cx="76" cy="716" r="15" fill="#d9482b"/><text x="76" y="722" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="102" y="723">접수·검색·운송 중 상용화주·항공사의 통제를 벗어남</text>
+<circle cx="76" cy="772" r="15" fill="#d9482b"/><text x="76" y="778" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="102" y="779">훼손 흔적이 있음</text>
+<circle cx="76" cy="828" r="15" fill="#d9482b"/><text x="76" y="834" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="102" y="835">허가받지 않은 자의 접촉이 있었거나 의심됨</text>
+
+<circle cx="866" cy="660" r="15" fill="#d9482b"/><text x="866" y="666" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="892" y="667">화물전용기에서 여객기로 옮겨짐</text>
+<circle cx="866" cy="716" r="15" fill="#d9482b"/><text x="866" y="722" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="892" y="723">무작위 표본검색 등 국토교통부장관 고시 사항</text>
+<circle cx="866" cy="772" r="15" fill="#d9482b"/><text x="866" y="778" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="892" y="779">관할 경찰관서장이 필요한 조치를 요구</text>
+<circle cx="866" cy="828" r="15" fill="#d9482b"/><text x="866" y="834" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">8</text>
+<text x="892" y="835">위협정보 입수 등 항공사가 검색이 필요하다고 볼 상당한 사유</text>
+</g>
+<text x="54" y="887" font-size="17" fill="#5f6b78">예: 상용화주 화주의 봉인 화물을 상용화주가 아닌 포워더 창고에서 내려 재포장·혼재하면 1번에 해당해 공항에서 다시 검색합니다.</text>
+</svg>

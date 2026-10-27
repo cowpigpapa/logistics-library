@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="26" font-weight="800" fill="#1d2a3a">한국·EU행·미국행 항공화물 보안 제도 비교</text>
+<text x="54" y="102" font-size="17" fill="#5f6b78">2026. 10. 27. 확인. 탑재 전 사전정보(EU ICS2, 미국 ACAS)는 통관 문서에서 다룹니다.</text>
+
+<!-- header -->
+<rect x="54" y="120" width="196" height="50" fill="#1d2a3a" rx="8"/>
+<rect x="258" y="120" width="452" height="50" fill="#1f8a5b" rx="8"/>
+<rect x="718" y="120" width="452" height="50" fill="#1f6fd1" rx="8"/>
+<rect x="1178" y="120" width="440" height="50" fill="#d9482b" rx="8"/>
+<g font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">
+<text x="152" y="152">항목</text>
+<text x="484" y="152">한국</text>
+<text x="944" y="152">EU행 (제3국 출발)</text>
+<text x="1398" y="152">미국행</text>
+</g>
+
+<!-- rows: y starts 180, height 142 each, gap 4 -->
+<g font-size="17" fill="#1d2a3a">
+<!-- row 1 -->
+<rect x="54" y="180" width="1564" height="138" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="8"/>
+<text x="74" y="240" font-size="19" font-weight="800">근거</text>
+<text x="278" y="214">항공보안법 제15조·제17조의4</text>
+<text x="278" y="240">시행령 제12조</text>
+<text x="278" y="266">「상용화주 항공화물 보안기준」</text>
+<text x="278" y="292" fill="#5f6b78">(국토교통부 고시 제2023-287호)</text>
+<text x="738" y="214">규정 (EC) 300/2008</text>
+<text x="738" y="240">이행규정 (EU) 2015/1998 부속서 6장</text>
+<text x="738" y="266">(6.8 제3국발 화물·우편물)</text>
+<text x="1198" y="214">49 U.S.C. 44901(g)</text>
+<text x="1198" y="240">외국 항공사: 49 CFR 1546</text>
+<text x="1198" y="266">(1546.205 화물 접수·검색)</text>
+
+<!-- row 2 -->
+<rect x="54" y="326" width="1564" height="138" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="8"/>
+<text x="74" y="386" font-size="19" font-weight="800">검색·통제</text>
+<text x="74" y="412" font-size="19" font-weight="800">주체</text>
+<text x="278" y="360">항공사(직접 또는 지정 업체 위탁)</text>
+<text x="278" y="386">상용화주: 지방항공청 지정 화주·포워더</text>
+<text x="278" y="412">엑스선 장비, 검색요원 2명 이상,</text>
+<text x="278" y="438">6개월 24회 이상 운송 의뢰 실적</text>
+<text x="738" y="360">항공사: ACC3 (최대 5년)</text>
+<text x="738" y="386">제3국 포워더 등: RA3 (최대 3년)</text>
+<text x="738" y="412">제3국 화주: KC3 (최대 3년)</text>
+<text x="738" y="438" fill="#5f6b78">모두 EU 항공보안 검증 필요</text>
+<text x="1198" y="360">TSA 규정에 따른 보안 프로그램을</text>
+<text x="1198" y="386">운영하는 항공사</text>
+<text x="1198" y="412">타국 제도 인정(NCSP): 2018. 6.</text>
+<text x="1198" y="438">기준 EU와 12개국 (한국은 미확인)</text>
+
+<!-- row 3 -->
+<rect x="54" y="472" width="1564" height="138" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="8"/>
+<text x="74" y="532" font-size="19" font-weight="800">인정 안 되는</text>
+<text x="74" y="558" font-size="19" font-weight="800">화물</text>
+<text x="278" y="506">상용화주가 아닌 곳의 화물은</text>
+<text x="278" y="532">항공사가 검색</text>
+<text x="278" y="558">통제 이탈·훼손·비상용화주 취급,</text>
+<text x="278" y="584">화물기→여객기 등은 재검색</text>
+<text x="738" y="506">서류에 RA3·KC3 식별번호가 없거나</text>
+<text x="738" y="532">EU 데이터베이스에 활성이 아니면</text>
+<text x="738" y="558">보안 통제 없던 화물로 보고</text>
+<text x="738" y="584">ACC3·RA3가 검색 (6.8.3.5)</text>
+<text x="1198" y="506">여객기 화물은 100% 검색 대상</text>
+<text x="1198" y="532">화주 신원·내용물 정보만으로는</text>
+<text x="1198" y="558">검색으로 인정 안 됨</text>
+<text x="1198" y="584">검색 거부 화물은 운송 거절</text>
+
+<!-- row 4 -->
+<rect x="54" y="618" width="1564" height="138" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="8"/>
+<text x="74" y="692" font-size="19" font-weight="800">검색 방법</text>
+<text x="278" y="652">여객기: 엑스선, 판독 불가·크기 초과는</text>
+<text x="278" y="678">개봉검색(+흔적탐지)</text>
+<text x="278" y="704">화물기: 개봉·엑스선·탐지/흔적탐지</text>
+<text x="278" y="730">장비·탐지견 중 하나</text>
+<text x="738" y="652">수검색, 엑스선, EDS, 탐지견, ETD,</text>
+<text x="738" y="678">육안, 금속탐지, EVD 중 하나 이상</text>
+<text x="738" y="704">EU행 탐지견: 2026. 1. 1.부터</text>
+<text x="738" y="730">검증 과정에서 관찰·평가 필요</text>
+<text x="1198" y="652">엑스선, EDS, ETD,</text>
+<text x="1198" y="678">TSA 인증 탐지견,</text>
+<text x="1198" y="704">적하목록 대조를 곁들인 개봉 검색</text>
+<text x="1198" y="730" fill="#5f6b78">(44901(g)(4))</text>
+
+<!-- row 5 -->
+<rect x="54" y="764" width="1564" height="132" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="8"/>
+<text x="74" y="836" font-size="19" font-weight="800">보안 서류</text>
+<text x="278" y="798">항공화물보안신고서</text>
+<text x="278" y="824">(지정번호·운송장 번호·통제 방법·서명)</text>
+<text x="278" y="850">화물명세서(통제·비통제 구분)</text>
+<text x="278" y="876" fill="#5f6b78">항공사가 1년 이상 보관</text>
+<text x="738" y="798">AWB 또는 별도 서류(종이·전자)</text>
+<text x="738" y="824">ACC3·RA 식별번호, SPX·SHR,</text>
+<text x="738" y="850">검색 방법 코드(XRY·EDD·ETD 등)</text>
+<text x="738" y="876" fill="#5f6b78">ICAO CSD 기준 (6.3.2.6, 6.8.3.6)</text>
+<text x="1198" y="798">항공사 보안 프로그램에 따름</text>
+<text x="1198" y="824" fill="#5f6b78">(세부는 공개 자료로 확인하지 못함)</text>
+<text x="1198" y="850">IATA CSD·e-CSD는 ICAO 지침에</text>
+<text x="1198" y="876">맞춘 업계 표준 양식</text>
+</g>
+</svg>

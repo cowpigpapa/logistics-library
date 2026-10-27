@@ -1,0 +1,154 @@
+[
+ {
+  "file": "uld-security.html",
+  "claim": "10절 처벌 표: 항공사·공항운영자가 보안검색 업무를 하지 않거나 소홀히 하면 5천만원 이하 벌금(법 제50조 제4항 제2호). 현행으로는 맞지만 2026. 12. 17. 시행 예정 개정(법률 제21821호, 2026. 6. 16. 공포)으로 구성요건이 바뀜. 개정이 시행되면 7주 만에 낡은 설명이 됨",
+  "verdict": "unclear",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283745&type=XML 현행 제50조④ \"2. 제15조를 위반하여 보안검색 업무를 하지 아니하거나 소홀히 한 사람\"; https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=286951&efYd=20261217&type=XML (시행예정, 시행 2026.12.17) 제50조④ \"2. 제15조를 위반하여 보안검색을 실시하지 아니한 사람 또는 보안검색을 성실하게 실시하지 아니함으로써 불법방해행위를 발생하게 한 사람\" <개정 2026.6.16>. 개정이유: \"보안점검 의무위반에 대한 제재규정을 1천만원 이하의 과태료에서 5천만원 이하의 벌금으로 강화\". 제17조의4·제17조의5·제19조·제21조·제37조·제44조·제51조①5호는 개정 뒤에도 같음",
+  "old": "<td>항공사·공항운영자가 화물 등 보안검색 업무를 하지 않거나 소홀히 함</td>",
+  "fix": "<td>항공사·공항운영자가 화물 등 보안검색 업무를 하지 않거나 소홀히 함(2026. 12. 17.부터는 보안검색을 하지 않았거나, 성실하게 하지 않아 불법방해행위를 일으킨 경우로 바뀜, 법률 제21821호)</td>"
+ },
+ {
+  "file": "uld-security.html",
+  "claim": "자료 확인 문단: 항공보안법은 법률 제21414호(시행 2026. 2. 27.)만 적음. 이미 공포된 시행 예정 개정(법률 제21821호, 2026. 12. 17. 시행)도 확인했다는 표시가 없음",
+  "verdict": "unclear",
+  "evidence": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=항공보안법 → 법령일련번호 286951, 공포 20260616, 공포번호 21821, 시행 20261217, 현행연혁코드 \"시행예정\". 상용화주 조문(제17조의4·제17조의5)은 바뀌지 않고 제50조 제4항·제51조 제1항 제3호 등이 바뀜",
+  "old": "항공보안법(법률 제21414호, 시행 2026. 2. 27.)·시행령",
+  "fix": "항공보안법(법률 제21414호, 시행 2026. 2. 27., 2026. 12. 17. 시행 예정인 법률 제21821호 개정 포함)·시행령"
+ },
+ {
+  "file": "uld-security.html",
+  "claim": "11절 화주 점검표: \"항공사·포워더가 검색을 위해 개봉할 수 있다는 것에 동의하는 절차를 둔다\" — 포워더가 화물을 개봉한다는 표현은 STYLE.md 13행(포워더에게 화물을 열어 보라고 쓰지 않는다)에 어긋날 수 있음. 법상 검색 주체는 항공사(법 제15조 제2항)와 상용화주(제17조의4 제1항)이고, 49 CFR 1546.205(b)도 항공사의 운송 거절 의무",
+  "verdict": "unclear",
+  "evidence": "D:/Desktop/AI Project/LogisticsLibrary/tools/STYLE.md 13행 \"포워더에게 화물을 열어 보거나 시험·측정·외관 점검을 하라고 쓰지 않는다\"; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283745&type=XML 제15조② \"항공운송사업자는 화물에 대한 보안검색을 하여야 한다\", 제17조의4①; https://www.ecfr.gov/current/title-49/section-1546.205 (b) \"must refuse to transport any cargo, if the shipper does not consent to a search or inspection of that cargo\"",
+  "old": "항공사·포워더가 검색을 위해 개봉할 수 있다는 것에 동의하는 절차를 둔다",
+  "fix": "항공사(또는 검색을 맡은 상용화주)가 보안검색을 위해 개봉할 수 있다는 것에 동의하는 절차를 둔다"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 2: 네 번째 소포는 \"터지기 전에\" 압수됐다고 적음. Eurojust는 온전한 상태로 압수됐다고만 쓰고, 장치는 폭발물이 아니라 스스로 불이 붙는 발화 장치임",
+  "verdict": "unclear",
+  "evidence": "https://www.eurojust.europa.eu/news/joint-investigation-team-disrupts-group-using-self-igniting-parcels-terrorist-attacks (2026-03-06) \"The second parcel was seized by authorities while it was still intact, enabling the analysis of the device and its damage potential.\" 제목도 \"self-igniting parcels\"",
+  "old": "나머지 하나는 터지기 전에 압수되어",
+  "fix": "나머지 하나는 불이 붙기 전에 온전한 상태로 압수되어"
+ },
+ {
+  "file": "cases.html",
+  "claim": "사례 1: \"CBP는 ... 승객 검색이 강화되자 테러 조직이 항공화물로 방향을 바꿨다고 적었습니다\" — CBP가 스스로 내린 판단이 아니라, 테러 조직이 사건 직후 낸 자료에 그렇게 적혀 있었다고 인용한 것",
+  "verdict": "unclear",
+  "evidence": "https://www.federalregister.gov/documents/2018/06/12/2018-12315/air-cargo-advance-screening-acas (83 FR 27380-27381, Executive Summary) \"In materials published by a terrorist organization shortly after the October 2010 incident, it was noted that due to the increased passenger screening implemented after the Christmas Day 2009 attempt, the terrorist organization decided to employ explosive devices sent via air cargo.\"",
+  "old": "CBP는 같은 규정 해설에서 2009년 성탄절 여객기 폭탄 기도 뒤 승객 검색이 강화되자 테러 조직이 항공화물로 방향을 바꿨다고 적었습니다.",
+  "fix": "CBP는 같은 규정 해설에서, 테러 조직이 사건 직후 낸 자료에 2009년 성탄절 여객기 폭탄 기도 뒤 승객 검색이 강화되어 항공화물로 폭발 장치를 보내기로 했다고 적혀 있었다는 점도 밝혔습니다."
+ },
+ {
+  "file": "uld-docs/uld-safety.html",
+  "claim": "(기존 문서, 저장소 경로 기준) '항공 보안과 ULD' 문단이 고시 이름을 \"항공화물보안기준\"으로 적음. 법 제17조의4 제2항의 일반 명칭일 뿐 실제 고시 제목은 「상용화주 항공화물 보안기준」(국토교통부 고시 제2023-287호, 현행)이라 새 문서 uld-security와 이름을 맞춰야 함",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=상용화주 → 행정규칙명 \"상용화주 항공화물 보안기준\", 발령번호 2023-287, 발령일자 20230602, 현행. 법 제17조의4② \"...화물보안통제절차 등에 관한 항공화물보안기준을 정하여 고시하여야 한다\"",
+  "old": "국토교통부 고시인 항공화물보안기준에서 정합니다",
+  "fix": "국토교통부 고시 「상용화주 항공화물 보안기준」(제2023-287호)에서 정합니다"
+ },
+ {
+  "file": "uld-docs/uld-safety.html",
+  "claim": "(기존 문서, 저장소 경로 기준) 같은 절 다음 문단의 고시 이름도 같은 문제",
+  "verdict": "wrong",
+  "evidence": "위와 같음(고시 정식 제목 「상용화주 항공화물 보안기준」). https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000224148&type=XML",
+  "old": "구체적인 봉인·보호 방법은 항공화물보안기준과 항공사 절차",
+  "fix": "구체적인 봉인·보호 방법은 「상용화주 항공화물 보안기준」과 항공사 절차"
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "항공보안법 법률 제21414호, 시행 2026. 2. 27.(현행); 시행령 대통령령 제35913호 2025. 12. 16.; 시행규칙 2026. 9. 15.(국토교통부령 제1621호)",
+  "evidence": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=항공보안법 → 283745 공포번호 21414 시행 20260227 현행; 280295 시행령 35913 시행 20251216; 289877 시행규칙 01621 시행 20260915"
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "상용화주 조문은 2026. 2. 27. 개정으로 제17조의2에서 제17조의4로 옮겨졌고, 시행규칙·고시는 아직 옛 번호를 인용함",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=257347&efYd=20241227&type=XML (시행 2024.12.27): 제17조의2(상용화주), 제17조의3(상용화주의 지정취소); https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283745&type=XML (21414호): 제17조의2(환승 승객 등에 대한 보안검색의 면제), 제17조의3(국가 간 보안검색 정보의 제공), 제17조의4(상용화주), 제17조의5(상용화주의 지정취소). 시행규칙 제9조의2① \"법 제17조의2제1항에서...\"; 고시 제1조·제2조·제11조② \"법 제17조의2...\""
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "제15조 제2항(항공사가 화물 검색)·제3항·제7항(위탁), 제16조 제2항(화물터미널운영자), 제17조의4 제1항·제3항과 8가지 재검색 사유, 제17조의5(부정 지정은 반드시 취소, 기준 미달·보안기준 위반은 취소 가능, 항공사 통보), 제37조 제2호(청문)",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283745&type=XML 제17조의4③ \"1. 상용화주로부터 접수하였으나 상용화주가 아닌 자가 취급한 경우 2. ...통제를 벗어난 경우 3. 훼손 흔적이 있는 경우 4. 허가받지 아니한 자의 접촉... 5. 화물전용기에서 여객기로 옮겨지는 경우 6. 무작위 표본검색 등 국토교통부장관이 정하여 고시한 사항 7. ...관할 국가경찰관서의 장이 필요한 조치를 요구한 경우 8. 그 밖에 위협정보의 입수 등...\"; 제17조의5①②; 제37조 \"2. 제17조의5제1항에 따른 상용화주 지정의 취소\""
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "제44조(2년 이상 5년 이하 징역 또는 2천만원 이상 5천만원 이하 벌금, 다른 사람으로 하여금 탑재하게 한 사람 포함), 제19조 제1항 보고 의무와 제51조 제1항 제5호(1천만원 이하 과태료), 제50조의2 양벌",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283745&type=XML 제44조 \"...휴대 또는 탑재하거나 다른 사람으로 하여금 휴대 또는 탑재하게 한 사람은 2년 이상 5년 이하의 징역 또는 2천만원 이상 5천만원 이하의 벌금\"; 제51조① \"5. 제19조제1항을 위반하여 국토교통부장관에게 보고하지 아니한 자\""
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "시행령 제12조(여객기 화물은 제11조 제2항·제3항 준용, 화물기 4가지 방법), 압력실 검색 2025. 12. 16. 삭제와 개정이유(안전성 제고, 과태료 가중), 제13조 제3항 특별 검색",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280295&type=XML 제12조② \"5. 삭제<2025.12.16>\"; 개정이유 \"화물기에 탑재하는 화물에 대하여 실시하는 보안검색의 안전성을 제고하기 위하여 보안검색의 방법에서 압력실을 사용한 검색의 방법은 제외하고, ...중대한 위반행위를 은폐ㆍ조작하기 위하여 발생한 경우에는 과태료를 가중\"; 제13조③ 1호 골수·혈액, 1의2 바이오 의약품, 2 유골·유해, 3 이식용 장기"
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "시행규칙 제9조의2(엑스선 장비, 검색요원 2명 이상, 분리 시설, 6개월 24회 이상, 위탁 시 장비·요원 기준 적용 제외 가능)·제9조의3(신청 서류, 지방항공청장 심사·지정서, 항공사 통보)",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289877&type=XML 제9조의2① \"2. 항공보안검색요원을 2명 이상 확보할 것 ... 4. 상용화주 지정 신청일 이전 6개월 이내의 기간 중 총 24회 이상 항공화물을 운송 의뢰한 실적\"; 제9조의3①1호 가~사목, ② \"항공운송사업자에게 통보\""
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "「상용화주 항공화물 보안기준」 제2023-287호가 현행(더 새 판 없음)이고 제4조, 제5조, 제7조 제3항(1년), 제8조, 제9조, 제10조, 제12조(평시·관심은 항공사 기준과 면제 조건, 주의 5%, 경계 10%, 심각 전량, 실적 1년), 제13조, 제14조 항목, 제15조 제4항, 제17조, 제18조, 제19조(1년), 제20조 모두 일치",
+  "evidence": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000224148&type=XML 제4조 \"...항공운송사업자가 접수하기 전까지는 상용화주에게 있으며, 접수 후에는 항공운송사업자에게 있다\"; 제10조② \"...의심이 있다고 판단되는 항공화물은 보안통제가 되지 않은 화물로 처리\"; 제12조③ \"2. 주의(Yellow)단계: ...최소 5% 이상 3. 경계(Orange)단계: ...최소 10% 이상 4. 심각(Red)단계: 상용화주가 위탁한 모든 항공화물\"; 제19조 \"1년 이상 보관\". 고시 「항공기 내 반입금지 위해물품」 제2021-1274호도 현행"
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "EU 2015/1998 부속서 6.0.8(2024. 9. 1. 기준 확립된 거래 관계), 6.2.1.1~6.2.1.5(8가지 방법, 20분/10분), 6.2.1.3(밀봉 용기, M20 = Reg (EU) 2026/449), 6.3.1.1, 6.3.2.6·6.3.2.7, 6.8.1.4(ACC3 최대 5년), 6.8.4.6(RA3·KC3 최대 3년), 6.8.3.1·6.8.3.2(탐지견 2026. 1. 1.)·6.8.3.4·6.8.3.5·6.8.3.6, 6.8.7, 부속서 6-Fi(노르웨이 스발바르, 몬테네그로, 세르비아, 영국)",
+  "evidence": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015R1998-20261001 (2026. 10. 1. 통합본. 직접 접속은 WAF가 202로 막아, 작성 단계에서 받아 둔 같은 EUR-Lex 통합본 HTML로 대조) 6.8.3.5 \"...it shall be deemed that no security controls have previously been applied, and the consignments shall be screened by the ACC3 or by another EU aviation security validated RA3\"; 6.8.3.2 \"As from 1 January 2026 an ACC3 or RA3 may be approved for the use of explosive detection dogs ... only if ... has observed the EDD screening process\"; 6.8.4.6 \"maximum period of three years\"; 6.8.1.4 \"maximum period of five years\"; 개정 목록 \"M20 COMMISSION IMPLEMENTING REGULATION (EU) 2026/449 of 27 February 2026\""
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "Reg (EU) 2022/1174가 계정 화주 조항과 SCO 보안 상태를 삭제함",
+  "evidence": "https://publications.europa.eu/resource/celex/32022R1174 (Accept: application/xhtml+xml) Annex \"(8) in point 6.1.1, point (c) is deleted\"; \"(13) point 6.3.2.6 ... (d) ... 'SPX' ... 'SHR' ...; (b) in point (e), point (ii) is deleted\"; \"(16) point 6.5 is replaced by ... '6.5. APPROVED HAULIERS No provisions'\"; \"(18) point 6.8.3.1 ... point (c) is deleted\"; \"(23) Attachment 6-D is deleted\"; 2022. 7. 1.부터 적용"
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "Reg (EU) No 859/2011: 185/2010에 제3국발 화물 규칙이 없었고, 항공사는 2014. 7. 1.까지 독립 검증인에게 현장 검증을 받아야 했음",
+  "evidence": "https://publications.europa.eu/resource/celex/32011R0859 recital (1) \"Regulation (EU) No 185/2010 ... does not contain rules for cargo and mail being carried to Union airports from third countries\"; 6.8.1.2 \"by 1 July 2014 at the latest, the air carrier shall ensure that an on-site verification ... has been carried out by an independent validator\""
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "49 U.S.C. 44901(g)(1)(2)(4)와 9/11 위원회 권고 이행법 제1602조, 49 CFR 1546.205(a)(b)",
+  "evidence": "https://www.law.cornell.edu/uscode/text/49/44901 (g)(1) \"screen 100 percent of cargo transported on passenger aircraft\"; (g)(4) \"x-ray systems, explosives detection systems, explosives trace detection, explosives detection canine teams certified by the TSA, or a physical search together with manifest verification ... shall not include solely performing a review of information about the contents of cargo or verifying the identity of a shipper\"; Notes \"Pub. L. 110-53, § 1602(a), added subsec. (g)\"; eCFR 1546.205(a)(b)"
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "88 FR 53505(TSA, 2023. 8. 8.): CCSP 2009년, ICAO 100% 검색 2021. 6. 30., Shipper-CCSF, CCSF-K9; GAO-19-162(2018. 11. 28.) 2018년 6월 기준 EU와 12개국 NCSP 인정",
+  "evidence": "https://www.federalregister.gov/documents/2023/08/08/2023-16928/opening-of-opportunity-for-shippers-to-register-as-certified-cargo-screening-facilities \"TSA developed the CCSP in 2009\"; \"a mandate for members of ICAO to screen 100 percent of air cargo transported on international aircraft, with no distinction for passenger versus all-cargo aircraft, beginning June 30, 2021\"; https://www.gao.gov/products/gao-19-162 (2018. 11. 28. 발간·공개) \"As of June 2018, TSA had recognized the NCSP of the European Union and 12 other countries\""
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "IATA CSD: Resolution 651 2015년 11월 발효, e-CSD 2013년부터 각국 지지, 개정 초안(2차 초안 2026년 7월) 2027년 7월 시행 목표, 기본 틀 유지·e-CSD 우선·종이 CSD 유지; 홍콩 민항처 Notice to RA 1/2021; ICAO FAL/12-WP/48의 RA 정의",
+  "evidence": "https://www.iata.org/en/programs/security/cargo-security/csd/ \"In November 2015, the IATA e-CSD/CSD Resolution 651 entered into force\", \"Since 2013, several countries have show their official support to e-CSD\"; IATA Cargo Tracker 2026년 8월 \"expected to become effective for implementation in July 2027\", \"not proposing any significant changes to the fundamental CSD/e-CSD framework\"; https://www.cad.gov.hk/english/pdf/Notice_to_RA_1-2021.pdf (2021. 2. 16.) \"all consignors, except those validated by the CAD, would become unknown consignors starting from ... 1 March 2021\", 삭제 항목 \"account consignors\", \"SCO\", \"Random X-ray Screening of 1% of Known Cargo\"; ICAO FAL/12-WP/48 2.1·2.2 정의 그대로"
+ },
+ {
+  "file": "cases.html",
+  "verdict": "correct",
+  "claim": "사례 1(2010 예멘): CBP 83 FR 27380(2018. 6. 12.) — HP 프린터 두 건, 시카고 유대인 단체 앞, 미국 본토 상공 폭발 의도, 여러 편을 날다 발견, ACAS 시범 2010년 12월, 2018. 6. 12. 잠정 최종규칙; RUSI 연설(2010. 11. 3.) — AQAP, 사나발 미국행 무동반 항공화물, 하나는 영국에서 무력화, 프린터 카트리지와 휴대전화 부품 전원, 예멘발 전부·소말리아발 무동반 항공화물 중단",
+  "evidence": "83 FR 27380 III.B \"explosive devices concealed in two shipments of Hewlett-Packard printers addressed for delivery to Jewish organizations in Chicago, Illinois\"; \"expected to explode mid-air over the continental United States\"; \"flown aboard several flights before they were discovered\"; \"began operating a voluntary ACAS pilot in December 2010\"; https://www.rusi.org/publication/home-secretary-theresa-may-gives-speech-rusi \"One of the devices was intercepted and made safe here. The explosive device was deeply concealed in the cartridge of a printer and connected to a hidden power source in sections of a mobile telephone\"; \"We ordered the suspension of all air-freight from Yemen ... suspension of unaccompanied air freight from Somalia\". 회사 이름(휴렛팩커드)은 당국 발표 인용이라 규칙상 허용"
+ },
+ {
+  "file": "cases.html",
+  "verdict": "correct",
+  "claim": "사례 2(2024 발화 소포): 2024년 7월 리투아니아에서 영국·폴란드로 소포 4개, 라이프치히 공항 탑재 직전 화재, 영국 창고·폴란드 트럭 화재, 미국·캐나다 시험 소포 2개와 암스테르담 2개, Eurojust가 꾸리고 자금을 댄 5개국 공동수사팀, 용의자 22명, 러시아 군 정보기관, 메신저 모집·암호화폐, 두 사건 리투아니아·폴란드 법원 송치(2026. 3. 6. 발표)",
+  "evidence": "https://www.eurojust.europa.eu/news/joint-investigation-team-disrupts-group-using-self-igniting-parcels-terrorist-attacks 06 March 2026 \"In July 2024, four parcels were sent from Lithuania to addresses in the United Kingdom and Poland. One of the parcels, that was sent through a sorting centre in Germany, caught fire at Leipzig airport, shortly before it was loaded onto an aircraft\"; \"22 suspects in Lithuania and Poland\"; \"Two cases have now been sent to courts in Lithuania and Poland, with trials expected to happen later in the year\""
+ },
+ {
+  "file": "uld-security.html",
+  "verdict": "correct",
+  "claim": "저장소 기존 문서와 모순 없음: uld-safety(제17조의4, 2026. 2. 27. 이동), tc-air-active(제17조의4 제3항), uld-buildup(보안 상태 미확인 화물의 BUP 제외 범위는 항공사마다 다름), cu-us-filing(ACAS 탑재 전 기한, Do Not Load), dg-hidden(위험물 보고는 항공안전 계열). 사례 번호: ac-docs/uld-cases.html이 지금 9번까지라 10·11번이 맞음",
+  "evidence": "D:/Desktop/AI Project/LogisticsLibrary/uld-docs/uld-safety.html 112행; tc-docs/tc-air-active.html 139행; uld-docs/uld-buildup.html 123행 \"보안 상태가 확인되지 않은 화물 등의 제외 범위는 항공사마다 다릅니다\"; cu-docs/cu-us-filing.html 110·188행; ac-docs/uld-cases.html 마지막 h4 id=\"c9\""
+ }
+]
