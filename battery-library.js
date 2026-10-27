@@ -6,7 +6,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/eu-lithium-battery';
-  const DOCS_VERSION = '20261027-05';
+  const DOCS_VERSION = '20261027-06';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -138,8 +138,8 @@
   // 목록 구간(장): 실무 가이드 → 배터리 규정 → 폐기물운송규정 → 사례. 각 법령 장은 전문·조문·부속서 순서.
   const SECTIONS = [
     { title: "실무 가이드", sub: "AI 작성 · 두 규정을 가로질러 정리한 판정·일정·체크리스트", docs: ["overview", "status", "changes", "timeline", "checklist", "de-nl"] },
-    { title: "배터리 규정 2023/1542", sub: "전문, 제1~14장, 부속서 I~XV의 해설과 전체 번역", docs: ["b-recitals-a", "b-recitals-b", "b-ch1", "b-ch2", "b-ch3", "b-ch4", "b-ch5", "b-ch6", "b-ch7", "b-ch8a", "b-ch8b", "b-ch9", "b-ch10", "b-ch11", "b-ch12-14", "b-anx1-5", "b-anx6-7", "b-anx8", "b-anx9-10", "b-anx11-12", "b-anx13", "b-anx14", "b-anx15"] },
-    { title: "폐기물운송규정 2024/1157", sub: "전문, 제1~8편, 부속서 IA~XIII의 해설과 전체 번역", docs: ["w-recitals", "w-t1", "w-t2-1a", "w-t2-1b", "w-t2-2", "w-t2-4", "w-t2-5", "w-t3", "w-t4", "w-t5", "w-t6", "w-t7", "w-t8", "w-anx1", "w-anx2", "w-anx3-4", "w-anx5", "w-anx6-8", "w-anx9-10", "w-anx11-13"] }
+    { title: "원문 번역: 배터리 규정 2023/1542", sub: "전문, 제1~14장, 부속서 I~XV의 해설과 전체 번역", docs: ["b-recitals-a", "b-recitals-b", "b-ch1", "b-ch2", "b-ch3", "b-ch4", "b-ch5", "b-ch6", "b-ch7", "b-ch8a", "b-ch8b", "b-ch9", "b-ch10", "b-ch11", "b-ch12-14", "b-anx1-5", "b-anx6-7", "b-anx8", "b-anx9-10", "b-anx11-12", "b-anx13", "b-anx14", "b-anx15"] },
+    { title: "원문 번역: 폐기물운송규정 2024/1157", sub: "전문, 제1~8편, 부속서 IA~XIII의 해설과 전체 번역", docs: ["w-recitals", "w-t1", "w-t2-1a", "w-t2-1b", "w-t2-2", "w-t2-4", "w-t2-5", "w-t3", "w-t4", "w-t5", "w-t6", "w-t7", "w-t8", "w-anx1", "w-anx2", "w-anx3-4", "w-anx5", "w-anx6-8", "w-anx9-10", "w-anx11-13"] }
   ];
   // 작업 순서로 보기: 조 번호를 몰라도 지금 하는 일에서 문서를 찾아가게 한다.
   const STAGES = [
@@ -272,7 +272,7 @@
     });
   }
   async function renderDoc(view, doc) {
-    const head = `<nav class="lib-crumb"><a href="${home}">← EU Battery</a></nav>`;
+    const head = `<nav class="lib-crumb"><a href="${home}">← EU Battery · EU 배터리</a></nav>`;
     const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">${esc(LAW_NAMES[doc.law])} · ${esc(BASIS[doc.law])} · 작성·갱신 ${UPDATED}</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
@@ -311,7 +311,7 @@
     if (doc) {
       // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
       if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
-      document.title = `${doc.title} · EU Battery · Logistics Library`;
+      document.title = `${doc.title} · EU Battery · EU 배터리 · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {
       renderList(view);

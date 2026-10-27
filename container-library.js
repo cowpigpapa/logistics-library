@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/container';
-  const DOCS_VERSION = '20261027-05';
+  const DOCS_VERSION = '20261027-06';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -149,7 +149,7 @@
     });
   }
   async function renderDoc(view, doc) {
-    const head = `<nav class="lib-crumb"><a href="${home}">← Container</a></nav>`;
+    const head = `<nav class="lib-crumb"><a href="${home}">← Container · 컨테이너</a></nav>`;
     const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${doc.checked || CHECKED} · 장비 사양은 선사와 제작 시기마다 다르니 배정된 컨테이너의 명판과 선사 안내를 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
@@ -192,7 +192,7 @@
     if (doc) {
       // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
       if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
-      document.title = `${doc.title} · Container · Logistics Library`;
+      document.title = `${doc.title} · Container · 컨테이너 · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {
       renderList(view);

@@ -80,18 +80,18 @@
 
 | 주소 | 메뉴 이름 | 한국어 설명 |
 |---|---|---|
-| /library/ctu-code | CTU Code | 컨테이너 적재·고박 국제 규범 |
-| /library/incoterms-2020 | Incoterms 2020 | 무역조건별 위험·비용 분기 |
-| /library/dangerous-goods | Dangerous Goods | 위험물 운송 규정과 교육 |
-| /library/eu-lithium-battery | EU Battery | EU 배터리 규정 번역·해설 |
+| /library/ctu-code | CTU Code · 적입·고박 | 컨테이너 적재·고박 국제 규범 |
+| /library/incoterms-2020 | Incoterms 2020 · 인코텀스 | 무역조건별 위험·비용 분기 |
+| /library/dangerous-goods | Dangerous Goods · 위험물 | 위험물 운송 규정과 교육 |
+| /library/eu-lithium-battery | EU Battery · EU 배터리 | EU 배터리 규정 번역·해설 |
 | /library/bl-awb | B/L · AWB | 선하증권과 항공화물운송장 |
-| /library/air-uld | Air ULD | 항공 ULD·컨투어·빌드업 |
+| /library/air-uld | Air ULD · 항공 ULD | 항공 ULD·컨투어·빌드업 |
 | /library/temperature-cargo | Cold Chain · 온도유지 화물 | 온도유지 화물 항공·해상 |
 | /library/cargo-insurance | Cargo Insurance · 화물보험 | 적하보험·책임 한도·클레임 |
 | /library/charges | Charges · 부대비용 | 부대비용·DEM/DET·보관료·운임 계산 |
 | /library/customs | Customs · 통관 | 수출입 통관·HS 코드·FTA·보세운송 |
 | /library/cargo-risk | Cargo Risk · 화물 사고 예방 | 운송·창고·보안·특수화물·젖음·뒤바뀜 |
-| /library/container | Container | 컨테이너 번호·코드·치수·OOG |
+| /library/container | Container · 컨테이너 | 컨테이너 번호·코드·치수·OOG |
 | /library/export-control | Export Control · 수출통제 | 전략물자·방산물자 허가와 제재 확인 |
 | /library/regulated-goods | Regulated Goods · 반출입 규제 물품 | 폐기물·목재 포장재·CITES·문화유산·LMO |
 | /library/accident-cases | Accident Cases · 사고 사례 모음 | 분야별 사고·판결·처분을 한 표로 |

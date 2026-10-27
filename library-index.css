@@ -16,6 +16,8 @@
   --g3: #b2473e;   /* 특수·규제 화물 */
   --g4: #36689c;   /* 화물 사고·보험 */
   --g5: #a66a2c;   /* 도구 */
+  --g6: #2d7a8c;   /* 길잡이 */
+  --g7: #8a4a6e;   /* 사고 사례 */
   background: var(--page-bg);
 }
 
@@ -79,11 +81,13 @@
 /* 큰 묶음(규정·실무·도구): 분류색 글자 + 옅은 선 */
 .li-group-name { display: flex; align-items: center; gap: 8px; margin: 16px 6px 6px; font-size: 12px; font-weight: 800; letter-spacing: .06em; }
 .li-group-name::after { content: ''; flex: 1; height: 1px; background: currentColor; opacity: .3; }
-.li-group:nth-child(1) .li-group-name { color: var(--g1); }
-.li-group:nth-child(2) .li-group-name { color: var(--g2); }
-.li-group:nth-child(3) .li-group-name { color: var(--g3); }
-.li-group:nth-child(4) .li-group-name { color: var(--g4); }
-.li-group:nth-child(5) .li-group-name { color: var(--g5); }
+.li-group.g1 .li-group-name { color: var(--g1); }
+.li-group.g2 .li-group-name { color: var(--g2); }
+.li-group.g3 .li-group-name { color: var(--g3); }
+.li-group.g4 .li-group-name { color: var(--g4); }
+.li-group.g5 .li-group-name { color: var(--g5); }
+.li-group.g6 .li-group-name { color: var(--g6); }
+.li-group.g7 .li-group-name { color: var(--g7); }
 
 /* 카테고리 줄: 평소엔 배경 없음, 올리면 옅은 회색, 펼치면 옅은 파랑. '개요'는 줄 오른쪽 글자 링크(summary 밖). */
 .li-cat-wrap { position: relative; margin-top: 2px; }
@@ -195,6 +199,8 @@
 .li-kicker-sub.g3 { color: var(--g3); }
 .li-kicker-sub.g4 { color: var(--g4); }
 .li-kicker-sub.g5 { color: var(--g5); }
+.li-kicker-sub.g6 { color: var(--g6); }
+.li-kicker-sub.g7 { color: var(--g7); }
 
 /* 첫 화면: 작은 h1과 한 줄 소개, 묶음 이름, 테두리 카드 */
 .li-intro { margin: 0 0 6px; }
@@ -207,6 +213,8 @@
 .li-home-group.g3 { color: var(--g3); }
 .li-home-group.g4 { color: var(--g4); }
 .li-home-group.g5 { color: var(--g5); }
+.li-home-group.g6 { color: var(--g6); }
+.li-home-group.g7 { color: var(--g7); }
 .li-home .library-entry {
   grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); /* 그림 약 10% 축소 */
   gap: 24px;

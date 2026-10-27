@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 import images  # 그림 작은 판(srcset)·지연 로딩
 CARD_SIZES = '(max-width: 900px) calc(100vw - 72px), 400px'   # 카드 그림 칸 폭
 DOC_SIZES = '(max-width: 900px) calc(100vw - 40px), 920px'    # 문서 본문 폭
-V = '20261026-04'   # library-index.css/js, library-index-data.js 캐시 버전
+V = '20261027-01'   # library-index.css/js, library-index-data.js 캐시 버전
 
 read = lambda p: (ROOT / p).read_text(encoding='utf-8')
 lib = read('library.html')
@@ -50,11 +50,14 @@ nav_src = menu[menu.index('NAV = ['):menu.index('\n]\n', menu.index('NAV = [')) 
 ns = {}
 exec(nav_src, ns)
 NAV = ns['NAV']
+exec(menu[menu.index('GROUP_COLOR = {'):menu.index('}\n', menu.index('GROUP_COLOR = {')) + 1], ns)
+GROUP_COLOR = ns['GROUP_COLOR']
 CARDS = {}        # 카테고리 slug -> 카드 마크업(분류색 적용)
 META = {}         # slug 또는 'tool:<이름>' -> (이름, 분류 줄, 묶음 번호)
 TOOL_TYPES = {}   # 도구 이름 -> 분류 줄(도구 화면 머리용)
 blocks = []
-for gi, (group, items) in enumerate(NAV):
+for group, items in NAV:
+    gi = GROUP_COLOR.get(group, 1) - 1   # 묶음 색 번호(이름으로 정함)
     secs = [(href, by_href.pop(href)) for href, _, _ in items if href in by_href]
     secs = [(h, s.replace('<span class="li-kicker-sub">', f'<span class="li-kicker-sub g{gi + 1}">')) for h, s in secs]
     for href, name, sub in items:
@@ -126,7 +129,7 @@ def tree_html(data, slug=None, doc_id=None, tool=None):
                         f'<span class="li-count">{n}</span></summary>{secs}</details></div>')
         tools = ''.join(f'<a class="li-tool{" is-active" if l["href"][1:] == tool else ""}" href="/tool{l["href"]}" data-tool="{l["href"][1:]}"><span class="li-cat-name">{e(l["name"])}</span>'
                         f'<small>{e(l["sub"])}</small></a>' for l in g.get('links', []))
-        out.append(f'<div class="li-group"><p class="li-group-name">{e(g["group"])}</p>{"".join(cats)}{tools}</div>')
+        out.append(f'<div class="li-group g{g.get("g", "")}"><p class="li-group-name">{e(g["group"])}</p>{"".join(cats)}{tools}</div>')
     return ''.join(out)
 
 

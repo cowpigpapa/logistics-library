@@ -7,19 +7,19 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 NAV = [
     ('계약·서류·통관', [
-        ('/library/incoterms-2020', 'Incoterms 2020', '무역조건별 위험·비용 분기'),
+        ('/library/incoterms-2020', 'Incoterms 2020 · 인코텀스', '무역조건별 위험·비용 분기'),
         ('/library/charges', 'Charges · 부대비용', '운임 계산·부대비용·D&D·보관료'),
         ('/library/bl-awb', 'B/L · AWB', '선하증권과 항공화물운송장'),
         ('/library/customs', 'Customs · 통관', '수출입 통관·HS 코드·FTA·보세운송'),
     ]),
     ('운송 장비·적재', [
-        ('/library/container', 'Container', '컨테이너 번호·코드·치수·OOG'),
-        ('/library/air-uld', 'Air ULD', '항공 ULD·컨투어·빌드업'),
-        ('/library/ctu-code', 'CTU Code', '컨테이너 적입·고박 국제 규범'),
+        ('/library/container', 'Container · 컨테이너', '컨테이너 번호·코드·치수·OOG'),
+        ('/library/air-uld', 'Air ULD · 항공 ULD', '항공 ULD·컨투어·빌드업'),
+        ('/library/ctu-code', 'CTU Code · 적입·고박', '컨테이너 적입·고박 국제 규범'),
     ]),
     ('특수·규제 화물', [
-        ('/library/dangerous-goods', 'Dangerous Goods', '국제·국내 위험물 규칙과 사례'),
-        ('/library/eu-lithium-battery', 'EU Battery', 'EU 배터리·폐배터리 운송 규정'),
+        ('/library/dangerous-goods', 'Dangerous Goods · 위험물', '국제·국내 위험물 규칙·화물 확인·교육'),
+        ('/library/eu-lithium-battery', 'EU Battery · EU 배터리', 'EU 배터리·폐배터리 운송 규정'),
         ('/library/temperature-cargo', 'Cold Chain · 온도유지 화물', '온도유지 화물 항공·해상'),
         ('/library/export-control', 'Export Control · 수출통제', '전략물자·방산물자 허가와 제재 확인'),
         ('/library/regulated-goods', 'Regulated Goods · 반출입 규제 물품', '폐기물·목재 포장재·CITES·문화유산·LMO'),
@@ -27,6 +27,8 @@ NAV = [
     ('화물 사고·보험', [
         ('/library/cargo-risk', 'Cargo Risk · 화물 사고 예방', '운송·창고·젖음·뒤바뀜·보안'),
         ('/library/cargo-insurance', 'Cargo Insurance · 화물보험', '적하보험·책임 한도·클레임'),
+    ]),
+    ('사고 사례', [
         ('/library/accident-cases', 'Accident Cases · 사고 사례 모음', '분야별 사고·판결·처분을 한 표로'),
     ]),
     ('도구', [
@@ -35,6 +37,9 @@ NAV = [
         ('/unnumber', 'UN Number', 'UN 번호로 위험물 조회'),
     ]),
 ]
+
+# 묶음 색(library-index.css의 --g1~--g7). 묶음을 더하거나 순서를 바꿔도 색이 밀리지 않게 위치가 아니라 이름으로 정한다.
+GROUP_COLOR = {'계약·서류·통관': 1, '운송 장비·적재': 2, '특수·규제 화물': 3, '화물 사고·보험': 4, '도구': 5, '길잡이': 6, '사고 사례': 7}
 
 
 # 페이지 파일 → 지금 보고 있는 메뉴 주소

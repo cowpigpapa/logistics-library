@@ -41,7 +41,7 @@
     const saved = store.get(), cur = parse(location.pathname);
     const open = new Set(cur && cur.slug && saved.length <= 1 ? [cur.slug] : saved);
     if (cur && cur.slug) open.add(cur.slug);
-    tree.innerHTML = DATA.map(g => `<div class="li-group"><p class="li-group-name">${esc(g.group)}</p>${g.cats.map(c => `
+    tree.innerHTML = DATA.map(g => `<div class="li-group g${g.g || ''}"><p class="li-group-name">${esc(g.group)}</p>${g.cats.map(c => `
       <div class="li-cat-wrap">
       <a class="li-ov" href="/library/${c.slug}" data-slug="${c.slug}" title="${esc(c.name)} 개요 및 원문">개요</a>
       <details class="li-cat" data-slug="${c.slug}" ${open.has(c.slug) ? 'open' : ''}>

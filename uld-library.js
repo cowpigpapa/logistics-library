@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/air-uld';
-  const DOCS_VERSION = '20261027-05';
+  const DOCS_VERSION = '20261027-06';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -156,7 +156,7 @@
     });
   }
   async function renderDoc(view, doc) {
-    const head = `<nav class="lib-crumb"><a href="${home}">← Air ULD</a></nav>`;
+    const head = `<nav class="lib-crumb"><a href="${home}">← Air ULD · 항공 ULD</a></nav>`;
     const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${doc.checked || CHECKED} · 치수와 중량은 항공사·제조사마다 다를 수 있으니 실제 탑재는 해당 항공사 기준으로 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
@@ -199,7 +199,7 @@
     if (doc) {
       // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
       if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
-      document.title = `${doc.title} · Air ULD · Logistics Library`;
+      document.title = `${doc.title} · Air ULD · 항공 ULD · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {
       renderList(view);

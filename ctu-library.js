@@ -1338,7 +1338,7 @@
     // 색인과 함께 쓸 때는 Logistics Library 문서 화면처럼 맨 위에 카테고리 머리(build_home.py kicker)를 둔다.
     const head = EMBED_INDEX
       ? '<p class="li-entry-h li-doc-head"><a href="/library/ctu-code">CTU Code</a><span class="li-kicker-sub g2">IMO · ILO · UNECE</span></p>'
-      : '<nav class="lib-crumb"><a href="/library/ctu-code">← CTU Code</a></nav>';
+      : '<nav class="lib-crumb"><a href="/library/ctu-code">← CTU Code · 적입·고박</a></nav>';
     view.innerHTML = `${head}<article class="lib-article"><span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc.id)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1>${checkedLine(doc)}${doc.body.replace('<!--lib-map-->', mapTable())}</article>`;
     // 절 링크(/library/ctu-code/<id>#sN): N번째 소제목에 id를 붙인다(다른 카테고리 sectionToc와 같은 규칙).
     view.querySelectorAll('.lib-article h3').forEach((h, i) => (h.id = h.id || `s${i + 1}`));
@@ -1472,13 +1472,13 @@
     if (EMBED_INDEX) markIndex(view, doc && doc.id);
     if (doc) {
       renderDoc(pane, doc);
-      document.title = `${doc.title} · CTU Code · ${isStandalone ? 'Logistics Library' : 'Cubestow'}`; // Cubestow 안에서는 그 사이트 이름으로
+      document.title = `${doc.title} · CTU Code · 적입·고박 · ${isStandalone ? 'Logistics Library' : 'Cubestow'}`; // Cubestow 안에서는 그 사이트 이름으로
       setCanonical(`/library/ctu-code/${doc.id}`);
       if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
     } else {
       if (EMBED_INDEX) renderOverview(pane);
       else renderList(pane);
-      if (isStandalone) document.title = 'CTU Code · Logistics Library';
+      if (isStandalone) document.title = 'CTU Code · 적입·고박 · Logistics Library';
       setCanonical('/library/ctu-code');
     }
   }

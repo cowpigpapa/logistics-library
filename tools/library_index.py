@@ -38,6 +38,13 @@ def menu_order():
     return [(g, href, name, sub) for g, items in ns['NAV'] for href, name, sub in items]
 
 
+def group_colors():
+    src = (ROOT / 'tools' / 'menu.py').read_text(encoding='utf-8')
+    ns = {}
+    exec(src[src.index('GROUP_COLOR = {'):src.index('}\n', src.index('GROUP_COLOR = {')) + 1], ns)
+    return ns['GROUP_COLOR']
+
+
 def main():
     import build_cases
     build_cases.main()   # 사고 사례 모음 표와 사례 주소(id)를 먼저 맞춘다
@@ -75,7 +82,7 @@ def main():
             else:
                 sections.append({'title': '문서', 'docs': rest})
         if not groups or groups[-1]['group'] != g:
-            groups.append({'group': g, 'cats': []})
+            groups.append({'group': g, 'g': group_colors().get(g, 1), 'cats': []})
         groups[-1]['cats'].append({'slug': href.rsplit('/', 1)[1], 'name': name, 'sub': sub, 'sections': sections, 'overview': overview_doc,
                                    'docs': {i: {k: by_id[i][k] for k in ('title', 'short', 'tag', 'summary')} for i in by_id}})
     total = sum(len(c['docs']) for g in groups for c in g['cats'])
