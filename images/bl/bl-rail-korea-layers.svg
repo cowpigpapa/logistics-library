@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="640" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="64" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">한국 포워더가 문 앞까지 맡은 철도 건: 구간마다 다른 서류와 규칙(예시)</text>
+<rect x="60" y="88" width="1552" height="58" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="836" y="116" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="middle">화주 ↔ 한국 포워더: House B/L 또는 FBL 한 장(수취지 한국 공장 → 인도지 유럽 내륙)</text>
+<text x="836" y="138" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">화주에게는 포워더가 전 구간 운송인. 손해 구간의 법·한도를 끌어오는 방식은 상법 제816조·FBL 약관(복합운송과 책임 구간 문서)</text>
+<rect x="60" y="176" width="373" height="440" rx="14" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="60" y="176" width="373" height="10" rx="5" fill="#7f8c99"/>
+<text x="246.5" y="222" font-size="21" font-weight="800" fill="#7f8c99" text-anchor="middle">바다</text>
+<text x="246.5" y="250" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">부산 → 중국 연안 거점</text>
+<text x="82" y="296" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">서류</text>
+<text x="82" y="322" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">Master B/L(선사)</text>
+<text x="82" y="376" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">규칙</text>
+<text x="82" y="402" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">헤이그-비스비 규칙·상법</text>
+<text x="82" y="456" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">한도</text>
+<text x="82" y="482" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">포장당 666.67 SDR 또는 kg당</text>
+<text x="82" y="504" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">2 SDR 중 큰 쪽</text>
+<text x="82" y="536" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">위험물</text>
+<text x="82" y="562" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">IMDG Code</text>
+<path d="M435 396 l16 0 m-6 -6 l6 6 l-6 6" fill="none" stroke="#1d2a3a" stroke-width="2.5"/>
+<rect x="453" y="176" width="373" height="440" rx="14" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="453" y="176" width="373" height="10" rx="5" fill="#e4572e"/>
+<text x="639.5" y="222" font-size="21" font-weight="800" fill="#e4572e" text-anchor="middle">철도 SMGS 구간</text>
+<text x="639.5" y="250" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">중국 거점역 → 폴란드 재발송 지점</text>
+<text x="475" y="296" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">서류</text>
+<text x="475" y="322" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">CIM/SMGS 공통 운송장(또는</text>
+<text x="475" y="344" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">SMGS 운송장)</text>
+<text x="475" y="376" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">규칙</text>
+<text x="475" y="402" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">SMGS</text>
+<text x="475" y="456" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">한도</text>
+<text x="475" y="482" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">화물 가액 기준, kg당 상한 없음</text>
+<text x="475" y="536" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">위험물</text>
+<text x="475" y="562" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">SMGS 부속서 2</text>
+<path d="M828 396 l16 0 m-6 -6 l6 6 l-6 6" fill="none" stroke="#1d2a3a" stroke-width="2.5"/>
+<rect x="846" y="176" width="373" height="440" rx="14" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="846" y="176" width="373" height="10" rx="5" fill="#1f6fd1"/>
+<text x="1032.5" y="222" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">철도 CIM 구간</text>
+<text x="1032.5" y="250" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">재발송 지점 → EU 도착역</text>
+<text x="868" y="296" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">서류</text>
+<text x="868" y="322" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">같은 공통 운송장(CIM 부분)</text>
+<text x="868" y="376" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">규칙</text>
+<text x="868" y="402" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">CIM 통일규칙</text>
+<text x="868" y="456" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">한도</text>
+<text x="868" y="482" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">총중량 kg당 17 SDR</text>
+<text x="868" y="536" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">위험물</text>
+<text x="868" y="562" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">RID</text>
+<path d="M1221 396 l16 0 m-6 -6 l6 6 l-6 6" fill="none" stroke="#1d2a3a" stroke-width="2.5"/>
+<rect x="1239" y="176" width="373" height="440" rx="14" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="1239" y="176" width="373" height="10" rx="5" fill="#d9482b"/>
+<text x="1425.5" y="222" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">트럭</text>
+<text x="1425.5" y="250" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">도착역 → 수하인 공장</text>
+<text x="1261" y="296" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">서류</text>
+<text x="1261" y="322" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">CMR 운송장(국경을 넘을 때)</text>
+<text x="1261" y="376" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">규칙</text>
+<text x="1261" y="402" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">CMR 또는 그 나라 국내법</text>
+<text x="1261" y="456" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">한도</text>
+<text x="1261" y="482" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">CMR이면 kg당 8.33 SDR</text>
+<text x="1261" y="536" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">위험물</text>
+<text x="1261" y="562" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">ADR</text>
+<text x="48" y="644" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">EU로 들어오는 철도 화물은 철도 운송인이 ICS2로 반입 요약신고(ENS)를 냅니다(첫 입국 세관 도착 2시간 전, 가까우면 1시간 전). 품명·HS 6단위·매도인·매수인 자료는 화주가 줍니다.</text>
+<rect x="24" y="680" width="1624" height="238" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="718" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">사고가 나면 포워더가 먼저 챙길 세 가지</text>
+<text x="60" y="760" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">구간 증거</text>
+<circle cx="66" cy="794" r="4" fill="#1d2a3a"/>
+<text x="80" y="800" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">선사 EIR·터미널 손상 기록</text>
+<circle cx="66" cy="828" r="4" fill="#1d2a3a"/>
+<text x="80" y="834" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">철도 사고 기록서·확인 조서</text>
+<circle cx="66" cy="862" r="4" fill="#1d2a3a"/>
+<text x="80" y="868" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">구간마다 적힌 씰 번호</text>
+<text x="595" y="760" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">가장 짧은 기한</text>
+<circle cx="601" cy="794" r="4" fill="#1d2a3a"/>
+<text x="615" y="800" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">SMGS 숨은 손해 3일(기록 요청)</text>
+<circle cx="601" cy="828" r="4" fill="#1d2a3a"/>
+<text x="615" y="834" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">해상 3일(상법 제804조 통지)</text>
+<circle cx="601" cy="862" r="4" fill="#1d2a3a"/>
+<text x="615" y="868" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">CIM 7일, CMR 7일(CMR은 일요일·공휴일 제외)</text>
+<text x="1130" y="760" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">경로·제재 확인</text>
+<circle cx="1136" cy="794" r="4" fill="#1d2a3a"/>
+<text x="1150" y="800" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">러시아·벨라루스 경유 여부, 당사자 제재 확인</text>
+<circle cx="1136" cy="828" r="4" fill="#1d2a3a"/>
+<text x="1150" y="834" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">EU에서 나가는 화물은 러시아 경유 금지 품목인지</text>
+<circle cx="1136" cy="862" r="4" fill="#1d2a3a"/>
+<text x="1150" y="868" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">적하보험의 제재 조항과 전쟁 위험 범위</text>
+</svg>

@@ -1,0 +1,334 @@
+[
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 멸실 간주 뒤 늦게 도착한 화물: '그 뒤 6개월 안에 도착하면' 수하인이 받는다(제27조 제3항)",
+  "verdict": "wrong",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) SMGS 제27조 제3항(2026. 7. 1. 본문): \"The consignee must accept the goods if they arrive no later than six months upon the expiry of the delivery period\" — 6개월은 멸실 간주(30일) 뒤부터가 아니라 인도 기간 만료일부터 셉니다.",
+  "old": "그 뒤 6개월 안에 도착하면 수하인이 받고 배상금 반환(제27조 제3항)",
+  "fix": "인도 기간 만료 후 6개월 안에 도착하면 수하인이 받고 배상금 반환(제27조 제3항)"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "중국 계획(2016~2020)의 서부 통로 = 카자흐스탄 경유 시베리아 횡단철도 합류 또는 카스피해 건너 아제르바이잔·조지아",
+  "verdict": "unclear",
+  "evidence": "https://www.yidaiyilu.gov.cn/wcm.files/upload/CMSydylgw/201701/201701100443041.pdf 「中欧班列建设发展规划」 三、空间布局: \"西通道。一是由新疆阿拉山口（霍尔果斯）口岸出境，经哈萨克斯坦与俄罗斯西伯利亚铁路相连…二是由霍尔果斯（阿拉山口）口岸出境，经哈萨克斯坦、土库曼斯坦、伊朗、土耳其等国…或经哈萨克斯坦跨里海，进入阿塞拜疆、格鲁吉亚、保加利亚等国…三是由吐尔尕特（伊尔克什坦），与规划中的中吉乌铁路等连接，通向吉尔吉斯斯坦、乌兹别克斯坦…\" — 서부 통로는 세 갈래이고, 이란·튀르키예 경유와 키르기스스탄 방향이 빠져 있습니다.",
+  "old": "서부 통로는 알라산커우·호르고스로 나가 카자흐스탄을 거쳐 시베리아 횡단철도에 합류하거나, 카자흐스탄에서 카스피해를 건너 아제르바이잔·조지아로 가는 길입니다.",
+  "fix": "서부 통로는 알라산커우·호르고스로 나가 카자흐스탄을 거쳐 시베리아 횡단철도에 합류하는 길, 카자흐스탄에서 투르크메니스탄·이란·튀르키예로 가거나 카스피해를 건너 아제르바이잔·조지아로 가는 길, 키르기스스탄 국경으로 나가 계획 중인 중국–키르기스스탄–우즈베키스탄 철도로 이어지는 길을 묶은 것입니다."
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "알라산커우–도스틱: '양쪽에 환적 선로'가 세계은행 2023 출처로 읽힘",
+  "verdict": "unclear",
+  "evidence": "환적 선로 내용은 세계은행 2023이 아니라 ADB CAREC CPMM Annual Report 2020, p. 33(PDF 47쪽): \"requires side-by-side transloading tracks at both Dostyk (for incoming trains from the PRC) and Alashankou (for incoming trains from KAZ)\". 18쌍·60시간은 https://documents1.worldbank.org/curated/en/099111723122527465/pdf/P1803220f863200b5096710f86d78ee0b36.pdf p. 50: \"throughput capacity of 18 pairs of trains per day… long waiting time (around 60 hours…)\" — 수치는 맞고 출처 표기만 나눕니다.",
+  "old": "양쪽에 환적 선로. 하루 최대 18쌍 열차, 대기 약 60시간(세계은행 2023)",
+  "fix": "양쪽 역에 환적 선로(ADB 2020). 하루 최대 18쌍 열차, 대기 약 60시간(세계은행 2023)"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "중국 통계는 러시아 경유와 그 밖의 경로를 나눠 발표하지 않는다(일반 단정)",
+  "verdict": "unclear",
+  "evidence": "https://www.news.cn/world/20260728/74d1402bb23049d8b4a267a04ae179fc/c.html 신화통신(2026. 7. 28.)은 \"从2016年的1702列增长至2025年的20022列\"만 밝히고 경로별 수치가 없습니다. 중국 통계 전반이 경로별로 나누지 않는다는 주장은 1차 출처로 확인되지 않아 이 발표에 한정합니다.",
+  "old": "다만 중국 통계는 러시아 경유와 그 밖의 경로를 나눠 발표하지 않습니다.",
+  "fix": "다만 이 발표는 러시아 경유와 그 밖의 경로를 나눈 수치를 내놓지 않았습니다."
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "OTIF와 OSJD가 2022. 3. 21. 공동 성명",
+  "verdict": "unclear",
+  "evidence": "https://otif.org/fileadmin/new/5-Media/5A-News/2022/News_21.3.2022_EN_3.pdf \"JOINT STATEMENT by the Secretary General of OTIF and the Chairman of the OSJD Committee… we are firmly against the use of railways in armed conflicts\" — 내용은 맞고, 성명 주체는 기구 자체가 아니라 OTIF 사무총장과 OSJD 위원회 의장입니다.",
+  "old": "OTIF와 OSJD는 2022년 3월 21일 공동 성명에서",
+  "fix": "OTIF 사무총장과 OSJD 위원회 의장은 2022년 3월 21일 공동 성명에서"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "상법 제814조 연장 규정이 외국 철도 운송인에 대한 협약 기간까지 늘려 주지 않는다(단정)",
+  "verdict": "unclear",
+  "evidence": "저장소 bl-docs/bl-multimodal.html 7절: \"유럽 트럭 회사에 대한 CMR 제32조의 1년, 철도 회사에 대한 CIM 제48조의 1년까지 늘려 준다고 읽기는 어렵습니다\" — 원 문서는 해석으로 조심스럽게 썼으므로 이 문서도 같은 강도로 맞춥니다(판례·조문으로 확정된 결론 아님).",
+  "old": "상법 제814조의 기간 연장 규정이 외국 철도 운송인에 대한 협약 기간까지 늘려 주지는 않습니다.",
+  "fix": "상법 제814조의 기간 연장 규정이 외국 철도 운송인에 대한 협약 기간까지 늘려 준다고 보기는 어렵습니다."
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 운송장의 성격: 운송계약과 화물 인수의 증거",
+  "verdict": "unclear",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) SMGS 제14조 제3항: \"The conclusion of the contract of carriage shall be confirmed by a consignment note.\" 부속서 1 제7.2절: \"composed of six numbered sheets and the required number of sheets 'Invoice'\". '화물 인수의 증거'라는 문언은 SMGS 조문에서 찾지 못했습니다(CIM 제12조 제1항의 표현).",
+  "old": "운송계약과 화물 인수의 증거. 6장으로 구성(부속서 1 제7.2절)",
+  "fix": "운송계약 체결을 확인하는 서류(제14조 제3항). 번호 붙은 6장으로 구성(부속서 1 제7.2절)"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 멸실 배상: 청구에 가액 증명 서류 첨부(부속서 1 제40절)",
+  "verdict": "unclear",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) 부속서 1 제40.3절: \"Claim for partial loss of or damage to (hurt to) goods shall be accompanied by the documents confirming the value of the goods.\" — 가액 증명 첨부 규정은 부분 멸실·훼손 청구에 대한 것이고, 전부 멸실은 제40.2.1절(운송장 부본 등)과 제40.4절(필요하면 다른 서류)입니다.",
+  "old": "청구에 가액 증명 서류 첨부(부속서 1 제40절)",
+  "fix": "부분 멸실·훼손 청구에는 가액 증명 서류 첨부(부속서 1 제40.3절)"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "출처 링크 이름에 보험사 실명(If Insurance)",
+  "verdict": "unclear",
+  "evidence": "규칙: 회사 실명 금지(링크 도메인으로 드러나는 것 포함). 링크 www.if-insurance.com 의 JC2010/014 사본 — 원문 \"JC2010/014 11 August 2010\" 확인. 저장소 insurance-docs/ins-icc.html에 같은 도메인을 'If'로 쓴 선례가 있으나, 이름은 빼고 도메인 노출은 운영자 판단 필요.",
+  "old": "rel=\"noopener noreferrer\">If Insurance</a>",
+  "fix": "rel=\"noopener noreferrer\">JC2010/014 사본</a>"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "출처 링크 이름에 보험사 실명(Sjóvá)",
+  "verdict": "unclear",
+  "evidence": "규칙: 회사 실명 금지(링크 도메인 포함). 링크 sjova.is 의 Institute War Clauses (Cargo) 1/1/09 사본 — 제5.1조 \"attaches only as… loaded on an oversea vessel… on expiry of 15 days counting from midnight of the day of arrival\" 확인. 이름은 빼고 도메인 노출은 운영자 판단 필요.",
+  "old": "rel=\"noopener noreferrer\">Sjóvá</a>",
+  "fix": "rel=\"noopener noreferrer\">IWC(Cargo) 사본</a>"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "CIM 제30조 제1항(인수지 가액)·제2항 kg당 17 계산단위·제4항 운임·관세 환급, COTIF 제9조 SDR",
+  "verdict": "correct",
+  "evidence": "https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf (OTIF 비공식 통합본 01.11.2023) CIM Art 30 §2 \"Compensation shall not exceed 17 units of account per kilogramme of gross mass short.\"; COTIF Art 9 §1 \"the Special Drawing Right as defined by the International Monetary Fund\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "CIM 제1조 제1항·제2항(두 회원국 / 한 나라만 회원국이면 합의), 제1조 제6항 일부 구간 선언, 제5조 강행성(더 무거운 책임 허용)",
+  "verdict": "correct",
+  "evidence": "https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf (OTIF 비공식 통합본 01.11.2023) CIM Art 1 §1, §2, §6; Art 5"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "CIM 제6조 제5항 운송장은 B/L 효력 없음, 제6조 제8항 운송인 단체의 통일 서식",
+  "verdict": "correct",
+  "evidence": "https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf (OTIF 비공식 통합본 01.11.2023) Art 6 §5 \"The consignment note shall not have effect as a bill of lading.\"; §8"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "CIM 제7조 제1항 16개 항목(a~p), 제8조 제1항·제2항, 제9조 RID 미기재 시 하역·폐기, 제15조 제1항·제2항",
+  "verdict": "correct",
+  "evidence": "https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf (OTIF 비공식 통합본 01.11.2023) Art 7 §1 a)–p); Art 8 §1 a) b), §2; Art 9; Art 15 §1–§2"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "CIM 제16조 제3항 궤간이 다른 노선 추가 인도 기간, 제18조 제1항·제3항, 제19조 제1항·제4항·제7항, 제20조·제22조 경로 변경 운임·기간",
+  "verdict": "correct",
+  "evidence": "https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf (OTIF 비공식 통합본 01.11.2023) Art 16 §3 a) \"by lines of a different gauge\"; Art 18 §3 \"from the time when the consignment note is drawn up, unless the consignor indicates to the contrary\"; Art 19 §7; Art 22 §1 \"may in particular recover the carriage charge applicable to the route followed\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "CIM 제23조·제40조, 제29조 제1항 30일, 제31조 2%/1%, 제32조, 제33조 운임 4배, 제34~36조, 제37조 제1항 지급일 환율",
+  "verdict": "correct",
+  "evidence": "https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf (OTIF 비공식 통합본 01.11.2023) Arts 23, 29 §1, 31, 32, 33 §1 \"four times the carriage charge\", 34–37, 40"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "CIM 제42조 확인 조서, 제43조·제45조 청구 상대, 제47조 제2항 b 7일·c 60일, 제48조 1년/2년·기산·정지(같은 목적 추가 클레임은 정지 안 됨)",
+  "verdict": "correct",
+  "evidence": "https://www.digitalizetrade.org/files/legal/documents/COTIF_1999_01_11_2023_en.pdf (OTIF 비공식 통합본 01.11.2023) Art 47 §2 b) \"not later than seven days after the acceptance of the goods\"; c) \"within sixty days\"; Art 48 §1–§3 (cotif.txt Appendix B pp. 99–100)"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 제1조 협정 철도 국가 26개국, 한국 없음(2026. 7. 1. 본문, 영어·러시아어)",
+  "verdict": "correct",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) 제1조 목록 알바니아~베트남 26개(DPRK는 있고 Republic of Korea 없음); 러시아어 본문 표지 «с изменениями и дополнениями на 1 июля 2026 г.»"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 제3조 제3항, 제5조, 제6조, 제9조, 제13조(부속서 6 GLV), 제15조 제3항 러시아어/중국어",
+  "verdict": "correct",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) Arts 3 §3, 5, 6, 9, 13, 15 §3"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 제16조 제1항·제3항 위약금 운임 5배(3호는 초과 중량 운임 5배)",
+  "verdict": "correct",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) Art 16 §3 \"five times the fare payable to the carrier who ascertained such an infringement\"; ru «в пятикратном размере провозной платы»"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 제24조 제2항 컨테이너 150km당 1일, 제3항 궤간 환적·대차 교환마다 2일",
+  "verdict": "correct",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) Art 24 §2 \"for containers: 1 day (24 hours) per 150 km\"; §3 \"increase by two days: each time the goods are transshipped to wagons of a different gauge\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 제25조 제2~4항(도착역·수하인만, 수하인은 도착국 안·입국 국경역에 있는 동안, 분할 금지)",
+  "verdict": "correct",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) Art 25 §2–§4"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 제29조 제1항·제2항 인도 후 3일, 제37조 제1항·제2항 사고 기록서로 증명, 제39조 제2항 10가지 면책(제10호 공공기관 검사·억류·몰수), 제41조",
+  "verdict": "correct",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) Art 29 §2 \"within three days upon the delivery of the goods at the latest\"; Art 37 §2; Art 39 §2 10) \"checking, detention or confiscation of goods by public authorities\"; ru «удостоверяются коммерческим актом»"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 제17조 가액 신고, 제42조 가액 배상(kg 상한 없음), 제43조(벌크 환적마다 0.3%), 제44조, 제45조 제2항 6·18·30%, 제46조 제1항 양도 불가·제2항·제4항 23 스위스프랑·제7항 180일, 제47조 제1항·제2항, 제48조 2개월/9개월·기산·정지",
+  "verdict": "correct",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) Arts 17, 42–48; ru «в 180-дневный срок», «в течение 2 месяцев… в течение 9 месяцев»"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 부속서 1 제7.2절 6장 구성",
+  "verdict": "correct",
+  "evidence": "https://en.osjd.org/en/8910/page/106077?id=2990 (러시아어 정본 https://osjd.org/ru/8978/page/106077?id=2966 대조) Annex 1 7.2 \"composed of six numbered sheets\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "GLV-CIM/SMGS(2025. 12. 12. 판) 제4절·제5절·제6절·제8절·제10.2절·제12.1절·제12.3절·제12.3.2절(정지는 서류 반환 또는 SMGS 운송인 송부로 끝남)·제15.1절(66번 칸)·제15.2절·제16절, 부속서 1(중국 5개 통과지), 부속서 3(수령=첫 계약의 인도; 말라셰비체·쿠지니차 비아워스토츠카·아할칼라키·사락스)",
+  "verdict": "correct",
+  "evidence": "https://cit-rail.org/en/freight-traffic/cim-smgs/ (GLV-CIM/SMGS, Edition 12th December 2025) 12.1 \"The provisions of the CIM Uniform Rules and the SMGS for liability remain unchanged\"; 12.3.2 \"Suspension of the period of limitation… comes to an end when the documentation submitted is returned… or the claim is sent on to the SMGS processing carrier\"; App. 1 \"rail crossing points Alashankou, Manzhouli, Erlian, Suifenhe or Khorgos\"; App. 3 \"This acceptance is to be regarded as delivery of the consignment under the first contract of carriage.\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "2006. 7. 21. 우크라이나→독일 시험 열차에서 공통 운송장 첫 사용, 중국 2017. 5. 1.부터 개방, CIT: 세관 통과·은행 서류 인정",
+  "verdict": "correct",
+  "evidence": "https://en.osjd.org/en/9176 \"first experimental freight train from Ukraine to Germany on July 21, 2006… first time a unified CIM/SMGS waybill was used\"; Evtimov(CIT) UNCITRAL 2021 \"open… using CIM/SMGS Consignment Note from 1 May 2017\", \"Recognised as customs transit document and as bank/accreditive document\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "OTIF 회원국: 튀르키예·조지아·아제르바이잔·이란·러시아·우크라이나·폴란드 있음, 중국·카자흐스탄·몽골·벨라루스 없음",
+  "verdict": "correct",
+  "evidence": "https://otif.org/en/?page_id=51 (2026. 10. 27. 재조회) 회원국 목록"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "한국 2018년 6월 OSJD 정회원, OSJD 장관회의 30개국",
+  "verdict": "correct",
+  "evidence": "https://www.molit.go.kr/USR/policyTarget/dtl.jsp?idx=1009 \"우리나라는 2018년 6월, 국제철도협려기구(OSJD)에 정회원으로 가입\"; https://en.osjd.org/en/9182 장관회의 회원 30개국(Republic of Korea 포함)"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "EBRD·EU(2023. 6.) 북부 약 1만km 평균 14일, 중부회랑 7,000km 14~45일 최대 60일, 남부 통로 경유국, 2022년 북부 물량 31.9% 감소",
+  "verdict": "correct",
+  "evidence": "https://transport.ec.europa.eu/document/download/4360ea36-a75a-47e5-8b6f-84a9bde66a02_en (Submitted on 16/06/2023) p. 11 \"about 10,000 kilometres… 14 days, on average… 14 days to 45 days, but can take up to 60 days\"; p. 13 \"fell 31.9 per cent on the year in 2022\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "세계은행 2023: 해상 91%(금액 58%), 철도 3.3%(5%), 북부 86% 이상, 중부 1% 미만, 2022년 +33%, 2023년 1~8월 -37%, 세 배, 50~53일, 알랏 야적장 25일, 선박 부족·서류 오류, 호르고스 17~18편, 아할칼라키 2017년·튀르키예 신선 뒤 병목, 1,520mm",
+  "verdict": "correct",
+  "evidence": "https://documents1.worldbank.org/curated/en/099111723122527465/pdf/P1803220f863200b5096710f86d78ee0b36.pdf pp. 8, 19, 46, 50–51 \"takes three times longer than the Northern route\", \"It took on average 50-53 days in 2022\", \"average dwell time on port yards was as high as 25 days\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "ADB CAREC 2020 pp. 25·33·74: 궤간 환적은 중국 국경과 폴란드–CIS 국경, 바퀴 교환 또는 지게차, 몽골 1,520mm",
+  "verdict": "correct",
+  "evidence": "https://www.adb.org/sites/default/files/publication/779026/carec-cpmm-annual-report-2020.pdf p. 74 \"This only happens at the People's Republic of China (PRC) border or Polish border with a… CIS country… changing the wheel sets or relocating the goods using forklifts\"; p. 25 \"Since Mongolia adopts a 1,520-millimeter (mm) track gauge, there is a breakage at the PRC-MON border\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "세계은행 2020 청두 출발 해상 28~40일·북부 14~18일, 세계은행 2022 2주 대 6주·브레스트 환적(p. 41)",
+  "verdict": "correct",
+  "evidence": "https://documents1.worldbank.org/curated/en/701831585898113781/pdf/Improving-Freight-Transit-and-Logistics-Performance-of-the-Trans-Caucasus-Transit-Corridor-Strategy-and-Action-Plan.pdf Table 1; https://documents1.worldbank.org/curated/en/099750104252216595/pdf/IDU0008eed66007300452c0beb208e8903183c39.pdf p. 41 \"at Brest in Belarus, with transloading of containers from one rail gauge to the other\", p. 42 \"two weeks versus six weeks\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "중국 계획: 중부·동부 통로, 연안 거점 10곳, 국경 거점(만저우리 포함)의 화물 환적 기능",
+  "verdict": "correct",
+  "evidence": "「中欧班列建设发展规划」 专栏2 \"沿海重要港口节点：大连、营口、天津、青岛、连云港、宁波、厦门、广州、深圳、钦州。沿边陆路口岸节点：阿拉山口、霍尔果斯、二连浩特、满洲里\"; \"承担出入境检验检疫、通关便利化、货物换装等功能\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "2025년 20,022편(2016년 1,702편), 누적 13만 편 돌파(국가발전개혁위원회, 신화통신 2026. 7. 28.)",
+  "verdict": "correct",
+  "evidence": "https://www.news.cn/world/20260728/74d1402bb23049d8b4a267a04ae179fc/c.html \"中欧班列累计开行量已突破13万列… 从2016年的1702列增长至2025年的20022列\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "시안–바쿠 2024. 7. 1.부터 매일, 약 12일(신화통신 보도, 인민일보 게재)",
+  "verdict": "correct",
+  "evidence": "https://paper.people.com.cn/rmrb/html/2024-07/03/nw.D110000renmrb_20240703_11-02.htm \"新华社北京7月2日电…自7月1日起…一日一班…全程运输时间约12天\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "한국교통연구원: 2004년 연구 기반 TCR 화물 약 90% 롄윈강(2008. 5. 15. 게시)",
+  "verdict": "correct",
+  "evidence": "https://www.koti.re.kr/user/bbs/northAsiaRsrchBoardView.do?bbs_no=49923 \"사실상 연운항이 TCR화물전체의 약 90%를 차지\", 출처 \"안병민 외, 『대륙횡단철도 운영현황 조사연구』, 2004\" — 오래된 수치임을 문장이 밝히고 있음"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "KOTRA: TSR 일시 적체 후 2023년 하반기 정상화",
+  "verdict": "correct",
+  "evidence": "KOTRA자료 23-138, 13쪽 \"러-우 사태 직후 일시적 적체 현상 있었으나 ’23년 하반기 운송 기능 정상화\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "규정 833/2014(2026. 7. 24. 통합본) 제2조·제2a조·제2aa조·제3c조·제3k조 각 제1a항 러시아 경유 금지, 제3p조 제2항 다이아몬드, 제3l조, 제12g조, 부속서 VIII에 한국, RZD는 부속서 XIII(제5조 제4항)에 있고 부속서 XIX(제5aa조)에 없음",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0833-20260724 Art 2(1a) \"The transit via the territory of Russia of the dual-use goods… exported from the Union shall be prohibited\"; Art 3p(2) \"of any origin, if they transited via the territory of Russia\"; Annex XIII \"…Russian Railways…\"; Annex VIII \"SOUTH KOREA\"; Annex XIX Part A–C에 RZD 없음"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "집행위 FAQ: 제3국 원산 화물이 러시아를 통과만 하면 '러시아에서 수출된' 것 아님, 이미 러시아에 있던 화물은 해당, 증명 조건",
+  "verdict": "correct",
+  "evidence": "https://finance.ec.europa.eu/system/files/2023-07/faqs-sanctions-russia-transit-listed-goods_en.pdf Q1 \"Goods are not considered 'exported from Russia'… if they originate in a third country and are only transiting through Russia\", Q2 조건 4가지; 통합 FAQ https://finance.ec.europa.eu/publications/consolidated-version_en \"23 October 2026\" 게시 확인"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "규정 269/2014 제6g조(2026. 7. 23. 신설): RZD 자금과 RZD에 제공하는 자금 중 러시아–EU, EU 통과, 칼리닌그라드–러시아, 러시아 안 철도 운송·인프라와 그 운영·유지·보안에 필요한 것은 동결 예외; 같은 날 RZD 대표 지정",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0269-20261012 ▼M122 Council Regulation (EU) 2026/1844 of 23 July 2026, Art 6g(1)(2) \"funds or economic resources of JSC Russian Railways which are necessary for the transport by rail of goods or persons… between Russia and the Union, in transit through the Union, between the Kaliningrad Oblast and Russia, or within Russia\"; Annex I entry 2094 Oleg BELOZEROV \"Director General and Chairman of the Executive Board of Russian Railways\" 23.7.2026. RZD 자체는 부속서 I 법인 목록에 없음 — 본문 서술과 일치"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "765/2006 제1zc조 벨라루스 도로운송 사업자 금지, 칼리닌그라드 지침 도로·철도 차이",
+  "verdict": "correct",
+  "evidence": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02006R0765-20261015 Art 1zc(1); Kaliningrad Guidance para 7–8 \"No such specific regime applies to rail transport on the same route\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "집행위 우회 방지 실사 지침(2023. 9. 7.) 확인 질문",
+  "verdict": "correct",
+  "evidence": "Guidance for EU operators (2023. 9. 7.) \"Is this country neighbouring Russia or Belarus…\"; \"If the goods are shipped through Russia or Belarus, is the route standard and economically viable?\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "영국 지침: 비러시아 원산·통과만 해도 수입 금지 적용 가능, 2026. 5. 20. 갱신",
+  "verdict": "correct",
+  "evidence": "https://www.gov.uk/government/publications/russia-sanctions-guidance/russia-sanctions-guidance \"Updated 20 May 2026\"; \"The prohibitions may apply even if the products are not of Russian origin and even if transiting through Russian territory is part of a complete journey where the start and end point is not Russia\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "TIR 협약 제2조: 일부 구간이 도로여야 함",
+  "verdict": "correct",
+  "evidence": "https://treaties.un.org/doc/Publication/UNTS/Volume%201079/volume-1079-I-16510-English.pdf Art 2 \"provided that some portion of the journey between the beginning and the end of the TIR operation is made by road\""
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "JC2010/014(2010. 8. 11.) 내용, 협회전쟁약관(화물) 제5조 외항선 적재~양륙 또는 도착 후 15일",
+  "verdict": "correct",
+  "evidence": "JC2010/014 원문 \"…sanctions, laws or regulations of the European Union, United Kingdom or United States of America. JC2010/014 11 August 2010\"; IWC(Cargo) 1/1/09 cl. 5.1.1–5.1.2"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "계산: 40,800 SDR=73,863,912원(24.6%), CMR 19,992 SDR=36,193,317원(12.1%), 해상 4,800 SDR=8,689,872원(2.9%), 항공 62,400 SDR=112,968,336원(37.7%), kg당 17 SDR≈30,777원",
+  "verdict": "correct",
+  "evidence": "1 SDR=1,810.39원(저장소 bl-cmr·ins-carrier-liability와 같은 값)으로 재계산 일치. 몬트리올 26 SDR·헤이그-비스비 666.67/2 SDR은 tools/STYLE.md 값과 일치"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "bl-cmr.html·bl-multimodal.html과의 일관성: CIM 7일·1년(고의 등 2년), CMR 7절 같은 예시 화물(2,400kg·3억 원), 복합운송 2·4·7·8절 참조",
+  "verdict": "correct",
+  "evidence": "bl-docs/bl-multimodal.html 7절 \"국제 철도(CIM)는 … 7일 이내 확인 요청 … 제소는 1년(고의 등 2년)\", 그림 \"CMR·CIM 7일 … CMR·CIM 1년\"; bl-docs/bl-cmr.html 7절 2,400kg·3억 원·36,193,317원. 모순 없음(제814조 문장만 강도 조정, 위 항목)"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "ICS2 철도 ENS 기한(2시간/1시간)과 2026. 6. 1. 전면 시행",
+  "verdict": "correct",
+  "evidence": "저장소 cu-docs/cu-eu-ics2.html: 위임규정 제107조 \"마지막 제3국 열차 편성역에서 첫 입국 세관까지 2시간 미만이면 도착 1시간 전, 그 밖에는 도착 2시간 전\", \"2026년 6월 1일부터는 해상·항공·도로·철도 모든 운송 수단\" — 일치"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "SMGS 부속서 2 제6.8장/제6.20장 조화(2022. 7. 1.), 부속서 2 최신판 2025. 7. 1.",
+  "verdict": "correct",
+  "evidence": "https://otif.org/fileadmin/new/5-Media/5B-Bulletin/2022/Bulletin_1.2_2022_FR.pdf \"Après l'entrée en vigueur du chapitre 6.20 le 1er juillet 2022, le chapitre 6.8 de l'annexe 2 au SMGS ne contiendra plus que des prescriptions concernant les wagons pour écartement de voie de 1 435 mm et sera entièrement harmonisé avec le chapitre 6.8 du RID\"; https://en.osjd.org/en/8910/page/106077?id=2099 \"(01.07.2025)\" (러시아어 2026 페이지의 부속서 2 3권도 2025년 기준판으로 보임)"
+ },
+ {
+  "file": "images/bl/*.svg",
+  "claim": "그림 3개(bl-rail-cim-smgs, bl-rail-korea-layers, bl-rail-routes)의 글자·수치",
+  "verdict": "correct",
+  "evidence": "본문과 같은 조문(SMGS 24·29·37·42·45~48, CIM 16·30·33·42·43·47·48, GLV 10·12)·기한(CMR 7일 일요일·공휴일 제외: CMR 제30조 제1항)·지명과 일치. 고칠 것 없음"
+ },
+ {
+  "file": "bl-rail.html",
+  "claim": "규칙 점검: 할증료·운임 금액 없음, 포워더에게 화물 개봉·검사 지시 없음(\"포워더는 화물을 직접 보지 않으므로\"), STYLE 용어(kg당 17 SDR(특별인출권), House B/L, 씰 번호, SWB) 준수",
+  "verdict": "correct",
+  "evidence": "bl-rail.html 전문 검토"
+ }
+]

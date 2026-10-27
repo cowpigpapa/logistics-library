@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="322" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="64" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">운송장은 한 장, 계약은 둘: 중국 → 폴란드 재발송 지점 → 독일(예시)</text>
+<rect x="120" y="92" width="1432" height="46" rx="10" fill="#ffffff" stroke="#1d2a3a" stroke-width="2"/>
+<text x="836" y="122" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">CIM/SMGS 공통 운송장 한 장이 처음부터 끝까지 화물과 함께 감(GLV-CIM/SMGS, SMGS 부속서 6)</text>
+<line x1="150" y1="210" x2="1000" y2="210" stroke="#e4572e" stroke-width="12" stroke-linecap="round"/>
+<line x1="1000" y1="210" x2="1520" y2="210" stroke="#1f6fd1" stroke-width="12" stroke-linecap="round"/>
+<circle cx="150" cy="210" r="16" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="150" y="256" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">발송역</text>
+<text x="150" y="278" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">중국</text>
+<circle cx="1520" cy="210" r="16" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="1520" y="256" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">도착역</text>
+<text x="1520" y="278" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">독일</text>
+<text x="575" y="188" font-size="17" font-weight="800" fill="#e4572e" text-anchor="middle">SMGS 계약 구간: 중국·카자흐스탄·러시아·벨라루스·폴란드 국경역</text>
+<text x="1260" y="188" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">CIM 계약 구간: 폴란드·독일</text>
+<rect x="984" y="180" width="32" height="60" rx="6" fill="#1d2a3a"/>
+<text x="1000" y="264" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">재발송 지점(예: 말라셰비체)</text>
+<text x="1000" y="286" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">여기서 받는 것이 첫 계약의 인도이자 둘째 계약의 인수</text>
+<text x="48" y="326" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">첫 계약의 송하인 = 첫 계약의 수하인 = 둘째 계약의 송하인(GLV 10절). 공통 운송장이 없으면 재발송 지점에서 새 운송장을 다시 씁니다.</text>
+<rect x="24" y="364" width="1624" height="476" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="580.0" y="400" font-size="19" font-weight="800" fill="#e4572e" text-anchor="middle">SMGS 구간</text>
+<text x="1292.0" y="400" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">CIM 구간</text>
+<line x1="40" y1="420" x2="1632" y2="420" stroke="#dde3ea" stroke-width="1.5"/>
+<text x="52" y="464" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">적용 규칙</text>
+<text x="240" y="464" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">SMGS(OSJD), 2026. 7. 1. 개정 반영 본문</text>
+<text x="952" y="464" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">CIM 통일규칙(COTIF 부속서 B, OTIF)</text>
+<line x1="40" y1="490" x2="1632" y2="490" stroke="#dde3ea" stroke-width="1.5"/>
+<text x="52" y="534" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">멸실 배상</text>
+<text x="240" y="534" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">화물 가액 기준, kg당 상한 없음(가액 신고 시 신고액, 제42조)</text>
+<text x="952" y="534" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">인수지 가액 기준, 총중량 kg당 17 SDR까지(제30조)</text>
+<line x1="40" y1="560" x2="1632" y2="560" stroke="#dde3ea" stroke-width="1.5"/>
+<text x="52" y="604" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">연착</text>
+<text x="240" y="604" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">지연 정도에 따라 운임의 6%·18%·30%(제45조)</text>
+<text x="952" y="604" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">손해를 증명하면 운임의 4배까지(제33조)</text>
+<line x1="40" y1="630" x2="1632" y2="630" stroke="#dde3ea" stroke-width="1.5"/>
+<text x="52" y="674" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">손해 증거</text>
+<text x="240" y="674" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">운송인이 쓰는 사고 기록서(formal report, 제29조·제37조)</text>
+<text x="952" y="674" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">운송인이 쓰는 확인 조서(제42조)</text>
+<line x1="40" y1="700" x2="1632" y2="700" stroke="#dde3ea" stroke-width="1.5"/>
+<text x="52" y="744" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">숨은 손해</text>
+<text x="240" y="744" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">발견 즉시, 인도 후 3일 안에 기록 요청(도착국 법이 허용할 때, 제29조 제2항)</text>
+<text x="952" y="744" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">발견 즉시, 인수 후 7일 안에 확인 요청(제47조)</text>
+<line x1="40" y1="770" x2="1632" y2="770" stroke="#dde3ea" stroke-width="1.5"/>
+<text x="52" y="814" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">청구와 제소</text>
+<text x="240" y="814" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">클레임 먼저, 답변 180일, 제소 연착 2개월·그 밖 9개월(제46조~제48조)</text>
+<text x="952" y="814" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">서면 클레임(제43조), 제소 1년, 고의 등 2년(제48조)</text>
+<line x1="224" y1="420" x2="224" y2="830" stroke="#dde3ea" stroke-width="1.5"/>
+<line x1="936" y1="384" x2="936" y2="830" stroke="#dde3ea" stroke-width="1.5"/>
+<text x="48" y="884" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">공통 운송장을 써도 각 구간의 책임 규정은 그대로(GLV 12.1). 클레임은 한쪽 운송인에게 내면 다른 구간 운송인에게 넘겨 함께 처리(GLV 12.3).</text>
+</svg>

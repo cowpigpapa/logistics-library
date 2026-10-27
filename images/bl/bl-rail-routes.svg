@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="688" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="64" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">중국–유럽 철도의 통로와 궤간이 바뀌는 곳(개념도, 실제 거리 비례 아님)</text>
+<line x1="1000" y1="96" x2="1050" y2="96" stroke="#1f6fd1" stroke-width="7" stroke-linecap="round"/>
+<text x="1060" y="102" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">표준궤 1,435mm(중국·EU·튀르키예)</text>
+<line x1="1000" y1="124" x2="1050" y2="124" stroke="#d9482b" stroke-width="7" stroke-linecap="round"/>
+<text x="1060" y="130" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">광궤 1,520mm(러시아·카자흐스탄·벨라루스·몽골·캅카스)</text>
+<line x1="48" y1="110" x2="98" y2="110" stroke="#7f8c99" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 8"/>
+<text x="108" y="116" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">바다(선박·페리)</text>
+<path d="M320 98 L333 110 L320 122 L307 110Z" fill="#e4572e"/>
+<text x="345" y="116" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">궤간 환적·대차 교환 지점</text>
+<text x="64" y="206" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">북부 ①</text>
+<text x="64" y="230" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">카자흐스탄 경유</text>
+<text x="64" y="326" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">북부 ②</text>
+<text x="64" y="350" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">만저우리 경유</text>
+<text x="64" y="446" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">북부 ③</text>
+<text x="64" y="470" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">몽골 경유</text>
+<text x="64" y="596" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">중부회랑</text>
+<text x="64" y="620" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">카스피해 횡단</text>
+<line x1="290" y1="210" x2="430" y2="210" stroke="#1f6fd1" stroke-width="7" stroke-linecap="round"/>
+<line x1="430" y1="210" x2="1290" y2="210" stroke="#d9482b" stroke-width="7" stroke-linecap="round"/>
+<line x1="1290" y1="210" x2="1590" y2="210" stroke="#1f6fd1" stroke-width="7" stroke-linecap="round"/>
+<rect x="256.0" y="189" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="320" y="216" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">중국 서부</text>
+<path d="M430 195 L445 210 L430 225 L415 210Z" fill="#e4572e" stroke="#ffffff" stroke-width="2"/>
+<text x="430" y="250" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">알라산커우–도스틱</text>
+<text x="430" y="268" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">호르고스–알틴콜</text>
+<rect x="546.0" y="189" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="610" y="216" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">카자흐스탄</text>
+<rect x="766.0" y="189" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="830" y="216" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">러시아</text>
+<rect x="996.0" y="189" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="1060" y="216" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">벨라루스</text>
+<path d="M1290 195 L1305 210 L1290 225 L1275 210Z" fill="#e4572e" stroke="#ffffff" stroke-width="2"/>
+<text x="1290" y="250" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">브레스트–말라셰비체</text>
+<text x="1290" y="268" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">(벨라루스–폴란드)</text>
+<rect x="1410.0" y="189" width="140" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="1480" y="216" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">폴란드·EU</text>
+<line x1="290" y1="330" x2="430" y2="330" stroke="#1f6fd1" stroke-width="7" stroke-linecap="round"/>
+<line x1="430" y1="330" x2="1290" y2="330" stroke="#d9482b" stroke-width="7" stroke-linecap="round"/>
+<line x1="1290" y1="330" x2="1590" y2="330" stroke="#1f6fd1" stroke-width="7" stroke-linecap="round"/>
+<rect x="256.0" y="309" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="320" y="336" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">중국 동북</text>
+<path d="M430 315 L445 330 L430 345 L415 330Z" fill="#e4572e" stroke="#ffffff" stroke-width="2"/>
+<text x="430" y="370" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">만저우리–자바이칼스크</text>
+<rect x="595.0" y="309" width="250" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="720" y="336" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">러시아(시베리아 횡단철도)</text>
+<rect x="996.0" y="309" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="1060" y="336" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">벨라루스</text>
+<path d="M1290 315 L1305 330 L1290 345 L1275 330Z" fill="#e4572e" stroke="#ffffff" stroke-width="2"/>
+<text x="1290" y="370" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">브레스트–말라셰비체</text>
+<rect x="1410.0" y="309" width="140" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="1480" y="336" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">폴란드·EU</text>
+<line x1="290" y1="450" x2="430" y2="450" stroke="#1f6fd1" stroke-width="7" stroke-linecap="round"/>
+<line x1="430" y1="450" x2="1290" y2="450" stroke="#d9482b" stroke-width="7" stroke-linecap="round"/>
+<line x1="1290" y1="450" x2="1590" y2="450" stroke="#1f6fd1" stroke-width="7" stroke-linecap="round"/>
+<rect x="256.0" y="429" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="320" y="456" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">중국 북부</text>
+<path d="M430 435 L445 450 L430 465 L415 450Z" fill="#e4572e" stroke="#ffffff" stroke-width="2"/>
+<text x="430" y="490" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">얼롄하오터–자민우드</text>
+<rect x="546.0" y="429" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="610" y="456" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">몽골</text>
+<rect x="766.0" y="429" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="830" y="456" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">러시아</text>
+<rect x="996.0" y="429" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="1060" y="456" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">벨라루스</text>
+<path d="M1290 435 L1305 450 L1290 465 L1275 450Z" fill="#e4572e" stroke="#ffffff" stroke-width="2"/>
+<text x="1290" y="490" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">브레스트–말라셰비체</text>
+<rect x="1410.0" y="429" width="140" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="1480" y="456" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">폴란드·EU</text>
+<line x1="290" y1="600" x2="400" y2="600" stroke="#1f6fd1" stroke-width="7" stroke-linecap="round"/>
+<line x1="400" y1="600" x2="560" y2="600" stroke="#d9482b" stroke-width="7" stroke-linecap="round"/>
+<line x1="560" y1="600" x2="700" y2="600" stroke="#7f8c99" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 8"/>
+<line x1="700" y1="600" x2="1180" y2="600" stroke="#d9482b" stroke-width="7" stroke-linecap="round"/>
+<line x1="1180" y1="600" x2="1590" y2="600" stroke="#1f6fd1" stroke-width="7" stroke-linecap="round"/>
+<rect x="256.0" y="579" width="128" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="320" y="606" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">중국 서부</text>
+<path d="M400 585 L415 600 L400 615 L385 600Z" fill="#e4572e" stroke="#ffffff" stroke-width="2"/>
+<text x="400" y="640" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">호르고스·도스틱</text>
+<rect x="461.0" y="579" width="118" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="520" y="606" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">카자흐스탄</text>
+<text x="630" y="586" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="middle">카스피해</text>
+<text x="630" y="634" font-size="13" font-weight="700" fill="#5f6b78" text-anchor="middle">악타우·쿠릭 → 바쿠·알랏</text>
+<rect x="725.0" y="579" width="130" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="790" y="606" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">아제르바이잔</text>
+<rect x="915.0" y="579" width="110" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="970" y="606" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">조지아</text>
+<path d="M1180 585 L1195 600 L1180 615 L1165 600Z" fill="#e4572e" stroke="#ffffff" stroke-width="2"/>
+<text x="1180" y="640" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">아할칼라키</text>
+<text x="1180" y="658" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">(조지아–튀르키예)</text>
+<rect x="1280.0" y="579" width="120" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="1340" y="606" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">튀르키예</text>
+<rect x="1435.0" y="579" width="150" height="42" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="1510" y="606" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="middle">불가리아 등 EU</text>
+<path d="M970 579 C 970 520, 1010 512, 1060 512" fill="none" stroke="#7f8c99" stroke-width="4" stroke-dasharray="10 8"/>
+<line x1="1060" y1="512" x2="1300" y2="512" stroke="#7f8c99" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 8"/>
+<text x="1180" y="540" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">포티·바투미 → 흑해 → 콘스탄차·바르나</text>
+<rect x="1310" y="496" width="150" height="32" rx="8" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.6"/>
+<text x="1385" y="518" font-size="14" font-weight="800" fill="#1d2a3a" text-anchor="middle">루마니아·불가리아</text>
+<text x="48" y="690" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">중부회랑의 카자흐스탄·아제르바이잔·조지아 구간은 모두 1,520mm이고, 조지아에서 바다(흑해)로 나가거나 아할칼라키에서 궤간을 바꿔 튀르키예로 갑니다.</text>
+<rect x="24" y="728" width="800" height="190" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="766" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">한국에서 출발할 때: 먼저 바다를 건넌다</text>
+<line x1="60" y1="808" x2="140" y2="808" stroke="#7f8c99" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 8"/>
+<text x="152" y="814" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">부산·인천 → 중국 연안 거점(다롄·톈진·칭다오·롄윈강 등) → 위 통로</text>
+<line x1="60" y1="852" x2="140" y2="852" stroke="#7f8c99" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 8"/>
+<text x="152" y="858" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">부산 → 블라디보스토크·보스토치니 → 시베리아 횡단철도(1,520mm)</text>
+<text x="48" y="900" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="start">연안 거점: 중국 정부 「중국–유럽 화물열차 건설 발전 계획(2016~2020)」의 해상·철도 연계 거점 목록</text>
+<rect x="848" y="728" width="800" height="190" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="872" y="766" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">궤간이 바뀌면 생기는 일</text>
+<circle cx="884" cy="804" r="4" fill="#e4572e"/>
+<text x="898" y="810" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">컨테이너를 다른 궤간 화차로 옮겨 싣거나 대차를 바꿈 → 대기·적체</text>
+<circle cx="884" cy="834" r="4" fill="#e4572e"/>
+<text x="898" y="840" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">SMGS 인도 기간: 궤간 환적·대차 교환마다 2일 추가(제24조 제3항)</text>
+<circle cx="884" cy="864" r="4" fill="#e4572e"/>
+<text x="898" y="870" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">CIM: 궤간이 다른 노선은 운송인이 추가 기간을 둘 수 있음(제16조 제3항)</text>
+<circle cx="884" cy="894" r="4" fill="#e4572e"/>
+<text x="898" y="900" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">중부회랑은 카스피해 횡단에 더해 흑해 횡단 또는 아할칼라키 환적이 붙음</text>
+</svg>
