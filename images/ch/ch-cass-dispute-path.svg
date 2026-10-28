@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="m-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="m-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="m-org" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="520" height="820" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="570" y="30" width="520" height="820" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<rect x="1110" y="30" width="532" height="820" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="56" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">① 송금 전: CASSLink 이의</text>
+<text x="56" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">대리점이 청구 오류를 찾았을 때</text>
+<text x="596" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">② 송금일: 일부만 낼 때</text>
+<text x="596" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">분쟁 금액을 빼고 송금한 경우</text>
+<text x="1136" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">③ 항공사가 정정할 때</text>
+<text x="1136" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">CCA·DCM과 오래된 AWB</text>
+<rect x="60" y="140" width="460" height="96" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="290.0" y="180.7" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">오류 발견</text>
+<text x="290.0" y="210.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">중량·요율·PP/CC·기타요금</text>
+<line x1="290" y1="240" x2="290" y2="270" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="60" y="276" width="460" height="110" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="290.0" y="308.7" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">온라인 정정 요청 등록</text>
+<text x="290.0" y="338.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">청구서 배포 뒤 4일 이상 주어지는</text>
+<text x="290.0" y="368.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">이의 등록 마감 안에</text>
+<line x1="290" y1="390" x2="290" y2="420" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="60" y="426" width="460" height="210" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="290.0" y="478.4" font-size="21" font-weight="800" fill="#e4572e" text-anchor="middle">항공사 응답 (송금일 4일 이상 전)</text>
+<text x="290.0" y="508.4" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">수락: 요청대로 정정</text>
+<text x="290.0" y="538.4" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">거절: 정정하지 않음</text>
+<text x="290.0" y="568.4" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">금액 수정: 다른 금액으로 정정</text>
+<text x="290.0" y="598.4" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">항공사 처리: CCA·DCM으로 직접 정정</text>
+<line x1="290" y1="640" x2="290" y2="670" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="60" y="676" width="460" height="130" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="290.0" y="718.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">응답이 없으면 자동 승인</text>
+<text x="290.0" y="748.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">단, 항공사는 거절했어야 할 건을</text>
+<text x="290.0" y="778.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">다음 청구 기간에 다시 청구 가능</text>
+<rect x="600" y="140" width="460" height="130" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="830.0" y="182.7" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">큰 금액 오류</text>
+<text x="830.0" y="212.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">IATA 정산 관리 부서가 승인하면 맞는 금액만</text>
+<text x="830.0" y="242.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">승인 없으면 전액 송금</text>
+<line x1="830" y1="274" x2="830" y2="304" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="600" y="310" width="460" height="96" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="830.0" y="350.7" font-size="22" font-weight="800" fill="#e4572e" text-anchor="middle">분쟁으로 일부만 송금</text>
+<text x="830.0" y="380.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">정산소가 사유를 확인</text>
+<path d="M 700 410 L 700 460" fill="none" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m-green)"/>
+<path d="M 960 410 L 960 460" fill="none" stroke="#d9482b" stroke-width="3" marker-end="url(#m-red)"/>
+<rect x="600" y="466" width="210" height="130" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="705.0" y="508.7" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">항공사가</text>
+<text x="705.0" y="538.7" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">분쟁 인정</text>
+<text x="705.0" y="568.7" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">→ 둘이 해결</text>
+<rect x="850" y="466" width="210" height="130" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<text x="955.0" y="508.7" font-size="22" font-weight="800" fill="#d9482b" text-anchor="middle">항공사가</text>
+<text x="955.0" y="538.7" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">분쟁 부인</text>
+<text x="955.0" y="568.7" font-size="18" font-weight="600" fill="#1d2a3a" text-anchor="middle">→ 증빙 또는 예치</text>
+<line x1="955" y1="600" x2="955" y2="640" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="600" y="646" width="460" height="160" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2"/>
+<text x="830.0" y="688.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">분쟁 증빙 제출 또는 차액 escrow 예치</text>
+<text x="830.0" y="718.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">송금일 뒤 10일째까지 둘 다 없으면</text>
+<text x="830.0" y="748.0" font-size="18" font-weight="700" fill="#d9482b" text-anchor="middle">불이행(default) 조치</text>
+<text x="830.0" y="778.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">60일 안에 항공사 조치가 없으면 대리점에 반환</text>
+<rect x="1140" y="140" width="472" height="110" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1376.0" y="172.7" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">항공사 재계량·요율 오류</text>
+<text x="1376.0" y="202.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CCA(운임 정정 통지) 또는</text>
+<text x="1376.0" y="232.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">DCM(차변·대변 메모) 발행</text>
+<line x1="1376" y1="254" x2="1376" y2="284" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="1140" y="290" width="472" height="110" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1376.0" y="322.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">다음 청구서에 조정 줄</text>
+<text x="1376.0" y="352.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CCA 번호나 &#x27;SO Error&#x27; 표시</text>
+<text x="1376.0" y="382.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">원 AWB·CCA·DCM과 대조</text>
+<line x1="1376" y1="404" x2="1376" y2="434" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="1140" y="440" width="472" height="96" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="1376.0" y="480.7" font-size="22" font-weight="800" fill="#e4572e" text-anchor="middle">CCA 내용에 동의하지 않으면</text>
+<text x="1376.0" y="510.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">발행 항공사와 직접 협의</text>
+<rect x="1140" y="590" width="472" height="216" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<text x="1376.0" y="645.4" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">오래된 AWB (CASS 정책)</text>
+<text x="1376.0" y="675.4" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">6~24개월 된 AWB·정정은</text>
+<text x="1376.0" y="705.4" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">제출 전에 대리점에 통지</text>
+<text x="1376.0" y="735.4" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">24개월이 넘으면 대리점 동의가</text>
+<text x="1376.0" y="765.4" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="middle">있어야 CASS로 청구</text>
+<text x="836" y="896" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="middle">근거: IATA 결의 801r 제2.7항·제2.14항, IATA 정산 서비스 규정(화물) 6.7·6.9.7·6.11·7.1</text>
+</svg>

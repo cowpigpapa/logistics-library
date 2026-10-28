@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start">인도 뒤에도 수입자 명의에 남는 시계</text>
+<text x="54" y="106" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">DDP의 위험은 인도 때 매수인에게 넘어가지만, 추징과 환급은 몇 년 동안 수입신고서의 이름을 따라갑니다</text>
+<line x1="90" y1="200" x2="1570" y2="200" stroke="#9aa5b1" stroke-width="3"/>
+<circle cx="110" cy="200" r="8" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="110" y="176" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">계약</text>
+<circle cx="230" cy="200" r="8" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="230" y="176" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">선적</text>
+<circle cx="350" cy="200" r="8" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="350" y="176" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">도착</text>
+<circle cx="470" cy="200" r="11" fill="#d9482b"/>
+<text x="470" y="150" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">수입신고·DDP 인도</text>
+<text x="470" y="174" font-size="18" font-weight="800" fill="#d9482b" text-anchor="middle">(위험 이전)</text>
+<line x1="578" y1="192" x2="578" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="578" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">1년</text>
+<line x1="686" y1="192" x2="686" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="686" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">2년</text>
+<line x1="794" y1="192" x2="794" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="794" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">3년</text>
+<line x1="902" y1="192" x2="902" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="902" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">4년</text>
+<line x1="1010" y1="192" x2="1010" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="1010" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">5년</text>
+<line x1="1118" y1="192" x2="1118" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="1118" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">6년</text>
+<line x1="1226" y1="192" x2="1226" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="1226" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">7년</text>
+<line x1="1334" y1="192" x2="1334" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="1334" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">8년</text>
+<line x1="1442" y1="192" x2="1442" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="1442" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">9년</text>
+<line x1="1550" y1="192" x2="1550" y2="208" stroke="#9aa5b1" stroke-width="2"/>
+<text x="1550" y="234" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">10년</text>
+<line x1="470" y1="212" x2="470" y2="572" stroke="#d9482b" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="90" y="308" font-size="26" font-weight="800" fill="#e4572e" text-anchor="start">미국</text>
+<rect x="470" y="284" width="540" height="32" rx="6" fill="#e4572e"/>
+<text x="484" y="307" font-size="17" font-weight="700" fill="#ffffff" text-anchor="start">기록 보관 5년(신고일부터, 19 CFR 163.4)</text>
+<text x="90" y="428" font-size="26" font-weight="800" fill="#1f6fd1" text-anchor="start">EU</text>
+<rect x="470" y="404" width="324" height="32" rx="6" fill="#1f6fd1"/>
+<text x="484" y="427" font-size="17" font-weight="700" fill="#ffffff" text-anchor="start">관세 채무 통지 3년(UCC 제103조 제1항)</text>
+<rect x="1010" y="404" width="540" height="32" rx="6" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1024" y="427" font-size="17" font-weight="700" fill="#1f6fd1" text-anchor="start">형사 절차 대상이면 5~10년(같은 조 제2항)</text>
+<text x="90" y="548" font-size="26" font-weight="800" fill="#1f8a5b" text-anchor="start">한국</text>
+<rect x="470" y="524" width="540" height="32" rx="6" fill="#1f8a5b"/>
+<text x="484" y="547" font-size="17" font-weight="700" fill="#ffffff" text-anchor="start">관세 부과 제척기간 5년(관세법 제21조 제1항)</text>
+<rect x="1010" y="524" width="540" height="32" rx="6" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1024" y="547" font-size="17" font-weight="700" fill="#1f8a5b" text-anchor="start">부정한 방법의 포탈 10년</text>
+<text x="90" y="610" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">기산점: 미국은 신고일, EU는 관세 채무가 생긴 날(신고 수리), 한국은 관세를 부과할 수 있는 날. EU의 연장 기간(5~10년)은 회원국 법이 정함</text>
+<rect x="90" y="660" width="720" height="210" rx="12" fill="#fdeeea" stroke="#d9482b" stroke-width="2"/>
+<text x="116" y="700" font-size="24" font-weight="800" fill="#d9482b" text-anchor="start">추징 → 수입자에게</text>
+<text x="116" y="740" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">세관은 더 걷을 세금과 가산세를 수입신고서의 수입자에게</text>
+<text x="116" y="769" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">청구합니다. 미국 보증은 나중에 더 걷게 된 관세까지</text>
+<text x="116" y="798" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">담보하고(19 CFR 113.62), 관세는 수입자의 개인 채무입니다</text>
+<text x="116" y="827" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">(141.1). DDP 매도인이 IOR이면 이 청구는 매도인에게 옵니다.</text>
+<rect x="862" y="660" width="720" height="210" rx="12" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2"/>
+<text x="888" y="700" font-size="24" font-weight="800" fill="#1f8a5b" text-anchor="start">환급 → 수입자에게</text>
+<text x="888" y="740" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">세관이 돌려주는 돈도 수입자에게 갑니다. 2026년 2월</text>
+<text x="888" y="769" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">연방대법원 판결 뒤 CBP는 IEEPA 관세를 IOR이나 IOR이</text>
+<text x="888" y="798" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">지정한 통지처에게만 환급한다고 안내합니다. 상대방과</text>
+<text x="888" y="827" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">나눌지는 매매계약에 적어 둔 대로 정해집니다.</text>
+</svg>

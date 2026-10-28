@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="56" font-size="28" font-weight="800" fill="#1d2a3a">한국을 거쳐 미국으로: 원산지는 서류 두 벌이 서로 맞는지에서 드러납니다</text>
+<text x="40" y="90" font-size="19" font-weight="600" fill="#5f6b78">대외무역법 제38조·시행령 제56조 제5항, 관세청 발표(2025. 7. 24., 2025. 9. 12.), 19 U.S.C. 1304, 19 CFR 134.2·134.3·134.22·134.46·134.54, CBP Dec. 20-15</text>
+
+<!-- route -->
+<rect x="40" y="120" width="300" height="190" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="60" y="158" font-size="21" font-weight="800" fill="#1d2a3a">제3국 공장</text>
+<text x="60" y="192" font-size="18" fill="#1d2a3a"><tspan x="60">미국 고관세·반덤핑</tspan><tspan x="60" dy="26">대상 물품</tspan><tspan x="60" dy="26" fill="#5f6b78">원산지: 제3국</tspan></text>
+
+<rect x="410" y="120" width="760" height="190" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="430" y="158" font-size="21" font-weight="800" fill="#1d2a3a">한국</text>
+<rect x="430" y="176" width="350" height="116" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="448" y="206" font-size="18" font-weight="800" fill="#1f6fd1">경로 A: 보세구역만 거침</text>
+<text x="448" y="234" font-size="17" fill="#1d2a3a"><tspan x="448">중계무역·반송으로 수입통관 없이</tspan><tspan x="448" dy="24">다시 나감(금 가공제품 2,839억 원</tspan><tspan x="448" dy="24">적발, 사례 52)</tspan></text>
+<rect x="800" y="176" width="350" height="116" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2"/>
+<text x="818" y="206" font-size="18" font-weight="800" fill="#e4572e">경로 B: 수입 뒤 택갈이</text>
+<text x="818" y="234" font-size="17" fill="#1d2a3a"><tspan x="818">수입한 뒤 포장만 바꾸거나 단순</tspan><tspan x="818" dy="24">가공해 국산으로 둔갑</tspan><tspan x="818" dy="24" fill="#5f6b78">단순 가공으로는 원산지 불변</tspan></text>
+
+<rect x="1240" y="120" width="392" height="190" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1260" y="158" font-size="21" font-weight="800" fill="#1d2a3a">미국</text>
+<text x="1260" y="192" font-size="18" fill="#1d2a3a"><tspan x="1260">"한국산"으로 수입신고하면</tspan><tspan x="1260" dy="26">한국산 세율 적용을 노림</tspan><tspan x="1260" dy="26" fill="#5f6b78">미국 HSI와 관세청 공조로 확인</tspan></text>
+
+<line x1="342" y1="215" x2="404" y2="215" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="1172" y1="215" x2="1234" y2="215" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar)"/>
+
+<!-- documents -->
+<text x="40" y="358" font-size="21" font-weight="800" fill="#1d2a3a">같은 화물, 서류 두 벌</text>
+<rect x="40" y="374" width="560" height="190" rx="16" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="3"/>
+<text x="62" y="410" font-size="20" font-weight="800" fill="#1f6fd1">한국 세관에 낸 서류</text>
+<text x="62" y="444" font-size="18" fill="#1d2a3a"><tspan x="62">수출·반송신고서 원산지: 제3국</tspan><tspan x="62" dy="28">수입신고서 원산지: 제3국(경로 B)</tspan><tspan x="62" dy="28">B/L 품명·컨테이너 번호</tspan><tspan x="62" dy="28" fill="#5f6b78">포워더가 받는 서류: 신고필증, B/L</tspan></text>
+
+<rect x="1072" y="374" width="560" height="190" rx="16" fill="#fbfcfd" stroke="#d9482b" stroke-width="3"/>
+<text x="1094" y="410" font-size="20" font-weight="800" fill="#d9482b">미국 세관에 낸 서류</text>
+<text x="1094" y="444" font-size="18" fill="#1d2a3a"><tspan x="1094">원산지증명서: 대한민국(조작)</tspan><tspan x="1094" dy="28">인보이스·물품: "Made in Korea"</tspan><tspan x="1094" dy="28">미국 수입신고 원산지: KR</tspan><tspan x="1094" dy="28" fill="#5f6b78">포워더가 받는 서류: 원산지증명서 사본, 인보이스</tspan></text>
+
+<circle cx="836" cy="469" r="58" fill="#d9482b"/>
+<text x="836" y="488" font-size="56" font-weight="800" fill="#ffffff" text-anchor="middle">≠</text>
+<line x1="604" y1="469" x2="774" y2="469" stroke="#d9482b" stroke-width="3" marker-start="url(#arr)"/>
+<line x1="898" y1="469" x2="1066" y2="469" stroke="#d9482b" stroke-width="3" marker-end="url(#arr)"/>
+<text x="836" y="552" font-size="17" font-weight="700" fill="#d9482b" text-anchor="middle">가장 분명한 위험 신호</text>
+
+<!-- rules -->
+<rect x="40" y="590" width="760" height="320" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="62" y="628" font-size="20" font-weight="800" fill="#1f6fd1">한국 법: 수출할 때</text>
+<text x="62" y="664" font-size="18" fill="#1d2a3a"><tspan x="62">· 수출물품은 수입국 표시 규정이 다르면 그에 따라</tspan><tspan x="62" dy="30">  표시할 수 있음(시행령 제56조 제5항)</tspan><tspan x="62" dy="30">· 수입품을 국내에서 단순 가공해 수출하면</tspan><tspan x="62" dy="30">  우리나라를 원산지로 표시하면 안 됨(같은 항 단서)</tspan><tspan x="62" dy="30">· 원산지증명서 위조·거짓 발급, 거짓 표시로 외국산을</tspan><tspan x="62" dy="30">  국산처럼 수출하면 5년 이하 징역·1억 원 이하 벌금</tspan><tspan x="62" dy="30">  (대외무역법 제38조·제53조의2 제4호, 미수도 처벌)</tspan></text>
+
+<rect x="816" y="590" width="816" height="320" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="838" y="628" font-size="20" font-weight="800" fill="#5f6b78">미국 법: 들어갈 때(19 U.S.C. 1304, 19 CFR Part 134)</text>
+<text x="838" y="664" font-size="18" fill="#1d2a3a"><tspan x="838">· 원산지 영어 국명을 눈에 띄는 곳에, 읽기 쉽고 지워지지</tspan><tspan x="838" dy="30">  않게, 미국 내 최종 구매자가 알 수 있게 표시</tspan><tspan x="838" dy="30">· 미국 지명·"USA"·다른 나라 이름이 있으면 그 가까이에</tspan><tspan x="838" dy="30">  "Made in 원산지"를 비슷한 크기로(§ 134.46)</tspan><tspan x="838" dy="30">· 미표시: 수출·폐기·표시 안 하면 감정가의 10% 추가 관세,</tspan><tspan x="838" dy="30">  반출된 물품은 30일 안 재반입 요구 가능, 불이행 시 손해배상금</tspan><tspan x="838" dy="30">· 홍콩 생산품은 "China"로 표시(2020. 11. 10. 반입분부터)</tspan></text>
+</svg>

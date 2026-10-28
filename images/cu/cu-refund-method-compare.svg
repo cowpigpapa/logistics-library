@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="56" y="66" font-size="34" font-weight="700" fill="#1d2a3a">개별환급과 간이정액환급: 무엇이 다른가</text>
+<text x="56" y="104" font-size="21" fill="#5f6b78">수출용 원재료에 대한 관세 등 환급에 관한 특례법 제10조·제13조, 시행령 제16조, 시행규칙 제12조, 환급사무처리 고시 제29조~제37조</text>
+<rect x="40" y="130" width="780" height="610" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="40" y="130" width="780" height="70" rx="16" fill="#1f6fd1"/>
+<rect x="40" y="180" width="780" height="20" fill="#1f6fd1"/>
+<text x="430" y="176" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">개별환급(소요량으로 계산)</text>
+<rect x="64" y="230" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="112" y="278" font-size="23" font-weight="700" fill="#1f6fd1" text-anchor="middle">누가</text>
+<text x="184" y="262" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">수출자 또는 생산자 중</text>
+<text x="184" y="294" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">수출신고필증의 환급신청인</text>
+<rect x="64" y="332" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="112" y="380" font-size="23" font-weight="700" fill="#1f6fd1" text-anchor="middle">얼마</text>
+<text x="184" y="364" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">원재료별 소요량 × 단위당 납부세액</text>
+<text x="184" y="396" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">(수입신고필증·평세증·기납증·분증)</text>
+<rect x="64" y="434" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="112" y="482" font-size="23" font-weight="700" fill="#1f6fd1" text-anchor="middle">서류</text>
+<text x="184" y="466" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">소요량계산서, 납부세액 증빙,</text>
+<text x="184" y="498" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">서류제출 대상이면 조견표·BOM</text>
+<rect x="64" y="536" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="112" y="584" font-size="23" font-weight="700" fill="#1f6fd1" text-anchor="middle">미리</text>
+<text x="184" y="568" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">소요량 산정방법을 세관에 신고,</text>
+<text x="184" y="600" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">원하면 소요량 사전심사(1년 유효)</text>
+<rect x="64" y="638" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="112" y="686" font-size="23" font-weight="700" fill="#1f6fd1" text-anchor="middle">범위</text>
+<text x="184" y="670" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">모든 수출자, 수입한 상태</text>
+<text x="184" y="702" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">그대로 수출하는 물품도 이 방식</text>
+<rect x="852" y="130" width="780" height="610" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="852" y="130" width="780" height="70" rx="16" fill="#1f8a5b"/>
+<rect x="852" y="180" width="780" height="20" fill="#1f8a5b"/>
+<text x="1242" y="176" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">간이정액환급(고시 금액)</text>
+<rect x="876" y="230" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="924" y="278" font-size="23" font-weight="700" fill="#1f8a5b" text-anchor="middle">누가</text>
+<text x="996" y="262" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">중소기업 생산자(국내 임가공</text>
+<text x="996" y="294" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">위탁자 포함)가 직접 신청</text>
+<rect x="876" y="332" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="924" y="380" font-size="23" font-weight="700" fill="#1f8a5b" text-anchor="middle">요건</text>
+<text x="996" y="364" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">직전 2년 매년, 올해 신청분까지</text>
+<text x="996" y="396" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">환급실적이 각각 8억원 이하</text>
+<rect x="876" y="434" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="924" y="482" font-size="23" font-weight="700" fill="#1f8a5b" text-anchor="middle">얼마</text>
+<text x="996" y="466" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">수출금액(원화) 1만원당 고시 금액,</text>
+<text x="996" y="498" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">실제 납부세액은 따지지 않음</text>
+<rect x="876" y="536" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="924" y="584" font-size="23" font-weight="700" fill="#1f8a5b" text-anchor="middle">제외</text>
+<text x="996" y="568" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">수입한 상태 그대로 수출, 해외 수탁</text>
+<text x="996" y="600" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">가공품, 생산자 미상, SW만 넣은 물품</text>
+<rect x="876" y="638" width="96" height="78" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="924" y="686" font-size="23" font-weight="700" fill="#1f8a5b" text-anchor="middle">신청</text>
+<text x="996" y="670" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">자동간이 지정업체는 수출신고서에</text>
+<text x="996" y="702" font-size="22" font-weight="400" fill="#1d2a3a" text-anchor="start">AD를 적으면 선적 뒤 자동 신청</text>
+<rect x="40" y="762" width="1592" height="146" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="70" y="806" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="start">계산 예(가정값): 수출금액 5,000만원, 고시 금액이 수출금액 1만원당 30원이면  5,000 × 30원 = 15만원</text>
+<text x="70" y="846" font-size="20" font-weight="400" fill="#5f6b78" text-anchor="start">간이정액환급률표는 수출금액 1만원 기준, 10원 단위로 매년 고시합니다. 요건을 갖춘 중소기업은 처음 수출한 날부터 간이정액이 먼저 적용되고,</text>
+<text x="70" y="878" font-size="20" font-weight="400" fill="#5f6b78" text-anchor="start">비적용승인을 받으면 그 뒤 모든 수출물품이 개별환급이 되며, 다시 간이정액으로 돌아가려면 원칙적으로 1년이 지나야 합니다(시행령 제14조).</text>
+</svg>

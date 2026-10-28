@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <text x="56" y="58" font-size="30" font-weight="700" fill="#1d2a3a">선적·양하 비용 조건: 누가 비용을 내나</text>
+  <text x="56" y="90" font-size="18" fill="#5f6b78">흔한 쓰임을 정리한 것입니다. 약어의 범위는 업계에서도 다르게 쓰이므로 계약서에는 작업별로 풀어 씁니다.</text>
+
+  <rect x="40" y="110" width="1068" height="810" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+
+  <!-- header -->
+  <g font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <rect x="64" y="130" width="250" height="58" rx="8" fill="#1d2a3a"/>
+    <text x="189" y="166">조건</text>
+    <rect x="322" y="130" width="188" height="58" rx="8" fill="#1d2a3a"/>
+    <text x="416" y="166">선적</text>
+    <rect x="518" y="130" width="188" height="58" rx="8" fill="#1d2a3a"/>
+    <text x="612" y="158">적부·고박</text><text x="612" y="180" font-size="15" font-weight="400">더니지 포함</text>
+    <rect x="714" y="130" width="188" height="58" rx="8" fill="#1d2a3a"/>
+    <text x="808" y="158">트리밍</text><text x="808" y="180" font-size="15" font-weight="400">벌크 화물 고르기</text>
+    <rect x="910" y="130" width="188" height="58" rx="8" fill="#1d2a3a"/>
+    <text x="1004" y="166">양하</text>
+  </g>
+
+  <!-- row names -->
+  <g font-size="19" fill="#1d2a3a">
+    <text x="80" y="236" font-weight="700">정기선 조건</text><text x="80" y="258" font-size="15" fill="#5f6b78">liner terms, berth terms</text>
+    <text x="80" y="316" font-weight="700">FIO</text><text x="80" y="338" font-size="15" fill="#5f6b78">Free In and Out</text>
+    <text x="80" y="396" font-weight="700">FIOS</text><text x="80" y="418" font-size="15" fill="#5f6b78">… and Stowed</text>
+    <text x="80" y="476" font-weight="700">FIOST</text><text x="80" y="498" font-size="15" fill="#5f6b78">… Stowed and Trimmed</text>
+    <text x="80" y="556" font-weight="700">FIOSLSD</text><text x="80" y="578" font-size="15" fill="#5f6b78">… Lashed, Secured, Dunnaged</text>
+    <text x="80" y="636" font-weight="700">FILO</text><text x="80" y="658" font-size="15" fill="#5f6b78">Free In Liner Out</text>
+    <text x="80" y="716" font-weight="700">LIFO</text><text x="80" y="738" font-size="15" fill="#5f6b78">Liner In Free Out</text>
+  </g>
+
+  <!-- cell helper colors: owner #dce9fa/#1f6fd1, cargo #fde3d9/#d9482b, open #eceff3/#5f6b78 -->
+  <g font-size="18" font-weight="700" text-anchor="middle">
+    <!-- liner -->
+    <rect x="322" y="204" width="188" height="66" rx="8" fill="#dce9fa"/><text x="416" y="243" fill="#1f6fd1">선주</text>
+    <rect x="518" y="204" width="188" height="66" rx="8" fill="#dce9fa"/><text x="612" y="243" fill="#1f6fd1">선주</text>
+    <rect x="714" y="204" width="188" height="66" rx="8" fill="#dce9fa"/><text x="808" y="243" fill="#1f6fd1">선주</text>
+    <rect x="910" y="204" width="188" height="66" rx="8" fill="#dce9fa"/><text x="1004" y="243" fill="#1f6fd1">선주</text>
+    <!-- FIO -->
+    <rect x="322" y="284" width="188" height="66" rx="8" fill="#fde3d9"/><text x="416" y="323" fill="#d9482b">화물 쪽</text>
+    <rect x="518" y="284" width="188" height="66" rx="8" fill="#eceff3"/><text x="612" y="323" fill="#5f6b78">계약 문구</text>
+    <rect x="714" y="284" width="188" height="66" rx="8" fill="#eceff3"/><text x="808" y="323" fill="#5f6b78">계약 문구</text>
+    <rect x="910" y="284" width="188" height="66" rx="8" fill="#fde3d9"/><text x="1004" y="323" fill="#d9482b">화물 쪽</text>
+    <!-- FIOS -->
+    <rect x="322" y="364" width="188" height="66" rx="8" fill="#fde3d9"/><text x="416" y="403" fill="#d9482b">화물 쪽</text>
+    <rect x="518" y="364" width="188" height="66" rx="8" fill="#fde3d9"/><text x="612" y="403" fill="#d9482b">화물 쪽</text>
+    <rect x="714" y="364" width="188" height="66" rx="8" fill="#eceff3"/><text x="808" y="403" fill="#5f6b78">계약 문구</text>
+    <rect x="910" y="364" width="188" height="66" rx="8" fill="#fde3d9"/><text x="1004" y="403" fill="#d9482b">화물 쪽</text>
+    <!-- FIOST -->
+    <rect x="322" y="444" width="188" height="66" rx="8" fill="#fde3d9"/><text x="416" y="483" fill="#d9482b">화물 쪽</text>
+    <rect x="518" y="444" width="188" height="66" rx="8" fill="#fde3d9"/><text x="612" y="483" fill="#d9482b">화물 쪽</text>
+    <rect x="714" y="444" width="188" height="66" rx="8" fill="#fde3d9"/><text x="808" y="483" fill="#d9482b">화물 쪽</text>
+    <rect x="910" y="444" width="188" height="66" rx="8" fill="#fde3d9"/><text x="1004" y="483" fill="#d9482b">화물 쪽</text>
+    <!-- FIOSLSD -->
+    <rect x="322" y="524" width="188" height="66" rx="8" fill="#fde3d9"/><text x="416" y="563" fill="#d9482b">화물 쪽</text>
+    <rect x="518" y="524" width="188" height="66" rx="8" fill="#fde3d9"/><text x="612" y="556" fill="#d9482b">화물 쪽</text><text x="612" y="578" font-size="14" font-weight="400" fill="#d9482b">고박·더니지까지 명시</text>
+    <rect x="714" y="524" width="188" height="66" rx="8" fill="#eceff3"/><text x="808" y="556" fill="#5f6b78">보통 해당 없음</text><text x="808" y="578" font-size="14" font-weight="400" fill="#5f6b78">(프로젝트 화물)</text>
+    <rect x="910" y="524" width="188" height="66" rx="8" fill="#fde3d9"/><text x="1004" y="563" fill="#d9482b">화물 쪽</text>
+    <!-- FILO -->
+    <rect x="322" y="604" width="188" height="66" rx="8" fill="#fde3d9"/><text x="416" y="643" fill="#d9482b">화물 쪽</text>
+    <rect x="518" y="604" width="188" height="66" rx="8" fill="#eceff3"/><text x="612" y="643" fill="#5f6b78">계약 문구</text>
+    <rect x="714" y="604" width="188" height="66" rx="8" fill="#eceff3"/><text x="808" y="643" fill="#5f6b78">계약 문구</text>
+    <rect x="910" y="604" width="188" height="66" rx="8" fill="#dce9fa"/><text x="1004" y="643" fill="#1f6fd1">선주</text>
+    <!-- LIFO -->
+    <rect x="322" y="684" width="188" height="66" rx="8" fill="#dce9fa"/><text x="416" y="723" fill="#1f6fd1">선주</text>
+    <rect x="518" y="684" width="188" height="66" rx="8" fill="#dce9fa"/><text x="612" y="723" fill="#1f6fd1">선주</text>
+    <rect x="714" y="684" width="188" height="66" rx="8" fill="#dce9fa"/><text x="808" y="723" fill="#1f6fd1">선주</text>
+    <rect x="910" y="684" width="188" height="66" rx="8" fill="#fde3d9"/><text x="1004" y="723" fill="#d9482b">화물 쪽</text>
+  </g>
+
+  <!-- legend & notes -->
+  <g font-size="16" fill="#1d2a3a">
+    <rect x="64" y="776" width="22" height="22" rx="4" fill="#dce9fa"/><text x="94" y="793">선주 부담</text>
+    <rect x="200" y="776" width="22" height="22" rx="4" fill="#fde3d9"/><text x="230" y="793">화물 쪽(용선자·송하인·수하인) 부담</text>
+    <rect x="530" y="776" width="22" height="22" rx="4" fill="#eceff3"/><text x="560" y="793">약어만으로 정해지지 않음</text>
+    <text x="64" y="836">· 부두에서 선측까지 옮기는 비용과 터미널 비용은 항구 관행과 계약으로 따로 정합니다.</text>
+    <text x="64" y="864">· 중량물선 서식 HEAVYLIFTVOY는 선적 free-in 또는 liner in-hook, 양하 free-out 또는</text>
+    <text x="78" y="888">liner out-hook 중에서 고르게 되어 있습니다(BIMCO 소개).</text>
+  </g>
+
+  <!-- right column: cost vs responsibility -->
+  <text x="1136" y="140" font-size="22" font-weight="700" fill="#1d2a3a">비용 조건 ≠ 책임 조건</text>
+  <rect x="1130" y="158" width="502" height="320" rx="16" fill="#fbfcfd" stroke="#d9482b" stroke-width="2"/>
+  <text x="1154" y="196" font-size="19" font-weight="700" fill="#d9482b">비용만 넘긴 문구</text>
+  <text x="1154" y="222" font-size="16" fill="#5f6b78">대법원 2003. 1. 10. 선고 2000다70064 판결</text>
+  <g font-size="17" fill="#1d2a3a">
+    <text x="1154" y="258">"선적·양하 작업은 송하인 비용으로 한다"</text>
+    <text x="1154" y="294">송하인 쪽 하역업자의 고박이 불완전해</text>
+    <text x="1154" y="320">강판 코일이 항해 중 무너짐</text>
+    <text x="1154" y="356">→ 비용만 정한 조항, 작업 주체는 운송인</text>
+    <text x="1154" y="382">→ 운송인 책임 인정(송하인 과실 30% 상계)</text>
+    <text x="1154" y="418" font-size="15" fill="#5f6b78">하역업자·송하인 지시로 적부했더라도 운송인은</text>
+    <text x="1154" y="440" font-size="15" fill="#5f6b78">적부가 운송에 적합한지 살필 의무가 있다고 봄</text>
+  </g>
+
+  <rect x="1130" y="498" width="502" height="248" rx="16" fill="#fbfcfd" stroke="#1f8a5b" stroke-width="2"/>
+  <text x="1154" y="536" font-size="19" font-weight="700" fill="#1f8a5b">위험·책임까지 넘긴 문구</text>
+  <text x="1154" y="562" font-size="16" fill="#5f6b78">EEMS Solar(영국, 2013), GENCON 1994 제5조 편입</text>
+  <g font-size="17" fill="#1d2a3a">
+    <text x="1154" y="598">"적재·적부는 용선자가 하며 선주는</text>
+    <text x="1154" y="624">위험·책임·비용을 지지 않는다"</text>
+    <text x="1154" y="660">잠금 코일 없이 실은 강판 코일 손상</text>
+    <text x="1154" y="696">→ 적재 책임이 화물 쪽에 있어 선주 면책</text>
+  </g>
+
+  <rect x="1130" y="766" width="502" height="154" rx="16" fill="#eef2f6" stroke="#c9d2dc"/>
+  <text x="1154" y="802" font-size="18" font-weight="700" fill="#1d2a3a">상법</text>
+  <g font-size="16" fill="#1d2a3a">
+    <text x="1154" y="832">항해용선은 감항능력(제794조) 외의 책임을</text>
+    <text x="1154" y="856">계약으로 나눌 수 있음(제839조).</text>
+    <text x="1154" y="884">그러나 B/L을 선의로 취득한 제3자에게는</text>
+    <text x="1154" y="908">책임을 줄이는 특약을 못 함(제855조 제5항).</text>
+  </g>
+</svg>

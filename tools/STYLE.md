@@ -132,7 +132,7 @@
 - 벌크 화물(산적 ×, 법령 이름 인용 제외). 화물고박지침서(Cargo Securing Manual). CFS(컨테이너 화물조작장).
 - 장비: 스트래들 캐리어, 고임목, 도크 플레이트, 헤드가드, 루프 보우, 젠셋(문서마다 처음 한 번은 "젠셋(발전기)").
 - 리퍼: 서플라이 에어·리턴 에어(회수·공급 공기 ×). 문서마다 처음 한 번은 "서플라이 에어(급기)", "리턴 에어(환기, 還氣)"(외기 환기 換氣와 구분). 리퍼 소켓, 기기인수도증(EIR), USDA 프로브, 저온처리(cold treatment, 검역 처리), 냉해(저온장해 ×), 습식 얼음(wet ice), 더니지(dunnage).
-- 트리밍(trimming), 수취 차량(collecting vehicle), 중계무역상(Switch B/L), 로컬 차지, 지급인도조건(D/P), 오신고 비용(MID), NOR(Non-Operating Reefer), 무선박운송인(NVOCC), 패킹리스트, 수입화물선취보증서(L/G), 헤드홀(headhaul).
+- 트리밍(trimming), 수취 차량(collecting vehicle), 중계무역상(Switch B/L), 로컬 차지, 지급인도조건(D/P), 오신고 비용(MID), NOR(Non-Operating Reefer. 용선 문서 bl-charter에서는 선적준비완료통지 Notice of Readiness로 쓰므로 문서마다 첫 등장에 풀어 쓴다), 무선박운송인(NVOCC), 패킹리스트, 수입화물선취보증서(L/G), 헤드홀(headhaul).
 - 원본 개수: B/L은 3통, AWB는 3부(상법 제923조 표현).
 
 항공

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="56" font-size="28" font-weight="800" fill="#1d2a3a">어디에 어떻게 표시하나: 현품이 원칙, 포장은 예외, 면제는 열거된 경우만</text>
+<text x="40" y="90" font-size="19" font-weight="600" fill="#5f6b78">대외무역법 시행령 제56조, 대외무역관리규정 제75조~제82조, 원산지표시제도 운영에 관한 고시 제3조~제8조</text>
+
+<!-- col A -->
+<rect x="40" y="116" width="380" height="640" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="40" y="116" width="380" height="56" rx="16" fill="#1f6fd1"/><rect x="40" y="152" width="380" height="20" fill="#1f6fd1"/>
+<text x="60" y="152" font-size="22" font-weight="800" fill="#ffffff">1. 원칙: 현품에</text>
+<text x="60" y="210" font-size="18" font-weight="800" fill="#1f6fd1">네 가지 요건(시행령 제56조)</text>
+<text x="60" y="242" font-size="18" fill="#1d2a3a"><tspan x="60">· 한글·한자 또는 영문</tspan><tspan x="60" dy="28">· 최종 구매자가 쉽게 읽는 크기</tspan><tspan x="60" dy="28">· 식별하기 쉬운 위치</tspan><tspan x="60" dy="28">· 쉽게 지워지거나 떨어지지 않게</tspan></text>
+<text x="60" y="380" font-size="18" font-weight="800" fill="#1f6fd1">방식(관리규정 제76조 제5항)</text>
+<text x="60" y="412" font-size="18" fill="#1d2a3a"><tspan x="60">제조 단계에서 인쇄·등사·낙인·</tspan><tspan x="60" dy="28">주조·식각·박음질</tspan><tspan x="60" dy="28" fill="#5f6b78">부적합하거나 훼손 우려가 있으면</tspan><tspan x="60" dy="28" fill="#5f6b78">날인·라벨·스티커·꼬리표</tspan></text>
+<text x="60" y="550" font-size="18" font-weight="800" fill="#1f6fd1">인정되는 표기(제76조 제1항)</text>
+<text x="60" y="582" font-size="18" fill="#1d2a3a"><tspan x="60">"원산지: 국명", "국명 산(産)"</tspan><tspan x="60" dy="28">"Made in 국명", "Product of 국명"</tspan><tspan x="60" dy="28">"Country of Origin: 국명"</tspan><tspan x="60" dy="28">"Made by 제조사, 주소, 국명"</tspan></text>
+<text x="60" y="724" font-size="16" fill="#5f6b78"><tspan x="60">고시는 인쇄·등사가 스탬프 잉크처럼</tspan><tspan x="60" dy="22">쉽게 지워지면 견고성을 심사</tspan></text>
+
+<!-- col B -->
+<rect x="436" y="116" width="380" height="640" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="436" y="116" width="380" height="56" rx="16" fill="#1f8a5b"/><rect x="436" y="152" width="380" height="20" fill="#1f8a5b"/>
+<text x="456" y="152" font-size="22" font-weight="800" fill="#ffffff">2. 예외: 최소포장·용기에</text>
+<text x="456" y="210" font-size="18" font-weight="800" fill="#1f8a5b">관리규정 제75조 제2항</text>
+<text x="456" y="242" font-size="18" fill="#1d2a3a"><tspan x="456">· 현품 표시가 불가능</tspan><tspan x="456" dy="28">· 표시로 크게 훼손(당구공,</tspan><tspan x="456" dy="28">  콘택트렌즈, 포장 안 한 집적회로)</tspan><tspan x="456" dy="28">· 표시로 가치가 실질적으로 저하</tspan><tspan x="456" dy="28">· 표시 비용이 과도(물품값보다 큰 경우 등)</tspan><tspan x="456" dy="28">· 포장째 봉인돼 팔리는 물품</tspan><tspan x="456" dy="28">  (비누, 칫솔, 밀봉 의약품)</tspan><tspan x="456" dy="28">· 실질적 변형 공정에 들어갈 부품을</tspan><tspan x="456" dy="28">  실수요자에게 직접 공급</tspan><tspan x="456" dy="28">· 외관상 오인 가능성이 적은 물품</tspan><tspan x="456" dy="28">  (두리안, 오렌지, 바나나)</tspan><tspan x="456" dy="28">· 관세청장이 인정한 물품</tspan></text>
+<rect x="456" y="604" width="340" height="132" rx="12" fill="#fdf1ee" stroke="#d9482b" stroke-width="2"/>
+<text x="474" y="636" font-size="17" font-weight="800" fill="#d9482b">현품 표시가 원칙인 물품을</text>
+<text x="474" y="662" font-size="17" font-weight="800" fill="#d9482b">포장에만 표시하면 "미표시"</text>
+<text x="474" y="692" font-size="16" fill="#1d2a3a"><tspan x="474">개별 박스의 브레이크디스크,</tspan><tspan x="474" dy="22">대법원 2010도15724(사례 48)</tspan></text>
+
+<!-- col C -->
+<rect x="832" y="116" width="380" height="640" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="832" y="116" width="380" height="56" rx="16" fill="#5f6b78"/><rect x="832" y="152" width="380" height="20" fill="#5f6b78"/>
+<text x="852" y="152" font-size="22" font-weight="800" fill="#ffffff">3. 면제: 열거된 경우만</text>
+<text x="852" y="210" font-size="18" font-weight="800" fill="#5f6b78">관리규정 제82조, 고시 제8조</text>
+<text x="852" y="242" font-size="18" fill="#1d2a3a"><tspan x="852">· 외화획득용 원료·시설기재</tspan><tspan x="852" dy="28">· 개인 앞 무상 탁송품·별송품,</tspan><tspan x="852" dy="28">  여행자 휴대품</tspan><tspan x="852" dy="28">· 실질적 변형 공정용 부품·원재료</tspan><tspan x="852" dy="28">  (실수요자 직접 수입·대행)</tspan><tspan x="852" dy="28">· 연구개발용품, 비판매 견본품</tspan><tspan x="852" dy="28">· 보세운송·환적으로 지나가는 화물</tspan><tspan x="852" dy="28">· 재수출조건부 일시수입, 재수입품</tspan><tspan x="852" dy="28">· 수입 20년 전에 생산된 물품</tspan><tspan x="852" dy="28">· 보세구역에서 반송되는 물품</tspan><tspan x="852" dy="28">  (중계무역·환적 포함)</tspan><tspan x="852" dy="28">· 기계와 세트로 포장된 부속품·공구</tspan></text>
+<text x="852" y="604" font-size="17" fill="#5f6b78"><tspan x="852">세관장은 면제 물품의 외화획득</tspan><tspan x="852" dy="24">이행, 목적 외 사용을 사후 확인</tspan><tspan x="852" dy="24">할 수 있음(제82조 제2항)</tspan></text>
+<text x="852" y="700" font-size="17" fill="#5f6b78"><tspan x="852">대행 수입은 납품계약서 등</tspan><tspan x="852" dy="24">증빙 제출(고시 제8조 제2항)</tspan></text>
+
+<!-- col D -->
+<rect x="1228" y="116" width="404" height="640" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="1228" y="116" width="404" height="56" rx="16" fill="#d9482b"/><rect x="1228" y="152" width="404" height="20" fill="#d9482b"/>
+<text x="1248" y="152" font-size="22" font-weight="800" fill="#ffffff">4. 더 엄격한 경우</text>
+<text x="1248" y="210" font-size="18" font-weight="800" fill="#d9482b">오인 우려(제77조)</text>
+<text x="1248" y="240" font-size="17" fill="#1d2a3a"><tspan x="1248">OEM 물품, 다른 나라 상호·상표·</tspan><tspan x="1248" dy="25">지명·언어가 크게 적힌 물품은</tspan><tspan x="1248" dy="25">물품·포장 전면 또는 그 표시 가까이</tspan></text>
+<text x="1248" y="340" font-size="18" font-weight="800" fill="#d9482b">세트·용기(제79조·제80조)</text>
+<text x="1248" y="370" font-size="17" fill="#1d2a3a"><tspan x="1248">구성품 원산지가 다르면 개별 표시 +</tspan><tspan x="1248" dy="25">포장에 모두 나열</tspan><tspan x="1248" dy="25">용기로 따로 분류되면 "Bottle made in"</tspan></text>
+<text x="1248" y="470" font-size="18" font-weight="800" fill="#d9482b">수입 뒤 단순가공·재포장(제78조)</text>
+<text x="1248" y="500" font-size="17" fill="#1d2a3a"><tspan x="1248">가공·재포장·다른 물품과 결합해도</tspan><tspan x="1248" dy="25">완성품·재포장 용기에 원래 원산지를</tspan><tspan x="1248" dy="25">다시 표시, 넘길 때 서면으로 알림</tspan></text>
+<text x="1248" y="600" font-size="18" font-weight="800" fill="#d9482b">국가명(고시 제7조)</text>
+<text x="1248" y="630" font-size="17" fill="#1d2a3a"><tspan x="1248">EU·ASEAN 같은 지역연합은 불가</tspan><tspan x="1248" dy="25">홍콩·마카오는 별도 국가로 표시</tspan><tspan x="1248" dy="25">"Brazil Nuts"처럼 상표로 오인되면</tspan><tspan x="1248" dy="25">원산지 표시로 인정 안 됨</tspan></text>
+
+<rect x="40" y="776" width="1592" height="132" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="814" font-size="20" font-weight="800" fill="#1d2a3a">보조 표시는 원산지 표시와 함께일 때만</text>
+<text x="64" y="848" font-size="18" fill="#1d2a3a">"Designed in 국명", "Finished in 국명" 같은 보조 표시는 원산지 표시와 병기할 때만 쓸 수 있습니다(제76조의2 제2항). 단순 조립품은 "Organized in 국명(부분품별 원산지)",</text>
+<text x="64" y="876" font-size="18" fill="#1d2a3a">단순 혼합품은 "Mixed in 국명(원재료별 원산지)", 원산지를 특정하기 어려운 중고품은 "Imported from 국명"으로 표시할 수 있습니다(같은 조 제3항).</text>
+</svg>

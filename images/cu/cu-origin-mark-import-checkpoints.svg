@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="56" font-size="28" font-weight="800" fill="#1d2a3a">수입 화물의 원산지 표시는 반입부터 국내 판매까지 다섯 번 걸러집니다</text>
+<text x="40" y="90" font-size="19" font-weight="600" fill="#5f6b78">관세법 제158조·제230조·제231조·제238조, 시행령 제245조·제246조, 원산지표시제도 운영에 관한 고시(관세청고시 제2025-59호)</text>
+
+<!-- step boxes -->
+<rect x="40" y="120" width="370" height="200" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="40" y="120" width="370" height="50" rx="16" fill="#5f6b78"/><rect x="40" y="150" width="370" height="20" fill="#5f6b78"/>
+<text x="60" y="153" font-size="21" font-weight="800" fill="#ffffff">① 입항·보세구역 반입</text>
+<text x="60" y="204" font-size="18" fill="#1d2a3a"><tspan x="60">적재화물목록 제출 뒤 보세창고·</tspan><tspan x="60" dy="26">지정장치장에 외국물품으로 장치</tspan><tspan x="60" dy="26" fill="#5f6b78">수입자는 이때 서류와 공급자</tspan><tspan x="60" dy="26" fill="#5f6b78">사진으로 표시 상태를 미리 확인</tspan></text>
+
+<rect x="446" y="120" width="370" height="200" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="446" y="120" width="370" height="50" rx="16" fill="#1f6fd1"/><rect x="446" y="150" width="370" height="20" fill="#1f6fd1"/>
+<text x="466" y="153" font-size="21" font-weight="800" fill="#ffffff">② 신고 전 보수작업</text>
+<text x="466" y="204" font-size="18" fill="#1d2a3a"><tspan x="466">표시가 없거나 틀리면 세관장</tspan><tspan x="466" dy="26">승인을 받아 라벨·스티커 작업</tspan><tspan x="466" dy="26" fill="#5f6b78">관세법 제158조(10일 안 통지),</tspan><tspan x="466" dy="26" fill="#5f6b78">원산지증명서·증빙으로 확인</tspan></text>
+
+<rect x="852" y="120" width="370" height="200" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="852" y="120" width="370" height="50" rx="16" fill="#1f6fd1"/><rect x="852" y="150" width="370" height="20" fill="#1f6fd1"/>
+<text x="872" y="153" font-size="21" font-weight="800" fill="#ffffff">③ 수입신고·검사</text>
+<text x="872" y="204" font-size="18" fill="#1d2a3a"><tspan x="872">신고서에 원산지와 원산지표시</tspan><tspan x="872" dy="26">유무·방법·형태를 적음</tspan><tspan x="872" dy="26" fill="#5f6b78">시행령 제246조 제1항 제3호,</tspan><tspan x="872" dy="26" fill="#5f6b78">검사 때 표시 상태 사진 등록</tspan></text>
+
+<rect x="1258" y="120" width="374" height="200" rx="16" fill="#fbfcfd" stroke="#d9482b" stroke-width="3"/>
+<rect x="1258" y="120" width="374" height="50" rx="16" fill="#d9482b"/><rect x="1258" y="150" width="374" height="20" fill="#d9482b"/>
+<text x="1278" y="153" font-size="21" font-weight="800" fill="#ffffff">④ 통관 제한(제230조)</text>
+<text x="1278" y="204" font-size="18" fill="#1d2a3a"><tspan x="1278">기준·방법 위반, 사실과 다른</tspan><tspan x="1278" dy="26">표시, 미표시는 통관 불허</tspan><tspan x="1278" dy="26" font-weight="700" fill="#d9482b">경미하면 보완·정정한 뒤</tspan><tspan x="1278" dy="26" font-weight="700" fill="#d9482b">통관 허용 가능</tspan></text>
+
+<line x1="412" y1="220" x2="440" y2="220" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="818" y1="220" x2="846" y2="220" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="1224" y1="220" x2="1252" y2="220" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar)"/>
+
+<!-- outcomes -->
+<text x="40" y="364" font-size="20" font-weight="800" fill="#1d2a3a">세관 판단의 네 갈래</text>
+<line x1="1445" y1="322" x2="1445" y2="344" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="236" y1="344" x2="1445" y2="344" stroke="#1d2a3a" stroke-width="3"/>
+<line x1="236" y1="344" x2="236" y2="376" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="636" y1="344" x2="636" y2="376" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="1036" y1="344" x2="1036" y2="376" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="1436" y1="344" x2="1436" y2="376" stroke="#1d2a3a" stroke-width="3" marker-end="url(#ar)"/>
+
+<rect x="40" y="382" width="392" height="170" rx="16" fill="#fbfcfd" stroke="#1f8a5b" stroke-width="3"/>
+<text x="60" y="418" font-size="20" font-weight="800" fill="#1f8a5b">적정 표시</text>
+<text x="60" y="452" font-size="18" fill="#1d2a3a"><tspan x="60">수리·반출</tspan><tspan x="60" dy="26" fill="#5f6b78">AEO 업체, 6개월 안 같은 물품</tspan><tspan x="60" dy="26" fill="#5f6b78">검사 이력 등은 사진 등록 생략</tspan><tspan x="60" dy="26" fill="#5f6b78">가능(고시 제12조)</tspan></text>
+
+<rect x="440" y="382" width="392" height="170" rx="16" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="3"/>
+<text x="460" y="418" font-size="20" font-weight="800" fill="#1f6fd1">경미한 위반</text>
+<text x="460" y="452" font-size="18" fill="#1d2a3a"><tspan x="460">시정명령을 받아 보수작업으로</tspan><tspan x="460" dy="26">보완·정정한 뒤 통관</tspan><tspan x="460" dy="26" fill="#5f6b78">작업 뒤 세관공무원·보세사 확인</tspan><tspan x="460" dy="26" fill="#5f6b78">(고시 제29조·제31조)</tspan></text>
+
+<rect x="840" y="382" width="392" height="170" rx="16" fill="#fbfcfd" stroke="#e4572e" stroke-width="3"/>
+<text x="860" y="418" font-size="20" font-weight="800" fill="#e4572e">정정이 불가능하거나 부적합</text>
+<text x="860" y="452" font-size="18" fill="#1d2a3a"><tspan x="860">시정명령 대신 반송</tspan><tspan x="860" dy="26">반송이 곤란하거나 화주가</tspan><tspan x="860" dy="26">요청하면 폐기 등</tspan><tspan x="860" dy="26" fill="#5f6b78">(고시 제33조 제1항)</tspan></text>
+
+<rect x="1240" y="382" width="392" height="170" rx="16" fill="#fbfcfd" stroke="#d9482b" stroke-width="3"/>
+<text x="1260" y="418" font-size="20" font-weight="800" fill="#d9482b">허위표시 등 고의</text>
+<text x="1260" y="452" font-size="18" fill="#1d2a3a"><tspan x="1260">보완 통관 대상에서 빠지고</tspan><tspan x="1260" dy="26">범칙조사 의뢰</tspan><tspan x="1260" dy="26" fill="#5f6b78">신고서 허위 기재는 관세법</tspan><tspan x="1260" dy="26" fill="#5f6b78">제276조 허위신고죄도 문제</tspan></text>
+
+<!-- after clearance -->
+<rect x="40" y="586" width="1592" height="230" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="626" font-size="21" font-weight="800" fill="#1d2a3a">⑤ 수리 뒤에도 끝나지 않습니다</text>
+<rect x="64" y="646" width="500" height="150" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="84" y="680" font-size="19" font-weight="800" fill="#1f6fd1">의무 이행 통지</text>
+<text x="84" y="710" font-size="17" fill="#1d2a3a"><tspan x="84">재포장·분할포장·단순가공·결합·</tspan><tspan x="84" dy="24">산물은 수리 때 원산지표시 의무 통지</tspan><tspan x="84" dy="24">양도할 때 양수인에게 서면 통지</tspan><tspan x="84" dy="24" fill="#5f6b78">(고시 제11조, 관리규정 제78조)</tspan></text>
+<rect x="586" y="646" width="500" height="150" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="606" y="680" font-size="19" font-weight="800" fill="#e4572e">보세구역 반입명령</text>
+<text x="606" y="710" font-size="17" fill="#1d2a3a"><tspan x="606">수리 후 3개월 안에 표시 위반이나</tspan><tspan x="606" dy="24">의무 불이행이 확인되면 보세구역으로</tspan><tspan x="606" dy="24">다시 들여와 시정, 반출·폐기 비용은</tspan><tspan x="606" dy="24">반입의무자 부담(제238조, 영 제245조)</tspan></text>
+<rect x="1108" y="646" width="500" height="150" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1128" y="680" font-size="19" font-weight="800" fill="#d9482b">국내 유통 조사</text>
+<text x="1128" y="710" font-size="17" fill="#1d2a3a"><tspan x="1128">세관·시도가 판매처까지 조사</tspan><tspan x="1128" dy="24">시정명령, 과징금 최대 3억 원,</tspan><tspan x="1128" dy="24">5년 이하 징역·1억 원 이하 벌금</tspan><tspan x="1128" dy="24" fill="#5f6b78">(대외무역법 제33조의2·제53조의2)</tspan></text>
+
+<!-- transshipment strip -->
+<rect x="40" y="836" width="1592" height="76" rx="16" fill="#fdf1ee" stroke="#d9482b" stroke-width="2"/>
+<text x="64" y="868" font-size="19" font-weight="800" fill="#d9482b">환적 화물도 예외가 아닙니다</text>
+<text x="64" y="896" font-size="18" fill="#1d2a3a">환적·복합환적되는 외국물품에 원산지를 우리나라로 허위 표시하면 유치되고, 정한 기간 안에 고치지 않으면 매각될 수 있습니다(관세법 제231조).</text>
+</svg>

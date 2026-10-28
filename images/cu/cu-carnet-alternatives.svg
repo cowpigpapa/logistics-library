@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <text x="56" y="58" font-size="32" font-weight="700" fill="#1d2a3a">까르네를 쓸 수 있을 때와 없을 때, 한국 관세법의 다른 길</text>
+  <text x="56" y="92" font-size="20" fill="#5f6b78">초록 표시는 까르네 가능, 빨간 표시는 까르네 불가. 까르네를 쓰지 않으면 수입국에서는 그 나라의 일시수입 절차와 담보가 따로 필요합니다.</text>
+
+  <!-- column headers -->
+  <rect x="280" y="114" width="666" height="52" rx="10" fill="#1f6fd1"/>
+  <text x="613" y="148" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">들어올 때: 외국 물품을 한국에서 잠시 쓰고 내보냄</text>
+  <rect x="966" y="114" width="666" height="52" rx="10" fill="#1f8a5b"/>
+  <text x="1299" y="148" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">나갈 때: 한국 물품을 해외에서 쓰고 다시 들여옴</text>
+
+  <!-- row headers -->
+  <rect x="40" y="180" width="224" height="232" rx="12" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="152" y="272" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">전시품·견본</text>
+  <text x="152" y="302" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">직업용구</text>
+  <text x="152" y="336" font-size="16" fill="#5f6b78" text-anchor="middle">판매·소비하지 않고</text>
+  <text x="152" y="358" font-size="16" fill="#5f6b78" text-anchor="middle">그대로 돌아오는 물품</text>
+
+  <rect x="40" y="426" width="224" height="232" rx="12" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="152" y="530" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">수리 왕복</text>
+  <text x="152" y="562" font-size="16" fill="#5f6b78" text-anchor="middle">고쳐서 돌려보내거나</text>
+  <text x="152" y="584" font-size="16" fill="#5f6b78" text-anchor="middle">고쳐서 돌아오는 물품</text>
+
+  <rect x="40" y="672" width="224" height="232" rx="12" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="152" y="764" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">임대·공사</text>
+  <text x="152" y="794" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">장비</text>
+  <text x="152" y="828" font-size="16" fill="#5f6b78" text-anchor="middle">빌려 쓰거나 현장에서</text>
+  <text x="152" y="850" font-size="16" fill="#5f6b78" text-anchor="middle">오래 쓰는 장비</text>
+
+  <!-- Row 1 -->
+  <rect x="280" y="180" width="666" height="232" rx="12" fill="#ffffff" stroke="#c9d2dc"/>
+  <rect x="300" y="196" width="120" height="30" rx="15" fill="#e9f6ef" stroke="#1f8a5b"/>
+  <text x="360" y="217" font-size="16" font-weight="700" fill="#1f8a5b" text-anchor="middle">까르네 가능</text>
+  <text x="436" y="218" font-size="17" fill="#1d2a3a">까르네 일시수입(고시 제8조), 보증단체가 담보</text>
+  <text x="300" y="258" font-size="19" font-weight="700" fill="#1d2a3a">까르네 없이: 재수출면세(관세법 제97조)</text>
+  <text x="300" y="288" font-size="17" fill="#1d2a3a">· 대상: 시행규칙 제50조(행사 출품물품, 일시입국자 직업용품,</text>
+  <text x="314" y="312" font-size="17" fill="#1d2a3a">주문수집용·시험용 물품과 제작용 견본품 등)</text>
+  <text x="300" y="336" font-size="17" fill="#1d2a3a">· 수입신고 수리 전 감면신청, 세관장이 면제세액 담보 요구 가능</text>
+  <text x="300" y="360" font-size="17" fill="#1d2a3a">· 기간 안 미수출: 면제 관세 즉시 징수 + 20% 가산세(500만원 한도)</text>
+  <text x="300" y="392" font-size="16" fill="#5f6b78">까르네로 들어온 물품의 가산세는 고시상 10%</text>
+
+  <rect x="966" y="180" width="666" height="232" rx="12" fill="#ffffff" stroke="#c9d2dc"/>
+  <rect x="986" y="196" width="120" height="30" rx="15" fill="#e9f6ef" stroke="#1f8a5b"/>
+  <text x="1046" y="217" font-size="16" font-weight="700" fill="#1f8a5b" text-anchor="middle">까르네 가능</text>
+  <text x="1122" y="218" font-size="17" fill="#1d2a3a">일시수출 → 재수입(고시 제23조~제25조)</text>
+  <text x="986" y="258" font-size="19" font-weight="700" fill="#1d2a3a">까르네 없이: 수출신고 → 재수입면세(제99조)</text>
+  <text x="986" y="288" font-size="17" fill="#1d2a3a">· 수출신고 수리일부터 2년 안 재수입</text>
+  <text x="986" y="312" font-size="17" fill="#1d2a3a">· 박람회·전시회 등에 출품·사용된 물품은 사용했어도 면세</text>
+  <text x="1000" y="336" font-size="17" fill="#1d2a3a">(시행규칙 제54조 제1항 제2호)</text>
+  <text x="986" y="360" font-size="17" fill="#1d2a3a">· 수출신고필증을 세관에 제출, 환급받았으면 면세 안 됨</text>
+  <text x="986" y="392" font-size="16" fill="#5f6b78">수입국 쪽은 그 나라 제도로 따로 일시수입하고 담보 제공</text>
+
+  <!-- Row 2 -->
+  <rect x="280" y="426" width="666" height="232" rx="12" fill="#ffffff" stroke="#c9d2dc"/>
+  <rect x="300" y="442" width="120" height="30" rx="15" fill="#fdecea" stroke="#d9482b"/>
+  <text x="360" y="463" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">까르네 불가</text>
+  <text x="436" y="464" font-size="17" fill="#1d2a3a">가공·수리 목적 물품 제외(ATA 협약 제3조 제4항)</text>
+  <text x="300" y="504" font-size="19" font-weight="700" fill="#1d2a3a">재수출면세(제97조): 수리를 위한 물품</text>
+  <text x="300" y="534" font-size="17" fill="#1d2a3a">· 수리 전후 HSK 10단위가 같을 것(시행규칙 제50조 제1항 제11호)</text>
+  <text x="300" y="558" font-size="17" fill="#1d2a3a">· 기간: 수리에 걸리는 것으로 인정되는 기간(시행령 제115조)</text>
+  <text x="300" y="582" font-size="17" fill="#1d2a3a">· 무상 반입 산업기계 수리·정비 장비, 항공기 수리용</text>
+  <text x="314" y="606" font-size="17" fill="#1d2a3a">기계·기구와 엔진도 별도 호로 열거</text>
+  <text x="300" y="638" font-size="16" fill="#5f6b78">수리 뒤 성질이 바뀌어 10단위가 달라지면 이 길이 아님</text>
+
+  <rect x="966" y="426" width="666" height="232" rx="12" fill="#ffffff" stroke="#c9d2dc"/>
+  <rect x="986" y="442" width="120" height="30" rx="15" fill="#fdecea" stroke="#d9482b"/>
+  <text x="1046" y="463" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">까르네 불가</text>
+  <text x="1122" y="464" font-size="17" fill="#1d2a3a">대한상의도 수리·개조 목적은 발급 대상에서 제외</text>
+  <text x="986" y="504" font-size="19" font-weight="700" fill="#1d2a3a">해외임가공물품 감세(제101조 제1항 제2호)</text>
+  <text x="986" y="534" font-size="17" fill="#1d2a3a">· 수출신고 때 "해외 수리 후 수입 예정"을 미리 신고(규칙 제57조)</text>
+  <text x="986" y="558" font-size="17" fill="#1d2a3a">· 경감액 = 수출신고가격 × 관세율(시행령 제119조)</text>
+  <text x="986" y="582" font-size="17" fill="#1d2a3a">· 수입 1년 안 하자를 매도인 부담으로 고치면 운임·보험료·</text>
+  <text x="1000" y="606" font-size="17" fill="#1d2a3a">수리비 상당액까지 경감액에 포함</text>
+  <text x="986" y="638" font-size="16" fill="#5f6b78">수리인이 발급한 수리 명세·비용 증명서가 필요</text>
+
+  <!-- Row 3 -->
+  <rect x="280" y="672" width="666" height="232" rx="12" fill="#ffffff" stroke="#c9d2dc"/>
+  <rect x="300" y="688" width="120" height="30" rx="15" fill="#fdecea" stroke="#d9482b"/>
+  <text x="360" y="709" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">까르네 불가</text>
+  <text x="436" y="710" font-size="17" fill="#1d2a3a">생산·임대 목적 물품 제외(고시 제8조 제1항)</text>
+  <text x="300" y="750" font-size="19" font-weight="700" fill="#1d2a3a">재수출 감면(제98조): 면제가 아니라 경감</text>
+  <text x="300" y="780" font-size="17" fill="#1d2a3a">· 임대차·도급·수출계약 이행용, 2년(승인 시 4년) 안 재수출</text>
+  <text x="300" y="804" font-size="17" fill="#1d2a3a">· 재수출기간이 길수록 경감률이 낮아짐(6개월 이내 85% ~ 4년 30%)</text>
+  <text x="300" y="828" font-size="17" fill="#1d2a3a">· 내용연수 5년(금형 2년) 이상, 개당 관세액 500만원 이상,</text>
+  <text x="314" y="852" font-size="17" fill="#1d2a3a">국내제작 곤란 확인·추천(시행규칙 제52조)</text>
+  <text x="300" y="884" font-size="16" fill="#5f6b78">조약·협정에 따른 수입은 상호 조건으로 면제</text>
+
+  <rect x="966" y="672" width="666" height="232" rx="12" fill="#ffffff" stroke="#c9d2dc"/>
+  <rect x="986" y="688" width="120" height="30" rx="15" fill="#fdecea" stroke="#d9482b"/>
+  <text x="1046" y="709" font-size="16" font-weight="700" fill="#d9482b" text-anchor="middle">까르네 불가</text>
+  <text x="1122" y="710" font-size="17" fill="#1d2a3a">건설·생산 설비는 직업용구로 인정되지 않음</text>
+  <text x="986" y="750" font-size="19" font-weight="700" fill="#1d2a3a">수출신고 → 재수입면세(제99조)</text>
+  <text x="986" y="780" font-size="17" fill="#1d2a3a">· 임대·도급으로 해외에서 쓴 장비: 내용연수 3년(금형 2년)</text>
+  <text x="1000" y="804" font-size="17" fill="#1d2a3a">이상이면 사용했어도 면세(시행규칙 제54조 제1항 제1호)</text>
+  <text x="986" y="828" font-size="17" fill="#1d2a3a">· 수출물품의 설치·조립·하역 장비와 용구도 같음(제3호)</text>
+  <text x="986" y="852" font-size="17" fill="#1d2a3a">· 수출신고 수리일부터 2년 안, 감면·환급을 받았으면 불가</text>
+  <text x="986" y="884" font-size="16" fill="#5f6b78">시험·측정 공구 같은 직업용구는 까르네 대상이 될 수 있음</text>
+
+  <text x="56" y="928" font-size="15" fill="#5f6b78">근거: 관세법 제97조~제99조·제101조·제108조, 시행령 제115조·제119조, 시행규칙 제50조·제52조·제54조·제56조·제57조, ATA 협약 제3조, A.T.A.까르네 통관 고시 제8조·제21조, 대한상공회의소 적용 불가 물품 안내(2026-10-28 확인)</text>
+</svg>

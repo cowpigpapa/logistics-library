@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <text x="56" y="62" font-size="30" font-weight="700" fill="#1d2a3a">개품운송과 세 가지 용선: 누가 무엇을 맡나</text>
+  <text x="56" y="96" font-size="18" fill="#5f6b78">상법 제5편 제2장 기준. 실제 분담은 용선계약서와 끌어온 표준서식이 정합니다.</text>
+  <rect x="40" y="118" width="1592" height="752" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+
+  <!-- column headers -->
+  <g font-size="22" font-weight="700" text-anchor="middle">
+    <rect x="300" y="134" width="320" height="64" rx="10" fill="#1f6fd1"/>
+    <text x="460" y="174" fill="#ffffff">개품운송(정기선)</text>
+    <rect x="632" y="134" width="320" height="64" rx="10" fill="#1f8a5b"/>
+    <text x="792" y="174" fill="#ffffff">항해용선</text>
+    <rect x="964" y="134" width="320" height="64" rx="10" fill="#e4572e"/>
+    <text x="1124" y="174" fill="#ffffff">정기용선</text>
+    <rect x="1296" y="134" width="320" height="64" rx="10" fill="#5f6b78"/>
+    <text x="1456" y="174" fill="#ffffff">선체용선(나용선)</text>
+  </g>
+
+  <!-- row backgrounds -->
+  <g fill="#eef2f6">
+    <rect x="56" y="210" width="1560" height="78"/>
+    <rect x="56" y="372" width="1560" height="78"/>
+    <rect x="56" y="534" width="1560" height="78"/>
+    <rect x="56" y="696" width="1560" height="78"/>
+  </g>
+  <g stroke="#c9d2dc" stroke-width="1">
+    <line x1="56" y1="210" x2="1616" y2="210"/>
+    <line x1="56" y1="288" x2="1616" y2="288"/>
+    <line x1="56" y1="370" x2="1616" y2="370"/>
+    <line x1="56" y1="450" x2="1616" y2="450"/>
+    <line x1="56" y1="532" x2="1616" y2="532"/>
+    <line x1="56" y1="612" x2="1616" y2="612"/>
+    <line x1="56" y1="694" x2="1616" y2="694"/>
+    <line x1="56" y1="774" x2="1616" y2="774"/>
+    <line x1="56" y1="854" x2="1616" y2="854"/>
+  </g>
+
+  <!-- row labels -->
+  <g font-size="20" font-weight="700" fill="#1d2a3a">
+    <text x="72" y="256">상법 조문</text>
+    <text x="72" y="336">선박과 선원</text>
+    <text x="72" y="406">배를 어디로</text><text x="72" y="432">보낼지</text>
+    <text x="72" y="498">돈의 기준</text>
+    <text x="72" y="568">기다리는</text><text x="72" y="594">시간의 위험</text>
+    <text x="72" y="660">채권 소멸</text>
+    <text x="72" y="740">대표 서식</text>
+    <text x="72" y="820">포워더가</text><text x="72" y="842">만나는 곳</text>
+  </g>
+
+  <g font-size="18" fill="#1d2a3a" text-anchor="middle">
+    <!-- row 1 -->
+    <text x="460" y="256">제791조~</text>
+    <text x="792" y="256">제827조~제841조</text>
+    <text x="1124" y="256">제842조~제846조</text>
+    <text x="1456" y="256">제847조~제851조</text>
+    <!-- row 2 -->
+    <text x="460" y="324">운송인이 자기 배·빌린 배로</text><text x="460" y="348">운항 전부를 맡음</text>
+    <text x="792" y="324">선주가 선원이 승무하고</text><text x="792" y="348">장비를 갖춘 선박 제공</text>
+    <text x="1124" y="324">선주가 선원이 승무하고</text><text x="1124" y="348">장비를 갖춘 선박 제공</text>
+    <text x="1456" y="324">선박만 제공, 용선자의</text><text x="1456" y="348">관리·지배 아래 운항</text>
+    <!-- row 3 -->
+    <text x="460" y="406">운송인(정해진 항로·일정)</text>
+    <text x="792" y="406">선주가 약정한</text><text x="792" y="432">특정 항해를 수행</text>
+    <text x="1124" y="406">정기용선자가 약정 범위에서</text><text x="1124" y="432">선장을 지휘(제843조)</text>
+    <text x="1456" y="406">선체용선자</text><text x="1456" y="432">(등기하면 제3자 효력, 제849조)</text>
+    <!-- row 4 -->
+    <text x="460" y="498">화물 단위 운임(tariff)</text>
+    <text x="792" y="498">항해 단위 운임</text>
+    <text x="1124" y="498">기간으로 정한 용선료</text>
+    <text x="1456" y="498">용선료(민법 임대차 준용)</text>
+    <!-- row 5 -->
+    <text x="460" y="568">선박 대기는 운송인 몫</text><text x="460" y="594">(컨테이너 Demurrage·Detention은 별개)</text>
+    <text x="792" y="568">정박기간을 넘기면</text><text x="792" y="594">용선자가 체선료</text>
+    <text x="1124" y="568">용선료가 계속 나가므로</text><text x="1124" y="594">사실상 용선자 몫</text>
+    <text x="1456" y="568">용선자 몫</text><text x="1456" y="594">(운항 비용 전부)</text>
+    <!-- row 6 -->
+    <text x="460" y="660">인도일부터 1년(제814조)</text>
+    <text x="792" y="660">인도일부터 2년(제840조)</text>
+    <text x="1124" y="660">선박 반환일부터 2년(제846조)</text>
+    <text x="1456" y="660">선박 반환일부터 2년(제851조)</text>
+    <!-- row 7 -->
+    <text x="460" y="740">CONLINEBILL 2016 등 선사 B/L</text>
+    <text x="792" y="728">GENCON 1994·2022,</text><text x="792" y="754">HEAVYLIFTVOY, HEAVYCON 2007</text>
+    <text x="1124" y="740">NYPE 2015</text>
+    <text x="1456" y="740">BARECON 2017</text>
+    <!-- row 8 -->
+    <text x="460" y="820">컨테이너·LCL 부킹</text>
+    <text x="792" y="808">중량물선 한 척·선창 일부,</text><text x="792" y="834">벌크 한 항차</text>
+    <text x="1124" y="808">선사가 빌린 배에 실린 화물</text><text x="1124" y="834">(선주 유치권 제844조)</text>
+    <text x="1456" y="820">거의 없음</text>
+  </g>
+
+  <!-- arrow showing shift of responsibility -->
+  <g>
+    <line x1="660" y1="884" x2="1580" y2="884" stroke="#d9482b" stroke-width="3"/>
+    <polygon points="1580,876 1598,884 1580,892" fill="#d9482b"/>
+    <text x="640" y="890" font-size="18" font-weight="700" fill="#d9482b" text-anchor="end">오른쪽으로 갈수록 선박소유자의 일은 줄고 빌린 쪽의 일과 위험이 늘어남</text>
+  </g>
+  <text x="56" y="922" font-size="17" fill="#5f6b78">포워더가 배를 빌려 자기 B/L을 내면 화주에게는 개품운송의 운송인(1년), 선주에게는 항해용선자(2년)가 됩니다.</text>
+</svg>

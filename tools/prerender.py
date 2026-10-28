@@ -13,7 +13,7 @@
     library/<slug>/<id>.html   문서 하나(/library/<slug>/<id>)
     sitemap.xml                홈·도구·개인정보처리방침 항목은 그대로 두고 자료실 주소를 모두 <lastmod>와 함께 다시 쓴다.
     Vercel은 rewrites보다 정적 파일을 먼저 내보내고 cleanUrls가 /library/charges/ch-dnd를 library/charges/ch-dnd.html로
-    잇는다. 합쳐진 옛 문서 주소나 없는 주소는 정적 파일이 없으니 지금처럼 vercel.json rewrites로 카테고리 페이지에 간다.
+    잇는다. 합쳐진 옛 문서 주소는 vercel.json redirects로 새 주소에 가고, 없는 주소는 404.html을 받는다.
 
 어떻게 만드나
     1. vercel.json의 rewrites에서 /library/<slug> → 카테고리 HTML을, 그 HTML의 *-library.js에서 BASE·DOCS를 읽는다
@@ -232,6 +232,10 @@ def make_handler(rewrites):
 def start_server(vercel):
     rewrites = [(re.compile(re.sub(r':[a-z]+', '[^/]+', r['source'])), r['destination'])
                 for r in vercel.get('rewrites', [])]
+    # vercel.json에는 문서 주소(/library/<slug>/<id>) rewrite가 없다(정적 파일로 열리고, 없는 문서는 404).
+    # 그리는 동안에는 library/를 쓰지 않으므로 문서 주소도 카테고리 HTML로 잇는다.
+    rewrites += [(re.compile(re.escape(r['source']) + '/[^/]+'), r['destination'])
+                 for r in vercel.get('rewrites', []) if re.fullmatch(r'/library/[a-z0-9-]+', r['source'])]
     server = ThreadingHTTPServer(('127.0.0.1', 0), partial(make_handler(rewrites), directory=str(ROOT)))
     threading.Thread(target=server.serve_forever, daemon=True).start()
     return server

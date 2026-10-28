@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="56" font-size="28" font-weight="800" fill="#1d2a3a">화물은 A에서 B로 바로 가고, 서류와 돈은 한국을 거친다</text>
+<text x="40" y="90" font-size="19" font-weight="600" fill="#5f6b78">삼국 간 중계무역의 서류 흐름(예시) · Switch B/L 원칙은 P&amp;I 보험조합 권고와 대법원 2020. 6. 11. 선고 2018다249018 판결 기준</text>
+
+<!-- columns -->
+<rect x="40" y="118" width="440" height="560" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="260" y="156" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">공급자 A (생산국)</text>
+<rect x="616" y="118" width="440" height="560" rx="16" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="836" y="156" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">한국 중계상</text>
+<rect x="1192" y="118" width="440" height="560" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1412" y="156" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">구매자 B (수입국)</text>
+
+<!-- row 1 contract/invoice 1 -->
+<text x="60" y="200" font-size="16" font-weight="700" fill="#5f6b78">①</text>
+<rect x="84" y="180" width="372" height="58" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="270" y="206" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">인보이스 1 (매입가격)</text>
+<text x="270" y="228" font-size="15" fill="#5f6b78" text-anchor="middle">매도인 A → 매수인 한국 중계상</text>
+<line x1="458" y1="209" x2="660" y2="209" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a)"/>
+
+<!-- row 2 B/L 1 -->
+<text x="60" y="290" font-size="16" font-weight="700" fill="#5f6b78">②</text>
+<rect x="84" y="262" width="372" height="80" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="270" y="290" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">원 B/L 1차 세트 (운송인 발행)</text>
+<text x="270" y="313" font-size="15" fill="#5f6b78" text-anchor="middle">송하인 A · 선적항 · 선적일 · 품명 · 수량</text>
+<text x="270" y="333" font-size="15" fill="#5f6b78" text-anchor="middle">수하인 To order 등</text>
+<line x1="458" y1="302" x2="660" y2="302" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a)"/>
+<text x="560" y="292" font-size="14" fill="#1d2a3a" text-anchor="middle">은행·직접 전달</text>
+
+<!-- Korea column content -->
+<rect x="664" y="180" width="344" height="58" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="836" y="206" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">두 계약의 당사자</text>
+<text x="836" y="228" font-size="15" fill="#1d2a3a" text-anchor="middle">사는 계약과 파는 계약을 각각 맺는다</text>
+
+<rect x="664" y="262" width="344" height="80" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="836" y="290" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">③ 1차 세트 전부 반납</text>
+<text x="836" y="313" font-size="15" fill="#1d2a3a" text-anchor="middle">운송인 또는 운송인이 위임한</text>
+<text x="836" y="333" font-size="15" fill="#1d2a3a" text-anchor="middle">대리점·포워더에게 회수·취소</text>
+
+<rect x="664" y="366" width="344" height="104" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="836" y="394" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">④ Switch B/L 2차 세트</text>
+<text x="836" y="418" font-size="15" fill="#1d2a3a" text-anchor="middle">송하인을 한국 중계상으로,</text>
+<text x="836" y="438" font-size="15" fill="#1d2a3a" text-anchor="middle">수하인·통지처를 B 쪽으로</text>
+<text x="836" y="460" font-size="15" font-weight="700" fill="#d9482b" text-anchor="middle">권한 없는 자가 발행하면 무효</text>
+<line x1="1010" y1="418" x2="1236" y2="418" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a)"/>
+
+<rect x="664" y="494" width="344" height="58" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="836" y="520" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">⑤ 인보이스 2 (판매가격)</text>
+<text x="836" y="542" font-size="15" fill="#1d2a3a" text-anchor="middle">매도인 한국 중계상 → 매수인 B</text>
+<line x1="1010" y1="523" x2="1236" y2="523" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a)"/>
+
+<!-- COO -->
+<text x="60" y="390" font-size="16" font-weight="700" fill="#5f6b78">⑥</text>
+<rect x="84" y="366" width="372" height="104" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="270" y="394" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">원산지증명서</text>
+<text x="270" y="418" font-size="15" fill="#5f6b78" text-anchor="middle">생산국 기관 발급 또는 수출자 작성</text>
+<text x="270" y="438" font-size="15" fill="#5f6b78" text-anchor="middle">제3국 송장 표시 여부를 협정별로 확인</text>
+<text x="270" y="460" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">원산지는 생산국 그대로</text>
+<path d="M458 452 L560 452 L560 584 L1236 584" fill="none" stroke="#1d2a3a" stroke-width="3" stroke-dasharray="3 6" marker-end="url(#a)"/>
+<text x="836" y="606" font-size="14" fill="#1d2a3a" text-anchor="middle">⑥ 한국 중계상을 거쳐 B에게(협정이 허용하는 방식으로)</text>
+
+<!-- B column content -->
+<rect x="1240" y="366" width="368" height="104" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="1424" y="394" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">B/L로 화물 인수</text>
+<text x="1424" y="418" font-size="15" fill="#5f6b78" text-anchor="middle">양하항에서 운송인에게 2차 세트 제시</text>
+<text x="1424" y="438" font-size="15" fill="#5f6b78" text-anchor="middle">한 화물에 두 세트가 돌면</text>
+<text x="1424" y="458" font-size="15" fill="#5f6b78" text-anchor="middle">이중 청구·이중 인도 위험</text>
+<rect x="1240" y="494" width="368" height="58" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="1424" y="520" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">수입신고</text>
+<text x="1424" y="542" font-size="15" fill="#5f6b78" text-anchor="middle">매도인 = 한국 중계상, 원산지 = 생산국</text>
+<rect x="1240" y="576" width="368" height="80" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="1424" y="604" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">원산지증명서 수취</text>
+<text x="1424" y="628" font-size="15" fill="#5f6b78" text-anchor="middle">FTA는 직접운송·제3국 송장 요건을</text>
+<text x="1424" y="646" font-size="15" fill="#5f6b78" text-anchor="middle">수입국 세관이 본다</text>
+
+<!-- money -->
+<line x1="1236" y1="640" x2="1012" y2="640" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<text x="1124" y="660" font-size="14" fill="#1f8a5b" text-anchor="middle">판매대금</text>
+<line x1="660" y1="640" x2="458" y2="640" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<text x="560" y="660" font-size="14" fill="#1f8a5b" text-anchor="middle">매입대금</text>
+<rect x="664" y="616" width="344" height="48" rx="10" fill="#e6f4ec" stroke="#1f8a5b" stroke-width="2"/>
+<text x="836" y="646" font-size="16" font-weight="700" fill="#1f8a5b" text-anchor="middle">차액이 중계상의 가득액</text>
+<rect x="84" y="494" width="372" height="58" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="270" y="520" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">화물</text>
+<text x="270" y="542" font-size="15" fill="#5f6b78" text-anchor="middle">선적항 → 양하항으로 바로 운송</text>
+
+<!-- bottom rules -->
+<rect x="40" y="700" width="792" height="216" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="736" font-size="21" font-weight="800" fill="#1f8a5b">바꿔도 되는 것(당사자 전원 동의)</text>
+<text x="64" y="770" font-size="18" fill="#1d2a3a">송하인 이름(중계상으로), 수하인·통지처</text>
+<text x="64" y="798" font-size="18" fill="#1d2a3a">분할·통합에 따른 B/L 장수</text>
+<text x="64" y="826" font-size="18" fill="#1d2a3a">양하항은 실제로 목적지가 바뀐 경우만</text>
+<text x="64" y="866" font-size="16" fill="#5f6b78">새 B/L의 발행지·발행일은 실제 발행지·발행일로 적고,</text>
+<text x="64" y="890" font-size="16" fill="#5f6b78">적재 장소와 적재일은 원래대로 둔다</text>
+
+<rect x="856" y="700" width="776" height="216" rx="16" fill="#fff4f1" stroke="#e4572e" stroke-width="2"/>
+<text x="880" y="736" font-size="21" font-weight="800" fill="#d9482b">바꾸면 안 되는 것</text>
+<text x="880" y="770" font-size="18" fill="#1d2a3a">선적일, 선적항, 화물 명세, 중량·수량, 외관 상태 문구</text>
+<text x="880" y="798" font-size="18" fill="#1d2a3a">원산지를 숨기려는 선적항 변경 요청은 거절 사유</text>
+<text x="880" y="836" font-size="18" fill="#1d2a3a">1차 세트를 받기 전에는 2차 세트를 내주지 않는다</text>
+<text x="880" y="864" font-size="18" fill="#1d2a3a">1차 세트 대신 LOI만 받고 새로 발행하지 않는다</text>
+<text x="880" y="898" font-size="16" fill="#5f6b78">자세한 권고와 근거: B/L·AWB 카테고리 특수 B/L과 전자화 1절</text>
+</svg>

@@ -52,6 +52,16 @@ exec(nav_src, ns)
 NAV = ns['NAV']
 exec(menu[menu.index('GROUP_COLOR = {'):menu.index('}\n', menu.index('GROUP_COLOR = {')) + 1], ns)
 GROUP_COLOR = ns['GROUP_COLOR']
+# 카드의 "해설 N편"은 손으로 쓰지 않고 색인 데이터(왼쪽 색인 숫자와 같은 원천)에서 센다.
+_idx_src = read('library-index-data.js')
+DOC_COUNT = {c['slug']: sum(len(s['docs']) for s in c['sections'])
+             for g in json.loads(_idx_src[_idx_src.index('=') + 1:_idx_src.rindex(';')])
+             for c in g.get('cats', []) if c.get('slug')}
+for _href in list(by_href):
+    _slug = _href.split('/')[2] if _href.startswith('/library/') else None
+    if _slug in DOC_COUNT:
+        by_href[_href] = re.sub(r'(<dt>(?:한국어 )?해설</dt><dd>|<dt>문서</dt><dd>)\d+편',
+                                lambda m: f'{m.group(1)}{DOC_COUNT[_slug]}편', by_href[_href], count=1)
 CARDS = {}        # 카테고리 slug -> 카드 마크업(분류색 적용)
 META = {}         # slug 또는 'tool:<이름>' -> (이름, 분류 줄, 묶음 번호)
 TOOL_TYPES = {}   # 도구 이름 -> 분류 줄(도구 화면 머리용)

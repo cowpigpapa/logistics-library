@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="56" font-size="28" font-weight="800" fill="#1d2a3a">같은 물품에 원산지를 묻는 법이 넷이고, 답이 서로 다를 수 있습니다</text>
+<text x="40" y="90" font-size="19" font-weight="600" fill="#5f6b78">대외무역법·시행령·대외무역관리규정, 관세법·시행규칙, FTA관세법, 19 U.S.C. 1304·19 CFR Part 134, EU 관세법(UCC) 기준 (2026. 10. 28. 확인)</text>
+
+<!-- header row -->
+<rect x="40" y="118" width="200" height="72" rx="12" fill="#eef2f6"/>
+<text x="140" y="161" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">질문</text>
+<rect x="256" y="118" width="336" height="72" rx="12" fill="#1f6fd1"/>
+<text x="424" y="149" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">대외무역법 원산지</text>
+<text x="424" y="176" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">비특혜 · 표시와 판정</text>
+<rect x="600" y="118" width="336" height="72" rx="12" fill="#1f8a5b"/>
+<text x="768" y="149" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">관세법 원산지</text>
+<text x="768" y="176" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">비특혜 · 통관과 관세</text>
+<rect x="944" y="118" width="336" height="72" rx="12" fill="#e4572e"/>
+<text x="1112" y="149" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">FTA 원산지</text>
+<text x="1112" y="176" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">특혜 · 협정관세</text>
+<rect x="1288" y="118" width="344" height="72" rx="12" fill="#5f6b78"/>
+<text x="1460" y="149" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">수입국 원산지</text>
+<text x="1460" y="176" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">예: 미국 · EU</text>
+
+<!-- row 1 -->
+<rect x="40" y="198" width="200" height="112" rx="12" fill="#eef2f6"/>
+<text x="140" y="260" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">어디에 쓰나</text>
+<rect x="256" y="198" width="336" height="112" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="274" y="228" font-size="17" fill="#1d2a3a"><tspan x="274">수입물품의 원산지 표시</tspan><tspan x="274" dy="24">원산지 판정, 국산 가장 금지</tspan><tspan x="274" dy="24">수출물품 원산지증명서 발급</tspan></text>
+<rect x="600" y="198" width="336" height="112" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="618" y="228" font-size="17" fill="#1d2a3a"><tspan x="618">관세 부과·징수와 통관</tspan><tspan x="618" dy="24">원산지증명서 제출·확인</tspan><tspan x="618" dy="24">덤핑방지관세·편익관세 등</tspan></text>
+<rect x="944" y="198" width="336" height="112" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="962" y="228" font-size="17" fill="#1d2a3a"><tspan x="962">협정세율(0% 또는 인하)</tspan><tspan x="962" dy="24">적용 신청·사후적용</tspan><tspan x="962" dy="24">수출국·수입국의 원산지 검증</tspan></text>
+<rect x="1288" y="198" width="344" height="112" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1306" y="228" font-size="17" fill="#1d2a3a"><tspan x="1306">수입국의 원산지 표시 의무</tspan><tspan x="1306" dy="24">수입국의 품목관세·반덤핑관세</tspan><tspan x="1306" dy="24">수입 제한 조치</tspan></text>
+
+<!-- row 2 -->
+<rect x="40" y="318" width="200" height="104" rx="12" fill="#eef2f6"/>
+<text x="140" y="376" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">근거</text>
+<rect x="256" y="318" width="336" height="104" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="274" y="348" font-size="17" fill="#1d2a3a"><tspan x="274">대외무역법 제33조~제38조</tspan><tspan x="274" dy="24">시행령 제55조~제67조</tspan><tspan x="274" dy="24">대외무역관리규정 제75조~제93조</tspan></text>
+<rect x="600" y="318" width="336" height="104" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="618" y="348" font-size="17" fill="#1d2a3a"><tspan x="618">관세법 제229조~제233조</tspan><tspan x="618" dy="24">관세법 시행규칙 제74조~제76조</tspan></text>
+<rect x="944" y="318" width="336" height="104" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="962" y="348" font-size="17" fill="#1d2a3a"><tspan x="962">FTA관세법과 각 협정의</tspan><tspan x="962" dy="24">원산지 규정·품목별 기준</tspan></text>
+<rect x="1288" y="318" width="344" height="104" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1306" y="348" font-size="17" fill="#1d2a3a"><tspan x="1306">미국: 19 U.S.C. 1304,</tspan><tspan x="1306" dy="24">19 CFR Part 134</tspan><tspan x="1306" dy="24">EU: 관세법(UCC) 제59조·제60조</tspan></text>
+
+<!-- row 3 -->
+<rect x="40" y="430" width="200" height="160" rx="12" fill="#eef2f6"/>
+<text x="140" y="516" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">판정 기준</text>
+<rect x="256" y="430" width="336" height="160" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="274" y="460" font-size="17" fill="#1d2a3a"><tspan x="274">완전생산: 그 나라</tspan><tspan x="274" dy="24">여러 나라: 마지막 실질적 변형</tspan><tspan x="274" dy="24" font-weight="700" fill="#1f6fd1">= HS 6단위 세번 변경</tspan><tspan x="274" dy="24">별표 9 품목은 부가가치·</tspan><tspan x="274" dy="24">주요 부품·주요 공정으로</tspan></text>
+<rect x="600" y="430" width="336" height="160" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="618" y="460" font-size="17" fill="#1d2a3a"><tspan x="618">완전생산: 그 나라</tspan><tspan x="618" dy="24">여러 나라: 다른 6단위 품목을</tspan><tspan x="618" dy="24" font-weight="700" fill="#1f8a5b">마지막으로 생산한 나라</tspan><tspan x="618" dy="24">세번만으로 어려운 품목은</tspan><tspan x="618" dy="24">관세청장이 품목별로 정함</tspan></text>
+<rect x="944" y="430" width="336" height="160" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="962" y="460" font-size="17" fill="#1d2a3a"><tspan x="962">협정·품목마다 다름</tspan><tspan x="962" dy="24">세번변경·부가가치·특정공정</tspan><tspan x="962" dy="24">미소기준·누적</tspan><tspan x="962" dy="24" font-weight="700" fill="#e4572e">원산지증명과 직접운송까지</tspan><tspan x="962" dy="24">갖춰야 협정관세</tspan></text>
+<rect x="1288" y="430" width="344" height="160" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1306" y="460" font-size="17" fill="#1d2a3a"><tspan x="1306">미국: 실질적 변형(이름·성질·</tspan><tspan x="1306" dy="24">용도가 바뀌는가), 사례 판단</tspan><tspan x="1306" dy="24">EU: 마지막의 실질적이고</tspan><tspan x="1306" dy="24">경제적으로 정당한 가공</tspan><tspan x="1306" dy="24" font-weight="700" fill="#5f6b78">한국 기준과 다를 수 있음</tspan></text>
+
+<!-- row 4 -->
+<rect x="40" y="598" width="200" height="136" rx="12" fill="#eef2f6"/>
+<text x="140" y="672" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">단순 가공</text>
+<rect x="256" y="598" width="336" height="136" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="274" y="628" font-size="17" fill="#1d2a3a"><tspan x="274">포장·보존·선별·세척·건조·</tspan><tspan x="274" dy="24">냉동·단순 절단·단순 혼합·</tspan><tspan x="274" dy="24">라벨 수정은 원산지를</tspan><tspan x="274" dy="24">바꾸지 못함(규정 제85조 제8항)</tspan></text>
+<rect x="600" y="598" width="336" height="136" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="618" y="628" font-size="17" fill="#1d2a3a"><tspan x="618">보존 작업·포장 개선·상표 표시,</tspan><tspan x="618" dy="24">선별·절단·세척, 재포장·</tspan><tspan x="618" dy="24">단순 조립·혼합·도축은</tspan><tspan x="618" dy="24">원산지 불인정(제74조 제4항)</tspan></text>
+<rect x="944" y="598" width="336" height="136" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="962" y="628" font-size="17" fill="#1d2a3a"><tspan x="962">협정마다 원산지를 주지 않는</tspan><tspan x="962" dy="24">공정 목록이 따로 있음</tspan><tspan x="962" dy="24">(포장·선별·단순 조립 등)</tspan></text>
+<rect x="1288" y="598" width="344" height="136" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1306" y="628" font-size="17" fill="#1d2a3a"><tspan x="1306">한국에서 만들어도 주원료가</tspan><tspan x="1306" dy="24">중국산이라 중국산으로</tspan><tspan x="1306" dy="24">판정된 사례(오징어젓갈,</tspan><tspan x="1306" dy="24">관세청 2026. 5. 19. 공개)</tspan></text>
+
+<!-- row 5 -->
+<rect x="40" y="742" width="200" height="112" rx="12" fill="#eef2f6"/>
+<text x="140" y="804" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">더 볼 것</text>
+<rect x="256" y="742" width="336" height="112" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="274" y="772" font-size="17" fill="#1d2a3a"><tspan x="274">국산 표시: 세번 변경 + 국내</tspan><tspan x="274" dy="24">제조원가 51% 이상(세번이</tspan><tspan x="274" dy="24">그대로면 85%), 규정 제86조</tspan></text>
+<rect x="600" y="742" width="336" height="112" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="618" y="772" font-size="17" fill="#1d2a3a"><tspan x="618">직접운송 원칙: 비원산국을</tspan><tspan x="618" dy="24">거치면 보세 상태 환적 등을</tspan><tspan x="618" dy="24">증명해야 함(제76조)</tspan></text>
+<rect x="944" y="742" width="336" height="112" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="962" y="772" font-size="17" fill="#1d2a3a"><tspan x="962">기관발급·자율발급 증명,</tspan><tspan x="962" dy="24">유효기간, 검증 절차는</tspan><tspan x="962" dy="24">FTA 원산지 문서에서</tspan></text>
+<rect x="1288" y="742" width="344" height="112" rx="12" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1306" y="772" font-size="17" fill="#1d2a3a"><tspan x="1306">수출물품은 수입국 기준이</tspan><tspan x="1306" dy="24">다르면 그 기준을 따를 수 있음</tspan><tspan x="1306" dy="24">(대외무역법 시행령 제61조 제3항)</tspan></text>
+
+<text x="40" y="900" font-size="18" font-weight="700" fill="#d9482b">원산지 표시는 1열, 수입 세율은 2·3열, 수출한 뒤 상대국 통관과 표시는 4열 기준으로 봅니다.</text>
+</svg>

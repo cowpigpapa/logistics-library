@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">ESS 수출, 부킹부터 선적까지 서류가 가는 길</text>
+<text x="40" y="94" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">포워더는 화물을 열지 않고 서류로 판단합니다. 무엇을 누가 만들고 누구에게 넘기는지가 순서대로 맞아야 선사 승인이 납니다.</text>
+<rect x="40" y="140" width="300" height="340" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="3" rx="16"/>
+<circle cx="74" cy="180" r="17" fill="#1f6fd1"/>
+<text x="74" y="186.5" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="102" y="187" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">제조사·화주</text>
+<text x="64" y="228" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">판정과 근거 만들기</text>
+<line x1="64" y1="246" x2="316" y2="246" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="282" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">UN 번호 판정 근거</text>
+<text x="64" y="312" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">UN 38.3 시험 요약서</text>
+<text x="64" y="342" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">제조사 운송 지침(SoC, 차단,</text>
+<text x="64" y="372" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">인양·고박 지점, 공조 정지 등)</text>
+<text x="64" y="402" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">SDS(참고), SoC 확인서</text>
+<text x="64" y="432" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">CSC 승인판·내부 고정 사진</text>
+<line x1="342" y1="340" x2="361" y2="340" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="363" y="140" width="300" height="340" fill="#fbfcfd" stroke="#1f8a5b" stroke-width="3" rx="16"/>
+<circle cx="397" cy="180" r="17" fill="#1f8a5b"/>
+<text x="397" y="186.5" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="425" y="187" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">포워더</text>
+<text x="387" y="228" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">서류 대조와 부킹 신청</text>
+<line x1="387" y1="246" x2="639" y2="246" stroke="#c9d2dc" stroke-width="2"/>
+<text x="387" y="282" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">모델·Wh·화학이 요약서와 같은가</text>
+<text x="387" y="312" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">안에 다른 위험물이 없다는 확인</text>
+<text x="387" y="342" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">총중량·치수·인양 방법</text>
+<text x="387" y="372" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">선사 위험물 접수 양식 작성</text>
+<text x="387" y="402" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">사진·확인서로 받고</text>
+<text x="387" y="432" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화물은 열지 않는다</text>
+<line x1="665" y1="340" x2="684" y2="340" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="686" y="140" width="300" height="340" fill="#fbfcfd" stroke="#e4572e" stroke-width="3" rx="16"/>
+<circle cx="720" cy="180" r="17" fill="#e4572e"/>
+<text x="720" y="186.5" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="748" y="187" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">선사</text>
+<text x="710" y="228" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">위험물 승인</text>
+<line x1="710" y1="246" x2="962" y2="246" stroke="#c9d2dc" stroke-width="2"/>
+<text x="710" y="282" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">선박·항로·환적항 조건</text>
+<text x="710" y="312" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">적재 위치(UN 3536은 갑판 위)</text>
+<text x="710" y="342" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">추가 조건(SoC 상한,</text>
+<text x="710" y="372" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">감시·모니터링 등) 제시</text>
+<text x="710" y="402" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">거절되면 다른 선사·선박</text>
+<text x="710" y="432" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">또는 다른 형태로 다시</text>
+<line x1="988" y1="340" x2="1007" y2="340" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="1009" y="140" width="300" height="340" fill="#fbfcfd" stroke="#d9482b" stroke-width="3" rx="16"/>
+<circle cx="1043" cy="180" r="17" fill="#d9482b"/>
+<text x="1043" y="186.5" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="1071" y="187" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">송하인·신고인</text>
+<text x="1033" y="228" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">신고와 반입</text>
+<line x1="1033" y1="246" x2="1285" y2="246" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1033" y="282" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위험물 명세서(IMDG 운송서류)</text>
+<text x="1033" y="312" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너 위험물 명세서 등</text>
+<text x="1033" y="342" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">선사가 정한 서류</text>
+<text x="1033" y="372" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">무역항 위험물 반입신고</text>
+<text x="1033" y="402" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">(포워더는 위험물 통지 의무)</text>
+<text x="1033" y="432" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">두 측면 표찰·UN 번호 부착</text>
+<line x1="1311" y1="340" x2="1330" y2="340" stroke="#5f6b78" stroke-width="3" marker-end="url(#a-sub)"/>
+<rect x="1332" y="140" width="300" height="340" fill="#fbfcfd" stroke="#1d2a3a" stroke-width="3" rx="16"/>
+<circle cx="1366" cy="180" r="17" fill="#1d2a3a"/>
+<text x="1366" y="186.5" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="1394" y="187" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="start">터미널·선박</text>
+<text x="1356" y="228" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">적재와 고박</text>
+<line x1="1356" y1="246" x2="1608" y2="246" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1356" y="282" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">고박 계획대로 적재</text>
+<text x="1356" y="312" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">고박 장비가 맞물리는지</text>
+<text x="1356" y="342" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">(훅과 D-링 규격)</text>
+<text x="1356" y="372" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">열원·거주구역과 떨어진</text>
+<text x="1356" y="402" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">위치, 소화 접근성</text>
+<text x="1356" y="432" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">항해 중 점검·기록</text>
+<rect x="40" y="520" width="1592" height="300" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="66" y="568" font-size="23" font-weight="800" fill="#d9482b" text-anchor="start">서류 단계에서 자주 막히는 곳</text>
+<text x="66" y="624" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">캐비닛형을 UN 3481로 신고했는데 선사가 UN 3480이나 UN 3536으로 보는 경우: 판정 근거를 먼저 받아 둔다</text>
+<text x="66" y="674" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">빈 공간에 예비 모듈·냉매 용기를 넣었다는 사실이 부킹 뒤에 드러나는 경우: 특별규정 389 위반, 출고 전 확인서로 막는다</text>
+<text x="66" y="724" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">해상 일정이 밀려 항공으로 돌리려는 경우: UN 3536은 항공이 사실상 막혀 있고, 모듈도 35kg·SoC 30% 조건을 처음부터 다시 본다</text>
+<text x="66" y="774" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">고박 계획의 강도만 맞추고 장비끼리 맞물리는지는 보지 않은 경우: 훅이 D-링에 끝만 걸려 부러졌다(Genius Star XI)</text>
+<text x="40" y="910" font-size="14" font-weight="500" fill="#5f6b78" text-anchor="start">출처: IMDG Code 42-24 특별규정 389·2.9.4.7·5.4; 위험물 선박운송 및 저장규칙 제16조·제34조; 선박의 입항 및 출항 등에 관한 법률 제32조; NTSB MIR-25-41. 선사 조건은 선사마다 다릅니다.</text>
+</svg>

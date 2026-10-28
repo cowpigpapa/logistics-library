@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="36" y="52" font-size="27" font-weight="800" fill="#1d2a3a">누출이 나면: 처리 순서, 생기는 비용, 청구가 흘러가는 길</text>
+<text x="36" y="84" font-size="18" fill="#5f6b78">COA 실무 규약 1.4(사고 처리)와 IUMI 권고(2024)의 비용 항목을 한 장에 모았습니다. 실제 부담은 계약·약관·원인 조사로 정해집니다.</text>
+
+<!-- TOP PANEL: steps -->
+<rect x="24" y="104" width="1624" height="348" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="48" y="140" font-size="20" font-weight="800" fill="#1d2a3a">① 처리 순서와 단계마다 붙는 비용</text>
+<g font-size="16">
+<!-- six step boxes: x = 48 + i*265, width 236 -->
+<rect x="48" y="160" width="236" height="104" rx="12" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="166" y="192" font-weight="800" fill="#1f6fd1" text-anchor="middle">1 발견·알림</text>
+<text x="166" y="218" fill="#1d2a3a" text-anchor="middle">기사·터미널·선원이 발견</text>
+<text x="166" y="242" fill="#1d2a3a" text-anchor="middle">24시간 비상 연락처로</text>
+<rect x="313" y="160" width="236" height="104" rx="12" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="431" y="192" font-weight="800" fill="#1f6fd1" text-anchor="middle">2 격리</text>
+<text x="431" y="218" fill="#1d2a3a" text-anchor="middle">드립 트레이·방류턱 구역</text>
+<text x="431" y="242" fill="#1d2a3a" text-anchor="middle">배수로에서 떨어진 곳</text>
+<rect x="578" y="160" width="236" height="104" rx="12" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="696" y="192" font-weight="800" fill="#1f6fd1" text-anchor="middle">3 검정</text>
+<text x="696" y="218" fill="#1d2a3a" text-anchor="middle">운송인·화주·공급사·</text>
+<text x="696" y="242" fill="#1d2a3a" text-anchor="middle">보험자 검정인, 공동 검정</text>
+<rect x="843" y="160" width="236" height="104" rx="12" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="961" y="192" font-weight="800" fill="#1f6fd1" text-anchor="middle">4 옮겨 담기</text>
+<text x="961" y="218" fill="#1d2a3a" text-anchor="middle">다른 플렉시탱크·ISO 탱크</text>
+<text x="961" y="242" fill="#1d2a3a" text-anchor="middle">컨테이너·IBC·드럼</text>
+<rect x="1108" y="160" width="236" height="104" rx="12" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1226" y="192" font-weight="800" fill="#1f6fd1" text-anchor="middle">5 청소·폐기</text>
+<text x="1226" y="218" fill="#1d2a3a" text-anchor="middle">선창·빌지·터미널·도로</text>
+<text x="1226" y="242" fill="#1d2a3a" text-anchor="middle">오염 화물·폐플렉시탱크</text>
+<rect x="1373" y="160" width="252" height="104" rx="12" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1499" y="192" font-weight="800" fill="#1f6fd1" text-anchor="middle">6 컨테이너 처리</text>
+<text x="1499" y="218" fill="#1d2a3a" text-anchor="middle">세척·수리 또는 폐기</text>
+<text x="1499" y="242" fill="#1d2a3a" text-anchor="middle">반납 지연</text>
+</g>
+<g stroke="#1d2a3a" stroke-width="2" marker-end="url(#ak)">
+<line x1="286" y1="212" x2="309" y2="212"/><line x1="551" y1="212" x2="574" y2="212"/><line x1="816" y1="212" x2="839" y2="212"/><line x1="1081" y1="212" x2="1104" y2="212"/><line x1="1346" y1="212" x2="1369" y2="212"/>
+</g>
+<!-- cost tags -->
+<g font-size="15">
+<rect x="48" y="290" width="501" height="136" rx="10" fill="#fdeee8" stroke="#d9482b" stroke-width="1.5"/>
+<text x="64" y="318" font-weight="800" fill="#d9482b">시간이 만드는 비용</text>
+<text x="64" y="344" fill="#1d2a3a">• 격리된 누출 컨테이너의 보관료·Demurrage·Detention</text>
+<text x="64" y="368" fill="#1d2a3a">• 선박 억류·지연: 한 컨테이너선(2021, 자메이카)은 출항</text>
+<text x="78" y="390" fill="#1d2a3a">예정일(6월 25일)이 지나도 억류 중이라는 7월 2일 자 보도</text>
+<text x="64" y="414" fill="#1d2a3a">• 화주가 비상 대응을 못 하면 운송인이 일당을 청구(UK P&amp;I)</text>
+<rect x="578" y="290" width="501" height="136" rx="10" fill="#fdeee8" stroke="#d9482b" stroke-width="1.5"/>
+<text x="594" y="318" font-weight="800" fill="#d9482b">작업이 만드는 비용</text>
+<text x="594" y="344" fill="#1d2a3a">• 드립 트레이·방제 장비, 옮겨 담을 용기와 작업</text>
+<text x="594" y="368" fill="#1d2a3a">• 검정료(여러 당사자가 각자 지명하면 여러 건)</text>
+<text x="594" y="392" fill="#1d2a3a">• 라텍스처럼 굳는 화물: 빌지 배관·펌프 수리(TIS)</text>
+<text x="594" y="414" fill="#1d2a3a">• 플렉시탱크·라이닝·벌크헤드 폐기·재활용</text>
+<rect x="1108" y="290" width="517" height="136" rx="10" fill="#fdeee8" stroke="#d9482b" stroke-width="1.5"/>
+<text x="1124" y="318" font-weight="800" fill="#d9482b">제3자에게 번지는 비용</text>
+<text x="1124" y="344" fill="#1d2a3a">• 같은 선창 다른 컨테이너·화물의 오염·냄새</text>
+<text x="1124" y="368" fill="#1d2a3a">• 바다·항만 오염의 방제 비용, 당국의 집행 조치</text>
+<text x="1124" y="392" fill="#1d2a3a">• 컨테이너 수리·폐기와 숨은 구조 손상</text>
+<text x="1124" y="414" fill="#1d2a3a">• 도로 누출 시 제3자 사고 위험(IUMI)</text>
+</g>
+
+<!-- BOTTOM PANEL: claim path -->
+<rect x="24" y="468" width="1624" height="446" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="48" y="504" font-size="20" font-weight="800" fill="#1d2a3a">② 청구가 흘러가는 길 (일반적인 구조)</text>
+<g font-size="16">
+<!-- carrier -->
+<rect x="48" y="540" width="300" height="130" rx="12" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="198" y="574" font-weight="800" fill="#1d2a3a" text-anchor="middle">운송인(선사)</text>
+<text x="198" y="602" fill="#1d2a3a" text-anchor="middle">선박·컨테이너·방제·지연·</text>
+<text x="198" y="626" fill="#1d2a3a" text-anchor="middle">다른 화주 화물 손해를</text>
+<text x="198" y="650" fill="#1d2a3a" text-anchor="middle">먼저 떠안음</text>
+<!-- B/L shipper -->
+<rect x="470" y="540" width="330" height="130" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<text x="635" y="574" font-weight="800" fill="#d9482b" text-anchor="middle">B/L상 송하인</text>
+<text x="635" y="602" fill="#1d2a3a" text-anchor="middle">화주, 또는 Master B/L에</text>
+<text x="635" y="626" fill="#1d2a3a" text-anchor="middle">송하인으로 적힌 포워더</text>
+<text x="635" y="650" fill="#1d2a3a" text-anchor="middle">LOI를 낸 당사자</text>
+<!-- cargo owner -->
+<rect x="922" y="540" width="300" height="130" rx="12" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="1072" y="574" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주(수출자·수입자)</text>
+<text x="1072" y="602" fill="#1d2a3a" text-anchor="middle">매매계약에서 누출 때</text>
+<text x="1072" y="626" fill="#1d2a3a" text-anchor="middle">의무·절차를 미리 정해 두라</text>
+<text x="1072" y="650" fill="#1d2a3a" text-anchor="middle">(IUMI 권고)</text>
+<!-- supplier -->
+<rect x="1344" y="540" width="281" height="130" rx="12" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="1484" y="574" font-weight="800" fill="#1d2a3a" text-anchor="middle">플렉시탱크 공급사</text>
+<text x="1484" y="602" fill="#1d2a3a" text-anchor="middle">제조사·운영사(설치 대행)</text>
+<text x="1484" y="626" fill="#1d2a3a" text-anchor="middle">COA: 배상책임보험</text>
+<text x="1484" y="650" fill="#1d2a3a" text-anchor="middle">US$500만 이상</text>
+</g>
+<g stroke-width="2.5">
+<line x1="352" y1="590" x2="464" y2="590" stroke="#d9482b" marker-end="url(#ar)"/>
+<line x1="804" y1="590" x2="916" y2="590" stroke="#d9482b" marker-end="url(#ar)"/>
+<line x1="1226" y1="590" x2="1338" y2="590" stroke="#d9482b" marker-end="url(#ar)"/>
+</g>
+<g font-size="14" fill="#d9482b" text-anchor="middle">
+<text x="408" y="574">LOI·이면약관</text>
+<text x="860" y="574">보상 약정</text>
+<text x="1282" y="566">설계·제조·설치</text>
+<text x="1282" y="582">결함일 때</text>
+</g>
+<!-- defenses / insurance -->
+<g font-size="15">
+<rect x="48" y="700" width="460" height="186" rx="12" fill="#eef1f4" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="66" y="730" font-weight="800" fill="#1d2a3a">운송인이 화물 손해를 다툴 때</text>
+<text x="66" y="758" fill="#1d2a3a">• 상법 제796조 제9호 포장의 불충분</text>
+<text x="66" y="782" fill="#1d2a3a">• 제10호 운송물의 특수한 성질(발효 등)</text>
+<text x="66" y="806" fill="#1d2a3a">• 다만 운송인이 주의의무를 다하지 않았음이</text>
+<text x="80" y="830" fill="#1d2a3a">증명되면 면책되지 않음(같은 조 단서)</text>
+<text x="66" y="858" fill="#1d2a3a">• 플렉시탱크 설치·충전은 송하인 쪽 작업</text>
+<rect x="530" y="700" width="560" height="186" rx="12" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="548" y="730" font-weight="800" fill="#1f8a5b">화주의 적하보험(ICC (A) 2009)에서 볼 면책</text>
+<text x="548" y="758" fill="#1d2a3a">• 4.3 포장 불충분: "포장"에 컨테이너 안 적부 포함.</text>
+<text x="562" y="782" fill="#1d2a3a">피보험자·직원이 했거나 보험 개시 전에 한 경우</text>
+<text x="548" y="806" fill="#1d2a3a">• 4.4 고유의 하자·성질(발효로 인한 팽창 등)</text>
+<text x="548" y="830" fill="#1d2a3a">• 5.1.2 부적합 컨테이너: 보험 개시 전 적입, 또는 알면서 적입</text>
+<text x="548" y="858" fill="#1d2a3a">• 부보 전에 플렉시탱크 화물임을 알리고 조건 확인</text>
+<rect x="1112" y="700" width="513" height="186" rx="12" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="1130" y="730" font-weight="800" fill="#1f6fd1">포워더가 서는 자리</text>
+<text x="1130" y="758" fill="#1d2a3a">• 대리인으로 부킹만 했다면: 트리니다드토바고 법원은</text>
+<text x="1144" y="782" fill="#1d2a3a">선사 대리점의 책임을 부정(2025, 보도)</text>
+<text x="1130" y="806" fill="#1d2a3a">• 자기 이름의 B/L 송하인·운송인이라면: 선사 LOI의</text>
+<text x="1144" y="830" fill="#1d2a3a">당사자가 되므로 화주에게 같은 범위의 보상 약정을</text>
+<text x="1144" y="854" fill="#1d2a3a">받고, 화물 설명은 화주 서류 그대로</text>
+<text x="1130" y="876" font-size="13" fill="#5f6b78">선사 공개 LOI 양식(2021), COA 1.5, Trinidad Guardian(2025. 12. 6.)</text>
+</g>
+</svg>

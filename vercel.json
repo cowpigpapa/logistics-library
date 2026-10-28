@@ -7,15 +7,7 @@
       "destination": "/library"
     },
     {
-      "source": "/library/ctu-code/:id",
-      "destination": "/library"
-    },
-    {
       "source": "/library/eu-lithium-battery",
-      "destination": "/battery-library"
-    },
-    {
-      "source": "/library/eu-lithium-battery/:id",
       "destination": "/battery-library"
     },
     {
@@ -23,15 +15,7 @@
       "destination": "/dg-library"
     },
     {
-      "source": "/library/dangerous-goods/:id",
-      "destination": "/dg-library"
-    },
-    {
       "source": "/library/incoterms-2020",
-      "destination": "/incoterms-library"
-    },
-    {
-      "source": "/library/incoterms-2020/:id",
       "destination": "/incoterms-library"
     },
     {
@@ -39,15 +23,7 @@
       "destination": "/uld-library"
     },
     {
-      "source": "/library/air-uld/:id",
-      "destination": "/uld-library"
-    },
-    {
       "source": "/library/cargo-insurance",
-      "destination": "/insurance-library"
-    },
-    {
-      "source": "/library/cargo-insurance/:id",
       "destination": "/insurance-library"
     },
     {
@@ -55,15 +31,7 @@
       "destination": "/bl-library"
     },
     {
-      "source": "/library/bl-awb/:id",
-      "destination": "/bl-library"
-    },
-    {
       "source": "/library/temperature-cargo",
-      "destination": "/tc-library"
-    },
-    {
-      "source": "/library/temperature-cargo/:id",
       "destination": "/tc-library"
     },
     {
@@ -71,15 +39,7 @@
       "destination": "/charges-library"
     },
     {
-      "source": "/library/charges/:id",
-      "destination": "/charges-library"
-    },
-    {
       "source": "/library/customs",
-      "destination": "/customs-library"
-    },
-    {
-      "source": "/library/customs/:id",
       "destination": "/customs-library"
     },
     {
@@ -87,15 +47,7 @@
       "destination": "/export-control-library"
     },
     {
-      "source": "/library/export-control/:id",
-      "destination": "/export-control-library"
-    },
-    {
       "source": "/library/regulated-goods",
-      "destination": "/regulated-goods-library"
-    },
-    {
-      "source": "/library/regulated-goods/:id",
       "destination": "/regulated-goods-library"
     },
     {
@@ -103,15 +55,7 @@
       "destination": "/accident-cases-library"
     },
     {
-      "source": "/library/accident-cases/:id",
-      "destination": "/accident-cases-library"
-    },
-    {
       "source": "/library/guide",
-      "destination": "/guide-library"
-    },
-    {
-      "source": "/library/guide/:id",
       "destination": "/guide-library"
     },
     {
@@ -119,15 +63,7 @@
       "destination": "/risk-library"
     },
     {
-      "source": "/library/cargo-risk/:id",
-      "destination": "/risk-library"
-    },
-    {
       "source": "/library/container",
-      "destination": "/container-library"
-    },
-    {
-      "source": "/library/container/:id",
       "destination": "/container-library"
     }
   ],

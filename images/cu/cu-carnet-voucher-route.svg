@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1d2a3a"/></marker>
+  </defs>
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <text x="56" y="60" font-size="32" font-weight="700" fill="#1d2a3a">까르네 한 권이 지나가는 네 번의 세관과 마지막 반납</text>
+  <text x="56" y="96" font-size="20" fill="#5f6b78">세관은 증서(voucher)를 떼어 보관하고, 까르네에 남는 부본(counterfoil)에 확인 도장을 찍습니다. 남는 부본이 나중에 클레임을 막는 증거입니다.</text>
+
+  <!-- route line -->
+  <line x1="150" y1="240" x2="1520" y2="240" stroke="#c9d2dc" stroke-width="6"/>
+  <line x1="150" y1="240" x2="1500" y2="240" stroke="#1d2a3a" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- station template positions: 150, 470, 790, 1110, 1430 -->
+  <g>
+    <circle cx="150" cy="240" r="34" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+    <text x="150" y="250" font-size="26" font-weight="700" fill="#1f6fd1" text-anchor="middle">1</text>
+    <text x="150" y="168" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">한국 출국</text>
+    <rect x="112" y="186" width="76" height="22" rx="4" fill="#f6d55c" stroke="#b08900"/>
+    <text x="150" y="203" font-size="15" fill="#1d2a3a" text-anchor="middle">노란 수출</text>
+  </g>
+  <g>
+    <circle cx="470" cy="240" r="34" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+    <text x="470" y="250" font-size="26" font-weight="700" fill="#1f6fd1" text-anchor="middle">2</text>
+    <text x="470" y="168" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">수입국 입국</text>
+    <rect x="432" y="186" width="76" height="22" rx="4" fill="#ffffff" stroke="#5f6b78"/>
+    <text x="470" y="203" font-size="15" fill="#1d2a3a" text-anchor="middle">흰 수입</text>
+  </g>
+  <g>
+    <circle cx="790" cy="240" r="34" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+    <text x="790" y="250" font-size="26" font-weight="700" fill="#1f6fd1" text-anchor="middle">3</text>
+    <text x="790" y="168" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">수입국 출국</text>
+    <rect x="744" y="186" width="92" height="22" rx="4" fill="#ffffff" stroke="#5f6b78"/>
+    <text x="790" y="203" font-size="15" fill="#1d2a3a" text-anchor="middle">흰 재수출</text>
+  </g>
+  <g>
+    <circle cx="1110" cy="240" r="34" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+    <text x="1110" y="250" font-size="26" font-weight="700" fill="#1f6fd1" text-anchor="middle">4</text>
+    <text x="1110" y="168" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">한국 귀국</text>
+    <rect x="1064" y="186" width="92" height="22" rx="4" fill="#f6d55c" stroke="#b08900"/>
+    <text x="1110" y="203" font-size="15" fill="#1d2a3a" text-anchor="middle">노란 재수입</text>
+  </g>
+  <g>
+    <circle cx="1430" cy="240" r="34" fill="#ffffff" stroke="#1f8a5b" stroke-width="3"/>
+    <text x="1430" y="250" font-size="26" font-weight="700" fill="#1f8a5b" text-anchor="middle">5</text>
+    <text x="1430" y="168" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">대한상의 반납</text>
+    <rect x="1384" y="186" width="92" height="22" rx="4" fill="#1f8a5b" stroke="#1f8a5b"/>
+    <text x="1430" y="203" font-size="15" fill="#ffffff" text-anchor="middle">초록 표지</text>
+  </g>
+
+  <!-- what happens cards -->
+  <rect x="40" y="300" width="300" height="300" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="60" y="336" font-size="19" font-weight="700" fill="#1d2a3a">세관이 하는 일</text>
+  <text x="60" y="366" font-size="17" fill="#1d2a3a">수출 증서를 떼고 표지의</text>
+  <text x="60" y="390" font-size="17" fill="#1d2a3a">"세관에 의한 증명"란 확인</text>
+  <text x="60" y="414" font-size="17" fill="#1d2a3a">이 확인이 없으면 까르네가</text>
+  <text x="60" y="438" font-size="17" fill="#1d2a3a">유효하지 않음</text>
+  <text x="60" y="476" font-size="19" font-weight="700" fill="#1f6fd1">한국 법에서는</text>
+  <text x="60" y="506" font-size="17" fill="#1d2a3a">확인받은 까르네가</text>
+  <text x="60" y="530" font-size="17" fill="#1d2a3a">수출신고필증(고시 제24조)</text>
+  <text x="60" y="568" font-size="16" fill="#5f6b78">휴대 반출이면 포장명세 첨부</text>
+  <text x="60" y="590" font-size="16" fill="#5f6b78">생략 가능</text>
+
+  <rect x="360" y="300" width="300" height="300" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="380" y="336" font-size="19" font-weight="700" fill="#1d2a3a">세관이 하는 일</text>
+  <text x="380" y="366" font-size="17" fill="#1d2a3a">수입 증서를 떼어 보관하고</text>
+  <text x="380" y="390" font-size="17" fill="#1d2a3a">재수출기한을 적음</text>
+  <text x="380" y="414" font-size="17" fill="#1d2a3a">기한은 유효기간보다</text>
+  <text x="380" y="438" font-size="17" fill="#1d2a3a">짧을 수 있음</text>
+  <text x="380" y="476" font-size="19" font-weight="700" fill="#d9482b">놓치기 쉬운 것</text>
+  <text x="380" y="506" font-size="17" fill="#1d2a3a">들여오지 않는 품목은</text>
+  <text x="380" y="530" font-size="17" fill="#1d2a3a">총괄목록에서 줄을 그어</text>
+  <text x="380" y="554" font-size="17" fill="#1d2a3a">지우고 신고</text>
+  <text x="380" y="590" font-size="16" fill="#5f6b78">사용인이 증서에 서명</text>
+
+  <rect x="680" y="300" width="300" height="300" rx="16" fill="#fbfcfd" stroke="#d9482b" stroke-width="2"/>
+  <text x="700" y="336" font-size="19" font-weight="700" fill="#1d2a3a">세관이 하는 일</text>
+  <text x="700" y="366" font-size="17" fill="#1d2a3a">재수출 증서를 떼고 부본에</text>
+  <text x="700" y="390" font-size="17" fill="#1d2a3a">품목번호·날짜·도장 기재</text>
+  <text x="700" y="428" font-size="19" font-weight="700" fill="#d9482b">클레임이 가장 많이</text>
+  <text x="700" y="452" font-size="19" font-weight="700" fill="#d9482b">생기는 곳</text>
+  <text x="700" y="482" font-size="17" fill="#1d2a3a">전시 뒤 반송 화물을 신고 없이</text>
+  <text x="700" y="506" font-size="17" fill="#1d2a3a">싣거나, 세관이 문을 닫은</text>
+  <text x="700" y="530" font-size="17" fill="#1d2a3a">시간에 출국하면 증명이 없음</text>
+  <text x="700" y="566" font-size="16" fill="#5f6b78">나눠 내보내면 그때마다</text>
+  <text x="700" y="588" font-size="16" fill="#5f6b78">재수출 증서가 한 장씩 필요</text>
+
+  <rect x="1000" y="300" width="300" height="300" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="1020" y="336" font-size="19" font-weight="700" fill="#1d2a3a">세관이 하는 일</text>
+  <text x="1020" y="366" font-size="17" fill="#1d2a3a">재수입 증서를 떼고 확인</text>
+  <text x="1020" y="390" font-size="17" fill="#1d2a3a">재수입면세: 일시수출신고</text>
+  <text x="1020" y="414" font-size="17" fill="#1d2a3a">수리일부터 2년 안</text>
+  <text x="1020" y="452" font-size="19" font-weight="700" fill="#1f6fd1">왜 꼭 받나</text>
+  <text x="1020" y="482" font-size="17" fill="#1d2a3a">3에서 재수출 확인을 못 받은</text>
+  <text x="1020" y="506" font-size="17" fill="#1d2a3a">경우, 한국 세관의 재수입</text>
+  <text x="1020" y="530" font-size="17" fill="#1d2a3a">확인이 물품이 그 나라 밖에</text>
+  <text x="1020" y="554" font-size="17" fill="#1d2a3a">있다는 마지막 증거</text>
+  <text x="1020" y="588" font-size="16" fill="#5f6b78">(ATA 협약 제8조 제2항)</text>
+
+  <rect x="1320" y="300" width="312" height="300" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="1340" y="336" font-size="19" font-weight="700" fill="#1d2a3a">명의인이 하는 일</text>
+  <text x="1340" y="366" font-size="17" fill="#1d2a3a">사용이 끝나면 바로 발급한</text>
+  <text x="1340" y="390" font-size="17" fill="#1d2a3a">상공회의소에 원본 반납</text>
+  <text x="1340" y="414" font-size="17" fill="#1d2a3a">이행완료확인서를 받아</text>
+  <text x="1340" y="438" font-size="17" fill="#1d2a3a">보증보험 해지·잔여 보험료 환급</text>
+  <text x="1340" y="476" font-size="19" font-weight="700" fill="#d9482b">반납하지 않으면</text>
+  <text x="1340" y="506" font-size="17" fill="#1d2a3a">수입국 세관의 처리 오류로</text>
+  <text x="1340" y="530" font-size="17" fill="#1d2a3a">청구가 와도 통관 기록을</text>
+  <text x="1340" y="554" font-size="17" fill="#1d2a3a">확인할 수 없어 해결 불가</text>
+
+  <!-- bottom strip: e-carnet and transit -->
+  <rect x="40" y="630" width="1592" height="282" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="64" y="670" font-size="21" font-weight="700" fill="#1d2a3a">한 권에 묶이는 증서</text>
+  <text x="64" y="702" font-size="18" fill="#1d2a3a">초록 표지와 총괄목록, 노란 수출·재수입 증서, 수입국마다 흰 수입·재수출 증서 한 쌍. 거쳐 가는 나라에서 보세운송을 하면 파란 통과 증서를 씁니다.</text>
+  <text x="64" y="730" font-size="18" fill="#1d2a3a">발급 뒤에는 총괄목록에 품목을 더할 수 없습니다(ATA 협약 제4조 제2항).</text>
+
+  <text x="64" y="782" font-size="21" font-weight="700" fill="#1f6fd1">디지털 까르네(eATA)</text>
+  <text x="64" y="814" font-size="18" fill="#1d2a3a">2026. 6. 1. 이후 발급분부터 EU 27개국·영국·스위스·노르웨이에서는 2·3번 신고를 앱에서 만든 QR코드로 합니다. 한국의 1·4번은 지금도 종이입니다.</text>
+  <text x="64" y="842" font-size="18" fill="#1d2a3a">공항 인터넷이 끊겨 신고를 빠뜨려도 책임은 명의인에게 있고, 사용을 시작한 뒤에는 수입국 추가나 분할 재수출용 증서를 더 받을 수 없습니다.</text>
+  <text x="64" y="884" font-size="16" fill="#5f6b78">근거: 대한상공회의소 ATA까르네 사용방법·발급절차·e까르네 안내, ICC 발표(2026. 6. 1.), ATA 협약 제4조·제8조, A.T.A.까르네에 의한 일시수출입 통관에 관한 고시 제24조·제25조(2026-10-28 확인)</text>
+</svg>

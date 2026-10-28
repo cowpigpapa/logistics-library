@@ -1,6 +1,6 @@
 {
  "hub": "/library/accident-cases/ac-all",
- "total": 303,
+ "total": 350,
  "cats": {
   "incoterms-2020": {
    "label": "Incoterms",
@@ -11,28 +11,28 @@
   },
   "charges": {
    "label": "부대비용",
-   "count": 12,
+   "count": 14,
    "case_docs": [
     "ch-cases"
    ]
   },
   "bl-awb": {
    "label": "B/L·AWB",
-   "count": 31,
+   "count": 38,
    "case_docs": [
     "bl-cases"
    ]
   },
   "customs": {
    "label": "통관",
-   "count": 32,
+   "count": 65,
    "case_docs": [
     "cu-cases"
    ]
   },
   "container": {
    "label": "컨테이너",
-   "count": 9,
+   "count": 12,
    "case_docs": [
     "cn-cases"
    ]
@@ -53,7 +53,7 @@
   },
   "dangerous-goods": {
    "label": "위험물",
-   "count": 55,
+   "count": 57,
    "case_docs": [
     "dg-cases"
    ]

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <defs>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f8a5b"/></marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d9482b"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f6fd1"/></marker>
+  </defs>
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <text x="56" y="62" font-size="32" font-weight="700" fill="#1d2a3a">까르네 한 권이 대신하는 두 가지: 통관 서류와 수입국 세관에 낼 담보</text>
+  <text x="56" y="98" font-size="20" fill="#5f6b78">한국 회사가 한국에서 발급받은 까르네로 외국 전시회에 물품을 보내는 경우. 초록 화살표는 정상 흐름, 빨간 점선은 재수출 확인이 없을 때의 청구 흐름</text>
+
+  <!-- Korea panel -->
+  <rect x="40" y="130" width="560" height="560" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="64" y="168" font-size="22" font-weight="700" fill="#1f6fd1">한국</text>
+
+  <rect x="72" y="190" width="240" height="130" rx="12" fill="#ffffff" stroke="#1d2a3a"/>
+  <text x="192" y="228" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">명의인(화주)</text>
+  <text x="192" y="260" font-size="17" fill="#5f6b78" text-anchor="middle">까르네 A항 Holder</text>
+  <text x="192" y="286" font-size="17" fill="#5f6b78" text-anchor="middle">B항 사용인(포워더 등)에게</text>
+  <text x="192" y="308" font-size="17" fill="#5f6b78" text-anchor="middle">통관을 맡길 수 있음</text>
+
+  <rect x="350" y="190" width="226" height="130" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-dasharray="6 4"/>
+  <text x="463" y="228" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">보증보험</text>
+  <text x="463" y="258" font-size="17" fill="#5f6b78" text-anchor="middle">물품가격의 일정 비율로</text>
+  <text x="463" y="282" font-size="17" fill="#5f6b78" text-anchor="middle">가입해 대한상의에 제출</text>
+  <text x="463" y="306" font-size="17" fill="#5f6b78" text-anchor="middle">반납 뒤 해지·환급</text>
+  <line x1="312" y1="255" x2="346" y2="255" stroke="#5f6b78" stroke-width="2"/>
+
+  <rect x="72" y="400" width="504" height="150" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+  <text x="324" y="440" font-size="24" font-weight="700" fill="#1f6fd1" text-anchor="middle">대한상공회의소</text>
+  <text x="324" y="472" font-size="18" fill="#1d2a3a" text-anchor="middle">관세청장이 인가한 발급단체이자 보증단체</text>
+  <text x="324" y="500" font-size="17" fill="#5f6b78" text-anchor="middle">발급 창구: 서울·부산·대구·안양과천 상공회의소</text>
+  <text x="324" y="526" font-size="17" fill="#5f6b78" text-anchor="middle">(A.T.A.까르네 통관 고시 제5조·제6조)</text>
+
+  <line x1="160" y1="324" x2="160" y2="394" stroke="#1f8a5b" stroke-width="3" marker-end="url(#ag)"/>
+  <text x="176" y="356" font-size="17" fill="#1f8a5b">① 신청·발급</text>
+  <text x="176" y="378" font-size="17" fill="#1f8a5b">총괄목록 확정</text>
+
+  <rect x="72" y="586" width="504" height="84" rx="12" fill="#ffffff" stroke="#c9d2dc"/>
+  <text x="96" y="620" font-size="18" fill="#1d2a3a">한국 세관: 출국 때 노란 수출 증서 확인</text>
+  <text x="96" y="648" font-size="18" fill="#1d2a3a">귀국 때 노란 재수입 증서 확인(재수입면세)</text>
+
+  <!-- ICC chain -->
+  <rect x="640" y="300" width="392" height="230" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="836" y="342" font-size="22" font-weight="700" fill="#1d2a3a" text-anchor="middle">국제 보증 체인</text>
+  <text x="836" y="374" font-size="18" fill="#1d2a3a" text-anchor="middle">ICC 세계상공회의소연맹(WCF)</text>
+  <text x="836" y="400" font-size="18" fill="#1d2a3a" text-anchor="middle">ATA 체인에 가입한 나라별 단체</text>
+  <text x="836" y="436" font-size="17" fill="#5f6b78" text-anchor="middle">수입국 단체가 낸 돈은 단체끼리</text>
+  <text x="836" y="460" font-size="17" fill="#5f6b78" text-anchor="middle">체인 규칙에 따라 정산</text>
+  <text x="836" y="496" font-size="16" fill="#5f6b78" text-anchor="middle">약 80개 국가·관세영역(ICC 안내)</text>
+
+  <!-- Foreign panel -->
+  <rect x="1072" y="130" width="560" height="560" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="1096" y="168" font-size="22" font-weight="700" fill="#1f6fd1">수입국(ATA 협약국)</text>
+
+  <rect x="1104" y="190" width="496" height="150" rx="12" fill="#ffffff" stroke="#1d2a3a"/>
+  <text x="1352" y="230" font-size="24" font-weight="700" fill="#1d2a3a" text-anchor="middle">수입국 세관</text>
+  <text x="1352" y="262" font-size="18" fill="#1d2a3a" text-anchor="middle">까르네를 자국 신고서 대신, 담보로 받음</text>
+  <text x="1352" y="290" font-size="17" fill="#5f6b78" text-anchor="middle">현금 예치·본드 없이 일시수입(협약 제3조)</text>
+  <text x="1352" y="316" font-size="17" fill="#5f6b78" text-anchor="middle">재수출기한을 증서에 적음(유효기간 이내)</text>
+
+  <rect x="1104" y="400" width="496" height="150" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+  <text x="1352" y="440" font-size="24" font-weight="700" fill="#1f6fd1" text-anchor="middle">수입국 보증단체</text>
+  <text x="1352" y="472" font-size="18" fill="#1d2a3a" text-anchor="middle">대개 그 나라 상공회의소</text>
+  <text x="1352" y="500" font-size="17" fill="#5f6b78" text-anchor="middle">명의인과 연대해 관세 등을 낼 책임</text>
+  <text x="1352" y="526" font-size="17" fill="#5f6b78" text-anchor="middle">한도는 수입세액 + 10%(협약 제6조)</text>
+
+  <!-- normal flow: holder to foreign customs -->
+  <path d="M 230 190 C 420 110, 900 120, 1100 228" fill="none" stroke="#1f8a5b" stroke-width="3" marker-end="url(#ag)"/>
+  <text x="836" y="206" font-size="18" fill="#1f8a5b" text-anchor="middle">② 물품과 함께 까르네 제시</text>
+  <text x="836" y="232" font-size="17" fill="#1f8a5b" text-anchor="middle">흰 수입 증서 → 전시 → 흰 재수출 증서</text>
+
+  <!-- claim flow -->
+  <line x1="1240" y1="344" x2="1240" y2="394" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#ar)"/>
+  <text x="1252" y="376" font-size="17" fill="#d9482b">③ 재수출 확인이 없으면 청구</text>
+  <line x1="1100" y1="470" x2="1038" y2="470" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#ar)"/>
+  <line x1="636" y1="470" x2="582" y2="470" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#ar)"/>
+  <text x="836" y="566" font-size="17" fill="#d9482b" text-anchor="middle">④ 수입국 단체가 대한상의에 상환 요구</text>
+  <path d="M 72 500 C 50 470, 50 300, 68 290" fill="none" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#ar)"/>
+
+  <!-- bottom notes -->
+  <rect x="40" y="716" width="1592" height="196" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="64" y="754" font-size="20" font-weight="700" fill="#d9482b">⑤ 대한상의는 명의인에게 구상합니다</text>
+  <text x="64" y="784" font-size="18" fill="#1d2a3a">까르네를 반납하지 않으면 수입국 통관 기록을 확인할 수 없어 클레임을 해결하지 못합니다. 보증보험은 이 구상을 확보하는 장치입니다.</text>
+  <text x="64" y="826" font-size="20" font-weight="700" fill="#1f6fd1">반대 방향도 같습니다</text>
+  <text x="64" y="856" font-size="18" fill="#1d2a3a">외국에서 발급된 까르네로 한국에 들어온 물품이 재수출되지 않으면 한국 세관이 대한상의(한국 보증단체)에 통보하고, 대한상의는 발급국 단체를 거쳐 정산합니다.</text>
+  <text x="64" y="888" font-size="16" fill="#5f6b78">근거: ATA 협약 제3조·제6조·제7조, A.T.A.까르네에 의한 일시수출입 통관에 관한 고시 제5조·제20조·제21조, 대한상공회의소 ATA까르네 발급 안내(2026-10-28 확인)</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="56" font-size="28" font-weight="800" fill="#1d2a3a">중계무역 대금, 누가 누구에게 보내느냐로 외환 신고가 갈린다</text>
+<text x="40" y="90" font-size="19" font-weight="600" fill="#5f6b78">외국환거래규정(재정경제부고시 제2026-103호) 제4-2조·제5-4조·제5-8조·제5-10조 · 대법원 2010. 5. 27. 선고 2009도4311 판결</text>
+<text x="40" y="132" font-size="18" font-weight="700" fill="#5f6b78">대금 흐름(K = 한국 중계상, A = 외국 공급자, B = 외국 구매자)</text>
+<text x="760" y="132" font-size="18" font-weight="700" fill="#5f6b78">외국환거래규정상 판단</text>
+
+<!-- row template: y base -->
+<!-- Row 1 -->
+<rect x="40" y="148" width="1592" height="134" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="182" font-size="20" font-weight="800" fill="#1d2a3a">1 각자 결제</text>
+<circle cx="140" cy="236" r="26" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/><text x="140" y="243" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">A</text>
+<circle cx="390" cy="236" r="26" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/><text x="390" y="243" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">K</text>
+<circle cx="640" cy="236" r="26" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/><text x="640" y="243" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">B</text>
+<line x1="612" y1="236" x2="420" y2="236" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<line x1="362" y1="236" x2="170" y2="236" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<text x="515" y="224" font-size="15" fill="#1f8a5b" text-anchor="middle">판매대금</text>
+<text x="265" y="224" font-size="15" fill="#1f8a5b" text-anchor="middle">매입대금</text>
+<rect x="740" y="166" width="140" height="34" rx="17" fill="#1f8a5b"/><text x="810" y="189" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">신고 없음</text>
+<text x="900" y="190" font-size="18" fill="#1d2a3a">당사자끼리 주고받는 물품 대금. 지급할 때 외국환은행에</text>
+<text x="900" y="218" font-size="18" fill="#1d2a3a">지급 사유와 금액을 입증하는 서류(계약서·인보이스·B/L)를 낸다(제4-2조).</text>
+<text x="900" y="252" font-size="16" fill="#5f6b78">계약건당 미화 10만불 초과 대금을 선적 전 1년을 넘겨 미리 주고받으면 한국은행 신고(제5-8조)</text>
+
+<!-- Row 2 -->
+<rect x="40" y="296" width="1592" height="134" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="330" font-size="20" font-weight="800" fill="#1d2a3a">2 다른 회사가 대신 보내옴</text>
+<circle cx="390" cy="384" r="26" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/><text x="390" y="391" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">K</text>
+<circle cx="640" cy="366" r="24" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/><text x="640" y="373" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">B</text>
+<rect x="540" y="400" width="200" height="26" rx="8" fill="#ffffff" stroke="#9aa6b2"/><text x="640" y="419" font-size="14" fill="#5f6b78" text-anchor="middle">B의 계열사 B'(비거주자)</text>
+<path d="M540 412 C470 412 430 400 420 392" fill="none" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<text x="470" y="366" font-size="15" fill="#1f8a5b" text-anchor="middle">B'가 대신 송금</text>
+<rect x="740" y="314" width="140" height="34" rx="17" fill="#1f8a5b"/><text x="810" y="337" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">신고 없음</text>
+<text x="900" y="338" font-size="18" fill="#1d2a3a">거래 당사자인 거주자(K)가 당사자가 아닌 비거주자에게서</text>
+<text x="900" y="366" font-size="18" fill="#1d2a3a">받는 것은 제3자 지급 신고 면제(제5-10조 제1항 제2호).</text>
+<text x="900" y="400" font-size="16" fill="#5f6b78">누가 왜 대신 보냈는지 B의 지시 서면을 받아 둔다</text>
+
+<!-- Row 3 -->
+<rect x="40" y="444" width="1592" height="134" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="478" font-size="20" font-weight="800" fill="#1d2a3a">3 A가 지정한 다른 계좌로 송금</text>
+<circle cx="140" cy="518" r="24" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/><text x="140" y="525" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">A</text>
+<rect x="60" y="548" width="160" height="26" rx="8" fill="#ffffff" stroke="#9aa6b2"/><text x="140" y="567" font-size="14" fill="#5f6b78" text-anchor="middle">A가 지정한 X 회사</text>
+<circle cx="390" cy="532" r="26" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/><text x="390" y="539" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">K</text>
+<path d="M362 540 C300 556 260 562 224 562" fill="none" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#r)"/>
+<text x="290" y="520" font-size="15" fill="#d9482b" text-anchor="middle">매입대금을 X에게</text>
+<rect x="740" y="462" width="140" height="34" rx="17" fill="#e4572e"/><text x="810" y="485" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">신고 대상</text>
+<text x="900" y="486" font-size="18" fill="#1d2a3a">거래 당사자가 아닌 자에게 지급하는 제3자 지급(제5-10조).</text>
+<text x="900" y="514" font-size="18" fill="#1d2a3a">미화 5천불 이하 면제, 5천불 초과 1만불 이내 외국환은행,</text>
+<text x="900" y="542" font-size="18" fill="#1d2a3a">그 밖에는 한국은행총재에게 송금 전에 신고(분할 지급은 합산).</text>
+<text x="900" y="568" font-size="16" fill="#5f6b78">계좌 변경 요청은 송금 사기 수법이기도 하다</text>
+
+<!-- Row 4 -->
+<rect x="40" y="592" width="1592" height="134" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="626" font-size="20" font-weight="800" fill="#1d2a3a">4 B가 A에게 직접, K는 차액만</text>
+<circle cx="140" cy="680" r="26" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/><text x="140" y="687" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">A</text>
+<circle cx="390" cy="660" r="26" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/><text x="390" y="667" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="middle">K</text>
+<circle cx="640" cy="680" r="26" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/><text x="640" y="687" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">B</text>
+<path d="M614 694 C500 716 280 716 166 694" fill="none" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#r)"/>
+<text x="390" y="701" font-size="14" fill="#d9482b" text-anchor="middle">B가 A에게 매입가 상당액</text>
+<line x1="614" y1="668" x2="420" y2="660" stroke="#d9482b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#r)"/>
+<text x="528" y="652" font-size="14" fill="#d9482b" text-anchor="middle">차액</text>
+<rect x="740" y="610" width="200" height="34" rx="17" fill="#e4572e"/><text x="840" y="633" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">신고 대상일 수 있음</text>
+<text x="960" y="634" font-size="18" fill="#1d2a3a">K의 채권(B)과 채무(A)가 한꺼번에 사라지는 구조.</text>
+<text x="960" y="662" font-size="18" fill="#1d2a3a">상계 등(법 제16조 제1호)이나 제3자 지급으로 볼 수 있고, 당사자가</text>
+<text x="960" y="690" font-size="18" fill="#1d2a3a">셋이면 다수 당사자 상계로 한국은행총재 신고 대상(제5-4조 제3항).</text>
+<text x="960" y="716" font-size="16" fill="#5f6b78">분류는 사실관계에 따라 달라지므로 거래외국환은행·한국은행에 먼저 확인</text>
+
+<!-- Row 5 -->
+<rect x="40" y="740" width="1592" height="176" rx="16" fill="#fff4f1" stroke="#e4572e" stroke-width="2"/>
+<text x="64" y="776" font-size="20" font-weight="800" fill="#d9482b">5 물건이 없는 "중계무역"</text>
+<text x="64" y="810" font-size="18" fill="#1d2a3a">실제 수입·수출 없이 신용장과 서류만 오가며</text>
+<text x="64" y="838" font-size="18" fill="#1d2a3a">외국 회사가 돈을 먼저 대 주고 나중에 이자를 붙여</text>
+<text x="64" y="866" font-size="18" fill="#1d2a3a">돌려받는 구조</text>
+<rect x="740" y="758" width="200" height="34" rx="17" fill="#d9482b"/><text x="840" y="781" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">자본거래로 본다</text>
+<text x="960" y="782" font-size="17" fill="#1d2a3a">형식이 중계무역이라도 실질이 외화 차입이면 자본거래</text>
+<text x="960" y="810" font-size="17" fill="#1d2a3a">신고 대상이고, 신용장이 개설되고 지정 거래은행에 입금됐다고 해서</text>
+<text x="960" y="838" font-size="17" fill="#1d2a3a">신고한 것으로 보지 않는다(대법원 2009도4311). 은행을 속여 신용장을</text>
+<text x="960" y="866" font-size="17" fill="#1d2a3a">열게 하면 사기죄(2007도10056), 지급한 이자는 원천징수 대상(2008두9959).</text>
+<text x="960" y="898" font-size="16" fill="#5f6b78">포워더는 실제 운송 없이 B/L·운송 서류만 만들어 달라는 요청을 받지 않는다</text>
+</svg>

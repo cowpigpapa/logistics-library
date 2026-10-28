@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="56" y="66" font-size="34" font-weight="700" fill="#1d2a3a">돌려받는 길과 처음부터 내지 않는 길</text>
+<text x="56" y="104" font-size="21" fill="#5f6b78">수출용 원재료 환급(특례법)과 관세법 제106조·제97조·제99조를 한 화면에서 구별합니다</text>
+<rect x="40" y="130" width="386" height="700" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="40" y="130" width="386" height="96" rx="16" fill="#1f6fd1"/>
+<rect x="40" y="200" width="386" height="26" fill="#1f6fd1"/>
+<text x="233" y="172" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">수출용 원재료 환급</text>
+<text x="233" y="208" font-size="20" font-weight="400" fill="#ffffff" text-anchor="middle">환급특례법</text>
+<text x="64" y="282" font-size="22" font-weight="700" fill="#1f6fd1" text-anchor="start">언제</text>
+<text x="64" y="318" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">수입 원재료로 만들거나</text>
+<text x="64" y="350" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">그대로 수출했을 때</text>
+<line x1="64" y1="380" x2="402" y2="380" stroke="#dbe2ea" stroke-width="2"/>
+<text x="64" y="424" font-size="22" font-weight="700" fill="#1f6fd1" text-anchor="start">세금</text>
+<text x="64" y="460" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">수입 때 냈다가 수출 뒤</text>
+<text x="64" y="492" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">돌려받음(부가세 제외)</text>
+<line x1="64" y1="522" x2="402" y2="522" stroke="#dbe2ea" stroke-width="2"/>
+<text x="64" y="566" font-size="22" font-weight="700" fill="#1f6fd1" text-anchor="start">기한</text>
+<text x="64" y="602" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">수입 후 2년 안 수출,</text>
+<text x="64" y="634" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">수출 후 5년 안 신청</text>
+<line x1="64" y1="664" x2="402" y2="664" stroke="#dbe2ea" stroke-width="2"/>
+<text x="64" y="708" font-size="22" font-weight="700" fill="#1f6fd1" text-anchor="start">핵심</text>
+<text x="64" y="744" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">수출신고필증, 선적,</text>
+<text x="64" y="776" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">소요량·납부세액 증빙</text>
+<rect x="442" y="130" width="386" height="700" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="442" y="130" width="386" height="96" rx="16" fill="#e4572e"/>
+<rect x="442" y="200" width="386" height="26" fill="#e4572e"/>
+<text x="635" y="172" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">위약물품 환급</text>
+<text x="635" y="208" font-size="20" font-weight="400" fill="#ffffff" text-anchor="middle">관세법 제106조</text>
+<text x="466" y="282" font-size="22" font-weight="700" fill="#e4572e" text-anchor="start">언제</text>
+<text x="466" y="318" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">수입한 물품이 계약과</text>
+<text x="466" y="350" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">달라 다시 수출할 때</text>
+<line x1="466" y1="380" x2="804" y2="380" stroke="#dbe2ea" stroke-width="2"/>
+<text x="466" y="424" font-size="22" font-weight="700" fill="#e4572e" text-anchor="start">세금</text>
+<text x="466" y="460" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">낸 관세 전액(일부만 내보내면</text>
+<text x="466" y="492" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">그만큼), 부가세도 함께 환급</text>
+<line x1="466" y1="522" x2="804" y2="522" stroke="#dbe2ea" stroke-width="2"/>
+<text x="466" y="566" font-size="22" font-weight="700" fill="#e4572e" text-anchor="start">기한</text>
+<text x="466" y="602" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">수입신고수리일부터 1년</text>
+<text x="466" y="634" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">안 보세구역 등에 반입</text>
+<line x1="466" y1="664" x2="804" y2="664" stroke="#dbe2ea" stroke-width="2"/>
+<text x="466" y="708" font-size="22" font-weight="700" fill="#e4572e" text-anchor="start">핵심</text>
+<text x="466" y="744" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">성질·형태 그대로,</text>
+<text x="466" y="776" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">사유서·계약 증빙 첨부</text>
+<rect x="844" y="130" width="386" height="700" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="844" y="130" width="386" height="96" rx="16" fill="#1f8a5b"/>
+<rect x="844" y="200" width="386" height="26" fill="#1f8a5b"/>
+<text x="1037" y="172" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">재수출면세</text>
+<text x="1037" y="208" font-size="20" font-weight="400" fill="#ffffff" text-anchor="middle">관세법 제97조</text>
+<text x="868" y="282" font-size="22" font-weight="700" fill="#1f8a5b" text-anchor="start">언제</text>
+<text x="868" y="318" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">전시품·수리용품 등을</text>
+<text x="868" y="350" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">잠시 들여왔다 내보낼 때</text>
+<line x1="868" y1="380" x2="1206" y2="380" stroke="#dbe2ea" stroke-width="2"/>
+<text x="868" y="424" font-size="22" font-weight="700" fill="#1f8a5b" text-anchor="start">세금</text>
+<text x="868" y="460" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">처음부터 면제,</text>
+<text x="868" y="492" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">기간 안 수출이 조건</text>
+<line x1="868" y1="522" x2="1206" y2="522" stroke="#dbe2ea" stroke-width="2"/>
+<text x="868" y="566" font-size="22" font-weight="700" fill="#1f8a5b" text-anchor="start">기한</text>
+<text x="868" y="602" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">1년 범위에서 세관장이</text>
+<text x="868" y="634" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">정함, 1년 범위 연장</text>
+<line x1="868" y1="664" x2="1206" y2="664" stroke="#dbe2ea" stroke-width="2"/>
+<text x="868" y="708" font-size="22" font-weight="700" fill="#1f8a5b" text-anchor="start">어기면</text>
+<text x="868" y="744" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">면제 관세 징수, 관세의</text>
+<text x="868" y="776" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">20% 가산세(500만원 한도)</text>
+<rect x="1246" y="130" width="386" height="700" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="1246" y="130" width="386" height="96" rx="16" fill="#d9482b"/>
+<rect x="1246" y="200" width="386" height="26" fill="#d9482b"/>
+<text x="1439" y="172" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">재수입면세</text>
+<text x="1439" y="208" font-size="20" font-weight="400" fill="#ffffff" text-anchor="middle">관세법 제99조</text>
+<text x="1270" y="282" font-size="22" font-weight="700" fill="#d9482b" text-anchor="start">언제</text>
+<text x="1270" y="318" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">수출한 물품이 해외에서</text>
+<text x="1270" y="350" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">쓰이지 않고 돌아올 때</text>
+<line x1="1270" y1="380" x2="1608" y2="380" stroke="#dbe2ea" stroke-width="2"/>
+<text x="1270" y="424" font-size="22" font-weight="700" fill="#d9482b" text-anchor="start">세금</text>
+<text x="1270" y="460" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">다시 들여올 때</text>
+<text x="1270" y="492" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">관세 면제</text>
+<line x1="1270" y1="522" x2="1608" y2="522" stroke="#dbe2ea" stroke-width="2"/>
+<text x="1270" y="566" font-size="22" font-weight="700" fill="#d9482b" text-anchor="start">기한</text>
+<text x="1270" y="602" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">수출신고수리일부터</text>
+<text x="1270" y="634" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">2년 안 재수입</text>
+<line x1="1270" y1="664" x2="1608" y2="664" stroke="#dbe2ea" stroke-width="2"/>
+<text x="1270" y="708" font-size="22" font-weight="700" fill="#d9482b" text-anchor="start">제외</text>
+<text x="1270" y="744" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">감면·환급을 받은 물품, 환급</text>
+<text x="1270" y="776" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">받을 자 외의 자가 들여올 때</text>
+<text x="56" y="872" font-size="20" font-weight="400" fill="#5f6b78" text-anchor="start">수입신고를 하기 전에 그대로 돌려보내는 화물은 위 네 가지가 아니라 반송신고로 처리합니다. 재수입면세의 마지막 제외 사유는 환급받을 권리를 포기한 서류가 있으면 풀립니다.</text>
+<text x="56" y="904" font-size="20" font-weight="400" fill="#5f6b78" text-anchor="start">재수출면세 가산세 대상 물품은 관세법 시행규칙 제50조가 정합니다. 위약물품의 부가가치세 환급은 부가가치세법 시행령 제105조(관세법 제106조 준용)에 따릅니다.</text>
+</svg>

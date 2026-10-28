@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="36" y="52" font-size="27" font-weight="800" fill="#1d2a3a">플렉시탱크 컨테이너가 망가지는 여섯 가지 길</text>
+<text x="36" y="84" font-size="18" fill="#5f6b78">플렉시탱크가 터지면 대개 화물 전손입니다(IUMI). 컨테이너 손상은 누출 없이도 생기고, 눈에 띄지 않은 구조 손상은 다음 운송에서 터질 수 있습니다(GDV).</text>
+
+<!-- ===== Card 1: side wall bulge ===== -->
+<rect x="24" y="108" width="530" height="392" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="48" y="146" font-size="21" font-weight="800" fill="#d9482b">1. 측벽 팽창(bulging)</text>
+<text x="48" y="170" font-size="14" fill="#5f6b78">문 쪽에서 본 단면</text>
+<!-- corner fitting planes -->
+<!-- container section with bulged sides -->
+<path d="M150 196 L330 196 Q352 280 330 342 L150 342 Q128 280 150 196 Z" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<path d="M154 250 Q240 226 326 250 Q346 300 326 338 L154 338 Q134 300 154 250 Z" fill="#d6e6fa" stroke="#1f6fd1" stroke-width="2"/>
+<rect x="144" y="190" width="14" height="14" fill="#1d2a3a"/><rect x="322" y="190" width="14" height="14" fill="#1d2a3a"/>
+<rect x="144" y="334" width="14" height="14" fill="#1d2a3a"/><rect x="322" y="334" width="14" height="14" fill="#1d2a3a"/>
+<line x1="150" y1="186" x2="150" y2="352" stroke="#d9482b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="330" y1="186" x2="330" y2="352" stroke="#d9482b" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="345" y1="290" x2="385" y2="290" stroke="#d9482b" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="135" y1="290" x2="95" y2="290" stroke="#d9482b" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="395" y="236" font-size="14" fill="#1d2a3a">점선: 코너 피팅 면</text>
+<text x="395" y="256" font-size="14" fill="#1d2a3a">밖으로 10mm 넘으면</text>
+<text x="395" y="276" font-size="14" fill="#1d2a3a">ISO/IICL 한계 초과</text>
+<g font-size="15" fill="#1d2a3a">
+<text x="48" y="392"><tspan font-weight="800">원인</tspan>: 과중량, 높은 충전 높이, 거친 바다와 바깥 열·상단 적재,</text>
+<text x="48" y="414">로고용 평판 패널이 있는 측벽</text>
+<text x="48" y="442"><tspan font-weight="800">결과</tspan>: 영구 변형, 다음 운송에서 스택 붕괴 위험(구조 약화)</text>
+<text x="48" y="474" font-size="13" fill="#5f6b78">UK P&amp;I 34장, GDV/GL 조사, COA 4.3 표(측벽은 끝까지 골판형)</text>
+</g>
+
+<!-- ===== Card 2: door end / bulkhead ===== -->
+<rect x="571" y="108" width="530" height="392" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="595" y="146" font-size="21" font-weight="800" fill="#d9482b">2. 문 쪽 벌크헤드·문 파손</text>
+<text x="595" y="170" font-size="14" fill="#5f6b78">옆에서 본 단면 (오른쪽이 문 쪽)</text>
+<rect x="620" y="200" width="400" height="140" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<path d="M626 270 Q760 250 900 262 Q990 268 996 300 L996 336 L626 336 Z" fill="#d6e6fa" stroke="#1f6fd1" stroke-width="2"/>
+<path d="M1000 236 Q1012 290 1000 338" fill="none" stroke="#5f6b78" stroke-width="7"/>
+<rect x="1020" y="200" width="10" height="140" fill="#8c99a6" stroke="#1d2a3a" stroke-width="1.5"/>
+<line x1="760" y1="300" x2="960" y2="300" stroke="#d9482b" stroke-width="3" marker-end="url(#ar)"/>
+<text x="700" y="366" font-size="14" fill="#1d2a3a">급제동·철도 연결 충격 때 액체가 문 쪽으로 쏠림</text>
+<text x="1012" y="228" font-size="13" fill="#5f6b78" text-anchor="end">벌크헤드</text>
+<g font-size="15" fill="#1d2a3a">
+<text x="595" y="392"><tspan font-weight="800">원인</tspan>: 시험받지 않은 벌크헤드로 바꿔 끼움, 액체가 문에 닿게 설치,</text>
+<text x="595" y="414">철도 입환·급제동(도로 종방향 0.8g)</text>
+<text x="595" y="442"><tspan font-weight="800">결과</tspan>: 문 변형·개방 불가, 문을 열 때 액체가 쏟아질 위험</text>
+<text x="595" y="474" font-size="13" fill="#5f6b78">PAS 1008 철도 충격 시험(2g), CTU Code 부속서 7 5.2.6</text>
+</g>
+
+<!-- ===== Card 3: puncture ===== -->
+<rect x="1118" y="108" width="530" height="392" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1142" y="146" font-size="21" font-weight="800" fill="#d9482b">3. 찔림·쓸림</text>
+<text x="1142" y="170" font-size="14" fill="#5f6b78">바닥과 벽 쪽 확대</text>
+<rect x="1160" y="320" width="440" height="22" fill="#c8a879" stroke="#1d2a3a" stroke-width="1.5"/>
+<path d="M1170 320 Q1380 230 1590 320 Z" fill="#d6e6fa" stroke="#1f6fd1" stroke-width="2"/>
+<!-- nail -->
+<rect x="1300" y="300" width="5" height="22" fill="#1d2a3a"/><rect x="1294" y="296" width="17" height="5" fill="#1d2a3a"/>
+<!-- weld bead on wall -->
+<rect x="1580" y="200" width="16" height="120" fill="#d7dde4" stroke="#1d2a3a" stroke-width="1.5"/>
+<path d="M1580 250 l-8 5 l8 5 l-8 5 l8 5 l-8 5 l8 5" fill="none" stroke="#d9482b" stroke-width="2.5"/>
+<path d="M1318 296 q4 10 0 14 q-4 -4 0 -14z" fill="#1f6fd1"/>
+<text x="1196" y="214" font-size="14" fill="#1d2a3a">튀어나온 못·나사</text>
+<line x1="1250" y1="220" x2="1300" y2="294" stroke="#1d2a3a" stroke-width="1.2"/>
+<text x="1452" y="210" font-size="14" fill="#1d2a3a" text-anchor="end">거친 수리 용접 부위</text>
+<line x1="1456" y1="206" x2="1570" y2="256" stroke="#1d2a3a" stroke-width="1.2"/>
+<g font-size="15" fill="#1d2a3a">
+<text x="1142" y="392"><tspan font-weight="800">원인</tspan>: 바닥 못·가시·패인 곳, 날카로운 용접·수리 부위, 래싱</text>
+<text x="1142" y="414">고리 노출, 라이닝을 빠뜨리거나 신발 신고 밟음</text>
+<text x="1142" y="442"><tspan font-weight="800">결과</tspan>: 운송 중 서서히 새거나 한꺼번에 터짐(전손)</text>
+<text x="1142" y="474" font-size="13" fill="#5f6b78">IUMI Annex 2 사진 사례, COA 4.3 표, CTU Code 부속서 7 5.2.5</text>
+</g>
+
+<!-- ===== Card 4: valve / patch ===== -->
+<rect x="24" y="512" width="530" height="392" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="48" y="550" font-size="21" font-weight="800" fill="#d9482b">4. 밸브·이음매 누출</text>
+<text x="48" y="574" font-size="14" fill="#5f6b78">문 쪽 밸브 부근</text>
+<path d="M70 720 L70 640 Q200 600 330 640 L330 720 Z" fill="#d6e6fa" stroke="#1f6fd1" stroke-width="2"/>
+<circle cx="300" cy="690" r="18" fill="#ffffff" stroke="#d9482b" stroke-width="4"/>
+<rect x="318" y="684" width="60" height="12" fill="#5f6b78"/>
+<rect x="378" y="676" width="16" height="28" fill="#1d2a3a"/>
+<path d="M394 690 Q440 690 460 640" fill="none" stroke="#1d2a3a" stroke-width="7"/>
+<path d="M286 712 q5 12 0 17 q-5 -5 0 -17z" fill="#1f6fd1"/>
+<path d="M300 716 q5 12 0 17 q-5 -5 0 -17z" fill="#1f6fd1"/>
+<text x="420" y="632" font-size="14" fill="#1d2a3a">충전 호스</text>
+<text x="170" y="756" font-size="14" fill="#1d2a3a">밸브 주변 이중 패치가 떨어짐</text>
+<g font-size="15" fill="#1d2a3a">
+<text x="48" y="796"><tspan font-weight="800">원인</tspan>: 호스 무게가 밸브를 끌어내림, 문을 닫다 밸브가 끼임,</text>
+<text x="48" y="818">밸브 결합·밀봉 불량, 가열 패드 과열로 필름이 녹음</text>
+<text x="48" y="846"><tspan font-weight="800">결과</tspan>: 항만에서 "드리퍼(dripper)"로 분리, 드립 트레이 위 옮겨 담기</text>
+<text x="48" y="878" font-size="13" fill="#5f6b78">UK P&amp;I 34.9, TT Club StopLoss(2024) 4.2, IUMI Annex 2</text>
+</g>
+
+<!-- ===== Card 5: fermentation ===== -->
+<rect x="571" y="512" width="530" height="392" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="595" y="550" font-size="21" font-weight="800" fill="#d9482b">5. 발효·가스 팽창</text>
+<text x="595" y="574" font-size="14" fill="#5f6b78">문 쪽에서 본 단면</text>
+<path d="M700 604 Q790 584 880 604 Q904 670 880 742 Q790 762 700 742 Q676 670 700 604 Z" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<path d="M708 612 Q790 594 872 612 Q894 670 872 734 Q790 752 708 734 Q686 670 708 612 Z" fill="#e6d3ef" stroke="#7a3fa0" stroke-width="2"/>
+<g fill="#ffffff" stroke="#7a3fa0" stroke-width="1.5"><circle cx="760" cy="650" r="7"/><circle cx="800" cy="632" r="5"/><circle cx="830" cy="668" r="8"/><circle cx="782" cy="690" r="6"/><circle cx="740" cy="700" r="5"/></g>
+<line x1="790" y1="590" x2="790" y2="572" stroke="#d9482b" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="902" y1="672" x2="930" y2="672" stroke="#d9482b" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="678" y1="672" x2="650" y2="672" stroke="#d9482b" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="944" y="640" font-size="14" fill="#1d2a3a">CO₂가 차올라</text>
+<text x="944" y="660" font-size="14" fill="#1d2a3a">지붕·측벽이</text>
+<text x="944" y="680" font-size="14" fill="#1d2a3a">사방으로 부풂</text>
+<g font-size="15" fill="#1d2a3a">
+<text x="595" y="796"><tspan font-weight="800">원인</tspan>: 포도주·과일주스 농축액·살아 있는 균이 든 액비의 2차 발효,</text>
+<text x="595" y="818">높은 온도, 압력 배출 밸브 없는 플렉시탱크</text>
+<text x="595" y="846"><tspan font-weight="800">결과</tspan>: 컨테이너 전방위 변형, 플렉시탱크 파열</text>
+<text x="595" y="878" font-size="13" fill="#5f6b78">IUMI Annex 2 사진 22~25, TT Club StopLoss 2.6.2, UK P&amp;I 34.9</text>
+</g>
+
+<!-- ===== Card 6: under / over fill ===== -->
+<rect x="1118" y="512" width="530" height="392" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1142" y="550" font-size="21" font-weight="800" fill="#d9482b">6. 덜 채움·넘치게 채움</text>
+<text x="1142" y="574" font-size="14" fill="#5f6b78">옆에서 본 단면</text>
+<!-- underfill -->
+<rect x="1150" y="610" width="220" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<path d="M1156 690 Q1210 660 1260 690 Q1310 718 1364 680 L1364 716 L1156 716 Z" fill="#d6e6fa" stroke="#1f6fd1" stroke-width="2"/>
+<path d="M1190 650 q20 -14 40 0 q20 14 40 0" fill="none" stroke="#d9482b" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="1260" y="744" font-size="14" fill="#1d2a3a" text-anchor="middle">덜 채움: 출렁임(서지)</text>
+<!-- overfill -->
+<rect x="1410" y="610" width="220" height="110" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<path d="M1416 640 Q1520 612 1624 640 L1624 716 L1416 716 Z" fill="#d6e6fa" stroke="#1f6fd1" stroke-width="2"/>
+<path d="M1460 628 l6 -10 M1520 622 l0 -12 M1580 628 l-6 -10" stroke="#d9482b" stroke-width="2.5"/>
+<text x="1520" y="744" font-size="14" fill="#1d2a3a" text-anchor="middle">넘침: 필름·이음매 응력</text>
+<g font-size="15" fill="#1d2a3a">
+<text x="1142" y="796"><tspan font-weight="800">기준</tspan>: 제조사가 정한 용량의 ±3%(COA·PAS), 유량계로 계량</text>
+<text x="1142" y="818">(제조사에 따라 ±5%, IUMI). 눈대중으로는 부족(UK P&amp;I)</text>
+<text x="1142" y="846"><tspan font-weight="800">결과</tspan>: 덜 채우면 선박 복원성에도 영향, 선장에게 알려야 함</text>
+<text x="1142" y="878" font-size="13" fill="#5f6b78">COA CoP V6-O 4.2, TT Club StopLoss 4.2.2, UK P&amp;I 34.4</text>
+</g>
+</svg>

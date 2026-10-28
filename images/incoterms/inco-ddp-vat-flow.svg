@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start">EU 수입 부가세는 누구에게 돌아오나</text>
+<text x="54" y="106" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">같은 화물, 세 가지 수입 명의. 공제는 물건을 자기 사업에 쓰는 사람의 이름으로 낼 때만 됩니다</text>
+<rect x="60" y="130" width="495" height="760" rx="14" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<rect x="60" y="130" width="495" height="62" rx="14" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="307.5" y="170" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">A. DDP, 매도인이 현지 부가세 등록</text>
+<rect x="84" y="214" width="447" height="118" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="104" y="254" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">① 매도인 이름으로 수입신고</text>
+<text x="104" y="282" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(EU 안의 대리인을 통해)</text>
+<text x="104" y="310" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">수입 부가세 납부</text>
+<line x1="307.5" y1="334" x2="307.5" y2="354" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="84" y="358" width="447" height="118" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="104" y="398" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">② 매도인 부가세 신고서에서</text>
+<text x="104" y="426" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">수입 부가세 공제</text>
+<text x="104" y="454" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(지침 제168조 (e))</text>
+<line x1="307.5" y1="478" x2="307.5" y2="498" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="84" y="502" width="447" height="118" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="104" y="542" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">③ 매수인에게 판매분 부가세</text>
+<text x="104" y="570" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">청구(그 회원국 안의 공급,</text>
+<text x="104" y="598" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">제32조)</text>
+<line x1="307.5" y1="622" x2="307.5" y2="642" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="84" y="646" width="447" height="90" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="104" y="686" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">④ 매수인이 자기 신고서에서</text>
+<text x="104" y="714" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">공제</text>
+<rect x="84" y="770" width="447" height="100" rx="10" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="307.5" y="812" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">부가세는 원가가 되지 않음</text>
+<text x="307.5" y="844" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">대신 매도인이 현지 신고 의무</text>
+<rect x="585" y="130" width="495" height="760" rx="14" fill="#ffffff" stroke="#d9482b" stroke-width="2"/>
+<rect x="585" y="130" width="495" height="62" rx="14" fill="#fdeeea" stroke="#d9482b" stroke-width="2"/>
+<text x="832.5" y="170" font-size="22" font-weight="800" fill="#d9482b" text-anchor="middle">B. DDP, 대리인·포워더 이름으로 수입</text>
+<rect x="609" y="214" width="447" height="90" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="629" y="254" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">① 대리인 이름으로 수입신고</text>
+<text x="629" y="282" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">수입 부가세 납부</text>
+<line x1="832.5" y1="306" x2="832.5" y2="326" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="609" y="330" width="447" height="118" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="629" y="370" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">② 대리인: 물건 주인이 아니고</text>
+<text x="629" y="398" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">비용이 자기 가격에 없음</text>
+<text x="629" y="426" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">→ 공제 불가(Weindel)</text>
+<line x1="832.5" y1="450" x2="832.5" y2="470" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="609" y="474" width="447" height="118" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="629" y="514" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">③ 매도인: 자기 이름의 수입</text>
+<text x="629" y="542" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">서류가 없어 공제 어려움</text>
+<text x="629" y="570" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(제178조 (e))</text>
+<line x1="832.5" y1="594" x2="832.5" y2="614" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="609" y="618" width="447" height="118" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="629" y="658" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">④ EU 밖 사업자 환급 절차는</text>
+<text x="629" y="686" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">그 나라에서 판 사업자는</text>
+<text x="629" y="714" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">대상 밖(86/560 제1조)</text>
+<rect x="609" y="770" width="447" height="100" rx="10" fill="#fdeeea" stroke="#d9482b" stroke-width="2.5"/>
+<text x="832.5" y="812" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">낸 부가세가 그대로 원가</text>
+<text x="832.5" y="844" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">누가 떠안을지 다툼</text>
+<rect x="1110" y="130" width="495" height="760" rx="14" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="1110" y="130" width="495" height="62" rx="14" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2"/>
+<text x="1357.5" y="170" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">C. DAP, 매수인이 수입</text>
+<rect x="1134" y="214" width="447" height="90" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="1154" y="254" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">① 매수인 이름으로 수입신고</text>
+<text x="1154" y="282" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">수입 부가세 납부</text>
+<line x1="1357.5" y1="306" x2="1357.5" y2="326" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="1134" y="330" width="447" height="90" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="1154" y="370" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">② 매수인이 자기 신고서에서</text>
+<text x="1154" y="398" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">공제</text>
+<line x1="1357.5" y1="422" x2="1357.5" y2="442" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<rect x="1134" y="446" width="447" height="90" rx="10" fill="#f6f8fa" stroke="#5f6b78" stroke-width="1.2"/>
+<text x="1154" y="486" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">③ 매도인은 수입국 등록이</text>
+<text x="1154" y="514" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">필요 없음</text>
+<rect x="1134" y="770" width="447" height="100" rx="10" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1357.5" y="812" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">부가세는 원가가 되지 않음</text>
+<text x="1357.5" y="844" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">관세 부담은 가격으로 조정</text>
+</svg>

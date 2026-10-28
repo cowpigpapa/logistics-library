@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <defs>
+    <pattern id="wood" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#d8b98a"/>
+      <line x1="0" y1="6" x2="12" y2="6" stroke="#b8935e" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f6fd1"/>
+    </marker>
+    <marker id="arrD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5f6b78"/>
+    </marker>
+  </defs>
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <text x="56" y="56" font-size="30" font-weight="700" fill="#1d2a3a">중량물선 선적과 해상 고박의 기본 구성</text>
+  <text x="56" y="88" font-size="18" fill="#5f6b78">개념도입니다. 실제 장비·각도·고박 수는 승인된 리프팅 플랜과 고박 계산을 따릅니다.</text>
+
+  <!-- LEFT PANEL -->
+  <rect x="40" y="108" width="960" height="584" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="60" y="142" font-size="21" font-weight="700" fill="#1d2a3a">들어 올릴 때: 선박 크레인과 스프레더 바(가로 단면)</text>
+
+  <!-- quay -->
+  <rect x="41" y="545" width="569" height="146" fill="#d5dbe2"/>
+  <line x1="41" y1="545" x2="610" y2="545" stroke="#5f6b78" stroke-width="2"/>
+  <line x1="610" y1="545" x2="610" y2="691" stroke="#5f6b78" stroke-width="2"/>
+  <text x="70" y="630" font-size="17" fill="#1d2a3a">부두</text>
+  <!-- water -->
+  <rect x="611" y="565" width="388" height="126" fill="#dbeafa"/>
+  <line x1="611" y1="565" x2="999" y2="565" stroke="#1f6fd1" stroke-width="1.5"/>
+
+  <!-- trailer / SPMT -->
+  <rect x="280" y="517" width="240" height="16" fill="#5f6b78"/>
+  <g fill="#1d2a3a">
+    <rect x="292" y="533" width="26" height="12" rx="3"/><rect x="330" y="533" width="26" height="12" rx="3"/>
+    <rect x="444" y="533" width="26" height="12" rx="3"/><rect x="482" y="533" width="26" height="12" rx="3"/>
+  </g>
+  <text x="400" y="605" font-size="16" fill="#1d2a3a" text-anchor="middle">트레일러·모듈 운반차(SPMT)</text>
+
+  <!-- cargo (transformer-like) lifted slightly -->
+  <rect x="300" y="420" width="200" height="92" rx="4" fill="#9aa8b8" stroke="#1d2a3a" stroke-width="2"/>
+  <g stroke="#1d2a3a" stroke-width="1.5" fill="none">
+    <line x1="330" y1="430" x2="330" y2="502"/><line x1="350" y1="430" x2="350" y2="502"/>
+    <line x1="450" y1="430" x2="450" y2="502"/><line x1="470" y1="430" x2="470" y2="502"/>
+  </g>
+  <!-- lifting lugs -->
+  <g fill="#1d2a3a">
+    <rect x="314" y="410" width="12" height="12"/><rect x="474" y="410" width="12" height="12"/>
+  </g>
+  <!-- COG -->
+  <circle cx="400" cy="470" r="13" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+  <path d="M400,457 A13,13 0 0 1 413,470 L400,470 Z M400,483 A13,13 0 0 1 387,470 L400,470 Z" fill="#d9482b"/>
+
+  <!-- ship hull section -->
+  <path d="M640,430 L640,622 Q640,650 668,650 L952,650 Q980,650 980,622 L980,430 Z" fill="#eef2f6" stroke="#1d2a3a" stroke-width="2.5"/>
+  <line x1="640" y1="430" x2="980" y2="430" stroke="#1d2a3a" stroke-width="4"/>
+  <line x1="660" y1="628" x2="960" y2="628" stroke="#5f6b78" stroke-width="1.5"/>
+  <!-- anti-heeling tanks -->
+  <rect x="646" y="452" width="30" height="170" fill="#ffffff" stroke="#5f6b78"/>
+  <rect x="646" y="600" width="30" height="22" fill="#9cc3ef"/>
+  <rect x="944" y="452" width="30" height="170" fill="#ffffff" stroke="#5f6b78"/>
+  <rect x="944" y="482" width="30" height="140" fill="#9cc3ef"/>
+  <line x1="684" y1="592" x2="936" y2="592" stroke="#1f6fd1" stroke-width="3" marker-end="url(#arr)"/>
+  <text x="810" y="530" font-size="16" fill="#1d2a3a" text-anchor="middle">⑤ 횡경사 보정(anti-heeling)</text>
+  <text x="810" y="554" font-size="15" fill="#5f6b78" text-anchor="middle">부두 쪽으로 기울지 않게</text><text x="810" y="576" font-size="15" fill="#5f6b78" text-anchor="middle">반대편 탱크로 물을 옮김</text>
+  
+
+  <!-- crane: pedestal, house, mast, jib -->
+  <rect x="655" y="380" width="40" height="50" fill="#e4572e" stroke="#1d2a3a" stroke-width="1.5"/>
+  <rect x="640" y="345" width="78" height="36" rx="4" fill="#e4572e" stroke="#1d2a3a" stroke-width="1.5"/>
+  <line x1="700" y1="345" x2="700" y2="300" stroke="#1d2a3a" stroke-width="4"/>
+  <line x1="700" y1="300" x2="405" y2="180" stroke="#1d2a3a" stroke-width="1.5"/>
+  <polygon points="660,352 680,372 408,186 398,174" fill="#e4572e" stroke="#1d2a3a" stroke-width="1.5"/>
+  <!-- hoist wire -->
+  <line x1="401" y1="182" x2="401" y2="268" stroke="#1d2a3a" stroke-width="2"/>
+  <!-- hook block -->
+  <rect x="388" y="268" width="26" height="30" rx="4" fill="#f1c232" stroke="#1d2a3a" stroke-width="1.5"/>
+  <path d="M401,298 q0,10 -6,12" fill="none" stroke="#1d2a3a" stroke-width="2.5"/>
+  <!-- top slings to spreader -->
+  <line x1="401" y1="304" x2="320" y2="360" stroke="#1d2a3a" stroke-width="2.5"/>
+  <line x1="401" y1="304" x2="480" y2="360" stroke="#1d2a3a" stroke-width="2.5"/>
+  <!-- spreader bar -->
+  <rect x="308" y="360" width="184" height="13" rx="3" fill="#1f8a5b" stroke="#1d2a3a" stroke-width="1.5"/>
+  <!-- vertical slings -->
+  <line x1="320" y1="373" x2="320" y2="411" stroke="#1d2a3a" stroke-width="2.5"/>
+  <line x1="480" y1="373" x2="480" y2="411" stroke="#1d2a3a" stroke-width="2.5"/>
+  <!-- COG plumb line -->
+  <line x1="401" y1="304" x2="401" y2="456" stroke="#d9482b" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- left labels with leaders -->
+  <g font-size="17" fill="#1d2a3a">
+    <text x="60" y="190" font-weight="700">① 선박 크레인 붐</text>
+    <text x="60" y="212" font-size="14" fill="#5f6b78">부두 쪽으로 뻗어 화물을 들어 올림</text>
+    <line x1="230" y1="186" x2="468" y2="224" stroke="#5f6b78" stroke-width="1"/>
+    <text x="60" y="276" font-weight="700">② 훅 블록</text>
+    <text x="60" y="298" font-size="14" fill="#5f6b78">무게중심 바로 위에 둠</text>
+    <line x1="150" y1="272" x2="384" y2="282" stroke="#5f6b78" stroke-width="1"/>
+    <text x="60" y="352" font-weight="700">③ 스프레더 바</text>
+    <text x="60" y="374" font-size="14" fill="#5f6b78">슬링을 수직으로 세워</text>
+    <text x="60" y="394" font-size="14" fill="#5f6b78">화물 몸체에 옆 힘을 줄임</text>
+    <line x1="176" y1="348" x2="304" y2="364" stroke="#5f6b78" stroke-width="1"/>
+    <text x="60" y="446" font-weight="700">④ 들어 올리는 점</text>
+    <text x="60" y="468" font-size="14" fill="#5f6b78">제조사 도면의 lug만 사용</text>
+    <line x1="196" y1="442" x2="312" y2="418" stroke="#5f6b78" stroke-width="1"/>
+    <text x="60" y="510" font-size="14" fill="#d9482b">● 무게중심(COG) 표시</text>
+  </g>
+
+  <!-- tandem inset -->
+  <rect x="728" y="160" width="258" height="196" rx="12" fill="#ffffff" stroke="#c9d2dc"/>
+  <text x="752" y="186" font-size="15" font-weight="700" fill="#1d2a3a">탠덤 리프트(옆에서 본 모습)</text>
+  <line x1="780" y1="196" x2="780" y2="232" stroke="#1d2a3a" stroke-width="2"/>
+  <line x1="940" y1="196" x2="940" y2="232" stroke="#1d2a3a" stroke-width="2"/>
+  <rect x="770" y="232" width="20" height="16" rx="3" fill="#f1c232" stroke="#1d2a3a"/>
+  <rect x="930" y="232" width="20" height="16" rx="3" fill="#f1c232" stroke="#1d2a3a"/>
+  <rect x="768" y="252" width="184" height="10" rx="2" fill="#1f8a5b" stroke="#1d2a3a"/>
+  <line x1="800" y1="262" x2="800" y2="282" stroke="#1d2a3a" stroke-width="2"/>
+  <line x1="920" y1="262" x2="920" y2="282" stroke="#1d2a3a" stroke-width="2"/>
+  <rect x="790" y="282" width="140" height="26" rx="3" fill="#9aa8b8" stroke="#1d2a3a"/>
+  <text x="788" y="214" font-size="12" fill="#5f6b78">크레인 1</text>
+  <text x="932" y="214" font-size="12" fill="#5f6b78" text-anchor="end">크레인 2</text>
+  <text x="857" y="328" font-size="13" fill="#5f6b78" text-anchor="middle">두 훅이 한 빔을 나눠 듦</text><text x="857" y="346" font-size="13" fill="#5f6b78" text-anchor="middle">크레인별 하중 배분을 계산</text>
+
+  <!-- RIGHT PANEL -->
+  <rect x="1024" y="108" width="608" height="584" rx="16" fill="#fbfcfd" stroke="#c9d2dc"/>
+  <text x="1044" y="142" font-size="21" font-weight="700" fill="#1d2a3a">실은 뒤: 받침과 해상 고박(sea fastening)</text>
+
+  <!-- deck and frames -->
+  <rect x="1044" y="560" width="568" height="10" fill="#5f6b78"/>
+  <g stroke="#a9b4c0" stroke-width="3">
+    <line x1="1090" y1="570" x2="1090" y2="620"/><line x1="1170" y1="570" x2="1170" y2="620"/>
+    <line x1="1250" y1="570" x2="1250" y2="620"/><line x1="1330" y1="570" x2="1330" y2="620"/>
+    <line x1="1410" y1="570" x2="1410" y2="620"/><line x1="1490" y1="570" x2="1490" y2="620"/>
+    <line x1="1570" y1="570" x2="1570" y2="620"/>
+  </g>
+  <text x="1328" y="648" font-size="15" fill="#5f6b78" text-anchor="middle">갑판 아래 늑골(frame)·보강재</text>
+
+  <!-- grillage -->
+  <rect x="1180" y="536" width="300" height="24" fill="url(#wood)" stroke="#1d2a3a" stroke-width="1.5"/>
+  <!-- cargo -->
+  <rect x="1200" y="406" width="260" height="130" rx="4" fill="#9aa8b8" stroke="#1d2a3a" stroke-width="2"/>
+  <g stroke="#1d2a3a" stroke-width="1.5">
+    <line x1="1240" y1="416" x2="1240" y2="526"/><line x1="1262" y1="416" x2="1262" y2="526"/>
+    <line x1="1398" y1="416" x2="1398" y2="526"/><line x1="1420" y1="416" x2="1420" y2="526"/>
+  </g>
+  <!-- stoppers (welded) -->
+  <polygon points="1158,560 1180,560 1180,506 1196,506 1196,536 1180,536" fill="#1f8a5b" stroke="#1d2a3a" stroke-width="1.5"/>
+  <polygon points="1158,560 1196,506 1196,514 1166,560" fill="#1f8a5b" stroke="#1d2a3a" stroke-width="1"/>
+  <polygon points="1502,560 1480,560 1480,506 1464,506 1464,536 1480,536" fill="#1f8a5b" stroke="#1d2a3a" stroke-width="1.5"/>
+  <polygon points="1502,560 1464,506 1464,514 1494,560" fill="#1f8a5b" stroke="#1d2a3a" stroke-width="1"/>
+  <!-- lashing points on cargo -->
+  <g fill="#1d2a3a">
+    <circle cx="1212" cy="430" r="6"/><circle cx="1448" cy="430" r="6"/>
+    <circle cx="1212" cy="470" r="6"/><circle cx="1448" cy="470" r="6"/>
+  </g>
+  <!-- chains -->
+  <g stroke="#1d2a3a" stroke-width="3" stroke-dasharray="7 3">
+    <line x1="1212" y1="430" x2="1072" y2="556"/>
+    <line x1="1212" y1="470" x2="1112" y2="556"/>
+    <line x1="1448" y1="430" x2="1588" y2="556"/>
+    <line x1="1448" y1="470" x2="1548" y2="556"/>
+  </g>
+  <!-- tensioners -->
+  <g fill="#f1c232" stroke="#1d2a3a" stroke-width="1.2">
+    <rect x="1134" y="490" width="14" height="22" transform="rotate(48 1141 501)"/>
+    <rect x="1157" y="511" width="14" height="20" transform="rotate(41 1164 521)"/>
+    <rect x="1512" y="490" width="14" height="22" transform="rotate(-48 1519 501)"/>
+    <rect x="1489" y="511" width="14" height="20" transform="rotate(-41 1496 521)"/>
+  </g>
+  <!-- D-rings -->
+  <g fill="none" stroke="#1d2a3a" stroke-width="3">
+    <path d="M1064,560 a8,8 0 0 1 16,0"/><path d="M1104,560 a8,8 0 0 1 16,0"/>
+    <path d="M1540,560 a8,8 0 0 1 16,0"/><path d="M1580,560 a8,8 0 0 1 16,0"/>
+  </g>
+
+  <!-- right legend -->
+  <g font-size="16" fill="#1d2a3a">
+    <text x="1044" y="184"><tspan font-weight="700">⑥ 체인 고박 + 긴장기</tspan>: 화물 고박점 → 갑판 D링, 좌우 대칭</text>
+    <text x="1044" y="214"><tspan font-weight="700">⑦ 고박점</tspan>: 제조사 도면의 lashing point만 사용</text>
+    <text x="1044" y="244"><tspan font-weight="700">⑧ 용접 멈춤쇠(stopper)</tspan>: 앞뒤·좌우 미끄럼을 막음</text>
+    <text x="1044" y="274"><tspan font-weight="700">⑨ 받침(그릴리지)</tspan>: 하중을 갑판 늑골 위로 나눔</text>
+    <text x="1044" y="306" font-size="15" fill="#5f6b78">강도·고박 계산은 CSS Code 부속서 13, 결과는 MWS 검토 대상</text>
+  </g>
+  <g font-size="14" font-weight="700" fill="#1d2a3a" text-anchor="middle">
+    <circle cx="1108" cy="468" r="12" fill="#ffffff" stroke="#1d2a3a"/><text x="1108" y="473">⑥</text>
+    <circle cx="1236" cy="448" r="12" fill="#ffffff" stroke="#1d2a3a"/><text x="1236" y="453">⑦</text>
+    <circle cx="1170" cy="596" r="12" fill="#ffffff" stroke="#1d2a3a"/><text x="1170" y="601">⑧</text>
+    <line x1="1170" y1="584" x2="1172" y2="562" stroke="#1d2a3a" stroke-width="1"/>
+    <circle cx="1330" cy="548" r="11" fill="#ffffff" stroke="#1d2a3a"/><text x="1330" y="553">⑨</text>
+  </g>
+
+  <!-- BOTTOM: document flow -->
+  <text x="56" y="728" font-size="20" font-weight="700" fill="#1d2a3a">서류 흐름: 포워더는 작업을 하지 않고 서류를 모아 맞춰 봅니다</text>
+  <g>
+    <rect x="40" y="744" width="372" height="176" rx="14" fill="#fbfcfd" stroke="#c9d2dc"/>
+    <rect x="440" y="744" width="372" height="176" rx="14" fill="#fbfcfd" stroke="#c9d2dc"/>
+    <rect x="840" y="744" width="372" height="176" rx="14" fill="#fbfcfd" stroke="#c9d2dc"/>
+    <rect x="1240" y="744" width="392" height="176" rx="14" fill="#eef5fd" stroke="#1f6fd1" stroke-width="2"/>
+    <line x1="414" y1="832" x2="436" y2="832" stroke="#5f6b78" stroke-width="3" marker-end="url(#arrD)"/>
+    <line x1="814" y1="832" x2="836" y2="832" stroke="#5f6b78" stroke-width="3" marker-end="url(#arrD)"/>
+    <line x1="1214" y1="832" x2="1236" y2="832" stroke="#5f6b78" stroke-width="3" marker-end="url(#arrD)"/>
+  </g>
+  <g font-size="16" fill="#1d2a3a">
+    <text x="60" y="778" font-size="18" font-weight="700">화주·제조사</text>
+    <text x="60" y="808">· 중량·무게중심 증명</text>
+    <text x="60" y="834">· 들어 올리는 점·고박점 도면</text>
+    <text x="60" y="860">· 치수도, 포장·보강 방법</text>
+    <text x="60" y="886">· 갑판 적재 허용 여부(매매·신용장)</text>
+
+    <text x="460" y="778" font-size="18" font-weight="700">선주·운송인</text>
+    <text x="460" y="808">· 리프팅 플랜(크레인 반경·하중,</text>
+    <text x="474" y="832">탠덤 하중 배분, 횡경사 보정)</text>
+    <text x="460" y="858">· 적부·고박 계획과 계산</text>
+    <text x="460" y="884">· 갑판 적재 여부와 B/L 비고 문구</text>
+
+    <text x="860" y="778" font-size="18" font-weight="700">해상보증검정인(MWS)</text>
+    <text x="860" y="808">· 계획 검토 → 현장 입회</text>
+    <text x="860" y="834">· 승인서(CoA) 발급</text>
+    <text x="860" y="860">· 권고 사항 이행 조건이 붙기도 함</text>
+    <text x="860" y="886">· 보험자와 함께 선정</text>
+
+    <text x="1260" y="778" font-size="18" font-weight="700" fill="#1f6fd1">포워더</text>
+    <text x="1260" y="808">· 세 쪽 서류의 중량·치수·무게중심 대조</text>
+    <text x="1260" y="834">· 보험의 MWS 담보, 갑판 화물 약관을</text>
+    <text x="1274" y="858">운송 계약과 같은 내용으로 맞춤</text>
+    <text x="1260" y="884">· 승인서가 나온 뒤에 작업 일정 확정</text>
+  </g>
+</svg>

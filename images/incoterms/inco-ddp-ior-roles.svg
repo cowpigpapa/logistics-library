@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start">DDP 매도인이 수입국에서 갖춰야 할 것</text>
+<text x="54" y="106" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">한국 매도인이 DDP로 팔 때, 수입신고서에 이름이 오르는 사람과 그 사람이 지는 책임</text>
+<rect x="50" y="130" width="1572" height="240" rx="14" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<rect x="50" y="130" width="190" height="240" rx="14" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="145" y="244.0" font-size="34" font-weight="800" fill="#1f6fd1" text-anchor="middle">EU</text>
+<text x="145" y="278.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">UCC·부가세 지침</text>
+<rect x="264" y="152" width="320" height="196" rx="10" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="284" y="192" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">신고인 요건</text>
+<text x="284" y="230" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">EU 안에 설립된 사람만</text>
+<text x="284" y="260" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">신고인(제170조 제2항)</text>
+<rect x="600" y="152" width="320" height="196" rx="10" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="620" y="192" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">간접 대리인</text>
+<text x="620" y="230" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">자기 이름으로 신고,</text>
+<text x="620" y="260" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">매도인과 관세 연대 책임</text>
+<text x="620" y="290" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(제77조 제3항·제84조)</text>
+<rect x="936" y="152" width="320" height="196" rx="10" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="956" y="192" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">EORI 등록</text>
+<text x="956" y="230" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">처음 신고하는 회원국</text>
+<text x="956" y="260" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">세관에 등록(제9조 제2항)</text>
+<rect x="1272" y="152" width="320" height="196" rx="10" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="1292" y="192" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">수입 부가세</text>
+<text x="1292" y="230" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">현지 부가세 등록이 있어야</text>
+<text x="1292" y="260" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">공제. 없으면 원가(4절)</text>
+<rect x="50" y="388" width="1572" height="240" rx="14" fill="#ffffff" stroke="#e4572e" stroke-width="2"/>
+<rect x="50" y="388" width="190" height="240" rx="14" fill="#fdf0eb" stroke="#e4572e" stroke-width="2"/>
+<text x="145" y="502.0" font-size="34" font-weight="800" fill="#e4572e" text-anchor="middle">미국</text>
+<text x="145" y="536.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">19 U.S.C.·19 CFR</text>
+<rect x="264" y="410" width="320" height="196" rx="10" fill="#fdf0eb" stroke="#e4572e" stroke-width="1.5"/>
+<text x="284" y="450" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">IOR 자격</text>
+<text x="284" y="488" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">소유자·구매자 또는</text>
+<text x="284" y="518" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">그들이 지정한 면허 관세사</text>
+<text x="284" y="548" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(1484(a))</text>
+<rect x="600" y="410" width="320" height="196" rx="10" fill="#fdf0eb" stroke="#e4572e" stroke-width="1.5"/>
+<text x="620" y="450" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">수입자 번호</text>
+<text x="620" y="488" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">CBP Form 5106</text>
+<text x="620" y="518" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">번호가 없으면 CBP가 부여</text>
+<text x="620" y="548" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(24.5)</text>
+<rect x="936" y="410" width="320" height="196" rx="10" fill="#fdf0eb" stroke="#e4572e" stroke-width="1.5"/>
+<text x="956" y="450" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">외국 법인 요건</text>
+<text x="956" y="488" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">현지 송달 대리인 +</text>
+<text x="956" y="518" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">현지 보증회사의 보증</text>
+<text x="956" y="548" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(141.18)</text>
+<rect x="1272" y="410" width="320" height="196" rx="10" fill="#fdf0eb" stroke="#e4572e" stroke-width="1.5"/>
+<text x="1292" y="450" font-size="22" font-weight="800" fill="#e4572e" text-anchor="start">관세사 위임</text>
+<text x="1292" y="488" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">IOR과 직접 위임장</text>
+<text x="1292" y="518" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">포워더를 거치지 않음</text>
+<text x="1292" y="548" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(111.36(c)(3))</text>
+<rect x="50" y="646" width="1572" height="240" rx="14" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="50" y="646" width="190" height="240" rx="14" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2"/>
+<text x="145" y="760.0" font-size="34" font-weight="800" fill="#1f8a5b" text-anchor="middle">한국</text>
+<text x="145" y="794.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="middle">관세법·부가가치세법</text>
+<rect x="264" y="668" width="320" height="196" rx="10" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="284" y="708" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">신고 명의</text>
+<text x="284" y="746" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">화주 또는 관세사등</text>
+<text x="284" y="776" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(제242조)</text>
+<rect x="600" y="668" width="320" height="196" rx="10" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="620" y="708" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">납세의무자</text>
+<text x="620" y="746" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">신고 명의가 아니라</text>
+<text x="620" y="776" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">실제 소유자</text>
+<text x="620" y="806" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(제19조, 2002두8442)</text>
+<rect x="936" y="668" width="320" height="196" rx="10" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="956" y="708" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">통관고유부호</text>
+<text x="956" y="746" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">사업자 부호 신청에</text>
+<text x="956" y="776" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">사업자등록증 필요</text>
+<text x="956" y="806" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(고시 제6조)</text>
+<rect x="1272" y="668" width="320" height="196" rx="10" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="1292" y="708" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">명의 빌려주기</text>
+<text x="1292" y="746" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">관세 회피 등 목적이면</text>
+<text x="1292" y="776" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">빌려준 사람도 처벌</text>
+<text x="1292" y="806" font-size="19" font-weight="500" fill="#1d2a3a" text-anchor="start">(제275조의3 제2항)</text>
+</svg>

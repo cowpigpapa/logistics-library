@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/charges';
-  const DOCS_VERSION = '20261027-10';
+  const DOCS_VERSION = '20261028-10';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -41,7 +41,8 @@
     { id: 'ch-dnd', checked: '2026-10-19', tag: "DEM·DET", level: 3, title: "DEM·DET 제대로 읽기 — 같은 이름, 다른 시계와 계산법, LFD 확인과 손실 예방", short: "Demurrage·Detention과 무료 기간", summary: "Demurrage·Detention·통합 D&D·터미널 보관료를 구분하고 선사·나라별 요율표의 시계와 계산법 차이를 비교한 뒤, 컨테이너마다 Last Free Day(LFD)를 날짜로 세는 법과 계산 예시, free time 협의·연장 구매 시점, 지연 때 서면 요청, 수출 공컨테이너 반출일, 비용 협의 등 손실 예방 실무와 FMC 규정, 역할별 점검표를 정리합니다." },
     { id: 'ch-korea-storage', tag: "한국보관료", level: 3, title: "부산 터미널 보관료와 선사 D&D — 따로 쌓이는 두 시계, 부산 신항 요율과 PNC 2026 계산 예시", short: "부산 터미널 보관료와 선사 D&D", summary: "2023년부터 PNC·HJIT·GWCT·BNCT의 수입 보관료를 터미널이 수입자에게 직접 청구한다는 선사 공지와 그 결과 따로 도는 두 시계(양하일~반출일 보관료, 양하일~빈 컨테이너 반납일 선사 통합 D&D), PNC 2026 요율표의 '최고 구간 요율을 전 기간에' 규칙과 15일 = 500,500원·14일 = 318,500원 계산, 오전 8시 양하 기준, BNCT 일괄 적용 공지와 HJNC 2026 요율 비교, 두 시계를 합친 계산 예시, D/O 조건과 반출·반납 일정 관리, 화주 안내 문구, 포워더 체크리스트." },
     { id: 'ch-air-storage', tag: "항공보관료", level: 3, title: "인천공항 보관료: 종가료·종량료 — 두 요금을 더하는 구조, 무료 시간과 자정 규칙, 고가 특수화물 계산", short: "인천공항 화물 보관료 계산", summary: "인천공항 수입화물 보관료(창고료)가 종가액(과세가격 + 관세 기준)과 종량액(중량 기준)을 합산하는 구조와 '기본요율 + 할증요율 × 보관일수' 계산법, 대한항공 화물터미널·아시아나에어포트(AAP) C터미널·스위스포트코리아의 공개 요율과 최저 금액, 특수·귀중화물 50% 할증과 터미널별로 다른 무료 시간(12시간·24시간·없음), 공개 계산기로 확인한 보관일수 계산(무료 시간 미만 기준, 날짜 차이 최소 1일, 10일 계단), 10억 원·500kg 특수화물을 13시간에 출고한 사례(보관료 2,406,750원 중 약 98%가 종가, THC 81,555원 별도), 같은 청구서의 THC·특송 심야 할증·보류화물 기준, 보세창고 고시 제16조와 관세법 제172조, 하루 치를 피하는 포워더 체크리스트를 2026년 10월 11일 확인 기준으로 정리합니다." },
-    { id: 'ch-netting', checked: '2026-10-23', tag: "외환정산", level: 3, title: "해외 파트너와 운임 정산 — SOA 상계·제3자 지급과 외국환거래법 신고", short: "해외 파트너 정산과 외환 신고", summary: "해외 파트너와 SOA로 차액만 정산하는 상계, 다른 회사 계좌로 보내는 제3자 지급의 외국환거래규정상 신고 기준(미화 5천불, 외국환은행·한국은행 구분, 1개월 사후 보고)과 상호계산, 과태료·형벌, 관세청 검사 범위, SOA를 신고 요건에 맞추는 순서를 정리합니다." }
+    { id: 'ch-netting', checked: '2026-10-23', tag: "외환정산", level: 3, title: "해외 파트너와 운임 정산 — SOA 상계·제3자 지급과 외국환거래법 신고", short: "해외 파트너 정산과 외환 신고", summary: "해외 파트너와 SOA로 차액만 정산하는 상계, 다른 회사 계좌로 보내는 제3자 지급의 외국환거래규정상 신고 기준(미화 5천불, 외국환은행·한국은행 구분, 1개월 사후 보고)과 상호계산, 과태료·형벌, 관세청 검사 범위, SOA를 신고 요건에 맞추는 순서를 정리합니다." },
+    { id: 'ch-cass', checked: '2026-10-28', tag: "항공정산", level: 3, title: "항공 운임 정산(CASS)과 항공사 크레딧 — IATA 대리점 인가·보증, 한국 정산 주기, CCA·DCM, 연체와 착불", short: "항공 운임 정산(CASS)", summary: "포워더가 AWB를 실행하는 순간 생기는 항공사 운임 채무가 IATA CASS로 정산되는 구조를 다룹니다. IATA 화물대리점 인가와 한국 재무 기준·보증, 한 달 두 번 청구하고 다음 달 15일·말일에 송금하는 한국 CASS 일정과 유예기간 10일, 선불·착불과 항공사 몫·대리점 몫(MY·AW 등)이 정산 금액이 되는 방식, CCA·DCM과 CASSLink 이의 마감·자동 승인, 분쟁 금액의 증빙·예치, 이상 통지와 불이행(default)의 결과, 착불(CC)과 착불 수수료, CASS 밖 항공사·항공운송총대리점(GSA)과의 정산, 2026년 7월 Direct AWB 조항, AWB 단위 내부 대사를 금액 없이 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -55,7 +56,7 @@
   const SECTIONS = [
     { title: "운임 계산과 견적", sub: "견적서 읽기 · 해상 할증료 · 항공 운임 중량 · LCL 운임톤 · 물류 탄소 배출량 계산", docs: ["ch-quote", "ch-surcharges", "ch-air-weight", "ch-lcl", "ch-carbon"] },
     { title: "부대비용·D&D·보관료", sub: "해상 부대비용 지도 · DEM·DET · 부산 터미널 보관료 · 인천공항 보관료", docs: ["ch-sea-charges", "ch-dnd", "ch-korea-storage", "ch-air-storage"] },
-    { title: "해외 정산과 외환", sub: "SOA 상계 · 제3자 지급 · 외국환거래법 신고", docs: ["ch-netting"] }
+    { title: "해외 정산과 외환", sub: "SOA 상계 · 제3자 지급 · 외국환거래법 신고 · 항공 운임 정산(CASS)", docs: ["ch-netting", "ch-cass"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [

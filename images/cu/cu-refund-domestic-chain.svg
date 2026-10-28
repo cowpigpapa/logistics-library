@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="56" y="66" font-size="34" font-weight="700" fill="#1d2a3a">국내에서 넘어간 원재료의 세액은 증명서가 따라갑니다</text>
+<text x="56" y="104" font-size="21" fill="#5f6b78">기초원재료납세증명서(기납증)·수입세액분할증명서(분증) · 특례법 제12조, 시행령 제13조·제13조의2, 환급사무처리 고시 제46조~제59조</text>
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d2a3a"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f6fd1"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f8a5b"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e4572e"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d9482b"/></marker>
+</defs>
+<rect x="40" y="130" width="1592" height="420" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="70" y="300" width="252" height="160" rx="14" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="196" y="346" font-size="24" font-weight="700" fill="#1f6fd1" text-anchor="middle">원재료 수입자</text>
+<text x="196" y="384" font-size="20" font-weight="400" fill="#1d2a3a" text-anchor="middle">관세 납부</text>
+<text x="196" y="414" font-size="20" font-weight="400" fill="#1d2a3a" text-anchor="middle">수입신고필증</text>
+<rect x="390" y="300" width="252" height="160" rx="14" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="516" y="346" font-size="24" font-weight="700" fill="#1d2a3a" text-anchor="middle">중간재 생산자</text>
+<text x="516" y="384" font-size="20" font-weight="400" fill="#1d2a3a" text-anchor="middle">수입 원재료로</text>
+<text x="516" y="414" font-size="20" font-weight="400" fill="#1d2a3a" text-anchor="middle">부품·소재 생산</text>
+<rect x="710" y="300" width="252" height="160" rx="14" fill="#ffffff" stroke="#1d2a3a" stroke-width="3"/>
+<text x="836" y="346" font-size="24" font-weight="700" fill="#1d2a3a" text-anchor="middle">완제품 생산자</text>
+<text x="836" y="384" font-size="20" font-weight="400" fill="#1d2a3a" text-anchor="middle">수출물품 제조</text>
+<rect x="1030" y="300" width="252" height="160" rx="14" fill="#ffffff" stroke="#1f8a5b" stroke-width="3"/>
+<text x="1156" y="346" font-size="24" font-weight="700" fill="#1f8a5b" text-anchor="middle">수출자</text>
+<text x="1156" y="384" font-size="20" font-weight="400" fill="#1d2a3a" text-anchor="middle">수출신고·선적</text>
+<text x="1156" y="414" font-size="20" font-weight="400" fill="#1d2a3a" text-anchor="middle">수출신고필증</text>
+<rect x="1350" y="300" width="252" height="160" rx="14" fill="#ffffff" stroke="#e4572e" stroke-width="3"/>
+<text x="1476" y="346" font-size="24" font-weight="700" fill="#e4572e" text-anchor="middle">세관</text>
+<text x="1476" y="384" font-size="20" font-weight="400" fill="#1d2a3a" text-anchor="middle">환급 결정·지급</text>
+<line x1="326" y1="380" x2="384" y2="380" stroke="#1f8a5b" stroke-width="4" marker-end="url(#ab)"/>
+<line x1="646" y1="380" x2="704" y2="380" stroke="#1f6fd1" stroke-width="4" marker-end="url(#ab)"/>
+<line x1="966" y1="380" x2="1024" y2="380" stroke="#1f6fd1" stroke-width="4" marker-end="url(#ab)"/>
+<line x1="1286" y1="380" x2="1344" y2="380" stroke="#e4572e" stroke-width="4" marker-end="url(#ao)"/>
+<text x="356" y="286" font-size="20" font-weight="700" fill="#1f8a5b" text-anchor="middle">분증</text>
+<text x="676" y="286" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="middle">기납증</text>
+<text x="996" y="286" font-size="20" font-weight="700" fill="#1f6fd1" text-anchor="middle">기납증</text>
+<text x="1316" y="286" font-size="20" font-weight="700" fill="#e4572e" text-anchor="middle">신청</text>
+<path d="M196,300 C196,190 836,190 836,296" fill="none" stroke="#1f8a5b" stroke-width="4" stroke-dasharray="10 7" marker-end="url(#ag)"/>
+<text x="516" y="192" font-size="22" font-weight="700" fill="#1f8a5b" text-anchor="middle">완제품 생산자나 수출자에게 수입한 그대로 넘겨도 분증</text>
+<text x="70" y="506" font-size="20" font-weight="400" fill="#5f6b78" text-anchor="start">생산자가 직접 환급을 신청하면 마지막 기납증 없이 생산자가 신청합니다. 누가 신청하는지는 수출신고서의 환급신청인란(1 수출대행자/수출화주, 2 제조자)으로 정해집니다.</text>
+<text x="70" y="536" font-size="20" font-weight="400" fill="#5f6b78" text-anchor="start">증명서의 세액은 개별환급과 같은 방법(소요량 또는 간이정액)으로 계산합니다(특례법 제12조제3항, 시행령 제14조제3항).</text>
+<rect x="40" y="575" width="516" height="330" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="40" y="575" width="516" height="10" rx="5" fill="#1f6fd1"/>
+<text x="68" y="625" font-size="24" font-weight="700" fill="#1f6fd1" text-anchor="start">언제까지 넘겨야 하나</text>
+<text x="68" y="672" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">기납증: 원재료 수입신고수리일</text>
+<text x="68" y="706" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">(중간원재료는 구매일)부터</text>
+<text x="68" y="740" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">1년 안에 양도</text>
+<text x="68" y="774" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">분증: 수입신고수리일부터</text>
+<text x="68" y="808" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">2년 안에 수입한 그대로 양도</text>
+<rect x="578" y="575" width="516" height="330" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="578" y="575" width="516" height="10" rx="5" fill="#1f8a5b"/>
+<text x="606" y="625" font-size="24" font-weight="700" fill="#1f8a5b" text-anchor="start">국내 거래를 보여 주는 서류</text>
+<text x="606" y="672" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">내국신용장, 구매확인서</text>
+<text x="606" y="706" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">비거주자가 대금을 내고 국내</text>
+<text x="606" y="740" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">업체에 인도하게 한 수출신용장</text>
+<text x="606" y="774" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">·수출계약서, 세관장이 인정하는</text>
+<text x="606" y="808" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">매매계약서(고시 제48조)</text>
+<rect x="1116" y="575" width="516" height="330" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="1116" y="575" width="516" height="10" rx="5" fill="#e4572e"/>
+<text x="1144" y="625" font-size="24" font-weight="700" fill="#e4572e" text-anchor="start">증명서를 직접 발급하는 업체</text>
+<text x="1144" y="672" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">세관장이 지정한 공급자·수입자는</text>
+<text x="1144" y="706" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">기납증·분증·평세증을 전산으로</text>
+<text x="1144" y="740" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">직접 발급합니다. 지정 절차는</text>
+<text x="1144" y="774" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">시행령 제12조의2·제13조의2</text>
+<text x="1144" y="808" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">(2026. 7. 1. 시행). 기납증·분증을</text>
+<text x="1144" y="842" font-size="21" font-weight="400" fill="#1d2a3a" text-anchor="start">거짓 발급하면 형벌</text>
+</svg>

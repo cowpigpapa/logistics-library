@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="arb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#e9edf1"/><line x1="0" y1="0" x2="0" y2="8" stroke="#c9d2dc" stroke-width="3"/></pattern>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="36" y="52" font-size="27" font-weight="800" fill="#1d2a3a">20ft 드라이 컨테이너에 설치한 플렉시탱크</text>
+<text x="36" y="84" font-size="18" fill="#5f6b78">플렉시탱크·벽 보호 라이닝·문쪽 벌크헤드·밸브·컨테이너가 하나의 시스템으로 시험되고 운송됩니다(COA 실무 규약 1.2, PAS 1008).</text>
+
+<!-- LEFT PANEL: plan view -->
+<rect x="24" y="108" width="1010" height="806" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="50" y="148" font-size="21" font-weight="800" fill="#1d2a3a">① 위에서 본 모습 (지붕을 걷어 낸 평면)</text>
+<text x="50" y="176" font-size="16" fill="#5f6b78">축척은 대략 맞춤: 20ft 드라이 내부 약 5,898 × 2,350mm (선사 공개 사양 예)</text>
+
+<!-- container outer shell -->
+<rect x="104" y="292" width="830" height="333" fill="#d7dde4" stroke="#1d2a3a" stroke-width="2.5"/>
+<!-- interior -->
+<rect x="112" y="300" width="796" height="317" fill="#ffffff" stroke="#5f6b78" stroke-width="1.5"/>
+<!-- corrugation hint on side walls -->
+<g stroke="#9aa7b4" stroke-width="1.2">
+<path d="M120 296 l10 0 M150 296 l10 0 M180 296 l10 0 M210 296 l10 0 M240 296 l10 0 M270 296 l10 0 M300 296 l10 0 M330 296 l10 0 M360 296 l10 0 M390 296 l10 0 M420 296 l10 0 M450 296 l10 0 M480 296 l10 0 M510 296 l10 0 M540 296 l10 0 M570 296 l10 0 M600 296 l10 0 M630 296 l10 0 M660 296 l10 0 M690 296 l10 0 M720 296 l10 0 M750 296 l10 0 M780 296 l10 0 M810 296 l10 0 M840 296 l10 0 M870 296 l10 0"/>
+<path d="M120 621 l10 0 M150 621 l10 0 M180 621 l10 0 M210 621 l10 0 M240 621 l10 0 M270 621 l10 0 M300 621 l10 0 M330 621 l10 0 M360 621 l10 0 M390 621 l10 0 M420 621 l10 0 M450 621 l10 0 M480 621 l10 0 M510 621 l10 0 M540 621 l10 0 M570 621 l10 0 M600 621 l10 0 M630 621 l10 0 M660 621 l10 0 M690 621 l10 0 M720 621 l10 0 M750 621 l10 0 M780 621 l10 0 M810 621 l10 0 M840 621 l10 0 M870 621 l10 0"/>
+</g>
+<!-- lining (dashed) -->
+<rect x="118" y="306" width="776" height="305" fill="none" stroke="#1f8a5b" stroke-width="2.5" stroke-dasharray="9 6"/>
+<!-- flexitank -->
+<rect x="128" y="316" width="752" height="285" rx="70" fill="#d6e6fa" stroke="#1f6fd1" stroke-width="3"/>
+<text x="470" y="446" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">플렉시탱크</text>
+<text x="470" y="476" font-size="17" fill="#1d2a3a" text-anchor="middle">1회용 PE·PVC 주머니, 최대 24,000L·24,000kg</text>
+<text x="470" y="500" font-size="17" fill="#1d2a3a" text-anchor="middle">(COA 실무 규약·PAS 1008)</text>
+<!-- bulkhead -->
+<rect x="894" y="300" width="9" height="317" fill="#5f6b78"/>
+<!-- open space between bulkhead and doors -->
+<rect x="903" y="318" width="31" height="281" fill="#ffffff"/>
+<!-- rear corner posts -->
+<rect x="903" y="292" width="31" height="26" fill="#1d2a3a"/>
+<rect x="903" y="599" width="31" height="26" fill="#1d2a3a"/>
+<!-- valve (right-door side = upper half in this view) -->
+<rect x="884" y="392" width="30" height="16" fill="#d9482b"/>
+<circle cx="916" cy="400" r="7" fill="#ffffff" stroke="#d9482b" stroke-width="3"/>
+<!-- doors closed -->
+<rect x="934" y="318" width="10" height="141" fill="#8c99a6" stroke="#1d2a3a" stroke-width="1.5"/>
+<rect x="934" y="459" width="10" height="140" fill="#8c99a6" stroke="#1d2a3a" stroke-width="1.5"/>
+<!-- hinges at outer corner posts -->
+<circle cx="939" cy="314" r="5" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<circle cx="939" cy="603" r="5" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<!-- locking bars on outer face (seen from above) -->
+<g fill="#1d2a3a"><circle cx="950" cy="360" r="4"/><circle cx="950" cy="425" r="4"/><circle cx="950" cy="493" r="4"/><circle cx="950" cy="558" r="4"/></g>
+<!-- label on left door -->
+<rect x="946" y="510" width="6" height="34" fill="#e4572e"/>
+
+<!-- annotations left panel -->
+<text x="112" y="270" font-size="16" fill="#5f6b78">앞벽(문 반대쪽)</text>
+<line x1="150" y1="276" x2="150" y2="296" stroke="#5f6b78" stroke-width="1.5"/>
+<line x1="112" y1="660" x2="908" y2="660" stroke="#5f6b78" stroke-width="1.5" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="510" y="686" font-size="16" fill="#5f6b78" text-anchor="middle">내부 길이 약 5.9m</text>
+<line x1="76" y1="300" x2="76" y2="617" stroke="#5f6b78" stroke-width="1.5" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="66" y="465" font-size="16" fill="#5f6b78" text-anchor="middle" transform="rotate(-90 66 465)">내부 폭 약 2.35m</text>
+
+<!-- callout: lining -->
+<line x1="300" y1="306" x2="300" y2="226" stroke="#1f8a5b" stroke-width="1.8"/>
+<text x="180" y="218" font-size="17" font-weight="700" fill="#1f8a5b">바닥·벽 보호 라이닝 (골판지·PP 시트 등)</text>
+<!-- callout: bulkhead -->
+<line x1="898" y1="300" x2="760" y2="232" stroke="#1d2a3a" stroke-width="1.8"/>
+<text x="560" y="210" font-size="17" font-weight="700" fill="#1d2a3a">문쪽 벌크헤드</text>
+<text x="560" y="230" font-size="15" fill="#5f6b78">코너 기둥 안쪽 홈에 끼운 가로 강철 막대 + 뒷판</text>
+<!-- callout: gap -->
+<line x1="918" y1="470" x2="918" y2="470" stroke="#1d2a3a" stroke-width="0"/>
+<!-- callout: valve -->
+<line x1="924" y1="400" x2="962" y2="400" stroke="#d9482b" stroke-width="0"/>
+<text x="820" y="200" font-size="0" fill="#fff"> </text>
+<text x="962" y="406" font-size="16" font-weight="700" fill="#d9482b">밸브</text>
+<text x="962" y="470" font-size="15" font-weight="700" fill="#1d2a3a">간격</text>
+<line x1="958" y1="465" x2="922" y2="465" stroke="#1d2a3a" stroke-width="1.5" marker-end="url(#ar)"/>
+<!-- callout: label -->
+<line x1="952" y1="527" x2="985" y2="527" stroke="#e4572e" stroke-width="1.8"/>
+<!-- callout list at right side of left panel -->
+<g font-size="15">
+<text x="958" y="300" fill="#1d2a3a" font-weight="700">경첩</text>
+<text x="958" y="318" fill="#5f6b78">바깥 코너</text>
+<text x="958" y="334" fill="#5f6b78">기둥 쪽</text>
+</g>
+<text x="990" y="530" font-size="15" fill="#e4572e" font-weight="700" text-anchor="start">표지</text>
+
+<!-- legend box under the plan -->
+<rect x="50" y="716" width="958" height="180" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<g font-size="16" fill="#1d2a3a">
+<text x="70" y="748"><tspan font-weight="800">문을 밖에서 마주 볼 때</tspan> 오른쪽 문 = 이 평면의 위쪽 문, 왼쪽 문 = 아래쪽 문</text>
+<text x="70" y="778"><tspan font-weight="800" fill="#d9482b">밸브</tspan>: 오른쪽 문 쪽 벌크헤드 창으로 나와, 오른쪽 문만 열면 호스를 연결할 수 있습니다.</text>
+<text x="70" y="808"><tspan font-weight="800" fill="#e4572e">A4 경고 표지</tspan>: 왼쪽 문 바깥면. "왼쪽 문 열지 말 것, 지게차 금지, 비상 연락처" (COA 5.1)</text>
+<text x="70" y="838"><tspan font-weight="800">간격</tspan>: 다 채운 뒤 플렉시탱크·벌크헤드·밸브가 어느 문에도 닿지 않아야 합니다(CTU Code 부속서 7 5.2.6).</text>
+<text x="70" y="868"><tspan font-weight="800">잠금 막대</tspan>: 문짝 바깥면에 문짝마다 2개 이상, 각각 브래킷 3개 이상으로 고정(COA 4.3 표).</text>
+</g>
+
+<!-- RIGHT PANEL: rear elevation -->
+<rect x="1050" y="108" width="598" height="806" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1074" y="148" font-size="21" font-weight="800" fill="#1d2a3a">② 문 쪽에서 본 모습 (오른쪽 문 열림)</text>
+<text x="1074" y="176" font-size="16" fill="#5f6b78">문 개구부 약 2,340 × 2,280mm (선사 공개 사양 예)</text>
+
+<!-- frame: x 1110..1598, y 250..768 -->
+<rect x="1110" y="250" width="488" height="518" fill="#d7dde4" stroke="#1d2a3a" stroke-width="2.5"/>
+<!-- interior visible through right opening -->
+<rect x="1120" y="290" width="468" height="456" fill="#3a4654"/>
+<!-- flexitank top visible above bulkhead -->
+<path d="M1354 452 Q1470 400 1588 430 L1588 470 L1354 470 Z" fill="#d6e6fa" stroke="#1f6fd1" stroke-width="2"/>
+<!-- bulkhead backing board (right half visible) -->
+<rect x="1354" y="462" width="234" height="284" fill="#eef1f4" stroke="#5f6b78" stroke-width="1.5"/>
+<!-- steel bars -->
+<g fill="#5f6b78">
+<rect x="1354" y="474" width="234" height="11"/>
+<rect x="1354" y="524" width="234" height="11"/>
+<rect x="1354" y="574" width="234" height="11"/>
+<rect x="1354" y="624" width="234" height="11"/>
+<rect x="1354" y="674" width="234" height="11"/>
+<rect x="1354" y="718" width="234" height="11"/>
+</g>
+<!-- bar ends in right corner post recess -->
+<g fill="#1d2a3a"><rect x="1584" y="472" width="6" height="15"/><rect x="1584" y="522" width="6" height="15"/><rect x="1584" y="572" width="6" height="15"/><rect x="1584" y="622" width="6" height="15"/><rect x="1584" y="672" width="6" height="15"/><rect x="1584" y="716" width="6" height="15"/></g>
+<!-- valve window and valve -->
+<rect x="1478" y="688" width="62" height="48" fill="#3a4654" stroke="#d9482b" stroke-width="2.5"/>
+<circle cx="1509" cy="712" r="15" fill="#ffffff" stroke="#d9482b" stroke-width="4"/>
+<rect x="1505" y="690" width="8" height="18" fill="#d9482b"/>
+<!-- left door closed -->
+<rect x="1120" y="290" width="234" height="456" fill="#aab5c0" stroke="#1d2a3a" stroke-width="2"/>
+<g stroke="#8c99a6" stroke-width="1"><line x1="1140" y1="300" x2="1140" y2="736"/><line x1="1170" y1="300" x2="1170" y2="736"/><line x1="1200" y1="300" x2="1200" y2="736"/><line x1="1230" y1="300" x2="1230" y2="736"/><line x1="1260" y1="300" x2="1260" y2="736"/><line x1="1290" y1="300" x2="1290" y2="736"/><line x1="1320" y1="300" x2="1320" y2="736"/></g>
+<!-- locking bars on left door outer face -->
+<g fill="#1d2a3a">
+<rect x="1213" y="292" width="7" height="452"/>
+<rect x="1293" y="292" width="7" height="452"/>
+</g>
+<!-- cams & keepers -->
+<g fill="#1d2a3a"><rect x="1207" y="284" width="19" height="10"/><rect x="1287" y="284" width="19" height="10"/><rect x="1207" y="742" width="19" height="10"/><rect x="1287" y="742" width="19" height="10"/></g>
+<!-- handles -->
+<g fill="#1d2a3a"><rect x="1216" y="600" width="44" height="7" rx="3"/><rect x="1296" y="600" width="44" height="7" rx="3"/></g>
+<!-- hinges on left corner post -->
+<g fill="#1d2a3a"><rect x="1104" y="320" width="30" height="12"/><rect x="1104" y="440" width="30" height="12"/><rect x="1104" y="580" width="30" height="12"/><rect x="1104" y="700" width="30" height="12"/></g>
+<!-- A4 label on left door -->
+<rect x="1150" y="330" width="52" height="72" fill="#ffffff" stroke="#e4572e" stroke-width="3"/>
+<text x="1176" y="360" font-size="13" font-weight="800" fill="#e4572e" text-anchor="middle">A4</text>
+<text x="1176" y="380" font-size="11" fill="#e4572e" text-anchor="middle">경고</text>
+<!-- right door opened 270deg, lying against side wall: seen edge-on outside right post -->
+<rect x="1598" y="290" width="12" height="456" fill="#aab5c0" stroke="#1d2a3a" stroke-width="2"/>
+<g fill="#1d2a3a"><rect x="1586" y="320" width="22" height="12"/><rect x="1586" y="440" width="22" height="12"/><rect x="1586" y="580" width="22" height="12"/><rect x="1586" y="700" width="22" height="12"/></g>
+<!-- corner castings -->
+<g fill="#5f6b78" stroke="#1d2a3a" stroke-width="1.5">
+<rect x="1110" y="250" width="32" height="36"/><rect x="1566" y="250" width="32" height="36"/>
+<rect x="1110" y="732" width="32" height="36"/><rect x="1566" y="732" width="32" height="36"/>
+</g>
+<g fill="#1d2a3a"><ellipse cx="1126" cy="268" rx="9" ry="5"/><ellipse cx="1582" cy="268" rx="9" ry="5"/><ellipse cx="1126" cy="750" rx="9" ry="5"/><ellipse cx="1582" cy="750" rx="9" ry="5"/></g>
+
+<!-- right panel callouts -->
+<text x="1237" y="234" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">왼쪽 문: 닫아 둠</text>
+<text x="1480" y="234" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">오른쪽 개구부</text>
+<line x1="1176" y1="402" x2="1176" y2="420" stroke="#e4572e" stroke-width="0"/>
+<text x="1074" y="800" font-size="15" fill="#1d2a3a"><tspan font-weight="800">경첩</tspan>은 양쪽 바깥 코너 기둥에, <tspan font-weight="800">잠금 막대·캠·손잡이</tspan>는 문 바깥면에 있습니다.</text>
+<text x="1074" y="826" font-size="15" fill="#1d2a3a"><tspan font-weight="800">열린 오른쪽 문</tspan>은 경첩 쪽으로 돌아 측벽에 붙어 모서리만 보입니다.</text>
+<text x="1074" y="852" font-size="15" fill="#1d2a3a"><tspan font-weight="800" fill="#d9482b">밸브 창</tspan>은 가운데보다 오른쪽 문 쪽에 냅니다.</text>
+<text x="1074" y="878" font-size="15" fill="#1d2a3a">충전 중에도, 적출이 거의 끝날 때까지도 <tspan font-weight="800">왼쪽 문은 닫아 둡니다</tspan>.</text>
+<text x="1074" y="900" font-size="13" fill="#5f6b78">CTU Code 부속서 7 5.2.5~5.2.7, 부속서 5 4.1.1.2</text>
+<!-- bar label -->
+<text x="1471" y="336" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">안쪽에 플렉시탱크</text>
+<text x="1471" y="365" font-size="14" fill="#ffffff" text-anchor="middle">아래: 벌크헤드(가로 강철 막대 + 뒷판)</text>
+<line x1="1471" y1="373" x2="1471" y2="470" stroke="#ffffff" stroke-width="1.5" marker-end="url(#ar)"/>
+</svg>

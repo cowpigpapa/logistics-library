@@ -48,8 +48,8 @@
 <line x1="890.0" y1="396" x2="890.0" y2="430" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
 <text x="902.0" y="420" font-size="19" font-weight="800" fill="#5f6b78" text-anchor="start">아니오</text>
 <rect x="680" y="432" width="420" height="84" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
-<text x="890.0" y="467.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">받을 쪽·줄 쪽 각각</text>
-<text x="890.0" y="495.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">미화 5천불 이하인가?</text>
+<text x="890.0" y="467.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">받을 쪽 합계와 줄 쪽 합계 중</text>
+<text x="890.0" y="495.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">작은 쪽이 5천불 이하인가?</text>
 <line x1="890.0" y1="516" x2="890.0" y2="546" stroke="#5f6b78" stroke-width="3"/>
 <line x1="830.0" y1="546" x2="1466.0" y2="546" stroke="#5f6b78" stroke-width="3"/>
 <line x1="830.0" y1="546" x2="830.0" y2="586" stroke="#5f6b78" stroke-width="3" marker-end="url(#m)"/>
@@ -59,10 +59,10 @@
 <text x="830.0" y="644.0" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">둘 다 이하</text>
 <text x="830.0" y="672.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">신고 불필요</text>
 <text x="830.0" y="700.0" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="middle">제5-4조 제1항 제1호</text>
-<rect x="998" y="590" width="300" height="150" rx="12" fill="#fdf0eb" stroke="#e4572e" stroke-width="2"/>
-<text x="1148.0" y="644.0" font-size="22" font-weight="800" fill="#e4572e" text-anchor="middle">한쪽만 초과</text>
-<text x="1148.0" y="672.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">면제 여부를</text>
-<text x="1148.0" y="700.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">거래외국환은행에 확인</text>
+<rect x="998" y="590" width="300" height="150" rx="12" fill="#e6f4ed" stroke="#1f8a5b" stroke-width="2"/>
+<text x="1148.0" y="644.0" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">한쪽만 초과</text>
+<text x="1148.0" y="672.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">신고 불필요</text>
+<text x="1148.0" y="700.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">작은 쪽 금액 기준</text>
 <rect x="1316" y="590" width="300" height="150" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
 <text x="1466.0" y="630.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">둘 다 초과</text>
 <text x="1466.0" y="658.0" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="middle">외국환은행의 장 신고</text>

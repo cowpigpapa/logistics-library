@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+<marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker>
+<marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="start">같은 ESS, 해상과 항공에서 무엇이 다른가</text>
+<text x="40" y="94" font-size="19" font-weight="500" fill="#5f6b78" text-anchor="start">ESS는 사실상 해상 화물입니다. 항공은 컨테이너형은 막히고, 모듈도 포장당 35kg과 SoC 30%에서 걸립니다.</text>
+<rect x="352" y="122" width="630" height="46" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="1" rx="23.0"/>
+<text x="667.0" y="151.65" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">해상: IMDG Code 42-24(2026. 1. 1. 의무)</text>
+<rect x="994" y="122" width="638" height="46" fill="#e4572e" stroke="#e4572e" stroke-width="1" rx="23.0"/>
+<text x="1313.0" y="151.65" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">항공: ICAO 기술지침·IATA DGR 제67판(2026)</text>
+<rect x="40" y="190" width="300" height="196" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="64" y="238" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">컨테이너형 BESS</text>
+<text x="64" y="270" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="start">UN 3536</text>
+<rect x="352" y="190" width="630" height="196" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="376" y="232" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">운송 가능. 포장지침 없음, 특별규정 389</text>
+<text x="376" y="265" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">적재방법 D: 화물선은 갑판 위에만,</text>
+<text x="376" y="298" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">여객이 25명과 길이 3m당 1명 중 큰 수를 넘는 여객선은 금지</text>
+<text x="376" y="331" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">SW1 열원에서 보호, SW2 거주구역에서 떨어지게</text>
+<rect x="994" y="190" width="638" height="196" fill="#fbfcfd" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="1018" y="232" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">사실상 불가</text>
+<text x="1018" y="265" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">미국 49 CFR 위험물 목록: 여객기·화물기 모두 금지</text>
+<text x="1018" y="298" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">ICAO 기술지침·DGR 원문의 해당 칸은</text>
+<text x="1018" y="331" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">이 문서에서 확인하지 못했다: 항공사·당국에 확인</text>
+<rect x="40" y="400" width="300" height="210" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="64" y="448" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">모듈·팩 단독</text>
+<text x="64" y="480" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="start">UN 3480</text>
+<rect x="352" y="400" width="630" height="210" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="376" y="442" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">운송 가능. P903 또는 LP903</text>
+<text x="376" y="475" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">적재방법 A: 갑판 위·아래 모두 가능</text>
+<text x="376" y="508" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">손상·결함(SP 376)·폐기(SP 377)는 SW19에 따라</text>
+<text x="376" y="541" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">짧은 국제항해가 아니면 갑판 위만(적재방법 C)</text>
+<rect x="994" y="400" width="638" height="210" fill="#fbfcfd" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="1018" y="442" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">여객기 금지, 화물기만</text>
+<text x="1018" y="475" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">PI 965 Section IA: 포장당 배터리 순중량 35kg 이하</text>
+<text x="1018" y="508" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">35kg 초과는 출발국·운항국 당국 승인(A99)</text>
+<text x="1018" y="541" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">SoC 30% 이하. 초과는 당국 승인(A331)</text>
+<rect x="40" y="624" width="300" height="150" fill="#eef1f4" stroke="#c9d2dc" stroke-width="2" rx="12"/>
+<text x="64" y="672" font-size="23" font-weight="800" fill="#1d2a3a" text-anchor="start">충전 상태(SoC)</text>
+<text x="64" y="704" font-size="19" font-weight="700" fill="#5f6b78" text-anchor="start">규정과 권고</text>
+<rect x="352" y="624" width="630" height="150" fill="#fbfcfd" stroke="#1f6fd1" stroke-width="2" rx="12"/>
+<text x="376" y="666" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">규정상 상한 없음</text>
+<text x="376" y="699" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">업계 지침(CINS 2023): BESS 30%(분류표 30~40%) 권고,</text>
+<text x="376" y="732" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">제조사 지정값이 있으면 그 값</text>
+<rect x="994" y="624" width="638" height="150" fill="#fbfcfd" stroke="#e4572e" stroke-width="2" rx="12"/>
+<text x="1018" y="666" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="start">UN 3480은 30% 이하가 규정</text>
+<text x="1018" y="699" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">해상으로 보내던 화물을 항공으로 돌리면</text>
+<text x="1018" y="732" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">SoC부터 다시 확인</text>
+<text x="40" y="812" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">도로·철도: 유럽 철도(RID 2025)에도 UN 3536과 특별규정 389가 있습니다. 리튬배터리 완제품은 국내 위험물안전관리법의 위험물이 아니어서</text>
+<text x="40" y="840" font-size="16.5" font-weight="600" fill="#1d2a3a" text-anchor="start">그 법의 운반 기준은 적용되지 않지만, 수출 컨테이너는 항만에 들어가기 전부터 해상 위험물로 신고·통지 절차를 밟습니다.</text>
+<text x="40" y="900" font-size="14" font-weight="500" fill="#5f6b78" text-anchor="start">출처: IMDG Code 42-24 위험물 목록·7.1.3.2·7.1.5·SW19; 49 CFR 172.101 위험물 목록(UN3536); IATA Lithium Battery Guidance Document 2026; CINS 101.A(2023). 국내 내용은 본문 8절.</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="30" y="30" width="1612" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="54" y="74" font-size="28" font-weight="800" fill="#1d2a3a" text-anchor="start">한국으로 들어오는 DDP, 포워더 이름을 빌려줄 때</text>
+<text x="54" y="106" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">해외 매도인이 "통관은 귀사 이름으로"라고 할 때 갈라지는 두 구조</text>
+<rect x="50" y="130" width="960" height="760" rx="14" fill="#ffffff" stroke="#d9482b" stroke-width="2"/>
+<rect x="50" y="130" width="960" height="56" rx="14" fill="#fdeeea" stroke="#d9482b" stroke-width="2"/>
+<text x="530" y="167" font-size="22" font-weight="800" fill="#d9482b" text-anchor="middle">포워더 이름으로 수입신고 (피해야 할 구조)</text>
+<rect x="80" y="220" width="260" height="110" rx="10" fill="#f2f4f6" stroke="#1d2a3a" stroke-width="2"/>
+<text x="210.0" y="258" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">해외 매도인</text>
+<text x="210.0" y="288" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">인도 전까지 보통 물건의 주인</text>
+<text x="210.0" y="310" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">(실제 소유자·화주)</text>
+<rect x="720" y="220" width="260" height="110" rx="10" fill="#f2f4f6" stroke="#1d2a3a" stroke-width="2"/>
+<text x="850.0" y="258" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">한국 바이어</text>
+<text x="850.0" y="288" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">물건을 받아 씀</text>
+<text x="850.0" y="310" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">수입 서류에 이름 없음</text>
+<rect x="390" y="380" width="280" height="120" rx="10" fill="#fdeeea" stroke="#d9482b" stroke-width="2"/>
+<text x="530.0" y="418" font-size="21" font-weight="800" fill="#d9482b" text-anchor="middle">한국 포워더</text>
+<text x="530.0" y="448" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">수입신고서의 수입자·</text>
+<text x="530.0" y="470" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">납세의무자 칸에 이름</text>
+<line x1="342" y1="262" x2="716" y2="262" stroke="#1d2a3a" stroke-width="3" marker-end="url(#a-ink)"/>
+<text x="530" y="250" font-size="17" font-weight="700" fill="#1d2a3a" text-anchor="middle">물품 인도(DDP)</text>
+<line x1="300" y1="334" x2="398" y2="402" stroke="#d9482b" stroke-width="2.5" marker-end="url(#a-red)" stroke-dasharray="7 5"/>
+<text x="92" y="378" font-size="16" font-weight="700" fill="#d9482b" text-anchor="start">"귀사 이름으로</text>
+<text x="92" y="400" font-size="16" font-weight="700" fill="#d9482b" text-anchor="start">통관해 주세요"</text>
+<line x1="672" y1="430" x2="760" y2="334" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#a-sub)"/>
+<text x="722" y="400" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">세관 반출</text>
+<rect x="80" y="540" width="900" height="70" rx="8" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5"/>
+<text x="102" y="583" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">① 허위신고</text>
+<text x="272" y="583" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">실제 화주가 아닌 사람을 납세의무자로 신고(대법원 2013도12939)</text>
+<rect x="80" y="624" width="900" height="70" rx="8" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5"/>
+<text x="102" y="667" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">② 연대 납세</text>
+<text x="272" y="667" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">관세포탈 등 유죄 확정 시 신고인·명의인·화주 연대(제19조 제5항)</text>
+<rect x="80" y="708" width="900" height="70" rx="8" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5"/>
+<text x="102" y="751" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">③ 명의대여 처벌</text>
+<text x="272" y="751" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">관세 회피 등 목적이면 징역 1년·벌금 1천만원 이하(제275조의3 제2항)</text>
+<rect x="80" y="792" width="900" height="70" rx="8" fill="#fdeeea" stroke="#d9482b" stroke-width="1.5"/>
+<text x="102" y="835" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">④ 부가세</text>
+<text x="272" y="835" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">포워더 이름으로 낸 수입 부가세는 공제 근거가 약함(부가세법 제38조)</text>
+<rect x="1040" y="130" width="582" height="760" rx="14" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="1040" y="130" width="582" height="56" rx="14" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2"/>
+<text x="1331" y="167" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">DAP로 바꾼 구조 (기본 대안)</text>
+<rect x="1081" y="220" width="500" height="100" rx="10" fill="#f2f4f6" stroke="#1d2a3a" stroke-width="2"/>
+<text x="1331.0" y="258" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">해외 매도인</text>
+<text x="1331.0" y="288" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">지정 목적지까지 운송(DAP)</text>
+<line x1="1331" y1="324" x2="1331" y2="384" stroke="#1f8a5b" stroke-width="3" marker-end="url(#a-green)"/>
+<rect x="1081" y="390" width="500" height="110" rx="10" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2"/>
+<text x="1331.0" y="428" font-size="21" font-weight="800" fill="#1f8a5b" text-anchor="middle">한국 바이어 = 화주·납세의무자</text>
+<text x="1331.0" y="458" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">관세사가 바이어 명의로 수입신고</text>
+<text x="1331.0" y="480" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">관세·부가세를 바이어가 납부</text>
+<rect x="1081" y="530" width="500" height="100" rx="10" fill="#e9f1fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1331.0" y="568" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">한국 포워더</text>
+<text x="1331.0" y="598" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">운송·보세운송 주선, 서류 대조</text>
+<text x="1331.0" y="620" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">신고 명의는 빌려주지 않음</text>
+<rect x="1081" y="660" width="500" height="200" rx="10" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1331" y="712" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">바이어가 수입 부가세를 공제</text>
+<text x="1331" y="764" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">신고 명의 = 실제 화주</text>
+<text x="1331" y="816" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">세금 상당액은 가격에서 조정</text>
+</svg>

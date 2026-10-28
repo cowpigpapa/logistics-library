@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="56" font-size="28" font-weight="800" fill="#1d2a3a">한국 회사가 끼는 삼국 간 거래의 네 가지 모양: 물건과 돈이 어디로 가나</text>
+<text x="40" y="90" font-size="19" font-weight="600" fill="#5f6b78">대외무역관리규정 제2조 제6호·제11호·제13호, 제26조·제27조 · 부가가치세법 시행령 제28조 제6항·제31조 제1항·제33조 제2항</text>
+<line x1="1150" y1="112" x2="1210" y2="112" stroke="#1d2a3a" stroke-width="4" marker-end="url(#g)"/>
+<text x="1220" y="118" font-size="17" font-weight="700" fill="#1d2a3a">물건</text>
+<line x1="1290" y1="112" x2="1350" y2="112" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<text x="1360" y="118" font-size="17" font-weight="700" fill="#1f8a5b">대금</text>
+<rect x="1430" y="100" width="22" height="22" rx="4" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1460" y="118" font-size="17" font-weight="700" fill="#1f6fd1">한국 회사</text>
+
+<!-- Panel 1 -->
+<rect x="40" y="136" width="784" height="384" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="174" font-size="23" font-weight="800" fill="#1d2a3a">① 중계무역 <tspan font-size="17" font-weight="600" fill="#5f6b78">(제2조 제11호)</tspan></text>
+<text x="64" y="202" font-size="17" fill="#5f6b78">수출할 목적으로 사서, 보세구역 밖 국내로 들이지 않고 판다</text>
+<rect x="64" y="244" width="170" height="64" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="149" y="272" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">공급자 A</text>
+<text x="149" y="295" font-size="15" fill="#5f6b78" text-anchor="middle">외국</text>
+<rect x="347" y="222" width="170" height="64" rx="10" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="432" y="250" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">한국 중계상</text>
+<text x="432" y="273" font-size="15" fill="#1f6fd1" text-anchor="middle">사고 되판다</text>
+<rect x="630" y="244" width="170" height="64" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="715" y="272" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">구매자 B</text>
+<text x="715" y="295" font-size="15" fill="#5f6b78" text-anchor="middle">외국</text>
+<line x1="236" y1="300" x2="626" y2="300" stroke="#1d2a3a" stroke-width="4" marker-end="url(#g)"/>
+<text x="432" y="326" font-size="15" fill="#1d2a3a" text-anchor="middle">직송하거나 한국 보세구역을 거친다</text>
+<line x1="345" y1="254" x2="238" y2="262" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<line x1="626" y1="262" x2="519" y2="254" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<text x="64" y="372" font-size="17" font-weight="700" fill="#1f6fd1">수출실적</text>
+<text x="160" y="372" font-size="17" fill="#1d2a3a">가득액 = 수출 FOB − 수입 CIF, 입금일 기준</text>
+<text x="64" y="404" font-size="17" font-weight="700" fill="#1f6fd1">부가세</text>
+<text x="160" y="404" font-size="17" fill="#1d2a3a">영세율, 공급시기는 선(기)적일</text>
+<text x="64" y="436" font-size="17" font-weight="700" fill="#1f6fd1">통관</text>
+<text x="160" y="436" font-size="17" fill="#1d2a3a">한국 보세구역을 거치면 반송신고(중계무역물품)</text>
+<text x="64" y="468" font-size="17" font-weight="700" fill="#1f6fd1">승인</text>
+<text x="160" y="468" font-size="17" fill="#1d2a3a">수출입공고의 수출입승인 대상에서 빠진다(제9조)</text>
+<text x="64" y="500" font-size="15" fill="#5f6b78">국내 사업장에서 계약·대가 수령이 이뤄져야 영세율(부가가치세법 제21조 제2항 제2호)</text>
+
+<!-- Panel 2 -->
+<rect x="848" y="136" width="784" height="384" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="872" y="174" font-size="23" font-weight="800" fill="#1d2a3a">② 외국인도수출 <tspan font-size="17" font-weight="600" fill="#5f6b78">(제2조 제13호)</tspan></text>
+<text x="872" y="202" font-size="17" fill="#5f6b78">대금은 국내에서 받고, 국내에서 통관되지 않은 물건을 외국에서 넘긴다</text>
+<rect x="872" y="244" width="190" height="64" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="967" y="272" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">해외 창고·현장</text>
+<text x="967" y="295" font-size="15" fill="#5f6b78" text-anchor="middle">한국 회사 소유 물건</text>
+<rect x="1155" y="222" width="170" height="64" rx="10" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1240" y="250" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">한국 회사</text>
+<text x="1240" y="273" font-size="15" fill="#1f6fd1" text-anchor="middle">국내에서 대금 영수</text>
+<rect x="1438" y="244" width="170" height="64" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="1523" y="272" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">구매자 B</text>
+<text x="1523" y="295" font-size="15" fill="#5f6b78" text-anchor="middle">외국</text>
+<line x1="1064" y1="300" x2="1434" y2="300" stroke="#1d2a3a" stroke-width="4" marker-end="url(#g)"/>
+<text x="1240" y="326" font-size="15" fill="#1d2a3a" text-anchor="middle">한국을 거치지 않고 외국에서 인도</text>
+<line x1="1434" y1="262" x2="1327" y2="254" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<text x="872" y="372" font-size="17" font-weight="700" fill="#1f6fd1">수출실적</text>
+<text x="968" y="372" font-size="17" fill="#1d2a3a">외국환은행 입금액, 입금일 기준</text>
+<text x="872" y="404" font-size="17" font-weight="700" fill="#1f6fd1">부가세</text>
+<text x="968" y="404" font-size="17" fill="#1d2a3a">영세율, 공급시기는 외국에서 인도되는 때</text>
+<text x="872" y="436" font-size="17" font-weight="700" fill="#1f6fd1">통관</text>
+<text x="968" y="436" font-size="17" fill="#1d2a3a">한국 세관 절차 없음(현지국 통관은 따로)</text>
+<text x="872" y="468" font-size="17" font-weight="700" fill="#1f6fd1">예</text>
+<text x="968" y="468" font-size="17" fill="#1d2a3a">해외 창고 재고, 외국 공장 생산품을 현지에서 판매</text>
+<text x="872" y="500" font-size="15" fill="#5f6b78">위탁가공 물품을 외국에서 팔면 실적은 판매액 − 원자재 수출금액 − 가공임</text>
+
+<!-- Panel 3 -->
+<rect x="40" y="536" width="784" height="384" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="64" y="574" font-size="23" font-weight="800" fill="#1d2a3a">③ 위탁가공무역 <tspan font-size="17" font-weight="600" fill="#5f6b78">(제2조 제6호)</tspan></text>
+<text x="64" y="602" font-size="17" fill="#5f6b78">가공임을 주고 외국에서 가공시킨 뒤 들여오거나 외국으로 넘긴다</text>
+<rect x="64" y="644" width="170" height="64" rx="10" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="149" y="672" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">한국 회사</text>
+<text x="149" y="695" font-size="15" fill="#1f6fd1" text-anchor="middle">원료 반출·조달</text>
+<rect x="347" y="644" width="170" height="64" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="432" y="672" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">가공업체 C</text>
+<text x="432" y="695" font-size="15" fill="#5f6b78" text-anchor="middle">외국</text>
+<rect x="630" y="644" width="170" height="64" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="715" y="672" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">구매자 B</text>
+<text x="715" y="695" font-size="15" fill="#5f6b78" text-anchor="middle">외국(또는 한국 수입)</text>
+<line x1="236" y1="664" x2="343" y2="664" stroke="#1d2a3a" stroke-width="4" marker-end="url(#g)"/>
+<text x="290" y="652" font-size="14" fill="#1d2a3a" text-anchor="middle">원료</text>
+<line x1="519" y1="664" x2="626" y2="664" stroke="#1d2a3a" stroke-width="4" marker-end="url(#g)"/>
+<text x="572" y="652" font-size="14" fill="#1d2a3a" text-anchor="middle">가공품</text>
+<line x1="345" y1="698" x2="238" y2="698" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-start="url(#m)"/>
+<text x="290" y="724" font-size="14" fill="#1f8a5b" text-anchor="middle">가공임</text>
+<path d="M715 710 C715 760 149 760 149 712" fill="none" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<text x="432" y="736" font-size="14" fill="#1f8a5b" text-anchor="middle">판매대금</text>
+<text x="64" y="800" font-size="17" font-weight="700" fill="#1f6fd1">부가세</text>
+<text x="160" y="800" font-size="17" fill="#1d2a3a">가공품을 외국에서 인도하면 영세율, 외국 인도 때</text>
+<text x="64" y="832" font-size="17" font-weight="700" fill="#1f6fd1">원료</text>
+<text x="160" y="832" font-size="17" fill="#1d2a3a">가공품을 양도하는 거래의 원료 무환 반출도 영세율</text>
+<text x="64" y="864" font-size="17" font-weight="700" fill="#1f6fd1">외환</text>
+<text x="160" y="864" font-size="17" fill="#1d2a3a">수출대금과 관련 수입대금 상계는 신고 면제</text>
+<text x="64" y="900" font-size="15" fill="#5f6b78">외국환거래규정 제5-4조 제1항 제6호, 부가가치세법 시행령 제31조 제1항 제4호·제5호</text>
+
+<!-- Panel 4 -->
+<rect x="848" y="536" width="784" height="384" rx="16" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2"/>
+<text x="872" y="574" font-size="23" font-weight="800" fill="#1d2a3a">④ 중개(커미션) <tspan font-size="17" font-weight="600" fill="#5f6b78">("중개무역"은 규정 정의 없음)</tspan></text>
+<text x="872" y="602" font-size="17" fill="#5f6b78">A와 B가 직접 사고팔고, 한국 회사는 연결해 주고 수수료를 받는다</text>
+<rect x="872" y="664" width="170" height="64" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="957" y="692" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">공급자 A</text>
+<text x="957" y="715" font-size="15" fill="#5f6b78" text-anchor="middle">외국</text>
+<rect x="1155" y="622" width="170" height="64" rx="10" fill="#eaf1fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1240" y="650" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">한국 중개인</text>
+<text x="1240" y="673" font-size="15" fill="#1f6fd1" text-anchor="middle">매매 당사자 아님</text>
+<rect x="1438" y="664" width="170" height="64" rx="10" fill="#ffffff" stroke="#9aa6b2" stroke-width="2"/>
+<text x="1523" y="692" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="middle">구매자 B</text>
+<text x="1523" y="715" font-size="15" fill="#5f6b78" text-anchor="middle">외국</text>
+<line x1="1044" y1="720" x2="1434" y2="720" stroke="#1d2a3a" stroke-width="4" marker-end="url(#g)"/>
+<line x1="1434" y1="690" x2="1046" y2="690" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<line x1="1010" y1="662" x2="1150" y2="646" stroke="#1f8a5b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#m)"/>
+<text x="1060" y="636" font-size="14" fill="#1f8a5b" text-anchor="middle">수수료</text>
+<text x="872" y="800" font-size="17" font-weight="700" fill="#1f6fd1">성격</text>
+<text x="968" y="800" font-size="17" fill="#1d2a3a">물품 매매가 아니라 중개 용역의 대가</text>
+<text x="872" y="832" font-size="17" font-weight="700" fill="#1f6fd1">부가세</text>
+<text x="968" y="832" font-size="17" fill="#1d2a3a">상품 중개업 용역 영세율 요건(국내사업장 없는</text>
+<text x="968" y="858" font-size="17" fill="#1d2a3a">외국법인, 외국환은행에서 원화로 수령)을 본다</text>
+<text x="872" y="890" font-size="17" font-weight="700" fill="#d9482b">통제</text>
+<text x="968" y="890" font-size="17" fill="#1d2a3a">전략물자면 화물이 한국에 안 와도 중개허가</text>
+</svg>
