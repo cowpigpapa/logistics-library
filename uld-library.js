@@ -5,7 +5,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/air-uld';
-  const DOCS_VERSION = '20261027-10';
+  const DOCS_VERSION = '20261028-13';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -33,12 +33,12 @@
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
-    { id: 'uld-code', tag: "기본", level: 3, title: "ULD란과 코드 읽는 법 — 정의, 인증·비인증, 코드와 대표 ULD", short: "ULD 개요와 식별 코드", summary: "ULD의 정의와 형태, 인증·비인증 구분과 TSO-C90e·IATA ULDR, AKE 12345 KE를 글자별로 읽는 법과 ULD 태그와의 차이, LD3·LD9·AMA 등 대표 컨테이너의 치수·최대 중량·자중과 출처마다 값이 다른 이유(팔레트 치수는 88·96인치 팔레트 문서)." },
-    { id: 'uld-pallets', tag: "팔레트", level: 3, title: "88인치와 96인치 팔레트 — PAG·PMC·20ft 팔레트, 네트와 스트랩", short: "항공 팔레트 규격(88·96인치)", summary: "PAG(88인치)와 PMC(96인치)의 치수·위치별 최대 총중량·자중, T11 스키드가 한 층에 몇 개 들어가는지, 16ft·20ft 팔레트, 테두리 레일·네트·보조 스트랩, 오버행 기준, 바닥 하중과 쇼어링을 항공사 공개 자료로 비교합니다." },
-    { id: 'uld-holds', tag: "화물칸", level: 3, title: "항공기 화물칸과 탑재 배치 — 메인덱, 로어덱 FWD·AFT 홀드, 벌크, 탑재 위치와 문", short: "항공기 화물칸과 탑재 위치", summary: "메인덱·로어덱 FWD/AFT·벌크 구성과 기종별 ULD 탑재 수·화물 문 크기, 위치 이름 읽는 법과 위치별 하중 제한." },
-    { id: 'uld-buildup', tag: "빌드업", level: 3, title: "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형", short: "컨투어와 빌드업 기준", summary: "로어덱 64 in, 메인덱 96·118 in와 위치별 컨투어 차이, 반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트." },
-    { id: 'uld-safety', tag: "안전", level: 2, title: "ULD 안전과 특수화물 — 손상 기준, 빌린 ULD의 점검·반납, 특수화물 고정과 규정", short: "ULD 안전과 특수화물", summary: "ULD 손상 점검 기준과 서비스 불가 ULD 처리, BUP용으로 빌린 ULD의 점검·반납 기한·지체료·손상 책임, 무거운 화물·차량·동물·온도관리 화물 같은 특수화물의 고정과 항공 보안, 관련 국제 규정과 포워더 체크리스트." },
-    { id: 'uld-security', checked: '2026-10-27', tag: "보안", level: 3, title: "항공화물 보안 — 상용화주·RA·KC와 보안검색, 미국·EU행 요건, CSD", short: "항공화물 보안과 상용화주", summary: "ICAO 보안 공급망(RA·KC, SPX·SHR)과 한국 항공보안법의 상용화주 제도(지정 기준, 「상용화주 항공화물 보안기준」의 운송·접수·표본검색), 여객기·화물기 보안검색 방법과 엑스선으로 잘 보이지 않는 화물, 통제화물이 다시 검색되는 8가지 경우, 미국행 100% 검색과 EU행 ACC3·RA3·KC3, CSD·항공화물보안신고서, 포워더가 남길 기록과 처벌을 정리합니다." }
+    { id: 'uld-code', checked: '2026-10-28', tag: "기본", level: 3, title: "ULD란과 코드 읽는 법 — 정의, 인증·비인증, 코드와 대표 ULD", short: "ULD 개요와 식별 코드", summary: "ULD의 정의와 형태, 인증·비인증 구분과 TSO-C90e·IATA ULDR, AKE 12345 KE를 글자별로 읽는 법과 ULD 태그와의 차이, LD3·LD9·AMA 등 대표 컨테이너의 치수·최대 중량·자중과 출처마다 값이 다른 이유(팔레트 치수는 88·96인치 팔레트 문서)." },
+    { id: 'uld-pallets', checked: '2026-10-28', tag: "팔레트", level: 3, title: "88인치와 96인치 팔레트 — PAG·PMC·20ft 팔레트, 네트와 스트랩", short: "항공 팔레트 규격(88·96인치)", summary: "PAG(88인치)와 PMC(96인치)의 치수·위치별 최대 총중량·자중, T11 스키드가 한 층에 몇 개 들어가는지, 16ft·20ft 팔레트, 테두리 레일·네트·보조 스트랩, 오버행 기준, 바닥 하중과 쇼어링을 항공사 공개 자료로 비교합니다." },
+    { id: 'uld-holds', checked: '2026-10-28', tag: "화물칸", level: 3, title: "항공기 화물칸과 탑재 배치 — 메인덱, 로어덱 FWD·AFT 홀드, 벌크, 탑재 위치와 문", short: "항공기 화물칸과 탑재 위치", summary: "메인덱·로어덱 FWD/AFT·벌크 구성과 기종별 ULD 탑재 수·화물 문 크기, 위치 이름 읽는 법과 위치별 하중 제한." },
+    { id: 'uld-buildup', checked: '2026-10-28', tag: "빌드업", level: 3, title: "컨투어와 빌드업 — 외형 한계와 높이, 포워더 BUP, 적재 원칙, 무게와 균형", short: "컨투어와 빌드업 기준", summary: "로어덱 64 in, 메인덱 96·118 in와 위치별 컨투어 차이, 반입부터 탑재까지 포워더가 하는 일과 하지 않는 일, BUP 원칙, 무게와 균형, 태그·서류 체크리스트." },
+    { id: 'uld-safety', checked: '2026-10-28', tag: "안전", level: 2, title: "ULD 안전과 특수화물 — 손상 기준, 빌린 ULD의 점검·반납, 특수화물 고정과 규정", short: "ULD 안전과 특수화물", summary: "ULD 손상 점검 기준과 서비스 불가 ULD 처리, BUP용으로 빌린 ULD의 점검·반납 기한·지체료·손상 책임, 무거운 화물·차량·동물·온도관리 화물 같은 특수화물의 고정과 항공 보안, 관련 국제 규정과 포워더 체크리스트." },
+    { id: 'uld-security', checked: '2026-10-28', tag: "보안", level: 3, title: "항공화물 보안 — 상용화주·RA·KC와 보안검색, 미국·EU행 요건, CSD", short: "항공화물 보안과 상용화주", summary: "ICAO 보안 공급망(RA·KC, SPX·SHR)과 한국 항공보안법의 상용화주 제도(지정 기준, 「상용화주 항공화물 보안기준」의 운송·접수·표본검색), 여객기·화물기 보안검색 방법과 엑스선으로 잘 보이지 않는 화물, 통제화물이 다시 검색되는 8가지 경우, 미국행 100% 검색과 EU행 ACC3·RA3·KC3, CSD·항공화물보안신고서, 포워더가 남길 기록과 처벌을 정리합니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };

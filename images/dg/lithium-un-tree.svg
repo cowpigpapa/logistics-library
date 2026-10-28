@@ -83,7 +83,7 @@
 <text x="596.0" y="743.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">리튬배터리는 UN 3536(IMDG 42-24·RID 2025)</text>
 <rect x="1120.0" y="600.0" width="512.0" height="162.0" fill="#fbe9e5" stroke="#d9482b" stroke-width="2.5" rx="12"/>
 <text x="1136.0" y="635.0" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">전기차를 UN 3171로 신고한 서류</text>
-<text x="1136.0" y="665.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">항공 경과 기간은 2025-03-31에 종료</text>
+<text x="1136.0" y="665.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">항공도 UN 3556~3558(특별조항 A185)</text>
 <text x="1136.0" y="693.0" font-size="16.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화주에게 확인 요청</text>
 <rect x="40.0" y="780.0" width="780.0" height="128.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
 <text x="56.0" y="815.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">3  용량: 기준선 위인가 아래인가(모든 운송수단 같음)</text>

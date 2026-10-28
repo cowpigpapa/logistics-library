@@ -25,7 +25,7 @@
 <text x="40.0" y="212.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">권고, 2년 주기</text>
 <circle cx="490.0" cy="189.0" r="10.0" fill="#e4572e" stroke="none" stroke-width="2"/>
 <text x="508.0" y="196.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">제24차 개정판(Rev.24) 2025년 발간</text>
-<text x="508.0" y="222.0" font-size="15.5" font-weight="700" fill="#e4572e" text-anchor="start">IATA: 2027-01-01부터 DGR에 반영 예정</text>
+<text x="508.0" y="222.0" font-size="15.5" font-weight="700" fill="#e4572e" text-anchor="start">운송수단별 규칙의 다음 판부터 반영</text>
 <text x="40.0" y="280.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">ICAO 기술지침</text>
 <text x="40.0" y="304.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">법적 근거, 2년 주기</text>
 <rect x="333.0" y="258.0" width="634.0" height="46.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
@@ -35,11 +35,11 @@
 <text x="40.0" y="372.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">IATA DGR</text>
 <text x="40.0" y="396.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">민간 규정, 매년</text>
 <rect x="333.0" y="350.0" width="314.0" height="46.0" fill="#eef1f4" stroke="#8a96a3" stroke-width="2.5" rx="8"/>
-<text x="344.0" y="380.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">제66판</text>
+<text x="344.0" y="380.0" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">2025년판(제66판)</text>
 <rect x="653.0" y="350.0" width="314.0" height="46.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="8"/>
-<text x="664.0" y="380.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">제67판 (현행)</text>
+<text x="664.0" y="380.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">2026년판 (현행)</text>
 <rect x="973.0" y="350.0" width="314.0" height="46.0" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>
-<text x="984.0" y="380.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">제68판 2027-01-01</text>
+<text x="984.0" y="380.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">2027년판(2026. 9. 발간)</text>
 <text x="40.0" y="464.0" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">IMDG Code</text>
 <text x="40.0" y="488.0" font-size="14.5" font-weight="600" fill="#5f6b78" text-anchor="start">SOLAS 의무, 2년 주기</text>
 <rect x="333.0" y="442.0" width="314.0" height="46.0" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5" rx="8" stroke-dasharray="7 5"/>

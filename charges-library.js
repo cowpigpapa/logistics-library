@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/charges';
-  const DOCS_VERSION = '20261028-12';
+  const DOCS_VERSION = '20261028-13';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -32,9 +32,9 @@
   ];
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
-    { id: 'ch-quote', checked: '2026-10-18', tag: "견적", level: 3, title: "견적서 읽는 법 — 해상 FCL·LCL·항공 견적의 다섯 덩어리, 단위·환율·조건, 인보이스 대조", short: "견적서 읽는 법", summary: "해상 FCL·LCL과 항공 견적서를 출발지 비용·주운임·할증료·도착지 비용·통관·내륙의 다섯 덩어리로 나누고, 단위·통화·환율·지급 조건·유효기간과 Incoterms 2020 조건별 견적 범위를 정리합니다. 빠뜨리기 쉬운 항목 목록, 예시 금액으로 만든 견적 예시와 인보이스 대조 순서를 붙였습니다." },
+    { id: 'ch-quote', checked: '2026-10-28', tag: "견적", level: 3, title: "견적서 읽는 법 — 해상 FCL·LCL·항공 견적의 다섯 덩어리, 단위·환율·조건, 인보이스 대조", short: "견적서 읽는 법", summary: "해상 FCL·LCL과 항공 견적서를 출발지 비용·주운임·할증료·도착지 비용·통관·내륙의 다섯 덩어리로 나누고, 단위·통화·환율·지급 조건·유효기간과 Incoterms 2020 조건별 견적 범위를 정리합니다. 빠뜨리기 쉬운 항목 목록, 예시 금액으로 만든 견적 예시와 인보이스 대조 순서를 붙였습니다." },
     { id: 'ch-surcharges', checked: '2026-10-18', tag: "할증료", level: 3, title: "해상 할증료 — 종류, 생긴 이유, 계산 원리", short: "해상 할증료 종류와 BAF", summary: "BAF·LSS·EBS·EU ETS·CAF·PSS 등 해상운임에 붙는 할증료가 왜 생겼고, 1970년대 운임동맹 시절의 BAF·CAF 두 가지에서 왜 이렇게 늘어났는지, 원리상 어떻게 계산되고 어느 날짜 기준으로 붙는지를 금액 없이 정리하고 인보이스의 할증료 줄을 대조하는 순서를 보여 줍니다." },
-    { id: 'ch-air-weight', checked: '2026-10-18', tag: "운임중량", level: 3, title: "항공 운임 중량 계산 — 실중량·부피 중량, 반올림, 중량 구간과 House·Master", short: "항공 운임 중량 계산", summary: "항공 운임 중량은 실중량과 부피 중량(cm³ ÷ 6,000) 중 큰 값입니다. 치수와 중량의 반올림, 여러 개 화물 합산, 최소 운임·중량 구간과 분기점, AWB 운임 칸, House와 Master 운임 중량이 다른 이유를 실제 숫자로 풉니다." },
+    { id: 'ch-air-weight', checked: '2026-10-28', tag: "운임중량", level: 3, title: "항공 운임 중량 계산 — 실중량·부피 중량, 반올림, 중량 구간과 House·Master", short: "항공 운임 중량 계산", summary: "항공 운임 중량은 실중량과 부피 중량(cm³ ÷ 6,000) 중 큰 값입니다. 치수와 중량의 반올림, 여러 개 화물 합산, 최소 운임·중량 구간과 분기점, AWB 운임 칸, House와 Master 운임 중량이 다른 이유를 실제 숫자로 풉니다." },
     { id: 'ch-lcl', checked: '2026-10-18', tag: "LCL", level: 3, title: "LCL·CFS와 운임톤 계산 — 소량 해상화물이 모이고 나뉘는 길과 R/T 청구", short: "LCL·운임톤 계산", summary: "LCL 화물이 수출·수입 CFS에서 어떻게 모이고 나뉘는지 관세청 고시 기준으로 정리하고, 1CBM과 1,000kg 중 큰 쪽으로 세는 운임톤(R/T), 최소 1 R/T, CFS 실측 차이를 공개 요율로 계산해 보입니다." },
     { id: 'ch-carbon', checked: '2026-10-27', tag: "탄소배출", level: 3, title: "물류 탄소 배출량 계산과 탄소 규제 — ISO 14083·GLEC 계산법, EU ETS·FuelEU·IMO·CBAM", short: "물류 탄소 배출량 계산", summary: "화주가 묻는 운송 탄소 배출량을 ISO 14083:2023과 GLEC Framework 방식(WTW·TTW, 운송 체인 요소, 허브, 배출 원단위, 1차 데이터와 기본값)으로 계산하는 법을 GLEC 공개 기본값으로 만든 해상 FCL·LCL·항공·트럭 예시로 보이고, 포워더가 모을 자료와 계산서에 적을 것, Scope 3 카테고리 4·9 구분, EU ETS 해운·FuelEU Maritime의 확정 내용과 할증료로 넘어오는 구조, 2026년 10월 현재 채택 전인 IMO Net-Zero Framework, 2026년 확정 기간에 들어간 EU CBAM(연 50t 면제, 2027년 9월 30일 신고)에서 생산자와 포워더의 자료 구분, 한국 탄소중립기본법·물류정책기본법 관련 조항을 금액 없이 정리합니다." },
     { id: 'ch-sea-charges', tag: "해상부대비용", level: 3, title: "해상 부대비용 지도 — 누가 받는 돈인가, 선사·나라마다 다른 이름, 해운법 공표 제도", short: "해상 부대비용 항목과 받는 곳", summary: "THC·서류비·D/O 비용·씰비·부두사용료(화물입출항료)·항만시설보안료·CFS 작업료·청소·수리비가 선사·항만공사·터미널·포워더 가운데 누가 받는 돈인지 정리하고, Maersk·ONE·Hapag-Lloyd·장금상선의 2026년 한국 요율표로 부두사용료가 THC에 포함되거나 따로 붙는 차이(부산 4,429원/TEU), 2026년 7월 보안료 상한 145원/TEU, 공정위 의결의 THC 정의와 항만운송사업법상 하역료 구분, 미국·중국·일본·싱가포르의 다른 이름과 범위, 해운법 제28조·제29조의2·제31조와 해양수산부 운임공표 고시(요금 항목, 공표일자·적용일자, ±10% 범위, PORT-MIS 공표, 장기운송계약, 제재)를 다룹니다." },

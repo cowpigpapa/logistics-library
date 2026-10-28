@@ -46,7 +46,7 @@
 <text x="366" y="791" font-size="21" font-weight="500" fill="#d9482b" text-anchor="start">맞는다고 실제 발행된 번호라는 뜻은 아님</text>
 <rect x="970" y="660" width="570" height="180" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
 <text x="986" y="698" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">House AWB 번호</text>
-<text x="986" y="733" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">IATA 공통 규칙 없이 포워더가 정함</text>
+<text x="986" y="733" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">공통 번호 규칙 없이 포워더가 정함</text>
 <text x="986" y="762" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">항공사 사이트 조회는 MAWB 번호로</text>
 <text x="986" y="791" font-size="21" font-weight="500" fill="#1d2a3a" text-anchor="start">미국 세관 규정: 하우스 번호 12자리까지</text>
 </svg>

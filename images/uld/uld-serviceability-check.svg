@@ -4,35 +4,36 @@
 <rect x="30" y="30" width="760" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
 <text x="54" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">서비스 가능 점검은 언제 하나</text>
 <circle cx="410" cy="500" r="200" fill="none" stroke="#c9d2dc" stroke-width="3"/>
-<circle cx="410.0" cy="300.0" r="16" fill="#1f6fd1"/>
-<text x="410.0" y="306.0" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
-<text x="410.0" y="272.0" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">빌드업 전</text>
-<circle cx="566.366296493606" cy="375.3020396282533" r="16" fill="#1f6fd1"/>
-<text x="566.366296493606" y="381.3020396282533" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
-<text x="592.366296493606" y="381.3020396282533" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">항공기로 보내기 전</text>
-<circle cx="604.9855824363647" cy="544.5041867912629" r="16" fill="#1f6fd1"/>
-<text x="604.9855824363647" y="550.5041867912629" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
-<text x="630.9855824363647" y="550.5041867912629" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">항공기에 싣기 전</text>
-<circle cx="496.77674782351164" cy="680.1937735804838" r="16" fill="#1f6fd1"/>
-<text x="496.77674782351164" y="686.1937735804838" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
-<text x="522.7767478235116" y="724.1937735804838" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">항공기에서 내릴 때</text>
-<circle cx="323.22325217648836" cy="680.1937735804838" r="16" fill="#1f6fd1"/>
-<text x="323.22325217648836" y="686.1937735804838" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
-<text x="297.22325217648836" y="724.1937735804838" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end">브레이크다운(해체) 뒤</text>
-<circle cx="215.01441756363528" cy="544.5041867912629" r="16" fill="#1f6fd1"/>
-<text x="215.01441756363528" y="550.5041867912629" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
-<text x="189.01441756363528" y="550.5041867912629" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end">재고 점검 때</text>
-<circle cx="253.63370350639403" cy="375.30203962825334" r="16" fill="#1f6fd1"/>
-<text x="253.63370350639403" y="381.30203962825334" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
-<text x="227.63370350639403" y="381.30203962825334" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end">넘기거나 넘겨받을 때</text>
-<text x="227.63370350639403" y="407.30203962825334" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end">(인수 전)</text>
-<text x="410" y="490" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="middle">IATA가 드는</text>
+<circle cx="410" cy="300" r="16" fill="#1f6fd1"/>
+<text x="410" y="306" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="410" y="244" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">브레이크다운(해체) 뒤</text>
+<text x="410" y="272" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">보관하기 전</text>
+<circle cx="583.2" cy="400" r="16" fill="#1f6fd1"/>
+<text x="583.2" y="406" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="609.2" y="406" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">보관에서 꺼낼 때</text>
+<circle cx="583.2" cy="600" r="16" fill="#1f6fd1"/>
+<text x="583.2" y="606" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="609.2" y="606" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="start">빌드업 시작 전</text>
+<circle cx="410" cy="700" r="16" fill="#1f6fd1"/>
+<text x="410" y="706" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="410" y="744" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="middle">항공기로 옮기는 단계마다</text>
+<circle cx="236.8" cy="600" r="16" fill="#1f6fd1"/>
+<text x="236.8" y="606" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="210.8" y="606" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end">항공기에 싣기 직전</text>
+<text x="210.8" y="632" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end">(최종 점검)</text>
+<circle cx="236.8" cy="400" r="16" fill="#1f6fd1"/>
+<text x="236.8" y="406" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="210.8" y="406" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end">넘겨받을 때</text>
+<text x="210.8" y="432" font-size="19" font-weight="700" fill="#1d2a3a" text-anchor="end">(쓰기 전)</text>
+<text x="410" y="490" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="middle">FAA·ULD CARE가 드는</text>
 <text x="410" y="524" font-size="24" font-weight="800" fill="#1f6fd1" text-anchor="middle">점검 시점</text>
+<text x="54" y="850" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">근거: FAA AC 120-85B 2.4.7.1·2.4.12항,</text>
+<text x="54" y="876" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">ULD CARE 공개 자료(Continuing Airworthiness, Code of Conduct)</text>
 <rect x="822" y="30" width="820" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
 <text x="846" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">판정과 처리</text>
 <rect x="852" y="100" width="760" height="120" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
 <text x="868" y="134" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">ULD에 붙은 운영 손상 한계 표지(ODLN)의 부품 전체를 확인</text>
-<text x="868" y="164" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">주황색 스티커, 수치 한계는 표지와 항공사 규정에서 확인</text>
+<text x="868" y="164" font-size="18" font-weight="500" fill="#1d2a3a" text-anchor="start">표준 양식에 제조사가 한계값을 넣은 표지, 수치 한계는 표지와 항공사 규정에서 확인</text>
 <rect x="852" y="250" width="244" height="70" fill="#e2f3ea" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
 <text x="974" y="292" font-size="18" font-weight="800" fill="#1f8a5b" text-anchor="middle">손상 없음 → 사용 가능</text>
 <rect x="1108" y="250" width="244" height="70" fill="#e2f3ea" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
@@ -43,19 +44,19 @@
 <rect x="852" y="370" width="760" height="64" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
 <circle cx="884" cy="402" r="16" fill="#d9482b"/>
 <text x="884" y="408" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
-<text x="912" y="410" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">화물을 사용 가능한 ULD로 옮김</text>
+<text x="912" y="410" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">서비스 불가로 표시(태그·라벨)하고 화물을 싣지 않음</text>
 <rect x="852" y="448" width="760" height="64" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
 <circle cx="884" cy="480" r="16" fill="#d9482b"/>
 <text x="884" y="486" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
-<text x="912" y="488" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">&quot;Unserviceable&quot; 태그를 붙임(IATA AHM 420)</text>
+<text x="912" y="488" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">즉시 사용 가능한 장비와 분리해 지정 장소에 보관</text>
 <rect x="852" y="526" width="760" height="64" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
 <circle cx="884" cy="558" r="16" fill="#d9482b"/>
 <text x="884" y="564" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
-<text x="912" y="566" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">즉시 사용에서 빼서 전용 장소에 보관</text>
+<text x="912" y="566" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">ULD 정비 책임자(소유자·운영자)에게 손상 보고</text>
 <rect x="852" y="604" width="760" height="64" fill="#ffffff" stroke="#d9482b" stroke-width="2" rx="10"/>
 <circle cx="884" cy="636" r="16" fill="#d9482b"/>
 <text x="884" y="642" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
-<text x="912" y="644" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">ULD 운영자(소유자)에게 알림</text>
+<text x="912" y="644" font-size="20" font-weight="700" fill="#1d2a3a" text-anchor="start">수리로 보냄(빌린 ULD는 항공사 기준에 따라 빈 채로 반납)</text>
 <rect x="852" y="700" width="760" height="180" fill="#fdf4dc" stroke="#c99a2e" stroke-width="2" rx="12"/>
 <text x="876" y="740" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">감항성 판정 정비가 아니라 눈에 띄는 손상을 걸러 내는 점검</text>
 <text x="876" y="772" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start">교육·권한을 받은 직원이면 정비사 자격 없이 가능</text>
