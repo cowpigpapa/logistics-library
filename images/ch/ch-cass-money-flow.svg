@@ -3,69 +3,70 @@
 <rect width="1672" height="941" fill="#ffffff"/>
 <rect x="30" y="30" width="1070" height="800" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
 <rect x="1120" y="30" width="522" height="800" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
-<text x="56" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">① CASS 참여 항공사: IATA 정산소를 거치는 길</text>
-<text x="56" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">청구서는 항공사마다 나오지만 송금은 정산 회차마다 한 번</text>
+<text x="56" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">① CASS 참여 항공사: 정산 은행을 거치는 길</text>
+<text x="56" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">청구서는 포워더별로 모아 나오고, 송금은 정산 회차마다 한 번</text>
 <rect x="56" y="150" width="240" height="104" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
-<text x="176.0" y="179.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주</text>
-<text x="176.0" y="209.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">포워더와 별도 계약</text>
-<text x="176.0" y="239.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">운임·요금 지급</text>
+<text x="176.0" y="179.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주</text>
+<text x="176.0" y="209.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">포워더와 별도 계약</text>
+<text x="176.0" y="239.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">운임·요금 지급</text>
 <rect x="390" y="150" width="330" height="120" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
-<text x="555.0" y="187.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">포워더(IATA 화물대리점)</text>
-<text x="555.0" y="217.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사 이름으로 Master AWB 실행</text>
-<text x="555.0" y="247.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">실행 순간 항공사에 지급 의무</text>
+<text x="555.0" y="187.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">포워더(IATA 화물대리점)</text>
+<text x="555.0" y="217.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사와 계약, Master AWB 실행</text>
+<text x="555.0" y="247.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">운송되면 항공사에 운임 채무</text>
 <rect x="830" y="140" width="240" height="88" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
-<text x="950.0" y="176.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사 A</text>
-<text x="950.0" y="206.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASS 참여</text>
+<text x="950.0" y="176.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사 A</text>
+<text x="950.0" y="206.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASS 참여</text>
 <rect x="830" y="252" width="240" height="88" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
-<text x="950.0" y="288.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사 B</text>
-<text x="950.0" y="318.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASS 참여</text>
+<text x="950.0" y="288.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사 B</text>
+<text x="950.0" y="318.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASS 참여</text>
 <rect x="830" y="364" width="240" height="88" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
-<text x="950.0" y="400.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사 C</text>
-<text x="950.0" y="430.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASS 참여</text>
+<text x="950.0" y="400.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사 C</text>
+<text x="950.0" y="430.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASS 참여</text>
 <rect x="390" y="420" width="330" height="120" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
-<text x="555.0" y="457.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">IATA CASS 정산소</text>
-<text x="555.0" y="487.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASSLink에서</text>
-<text x="555.0" y="517.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">청구서·정산서 생성</text>
+<text x="555.0" y="457.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">CASS 정산 은행</text>
+<text x="555.0" y="487.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">청구 내역을 모아</text>
+<text x="555.0" y="517.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">포워더별 청구서 작성</text>
 <rect x="390" y="650" width="330" height="104" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
-<text x="555.0" y="694.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">정산 은행 계좌</text>
-<text x="555.0" y="724.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">hinge account</text>
+<text x="555.0" y="694.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">정산 계좌</text>
+<text x="555.0" y="724.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">포워더 송금이 모이는 곳</text>
 <line x1="296" y1="202" x2="380" y2="202" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m-green)"/>
 <line x1="720" y1="184" x2="820" y2="184" stroke="#5f6b78" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#m-ink)"/>
 <line x1="830" y1="410" x2="730" y2="468" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m-blue)"/>
-<text x="745" y="522" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">AWB 청구 파일</text>
-<text x="745" y="548" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">(billing file) 업로드</text>
+<text x="745" y="522" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">포워더별 운임</text>
+<text x="745" y="548" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">청구 내역 제출</text>
 <line x1="555" y1="410" x2="555" y2="282" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m-blue)"/>
-<text x="570" y="340" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">항공사별 청구서 +</text>
-<text x="570" y="366" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">합계 정산서 1장</text>
+<text x="570" y="340" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">포워더별 청구서</text>
+<text x="570" y="366" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="start">(항공사별 내역)</text>
 <path d="M 400 274 C 290 360 290 640 380 696" fill="none" stroke="#d9482b" stroke-width="4" marker-end="url(#m-red)"/>
 <text x="70" y="600" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">송금일까지 합계를</text>
 <text x="70" y="626" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">한 번에 송금</text>
 <path d="M 722 702 C 1000 702 1062 580 1040 440" fill="none" stroke="#1f8a5b" stroke-width="4" marker-end="url(#m-green)"/>
-<text x="860" y="770" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="middle">송금일 뒤 2영업일 안에</text>
-<text x="860" y="796" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="middle">항공사별로 지급</text>
+<text x="860" y="770" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="middle">항공사별로 나눠</text>
+<text x="860" y="796" font-size="19" font-weight="700" fill="#1f8a5b" text-anchor="middle">입금</text>
 <text x="56" y="300" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">화주에게 받는 돈은</text>
 <text x="56" y="326" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">CASS 밖의 별개 계약</text>
-<text x="56" y="352" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">(포워더 청구·수금)</text>
+<text x="56" y="352" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="start">(신용 기간 뒤 수금)</text>
 <text x="1146" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">② CASS 밖</text>
 <text x="1146" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">비참여 항공사·항공운송총대리점(GSA)</text>
 <rect x="1186" y="150" width="390" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
-<text x="1381.0" y="190.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">포워더</text>
-<text x="1381.0" y="220.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">IATA 대리점 또는 비IATA 회사</text>
+<text x="1381.0" y="190.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">포워더</text>
+<text x="1381.0" y="220.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">IATA 대리점 또는 비IATA 회사</text>
 <rect x="1186" y="420" width="390" height="110" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
-<text x="1381.0" y="452.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사 또는 GSA</text>
-<text x="1381.0" y="482.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">직접 청구서·명세서 발행</text>
-<text x="1381.0" y="512.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사·GSA별로 따로 정산</text>
+<text x="1381.0" y="452.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사 또는 GSA</text>
+<text x="1381.0" y="482.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">직접 청구서·명세서 발행</text>
+<text x="1381.0" y="512.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사·GSA별로 따로 정산</text>
 <line x1="1300" y1="410" x2="1300" y2="258" stroke="#1f6fd1" stroke-width="4" marker-end="url(#m-blue)"/>
 <text x="1288" y="330" font-size="19" font-weight="700" fill="#1f6fd1" text-anchor="end">직접 청구</text>
 <line x1="1460" y1="256" x2="1460" y2="408" stroke="#d9482b" stroke-width="4" marker-end="url(#m-red)"/>
 <text x="1474" y="330" font-size="19" font-weight="700" fill="#d9482b" text-anchor="start">개별 송금</text>
 <rect x="1150" y="580" width="462" height="220" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
-<text x="1381.0" y="637.4" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">정산 조건의 근거</text>
-<text x="1381.0" y="667.4" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">IATA 대리점: 결의 801r 제1절</text>
-<text x="1381.0" y="697.4" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASS 국가에서는 CASS와 같은 주기·송금일</text>
-<text x="1381.0" y="727.4" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">비IATA 회사: 항공사·GSA와의 신용 계약</text>
-<text x="1381.0" y="757.4" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">또는 CASS Associate로 CASS 참여</text>
+<text x="1381.0" y="622.0" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">CASS 밖 정산의 예</text>
+<text x="1381.0" y="652.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASS는 항공사가 고르는 선택 제도</text>
+<text x="1381.0" y="682.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사 자체 정산 시스템으로 청구</text>
+<text x="1381.0" y="712.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">GSA 청구(항공사업법 제2조 제30호)</text>
+<text x="1381.0" y="742.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">비IATA 포워더: 개별 신용 계약</text>
+<text x="1381.0" y="772.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">또는 CASS Associate로 참여</text>
 <rect x="30" y="846" width="1612" height="70" rx="12" fill="#fdeeea" stroke="#d9482b" stroke-width="2"/>
-<text x="836" y="880" font-size="20" font-weight="700" fill="#d9482b" text-anchor="middle">결의 801a(II) 제9조: 항공사 몫 금액은 화주에게 받았는지와 상관없이 포워더가 갚고, 정산 때까지 항공사를 위해 보관하는 돈입니다.</text>
-<text x="836" y="906" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">AWB를 실행한 순간 지급 의무가 생기고, 화주 미수는 포워더의 위험으로 남습니다.</text>
+<text x="836" y="880" font-size="20" font-weight="700" fill="#d9482b" text-anchor="middle">1978년 사건 당시 IATA 화물대리점 계약: 대리점은 화주에게서 걷었는지와 상관없이 항공사에 낼 돈을 책임진다.</text>
+<text x="836" y="906" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">미국 연방제2항소법원 In re Shulman(1984)이 인용한 계약 문구. 화주 미수는 포워더의 위험으로 남습니다.</text>
 </svg>

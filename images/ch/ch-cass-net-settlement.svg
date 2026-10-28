@@ -4,57 +4,61 @@
 <rect x="30" y="30" width="520" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
 <rect x="570" y="30" width="520" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
 <rect x="1110" y="30" width="532" height="880" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
-<text x="56" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">선불(PP) AWB</text>
-<text x="56" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">출발지 CASS 청구서에서 정산</text>
+<text x="56" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">선불(PP) Master AWB</text>
+<text x="56" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">출발지 CASS 청구서로 정산</text>
 <rect x="60" y="150" width="460" height="104" rx="12" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5"/>
-<text x="290.0" y="194.7" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">+ 운임·종가요금</text>
-<text x="290.0" y="224.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">Weight·Valuation Charge</text>
-<rect x="60" y="280" width="460" height="104" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
-<text x="290.0" y="324.7" font-size="22" font-weight="800" fill="#5f6b78" text-anchor="middle">− 할인·커미션</text>
-<text x="290.0" y="354.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사가 정하거나 지시할 때만</text>
+<text x="290.0" y="194.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">+ 기본운임</text>
+<text x="290.0" y="224.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">화물 중량에 비례하는 운임</text>
+<rect x="60" y="280" width="460" height="104" rx="12" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="290.0" y="324.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">+ 할증료</text>
+<text x="290.0" y="354.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">유류·보안할증료, 할인되지 않음</text>
 <rect x="60" y="410" width="460" height="104" rx="12" fill="#e8f0fb" stroke="#1f6fd1" stroke-width="2.5"/>
-<text x="290.0" y="454.7" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">+ 기타요금 항공사 몫</text>
-<text x="290.0" y="484.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">Due Carrier: MY 유류할증료 등</text>
+<text x="290.0" y="454.0" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">+ 항공사 기타 요금</text>
+<text x="290.0" y="484.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">위험물 취급수수료 등, 항공사가 정함</text>
 <rect x="60" y="560" width="460" height="120" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
-<text x="290.0" y="597.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">기타요금 대리점 몫</text>
-<text x="290.0" y="627.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">Due Agent: AW 발행비 등</text>
-<text x="290.0" y="657.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">포워더가 화주에게 받아 보유, 정산에 안 들어감</text>
-<text x="290" y="740" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">항공사 몫 합계가 포워더의 지급액</text>
+<text x="290.0" y="597.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주에게 받는 돈</text>
+<text x="290.0" y="627.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">신용 기간(예: 30일·60일) 뒤 수금</text>
+<text x="290.0" y="657.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">CASS 정산과 별개 계약</text>
+<text x="290" y="740" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">포워더가 송금일에 항공사에 냄</text>
 <text x="290" y="770" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">(화주 미수와 무관)</text>
-<text x="596" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">착불(CC) AWB</text>
-<text x="596" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">운임은 도착지에서 수하인에게 받음</text>
+<text x="596" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">착불(CC) Master AWB</text>
+<text x="596" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">운임은 도착지에서 수하인이 냄</text>
 <rect x="600" y="150" width="460" height="104" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
-<text x="830.0" y="194.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">운임·종가요금</text>
-<text x="830.0" y="224.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">도착지 항공사가 수하인에게 받음</text>
-<rect x="600" y="280" width="460" height="104" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
-<text x="830.0" y="324.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">기타요금 항공사 몫(CC)</text>
-<text x="830.0" y="354.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">도착지에서 받음</text>
-<rect x="600" y="410" width="460" height="120" rx="12" fill="#e6f4ed" stroke="#1f8a5b" stroke-width="2.5"/>
-<text x="830.0" y="447.7" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">− 기타요금 대리점 몫(CC)</text>
-<text x="830.0" y="477.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">출발지 정산에서 포워더에게 돌려줌</text>
-<text x="830.0" y="507.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">(포워더 지급액에서 차감)</text>
-<rect x="600" y="560" width="460" height="120" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2"/>
-<text x="830.0" y="597.7" font-size="22" font-weight="800" fill="#e4572e" text-anchor="middle">수하인이 안 받거나 안 내면</text>
-<text x="830.0" y="627.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">인도받을 권리는 운임 지급이 조건</text>
-<text x="830.0" y="657.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">(몬트리올 협약 제13조 제1항)</text>
-<text x="830" y="740" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">착불 가능 여부와 착불 수수료(FC)는</text>
-<text x="830" y="770" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사·도착지마다 다름</text>
-<text x="1136" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">정산 금액(Net/Net)</text>
-<text x="1136" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">IATA 정산 서비스 규정 6.4.7</text>
-<text x="1160" y="180" font-size="24" font-weight="800" fill="#1d2a3a" text-anchor="start">PP 운임·종가요금</text>
-<text x="1160" y="230" font-size="24" font-weight="700" fill="#1d2a3a" text-anchor="start">− 할인</text>
-<text x="1160" y="280" font-size="24" font-weight="700" fill="#1d2a3a" text-anchor="start">− 커미션</text>
-<text x="1160" y="330" font-size="24" font-weight="700" fill="#1d2a3a" text-anchor="start">+ PP 기타요금(항공사 몫)</text>
-<text x="1160" y="380" font-size="24" font-weight="700" fill="#1d2a3a" text-anchor="start">− CC 기타요금(대리점 몫)</text>
-<line x1="1160" y1="420" x2="1610" y2="420" stroke="#1d2a3a" stroke-width="3"/>
-<text x="1160" y="462" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">= 정산 금액</text>
-<rect x="1150" y="500" width="460" height="96" rx="12" fill="#fdeeea" stroke="#d9482b" stroke-width="2.5"/>
-<text x="1380.0" y="540.7" font-size="22" font-weight="800" fill="#d9482b" text-anchor="middle">0보다 크면</text>
-<text x="1380.0" y="570.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">포워더가 항공사에 지급</text>
-<rect x="1150" y="616" width="460" height="96" rx="12" fill="#e6f4ed" stroke="#1f8a5b" stroke-width="2.5"/>
-<text x="1380.0" y="656.7" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">0보다 작으면</text>
-<text x="1380.0" y="686.7" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사가 포워더에게 지급</text>
-<text x="1160" y="770" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">정산 통화는 원칙적으로 CASS 국가 통화이고</text>
-<text x="1160" y="800" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start">다른 통화 AWB는 AWB 실행일 환율로 바꿉니다.</text>
-<text x="1160" y="846" font-size="18" font-weight="500" fill="#5f6b78" text-anchor="start">현지 사정과 세금 처리에 따라 달라질 수 있음</text>
+<text x="830.0" y="194.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">운임·요금</text>
+<text x="830.0" y="224.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">도착지에서 수하인이 냄</text>
+<rect x="600" y="280" width="460" height="120" rx="12" fill="#e6f4ed" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="830.0" y="317.0" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">인도의 조건</text>
+<text x="830.0" y="347.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="middle">요금을 내야 인도를 청구</text>
+<text x="830.0" y="377.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="middle">몬트리올 협약 제13조 제1항, 상법 제920조·제141조</text>
+<rect x="600" y="426" width="460" height="120" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2"/>
+<text x="830.0" y="463.0" font-size="22" font-weight="800" fill="#e4572e" text-anchor="middle">수하인이 안 받거나 연락 두절</text>
+<text x="830.0" y="493.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="middle">송하인의 처분권이 되살아남</text>
+<text x="830.0" y="523.0" font-size="17" font-weight="600" fill="#5f6b78" text-anchor="middle">몬트리올 협약 제12조 제4항, 상법 제917조 제4항</text>
+<rect x="600" y="572" width="460" height="104" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="830.0" y="616.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">착지불 수수료</text>
+<text x="830.0" y="646.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">기타 요금이라 항공사가 정함</text>
+<text x="830" y="740" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">착불을 받는지와 수수료 조건은</text>
+<text x="830" y="770" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">부킹 전에 항공사에 확인</text>
+<text x="1136" y="76" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">포워더끼리의 착불 거래</text>
+<text x="1136" y="108" font-size="20" font-weight="500" fill="#5f6b78" text-anchor="start">공정위 의결서가 조사한 한국행 도착지불 거래</text>
+<rect x="1140" y="140" width="472" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1376.0" y="180.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">수하인(수입자)</text>
+<text x="1376.0" y="210.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">도착지 포워더와 운송계약</text>
+<line x1="1376" y1="240" x2="1376" y2="268" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="1140" y="274" width="472" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1376.0" y="314.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">도착지 포워더</text>
+<text x="1376.0" y="344.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">출발지 파트너에게 운송 의뢰</text>
+<line x1="1376" y1="374" x2="1376" y2="402" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="1140" y="408" width="472" height="96" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1376.0" y="448.0" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">출발지 포워더</text>
+<text x="1376.0" y="478.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사와 계약하고 운임을 냄</text>
+<line x1="1376" y1="508" x2="1376" y2="536" stroke="#5f6b78" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="1140" y="542" width="472" height="130" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2"/>
+<text x="1376.0" y="584.0" font-size="21" font-weight="800" fill="#e4572e" text-anchor="middle">요금 청구서(debit note)</text>
+<text x="1376.0" y="614.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">AWB 번호·중량·할증료·기본운임을</text>
+<text x="1376.0" y="644.0" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">항공사 청구 그대로 적어 도착지 포워더에게</text>
+<text x="1376" y="718" font-size="18" font-weight="600" fill="#5f6b78" text-anchor="middle">도착지 포워더는 수하인에게 청구서(invoice)</text>
+<text x="1376" y="780" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">매매 조건이 착불이어도</text>
+<text x="1376" y="810" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">Master AWB는 선불로 출발지 CASS에</text>
+<text x="1376" y="840" font-size="20" font-weight="800" fill="#d9482b" text-anchor="middle">청구될 수 있음</text>
 </svg>
