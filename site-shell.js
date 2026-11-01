@@ -9,6 +9,16 @@
 })();
 
 (function () {
+  // 관리자 키가 저장된 브라우저(운영자)에서만 머리줄에 관리 메뉴를 붙인다. 아래의 메뉴 열고 닫기 처리보다 먼저 붙여야 같이 묶인다.
+  try {
+    const nav = document.querySelector('.main-nav');
+    if (nav && localStorage.getItem('ll-admin-key') && !nav.querySelector('.nav-admin')) {
+      nav.insertAdjacentHTML('beforeend', '<details class="nav-group nav-admin"><summary>관리</summary><div class="menu-list">'
+        + '<a href="/case-review">사례 선별표<small>포워더 점검 사례 넣기·보류·빼기</small></a>'
+        + '<a href="/term-review">용어 검수표<small>바뀐 용어 판정</small></a>'
+        + '<a href="/linkcheck">링크 점검<small>문서 속 바깥 링크 상태</small></a></div></details>');
+    }
+  } catch (_) {}
   // 색인 페이지 안에 끼워 열린 도구(?embed=1)는 머리줄·푸터 없이 보여 준다.
   try { if (new URLSearchParams(location.search).get('embed') === '1') document.documentElement.classList.add('is-embed'); } catch (_) {}
   // 옛 카테고리 화면(#libraryView)은 합쳐진 문서·없는 문서 주소로만 열린다. 새 화면으로 넘긴다:

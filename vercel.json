@@ -134,6 +134,19 @@
       ]
     },
     {
+      "source": "/case-review",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    },
+    {
       "source": "/ch-docs/(.*)",
       "headers": [
         {

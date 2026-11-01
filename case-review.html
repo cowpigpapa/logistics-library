@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>사례 선별표 · Logistics Library</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+  <style>
+/* 레이아웃: 위에 관리자 키·필터·집계, 아래로 추천 분류별 사례 한 줄씩(문제·원인·위험, 넣기·보류·빼기, 옮길 문서, 메모). 용어 검수표와 같은 검수 대장 형식. */
+:root {
+  --bg: #f5f7fa; --surface: #ffffff; --ink: #14233a; --muted: #5b6b80; --line: #dde3eb;
+  --accent: #1f5fae; --accent-soft: #e6eef9;
+  --keep: #1d7a4a; --keep-soft: #e3f3ea; --hold: #9a5b00; --hold-soft: #fdf0dc; --drop: #b3261e; --drop-soft: #fbe7e5;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1621; --surface: #172131; --ink: #e6ecf4; --muted: #9aa8bb; --line: #2a3648;
+  --accent: #7fb0f0; --accent-soft: #1d2d45;
+  --keep: #6fcf97; --keep-soft: #16301f; --hold: #f2b45a; --hold-soft: #352611; --drop: #f28b82; --drop-soft: #3a1c1a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f1621; --surface: #172131; --ink: #e6ecf4; --muted: #9aa8bb; --line: #2a3648;
+  --accent: #7fb0f0; --accent-soft: #1d2d45;
+  --keep: #6fcf97; --keep-soft: #16301f; --hold: #f2b45a; --hold-soft: #352611; --drop: #f28b82; --drop-soft: #3a1c1a; color-scheme: dark }
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 64px }
+.wrap { max-width: 1080px; margin: 0 auto }
+.home { color: var(--accent); text-decoration: none; font-size: 13px }
+h1 { font-size: 1.5rem; margin: 6px 0 4px; text-wrap: balance }
+.lead { margin: 0 0 14px; color: var(--muted); max-width: 72ch }
+.keyform { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px }
+.keyform input { font: inherit; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); flex: 1 1 220px; min-width: 0 }
+.keyform button, .logout { font: inherit; font-size: 14px; padding: 7px 14px; border: 1px solid var(--accent); border-radius: 8px; background: var(--accent); color: var(--surface); cursor: pointer }
+.logout { background: transparent; color: var(--accent); font-size: 12px; padding: 4px 10px; margin-left: 6px }
+.bar { position: sticky; top: 0; z-index: 5; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 12px 0; display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center }
+.bar select, .bar input { font: inherit; font-size: 13.5px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 7px; background: var(--bg); color: var(--ink); min-width: 0 }
+.bar input { flex: 1 1 180px }
+.counts { display: flex; gap: 6px; flex-wrap: wrap; font-size: 12.5px; font-variant-numeric: tabular-nums; margin-left: auto }
+.pill { padding: 2px 9px; border-radius: 99px; background: var(--bg); color: var(--muted); border: 1px solid var(--line) }
+.pill.k { background: var(--keep-soft); color: var(--keep); border-color: transparent }
+.pill.h { background: var(--hold-soft); color: var(--hold); border-color: transparent }
+.pill.d { background: var(--drop-soft); color: var(--drop); border-color: transparent }
+.status { font-size: 12.5px; color: var(--muted) }
+#status { width: 100% }
+.general { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px; display: grid; gap: 6px }
+.general label { font-weight: 600 }
+.grp { font-size: .72rem; letter-spacing: .08em; color: var(--accent); font-weight: 700; margin: 30px 0 0 }
+h2 { font-size: 1.05rem; margin: 6px 0 2px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap }
+h2 small { font-weight: 500; color: var(--muted); font-size: .8rem }
+.row { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 8px; padding: 10px 12px; margin-top: 8px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 14px }
+.row[data-s="keep"] { border-left-color: var(--keep) }
+.row[data-s="hold"] { border-left-color: var(--hold) }
+.row[data-s="drop"] { border-left-color: var(--drop); opacity: .72 }
+.t { font-weight: 600; min-width: 0 }
+.chip { display: inline-block; font-size: 11.5px; padding: 0 7px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); margin-left: 6px; vertical-align: 1px; font-weight: 500 }
+.chip.c { border-color: transparent; background: var(--accent-soft); color: var(--accent) }
+.chip.w { border-color: transparent; background: var(--hold-soft); color: var(--hold) }
+.lab { display: grid; grid-template-columns: 3.2em minmax(0, 1fr); gap: 2px 8px; grid-column: 1; font-size: 13.5px; min-width: 0; margin: 2px 0 0 }
+.lab dt { color: var(--muted); font-size: 12px; padding-top: 1px }
+.lab dd { margin: 0; min-width: 0 }
+.lab dd.r { color: var(--drop) }
+.lab dd.src { font-family: var(--font-mono); font-size: 12px; color: var(--muted) }
+.ctl { grid-column: 2; grid-row: 1 / span 2; display: flex; flex-direction: column; gap: 6px; width: 220px }
+.seg { display: flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden }
+.seg button { flex: 1; font: inherit; font-size: 12.5px; padding: 5px 0; border: 0; background: var(--surface); color: var(--muted); cursor: pointer }
+.seg button + button { border-left: 1px solid var(--line) }
+.seg button[aria-pressed="true"][data-v="keep"] { background: var(--keep-soft); color: var(--keep); font-weight: 600 }
+.seg button[aria-pressed="true"][data-v="hold"] { background: var(--hold-soft); color: var(--hold); font-weight: 600 }
+.seg button[aria-pressed="true"][data-v="drop"] { background: var(--drop-soft); color: var(--drop); font-weight: 600 }
+.ctl select { font: inherit; font-size: 12.5px; padding: 4px 6px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); color: var(--ink) }
+textarea { grid-column: 1 / -1; font: inherit; font-size: 13.5px; width: 100%; min-height: 38px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 7px; background: var(--bg); color: var(--ink); resize: vertical }
+textarea:focus, .bar input:focus, select:focus, button:focus-visible, .keyform input:focus { outline: 2px solid var(--accent); outline-offset: 1px }
+.saved { font-size: 11.5px; color: var(--keep); grid-column: 1 / -1 }
+.saved.err { color: var(--drop) }
+.note { font-size: 12.5px; color: var(--muted) }
+@media (max-width: 640px) {
+  .row { grid-template-columns: minmax(0, 1fr) }
+  .ctl { grid-column: 1; grid-row: auto; width: auto; flex-direction: row; flex-wrap: wrap }
+  .ctl .seg { flex: 1 1 100% }
+  .ctl select { flex: 1 }
+}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="home" href="/">← Logistics Library</a>
+    <h1>포워더 점검 사례 선별표</h1>
+    <p class="lead">사례마다 <b>무엇이 잘못됐나 · 왜 · 어떤 위험이 생겼나</b>까지만 적었고, 해결 경위와 결말은 뺐습니다. 추천 분류별로 묶었고, 지금 문서에 들어 있는 건에는 "지금: ○○ N번" 표시가 붙어 있습니다. 넣기·보류·빼기를 고르고, 옮길 문서와 덧붙일 내용을 적으면 바로 저장됩니다. 다 고르시면 Claude에게 "선별표 반영해"라고만 말씀하세요.</p>
+  </header>
+
+  <form class="keyform" id="keyform" hidden>
+    <label for="key">관리자 키</label>
+    <input type="password" id="key" autocomplete="current-password" placeholder="링크 점검·용어 검수표와 같은 관리자 키">
+    <button type="submit">열기</button>
+    <span class="status" id="keymsg"></span>
+  </form>
+
+  <div id="main" hidden>
+    <div class="bar" role="search">
+      <select id="fCat" aria-label="분류"></select>
+      <select id="fState" aria-label="상태">
+        <option value="">상태 전체</option><option value="none">아직 안 고름</option><option value="keep">넣기</option><option value="hold">보류</option><option value="drop">빼기</option><option value="note">메모 있음</option>
+      </select>
+      <select id="fSrc" aria-label="출처">
+        <option value="">문서·후보 전체</option><option value="in">지금 문서에 있음</option><option value="cand">아직 안 쓴 후보</option><option value="weak">기록이 짧음</option>
+      </select>
+      <input id="fq" type="search" placeholder="제목·문제·위험 검색" aria-label="검색">
+      <div class="counts" id="counts"></div>
+    </div>
+    <div class="general">
+      <label for="gnote">전체 의견 (새로 넣고 싶은 사례, 분류 기준 등)</label>
+      <textarea id="gnote" placeholder="예: 패시브 화물 건은 이런 경위였다…"></textarea>
+      <div class="saved" id="gsaved"></div>
+    </div>
+    <div id="list"></div>
+    <p class="note">추천 분류는 원문을 다시 읽고 붙인 것입니다. "제외 후보"는 이번 문서 구성에서 빼기로 한 계약·정산, 화주 원인, 규제·세관 사례입니다. 후보 문장은 문서로 옮길 때 다시 익명화합니다.</p>
+  </div>
+  <p class="status" id="status">관리자 키를 넣으면 목록이 열립니다.</p>
+</div>
+
+<script>
+(() => {
+  // 관리자 전용 사례 선별표. 용어 검수표와 같은 관리자 키로 Supabase RPC(get_case_review / save_case_review)를 부른다.
+  // 사례 내용은 페이지에 넣지 않고 키가 맞을 때만 받아 온다.
+  const RPC = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/';
+  const API_KEY = 'sb_publishable_vgcDAWoOJRD8Xvp2p4Ew9A_exTmzuXM';
+  const CATS = [
+    ['fw-docs', '① 운영 오류', '서류·신고'], ['fw-info', '① 운영 오류', '정보 입력·전달·마감'], ['fw-work', '① 운영 오류', '작업·협력사 실수'],
+    ['fw-transit', '② 운송 중 사고', '통제 밖 사고와 대응'], ['fw-claims', '② 운송 중 사고', '클레임 기록·통지·한도'],
+    ['fw-force', '③ 전쟁·불가항력', '전쟁·불가항력·혼잡·제재'], ['fw-fraud', '④ 범죄', '사기'], ['fw-theft', '④ 범죄', '도난·강도'],
+    ['x-contract', '제외 후보', '계약·정산 분쟁'], ['x-shipper', '제외 후보', '화주 쪽 원인'], ['x-reg', '제외 후보', '규제·세관 제도']];
+  const NAME = Object.fromEntries(CATS.map(d => [d[0], d[2]]));
+  const store = {
+    get: k => { try { return localStorage.getItem(k); } catch (_) { return null; } },
+    set: (k, v) => { try { localStorage.setItem(k, v); } catch (_) {} },
+    del: k => { try { localStorage.removeItem(k); } catch (_) {} }
+  };
+  let key = store.get('ll-admin-key'), rows = [];
+  const byId = new Map();
+  const $ = id => document.getElementById(id);
+  const pending = new Map();   // id -> 저장 중인 Promise (한 줄에 한 번에 한 저장)
+
+  function esc(s) { const d = document.createElement('div'); d.textContent = s == null ? '' : String(s); return d.innerHTML; }
+  async function rpc(name, body) {
+    const res = await fetch(RPC + name, { method: 'POST', headers: { apikey: API_KEY, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    const data = await res.json().catch(() => null);
+    if (!res.ok) throw new Error((data && data.message) || ('HTTP ' + res.status));
+    return data;
+  }
+  const catOf = r => r.doc || r.cat;
+
+  function match(r) {
+    const fc = $('fCat').value, fs = $('fState').value, fr = $('fSrc').value, q = $('fq').value.trim();
+    if (fc && catOf(r) !== fc) return false;
+    if (fr === 'in' && !r.cur) return false;
+    if (fr === 'cand' && r.cur) return false;
+    if (fr === 'weak' && !r.weak) return false;
+    if (fs === 'none' && r.s) return false;
+    if (fs === 'note' && !r.note) return false;
+    if (fs && fs !== 'none' && fs !== 'note' && r.s !== fs) return false;
+    if (q && !(r.title + ' ' + r.problem + ' ' + r.cause + ' ' + r.risk + ' ' + r.note).includes(q)) return false;
+    return true;
+  }
+  function rowHtml(r) {
+    const seg = ['keep', 'hold', 'drop'].map(v => `<button type="button" data-v="${v}" aria-pressed="${r.s === v}">${{ keep: '넣기', hold: '보류', drop: '빼기' }[v]}</button>`).join('');
+    const where = r.cur ? `<span class="chip c">지금: ${esc(NAME[r.cur])} ${r.n}번</span>` : '<span class="chip">후보</span>';
+    return `<div class="row" data-id="${esc(r.id)}" data-s="${r.s || ''}">
+      <div class="t">${esc(r.title)}${where}${r.weak ? '<span class="chip w">기록 짧음</span>' : ''}</div>
+      <dl class="lab"><dt>문제</dt><dd>${esc(r.problem)}</dd><dt>원인</dt><dd>${esc(r.cause)}</dd><dt>위험</dt><dd class="r">${esc(r.risk)}</dd><dt>원문</dt><dd class="src">행 ${esc((r.src_rows || []).join(', '))}</dd></dl>
+      <div class="ctl"><div class="seg" role="group" aria-label="결정">${seg}</div>
+      <select aria-label="넣을 문서">${CATS.map(d => `<option value="${d[0]}"${catOf(r) === d[0] ? ' selected' : ''}>→ ${d[2]}</option>`).join('')}</select></div>
+      <textarea placeholder="덧붙일 내용, 실제 경위, 고칠 점" aria-label="메모">${esc(r.note || '')}</textarea>
+      <div class="saved"></div></div>`;
+  }
+  function render() {
+    const out = []; let lastG = '';
+    for (const [id, g, name] of CATS) {
+      const list = rows.filter(r => catOf(r) === id && match(r));
+      if (!list.length) continue;
+      if (g !== lastG) { out.push(`<div class="grp">${esc(g)}</div>`); lastG = g; }
+      const inDoc = list.filter(r => r.cur).length;
+      out.push(`<h2>${esc(name)} <small>${list.length}건 · 지금 문서에 ${inDoc}건 · 후보 ${list.length - inDoc}건</small></h2>` + list.map(rowHtml).join(''));
+    }
+    $('list').innerHTML = out.join('') || '<p class="note">조건에 맞는 사례가 없습니다.</p>';
+    counts();
+  }
+  function counts() {
+    const c = { keep: 0, hold: 0, drop: 0, note: 0 };
+    rows.forEach(r => { if (c[r.s] !== undefined) c[r.s]++; if (r.note) c.note++; });
+    const left = rows.filter(r => !r.s).length;
+    $('counts').innerHTML = `<span class="pill k">넣기 ${c.keep}</span><span class="pill h">보류 ${c.hold}</span><span class="pill d">빼기 ${c.drop}</span><span class="pill">메모 ${c.note}</span><span class="pill">남음 ${left} / ${rows.length}</span>`;
+  }
+
+  function save(id, el) {
+    const r = id === '_general' ? general : byId.get(id);
+    const prev = pending.get(id) || Promise.resolve();
+    const next = prev.then(() => rpc('save_case_review', { p_secret: key, p_id: id, p_s: r.s || '', p_doc: r.doc || '', p_note: r.note || '' }))
+      .then(() => { if (el) { el.classList.remove('err'); el.textContent = '저장됨'; setTimeout(() => { if (el.textContent === '저장됨') el.textContent = ''; }, 1500); } })
+      .catch(e => { if (el) { el.classList.add('err'); el.textContent = '저장하지 못했습니다: ' + e.message; } });
+    pending.set(id, next);
+    return next;
+  }
+  let general = { id: '_general', s: '', doc: '', note: '' };
+
+  $('list').addEventListener('click', e => {
+    const b = e.target.closest('.seg button'); if (!b) return;
+    const row = b.closest('.row'), r = byId.get(row.dataset.id);
+    r.s = r.s === b.dataset.v ? '' : b.dataset.v;
+    row.dataset.s = r.s;
+    row.querySelectorAll('.seg button').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.v === r.s)));
+    save(r.id, row.querySelector('.saved')); counts();
+  });
+  $('list').addEventListener('change', e => {
+    if (e.target.tagName !== 'SELECT') return;
+    const row = e.target.closest('.row'), r = byId.get(row.dataset.id);
+    r.doc = e.target.value === r.cat ? '' : e.target.value;
+    save(r.id, row.querySelector('.saved'));
+  });
+  const timers = {};
+  $('list').addEventListener('input', e => {
+    if (e.target.tagName !== 'TEXTAREA') return;
+    const row = e.target.closest('.row'), r = byId.get(row.dataset.id);
+    r.note = e.target.value;
+    clearTimeout(timers[r.id]); timers[r.id] = setTimeout(() => { save(r.id, row.querySelector('.saved')); counts(); }, 700);
+  });
+  let gt;
+  $('gnote').addEventListener('input', e => {
+    general.note = e.target.value;
+    clearTimeout(gt); gt = setTimeout(() => save('_general', $('gsaved')), 700);
+  });
+  ['fCat', 'fState', 'fSrc'].forEach(id => $(id).addEventListener('change', render));
+  let qt; $('fq').addEventListener('input', () => { clearTimeout(qt); qt = setTimeout(render, 200); });
+  $('fCat').innerHTML = '<option value="">분류 전체</option>' + CATS.map(d => `<option value="${d[0]}">${esc(d[1])} · ${esc(d[2])}</option>`).join('');
+
+  async function load() {
+    $('status').textContent = '목록을 불러오는 중입니다.';
+    try {
+      const data = await rpc('get_case_review', { p_secret: key });
+      rows = data.filter(d => d.id !== '_general');
+      const g = data.find(d => d.id === '_general'); if (g) general = g;
+      byId.clear(); rows.forEach(r => byId.set(r.id, r));
+      store.set('ll-admin-key', key);
+      $('keyform').hidden = true;
+      $('main').hidden = false;
+      $('gnote').value = general.note || '';
+      $('status').innerHTML = `사례 ${rows.length}건 · 고르면 바로 저장됩니다.<button type="button" class="logout" id="logout">키 지우기</button>`;
+      $('logout').onclick = () => { store.del('ll-admin-key'); location.reload(); };
+      render();
+    } catch (e) {
+      store.del('ll-admin-key'); key = null;
+      $('keyform').hidden = false; $('main').hidden = true;
+      $('keymsg').textContent = /not allowed/.test(e.message) ? '키가 맞지 않습니다.' : '불러오지 못했습니다: ' + e.message;
+      $('status').textContent = '관리자 키를 넣으면 목록이 열립니다.';
+    }
+  }
+  $('keyform').addEventListener('submit', e => { e.preventDefault(); key = $('key').value.trim(); if (key) load(); });
+  if (key) load(); else $('keyform').hidden = false;
+})();
+</script>
+</body>
+</html>
