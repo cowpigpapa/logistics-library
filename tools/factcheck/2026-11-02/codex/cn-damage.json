@@ -1,0 +1,9 @@
+[
+ {
+  "file": "cn-damage.html",
+  "claim": "HPNT에서 쓰였고 7월 1일부터 북항·신항 10개 터미널로 넓힐 예정이었으며,",
+  "verdict": "outdated",
+  "evidence": "https://www.hankyung.com/article/2025112660241 (2025. 11. 26.) - \"BPA는 전자인수도증 발급 기능이 들어간 앱 올컨e를 지난해 7월 전면 도입했다.\"; https://www.metroseoul.co.kr/article/20240626500464 (2024. 6. 26.) - \"7월 전면 도입이 시작되는 전자인수도증(E-Slip)\". BPA 보도자료 원문은 찾지 못해 보도 기준",
+  "fix": "HPNT에서 먼저 쓰였고, 2025년 11월 보도에 따르면 2024년 7월에 전면 도입됐습니다."
+ }
+]

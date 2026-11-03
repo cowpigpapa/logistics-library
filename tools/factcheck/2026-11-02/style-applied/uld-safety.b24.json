@@ -1,0 +1,23 @@
+[
+ {
+  "file": "uld-safety.html",
+  "claim": "ULD를 내받을 때 해당 항공사의 조건을",
+  "verdict": "wrong",
+  "evidence": "typo: '내받다'는 '머리로 들이받다'라는 뜻",
+  "fix": "ULD를 인수할 때 해당 항공사의 조건을"
+ },
+ {
+  "file": "uld-safety.html",
+  "claim": "<b>항공사(운항사) 손상 한계</b>: FAA는 운항사가",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: FAA 문장의 operator는 항공사(운항자 ×, 2026-10-17)",
+  "fix": "<b>항공사 손상 한계</b>: FAA는 항공사가"
+ },
+ {
+  "file": "uld-safety.html",
+  "claim": "<td>운항사의 Weight &amp; Balance 관리",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: FAA 문장의 operator는 항공사(운항자 ×, 2026-10-17) (AC 120-85B 표 행)",
+  "fix": "<td>항공사의 Weight &amp; Balance 관리"
+ }
+]

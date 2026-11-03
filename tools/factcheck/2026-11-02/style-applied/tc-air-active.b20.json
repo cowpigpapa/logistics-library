@@ -1,0 +1,9 @@
+[
+ {
+  "file": "tc-air-active.html",
+  "claim": "비행 중에는 배터리로만 돕니다.",
+  "verdict": "wrong",
+  "evidence": "grammar: '돕니다'가 '돕다'로도 읽힘",
+  "fix": "비행 중에는 배터리로만 작동합니다."
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "file": "ins-claims.html",
+  "claim": "<td>운송인의 1년(항공 2년) 제소 기한 전에 해결이 안 되면 운송인에게 기한 연장 합의를 서면으로 요청</td>",
+  "verdict": "wrong",
+  "evidence": "https://www.legislation.gov.uk/ukpga/1961/27/schedule/1B Montreal Convention Art. 35(1) \"The right to damages shall be extinguished if an action is not brought within a period of two years\" (합의 연장 규정 없음). https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273629&efYd=20260910 상법 제902조 \"2년 이내에 재판상 청구가 없으면 소멸한다\"(제814조 제1항 단서 같은 합의 연장 단서 없음), 제814조 제1항 \"다만, 이 기간은 당사자의 합의에 의하여 연장할 수 있다\"",
+  "fix": "<td>해상 운송인의 1년 제소 기한 전에 해결이 안 되면 운송인에게 기한 연장 합의를 서면으로 요청. 항공의 2년(몬트리올 협약 제35조, 상법 제902조)은 합의 연장 규정이 없으므로 기한 안에 소송(또는 중재)을 제기</td>"
+ },
+ {
+  "file": "ins-claims.html",
+  "claim": "<li>1년(항공 2년, 복합 9개월) 제소 기한 전에 해결이 어려우면 기한 연장 요청이 나갔는가</li>",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273629&efYd=20260910 상법 제816조 제1항 \"운송인은 손해가 발생한 운송구간에 적용될 법에 따라 책임을 진다\"(9개월은 같은 문서 3절 표대로 UNCTAD/ICC 규칙·FIATA FBL 약관의 기간); 상법 제902조·몬트리올 협약 제35조에는 합의 연장 규정 없음",
+  "fix": "<li>제소 기한(해상 1년, 항공 2년, FIATA FBL 등 약관이 적용되는 복합운송 9개월, 그 밖의 복합운송은 손해 구간의 법) 전에 해결이 어려우면 해상은 기한 연장 합의를, 항공은 기한 안 소송 제기를 챙겼는가</li>"
+ }
+]

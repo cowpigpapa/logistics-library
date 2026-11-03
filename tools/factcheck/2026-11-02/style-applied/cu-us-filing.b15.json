@@ -1,0 +1,16 @@
+[
+ {
+  "file": "cu-us-filing.html",
+  "claim": "받은 ITN을 B/L 첫 장에 적어야 실을 수 있습니다.",
+  "verdict": "wrong",
+  "evidence": "grammar: 목적어(화물을)가 빠져 주어 수출자가 싣는 것처럼 읽힘",
+  "fix": "받은 ITN을 B/L 첫 장에 적어야 화물을 실을 수 있습니다."
+ },
+ {
+  "file": "cu-us-filing.html",
+  "claim": "미국·캐나다 기한과 같은 날 돌아가므로",
+  "verdict": "wrong",
+  "evidence": "grammar: '기한이 같은 날 돌아가다'는 뜻이 흐림. 같은 뜻(두 기한이 겹침)으로 바로잡음",
+  "fix": "미국·캐나다 기한과 겹치므로"
+ }
+]

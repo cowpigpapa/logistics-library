@@ -1,0 +1,23 @@
+[
+ {
+  "file": "uld-security.html",
+  "claim": "그 뒤로 화물이 손대지 않은 상태로 지켜졌다는 것을",
+  "verdict": "wrong",
+  "evidence": "grammar: '화물이 손대지 않은' 주어·서술어 불일치",
+  "fix": "그 뒤로 아무도 화물에 손대지 못하게 지켰다는 것을"
+ },
+ {
+  "file": "uld-security.html",
+  "claim": "판독이 안 되는 부분은 결국 풀어서 확인해야 할 수 있습니다.",
+  "verdict": "wrong",
+  "evidence": "grammar: 푸는 장소·대상이 빠져 포워더가 푸는 것으로 읽힐 수 있음",
+  "fix": "판독이 안 되는 부분은 결국 화물터미널에서 ULD를 풀어 확인해야 할 수 있습니다."
+ },
+ {
+  "file": "uld-security.html",
+  "claim": "큰 기계는 상자를 열어 확인할 수 있어서",
+  "verdict": "wrong",
+  "evidence": "grammar: 여는 주체가 빠짐(같은 문서: 판독 불가·크기 초과는 항공사가 개봉과 흔적탐지)",
+  "fix": "큰 기계는 항공사나 검색업체가 상자를 열어 확인할 수 있어서"
+ }
+]

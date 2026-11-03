@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
 <defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
 <rect width="1672" height="941" fill="#ffffff"/>
-<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">로드 서베이 6단계 (한 포워더의 가이드)</text>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">로드 서베이 6단계 (실무 가이드)</text>
 <line x1="392" y1="206.0" x2="414" y2="206.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
 <line x1="772" y1="206.0" x2="794" y2="206.0" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
 <line x1="975.0" y1="318" x2="975.0" y2="354" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>

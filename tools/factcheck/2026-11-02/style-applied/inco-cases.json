@@ -1,0 +1,9 @@
+[
+ {
+  "file": "inco-cases.html",
+  "claim": "멕시코 체투말(Chetumal)로 항공 소포로 보내 달라는",
+  "verdict": "wrong",
+  "evidence": "grammar: \"~로 ~로\"가 겹쳐 어색한 어순",
+  "fix": "항공 소포로 멕시코 체투말(Chetumal)로 보내 달라는"
+ }
+]

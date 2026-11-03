@@ -1,0 +1,9 @@
+[
+ {
+  "file": "kr-system.html",
+  "claim": "UN 모델 규정의 9개 등급 하나로 분류하지만",
+  "verdict": "wrong",
+  "evidence": "grammar: '9개 등급 하나로'에 '가운데'가 빠짐",
+  "fix": "UN 모델 규정의 9개 등급 가운데 하나로 분류하지만"
+ }
+]

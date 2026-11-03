@@ -1,0 +1,37 @@
+[
+ {
+  "file": "inco-rules.html",
+  "claim": "<p>Incoterms 2020의 11개 조건을",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 제목과 규칙 이름은 Incoterms® 2020",
+  "fix": "<p>Incoterms® 2020의 11개 조건을"
+ },
+ {
+  "file": "inco-rules.html",
+  "claim": "CIF(협회적하약관 (C))와 CIP((A))뿐입니다",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: ICC (A)·(B)·(C), 약관 이름은 협회적하약관. 겹괄호 정리",
+  "fix": "CIF(협회적하약관 ICC (C))와 CIP(ICC (A))뿐입니다"
+ },
+ {
+  "file": "inco-rules.html",
+  "claim": "수출 신고·허가·보안 통관",
+  "verdict": "wrong",
+  "evidence": "STYLE.md(2026-10-18): 관세 용어는 관세법 정식 이름(수입신고·수출신고수리)으로 붙여 쓴다",
+  "fix": "수출신고·허가·보안 통관"
+ },
+ {
+  "file": "inco-rules.html",
+  "claim": "수출 신고를 직접 하기",
+  "verdict": "wrong",
+  "evidence": "STYLE.md(2026-10-18): 관세 용어는 관세법 정식 이름(수출신고)",
+  "fix": "수출신고를 직접 하기"
+ },
+ {
+  "file": "inco-rules.html",
+  "claim": "상차나 수출 신고를",
+  "verdict": "wrong",
+  "evidence": "STYLE.md(2026-10-18): 관세 용어는 관세법 정식 이름(수출신고)",
+  "fix": "상차나 수출신고를"
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "file": "bl-charter.html",
+  "claim": "정기용선자가 낸 용선료 범위에서만",
+  "verdict": "wrong",
+  "evidence": "https://www.law.go.kr/법령/상법/제844조 (상법 MST 273629, 시행 2026. 9. 10.) 제844조 제2항: \"선박소유자의 운송물에 대한 권리는 정기용선자가 운송물에 관하여 약정한 용선료 또는 운임의 범위를 넘어서 행사하지 못한다.\" 한도는 정기용선자가 선주에게 낸 용선료가 아니라 그 운송물에 관해 약정한 용선료·운임.",
+  "fix": "정기용선자가 그 운송물에 관하여 약정한 용선료 또는 운임의 범위에서만"
+ },
+ {
+  "file": "bl-charter.html",
+  "claim": "FIOS는 선적·적부 비용을",
+  "verdict": "wrong",
+  "evidence": "문서 내부 불일치: 같은 문서가 FIO(Free In and Out)를 선적·양하 비용이 화물 쪽 부담인 조건으로 정의하고 FIOS는 여기에 적부(Stowed)를 더한 것이라 설명함. FIOS = Free In and Out, Stowed이므로 양하 비용도 화물 쪽.",
+  "fix": "FIOS는 선적·양하·적부 비용을"
+ }
+]

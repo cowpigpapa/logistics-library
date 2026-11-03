@@ -1,0 +1,9 @@
+[
+ {
+  "file": "ch-korea-storage.html",
+  "claim": "PNC에 내린 20ft 컨테이너 수입 컨테이너 한 대로",
+  "verdict": "wrong",
+  "evidence": "grammar: '컨테이너' 중복",
+  "fix": "PNC에 내린 20ft 수입 컨테이너 한 대로"
+ }
+]

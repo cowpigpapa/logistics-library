@@ -1,0 +1,9 @@
+[
+ {
+  "file": "cu-us-filing.html",
+  "claim": "이 문서를 확인한 2026년 10월 19일 현재 CBP가 ISF 감경 지침을 새로 공표했는지는 확인하지 못했으므로",
+  "verdict": "unverifiable",
+  "evidence": "https://www.federalregister.gov/api/v1/documents.json?conditions[agencies][]=u-s-customs-and-border-protection&conditions[term]=mitigation&conditions[publication_date][gte]=2026-06-01 — 2026. 6. 1. 이후 CBP 관보 문서에 ISF 감경 지침 없음. 행정명령 14411 이행 문서는 2026-16911(2026. 8. 19., 'CBP is taking initial steps to implement Executive Order 14411' — 수입자(IOR) CBP Form 5106 정보 검증만 다룸)뿐. CBP 누리집의 감경 지침 페이지는 curl로 열리지 않아(404) 직접 확인 못 함. 확인 날짜만 새로 붙임.",
+  "fix": "2026년 11월 2일 현재 Federal Register에서 CBP의 새 ISF 감경 지침은 찾지 못했지만 행정명령에 따라 바뀔 수 있으므로"
+ }
+]

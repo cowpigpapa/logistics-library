@@ -1,0 +1,9 @@
+[
+ {
+  "file": "de-nl.html",
+  "claim": "2026년 10월 현재 전국에 자동으로 직접 적용되는 의무는 아니지만",
+  "verdict": "outdated",
+  "evidence": "https://iplo.nl/thema/externe-veiligheid/pgs-37-1-37-2-houden-wijziging-bal : opslag van batterijen \"(nog) niet aangewezen als milieubelastende activiteit in het Bal\"; \"Naar verwachting zal deze wijziging van het Bal in de loop van 2028 in werking treden.\" 내용은 그대로 맞고 기준월만 지남.",
+  "fix": "2026년 11월 현재 전국에 자동으로 직접 적용되는 의무는 아니지만"
+ }
+]

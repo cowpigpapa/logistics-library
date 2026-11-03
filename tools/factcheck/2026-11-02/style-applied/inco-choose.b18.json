@@ -1,0 +1,9 @@
+[
+ {
+  "file": "inco-choose.html",
+  "claim": "터미널(CY)이나 CFS에서 운송인에게",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: CFS(컨테이너 화물조작장), 문서 첫 등장에 풀이",
+  "fix": "터미널(CY)이나 CFS(컨테이너 화물조작장)에서 운송인에게"
+ }
+]

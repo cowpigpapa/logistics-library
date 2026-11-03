@@ -1,0 +1,9 @@
+[
+ {
+  "file": "dg-hidden.html",
+  "claim": "혼재 화물은 한 House에 숨은 위험물이 있으면 Master 전체가 문제가 됩니다.",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 항공화물운송장은 House AWB, Master AWB로 쓴다(바로 뒤 문장도 Master AWB·House AWB)",
+  "fix": "혼재 화물은 House AWB 한 건에 숨은 위험물이 있으면 Master AWB 전체가 문제가 됩니다."
+ }
+]

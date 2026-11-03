@@ -1,0 +1,9 @@
+[
+ {
+  "file": "ins-icc.html",
+  "claim": "<li>사고가 보험기간(창고간, 양륙 후 60일, 항공은 30일, <a data-doc=\"ins-basics\">적하보험 기초</a> 8절) 안에서 일어났는가</li>",
+  "verdict": "wrong",
+  "evidence": "judged: 종료 사유 중 먼저 오는 때에 끝난다는 점이 빠짐(ICC 제8조, ICC (Air) 제5조). STYLE.md: 창고 간 띄어 씀",
+  "fix": "<li>사고가 보험기간(창고 간. 최종 창고 인도, 해상은 양륙 후 60일, 항공은 하기 후 30일 가운데 먼저 오는 때까지. <a data-doc=\"ins-basics\">적하보험 기초</a> 8절) 안에서 일어났는가</li>"
+ }
+]

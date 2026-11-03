@@ -1,0 +1,23 @@
+[
+ {
+  "file": "cu-import-timeline.html",
+  "claim": "<td>화주 운송사</td>",
+  "verdict": "wrong",
+  "evidence": "clarity: '화주 운송사'가 화주·운송사 두 주체로도 읽힘",
+  "fix": "<td>화주 측 운송사</td>"
+ },
+ {
+  "file": "cu-import-timeline.html",
+  "claim": "D&amp;D 일수를 양하·반출·반납 일시와 대조하고, 같은 기간이 두 번 청구되지 않았는지 본다.",
+  "verdict": "wrong",
+  "evidence": "clarity: 보관료와 D&D가 같은 기간에 겹치는 것 자체를 이중 청구로 오해하게 함(ch-dnd 1절: 같은 기간에 두 돈이 함께 쌓일 수 있음)",
+  "fix": "D&amp;D 일수를 양하·반출·반납 일시와 대조한다. 터미널 보관료와 선사 D&amp;D는 같은 기간에 함께 쌓일 수 있으므로, 같은 요금이 같은 기간에 두 번 청구되지 않았는지 본다."
+ },
+ {
+  "file": "cu-import-timeline.html",
+  "claim": "D/O 발급 조건(원본 B/L 제출 또는 서렌더 확인)과",
+  "verdict": "wrong",
+  "evidence": "completeness: 해상화물운송장 화물의 D/O 조건이 빠짐(이 문서도 해상화물운송장을 다룸)",
+  "fix": "D/O 발급 조건(원본 B/L 제출, 서렌더 확인, 해상화물운송장이면 수하인 확인)과"
+ }
+]

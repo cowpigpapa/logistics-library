@@ -1,0 +1,9 @@
+[
+ {
+  "file": "dg-rules.html",
+  "claim": "ADR 2027 개정안이 2027-01-01 발효 예정으로 통지됨",
+  "verdict": "outdated",
+  "evidence": "https://treaties.un.org/doc/Publication/CN/2026/CN.395.2026-Eng.pdf — C.N.395.2026.TREATIES-XI.B.14 (9 October 2026) \"ENTRY INTO FORCE OF AMENDMENTS BY FRANCE TO ANNEXES A AND B ... By 1 October 2026, none of the Contracting Parties ... had communicated an objection ... the above-mentioned amendments shall enter into force for all the Contracting Parties on 1 January 2027.\" (제안 통지는 C.N.252.2026, 2026-07-01. 통지문 본문이 'ADN'·'article 20 (5)'로 적은 것은 UN 쪽 오기로 보임: 제목과 참조는 ADR)",
+  "fix": "ADR 2027 개정안은 이의 없이 수락되어 2027-01-01 발효가 확정됨(2026-10-09 UN 사무총장 통지)"
+ }
+]

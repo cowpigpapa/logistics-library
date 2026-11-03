@@ -1,0 +1,9 @@
+[
+ {
+  "file": "ins-carrier-liability.html",
+  "claim": "한도는 제24조에 따라 ICAO가 5년마다 물가를 반영해 다시 정합니다.",
+  "verdict": "wrong",
+  "evidence": "Montreal Convention Art. 24(1)(2): 5년마다 검토, inflation factor가 10%를 넘으면 한도 개정(legislation.gov.uk SI 2002/263 Sch.1 원문 확인)",
+  "fix": "한도는 제24조에 따라 ICAO가 5년마다 검토하고, 그동안의 물가상승률이 10%를 넘으면 조정합니다."
+ }
+]

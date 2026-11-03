@@ -1,0 +1,9 @@
+[
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "미국 B2C 판매는 관세를 누가 낼지(DDP 여부)와 수입자를 판매 조건에 정하고",
+  "verdict": "wrong",
+  "evidence": "grammar: '누가 낼지'와 '수입자를'이 나란히 놓이지 않음",
+  "fix": "미국 B2C 판매는 관세를 누가 낼지(DDP 여부)와 누가 수입자가 될지를 판매 조건에 정하고"
+ }
+]

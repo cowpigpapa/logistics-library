@@ -1,0 +1,16 @@
+[
+ {
+  "file": "w-t4.html",
+  "claim": "2026년 10월 5일 현재",
+  "verdict": "outdated",
+  "evidence": "Cellar SPARQL(2026-11-02 조회): 2024/1157 개정 법령은 위임규정 2024/3230과 규정 2026/1703(제44조(2)(f) 스위스 예외)뿐이고 최신 연결본 http://publications.europa.eu/resource/celex/02024R1157-20260730. 제86조 적용일 변경 없음. 10월 5일~11월 2일 사이에 새로 적용된 조항 없음. 표 머리의 기준일만 지남.",
+  "fix": "2026년 11월 2일 현재"
+ },
+ {
+  "file": "w-t4.html",
+  "claim": "수출 허용국 목록의 작성(2026년 11월 21일까지 채택), 2년마다 갱신",
+  "verdict": "ok-dated",
+  "evidence": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14861 (위임규정 초안 Ares(2026)8858290, 의견수렴 2026-09-18~10-16 종료, adoptionDate null). 법정 기한은 맞음. 진행 상황 덧붙이기(선택).",
+  "fix": "수출 허용국 목록의 작성(2026년 11월 21일까지 채택. 위임규정 초안이 2026년 9월 18일 공개되어 10월 16일 의견수렴을 마쳤고, 2026년 10월 30일자 관보까지는 미채택), 2년마다 갱신"
+ }
+]

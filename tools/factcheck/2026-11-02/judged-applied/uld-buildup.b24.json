@@ -1,0 +1,16 @@
+[
+ {
+  "file": "uld-buildup.html",
+  "claim": "BUP(Bulk Utilization Program)를 화주나",
+  "verdict": "wrong",
+  "evidence": "judged: 같은 카테고리 uld-safety가 AFKL 기준의 다른 풀이를 인용하므로 두 풀이가 같은 제도임을 밝힘(AFKL Cargo Bulk Unitisation Program Standards v3)",
+  "fix": "BUP(Bulk Utilization Program. Air France KLM Cargo 기준은 Bulk Unitisation Program으로 풂)를 화주나"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "<p>아래 원칙은 FAA AC 120-85A의 빌드업 지침과",
+  "verdict": "wrong",
+  "evidence": "judged: 대체된 구판을 주된 근거로 쓰는 곳임을 표시(대체 사실은 같은 문서 4절 문장)",
+  "fix": "<p>아래 원칙은 FAA AC 120-85A(2015년판, 2022년 AC 120-85B로 대체)의 빌드업 지침과"
+ }
+]

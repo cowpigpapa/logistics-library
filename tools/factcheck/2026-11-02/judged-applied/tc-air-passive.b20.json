@@ -1,0 +1,9 @@
+[
+ {
+  "file": "tc-air-passive.html",
+  "claim": "\"Carbon dioxide, solid\"), 포장 수, 순중량(kg)</li>",
+  "verdict": "wrong",
+  "evidence": "49 CFR 173.217: the number of packages, and the net quantity of dry ice in each package(law.cornell.edu 원문 확인). 같은 문서 위 목록의 '포장별 순중량'과 맞춤",
+  "fix": "\"Carbon dioxide, solid\"), 포장 수, 포장별 순중량(kg)</li>"
+ }
+]

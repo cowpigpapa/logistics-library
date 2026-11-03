@@ -1,0 +1,51 @@
+[
+ {
+  "file": "cu-clearance.html",
+  "claim": "<td>House 출항 적재화물목록 자료 제공(수출신고번호 기재), 적재 후 정정</td>",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "<td>출항 하우스적재화물목록 자료 제공(수출신고번호 기재), 적재 후 정정</td>"
+ },
+ {
+  "file": "cu-clearance.html",
+  "claim": "<td>House 입항 적재화물목록 자료 제공, 화물관리번호 안내</td>",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "<td>입항 하우스적재화물목록 자료 제공, 화물관리번호 안내</td>"
+ },
+ {
+  "file": "cu-clearance.html",
+  "claim": "분할 선적 내역을 House 적재화물목록에 반영한다",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "분할 선적 내역을 하우스적재화물목록에 반영한다"
+ },
+ {
+  "file": "cu-clearance.html",
+  "claim": "House 적재화물목록이라면 포워더가 작성책임자입니다",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "하우스적재화물목록이라면 포워더가 작성책임자입니다"
+ },
+ {
+  "file": "cu-clearance.html",
+  "claim": "<b>품명 불일치</b>: House 적재화물목록에",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "<b>품명 불일치</b>: 하우스적재화물목록에"
+ },
+ {
+  "file": "cu-clearance.html",
+  "claim": "중량을 House 출항 적재화물목록 자료와 대조한다",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "중량을 출항 하우스적재화물목록 자료와 대조한다"
+ },
+ {
+  "file": "cu-clearance.html",
+  "claim": "<li>House 입항 적재화물목록의 품명",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "<li>입항 하우스적재화물목록의 품명"
+ }
+]

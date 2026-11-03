@@ -1,0 +1,16 @@
+[
+ {
+  "file": "dg-msds.html",
+  "claim": "리튬배터리나 배터리 내장 기기라면 MSDS가 아니라 UN 38.3 시험 요약서와 Wh 정보를 받았는가",
+  "verdict": "wrong",
+  "evidence": "UN 모델 규정 제20개정판 특별규정 188(a)(b) — https://www.importlicensing.wto.org/sites/default/files/members/111/United%20Nations%20recommendations%20on%20the%20transport%20of%20dangerous%20goods_Rev20_Vol_I.pdf : \"For a lithium metal or lithium alloy cell, the lithium content is not more than 1 g, and for a lithium ion cell, the Watt-hour rating is not more than 20 Wh\". Wh는 리튬이온 기준이고 리튬금속(UN 3090·3091)은 리튬 함량으로 판단",
+  "fix": "리튬배터리나 배터리 내장 기기라면 MSDS가 아니라 UN 38.3 시험 요약서와 Wh 정보(리튬금속 배터리는 리튬 함량)를 받았는가"
+ },
+ {
+  "file": "dg-msds.html",
+  "claim": "정격 용량(Wh)을 화주에게 받습니다.",
+  "verdict": "wrong",
+  "evidence": "위와 같은 근거(UN 모델 규정 특별규정 188: 리튬금속 셀·배터리는 lithium content 1 g·2 g, 리튬이온은 Watt-hour rating 20 Wh·100 Wh). 같은 문장이 리튬이온·리튬금속을 구분하라고 하면서 수치는 Wh만 적음",
+  "fix": "정격 용량(Wh, 리튬금속이면 리튬 함량)을 화주에게 받습니다."
+ }
+]

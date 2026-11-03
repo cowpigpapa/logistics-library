@@ -1,0 +1,9 @@
+[
+ {
+  "file": "b-anx11-12.html",
+  "claim": "오늘(2026년 10월 5일) 기준으로 B부 1차 목표의 기한은 이미 지났고, C부 1차 목표의 기한은 2027년 말입니다.",
+  "verdict": "outdated",
+  "evidence": "http://publications.europa.eu/resource/celex/52026DC0470 (COM(2026) 470, 2026-09-11, 제71조(5) 평가 보고서): \"The current targets set out in Parts B and C of Annex XII to Regulation (EU) 2023/1542 strike an appropriate balance between ambition and feasibility.\" 목표 개정 없음.",
+  "fix": "2026년 11월 2일 기준으로 B부 1차 목표의 기한은 이미 지났고, C부 1차 목표의 기한은 2027년 말입니다. 집행위원회는 제71조(5)에 따른 평가 보고서(COM(2026) 470, 2026년 9월 11일)에서 B부·C부 목표를 지금 수준으로 유지하는 것이 적절하다고 결론지었습니다."
+ }
+]

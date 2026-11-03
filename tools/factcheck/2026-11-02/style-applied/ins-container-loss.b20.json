@@ -1,0 +1,9 @@
+[
+ {
+  "file": "ins-container-loss.html",
+  "claim": "<h4>매매계약상 누가 손해를 지나</h4>",
+  "verdict": "wrong",
+  "evidence": "grammar: '지나'가 '지나다'로도 읽힘",
+  "fix": "<h4>매매계약상 누가 손해를 지는가</h4>"
+ }
+]

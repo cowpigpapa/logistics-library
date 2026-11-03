@@ -1,0 +1,9 @@
+[
+ {
+  "file": "tc-reefer.html",
+  "claim": "20ft 냉동은 22R1, 40ft 하이큐브 냉동은 45R1",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 형식 코드 설명은 20ft 리퍼(20RF)처럼 '리퍼'(2026-10-12 2차)",
+  "fix": "20ft 리퍼는 22R1, 40ft 하이큐브 리퍼는 45R1"
+ }
+]

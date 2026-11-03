@@ -1,0 +1,23 @@
+[
+ {
+  "file": "uld-security.html",
+  "claim": "보안 공급망(secure supply chain)의 말들(",
+  "verdict": "wrong",
+  "evidence": "judged: '말들'이 모호",
+  "fix": "보안 공급망(secure supply chain)의 주요 용어("
+ },
+ {
+  "file": "uld-security.html",
+  "claim": "<li>화물을 열어 확인하지 않는다. 봉인 번호, 차량, 운전자 신분증 기록을 서류로 대조하고, 훼손 흔적이나 서류 불일치가 보이면 항공사에 알린다.</li>",
+  "verdict": "wrong",
+  "evidence": "judged: STYLE.md 포워더는 외관 점검을 하지 않음. 훼손 흔적은 운송사·창고 보고로",
+  "fix": "<li>화물을 열어 확인하지 않는다. 봉인 번호, 차량, 운전자 신분증 기록을 서류로 대조하고, 서류가 맞지 않거나 운송사·창고가 훼손 흔적을 알려 오면 항공사에 알린다.</li>"
+ },
+ {
+  "file": "uld-security.html",
+  "claim": "보안신고서의 봉인 번호와 운송장 번호만 정확하면 접수에서 막히는 일은 크게 줄어듭니다.",
+  "verdict": "wrong",
+  "evidence": "judged: '두 번호만'이 과장. 지정번호도 신고서 항목(고시 제14조, 같은 문서 8절 표)",
+  "fix": "보안신고서의 지정번호·봉인 번호·운송장 번호가 다른 서류와 정확히 맞으면 접수에서 막히는 일이 크게 줄어듭니다."
+ }
+]

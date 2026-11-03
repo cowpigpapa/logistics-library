@@ -1,0 +1,23 @@
+[
+ {
+  "file": "uld-pallets.html",
+  "claim": "16 ft·20 ft 팔레트는 Cathay",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "16ft·20ft 팔레트는 Cathay"
+ },
+ {
+  "file": "uld-pallets.html",
+  "claim": "AC 120-85B로 대체)는 운항사가 관리해야",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: FAA 문장의 operator는 항공사(운항자 ×, 2026-10-17)",
+  "fix": "AC 120-85B로 대체)는 항공사가 관리해야"
+ },
+ {
+  "file": "uld-pallets.html",
+  "claim": "AC 120-85A는 운항사가 쇼어링",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: FAA 문장의 operator는 항공사(운항자 ×, 2026-10-17)",
+  "fix": "AC 120-85A는 항공사가 쇼어링"
+ }
+]

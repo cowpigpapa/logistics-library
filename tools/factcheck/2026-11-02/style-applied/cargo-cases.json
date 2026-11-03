@@ -1,0 +1,16 @@
+[
+ {
+  "file": "cargo-cases.html",
+  "claim": "보상받지 못한 판결과 기록으로 결과가 바뀐 사례, 그리고",
+  "verdict": "wrong",
+  "evidence": "grammar: \"판결과 기록으로\"가 한 덩어리로 읽혀 열거 관계가 깨짐(판결 / 기록으로 결과가 바뀐 사례 / IM1의 결과)",
+  "fix": "보상받지 못한 판결, 기록으로 결과가 바뀐 사례, 그리고"
+ },
+ {
+  "file": "cargo-cases.html",
+  "claim": "질량을 잘못 신고한 컨테이너",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 총중량 (CTU 문서의 \"총질량\"도 총중량으로 쓴다, 물리식의 질량만 그대로)",
+  "fix": "중량을 잘못 신고한 컨테이너"
+ }
+]

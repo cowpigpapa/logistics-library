@@ -1,0 +1,9 @@
+[
+ {
+  "file": "ins-general-average.html",
+  "claim": "컨테이너 안 전 화주의</tspan>",
+  "verdict": "wrong",
+  "evidence": "grammar: '전 화주'가 '이전 화주'로도 읽힘",
+  "fix": "컨테이너 안 모든 화주의</tspan>"
+ }
+]

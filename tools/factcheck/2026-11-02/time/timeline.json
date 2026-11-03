@@ -1,0 +1,30 @@
+[
+ {
+  "file": "timeline.html",
+  "claim": "기준일은 2026년 10월 5일입니다.",
+  "verdict": "outdated",
+  "evidence": "재점검 기준일 2026-11-02. 10월 5일~11월 2일 사이에 적용일이 된 항목은 없음(배터리·폐기물운송 Cellar 확인). 도해 alt는 \"2026년 10월 5일까지의 구간\"을 칠했다고 적으므로 도해를 새로 그리지 않으면 괄호로 구분.",
+  "fix": "기준일은 2026년 11월 2일입니다(도해의 진한 구간은 2026년 10월 5일까지입니다)."
+ },
+ {
+  "file": "timeline.html",
+  "claim": "라벨 규격을 정할 이행법률(제13조(10), 채택 기한 2025년 8월 18일)이 2026년 10월 현재 관보에 실리지 않아",
+  "verdict": "outdated",
+  "evidence": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14456 (REG_IMPL_DRAFT, 의견수렴 2025-12-15~2026-01-26, adoptionDate null). Cellar에서 2026-10-30자 관보까지 미게재.",
+  "fix": "라벨 규격을 정할 이행법률(제13조(10), 채택 기한 2025년 8월 18일)이 2026년 10월 30일자 관보까지 실리지 않아(초안 의견수렴은 2026년 1월 26일 종료)"
+ },
+ {
+  "file": "timeline.html",
+  "claim": "B3011 플라스틱 폐기물의 OECD 결정 비적용국 수출 금지. 수출 허용국 목록 채택 기한",
+  "verdict": "ok-dated",
+  "evidence": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14861 (REG_DEL_DRAFT Ares(2026)8858290 \"COMMISSION DELEGATED REGULATION ... establishing a list of countries to which the OECD Decision does not apply and to which exports of certain non-hazardous wastes ... are authorised\", 의견수렴 2026-09-18~2026-10-16, adoptionDate null); https://environment.ec.europa.eu/news/commission-publishes-draft-list-countries-authorised-import-eu-waste-2026-09-18_en \"The first list of countries authorised to receive waste from the EU will be established by the end of 2026.\" 날짜는 맞음. 진행 상황 덧붙이기(선택).",
+  "fix": "B3011 플라스틱 폐기물의 OECD 결정 비적용국 수출 금지. 수출 허용국 목록 채택 기한(위임규정 초안은 2026년 9월 18일 공개, 10월 16일 의견수렴 종료, 2026년 10월 30일자 관보까지 미채택)"
+ },
+ {
+  "file": "timeline.html",
+  "claim": "휴대용 배터리의 분리·교체 용이성(제11조)",
+  "verdict": "ok-dated",
+  "evidence": "http://publications.europa.eu/resource/celex/32026R1770 (OJ 2026-10-22, 발효 2026-11-11): \"Article 11(2) of Regulation (EU) 2023/1542 is replaced by the following\". 시간표에 2026-11-11 항목이 없어 덧붙이기(선택). b-ch2 문서에는 이미 반영.",
+  "fix": "휴대용 배터리의 분리·교체 용이성(제11조. 독립 전문가 교체 예외를 정한 제11조(2)는 위임규정 (EU) 2026/1770으로 2026년 11월 11일부터 바뀐 문안)"
+ }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "file": "tc-basics.html",
+  "claim": "한국 대한민국약전 통칙은",
+  "verdict": "wrong",
+  "evidence": "typo: '한국'이 겹침",
+  "fix": "대한민국약전 통칙은"
+ }
+]

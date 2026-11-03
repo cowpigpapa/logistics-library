@@ -1,0 +1,9 @@
+[
+ {
+  "file": "cu-intermediary.html",
+  "claim": "원래 B/L 원본 세 통을 모두 돌려받은 뒤",
+  "verdict": "wrong",
+  "evidence": "clarity: 원본이 늘 세 통인 것처럼 읽힘. 핵심은 발행된 원본 전부 회수",
+  "fix": "원래 B/L 원본을 한 통도 빠짐없이(보통 세 통) 돌려받은 뒤"
+ }
+]

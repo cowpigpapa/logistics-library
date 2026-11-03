@@ -1,0 +1,107 @@
+[
+ {
+  "file": "uld-buildup.html",
+  "claim": "\"10 ft 팔레트\"는",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "\"10ft 팔레트\"는"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "\"8 ft 팔레트\"는",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "\"8ft 팔레트\"는"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "27개가 10 ft(118 in) 컨투어",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "27개가 10ft(118 in) 컨투어"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "7개는 8 ft(96 in) 컨투어",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "7개는 8ft(96 in) 컨투어"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "22개가 10 ft 컨투어",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "22개가 10ft 컨투어"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "1개가 8 ft 팔레트입니다",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "1개가 8ft 팔레트입니다"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "R(96 × 196 in, 16 ft)",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "R(96 × 196 in, 16ft)"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "G(96 × 238.5 in, 20 ft)",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "G(96 × 238.5 in, 20ft)"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "16 ft·20 ft 팔레트에서",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "16ft·20ft 팔레트에서"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "최종 책임은 운항사(항공사)에 있다고 밝힙니다. 운항사는 빌드업이나",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: FAA 문장의 operator는 항공사(운항자 ×, 2026-10-17)",
+  "fix": "최종 책임은 항공사에 있다고 밝힙니다. 항공사는 빌드업이나"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "(운항사가 보정된 저울로 확인)",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: FAA 문장의 operator는 항공사(운항자 ×, 2026-10-17)",
+  "fix": "(항공사가 보정된 저울로 확인)"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "FAA는 화물 전용 운항사에",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: FAA 문장의 operator는 항공사(운항자 ×, 2026-10-17)",
+  "fix": "FAA는 화물 전용 항공사에"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "AC 120-85A는 운항사가 탑재 화물의",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: FAA 문장의 operator는 항공사(운항자 ×, 2026-10-17)",
+  "fix": "AC 120-85A는 항공사가 탑재 화물의"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "AC 120-85A는 운항사가 항공기에 싣는 ULD",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: FAA 문장의 operator는 항공사(운항자 ×, 2026-10-17)",
+  "fix": "AC 120-85A는 항공사가 항공기에 싣는 ULD"
+ },
+ {
+  "file": "uld-buildup.html",
+  "claim": "ULD 안의 화물을 항공사가 직접 확인할 수 없으므로 금지 화물이 없다는 BUP 선언서도 받습니다.",
+  "verdict": "wrong",
+  "evidence": "grammar: 선언서를 받는 주체가 드러나지 않음. 주어를 앞으로",
+  "fix": "항공사는 ULD 안의 화물을 직접 확인할 수 없으므로 금지 화물이 없다는 BUP 선언서도 받습니다."
+ }
+]

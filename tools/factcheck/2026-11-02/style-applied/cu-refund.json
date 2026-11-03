@@ -1,0 +1,9 @@
+[
+ {
+  "file": "cu-refund.html",
+  "claim": "분할 내역을 House 적재화물목록에 등재",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "분할 내역을 하우스적재화물목록에 등재"
+ }
+]

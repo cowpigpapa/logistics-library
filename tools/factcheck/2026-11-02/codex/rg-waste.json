@@ -1,0 +1,9 @@
+[
+ {
+  "file": "rg-waste.html",
+  "claim": "2021년 1월 1일 발효하면서 모든 폐플라스틱이 통제 대상이 되었습니다.",
+  "verdict": "wrong",
+  "evidence": "https://www.basel.int/Implementation/Plasticwaste/PlasticWasteAmendments/Overview/tabid/8426/Default.aspx B3011은 \"presumed non-hazardous and so excluded from PIC control\"(깨끗한 단일 재질, PE·PP·PET 혼합물 등), Y48은 \"plastic waste, including mixtures, unless these are hazardous (A3210) or ... B3011\"; 같은 문서 표(22행)도 B3011을 규제 제외로 적음",
+  "fix": "2021년 1월 1일 발효하면서 혼합 폐플라스틱 등 폐플라스틱이 원칙적으로 통제 대상(Y48, 유해하면 A3210)이 되었고, 깨끗하게 분리된 단일 재질 폐플라스틱과 PET·PE·PP만으로 된 혼합물 같은 B3011 품목만 통제에서 빠졌습니다."
+ }
+]

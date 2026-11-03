@@ -1,0 +1,16 @@
+[
+ {
+  "file": "b-ch3.html",
+  "claim": "지금(2026년 10월) 반드시 붙어 있어야 하는 표시는",
+  "verdict": "outdated",
+  "evidence": "Cellar SPARQL(publications.europa.eu/webapi/rdf/sparql, 2026-11-02 조회, OJ 2026-10-30분까지 색인): 2023/1542를 개정한 법령은 2024/1781, 2025/1561, 2026/1738뿐이고 최신 연결본은 02023R1542-20260813. 이후 정정 R(14)·R(15)는 핀란드어·불가리아어판만 정정. 제13조 개정 없음. 기준월 표현만 지남.",
+  "fix": "지금(2026년 11월) 반드시 붙어 있어야 하는 표시는"
+ },
+ {
+  "file": "b-ch3.html",
+  "claim": "제13조(10)의 이행법률은 채택 기한(2025년 8월 18일)이 지났지만 2026년 10월 현재 관보에 실리지 않았으므로",
+  "verdict": "outdated",
+  "evidence": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14456 (\"COMMISSION IMPLEMENTING REGULATION (EU) .../... as regards format and harmonised specifications for certain labelling requirements\", REG_IMPL_DRAFT Ares(2025)11169592, 의견수렴 2025-12-15~2026-01-26, adoptionDate null). Cellar에서 2026-10-30자 관보까지 해당 이행규정 없음.",
+  "fix": "제13조(10)의 이행법률은 채택 기한(2025년 8월 18일)이 지났지만 2026년 10월 30일자 관보까지 실리지 않았으므로(집행위원회 초안은 2025년 12월 15일~2026년 1월 26일에 의견을 받았고 아직 채택 전)"
+ }
+]

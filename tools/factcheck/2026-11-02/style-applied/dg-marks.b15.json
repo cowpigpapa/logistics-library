@@ -1,0 +1,9 @@
+[
+ {
+  "file": "dg-marks.html",
+  "claim": "UN 번호·정식 품명·등급 라벨을",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 정식 표기는 정식운송품명(PSN)",
+  "fix": "UN 번호·정식운송품명·등급 라벨을"
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "file": "cu-ipr.html",
+  "claim": "그래서 보류 기간이 길어지면 보관료와 Demurrage가 그대로 늘어납니다.",
+  "verdict": "wrong",
+  "evidence": "clarity: 컨테이너 위치에 따라 붙는 요금이 다름",
+  "fix": "그래서 보류 기간이 길어지면 보관료와 Demurrage(컨테이너를 이미 반출했다면 Detention)가 그대로 늘어납니다."
+ },
+ {
+  "file": "cu-ipr.html",
+  "claim": "보류가 길어지면 선사에 Detention 조정이나 반납 방법을 문의하되",
+  "verdict": "wrong",
+  "evidence": "clarity: 터미널에 있는 컨테이너는 Demurrage가 쌓임. 같은 문서 위 문단도 Demurrage로 씀",
+  "fix": "보류가 길어지면 선사에 Demurrage·Detention 조정이나 반납 방법을 문의하되"
+ }
+]

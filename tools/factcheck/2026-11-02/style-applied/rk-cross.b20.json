@@ -1,0 +1,9 @@
+[
+ {
+  "file": "rk-cross.html",
+  "claim": "<td>Shipping Mark(화인) 오부착</td>",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 한국어 용어를 먼저 쓰고 괄호에 영문",
+  "fix": "<td>화인(Shipping Mark) 오부착</td>"
+ }
+]

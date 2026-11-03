@@ -1,0 +1,9 @@
+[
+ {
+  "file": "ins-general-average.html",
+  "claim": "선주 과실이 의심돼도 일단 담보는 내야 하고, 과실은 정산 단계에서 다툼",
+  "verdict": "wrong",
+  "evidence": "https://comitemaritime.org/wp-content/uploads/2023/01/YAR-2016-English-Version.pdf Rule D \"Rights to contribution in general average shall not be affected ... but this shall not prejudice any remedies or defences which may be open against or to that party in respect of such fault\" (과실은 정산인이 정하지 않고 분담 청구에 대한 항변으로 다툼)",
+  "fix": "선주 과실이 의심돼도 일단 담보는 내야 하고, 과실은 정산인이 판단하지 않으므로 분담 청구에 대한 항변으로 협상·중재·소송에서 다툼"
+ }
+]

@@ -1,0 +1,9 @@
+[
+ {
+  "file": "bl-cmr.html",
+  "claim": "세르비아에는 90일째인 2026년 11월 2일부터 적용되므로 확인일 기준으로는 아직 발효 전입니다.",
+  "verdict": "outdated",
+  "evidence": "https://treaties.un.org/doc/Publication/CN/2026/CN.294.2026-Eng.pdf — C.N.294.2026 (2026. 8. 4.) \"SERBIA: ACCESSION ... The above action was effected on 4 August 2026. The Protocol shall enter into force for Serbia on 2 November 2026 in accordance with its article 8 (2)\". 2026-11-02 현재 발효됨.",
+  "fix": "세르비아에는 90일째인 2026년 11월 2일부터 적용됩니다."
+ }
+]

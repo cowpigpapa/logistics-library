@@ -1,0 +1,65 @@
+[
+ {
+  "file": "dg-cases.html",
+  "claim": "<td>인도산 채종박(산적)</td>",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 벌크 화물(산적 ×, 법령 이름 인용 제외)",
+  "fix": "<td>인도산 채종박(벌크 화물)</td>"
+ },
+ {
+  "file": "dg-cases.html",
+  "claim": "판결 · 인도산 채종박(산적) · 쟁점",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 벌크 화물(산적 ×, 법령 이름 인용 제외)",
+  "fix": "판결 · 인도산 채종박(벌크 화물) · 쟁점"
+ },
+ {
+  "file": "dg-cases.html",
+  "claim": "인천항으로 산적 운송하던",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 벌크 화물(산적 ×, 법령 이름 인용 제외)",
+  "fix": "인천항으로 벌크 운송하던"
+ },
+ {
+  "file": "dg-cases.html",
+  "claim": "컨테이너가 아닌 산적 액체화물 사고",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 벌크 화물(산적 ×, 법령 이름 인용 제외). 중형산적용기(IBC)·국제해상고체산적화물규칙은 정식 이름이라 그대로",
+  "fix": "컨테이너가 아닌 벌크 액체화물 사고"
+ },
+ {
+  "file": "dg-cases.html",
+  "claim": "화주에게서 MSDS(SDS)와 위험물 해당 여부",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 국제 운송 규칙 문맥은 SDS(MSDS는 국내법 문맥). 이 문서 앞에서 물질안전보건자료(SDS)로 풀어 씀",
+  "fix": "화주에게서 SDS와 위험물 해당 여부"
+ },
+ {
+  "file": "dg-cases.html",
+  "claim": "House 하나의 미신고가 같은 Master의 다른 화물까지 멈추게 하므로, 콘솔 전에 House마다",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: House AWB, Master AWB. 사례 54는 항공사 접수 점검(항공)이라 B/L이 아니라 AWB",
+  "fix": "House AWB 하나의 미신고가 같은 Master AWB의 다른 화물까지 멈추게 하므로, 콘솔 전에 House AWB마다"
+ },
+ {
+  "file": "dg-cases.html",
+  "claim": "<td>House 하나의 미신고가 Master 전체를 멈춘다</td>",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: House AWB, Master AWB(사례 54는 항공)",
+  "fix": "<td>House AWB 하나의 미신고가 Master AWB 전체를 멈춘다</td>"
+ },
+ {
+  "file": "dg-cases.html",
+  "claim": "<li>위험물을 맡기는 창고·CFS가 허가받은 위험물의 유별과 수량을 확인한다.</li>",
+  "verdict": "wrong",
+  "evidence": "grammar: 창고·CFS가 확인하는 주체로도 읽힘. 포워더 체크리스트 항목이며 확인 대상은 창고의 허가 범위(사례 교훈 \"창고가 허가받은 위험물의 유별·수량과 실제 보관 화물이 맞는지는 화물을 맡기는 쪽도 확인\")",
+  "fix": "<li>위험물을 맡기는 창고·CFS의 위험물 허가 유별과 허가 수량을 확인한다.</li>"
+ },
+ {
+  "file": "dg-cases.html",
+  "claim": "고정식 이산화탄소 설비는 한 번 쓰면 끝이라는 점도",
+  "verdict": "wrong",
+  "evidence": "grammar: 구어 \"한 번 쓰면 끝\"을 같은 뜻의 문어로",
+  "fix": "고정식 이산화탄소 설비는 한 번 방출하면 다시 쓸 수 없다는 점도"
+ }
+]

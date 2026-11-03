@@ -1,0 +1,16 @@
+[
+ {
+  "file": "ins-uninsurable.html",
+  "claim": "움직이는 화물은 사고 없이도 손해가 납니다.",
+  "verdict": "wrong",
+  "evidence": "judged: 늘 손해가 나는 것처럼 단정",
+  "fix": "움직이는 화물은 사고 없이도 손해가 날 수 있습니다."
+ },
+ {
+  "file": "ins-uninsurable.html",
+  "claim": "데이터 로거 기록이 사실상 유일한 증거가 됩니다.",
+  "verdict": "wrong",
+  "evidence": "judged: 리퍼·액티브 컨테이너 기록도 있으므로 '유일'은 과함",
+  "fix": "데이터 로거 기록이 온도를 보여 주는 가장 중요한 증거가 됩니다."
+ }
+]

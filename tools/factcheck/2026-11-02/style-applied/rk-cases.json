@@ -1,0 +1,9 @@
+[
+ {
+  "file": "rk-cases.html",
+  "claim": "손실은 누가 지나 · 결과",
+  "verdict": "wrong",
+  "evidence": "grammar: 활용 오류. 다른 쟁점 줄의 \"~인가\" 형식",
+  "fix": "손실은 누가 지는가 · 결과"
+ }
+]

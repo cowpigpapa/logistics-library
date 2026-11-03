@@ -1,0 +1,16 @@
+[
+ {
+  "file": "rg-heritage.html",
+  "claim": "실물 감정입니다. 포장하거나 적재하기 전에 물건을 가지고 감정관실을 찾습니다.</figcaption>",
+  "verdict": "wrong",
+  "evidence": "grammar: 주어가 없어 포워더가 가져가는 것으로도 읽힘(본문: 반출하려는 사람)",
+  "fix": "실물 감정입니다. 반출하려는 사람이 포장하거나 적재하기 전에 물건을 가지고 감정관실을 찾습니다.</figcaption>"
+ },
+ {
+  "file": "rg-heritage.html",
+  "claim": "그 진술을 서면 확인서로 받고",
+  "verdict": "wrong",
+  "evidence": "grammar: 법정 '비문화유산 국외반출 확인서'와 헷갈림",
+  "fix": "그 진술을 화주 명의의 서면으로 받고"
+ }
+]

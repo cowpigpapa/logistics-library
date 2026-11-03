@@ -1,0 +1,9 @@
+[
+ {
+  "file": "guide-glossary.html",
+  "claim": "<td>미국·캐나다로 가는 화물의 사전신고 제도.",
+  "verdict": "wrong",
+  "evidence": "improve: 용어집에서 네 약어를 풀이 없이 씀. CBP·CBSA 제도 이름",
+  "fix": "<td>미국·캐나다로 가는 화물의 사전신고 제도(AMS: Automated Manifest System, ISF: Importer Security Filing, ACAS: Air Cargo Advance Screening, ACI: Advance Commercial Information)."
+ }
+]

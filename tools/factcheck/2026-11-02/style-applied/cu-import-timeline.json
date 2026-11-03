@@ -1,0 +1,37 @@
+[
+ {
+  "file": "cu-import-timeline.html",
+  "claim": "반입신고(House AWB이 없으면 Master AWB 단위)",
+  "verdict": "wrong",
+  "evidence": "grammar: 받침 없는 AWB 뒤 조사는 '가'",
+  "fix": "반입신고(House AWB가 없으면 Master AWB 단위)"
+ },
+ {
+  "file": "cu-import-timeline.html",
+  "claim": "그날부터 15일 안에 포워더가 House 적재화물목록 정정",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "그날부터 15일 안에 포워더가 하우스적재화물목록 정정"
+ },
+ {
+  "file": "cu-import-timeline.html",
+  "claim": "해외 적입 기록으로 House 적재화물목록 정정",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "해외 적입 기록으로 하우스적재화물목록 정정"
+ },
+ {
+  "file": "cu-import-timeline.html",
+  "claim": "대조한 뒤 House 적재화물목록 자료로 쓴다",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "대조한 뒤 하우스적재화물목록 자료로 쓴다"
+ },
+ {
+  "file": "cu-import-timeline.html",
+  "claim": "<li>House 적재화물목록 자료(품명·포장개수·중량·수하인)",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 관세 용어는 고시 정식 이름 \"하우스적재화물목록\"(2026-10-18)",
+  "fix": "<li>하우스적재화물목록 자료(품명·포장개수·중량·수하인)"
+ }
+]

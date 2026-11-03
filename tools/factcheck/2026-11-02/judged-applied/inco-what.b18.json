@@ -1,0 +1,9 @@
+[
+ {
+  "file": "inco-what.html",
+  "claim": "<td>송하인(운송을 수배한 쪽)–운송인·포워더</td>",
+  "verdict": "wrong",
+  "evidence": "clarity: FOB처럼 매수인이 운송을 수배해도 B/L 송하인은 매도인일 수 있음(STYLE.md 2026-10-20: shipper ≠ 수출자인 경우가 많다)",
+  "fix": "<td>운송계약을 맺은 쪽(보통 송하인)–운송인·포워더</td>"
+ }
+]

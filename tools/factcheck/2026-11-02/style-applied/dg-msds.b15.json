@@ -1,0 +1,9 @@
+[
+ {
+  "file": "dg-msds.html",
+  "claim": "MSDS(물질안전보건자료, Material Safety Data Sheet)이고",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 한국어(약어) 순서로 병기, 약어(한국어) 순서는 쓰지 않음(2026-10-13 병기 원칙, 물질안전보건자료(MSDS))",
+  "fix": "물질안전보건자료(MSDS, Material Safety Data Sheet)이고"
+ }
+]

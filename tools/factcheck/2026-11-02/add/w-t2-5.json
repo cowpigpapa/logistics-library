@@ -1,0 +1,9 @@
+[
+ {
+  "file": "w-t2-5.html",
+  "claim": "접속 방법과 계정은 해당 회원국 관할당국의 안내를 별도로 확인합니다.</li>",
+  "verdict": "outdated",
+  "evidence": "https://environment.ec.europa.eu/news/new-waste-shipment-regulation-and-diwass-platform-go-live-2026-05-21_en — \"Pragmatic transition for green-listed waste shipments: While PIC procedures may now only be executed electronically, the EU and its Member States agreed to a flexible approach for green-listed waste (non-hazardous waste destined for recovery). Under this approach, operators may continue to use the old paper procedure until 31 December 2026\". EUR-Lex(2025/1290)는 curl에 202 빈 응답이라 본문 확인 못 함.",
+  "fix": "접속 방법과 계정은 해당 회원국 관할당국의 안내를 별도로 확인합니다. 집행위원회는 2026년 5월 21일 공지에서, PIC 절차는 이제 전자로만 처리하지만 녹색목록 폐기물(회수 목적의 비유해 폐기물)은 EU와 회원국이 합의한 유연한 방식에 따라 2026년 12월 31일까지 기존 종이 절차를 계속 쓸 수 있다고 밝혔습니다(<a href=\"https://environment.ec.europa.eu/news/new-waste-shipment-regulation-and-diwass-platform-go-live-2026-05-21_en\" target=\"_blank\" rel=\"noopener noreferrer\">집행위원회 공지</a>). 규정 본문의 경과 조항이 아니라 집행위원회의 운영 방침이므로, 2027년 이후 운송 건에 종이 부속서 VII 서류만 받았다면 화주에게 시스템 입력 여부를 다시 확인합니다.</li>"
+ }
+]

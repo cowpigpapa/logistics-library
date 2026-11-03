@@ -1,0 +1,9 @@
+[
+ {
+  "file": "cu-bonded.html",
+  "claim": "<td>House AWB 단위(House AWB이 없으면 Master AWB)</td>",
+  "verdict": "wrong",
+  "evidence": "grammar: 받침 없는 AWB 뒤 조사는 '가'",
+  "fix": "<td>House AWB 단위(House AWB가 없으면 Master AWB)</td>"
+ }
+]

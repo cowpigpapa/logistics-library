@@ -1,0 +1,9 @@
+[
+ {
+  "file": "rk-warehouse.html",
+  "claim": "현행본과 TAPA FSR 2020을 바탕으로 하며",
+  "verdict": "outdated",
+  "evidence": "https://www.dqsglobal.com/en/explore/blog/tapa-fsr-tsr-2026-transition TAPA \"has officially released Facility Security Requirements (FSR) 2026\"(2026년 6월), 2026. 10. 1.부터 FSR 2026 심사 신청, FSR 2023 인증서는 3년 유효; 같은 저장소 rk-security 문서도 FSR이 2023년판·2026년판으로 개정됐다고 설명",
+  "fix": "현행본과 TAPA FSR 2020(그 뒤 2023년판·2026년판으로 개정되었으므로 실제 인증 요구 수준은 현행판으로 확인)을 바탕으로 하며"
+ }
+]

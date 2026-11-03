@@ -1,0 +1,9 @@
+[
+ {
+  "file": "inco-what.html",
+  "claim": "<p>Incoterms 2020은 운송방식에 따라",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 제목과 규칙 이름은 Incoterms® 2020",
+  "fix": "<p>Incoterms® 2020은 운송방식에 따라"
+ }
+]

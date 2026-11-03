@@ -1,0 +1,16 @@
+[
+ {
+  "file": "battery-cases.html",
+  "claim": "<td>EU 환적만 해도 EU 당국이 세운다</td>",
+  "verdict": "wrong",
+  "evidence": "grammar: 목적어 없음. 같은 사례 본문 교훈(\"EU 당국이 검사하고 운송을 세울 수 있습니다\")과 같은 뜻으로",
+  "fix": "<td>EU 환적만 해도 EU 당국이 운송을 세울 수 있음</td>"
+ },
+ {
+  "file": "battery-cases.html",
+  "claim": "조사 결과 송하인이",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 송하인 첫 사용 예 송하인(shipper). 이 문서에서 송하인이 처음이자 유일하게 나오는 곳",
+  "fix": "조사 결과 송하인(shipper)이"
+ }
+]

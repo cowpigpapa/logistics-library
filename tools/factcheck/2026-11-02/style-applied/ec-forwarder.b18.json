@@ -1,0 +1,16 @@
+[
+ {
+  "file": "ec-forwarder.html",
+  "claim": "OFAC 제재 대상(SDN) 목록. BIS",
+  "verdict": "wrong",
+  "evidence": "grammar",
+  "fix": "OFAC 제재 대상(SDN) 목록과 대조합니다. BIS"
+ },
+ {
+  "file": "ec-forwarder.html",
+  "claim": "<td>패킹리스트와 포장 사진 보완</td>",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 포워더는 화주 서류로 판단한다(화주에게 서류·사진을 받는다). 누가 사진을 내는지 두 가지로 읽힘",
+  "fix": "<td>화주에게 패킹리스트와 포장 사진 보완 요청</td>"
+ }
+]

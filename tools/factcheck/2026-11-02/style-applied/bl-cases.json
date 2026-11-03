@@ -1,0 +1,9 @@
+[
+ {
+  "file": "bl-cases.html",
+  "claim": "③ AWB는 권리증권이 아니어서 운송장에 적힌 수하인",
+  "verdict": "wrong",
+  "evidence": "grammar: 인도 대상(화물)이 빠져 AWB를 인도하는 것으로 읽힘",
+  "fix": "③ AWB는 권리증권이 아니어서 화물은 운송장에 적힌 수하인"
+ }
+]

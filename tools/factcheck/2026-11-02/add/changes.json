@@ -1,0 +1,9 @@
+[
+ {
+  "file": "changes.html",
+  "claim": "2026년 5월 21일부터 통지·동의·이동서류·부속서 VII·수령 확인·완료 증명이 모두 전자 처리. ",
+  "verdict": "outdated",
+  "evidence": "https://environment.ec.europa.eu/news/new-waste-shipment-regulation-and-diwass-platform-go-live-2026-05-21_en — \"operators may continue to use the old paper procedure until 31 December 2026\" (green-listed waste).",
+  "fix": "2026년 5월 21일부터 통지·동의·이동서류·부속서 VII·수령 확인·완료 증명이 모두 전자 처리. 다만 집행위원회는 녹색목록 폐기물(부속서 VII)에 한해 2026년 12월 31일까지 기존 종이 절차를 허용한다고 공지(2026. 5. 21.). "
+ }
+]

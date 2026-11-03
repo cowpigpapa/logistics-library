@@ -1,0 +1,9 @@
+[
+ {
+  "file": "tc-air-passive.html",
+  "claim": "<li>TTS 라벨 부착과",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 약어는 처음 나올 때 한국어 풀이를 붙임(문서 첫 등장)",
+  "fix": "<li>시간·온도 민감(TTS) 라벨 부착과"
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "file": "ch-air-weight.html",
+  "claim": "같은 규칙으로 계산하면 Master 운임 중량은 House 합계보다 클 수 없습니다.",
+  "verdict": "wrong",
+  "evidence": "문서 내부 불일치: 1절 표가 운임 중량을 \"실중량과 부피 중량 가운데 큰 값. 높은 중량 구간을 적용하면 그 구간의 최저 중량\"으로 정의함. 실중량·부피 중량 비교만으로는 Master ≤ House 합계(max(Σa,Σb) ≤ Σmax(a,b))가 성립하지만, Master에 상위 중량 구간(예: House 합계 42kg, Master +45kg 구간 적용 45kg)을 적용하면 Master 운임 중량이 House 합계보다 커질 수 있음.",
+  "fix": "실중량과 부피 중량만 비교하면 Master 운임 중량은 House 합계보다 클 수 없습니다(Master에 더 높은 중량 구간의 최저 중량을 적용하면 House 합계보다 커질 수 있습니다)."
+ },
+ {
+  "file": "ch-air-weight.html",
+  "claim": "같은 규칙으로 계산하면 Master 운임 중량은 House 운임 중량 합계보다 클 수 없고",
+  "verdict": "wrong",
+  "evidence": "위와 같음(1절 표의 운임 중량 정의에 중량 구간 최저 중량 적용이 포함됨).",
+  "fix": "중량 구간을 적용하기 전의 값으로 비교하면 Master 운임 중량은 House 운임 중량 합계보다 클 수 없고"
+ }
+]

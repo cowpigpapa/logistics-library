@@ -1,0 +1,9 @@
+[
+ {
+  "file": "cu-clearance.html",
+  "claim": "선박·항공기의 적재단위(S/R 또는 S/O, B/L 또는 AWB)별입니다",
+  "verdict": "wrong",
+  "evidence": "clarity: S/R·S/O가 이 문서에서 풀이 없이 처음 나옴(STYLE.md 1절 첫 등장 병기)",
+  "fix": "선박·항공기의 적재단위(선적요청서 S/R 또는 선적지시서 S/O, B/L 또는 AWB)별입니다"
+ }
+]

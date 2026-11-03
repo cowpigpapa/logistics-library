@@ -1,0 +1,9 @@
+[
+ {
+  "file": "ec-sanctions.html",
+  "claim": "2026년 10월 현재 미중 합의 연장에 따라 유예가 2027년 1월 10일까지 늘어날 것으로 예상되지만 BIS의 공식 공고는 아직 없음",
+  "verdict": "outdated",
+  "evidence": "https://www.govinfo.gov/content/pkg/FR-2025-11-12/pdf/2025-19846.pdf — 유예 규칙(2025. 11. 12. 관보)은 별도 조치가 없으면 2026. 11. 10.에 Affiliates Rule 개정이 자동으로 되살아난다고 정함. https://www.federalregister.gov/api/v1/documents.json?conditions[agencies][]=industry-and-security-bureau&conditions[publication_date][gte]=2026-10-01 — 2026. 10. 1. 이후 BIS 관보 문서는 2건(2026-21840 거부명령 갱신, 2026-20938 U.S. Content 지침)뿐이고 연장 공고 없음. 2026. 11. 2. 공개열람(public inspection) 목록에도 BIS 문서 없음. 확인 시점만 새로 붙임.",
+  "fix": "미중 합의 연장에 따라 유예가 2027년 1월 10일까지 늘어날 것으로 예상되지만 2026년 11월 2일 현재 BIS의 공식 공고(Federal Register)는 아직 없음"
+ }
+]

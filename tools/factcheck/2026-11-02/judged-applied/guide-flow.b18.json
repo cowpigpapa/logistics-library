@@ -1,0 +1,16 @@
+[
+ {
+  "file": "guide-flow.html",
+  "claim": "③ 사고가 난 뒤에는 기한이 가장 먼저입니다.",
+  "verdict": "wrong",
+  "evidence": "improve: 기한 확인과 함께 증거 보존을 첫 조치로",
+  "fix": "③ 사고가 난 뒤에는 기한 확인과 증거 보존이 가장 먼저입니다."
+ },
+ {
+  "file": "guide-flow.html",
+  "claim": "<td>터미널 반입과 들기</td>",
+  "verdict": "wrong",
+  "evidence": "clarity: '들기'만으로는 무엇인지 알기 어려움(a2-handling의 터미널 인양)",
+  "fix": "<td>터미널 반입과 CTU 인양(들기)</td>"
+ }
+]

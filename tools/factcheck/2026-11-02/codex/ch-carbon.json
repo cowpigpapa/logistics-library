@@ -1,0 +1,9 @@
+[
+ {
+  "file": "ch-carbon.html",
+  "claim": "<p>어느 카테고리인지는 \"누가 운송비를 냈나\"로 갈립니다.",
+  "verdict": "wrong",
+  "evidence": "https://ghgprotocol.org/sites/default/files/standards/Scope3_Calculation_Guidance_0.pdf Category 4: \"Transportation and distribution of products purchased in the reporting year, between a company's tier 1 suppliers and its own operations…\"; Category 9: \"includes only emissions from transportation and distribution of products after the point of sale.\" 매수인의 입고 운송은 운송비 부담자와 관계없이 카테고리 4(문서의 표도 CIF·DAP 매수인을 4로 분류). 운송비 부담자로 갈리는 것은 판매 제품의 출고 운송(4와 9)뿐.",
+  "fix": "<p>판매한 제품의 출고 운송이 어느 카테고리인지는 \"누가 운송비를 냈나\"로 갈립니다."
+ }
+]

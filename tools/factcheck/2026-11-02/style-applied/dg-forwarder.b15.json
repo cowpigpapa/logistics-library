@@ -1,0 +1,9 @@
+[
+ {
+  "file": "dg-forwarder.html",
+  "claim": "2023-01-01부터 의무. 고용주가",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 날짜는 괄호·표·출처에서 '2026. 10. 11.' 형식(ISO는 CHECKED·자료 확인 줄만)",
+  "fix": "2023. 1. 1.부터 의무. 고용주가"
+ }
+]

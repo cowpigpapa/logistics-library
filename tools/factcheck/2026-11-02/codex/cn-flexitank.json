@@ -1,0 +1,107 @@
+[
+ {
+  "file": "cn-flexitank.html",
+  "claim": "업계 기준은 컨테이너 소유자 단체인 COA의 플렉시탱크 실무 규약(V6, 2019)과",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - TG-07 1. Foreword: \"This Code of Practice (TG-07) supersedes all previous versions.\"",
+  "fix": "업계 기준은 컨테이너 소유자 단체인 COA의 플렉시탱크 실무 규약(TG-07, 2021)과"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "선사는 COA 품질 목록(FQML)과 PAS 1008 시험 여부를",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 2.3: \"COA: ... Manage the Flexitank Quality List (FQL)\"; 12: \"The status of the company attainment to CQC is recorded on the Flexitank Quality List (FQL)\"; https://www.containerownersassociation.com/coa-fqml/ - \"Flexitank Quality List - FQL\"",
+  "fix": "선사는 COA 플렉시탱크 품질 목록(FQL)과 PAS 1008 시험 여부를"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "2019년 7월의 V6가 이전 판을 모두 대체합니다. V6는 제조사용(V6-M)과 독립 운영사용(V6-O) 두 편입니다.",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - TG-07 1. Foreword: \"This Code of Practice (TG-07) supersedes all previous versions.\"; 1. Foreword: intended for \"Manufacturers of flexitanks and equipment / Operators of flexitanks / Service providers / Ocean Carriers\"",
+  "fix": "2019년 7월에는 제조사용(V6-M)과 독립 운영사용(V6-O) 두 편으로 V6를 냈습니다. 현행판은 2021년 10월의 TG-07 Code of Practice Flexitank Container Systems로, 제조사·운영사·서비스 업체·선사를 한 편에서 다루며 이전 판을 모두 대체합니다."
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "TT Club의 2024년 자료는 \"TG-07 Code of Practice flexitank container systems 2021\"이라는 이름을 각주에 적고 있지만, 이 판의 본문은 확인하지 못했습니다.",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 4: \"The maximum payload (cargo mass) shall be 24,000kg.\"; 12.2: Manual 3-years, PAS 1008:2016 material tests 3-years, rail impact test 5-years; 2.3: Ocean Carriers \"Refer to the COA Flexitank Quality List as part of the risk assessment process\"",
+  "fix": "이 문서의 조항 번호는 V6-O 기준이며, TG-07도 최대 화물 질량 24,000kg, 설명서·재료 시험 3년과 철도 충격 시험 5년의 CQC 감사, 선사의 FQL 참고를 그대로 둡니다."
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "플렉시탱크 품질 관리 목록(FQML)에 오릅니다",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 2.3: \"COA: ... Manage the Flexitank Quality List (FQL)\"; 12: \"The status of the company attainment to CQC is recorded on the Flexitank Quality List (FQL)\"; https://www.containerownersassociation.com/coa-fqml/ - \"Flexitank Quality List - FQL\"",
+  "fix": "플렉시탱크 품질 목록(Flexitank Quality List, FQL. 예전 이름은 FQML)에 오릅니다"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "플렉시탱크를 평가할 때 FQML을 참고하고",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 2.3: \"COA: ... Manage the Flexitank Quality List (FQL)\"; 12: \"The status of the company attainment to CQC is recorded on the Flexitank Quality List (FQL)\"; https://www.containerownersassociation.com/coa-fqml/ - \"Flexitank Quality List - FQL\"",
+  "fix": "플렉시탱크를 평가할 때 FQL을 참고하고"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "TT Club은 FQML에 없는",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 2.3: \"COA: ... Manage the Flexitank Quality List (FQL)\"; 12: \"The status of the company attainment to CQC is recorded on the Flexitank Quality List (FQL)\"; https://www.containerownersassociation.com/coa-fqml/ - \"Flexitank Quality List - FQL\"",
+  "fix": "TT Club은 FQL에 없는"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "COA 규약은 선사가 FQML을 참고하고, 실기",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 2.3: \"COA: ... Manage the Flexitank Quality List (FQL)\"; 12: \"The status of the company attainment to CQC is recorded on the Flexitank Quality List (FQL)\"; https://www.containerownersassociation.com/coa-fqml/ - \"Flexitank Quality List - FQL\"",
+  "fix": "COA 규약은 선사가 FQL을 참고하고, 실기"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "제조사·운영사 이름과 FQML 등재 상태",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 2.3: \"COA: ... Manage the Flexitank Quality List (FQL)\"; 12: \"The status of the company attainment to CQC is recorded on the Flexitank Quality List (FQL)\"; https://www.containerownersassociation.com/coa-fqml/ - \"Flexitank Quality List - FQL\"",
+  "fix": "제조사·운영사 이름과 FQL 등재 상태"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "<td>FQML 등재 상태(제조사와 운영사 모두)",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 2.3: \"COA: ... Manage the Flexitank Quality List (FQL)\"; 12: \"The status of the company attainment to CQC is recorded on the Flexitank Quality List (FQL)\"; https://www.containerownersassociation.com/coa-fqml/ - \"Flexitank Quality List - FQL\"",
+  "fix": "<td>FQL 등재 상태(제조사와 운영사 모두)"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "<li>COA FQML에 오른",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 2.3: \"COA: ... Manage the Flexitank Quality List (FQL)\"; 12: \"The status of the company attainment to CQC is recorded on the Flexitank Quality List (FQL)\"; https://www.containerownersassociation.com/coa-fqml/ - \"Flexitank Quality List - FQL\"",
+  "fix": "<li>COA FQL에 오른"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "FQML의 현재 등재 목록은",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 2.3: \"COA: ... Manage the Flexitank Quality List (FQL)\"; 12: \"The status of the company attainment to CQC is recorded on the Flexitank Quality List (FQL)\"; https://www.containerownersassociation.com/coa-fqml/ - \"Flexitank Quality List - FQL\"",
+  "fix": "FQL의 현재 등재 목록은"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "COA 규약 V6 7.4(모델마다)",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - 12.2 Audits: \"COA CoP TG-07 Operating Instruction and training instruction manual. Independent auditor 3-years\"; f. \"Audits for Manual, Material Test and Rail Impact test are required for each model type\"",
+  "fix": "COA 규약 TG-07 12.2(모델마다)"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "COA Code of Practice - flexitank operators V6-O(2019. 7.),",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - TG-07 1. Foreword: \"This Code of Practice (TG-07) supersedes all previous versions.\"",
+  "fix": "COA Code of Practice - flexitank operators V6-O(2019. 7.)와 이를 대체한 COA TG-07 Code of Practice Flexitank Container Systems(2021. 10.),"
+ },
+ {
+  "file": "cn-flexitank.html",
+  "claim": "COA Code of Practice V6-O 1장·1.5·5.3·6장·7장 — ",
+  "verdict": "outdated",
+  "evidence": "https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf - TG-07 1. Foreword: \"This Code of Practice (TG-07) supersedes all previous versions.\"",
+  "fix": "COA TG-07 Code of Practice Flexitank Container Systems(2021) 1장·2.3·4장·12장 — <a href=\"https://www.containerownersassociation.com/wp-content/uploads/2021/10/COA-TG07-Code-of-Practice-Flexitank-Systems-English-October-2021.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">COA TG-07</a>; COA Code of Practice V6-O 1장·1.5·5.3·6장·7장 — "
+ }
+]

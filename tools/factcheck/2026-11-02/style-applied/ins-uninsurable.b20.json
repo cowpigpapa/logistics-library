@@ -1,0 +1,16 @@
+[
+ {
+  "file": "ins-uninsurable.html",
+  "claim": "① 냉동기가 <b>연속 24시간 이상 정지</b>한 고장",
+  "verdict": "wrong",
+  "evidence": "grammar: 주어·서술어 결합이 어색함(CL423: 고장으로 24시간 이상 정지)",
+  "fix": "① 냉동기 고장으로 <b>연속 24시간 이상 정지</b>한 경우"
+ },
+ {
+  "file": "ins-uninsurable.html",
+  "claim": "운송인 쪽도 불리합니다.",
+  "verdict": "wrong",
+  "evidence": "grammar: 운송인이 불리하다는 뜻으로 읽힘(뜻은 화주가 운송인에게 배상받기 어렵다는 것)",
+  "fix": "운송인에게 배상받기도 어렵습니다."
+ }
+]

@@ -1,0 +1,23 @@
+[
+ {
+  "file": "ins-basics.html",
+  "claim": "실무에서는 보통 CIF 가격(에 희망이익 10%를 더한 금액)을 기준으로",
+  "verdict": "wrong",
+  "evidence": "grammar: 괄호가 조사 '에'부터 열려 문장이 끊김",
+  "fix": "실무에서는 보통 CIF 가격에 희망이익 10%를 더한 금액(CIF 가격의 110%)을 기준으로"
+ },
+ {
+  "file": "ins-basics.html",
+  "claim": "<a data-doc=\"ins-general-average\">공동해손과 구조</a>를 참고하세요.",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 다른 문서 안내는 \"~를 보십시오\"",
+  "fix": "<a data-doc=\"ins-general-average\">공동해손과 구조</a>를 보십시오."
+ },
+ {
+  "file": "ins-basics.html",
+  "claim": "<td colspan=\"2\">최소 계약 가격에 10%를 더한 금액(110%), 계약 통화로</td>",
+  "verdict": "wrong",
+  "evidence": "grammar: '최소'가 '계약 가격'을 꾸미는 것으로 읽힘(Incoterms A5: 계약 가격 + 10% 이상)",
+  "fix": "<td colspan=\"2\">계약 가격에 10%를 더한 금액(110%) 이상, 계약 통화로</td>"
+ }
+]

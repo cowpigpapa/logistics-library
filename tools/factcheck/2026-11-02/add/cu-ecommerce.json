@@ -1,0 +1,9 @@
+[
+ {
+  "file": "cu-ecommerce.html",
+  "claim": "미국행 화물의 AMS·ACAS 사전신고 기한은 <a data-doc=\"cu-us-filing\">미국·캐나다 사전신고</a>에 있습니다.",
+  "verdict": "outdated",
+  "evidence": "https://www.federalregister.gov/documents/2026/10/08/2026-20650/low-value-shipments (API: /api/v1/documents/2026-20650.json, type 'Proposed Rule', comments_close_on 2026-12-07). Body: \"requiring the entry to be filed electronically as an entry type 11 filing, upon or prior to the date of importation, and requiring identification of the final deliver-to party if different from the ultimate consignee\"; \"require that all entry type 11 and entry type 13 filers must obtain a basic importation and entry bond\"; \"a consignee ... who is not an owner or purchaser (such as a foreign postal operator, the United States Postal Service, a freight forwarder, or a carrier) to appoint a licensed customs broker who will act as the importer of record\"; current rule: entry within 15 calendar days after landing (19 CFR 141.5).",
+  "fix": "아직 확정되지 않은 CBP 규칙안 Low-Value Shipments(91 FR 64532, 2026. 10. 8., 의견 마감 2026. 12. 7.)가 그대로 확정되면 신고 쪽 부담이 더 늘어납니다. 2,500달러 이하 Entry Type 11 간이신고는 지금처럼 도착 후 15일 안이 아니라 수입일(도착일)까지 전자로만 내야 하고, 최종 수령인(Final Deliver-To Party)이 신고서의 최종 수하인(ultimate consignee)과 다르면 그 이름과 주소를 더 적어야 하며, Type 11과 우편용 새 Type 13의 신고인은 기본 수입 보증(basic importation and entry bond)을 갖춰야 합니다. 포워더나 운송인처럼 물품의 소유자·구매자가 아닌 수하인이 신고하려면 미국 관세사를 지정하고, 그 관세사가 수입자(importer of record)가 됩니다. 미국행 화물의 AMS·ACAS 사전신고 기한은 <a data-doc=\"cu-us-filing\">미국·캐나다 사전신고</a>에 있습니다."
+ }
+]

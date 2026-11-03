@@ -1,0 +1,9 @@
+[
+ {
+  "file": "bl-basics.html",
+  "claim": "\"원본 B/L 세 장 다 받았어요?\"",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 원본 개수: B/L은 3통, AWB는 3부",
+  "fix": "\"원본 B/L 3통 다 받았어요?\""
+ }
+]

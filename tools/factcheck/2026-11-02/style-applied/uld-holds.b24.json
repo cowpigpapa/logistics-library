@@ -1,0 +1,44 @@
+[
+ {
+  "file": "uld-holds.html",
+  "claim": "사이드 카고 도어를 화물기와 함께 싣고,",
+  "verdict": "wrong",
+  "evidence": "grammar: '싣고'가 문서 게재가 아니라 문을 싣는다는 뜻으로 읽힘",
+  "fix": "사이드 카고 도어를 화물기와 함께 다루고,"
+ },
+ {
+  "file": "uld-holds.html",
+  "claim": "메인덱 화물 문을 새로 낸",
+  "verdict": "wrong",
+  "evidence": "typo: 문서 다른 곳은 모두 '화물문'",
+  "fix": "메인덱 화물문을 새로 낸"
+ },
+ {
+  "file": "uld-holds.html",
+  "claim": "승무원 휴식 공간, 선택 사양 문에 따라",
+  "verdict": "wrong",
+  "evidence": "grammar: '선택 사양 문'이 무엇인지 모호(같은 문서 표의 '대형 뒤 화물문(선택 사양)')",
+  "fix": "승무원 휴식 공간, 선택 사양 화물문에 따라"
+ },
+ {
+  "file": "uld-holds.html",
+  "claim": "(화물기·여객기, 선택 사양 문 유무)",
+  "verdict": "wrong",
+  "evidence": "grammar: 위와 같은 표현 통일",
+  "fix": "(화물기·여객기, 선택 사양 화물문 유무)"
+ },
+ {
+  "file": "uld-holds.html",
+  "claim": "팔레트, 20 ft 팔레트,",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "팔레트, 20ft 팔레트,"
+ },
+ {
+  "file": "uld-holds.html",
+  "claim": "20 ft 팔레트처럼",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 길이 단위는 사이트 전체 ft, 숫자에 붙여 20ft·40ft(2026-10-17 판정)",
+  "fix": "20ft 팔레트처럼"
+ }
+]

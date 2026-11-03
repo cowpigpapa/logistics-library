@@ -1,0 +1,16 @@
+[
+ {
+  "file": "tc-reefer-practice.html",
+  "claim": "② 리퍼는 화물을 식히지 못하므로",
+  "verdict": "wrong",
+  "evidence": "judged: 리퍼에 냉각 기능이 없는 것처럼 읽힘",
+  "fix": "② 리퍼는 화물 온도를 끌어내리는 장비가 아니므로"
+ },
+ {
+  "file": "tc-reefer-practice.html",
+  "claim": "<li>냉동기 공기 배출구 앞을 비워 두지 않습니다.",
+  "verdict": "wrong",
+  "evidence": "judged: '배출구 앞'이 배출구를 막으라는 뜻으로도 읽힘. 뒤 문장(Hapag-Lloyd)과 같은 뜻으로",
+  "fix": "<li>냉동기 쪽 벽과 화물 사이에 빈 공간을 두지 않습니다."
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "file": "guide-glossary.html",
+  "claim": "<td>할증료(surcharge), BAF</td>",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 할증료 약어는 영문 그대로이고 처음 나올 때 한국어 풀이를 붙인다",
+  "fix": "<td>할증료(surcharge), BAF(유류할증료)</td>"
+ },
+ {
+  "file": "guide-glossary.html",
+  "claim": "위험도에 따른 포장 등급(Ⅰ·Ⅱ·Ⅲ)",
+  "verdict": "wrong",
+  "evidence": "STYLE.md: 용기등급(PG), 포장등급은 쓰지 않는 표기",
+  "fix": "위험도에 따라 나눈 포장 기준의 등급(Ⅰ·Ⅱ·Ⅲ)"
+ }
+]

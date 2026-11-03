@@ -1,0 +1,9 @@
+[
+ {
+  "file": "uld-safety.html",
+  "claim": "보도에 따르면 팔레트와 스트랩을 포함한 ULD는 모두 감항 인증을 받는 항공기 부품이지만, 공항 밖에서는",
+  "verdict": "wrong",
+  "evidence": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-85B.pdf 2.4.2 Note \"Cargo restrained on a pallet by straps is not a ULD.\", 2.4.3.4 \"Noncertified ULDs. A ULD that does not meet the TSO-C90 or TC/STC certification requirements.\"",
+  "fix": "보도는 ULD를 감항 인증을 받는 항공기 부품으로 소개했습니다(FAA 기준으로는 비인증 ULD도 있고, 팔레트에 스트랩으로만 묶은 화물은 ULD가 아닙니다). ULD는 공항 밖에서는"
+ }
+]

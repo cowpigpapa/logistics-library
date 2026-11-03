@@ -1,0 +1,9 @@
+[
+ {
+  "file": "ins-container-loss.html",
+  "claim": "<td>컨테이너 번호를 B/L·적재화물목록·VGM 자료와 한 자리씩 대조하고",
+  "verdict": "wrong",
+  "evidence": "judged: 무엇과 대조하는지(선사의 유실 통지) 빠져 있음",
+  "fix": "<td>선사가 알린 유실 컨테이너 번호를 B/L·적재화물목록·VGM 자료와 한 자리씩 대조하고"
+ }
+]

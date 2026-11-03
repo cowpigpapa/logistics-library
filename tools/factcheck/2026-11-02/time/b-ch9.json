@@ -1,0 +1,9 @@
+[
+ {
+  "file": "b-ch9.html",
+  "claim": "집행위원회는 2026년 8월 18일까지 '정당한 이익이 있는 자'가 누구이고 어떤 정보를 어디까지 내려받고 공유할 수 있는지 이행법률로 정해야 합니다.",
+  "verdict": "outdated",
+  "evidence": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/16473 (\"COMMISSION IMPLEMENTING REGULATION (EU) .../... as regards access to and use of certain information in the battery passport\", REG_IMPL_DRAFT Ares(2026)9814179, 공개 2026-10-19, 의견수렴 ~2026-11-16, adoptionDate null). 기한 2026-08-18 경과, 미채택.",
+  "fix": "집행위원회는 2026년 8월 18일까지 '정당한 이익이 있는 자'가 누구이고 어떤 정보를 어디까지 내려받고 공유할 수 있는지 이행법률로 정해야 했습니다. 기한은 지났고, 2026년 10월 19일 초안이 공개되어 11월 16일까지 의견을 받는 중입니다(2026년 11월 2일 기준 미채택)."
+ }
+]
