@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
 <defs><marker id="a-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker><marker id="a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="a-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="a-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#e4572e"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="a-sub" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5f6b78"/></marker></defs>
 <rect width="1672" height="941" fill="#ffffff"/>
-<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >견적서의 다섯 덩어리: 화물이 움직이는 순서대로 묶는다</text>
+<text x="40" y="58" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start" >견적서의 다섯 묶음: 화물이 움직이는 순서대로 묶는다</text>
 <rect x="30" y="80" width="1612" height="800" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16" />
 <path d="M90 260 V210 L130 185 V210 L170 185 V210 L210 185 V260 Z" fill="#eef3fb" stroke="#1d2a3a" stroke-width="3"/>
 <rect x="450" y="210" width="140" height="50" fill="#eef3fb" stroke="#1d2a3a" stroke-width="3" rx="4" />
@@ -87,5 +87,5 @@
 <rect x="60" y="742" width="1552" height="122" fill="#eef3fb" stroke="none" stroke-width="2" rx="12" />
 <text x="84" y="780" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="start" >수입 견적에서는 줄을 나눠 적는다 (3절)</text>
 <text x="84" y="816" font-size="19" font-weight="600" fill="#1d2a3a" text-anchor="start" >②·③ 수입항까지의 운임·할증료는 관세 과세가격에 더하고, ④·⑤ 수입항 도착 뒤의 비용은 명백히 구분할 수 있으면 과세가격에서 뺀다.</text>
-<text x="84" y="842" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >덩어리 ①·④에는 선사 요금, 항만공사·터미널 몫을 선사가 대신 걷는 돈, 포워더 자신의 수수료가 섞여 있다.</text>
+<text x="84" y="842" font-size="19" font-weight="600" fill="#5f6b78" text-anchor="start" >묶음 ①·④에는 선사 요금, 항만공사·터미널 몫을 선사가 대신 걷는 돈, 포워더 자신의 수수료가 섞여 있다.</text>
 </svg>

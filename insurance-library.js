@@ -4,7 +4,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-insurance';
-  const DOCS_VERSION = '20261104-01';
+  const DOCS_VERSION = '20261104-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -41,7 +41,7 @@
     { id: 'ins-general-average', checked: '2026-10-19', tag: "공동해손", level: 3, title: "공동해손과 구조 — GA 선언 시 화주가 낼 담보, 컨테이너 유실과의 관계, 실제 사고 사례", short: "공동해손과 구조", summary: "화물이 멀쩡해도 담보를 내야 하는 공동해손의 개념과 YAR 2016·상법, 컨테이너 유실이 공동해손이 되는 경우, 맹약서·보증장·현금 공탁과 정산인 안내문 읽는 법, Yantian Express·Maersk Honam·Dali·CMA CGM LIBRA 등 실제 사고 사례를 정리합니다." },
     { id: 'ins-container-loss', checked: '2026-10-19', tag: "유실", level: 2, title: "컨테이너 유실 사고 — 본선에서 컨테이너가 바다에 떨어졌을 때", short: "컨테이너 유실 사고", summary: "해상 운송 중 컨테이너가 바다에 떨어졌을 때 화주·포워더·보험 담당이 할 일을 정리합니다. WSC 통계와 TopTier가 밝힌 원인, 2026년 SOLAS 유실 보고 의무, 운송인 면책·한도·1년 기한, ICC (A)(B)(C)의 담보 차이를 다룹니다." },
     { id: 'ins-forwarder', checked: '2026-10-28', tag: "포워더", level: 3, title: "포워더와 보험 — 배상책임보험, House B/L 책임, 보험업법", short: "포워더 배상책임과 보험", summary: "포워더가 운송주선인이 아니라 운송인으로 책임지는 경우, 포워더 배상책임보험과 적하보험의 차이, 국제물류주선업 등록의 보증보험·화물배상책임보험 요건, 화주 보험을 들어 주는 행위와 보험업법상 모집 규제를 다룹니다." },
-    { id: 'ins-terms', checked: '2026-11-03', tag: "거래약관·책임 제한", level: 3, title: "포워더 거래약관과 책임 제한 — FIATA 모델 규칙, 각국 표준거래조건, 상법 운송주선인 책임, 약관규제법, 약관을 계약에 넣는 법", short: "포워더 거래약관과 책임 제한", summary: "포워더가 운송주선인으로 일할 때는 상법 제115조·제121조가 기본이고 강행 책임 규정이 없어, 거래약관을 계약에 제대로 넣으면 한도·기한 조항이 효력을 가질 여지가 넓고 넣지 않으면 한도 없이 상법으로 따지게 됩니다. 한국 고객에게는 약관규제법 제3조의 명시·설명이 기준이라 기본거래계약서 본문에 한도·제소기간을 넣어 서명받는 편이 확실하고, 화주 계약서의 무거운 조항은 서명 전에 배상책임보험 담보를 확인합니다. House B/L·House AWB로 운송인이 되면 상법 제799조와 몬트리올 협약 제26조가 낮은 한도를 무효로 하고, 사고 뒤에는 실제운송인에 대한 기간을 연장 합의로 지켜야 합니다." },
+    { id: 'ins-terms', checked: '2026-11-03', tag: "거래약관·책임 제한", level: 3, title: "포워더 거래약관과 책임 제한 — FIATA 모델 규칙, 각국 표준거래조건, 상법 운송주선인 책임, 약관규제법, 약관을 계약에 넣는 법", short: "포워더 거래약관과 책임 제한", summary: "포워더가 운송주선인으로 일할 때는 상법 제115조·제121조가 기본이고 강행 책임 규정이 없어, 거래약관을 계약에 제대로 넣으면 한도·기한 조항의 효력이 인정될 가능성이 크고 넣지 않으면 한도 없이 상법으로 따지게 됩니다. 한국 고객에게는 약관규제법 제3조의 명시·설명이 기준이라 기본거래계약서 본문에 한도·제소기간을 넣어 서명받는 편이 확실하고, 화주 계약서의 무거운 조항은 서명 전에 배상책임보험 담보를 확인합니다. House B/L·House AWB로 운송인이 되면 상법 제799조와 몬트리올 협약 제26조가 낮은 한도를 무효로 하고, 사고 뒤에는 실제운송인에 대한 기간을 연장 합의로 지켜야 합니다." },
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };

@@ -61,9 +61,9 @@
 </tbody>
 </table>
 <p>위 유형 번호 F10~F16은 위임규정 부속서 B의 자료 요건표 열 이름이고, F17은 아일랜드 세관이 안내한 ICS2 기술 명세의 유형입니다. 항공은 F20~F29(일반 항공 화물), 특송은 F30~F34, 우편은 F40~F45, 도로는 F50, 철도는 F51입니다.</p>
-<h4>부분 신고를 잇는 연결 키</h4>
+<h4>부분 신고의 연결 키</h4>
 <p>부분 신고는 연결 키(linking key)로 하나가 됩니다. DG TAXUD 자료표는 연결 키를 ① 운송인의 EORI 번호, ② Master 단계 운송 서류 번호(Master B/L이나 철도 운송장 번호), ③ House 신고인(supplementary declarant)의 EORI 번호로 정하고, 모든 부분 신고에는 운송인 EORI와 Master B/L 번호가, Master 단계 신고에는 House 자료를 낼 사람의 EORI가 들어가야 한다고 설명합니다. 그래서 포워더와 선사는 부킹 단계에서 서로의 EORI와 Master B/L 번호를 주고받아야 합니다. ICS2 FAQ는 Master 단계 운송 서류 번호가 적어도 1년 동안 고유해야 하고, House B/L 번호는 고유하게 하는 것이 권장되지만 의무는 아니며, 한 House 신고 안에서는 같은 House B/L 번호가 반복되면 안 된다고 안내합니다.</p>
-<h4>법이 따로 정한 알릴 의무</h4>
+<h4>법률상 별도 통지 의무</h4>
 <ul>
 <li>B/L을 발행한 사람은 자기와 운송계약을 맺은 상대에게 B/L을 발행했다는 사실을 알려야 합니다. 코로딩이면 코로딩 상대에게 알립니다(이행규정 제184조 제2항). 한국 포워더가 House B/L을 발행했으면 선사(또는 Master 포워더)에게 그 사실을 알려야 선사가 F11로 낼지 F12로 낼지 정할 수 있습니다.</li>
 <li>운송인과 B/L 발행인은 자기와 계약하고도 ENS 자료를 주지 않은 사람의 신원을 ENS에 적어야 합니다(제184조 제1항). 자료를 주지 않은 포워더는 이렇게 세관에 드러나고, 그때부터 그 포워더가 자기 부분을 내야 합니다.</li>
@@ -117,7 +117,7 @@
 <li>송하인·수하인·매도인·매수인·통지처에 EORI 번호(또는 EU가 인정한 제3국 업체 식별번호)가 부여되어 있으면 반드시 적어야 합니다(부속서 B 각주 [47]). 아일랜드 세관은 EU에 설립된 사업자 수하인은 EORI가 있어야 하고 ENS 신고인에게 그 번호를 주어야 하며, 없으면 전체 이름과 주소(우편번호 포함)를 적어야 한다고 안내합니다.</li>
 <li>주소는 거리와 번지, 또는 사서함 중 하나가 있어야 합니다(부속서 B 각주 [49]).</li>
 </ul>
-<h4>숫자·형식에서 걸리는 것</h4>
+<h4>숫자·형식 오류</h4>
 <table class="lib-table">
 <thead><tr><th>항목</th><th>규칙</th><th>흔한 실수</th></tr></thead>
 <tbody>
@@ -155,7 +155,7 @@
 </ul>
 <p class="lib-source">출처: UCC 제18조·제19조 — <a href="https://eur-lex.europa.eu/eli/reg/2013/952/oj" target="_blank" rel="noopener noreferrer">EUR-Lex UCC</a>; 위임규정 2015/2446 제112조, 제112a조, 제113조 — <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015R2446-20260701" target="_blank" rel="noopener noreferrer">EUR-Lex 위임규정 통합본</a>; 이행규정 2015/2447 제184조, 제188조 — <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015R2447-20260701" target="_blank" rel="noopener noreferrer">EUR-Lex 이행규정 통합본</a>; Multiple filing 자료표, ENS Key Requirements 자료표, 해상 Release 3 자료표(DG TAXUD) — <a href="https://op.europa.eu/en/publication-detail/-/publication/f0c54ba3-4e1b-11ef-acbc-01aa75ed71a1" target="_blank" rel="noopener noreferrer">다중 신고</a>, <a href="https://op.europa.eu/en/publication-detail/-/publication/a5b5baa5-1dc1-11f1-8c3a-01aa75ed71a1" target="_blank" rel="noopener noreferrer">핵심 요건</a>, <a href="https://op.europa.eu/en/publication-detail/-/publication/668bfaf5-9b07-11ee-b164-01aa75ed71a1" target="_blank" rel="noopener noreferrer">해상</a>; ICS2 FAQ(DG TAXUD) — <a href="https://taxation-customs.ec.europa.eu/customs-4/customs-security/import-control-system-2-ics2-0/faq_en" target="_blank" rel="noopener noreferrer">taxation-customs.ec.europa.eu</a></p>
 
-<h3>7. 늦거나 틀리면: 반려, 적재 금지, 통관 지연, 제재</h3>
+<h3>7. 지연·오류의 결과: 반려, 적재 금지, 통관 지연, 제재</h3>
 <table class="lib-table">
 <thead><tr><th>상황</th><th>결과</th><th>근거</th></tr></thead>
 <tbody>
