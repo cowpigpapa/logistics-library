@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">한국 해운법의 장기운송계약: 선사와 화주(포워더 포함)가 함께 지는 의무</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">해운법(법률 제22135호, 시행 2026. 10. 27.)과 시행규칙 제20조를 요약했습니다. 괄호는 조문이며, 세부는 원문을 확인하십시오.</text>
+
+<!-- parties -->
+<rect x="48" y="124" width="420" height="200" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="68" y="158" font-size="19" font-weight="800" fill="#1f6fd1">선사 쪽(제28조 제1항 각 호)</text>
+<text x="68" y="190" font-size="15" font-weight="500" fill="#1d2a3a">1. 외항정기화물운송사업자</text>
+<text x="68" y="216" font-size="15" font-weight="500" fill="#1d2a3a">2. 국내항과 외국항 사이에서 외항 정기</text>
+<text x="88" y="240" font-size="15" font-weight="500" fill="#1d2a3a">화물운송사업을 하는 외국인</text>
+<text x="68" y="266" font-size="15" font-weight="500" fill="#1d2a3a">3. 여객·화물 겸용 여객선으로 컨테이너를</text>
+<text x="88" y="290" font-size="15" font-weight="500" fill="#1d2a3a">정기 운송하는 외항 정기 여객운송사업자 등</text>
+
+<rect x="1204" y="124" width="420" height="200" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1224" y="158" font-size="19" font-weight="800" fill="#1f8a5b">화주 쪽(제2조 제10호)</text>
+<text x="1224" y="190" font-size="15" font-weight="500" fill="#1d2a3a">해상화물 운송을 위해 선사와 화물의</text>
+<text x="1224" y="216" font-size="15" font-weight="500" fill="#1d2a3a">운송계약을 체결하는 당사자</text>
+<text x="1224" y="250" font-size="15" font-weight="800" fill="#1f8a5b">국제물류주선업에 종사하는 자를 포함</text>
+<text x="1224" y="276" font-size="15" font-weight="500" fill="#1d2a3a">포워더가 선사와 계약하면</text>
+<text x="1224" y="300" font-size="15" font-weight="500" fill="#1d2a3a">해운법상 "화주"입니다.</text>
+
+<!-- contract -->
+<rect x="498" y="124" width="676" height="200" rx="12" fill="#eef4fb" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="836" y="158" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">3개월 이상 장기운송계약(제29조의2 제2항)</text>
+<text x="520" y="192" font-size="15" font-weight="700" fill="#1d2a3a">반드시 포함할 내용</text>
+<text x="520" y="220" font-size="15" font-weight="500" fill="#1d2a3a">1. 운임 및 요금의 우대조건</text>
+<text x="520" y="246" font-size="15" font-weight="500" fill="#1d2a3a">2. 최소 운송물량의 보장</text>
+<text x="520" y="272" font-size="15" font-weight="500" fill="#1d2a3a">3. 유류비 등 원재료 가격 상승에 따른 운임 및 요금의 협의</text>
+<text x="520" y="298" font-size="15" font-weight="500" fill="#1d2a3a">4. 그 밖에 대통령령으로 정하는 내용</text>
+<path d="M468 224 L492 224" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M1204 224 L1180 224" stroke="#1f8a5b" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+<!-- process -->
+<path d="M836 324 L836 352" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="48" y="358" width="490" height="144" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="68" y="390" font-size="18" font-weight="800" fill="#1d2a3a">① 신고</text>
+<text x="68" y="420" font-size="15" font-weight="500" fill="#1d2a3a">공표를 유예하거나 신고로 대체하려면 운임·요금</text>
+<text x="68" y="446" font-size="15" font-weight="500" fill="#1d2a3a">적용일 15일 전까지 장기운송계약서를 해양수산부</text>
+<text x="68" y="472" font-size="15" font-weight="500" fill="#1d2a3a">장관에게 신고합니다(시행규칙 제20조 제3항).</text>
+<rect x="560" y="358" width="552" height="144" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="580" y="390" font-size="18" font-weight="800" fill="#1d2a3a">② 공표 대신 신고</text>
+<text x="580" y="418" font-size="15" font-weight="500" fill="#1d2a3a">장관은 신고된 장기운송계약에 공표 유예나 신고 대체를</text>
+<text x="580" y="441" font-size="15" font-weight="500" fill="#1d2a3a">허용할 수 있고(제28조 제2항 제2호), 공표 운임과 다른</text>
+<text x="580" y="464" font-size="15" font-weight="500" fill="#1d2a3a">운임을 금지한 제31조 제1항 제1호·제2항 제1호는 적용하지</text>
+<text x="580" y="487" font-size="15" font-weight="500" fill="#1d2a3a">않을 수 있습니다(제29조의2 제3항).</text>
+<rect x="1134" y="358" width="490" height="144" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="1154" y="390" font-size="18" font-weight="800" fill="#1d2a3a">③ 공정·투명</text>
+<text x="1154" y="420" font-size="15" font-weight="500" fill="#1d2a3a">입찰하거나 계약을 맺을 때는 공정하고</text>
+<text x="1154" y="446" font-size="15" font-weight="500" fill="#1d2a3a">투명하게 해야 합니다(제29조의2 제1항).</text>
+<text x="1154" y="472" font-size="15" font-weight="500" fill="#1d2a3a">필수 내용 누락은 과태료 대상(제59조 제3항).</text>
+<path d="M538 424 L554 424" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+<!-- prohibitions -->
+<rect x="48" y="514" width="776" height="266" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="68" y="548" font-size="18" font-weight="800" fill="#1f6fd1">선사의 금지행위(제31조 제1항)</text>
+<text x="68" y="580" font-size="15" font-weight="500" fill="#1d2a3a">1. 공표·신고한 운임 및 요금보다 더 많이 받거나 덜 받는 행위</text>
+<text x="68" y="606" font-size="15" font-weight="500" fill="#1d2a3a">2. 덜 받으려고 이미 받은 운임 및 요금의 일부를 되돌려주는 행위</text>
+<text x="68" y="632" font-size="15" font-weight="500" fill="#1d2a3a">3. 비상업적인 이유로 특정한 사람·지역·운송방법을 부당하게 우선·불리 취급</text>
+<text x="68" y="658" font-size="15" font-weight="800" fill="#d9482b">3의2. 운송계약을 정당한 사유 없이 이행하지 않거나 일방적으로 변경</text>
+<text x="68" y="684" font-size="15" font-weight="500" fill="#1d2a3a">4~6. 한국 수출업자 차별 운임, 분쟁 조정에서 화주 차별 등</text>
+<text x="68" y="720" font-size="15" font-weight="700" fill="#1d2a3a">약속한 선복을 이유 없이 주지 않거나 계약 조건을 혼자 바꾸는 것은</text>
+<text x="68" y="746" font-size="15" font-weight="700" fill="#1d2a3a">계약 위반이면서 해운법 금지행위가 될 수 있습니다.</text>
+
+<rect x="848" y="514" width="776" height="266" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="868" y="548" font-size="18" font-weight="800" fill="#1f8a5b">화주(포워더 포함)의 금지행위(제31조 제2항)</text>
+<text x="868" y="580" font-size="15" font-weight="500" fill="#1d2a3a">1. 공표·신고한 운임 및 요금보다 비싸거나 싸게 화물을 운송하게 하는 행위</text>
+<text x="868" y="606" font-size="15" font-weight="500" fill="#1d2a3a">2. 품목·등급을 속인 운임청구서를 받아 운임 일부를 되돌려 받는 행위</text>
+<text x="868" y="632" font-size="15" font-weight="500" fill="#1d2a3a">3. 우월적 지위로 부당하게 입찰에 참여하게 하거나 계약을 강요하는 행위</text>
+<text x="868" y="658" font-size="15" font-weight="500" fill="#1d2a3a">4. 운임을 낮추려는 고의 재입찰, 다른 사업자의 단가 정보 노출</text>
+<text x="868" y="684" font-size="15" font-weight="800" fill="#d9482b">5. 운송계약을 정당한 사유 없이 이행하지 않거나 일방적으로 변경</text>
+<text x="868" y="720" font-size="15" font-weight="700" fill="#1d2a3a">약정 물량을 이유 없이 싣지 않거나 부킹을 일방적으로 바꾸는 것도</text>
+<text x="868" y="746" font-size="15" font-weight="700" fill="#1d2a3a">같은 성격의 문제로 다뤄질 수 있습니다.</text>
+
+<rect x="48" y="802" width="1576" height="96" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="836" font-size="16" font-weight="700" fill="#1d2a3a">제재: 제31조 위반은 1천만원 이하 벌금(제57조의2 제2호), 제29조의2 제2항 위반은 100만원 이하 과태료(제59조 제3항 제3호의2).</text>
+<text x="68" y="866" font-size="16" font-weight="500" fill="#1d2a3a">누구든 위반 사실을 해양수산부장관 등에 신고할 수 있고(제31조의2 제1항), 장관은 변경·조정 등 필요한 조치를 명할 수 있습니다(같은 조 제3항).</text>
+</svg>

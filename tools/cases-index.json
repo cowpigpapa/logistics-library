@@ -1,6 +1,6 @@
 {
  "hub": "/library/accident-cases/ac-all",
- "total": 350,
+ "total": 356,
  "cats": {
   "incoterms-2020": {
    "label": "Incoterms",
@@ -11,14 +11,14 @@
   },
   "charges": {
    "label": "부대비용",
-   "count": 14,
+   "count": 16,
    "case_docs": [
     "ch-cases"
    ]
   },
   "bl-awb": {
    "label": "B/L·AWB",
-   "count": 38,
+   "count": 40,
    "case_docs": [
     "bl-cases"
    ]
@@ -95,7 +95,7 @@
   },
   "cargo-insurance": {
    "label": "화물보험",
-   "count": 23,
+   "count": 25,
    "case_docs": [
     "ins-cases"
    ]

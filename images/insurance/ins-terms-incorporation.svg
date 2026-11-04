@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">STC를 계약에 넣는 자리: 계약이 맺어지기 전에 보여 주어야 합니다</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">거래 흐름에 따라 약관을 알리는 서류를 놓았습니다. 칸의 평가는 본문의 판례·정부 안내를 바탕으로 한 실무 판단입니다.</text>
+<path d="M70 190 L1600 190" stroke="#9aa5b1" stroke-width="4"/>
+<path d="M776 128 L776 640" stroke="#d9482b" stroke-width="2.5" stroke-dasharray="8 6"/>
+<rect x="682" y="118" width="188" height="44" rx="8" fill="#ffffff" stroke="#d9482b" stroke-width="2"/>
+<text x="776" y="139" font-size="15" font-weight="800" fill="#d9482b" text-anchor="middle">계약 성립</text>
+<text x="776" y="157" font-size="13" font-weight="600" fill="#d9482b" text-anchor="middle">보통 견적 수락·부킹 확정</text>
+<circle cx="150" cy="190" r="14" fill="#1f8a5b"/><text x="150" y="196" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<circle cx="400" cy="190" r="14" fill="#1f8a5b"/><text x="400" y="196" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<circle cx="650" cy="190" r="14" fill="#1f8a5b"/><text x="650" y="196" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<circle cx="920" cy="190" r="14" fill="#1f6fd1"/><text x="920" y="196" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<circle cx="1180" cy="190" r="14" fill="#e4572e"/><text x="1180" y="196" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<circle cx="1440" cy="190" r="14" fill="#e4572e"/><text x="1440" y="196" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<rect x="40" y="226" width="220" height="400" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="58" y="262" font-size="18" font-weight="800" fill="#1f8a5b">거래 개시 서류</text>
+<text x="58" y="292" font-size="15" font-weight="500" fill="#1d2a3a">신용거래 신청서,</text>
+<text x="58" y="316" font-size="15" font-weight="500" fill="#1d2a3a">기본계약서</text>
+<text x="58" y="352" font-size="15" font-weight="500" fill="#1d2a3a">STC 전문을 붙이고</text>
+<text x="58" y="376" font-size="15" font-weight="500" fill="#1d2a3a">한도·제소기간·면책</text>
+<text x="58" y="400" font-size="15" font-weight="500" fill="#1d2a3a">조항을 따로 표시해</text>
+<text x="58" y="424" font-size="15" font-weight="500" fill="#1d2a3a">서명을 받음</text>
+<rect x="58" y="566" width="184" height="40" rx="8" fill="#1f8a5b"/>
+<text x="150" y="592" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">가장 확실</text>
+<rect x="290" y="226" width="220" height="400" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="308" y="262" font-size="18" font-weight="800" fill="#1f8a5b">견적서</text>
+<text x="308" y="292" font-size="15" font-weight="500" fill="#1d2a3a">"모든 업무는 당사</text>
+<text x="308" y="316" font-size="15" font-weight="500" fill="#1d2a3a">STC에 따름" 문구,</text>
+<text x="308" y="340" font-size="15" font-weight="500" fill="#1d2a3a">전문 링크와 사본</text>
+<text x="308" y="364" font-size="15" font-weight="500" fill="#1d2a3a">제공 안내, 한도와</text>
+<text x="308" y="388" font-size="15" font-weight="500" fill="#1d2a3a">기한 요약</text>
+<text x="308" y="428" font-size="14" font-weight="600" fill="#5f6b78">영국 정부 안내: 계약</text>
+<text x="308" y="450" font-size="14" font-weight="600" fill="#5f6b78">조건을 정하기 전,</text>
+<text x="308" y="472" font-size="14" font-weight="600" fill="#5f6b78">견적 단계가 이상적</text>
+<rect x="308" y="566" width="184" height="40" rx="8" fill="#1f8a5b"/>
+<text x="400" y="592" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">기본</text>
+<rect x="540" y="226" width="220" height="400" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="558" y="262" font-size="18" font-weight="800" fill="#1f8a5b">부킹 확인·메일</text>
+<text x="558" y="292" font-size="15" font-weight="500" fill="#1d2a3a">부킹 수락 메일에</text>
+<text x="558" y="316" font-size="15" font-weight="500" fill="#1d2a3a">같은 적용 문구와</text>
+<text x="558" y="340" font-size="15" font-weight="500" fill="#1d2a3a">링크를 반복</text>
+<text x="558" y="380" font-size="15" font-weight="500" fill="#1d2a3a">서명란에만 적은</text>
+<text x="558" y="404" font-size="15" font-weight="500" fill="#1d2a3a">문구는 눈에 띄었는지</text>
+<text x="558" y="428" font-size="15" font-weight="500" fill="#1d2a3a">다투기 쉬움</text>
+<rect x="558" y="566" width="184" height="40" rx="8" fill="#1f8a5b"/>
+<text x="650" y="592" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">보강</text>
+<rect x="810" y="226" width="220" height="400" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="828" y="262" font-size="18" font-weight="800" fill="#1f6fd1">House B/L·AWB</text>
+<text x="828" y="292" font-size="15" font-weight="500" fill="#1d2a3a">운송 구간에 걸리는</text>
+<text x="828" y="316" font-size="15" font-weight="500" fill="#1d2a3a">이면약관. 운송계약의</text>
+<text x="828" y="340" font-size="15" font-weight="500" fill="#1d2a3a">증거로 따로 적용</text>
+<text x="828" y="380" font-size="15" font-weight="500" fill="#1d2a3a">STC와 부딪치는 조항</text>
+<text x="828" y="404" font-size="15" font-weight="500" fill="#1d2a3a">(한도·기한·관할)을</text>
+<text x="828" y="428" font-size="15" font-weight="500" fill="#1d2a3a">미리 정리</text>
+<rect x="828" y="566" width="184" height="40" rx="8" fill="#1f6fd1"/>
+<text x="920" y="592" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">운송 구간 전용</text>
+<rect x="1070" y="226" width="220" height="400" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="1088" y="262" font-size="18" font-weight="800" fill="#e4572e">인보이스</text>
+<text x="1088" y="292" font-size="15" font-weight="500" fill="#1d2a3a">계약이 맺어진 뒤에</text>
+<text x="1088" y="316" font-size="15" font-weight="500" fill="#1d2a3a">처음 보이는 문구는</text>
+<text x="1088" y="340" font-size="15" font-weight="500" fill="#1d2a3a">이번 거래에는 늦다고</text>
+<text x="1088" y="364" font-size="15" font-weight="500" fill="#1d2a3a">다툴 여지</text>
+<text x="1088" y="404" font-size="15" font-weight="500" fill="#1d2a3a">반복 거래에서는</text>
+<text x="1088" y="428" font-size="15" font-weight="500" fill="#1d2a3a">"이전 거래 과정"의</text>
+<text x="1088" y="452" font-size="15" font-weight="500" fill="#1d2a3a">근거가 됨</text>
+<rect x="1088" y="566" width="184" height="40" rx="8" fill="#e4572e"/>
+<text x="1180" y="592" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">단독으로는 약함</text>
+<rect x="1330" y="226" width="290" height="400" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="1348" y="262" font-size="18" font-weight="800" fill="#e4572e">다음 거래·개정판</text>
+<text x="1348" y="292" font-size="15" font-weight="500" fill="#1d2a3a">같은 조건으로 거래를</text>
+<text x="1348" y="316" font-size="15" font-weight="500" fill="#1d2a3a">이어 가면 고객이 알았다고</text>
+<text x="1348" y="340" font-size="15" font-weight="500" fill="#1d2a3a">볼 근거가 쌓임</text>
+<text x="1348" y="364" font-size="15" font-weight="500" fill="#1d2a3a">(Granville, Rohlig)</text>
+<text x="1348" y="404" font-size="15" font-weight="500" fill="#1d2a3a">약관 판이 바뀌면 고객에게</text>
+<text x="1348" y="428" font-size="15" font-weight="500" fill="#1d2a3a">새 판을 다시 알림</text>
+<text x="1348" y="452" font-size="15" font-weight="500" fill="#1d2a3a">(BIFA 2025판 안내)</text>
+<rect x="1348" y="566" width="254" height="40" rx="8" fill="#e4572e"/>
+<text x="1475" y="592" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">쌓아 가는 근거</text>
+<rect x="40" y="664" width="1580" height="228" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="64" y="702" font-size="19" font-weight="800" fill="#1d2a3a">한국 고객에게는 약관규제법 제3조가 더해집니다</text>
+<text x="64" y="738" font-size="17" font-weight="500" fill="#1d2a3a">계약할 때 약관 내용을 계약 종류에 따라 일반적으로 예상되는 방법으로 분명히 밝히고, 고객이 요구하면 사본을 주어야 합니다(제2항).</text>
+<text x="64" y="770" font-size="17" font-weight="500" fill="#1d2a3a">약관의 중요한 내용은 고객이 이해할 수 있도록 설명해야 합니다(제3항). 한도·제소기간·면책은 중요한 내용으로 다투어지기 쉽습니다.</text>
+<text x="64" y="802" font-size="17" font-weight="500" fill="#1d2a3a">이를 어기고 계약하면 그 약관을 계약의 내용으로 주장할 수 없습니다(제4항).</text>
+<text x="64" y="834" font-size="17" font-weight="500" fill="#1d2a3a">고객이 약관 내용을 이미 충분히 잘 알고 있었다면 따로 설명할 필요는 없습니다(대법원 2016. 6. 23. 선고 2015다5194 판결).</text>
+<text x="64" y="868" font-size="15" font-weight="600" fill="#5f6b78">국제적으로 통용되는 운송업 약관도 시행령 제3조가 빼는 것은 제7조~제14조이므로, 제3조의 명시·설명은 그대로 남습니다.</text>
+</svg>

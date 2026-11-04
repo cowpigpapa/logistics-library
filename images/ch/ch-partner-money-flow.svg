@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e4572e"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">노미네이션 화물과 프리핸드 화물: 누구의 고객이고, 운임은 누가 받나</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">한국 수출 화물의 흔한 예를 단순화했습니다. 실제 고객 귀속과 몫은 견적·부킹 명의와 파트너 계약의 정의로 확인합니다.</text>
+
+<!-- Lane A -->
+<rect x="48" y="118" width="1574" height="378" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="152" font-size="20" font-weight="800" fill="#1f6fd1">A. 노미네이션(지정) 화물: 예) 해외 수입자가 FOB로 사고, 운임은 도착지에서 받음(Collect)</text>
+<text x="68" y="180" font-size="16" font-weight="600" fill="#1d2a3a">해외 파트너의 Routing Order(R/O)로 시작합니다. 고객 관계는 통상 해외 파트너가 관리하고, 한국 포워더는 출발지 일을 합니다.</text>
+
+<rect x="68" y="206" width="250" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="88" y="242" font-size="18" font-weight="800" fill="#1d2a3a">수출자(한국)</text>
+<text x="88" y="272" font-size="15" font-weight="500" fill="#1d2a3a">FOB 매도인</text>
+<rect x="470" y="206" width="300" height="96" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="490" y="242" font-size="18" font-weight="800" fill="#1f6fd1">한국 포워더</text>
+<text x="490" y="272" font-size="15" font-weight="500" fill="#1d2a3a">지정받은 출발지 대리인</text>
+<rect x="934" y="206" width="300" height="96" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="3"/>
+<text x="954" y="242" font-size="18" font-weight="800" fill="#e4572e">해외 파트너</text>
+<text x="954" y="272" font-size="15" font-weight="500" fill="#1d2a3a">R/O를 보낸 쪽(통상 고객 관리)</text>
+<rect x="1372" y="206" width="230" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="1392" y="242" font-size="18" font-weight="800" fill="#1d2a3a">수입자(해외)</text>
+<text x="1392" y="272" font-size="15" font-weight="500" fill="#1d2a3a">운임 지급인</text>
+
+<path d="M318 240 L464 240" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="330" y="228" font-size="14" font-weight="700" fill="#1d2a3a">출발지 비용</text>
+<path d="M928 236 L776 236" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#ao)"/>
+<text x="790" y="226" font-size="14" font-weight="700" fill="#e4572e">R/O(지정)</text>
+<path d="M1366 240 L1240 240" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="1250" y="228" font-size="14" font-weight="700" fill="#1d2a3a">해상운임</text>
+<text x="1250" y="262" font-size="13" font-weight="600" fill="#5f6b78">(Collect)</text>
+
+<rect x="700" y="356" width="300" height="62" rx="10" fill="#f4f6f8" stroke="#5f6b78" stroke-width="2"/>
+<text x="722" y="384" font-size="17" font-weight="800" fill="#1d2a3a">선사(Master B/L)</text>
+<text x="722" y="408" font-size="14" font-weight="500" fill="#5f6b78">Master 운임 지급인은 조건에 따름</text>
+<path d="M620 302 L700 372" stroke="#5f6b78" stroke-width="2" stroke-dasharray="6 5" fill="none" marker-end="url(#ar)"/>
+<path d="M1084 302 L1004 372" stroke="#5f6b78" stroke-width="2" stroke-dasharray="6 5" fill="none" marker-end="url(#ar)"/>
+<text x="350" y="380" font-size="14" font-weight="600" fill="#5f6b78">Master Prepaid면</text>
+<text x="350" y="400" font-size="14" font-weight="600" fill="#5f6b78">한국 포워더가 지급</text>
+<text x="1040" y="380" font-size="14" font-weight="600" fill="#5f6b78">Master Collect면</text>
+<text x="1040" y="400" font-size="14" font-weight="600" fill="#5f6b78">해외 파트너가 지급</text>
+
+<rect x="68" y="432" width="1534" height="50" rx="10" fill="#eef4fb" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="88" y="464" font-size="16" font-weight="700" fill="#1d2a3a">SOA에서 한국 포워더가 받을 것: 건당 핸들링 피, 대신 낸 비용(Master Prepaid면 선사 운임). 이익 배분은 따로 약정한 경우에만</text>
+
+<!-- Lane B -->
+<rect x="48" y="512" width="1574" height="384" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="546" font-size="20" font-weight="800" fill="#1f8a5b">B. 프리핸드(자체 영업) 화물: 예) 한국 수출자가 CFR·CIF로 팔고, 운임은 출발지에서 받음(Prepaid)</text>
+<text x="68" y="574" font-size="16" font-weight="600" fill="#1d2a3a">고객 관계는 통상 한국 포워더가 관리합니다. 해외 파트너는 도착지 대리인으로 인도와 도착지 일을 합니다.</text>
+
+<rect x="68" y="600" width="250" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="88" y="636" font-size="18" font-weight="800" fill="#1d2a3a">수출자(한국)</text>
+<text x="88" y="666" font-size="15" font-weight="500" fill="#1d2a3a">운임 지급인</text>
+<rect x="470" y="600" width="300" height="96" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="3"/>
+<text x="490" y="636" font-size="18" font-weight="800" fill="#1f8a5b">한국 포워더</text>
+<text x="490" y="666" font-size="15" font-weight="500" fill="#1d2a3a">영업한 쪽(통상 고객 관리)</text>
+<rect x="934" y="600" width="300" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="954" y="636" font-size="18" font-weight="800" fill="#1d2a3a">해외 파트너</text>
+<text x="954" y="666" font-size="15" font-weight="500" fill="#1d2a3a">도착지 대리인</text>
+<rect x="1372" y="600" width="230" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="1392" y="636" font-size="18" font-weight="800" fill="#1d2a3a">수입자(해외)</text>
+<text x="1392" y="666" font-size="15" font-weight="500" fill="#1d2a3a">CFR·CIF 매수인</text>
+
+<path d="M318 634 L464 634" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="330" y="622" font-size="14" font-weight="700" fill="#1d2a3a">해상운임(Prepaid)</text>
+<text x="330" y="656" font-size="13" font-weight="600" fill="#5f6b78">+ 출발지 비용</text>
+<path d="M776 630 L928 630" stroke="#1f8a5b" stroke-width="2.5" fill="none" marker-end="url(#ag)"/>
+<text x="790" y="620" font-size="14" font-weight="700" fill="#1f8a5b">도착지 처리 의뢰</text>
+<path d="M1366 634 L1240 634" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="1250" y="622" font-size="14" font-weight="700" fill="#1d2a3a">도착지 비용</text>
+<text x="1250" y="656" font-size="13" font-weight="600" fill="#5f6b78">(D/O·로컬 차지)</text>
+
+<rect x="700" y="750" width="300" height="62" rx="10" fill="#f4f6f8" stroke="#5f6b78" stroke-width="2"/>
+<text x="722" y="778" font-size="17" font-weight="800" fill="#1d2a3a">선사(Master B/L)</text>
+<text x="722" y="802" font-size="14" font-weight="500" fill="#5f6b78">이 예에서는 Master도 Prepaid</text>
+<path d="M620 696 L700 766" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="350" y="770" font-size="14" font-weight="600" fill="#5f6b78">한국 포워더가 선사에</text>
+<text x="350" y="790" font-size="14" font-weight="600" fill="#5f6b78">Master 운임 지급</text>
+<path d="M1004 766 L1084 696" stroke="#5f6b78" stroke-width="2" stroke-dasharray="6 5" fill="none" marker-end="url(#ar)"/>
+<text x="1040" y="770" font-size="14" font-weight="600" fill="#5f6b78">선사가 Master 수하인인</text>
+<text x="1040" y="790" font-size="14" font-weight="600" fill="#5f6b78">파트너에게 화물 인도</text>
+
+<rect x="68" y="828" width="1534" height="50" rx="10" fill="#eef7f1" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="88" y="860" font-size="16" font-weight="700" fill="#1d2a3a">SOA에서 한국 포워더가 줄 것: 해외 파트너의 핸들링 피, 파트너가 대신 낸 비용, 약정한 이익 배분(있다면)</text>
+</svg>

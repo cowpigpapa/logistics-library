@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">미국 항로 서비스 계약(S/C) 한 건: 반드시 적는 것과 신고·정산의 흐름</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">46 CFR Part 530(2026. 10. 30. 기준 eCFR)을 요약했습니다. 괄호는 해당 조항이고, 실제 의무는 원문과 계약 문구가 정합니다.</text>
+
+<!-- left: required terms -->
+<rect x="48" y="120" width="600" height="680" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="68" y="158" font-size="19" font-weight="800" fill="#1f6fd1">계약서에 반드시 들어가는 것(530.8(b))</text>
+<text x="68" y="198" font-size="16" font-weight="500" fill="#1d2a3a">(1) 출발지 항만 범위, 복합운송이면 지역</text>
+<text x="68" y="230" font-size="16" font-weight="500" fill="#1d2a3a">(2) 도착지 항만 범위, 복합운송이면 지역</text>
+<text x="68" y="262" font-size="16" font-weight="500" fill="#1d2a3a">(3) 품목</text>
+<text x="68" y="294" font-size="16" font-weight="800" fill="#d9482b">(4) 최소 물량 또는 비율(MQC)</text>
+<text x="68" y="326" font-size="16" font-weight="800" fill="#d9482b">(5) 서비스 약속(공간 보장·운송 시간 등)</text>
+<text x="68" y="358" font-size="16" font-weight="500" fill="#1d2a3a">(6) 해상 구간 운임(line-haul rate)</text>
+<text x="68" y="390" font-size="16" font-weight="800" fill="#d9482b">(7) 불이행 때 손해배상예정액(있으면)</text>
+<text x="68" y="422" font-size="16" font-weight="500" fill="#1d2a3a">(8) 기간: 발효일과 만료일</text>
+<text x="68" y="454" font-size="16" font-weight="500" fill="#1d2a3a">(9) 당사자 법인명·주소, 계약을 쓸 수 있는</text>
+<text x="96" y="480" font-size="16" font-weight="500" fill="#1d2a3a">계열사, 서명자, 서명일</text>
+<text x="68" y="512" font-size="16" font-weight="500" fill="#1d2a3a">(10) 화주 지위 확인(화물 소유자, NVOCC 등)</text>
+<text x="68" y="544" font-size="16" font-weight="500" fill="#1d2a3a">(11) 보관할 선적 기록과 FMC 열람 담당자</text>
+<text x="68" y="576" font-size="16" font-weight="500" fill="#1d2a3a">(12) 그 밖의 모든 조항</text>
+<rect x="68" y="606" width="560" height="174" rx="10" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="86" y="638" font-size="16" font-weight="800" fill="#1d2a3a">문구의 확실성(530.8(c))</text>
+<text x="86" y="668" font-size="15" font-weight="500" fill="#1d2a3a">조건은 불확실하거나 모호하면 안 됩니다.</text>
+<text x="86" y="694" font-size="15" font-weight="500" fill="#1d2a3a">계약서 밖의 조건(운임표, 할증료 공지 등)을 끌어올</text>
+<text x="86" y="720" font-size="15" font-weight="500" fill="#1d2a3a">때는 당사자와 FMC가 쉽게 볼 수 있어야 합니다.</text>
+<text x="86" y="752" font-size="15" font-weight="700" fill="#1f6fd1">"할증료 별도"라면 어느 공지를 따르는지 적어 둡니다.</text>
+
+<!-- right: flow -->
+<rect x="690" y="120" width="934" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="710" y="152" font-size="18" font-weight="800" fill="#1d2a3a">① 서명과 발효</text>
+<text x="710" y="180" font-size="15" font-weight="500" fill="#1d2a3a">발효일은 모든 당사자가 서명한 날보다 앞설 수 없습니다(530.3(i)).</text>
+<text x="710" y="204" font-size="15" font-weight="500" fill="#1d2a3a">NVOCC가 화주로 서명하면 선사는 서명 전에 운임표 공표와 재정 보증 증빙을 받습니다(530.6(b)).</text>
+<path d="M1157 216 L1157 238" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="690" y="244" width="934" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="710" y="276" font-size="18" font-weight="800" fill="#1d2a3a">② 선사가 FMC에 신고</text>
+<text x="710" y="304" font-size="15" font-weight="500" fill="#1d2a3a">발효일 뒤 30일 이내에 전문과 수정본을 신고합니다(530.8(a)). 신고 의무는 선사 쪽입니다(530.5(a)).</text>
+<text x="710" y="328" font-size="15" font-weight="500" fill="#1d2a3a">신고된 계약은 법이 허용하는 한 비밀로 다뤄지고(530.4), 핵심 조건 요약의 공표 의무는 면제됩니다(530.13(e)).</text>
+<path d="M1157 340 L1157 362" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="690" y="368" width="934" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="710" y="400" font-size="18" font-weight="800" fill="#1d2a3a">③ 기간 중 선적</text>
+<text x="710" y="428" font-size="15" font-weight="500" fill="#1d2a3a">발효일 이후 운송인이 받은 화물부터 적용됩니다(530.14(a)).</text>
+<text x="710" y="452" font-size="15" font-weight="500" fill="#1d2a3a">변경은 양쪽이 합의한 수정 계약으로 하고, 수정은 앞으로만 효력이 있습니다(530.10(a)(1)·(b)).</text>
+<path d="M1157 464 L1157 486" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="890" y="492" width="534" height="56" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="3"/>
+<text x="1157" y="528" font-size="18" font-weight="800" fill="#e4572e" text-anchor="middle">④ 기간이 끝났을 때 MQC를 채웠나?</text>
+<path d="M890 520 L800 520 L800 580" stroke="#1f8a5b" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="820" y="510" font-size="16" font-weight="800" fill="#1f8a5b">예</text>
+<path d="M1424 520 L1500 520 L1500 580" stroke="#d9482b" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="1440" y="510" font-size="16" font-weight="800" fill="#d9482b">아니오</text>
+<rect x="690" y="586" width="420" height="214" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="710" y="620" font-size="18" font-weight="800" fill="#1f8a5b">계약대로 종료</text>
+<text x="710" y="650" font-size="15" font-weight="500" fill="#1d2a3a">선사는 서명 원본, 수정본, 관련 기록을</text>
+<text x="710" y="676" font-size="15" font-weight="500" fill="#1d2a3a">계약 종료일부터 5년 보관합니다(530.15(a)).</text>
+<text x="710" y="708" font-size="15" font-weight="500" fill="#1d2a3a">FMC가 서면으로 요청하면 30일 이내에</text>
+<text x="710" y="734" font-size="15" font-weight="500" fill="#1d2a3a">사본을 냅니다(530.15(c)).</text>
+<rect x="1130" y="586" width="494" height="214" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<text x="1150" y="620" font-size="18" font-weight="800" fill="#d9482b">미달 처리</text>
+<text x="1150" y="650" font-size="15" font-weight="500" fill="#1d2a3a">계약에 손해배상예정액이 있으면 그에 따라 정산합니다(530.10(e)(1)).</text>
+<text x="1150" y="680" font-size="15" font-weight="500" fill="#1d2a3a">계약이 예상하지 못한 화주의 MQC 미달은 "해제"로 보고,</text>
+<text x="1150" y="704" font-size="15" font-weight="500" fill="#1d2a3a">이행을 멈추고 이미 실은 화물을 운임표 운임으로 재산정</text>
+<text x="1150" y="728" font-size="15" font-weight="500" fill="#1d2a3a">합니다(530.10(a)(3)·(e)(2)). 운송인 때문에 못 실은 경우는 제외.</text>
+<text x="1150" y="760" font-size="15" font-weight="700" fill="#1d2a3a">정산·재산정은 30일 이내 FMC에 통지합니다(530.9).</text>
+
+<rect x="48" y="822" width="1576" height="76" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="854" font-size="16" font-weight="700" fill="#1d2a3a">적용 제외: 벌크 화물, 임산물, 재활용 고철, 조립 신차, 폐지는 법률상 서비스 계약 규정의 적용을 받지 않습니다(530.13(a)).</text>
+<text x="68" y="882" font-size="16" font-weight="500" fill="#1d2a3a">포워더(NVOCC)는 이 계약의 "화주"가 될 수 있습니다. 정의상 화주에는 모든 운임 지급 책임을 지는 NVOCC가 들어갑니다(530.3(r)).</text>
+</svg>

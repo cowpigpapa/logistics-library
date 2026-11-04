@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">포워더의 책임을 정하는 규칙들: 무엇이 먼저 적용되나</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">위 칸일수록 힘이 셉니다. 실제 결과는 계약서·약관 문구와 적용되는 법이 정합니다.</text>
+<path d="M78 756 L78 140" stroke="#5f6b78" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+<text x="62" y="470" font-size="17" font-weight="800" fill="#5f6b78" transform="rotate(-90 62 470)" text-anchor="middle">우선하는 쪽</text>
+<rect x="110" y="128" width="990" height="138" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="3"/>
+<text x="132" y="164" font-size="20" font-weight="800" fill="#d9482b">① 강행법규: 약정으로 비켜 갈 수 없는 규칙</text>
+<text x="132" y="196" font-size="17" font-weight="500" fill="#1d2a3a">포워더가 운송인이 되면: 상법 제799조(해상)·제903조(항공), 몬트리올 협약 제26조</text>
+<text x="132" y="224" font-size="17" font-weight="500" fill="#1d2a3a">약관이면: 약관규제법 제3조(명시·설명), 제6조·제7조(불공정 조항 무효)</text>
+<text x="132" y="252" font-size="15" font-weight="500" fill="#5f6b78">국제적으로 통용되는 운송업 약관은 제7조~제14조 적용 제외(시행령 제3조)</text>
+<rect x="110" y="282" width="990" height="104" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="132" y="318" font-size="20" font-weight="800" fill="#e4572e">② 개별 약정: 화주와 따로 합의한 조건</text>
+<text x="132" y="350" font-size="17" font-weight="500" fill="#1d2a3a">한도 상향·가액 신고 합의, 특별 지시 수락, 전액 배상 약정 등</text>
+<text x="132" y="374" font-size="15" font-weight="500" fill="#5f6b78">약관과 다르게 합의하면 그 합의가 약관보다 우선(약관규제법 제4조)</text>
+<rect x="110" y="402" width="485" height="236" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="132" y="438" font-size="20" font-weight="800" fill="#1f6fd1">③-1 운송서류 이면약관</text>
+<text x="132" y="470" font-size="17" font-weight="500" fill="#1d2a3a">House B/L·House AWB 뒷면 약관</text>
+<text x="132" y="498" font-size="17" font-weight="500" fill="#1d2a3a">포워더를 그 운송의 운송인으로 볼 주요 근거</text>
+<text x="132" y="526" font-size="17" font-weight="500" fill="#1d2a3a">한도·면책·제소기간·히말라야 조항</text>
+<text x="132" y="566" font-size="15" font-weight="600" fill="#5f6b78">예: FIATA FBL(1992) 약관</text>
+<text x="132" y="590" font-size="15" font-weight="600" fill="#5f6b78">적법한 B/L 권리자에게도 적용될 수 있음</text>
+<rect x="615" y="402" width="485" height="236" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="637" y="438" font-size="20" font-weight="800" fill="#1f6fd1">③-2 표준거래조건(STC)</text>
+<text x="637" y="470" font-size="17" font-weight="500" fill="#1d2a3a">견적·부킹·통관·보관·자문 등</text>
+<text x="637" y="498" font-size="17" font-weight="500" fill="#1d2a3a">모든 업무에 걸리는 기본 약관</text>
+<text x="637" y="526" font-size="17" font-weight="500" fill="#1d2a3a">계약에 편입되어야 효력</text>
+<text x="637" y="566" font-size="15" font-weight="600" fill="#5f6b78">예: FIATA 모델 규칙, BIFA·CIFFA STC</text>
+<text x="637" y="590" font-size="15" font-weight="600" fill="#5f6b78">상대는 계약한 고객</text>
+<rect x="110" y="654" width="990" height="104" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="132" y="690" font-size="20" font-weight="800" fill="#5f6b78">④ 상법의 기본 규정: 약정이 없을 때 채우는 규칙</text>
+<text x="132" y="722" font-size="17" font-weight="500" fill="#1d2a3a">운송주선인 제114조~제124조: 과실 추정 책임(제115조), 1년 시효(제121조), 고가물(제124조·제136조)</text>
+<text x="132" y="746" font-size="15" font-weight="500" fill="#5f6b78">약관이 편입되지 않으면 결국 이 칸만 남습니다</text>
+<rect x="1130" y="128" width="490" height="630" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1154" y="166" font-size="20" font-weight="800" fill="#1d2a3a">③-1과 ③-2가 부딪치면</text>
+<text x="1154" y="200" font-size="16" font-weight="500" fill="#1d2a3a">어느 쪽이 이기는지는 약관 문구가</text>
+<text x="1154" y="226" font-size="16" font-weight="500" fill="#1d2a3a">정합니다.</text>
+<text x="1154" y="268" font-size="16" font-weight="800" fill="#1f6fd1">CIFFA STC 제5조</text>
+<text x="1154" y="294" font-size="16" font-weight="500" fill="#1d2a3a">운송서류를 발행하면 서류의 특별</text>
+<text x="1154" y="320" font-size="16" font-weight="500" fill="#1d2a3a">조건이 STC보다 우선</text>
+<text x="1154" y="362" font-size="16" font-weight="800" fill="#1f6fd1">FIATA 모델 규칙 제1.2조</text>
+<text x="1154" y="388" font-size="16" font-weight="500" fill="#1d2a3a">모델 규칙이 다른 조건보다 우선.</text>
+<text x="1154" y="414" font-size="16" font-weight="500" fill="#1d2a3a">다만 포워더 책임을 늘리는 조건은</text>
+<text x="1154" y="440" font-size="16" font-weight="500" fill="#1d2a3a">그쪽이 우선</text>
+<text x="1154" y="490" font-size="20" font-weight="800" fill="#1d2a3a">강행법규에 어긋나면</text>
+<text x="1154" y="524" font-size="16" font-weight="500" fill="#1d2a3a">그 범위에서 효력을 잃습니다. 나머지가</text>
+<text x="1154" y="550" font-size="16" font-weight="500" fill="#1d2a3a">남는지는 분리 조항과 준거법으로 확인</text>
+<text x="1154" y="576" font-size="16" font-weight="500" fill="#1d2a3a">(FIATA 모델 규칙 제20조, FBL 제7.1조)</text>
+<text x="1154" y="626" font-size="20" font-weight="800" fill="#1d2a3a">약관이 아닌 것</text>
+<text x="1154" y="660" font-size="16" font-weight="500" fill="#1d2a3a">한 고객과 하나하나 협상한 계약</text>
+<text x="1154" y="686" font-size="16" font-weight="500" fill="#1d2a3a">조항은 약관규제법의 약관이 아님</text>
+<text x="1154" y="712" font-size="16" font-weight="500" fill="#1d2a3a">(제2조: 여러 상대방과 계약하려고</text>
+<text x="1154" y="738" font-size="16" font-weight="500" fill="#1d2a3a">미리 마련한 계약 내용)</text>
+<rect x="48" y="790" width="1572" height="104" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="826" font-size="18" font-weight="800" fill="#1d2a3a">예</text>
+<text x="108" y="826" font-size="17" font-weight="500" fill="#1d2a3a">STC에 kg당 2 SDR 한도가 있어도, 포워더가 House AWB로 국제 항공운송을 인수했다면 그 운송에는</text>
+<text x="108" y="856" font-size="17" font-weight="500" fill="#1d2a3a">몬트리올 협약 한도가 적용되고 더 낮은 약정은 무효입니다. 같은 포워더가 따로 맡은 통관·보관 업무에는 STC가 그대로 적용됩니다.</text>
+</svg>

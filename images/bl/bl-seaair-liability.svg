@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d9482b"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">구간이 바뀌면 한도와 기한이 바뀐다: 가상 숫자로 본 Sea &amp; Air 손해</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">숫자는 모두 가상 예시입니다. 실제 한도는 B/L·AWB에 적힌 포장 수, 가액 신고, 적용 법과 약관에 따라 달라집니다.</text>
+<rect x="48" y="118" width="790" height="430" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="154" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">가상 계산: 총중량 1,000kg 화물의 화물 손해 한도</text>
+<text x="68" y="182" font-size="14" font-weight="500" fill="#5f6b78" text-anchor="start">해상: 포장당 666.67 SDR(특별인출권)과 kg당 2 SDR 중 큰 금액(상법 제797조) · 항공: kg당 26 SDR(몬트리올 협약)</text>
+<text x="68" y="222" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">해상, B/L에 팔레트 2개로 적힘</text>
+<rect x="68" y="234" width="17" height="30" rx="4" fill="#1f6fd1" opacity="0.85"/>
+<text x="97" y="256" font-size="16" font-weight="800" fill="#1f6fd1" text-anchor="start">2,000 SDR</text>
+<text x="68" y="290" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">2 × 666.67 = 약 1,333 / 1,000 × 2 = 2,000 → 2,000 SDR</text>
+<text x="68" y="330" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">항공(포장 수와 관계없음)</text>
+<rect x="68" y="342" width="218" height="30" rx="4" fill="#e4572e" opacity="0.85"/>
+<text x="298" y="364" font-size="16" font-weight="800" fill="#e4572e" text-anchor="start">26,000 SDR</text>
+<text x="68" y="398" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">1,000 × 26 = 26,000 SDR</text>
+<text x="68" y="438" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">해상, B/L에 상자 100개로 적힘</text>
+<rect x="68" y="450" width="560" height="30" rx="4" fill="#1f6fd1" opacity="0.85"/>
+<text x="640" y="472" font-size="16" font-weight="800" fill="#1f6fd1" text-anchor="start">66,667 SDR</text>
+<text x="68" y="506" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">100 × 666.67 = 약 66,667 SDR → 66,667 SDR</text>
+<text x="68" y="532" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">한도가 높은 구간을 주장하는 쪽이 그 구간에서 났다는 기록을 내야 합니다.</text>
+<rect x="862" y="118" width="758" height="430" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="882" y="154" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">통지와 소송 기한</text>
+<text x="1090" y="196" font-size="16" font-weight="800" fill="#1f6fd1" text-anchor="start">해상 구간(상법)</text>
+<text x="1370" y="196" font-size="16" font-weight="800" fill="#e4572e" text-anchor="start">항공 구간(협약)</text>
+<line x1="882" y1="210" x2="1600" y2="210" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="882" y="244" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">훼손 통지</text>
+<text x="1090" y="244" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">수령 후 지체 없이,</text>
+<text x="1370" y="244" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">발견 즉시, 늦어도</text>
+<text x="882" y="272" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start"></text>
+<text x="1090" y="272" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">즉시 발견 못하면 3일 안 서면</text>
+<text x="1370" y="272" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">수령일부터 14일 안 서면</text>
+<line x1="882" y1="286" x2="1600" y2="286" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="882" y="320" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">지연 이의</text>
+<text x="1090" y="320" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">B/L 약관과 법이 정함</text>
+<text x="1370" y="320" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">처분 가능일부터 21일</text>
+<line x1="882" y1="334" x2="1600" y2="334" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="882" y="368" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">통지가 없으면</text>
+<text x="1090" y="368" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">손해 없이 인도된 것으로 추정</text>
+<text x="1370" y="368" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">사기 외에는 소송 불가</text>
+<line x1="882" y1="382" x2="1600" y2="382" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="882" y="416" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">소송 기한</text>
+<text x="1090" y="416" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">1년 안에 재판상 청구</text>
+<text x="1370" y="416" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">2년 안에 소송</text>
+<line x1="882" y1="430" x2="1600" y2="430" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="882" y="464" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">근거</text>
+<text x="1090" y="464" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">제804조·제814조</text>
+<text x="1370" y="464" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">제31조·제35조</text>
+<rect x="48" y="570" width="1572" height="328" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="68" y="606" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">한 포워더가 전 구간을 맡은 복합운송(한국법이 적용될 때): 상법 제816조</text>
+<rect x="68" y="630" width="330" height="110" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="88" y="666" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">손해가 난 구간을</text>
+<text x="88" y="696" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">기록으로 가릴 수 있는가</text>
+<rect x="500" y="630" width="500" height="110" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="520" y="666" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="start">예 → 그 구간에 적용될 법(제1항)</text>
+<text x="520" y="698" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">해상이면 해상법 한도, 항공이면 협약 한도</text>
+<rect x="500" y="762" width="500" height="116" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="520" y="796" font-size="16" font-weight="800" fill="#e4572e" text-anchor="start">아니오 → 운송거리가 가장 긴 구간의 법(제2항)</text>
+<text x="520" y="824" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">거리가 같거나 정할 수 없으면</text>
+<text x="520" y="852" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">운임이 가장 비싼 구간의 법</text>
+<path d="M398 672 L494 672" stroke="#1f8a5b" stroke-width="2.5" fill="none" marker-end="url(#arg)"/>
+<path d="M233 740 L233 820 L494 820" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+<rect x="1070" y="630" width="530" height="248" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1090" y="666" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">가상 거리로 보면</text>
+<text x="1090" y="696" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">해상: 출발국 항구 → 한국 항구 약 400km</text>
+<text x="1090" y="726" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">항공: 인천 → 목적지 공항 약 8,500km</text>
+<text x="1090" y="756" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">→ 구간 불명 손해에는 항공 구간에</text>
+<text x="1090" y="786" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">적용되는 법이 기준이 됨</text>
+<text x="1090" y="816" font-size="16" font-weight="700" fill="#e4572e" text-anchor="start">하선·트럭 인계·창고 반입·빌드업 때마다</text>
+<text x="1090" y="846" font-size="16" font-weight="700" fill="#e4572e" text-anchor="start">이상 보고를 받아 구간 입증 자료를 남깁니다.</text>
+</svg>

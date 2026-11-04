@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="ard" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d9482b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">히말라야 조항: 하청 운송인·터미널·창고가 포워더 약관의 한도를 쓰는 구조</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">포워더가 House B/L로 운송을 인수한 경우를 그렸습니다. 화주와 계약한 상대는 포워더뿐이고, 하청업자와 화주 사이에는 계약이 없습니다.</text>
+<rect x="48" y="300" width="270" height="130" rx="12" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="183" y="346" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주</text>
+<text x="183" y="378" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">송하인·수하인·</text>
+<text x="183" y="400" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">House B/L 소지인</text>
+<rect x="490" y="128" width="460" height="130" rx="12" fill="#eef4fb" stroke="#1f6fd1" stroke-width="3"/>
+<text x="720" y="166" font-size="21" font-weight="800" fill="#1f6fd1" text-anchor="middle">포워더</text>
+<text x="720" y="194" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">House B/L 발행과 운송 책임 인수는</text>
+<text x="720" y="216" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">화주에 대한 운송인 지위의 주요 근거</text>
+<text x="720" y="242" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">STC는 통관·보관 등 다른 업무에</text>
+<path d="M183 300 L183 188 L482 188" stroke="#1f6fd1" stroke-width="3" fill="none" marker-end="url(#ab)"/>
+<text x="200" y="152" font-size="15" font-weight="800" fill="#1f6fd1">운송계약</text>
+<text x="200" y="174" font-size="14" font-weight="600" fill="#1d2a3a">House B/L 약관·STC(한도·제소기간)</text>
+<rect x="1214" y="108" width="420" height="388" rx="12" fill="none" stroke="#d9482b" stroke-width="2" stroke-dasharray="8 6"/>
+<rect x="1240" y="120" width="380" height="80" rx="10" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1262" y="154" font-size="18" font-weight="800" fill="#1d2a3a">선사(실제운송인)</text>
+<text x="1262" y="182" font-size="15" font-weight="500" fill="#5f6b78">Master B/L, 송하인은 포워더</text>
+<rect x="1240" y="214" width="380" height="80" rx="10" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1262" y="248" font-size="18" font-weight="800" fill="#1d2a3a">터미널·하역업자</text>
+<text x="1262" y="276" font-size="15" font-weight="500" fill="#5f6b78">독립 계약자</text>
+<rect x="1240" y="308" width="380" height="80" rx="10" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1262" y="342" font-size="18" font-weight="800" fill="#1d2a3a">보세창고·CFS</text>
+<text x="1262" y="370" font-size="15" font-weight="500" fill="#5f6b78">독립 계약자</text>
+<rect x="1240" y="402" width="380" height="80" rx="10" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1262" y="436" font-size="18" font-weight="800" fill="#1d2a3a">트럭 운송사</text>
+<text x="1262" y="464" font-size="15" font-weight="500" fill="#5f6b78">내륙 구간 하청</text>
+<path d="M950 160 L1232 160" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ag)"/>
+<path d="M1150 160 L1150 442 L1232 442" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ag)"/>
+<path d="M1150 254 L1232 254" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ag)"/>
+<path d="M1150 348 L1232 348" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ag)"/>
+<text x="964" y="148" font-size="15" font-weight="800" fill="#5f6b78">하청 계약</text>
+<text x="1160" y="296" font-size="14" font-weight="600" fill="#5f6b78">각자의</text>
+<text x="1160" y="316" font-size="14" font-weight="600" fill="#5f6b78">약관</text>
+<path d="M318 400 L1100 400" stroke="#d9482b" stroke-width="3" stroke-dasharray="10 7" fill="none"/>
+<text x="340" y="388" font-size="15" font-weight="800" fill="#d9482b">화주가 하청업자에게 직접 청구(불법행위 등)</text>
+<rect x="520" y="420" width="560" height="148" rx="12" fill="#fdf1ec" stroke="#d9482b" stroke-width="2.5"/>
+<text x="544" y="456" font-size="19" font-weight="800" fill="#d9482b">방패: House B/L의 히말라야 조항</text>
+<text x="544" y="488" font-size="16" font-weight="500" fill="#1d2a3a">포워더의 사용인·대리인·하청업자(독립 계약자 포함)도</text>
+<text x="544" y="514" font-size="16" font-weight="500" fill="#1d2a3a">포워더가 가진 항변·책임 한도를 쓸 수 있게 함</text>
+<text x="544" y="546" font-size="14" font-weight="600" fill="#5f6b78">FIATA FBL 제10조, FIATA 모델 규칙 제12조, CIFFA STC 제3조</text>
+<path d="M1100 400 L1206 400" stroke="#d9482b" stroke-width="3" stroke-dasharray="10 7" fill="none" marker-end="url(#ard)"/>
+<rect x="48" y="604" width="500" height="290" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="70" y="640" font-size="18" font-weight="800" fill="#1f8a5b">법이 주는 보호(한국 상법 해상편)</text>
+<text x="70" y="672" font-size="15" font-weight="500" fill="#1d2a3a">운송인의 사용인·대리인, 실제운송인과 그</text>
+<text x="70" y="696" font-size="15" font-weight="500" fill="#1d2a3a">사용인·대리인은 약관이 없어도 운송인의</text>
+<text x="70" y="720" font-size="15" font-weight="500" fill="#1d2a3a">항변·한도를 원용(제798조 제2항·제4항)</text>
+<text x="70" y="756" font-size="15" font-weight="500" fill="#1d2a3a">운송인의 지휘·감독 없이 자기 사업을 하는</text>
+<text x="70" y="780" font-size="15" font-weight="500" fill="#1d2a3a">독립 계약자(터미널 운영업자 등)는 여기에</text>
+<text x="70" y="804" font-size="15" font-weight="500" fill="#1d2a3a">들지 않음(대법원 2007다4943)</text>
+<rect x="584" y="604" width="500" height="290" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="606" y="640" font-size="18" font-weight="800" fill="#1f6fd1">약관이 주는 보호</text>
+<text x="606" y="672" font-size="15" font-weight="500" fill="#1d2a3a">독립 계약자도 B/L 뒷면 히말라야 조항이</text>
+<text x="606" y="696" font-size="15" font-weight="500" fill="#1d2a3a">있으면 운송인의 책임제한을 원용할 수 있고,</text>
+<text x="606" y="720" font-size="15" font-weight="500" fill="#1d2a3a">이 조항은 약관규제법 제6조로 무효가 아님</text>
+<text x="606" y="744" font-size="15" font-weight="500" fill="#1d2a3a">(대법원 2007다4943)</text>
+<text x="606" y="780" font-size="15" font-weight="500" fill="#1d2a3a">해상화물운송장이 편입한 선사 B/L 약관의</text>
+<text x="606" y="804" font-size="15" font-weight="500" fill="#1d2a3a">1년 제소기간을 터미널이 원용한 하급심</text>
+<text x="606" y="828" font-size="15" font-weight="500" fill="#1d2a3a">(서울고등법원 2022나2021376)</text>
+<rect x="1120" y="604" width="500" height="290" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1142" y="640" font-size="18" font-weight="800" fill="#5f6b78">한계</text>
+<text x="1142" y="672" font-size="15" font-weight="500" fill="#1d2a3a">포워더와 하청업자에게서 받는 금액의 합계는</text>
+<text x="1142" y="696" font-size="15" font-weight="500" fill="#1d2a3a">약관 한도를 넘지 않음(FBL 제10.4조,</text>
+<text x="1142" y="720" font-size="15" font-weight="500" fill="#1d2a3a">상법 제798조 제3항은 법정 한도 기준)</text>
+<text x="1142" y="756" font-size="15" font-weight="500" fill="#1d2a3a">손해를 낼 의도나 무모한 행위로 생긴</text>
+<text x="1142" y="780" font-size="15" font-weight="500" fill="#1d2a3a">손해에는 보호 없음(FBL 제10.3조,</text>
+<text x="1142" y="804" font-size="15" font-weight="500" fill="#1d2a3a">상법 제798조 제2항 단서)</text>
+<text x="1142" y="840" font-size="15" font-weight="500" fill="#1d2a3a">BIFA STC 제19조는 임직원에게 청구하지</text>
+<text x="1142" y="864" font-size="15" font-weight="500" fill="#1d2a3a">않기로 고객이 약속하는 방식</text>
+</svg>

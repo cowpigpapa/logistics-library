@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">같은 한도·제소기간 조항이라도 포워더가 선 자리에 따라 효력이 달라집니다</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">한국법이 적용되는 경우를 단순화했습니다. 어느 자리인지는 서류 명의, 운임 방식, 실제 업무를 종합해 법원이 판단합니다(대법원 2007다4943).</text>
+<rect x="610" y="122" width="452" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="836" y="160" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">약관의 책임 한도·면책·제소기간 조항</text>
+<text x="836" y="192" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">이 거래에서 포워더는 어느 자리인가</text>
+<path d="M720 218 L720 250 L420 250 L420 276" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M952 218 L952 250 L1252 250 L1252 276" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="48" y="282" width="760" height="470" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="72" y="320" font-size="21" font-weight="800" fill="#1f6fd1">A. 운송주선인(주선만 맡음)</text>
+<text x="72" y="350" font-size="16" font-weight="500" fill="#5f6b78">운송서류는 선사·항공사 명의, 포워더는 운송인을 골라 계약을 주선</text>
+<text x="72" y="392" font-size="17" font-weight="800" fill="#1d2a3a">상법</text>
+<text x="72" y="420" font-size="17" font-weight="500" fill="#1d2a3a">제115조 과실 추정 책임, 제121조 1년 소멸시효.</text>
+<text x="72" y="448" font-size="17" font-weight="500" fill="#1d2a3a">운송주선인 장에는 책임경감 금지 조항이 없음</text>
+<text x="72" y="490" font-size="17" font-weight="800" fill="#1d2a3a">약관이 효력을 가지려면(약관규제법)</text>
+<text x="72" y="520" font-size="17" font-weight="500" fill="#1d2a3a">① 편입: 제3조 명시·설명. 어기면 계약 내용으로 주장 못 함</text>
+<text x="72" y="548" font-size="17" font-weight="500" fill="#1d2a3a">② 내용: 제6조 공정성, 제7조 고의·중과실 면책 무효,</text>
+<text x="96" y="574" font-size="17" font-weight="500" fill="#1d2a3a">상당한 이유 없는 배상 범위 제한 무효</text>
+<text x="72" y="602" font-size="17" font-weight="500" fill="#1d2a3a">③ 예외: 국제적으로 통용되는 운송업 약관은 제7조~제14조</text>
+<text x="96" y="628" font-size="17" font-weight="500" fill="#1d2a3a">적용 없음(시행령 제3조), 대법원은 제6조도 배제(98다9038)</text>
+<rect x="72" y="652" width="712" height="76" rx="10" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.2"/>
+<text x="90" y="684" font-size="15" font-weight="600" fill="#1d2a3a">포워더 STC가 ③의 "국제적으로 통용되는 운송업" 약관에</text>
+<text x="90" y="710" font-size="15" font-weight="600" fill="#1d2a3a">해당하는지는 이번 조사에서 판례로 확인하지 못했습니다.</text>
+<rect x="864" y="282" width="760" height="470" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="3"/>
+<text x="888" y="320" font-size="21" font-weight="800" fill="#1f8a5b">B. 운송인(House B/L·House AWB로 운송 인수)</text>
+<text x="888" y="350" font-size="16" font-weight="500" fill="#5f6b78">자기 이름의 운송서류, 확정 운임, 전 구간 책임 인수</text>
+<text x="888" y="392" font-size="17" font-weight="800" fill="#1d2a3a">해상 구간</text>
+<text x="888" y="420" font-size="17" font-weight="500" fill="#1d2a3a">상법 제797조보다 낮은 한도는 무효(제799조 제1항).</text>
+<text x="888" y="448" font-size="17" font-weight="500" fill="#1d2a3a">1년 제척기간(제814조)은 합의로 늘릴 수만 있음</text>
+<text x="888" y="490" font-size="17" font-weight="800" fill="#1d2a3a">항공 구간</text>
+<text x="888" y="518" font-size="17" font-weight="500" fill="#1d2a3a">몬트리올 협약 제26조, 상법 제903조:</text>
+<text x="888" y="546" font-size="17" font-weight="500" fill="#1d2a3a">책임을 줄이거나 한도를 낮게 정한 조항은 무효</text>
+<text x="888" y="588" font-size="17" font-weight="800" fill="#1d2a3a">육상 구간에서 난 것이 분명한 손해</text>
+<text x="888" y="616" font-size="17" font-weight="500" fill="#1d2a3a">1년 시효(제147조·제121조)는 합의로 줄일 수 있어</text>
+<text x="888" y="644" font-size="17" font-weight="500" fill="#1d2a3a">복합운송증권의 9개월 제소기간이 유효(2008다58978)</text>
+<rect x="888" y="668" width="712" height="60" rx="10" fill="#eefaf3" stroke="#c9d2dc" stroke-width="1.2"/>
+<text x="906" y="704" font-size="15" font-weight="600" fill="#1d2a3a">이 구간에서도 STC는 통관·보관 같은 다른 업무에 그대로 남습니다.</text>
+<rect x="48" y="776" width="1576" height="118" rx="12" fill="#fdf1ec" stroke="#d9482b" stroke-width="2"/>
+<text x="72" y="812" font-size="19" font-weight="800" fill="#d9482b">판례로 본 예</text>
+<text x="72" y="846" font-size="16" font-weight="500" fill="#1d2a3a">B: 자기 B/L에 kg당 2 SDR 한도를 둔 해상운송인, 상자 수로 센 상법 한도보다 낮아 그 조항은 무효(서울지방법원 1997. 3. 27. 선고 95가합109000 판결)</text>
+<text x="72" y="876" font-size="16" font-weight="500" fill="#1d2a3a">A: 도착지 운송주선인·국내 협력사로 본 포워더는 House B/L 약관이나 상법 제814조의 1년 기간을 내세우지 못함(대법원 2025. 8. 14. 선고 2024다270860 판결)</text>
+</svg>

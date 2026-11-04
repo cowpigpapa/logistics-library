@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d9482b"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">Sea &amp; Air 계약의 세 가지 짜임: 화주가 청구할 상대가 달라진다</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">화살표는 운송을 맡기는 쪽에서 맡는 쪽으로 향합니다. 서류 이름보다 누가 자기 이름으로 구간을 맡았는지가 책임을 정합니다.</text>
+<rect x="48" y="118" width="1572" height="204" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="162" font-size="30" font-weight="800" fill="#e4572e" text-anchor="start">A</text>
+<text x="68" y="194" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">구간별 따로 계약</text>
+<rect x="48" y="338" width="1572" height="204" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="382" font-size="30" font-weight="800" fill="#e4572e" text-anchor="start">B</text>
+<text x="68" y="414" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">한 포워더가 전 구간</text>
+<rect x="48" y="558" width="1572" height="204" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="602" font-size="30" font-weight="800" fill="#e4572e" text-anchor="start">C</text>
+<text x="68" y="634" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">항공 구간만 한국 포워더</text>
+<rect x="250" y="180" width="180" height="80" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="340.0" y="214.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주</text>
+<text x="340.0" y="240.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">(또는 대리인)</text>
+<rect x="560" y="134" width="320" height="76" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="720.0" y="166.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">해상 운송인</text>
+<text x="720.0" y="192.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">선사 또는 B/L 발행 포워더</text>
+<rect x="560" y="230" width="320" height="76" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="720.0" y="262.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공 운송인</text>
+<text x="720.0" y="288.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">항공사 또는 AWB 발행 포워더</text>
+<path d="M430 208 L554 172" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<text x="442" y="158" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="start">해상 B/L</text>
+<path d="M430 232 L554 268" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<text x="442" y="296" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="start">AWB</text>
+<rect x="250" y="400" width="180" height="80" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="340.0" y="446.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주</text>
+<rect x="560" y="400" width="320" height="80" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="720.0" y="434.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">포워더</text>
+<text x="720.0" y="460.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">복합운송인</text>
+<rect x="1010" y="354" width="230" height="76" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1125.0" y="386.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">선사</text>
+<text x="1125.0" y="412.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">B/L·입항 적재화물목록</text>
+<rect x="1010" y="450" width="230" height="76" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1125.0" y="482.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사</text>
+<text x="1125.0" y="508.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">인천 출발 Master AWB</text>
+<path d="M430 440 L554 440" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+<text x="492.0" y="428" font-size="15" font-weight="700" fill="#e4572e" text-anchor="middle">전 구간 계약</text>
+<path d="M880 428 L1004 392" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<text x="892" y="378" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="start">선사 B/L</text>
+<path d="M880 452 L1004 488" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<text x="892" y="516" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="start">Master AWB</text>
+<rect x="250" y="620" width="180" height="80" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="340.0" y="654.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주</text>
+<text x="340.0" y="680.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">(또는 대리인)</text>
+<rect x="560" y="574" width="320" height="76" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="720.0" y="606.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">출발국 쪽 계약자</text>
+<text x="720.0" y="632.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">해상 구간 B/L 발행</text>
+<rect x="560" y="670" width="320" height="76" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="720.0" y="702.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">한국 포워더</text>
+<text x="720.0" y="728.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">인천 출발 House AWB</text>
+<rect x="1010" y="574" width="230" height="76" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1125.0" y="606.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">선사</text>
+<text x="1125.0" y="632.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">실제 해상 운송</text>
+<rect x="1010" y="670" width="230" height="76" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1125.0" y="702.0" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">항공사</text>
+<text x="1125.0" y="728.0" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="middle">실제 항공 운송</text>
+<path d="M430 648 L554 612" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="442" y="598" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">해상 계약</text>
+<path d="M430 672 L554 708" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+<text x="442" y="736" font-size="15" font-weight="700" fill="#e4572e" text-anchor="start">항공 계약</text>
+<path d="M880 612 L1004 612" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<path d="M880 708 L1004 708" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<text x="942.0" y="696" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">Master AWB</text>
+<rect x="1268" y="134" width="336" height="172" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1286" y="168" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="start">화주에게 책임지는 사람</text>
+<text x="1286" y="202" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">구간마다 따로: 해상은 B/L 발행인,</text>
+<text x="1286" y="232" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">항공은 AWB 발행인</text>
+<text x="1286" y="262" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">두 서류의 품명·개수·중량이 맞아야 함</text>
+<rect x="1268" y="354" width="336" height="172" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1286" y="388" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="start">화주에게 책임지는 사람</text>
+<text x="1286" y="422" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">포워더 한 곳(복합운송인)</text>
+<text x="1286" y="452" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">계약은 하나여도 B/L·AWB는</text>
+<text x="1286" y="482" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">구간마다 따로, House AWB도 따로</text>
+<rect x="1268" y="574" width="336" height="172" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1286" y="608" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="start">화주에게 책임지는 사람</text>
+<text x="1286" y="642" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">해상: 출발국 쪽 계약 당사자</text>
+<text x="1286" y="672" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">항공: 한국 포워더</text>
+<text x="1286" y="702" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">인수 때 해상 구간 이상 기록을 받음</text>
+<rect x="48" y="778" width="1572" height="120" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="812" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">몬트리올 협약 제38조 제2항: 항공 운송 서류에 다른 운송 수단의 조건을 넣을 수 있지만, 협약은 항공 구간에만 적용됩니다(제38조 제1항).</text>
+<text x="68" y="842" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">제18조 제4항: 공항 밖 해상 운송은 항공운송 기간이 아닙니다. 항공운송계약 이행 중 적재·인도·환적 목적의 운송이면 항공운송 중 손해로 추정합니다(반증 가능).</text>
+<text x="68" y="872" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="start">포워더가 운송주선인인지 운송인인지는 자기 이름의 서류 발행, 확정 운임, 실제 수행 업무 등을 함께 보고 판단합니다.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">해외 파트너가 부도나거나 연락이 끊겼을 때: 화물 단계별로 먼저 할 일</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">한국 포워더가 출발지이고 해외 파트너가 도착지 대리인인 경우를 기준으로 단순화했습니다. 서류 변경 가능 여부는 선사·항공사 절차와 Master 서류 종류가 정합니다.</text>
+
+<rect x="48" y="122" width="1574" height="64" rx="12" fill="#fdecea" stroke="#d9482b" stroke-width="2.5"/>
+<text x="70" y="162" font-size="18" font-weight="800" fill="#d9482b">첫날: 신규 부킹 중지 · 진행 중 화물 목록(B/L·AWB별 단계, Master 수하인, 운임 조건, 미수·미지급) · 화주에게 사실 통지 · 새 도착지 대리인 후보 확인</text>
+
+<rect x="48" y="208" width="506" height="420" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="70" y="246" font-size="20" font-weight="800" fill="#1f6fd1">① 아직 출발 전</text>
+<text x="70" y="286" font-size="16" font-weight="700" fill="#1d2a3a">· Master 서류의 수하인·통지처를</text>
+<text x="88" y="312" font-size="16" font-weight="700" fill="#1d2a3a">새 도착지 대리인으로 바꿈</text>
+<text x="70" y="352" font-size="16" font-weight="500" fill="#1d2a3a">· House B/L의 도착지 대리인 칸을</text>
+<text x="88" y="378" font-size="16" font-weight="500" fill="#1d2a3a">발행 전에 고침</text>
+<text x="70" y="418" font-size="16" font-weight="500" fill="#1d2a3a">· Collect 화물은 화주와 운임 조건을</text>
+<text x="88" y="444" font-size="16" font-weight="500" fill="#1d2a3a">다시 정함(누가 어디서 받나)</text>
+<text x="70" y="484" font-size="16" font-weight="500" fill="#1d2a3a">· 파트너가 지정한 노미네이션 화물은</text>
+<text x="88" y="510" font-size="16" font-weight="500" fill="#1d2a3a">수입자에게 진행 여부를 직접 묻기</text>
+<text x="88" y="536" font-size="16" font-weight="500" fill="#1d2a3a">전에 계약상 비유인 조항을 확인</text>
+<text x="70" y="576" font-size="16" font-weight="700" fill="#1f6fd1">· 예방: 신용이 불안한 파트너 앞 화물은</text>
+<text x="88" y="602" font-size="16" font-weight="700" fill="#1f6fd1">Master를 원본 B/L로 발행해 통제권 유지</text>
+
+<rect x="582" y="208" width="506" height="420" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="604" y="246" font-size="20" font-weight="800" fill="#e4572e">② 운송 중</text>
+<text x="604" y="286" font-size="16" font-weight="700" fill="#1d2a3a">· Master 수하인이 파트너라면 변경에</text>
+<text x="622" y="312" font-size="16" font-weight="700" fill="#1d2a3a">동의서·원본 회수·보증 LOI 요구 가능</text>
+<text x="622" y="338" font-size="15" font-weight="500" fill="#5f6b78">Master B/L 원본을 가졌는지,</text>
+<text x="622" y="362" font-size="15" font-weight="500" fill="#5f6b78">SWB·서렌더인지에 따라 방법이 다름</text>
+<text x="604" y="418" font-size="16" font-weight="500" fill="#1d2a3a">· 파트너 앞 서렌더 통지와 이익 배분</text>
+<text x="622" y="444" font-size="16" font-weight="500" fill="#1d2a3a">송금을 멈출지 판단(선사 운임은 계약대로)</text>
+<text x="604" y="484" font-size="16" font-weight="500" fill="#1d2a3a">· 우리가 House B/L 발행인이면</text>
+<text x="622" y="510" font-size="16" font-weight="500" fill="#1d2a3a">수하인에 대한 인도 책임이 남을 수</text>
+<text x="622" y="536" font-size="16" font-weight="500" fill="#1d2a3a">있으므로 새 대리인을 정해 인도</text>
+
+<rect x="1116" y="208" width="506" height="420" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<text x="1138" y="246" font-size="20" font-weight="800" fill="#d9482b">③ 도착지에 와 있음</text>
+<text x="1138" y="286" font-size="16" font-weight="700" fill="#1d2a3a">· 화물이 어디에, 누구 이름으로</text>
+<text x="1156" y="312" font-size="16" font-weight="700" fill="#1d2a3a">있는지 확인(터미널·창고·D/O)</text>
+<text x="1138" y="352" font-size="16" font-weight="500" fill="#1d2a3a">· 파트너가 이미 D/O를 받았거나</text>
+<text x="1156" y="378" font-size="16" font-weight="500" fill="#1d2a3a">Collect 운임을 받았는지 확인</text>
+<text x="1138" y="418" font-size="16" font-weight="500" fill="#1d2a3a">· 보관료·Demurrage가 쌓이므로</text>
+<text x="1156" y="444" font-size="16" font-weight="500" fill="#1d2a3a">누가 비용을 먼저 낼지 화주와 정함</text>
+<text x="1138" y="484" font-size="16" font-weight="500" fill="#1d2a3a">· 파산관재인·청산인이 있으면</text>
+<text x="1156" y="510" font-size="16" font-weight="500" fill="#1d2a3a">그쪽과 인도 방법을 서면으로 정함</text>
+
+<rect x="48" y="650" width="774" height="244" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="70" y="688" font-size="19" font-weight="800" fill="#1d2a3a">미수 회수</text>
+<text x="70" y="726" font-size="16" font-weight="500" fill="#1d2a3a">· 마지막 SOA를 확정해 채권 신고 서류로 씀(B/L 번호별)</text>
+<text x="70" y="762" font-size="16" font-weight="500" fill="#1d2a3a">· 상계 범위는 도산 절차의 법이 정함. 한국 채무자회생법의 파산이면</text>
+<text x="88" y="788" font-size="16" font-weight="500" fill="#1d2a3a">선고 당시의 채무는 상계 가능(제416조), 선고 뒤에</text>
+<text x="88" y="814" font-size="16" font-weight="500" fill="#1d2a3a">진 채무는 상계 불가(제422조 제1호)</text>
+<text x="70" y="850" font-size="16" font-weight="500" fill="#1d2a3a">· 네트워크 규정 기한 안에 공식 분쟁 등록</text>
+
+<rect x="848" y="650" width="774" height="244" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="870" y="688" font-size="19" font-weight="800" fill="#1f8a5b">화주에 대한 책임</text>
+<text x="870" y="726" font-size="16" font-weight="500" fill="#1d2a3a">· 운송주선인은 다른 운송주선인의 선택에 주의를</text>
+<text x="888" y="752" font-size="16" font-weight="500" fill="#1d2a3a">다했음을 증명하지 못하면 배상 책임(상법 제115조)</text>
+<text x="870" y="788" font-size="16" font-weight="500" fill="#1d2a3a">· 먼저 House B/L 발행인과 견적·부킹 명의를 확인</text>
+<text x="870" y="824" font-size="16" font-weight="500" fill="#1d2a3a">· 파트너 선정 기록(신용·등록·보험 확인)을 남겨 둠</text>
+<text x="870" y="860" font-size="16" font-weight="500" fill="#1d2a3a">· 자사 배상책임보험사에 사고 가능성을 미리 알림</text>
+</svg>

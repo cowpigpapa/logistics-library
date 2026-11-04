@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d9482b"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">한국을 거치는 Sea &amp; Air: 구간마다 바뀌는 서류와 책임 규칙</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">중국 화물이 서해안 항구로 들어와 인천공항에서 항공으로 나가는 흐름을 단순화했습니다. 실제 서류와 책임은 계약 짜임과 약관이 정합니다.</text>
+<rect x="48" y="124" width="270" height="92" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="183.0" y="162" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">출발지 공장·물류센터</text>
+<text x="183.0" y="192" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">중국 등 출발국</text>
+<rect x="373" y="124" width="270" height="92" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="508.0" y="162" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">출발국 항구</text>
+<text x="508.0" y="192" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">집하 뒤 선적</text>
+<rect x="698" y="124" width="270" height="92" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="833.0" y="162" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">한국 도착 항구</text>
+<text x="833.0" y="192" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">군산·인천·평택항</text>
+<rect x="1023" y="124" width="270" height="92" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1158.0" y="162" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">공항 쪽 보세창고</text>
+<text x="1158.0" y="192" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">적출·팔레트·ULD 빌드업</text>
+<rect x="1348" y="124" width="270" height="92" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="1483.0" y="162" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">목적지 공항</text>
+<text x="1483.0" y="192" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">북미·유럽 등</text>
+<path d="M322 170 L367 170" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M647 170 L692 170" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<path d="M972 170 L1017 170" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+<path d="M1297 170 L1342 170" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<text x="48" y="262" font-size="16" font-weight="800" fill="#5f6b78" text-anchor="start">구간</text>
+<rect x="189.5" y="240" width="312" height="44" rx="12" fill="#eef4fb" stroke="#5f6b78" stroke-width="2"/>
+<text x="345.5" y="268" font-size="17" font-weight="800" fill="#5f6b78" text-anchor="middle">트럭</text>
+<rect x="514.5" y="240" width="312" height="44" rx="12" fill="#eef4fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="670.5" y="268" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">해상: 카페리(RORO)·컨테이너선</text>
+<rect x="839.5" y="240" width="312" height="44" rx="12" fill="#eef4fb" stroke="#e4572e" stroke-width="2"/>
+<text x="995.5" y="268" font-size="17" font-weight="800" fill="#e4572e" text-anchor="middle">복합환적 트럭(보세)</text>
+<rect x="1164.5" y="240" width="312" height="44" rx="12" fill="#eef4fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1320.5" y="268" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">항공(항공사 터미널에서 탑재)</text>
+<text x="48" y="326" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">서류</text>
+<rect x="189.5" y="340" width="312" height="128" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="207.5" y="374" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">출발국 국내 운송 서류</text>
+<text x="207.5" y="404" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">출발국 수출 통관</text>
+<rect x="514.5" y="340" width="312" height="128" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="532.5" y="374" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">해상 B/L 또는 SWB</text>
+<text x="532.5" y="404" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">한국 입항 적재화물목록</text>
+<text x="532.5" y="434" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">(House B/L 단위)</text>
+<rect x="839.5" y="340" width="312" height="128" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="857.5" y="374" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">적재화물목록에 보세운송인과</text>
+<text x="857.5" y="404" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">반출 예정지 보세구역 기재</text>
+<text x="857.5" y="434" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">하선신고일부터 7일 안에 운송</text>
+<rect x="1164.5" y="340" width="312" height="128" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="1182.5" y="374" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">Master AWB · House AWB</text>
+<text x="1182.5" y="404" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">출항 적재화물목록</text>
+<text x="1182.5" y="434" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">항공용 위험물 신고서·보안 서류</text>
+<text x="48" y="510" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">책임 규칙</text>
+<rect x="189.5" y="524" width="312" height="150" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="207.5" y="558" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">그 구간 운송 계약과</text>
+<text x="207.5" y="588" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">출발국 법</text>
+<rect x="514.5" y="524" width="312" height="150" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="532.5" y="558" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">B/L 약관과 해상법</text>
+<text x="532.5" y="588" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">포장당 666.67 SDR(특별인출권)</text>
+<text x="532.5" y="618" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">또는 kg당 2 SDR 중 큰 금액</text>
+<text x="532.5" y="648" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">통지 지체 없이·3일, 소송 1년</text>
+<rect x="839.5" y="524" width="312" height="150" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="857.5" y="558" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">누가 맡았는지에 따라 다름</text>
+<text x="857.5" y="588" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">항공 계약 이행 중 적재 목적이면</text>
+<text x="857.5" y="618" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">항공운송 중 손해로 추정</text>
+<text x="857.5" y="648" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">(협약 제18조 제4항)</text>
+<rect x="1164.5" y="524" width="312" height="150" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1182.5" y="558" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">몬트리올 협약</text>
+<text x="1182.5" y="588" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">kg당 26 SDR</text>
+<text x="1182.5" y="618" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">통지 14일(지연 21일)</text>
+<text x="1182.5" y="648" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">소송 2년</text>
+<rect x="48" y="700" width="1572" height="96" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="3"/>
+<text x="68" y="736" font-size="19" font-weight="800" fill="#e4572e" text-anchor="start">한 포워더가 전 구간을 맡았는데 손해 구간을 모르면</text>
+<text x="68" y="770" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">상법 제816조 제2항: 운송거리가 가장 긴 구간에 적용되는 법. 넘겨받을 때마다 이상 보고를 받아 손해 구간을 입증할 자료를 남깁니다.</text>
+<rect x="48" y="812" width="1572" height="86" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="846" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">2023년 인천공항 Sea &amp; Air 화물 98,560t: 출발지 99.6% 중국, 도착 항구 군산 40% · 인천 38% · 평택 22%, 최종 목적지 북미 47% · 유럽 31%(보도)</text>
+<text x="68" y="876" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">출처: 국토연구원 해설(2007), 경기일보(2024. 3. 13.)·경인일보(2026. 2. 3.) 보도, 환적화물 처리절차에 관한 특례고시 제6조·제8조, 몬트리올 협약 제18조·제22조·제31조·제35조</text>
+</svg>

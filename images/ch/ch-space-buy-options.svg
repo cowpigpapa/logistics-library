@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">선복을 사는 네 가지 방식: 누가 무엇을 약속하고, 쓰지 않으면 어떻게 되나</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">흔한 구조를 단순화했습니다. 실제 약속의 범위는 그 계약서와 부킹 조건의 문구가 정합니다.</text>
+
+<rect x="48" y="200" width="190" height="130" rx="10" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="66" y="256" font-size="17" font-weight="800" fill="#1d2a3a">포워더가</text>
+<text x="66" y="282" font-size="17" font-weight="800" fill="#1d2a3a">약속하는 것</text>
+<rect x="48" y="340" width="190" height="130" rx="10" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="66" y="396" font-size="17" font-weight="800" fill="#1d2a3a">운송인이</text>
+<text x="66" y="422" font-size="17" font-weight="800" fill="#1d2a3a">약속하는 것</text>
+<rect x="48" y="480" width="190" height="130" rx="10" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="66" y="536" font-size="17" font-weight="800" fill="#1d2a3a">쓰지 않았을 때</text>
+<text x="66" y="562" font-size="17" font-weight="800" fill="#1d2a3a">(노쇼·미달)</text>
+<rect x="48" y="620" width="190" height="96" rx="10" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="66" y="674" font-size="17" font-weight="800" fill="#1d2a3a">운임</text>
+
+<!-- card 1 spot -->
+<rect x="256" y="120" width="330" height="70" rx="12" fill="#5f6b78"/>
+<text x="274" y="152" font-size="20" font-weight="800" fill="#ffffff">스팟 부킹</text>
+<text x="274" y="177" font-size="15" font-weight="600" fill="#ffffff">해상·항공 공통, 건마다 부킹</text>
+
+<rect x="256" y="200" width="330" height="130" rx="10" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="272" y="236" font-size="15" font-weight="500" fill="#1d2a3a">부킹한 화물을 약속한 때와</text>
+<text x="272" y="262" font-size="15" font-weight="500" fill="#1d2a3a">곳에서 운송인에게 제공</text>
+<text x="272" y="288" font-size="15" font-weight="500" fill="#1d2a3a">(상법 제792조 제1항)</text>
+<rect x="256" y="340" width="330" height="130" rx="10" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="272" y="376" font-size="15" font-weight="500" fill="#1d2a3a">확인한 항차·편에 싣는 것이</text>
+<text x="272" y="402" font-size="15" font-weight="500" fill="#1d2a3a">원칙. 선박·일정 변경은</text>
+<text x="272" y="428" font-size="15" font-weight="500" fill="#1d2a3a">B/L·AWB 약관을 따름</text>
+<rect x="256" y="480" width="330" height="130" rx="10" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="272" y="516" font-size="15" font-weight="500" fill="#1d2a3a">취소 기한과 노쇼 요금은</text>
+<text x="272" y="542" font-size="15" font-weight="500" fill="#1d2a3a">부킹 조건이 정함. 상법의</text>
+<text x="272" y="568" font-size="15" font-weight="500" fill="#1d2a3a">기본값은 운임 전액</text>
+<text x="272" y="594" font-size="15" font-weight="500" fill="#1d2a3a">(상법 제792조 제2항)</text>
+<rect x="256" y="620" width="330" height="96" rx="10" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="272" y="656" font-size="15" font-weight="500" fill="#1d2a3a">그때의 시장 운임,</text>
+<text x="272" y="682" font-size="15" font-weight="500" fill="#1d2a3a">견적 유효기간 안에서만</text>
+
+<!-- card 2 long-term -->
+<rect x="602" y="120" width="330" height="70" rx="12" fill="#1f6fd1"/>
+<text x="620" y="152" font-size="20" font-weight="800" fill="#ffffff">장기 계약(서비스 계약)</text>
+<text x="620" y="177" font-size="15" font-weight="600" fill="#ffffff">해상 S/C, 한국의 장기운송계약</text>
+<rect x="602" y="200" width="330" height="130" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="618" y="236" font-size="15" font-weight="500" fill="#1d2a3a">계약 기간 동안 최소 물량</text>
+<text x="618" y="262" font-size="15" font-weight="500" fill="#1d2a3a">(MQC)을 싣기로 약속</text>
+<rect x="602" y="340" width="330" height="130" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="618" y="376" font-size="15" font-weight="500" fill="#1d2a3a">약정 운임(표)과 서비스 수준.</text>
+<text x="618" y="402" font-size="15" font-weight="500" fill="#1d2a3a">공간 보장·운송 시간은</text>
+<text x="618" y="428" font-size="15" font-weight="500" fill="#1d2a3a">계약서에 적은 만큼만</text>
+<rect x="602" y="480" width="330" height="130" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="618" y="516" font-size="15" font-weight="500" fill="#1d2a3a">MQC 미달분은 계약에 정한</text>
+<text x="618" y="542" font-size="15" font-weight="500" fill="#1d2a3a">손해배상예정액(있으면).</text>
+<text x="618" y="568" font-size="15" font-weight="500" fill="#1d2a3a">운송인이 못 실으면 MQC 감축</text>
+<text x="618" y="594" font-size="15" font-weight="500" fill="#1d2a3a">·기간 연장·해지(국내 표준계약)</text>
+<rect x="602" y="620" width="330" height="96" rx="10" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="618" y="656" font-size="15" font-weight="500" fill="#1d2a3a">약정 운임(표), 변경 조건은 계약서.</text>
+<text x="618" y="682" font-size="15" font-weight="500" fill="#1d2a3a">할증료 별도 문구를 확인</text>
+
+<!-- card 3 soft block -->
+<rect x="948" y="120" width="330" height="70" rx="12" fill="#1f8a5b"/>
+<text x="966" y="152" font-size="20" font-weight="800" fill="#ffffff">소프트 블록</text>
+<text x="966" y="177" font-size="15" font-weight="600" fill="#ffffff">항공, 정기 예약(Permanent Booking)</text>
+<rect x="948" y="200" width="330" height="130" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="964" y="236" font-size="15" font-weight="500" fill="#1d2a3a">정해진 편의 공간을 예약하고,</text>
+<text x="964" y="262" font-size="15" font-weight="500" fill="#1d2a3a">쓰지 않을 공간은 반납 시한</text>
+<text x="964" y="288" font-size="15" font-weight="500" fill="#1d2a3a">안에 돌려줌</text>
+<rect x="948" y="340" width="330" height="130" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="964" y="376" font-size="15" font-weight="500" fill="#1d2a3a">반납 시한까지 그 공간을</text>
+<text x="964" y="402" font-size="15" font-weight="500" fill="#1d2a3a">남겨 둠. 반납된 공간은</text>
+<text x="964" y="428" font-size="15" font-weight="500" fill="#1d2a3a">다른 화주에게 다시 판매</text>
+<rect x="948" y="480" width="330" height="130" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="964" y="516" font-size="15" font-weight="500" fill="#1d2a3a">반납 시한 안 반납분의 정산은</text>
+<text x="964" y="542" font-size="15" font-weight="500" fill="#1d2a3a">계약에 따름. 시한 뒤 반납·</text>
+<text x="964" y="568" font-size="15" font-weight="500" fill="#1d2a3a">노쇼는 취소 수수료</text>
+<text x="964" y="594" font-size="15" font-weight="500" fill="#1d2a3a">(계약에 있으면)</text>
+<rect x="948" y="620" width="330" height="96" rx="10" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="964" y="656" font-size="15" font-weight="500" fill="#1d2a3a">계약 단가. 사용률이 낮으면</text>
+<text x="964" y="682" font-size="15" font-weight="500" fill="#1d2a3a">다음 시즌 배정이 줄어듦</text>
+
+<!-- card 4 hard block -->
+<rect x="1294" y="120" width="330" height="70" rx="12" fill="#d9482b"/>
+<text x="1312" y="152" font-size="20" font-weight="800" fill="#ffffff">하드 블록</text>
+<text x="1312" y="177" font-size="15" font-weight="600" fill="#ffffff">항공 BSA, 공간을 미리 구매</text>
+<rect x="1294" y="200" width="330" height="130" rx="10" fill="#ffffff" stroke="#d9482b" stroke-width="2"/>
+<text x="1310" y="236" font-size="15" font-weight="500" fill="#1d2a3a">편마다 정한 ULD·중량·용적을</text>
+<text x="1310" y="262" font-size="15" font-weight="500" fill="#1d2a3a">계약 단가로 미리 사 둠</text>
+<rect x="1294" y="340" width="330" height="130" rx="10" fill="#ffffff" stroke="#d9482b" stroke-width="2"/>
+<text x="1310" y="376" font-size="15" font-weight="500" fill="#1d2a3a">그 편의 그 공간을 보장</text>
+<rect x="1294" y="480" width="330" height="130" rx="10" fill="#ffffff" stroke="#d9482b" stroke-width="2"/>
+<text x="1310" y="516" font-size="15" font-weight="500" fill="#1d2a3a">쓰지 않은 공간도 지급</text>
+<text x="1310" y="542" font-size="15" font-weight="500" fill="#1d2a3a">(최소 요금). 일부 계약은</text>
+<text x="1310" y="568" font-size="15" font-weight="500" fill="#1d2a3a">미사용분 일부를 돌려줌</text>
+<rect x="1294" y="620" width="330" height="96" rx="10" fill="#ffffff" stroke="#d9482b" stroke-width="2"/>
+<text x="1310" y="656" font-size="15" font-weight="500" fill="#1d2a3a">스팟보다 낮은 계약 단가.</text>
+<text x="1310" y="682" font-size="15" font-weight="500" fill="#1d2a3a">넘치는 물량은 스팟으로</text>
+
+<!-- spectrum -->
+<path d="M256 760 L1618 760" stroke="#5f6b78" stroke-width="3" fill="none" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="268" y="790" font-size="16" font-weight="800" fill="#5f6b78">유연함이 크고, 공간은 그때그때 불확실</text>
+<text x="1612" y="790" font-size="16" font-weight="800" fill="#d9482b" text-anchor="end">공간이 확실하고, 쓰지 않을 때의 부담이 큼</text>
+
+<rect x="48" y="812" width="1576" height="86" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="846" font-size="16" font-weight="700" fill="#1d2a3a">한국 해운법은 제28조 제1항 각 호의 운송사업자와 화주가 맺는 3개월 이상 장기운송계약에 운임·요금 우대조건, 최소 운송물량의 보장, 유류비 등 원재료 가격 상승에 따른 협의를 넣게 합니다(제29조의2 제2항).</text>
+<text x="68" y="876" font-size="16" font-weight="500" fill="#1d2a3a">미국 항로 서비스 계약은 최소 물량, 서비스 약속, 운임, 불이행 때 손해배상예정액(있으면)을 필수 기재 사항으로 둡니다(46 CFR 530.8(b)).</text>
+</svg>

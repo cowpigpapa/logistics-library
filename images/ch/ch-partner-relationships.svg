@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">포워더끼리 맺는 네 가지 관계와 계약서에서 먼저 볼 것</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">흔히 쓰이는 모양을 단순화했습니다. 실제 권리와 의무는 계약서 제목이 아니라 각 조항의 문구가 정합니다.</text>
+
+<rect x="48" y="128" width="380" height="580" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="48" y="128" width="380" height="64" rx="12" fill="#1f6fd1"/>
+<rect x="48" y="170" width="380" height="22" fill="#1f6fd1"/>
+<text x="68" y="170" font-size="21" font-weight="800" fill="#ffffff">① 상호 대리(비독점)</text>
+<text x="68" y="232" font-size="16" font-weight="800" fill="#1d2a3a">모양</text>
+<text x="68" y="262" font-size="16" font-weight="500" fill="#1d2a3a">각자 자기 나라에서 상대의</text>
+<text x="68" y="288" font-size="16" font-weight="500" fill="#1d2a3a">화물을 처리해 주는 계약</text>
+<text x="68" y="314" font-size="16" font-weight="500" fill="#1d2a3a">같은 지역에 다른 파트너를</text>
+<text x="68" y="340" font-size="16" font-weight="500" fill="#1d2a3a">둘 수 있음</text>
+<text x="68" y="384" font-size="16" font-weight="800" fill="#1d2a3a">화물</text>
+<text x="68" y="414" font-size="16" font-weight="500" fill="#1d2a3a">노미네이션·프리핸드 모두</text>
+<text x="68" y="458" font-size="16" font-weight="800" fill="#e4572e">먼저 볼 것</text>
+<text x="68" y="488" font-size="16" font-weight="500" fill="#1d2a3a">· 핸들링 피와 이익 배분(있다면)</text>
+<text x="68" y="514" font-size="16" font-weight="500" fill="#1d2a3a">· 정산 통화와 SOA 주기</text>
+<text x="68" y="540" font-size="16" font-weight="500" fill="#1d2a3a">· 신용 한도와 연체 때 조치</text>
+<text x="68" y="566" font-size="16" font-weight="500" fill="#1d2a3a">· 누구 이름으로 House B/L을</text>
+<text x="82" y="592" font-size="16" font-weight="500" fill="#1d2a3a">발행하는지</text>
+
+<rect x="446" y="128" width="380" height="580" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<rect x="446" y="128" width="380" height="64" rx="12" fill="#1f8a5b"/>
+<rect x="446" y="170" width="380" height="22" fill="#1f8a5b"/>
+<text x="466" y="170" font-size="21" font-weight="800" fill="#ffffff">② 독점 대리</text>
+<text x="466" y="232" font-size="16" font-weight="800" fill="#1d2a3a">모양</text>
+<text x="466" y="262" font-size="16" font-weight="500" fill="#1d2a3a">정한 지역·구간에서는 상대만</text>
+<text x="466" y="288" font-size="16" font-weight="500" fill="#1d2a3a">파트너로 씀. 쌍방 독점도,</text>
+<text x="466" y="314" font-size="16" font-weight="500" fill="#1d2a3a">한쪽만 독점도 있음</text>
+<text x="466" y="340" font-size="16" font-weight="500" fill="#1d2a3a">물량·성과 기준과 짝을 이룸</text>
+<text x="466" y="384" font-size="16" font-weight="800" fill="#1d2a3a">화물</text>
+<text x="466" y="414" font-size="16" font-weight="500" fill="#1d2a3a">범위 안의 모든 화물(예외 조항 확인)</text>
+<text x="466" y="458" font-size="16" font-weight="800" fill="#e4572e">먼저 볼 것</text>
+<text x="466" y="488" font-size="16" font-weight="500" fill="#1d2a3a">· 지역·구간·운송 수단의 범위</text>
+<text x="466" y="514" font-size="16" font-weight="500" fill="#1d2a3a">· 화주가 다른 포워더를 지정한</text>
+<text x="480" y="540" font-size="16" font-weight="500" fill="#1d2a3a">화물은 예외인지</text>
+<text x="466" y="566" font-size="16" font-weight="500" fill="#1d2a3a">· 성과 미달 때 독점 해제·해지</text>
+<text x="466" y="592" font-size="16" font-weight="500" fill="#1d2a3a">· 해지 예고 기간</text>
+
+<rect x="844" y="128" width="380" height="580" rx="12" fill="#ffffff" stroke="#7a4fc4" stroke-width="2.5"/>
+<rect x="844" y="128" width="380" height="64" rx="12" fill="#7a4fc4"/>
+<rect x="844" y="170" width="380" height="22" fill="#7a4fc4"/>
+<text x="864" y="170" font-size="21" font-weight="800" fill="#ffffff">③ 회원제 네트워크</text>
+<text x="864" y="232" font-size="16" font-weight="800" fill="#1d2a3a">모양</text>
+<text x="864" y="262" font-size="16" font-weight="500" fill="#1d2a3a">회비를 내고 가입한 회원끼리</text>
+<text x="864" y="288" font-size="16" font-weight="500" fill="#1d2a3a">파트너를 찾음. 회원 간 미수에</text>
+<text x="864" y="314" font-size="16" font-weight="500" fill="#1d2a3a">대한 결제 보호 제도를 두는</text>
+<text x="864" y="340" font-size="16" font-weight="500" fill="#1d2a3a">네트워크가 있음</text>
+<text x="864" y="384" font-size="16" font-weight="800" fill="#1d2a3a">화물</text>
+<text x="864" y="414" font-size="16" font-weight="500" fill="#1d2a3a">회원 사이 건별 거래가 많음</text>
+<text x="864" y="458" font-size="16" font-weight="800" fill="#e4572e">먼저 볼 것</text>
+<text x="864" y="488" font-size="16" font-weight="500" fill="#1d2a3a">· 거래 당시 상대 회원 자격 기록</text>
+<text x="864" y="514" font-size="16" font-weight="500" fill="#1d2a3a">· 연체 땐 규정 기한 안에 분쟁 등록</text>
+<text x="864" y="540" font-size="16" font-weight="500" fill="#1d2a3a">· 보호에서 빠지는 항목 확인</text>
+<text x="864" y="566" font-size="16" font-weight="500" fill="#1d2a3a">· 회원 자격은 양자 계약을</text>
+<text x="878" y="592" font-size="16" font-weight="500" fill="#1d2a3a">대신하지 않음</text>
+
+<rect x="1242" y="128" width="380" height="580" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<rect x="1242" y="128" width="380" height="64" rx="12" fill="#5f6b78"/>
+<rect x="1242" y="170" width="380" height="22" fill="#5f6b78"/>
+<text x="1262" y="170" font-size="21" font-weight="800" fill="#ffffff">④ 일회성 협력</text>
+<text x="1262" y="232" font-size="16" font-weight="800" fill="#1d2a3a">모양</text>
+<text x="1262" y="262" font-size="16" font-weight="500" fill="#1d2a3a">한 건이나 한 프로젝트만 함께</text>
+<text x="1262" y="288" font-size="16" font-weight="500" fill="#1d2a3a">처리. 견적과 부킹 확인 메일이</text>
+<text x="1262" y="314" font-size="16" font-weight="500" fill="#1d2a3a">사실상 계약서</text>
+<text x="1262" y="340" font-size="16" font-weight="500" fill="#1d2a3a">상대 신용 정보가 가장 적음</text>
+<text x="1262" y="384" font-size="16" font-weight="800" fill="#1d2a3a">화물</text>
+<text x="1262" y="414" font-size="16" font-weight="500" fill="#1d2a3a">특정 화주·특정 구간</text>
+<text x="1262" y="458" font-size="16" font-weight="800" fill="#e4572e">먼저 볼 것</text>
+<text x="1262" y="488" font-size="16" font-weight="500" fill="#1d2a3a">· 선지급이나 보증 여부</text>
+<text x="1262" y="514" font-size="16" font-weight="500" fill="#1d2a3a">· 정산 통화와 지급 기한</text>
+<text x="1262" y="540" font-size="16" font-weight="500" fill="#1d2a3a">· 메일에 적은 비유인 문구</text>
+<text x="1262" y="566" font-size="16" font-weight="500" fill="#1d2a3a">· 송금 계좌 명의(SOA·외환)</text>
+
+<rect x="48" y="730" width="1574" height="164" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="768" font-size="19" font-weight="800" fill="#1d2a3a">어느 관계든 계약서가 답해야 할 네 가지</text>
+<text x="68" y="806" font-size="16" font-weight="600" fill="#1d2a3a">1. 그 고객은 누구의 고객인가(노미네이션·프리핸드, 고객 비유인)</text>
+<text x="830" y="806" font-size="16" font-weight="600" fill="#1d2a3a">2. 돈은 언제, 어떤 통화로, 무엇을 빼고 나누나(SOA)</text>
+<text x="68" y="846" font-size="16" font-weight="600" fill="#1d2a3a">3. 늦게 내면 무엇을 멈출 수 있고 무엇은 멈출 수 없나</text>
+<text x="830" y="846" font-size="16" font-weight="600" fill="#1d2a3a">4. 끝나면 진행 중인 화물과 미정산은 어떻게 하나</text>
+<text x="68" y="880" font-size="15" font-weight="500" fill="#5f6b78">③의 결제 보호는 네트워크 규정이 정하는 제도라 보호 범위는 그 규정 문구가 정합니다.</text>
+</svg>

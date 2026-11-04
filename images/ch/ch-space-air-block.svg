@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#fbe9e4"/><line x1="0" y1="0" x2="0" y2="10" stroke="#d9482b" stroke-width="3"/></pattern>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">항공 블록 스페이스: ULD 단위 배정, 기준 중량, 반납 시한</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">흔한 구조를 단순화했습니다. 중량은 가상 숫자이고 금액은 싣지 않았습니다. 실제 조건은 그 블록 계약서와 항공사 요율이 정합니다.</text>
+
+<!-- Panel A: one ULD -->
+<rect x="48" y="118" width="520" height="400" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="68" y="152" font-size="19" font-weight="800" fill="#1f6fd1">블록 한 단위 = ULD 1개(팔레트·컨테이너)</text>
+<path d="M120 400 L120 236 L170 196 L420 196 L470 236 L470 400 Z" fill="#eef4fb" stroke="#1f6fd1" stroke-width="2.5" stroke-dasharray="7 5"/>
+<rect x="100" y="400" width="390" height="16" fill="#5f6b78"/>
+<text x="295" y="292" font-size="16" font-weight="800" fill="#1f6fd1" text-anchor="middle">컨투어(실을 수 있는 윤곽)</text>
+<text x="295" y="318" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="middle">이 안에 들어가는 부피만 실음</text>
+<text x="295" y="440" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="middle">팔레트 바닥(규격은 항공 팔레트 문서)</text>
+<text x="68" y="474" font-size="15" font-weight="700" fill="#1d2a3a">기준 중량(pivot weight)까지는 ULD 한 개에 정한 값,</text>
+<text x="68" y="500" font-size="15" font-weight="700" fill="#1d2a3a">넘는 무게는 kg마다 초과 중량 요율(over pivot rate)</text>
+
+<!-- Panel B: three fill cases -->
+<rect x="588" y="118" width="1036" height="400" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="608" y="152" font-size="19" font-weight="800" fill="#1d2a3a">ULD를 어떻게 채우느냐: 기준 중량 1,500kg(가상)인 ULD 1개</text>
+<text x="1040" y="182" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">용적(컨투어 대비)</text>
+<text x="1300" y="182" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">무게(기준 중량 대비)</text>
+<text x="608" y="226" font-size="16" font-weight="800" fill="#1f8a5b">① 부피·중량 화물을 섞음</text>
+<rect x="940" y="200" width="200" height="34" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="940" y="200" width="190" height="34" fill="#1f8a5b"/>
+<rect x="1190" y="200" width="230" height="34" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<rect x="1190" y="200" width="210" height="34" fill="#1f8a5b"/>
+<rect x="1400" y="200" width="14" height="34" fill="#e4a23a"/>
+<line x1="1400" y1="192" x2="1400" y2="244" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="1440" y="214" font-size="14" font-weight="700" fill="#1d2a3a">1,600kg(가상)</text>
+<text x="1440" y="234" font-size="14" font-weight="500" fill="#1d2a3a">초과 100kg은 초과 요율</text>
+<text x="608" y="258" font-size="14" font-weight="500" fill="#1d2a3a">공간과 기준 중량을 함께 채워 낭비가 가장 적음</text>
+<text x="608" y="318" font-size="16" font-weight="800" fill="#d9482b">② 부피 화물만(중량 미달)</text>
+<rect x="940" y="292" width="200" height="34" fill="#1f6fd1"/>
+<rect x="1190" y="292" width="230" height="34" fill="#ffffff" stroke="#d9482b" stroke-width="2"/>
+<rect x="1190" y="292" width="98" height="34" fill="#1f6fd1"/>
+<rect x="1288" y="292" width="112" height="34" fill="url(#hatch)"/>
+<line x1="1400" y1="284" x2="1400" y2="336" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="1440" y="306" font-size="14" font-weight="700" fill="#1d2a3a">700kg(가상)</text>
+<text x="1440" y="326" font-size="14" font-weight="500" fill="#d9482b">빈 800kg 값도 냄</text>
+<text x="608" y="350" font-size="14" font-weight="500" fill="#1d2a3a">공간은 다 찼는데 무게가 모자라 기준 중량 값을 그대로 냄</text>
+<text x="608" y="410" font-size="16" font-weight="800" fill="#d9482b">③ 화물이 컨투어를 넘음(부피 초과)</text>
+<rect x="940" y="384" width="200" height="34" fill="#1f6fd1"/>
+<rect x="1140" y="384" width="36" height="34" fill="url(#hatch)" stroke="#d9482b" stroke-width="2"/>
+<line x1="1140" y1="376" x2="1140" y2="426" stroke="#1d2a3a" stroke-width="2.5"/>
+<rect x="1190" y="384" width="230" height="34" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<rect x="1190" y="384" width="154" height="34" fill="#1f6fd1"/>
+<line x1="1400" y1="376" x2="1400" y2="426" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="1440" y="398" font-size="14" font-weight="700" fill="#1d2a3a">넘친 화물은 빼서</text>
+<text x="1440" y="418" font-size="14" font-weight="500" fill="#d9482b">다른 편·스팟으로</text>
+<text x="608" y="442" font-size="14" font-weight="500" fill="#1d2a3a">무게는 남았는데 공간이 모자라 일부 화물을 실을 수 없음</text>
+<text x="608" y="490" font-size="15" font-weight="700" fill="#1d2a3a">세로선은 컨투어 끝(용적)과 기준 중량(무게)입니다. 운임 중량은 실중량과 부피 중량 가운데 큰 쪽입니다.</text>
+
+<!-- Panel C: hard/soft and release -->
+<rect x="48" y="538" width="776" height="262" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<text x="68" y="572" font-size="19" font-weight="800" fill="#d9482b">하드 블록(BSA)</text>
+<text x="68" y="604" font-size="15" font-weight="500" fill="#1d2a3a">정한 ULD·공간을 계약 단가로 사 둡니다. 쓰든 안 쓰든</text>
+<text x="68" y="630" font-size="15" font-weight="500" fill="#1d2a3a">정한 값을 내고, 대신 공간 보장과 낮은 단가를 얻습니다.</text>
+<text x="68" y="656" font-size="15" font-weight="500" fill="#1d2a3a">미사용분 일부를 돌려주는 조항이 있는지는 계약 문구로 봅니다.</text>
+<text x="68" y="700" font-size="16" font-weight="800" fill="#1d2a3a">사용률이 낮으면</text>
+<text x="68" y="728" font-size="15" font-weight="500" fill="#1d2a3a">다음 시즌에 배정 축소, 단가 인상, 최소 물량 요구,</text>
+<text x="68" y="754" font-size="15" font-weight="500" fill="#1d2a3a">계약 종료로 이어질 수 있습니다. 기준은 계약서의 숫자를 따릅니다.</text>
+
+<rect x="848" y="538" width="776" height="262" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="868" y="572" font-size="19" font-weight="800" fill="#1f8a5b">소프트 블록과 반납(release) 시한</text>
+<line x1="900" y1="628" x2="1560" y2="628" stroke="#5f6b78" stroke-width="3" marker-end="url(#ar)"/>
+<circle cx="930" cy="628" r="9" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<circle cx="1230" cy="628" r="11" fill="#e4572e"/>
+<circle cx="1500" cy="628" r="9" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="930" y="608" font-size="15" font-weight="800" fill="#1d2a3a" text-anchor="middle">편마다 배정</text>
+<text x="1230" y="608" font-size="15" font-weight="800" fill="#e4572e" text-anchor="middle">계약이 정한 반납 시한</text>
+<text x="1500" y="608" font-size="15" font-weight="800" fill="#1d2a3a" text-anchor="middle">출발</text>
+<text x="1080" y="660" font-size="14" font-weight="700" fill="#1f8a5b" text-anchor="middle">시한 안에 알린 공간</text>
+<text x="1365" y="660" font-size="14" font-weight="700" fill="#d9482b" text-anchor="middle">시한 뒤 반납·노쇼</text>
+<text x="868" y="700" font-size="15" font-weight="500" fill="#1d2a3a">쓰지 않을 공간은 반납 시한까지 알려야 계약에 따라 비용 없이 또는</text>
+<text x="868" y="726" font-size="15" font-weight="500" fill="#1d2a3a">정한 조건으로 돌려줄 수 있고, 항공사는 그 공간을 다시 팝니다.</text>
+<text x="868" y="752" font-size="15" font-weight="500" fill="#1d2a3a">시한 뒤 반납·노쇼분에는 취소 수수료가 붙을 수 있습니다(계약에 있으면).</text>
+<text x="868" y="778" font-size="15" font-weight="700" fill="#1d2a3a">반납분의 정산 방법은 계약 문구가 정합니다.</text>
+
+<rect x="48" y="818" width="1576" height="80" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="852" font-size="16" font-weight="700" fill="#1d2a3a">기준 중량은 "최소 요금으로 허용되는 최대 중량", 초과 중량은 "기준 중량 최소 요금을 넘는 중량"입니다(캐나다 교통청 견본 약관의 정의).</text>
+<text x="68" y="880" font-size="16" font-weight="500" fill="#1d2a3a">하드·소프트 블록과 사용률은 항공화물 할당 계약을 다룬 학술 연구(Gupta 2008, Amaruchkul 2018, ICLS 2022)의 설명을 따랐습니다.</text>
+</svg>

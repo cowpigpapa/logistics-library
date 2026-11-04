@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">같은 화물, 포워더가 선 자리에 따라 달라지는 한도(가상 숫자)</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">가상 화물: 총중량 1,000kg, 10상자(운송서류에 10상자로 기재), 화물 가액은 어느 한도보다도 크다고 가정. 단위는 SDR(특별인출권)이고 막대 길이는 같은 비율입니다.</text>
+<text x="70" y="132" font-size="15" font-weight="800" fill="#5f6b78">약관·법</text>
+<text x="500" y="132" font-size="15" font-weight="800" fill="#5f6b78">계산 방식</text>
+<text x="1080" y="132" font-size="15" font-weight="800" fill="#5f6b78">이 화물의 한도</text>
+<text x="48" y="160" font-size="16" font-weight="800" fill="#1f6fd1">포워더가 운송주선인으로 일하거나, 통관·보관처럼 운송 밖의 업무일 때 의미가 있는 STC 한도</text>
+<rect x="48" y="170" width="1572" height="78" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="70" y="204" font-size="19" font-weight="800" fill="#1f6fd1">FIATA 모델 규칙(2019)</text>
+<text x="70" y="230" font-size="15" font-weight="500" fill="#5f6b78">제8.3.1조</text>
+<text x="500" y="204" font-size="17" font-weight="600" fill="#1d2a3a">총중량 kg당 2 SDR</text>
+<text x="500" y="230" font-size="15" font-weight="500" fill="#5f6b78">1,000kg × 2</text>
+<rect x="1080" y="194" width="32" height="30" rx="5" fill="#1f6fd1"/>
+<text x="1124" y="216" font-size="19" font-weight="800" fill="#1d2a3a">2,000</text>
+<rect x="48" y="256" width="1572" height="78" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="70" y="290" font-size="19" font-weight="800" fill="#1f6fd1">BIFA STC 2025(영국)</text>
+<text x="70" y="316" font-size="15" font-weight="500" fill="#5f6b78">제26조(A)(i)</text>
+<text x="500" y="290" font-size="17" font-weight="600" fill="#1d2a3a">화물 가액과 kg당 2 SDR 중 작은 쪽</text>
+<text x="500" y="316" font-size="15" font-weight="500" fill="#5f6b78">작은 쪽 = 1,000kg × 2</text>
+<rect x="1080" y="280" width="32" height="30" rx="5" fill="#1f6fd1"/>
+<text x="1124" y="302" font-size="19" font-weight="800" fill="#1d2a3a">2,000</text>
+<rect x="48" y="342" width="1572" height="78" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="70" y="376" font-size="19" font-weight="800" fill="#1f6fd1">CIFFA STC(캐나다)</text>
+<text x="70" y="402" font-size="15" font-weight="500" fill="#5f6b78">제16조</text>
+<text x="500" y="376" font-size="16" font-weight="600" fill="#1d2a3a">kg당 2 SDR, 포장당 666.67 SDR, 거래당 75,000 SDR 중 최소</text>
+<text x="500" y="402" font-size="15" font-weight="500" fill="#5f6b78">2,000 · 6,666.7 · 75,000 중 2,000(법이 더 높은 한도를 강제하면 그 값)</text>
+<rect x="1080" y="366" width="32" height="30" rx="5" fill="#1f6fd1"/>
+<text x="1124" y="388" font-size="19" font-weight="800" fill="#1d2a3a">2,000</text>
+<text x="48" y="452" font-size="16" font-weight="800" fill="#1f8a5b">포워더가 House B/L·House AWB로 운송을 인수해 운송인이 되면 적용되는 한도(약관으로 낮출 수 없음)</text>
+<rect x="48" y="462" width="1572" height="78" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="70" y="496" font-size="19" font-weight="800" fill="#1f8a5b">해상: 상법 제797조 제1항</text>
+<text x="70" y="522" font-size="15" font-weight="500" fill="#5f6b78">제799조 제1항 강행, FBL 제8.3조도 같은 방식</text>
+<text x="500" y="496" font-size="17" font-weight="600" fill="#1d2a3a">포장당 666.67 계산단위와 kg당 2 계산단위 중 큰 쪽</text>
+<text x="500" y="522" font-size="15" font-weight="500" fill="#5f6b78">10상자 × 666.67 = 6,666.7 &gt; 2,000</text>
+<rect x="1080" y="486" width="108" height="30" rx="5" fill="#1f8a5b"/>
+<text x="1200" y="508" font-size="19" font-weight="800" fill="#1d2a3a">6,666.7</text>
+<rect x="48" y="548" width="1572" height="78" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="70" y="582" font-size="19" font-weight="800" fill="#1f8a5b">국제 항공: 몬트리올 협약</text>
+<text x="70" y="608" font-size="15" font-weight="500" fill="#5f6b78">제22조 제3항(2024. 12. 28.부터 26 SDR), 제26조 강행</text>
+<text x="500" y="582" font-size="17" font-weight="600" fill="#1d2a3a">kg당 26 SDR(포장 수와 관계없음)</text>
+<text x="500" y="608" font-size="15" font-weight="500" fill="#5f6b78">1,000kg × 26</text>
+<rect x="1080" y="572" width="420" height="30" rx="5" fill="#1f8a5b"/>
+<text x="1512" y="594" font-size="19" font-weight="800" fill="#1d2a3a">26,000</text>
+<rect x="48" y="646" width="1572" height="248" rx="12" fill="#fdf1ec" stroke="#d9482b" stroke-width="2"/>
+<text x="70" y="684" font-size="19" font-weight="800" fill="#d9482b">읽는 법</text>
+<text x="70" y="718" font-size="17" font-weight="500" fill="#1d2a3a">STC의 kg당 2 SDR은 포워더가 운송주선인으로 일한 업무와 통관·보관·서류 작업처럼 운송인 강행규정이 없는 업무에서 의미가 있습니다.</text>
+<text x="70" y="750" font-size="17" font-weight="500" fill="#1d2a3a">House B/L로 해상운송을 인수했다면 상법 제797조보다 낮게 정한 한도는 그 운송에 효력이 없습니다(제799조 제1항).</text>
+<text x="70" y="782" font-size="17" font-weight="500" fill="#1d2a3a">House AWB로 국제 항공운송을 인수했다면 몬트리올 협약 한도가 적용되고, 더 낮게 정한 약관 조항은 무효입니다(협약 제26조).</text>
+<text x="70" y="814" font-size="17" font-weight="500" fill="#1d2a3a">항공 한도가 높아도 가볍고 값비싼 화물은 화물 가치에 못 미칠 수 있으므로 화주의 적하보험 가입을 따로 확인합니다.</text>
+<text x="70" y="858" font-size="15" font-weight="600" fill="#5f6b78">가상 숫자이며 실제 한도는 편입된 약관의 판(edition)과 문구, 적용되는 법이 정합니다. 운송 수단별 법정 한도는 「운송인 책임 한도」 문서를 보십시오.</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d9482b"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">재판매 전세기의 계약·돈·책임 흐름</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">실선 화살표는 운송을 맡기는 쪽에서 맡는 쪽으로 향하는 계약입니다. 점선은 몬트리올 협약에 따라 화주가 실제운송인에게 직접 청구할 수 있는 길입니다.</text>
+<rect x="48" y="320" width="330" height="200" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="68" y="358" font-size="16" font-weight="800" fill="#1f6fd1" text-anchor="start">운항 항공사</text>
+<text x="68" y="388" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">실제운송인이 될 수 있음(제39조)</text>
+<text x="68" y="418" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">운항 허가 신청인</text>
+<text x="68" y="448" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">(항공사업법 제7조 제3항,</text>
+<text x="68" y="478" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">제54조·제55조)</text>
+<rect x="620" y="320" width="360" height="200" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="3"/>
+<text x="640" y="358" font-size="16" font-weight="800" fill="#e4572e" text-anchor="start">전세자 포워더 A</text>
+<text x="640" y="388" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">본인으로 계약하고 House AWB를</text>
+<text x="640" y="418" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">내면 화주에게 계약운송인이 될 수 있음</text>
+<text x="640" y="448" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">빈 공간의 위험은 보통 전세자 몫</text>
+<text x="640" y="478" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">(ICAO Doc 9626)</text>
+<rect x="1250" y="124" width="370" height="120" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="1270" y="160" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">A의 화주들</text>
+<text x="1270" y="188" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">A의 House AWB를 받음</text>
+<text x="1270" y="216" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">청구 상대: A 또는 항공사</text>
+<rect x="1250" y="370" width="370" height="120" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1270" y="406" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="start">공간을 산 포워더 B</text>
+<text x="1270" y="434" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">본인으로 계약하면 자기 화주에게</text>
+<text x="1270" y="462" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">계약운송인이 될 수 있음</text>
+<rect x="1250" y="620" width="370" height="120" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="1270" y="656" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">B의 화주들</text>
+<text x="1270" y="684" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">B의 House AWB를 받음</text>
+<text x="1270" y="712" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">청구 상대: B, 항공사(지위는 따로 판단)</text>
+<path d="M616 380 L386 380" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+<text x="501" y="368" font-size="15" font-weight="700" fill="#e4572e" text-anchor="middle">전세 계약 · 대금 선지급</text>
+<text x="501" y="410" font-size="15" font-weight="600" fill="#1f6fd1" text-anchor="middle">Master AWB 발행 주체는</text>
+<text x="501" y="432" font-size="15" font-weight="600" fill="#1f6fd1" text-anchor="middle">전세 계약으로 확인</text>
+<path d="M1246 232 L988 352" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="1100" y="345" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">House AWB · 운임</text>
+<path d="M1246 440 L988 440" stroke="#1f8a5b" stroke-width="2.5" fill="none" marker-end="url(#arg)"/>
+<text x="1117" y="428" font-size="15" font-weight="700" fill="#1f8a5b" text-anchor="middle">공간 판매 계약</text>
+<path d="M1435 616 L1435 496" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="1447" y="566" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">House AWB · 운임</text>
+<path d="M1246 150 L384 328" stroke="#d9482b" stroke-width="2" fill="none" marker-end="url(#arr)" stroke-dasharray="8 6"/>
+<path d="M1246 690 L384 512" stroke="#d9482b" stroke-width="2" fill="none" marker-end="url(#arr)" stroke-dasharray="8 6"/>
+<rect x="48" y="770" width="1572" height="128" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="804" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">제41조 제2항: A가 화주에게 협약 한도보다 큰 배상을 약속하거나 가액 신고를 받아도 항공사가 동의하지 않으면 항공사에는 효력이 없어, A에게 차액이 남을 수 있습니다.</text>
+<text x="68" y="834" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">제42조: 손해 통지는 A나 항공사 어느 쪽에 해도 같은 효력이지만, 운송 중지·반송 같은 처분 지시는 계약운송인에게 해야 효력이 있습니다.</text>
+<text x="68" y="864" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">제44조·제47조·제48조: 둘에게 받는 총액은 높은 한도를 넘지 않고, 협약 한도 아래로 줄이는 조항은 무효이며, 운송인 사이 구상은 둘의 계약이 정합니다.</text>
+<rect x="48" y="124" width="520" height="112" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="66" y="156" font-size="15" font-weight="800" fill="#1d2a3a" text-anchor="start">A와 B 사이</text>
+<text x="66" y="184" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">A가 B에게 자기 이름의 운송 서류를 내고 운송을</text>
+<text x="66" y="212" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">인수했다면 B에 대해서는 A가 계약운송인이 될 수 있음</text>
+</svg>

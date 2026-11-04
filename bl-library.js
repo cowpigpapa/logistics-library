@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/bl-awb';
-  const DOCS_VERSION = '20261028-13';
+  const DOCS_VERSION = '20261104-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -41,7 +41,8 @@
     { id: 'bl-multimodal', checked: '2026-10-28', tag: "복합운송", level: 3, title: "복합운송과 책임 구간 — 손해 구간을 알 때와 모를 때", short: "복합운송과 책임 구간", summary: "문 앞까지 맡은 포워더가 복합운송인이 되는 경우, 네트워크·단일 책임제, 손해 구간을 알 때와 모를 때 상법 제816조와 FBL 약관의 답, 구간에 따라 바뀌는 기한, 경로별 가상 예시를 정리합니다." },
     { id: 'bl-cmr', checked: '2026-10-26', tag: "CMR", level: 3, title: "CMR 운송장과 유럽 트럭 운송 — 적용 범위, 운송장과 처분권, kg당 8.33 SDR, 기한, 포워더의 지위", short: "CMR과 유럽 트럭 운송", summary: "국경을 넘는 유럽 트럭 운송에 강행 적용되는 CMR의 적용 범위와 당사국, 운송장 3통·유보·처분권, e-CMR, 운송인 면책과 kg당 8.33 SDR 한도 계산, 고의의 기준, 7일·21일·1년 기한과 관할, 연속 운송인, 포워더가 운송인이 되는 경우를 정리합니다." },
     { id: 'bl-rail', checked: '2026-10-27', tag: "철도", level: 3, title: "중국–유럽 철도와 국제 철도 운송장 — 통로와 궤간 환적, CIM·SMGS, 공통 운송장, kg당 17 SDR, 기한, 제재와 보험", short: "중국–유럽 철도와 철도 운송장", summary: "러시아 경유 북부 통로·몽골 경유·중부회랑과 1,435mm·1,520mm 궤간 환적 지점, OTIF의 CIM과 OSJD의 SMGS가 적용되는 범위, CIM/SMGS 공통 운송장과 재발송 지점에서 계약이 바뀌는 구조, 운송장 기재 책임과 운임 5배 위약금, 처분권, CIM kg당 17 SDR과 SMGS 가액 배상, 사고 기록서와 7일·3일·9개월·1년 기한, RID와 SMGS 부속서 2, ICS2 철도 ENS와 통과운송, 2022년 이후 EU 제재와 보험 조항, 한국 포워더가 철도를 쓰는 방식과 해상·철도·항공 비교를 정리합니다." },
-    { id: 'bl-charter', checked: '2026-10-28', tag: "용선", level: 3, title: "용선과 프로젝트 화물 계약 — 항해·정기·선체용선, 상법 용선 규정, 용선계약 B/L과 편입, 정박기간·NOR·체선료·조출료, FIO 조건, BIMCO 서식, 중량물과 MWS", short: "용선과 프로젝트 화물 계약", summary: "정기선 개품운송과 항해용선·정기용선·선체용선의 차이, 상법 제827조~제855조의 용선 규정(제839조 책임 경감 금지의 범위, 선적·양륙기간과 상당한 보수, 발항 전 해제, 2년 제척기간, 정기용선자 화물에 대한 선주의 유치권과 해지), 용선계약 B/L의 편입 조항과 대법원 2000다70064의 중재조항 편입 요건, CONGENBILL 2022, UCP 600 제22조, Laytime Definitions 2013으로 본 정박기간·NOR·WIBON·체선료·조출료와 컨테이너 Demurrage·Detention의 차이, 체선료의 성질(대법원 93다58547, The Eternal Bliss)과 무효 NOR(2026년 Trans Trade v Sebat), FIO·FIOS·FIOST·FILO·LIFO가 비용 조건일 뿐인 이유, GENCON·NYPE·BARECON·HEAVYLIFTVOY·HEAVYCON·PROJECTCON·CONLINEBOOKING 개요, 중량물의 들어 올리기 계획·해상 고박·MWS 승인과 갑판 적재(BBC Greenland), 포워더가 용선자가 될 때의 위험과 계약 점검표를 정리합니다." }
+    { id: 'bl-charter', checked: '2026-10-28', tag: "용선", level: 3, title: "용선과 프로젝트 화물 계약 — 항해·정기·선체용선, 상법 용선 규정, 용선계약 B/L과 편입, 정박기간·NOR·체선료·조출료, FIO 조건, BIMCO 서식, 중량물과 MWS", short: "용선과 프로젝트 화물 계약", summary: "정기선 개품운송과 항해용선·정기용선·선체용선의 차이, 상법 제827조~제855조의 용선 규정(제839조 책임 경감 금지의 범위, 선적·양륙기간과 상당한 보수, 발항 전 해제, 2년 제척기간, 정기용선자 화물에 대한 선주의 유치권과 해지), 용선계약 B/L의 편입 조항과 대법원 2000다70064의 중재조항 편입 요건, CONGENBILL 2022, UCP 600 제22조, Laytime Definitions 2013으로 본 정박기간·NOR·WIBON·체선료·조출료와 컨테이너 Demurrage·Detention의 차이, 체선료의 성질(대법원 93다58547, The Eternal Bliss)과 무효 NOR(2026년 Trans Trade v Sebat), FIO·FIOS·FIOST·FILO·LIFO가 비용 조건일 뿐인 이유, GENCON·NYPE·BARECON·HEAVYLIFTVOY·HEAVYCON·PROJECTCON·CONLINEBOOKING 개요, 중량물의 들어 올리기 계획·해상 고박·MWS 승인과 갑판 적재(BBC Greenland), 포워더가 용선자가 될 때의 위험과 계약 점검표를 정리합니다." },
+    { id: 'bl-seaair', checked: '2026-11-03', tag: "Sea & Air·전세기", level: 3, title: "Sea & Air와 항공 전세기 — 해상·항공 연결 운송의 서류·책임·통관, 전세기 계약과 계약운송인", short: "Sea & Air와 항공 전세기", summary: "중국 화물이 카페리나 컨테이너선으로 서해안 항구에 들어와 공항 쪽 보세창고에서 적출·빌드업을 거쳐 인천공항에서 항공으로 나가는 Sea & Air의 계약 짜임과 구간별 서류, 해상 구간(상법 제797조)과 항공 구간(몬트리올 협약 kg당 26 SDR, 통지 14일)의 책임 차이, 구간을 모를 때 운송거리가 가장 긴 구간의 법을 쓰는 상법 제816조 제2항과 구간 입증 기록, 적재화물목록 기재로 보세운송신고를 갈음하고 하선신고일부터 7일 안에 운송하는 복합환적 절차(환적화물 처리절차에 관한 특례고시 제8조), Detention·보관료와 리튬배터리 항공 탑재 거절 위험을 정리합니다. 항공 전세기는 항공사업법 시행규칙의 전세운송 정의와 항공사가 받는 운항 허가(항공사업법 제7조·제54조·제55조), 본인으로 계약한 포워더가 계약운송인이 될 수 있는 몬트리올 협약 제39조~제48조의 구조와 재판매 때의 책임, 탑재 제한·선지급·취소 위약의 화주 계약 백투백 등 전세 계약서 점검 조항을 다룹니다." }
   ];
   const byId = id => DOCS.find(d => d.id === id);
   const LEVEL_LABELS = { 3: '★★★ 꼭 알아야 함', 2: '★★ 알아두면 좋음' };
@@ -55,11 +56,13 @@
   const SECTIONS = [
     { title: "B/L·AWB 기초", sub: "B/L 기초(AWB 비교표 포함) · AWB 기초 · 경로 변경과 추가 비용", docs: ["bl-basics", "awb-basics", "bl-deviation"] },
     { title: "화물 인도와 특수 서류", sub: "화물 인도 실무 · 특수 B/L과 전자화 · 복합운송과 책임 구간 · 유럽 트럭 운송(CMR) · 운임 미수와 유치권 · 중국–유럽 철도(CIM·SMGS)", docs: ["bl-release", "bl-lien", "bl-special", "bl-multimodal", "bl-cmr", "bl-rail"] },
-    { title: "용선과 프로젝트 계약", sub: "항해·정기·선체용선 · 정박기간과 체선료 · FIO 조건 · BIMCO 서식 · 중량물 계약", docs: ["bl-charter"] }
+    { title: "용선·전세기와 Sea & Air", sub: "항해·정기·선체용선 · 정박기간과 체선료 · FIO 조건 · BIMCO 서식 · 중량물 계약 · Sea & Air · 항공 전세기", docs: ["bl-charter", "bl-seaair"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
     { name: "항로가 바뀌어 추가 비용이 청구됐어요", ids: ["bl-deviation"] },
+    { name: "중국 화물을 배로 받아 인천에서 항공으로 보내요", ids: ["bl-seaair"] },
+    { name: "화물기를 통째로 빌리려 해요", ids: ["bl-seaair"] },
     { name: "중국–유럽 철도로 보내면 책임과 서류는요", ids: ["bl-rail"] },
     { name: "운임을 못 받았는데 화물을 잡아도 되나요", ids: ["bl-lien"] },
     { name: "B/L과 AWB는 뭐가 다른가요", ids: ["bl-basics", "awb-basics"] },

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">롤오버와 노쇼: 원인이 어디에 있고, 비용은 계약을 따라 어디로 가나</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">금액은 계약서와 요율표가 정하므로 싣지 않았습니다. 괄호는 근거 조항이며, 결과는 그 B/L·AWB 약관과 계약 문구에 따라 달라집니다.</text>
+
+<!-- parties -->
+<rect x="48" y="118" width="380" height="76" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="238" y="152" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">선사·항공사(운송인)</text>
+<text x="238" y="178" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="middle">Master B/L·AWB, 부킹 조건, 장기 계약</text>
+<rect x="646" y="118" width="380" height="76" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="3"/>
+<text x="836" y="152" font-size="19" font-weight="800" fill="#e4572e" text-anchor="middle">포워더</text>
+<text x="836" y="178" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="middle">선사에는 화주(송하인), 화주에게는 운송인·주선인</text>
+<rect x="1244" y="118" width="380" height="76" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1434" y="152" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="middle">화주</text>
+<text x="1434" y="178" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="middle">견적서·House B/L·운송 계약</text>
+<path d="M428 148 L640 148" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="534" y="138" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">청구</text>
+<path d="M1026 148 L1238 148" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="1132" y="138" font-size="14" font-weight="700" fill="#5f6b78" text-anchor="middle">같은 조건이 있어야 넘김</text>
+
+<!-- left: rollover -->
+<rect x="48" y="216" width="776" height="574" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="48" y="216" width="776" height="52" rx="12" fill="#1f6fd1"/>
+<text x="68" y="250" font-size="20" font-weight="800" fill="#ffffff">롤오버: 예정 본선·편에 실리지 못하고 다음 배로 밀림</text>
+<text x="68" y="298" font-size="16" font-weight="800" fill="#1d2a3a">원인</text>
+<text x="68" y="324" font-size="15" font-weight="500" fill="#1d2a3a">운송인 쪽: 초과 부킹·선복 부족, 결항(blank sailing)·기항 생략, 선박 변경</text>
+<text x="68" y="348" font-size="15" font-weight="500" fill="#1d2a3a">화주·포워더 쪽: SI·CY 반입·VGM·수출신고수리 마감 가운데 하나라도 놓침</text>
+<text x="68" y="384" font-size="16" font-weight="800" fill="#1d2a3a">터미널에서 기다리는 동안의 비용</text>
+<text x="68" y="410" font-size="15" font-weight="500" fill="#1d2a3a">Demurrage(선사에 따라 결합 요금)·터미널 보관료, 리퍼는 전원 공급 비용</text>
+<text x="68" y="446" font-size="16" font-weight="800" fill="#1d2a3a">계약과 법이 정하는 것</text>
+<text x="68" y="472" font-size="15" font-weight="500" fill="#1d2a3a">· FIATA FBL은 도착 시각을 보장하지 않고(제6.3조), 지연 손해는 적기 인도</text>
+<text x="84" y="496" font-size="15" font-weight="500" fill="#1d2a3a">이익을 신고했을 때만 운임 2배까지로 묶습니다(제6.2조·제8.7조).</text>
+<text x="68" y="522" font-size="15" font-weight="500" fill="#1d2a3a">· 상법은 연착 손해 책임을 정하지만(제795조 제1항), 약속된 도착 시각이</text>
+<text x="84" y="546" font-size="15" font-weight="500" fill="#1d2a3a">없으면 연착인지부터 다툼이 되기 쉽습니다. 선사 B/L 약관은 원문으로 봅니다.</text>
+<text x="68" y="572" font-size="15" font-weight="500" fill="#1d2a3a">· 장기 계약: 선복을 못 주면 MQC 감축·기간 연장·해지(국내 표준계약 제7조 B).</text>
+<text x="68" y="598" font-size="15" font-weight="500" fill="#1d2a3a">· 미국 항로: 사전 통지 없는 결항, 정당한 사유 없는 선복 제한은 불합리한</text>
+<text x="84" y="622" font-size="15" font-weight="500" fill="#1d2a3a">선적 거절의 예로 볼 수 있습니다(46 CFR 542.1(e)).</text>
+<rect x="68" y="644" width="736" height="128" rx="10" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="86" y="674" font-size="15" font-weight="800" fill="#1d2a3a">운송인 원인이면: 납기 지연 손해는 받아내기 어려우므로, 통지를 받는 즉시</text>
+<text x="86" y="698" font-size="15" font-weight="800" fill="#1d2a3a">무료 기간 연장이나 Demurrage·보관료 면제를 서면으로 요청해 받아 둡니다.</text>
+<text x="86" y="722" font-size="15" font-weight="800" fill="#1d2a3a">부킹 거절·롤오버 통보는 기록으로 모아 기간 말 MQC 정산 자료로 씁니다.</text>
+<text x="86" y="754" font-size="15" font-weight="800" fill="#d9482b">마감을 놓친 경우: 생긴 비용은 원인을 만든 쪽(화주 또는 포워더) 몫입니다.</text>
+
+<!-- right: no-show -->
+<rect x="848" y="216" width="776" height="574" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<rect x="848" y="216" width="776" height="52" rx="12" fill="#1f8a5b"/>
+<text x="868" y="250" font-size="20" font-weight="800" fill="#ffffff">노쇼: 화주·포워더가 부킹한 공간을 쓰지 않음</text>
+<text x="868" y="298" font-size="16" font-weight="800" fill="#1d2a3a">원인</text>
+<text x="868" y="324" font-size="15" font-weight="500" fill="#1d2a3a">화물 준비 지연, 주문 취소, 다른 선사로 옮김, 취소 통지를 잊음</text>
+<text x="868" y="348" font-size="15" font-weight="500" fill="#1d2a3a">선복 확보용으로 여러 선사에 중복 부킹한 뒤 하나만 씀</text>
+<text x="868" y="384" font-size="16" font-weight="800" fill="#1d2a3a">정기선 실무에서 실제로 생기는 위험</text>
+<text x="868" y="410" font-size="15" font-weight="500" fill="#1d2a3a">취소 기한 뒤의 취소·노쇼 요금, 선사의 다음 배정(allocation) 축소</text>
+<text x="868" y="446" font-size="16" font-weight="800" fill="#1d2a3a">계약과 법이 정하는 것</text>
+<text x="868" y="472" font-size="15" font-weight="500" fill="#1d2a3a">· 부킹 조건과 선사 요율표에 정한 취소 기한과 노쇼 요금을 먼저 봅니다.</text>
+<text x="868" y="498" font-size="15" font-weight="500" fill="#1d2a3a">· 상법의 기본값은 제공하지 않으면 계약 해제로 보고 운임 전액(제792조 제2항).</text>
+<text x="884" y="522" font-size="15" font-weight="500" fill="#1d2a3a">어느 기준이 적용되는지는 적용 법률과 계약 문구로 판단합니다.</text>
+<text x="868" y="548" font-size="15" font-weight="500" fill="#1d2a3a">· 장기 계약은 MQC 실적에서 빠지고, 항공 블록은 반납 시한 뒤 반납·노쇼에</text>
+<text x="884" y="572" font-size="15" font-weight="500" fill="#1d2a3a">취소 수수료가 붙을 수 있습니다(계약에 있으면).</text>
+<text x="868" y="598" font-size="15" font-weight="500" fill="#1d2a3a">· 해운법은 화주(포워더 포함)의 정당한 사유 없는 운송계약 불이행·일방 변경을</text>
+<text x="884" y="622" font-size="15" font-weight="500" fill="#1d2a3a">금지합니다(제31조 제2항 제5호).</text>
+<rect x="868" y="644" width="736" height="128" rx="10" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="886" y="674" font-size="15" font-weight="800" fill="#1d2a3a">포워더가 부킹 명의자이면 선사는 먼저 포워더에게 청구합니다.</text>
+<text x="886" y="698" font-size="15" font-weight="800" fill="#1d2a3a">화주에게 넘기려면 화주 견적·계약에 취소 기한과 노쇼 비용 부담이</text>
+<text x="886" y="722" font-size="15" font-weight="800" fill="#1d2a3a">미리 적혀 있어야 합니다.</text>
+<text x="886" y="754" font-size="15" font-weight="800" fill="#d9482b">쓰지 않을 부킹은 취소 기한 전에 서면으로 취소하고 회신을 남깁니다.</text>
+
+<rect x="48" y="810" width="1576" height="88" rx="12" fill="#fff4ec" stroke="#e4a23a" stroke-width="1.5"/>
+<text x="68" y="844" font-size="17" font-weight="800" fill="#1d2a3a">같은 조건을 양쪽 계약에(back-to-back)</text>
+<text x="68" y="874" font-size="16" font-weight="500" fill="#1d2a3a">선사·항공사와 맺은 취소 기한, 노쇼 요금, 지연 면책, 할증료 기준을 화주 견적·계약에 같은 기준으로 옮겨 적어야 비용이 포워더에게 남지 않습니다.</text>
+</svg>
