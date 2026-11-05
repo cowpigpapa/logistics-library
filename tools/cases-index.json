@@ -87,7 +87,7 @@
    ]
   },
   "cargo-risk": {
-   "label": "화물 사고 예방",
+   "label": "화물 사고 예방·인증",
    "count": 40,
    "case_docs": [
     "rk-cases"

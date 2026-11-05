@@ -149,11 +149,11 @@ def collect():
 LABELS = {'incoterms-2020': 'Incoterms', 'charges': '부대비용', 'bl-awb': 'B/L·AWB', 'customs': '통관', 'container': '컨테이너',
           'air-uld': '항공 ULD', 'ctu-code': '적입·고박(CTU)', 'dangerous-goods': '위험물', 'eu-lithium-battery': 'EU 배터리',
           'temperature-cargo': '온도유지 화물', 'export-control': '수출통제', 'regulated-goods': '반출입 규제 물품',
-          'cargo-risk': '화물 사고 예방', 'cargo-insurance': '화물보험'}
+          'cargo-risk': '화물 사고 예방·인증', 'cargo-insurance': '화물보험'}
 
 
 def cat_label(name, slug=''):
-    """'Cargo Risk · 화물 사고 예방' → '화물 사고 예방', 'B/L · AWB' → 'B/L · AWB'."""
+    """'Cargo Risk · 화물 사고 예방·인증' → '화물 사고 예방·인증', 'B/L · AWB' → 'B/L · AWB'."""
     if slug in LABELS:
         return LABELS[slug]
     parts = name.split(' · ')

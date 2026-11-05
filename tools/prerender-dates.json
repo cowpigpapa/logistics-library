@@ -1,17 +1,17 @@
 {
  "https://logistics.onharu.app/": {
-  "hash": "ce989cab48bd9139",
-  "modified": "2026-11-05T11:56:04+09:00",
+  "hash": "4e232b1c663f324e",
+  "modified": "2026-11-06T07:23:09+09:00",
   "published": "2026-10-11T23:23:57+09:00"
  },
  "https://logistics.onharu.app/library/accident-cases": {
   "hash": "aeacc80f5ce09d57",
-  "modified": "2026-11-04T14:27:19+09:00",
+  "modified": "2026-11-06T07:23:07+09:00",
   "published": "2026-10-26T21:35:18+09:00"
  },
  "https://logistics.onharu.app/library/accident-cases/ac-all": {
-  "hash": "9b93865d6302eef1",
-  "modified": "2026-11-04T14:27:19+09:00",
+  "hash": "c4598115e2b99226",
+  "modified": "2026-11-06T07:23:07+09:00",
   "published": "2026-10-26T21:40:14+09:00"
  },
  "https://logistics.onharu.app/library/accident-cases/battery-cases": {
@@ -70,8 +70,8 @@
   "published": "2026-10-27T21:05:38+09:00"
  },
  "https://logistics.onharu.app/library/accident-cases/rk-cases": {
-  "hash": "d2186722df3e25f7",
-  "modified": "2026-11-04T12:59:22+09:00",
+  "hash": "ac7f7db366e40969",
+  "modified": "2026-11-04T14:27:19+09:00",
   "published": "2026-10-27T21:05:38+09:00"
  },
  "https://logistics.onharu.app/library/accident-cases/tc-cases": {
@@ -121,7 +121,7 @@
  },
  "https://logistics.onharu.app/library/bl-awb": {
   "hash": "6a9bf1259b994831",
-  "modified": "2026-11-05T10:03:30+09:00",
+  "modified": "2026-11-05T23:24:29+09:00",
   "published": "2026-10-11T23:19:47+09:00"
  },
  "https://logistics.onharu.app/library/bl-awb/awb-basics": {
@@ -181,7 +181,7 @@
  },
  "https://logistics.onharu.app/library/cargo-insurance": {
   "hash": "fa4395843dbe8b06",
-  "modified": "2026-11-05T10:03:30+09:00",
+  "modified": "2026-11-05T23:24:30+09:00",
   "published": "2026-10-11T23:19:49+09:00"
  },
  "https://logistics.onharu.app/library/cargo-insurance/ins-basics": {
@@ -230,58 +230,58 @@
   "published": "2026-10-09T17:22:33+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk": {
-  "hash": "ad2e3fafb6f433ec",
-  "modified": "2026-11-05T10:03:30+09:00",
+  "hash": "32ae867a7ef63534",
+  "modified": "2026-11-05T23:24:30+09:00",
   "published": "2026-10-19T14:46:13+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk/rk-cert": {
-  "hash": "d00e1906aeeae2c4",
-  "modified": "2026-11-05T10:03:29+09:00",
+  "hash": "7c9fd647b9e7d196",
+  "modified": "2026-11-05T11:56:57+09:00",
   "published": "2026-11-05T10:03:29+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk/rk-cross": {
-  "hash": "4d90322768d21620",
+  "hash": "310ae19a0e284182",
   "modified": "2026-11-04T14:27:19+09:00",
   "published": "2026-10-19T14:47:00+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk/rk-damage": {
-  "hash": "f78a70fc62a8c62e",
+  "hash": "9e22c70a97ac9052",
   "modified": "2026-11-04T14:27:19+09:00",
   "published": "2026-10-19T14:47:00+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk/rk-license": {
-  "hash": "f11e8da56aa8f9aa",
+  "hash": "c5b9d618366f0052",
   "modified": "2026-11-03T09:58:14+09:00",
   "published": "2026-10-23T10:29:31+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk/rk-payment-fraud": {
-  "hash": "37c1f474652fd68b",
+  "hash": "47ae29ba1e81a884",
   "modified": "2026-11-04T14:27:19+09:00",
   "published": "2026-10-27T23:25:15+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk/rk-security": {
-  "hash": "db2582b1b11a6426",
+  "hash": "93f307756b407ba1",
   "modified": "2026-11-04T14:27:19+09:00",
   "published": "2026-10-19T14:47:00+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk/rk-special": {
-  "hash": "30cd09b4a7856595",
+  "hash": "c21a1335f13dd46c",
   "modified": "2026-11-04T14:27:19+09:00",
   "published": "2026-10-19T20:57:15+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk/rk-truck": {
-  "hash": "80900f3ccee87abf",
+  "hash": "44775515e03480c4",
   "modified": "2026-11-04T14:27:19+09:00",
   "published": "2026-10-19T14:47:00+09:00"
  },
  "https://logistics.onharu.app/library/cargo-risk/rk-warehouse": {
-  "hash": "aaba192f11fa661e",
+  "hash": "5e16e8165a757448",
   "modified": "2026-11-04T14:27:19+09:00",
   "published": "2026-10-19T14:47:00+09:00"
  },
  "https://logistics.onharu.app/library/charges": {
   "hash": "ea02b299cd4ae652",
-  "modified": "2026-11-05T10:03:30+09:00",
+  "modified": "2026-11-05T23:24:29+09:00",
   "published": "2026-10-11T23:19:47+09:00"
  },
  "https://logistics.onharu.app/library/charges/ch-air-storage": {
@@ -915,8 +915,8 @@
   "published": "2026-10-27T21:54:51+09:00"
  },
  "https://logistics.onharu.app/library/guide/guide-updates": {
-  "hash": "813174b839109387",
-  "modified": "2026-11-05T10:03:30+09:00",
+  "hash": "39127e8e43256ca0",
+  "modified": "2026-11-05T23:26:08+09:00",
   "published": "2026-10-27T21:54:51+09:00"
  },
  "https://logistics.onharu.app/library/incoterms-2020": {

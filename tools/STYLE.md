@@ -90,7 +90,7 @@
 | /library/cargo-insurance | Cargo Insurance · 화물보험 | 적하보험·책임 한도·클레임 |
 | /library/charges | Charges · 부대비용 | 부대비용·DEM/DET·보관료·운임 계산 |
 | /library/customs | Customs · 통관 | 수출입 통관·HS 코드·FTA·보세운송 |
-| /library/cargo-risk | Cargo Risk · 화물 사고 예방 | 운송·창고·보안·특수화물·젖음·뒤바뀜 |
+| /library/cargo-risk | Cargo Risk · 화물 사고 예방·인증 | 운송·창고·보안·특수화물·젖음·뒤바뀜·인증 |
 | /library/container | Container · 컨테이너 | 컨테이너 번호·코드·치수·OOG |
 | /library/export-control | Export Control · 수출통제 | 전략물자·방산물자 허가와 제재 확인 |
 | /library/regulated-goods | Regulated Goods · 반출입 규제 물품 | 폐기물·목재 포장재·CITES·문화유산·LMO |

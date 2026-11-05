@@ -28,7 +28,7 @@ NAV = [
         ('/library/regulated-goods', 'Regulated Goods · 반출입 규제 물품', '폐기물·목재 포장재·CITES·문화유산·LMO'),
     ]),
     ('화물 사고·보험', [
-        ('/library/cargo-risk', 'Cargo Risk · 화물 사고 예방', '운송·창고·젖음·뒤바뀜·보안'),
+        ('/library/cargo-risk', 'Cargo Risk · 화물 사고 예방·인증', '운송·창고·젖음·뒤바뀜·보안·인증'),
         ('/library/cargo-insurance', 'Cargo Insurance · 화물보험', '적하보험·책임 한도·클레임'),
     ]),
     ('사고 사례', [

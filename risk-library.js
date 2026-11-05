@@ -1,9 +1,9 @@
-// Cargo Risk · 화물 사고 예방 메뉴(/library/cargo-risk): 운송·창고·보안·특수화물·젖음·뒤바뀜 사고 예방.
+// Cargo Risk · 화물 사고 예방·인증 메뉴(/library/cargo-risk): 운송·창고·보안·특수화물·젖음·뒤바뀜 사고 예방과 인증·공급업체 평가.
 // 본문은 /rk-docs/<id>.html 조각을 문서를 열 때 불러온다. 주소 /library/cargo-risk/<id>로 문서 하나를 연다.
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/cargo-risk';
-  const DOCS_VERSION = '20261105-01';
+  const DOCS_VERSION = '20261105-02';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -87,7 +87,7 @@
           .map(docCard)
           .join('')}</div></section>`
     ).join('');
-    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>사고는 운송보다 대기와 보관에서 더 자주 난다</h2><p>도로 위 사고만이 아니라 주차 중 도난, 창고의 젖음과 파손, 다른 화주 화물과의 뒤바뀜, 가짜 운송사까지 화물 사고는 여러 곳에서 납니다. 운송·보관, 젖음·뒤바뀜, 도난·사기와 보안 순으로 화주·포워더·창고·운송사가 각자 무엇을 확인하면 사고를 줄이고 났을 때 무엇을 남겨야 하는지 정리했습니다. 실제 사고·판결 28건은 사고 사례 모음에 따로 모았습니다. 내륙운송을 주선할 자격과 자가용 화물차를 쓰면 안 되는 이유도 1장에 있습니다.</p><a class="lib-summary-button" href="${link('rk-truck')}">트럭 운송 사고부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('법령, CTU Code, 보험·운송 업계 공개 자료를 바탕으로 정리했습니다. 회사마다 내부 절차와 계약 조건이 다르므로 자기 회사 규정과 보험 조건을 함께 보십시오. 해설은 AI가 작성했으며 보험사나 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
+    view.innerHTML = `<div class="lib-head"><div class="lib-head-row"><div class="lib-intro-copy"><h2>사고는 운송보다 대기와 보관에서 더 자주 난다</h2><p>도로 위 사고만이 아니라 주차 중 도난, 창고의 젖음과 파손, 다른 화주 화물과의 뒤바뀜, 가짜 운송사까지 화물 사고는 여러 곳에서 납니다. 운송·보관, 젖음·뒤바뀜, 도난·사기와 보안 순으로 화주·포워더·창고·운송사가 각자 무엇을 확인하면 사고를 줄이고 났을 때 무엇을 남겨야 하는지 정리했습니다. 실제 사고·판결 28건은 사고 사례 모음에 따로 모았습니다. 내륙운송을 주선할 자격과 자가용 화물차를 쓰면 안 되는 이유도 1장에 있습니다. 화주 입찰과 공급망 실사에서 요구하는 ISO 인증, EcoVadis·CyberVadis 평가는 4장에 정리했습니다.</p><a class="lib-summary-button" href="${link('rk-truck')}">트럭 운송 사고부터 →</a></div><div class="lib-notice"><b>이 자료의 범위와 출처</b><p>${lines('법령, CTU Code, 보험·운송 업계 공개 자료를 바탕으로 정리했습니다. 회사마다 내부 절차와 계약 조건이 다르므로 자기 회사 규정과 보험 조건을 함께 보십시오. 해설은 AI가 작성했으며 보험사나 전문가가 검토한 것이 아닙니다.')}</p></div></div></div>
       ${official}
       ${stagePath()}
       ${sections}`;
@@ -160,7 +160,7 @@
     });
   }
   async function renderDoc(view, doc) {
-    const head = `<nav class="lib-crumb"><a href="${home}">← Cargo Risk · 화물 사고 예방</a></nav>`;
+    const head = `<nav class="lib-crumb"><a href="${home}">← Cargo Risk · 화물 사고 예방·인증</a></nav>`;
     const title = `<span class="lib-doc-head"><span class="lib-tag">${esc(doc.tag)}</span>${levelBadge(doc)}</span><h1 class="lib-doc-title">${esc(doc.title)}</h1><p class="lib-checked">자료 확인 ${doc.checked || CHECKED} · 회사·보험·계약 조건에 따라 대응이 달라질 수 있으니 실제 사고는 계약서와 보험사·운송사 안내를 함께 확인하세요.</p>`;
     view.innerHTML = `${head}<article class="lib-article">${title}<p class="lib-loading">불러오는 중…</p></article>`;
     let html;
@@ -200,11 +200,11 @@
     if (doc) {
       // tools/prerender.py가 미리 채운 같은 문서·같은 버전이면 다시 불러오지 않는다(깜박임 방지). 조각을 고쳐 DOCS_VERSION이 바뀌면 새로 불러온다.
       if (view.dataset.prerendered !== `${doc.id}@${DOCS_VERSION}`) renderDoc(view, doc);
-      document.title = `${doc.title} · Cargo Risk · 화물 사고 예방 · Logistics Library`;
+      document.title = `${doc.title} · Cargo Risk · 화물 사고 예방·인증 · Logistics Library`;
       setCanonical(`${BASE}/${doc.id}`);
     } else {
       renderList(view);
-      document.title = '화물 사고 예방 — 운송·창고·보안·특수화물·젖음·뒤바뀜 · Logistics Library';
+      document.title = '화물 사고 예방·인증 — 운송·창고·보안·특수화물·젖음·뒤바뀜·인증 · Logistics Library';
       setCanonical(BASE);
     }
   }
