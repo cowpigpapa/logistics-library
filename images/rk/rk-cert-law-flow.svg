@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">법이 화주를 거쳐 포워더에게 오는 경로: 직접 의무와 계약상 요구</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">2026. 11. 5. 기준. 법의 직접 대상은 대부분 대기업 화주이고, 포워더는 계약 당사자로서 요구를 받습니다.</text>
+<rect x="48" y="122" width="560" height="127" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="66" y="152" font-size="16.5" font-weight="800" fill="#1f6fd1" text-anchor="start">EU CSDDD(기업 지속가능성 실사 지침, 2026년 개정)</text>
+<text x="66" y="179" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">종업원 5,000명 초과·전 세계 순매출 15억 유로 초과 기업</text>
+<text x="66" y="204" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">회원국 국내법을 거쳐 2029. 7. 26.부터 적용</text>
+<text x="66" y="229" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">금전 제재 상한 전 세계 순매출의 3%</text>
+<path d="M608 185.5 L648 185.5 L648 385 L676 385" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="48" y="263" width="560" height="102" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="66" y="293" font-size="16.5" font-weight="800" fill="#1f6fd1" text-anchor="start">EU CSRD(지속가능성 보고)</text>
+<text x="66" y="320" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">종업원 1,000명 초과·순매출 4억 5천만 유로 초과 기업</text>
+<text x="66" y="345" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">2·3차 대상의 보고 시작은 미뤄짐</text>
+<path d="M608 314.0 L648 314.0 L648 385 L676 385" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="48" y="379" width="560" height="127" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="66" y="409" font-size="16.5" font-weight="800" fill="#1f6fd1" text-anchor="start">독일 LkSG(공급망실사법)</text>
+<text x="66" y="436" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">2024. 1. 1.부터 종업원 1,000명 이상 기업</text>
+<text x="66" y="461" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">직접 공급자에게 계약상 보증·교육·통제 장치(§ 6 제4항)</text>
+<text x="66" y="486" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">보고 의무 삭제 개정안, BAFA 보고서 심사 중단(실사 의무는 남음)</text>
+<path d="M608 442.5 L648 442.5 L648 385 L676 385" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="48" y="520" width="560" height="102" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="66" y="550" font-size="16.5" font-weight="800" fill="#1f6fd1" text-anchor="start">EU NIS2 지침</text>
+<text x="66" y="577" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">운송, 우편·택배 등 18개 업종의 중대형 기업</text>
+<text x="66" y="602" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">공급망 보안: 직접 공급자·서비스 제공자와의 관계(제21조 제2항 (d))</text>
+<path d="M608 571.0 L648 571.0 L648 385 L676 385" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="676" y="262" width="420" height="250" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="3"/>
+<text x="696" y="298" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">대상 기업(화주)</text>
+<text x="700" y="338" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">· 공급업체 행동규범 서명</text>
+<text x="700" y="370" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">· 실사·보안 질문지</text>
+<text x="700" y="402" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">· 계약 조항: 보증, 감사·점검 권한,</text>
+<text x="716" y="434" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">개선 계획, 위반 시 해지</text>
+<text x="700" y="466" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">· EcoVadis·CyberVadis·CDP 요청</text>
+<path d="M1096 387.0 L1156 387.0" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="1160" y="262" width="464" height="250" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="3"/>
+<text x="1180" y="298" font-size="20" font-weight="800" fill="#d9482b" text-anchor="start">포워더</text>
+<text x="1184" y="338" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">· 대부분 법의 직접 대상이 아님</text>
+<text x="1184" y="372" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">· 계약 당사자로서 요구를 받음</text>
+<text x="1184" y="406" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">· 계약에 편입되면 답변·인증서가 진술·보증</text>
+<text x="1184" y="440" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">· 사실과 다르면 계약 해지·거래 중단 사유</text>
+<path d="M1392.0 512 L1392.0 562" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="1160" y="568" width="464" height="176" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="1180" y="602" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">하청 운송사·창고·해외 파트너</text>
+<text x="1180" y="632" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">화주에게 약속한 의무 중 협력사 수행이 필요한 항목을</text>
+<text x="1180" y="656" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">하청계약에 반영합니다. 영세 협력사에는 간소화한</text>
+<text x="1180" y="680" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">행동강령·서약서를 씁니다. 반영하지 않으면 의무 이행이나</text>
+<text x="1180" y="704" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">구상이 어려워질 수 있습니다.</text>
+<rect x="676" y="560" width="420" height="330" rx="12" fill="#fffaf2" stroke="#a35f00" stroke-width="2.5"/>
+<text x="696" y="594" font-size="18" font-weight="800" fill="#a35f00" text-anchor="start">작은 거래 상대를 위한 장치</text>
+<text x="696" y="630" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">CSDDD: 중소기업 등 작은 거래 상대에 대한 정보 요청</text>
+<text x="696" y="654" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">제한, 지침, 모델 계약 조항.</text>
+<text x="696" y="696" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">CSRD: 종업원 1,000명 미만 회사는 자발적 보고</text>
+<text x="696" y="720" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">기준을 넘는 정보 요청을 거절할 수 있음.</text>
+<text x="696" y="762" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">대상 기업은 위험 기반으로 접근하고 대상이 아닌</text>
+<text x="696" y="786" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">회사에 불필요한 정보를 요구하지 않아야 함(유럽의회</text>
+<text x="696" y="810" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">설명).</text>
+<rect x="48" y="660" width="560" height="230" rx="12" fill="#eef4fb" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="68" y="694" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">포워더가 직접 대상인지 따로 볼 때</text>
+<text x="68" y="728" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">· EU·독일에 법인이 있고 종업원·매출 기준을 넘는 그룹 포워더</text>
+<text x="68" y="760" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">· NIS2: 회원국 국내법의 업종 정의(운송, 우편·택배)와 규모 기준에</text>
+<text x="68" y="784" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">들어가는 현지 법인</text>
+<text x="68" y="816" font-size="15.5" font-weight="700" fill="#1d2a3a" text-anchor="start">→ 현지 법률 검토를 받습니다. 그 밖의 경우 의무는 계약서에서 옵니다.</text>
+</svg>

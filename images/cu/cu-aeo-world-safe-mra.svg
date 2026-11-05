@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c93c22"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">AEO의 공통 뿌리 WCO SAFE와 한국 AEO의 상호인정(MRA) 연결</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#3d4a5a">SAFE는 2005년 6월 WCO 이사회가 채택했고 최신판은 2025년판(2025. 9. 발표)입니다. MRA 현황은 관세청(2026. 3. 말)과 DG TAXUD 목록(2026. 11. 5. 확인) 기준입니다.</text>
+<rect x="48" y="118" width="1576" height="132" rx="12" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="68" y="148" font-size="18" font-weight="800" fill="#1f6fd1">SAFE Framework of Standards의 세 기둥(함께 이행하도록 설계)</text>
+<rect x="68" y="162" width="496" height="72" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="86" y="192" font-size="17" font-weight="800" fill="#1d2a3a">① 세관 간 협력</text>
+<text x="86" y="220" font-size="15" font-weight="500" fill="#3d4a5a">Customs-to-Customs network arrangements</text>
+<rect x="588" y="162" width="496" height="72" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="606" y="192" font-size="17" font-weight="800" fill="#1d2a3a">② 세관과 기업의 협력</text>
+<text x="606" y="220" font-size="15" font-weight="500" fill="#3d4a5a">Customs-to-Business partnerships</text>
+<rect x="1108" y="162" width="496" height="72" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1126" y="192" font-size="17" font-weight="800" fill="#1d2a3a">③ 세관과 다른 정부기관의 협력</text>
+<text x="1126" y="220" font-size="15" font-weight="500" fill="#3d4a5a">Customs-to-other Government Agencies cooperation</text>
+<rect x="48" y="270" width="1000" height="560" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="68" y="302" font-size="18" font-weight="800" fill="#1f8a5b">한국 관세청 AEO와 MRA를 맺은 주요 제도(실선 = 전면이행)</text>
+<rect x="418" y="500" width="240" height="70" rx="12" fill="#eef4fb" stroke="#1d2a3a" stroke-width="3"/>
+<text x="538.0" y="532" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">한국 관세청 AEO</text>
+<text x="538.0" y="556" font-size="15" font-weight="600" fill="#3d4a5a" text-anchor="middle">수출입 안전관리 우수업체</text>
+<rect x="80" y="330" width="240" height="64" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="200" y="358" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">미국 CTPAT</text>
+<text x="200" y="382" font-size="14" font-weight="600" fill="#3d4a5a" text-anchor="middle">CBP</text>
+<path d="M538.0 500 L200 394" stroke="#1f8a5b" stroke-width="2.5" fill="none"/>
+<rect x="418" y="330" width="240" height="64" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="538" y="358" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">중국 고급인증·인증기업</text>
+<text x="538" y="382" font-size="14" font-weight="600" fill="#3d4a5a" text-anchor="middle">해관총서</text>
+<path d="M538.0 500 L538 394" stroke="#1f8a5b" stroke-width="2.5" fill="none"/>
+<rect x="756" y="330" width="240" height="64" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="876" y="358" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">일본 AEO</text>
+<text x="876" y="382" font-size="14" font-weight="600" fill="#3d4a5a" text-anchor="middle">재무성 관세국</text>
+<path d="M538.0 500 L876 394" stroke="#1f8a5b" stroke-width="2.5" fill="none"/>
+<rect x="80" y="650" width="240" height="64" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="200" y="678" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">캐나다 PIP</text>
+<text x="200" y="702" font-size="14" font-weight="600" fill="#3d4a5a" text-anchor="middle">CBSA</text>
+<path d="M538.0 570 L200 650" stroke="#1f8a5b" stroke-width="2.5" fill="none"/>
+<rect x="418" y="650" width="240" height="64" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="538" y="678" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">싱가포르 STP·STP-Plus</text>
+<text x="538" y="702" font-size="14" font-weight="600" fill="#3d4a5a" text-anchor="middle">싱가포르 세관</text>
+<path d="M538.0 570 L538 650" stroke="#1f8a5b" stroke-width="2.5" fill="none"/>
+<rect x="756" y="650" width="240" height="64" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2"/>
+<text x="876" y="678" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">영국 AEO</text>
+<text x="876" y="702" font-size="14" font-weight="600" fill="#3d4a5a" text-anchor="middle">HMRC</text>
+<path d="M538.0 570 L876 650" stroke="#1f8a5b" stroke-width="2.5" fill="none"/>
+<rect x="796" y="503" width="200" height="64" rx="12" fill="#fff6f3" stroke="#c93c22" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="896" y="531" font-size="17" font-weight="800" fill="#c93c22" text-anchor="middle">EU AEO</text>
+<text x="896" y="555" font-size="15" font-weight="800" fill="#c93c22" text-anchor="middle">MRA 없음</text>
+<path d="M658 535.0 L796 535" stroke="#c93c22" stroke-width="2.5" fill="none" stroke-dasharray="8 6"/>
+<text x="706" y="525" font-size="26" font-weight="800" fill="#c93c22" text-anchor="middle">×</text>
+<text x="68" y="750" font-size="15" font-weight="600" fill="#1d2a3a">그 밖의 전면이행: 호주, 대만, 홍콩, 인도, 말레이시아, 인도네시아, 멕시코, UAE, 태국, 튀르키예, 뉴질랜드, 이스라엘, 페루, 도미니카공화국,</text>
+<text x="68" y="773" font-size="15" font-weight="600" fill="#1d2a3a">사우디아라비아</text>
+<text x="68" y="806" font-size="15" font-weight="600" fill="#3d4a5a">전면이행 준비: 베트남, 몽골, 카자흐스탄, 우루과이</text>
+<rect x="1070" y="270" width="554" height="560" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1090" y="302" font-size="18" font-weight="800" fill="#1f6fd1">EU가 MRA를 맺은 상대(DG TAXUD)</text>
+<rect x="1090" y="322" width="158" height="44" rx="10" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="1.8"/>
+<text x="1169" y="351" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">캐나다</text>
+<rect x="1262" y="322" width="158" height="44" rx="10" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="1.8"/>
+<text x="1341" y="351" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">중국</text>
+<rect x="1434" y="322" width="158" height="44" rx="10" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="1.8"/>
+<text x="1513" y="351" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">일본</text>
+<rect x="1090" y="380" width="158" height="44" rx="10" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="1.8"/>
+<text x="1169" y="409" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">몰도바</text>
+<rect x="1262" y="380" width="158" height="44" rx="10" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="1.8"/>
+<text x="1341" y="409" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">노르웨이</text>
+<rect x="1434" y="380" width="158" height="44" rx="10" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="1.8"/>
+<text x="1513" y="409" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">스위스</text>
+<rect x="1090" y="438" width="158" height="44" rx="10" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="1.8"/>
+<text x="1169" y="467" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">미국</text>
+<rect x="1262" y="438" width="158" height="44" rx="10" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="1.8"/>
+<text x="1341" y="467" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">튀르키예</text>
+<rect x="1434" y="438" width="158" height="44" rx="10" fill="#f4f8fd" stroke="#1f6fd1" stroke-width="1.8"/>
+<text x="1513" y="467" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">영국</text>
+<rect x="1090" y="510" width="514" height="64" rx="12" fill="#fff6f3" stroke="#c93c22" stroke-width="2.5"/>
+<text x="1347" y="550" font-size="18" font-weight="800" fill="#c93c22" text-anchor="middle">한국은 EU의 MRA 상대국 목록에 없습니다</text>
+<text x="1090" y="610" font-size="15" font-weight="500" fill="#1d2a3a">EU에서는 AEOS 또는 AEOC/AEOS 보유자만 MRA에 참여하고, 정보 교환에</text>
+<text x="1090" y="633" font-size="15" font-weight="500" fill="#1d2a3a">서면 동의해야 합니다.</text>
+<text x="1090" y="670" font-size="15" font-weight="700" fill="#1d2a3a">EU AEO는 MRA 상대국 AEO 거래처를 안전한 거래처로 보지만, 한국</text>
+<text x="1090" y="693" font-size="15" font-weight="700" fill="#1d2a3a">AEO에는 이 인정이 없어 보안 선언서를 따로 요구할 수 있습니다.</text>
+<text x="1090" y="750" font-size="15" font-weight="500" fill="#1d2a3a">EU 밖 업체에 AEO 혜택을 주려면 EU가 그 나라 제도를 동등하다고 인정하고</text>
+<text x="1090" y="773" font-size="15" font-weight="500" fill="#1d2a3a">상호주의에 따른 국제협정이나 EU 법령이 있어야 합니다(UCC 제38조제7항).</text>
+<rect x="48" y="846" width="1576" height="56" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="881" font-size="16" font-weight="700" fill="#1d2a3a">원칙: 자격은 각 제도의 설립지·등록 요건을 따르고, 해외에서 혜택을 받으려면 통상 MRA 같은 상호인정 체계가 필요합니다. 식별정보는 「AEO 공인과 사후관리」 6절.</text>
+</svg>

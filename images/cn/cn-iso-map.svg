@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">포워더가 만나는 물류 ISO 표준 지도: 분야, 현행 판, 담당 위원회</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#34475c">2026. 11. 5. ISO 공개 페이지 기준. 굵은 글씨는 번호와 현행 판, 괄호는 담당 기술위원회(TC)·분과위원회(SC)입니다.</text>
+
+<!-- card 1 -->
+<rect x="48" y="122" width="300" height="660" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="48" y="122" width="300" height="70" rx="12" fill="#1f6fd1"/>
+<rect x="48" y="170" width="300" height="22" fill="#1f6fd1"/>
+<text x="66" y="154" font-size="20" font-weight="800" fill="#ffffff">① 컨테이너 장비</text>
+<text x="66" y="180" font-size="14" font-weight="600" fill="#ffffff">ISO/TC 104 화물 컨테이너</text>
+<text x="66" y="228" font-size="16" font-weight="800" fill="#1d2a3a">ISO 668:2020/Amd 1:2022</text>
+<text x="66" y="252" font-size="15" font-weight="500" fill="#1d2a3a">분류·외부 치수·최대 총중량</text>
+<text x="66" y="296" font-size="16" font-weight="800" fill="#1d2a3a">ISO 1496 제1~5부</text>
+<text x="66" y="320" font-size="15" font-weight="500" fill="#1d2a3a">형식별 사양과 시험</text>
+<text x="66" y="342" font-size="15" font-weight="500" fill="#1d2a3a">(드라이·리퍼·탱크·벌크·플랫)</text>
+<text x="66" y="386" font-size="16" font-weight="800" fill="#1d2a3a">ISO 1161:2026</text>
+<text x="66" y="410" font-size="15" font-weight="500" fill="#1d2a3a">코너·중간 피팅 (6판, 2026년 10월)</text>
+<text x="66" y="454" font-size="16" font-weight="800" fill="#1d2a3a">ISO 3874:2017</text>
+<text x="66" y="478" font-size="15" font-weight="500" fill="#1d2a3a">취급·고박(들어 올리기 조건)</text>
+<text x="66" y="522" font-size="16" font-weight="800" fill="#1d2a3a">ISO 830:2024</text>
+<text x="66" y="546" font-size="15" font-weight="500" fill="#1d2a3a">컨테이너 용어</text>
+<text x="66" y="590" font-size="16" font-weight="800" fill="#1d2a3a">ISO 6346:2022</text>
+<text x="66" y="614" font-size="15" font-weight="500" fill="#1d2a3a">번호·크기형식 코드·표시</text>
+<rect x="64" y="650" width="268" height="112" rx="8" fill="#eef4fb"/>
+<text x="78" y="678" font-size="14" font-weight="700" fill="#1d2a3a">SC 1 일반용 컨테이너</text>
+<text x="78" y="702" font-size="14" font-weight="700" fill="#1d2a3a">SC 2 특수용 컨테이너</text>
+<text x="78" y="726" font-size="14" font-weight="700" fill="#1d2a3a">SC 4 식별과 통신</text>
+<text x="78" y="750" font-size="13" font-weight="500" fill="#34475c">ISO 6346은 번호·코드 문서에서</text>
+
+<!-- card 2 -->
+<rect x="367" y="122" width="300" height="660" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<rect x="367" y="122" width="300" height="70" rx="12" fill="#d9482b"/>
+<rect x="367" y="170" width="300" height="22" fill="#d9482b"/>
+<text x="385" y="154" font-size="20" font-weight="800" fill="#ffffff">② 씰과 식별</text>
+<text x="385" y="180" font-size="14" font-weight="600" fill="#ffffff">ISO/TC 104와 그 분과위원회</text>
+<text x="385" y="228" font-size="16" font-weight="800" fill="#1d2a3a">ISO 17712:2013</text>
+<text x="385" y="252" font-size="15" font-weight="500" fill="#1d2a3a">기계식 씰, I·S·H 등급</text>
+<text x="385" y="274" font-size="15" font-weight="500" fill="#1d2a3a">(2023년 검토에서 그대로 확인)</text>
+<text x="385" y="318" font-size="16" font-weight="800" fill="#1d2a3a">ISO 18185 제1~5부</text>
+<text x="385" y="342" font-size="15" font-weight="500" fill="#1d2a3a">전자 씰(통신·적용·환경·</text>
+<text x="385" y="364" font-size="15" font-weight="500" fill="#1d2a3a">데이터 보호·물리 계층)</text>
+<text x="385" y="408" font-size="16" font-weight="800" fill="#1d2a3a">ISO 10374:1991/Amd 1:1995</text>
+<text x="385" y="432" font-size="15" font-weight="500" fill="#1d2a3a">컨테이너 자동 인식</text>
+<text x="385" y="476" font-size="16" font-weight="800" fill="#1d2a3a">ISO/TS 7352:2023</text>
+<text x="385" y="500" font-size="15" font-weight="500" fill="#1d2a3a">NFC·QR 코드 씰</text>
+<text x="385" y="544" font-size="16" font-weight="800" fill="#1d2a3a">ISO 10368:2006</text>
+<text x="385" y="568" font-size="15" font-weight="500" fill="#1d2a3a">리퍼 원격 상태 감시</text>
+<text x="385" y="612" font-size="16" font-weight="800" fill="#1d2a3a">ISO/TS 18625:2017</text>
+<text x="385" y="636" font-size="15" font-weight="500" fill="#1d2a3a">컨테이너 추적·감시 시스템</text>
+<rect x="383" y="672" width="268" height="90" rx="8" fill="#fdf0ec"/>
+<text x="397" y="700" font-size="14" font-weight="700" fill="#1d2a3a">미국행 적컨테이너는 법률이</text>
+<text x="397" y="724" font-size="14" font-weight="700" fill="#1d2a3a">ISO/PAS 17712 씰을 요구</text>
+<text x="397" y="748" font-size="13" font-weight="500" fill="#34475c">6 U.S.C. 944(a)(4)(B)(i)</text>
+
+<!-- card 3 -->
+<rect x="686" y="122" width="300" height="660" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<rect x="686" y="122" width="300" height="70" rx="12" fill="#1f8a5b"/>
+<rect x="686" y="170" width="300" height="22" fill="#1f8a5b"/>
+<text x="704" y="154" font-size="20" font-weight="800" fill="#ffffff">③ 팔레트</text>
+<text x="704" y="180" font-size="14" font-weight="600" fill="#ffffff">ISO/TC 51 · 국가기술표준원(KS)</text>
+<text x="704" y="228" font-size="16" font-weight="800" fill="#1d2a3a">ISO 6780:2003</text>
+<text x="704" y="252" font-size="15" font-weight="500" fill="#1d2a3a">대륙간 평팔레트 주요 치수</text>
+<text x="704" y="274" font-size="15" font-weight="500" fill="#1d2a3a">(2026년 검토에서 그대로 확인)</text>
+<text x="704" y="318" font-size="16" font-weight="800" fill="#1d2a3a">ISO 8611-1:2025</text>
+<text x="704" y="342" font-size="15" font-weight="500" fill="#1d2a3a">평팔레트 시험 방법(4판)</text>
+<text x="704" y="386" font-size="16" font-weight="800" fill="#1d2a3a">ISO 8611-2 · 8611-3</text>
+<text x="704" y="410" font-size="15" font-weight="500" fill="#1d2a3a">성능 기준·최대 적재하중</text>
+<text x="704" y="454" font-size="16" font-weight="800" fill="#1d2a3a">KS T 0006</text>
+<text x="704" y="478" font-size="15" font-weight="500" fill="#1d2a3a">유닛로드 시스템 통칙</text>
+<text x="704" y="500" font-size="15" font-weight="500" fill="#1d2a3a">1,100×1,100mm(T-11) 기본</text>
+<text x="704" y="544" font-size="16" font-weight="800" fill="#1d2a3a">KS T ISO 6780</text>
+<text x="704" y="568" font-size="15" font-weight="500" fill="#1d2a3a">ISO 6780:2003과 일치(IDT)</text>
+<rect x="702" y="650" width="268" height="112" rx="8" fill="#eaf6f0"/>
+<text x="716" y="678" font-size="14" font-weight="700" fill="#1d2a3a">항공 ULD 성능 표준은</text>
+<text x="716" y="702" font-size="14" font-weight="700" fill="#1d2a3a">ISO 21100(TC 20/SC 9)</text>
+<text x="716" y="726" font-size="13" font-weight="500" fill="#34475c">2020년판이 2025년판으로</text>
+<text x="716" y="750" font-size="13" font-weight="500" fill="#34475c">바뀜, 자세한 것은 ULD 문서</text>
+
+<!-- card 4 -->
+<rect x="1005" y="122" width="300" height="660" rx="12" fill="#ffffff" stroke="#6b4fbb" stroke-width="2.5"/>
+<rect x="1005" y="122" width="300" height="70" rx="12" fill="#6b4fbb"/>
+<rect x="1005" y="170" width="300" height="22" fill="#6b4fbb"/>
+<text x="1023" y="154" font-size="20" font-weight="800" fill="#ffffff">④ 서류·EDI 코드</text>
+<text x="1023" y="180" font-size="14" font-weight="600" fill="#ffffff">여러 TC와 UNECE</text>
+<text x="1023" y="228" font-size="16" font-weight="800" fill="#1d2a3a">ISO 3166-1:2020</text>
+<text x="1023" y="252" font-size="15" font-weight="500" fill="#1d2a3a">국가 코드 (TC 46)</text>
+<text x="1023" y="296" font-size="16" font-weight="800" fill="#1d2a3a">ISO 4217:2015</text>
+<text x="1023" y="320" font-size="15" font-weight="500" fill="#1d2a3a">통화 코드 (TC 68/SC 8)</text>
+<text x="1023" y="364" font-size="16" font-weight="800" fill="#1d2a3a">ISO 8601-1:2019/Amd 1:2022</text>
+<text x="1023" y="388" font-size="15" font-weight="500" fill="#1d2a3a">날짜·시각 표기 (TC 154)</text>
+<text x="1023" y="432" font-size="16" font-weight="800" fill="#1d2a3a">UN/LOCODE</text>
+<text x="1023" y="456" font-size="15" font-weight="500" fill="#1d2a3a">무역·운송 지점 코드</text>
+<text x="1023" y="478" font-size="15" font-weight="500" fill="#1d2a3a">(UNECE 권고 제16호)</text>
+<text x="1023" y="522" font-size="16" font-weight="800" fill="#1d2a3a">ISO/IEC 15459-1:2014</text>
+<text x="1023" y="546" font-size="15" font-weight="500" fill="#1d2a3a">운송 단위 고유 식별자</text>
+<text x="1023" y="568" font-size="15" font-weight="500" fill="#1d2a3a">(JTC 1/SC 31)</text>
+<rect x="1021" y="650" width="268" height="112" rx="8" fill="#f1edfa"/>
+<text x="1035" y="678" font-size="14" font-weight="700" fill="#1d2a3a">예: KRPUS = KR(ISO 3166-1</text>
+<text x="1035" y="702" font-size="14" font-weight="700" fill="#1d2a3a">2자리 국가 코드) + PUS</text>
+<text x="1035" y="726" font-size="13" font-weight="500" fill="#34475c">USD·EUR·KRW는 ISO 4217,</text>
+<text x="1035" y="750" font-size="13" font-weight="500" fill="#34475c">2026-11-05는 ISO 8601 형식</text>
+
+<!-- card 5 -->
+<rect x="1324" y="122" width="300" height="660" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2.5"/>
+<rect x="1324" y="122" width="300" height="70" rx="12" fill="#b7791f"/>
+<rect x="1324" y="170" width="300" height="22" fill="#b7791f"/>
+<text x="1342" y="154" font-size="20" font-weight="800" fill="#ffffff">⑤ 탄소·콜드체인</text>
+<text x="1342" y="180" font-size="14" font-weight="600" fill="#ffffff">TC 207/SC 7 · TC 315</text>
+<text x="1342" y="228" font-size="16" font-weight="800" fill="#1d2a3a">ISO 14083:2023</text>
+<text x="1342" y="252" font-size="15" font-weight="500" fill="#1d2a3a">운송 체인 온실가스</text>
+<text x="1342" y="274" font-size="15" font-weight="500" fill="#1d2a3a">배출량 산정과 보고</text>
+<text x="1342" y="318" font-size="16" font-weight="800" fill="#1d2a3a">ISO 23412:2020</text>
+<text x="1342" y="342" font-size="15" font-weight="500" fill="#1d2a3a">간접 온도관리 냉장 택배</text>
+<text x="1342" y="364" font-size="15" font-weight="500" fill="#1d2a3a">(중간 환적이 있는 육상)</text>
+<text x="1342" y="386" font-size="15" font-weight="500" fill="#1d2a3a">2025년 검토에서 확인</text>
+<rect x="1340" y="650" width="268" height="112" rx="8" fill="#fbf3e4"/>
+<text x="1354" y="678" font-size="14" font-weight="700" fill="#1d2a3a">ISO 14083 산정 방법은</text>
+<text x="1354" y="702" font-size="14" font-weight="700" fill="#1d2a3a">탄소 배출 문서에서</text>
+<text x="1354" y="726" font-size="13" font-weight="500" fill="#34475c">ISO 23412는 항공·해상·철도와</text>
+<text x="1354" y="750" font-size="13" font-weight="500" fill="#34475c">의약품을 범위에서 뺌</text>
+
+<line x1="1342" y1="420" x2="1606" y2="420" stroke="#e3d3b4" stroke-width="1.5"/>
+<text x="1342" y="452" font-size="15" font-weight="800" fill="#1d2a3a">화주 요청을 받으면</text>
+<text x="1342" y="480" font-size="15" font-weight="500" fill="#1d2a3a">· 어느 표준·판 기준인지</text>
+<text x="1342" y="506" font-size="15" font-weight="500" fill="#1d2a3a">· 대상 기간과 선적 범위</text>
+<text x="1342" y="532" font-size="15" font-weight="500" fill="#1d2a3a">· 운송인 실측값인지 기본값인지</text>
+<text x="1342" y="558" font-size="15" font-weight="500" fill="#1d2a3a">· 택배 구간이 표준 범위인지</text>
+<text x="1342" y="584" font-size="15" font-weight="500" fill="#1d2a3a">를 서면으로 먼저 확인합니다.</text>
+<!-- bottom strip -->
+<rect x="48" y="804" width="1576" height="96" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="68" y="838" font-size="17" font-weight="800" fill="#1d2a3a">판 읽는 법</text>
+<text x="190" y="838" font-size="16" font-weight="600" fill="#1d2a3a">ISO 668:2020/Amd 1:2022 = 2020년에 나온 제7판 + 2022년 개정 1. 표준은 5년마다 정기 검토하며, "확인(confirmed)"은 새 판 없이 그대로 쓴다는 뜻입니다.</text>
+<text x="190" y="872" font-size="16" font-weight="600" fill="#1d2a3a">KS는 같은 번호라도 대응하는 ISO 판이 다를 수 있습니다. 예: KS T ISO 668은 ISO 668:1995와 일치(IDT)로 등록되어 있습니다.</text>
+</svg>

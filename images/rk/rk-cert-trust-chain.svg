@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">인증서의 신뢰 구조와 확인 방법, 3년 인증 주기</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">ISO는 표준을 만들 뿐 인증서를 발급하지 않습니다. 인증서의 신뢰는 국제 인정 협력 → 인정기구 → 인증기관 순으로 내려옵니다.</text>
+<rect x="330" y="124" width="560" height="104" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="350" y="156" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">Global ACI(국제인정협력체)</text>
+<text x="350" y="186" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">2026. 1. 1. IAF와 ILAC를 통합해 출범. 상호인정협정(MRA) 운영.</text>
+<text x="350" y="212" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">인증기관을 직접 인정하거나 인증서를 발급하지 않음</text>
+<path d="M610.0 228 L610.0 250" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="330" y="254" width="560" height="104" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="3"/>
+<text x="350" y="286" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">국가 인정기구</text>
+<text x="350" y="316" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">한국은 한국인정평가원(KAB). 동등성 평가를 거쳐 MRA에 서명.</text>
+<text x="350" y="342" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">인증기관이 ISO/IEC 17021-1에 맞게 일하는지 평가해 인정</text>
+<path d="M610.0 358 L610.0 380" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="330" y="384" width="560" height="104" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="3"/>
+<text x="350" y="416" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start">인정받은 인증기관</text>
+<text x="350" y="446" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">문서 심사와 현장 심사로 표준 요구사항 충족 여부를 판정.</text>
+<text x="350" y="472" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">인증서를 발급하고 사후심사·갱신심사를 함</text>
+<path d="M610.0 488 L610.0 510" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="330" y="514" width="560" height="104" rx="12" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="350" y="546" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">인증받은 회사(포워더 등)</text>
+<text x="350" y="576" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">인증서에 적힌 법인·범위·사업장에 대해서만 인증.</text>
+<text x="350" y="602" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">화주에게 인증서 사본과 조회 정보를 제출</text>
+<rect x="48" y="124" width="250" height="232" rx="12" fill="#fff6f3" stroke="#d9482b" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="68" y="160" font-size="22" font-weight="800" fill="#d9482b" text-anchor="start">ISO</text>
+<text x="68" y="192" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">국제표준을 만드는</text>
+<text x="68" y="217" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">기구입니다.</text>
+<text x="68" y="246" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">기업을 심사하거나 인증서를</text>
+<text x="68" y="271" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">발급하지 않습니다. "ISO가</text>
+<text x="68" y="296" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">인증했다"는 표현은 틀린</text>
+<text x="68" y="321" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">말입니다.</text>
+<rect x="48" y="382" width="250" height="232" rx="12" fill="#eef4fb" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="68" y="416" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="start">마크로 보는 것</text>
+<text x="68" y="446" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">인증기관 마크와 인정기구</text>
+<text x="68" y="469" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">마크(KAB 등)가 함께 표시되는</text>
+<text x="68" y="492" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">경우가 많고, 불분명하면</text>
+<text x="68" y="515" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">조회로 확인합니다.</text>
+<text x="68" y="550" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">IAF MLA 마크는 Global ACI</text>
+<text x="68" y="573" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">새 마크 도입 때까지 쓰입니다.</text>
+<rect x="930" y="124" width="694" height="490" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="3"/>
+<text x="952" y="160" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">인증서가 진짜이고 유효한지 확인하는 방법</text>
+<text x="952" y="204" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">①</text>
+<text x="986" y="204" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">인증서에 적힌 인증기관에 직접 조회</text>
+<text x="986" y="232" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">Global ACI가 안내하는 첫 단계입니다. 인증번호, 법인명, 범위, 만료일을 함께</text>
+<text x="986" y="256" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">묻습니다.</text>
+<text x="952" y="302" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">②</text>
+<text x="986" y="302" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">한국인정평가원 KCN(인증기업 검색)</text>
+<text x="986" y="330" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">KAB가 인정한 인증기관의 인증. 기업명과 인증번호를 정확히 넣어야 하고 하루 검색</text>
+<text x="986" y="354" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">횟수 제한이 있습니다.</text>
+<text x="952" y="400" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">③</text>
+<text x="986" y="400" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">IAF CertSearch(영문)</text>
+<text x="986" y="428" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">KAB가 함께 안내하는 국제 조회 서비스입니다. 해외 파트너·하청사 인증서 확인에도</text>
+<text x="986" y="452" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">씁니다.</text>
+<text x="952" y="498" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="start">④</text>
+<text x="986" y="498" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">결과와 서류를 대조</text>
+<text x="986" y="526" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">조회 결과의 범위·사업장·만료일이 제출받은 사본과 같은지 봅니다. 다르면 위·변조나</text>
+<text x="986" y="550" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">만료를 의심합니다.</text>
+<text x="48" y="650" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">3년 인증 주기(보통)</text>
+<rect x="48" y="670" width="1576" height="214" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<path d="M110 742 L1560 742" stroke="#5f6b78" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+<circle cx="150" cy="742" r="11" fill="#1f6fd1"/>
+<text x="150" y="720" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">최초 인증 심사</text>
+<text x="150" y="780" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="middle">문서 심사·현장 심사</text>
+<circle cx="430" cy="742" r="11" fill="#1f6fd1"/>
+<text x="430" y="720" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">인증 결정</text>
+<text x="430" y="780" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="middle">인증서 발급</text>
+<circle cx="720" cy="742" r="11" fill="#1f6fd1"/>
+<text x="720" y="720" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">1년차 사후심사</text>
+<text x="720" y="780" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="middle">보통 매년 1회</text>
+<circle cx="1010" cy="742" r="11" fill="#1f6fd1"/>
+<text x="1010" y="720" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">2년차 사후심사</text>
+<text x="1010" y="780" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="middle">보통 매년 1회</text>
+<circle cx="1320" cy="742" r="11" fill="#1f6fd1"/>
+<text x="1320" y="720" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">갱신심사</text>
+<text x="1320" y="780" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="middle">만료 전, 새 인증 주기</text>
+<text x="64" y="844" font-size="15.5" font-weight="600" fill="#5f6b78" text-anchor="start">인증기관은 사후관리 활동으로 경영시스템이 계속 유효한지 평가합니다(KAB). 실제 시기는 인증기관 규칙이 정하며, 화주에게 낸 인증서는 사후심사 시기마다 유효한지 다시 확인합니다.</text>
+</svg>

@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/customs';
-  const DOCS_VERSION = '20261104-02';
+  const DOCS_VERSION = '20261105-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -44,6 +44,7 @@
     { id: 'cu-carnet', checked: '2026-10-28', tag: "일시수입", level: 3, title: "ATA 까르네와 일시수입 — 전시품·견본·직업용구, 대한상의 발급과 보증, 재수출 확인과 클레임, 까르네를 못 쓰는 수리·임대 장비", short: "ATA 까르네와 일시수입", summary: "통관 서류이자 담보인 ATA 까르네의 구조(ATA 협약 제3조·제6조, 한국 1978년 발효, 이스탄불 협약과의 관계), 상업용 견본·직업용구·전시회 용도와 가공·수리·임대·판매·소비 물품 제외, 약 80개 국가·관세영역과 관세청 고시 별표의 차이, 최장 1년 유효기간과 연장까르네·2026년 6월 디지털 까르네, 대한상공회의소 발급 절차와 보증보험, 네 번의 세관 확인과 반납, 외국 까르네 물품의 한국 내 재수출신고와 30일 적재, 유효기간 만료 뒤 1년 청구·6개월 증명·10% 가산세와 구상, 까르네 없이 받는 재수출면세·재수출 감면, 수리 왕복의 해외임가공 감세와 임대·공사 장비의 재수입면세, 포워더가 서류로 맞출 것을 정리합니다." },
     { id: 'cu-intermediary', checked: '2026-10-28', tag: "중계무역", level: 3, title: "중계무역과 삼국 간 거래 — 반송신고, Switch B/L과 두 장의 인보이스, 부가가치세 영세율, 외환 신고, 수출실적", short: "중계무역과 삼국 간 거래", summary: "대외무역관리규정의 중계무역·외국인도수출·위탁가공무역 정의와 법령에 규정되지 않은 중개무역의 법적 지위, 한국 보세구역을 거칠 때의 반송신고(30일 기한, 장치기간 1년, 환적과의 경계), 화물이 한국을 거치지 않을 때의 인보이스·Switch B/L·원산지증명서 흐름, 부가가치세 영세율과 국외거래 계산서, 대금 결제 방법별 외환 신고, 수출실적 가득액, 전략물자 중개허가와 포워더가 서류로 확인할 것을 정리합니다." },
     { id: 'cu-aeo', checked: '2026-10-19', tag: "AEO", level: 2, title: "수출입 안전관리 우수업체(AEO) — 공인 기준·등급·혜택과 공인 뒤 관리", short: "AEO 공인과 사후관리", summary: "관세법·AEO 고시 기준으로 공인기준과 A·AA·AAA 등급, 신청부터 갱신까지의 기간, 업종별 혜택과 MRA, 공인 뒤 의무와 혜택 정지·취소 사유, 법규준수도 감점, 위반을 막는 사전 점검표와 위반이 생겼을 때의 대응, 실제 사례 2건을 정리합니다." },
+    { id: 'cu-aeo-world', checked: '2026-11-05', tag: "해외 AEO", level: 3, title: "해외 AEO 제도 — 미국 CTPAT, EU AEO(AEOC·AEOS·AEOF), 중국·일본·캐나다·싱가포르 제도와 해외 파트너의 보안 요구", short: "해외 AEO 제도", summary: "WCO SAFE Framework를 공통 뿌리로 미국 CTPAT, EU AEO, 중국 해관 고급인증기업·인증기업, 일본 AEO, 캐나다 PIP, 싱가포르 STP의 근거·대상·등급·혜택과 해외 회사의 가입 가능 여부를 비교합니다. 한국 포워더 본사는 이 제도들에 직접 가입할 수 없어 회원의 거래처로 기준을 요구받으며, 한국 AEO는 미국·중국·일본·캐나다·싱가포르와 MRA가 있지만 EU와는 없습니다. CTPAT 질문지와 EU 보안 선언서를 받았을 때 FCL·자체 LCL 콘솔별로 낼 자료, 서명 전 문구 조율과 보험, 사내 승인, 거짓 답변의 위험을 정리합니다." },
     { id: 'cu-penalty', checked: '2026-10-19', tag: "제재", level: 3, title: "세관 과태료·가산세·벌금 — 무엇이 다르고, 통지를 받으면 어떻게 대응하나", short: "과태료·가산세·벌금", summary: "관세법상 가산세(세금)·과태료(행정질서벌)·벌금과 통고처분(형벌)을 물류 위반 사례로 구분하고, 과태료 사전통지 뒤 의견제출·자진납부 감경·이의제기 절차와 역할별 책임, 기록 관리, 기한 달력을 정리합니다." },
     { id: 'cu-ipr', checked: '2026-10-23', tag: "지식재산권", level: 3, title: "지식재산권 침해 의심 화물의 통관보류 — 관세법 제235조, 담보·기한, 비용과 폐기", short: "지재권 통관보류", summary: "상표·디자인·특허 침해 의심 화물의 통관보류 경로와 7일·10일·15일 기한, 과세가격 120% 담보, 병행수입 요건, 보류 중 보관료·Demurrage 부담의 법적 근거, 포기·폐기 비용, 수출·환적 적용을 정리했습니다." },
     { id: 'cu-us-filing', checked: '2026-10-20', tag: "사전신고", level: 3, title: "미국·캐나다 사전신고 — AMS·ISF·ACAS·ACI와 미국 수출 AES, 기한과 벌금 피하는 법", short: "미국·캐나다 사전신고", summary: "미국행 해상 AMS와 ISF(10+2), 항공 사전정보·ACAS, 캐나다 ACI(eManifest), 미국발 수출 AES(EEI)를 누가 무엇을 언제까지 보내는지 미국·캐나다 규정 원문으로 정리하고, 부산 선적 일정으로 기한을 계산하며 벌금과 자주 하는 실수, 일정 변경 때 수정 신고를 보여 줍니다." },
@@ -62,7 +63,7 @@
     { title: "통관 절차와 서류", sub: "인보이스·패킹리스트 · 수출입신고와 세금 · 수입 도착·반출 일정 · 보세구역과 보세운송 · 전자상거래·특송 통관", docs: ["cu-documents", "cu-clearance", "cu-import-timeline", "cu-bonded", "cu-ecommerce"] },
     { title: "품목분류와 원산지", sub: "HS 코드 정하는 법 · 사전심사 · FTA 협정관세와 직접운송 · 원산지 표시", docs: ["cu-hs-practice", "cu-fta", "cu-origin-mark"] },
     { title: "환급·일시수입·중계무역", sub: "관세환급 · ATA 까르네와 일시수입 · 중계무역과 삼국간 거래", docs: ["cu-refund", "cu-carnet", "cu-intermediary"] },
-    { title: "AEO·제재·통관보류·해외 신고", sub: "AEO 공인 · 과태료·가산세·벌금 · 지재권 통관보류 · 미국·캐나다 사전신고 · EU ICS2", docs: ["cu-aeo", "cu-penalty", "cu-ipr", "cu-us-filing", "cu-eu-ics2"] }
+    { title: "AEO·제재·통관보류·해외 신고", sub: "AEO 공인 · 해외 AEO(CTPAT·EU AEO) · 과태료·가산세·벌금 · 지재권 통관보류 · 미국·캐나다 사전신고 · EU ICS2", docs: ["cu-aeo", "cu-aeo-world", "cu-penalty", "cu-ipr", "cu-us-filing", "cu-eu-ics2"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
   const STAGES = [
@@ -75,6 +76,8 @@
     { name: "지우개 달린 연필은 어느 코드로 신고하나요", ids: ["cu-hs-practice"] },
     { name: "HS 코드를 잘못 신고하면 어떻게 되나요", ids: ["cu-hs-practice"] },
     { name: "세관에서 과태료 통지를 받았어요", ids: ["cu-penalty"] },
+    { name: "미국 바이어가 CTPAT 질문지를 보냈어요", ids: ["cu-aeo-world"] },
+    { name: "EU 거래처가 AEO 보안 선언서에 서명하래요", ids: ["cu-aeo-world"] },
     { name: "미국행 화물 ISF는 언제까지 보내나요", ids: ["cu-us-filing"] },
     { name: "FTA 관세를 받으려면 무엇이 필요한가요", ids: ["cu-fta"] },
     { name: "제3국을 거쳐도 FTA가 되나요", ids: ["cu-fta"] },

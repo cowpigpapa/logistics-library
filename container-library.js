@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/container';
-  const DOCS_VERSION = '20261104-02';
+  const DOCS_VERSION = '20261105-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -32,6 +32,7 @@
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
     { id: 'cn-codes', tag: "번호·코드", level: 3, title: "컨테이너 번호와 크기·형식 코드(ISO 6346) — 소유자 코드, 체크 디지트, 길이·높이·형식 그룹, 자주 보는 코드, 형식별 내부 치수", short: "컨테이너 번호와 크기·형식 코드", summary: "컨테이너 번호 11자리(소유자 코드 3자리, 장비 구분 U·J·Z, 일련번호 6자리, 체크 디지트)의 뜻과 리스 컨테이너 조회, 체크 디지트 계산 예시, 번호 아래 네 자리 크기·형식 코드(예: 45G1)의 길이·높이·형식 그룹(G·V·R·H·U·P·T·K·N·B·S)과 45ft의 L/5 표기 차이, 자주 보는 코드 20여 개, ONE·Maersk 공개 사양으로 본 20GP·40GP·40HC·리퍼·오픈탑·플랫랙의 내부 치수·문 크기·최대 적재 중량." },
+    { id: 'cn-iso', checked: '2026-11-05', tag: "ISO 표준", level: 2, title: "물류 ISO 표준 — 컨테이너(ISO 668·1496·1161·830), 씰(ISO 17712), 전자 식별(ISO 10374·18185), 팔레트(ISO 6780·8611), 코드(ISO 3166·4217·8601, UN/LOCODE), 탄소(ISO 14083), 소포 콜드체인(ISO 23412)", short: "물류 ISO 표준", summary: "ISO 표준이 원칙적으로 자발적이면서도 CSC·선박안전법 컨테이너 승인, 미국 6 U.S.C. 944의 ISO/PAS 17712 씰 요건, 계약, KS 인용을 거쳐 의무가 되는 경로를 정리합니다. 컨테이너(ISO 668:2020/Amd 1:2022의 호칭과 20GP·40GP·40HC 대응, 최대 총중량 36,000kg과 국내 도로 총중량 40톤·축하중 10톤 기준, ISO 1496 제1~5부와 탱크 정기 검사, ISO 1161:2026, ISO 3874:2017, ISO 830:2024), 씰(ISO 17712:2013 I·S·H 등급, 선사 씰과 자체 씰, 반입 예정 정보·EIR·B/L 씰 번호 대조와 재봉인), 전자 식별(ISO 10374·18185), 팔레트(ISO 6780:2003, ISO 8611-1:2025, T-11 컨테이너 적재 계산과 2단 적재·GP/HC 선택, 목적지 크기와 ISPM 15), 서류·EDI 코드(ISO 3166·4217·8601, UN/LOCODE, ISO/IEC 15459-1), ISO 14083·23412를 입찰 요청서 문구별 회신과 역할별 점검표와 함께 다룹니다." },
     { id: 'cn-oog', checked: '2026-10-19', tag: "OOG", level: 2, title: "대형·중량 화물(OOG) 운송 — 플랫랙·오픈탑·브레이크벌크 선택, 도로 운행허가, 고박 계획서와 검정", short: "대형·중량 화물(OOG)", summary: "OOG·오버하이트/와이드/랭스 정의와 선사별 기준 차이, 오픈탑·플랫랙·플랫폼·브레이크벌크·RoRo 선택 기준, 화주에게 받을 정보와 선사 승인, 제한차량 운행허가 절차, 고박 계획서와 고박 검정을 계산 예시와 역할별 점검표로 정리합니다." },
     { id: 'cn-flexitank', checked: '2026-10-28', tag: "플렉시탱크", level: 3, title: "플렉시탱크 — 구조와 싣는 화물, COA 실무 규약·PAS 1008, CTU Code, 20ft 중량 한계, 선사 승인, 누출 비용과 책임", short: "플렉시탱크", summary: "20ft 드라이 컨테이너에 넣는 1회용 플렉시탱크의 구조(단층·다층, 밸브, 벌크헤드, 라이닝)와 비위험 액체만 싣는 이유, COA 실무 규약 V6의 품질 목록(FQML)·감사와 PAS 1008 철도 충격 시험, CTU Code 부속서 7 5.2의 설치·충전·적출 규정, 24,000kg 상한과 IUMI 18톤·GDV 조사 15톤 권고의 차이, 선사가 부킹 때 요구하는 서류와 LOI 조항, 측벽 팽창·찔림·밸브 누출·발효 팽창 같은 손상 구조, 누출 때 드는 비용과 송하인·공급사·운송인·적하보험·포워더의 책임 분담, 포워더가 서류에서 확인할 것을 역할별 점검표와 함께 정리합니다." },
     { id: 'cn-damage', checked: '2026-10-27', tag: "손상·수리비", level: 3, title: "컨테이너 손상·수리비 청구 — EIR 대조, 손상과 통상 마모, CSC·UCIRC·IICL 기준, CEDEX 견적, 이면약관과 이의 제기", short: "컨테이너 손상·수리비 청구", summary: "반납한 컨테이너의 수리비·청소비 청구가 만들어지는 과정, 반출·반납 기기인수도증(EIR)과 사진을 맞대어 보는 법, UCIRC로 본 손상·통상 마모·제조 결함의 구분, CSC 운송 정지 기준과 UCIRC·IICL-6 수리 기준의 차이, CEDEX 위치·부품·손상·수리·책임 코드로 쓴 견적서 읽기, 위험물·냄새 뒤 세척과 리퍼 냉동기 손상, Maersk·MSC 이면약관의 Merchant 책임과 보장 상품, D&D와의 관계, 상법 제814조 기간과 이의 제기 순서를 역할별 점검표와 함께 정리합니다." }
@@ -46,7 +47,7 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "번호·코드·치수", sub: "컨테이너 번호 · 체크 디지트 · ISO 6346 크기·형식 코드 · 형식별 내부 치수와 문 크기", docs: ["cn-codes"] },
+    { title: "번호·코드·치수와 ISO 표준", sub: "컨테이너 번호 · 체크 디지트 · ISO 6346 크기·형식 코드 · 형식별 내부 치수와 문 크기 · 컨테이너·씰·팔레트·코드의 ISO 표준", docs: ["cn-codes", "cn-iso"] },
     { title: "대형·중량 화물(OOG)", sub: "장비 선택 · 선사 승인 · 제한차량 운행허가 · 고박 계획서와 검정", docs: ["cn-oog"] },
     { title: "특수 장비와 액체 화물", sub: "플렉시탱크 구조와 선사 승인 · 중량 한계 · 누출 비용과 책임", docs: ["cn-flexitank"] },
     { title: "반납과 손상", sub: "컨테이너 손상·수리비 청구와 다투는 법", docs: ["cn-damage"] }
@@ -58,6 +59,8 @@
     { name: "번호를 잘못 적었는지 어떻게 아나요", ids: ["cn-codes"] },
     { name: "45G1, 22R1 같은 코드는 무슨 뜻인가요", ids: ["cn-codes"] },
     { name: "40HC 안에 화물이 들어갈까요", ids: ["cn-codes"] },
+    { name: "입찰서에 ISO 17712 고보안 씰을 쓰라고 해요", ids: ["cn-iso"] },
+    { name: "20ft에 T-11 팔레트가 몇 장 들어가나요", ids: ["cn-iso"] },
     { name: "OOG 화물은 부킹 전에 무엇을 받아야 하나요", ids: ["cn-oog"] },
     { name: "공장에서 부두까지 트레일러 허가는 누가 받나요", ids: ["cn-oog"] },
     { name: "플랫랙 끝벽 작업은 왜 위험한가요", ids: ["cn-oog"] }

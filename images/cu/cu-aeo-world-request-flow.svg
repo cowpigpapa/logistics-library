@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c93c22"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">해외 거래처의 보안 질문지·선언서를 받았을 때의 판단 순서</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#3d4a5a">CTPAT MSC 3.1·3.4·3.5, UCC-IA 제28조제1항(d), EU AEO 지침 2.V.5, 6 U.S.C. 967(b)를 바탕으로 정리했습니다.</text>
+<rect x="48" y="118" width="1150" height="92" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="66" y="154" font-size="18" font-weight="800" fill="#5f6b78">① 요청 접수</text>
+<text x="66" y="184" font-size="15" font-weight="500" fill="#1d2a3a">어느 제도(CTPAT, EU AEO, 일본 AEO 등)와 어느 조항인지, 회신 기한, 적용 범위(사업장·서비스)를 확인합니다.</text>
+<path d="M623.0 210 L623.0 236" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="223" y="240" width="800" height="76" rx="12" fill="#fff8ef" stroke="#b35c00" stroke-width="3"/>
+<text x="623.0" y="272" font-size="18" font-weight="800" fill="#b35c00" text-anchor="middle">② 요청자 나라가 한국 MRA 상대국이고, 우리 회사가 한국 AEO 공인을 받았나?</text>
+<text x="623.0" y="300" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">MRA 현황은 관세청 자료로 확인. EU는 MRA 없음</text>
+<path d="M223 278 L168 278 L168 346" stroke="#1f8a5b" stroke-width="2.5" fill="none" marker-end="url(#arg)"/>
+<text x="118" y="268" font-size="17" font-weight="800" fill="#1f8a5b">예</text>
+<path d="M1023 278 L1078 278 L1078 346" stroke="#c93c22" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+<text x="1088" y="268" font-size="17" font-weight="800" fill="#c93c22">아니오</text>
+<rect x="48" y="350" width="560" height="150" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="66" y="386" font-size="18" font-weight="800" fill="#1f8a5b">③-1 공인증서로 먼저 답한다</text>
+<text x="66" y="416" font-size="15" font-weight="500" fill="#1d2a3a">공인증서 사본, 공인번호, 부문·유효기간을 보내고 남는 항목만 답하겠다고</text>
+<text x="66" y="439" font-size="15" font-weight="500" fill="#1d2a3a">제안합니다.</text>
+<text x="66" y="466" font-size="15" font-weight="700" fill="#1f8a5b">미국: MSC 3.4로 거래처 요건의 증거로 인정</text>
+<rect x="638" y="350" width="560" height="150" rx="12" fill="#ffffff" stroke="#c93c22" stroke-width="2.5"/>
+<text x="656" y="386" font-size="18" font-weight="800" fill="#c93c22">③-2 항목별로 답한다</text>
+<text x="656" y="416" font-size="15" font-weight="500" fill="#1d2a3a">질문지나 보안 선언서에 항목마다 실제 절차와 근거 자료로 답합니다.</text>
+<text x="656" y="443" font-size="15" font-weight="700" fill="#c93c22">EU 거래처는 MRA가 없어 이 경로</text>
+<path d="M328 500 L328 526 L623.0 526 L623.0 546" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M918 500 L918 526 L623.0 526" stroke="#5f6b78" stroke-width="2.5" fill="none"/>
+<rect x="48" y="550" width="1150" height="214" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="66" y="582" font-size="18" font-weight="800" fill="#1f6fd1">④ 항목별 판단</text>
+<rect x="66" y="598" width="359" height="152" rx="12" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="2.5"/>
+<text x="84" y="632" font-size="16" font-weight="800" fill="#1d2a3a">우리 회사가 하는 일</text>
+<text x="84" y="660" font-size="15" font-weight="500" fill="#1d2a3a">보안 책임자, 위험 평가, 하청 선정·평가, 씰 대장,</text>
+<text x="84" y="683" font-size="15" font-weight="500" fill="#1d2a3a">계정 관리와 자체 LCL 콘솔의 CFS 점검·적입·씰</text>
+<text x="84" y="706" font-size="15" font-weight="500" fill="#1d2a3a">기록을 근거 자료와 함께 답합니다.</text>
+<rect x="443" y="598" width="359" height="152" rx="12" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="2.5"/>
+<text x="461" y="632" font-size="16" font-weight="800" fill="#1d2a3a">남이 하는 일</text>
+<text x="461" y="660" font-size="15" font-weight="500" fill="#1d2a3a">FCL 적입·씰, 선사·항공사, 외주 창고는 그 업체의</text>
+<text x="461" y="683" font-size="15" font-weight="500" fill="#1d2a3a">확인서·인증서로 답하고 &quot;보장한다&quot;고 쓰지</text>
+<text x="461" y="706" font-size="15" font-weight="500" fill="#1d2a3a">않습니다. 비적용 항목은 사유를 적습니다.</text>
+<rect x="821" y="598" width="359" height="152" rx="12" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="2.5"/>
+<text x="839" y="632" font-size="16" font-weight="800" fill="#1d2a3a">지키지 못하는 항목</text>
+<text x="839" y="660" font-size="15" font-weight="500" fill="#1d2a3a">숨기지 않고 개선 계획과 완료 예정일을 적습니다.</text>
+<text x="839" y="683" font-size="15" font-weight="500" fill="#1d2a3a">절대 보증 문구는 합리적 노력 수준으로</text>
+<text x="839" y="706" font-size="15" font-weight="500" fill="#1d2a3a">조율합니다.</text>
+<path d="M623.0 764 L623.0 790" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="48" y="794" width="1150" height="108" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="66" y="830" font-size="18" font-weight="800" fill="#5f6b78">⑤ 승인과 보관</text>
+<text x="66" y="860" font-size="15" font-weight="500" fill="#1d2a3a">영업 담당이 아니라 보안·운영 책임자가 근거 자료와 대조해 승인한 뒤 날인합니다. 제출본과 자료를 보관하고, 사고·하청·공인 변동 때 알릴 담당자와 기한을 정합니다.</text>
+<rect x="1222" y="118" width="402" height="784" rx="12" fill="#fff9f7" stroke="#c93c22" stroke-width="2.5"/>
+<text x="1240" y="156" font-size="20" font-weight="800" fill="#c93c22">거짓 답변의 위험</text>
+<text x="1240" y="189" font-size="17" font-weight="700" fill="#c93c22">미국</text>
+<text x="1240" y="219" font-size="17" font-weight="500" fill="#1d2a3a">CTPAT 회원이 검증 과정에서 알면서 거짓이거나</text>
+<text x="1240" y="245" font-size="17" font-weight="500" fill="#1d2a3a">오해를 부르는 정보를 내면 CBP는 참여를</text>
+<text x="1240" y="271" font-size="17" font-weight="500" fill="#1d2a3a">정지하거나 퇴출해야 하고, 명단을 연방관보에</text>
+<text x="1240" y="297" font-size="17" font-weight="500" fill="#1d2a3a">실을 수 있습니다(6 U.S.C. 967(b)).</text>
+<text x="1240" y="327" font-size="17" font-weight="700" fill="#c93c22">EU</text>
+<text x="1240" y="357" font-size="17" font-weight="500" fill="#1d2a3a">보안 선언서를 받은 업체는 그 의무가 실제로</text>
+<text x="1240" y="383" font-size="17" font-weight="500" fill="#1d2a3a">이행되는지 확인할 수 있어야</text>
+<text x="1240" y="409" font-size="17" font-weight="500" fill="#1d2a3a">합니다(EU AEO 지침 2.V.5). 서명한 내용은</text>
+<text x="1240" y="435" font-size="17" font-weight="500" fill="#1d2a3a">감사·방문으로 확인될 수 있습니다.</text>
+<text x="1240" y="465" font-size="17" font-weight="700" fill="#c93c22">계약</text>
+<text x="1240" y="495" font-size="17" font-weight="500" fill="#1d2a3a">거짓 답변은 거래처의 공인 검증에 영향을 줄 수</text>
+<text x="1240" y="521" font-size="17" font-weight="500" fill="#1d2a3a">있고, 계약·선언서 내용에 따라 거래 중단·해지나</text>
+<text x="1240" y="547" font-size="17" font-weight="500" fill="#1d2a3a">손해배상 문제로 이어질 수 있습니다.</text>
+<text x="1240" y="577" font-size="17" font-weight="700" fill="#c93c22">피할 것</text>
+<text x="1240" y="607" font-size="17" font-weight="500" fill="#1d2a3a">영업 담당의 임의 날인, &quot;모두 예&quot;로 답하기, 공인이</text>
+<text x="1240" y="633" font-size="17" font-weight="500" fill="#1d2a3a">없는데 &quot;AEO에 준한다&quot;고 쓰기.</text>
+<text x="1240" y="663" font-size="17" font-weight="700" fill="#c93c22">한국</text>
+<text x="1240" y="693" font-size="17" font-weight="500" fill="#1d2a3a">관세청 AEO 고시 별표 1(4.1.3)도 AEO 업체가</text>
+<text x="1240" y="719" font-size="17" font-weight="500" fill="#1d2a3a">공인 없는 거래업체에 안전관리기준 충족을 문서로</text>
+<text x="1240" y="745" font-size="17" font-weight="500" fill="#1d2a3a">표시하게 하므로, 국내 화주에게 낸 답변도 같은</text>
+<text x="1240" y="771" font-size="17" font-weight="500" fill="#1d2a3a">무게입니다.</text>
+</svg>

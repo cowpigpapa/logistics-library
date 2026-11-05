@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c93c22"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">EU AEO의 세 유형: AEOC·AEOS·AEOF의 기준과 혜택</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#3d4a5a">UCC 제38조·제39조와 DG TAXUD 안내를 요약했습니다. 한국 포워더에게 보안 선언서를 요구하는 쪽은 AEOS·AEOF 업체입니다.</text>
+<rect x="48" y="116" width="646" height="56" rx="0" fill="#1d2a3a" stroke="#1d2a3a" stroke-width="1"/>
+<text x="64" y="152" font-size="18" font-weight="800" fill="#ffffff">UCC 제39조 기준</text>
+<rect x="694" y="116" width="310" height="56" rx="0" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="1"/>
+<text x="849.0" y="141" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">AEOC</text>
+<text x="849.0" y="163" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">통관 간소화</text>
+<rect x="1004" y="116" width="310" height="56" rx="0" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="1"/>
+<text x="1159.0" y="141" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">AEOS</text>
+<text x="1159.0" y="163" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">보안</text>
+<rect x="1314" y="116" width="310" height="56" rx="0" fill="#b35c00" stroke="#b35c00" stroke-width="1"/>
+<text x="1469.0" y="141" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">AEOF</text>
+<text x="1469.0" y="163" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">AEOC + AEOS</text>
+<rect x="48" y="172" width="646" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="200" font-size="16" font-weight="600" fill="#1d2a3a">(a) 법규 준수, 중대 범죄 기록 없음</text>
+<rect x="694" y="172" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="201" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">필요</text>
+<rect x="1004" y="172" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="201" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="middle">필요</text>
+<rect x="1314" y="172" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="201" font-size="17" font-weight="800" fill="#b35c00" text-anchor="middle">필요</text>
+<rect x="48" y="218" width="646" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="246" font-size="16" font-weight="600" fill="#1d2a3a">(b) 상업·운송 기록 관리 체계</text>
+<rect x="694" y="218" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="247" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">필요</text>
+<rect x="1004" y="218" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="247" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="middle">필요</text>
+<rect x="1314" y="218" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="247" font-size="17" font-weight="800" fill="#b35c00" text-anchor="middle">필요</text>
+<rect x="48" y="264" width="646" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="292" font-size="16" font-weight="600" fill="#1d2a3a">(c) 재무 지급능력</text>
+<rect x="694" y="264" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="293" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">필요</text>
+<rect x="1004" y="264" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="293" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="middle">필요</text>
+<rect x="1314" y="264" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="293" font-size="17" font-weight="800" fill="#b35c00" text-anchor="middle">필요</text>
+<rect x="48" y="310" width="646" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="338" font-size="16" font-weight="600" fill="#1d2a3a">(d) 실무 역량·전문 자격</text>
+<rect x="694" y="310" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="339" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="middle">필요</text>
+<rect x="1004" y="310" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="339" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="middle">-</text>
+<rect x="1314" y="310" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="339" font-size="17" font-weight="800" fill="#b35c00" text-anchor="middle">필요</text>
+<rect x="48" y="356" width="646" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="384" font-size="16" font-weight="600" fill="#1d2a3a">(e) 보안 기준(출입 통제, 물류 절차, 인원, 거래처 식별)</text>
+<rect x="694" y="356" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="385" font-size="17" font-weight="500" fill="#5f6b78" text-anchor="middle">-</text>
+<rect x="1004" y="356" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="385" font-size="17" font-weight="800" fill="#1f8a5b" text-anchor="middle">필요</text>
+<rect x="1314" y="356" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="385" font-size="17" font-weight="800" fill="#b35c00" text-anchor="middle">필요</text>
+<rect x="48" y="402" width="1576" height="40" rx="0" fill="#eef4fb" stroke="#1d2a3a" stroke-width="1"/>
+<text x="64" y="429" font-size="17" font-weight="800" fill="#1d2a3a">혜택(DG TAXUD 표)</text>
+<rect x="48" y="442" width="646" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="470" font-size="16" font-weight="600" fill="#1d2a3a">간이 통관 절차 승인을 받기 쉬움</text>
+<rect x="694" y="442" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="471" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">O</text>
+<rect x="1004" y="442" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="471" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">-</text>
+<rect x="1314" y="442" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="471" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">O</text>
+<rect x="48" y="488" width="646" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="516" font-size="16" font-weight="600" fill="#1d2a3a">물리·서류 검사 감소</text>
+<rect x="694" y="488" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="517" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">관세 법규 관련</text>
+<rect x="1004" y="488" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="517" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">보안 관련</text>
+<rect x="1314" y="488" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="517" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">둘 다</text>
+<rect x="48" y="534" width="646" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="562" font-size="16" font-weight="600" fill="#1d2a3a">검사 선정 시 사전 통보</text>
+<rect x="694" y="534" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="563" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">관세 법규 관련</text>
+<rect x="1004" y="534" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="563" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">보안 관련</text>
+<rect x="1314" y="534" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="563" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">둘 다</text>
+<rect x="48" y="580" width="646" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="608" font-size="16" font-weight="600" fill="#1d2a3a">검사 대상이 되면 우선 처리, 검사 장소 지정 요청</text>
+<rect x="694" y="580" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="609" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">O</text>
+<rect x="1004" y="580" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="609" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">O</text>
+<rect x="1314" y="580" width="310" height="46" rx="0" fill="#f7f9fc" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="609" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">O</text>
+<rect x="48" y="626" width="646" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="64" y="654" font-size="16" font-weight="600" fill="#1d2a3a">제3국과의 상호인정(MRA) 참여</text>
+<rect x="694" y="626" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="849.0" y="655" font-size="16" font-weight="500" fill="#5f6b78" text-anchor="middle">-</text>
+<rect x="1004" y="626" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1159.0" y="655" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">O</text>
+<rect x="1314" y="626" width="310" height="46" rx="0" fill="#ffffff" stroke="#c9d2dc" stroke-width="1"/>
+<text x="1469.0" y="655" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">O</text>
+<rect x="48" y="694" width="760" height="208" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="66" y="730" font-size="18" font-weight="800" fill="#1f6fd1">누가, 어떻게 신청하나</text>
+<text x="66" y="760" font-size="16" font-weight="500" fill="#1d2a3a">EU 관세영역에 설립되고 EORI가 있으며 관세 관련 업무를 하는 공급망 참여자. 한국 본사는 신청 대상이</text>
+<text x="66" y="785" font-size="16" font-weight="500" fill="#1d2a3a">아닙니다.</text>
+<text x="66" y="814" font-size="16" font-weight="500" fill="#1d2a3a">승인은 기간 제한 없이 유효하고(UCC 제22조제5항), 세관이 감시·재평가합니다. 결정 기한은 원칙</text>
+<text x="66" y="839" font-size="16" font-weight="500" fill="#1d2a3a">120일입니다.</text>
+<rect x="830" y="694" width="794" height="208" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="850" y="728" font-size="18" font-weight="800" fill="#1f8a5b">유효 승인 18,437건(2024. 12., DG TAXUD)</text>
+<rect x="850" y="750" width="362.7" height="40" rx="0" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="1212.7" y="750" width="30.8" height="40" rx="0" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="1"/>
+<rect x="1243.5" y="750" width="360.5" height="40" rx="0" fill="#b35c00" stroke="#b35c00" stroke-width="1"/>
+<text x="850" y="820" font-size="15" font-weight="700" fill="#1f6fd1">AEOC 8,868건(48%)</text>
+<text x="1227" y="820" font-size="15" font-weight="700" fill="#1f8a5b" text-anchor="middle">AEOS 753건(4%)</text>
+<text x="1604" y="820" font-size="15" font-weight="700" fill="#b35c00" text-anchor="end">AEOF 8,816건(48%)</text>
+<text x="850" y="854" font-size="16" font-weight="700" fill="#1d2a3a">MRA에 참여하고 한국 포워더에게 보안 선언서(UCC-IA 제28조제1항(d))를 요청하는 쪽은 AEOS·AEOF</text>
+<text x="850" y="879" font-size="16" font-weight="700" fill="#1d2a3a">업체입니다.</text>
+</svg>

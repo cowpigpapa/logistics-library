@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">EcoVadis 점수는 어떻게 만들어지나: 4개 주제 × 7개 관리 지표 → 점수 → 메달</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">EcoVadis Sustainability Rating 방법론 공개 문서(V10.0, 2026)를 요약했습니다. 가중치와 보정값은 기본값이며 회사 규모에 따라 달라집니다.</text>
+<text x="48" y="140" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="start">① 4개 주제와 21개 기준</text>
+<rect x="48" y="160" width="470" height="115" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="66" y="190" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">환경 9개</text>
+<text x="66" y="216" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">에너지·온실가스, 물, 생물다양성, 대기 오염,</text>
+<text x="66" y="239" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">원료·화학물질·폐기물, 제품 사용, 제품 폐기, 고객 안전보건,</text>
+<text x="66" y="262" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">환경 서비스와 옹호</text>
+<rect x="48" y="287" width="470" height="92" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="66" y="317" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">노동과 인권 7개</text>
+<text x="66" y="343" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">직원 안전보건, 근로 조건, 노사 대화, 경력 관리와 교육,</text>
+<text x="66" y="366" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">아동·강제노동·인신매매, 차별과 괴롭힘, 외부 이해관계자 인권</text>
+<rect x="48" y="391" width="470" height="69" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="66" y="421" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">윤리 3개</text>
+<text x="66" y="447" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">부패, 반경쟁 행위, 책임 있는 정보 관리</text>
+<rect x="48" y="472" width="470" height="69" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2"/>
+<text x="66" y="502" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">지속가능한 조달 2개</text>
+<text x="66" y="528" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">공급업체 환경 관행, 공급업체 사회 관행</text>
+<text x="48" y="569" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="start">주제마다 업종·규모·위험에 따라 가중치 1~4를 둡니다.</text>
+<text x="560" y="140" font-size="19" font-weight="800" fill="#1f8a5b" text-anchor="start">② 7개 관리 지표(주제 점수의 기본 가중치)</text>
+<text x="560" y="190" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">정책(Policy)</text>
+<rect x="560" y="200" width="180" height="20" rx="4" fill="#1f8a5b"/>
+<text x="750" y="216" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="start">20%</text>
+<text x="560" y="256" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">공개 지지(Endorsement)</text>
+<rect x="560" y="266" width="45" height="20" rx="4" fill="#1f8a5b"/>
+<text x="615" y="282" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="start">5%</text>
+<text x="560" y="322" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">실행: 조치 60% + 인증서 40%</text>
+<rect x="560" y="332" width="360" height="20" rx="4" fill="#1f8a5b"/>
+<text x="930" y="348" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="start">40%</text>
+<text x="560" y="388" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">보고(Reporting)</text>
+<rect x="560" y="398" width="126" height="20" rx="4" fill="#1f8a5b"/>
+<text x="696" y="414" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="start">14%</text>
+<text x="560" y="454" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">360° Watch(외부 정보)</text>
+<rect x="560" y="464" width="189" height="20" rx="4" fill="#1f8a5b"/>
+<text x="759" y="480" font-size="16" font-weight="800" fill="#1f8a5b" text-anchor="start">21%</text>
+<text x="560" y="508" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">실행 점수는 대기업(1,000명 이상)이면 적용 범위(Coverage) 지표로 곱해</text>
+<text x="560" y="530" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">보정합니다. 보고는 평가 범위의 80% 이상(온실가스·에너지는 95%)을</text>
+<text x="560" y="552" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">덮어야 인정됩니다.</text>
+<rect x="560" y="586" width="520" height="166" rx="12" fill="#eef4fb" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="576" y="614" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">보정값</text>
+<text x="576" y="642" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">규모: 초소형(1~25명) +13.75, 소형(26~99명) +15,</text>
+<text x="576" y="666" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">중형(100~999명) +10, 대형(1,000명 이상) 0</text>
+<text x="576" y="696" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">국가 위험: 본사가 고위험국 -6, 저위험국에서만</text>
+<text x="576" y="720" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">운영 +3, 그 밖 0</text>
+<text x="1120" y="140" font-size="19" font-weight="800" fill="#a35f00" text-anchor="start">③ 점수와 메달</text>
+<rect x="1120.0" y="170" width="124.8" height="34" fill="#e7ebef"/>
+<rect x="1244.8" y="170" width="99.8" height="34" fill="#d9e4f1"/>
+<rect x="1344.6" y="170" width="99.8" height="34" fill="#b9d1ec"/>
+<rect x="1444.4" y="170" width="99.8" height="34" fill="#7fb0e3"/>
+<rect x="1544.2" y="170" width="79.8" height="34" fill="#1f6fd1"/>
+<text x="1122.0" y="226" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="start">0</text>
+<text x="1246.7524752475247" y="226" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="start">25</text>
+<text x="1346.5544554455446" y="226" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="start">45</text>
+<text x="1446.3564356435643" y="226" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="start">65</text>
+<text x="1546.1584158415842" y="226" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="start">85</text>
+<text x="1624" y="226" font-size="13" font-weight="600" fill="#5f6b78" text-anchor="end">100</text>
+<text x="1120" y="256" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">· Insufficient 0~24</text>
+<text x="1370" y="256" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">· Partial 25~44</text>
+<text x="1120" y="280" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">· Good 45~64</text>
+<text x="1370" y="280" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">· Advanced 65~84</text>
+<text x="1120" y="304" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="start">· Outstanding 85~100</text>
+<rect x="1120" y="340" width="504" height="226" rx="12" fill="#ffffff" stroke="#a35f00" stroke-width="2.5"/>
+<text x="1136" y="370" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">메달: 최근 12개월 평가 기업 대비 백분위</text>
+<text x="1150" y="404" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">플래티넘  상위 1%</text>
+<text x="1390" y="404" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">골드  상위 5%</text>
+<text x="1150" y="432" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">실버  상위 15%</text>
+<text x="1390" y="432" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">브론즈  상위 35%</text>
+<text x="1136" y="476" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">네 주제 중 하나라도 30점 미만이거나 360° Watch 점수가 낮으면 메달</text>
+<text x="1136" y="498" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">제외. 배지: Committed 45점 이상, Fast Mover 34~44점이면서</text>
+<text x="1136" y="520" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">18개월 안에 6점 이상 상승.</text>
+<rect x="1120" y="584" width="504" height="100" rx="12" fill="#fff6f3" stroke="#d9482b" stroke-width="2"/>
+<text x="1136" y="614" font-size="15.5" font-weight="700" fill="#1d2a3a" text-anchor="start">점수표와 메달·배지는 발행일부터 12개월 유효합니다. 메달은</text>
+<text x="1136" y="637" font-size="15.5" font-weight="700" fill="#1d2a3a" text-anchor="start">인증이 아니며, 평가받은 법인에만 적용됩니다.</text>
+<rect x="48" y="772" width="1576" height="122" rx="12" fill="#eef4fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="70" y="804" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">근거 서류의 형식 요건(서류로 입증하지 못하면 점수에 충분히 반영되지 않을 수 있습니다)</text>
+<text x="70" y="836" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">정식 문서로 경영시스템에 들어가 있을 것 · 내용이 다 보일 것 · 회사 것임이 분명할 것 · 발행일이나 검토일이 있을 것</text>
+<text x="70" y="864" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">.pdf .docx .xlsx .jpg .png, 30MB 미만 · 스캔 이미지가 아닌 글자를 읽을 수 있는 파일 · 평가만을 위해 만든 문서는 걸러지고 위조 서류는 점수표에 표시</text>
+</svg>

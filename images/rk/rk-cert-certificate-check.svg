@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">인증서 한 장에서 확인할 일곱 가지와 범위 밖 업무</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">가상의 인증서입니다. 회사·인증기관 이름과 날짜는 예시이며, 실제 양식은 인증기관마다 다릅니다.</text>
+<rect x="48" y="122" width="760" height="770" rx="6" fill="#ffffff" stroke="#8a97a6" stroke-width="2"/>
+<rect x="62" y="136" width="732" height="742" rx="4" fill="none" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="428.0" y="188" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="middle">인증서</text>
+<text x="428.0" y="216" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">CERTIFICATE OF REGISTRATION</text>
+<text x="428.0" y="252" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="middle">인증번호  QMS-0000-0000</text>
+<text x="428.0" y="308" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="middle">○○로지스틱스(주)</text>
+<text x="428.0" y="340" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">위 조직의 경영시스템이 아래 표준에 적합함을 인증합니다.</text>
+<text x="428.0" y="394" font-size="28" font-weight="800" fill="#1f6fd1" text-anchor="middle">ISO 9001:2026</text>
+<text x="108" y="452" font-size="16" font-weight="800" fill="#5f6b78" text-anchor="start">인증 범위</text>
+<text x="108" y="480" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">국제 해상·항공 화물운송 주선 서비스</text>
+<text x="108" y="530" font-size="16" font-weight="800" fill="#5f6b78" text-anchor="start">사업장</text>
+<text x="108" y="558" font-size="18" font-weight="700" fill="#1d2a3a" text-anchor="start">서울 본사 사무소(주소 기재)</text>
+<text x="108" y="608" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">최초 인증일 2024. 3. 2.</text>
+<text x="378" y="608" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">발행일 2026. 10. 20.</text>
+<text x="108" y="636" font-size="16" font-weight="600" fill="#1d2a3a" text-anchor="start">만료일  2027. 3. 1.</text>
+<text x="108" y="664" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">유효성은 사후심사 결과에 따릅니다.</text>
+<text x="108" y="726" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">△△인증원</text>
+<text x="108" y="752" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">(인증기관 이름·주소·대표자 서명)</text>
+<rect x="108" y="786" width="180" height="64" rx="8" fill="#f4f6f8" stroke="#8a97a6" stroke-width="1.5"/>
+<text x="198" y="825" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">인증기관 마크</text>
+<rect x="328" y="786" width="180" height="64" rx="8" fill="#f4f6f8" stroke="#8a97a6" stroke-width="1.5"/>
+<text x="418" y="825" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">인정기구 마크</text>
+<rect x="548" y="786" width="180" height="64" rx="8" fill="#f4f6f8" stroke="#8a97a6" stroke-width="1.5"/>
+<text x="638" y="825" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">MRA 마크</text>
+<circle cx="660.0" cy="388" r="17" fill="#d9482b"/>
+<text x="660.0" y="394" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<circle cx="84" cy="474" r="17" fill="#d9482b"/>
+<text x="84" y="480" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<circle cx="84" cy="552" r="17" fill="#d9482b"/>
+<text x="84" y="558" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<circle cx="598.0" cy="247" r="17" fill="#d9482b"/>
+<text x="598.0" y="253" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<circle cx="84" cy="630" r="17" fill="#d9482b"/>
+<text x="84" y="636" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<circle cx="84" cy="720" r="17" fill="#d9482b"/>
+<text x="84" y="726" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<circle cx="84" cy="818" r="17" fill="#d9482b"/>
+<text x="84" y="824" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="840" y="150" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">확인할 것</text>
+<circle cx="854" cy="180" r="13" fill="#d9482b"/>
+<text x="854" y="185" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<text x="878" y="186" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">표준과 판</text>
+<text x="878" y="212" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">2015판인지 2026판인지 봅니다. 요청서가 새 판을 요구하면 전환 심사 시기를 적습니다.</text>
+<circle cx="854" cy="241" r="13" fill="#d9482b"/>
+<text x="854" y="246" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<text x="878" y="247" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">인증 범위</text>
+<text x="878" y="273" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">문구에 들어간 업무만 인증입니다. 창고 보관, 내륙운송, 통관이 있는지 봅니다.</text>
+<circle cx="854" cy="302" r="13" fill="#d9482b"/>
+<text x="854" y="307" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<text x="878" y="308" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">사업장</text>
+<text x="878" y="334" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">본사 사무소만 있고 화물을 다루는 창고나 지점, 해외 지사가 빠져 있지 않은지 봅니다.</text>
+<circle cx="854" cy="363" r="13" fill="#d9482b"/>
+<text x="854" y="368" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="878" y="369" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">인증번호와 법인명</text>
+<text x="878" y="395" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">KCN·인증기관 조회에 씁니다. 계약 상대 법인과 같은 법인인지 봅니다.</text>
+<circle cx="854" cy="424" r="13" fill="#d9482b"/>
+<text x="854" y="429" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="878" y="430" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">날짜</text>
+<text x="878" y="456" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">최초 인증일, 발행일, 만료일. 사후심사를 받아 지금도 유효한지 봅니다.</text>
+<circle cx="854" cy="485" r="13" fill="#d9482b"/>
+<text x="854" y="490" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">6</text>
+<text x="878" y="491" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">인증기관</text>
+<text x="878" y="517" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">이름과 연락처로 직접 조회합니다.</text>
+<circle cx="854" cy="546" r="13" fill="#d9482b"/>
+<text x="854" y="551" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">7</text>
+<text x="878" y="552" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="start">인정기구·MRA 마크</text>
+<text x="878" y="578" font-size="15.5" font-weight="500" fill="#1d2a3a" text-anchor="start">인정받은 인증서인지 확인하는 단서입니다. 없거나 불분명하면 인증기관·인정기구에 조회합니다.</text>
+<rect x="840" y="619" width="784" height="273" rx="12" fill="#fff6f3" stroke="#d9482b" stroke-width="2.5"/>
+<text x="860" y="651" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">범위 밖 업무의 함정</text>
+<text x="860" y="681" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">그 회사가 따로 인증받지 않는 한 포워더의 인증서로 덮이지 않는 업무</text>
+<text x="876" y="719" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">· 하청 트럭 회사의 운송</text>
+<text x="1246" y="719" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">· 협력 창고의 보관·작업</text>
+<text x="876" y="751" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">· 해외 파트너의 도착지 업무</text>
+<text x="1246" y="751" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">· 그룹 관계사·자회사의 업무</text>
+<rect x="860" y="795" width="744" height="82" rx="8" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="876" y="823" font-size="15" font-weight="800" fill="#5f6b78" text-anchor="start">답변 문구 예</text>
+<text x="876" y="853" font-size="15.5" font-weight="600" fill="#1d2a3a" text-anchor="start">"당사 인증 범위는 ○○입니다. 투입 협력 창고·운송사의 인증서와 당사 관리 기준을 함께 제출합니다."</text>
+</svg>

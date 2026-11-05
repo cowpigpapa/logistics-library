@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#34475c"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">T-11 팔레트(1,100×1,100mm)를 ISO 컨테이너 바닥에 놓으면: 위에서 본 계산</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#34475c">ISO 668 표 3의 최소 내부 치수(폭 2,330mm)로 그린 축척도입니다. 1단·한 방향 배열이며, 화물 돌출과 고박 여유는 넣지 않았습니다.</text>
+
+<text x="60" y="140" font-size="18" font-weight="800" fill="#1d2a3a">20ft(1CC) 바닥 5,867 × 2,330mm</text>
+<rect x="60" y="152" width="587" height="233" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<rect x="62" y="154" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="64" y1="175.2" x2="166" y2="175.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="196.4" x2="166" y2="196.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="217.6" x2="166" y2="217.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="238.8" x2="166" y2="238.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="62" y="264" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="64" y1="285.2" x2="166" y2="285.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="306.4" x2="166" y2="306.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="327.6" x2="166" y2="327.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="348.8" x2="166" y2="348.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="172" y="154" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="174" y1="175.2" x2="276" y2="175.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="196.4" x2="276" y2="196.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="217.6" x2="276" y2="217.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="238.8" x2="276" y2="238.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="172" y="264" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="174" y1="285.2" x2="276" y2="285.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="306.4" x2="276" y2="306.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="327.6" x2="276" y2="327.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="348.8" x2="276" y2="348.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="282" y="154" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="284" y1="175.2" x2="386" y2="175.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="196.4" x2="386" y2="196.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="217.6" x2="386" y2="217.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="238.8" x2="386" y2="238.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="282" y="264" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="284" y1="285.2" x2="386" y2="285.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="306.4" x2="386" y2="306.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="327.6" x2="386" y2="327.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="348.8" x2="386" y2="348.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="392" y="154" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="394" y1="175.2" x2="496" y2="175.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="196.4" x2="496" y2="196.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="217.6" x2="496" y2="217.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="238.8" x2="496" y2="238.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="392" y="264" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="394" y1="285.2" x2="496" y2="285.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="306.4" x2="496" y2="306.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="327.6" x2="496" y2="327.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="348.8" x2="496" y2="348.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="502" y="154" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="504" y1="175.2" x2="606" y2="175.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="196.4" x2="606" y2="196.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="217.6" x2="606" y2="217.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="238.8" x2="606" y2="238.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="502" y="264" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="504" y1="285.2" x2="606" y2="285.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="306.4" x2="606" y2="306.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="327.6" x2="606" y2="327.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="348.8" x2="606" y2="348.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="610" y="152" width="37" height="233" fill="#fdf0ec"/>
+<rect x="60" y="372" width="550" height="13" fill="#fdf0ec"/>
+<line x1="647" y1="152" x2="647" y2="385" stroke="#1d2a3a" stroke-width="5"/>
+<text x="652" y="142" font-size="13" font-weight="700" fill="#34475c">문 쪽</text>
+<rect x="720" y="152" width="904" height="233" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="742" y="188" font-size="19" font-weight="800" fill="#1f8a5b">20ft: 길이 방향 5장 × 폭 방향 2장 = 10장</text>
+<text x="742" y="222" font-size="16" font-weight="500" fill="#1d2a3a">남는 공간: 길이 367mm(5,867 − 5,500), 폭 130mm(2,330 − 2,200)</text>
+<text x="742" y="252" font-size="16" font-weight="500" fill="#1d2a3a">바닥 면적 대비 팔레트 면적: 12.10㎡ ÷ 13.67㎡ ≒ 88.5%</text>
+<text x="742" y="290" font-size="16" font-weight="500" fill="#1d2a3a">남는 폭 130mm는 팔레트 사이와 벽 쪽 틈으로 나뉩니다. 틈이 크면</text>
+<text x="742" y="316" font-size="16" font-weight="500" fill="#1d2a3a">고임목·에어백 같은 고정재로 채우는 계획을 적입 작업자에게 받습니다.</text>
+<text x="742" y="354" font-size="14" font-weight="600" fill="#34475c">분홍 칸 = 남는 공간. 선사 사양의 실제 내부 치수가 더 크면 여유도 커집니다.</text>
+
+<text x="60" y="450" font-size="18" font-weight="800" fill="#1d2a3a">40ft(1AA·1AAA) 바닥 11,998 × 2,330mm</text>
+<rect x="60" y="462" width="1200" height="233" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<rect x="62" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="64" y1="485.2" x2="166" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="506.4" x2="166" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="527.6" x2="166" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="548.8" x2="166" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="62" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="64" y1="595.2" x2="166" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="616.4" x2="166" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="637.6" x2="166" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="64" y1="658.8" x2="166" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="172" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="174" y1="485.2" x2="276" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="506.4" x2="276" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="527.6" x2="276" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="548.8" x2="276" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="172" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="174" y1="595.2" x2="276" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="616.4" x2="276" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="637.6" x2="276" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="174" y1="658.8" x2="276" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="282" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="284" y1="485.2" x2="386" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="506.4" x2="386" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="527.6" x2="386" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="548.8" x2="386" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="282" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="284" y1="595.2" x2="386" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="616.4" x2="386" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="637.6" x2="386" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="284" y1="658.8" x2="386" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="392" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="394" y1="485.2" x2="496" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="506.4" x2="496" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="527.6" x2="496" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="548.8" x2="496" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="392" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="394" y1="595.2" x2="496" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="616.4" x2="496" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="637.6" x2="496" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="394" y1="658.8" x2="496" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="502" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="504" y1="485.2" x2="606" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="506.4" x2="606" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="527.6" x2="606" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="548.8" x2="606" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="502" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="504" y1="595.2" x2="606" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="616.4" x2="606" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="637.6" x2="606" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="504" y1="658.8" x2="606" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="612" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="614" y1="485.2" x2="716" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="614" y1="506.4" x2="716" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="614" y1="527.6" x2="716" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="614" y1="548.8" x2="716" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="612" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="614" y1="595.2" x2="716" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="614" y1="616.4" x2="716" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="614" y1="637.6" x2="716" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="614" y1="658.8" x2="716" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="722" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="724" y1="485.2" x2="826" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="724" y1="506.4" x2="826" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="724" y1="527.6" x2="826" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="724" y1="548.8" x2="826" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="722" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="724" y1="595.2" x2="826" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="724" y1="616.4" x2="826" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="724" y1="637.6" x2="826" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="724" y1="658.8" x2="826" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="832" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="834" y1="485.2" x2="936" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="834" y1="506.4" x2="936" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="834" y1="527.6" x2="936" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="834" y1="548.8" x2="936" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="832" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="834" y1="595.2" x2="936" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="834" y1="616.4" x2="936" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="834" y1="637.6" x2="936" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="834" y1="658.8" x2="936" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="942" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="944" y1="485.2" x2="1046" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="944" y1="506.4" x2="1046" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="944" y1="527.6" x2="1046" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="944" y1="548.8" x2="1046" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="942" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="944" y1="595.2" x2="1046" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="944" y1="616.4" x2="1046" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="944" y1="637.6" x2="1046" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="944" y1="658.8" x2="1046" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="1052" y="464" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="1054" y1="485.2" x2="1156" y2="485.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="1054" y1="506.4" x2="1156" y2="506.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="1054" y1="527.6" x2="1156" y2="527.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="1054" y1="548.8" x2="1156" y2="548.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="1052" y="574" width="106" height="106" fill="#f3e3c3" stroke="#8a5a14" stroke-width="2"/>
+<line x1="1054" y1="595.2" x2="1156" y2="595.2" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="1054" y1="616.4" x2="1156" y2="616.4" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="1054" y1="637.6" x2="1156" y2="637.6" stroke="#c9a46a" stroke-width="1.5"/>
+<line x1="1054" y1="658.8" x2="1156" y2="658.8" stroke="#c9a46a" stroke-width="1.5"/>
+<rect x="1160" y="462" width="100" height="233" fill="#fdf0ec"/>
+<rect x="60" y="682" width="1100" height="13" fill="#fdf0ec"/>
+<line x1="1260" y1="462" x2="1260" y2="695" stroke="#1d2a3a" stroke-width="5"/>
+<text x="1265" y="452" font-size="13" font-weight="700" fill="#34475c">문 쪽</text>
+<rect x="1296" y="462" width="328" height="233" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1314" y="496" font-size="18" font-weight="800" fill="#1f8a5b">40ft: 10장 × 2장 = 20장</text>
+<text x="1314" y="528" font-size="15" font-weight="500" fill="#1d2a3a">남는 길이 998mm</text>
+<text x="1314" y="554" font-size="15" font-weight="500" fill="#1d2a3a">(11,998 − 11,000)</text>
+<text x="1314" y="580" font-size="15" font-weight="500" fill="#1d2a3a">남는 폭 130mm</text>
+<text x="1314" y="606" font-size="15" font-weight="500" fill="#1d2a3a">면적 비율 ≒ 86.6%</text>
+<text x="1314" y="640" font-size="14" font-weight="600" fill="#34475c">문 쪽 998mm에는 1,100mm</text>
+<text x="1314" y="662" font-size="14" font-weight="600" fill="#34475c">팔레트가 더 들어가지 않습니다.</text>
+
+<rect x="48" y="730" width="512" height="166" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="66" y="762" font-size="17" font-weight="800" fill="#1d2a3a">ISO 6780:2003 크기(확인한 것)</text>
+<text x="66" y="792" font-size="15" font-weight="500" fill="#1d2a3a">1,200×800 · 1,200×1,000 · 1,100×1,100mm</text>
+<text x="66" y="820" font-size="15" font-weight="500" fill="#1d2a3a">1,200×1,000은 1,000mm 쪽을 폭 방향으로 2장 놓으면</text>
+<text x="66" y="844" font-size="15" font-weight="500" fill="#1d2a3a">폭 330mm가 남고, 1,200mm 쪽 2장(2,400)은</text>
+<text x="66" y="868" font-size="15" font-weight="500" fill="#1d2a3a">2,330mm 폭에 들어가지 않습니다.</text>
+<rect x="580" y="730" width="512" height="166" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="598" y="762" font-size="17" font-weight="800" fill="#1d2a3a">한국 표준(KS)</text>
+<text x="598" y="792" font-size="15" font-weight="500" fill="#1d2a3a">KS T 0006 유닛로드 시스템 통칙: 1,100×1,100mm</text>
+<text x="598" y="816" font-size="15" font-weight="500" fill="#1d2a3a">팔레트를 기본으로 한 일관 수송 체계의 지침</text>
+<text x="598" y="844" font-size="15" font-weight="500" fill="#1d2a3a">KS T ISO 6780 = ISO 6780:2003 일치(IDT)</text>
+<text x="598" y="868" font-size="15" font-weight="500" fill="#1d2a3a">KS T 1372 일관수송용 평파렛트(제품 표준)</text>
+<rect x="1112" y="730" width="512" height="166" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1130" y="762" font-size="17" font-weight="800" fill="#1d2a3a">이 계산으로 정하지 않는 것</text>
+<text x="1130" y="792" font-size="15" font-weight="500" fill="#1d2a3a">· 적재 단수와 상단 하중: 팔레트·포장의 시험값</text>
+<text x="1130" y="816" font-size="15" font-weight="500" fill="#1d2a3a">· 총중량: CSC 판과 도로 중량 한도</text>
+<text x="1130" y="840" font-size="15" font-weight="500" fill="#1d2a3a">· 직사각형 팔레트의 회전·혼합 배치 장수</text>
+<text x="1130" y="864" font-size="15" font-weight="500" fill="#1d2a3a">· 리퍼는 내부 폭 2,200mm 이상으로 더 좁음</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c93c22"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">CTPAT 인증·검증 단계와 한국 포워더가 만나는 지점</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#3d4a5a">SAFE Port Act 제211조~제219조(6 U.S.C. 961~969)와 CBP 연방관보 공고(2025. 11. 21., 2026. 5. 8.)를 요약했습니다.</text>
+<rect x="48" y="122" width="290" height="300" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="66" y="160" font-size="20" font-weight="800" fill="#5f6b78">① 신청</text>
+<text x="66" y="193" font-size="17" font-weight="500" fill="#1d2a3a">회사 정보와 보안 프로필을</text>
+<text x="66" y="219" font-size="17" font-weight="500" fill="#1d2a3a">CTPAT 포털에 냄</text>
+<text x="66" y="249" font-size="17" font-weight="500" fill="#1d2a3a">요건: 국제 화물 이동 이력, 자기</text>
+<text x="66" y="275" font-size="17" font-weight="500" fill="#1d2a3a">공급망 평가, 보안 조치 이행(963)</text>
+<path d="M340 272.0 L362 272.0" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="364" y="122" width="290" height="300" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="382" y="160" font-size="20" font-weight="800" fill="#1f6fd1">② Tier 1 인증</text>
+<text x="382" y="193" font-size="17" font-weight="500" fill="#1d2a3a">신청 뒤 최대 90일 안 결정(964(c))</text>
+<text x="382" y="223" font-size="17" font-weight="500" fill="#1d2a3a">배경 조사와 서류 검토</text>
+<text x="382" y="253" font-size="17" font-weight="500" fill="#1d2a3a">혜택: ATS 위험 점수 제한적 감경</text>
+<path d="M656 272.0 L678 272.0" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="680" y="122" width="290" height="300" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="698" y="160" font-size="20" font-weight="800" fill="#1f6fd1">③ Tier 2 검증</text>
+<text x="698" y="193" font-size="17" font-weight="500" fill="#1d2a3a">인증 뒤 1년 안(965(a))</text>
+<text x="698" y="223" font-size="17" font-weight="700" fill="#1f6fd1">해외 공급망 장소의 현장 평가</text>
+<text x="698" y="249" font-size="17" font-weight="700" fill="#1f6fd1">포함</text>
+<text x="698" y="279" font-size="17" font-weight="500" fill="#1d2a3a">혜택: 점수 감경, 검사 감소, 우선</text>
+<text x="698" y="305" font-size="17" font-weight="500" fill="#1d2a3a">검사</text>
+<path d="M972 272.0 L994 272.0" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="996" y="122" width="290" height="300" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="1014" y="160" font-size="20" font-weight="800" fill="#1f8a5b">④ Tier 3</text>
+<text x="1014" y="193" font-size="17" font-weight="500" fill="#1d2a3a">Tier 2 기준을 넘는 조치를 꾸준히</text>
+<text x="1014" y="219" font-size="17" font-weight="500" fill="#1d2a3a">유지(966)</text>
+<text x="1014" y="249" font-size="17" font-weight="500" fill="#1d2a3a">혜택: 모든 위협 단계에서 신속</text>
+<text x="1014" y="275" font-size="17" font-weight="500" fill="#1d2a3a">반출, 추가 감경</text>
+<rect x="1312" y="122" width="290" height="300" rx="12" fill="#ffffff" stroke="#b35c00" stroke-width="2.5"/>
+<text x="1330" y="160" font-size="20" font-weight="800" fill="#b35c00">선택: Trade Compliance</text>
+<text x="1330" y="193" font-size="17" font-weight="500" fill="#1d2a3a">미국·비거주 캐나다 수입자만</text>
+<text x="1330" y="223" font-size="17" font-weight="500" fill="#1d2a3a">보안 회원 인증이 전제</text>
+<text x="1330" y="253" font-size="17" font-weight="500" fill="#1d2a3a">회원은 매년 확인서(Annual</text>
+<text x="1330" y="279" font-size="17" font-weight="500" fill="#1d2a3a">Notification Letter) 제출</text>
+<rect x="364" y="438" width="922" height="50" rx="12" fill="#f1f9f4" stroke="#1f8a5b" stroke-width="2"/>
+<text x="382" y="470" font-size="17" font-weight="800" fill="#1f8a5b">재검증: Tier 2·3은 최초 검증 뒤 4년마다 적어도 한 번(969)</text>
+<rect x="48" y="510" width="1576" height="300" rx="12" fill="#ffffff" stroke="#c93c22" stroke-width="2.5"/>
+<text x="68" y="544" font-size="19" font-weight="800" fill="#c93c22">한국 포워더가 이 흐름에서 만나는 지점</text>
+<rect x="68" y="562" width="370" height="232" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="86" y="598" font-size="18" font-weight="800" fill="#1d2a3a">A. 거래처 질문지</text>
+<text x="86" y="628" font-size="17" font-weight="500" fill="#1d2a3a">회원은 위험 기반 거래처 심사 절차를</text>
+<text x="86" y="654" font-size="17" font-weight="500" fill="#1d2a3a">두고(MSC 3.1), 외주한 공급망은 방문이나</text>
+<text x="86" y="680" font-size="17" font-weight="500" fill="#1d2a3a">질문지로 실사합니다(3.5).</text>
+<rect x="460" y="562" width="370" height="232" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="478" y="598" font-size="18" font-weight="800" fill="#1d2a3a">B. 현장 방문</text>
+<text x="478" y="628" font-size="17" font-weight="500" fill="#1d2a3a">Tier 2 검증의 해외 현장 평가와 회원의</text>
+<text x="478" y="654" font-size="17" font-weight="500" fill="#1d2a3a">실사로 포워더 사무실, 외주 CFS·창고, 적입</text>
+<text x="478" y="680" font-size="17" font-weight="500" fill="#1d2a3a">현장을 볼 수 있습니다. 외주 창고 계약에 실사</text>
+<text x="478" y="706" font-size="17" font-weight="500" fill="#1d2a3a">협조 조항을 둡니다.</text>
+<rect x="852" y="562" width="370" height="232" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2.5"/>
+<text x="870" y="598" font-size="18" font-weight="800" fill="#1d2a3a">C. 한국 AEO 증서</text>
+<text x="870" y="628" font-size="17" font-weight="500" fill="#1d2a3a">CTPAT이나 승인된 AEO 인증은 거래처</text>
+<text x="870" y="654" font-size="17" font-weight="500" fill="#1d2a3a">요건의 증거로 인정되고, 미국 MRA 목록에</text>
+<text x="870" y="680" font-size="17" font-weight="500" fill="#1d2a3a">한국이 있습니다(3.4). 회원은 유지 여부를</text>
+<text x="870" y="706" font-size="17" font-weight="500" fill="#1d2a3a">계속 확인합니다.</text>
+<rect x="1244" y="562" width="370" height="232" rx="12" fill="#ffffff" stroke="#c93c22" stroke-width="2.5"/>
+<text x="1262" y="598" font-size="18" font-weight="800" fill="#c93c22">D. 거짓 정보의 결과</text>
+<text x="1262" y="628" font-size="17" font-weight="500" fill="#1d2a3a">회원이 검증 과정에서 알면서 거짓 정보를</text>
+<text x="1262" y="654" font-size="17" font-weight="500" fill="#1d2a3a">내면 CBP는 참여를 정지하거나</text>
+<text x="1262" y="680" font-size="17" font-weight="500" fill="#1d2a3a">퇴출합니다(967(b)). 거래처 답변이 그 근거가</text>
+<text x="1262" y="706" font-size="17" font-weight="500" fill="#1d2a3a">됩니다.</text>
+<rect x="48" y="826" width="1576" height="76" rx="12" fill="#eef4fb" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68" y="858" font-size="16" font-weight="700" fill="#1d2a3a">3PL 시범사업: 2025. 12. 1. 이후 최대 5년, 자산 보유·비보유 3PL 각 10곳. 미국·캐나다·멕시코 사무소, 계약 업체의 재하청 금지(CTPAT 회원 제외).</text>
+<text x="68" y="886" font-size="16" font-weight="500" fill="#1d2a3a">이 시범사업의 비자산형 3PL 신청자는 보안 기준에 &quot;해당 없음(N/A)&quot;으로만 답할 수 없고, 거래처에게 기준을 알리고 지키게 하는 방법으로 답합니다.</text>
+</svg>

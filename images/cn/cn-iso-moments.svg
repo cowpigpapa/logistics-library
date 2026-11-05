@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">포워더가 표준을 쓰는 여섯 순간</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#34475c">포워더는 계약 범위에 따라 직접 이행하거나, 이행 주체가 낸 서류·사진·확인서를 운송인·터미널 기록과 대조합니다.</text>
+<rect x="48" y="130" width="250" height="430" rx="12" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<rect x="48" y="130" width="250" height="56" rx="12" fill="#1d2a3a"/><rect x="48" y="166" width="250" height="20" fill="#1d2a3a"/>
+<text x="64" y="166" font-size="20" font-weight="800" fill="#ffffff">① 견적·입찰</text>
+<path d="M299 158 L312 158" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="64" y="222" font-size="15" font-weight="800" fill="#1d2a3a">쓰이는 표준</text>
+<text x="64" y="252" font-size="15" font-weight="700" fill="#1d2a3a">요청서에 적힌 번호와 판</text>
+<text x="64" y="278" font-size="15" font-weight="700" fill="#1d2a3a">ISO 6780 · 17712 · 14083</text>
+<text x="64" y="304" font-size="15" font-weight="700" fill="#1d2a3a">ISO 23412 · KS 인용</text>
+<line x1="64" y1="326" x2="282" y2="326" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="64" y="350" font-size="15" font-weight="800" fill="#1d2a3a">서류로 확인할 것</text>
+<text x="64" y="380" font-size="15" font-weight="500" fill="#1d2a3a">· 번호·판·적용 구간</text>
+<text x="64" y="406" font-size="15" font-weight="500" fill="#1d2a3a">· 누가 이행하는지</text>
+<text x="64" y="432" font-size="15" font-weight="500" fill="#1d2a3a">· 계약 범위 밖 항목</text>
+<line x1="64" y1="454" x2="282" y2="454" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="64" y="478" font-size="15" font-weight="800" fill="#1d2a3a">받아 둘 자료</text>
+<text x="64" y="508" font-size="15" font-weight="500" fill="#1d2a3a">· 요청서·규격서 원문</text>
+<text x="64" y="534" font-size="15" font-weight="500" fill="#1d2a3a">· 화주 품목·포장 정보</text>
+<rect x="313" y="130" width="250" height="430" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="313" y="130" width="250" height="56" rx="12" fill="#1f6fd1"/><rect x="313" y="166" width="250" height="20" fill="#1f6fd1"/>
+<text x="329" y="166" font-size="20" font-weight="800" fill="#ffffff">② 부킹</text>
+<path d="M564 158 L577 158" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="329" y="222" font-size="15" font-weight="800" fill="#1f6fd1">쓰이는 표준</text>
+<text x="329" y="252" font-size="15" font-weight="700" fill="#1d2a3a">ISO 668 · ISO 1496</text>
+<text x="329" y="278" font-size="15" font-weight="700" fill="#1d2a3a">ISO 6346 크기·형식 코드</text>
+<text x="329" y="304" font-size="15" font-weight="700" fill="#1d2a3a">(22G1 · 45G1 · 45R1)</text>
+<line x1="329" y1="326" x2="547" y2="326" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="329" y="350" font-size="15" font-weight="800" fill="#1f6fd1">서류로 확인할 것</text>
+<text x="329" y="380" font-size="15" font-weight="500" fill="#1d2a3a">· 부킹 확인서 장비 코드가</text>
+<text x="329" y="406" font-size="15" font-weight="500" fill="#1d2a3a">· 화주 요청과 같은지</text>
+<text x="329" y="432" font-size="15" font-weight="500" fill="#1d2a3a">· 최대 총중량과 화물 중량</text>
+<line x1="329" y1="454" x2="547" y2="454" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="329" y="478" font-size="15" font-weight="800" fill="#1f6fd1">받아 둘 자료</text>
+<text x="329" y="508" font-size="15" font-weight="500" fill="#1d2a3a">· 선사 장비 사양</text>
+<text x="329" y="534" font-size="15" font-weight="500" fill="#1d2a3a">· 화물 치수·중량 자료</text>
+<rect x="578" y="130" width="250" height="430" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<rect x="578" y="130" width="250" height="56" rx="12" fill="#1f8a5b"/><rect x="578" y="166" width="250" height="20" fill="#1f8a5b"/>
+<text x="594" y="166" font-size="20" font-weight="800" fill="#ffffff">③ 적입</text>
+<path d="M829 158 L842 158" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="594" y="222" font-size="15" font-weight="800" fill="#1f8a5b">쓰이는 표준</text>
+<text x="594" y="252" font-size="15" font-weight="700" fill="#1d2a3a">ISO 6780 · KS T 0006</text>
+<text x="594" y="278" font-size="15" font-weight="700" fill="#1d2a3a">ISO 3874 취급·고박</text>
+<text x="594" y="304" font-size="15" font-weight="700" fill="#1d2a3a">CTU Code 적입·고박</text>
+<line x1="594" y1="326" x2="812" y2="326" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="594" y="350" font-size="15" font-weight="800" fill="#1f8a5b">서류로 확인할 것</text>
+<text x="594" y="380" font-size="15" font-weight="500" fill="#1d2a3a">· 팔레트 크기와 장수 계획</text>
+<text x="594" y="406" font-size="15" font-weight="500" fill="#1d2a3a">· 고정재·고박 계획</text>
+<text x="594" y="432" font-size="15" font-weight="500" fill="#1d2a3a">· 리퍼의 내부 폭</text>
+<line x1="594" y1="454" x2="812" y2="454" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="594" y="478" font-size="15" font-weight="800" fill="#1f8a5b">받아 둘 자료</text>
+<text x="594" y="508" font-size="15" font-weight="500" fill="#1d2a3a">· 패킹리스트</text>
+<text x="594" y="534" font-size="15" font-weight="500" fill="#1d2a3a">· 적입 계획·적입 사진</text>
+<rect x="843" y="130" width="250" height="430" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<rect x="843" y="130" width="250" height="56" rx="12" fill="#d9482b"/><rect x="843" y="166" width="250" height="20" fill="#d9482b"/>
+<text x="859" y="166" font-size="20" font-weight="800" fill="#ffffff">④ 씰</text>
+<path d="M1094 158 L1107 158" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="859" y="222" font-size="15" font-weight="800" fill="#d9482b">쓰이는 표준</text>
+<text x="859" y="252" font-size="15" font-weight="700" fill="#1d2a3a">ISO 17712 I·S·H 등급</text>
+<text x="859" y="278" font-size="15" font-weight="700" fill="#1d2a3a">ISO 18185 전자 씰</text>
+<text x="859" y="304" font-size="15" font-weight="700" fill="#1d2a3a">ISO/TS 7352 NFC·QR</text>
+<line x1="859" y1="326" x2="1077" y2="326" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="859" y="350" font-size="15" font-weight="800" fill="#d9482b">서류로 확인할 것</text>
+<text x="859" y="380" font-size="15" font-weight="500" fill="#1d2a3a">· 선사 씰·자체 씰 구분</text>
+<text x="859" y="406" font-size="15" font-weight="500" fill="#1d2a3a">· 반입 정보·EIR·B/L 번호</text>
+<text x="859" y="432" font-size="15" font-weight="500" fill="#1d2a3a">· 재봉인 때 새 번호</text>
+<line x1="859" y1="454" x2="1077" y2="454" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="859" y="478" font-size="15" font-weight="800" fill="#d9482b">받아 둘 자료</text>
+<text x="859" y="508" font-size="15" font-weight="500" fill="#1d2a3a">· 번호·각인 보이는 체결 사진</text>
+<text x="859" y="534" font-size="15" font-weight="500" fill="#1d2a3a">· 자체 씰이면 시험성적서</text>
+<rect x="1108" y="130" width="250" height="430" rx="12" fill="#ffffff" stroke="#6b4fbb" stroke-width="2.5"/>
+<rect x="1108" y="130" width="250" height="56" rx="12" fill="#6b4fbb"/><rect x="1108" y="166" width="250" height="20" fill="#6b4fbb"/>
+<text x="1124" y="166" font-size="20" font-weight="800" fill="#ffffff">⑤ 서류·EDI</text>
+<path d="M1359 158 L1372 158" stroke="#5f6b78" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="1124" y="222" font-size="15" font-weight="800" fill="#6b4fbb">쓰이는 표준</text>
+<text x="1124" y="252" font-size="15" font-weight="700" fill="#1d2a3a">ISO 3166 · ISO 4217</text>
+<text x="1124" y="278" font-size="15" font-weight="700" fill="#1d2a3a">ISO 8601 · UN/LOCODE</text>
+<text x="1124" y="304" font-size="15" font-weight="700" fill="#1d2a3a">ISO/IEC 15459-1</text>
+<line x1="1124" y1="326" x2="1342" y2="326" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="1124" y="350" font-size="15" font-weight="800" fill="#6b4fbb">서류로 확인할 것</text>
+<text x="1124" y="380" font-size="15" font-weight="500" fill="#1d2a3a">· 국가·통화·지점 코드</text>
+<text x="1124" y="406" font-size="15" font-weight="500" fill="#1d2a3a">· 날짜 형식(일·월 순서)</text>
+<text x="1124" y="432" font-size="15" font-weight="500" fill="#1d2a3a">· 라벨 식별자 중복</text>
+<line x1="1124" y1="454" x2="1342" y2="454" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="1124" y="478" font-size="15" font-weight="800" fill="#6b4fbb">받아 둘 자료</text>
+<text x="1124" y="508" font-size="15" font-weight="500" fill="#1d2a3a">· 인보이스·패킹리스트</text>
+<text x="1124" y="534" font-size="15" font-weight="500" fill="#1d2a3a">· 라벨 견본·EDI 사양</text>
+<rect x="1373" y="130" width="250" height="430" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2.5"/>
+<rect x="1373" y="130" width="250" height="56" rx="12" fill="#b7791f"/><rect x="1373" y="166" width="250" height="20" fill="#b7791f"/>
+<text x="1389" y="166" font-size="20" font-weight="800" fill="#ffffff">⑥ 운송 후 보고</text>
+<text x="1389" y="222" font-size="15" font-weight="800" fill="#b7791f">쓰이는 표준</text>
+<text x="1389" y="252" font-size="15" font-weight="700" fill="#1d2a3a">ISO 14083 배출량</text>
+<text x="1389" y="278" font-size="15" font-weight="700" fill="#1d2a3a">ISO 23412 냉장 택배</text>
+<text x="1389" y="304" font-size="15" font-weight="700" fill="#1d2a3a">(수리 CEDEX는 손상 문서)</text>
+<line x1="1389" y1="326" x2="1607" y2="326" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="1389" y="350" font-size="15" font-weight="800" fill="#b7791f">서류로 확인할 것</text>
+<text x="1389" y="380" font-size="15" font-weight="500" fill="#1d2a3a">· 산정 기준·판·기간</text>
+<text x="1389" y="406" font-size="15" font-weight="500" fill="#1d2a3a">· 실측값과 기본값 구분</text>
+<text x="1389" y="432" font-size="15" font-weight="500" fill="#1d2a3a">· 표준 범위 안 구간인지</text>
+<line x1="1389" y1="454" x2="1607" y2="454" stroke="#d5dde6" stroke-width="1.5"/>
+<text x="1389" y="478" font-size="15" font-weight="800" fill="#b7791f">받아 둘 자료</text>
+<text x="1389" y="508" font-size="15" font-weight="500" fill="#1d2a3a">· 운송인 배출 데이터</text>
+<text x="1389" y="534" font-size="15" font-weight="500" fill="#1d2a3a">· 온도 기록·인계 기록</text>
+<text x="48" y="600" font-size="19" font-weight="800" fill="#1d2a3a">화주가 자주 묻는 말과 답의 근거</text>
+<rect x="48" y="616" width="382" height="180" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="66" y="652" font-size="17" font-weight="800" fill="#1d2a3a">"이 컨테이너가 ISO 규격인가요?"</text>
+<text x="66" y="690" font-size="15" font-weight="500" fill="#1d2a3a">문에 붙은 크기·형식 코드(ISO 6346),</text>
+<text x="66" y="718" font-size="15" font-weight="500" fill="#1d2a3a">CSC 안전승인판, 선사 장비 사양으로</text>
+<text x="66" y="746" font-size="15" font-weight="500" fill="#1d2a3a">답합니다.</text>
+<rect x="446" y="616" width="382" height="180" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="464" y="652" font-size="17" font-weight="800" fill="#1d2a3a">"씰이 ISO 17712 H등급인가요?"</text>
+<text x="464" y="690" font-size="15" font-weight="500" fill="#1d2a3a">선사 씰은 등급을 선사에 확인하고,</text>
+<text x="464" y="718" font-size="15" font-weight="500" fill="#1d2a3a">자체 씰은 시험성적서 사본을 받습니다.</text>
+<text x="464" y="746" font-size="15" font-weight="500" fill="#1d2a3a">번호·H 각인이 보이는 체결 사진도 받습니다.</text>
+<rect x="844" y="616" width="382" height="180" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="862" y="652" font-size="17" font-weight="800" fill="#1d2a3a">"ISO 규격 팔레트를 써 주세요"</text>
+<text x="862" y="690" font-size="15" font-weight="500" fill="#1d2a3a">팔레트 치수와 시험 결과(ISO 8611)는</text>
+<text x="862" y="718" font-size="15" font-weight="500" fill="#1d2a3a">팔레트 공급자·화주 자료로 확인합니다.</text>
+<text x="862" y="746" font-size="15" font-weight="500" fill="#1d2a3a">포워더가 시험하지 않습니다.</text>
+<text x="862" y="774" font-size="15" font-weight="500" fill="#1d2a3a">목적지 요구 크기·ISPM 15 표시도 확인합니다.</text>
+<rect x="1242" y="616" width="382" height="180" rx="12" fill="#ffffff" stroke="#5f6b78" stroke-width="2"/>
+<text x="1260" y="652" font-size="17" font-weight="800" fill="#1d2a3a">"ISO 14083으로 배출량을 주세요"</text>
+<text x="1260" y="690" font-size="15" font-weight="500" fill="#1d2a3a">산정 기준·판, 기간, 운송인 데이터인지</text>
+<text x="1260" y="718" font-size="15" font-weight="500" fill="#1d2a3a">기본값인지 적은 보고서로 답하고,</text>
+<text x="1260" y="746" font-size="15" font-weight="500" fill="#1d2a3a">범위 밖 구간은 그렇다고 적습니다.</text>
+<rect x="48" y="822" width="1576" height="56" rx="10" fill="#eef4fb"/>
+<text x="68" y="857" font-size="16" font-weight="700" fill="#1d2a3a">원칙: 표준 번호만 있고 판이 없으면 판을 묻고, 계약 범위 밖의 요구(씰 부착, 고박, 팔레트 시험 등)는 이행 주체를 계약서에 적습니다.</text>
+</svg>
