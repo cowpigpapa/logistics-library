@@ -145,7 +145,7 @@
       const today = new Date();
       const rowsHtml = list.map(d => {
         const days = d.d ? Math.floor((today - new Date(d.d + 'T00:00:00+09:00')) / 86400000) : null;
-        const limit = d.c === 'Charges' ? 90 : 180;
+        const limit = String(d.c).startsWith('Charges') ? 90 : 180;
         const stale = days === null || days > limit;
         return `<tr${stale ? ' class="lc-stale"' : ''}><td>${esc(d.d || '날짜 없음')}</td><td>${days === null ? '-' : days + '일'}${stale ? ' <b>다시 확인</b>' : ''}</td>` +
           `<td><a href="${esc(d.u)}" target="_blank" rel="noopener">${esc(d.t)}</a></td><td>${esc(d.c)}</td></tr>`;
