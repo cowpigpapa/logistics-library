@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/charges';
-  const DOCS_VERSION = '20261105-02';
+  const DOCS_VERSION = '20261109-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -33,7 +33,7 @@
   // 문서 목록. level: 3 포워더 필수, 2 담당자 확인, 없으면 참고.
   const DOCS = [
     { id: 'ch-quote', checked: '2026-10-28', tag: "견적", level: 3, title: "견적서 읽는 법 — 해상 FCL·LCL·항공 견적의 다섯 묶음, 단위·환율·조건, 인보이스 대조", short: "견적서 읽는 법", summary: "해상 FCL·LCL과 항공 견적서를 출발지 비용·주운임·할증료·도착지 비용·통관·내륙의 다섯 묶음으로 나누고, 단위·통화·환율·지급 조건·유효기간과 Incoterms 2020 조건별 견적 범위를 정리합니다. 빠뜨리기 쉬운 항목 목록, 예시 금액으로 만든 견적 예시와 인보이스 대조 순서를 붙였습니다." },
-    { id: 'ch-space', checked: '2026-11-03', tag: "스페이스계약", level: 3, title: "선사·항공사 스페이스 계약 — 서비스 계약(S/C)과 NAC·FAK, 최소 물량, 항공 BSA·블록 스페이스, 롤오버와 노쇼", short: "스페이스 계약·S/C·BSA", summary: "포워더가 선사·항공사에서 공간을 사는 스팟 부킹, 최소 물량(MQC)을 약속하는 해상 장기 계약, ULD 단위로 배정되는 항공 하드 블록·소프트 블록의 구조와 계약서에서 볼 조항(기간, 물량, 범위, 운임 변경, 할증료 별도, 성수기 공간 보장, 해지·위약)을 정리합니다. 미국 46 CFR Part 530·531·532·542와 한국 해운법의 장기운송계약 필수 내용·양쪽 금지행위를 다루고, 롤오버를 부르는 네 가지 마감과 터미널 대기 비용, 노쇼 요금과 배정 축소, 부킹 거절 기록과 기간 말 정산, 화주 계약에 같은 조건을 넣는 법을 붙였습니다." },
+    { id: 'ch-space', checked: '2026-11-03', tag: "스페이스계약", level: 3, title: "선사·항공사 스페이스 계약 — 서비스 계약(S/C)과 NAC·FAK, 최소 물량, 항공 BSA·블록 스페이스, 롤오버와 노쇼", short: "스페이스 계약·S/C·BSA", summary: "포워더가 선사·항공사에서 공간을 사는 스팟 부킹, 최소 물량(MQC)을 약속하는 해상 장기 계약, ULD 단위로 배정되는 항공 하드 블록·소프트 블록의 구조와 계약서에서 볼 조항(기간, 물량, 범위, 운임 변경, 할증료 별도, 성수기 공간 보장, 해지·위약)을 정리합니다. 미국 46 CFR Part 530·531·532·542와 한국 해운법의 장기운송계약 필수 내용·양쪽 금지행위를 다루고, 롤오버를 부르는 네 가지 마감과 터미널 대기 비용, 노쇼 요금과 배정 축소, 부킹 거절 기록과 기간 말 정산, 화주 계약에 같은 조건을 반영하는 방법을 덧붙였습니다." },
     { id: 'ch-surcharges', checked: '2026-10-18', tag: "할증료", level: 3, title: "해상 할증료 — 종류, 생긴 이유, 계산 원리", short: "해상 할증료 종류와 BAF", summary: "BAF·LSS·EBS·EU ETS·CAF·PSS 등 해상운임에 붙는 할증료가 왜 생겼고, 1970년대 운임동맹 시절의 BAF·CAF 두 가지에서 왜 이렇게 늘어났는지, 원리상 어떻게 계산되고 어느 날짜 기준으로 붙는지를 금액 없이 정리하고 인보이스의 할증료 줄을 대조하는 순서를 보여 줍니다." },
     { id: 'ch-air-weight', checked: '2026-10-28', tag: "운임중량", level: 3, title: "항공 운임 중량 계산 — 실중량·부피 중량, 반올림, 중량 구간과 House·Master", short: "항공 운임 중량 계산", summary: "항공 운임 중량은 실중량과 부피 중량(cm³ ÷ 6,000) 중 큰 값입니다. 치수와 중량의 반올림, 여러 개 화물 합산, 최소 운임·중량 구간과 분기점, AWB 운임 칸, House와 Master 운임 중량이 다른 이유를 실제 숫자로 풉니다." },
     { id: 'ch-lcl', checked: '2026-10-18', tag: "LCL", level: 3, title: "LCL·CFS와 운임톤 계산 — 소량 해상화물이 모이고 나뉘는 길과 R/T 청구", short: "LCL·운임톤 계산", summary: "LCL 화물이 수출·수입 CFS에서 어떻게 모이고 나뉘는지 관세청 고시 기준으로 정리하고, 1CBM과 1,000kg 중 큰 쪽으로 세는 운임톤(R/T), 최소 1 R/T, CFS 실측 차이를 공개 요율로 계산해 보입니다." },

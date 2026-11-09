@@ -28,7 +28,7 @@
 <text x="48" y="392"><tspan font-weight="800">원인</tspan>: 과중량, 높은 충전 높이, 거친 바다와 바깥 열·상단 적재,</text>
 <text x="48" y="414">로고용 평판 패널이 있는 측벽</text>
 <text x="48" y="442"><tspan font-weight="800">결과</tspan>: 영구 변형, 다음 운송에서 스택 붕괴 위험(구조 약화)</text>
-<text x="48" y="474" font-size="13" fill="#5f6b78">UK P&amp;I 34장, GDV/GL 조사, COA 4.3 표(측벽은 끝까지 골판형)</text>
+<text x="48" y="474" font-size="13" fill="#5f6b78">P&amp;I 클럽 지침 34장, GDV/GL 조사, COA 4.3 표(측벽은 끝까지 골판형)</text>
 </g>
 
 <!-- ===== Card 2: door end / bulkhead ===== -->
@@ -89,7 +89,7 @@
 <text x="48" y="796"><tspan font-weight="800">원인</tspan>: 호스 무게가 밸브를 끌어내림, 문을 닫다 밸브가 끼임,</text>
 <text x="48" y="818">밸브 결합·밀봉 불량, 가열 패드 과열로 필름이 녹음</text>
 <text x="48" y="846"><tspan font-weight="800">결과</tspan>: 항만에서 "드리퍼(dripper)"로 분리, 드립 트레이 위 옮겨 담기</text>
-<text x="48" y="878" font-size="13" fill="#5f6b78">UK P&amp;I 34.9, TT Club StopLoss(2024) 4.2, IUMI Annex 2</text>
+<text x="48" y="878" font-size="13" fill="#5f6b78">P&amp;I 지침 34.9, 보험사 자료(2024) 4.2, IUMI Annex 2</text>
 </g>
 
 <!-- ===== Card 5: fermentation ===== -->
@@ -109,7 +109,7 @@
 <text x="595" y="796"><tspan font-weight="800">원인</tspan>: 포도주·과일주스 농축액·살아 있는 균이 든 액비의 2차 발효,</text>
 <text x="595" y="818">높은 온도, 압력 배출 밸브 없는 플렉시탱크</text>
 <text x="595" y="846"><tspan font-weight="800">결과</tspan>: 컨테이너 전방위 변형, 플렉시탱크 파열</text>
-<text x="595" y="878" font-size="13" fill="#5f6b78">IUMI Annex 2 사진 22~25, TT Club StopLoss 2.6.2, UK P&amp;I 34.9</text>
+<text x="595" y="878" font-size="13" fill="#5f6b78">IUMI Annex 2 사진 22~25, 보험사 자료 2.6.2, P&amp;I 지침 34.9</text>
 </g>
 
 <!-- ===== Card 6: under / over fill ===== -->
@@ -128,8 +128,8 @@
 <text x="1520" y="744" font-size="14" fill="#1d2a3a" text-anchor="middle">넘침: 필름·이음매 응력</text>
 <g font-size="15" fill="#1d2a3a">
 <text x="1142" y="796"><tspan font-weight="800">기준</tspan>: 제조사가 정한 용량의 ±3%(COA·PAS), 유량계로 계량</text>
-<text x="1142" y="818">(제조사에 따라 ±5%, IUMI). 눈대중으로는 부족(UK P&amp;I)</text>
+<text x="1142" y="818">(제조사에 따라 ±5%, IUMI). 눈대중으로는 부족(P&amp;I 지침)</text>
 <text x="1142" y="846"><tspan font-weight="800">결과</tspan>: 덜 채우면 선박 복원성에도 영향, 선장에게 알려야 함</text>
-<text x="1142" y="878" font-size="13" fill="#5f6b78">COA CoP V6-O 4.2, TT Club StopLoss 4.2.2, UK P&amp;I 34.4</text>
+<text x="1142" y="878" font-size="13" fill="#5f6b78">COA CoP V6-O 4.2, 보험사 자료 4.2.2, P&amp;I 지침 34.4</text>
 </g>
 </svg>

@@ -108,7 +108,7 @@
 <text x="60" y="868" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">그 밖에: 비 오는 날 노천 적입·적출, 선박 창구 덮개 누수(운송인 쪽), 수분이 많은 화물과 함께 싣기</text>
 <text x="60" y="892" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">파란색 = 밖에서 들어온 물, 주황색 = 안에서 생긴 물</text>
 <rect x="1060" y="30" width="582" height="881" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
-<text x="1084" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">TT Club 클레임 자료</text>
+<text x="1084" y="72" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">보험사 클레임 자료</text>
 <text x="1084" y="112" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="start">젖음 손상 원인 (2020년 자료)</text>
 <rect x="1084" y="160" width="534" height="34" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5" rx="6"/>
 <rect x="1084" y="160" width="133.5" height="34" fill="#fdeee9" stroke="#d9482b" stroke-width="2" rx="6"/>
@@ -144,5 +144,5 @@
 <rect x="1084" y="798" width="165.54" height="34" fill="#fbf3e2" stroke="#c98a12" stroke-width="2" rx="6"/>
 <text x="1259.54" y="823" font-size="19" font-weight="800" fill="#c98a12" text-anchor="start">31%</text>
 <text x="1084" y="788" font-size="17" font-weight="600" fill="#1d2a3a" text-anchor="start">배수 능력을 넘는 폭우 뒤</text>
-<text x="1084" y="880" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">TT Club 손해 예방 기사(2021. 10.)</text>
+<text x="1084" y="880" font-size="15" font-weight="500" fill="#5f6b78" text-anchor="start">물류 보험사 손해 예방 기사(2021. 10.)</text>
 </svg>

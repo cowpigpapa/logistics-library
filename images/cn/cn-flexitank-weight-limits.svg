@@ -87,9 +87,9 @@
 <text x="894" y="726"><tspan font-weight="800">측벽 시험 하중</tspan>: 드라이 컨테이너 측벽은 적재 중량(P)의 60%를 벽 전체에 고르게</text>
 <text x="894" y="748">받는 시험을 거칩니다(CTU Code §6.2.4, ISO 1496-1).</text>
 <text x="894" y="778"><tspan font-weight="800" fill="#d9482b">실제는 더 불리</tspan>: 플렉시탱크는 벽 아래쪽에 몰려 밀고, 정지 상태의 액체 압력도</text>
-<text x="894" y="800">이미 벽에 걸려 있습니다. 그래서 접촉 높이를 낮게(약 1.3m 제안, UK P&amp;I) 하라고 합니다.</text>
+<text x="894" y="800">이미 벽에 걸려 있습니다. 그래서 접촉 높이를 낮게(약 1.3m 제안, P&amp;I 지침) 하라고 합니다.</text>
 <text x="894" y="830"><tspan font-weight="800">이 계산은 판정용이 아닙니다</tspan>: 비교를 위한 단순화이며, 실제 가속도는 선박 크기·</text>
 <text x="894" y="852">복원성·적재 위치(갑판 위 바깥 열, 선수·선미)에 따라 달라집니다.</text>
-<text x="894" y="878" font-size="13" fill="#5f6b78">출처: CTU Code(MSC.1/Circ.1497) 5장 표·§6.2.4, Carefully to Carry 34장(UK P&amp;I, 2023), 선사 공개 20GP 사양</text>
+<text x="894" y="878" font-size="13" fill="#5f6b78">출처: CTU Code(MSC.1/Circ.1497) 5장 표·§6.2.4, P&amp;I 클럽 지침 34장(2023), 선사 공개 20GP 사양</text>
 </g>
 </svg>
