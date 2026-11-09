@@ -173,6 +173,19 @@
       ]
     },
     {
+      "source": "/share/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=300"
+        }
+      ]
+    },
+    {
       "source": "/ch-docs/(.*)",
       "headers": [
         {
