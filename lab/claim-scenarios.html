@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>정산 시나리오 입력 · 작업 중 · Logistics Library</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+<style>
+/* 관리자 전용: 운영자가 실제 정산 사례를 적어 두면 Claude가 읽어 시안의 예시로 옮긴다(claim_scenario 표). 휴대폰에서도 쓰기 쉽게 한 줄로 쌓는다. */
+:root{--bg:#eef1f4;--paper:#fff;--ink:#18222d;--muted:#56626e;--line:#c3cbd3;--blue:#1f5fbf;--ok:#1a6648;--bad:#9a2f22;--f:'Malgun Gothic','Apple SD Gothic Neo',system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 var(--f)}
+.lab-bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font-size:13px;color:#5c4a12}
+.lab-bar a{color:var(--blue);font-weight:700;text-decoration:none}.lab-bar a[aria-current]{color:#5c4a12}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 48px;display:grid;gap:16px}
+h1{margin:0;font-size:21px}
+.lead{margin:4px 0 0;color:var(--muted)}
+.keyform{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:14px;border:1px solid var(--line);border-radius:8px;background:var(--paper)}
+.keyform input{flex:1 1 220px;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:6px;font:inherit}
+button{font:inherit;min-height:44px;padding:0 16px;border-radius:6px;border:1px solid var(--blue);background:var(--blue);color:#fff;font-weight:700;cursor:pointer}
+button.quiet{background:var(--paper);color:var(--blue)}
+.sc{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:grid;gap:10px}
+.sc h2{margin:0;font-size:16px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.sc h2 small{font-size:12px;font-weight:400;color:var(--muted)}
+label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+input.t,textarea{font:inherit;font-size:15px;color:var(--ink);width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:#fff}
+textarea{min-height:76px;resize:vertical}
+input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+.saved{font-size:12.5px;color:var(--ok);min-height:1em}.saved.err{color:var(--bad)}
+.status{color:var(--muted);font-size:13.5px}
+.ex{font-size:13px;color:var(--muted);background:var(--paper);border:1px dashed var(--line);border-radius:8px;padding:12px 14px;margin:0}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="lab-bar"><a href="/lab">← 작업 중 목록</a><a href="/lab/claim-model">정산 구조</a><a href="/lab/claim-screens">입력 화면 시안</a><a href="/lab/claim-scenarios" aria-current="page">시나리오 입력</a></div>
+<main class="wrap">
+  <header>
+    <h1>정산 시나리오 입력</h1>
+    <p class="lead">실제 처리했던 사례를 칸마다 적어 주세요. 적는 대로 저장됩니다. 다 적으시면 Claude에게 "시나리오 반영해"라고 하시면 익명화해서 입력 화면 시안의 예시로 넣습니다. 고객사·협력사 이름은 그대로 적으셔도 공개 페이지에는 빼고 옮깁니다.</p>
+  </header>
+  <p class="ex">예시 · 제목: 항공 화물 분실 / 경위: 인천→프랑크푸르트 2개 포장 중 1개 분실 / 클레임: 고객 손해배상 3,000만원, 고객이 적하보험에서 3,000만원 수령 후 보험사가 당사에 구상 / 당사 지불: 책임제한 주장, 손해배상금 500만원 현금 지급 / 당사 회수: 없음</p>
+
+  <form class="keyform" id="keyform" hidden>
+    <label for="key" style="color:var(--ink)">관리자 키</label>
+    <input type="password" id="key" autocomplete="current-password" placeholder="링크 점검·사례 선별표와 같은 관리자 키">
+    <button type="submit">열기</button>
+    <span class="status" id="keymsg"></span>
+  </form>
+  <div id="list" hidden></div>
+  <p class="status" id="status">관리자 키를 넣으면 입력 칸이 열립니다.</p>
+</main>
+<script>
+(() => {
+  const RPC = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/';
+  const API_KEY = 'sb_publishable_vgcDAWoOJRD8Xvp2p4Ew9A_exTmzuXM';
+  const F = [['title', '제목', 'input', '예: 항공 화물 분실'], ['situation', '사고 경위', 'textarea', '언제, 어디서, 무슨 일이 있었는지'],
+    ['claim', '클레임 (청구인 · 청구 유형 · 총 클레임 금액)', 'textarea', '예: 고객 손해배상 3,000만원 → 보험사 구상 3,000만원'],
+    ['pay', '당사 지불 (금액 · 방법 · 사유)', 'textarea', '예: 책임제한 주장, 500만원 현금 지급 / 운임에서 차감(매출 차감)'],
+    ['recover', '당사 회수 (회수처 · 금액 · 방법)', 'textarea', '예: 해외 협력사 100만원, 다음 달 인보이스에서 차감(매입 차감) / 없음'],
+    ['memo', '기타 (화면에 꼭 있었으면 하는 것 등)', 'textarea', '']];
+  const store = { get: k => { try { return localStorage.getItem(k); } catch (_) { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch (_) {} }, del: k => { try { localStorage.removeItem(k); } catch (_) {} } };
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  let key = store.get('ll-admin-key'), rows = [];
+  const byId = new Map(), pending = new Map(), timers = {};
+  async function rpc(name, body) {
+    const res = await fetch(RPC + name, { method: 'POST', headers: { apikey: API_KEY, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    const data = await res.json().catch(() => null);
+    if (!res.ok) throw new Error((data && data.message) || ('HTTP ' + res.status));
+    return data;
+  }
+  function render() {
+    $('list').innerHTML = rows.map((r, n) => `<section class="sc" data-id="${esc(r.id)}"><h2>시나리오 ${n + 1}<small>${r.updated_at ? '마지막 저장 ' + new Date(r.updated_at).toLocaleString('ko-KR') : '비어 있음'}</small></h2>
+      ${F.map(([f, l, tag, ph]) => `<label>${l}${tag === 'input' ? `<input class="t" data-f="${f}" value="${esc(r[f])}" placeholder="${esc(ph)}">` : `<textarea data-f="${f}" placeholder="${esc(ph)}">${esc(r[f])}</textarea>`}</label>`).join('')}
+      <div class="saved"></div></section>`).join('');
+  }
+  function save(id, el) {
+    const r = byId.get(id), prev = pending.get(id) || Promise.resolve();
+    const next = prev.then(() => rpc('save_claim_scenario', { p_secret: key, p_id: id, p_title: r.title, p_situation: r.situation, p_claim: r.claim, p_pay: r.pay, p_recover: r.recover, p_memo: r.memo }))
+      .then(() => { el.classList.remove('err'); el.textContent = '저장됨'; setTimeout(() => { if (el.textContent === '저장됨') el.textContent = ''; }, 1500); })
+      .catch(e => { el.classList.add('err'); el.textContent = '저장하지 못했습니다: ' + e.message; });
+    pending.set(id, next);
+  }
+  $('list').addEventListener('input', e => {
+    const f = e.target.dataset.f; if (!f) return;
+    const sc = e.target.closest('.sc'), r = byId.get(sc.dataset.id);
+    r[f] = e.target.value;
+    clearTimeout(timers[r.id]); timers[r.id] = setTimeout(() => save(r.id, sc.querySelector('.saved')), 700);
+  });
+  async function load() {
+    $('status').textContent = '불러오는 중입니다.';
+    try {
+      rows = await rpc('get_claim_scenario', { p_secret: key });
+      byId.clear(); rows.forEach(r => byId.set(r.id, r));
+      store.set('ll-admin-key', key);
+      $('keyform').hidden = true; $('list').hidden = false; render();
+      $('status').innerHTML = '적는 대로 저장됩니다. <button type="button" class="quiet" id="logout">키 지우기</button>';
+      $('logout').onclick = () => { store.del('ll-admin-key'); location.reload(); };
+    } catch (e) {
+      store.del('ll-admin-key'); key = null;
+      $('keyform').hidden = false; $('list').hidden = true;
+      $('keymsg').textContent = /not allowed/.test(e.message) ? '키가 맞지 않습니다.' : '불러오지 못했습니다: ' + e.message;
+      $('status').textContent = '관리자 키를 넣으면 입력 칸이 열립니다.';
+    }
+  }
+  $('keyform').addEventListener('submit', e => { e.preventDefault(); key = $('key').value.trim(); if (key) load(); });
+  if (key) load(); else $('keyform').hidden = false;
+})();
+</script>
+</body>
+</html>

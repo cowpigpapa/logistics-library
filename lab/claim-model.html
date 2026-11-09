@@ -66,10 +66,11 @@ td.num{text-align:right;font-family:var(--f-mono);white-space:nowrap}
 .lab-bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font:13px/1.5 'Malgun Gothic',system-ui,sans-serif;color:#5c4a12}
 .lab-bar a{color:#1f5fbf;font-weight:700;text-decoration:none}
 .lab-bar a:hover{text-decoration:underline}
+.lab-bar a[aria-current]{color:#5c4a12}
 </style>
 </head>
 <body>
-<div class="lab-bar"><a href="/lab">← 작업 중 목록</a><span>검토용 시안입니다. 예시 데이터이며 실제 시스템이 아닙니다.</span></div>
+<div class="lab-bar"><a href="/lab">← 작업 중 목록</a><span>검토용 시안 · 금액과 이름은 예시</span><a href="/lab/claim-model" aria-current="page">정산 구조</a><a href="/lab/claim-screens">입력 화면 시안</a><a href="/lab/claim-scenarios">시나리오 입력</a></div>
 <div class="wrap">
 <header>
   <div class="eyebrow">QMS 부적합 · 비용 처리 설계안</div>
@@ -89,8 +90,8 @@ td.num{text-align:right;font-family:var(--f-mono);white-space:nowrap}
       <marker id="aClaim" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill:var(--claim)"/></marker>
     </defs>
     <g style="font-size:12px;font-weight:700" text-anchor="middle">
-      <text x="115" y="22" style="fill:var(--muted)">청구하는 쪽</text>
-      <text x="845" y="92" style="fill:var(--muted)">회사가 돌려받는 쪽</text>
+      <text x="115" y="22" style="fill:var(--muted)">청구인</text>
+      <text x="845" y="92" style="fill:var(--muted)">당사 회수처</text>
     </g>
     <!-- edges -->
     <g fill="none" stroke-width="2.4">
@@ -128,21 +129,21 @@ td.num{text-align:right;font-family:var(--f-mono);white-space:nowrap}
       <text x="115" y="425" style="fill:var(--ink)">관청 (세관·국토부 등)</text>
       <text x="115" y="444" style="fill:var(--muted);font-size:11.5px;font-weight:400">과태료·벌금 부과</text>
       <rect x="385" y="200" width="190" height="100" rx="10" style="fill:var(--self)"/>
-      <text x="480" y="244" style="fill:var(--selfInk);font-size:16px">자사 (포워더)</text>
-      <text x="480" y="266" style="fill:var(--selfInk);font-size:11.5px;font-weight:400;opacity:.8">순부담 = 낸 돈 − 받은 돈</text>
+      <text x="480" y="244" style="fill:var(--selfInk);font-size:16px">당사 (포워더)</text>
+      <text x="480" y="266" style="fill:var(--selfInk);font-size:11.5px;font-weight:400;opacity:.8">최종 부담 = 지불 − 회수</text>
       <rect x="750" y="140" width="190" height="64" rx="8" style="fill:var(--panel);stroke:var(--line)" stroke-width="1.5"/>
-      <text x="845" y="169" style="fill:var(--ink)">자사 배상책임보험사</text>
+      <text x="845" y="169" style="fill:var(--ink)">당사 배상책임보험사</text>
       <text x="845" y="188" style="fill:var(--muted);font-size:11.5px;font-weight:400">자기부담금 제외 보상</text>
       <rect x="750" y="340" width="190" height="64" rx="8" style="fill:var(--panel);stroke:var(--line)" stroke-width="1.5"/>
       <text x="845" y="369" style="fill:var(--ink)">파트너·운송사</text>
-      <text x="845" y="388" style="fill:var(--muted);font-size:11.5px;font-weight:400">귀책 시 회사가 구상</text>
+      <text x="845" y="388" style="fill:var(--muted);font-size:11.5px;font-weight:400">귀책 시 당사가 구상</text>
     </g>
   </svg>
   </div>
   <div class="legend">
-    <span class="t-out"><i class="sw"></i>회사가 내는 돈</span>
-    <span class="t-in"><i class="sw"></i>회사가 받는 돈</span>
-    <span class="t-ins"><i class="sw"></i>고객사 보험사가 고객에게 (회사 장부 밖, 참고 기록)</span>
+    <span class="t-out"><i class="sw"></i>당사 지불</span>
+    <span class="t-in"><i class="sw"></i>당사 회수</span>
+    <span class="t-ins"><i class="sw"></i>고객사 보험사가 고객에게 (당사 장부 밖, 참고 기록)</span>
     <span class="t-claim"><i class="sw d"></i>청구만 (돈이 아직 안 움직임)</span>
   </div>
 </section>
@@ -154,16 +155,16 @@ td.num{text-align:right;font-family:var(--f-mono);white-space:nowrap}
     <div><b>현금 송금</b>배상금·과태료·구상금을 실제로 보내거나 받음</div>
     <div><b class="t-out">매출 차감 (Selling)</b>고객에게 청구할 운임에서 깎아 줌. 크레딧 노트로 처리. ① 손해배상에 쓰임</div>
     <div><b class="t-in">매입 차감 (Buying)</b>파트너가 보낸 매입 인보이스에서 할인받음. ⑧ 회수에 쓰임</div>
-    <div><b class="t-ins">보험 처리</b>자사 배상책임보험금 수령(⑥), 또는 고객사 보험사 지급(③, 참고)</div>
+    <div><b class="t-ins">보험 처리</b>당사 배상책임보험금 수령(⑥), 또는 고객사 보험사 지급(③, 참고)</div>
   </div>
-  <p class="note">매출 차감은 돈이 안 나가도 회사 부담이고, 매입 차감은 돈이 안 들어와도 회수입니다. 근거 문서로 크레딧 노트 번호나 차감된 인보이스 번호를 연결합니다.</p>
+  <p class="note">매출 차감은 돈이 안 나가도 당사 부담이고, 매입 차감은 돈이 안 들어와도 회수입니다. 근거 문서로 크레딧 노트 번호나 차감된 인보이스 번호를 연결합니다.</p>
 </section>
 
 <section>
   <h2>3. 하나로 표현하는 방법: 정산 라인</h2>
-  <p class="lead">위 화살표 하나가 정산 라인 한 줄입니다. 청구 건 하나에 라인이 여러 줄 붙고, 회사 순부담은 라인을 더하기만 하면 나옵니다.</p>
+  <p class="lead">위 화살표 하나가 정산 라인 한 줄입니다. 청구 건 하나에 라인이 여러 줄 붙고, 당사 최종 부담은 라인을 더하기만 하면 나옵니다.</p>
   <div class="formula">
-    <b>자사 순부담</b> = <span class="t-out">( ① 손해배상금 + ② 과태료 + ⑤ 구상 지급 )</span> − <span class="t-in">( ⑥ 보험금 + ⑧ 회수 )</span>
+    <b>당사 최종 부담</b> = <span class="t-out">( ① 손해배상금 + ② 과태료 + ⑤ 구상 지급 )</span> − <span class="t-in">( ⑥ 보험금 + ⑧ 회수 )</span>
   </div>
   <div class="layers">
     <div class="panel layer">
@@ -172,7 +173,7 @@ td.num{text-align:right;font-family:var(--f-mono);white-space:nowrap}
       <ul>
         <li>Irre. No.</li>
         <li>현상·원인·귀책 주체</li>
-        <li>Impact ← 순부담 합계를 자동으로 채움</li>
+        <li>Impact ← 최종 부담 합계를 자동으로 채움</li>
       </ul>
       <div class="rel">사고 1 : 청구 N</div>
     </div>
@@ -182,7 +183,7 @@ td.num{text-align:right;font-family:var(--f-mono);white-space:nowrap}
       <ul>
         <li>청구 구분: 손해배상 / 과태료·벌금 / 추가비용</li>
         <li>청구자: 고객 / 고객사 보험사 / 관청 / 파트너</li>
-        <li>청구액(Total claim)·통화·청구일</li>
+        <li>총 클레임 금액(Total claim)·통화·청구일</li>
         <li>상태·종결일</li>
       </ul>
       <div class="rel">청구 1 : 라인 N</div>
@@ -207,18 +208,18 @@ td.num{text-align:right;font-family:var(--f-mono);white-space:nowrap}
 
 <section>
   <h2>4. 실제 기록 예: 고객사 보험 처리 후 구상</h2>
-  <p class="lead">고객사 보험사가 먼저 보상하고 회사에 구상한 건입니다. 회사는 책임한도 범위만 송금하고, 귀책 파트너에게는 다음 달 매입 인보이스에서 깎아 받았습니다. 금액은 설명용 예시입니다.</p>
+  <p class="lead">고객사 보험사가 먼저 보상하고 당사에 구상한 건입니다. 당사는 책임한도 범위만 송금하고, 귀책 파트너에게는 다음 달 매입 인보이스에서 깎아 받았습니다. 금액은 설명용 예시입니다.</p>
   <div class="panel scroll">
   <table style="min-width:720px">
     <thead><tr><th>#</th><th>보낸 쪽 → 받는 쪽</th><th>성격</th><th>종류</th><th>수단</th><th style="text-align:right">금액(원)</th><th>상태</th></tr></thead>
     <tbody>
       <tr><td>③</td><td>고객사 보험사 → 고객</td><td>보험금</td><td><span class="pill ins">참고</span></td><td>보험</td><td class="num">20,000,000</td><td>완료</td></tr>
-      <tr><td>④</td><td>고객사 보험사 → 자사</td><td>구상금</td><td><span class="pill claim">청구</span></td><td>—</td><td class="num">20,000,000</td><td>일부 수락</td></tr>
-      <tr><td>⑤</td><td>자사 → 고객사 보험사</td><td>구상금 (책임한도 적용)</td><td><span class="pill out">지급</span></td><td>현금</td><td class="num">6,000,000</td><td>완료</td></tr>
-      <tr><td>⑦</td><td>자사 → 파트너</td><td>구상금</td><td><span class="pill claim">청구</span></td><td>—</td><td class="num">6,000,000</td><td>수락</td></tr>
-      <tr><td>⑧</td><td>파트너 → 자사</td><td>회수금</td><td><span class="pill in">수령</span></td><td>매입 차감 (Buying)</td><td class="num">6,000,000</td><td>완료</td></tr>
+      <tr><td>④</td><td>고객사 보험사 → 당사</td><td>구상금</td><td><span class="pill claim">청구</span></td><td>—</td><td class="num">20,000,000</td><td>일부 수락</td></tr>
+      <tr><td>⑤</td><td>당사 → 고객사 보험사</td><td>구상금 (책임한도 적용)</td><td><span class="pill out">지급</span></td><td>현금</td><td class="num">6,000,000</td><td>완료</td></tr>
+      <tr><td>⑦</td><td>당사 → 파트너</td><td>구상금</td><td><span class="pill claim">청구</span></td><td>—</td><td class="num">6,000,000</td><td>수락</td></tr>
+      <tr><td>⑧</td><td>파트너 → 당사</td><td>회수금</td><td><span class="pill in">수령</span></td><td>매입 차감 (Buying)</td><td class="num">6,000,000</td><td>완료</td></tr>
     </tbody>
-    <tfoot><tr><td></td><td colspan="4" class="net">청구액 20,000,000 · 자사 지급 6,000,000 · 회수 6,000,000</td><td class="num net">순부담 0</td><td></td></tr></tfoot>
+    <tfoot><tr><td></td><td colspan="4" class="net">총 클레임 금액 20,000,000 · 당사 지급 6,000,000 · 회수 6,000,000</td><td class="num net">최종 부담 0</td><td></td></tr></tfoot>
   </table>
   </div>
 </section>
@@ -228,14 +229,14 @@ td.num{text-align:right;font-family:var(--f-mono);white-space:nowrap}
   <p class="lead">처리 방식이 달라도 칸을 새로 만들 필요가 없습니다. 쓰는 라인과 수단만 다릅니다. 금액은 모두 예시입니다.</p>
   <div class="panel scroll">
   <table style="min-width:720px">
-    <thead><tr><th>처리 방식</th><th>쓰이는 라인</th><th style="text-align:right">청구액</th><th style="text-align:right">자사 순부담</th></tr></thead>
+    <thead><tr><th>처리 방식</th><th>쓰이는 라인</th><th style="text-align:right">총 클레임 금액</th><th style="text-align:right">당사 최종 부담</th></tr></thead>
     <tbody>
       <tr><td>매출 차감으로 배상, 파트너 매입 차감</td><td><span class="pill out">① Selling 3,000,000</span> <span class="pill claim">⑦</span> <span class="pill in">⑧ Buying 2,000,000</span></td><td class="num">3,000,000</td><td class="num net">1,000,000</td></tr>
       <tr><td>현금 배상 후 파트너 현금 구상</td><td><span class="pill out">① 현금 8,000,000</span> <span class="pill claim">⑦</span> <span class="pill in">⑧ 현금 5,000,000</span></td><td class="num">10,000,000</td><td class="num net">3,000,000</td></tr>
       <tr><td>과태료 납부, 파트너 청구 거절</td><td><span class="pill out">② 2,000,000</span> <span class="pill claim">⑦ 거절</span></td><td class="num">2,000,000</td><td class="num net">2,000,000</td></tr>
       <tr><td>고객사 보험 후 구상, 일부 수락</td><td><span class="pill ins">③</span> <span class="pill claim">④</span> <span class="pill out">⑤ 6,000,000</span> <span class="pill in">⑧ Buying 6,000,000</span></td><td class="num">20,000,000</td><td class="num net">0</td></tr>
       <tr><td>고객사 보험 후 구상, 거절(면책)</td><td><span class="pill ins">③</span> <span class="pill claim">④ 거절</span></td><td class="num">15,000,000</td><td class="num net">0</td></tr>
-      <tr><td>자사 배상책임보험 처리</td><td><span class="pill out">① 현금 25,000,000</span> <span class="pill in">⑥ 22,000,000</span></td><td class="num">25,000,000</td><td class="num net">3,000,000 (자기부담금)</td></tr>
+      <tr><td>당사 배상책임보험 처리</td><td><span class="pill out">① 현금 25,000,000</span> <span class="pill in">⑥ 22,000,000</span></td><td class="num">25,000,000</td><td class="num net">3,000,000 (자기부담금)</td></tr>
     </tbody>
   </table>
   </div>
@@ -247,8 +248,8 @@ td.num{text-align:right;font-family:var(--f-mono);white-space:nowrap}
   <table>
     <thead><tr><th>지표</th><th>계산</th><th>쓰임</th></tr></thead>
     <tbody>
-      <tr><td>청구액</td><td>청구 건의 청구액 합</td><td>사고 규모</td></tr>
-      <tr><td>자사 순부담</td><td>(① + ② + ⑤) − (⑥ + ⑧)</td><td>QMS Impact, 현상·원인·귀책 주체별 손실 분석</td></tr>
+      <tr><td>총 클레임 금액</td><td>청구 건의 총 클레임 금액 합</td><td>사고 규모</td></tr>
+      <tr><td>당사 최종 부담</td><td>(① + ② + ⑤) − (⑥ + ⑧)</td><td>QMS Impact, 현상·원인·귀책 주체별 손실 분석</td></tr>
       <tr><td>매출 차감액</td><td>수단이 매출 차감인 ①의 합</td><td>클레임 때문에 깎인 매출, 영업 실적 보정</td></tr>
       <tr><td>회수율</td><td>⑧ ÷ ⑦ (현금·매입 차감 구분)</td><td>귀책 파트너에게서 얼마나 받아냈나</td></tr>
       <tr><td>구상 수락률</td><td>⑤ ÷ ④</td><td>보험사 구상에 얼마나 응했나</td></tr>

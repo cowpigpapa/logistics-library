@@ -614,6 +614,21 @@
       "source": "/library/cargo-insurance/ins-cases",
       "destination": "/library/accident-cases/ins-cases",
       "permanent": true
+    },
+    {
+      "source": "/lab/claim-input-:x",
+      "destination": "/lab/claim-screens",
+      "permanent": false
+    },
+    {
+      "source": "/share/qms-claim-input",
+      "destination": "/share/qms-claim-screens",
+      "permanent": false
+    },
+    {
+      "source": "/share/qms-claim-admin",
+      "destination": "/share/qms-claim-screens",
+      "permanent": false
     }
   ]
 }
