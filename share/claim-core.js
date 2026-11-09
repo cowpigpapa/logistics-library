@@ -39,7 +39,7 @@ window.ClaimCore = (() => {
       pays: [{ payer: '당사', method: 'P2', amount: 1000000, date: '2026-06-30', ref: '크레딧 노트 CN-0630' }], recs: [] },
     { id: 'CL-0602-1', irr: 'IRR-2026-0602', title: '해상 수출 화물 침수', type: 'CV-D', claimant: '고객 (화주·수하인)', claimantName: '고객사', orig: '', origAmt: 0,
       issuedTo: '', liability: '전액 인정', status: '종결', cur: 'KRW', total: 12000000, date: '2026-06-03', closed: '2026-07-15',
-      story: '고객이 1,200만원을 직접 청구했다. 당사 보험사가 1,000만원을 고객에게 직접 보상했고, 나머지 200만원(자기부담)은 고객 인보이스에서 차감했다.',
+      story: '고객이 1,200만원을 직접 청구했다. 당사 보험사가 1,000만원을 고객에게 직접 보상해 그 부분의 당사 지불은 0원이고, 보험 자기부담금 200만원만 고객 인보이스에서 차감했다. 당사 최종 부담은 자기부담금 200만원이다.',
       pays: [{ payer: '당사 보험사', method: 'P1', amount: 10000000, date: '2026-07-10', ref: '보험사 지급 통지' }, { payer: '당사', method: 'P2', amount: 2000000, date: '2026-07-15', ref: '크레딧 노트 CN-0715' }], recs: [] },
     { id: 'CL-0617-1', irr: 'IRR-2026-0617', title: '수입 컨테이너 반출 지연 체화료', type: 'DM', claimant: '선사·항공사', claimantName: '선사', orig: '', origAmt: 0,
       issuedTo: '', liability: '협력사 귀책', status: '종결', cur: 'KRW', total: 3500000, date: '2026-06-17', closed: '2026-07-31',
@@ -47,8 +47,8 @@ window.ClaimCore = (() => {
       pays: [{ payer: '당사', method: 'P3', amount: 3500000, date: '2026-07-05', ref: '선사 인보이스 (Buying)' }], recs: [{ from: '협력사', method: 'R2', amount: 1500000, date: '2026-07-31', ref: '운송사 7월 인보이스' }] },
     { id: 'CL-0703-1', irr: 'IRR-2026-0703', title: '창고 하역 중 화물 파손', type: 'CV-D', claimant: '고객 (화주·수하인)', claimantName: '고객사', orig: '', origAmt: 0,
       issuedTo: '', liability: '전액 인정', status: '종결', cur: 'KRW', total: 8000000, date: '2026-07-03', closed: '2026-08-20',
-      story: '당사가 고객에게 손해배상금 800만원을 먼저 지급했고, 이후 당사 보험사에 청구해 보험금 600만원을 받았다.',
-      pays: [{ payer: '당사', method: 'P1', amount: 8000000, date: '2026-07-20', ref: '합의서·송금' }], recs: [{ from: '당사 보험사', method: 'R3', amount: 6000000, date: '2026-08-20', ref: '보험금 지급 통지' }] }
+      story: '당사가 고객에게 손해배상금 800만원을 먼저 지급했고, 이후 당사 보험사에 청구해 보험금 800만원을 전액 받았다. 당사 최종 부담은 0원이다.',
+      pays: [{ payer: '당사', method: 'P1', amount: 8000000, date: '2026-07-20', ref: '합의서·송금' }], recs: [{ from: '당사 보험사', method: 'R3', amount: 8000000, date: '2026-08-20', ref: '보험금 지급 통지' }] }
   ];
 
   const sum = (a, f) => a.reduce((s, x) => s + (f(x) ? x.amount : 0), 0);
