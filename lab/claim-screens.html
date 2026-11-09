@@ -8,379 +8,220 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&amp;display=swap">
 <style>
-/* 시안 페이지: 위에 시나리오 설명, 아래에 가상의 QMS 화면. 안 A~D는 같은 데이터를 다른 화면으로 보여 준다. */
-:root{--bg:#eef1f4;--paper:#fff;--ink:#18222d;--muted:#56626e;--line:#d3d9df;--line2:#c3cbd3;--head:#f1f3f5;--chrome:#23303d;
---blue:#1f5fbf;--blue-soft:#eef4fc;--claim:#7d5605;--claim-soft:#fbf6ea;--pay:#9a2f22;--pay-soft:#fbeeec;--rec:#1a6648;--rec-soft:#eaf5ef;--ref:#1f4f9a;--ref-soft:#e7eef9;
---f:'IBM Plex Sans KR','Malgun Gothic',system-ui,sans-serif}
+/* 입력 화면 시안: 메인은 결과(클레임 목록·유형별 집계)만, 입력은 팝업(클레임 + 지불 내역 + 회수 내역). 데이터 모델은 /share/claim-core.js */
+:root{--bg:#e9ecef;--paper:#fff;--ink:#18222d;--muted:#56626e;--line:#d3d9df;--line2:#c3cbd3;--head:#f1f3f5;--chrome:#23303d;--blue:#1f5fbf;--blue-soft:#eef4fc;
+--claim:#7d5605;--claim-soft:#fbf6ea;--pay:#9a2f22;--pay-soft:#fbeeec;--rec:#1a6648;--rec-soft:#eaf5ef;--ref:#1f4f9a;--ref-soft:#e7eef9;--f:'IBM Plex Sans KR','Malgun Gothic',system-ui,sans-serif}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 var(--f)}
+body{margin:0;background:var(--bg);color:var(--ink);font:13.5px/1.55 var(--f)}
 .lab-bar{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font-size:13px;color:#5c4a12}
-.lab-bar a{color:var(--blue);font-weight:700;text-decoration:none}.lab-bar a:hover{text-decoration:underline}
-.lab-bar a[aria-current]{color:#5c4a12}
-.wrap{max-width:1360px;margin:0 auto;padding:20px 16px 48px;display:grid;gap:18px}
-h1{margin:0;font-size:22px}
-.lead{margin:4px 0 0;color:var(--muted);max-width:80ch}
-.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px}
-.tabs{display:flex;flex-wrap:wrap;gap:6px}
-.tabs button{font:inherit;font-size:13.5px;min-height:36px;padding:0 14px;border:1px solid var(--line2);border-radius:6px;background:var(--paper);color:var(--ink);cursor:pointer}
-.tabs button[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:700}
-.tabs button:focus-visible,button:focus-visible,select:focus,input:focus,textarea:focus{outline:2px solid var(--blue);outline-offset:1px}
-.scn{padding:16px 18px;display:grid;gap:12px}
-.scn-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:baseline}
-.scn h2{margin:0;font-size:17px}
-.scn .irr{font-size:12.5px;color:var(--muted)}
-.scn-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px}
-.scn ol{margin:0;padding-left:20px;display:grid;gap:4px}
-.scn .note{margin:0;font-size:13px;color:var(--muted)}
-.expect{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;align-content:start;background:var(--head);border-radius:6px;padding:12px 14px;font-variant-numeric:tabular-nums}
-.expect dt{color:var(--muted);font-size:13px}.expect dd{margin:0;text-align:right;font-weight:700}
-.expect .fin{border-top:1px solid var(--line2);padding-top:6px}
-.opt{display:grid;gap:8px}
-.opt-desc{margin:0;font-size:13px;color:var(--muted)}
-/* 가상 시스템 */
-.sys{border:1px solid var(--line2);border-radius:6px;overflow:hidden;background:#e9ecef}
-.sys-top{background:var(--chrome);color:#fff;display:flex;flex-wrap:wrap;align-items:center;gap:20px;padding:0 16px;min-height:42px;font-size:13px}
-.sys-top b{font-size:15px}.sys-top span{color:#c4ccd4}.sys-top .on{color:#fff;font-weight:700}.sys-top .who{margin-left:auto;font-size:12px}
-.sys-body{padding:14px 16px 18px;display:grid;gap:12px}
-.sys-title{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:center}
-.sys-title small{display:block;font-size:12px;color:var(--muted)}
-.sys-title h3{margin:0;font-size:17px}
-.stabs{display:flex;border-bottom:1px solid var(--line2)}
-.stabs span{font-size:13px;padding:6px 14px;border:1px solid var(--line2);border-bottom:none;background:var(--head);color:var(--muted);margin-right:-1px}
-.stabs span.on{background:var(--paper);color:var(--ink);font-weight:700;margin-bottom:-1px;border-bottom:1px solid var(--paper)}
-.card{background:var(--paper);border:1px solid var(--line2);border-top:none;padding:14px 16px;display:grid;gap:12px}
+.lab-bar a{color:var(--blue);font-weight:700;text-decoration:none}.lab-bar a:hover{text-decoration:underline}.lab-bar a[aria-current]{color:#5c4a12}
+.top{background:var(--chrome);color:#fff;display:flex;flex-wrap:wrap;align-items:center;gap:20px;padding:0 20px;min-height:42px;font-size:13px}
+.top b{font-size:15px}.top span{color:#c4ccd4}.top .on{color:#fff;font-weight:700}.top .who{margin-left:auto;font-size:12px}
+.wrap{max-width:1440px;margin:0 auto;padding:14px 20px 40px;display:grid;gap:12px}
+.title{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:8px}
+.title small{display:block;font-size:12px;color:var(--muted)}.title h1{margin:0;font-size:18px}
+.box{background:var(--paper);border:1px solid var(--line2);padding:12px 14px;display:grid;gap:10px}
+.box h2{margin:0;font-size:14px}
 .btn{font:inherit;font-size:13px;min-height:32px;padding:0 14px;border-radius:3px;border:1px solid var(--line2);background:var(--paper);color:var(--ink);cursor:pointer;white-space:nowrap}
-.btn.pri{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:700}
-.btn.out{border-color:var(--blue);color:var(--blue)}
-.btn.sm{min-height:26px;padding:0 8px;font-size:12px}
-.btn.del{color:var(--pay)}
-.btn:disabled{opacity:.45;cursor:default}
+.btn.pri{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:700}.btn.out{border-color:var(--blue);color:var(--blue)}
+.btn.sm{min-height:26px;padding:0 8px;font-size:12px}.btn.del{color:var(--pay)}
+button:focus-visible,select:focus,input:focus{outline:2px solid var(--blue);outline-offset:1px}
 .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
-.hint{font-size:12.5px;color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.f{font:inherit;font-size:13px;color:var(--ink);border:1px solid var(--line2);border-radius:3px;padding:3px 6px;background:var(--paper);height:30px;width:100%}
+.f.num{text-align:right}.f:disabled{background:var(--head);color:var(--muted)}
+.filters .f{width:auto}
 .scroll{overflow-x:auto}
 table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
 th{font-size:12px;font-weight:500;color:#3d4954;background:var(--head);text-align:left;padding:6px 8px;border:1px solid var(--line);white-space:nowrap}
-td{font-size:13px;padding:4px 6px;border:1px solid var(--line);vertical-align:middle;background:var(--paper)}
-td.num,th.num{text-align:right}
-td.c{text-align:center}
-tr.blk td{border-top:2px solid #9aa6b2}
+td{font-size:13px;padding:5px 8px;border:1px solid var(--line);vertical-align:middle;background:var(--paper)}
+td.num,th.num{text-align:right;white-space:nowrap}
+tbody tr.click{cursor:pointer}tbody tr.click:hover td{background:var(--blue-soft)}
 tfoot td{background:var(--head);font-weight:700}
-.f{font:inherit;font-size:13px;color:var(--ink);border:1px solid var(--line2);border-radius:3px;padding:3px 6px;background:var(--paper);height:30px;width:100%}
-.f.num{text-align:right}
-textarea.f{height:auto;min-height:60px;resize:vertical}
-.lbl{font-weight:700;white-space:nowrap}
-.lbl.claim{color:var(--claim)}.lbl.pay{color:var(--pay)}.lbl.rec{color:var(--rec)}.lbl.ref{color:var(--ref)}
-td.k-claim{background:var(--claim-soft)}td.k-pay{background:var(--pay-soft)}td.k-rec{background:var(--rec-soft)}td.k-ref{background:var(--ref-soft)}
-.kpi{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line2);background:var(--paper)}
-.kpi div{padding:10px 14px;border-right:1px solid var(--line)}.kpi div:last-child{border-right:0;background:var(--head)}
-.kpi small{display:block;font-size:12px;color:var(--muted)}.kpi b{font-size:18px;font-variant-numeric:tabular-nums}
-.kpi .pay b{color:var(--pay)}.kpi .rec b{color:var(--rec)}
-.st{display:inline-block;font-size:12px;padding:1px 8px;border-radius:3px;background:var(--head);white-space:nowrap}
-.st[data-s="종결"]{background:var(--rec-soft);color:var(--rec)}
-.split{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start}
-.split>.side{flex:1 1 240px;min-width:0;display:grid;gap:8px}
-.split>.main{flex:999 1 620px;min-width:0;display:grid;gap:12px}
-.clist button{font:inherit;text-align:left;width:100%;background:var(--paper);border:1px solid var(--line2);border-radius:4px;padding:10px 12px;cursor:pointer;display:grid;gap:2px}
-.clist button[aria-pressed="true"]{border:2px solid var(--blue);padding:9px 11px}
-.clist small{color:var(--muted);font-size:12px}.clist b{font-variant-numeric:tabular-nums}
-.fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px 12px}
-.fields label{display:grid;gap:3px;font-size:12px;color:var(--muted)}
-.fields .wide{grid-column:span 2}
-.fields .full{grid-column:1/-1}
-.ro{font-size:13.5px;color:var(--ink);padding:4px 0;font-variant-numeric:tabular-nums}
-.hist{margin:0;padding:0;list-style:none;display:grid;gap:6px;border-left:2px solid var(--line2);padding-left:14px}
-.hist li{font-size:13px}.hist time{color:var(--muted);font-variant-numeric:tabular-nums;margin-right:8px}
-.histadd{display:grid;grid-template-columns:130px 1fr auto;gap:6px}
+.c-pay{color:var(--pay)}.c-rec{color:var(--rec)}.c-ref{color:var(--ref)}
+.st{display:inline-block;font-size:12px;padding:0 7px;border-radius:3px;background:var(--head)}.st[data-s="종결"]{background:var(--rec-soft);color:var(--rec)}
+.kpi{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border:1px solid var(--line2);background:var(--paper)}
+.kpi div{padding:9px 12px;border-right:1px solid var(--line)}.kpi div:last-child{border-right:0;background:var(--head)}
+.kpi small{display:block;font-size:11.5px;color:var(--muted)}.kpi b{font-size:16px;font-variant-numeric:tabular-nums}
 /* 팝업 */
-dialog{border:1px solid var(--line2);border-radius:6px;padding:0;width:min(1080px,calc(100vw - 32px));max-height:calc(100vh - 48px);color:var(--ink);font:14px/1.6 var(--f)}
+dialog{border:1px solid var(--line2);border-radius:4px;padding:0;width:min(1180px,calc(100vw - 24px));max-height:calc(100vh - 32px);color:var(--ink);font:13.5px/1.55 var(--f)}
 dialog::backdrop{background:rgba(24,34,45,.45)}
-.dlg-h{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 16px;background:var(--chrome);color:#fff}
-.dlg-h h4{margin:0;font-size:15px}
-.dlg-h button{font:inherit;background:none;border:0;color:#fff;font-size:20px;line-height:1;cursor:pointer;min-width:32px;min-height:32px}
-.dlg-b{padding:14px 16px;display:grid;gap:12px}
-.dlg-f{display:flex;justify-content:space-between;gap:8px;padding:10px 16px;border-top:1px solid var(--line);background:var(--head)}
-.steps{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none;font-size:13px}
-.steps li{padding:4px 12px;border:1px solid var(--line2);border-radius:3px;background:var(--paper);color:var(--muted)}
-.steps li.done{background:var(--rec-soft);color:var(--rec);border-color:transparent}
-.steps li.on{background:var(--blue);color:#fff;border-color:var(--blue);font-weight:700}
-.sum{margin:0;font-size:14.5px;line-height:1.8;background:var(--head);padding:12px 14px;border-radius:4px}
-.err{color:var(--pay);font-size:12.5px;min-height:1em}
-@media (max-width:820px){.scn-grid{grid-template-columns:1fr}.fields{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi div:nth-child(2){border-right:0}.histadd{grid-template-columns:1fr}}
+.dh{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:9px 16px;background:var(--chrome);color:#fff;position:sticky;top:0;z-index:2}
+.dh h3{margin:0;font-size:15px}.dh button{font:inherit;background:none;border:0;color:#fff;font-size:20px;line-height:1;cursor:pointer;min-width:32px;min-height:32px}
+.db{padding:12px 16px;display:grid;gap:14px}
+.sec{display:grid;gap:8px}
+.sec-h{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;border-bottom:2px solid var(--line2);padding-bottom:4px}
+.sec-h h4{margin:0;font-size:14px}.sec-h h4 span{font-size:12px;font-weight:400;color:var(--muted);margin-left:8px}
+.sec.claim .sec-h{border-color:var(--claim)}.sec.pay .sec-h{border-color:var(--pay)}.sec.rec .sec-h{border-color:var(--rec)}
+.grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px 10px}
+.grid label{display:grid;gap:2px;font-size:12px;color:var(--muted)}
+.grid .w2{grid-column:span 2}.grid .w3{grid-column:span 3}.grid .w6{grid-column:1/-1}
+.grid label.cond{background:var(--claim-soft);padding:4px 6px;border-radius:3px}
+.empty{font-size:12.5px;color:var(--muted);padding:6px 2px}
+.res{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border:1px solid var(--line2)}
+.res div{padding:8px 10px;border-right:1px solid var(--line);font-size:11.5px;color:var(--muted)}.res div:last-child{border-right:0;background:var(--head)}
+.res b{display:block;font-size:15px;color:var(--ink);font-variant-numeric:tabular-nums}
+.warn{color:var(--pay);font-size:12.5px;min-height:1em}
+.df{display:flex;justify-content:space-between;gap:8px;padding:10px 16px;border-top:1px solid var(--line);background:var(--head);position:sticky;bottom:0}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.grid .w3,.grid .w2{grid-column:span 2}.kpi{grid-template-columns:repeat(3,minmax(0,1fr))}.res{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 </head>
 <body>
-<div class="lab-bar" id="labbar"><a href="/lab">← 작업 중 목록</a><span>검토용 시안 · 금액과 이름은 예시</span><a href="/lab/claim-model">정산 구조</a><a href="/lab/claim-screens" aria-current="page">입력 화면 시안</a><a href="/lab/claim-scenarios">시나리오 입력</a></div>
-
+<div class="lab-bar" id="labbar"><a href="/lab">← 작업 중 목록</a><span>검토용 시안 · 금액과 이름은 예시 · 새로고침하면 예시로 돌아갑니다</span><a href="/lab/claim-model">데이터 설계</a><a href="/lab/claim-screens" aria-current="page">입력 화면 시안</a><a href="/lab/claim-scenarios">시나리오 입력</a></div>
+<div class="top"><b>QMS</b><span>부적합 등록</span><span>부적합 조회</span><span class="on">비용 정산</span><span>통계</span><span class="who">운영팀 담당자</span></div>
 <main class="wrap">
-  <header>
-    <h1>사고 비용 정산 입력 화면 시안</h1>
-    <p class="lead">위에서 시나리오를 고르면 아래 가상의 QMS 화면에 그 사례가 채워집니다. 안 A~D는 같은 데이터를 다른 방식으로 입력·조회하는 화면이며, 클레임 추가·수정·삭제와 합계 계산이 실제로 동작합니다. 새로고침하면 예시로 돌아갑니다.</p>
-  </header>
+  <div class="title"><div><small>비용 정산 › 클레임 관리</small><h1>클레임 관리</h1></div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap"><button type="button" class="btn" id="xls">엑셀 내려받기</button><button type="button" class="btn pri" id="new">+ 클레임 등록</button></div></div>
 
-  <section class="panel scn" aria-labelledby="scnTitle">
-    <div class="tabs" role="tablist" aria-label="시나리오" id="scnTabs"></div>
-    <div class="scn-head"><h2 id="scnTitle"></h2><span class="irr" id="scnIrr"></span></div>
-    <div class="scn-grid">
-      <div style="display:grid;gap:8px"><ol id="scnSteps"></ol><p class="note" id="scnNote"></p></div>
-      <dl class="expect" id="scnExpect"></dl>
-    </div>
-  </section>
+  <div id="kpi"></div>
 
-  <section class="opt" aria-label="화면 안">
-    <div class="tabs" role="tablist" aria-label="화면 안" id="optTabs"></div>
-    <p class="opt-desc" id="optDesc"></p>
-  </section>
+  <div class="box">
+    <div class="row"><h2>유형별 집계</h2><span class="hint" style="font-size:12px;color:var(--muted)">아래 목록 필터와 같이 움직입니다</span></div>
+    <div class="scroll" id="pivot"></div>
+  </div>
 
-  <div class="sys">
-    <div class="sys-top"><b>QMS</b><span>부적합 등록</span><span class="on">부적합 조회</span><span>통계</span><span class="who">운영팀 담당자</span></div>
-    <div class="sys-body">
-      <div class="sys-title"><div><small id="crumb"></small><h3 id="irrTitle"></h3></div><div style="display:flex;gap:6px"><button type="button" class="btn">닫기</button><button type="button" class="btn pri" id="saveAll">저장</button></div></div>
-      <div class="stabs"><span>기본 정보</span><span>현상·원인</span><span class="on">비용·정산</span><span>첨부</span></div>
-      <div class="card" id="view"></div>
-    </div>
+  <div class="box">
+    <div class="row"><h2>클레임 목록</h2>
+      <div class="filters"><select class="f" id="fType" aria-label="클레임 유형"></select><select class="f" id="fStatus" aria-label="상태"></select><input class="f" id="fq" placeholder="IRR No.·제목·청구인 검색" aria-label="검색" style="width:220px"></div></div>
+    <div class="scroll" id="list"></div>
+    <p style="margin:0;font-size:12px;color:var(--muted)">행을 누르면 입력 팝업이 열립니다. 메인 화면에는 결과만 보입니다.</p>
   </div>
 </main>
 
-<dialog id="dlg" aria-labelledby="dlgTitle">
-  <div class="dlg-h"><h4 id="dlgTitle"></h4><button type="button" id="dlgX" aria-label="닫기">×</button></div>
-  <div class="dlg-b" id="dlgBody"></div>
-  <div class="dlg-f" id="dlgFoot"></div>
+<dialog id="dlg" aria-labelledby="dTitle">
+  <div class="dh"><h3 id="dTitle"></h3><button type="button" id="dX" aria-label="닫기">×</button></div>
+  <div class="db" id="dBody"></div>
+  <div class="df" id="dFoot"></div>
 </dialog>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="/share/claim-core.js"></script>
 <script>
 (() => {
-  const TYPES = ['손해배상 청구', '구상 청구', '과태료 부과', '추가비용 청구'];
-  const CLAIMANTS = ['고객 (화주)', '고객사 보험사', '관세청·세관', '국토교통부', '협력사', '기타'];
-  const ORIGS = ['해당 없음', '고객 (화주)'];
-  const PAY_M = ['현금 지급 (송금·납부)', '매출 차감 (Selling)', '당사 보험 처리', '지급 거절', '협의 중'];
-  const PAY_R = ['', '전액 인정', '책임제한 적용', '과실 비율 합의', '손해액 일부 인정', '면책 사유 해당'];
-  const REC_FROM = ['해당 없음', '해외 협력사', '항공사', '선사', '국내 운송사', '창고 운영사'];
-  const REC_M = ['해당 없음', '현금 회수', '매입 차감 (Buying)', '회수 요청 중', '회수 불가'];
-  const STATUS = ['접수', '검토 중', '합의', '지급 완료', '회수 진행', '종결'];
-  const PAY_COUNT = ['현금 지급 (송금·납부)', '매출 차감 (Selling)', '당사 보험 처리'];
-  const REC_COUNT = ['현금 회수', '매입 차감 (Buying)'];
-
-  const SCN = [
-    { id: 's1', tab: '시나리오 1 · 항공 화물 분실', irr: 'IRR-2026-0412', title: '인천→프랑크푸르트 항공 화물 분실',
-      steps: ['3월 2일 도착지에서 전자부품 2개 포장 중 1개가 분실된 것을 확인했습니다.',
-        '고객(화주)이 화물 가액을 근거로 당사에 총 30,000,000원의 손해배상을 청구했습니다.',
-        '고객은 가입한 적하보험에서 30,000,000원을 먼저 보상받았습니다.',
-        '적하보험사가 고객의 권리를 넘겨받아(보험자 대위) 당사에 30,000,000원을 구상 청구했습니다.',
-        '당사는 운송약관에 따른 책임제한을 주장했고, 손해배상금 5,000,000원을 지급하는 것으로 합의해 종결했습니다.'],
-      note: '고객 청구와 보험사 구상은 같은 손해에 대한 것이므로 클레임 1건으로 기록합니다. 청구인은 최종적으로 당사에 청구한 보험사, 원청구인은 고객으로 두고, 고객의 보험 수령액은 참고 항목으로 남깁니다.',
-      claims: [{ type: '구상 청구', claimant: '고객사 보험사', orig: '고객 (화주)', ins: 30000000, total: 30000000, cur: 'KRW', date: '2026-03-12', status: '종결',
-        pay: { method: '현금 지급 (송금·납부)', amount: 5000000, date: '2026-04-20', reason: '책임제한 적용' },
-        rec: { from: '해당 없음', method: '해당 없음', amount: 0, date: '' }, memo: '운송약관상 책임한도 적용, 합의서 첨부',
-        hist: [['2026-03-03', '고객 분실 통보, 손해배상 청구 30,000,000원 접수'], ['2026-03-10', '고객, 적하보험사로부터 보험금 30,000,000원 수령 (참고)'],
-          ['2026-03-12', '적하보험사 구상 청구 30,000,000원 접수'], ['2026-03-25', '당사 책임제한 주장 회신'],
-          ['2026-04-15', '손해배상금 5,000,000원으로 합의'], ['2026-04-20', '합의금 5,000,000원 지급, 종결']] }] },
-    { id: 's2', tab: '시나리오 2 · 세관 과태료', irr: 'IRR-2026-0518', title: '해상 수입 적하목록 정정 지연 과태료',
-      steps: ['해외 협력사가 House B/L의 품명·수량 정정 정보를 늦게 보내, 당사의 적하목록 정정 신고가 기한을 넘겼습니다.',
-        '세관이 당사에 과태료 2,000,000원을 부과했습니다.',
-        '당사가 납부 기한 안에 2,000,000원을 납부했습니다.',
-        '지연 원인이 협력사에 있어 50% 분담을 요청했고, 협력사의 다음 달 인보이스에서 1,000,000원을 매입 차감했습니다.'],
-      note: '과태료도 손해배상과 같은 칸에 기록합니다. 청구 유형을 과태료 부과, 청구인을 관세청·세관으로 둡니다.',
-      claims: [{ type: '과태료 부과', claimant: '관세청·세관', orig: '해당 없음', ins: 0, total: 2000000, cur: 'KRW', date: '2026-05-08', status: '종결',
-        pay: { method: '현금 지급 (송금·납부)', amount: 2000000, date: '2026-05-20', reason: '전액 인정' },
-        rec: { from: '해외 협력사', method: '매입 차감 (Buying)', amount: 1000000, date: '2026-06-10' }, memo: '과태료 고지서, 협력사 분담 합의 메일 첨부',
-        hist: [['2026-05-08', '세관 과태료 고지 2,000,000원 접수'], ['2026-05-20', '과태료 2,000,000원 납부'],
-          ['2026-05-22', '해외 협력사에 50% 분담 요청'], ['2026-06-10', '협력사 6월 인보이스에서 1,000,000원 매입 차감, 종결']] }] }
-  ];
-
-  const OPTS = [
-    { id: 'A', tab: '안 A · 한 화면 입력', desc: '비용·정산 탭에서 클레임마다 세 줄(클레임, 당사 지불, 당사 회수)을 바로 입력합니다. 팝업 없이 한 화면에서 끝납니다.' },
-    { id: 'B', tab: '안 B · 결과 화면 + 팝업 입력', desc: '메인 화면에는 클레임별 결과만 보이고, 등록·수정은 팝업에서 세 줄 양식으로 합니다.' },
-    { id: 'C', tab: '안 C · 결과 화면 + 단계별 팝업', desc: '메인 화면은 안 B와 같고, 팝업이 클레임 정보 → 당사 지불 → 당사 회수 → 확인 순서로 한 단계씩 묻습니다. 가끔 입력하는 직원용.' },
-    { id: 'D', tab: '안 D · 담당 부서 검토 화면', desc: '담당 부서가 클레임을 고르면 정산 내역과 처리 이력이 함께 보입니다. 이력을 덧붙이고 상태를 바꾸며, 수정은 안 C의 팝업을 씁니다.' }
-  ];
-
-  let scn = SCN[0], opt = 'A', claims = [], selD = 0;
-  const $ = id => document.getElementById(id);
+  const C = ClaimCore, K = C.CODES, $ = id => document.getElementById(id);
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const fmt = n => (Number(n) || 0).toLocaleString('ko-KR');
   const num = s => Number(String(s || '').replace(/[^0-9]/g, '')) || 0;
   const clone = o => JSON.parse(JSON.stringify(o));
   const today = () => new Date().toISOString().slice(0, 10);
-  const blank = () => ({ type: '손해배상 청구', claimant: '고객 (화주)', orig: '해당 없음', ins: 0, total: 0, cur: 'KRW', date: today(), status: '접수',
-    pay: { method: '협의 중', amount: 0, date: '', reason: '' }, rec: { from: '해당 없음', method: '해당 없음', amount: 0, date: '' }, memo: '', hist: [] });
-  const paid = c => PAY_COUNT.includes(c.pay.method) ? c.pay.amount : 0;
-  const recd = c => REC_COUNT.includes(c.rec.method) ? c.rec.amount : 0;
-  const fin = c => paid(c) - recd(c);
-  const tot = () => claims.reduce((a, c) => ({ t: a.t + c.total, p: a.p + paid(c), r: a.r + recd(c) }), { t: 0, p: 0, r: 0 });
-  const sel = (f, list, v, id) => `<select class="f" data-f="${f}"${id ? ` id="${id}"` : ''} aria-label="${f}">${list.map(o => `<option${o === v ? ' selected' : ''}>${esc(o || '선택')}</option>`).join('')}</select>`;
-  const inp = (f, v, cls, extra) => `<input class="f${cls ? ' ' + cls : ''}" data-f="${f}" value="${esc(v)}" aria-label="${f}"${extra || ''}>`;
-  const money = (f, v) => inp(f, v ? fmt(v) : '', 'num', ' inputmode="numeric"');
+  let claims = clone(C.SAMPLES);
 
-  function kpi() {
-    const s = tot();
-    return `<div class="kpi" aria-live="polite"><div><small>총 클레임 금액</small><b>${fmt(s.t)}</b></div><div class="pay"><small>당사 지불</small><b>${fmt(s.p)}</b></div>
-      <div class="rec"><small>당사 회수</small><b>${fmt(s.r)}</b></div><div><small>당사 최종 부담 → Impact 반영</small><b>${fmt(s.p - s.r)}</b></div></div>`;
-  }
+  const opt = (list, v, blank) => (blank ? `<option value="">${blank}</option>` : '') + list.map(o => { const [val, lab] = Array.isArray(o) ? o : [o, o]; return `<option value="${esc(val)}"${val === v ? ' selected' : ''}>${esc(Array.isArray(o) ? val + ' ' + lab : lab)}</option>`; }).join('');
+  const sel = (f, list, v, extra) => `<select class="f" data-f="${f}"${extra || ''}>${opt(list, v)}</select>`;
+  const inp = (f, v, extra) => `<input class="f" data-f="${f}" value="${esc(v)}"${extra || ''}>`;
+  const money = (f, v) => `<input class="f num" data-f="${f}" value="${v ? fmt(v) : ''}" inputmode="numeric">`;
 
-  // 세 줄 양식 (안 A 본문, 안 B 팝업이 같이 쓴다)
-  function rowsHtml(c, i, withNo) {
-    const no = withNo ? `<td rowspan="3" class="c" style="font-weight:700;background:#f7f9fb">#${i + 1}<br>${claims.length > 1 || withNo === 'del' ? `<button type="button" class="btn sm del" data-del="${i}" aria-label="클레임 ${i + 1} 삭제">삭제</button>` : ''}</td>` : '';
-    return `<tr class="blk" data-i="${i}">${no}<td class="k-claim"><span class="lbl claim">총 클레임 금액</span></td>
-        <td>${sel('type', TYPES, c.type)}</td><td>${sel('claimant', CLAIMANTS, c.claimant)}</td><td>${money('total', c.total)}</td><td>${sel('cur', ['KRW', 'USD', 'EUR'], c.cur)}</td><td>${inp('date', c.date)}</td><td>${inp('memo', c.memo)}</td></tr>
-      <tr data-i="${i}"><td class="k-pay"><span class="lbl pay">당사 지불</span></td>
-        <td>${sel('pay.method', PAY_M, c.pay.method)}</td><td>${sel('pay.reason', PAY_R, c.pay.reason)}</td><td>${money('pay.amount', c.pay.amount)}</td><td class="hint c">${esc(c.cur)}</td><td>${inp('pay.date', c.pay.date)}</td><td class="hint">${c.ins ? `참고: 고객 보험 수령 ${fmt(c.ins)}` : ''}</td></tr>
-      <tr data-i="${i}"><td class="k-rec"><span class="lbl rec">당사 회수</span></td>
-        <td>${sel('rec.method', REC_M, c.rec.method)}</td><td>${sel('rec.from', REC_FROM, c.rec.from)}</td><td>${money('rec.amount', c.rec.amount)}</td><td class="hint c">${esc(c.cur)}</td><td>${inp('rec.date', c.rec.date)}</td><td></td></tr>`;
+  // ---- 메인 ----
+  $('fType').innerHTML = opt(K.type.map(x => [x[0], x[1]]), '', '유형 전체');
+  $('fStatus').innerHTML = opt(K.status, '', '상태 전체');
+  const shown = () => {
+    const t = $('fType').value, s = $('fStatus').value, q = $('fq').value.trim();
+    return claims.filter(c => (!t || c.type === t) && (!s || c.status === s) && (!q || (c.irr + ' ' + c.title + ' ' + c.claimant + ' ' + (c.claimantName || '')).includes(q)));
+  };
+  function totals(list) {
+    return list.reduce((a, c) => { const k = C.calc(c); a.n++; a.total += c.total; a.pay += k.pay; a.other += k.ins + k.cust + k.partner; a.rec += k.rec; a.net += k.net; a.cut += k.cut; return a; },
+      { n: 0, total: 0, pay: 0, other: 0, rec: 0, net: 0, cut: 0 });
   }
-  const gridHead = withNo => `<thead><tr>${withNo ? '<th style="width:64px">클레임</th>' : ''}<th style="width:120px">구분</th><th style="width:170px">유형 · 방법</th><th style="width:170px">청구인 · 사유 · 회수처</th><th class="num" style="width:130px">금액</th><th style="width:70px">통화</th><th style="width:116px">일자</th><th>비고</th></tr></thead>`;
-
-  function setField(c, f, v) {
-    const [a, b] = f.split('.');
-    const val = ['total', 'ins', 'pay.amount', 'rec.amount'].includes(f) ? num(v) : v;
-    if (b) c[a][b] = val; else c[a] = val;
-  }
-
-  // 안 A
-  function viewA() {
-    return `<div class="row"><p class="hint" style="margin:0">클레임 1건마다 세 줄을 채웁니다. 모르는 칸은 비워 두면 담당 부서가 채웁니다.</p><button type="button" class="btn out" data-act="addA">+ 클레임 추가</button></div>
-      <div class="scroll"><table style="min-width:1040px">${gridHead(true)}<tbody>${claims.map((c, i) => rowsHtml(c, i, 'del')).join('')}</tbody></table></div>${kpi()}`;
-  }
-  // 안 B·C 공통 결과 표
-  function resultTable(editLabel) {
-    const s = tot();
-    return `<div class="row"><p class="hint" style="margin:0">결과만 보입니다. 등록·수정은 팝업에서 합니다.</p><button type="button" class="btn out" data-act="new">+ 클레임 등록</button></div>
-      <div class="scroll"><table style="min-width:900px"><thead><tr><th>No.</th><th>청구 유형</th><th>청구인</th><th class="num">총 클레임 금액</th><th class="num">당사 지불</th><th class="num">당사 회수</th><th class="num">당사 최종 부담</th><th>상태</th><th></th></tr></thead>
-      <tbody>${claims.map((c, i) => `<tr><td class="c">${i + 1}</td><td>${esc(c.type)}</td><td>${esc(c.claimant)}${c.orig !== '해당 없음' ? `<br><small class="hint">원청구인: ${esc(c.orig)}</small>` : ''}</td><td class="num">${fmt(c.total)}</td>
-        <td class="num" style="color:var(--pay)">${fmt(paid(c))}<br><small class="hint">${esc(c.pay.method)}</small></td><td class="num" style="color:var(--rec)">${fmt(recd(c))}<br><small class="hint">${esc(c.rec.method)}</small></td>
-        <td class="num"><b>${fmt(fin(c))}</b></td><td><span class="st" data-s="${esc(c.status)}">${esc(c.status)}</span></td>
-        <td class="c" style="white-space:nowrap"><button type="button" class="btn sm" data-edit="${i}">${editLabel}</button> <button type="button" class="btn sm del" data-del="${i}">삭제</button></td></tr>`).join('') || '<tr><td colspan="9" class="hint c">등록된 클레임이 없습니다.</td></tr>'}</tbody>
-      <tfoot><tr><td colspan="3">합계</td><td class="num">${fmt(s.t)}</td><td class="num">${fmt(s.p)}</td><td class="num">${fmt(s.r)}</td><td class="num">${fmt(s.p - s.r)}</td><td colspan="2"></td></tr></tfoot></table></div>${kpi()}`;
-  }
-  // 안 D
-  function lines(c) {
-    const L = [['클레임', c.date, c.claimant + ' → 당사', c.type, c.total, c.status === '종결' ? '종결' : '진행']];
-    if (c.ins) L.unshift(['참고', '', '고객사 보험사 → ' + c.orig, '보험금 지급', c.ins, '완료']);
-    if (c.pay.method !== '협의 중') L.push(['당사 지불', c.pay.date, '당사 → ' + c.claimant, c.pay.method + (c.pay.reason ? ' · ' + c.pay.reason : ''), PAY_COUNT.includes(c.pay.method) ? c.pay.amount : 0, c.pay.date ? '완료' : '예정']);
-    if (c.rec.method !== '해당 없음') L.push(['당사 회수', c.rec.date, c.rec.from + ' → 당사', c.rec.method, c.rec.amount, REC_COUNT.includes(c.rec.method) ? '완료' : c.rec.method]);
-    return L;
-  }
-  function viewD() {
-    if (!claims.length) return `<div class="row"><p class="hint" style="margin:0">등록된 클레임이 없습니다.</p><button type="button" class="btn out" data-act="new">+ 클레임 등록</button></div>${kpi()}`;
-    if (selD >= claims.length) selD = 0;
-    const c = claims[selD], K = { '클레임': 'claim', '참고': 'ref', '당사 지불': 'pay', '당사 회수': 'rec' };
-    return `${kpi()}<div class="split"><div class="side clist"><div class="row"><b>클레임 ${claims.length}건</b><button type="button" class="btn sm out" data-act="new">+ 등록</button></div>
-      ${claims.map((x, i) => `<button type="button" data-pick="${i}" aria-pressed="${i === selD}"><small>#${i + 1} · ${esc(x.type)} · ${esc(x.claimant)}</small><b>${fmt(x.total)} ${esc(x.cur)}</b><small>당사 최종 부담 ${fmt(fin(x))} · ${esc(x.status)}</small></button>`).join('')}</div>
-      <div class="main"><div class="row"><b style="font-size:15px">클레임 #${selD + 1} 검토</b><span style="display:flex;gap:6px;flex-wrap:wrap">${sel('status', STATUS, c.status, 'dStatus')}<button type="button" class="btn" data-edit="${selD}">수정</button><button type="button" class="btn pri" data-act="close">종결 처리</button></span></div>
-        <div class="fields"><div><small class="hint">청구 유형</small><div class="ro">${esc(c.type)}</div></div><div><small class="hint">청구인</small><div class="ro">${esc(c.claimant)}</div></div><div><small class="hint">원청구인</small><div class="ro">${esc(c.orig)}</div></div><div><small class="hint">접수일</small><div class="ro">${esc(c.date)}</div></div>
-          <div><small class="hint">총 클레임 금액</small><div class="ro">${fmt(c.total)} ${esc(c.cur)}</div></div><div><small class="hint">당사 지불</small><div class="ro" style="color:var(--pay)">${fmt(paid(c))}</div></div><div><small class="hint">당사 회수</small><div class="ro" style="color:var(--rec)">${fmt(recd(c))}</div></div><div><small class="hint">당사 최종 부담</small><div class="ro"><b>${fmt(fin(c))}</b></div></div></div>
-        <div><b>정산 내역</b><div class="scroll" style="margin-top:6px"><table style="min-width:700px"><thead><tr><th>구분</th><th>일자</th><th>상대방</th><th>내용</th><th class="num">금액</th><th>상태</th></tr></thead><tbody>
-          ${lines(c).map(l => `<tr><td class="k-${K[l[0]]}"><span class="lbl ${K[l[0]]}">${l[0]}</span></td><td>${esc(l[1])}</td><td>${esc(l[2])}</td><td>${esc(l[3])}</td><td class="num">${fmt(l[4])}</td><td>${esc(l[5])}</td></tr>`).join('')}</tbody></table></div></div>
-        <div style="display:grid;gap:8px"><b>처리 이력</b><ol class="hist">${c.hist.map(h => `<li><time>${esc(h[0])}</time>${esc(h[1])}</li>`).join('') || '<li class="hint">이력이 없습니다.</li>'}</ol>
-          <div class="histadd"><input class="f" id="hDate" value="${today()}" aria-label="이력 일자"><input class="f" id="hText" placeholder="예: 협력사에 분담 요청 메일 발송" aria-label="이력 내용"><button type="button" class="btn out" data-act="hist">이력 추가</button></div></div>
-        ${c.memo ? `<p class="hint" style="margin:0">비고: ${esc(c.memo)}</p>` : ''}</div></div>`;
-  }
-
   function render() {
-    $('crumb').textContent = '부적합 조회 › ' + scn.irr;
-    $('irrTitle').textContent = scn.irr + ' · ' + scn.title;
-    $('view').innerHTML = opt === 'A' ? viewA() : opt === 'B' ? resultTable('수정') : opt === 'C' ? resultTable('수정') : viewD();
+    const list = shown(), t = totals(list);
+    $('kpi').innerHTML = `<div class="kpi"><div><small>클레임</small><b>${t.n}건</b></div><div><small>총 클레임 금액</small><b>${fmt(t.total)}</b></div><div><small>당사 지불</small><b class="c-pay">${fmt(t.pay)}</b></div>
+      <div><small>보험사·제3자 부담</small><b class="c-ref">${fmt(t.other)}</b></div><div><small>당사 회수</small><b class="c-rec">${fmt(t.rec)}</b></div><div><small>당사 순손실 → Impact</small><b>${fmt(t.net)}</b></div></div>`;
+    const piv = K.type.map(([code, name]) => [code, name, totals(list.filter(c => c.type === code))]).filter(x => x[2].n);
+    $('pivot').innerHTML = `<table style="min-width:860px"><thead><tr><th>클레임 유형</th><th class="num">건수</th><th class="num">총 클레임 금액</th><th class="num">당사 지불</th><th class="num">보험사·제3자 부담</th><th class="num">당사 회수</th><th class="num">감액·미지급</th><th class="num">당사 순손실</th></tr></thead>
+      <tbody>${piv.map(([code, name, x]) => `<tr><td>${esc(code)} ${esc(name)}</td><td class="num">${x.n}</td><td class="num">${fmt(x.total)}</td><td class="num c-pay">${fmt(x.pay)}</td><td class="num c-ref">${fmt(x.other)}</td><td class="num c-rec">${fmt(x.rec)}</td><td class="num">${fmt(x.cut)}</td><td class="num"><b>${fmt(x.net)}</b></td></tr>`).join('') || '<tr><td colspan="8" style="color:var(--muted)">조건에 맞는 클레임이 없습니다.</td></tr>'}</tbody>
+      <tfoot><tr><td>합계</td><td class="num">${t.n}</td><td class="num">${fmt(t.total)}</td><td class="num">${fmt(t.pay)}</td><td class="num">${fmt(t.other)}</td><td class="num">${fmt(t.rec)}</td><td class="num">${fmt(t.cut)}</td><td class="num">${fmt(t.net)}</td></tr></tfoot></table>`;
+    $('list').innerHTML = `<table style="min-width:1240px"><thead><tr><th>클레임 ID</th><th>IRR No.</th><th>제목</th><th>클레임 유형</th><th>청구인</th><th>책임 판단</th><th class="num">총 클레임 금액</th><th class="num">당사 지불</th><th class="num">보험사·제3자</th><th class="num">당사 회수</th><th class="num">당사 순손실</th><th>상태</th></tr></thead>
+      <tbody>${list.map(c => { const k = C.calc(c); return `<tr class="click" data-id="${esc(c.id)}" tabindex="0"><td>${esc(c.id)}</td><td>${esc(c.irr)}</td><td>${esc(c.title)}</td><td>${esc(C.label(K.type, c.type))}</td><td>${esc(c.claimant)}</td><td>${esc(c.liability)}</td>
+        <td class="num">${fmt(c.total)}</td><td class="num c-pay">${fmt(k.pay)}</td><td class="num c-ref">${fmt(k.ins + k.cust + k.partner)}</td><td class="num c-rec">${fmt(k.rec)}</td><td class="num"><b>${fmt(k.net)}</b></td><td><span class="st" data-s="${esc(c.status)}">${esc(c.status)}</span></td></tr>`; }).join('')}</tbody></table>`;
   }
-  function renderScn() {
-    $('scnTabs').innerHTML = SCN.map(s => `<button type="button" role="tab" aria-selected="${s === scn}" data-scn="${s.id}">${esc(s.tab)}</button>`).join('');
-    $('scnTitle').textContent = scn.title; $('scnIrr').textContent = scn.irr + ' · 예시';
-    $('scnSteps').innerHTML = scn.steps.map(s => `<li>${esc(s)}</li>`).join('');
-    $('scnNote').textContent = scn.note;
-    const c = scn.claims.reduce((a, x) => ({ t: a.t + x.total, p: a.p + paid(x), r: a.r + recd(x) }), { t: 0, p: 0, r: 0 });
-    $('scnExpect').innerHTML = `<dt>총 클레임 금액</dt><dd>${fmt(c.t)}</dd><dt>당사 지불</dt><dd style="color:var(--pay)">${fmt(c.p)}</dd><dt>당사 회수</dt><dd style="color:var(--rec)">${fmt(c.r)}</dd><dt class="fin">당사 최종 부담</dt><dd class="fin">${fmt(c.p - c.r)}</dd>`;
-  }
-  function renderOpt() {
-    $('optTabs').innerHTML = OPTS.map(o => `<button type="button" role="tab" aria-selected="${o.id === opt}" data-opt="${o.id}">${esc(o.tab)}</button>`).join('');
-    $('optDesc').textContent = OPTS.find(o => o.id === opt).desc;
-  }
-  function loadScn(s) { scn = s; claims = clone(s.claims); selD = 0; renderScn(); render(); }
+  ['fType', 'fStatus'].forEach(id => $(id).addEventListener('change', render));
+  $('fq').addEventListener('input', render);
+  const openRow = e => { const tr = e.target.closest('tr[data-id]'); if (tr) openDlg(claims.findIndex(c => c.id === tr.dataset.id)); };
+  $('list').addEventListener('click', openRow);
+  $('list').addEventListener('keydown', e => { if (e.key === 'Enter') openRow(e); });
+  $('new').onclick = () => openDlg(-1);
+  $('xls').onclick = () => C.exportXlsx(shown(), '사고비용정산_' + today() + '.xlsx');
 
   // ---- 팝업 ----
   const dlg = $('dlg');
-  let draft = null, editIdx = -1, step = 0, mode = 'B';
-  const STEPS = ['클레임 정보', '당사 지불', '당사 회수', '확인'];
-  function stepBody() {
-    const c = draft;
-    if (step === 0) return `<div class="fields"><label>청구 유형${sel('type', TYPES, c.type)}</label><label>청구인${sel('claimant', CLAIMANTS, c.claimant)}</label><label>원청구인 (보험사 구상일 때)${sel('orig', ORIGS, c.orig)}</label><label>접수일${inp('date', c.date)}</label>
-      <label>총 클레임 금액${money('total', c.total)}</label><label>통화${sel('cur', ['KRW', 'USD', 'EUR'], c.cur)}</label><label class="wide">참고: 고객 보험 수령액 (보험사가 고객에게 지급)${money('ins', c.ins)}</label>
-      <label class="full">비고${inp('memo', c.memo)}</label></div>`;
-    if (step === 1) return `<div class="fields"><label class="wide">지불 방법${sel('pay.method', PAY_M, c.pay.method)}</label><label class="wide">지불 사유${sel('pay.reason', PAY_R, c.pay.reason)}</label>
-      <label>당사 지불 금액${money('pay.amount', c.pay.amount)}</label><label>지불일${inp('pay.date', c.pay.date)}</label><p class="hint full" style="margin:0">매출 차감은 고객 운임 청구에서 깎아 준 금액, 당사 보험 처리는 당사가 실제로 부담한 자기부담금을 적습니다. 지급 거절·협의 중이면 금액은 0입니다.</p></div>`;
-    if (step === 2) return `<div class="fields"><label class="wide">회수 방법${sel('rec.method', REC_M, c.rec.method)}</label><label class="wide">회수처${sel('rec.from', REC_FROM, c.rec.from)}</label>
-      <label>당사 회수 금액${money('rec.amount', c.rec.amount)}</label><label>회수일${inp('rec.date', c.rec.date)}</label><p class="hint full" style="margin:0">매입 차감은 협력사 인보이스에서 깎은 금액입니다. 귀책 상대가 없으면 해당 없음을 고릅니다.</p></div>`;
-    const p = paid(c), r = recd(c);
-    return `<p class="hint" style="margin:0">아래 내용으로 저장합니다.</p><div class="scroll"><table style="min-width:620px"><tbody>
-      <tr><td class="k-claim"><span class="lbl claim">총 클레임 금액</span></td><td>${esc(c.type)} · 청구인 ${esc(c.claimant)}${c.orig !== '해당 없음' ? ` · 원청구인 ${esc(c.orig)}` : ''} · 접수 ${esc(c.date)}</td><td class="num"><b>${fmt(c.total)}</b> ${esc(c.cur)}</td></tr>
-      ${c.ins ? `<tr><td class="k-ref"><span class="lbl ref">참고</span></td><td>고객 보험 수령액</td><td class="num">${fmt(c.ins)}</td></tr>` : ''}
-      <tr><td class="k-pay"><span class="lbl pay">당사 지불</span></td><td>${esc(c.pay.method)}${c.pay.reason ? ' · ' + esc(c.pay.reason) : ''}${c.pay.date ? ' · ' + esc(c.pay.date) : ''}</td><td class="num"><b>${fmt(p)}</b></td></tr>
-      <tr><td class="k-rec"><span class="lbl rec">당사 회수</span></td><td>${r || c.rec.method !== '해당 없음' ? `${esc(c.rec.method)} · ${esc(c.rec.from)}${c.rec.date ? ' · ' + esc(c.rec.date) : ''}` : '해당 없음'}</td><td class="num"><b>${fmt(r)}</b></td></tr>
-      </tbody><tfoot><tr><td colspan="2">당사 최종 부담</td><td class="num">${fmt(p - r)}</td></tr></tfoot></table></div>
-      <div class="fields"><label>상태${sel('status', STATUS, c.status)}</label></div>`;
+  let d = null, idx = -1;
+  const blank = () => ({ id: '', irr: '', title: '', type: 'CV-D', claimant: '고객 (화주·수하인)', claimantName: '', orig: '', origAmt: 0, issuedTo: '', liability: '협의 중', status: '접수', cur: 'KRW', total: 0, date: today(), closed: '', story: '', pays: [], recs: [] });
+  function openDlg(i) {
+    idx = i; d = i < 0 ? blank() : clone(claims[i]);
+    $('dTitle').textContent = i < 0 ? '클레임 등록' : `클레임 ${d.id} 수정`;
+    paint(); dlg.showModal();
   }
-  function openDlg(i, m) {
-    mode = m; editIdx = i; step = 0; draft = i < 0 ? blank() : clone(claims[i]);
-    $('dlgTitle').textContent = (i < 0 ? '클레임 등록' : `클레임 #${i + 1} 수정`) + (m === 'C' ? ' (단계별 입력)' : '');
-    paintDlg(); dlg.showModal();
+  function claimSec() {
+    const cvs = d.type === 'CV-S', fn = d.type === 'FN';
+    return `<div class="sec claim"><div class="sec-h"><h4>클레임<span>무엇을 얼마 청구받았나</span></h4></div><div class="grid">
+      <label>IRR No.${inp('irr', d.irr, ' placeholder="IRR-2026-0000"')}</label><label class="w3">제목${inp('title', d.title)}</label><label>상태${sel('status', K.status, d.status)}</label>
+      <label class="w2">클레임 유형${sel('type', K.type.map(x => [x[0], x[1]]), d.type)}</label><label>청구인 구분${sel('claimant', K.claimant, d.claimant)}</label><label>청구인${inp('claimantName', d.claimantName)}</label><label>책임 판단${sel('liability', K.liability, d.liability)}</label><label>접수일${inp('date', d.date)}</label>
+      ${cvs ? `<label class="cond w2">원청구인 (처음 청구한 쪽)${sel('orig', K.claimant, d.orig || '고객 (화주·수하인)')}</label><label class="cond">원청구 금액${money('origAmt', d.origAmt)}</label>` : ''}
+      ${fn ? `<label class="cond w2">과태료 부과 대상 (누구 앞으로 나왔나)${sel('issuedTo', K.issuedTo, d.issuedTo || '당사')}</label>` : ''}
+      <label>총 클레임 금액${money('total', d.total)}</label><label>통화${sel('cur', ['KRW', 'USD', 'EUR', 'JPY', 'CNY'], d.cur)}</label><label>종결일${inp('closed', d.closed)}</label>
+      <label class="w6">경위·비고${inp('story', d.story)}</label></div></div>`;
   }
-  function paintDlg() {
-    if (mode === 'B') {
-      $('dlgBody').innerHTML = `<p class="hint" style="margin:0">세 줄을 채우고 저장하면 메인 화면에는 결과만 남습니다.</p><div class="scroll"><table style="min-width:920px">${gridHead(false)}<tbody>${rowsHtml(draft, 0, false)}</tbody></table></div>
-        <div class="fields"><label>상태${sel('status', STATUS, draft.status)}</label><label class="wide">원청구인 (보험사 구상일 때)${sel('orig', ORIGS, draft.orig)}</label><label>참고: 고객 보험 수령액${money('ins', draft.ins)}</label></div><div class="err" id="dlgErr"></div>`;
-      $('dlgFoot').innerHTML = `<span></span><span style="display:flex;gap:6px"><button type="button" class="btn" data-d="cancel">취소</button><button type="button" class="btn pri" data-d="save">저장</button></span>`;
-    } else {
-      $('dlgBody').innerHTML = `<ol class="steps">${STEPS.map((s, k) => `<li class="${k < step ? 'done' : k === step ? 'on' : ''}">${k + 1} ${s}</li>`).join('')}</ol>${stepBody()}<div class="err" id="dlgErr"></div>`;
-      $('dlgFoot').innerHTML = `<button type="button" class="btn" data-d="prev"${step ? '' : ' disabled'}>이전</button><span style="display:flex;gap:6px"><button type="button" class="btn" data-d="cancel">취소</button>${step < 3 ? '<button type="button" class="btn pri" data-d="next">다음</button>' : '<button type="button" class="btn pri" data-d="save">저장</button>'}</span>`;
-    }
+  function paySec() {
+    return `<div class="sec pay"><div class="sec-h"><h4>지불 내역<span>돈이 나간 건마다 한 줄 · 보험사가 일부를 내고 차액을 당사가 냈다면 두 줄</span></h4><button type="button" class="btn sm out" data-a="addPay">+ 지불 추가</button></div>
+      ${d.pays.length ? `<div class="scroll"><table style="min-width:860px"><thead><tr><th style="width:150px">지불 주체</th><th style="width:250px">지불 수단</th><th class="num" style="width:150px">금액</th><th style="width:120px">일자</th><th>증빙번호</th><th style="width:56px"></th></tr></thead><tbody>
+      ${d.pays.map((x, i) => `<tr data-k="pays" data-i="${i}"><td>${sel('payer', K.payer, x.payer)}</td><td>${sel('method', K.payMethod, x.payer === '당사' ? x.method : 'P1', x.payer === '당사' ? '' : ' disabled')}${x.payer === '당사' ? '' : `<small style="color:var(--muted)">${x.payer === '당사 보험사' ? '보험사가 청구인에게 직접 지급' : '당사를 거치지 않고 직접 납부·지급'}</small>`}</td>
+        <td>${money('amount', x.amount)}</td><td>${inp('date', x.date)}</td><td>${inp('ref', x.ref, ' placeholder="송금번호, 크레딧 노트, 인보이스"')}</td><td><button type="button" class="btn sm del" data-a="delPay" data-i="${i}">삭제</button></td></tr>`).join('')}</tbody></table></div>` : '<div class="empty">아직 지불 내역이 없습니다. 지급 거절·협의 중이면 비워 둡니다.</div>'}</div>`;
   }
-  function check() {
-    if (!draft.total) return '총 클레임 금액을 넣어 주세요.';
-    if (PAY_COUNT.includes(draft.pay.method) && !draft.pay.amount) return '당사 지불 금액을 넣거나 지불 방법을 협의 중으로 바꿔 주세요.';
-    return '';
+  function recSec() {
+    return `<div class="sec rec"><div class="sec-h"><h4>회수 내역<span>당사가 돌려받은 건마다 한 줄</span></h4><button type="button" class="btn sm out" data-a="addRec">+ 회수 추가</button></div>
+      ${d.recs.length ? `<div class="scroll"><table style="min-width:860px"><thead><tr><th style="width:150px">회수처</th><th style="width:250px">회수 수단</th><th class="num" style="width:150px">금액</th><th style="width:120px">일자</th><th>증빙번호</th><th style="width:56px"></th></tr></thead><tbody>
+      ${d.recs.map((x, i) => `<tr data-k="recs" data-i="${i}"><td>${sel('from', K.recFrom, x.from)}</td><td>${sel('method', K.recMethod, x.method)}</td><td>${money('amount', x.amount)}</td><td>${inp('date', x.date)}</td><td>${inp('ref', x.ref, ' placeholder="입금번호, 매입 인보이스, 보험 청구번호"')}</td><td><button type="button" class="btn sm del" data-a="delRec" data-i="${i}">삭제</button></td></tr>`).join('')}</tbody></table></div>` : '<div class="empty">회수한 금액이 없으면 비워 둡니다.</div>'}</div>`;
   }
-  dlg.addEventListener('input', e => { const f = e.target.dataset.f; if (f) setField(draft, f, e.target.value); });
-  dlg.addEventListener('change', e => { const f = e.target.dataset.f; if (!f) return; setField(draft, f, e.target.value); if (f === 'cur' || f === 'orig') paintDlg(); });
+  function resSec() {
+    const k = C.calc(d), over = k.pay + k.ins + k.cust + k.partner > d.total && d.total > 0;
+    return `<div class="sec"><div class="res"><div>당사 지불<b class="c-pay">${fmt(k.pay)}</b></div><div>보험사·제3자 부담<b class="c-ref">${fmt(k.ins + k.cust + k.partner)}</b></div><div>당사 회수<b class="c-rec">${fmt(k.rec)}</b></div><div>감액·미지급<b>${fmt(k.cut)}</b></div><div>당사 순손실<b>${fmt(k.net)}</b></div></div>
+      <div class="warn" id="warn">${over ? '지불 합계가 총 클레임 금액보다 큽니다. 금액을 확인해 주세요.' : ''}</div></div>`;
+  }
+  function paint() {
+    $('dBody').innerHTML = claimSec() + paySec() + recSec() + `<div id="resWrap">${resSec()}</div>`;
+    $('dFoot').innerHTML = `<span>${idx >= 0 ? '<button type="button" class="btn del" data-a="remove">클레임 삭제</button>' : ''}</span><span style="display:flex;gap:6px"><button type="button" class="btn" data-a="cancel">취소</button><button type="button" class="btn pri" data-a="save">저장</button></span>`;
+  }
+  const refreshRes = () => { $('resWrap').innerHTML = resSec(); };
+  function setVal(el) {
+    const f = el.dataset.f; if (!f) return false;
+    const tr = el.closest('tr[data-k]'), numF = ['total', 'origAmt', 'amount'].includes(f);
+    const v = numF ? num(el.value) : el.value;
+    if (tr) {
+      const line = d[tr.dataset.k][+tr.dataset.i]; line[f] = v;
+      if (tr.dataset.k === 'pays' && f === 'payer' && v !== '당사') line.method = 'P1';
+      if (tr.dataset.k === 'recs' && f === 'from' && v === '당사 보험사') line.method = 'R3';
+      if (tr.dataset.k === 'recs' && f === 'method' && v === 'R3') line.from = '당사 보험사';
+    } else d[f] = v;
+    return true;
+  }
+  dlg.addEventListener('input', e => { if (setVal(e.target) && e.target.classList.contains('num')) refreshRes(); });
+  dlg.addEventListener('change', e => {
+    if (!setVal(e.target)) return;
+    const f = e.target.dataset.f;
+    if (['type', 'payer', 'from', 'method'].includes(f)) paint(); else refreshRes();
+  });
   dlg.addEventListener('focusout', e => { if (e.target.classList.contains('num')) e.target.value = num(e.target.value) ? fmt(num(e.target.value)) : ''; });
-  $('dlgFoot').addEventListener('click', e => {
-    const d = e.target.dataset.d; if (!d) return;
-    if (d === 'cancel') return dlg.close();
-    if (d === 'prev') { step--; return paintDlg(); }
-    if (d === 'next') { if (step === 0 && !draft.total) { $('dlgErr').textContent = '총 클레임 금액을 넣어 주세요.'; return; } step++; return paintDlg(); }
-    const err = check(); if (err) { $('dlgErr').textContent = err; return; }
-    if (editIdx < 0) { draft.hist.push([draft.date, `${draft.type} ${fmt(draft.total)}원 등록`]); claims.push(draft); selD = claims.length - 1; }
-    else claims[editIdx] = draft;
-    dlg.close(); render();
+  dlg.addEventListener('click', e => {
+    const b = e.target.closest('[data-a]'); if (!b) return;
+    const a = b.dataset.a;
+    if (a === 'addPay') { d.pays.push({ payer: '당사', method: 'P1', amount: 0, date: today(), ref: '' }); return paint(); }
+    if (a === 'addRec') { d.recs.push({ from: '협력사', method: 'R1', amount: 0, date: today(), ref: '' }); return paint(); }
+    if (a === 'delPay') { d.pays.splice(+b.dataset.i, 1); return paint(); }
+    if (a === 'delRec') { d.recs.splice(+b.dataset.i, 1); return paint(); }
+    if (a === 'cancel') return dlg.close();
+    if (a === 'remove') { claims.splice(idx, 1); dlg.close(); return render(); }
+    if (a === 'save') {
+      if (!d.total) { $('warn').textContent = '총 클레임 금액을 넣어 주세요.'; return; }
+      if (d.type !== 'CV-S') { d.orig = ''; d.origAmt = 0; }
+      if (d.type !== 'FN') d.issuedTo = '';
+      if (!d.title) d.title = C.label(K.type, d.type);
+      if (idx < 0) { const base = (d.irr.match(/(\d{4})$/) || ['', '0000'])[1]; let n = 1; while (claims.some(c => c.id === `CL-${base}-${n}`)) n++; d.id = `CL-${base}-${n}`; claims.unshift(d); }
+      else claims[idx] = d;
+      dlg.close(); render();
+    }
   });
-  $('dlgX').onclick = () => dlg.close();
-
-  // ---- 메인 화면 동작 ----
-  $('scnTabs').addEventListener('click', e => { const b = e.target.closest('[data-scn]'); if (b) loadScn(SCN.find(s => s.id === b.dataset.scn)); });
-  $('optTabs').addEventListener('click', e => { const b = e.target.closest('[data-opt]'); if (b) { opt = b.dataset.opt; renderOpt(); render(); } });
-  const view = $('view');
-  view.addEventListener('click', e => {
-    const t = e.target.closest('button'); if (!t) return;
-    if (t.dataset.del !== undefined) { const i = +t.dataset.del; claims.splice(i, 1); if (selD >= claims.length) selD = Math.max(0, claims.length - 1); return render(); }
-    if (t.dataset.edit !== undefined) return openDlg(+t.dataset.edit, opt === 'B' ? 'B' : 'C');
-    if (t.dataset.pick !== undefined) { selD = +t.dataset.pick; return render(); }
-    const a = t.dataset.act;
-    if (a === 'addA') { claims.push(blank()); return render(); }
-    if (a === 'new') return openDlg(-1, opt === 'B' ? 'B' : 'C');
-    if (a === 'close') { const c = claims[selD]; c.status = '종결'; c.hist.push([today(), '담당 부서 종결 처리']); return render(); }
-    if (a === 'hist') { const tx = $('hText').value.trim(); if (!tx) return $('hText').focus(); claims[selD].hist.push([$('hDate').value, tx]); return render(); }
-  });
-  view.addEventListener('input', e => {
-    const f = e.target.dataset.f, tr = e.target.closest('tr[data-i]'); if (!f || !tr) return;
-    setField(claims[+tr.dataset.i], f, e.target.value);
-    const k = view.querySelector('.kpi'); if (k) k.outerHTML = kpi();
-  });
-  view.addEventListener('change', e => {
-    const f = e.target.dataset.f; if (!f) return;
-    if (e.target.id === 'dStatus') { const c = claims[selD]; c.status = e.target.value; c.hist.push([today(), '상태 변경: ' + e.target.value]); return render(); }
-    const tr = e.target.closest('tr[data-i]'); if (!tr) return;
-    setField(claims[+tr.dataset.i], f, e.target.value); render();
-  });
-  view.addEventListener('focusout', e => { if (e.target.classList.contains('num')) e.target.value = num(e.target.value) ? fmt(num(e.target.value)) : ''; });
-  $('saveAll').onclick = () => { const b = $('saveAll'); b.textContent = '저장됨 (시안)'; setTimeout(() => { b.textContent = '저장'; }, 1500); };
-
-  renderOpt(); loadScn(SCN[0]);
+  $('dX').onclick = () => dlg.close();
+  render();
 })();
 </script>
 </body>

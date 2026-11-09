@@ -34,7 +34,7 @@ input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--blue);ou
 </style>
 </head>
 <body>
-<div class="lab-bar"><a href="/lab">← 작업 중 목록</a><a href="/lab/claim-model">정산 구조</a><a href="/lab/claim-screens">입력 화면 시안</a><a href="/lab/claim-scenarios" aria-current="page">시나리오 입력</a></div>
+<div class="lab-bar"><a href="/lab">← 작업 중 목록</a><a href="/lab/claim-model">데이터 설계</a><a href="/lab/claim-screens">입력 화면 시안</a><a href="/lab/claim-scenarios" aria-current="page">시나리오 입력</a></div>
 <main class="wrap">
   <header>
     <h1>정산 시나리오 입력</h1>
@@ -56,9 +56,9 @@ input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--blue);ou
   const RPC = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/';
   const API_KEY = 'sb_publishable_vgcDAWoOJRD8Xvp2p4Ew9A_exTmzuXM';
   const F = [['title', '제목', 'input', '예: 항공 화물 분실'], ['situation', '사고 경위', 'textarea', '언제, 어디서, 무슨 일이 있었는지'],
-    ['claim', '클레임 (청구인 · 청구 유형 · 총 클레임 금액)', 'textarea', '예: 고객 손해배상 3,000만원 → 보험사 구상 3,000만원'],
-    ['pay', '당사 지불 (금액 · 방법 · 사유)', 'textarea', '예: 책임제한 주장, 500만원 현금 지급 / 운임에서 차감(매출 차감)'],
-    ['recover', '당사 회수 (회수처 · 금액 · 방법)', 'textarea', '예: 해외 협력사 100만원, 다음 달 인보이스에서 차감(매입 차감) / 없음'],
+    ['claim', '클레임 (유형 · 청구인 · 총 클레임 금액)', 'textarea', '유형: 화물가액보상(직접보상) / 화물가액보상(보험사 구상) / 체화료(운영손실) / 과태료(누구 앞으로 나왔나) / 기타'],
+    ['pay', '지불 (누가 · 수단 · 금액)', 'textarea', '누가: 당사 / 당사 보험사 / 고객 / 협력사 · 수단: 손해배상금 / 인보이스 차감 / 운영원가(Selling·Buying)'],
+    ['recover', '당사 회수 (회수처 · 수단 · 금액)', 'textarea', '수단: 손해배상금 환입 / 매입 할인(Buying) / 보험금 수령 · 없으면 없음'],
     ['memo', '기타 (화면에 꼭 있었으면 하는 것 등)', 'textarea', '']];
   const store = { get: k => { try { return localStorage.getItem(k); } catch (_) { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch (_) {} }, del: k => { try { localStorage.removeItem(k); } catch (_) {} } };
   const $ = id => document.getElementById(id);
