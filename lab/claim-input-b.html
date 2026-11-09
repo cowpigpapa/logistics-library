@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>안 B · 처리 방식 선택형 · 작업 중 · Logistics Library</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#eef1f4}
+a{color:#1f5fbf}a:hover{color:#174a95}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th{font-size:12px;font-weight:500;color:#5a6672;text-align:left;padding:8px 10px;border-bottom:1px solid #d8dee4;white-space:nowrap}
+td{font-size:13px;padding:8px 10px;border-bottom:1px solid #e6eaee;vertical-align:middle}
+select,input[type=text]{font:inherit;font-size:13px;color:#18222d;border:1px solid #c9d1d9;border-radius:6px;padding:7px 9px;background:#fff;box-sizing:border-box;width:100%}
+</style>
+<style>
+.lab-bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font:13px/1.5 'Malgun Gothic',system-ui,sans-serif;color:#5c4a12}
+.lab-bar a{color:#1f5fbf;font-weight:700;text-decoration:none}
+.lab-bar a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="lab-bar"><a href="/lab">← 작업 중 목록</a><span>검토용 시안입니다. 예시 데이터이며 실제 시스템이 아닙니다.</span> · <a href="/lab/claim-input-d">안 D</a> <a href="/lab/claim-input-a">안 A</a> <a href="/lab/claim-input-b">안 B</a> <a href="/lab/claim-input-c">안 C</a></div>
+<div style="font-family: 'IBM Plex Sans KR', 'Malgun Gothic', system-ui, sans-serif; color: #18222d; background: #eef1f4; min-height: 1060px; box-sizing: border-box; padding: 24px; display: flex; flex-direction: column; gap: 18px; max-width: 1280px; margin: 0 auto">
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <div style="font-size: 12px; color: #5a6672">IRR-2026-0412 › 비용·정산 › 청구 #1</div>
+    <h1 style="margin: 0; font-size: 22px">처리 방식으로 빠르게 채우기</h1>
+    <p style="margin: 0; font-size: 13px; color: #5a6672">처리 방식을 고르면 필요한 정산 라인이 자동으로 만들어지고, 금액만 넣으면 됩니다. 만든 라인은 안 A 화면에서 그대로 고칠 수 있습니다.</p>
+  </div>
+
+  <ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px">
+    <li style="padding: 6px 12px; border-radius: 99px; background: #e1f1e9; color: #1a6648">1 청구 정보 ✓</li>
+    <li style="padding: 6px 12px; border-radius: 99px; background: #1f5fbf; color: #fff; font-weight: 700">2 처리 방식</li>
+    <li style="padding: 6px 12px; border-radius: 99px; background: #fff; border: 1px solid #d8dee4; color: #5a6672">3 금액</li>
+    <li style="padding: 6px 12px; border-radius: 99px; background: #fff; border: 1px solid #d8dee4; color: #5a6672">4 확인·저장</li>
+  </ol>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start">
+
+    <div style="flex: 999 1 640px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+
+      <fieldset style="border: 1px solid #d8dee4; border-radius: 8px; background: #fff; padding: 16px 18px; margin: 0; display: flex; flex-direction: column; gap: 12px">
+        <legend style="font-size: 15px; font-weight: 700; padding: 0 6px">회사가 처음 어떻게 처리했나</legend>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+          <label style="display: flex; gap: 10px; align-items: flex-start; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px; cursor: pointer">
+            <input type="radio" name="route" style="margin-top: 4px">
+            <span style="display: flex; flex-direction: column; gap: 2px"><b style="font-size: 14px">현금 배상</b><span style="font-size: 12px; color: #5a6672">고객에게 배상금 송금</span></span>
+          </label>
+          <label style="display: flex; gap: 10px; align-items: flex-start; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px; cursor: pointer">
+            <input type="radio" name="route" style="margin-top: 4px">
+            <span style="display: flex; flex-direction: column; gap: 2px"><b style="font-size: 14px">매출 차감 배상 (Selling)</b><span style="font-size: 12px; color: #5a6672">운임 청구에서 깎아 줌, 크레딧 노트</span></span>
+          </label>
+          <label style="display: flex; gap: 10px; align-items: flex-start; border: 2px solid #1f5fbf; background: #f3f7fd; border-radius: 8px; padding: 11px; cursor: pointer">
+            <input type="radio" name="route" checked style="margin-top: 4px">
+            <span style="display: flex; flex-direction: column; gap: 2px"><b style="font-size: 14px">고객사 보험 후 구상</b><span style="font-size: 12px; color: #5a6672">보험사가 먼저 보상, 회사에 구상 청구</span></span>
+          </label>
+          <label style="display: flex; gap: 10px; align-items: flex-start; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px; cursor: pointer">
+            <input type="radio" name="route" style="margin-top: 4px">
+            <span style="display: flex; flex-direction: column; gap: 2px"><b style="font-size: 14px">과태료 납부</b><span style="font-size: 12px; color: #5a6672">세관·국토부 등 고지서 납부</span></span>
+          </label>
+          <label style="display: flex; gap: 10px; align-items: flex-start; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px; cursor: pointer">
+            <input type="radio" name="route" style="margin-top: 4px">
+            <span style="display: flex; flex-direction: column; gap: 2px"><b style="font-size: 14px">자사 배상책임보험</b><span style="font-size: 12px; color: #5a6672">배상 후 보험금 수령, 자기부담금 남음</span></span>
+          </label>
+          <label style="display: flex; gap: 10px; align-items: flex-start; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px; cursor: pointer">
+            <input type="radio" name="route" style="margin-top: 4px">
+            <span style="display: flex; flex-direction: column; gap: 2px"><b style="font-size: 14px">지급 거절 (면책)</b><span style="font-size: 12px; color: #5a6672">청구만 기록, 거절 사유 첨부</span></span>
+          </label>
+        </div>
+      </fieldset>
+
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
+        <fieldset style="border: 1px solid #d8dee4; border-radius: 8px; background: #fff; padding: 16px 18px; margin: 0; display: flex; flex-direction: column; gap: 10px">
+          <legend style="font-size: 15px; font-weight: 700; padding: 0 6px">구상 청구에 어떻게 응했나</legend>
+          <div style="display: flex; flex-wrap: wrap; gap: 14px; font-size: 14px">
+            <label style="display: flex; gap: 6px; align-items: center"><input type="radio" name="resp"> 전액 수락</label>
+            <label style="display: flex; gap: 6px; align-items: center"><input type="radio" name="resp" checked> 일부 수락</label>
+            <label style="display: flex; gap: 6px; align-items: center"><input type="radio" name="resp"> 거절</label>
+          </div>
+          <label style="display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: #5a6672">일부 수락 사유
+            <select id="b-reason"><option>책임한도 적용</option><option>과실 비율 합의</option><option>손해액 일부 인정</option></select></label>
+        </fieldset>
+        <fieldset style="border: 1px solid #d8dee4; border-radius: 8px; background: #fff; padding: 16px 18px; margin: 0; display: flex; flex-direction: column; gap: 10px">
+          <legend style="font-size: 15px; font-weight: 700; padding: 0 6px">귀책 파트너에게 다시 받기</legend>
+          <label style="display: flex; gap: 6px; align-items: center; font-size: 14px"><input type="checkbox" checked> 파트너에게 구상</label>
+          <label style="display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: #5a6672">파트너
+            <select id="b-partner"><option>파트너 B (LAX 대리점)</option></select></label>
+          <div style="display: flex; flex-wrap: wrap; gap: 14px; font-size: 14px">
+            <label style="display: flex; gap: 6px; align-items: center"><input type="radio" name="rec"> 현금으로 받음</label>
+            <label style="display: flex; gap: 6px; align-items: center"><input type="radio" name="rec" checked> 매입 차감 (Buying)</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div style="background: #fff; border: 1px solid #d8dee4; border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 10px">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px">
+          <h2 style="margin: 0; font-size: 15px">자동으로 만들어질 정산 라인</h2>
+          <span style="font-size: 12px; color: #5a6672">금액 칸만 채우면 됩니다</span>
+        </div>
+        <div style="overflow-x: auto">
+          <table>
+            <thead><tr><th>라인</th><th>보낸 쪽 → 받는 쪽</th><th>수단</th><th style="width: 180px">금액 (KRW)</th></tr></thead>
+            <tbody>
+              <tr><td><span style="font-size: 12px; padding: 1px 8px; border-radius: 99px; background: #e7eef9; color: #1f4f9a">참고</span> 보험금</td><td>고객사 보험사 → 고객</td><td>보험</td><td><input type="text" id="b-l1" value="20,000,000" style="text-align: right"></td></tr>
+              <tr><td><span style="font-size: 12px; padding: 1px 8px; border-radius: 99px; background: #f7efdc; color: #7d5605">청구</span> 구상 청구</td><td>고객사 보험사 → 자사</td><td>—</td><td><input type="text" id="b-l2" value="20,000,000" style="text-align: right"></td></tr>
+              <tr><td><span style="font-size: 12px; padding: 1px 8px; border-radius: 99px; background: #f8e5e2; color: #9a2f22">지급</span> 구상 지급</td><td>자사 → 고객사 보험사</td><td>현금</td><td><input type="text" id="b-l3" value="6,000,000" style="text-align: right"></td></tr>
+              <tr><td><span style="font-size: 12px; padding: 1px 8px; border-radius: 99px; background: #f7efdc; color: #7d5605">청구</span> 파트너 구상</td><td>자사 → 파트너 B</td><td>—</td><td><input type="text" id="b-l4" value="6,000,000" style="text-align: right"></td></tr>
+              <tr><td><span style="font-size: 12px; padding: 1px 8px; border-radius: 99px; background: #e1f1e9; color: #1a6648">수령</span> 회수</td><td>파트너 B → 자사</td><td>매입 차감 (Buying)</td><td><input type="text" id="b-l5" value="6,000,000" style="text-align: right"></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div style="flex: 1 1 260px; min-width: 0; background: #18222d; color: #fff; border-radius: 8px; padding: 18px; display: flex; flex-direction: column; gap: 12px">
+      <h2 style="margin: 0; font-size: 15px">이대로 저장하면</h2>
+      <div style="display: flex; justify-content: space-between; font-size: 14px; font-variant-numeric: tabular-nums"><span style="color: #c4ccd4">청구액</span><span>20,000,000</span></div>
+      <div style="display: flex; justify-content: space-between; font-size: 14px; font-variant-numeric: tabular-nums"><span style="color: #c4ccd4">자사 지급</span><span style="color: #f2a497">6,000,000</span></div>
+      <div style="display: flex; justify-content: space-between; font-size: 14px; font-variant-numeric: tabular-nums"><span style="color: #c4ccd4">회수 (매입 차감)</span><span style="color: #8fd9b6">6,000,000</span></div>
+      <div style="border-top: 1px solid #3a4652; padding-top: 10px; display: flex; justify-content: space-between; font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums"><span>자사 순부담</span><span>0</span></div>
+      <p style="margin: 0; font-size: 12px; color: #c4ccd4; line-height: 1.6">매입 차감은 5월 파트너 인보이스 번호를 근거로 연결해야 종결됩니다.</p>
+      <div style="display: flex; gap: 8px; margin-top: 4px">
+        <button type="button" style="font: inherit; flex: 1; font-size: 14px; padding: 8px; border-radius: 6px; border: 1px solid #5a6672; background: transparent; color: #fff; min-height: 44px">이전</button>
+        <button type="button" style="font: inherit; flex: 1; font-size: 14px; padding: 8px; border-radius: 6px; border: 1px solid #4a8be6; background: #4a8be6; color: #0d1620; font-weight: 700; min-height: 44px">다음: 금액</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

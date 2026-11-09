@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>작업 중 · Logistics Library</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+  <link rel="stylesheet" href="/styles.css?v=20261013-02">
+  <style>
+    /* 관리자 전용: 회사에서 claude.ai에 못 들어갈 때 보는 검토용 시안 모음. 사이트맵·공개 메뉴에 넣지 않는다. */
+    .lab-main { max-width: var(--content-max); margin: 0 auto; padding: 28px 16px 60px; }
+    .lab-main h1 { margin: 0 0 4px; font-size: 24px; }
+    .lab-lead { margin: 0 0 20px; color: var(--body); }
+    .lab-group { margin: 0 0 24px; }
+    .lab-group h2 { margin: 0 0 4px; font-size: 18px; }
+    .lab-group p { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
+    .lab-list { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+    .lab-list a { display: flex; flex-wrap: wrap; gap: 2px 12px; align-items: baseline; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); color: var(--ink); text-decoration: none; }
+    .lab-list a:hover { border-color: var(--blue-deep); }
+    .lab-list b { font-size: 15px; }
+    .lab-list span { color: var(--muted); font-size: 13px; }
+    .lab-tag { display: inline-block; padding: 1px 8px; border-radius: 6px; background: #e6f6ec; color: #1d6b3a; font-size: 12px; font-weight: 800; }
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="Logistics Library 홈">
+    <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="7"/><path d="M5.25 6.8c2.7-.35 4.9.35 6.75 2.05 1.85-1.7 4.05-2.4 6.75-2.05v10.35c-2.55-.25-4.75.35-6.75 1.85-2-1.5-4.2-2.1-6.75-1.85V6.8Z"/><path d="M12 8.85V19M7.6 10h2.25M7.6 12.8h2.25M14.15 10h2.25M14.15 12.8h2.25"/></svg>
+    <span class="brand-wordmark"><strong>Logistics</strong><span>Library</span></span>
+  </a>
+</header>
+<main class="lab-main">
+  <h1>작업 중</h1>
+  <p class="lab-lead">검토 중인 설계안과 화면 시안을 모아 둔 곳입니다. 공개 메뉴와 검색에는 나오지 않습니다. 금액과 이름은 모두 예시입니다.</p>
+
+  <section class="lab-group">
+    <h2>QMS 사고 비용 정산</h2>
+    <p>손해배상금, 과태료, 매출 차감(Selling), 매입 차감(Buying), 고객사 보험 후 구상을 한 구조로 기록하는 설계안 (2026-11-09)</p>
+    <ul class="lab-list">
+      <li><a href="/lab/claim-model"><b>사고 비용 정산 구조</b><span>돈의 흐름도, 정산 라인, 처리 방식별 예시, 지표</span></a></li>
+      <li><a href="/lab/claim-input-d"><b>입력 화면 안 D · 청구별 3줄 입력</b> <span class="lab-tag">직원용 추천</span><span>요구받은 돈 → 회사가 한 일 → 돌려받은 돈</span></a></li>
+      <li><a href="/lab/claim-input-a"><b>입력 화면 안 A · 비용·정산 탭</b><span>담당 부서용, 정산 라인을 직접 편집</span></a></li>
+      <li><a href="/lab/claim-input-b"><b>입력 화면 안 B · 처리 방식 선택형</b><span>방식을 고르면 라인이 자동으로 만들어짐</span></a></li>
+      <li><a href="/lab/claim-input-c"><b>입력 화면 안 C · 진행 타임라인형</b><span>몇 달 걸리는 구상 건 추적용</span></a></li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

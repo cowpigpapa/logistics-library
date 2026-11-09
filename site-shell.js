@@ -16,7 +16,8 @@
       nav.insertAdjacentHTML('beforeend', '<details class="nav-group nav-admin"><summary>관리</summary><div class="menu-list">'
         + '<a href="/case-review">사례 선별표<small>포워더 점검 사례 넣기·보류·빼기</small></a>'
         + '<a href="/term-review">용어 검수표<small>바뀐 용어 판정</small></a>'
-        + '<a href="/linkcheck">링크 점검<small>문서 속 바깥 링크 상태</small></a></div></details>');
+        + '<a href="/linkcheck">링크 점검<small>문서 속 바깥 링크 상태</small></a>'
+        + '<a href="/lab">작업 중<small>검토 중인 설계안·화면 시안</small></a></div></details>');
     }
   } catch (_) {}
   // 색인 페이지 안에 끼워 열린 도구(?embed=1)는 머리줄·푸터 없이 보여 준다.

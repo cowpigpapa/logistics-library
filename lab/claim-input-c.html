@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>안 C · 진행 타임라인형 · 작업 중 · Logistics Library</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#eef1f4}
+a{color:#1f5fbf}a:hover{color:#174a95}
+select,input{font:inherit;font-size:13px;color:#18222d;border:1px solid #c9d1d9;border-radius:6px;padding:7px 9px;background:#fff;box-sizing:border-box;width:100%}
+</style>
+<style>
+.lab-bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font:13px/1.5 'Malgun Gothic',system-ui,sans-serif;color:#5c4a12}
+.lab-bar a{color:#1f5fbf;font-weight:700;text-decoration:none}
+.lab-bar a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="lab-bar"><a href="/lab">← 작업 중 목록</a><span>검토용 시안입니다. 예시 데이터이며 실제 시스템이 아닙니다.</span> · <a href="/lab/claim-input-d">안 D</a> <a href="/lab/claim-input-a">안 A</a> <a href="/lab/claim-input-b">안 B</a> <a href="/lab/claim-input-c">안 C</a></div>
+<div style="font-family: 'IBM Plex Sans KR', 'Malgun Gothic', system-ui, sans-serif; color: #18222d; background: #eef1f4; min-height: 1060px; box-sizing: border-box; padding: 24px; display: flex; flex-direction: column; gap: 18px; max-width: 1280px; margin: 0 auto">
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <div style="font-size: 12px; color: #5a6672">IRR-2026-0412 › 비용·정산 › 청구 #1 · 손해배상 · 고객사 보험사 구상</div>
+    <h1 style="margin: 0; font-size: 22px">진행 타임라인</h1>
+    <p style="margin: 0; font-size: 13px; color: #5a6672">일이 생길 때마다 아래에 한 칸씩 쌓습니다. 칸 하나가 정산 라인 한 줄이라, 몇 달 걸리는 구상 건도 지금 어디까지 왔는지 바로 보입니다.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start">
+
+    <div style="flex: 999 1 640px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+
+      <form style="background: #fff; border: 1px solid #d8dee4; border-radius: 8px; padding: 14px 16px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; align-items: end">
+        <label style="display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: #5a6672">일자<input id="c-date" value="2026-05-10"></label>
+        <label style="display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: #5a6672">무슨 일
+          <select id="c-event"><option>회수 (파트너 → 자사)</option><option>구상 청구 받음</option><option>구상 지급</option><option>손해배상 지급</option><option>과태료 납부</option><option>보험금 수령</option><option>파트너에 구상 청구</option></select></label>
+        <label style="display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: #5a6672">수단
+          <select id="c-means"><option>매입 차감 (Buying)</option><option>현금</option><option>매출 차감 (Selling)</option><option>보험</option></select></label>
+        <label style="display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: #5a6672">금액 (KRW)<input id="c-amt" value="6,000,000" style="text-align: right"></label>
+        <button type="button" style="font: inherit; font-size: 14px; padding: 8px 12px; border-radius: 6px; border: 1px solid #1f5fbf; background: #1f5fbf; color: #fff; min-height: 38px">추가</button>
+      </form>
+
+      <ol style="list-style: none; margin: 0; padding: 0 0 0 22px; border-left: 2px solid #c9d1d9; display: flex; flex-direction: column; gap: 12px">
+        <li style="position: relative; background: #fff; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px">
+          <span style="position: absolute; left: -31px; top: 16px; width: 14px; height: 14px; border-radius: 50%; background: #2a5ea8; border: 2px solid #eef1f4"></span>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; font-size: 12px; color: #5a6672"><span>2026-03-05 · 참고</span><span>보험금 지급 통지</span></div>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px"><b style="font-size: 14px">고객사 보험사가 고객에게 보험금 지급</b><span style="font-variant-numeric: tabular-nums; color: #1f4f9a; font-weight: 700">20,000,000</span></div>
+        </li>
+        <li style="position: relative; background: #fff; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px">
+          <span style="position: absolute; left: -31px; top: 16px; width: 14px; height: 14px; border-radius: 50%; background: #9a6a07; border: 2px solid #eef1f4"></span>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; font-size: 12px; color: #5a6672"><span>2026-03-12 · 청구</span><span>구상 청구서</span></div>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px"><b style="font-size: 14px">고객사 보험사가 자사에 구상 청구</b><span style="font-variant-numeric: tabular-nums; color: #7d5605; font-weight: 700">20,000,000</span></div>
+        </li>
+        <li style="position: relative; background: #fff; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px">
+          <span style="position: absolute; left: -31px; top: 16px; width: 14px; height: 14px; border-radius: 50%; background: #5a6672; border: 2px solid #eef1f4"></span>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; font-size: 12px; color: #5a6672"><span>2026-03-28 · 검토</span><span>내부 메모</span></div>
+          <b style="font-size: 14px">책임한도 적용, 6,000,000만 수락하기로 결정</b>
+        </li>
+        <li style="position: relative; background: #fff; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px">
+          <span style="position: absolute; left: -31px; top: 16px; width: 14px; height: 14px; border-radius: 50%; background: #b03a2b; border: 2px solid #eef1f4"></span>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; font-size: 12px; color: #5a6672"><span>2026-04-05 · 지급 · 현금</span><span>합의서·송금증</span></div>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px"><b style="font-size: 14px">자사가 고객사 보험사에 구상금 송금</b><span style="font-variant-numeric: tabular-nums; color: #9a2f22; font-weight: 700">− 6,000,000</span></div>
+        </li>
+        <li style="position: relative; background: #fff; border: 1px solid #d8dee4; border-radius: 8px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px">
+          <span style="position: absolute; left: -31px; top: 16px; width: 14px; height: 14px; border-radius: 50%; background: #9a6a07; border: 2px solid #eef1f4"></span>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; font-size: 12px; color: #5a6672"><span>2026-04-06 · 청구</span><span>구상 청구 메일</span></div>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px"><b style="font-size: 14px">자사가 파트너 B에 구상 청구</b><span style="font-variant-numeric: tabular-nums; color: #7d5605; font-weight: 700">6,000,000</span></div>
+        </li>
+        <li style="position: relative; background: #fff; border: 2px dashed #1f7a55; border-radius: 8px; padding: 11px 13px; display: flex; flex-direction: column; gap: 4px">
+          <span style="position: absolute; left: -31px; top: 16px; width: 14px; height: 14px; border-radius: 50%; background: #1f7a55; border: 2px solid #eef1f4"></span>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; font-size: 12px; color: #5a6672"><span>2026-05-10 · 수령 · 매입 차감 (Buying) · 지금 추가 중</span><span>5월 매입 인보이스</span></div>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px"><b style="font-size: 14px">파트너 B 5월 인보이스에서 차감</b><span style="font-variant-numeric: tabular-nums; color: #1a6648; font-weight: 700">+ 6,000,000</span></div>
+        </li>
+      </ol>
+    </div>
+
+    <div style="flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+      <div style="background: #18222d; color: #fff; border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px">
+        <h2 style="margin: 0; font-size: 15px">지금까지</h2>
+        <div style="display: flex; justify-content: space-between; font-size: 14px; font-variant-numeric: tabular-nums"><span style="color: #c4ccd4">청구액</span><span>20,000,000</span></div>
+        <div style="display: flex; justify-content: space-between; font-size: 14px; font-variant-numeric: tabular-nums"><span style="color: #c4ccd4">자사 지급</span><span style="color: #f2a497">6,000,000</span></div>
+        <div style="display: flex; justify-content: space-between; font-size: 14px; font-variant-numeric: tabular-nums"><span style="color: #c4ccd4">회수</span><span style="color: #8fd9b6">6,000,000</span></div>
+        <div style="border-top: 1px solid #3a4652; padding-top: 8px; display: flex; justify-content: space-between; font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums"><span>순부담</span><span>0</span></div>
+      </div>
+      <div style="background: #fff; border: 1px solid #d8dee4; border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px">
+        <h2 style="margin: 0; font-size: 15px">다음 할 일</h2>
+        <label style="display: flex; gap: 8px; align-items: flex-start; font-size: 13px"><input type="checkbox" checked style="width: auto; margin-top: 3px"> 파트너 인보이스 번호 연결</label>
+        <label style="display: flex; gap: 8px; align-items: flex-start; font-size: 13px"><input type="checkbox" style="width: auto; margin-top: 3px"> 청구 #1 종결 처리</label>
+        <div style="font-size: 12px; color: #5a6672; line-height: 1.6">파트너 구상 시효: 청구일로부터 남은 기간을 여기에 표시 (회사 기준 입력)</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
