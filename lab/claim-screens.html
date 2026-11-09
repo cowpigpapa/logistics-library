@@ -119,17 +119,17 @@ dialog::backdrop{background:rgba(24,34,45,.45)}
     return claims.filter(c => (!t || c.type === t) && (!s || c.status === s) && (!q || (c.irr + ' ' + c.title + ' ' + c.claimant + ' ' + (c.claimantName || '')).includes(q)));
   };
   function totals(list) {
-    return list.reduce((a, c) => { const k = C.calc(c); a.n++; a.total += c.total; a.pay += k.pay; a.other += k.ins + k.cust + k.partner; a.rec += k.rec; a.net += k.net; a.cut += k.cut; return a; },
-      { n: 0, total: 0, pay: 0, other: 0, rec: 0, net: 0, cut: 0 });
+    return list.reduce((a, c) => { const k = C.calc(c); a.n++; a.total += c.total; a.pay += k.pay; a.other += k.ins + k.cust + k.partner; a.rec += k.rec; a.net += k.net; a.cut += k.cut; a.insAll += k.insAll; return a; },
+      { n: 0, total: 0, pay: 0, other: 0, rec: 0, net: 0, cut: 0, insAll: 0 });
   }
   function render() {
     const list = shown(), t = totals(list);
     $('kpi').innerHTML = `<div class="kpi"><div><small>클레임</small><b>${t.n}건</b></div><div><small>총 클레임 금액</small><b>${fmt(t.total)}</b></div><div><small>당사 지불</small><b class="c-pay">${fmt(t.pay)}</b></div>
-      <div><small>보험사·제3자 부담</small><b class="c-ref">${fmt(t.other)}</b></div><div><small>당사 회수</small><b class="c-rec">${fmt(t.rec)}</b></div><div><small>당사 순손실 → Impact</small><b>${fmt(t.net)}</b></div></div>`;
+      <div><small>당사 회수</small><b class="c-rec">${fmt(t.rec)}</b></div><div><small>보험 처리 계 (직접 보상 + 보험금 수령)</small><b class="c-ref">${fmt(t.insAll)}</b></div><div><small>당사 순손실 → Impact</small><b>${fmt(t.net)}</b></div></div>`;
     const piv = K.type.map(([code, name]) => [code, name, totals(list.filter(c => c.type === code))]).filter(x => x[2].n);
-    $('pivot').innerHTML = `<table style="min-width:860px"><thead><tr><th>클레임 유형</th><th class="num">건수</th><th class="num">총 클레임 금액</th><th class="num">당사 지불</th><th class="num">보험사·제3자 부담</th><th class="num">당사 회수</th><th class="num">감액·미지급</th><th class="num">당사 순손실</th></tr></thead>
-      <tbody>${piv.map(([code, name, x]) => `<tr><td>${esc(code)} ${esc(name)}</td><td class="num">${x.n}</td><td class="num">${fmt(x.total)}</td><td class="num c-pay">${fmt(x.pay)}</td><td class="num c-ref">${fmt(x.other)}</td><td class="num c-rec">${fmt(x.rec)}</td><td class="num">${fmt(x.cut)}</td><td class="num"><b>${fmt(x.net)}</b></td></tr>`).join('') || '<tr><td colspan="8" style="color:var(--muted)">조건에 맞는 클레임이 없습니다.</td></tr>'}</tbody>
-      <tfoot><tr><td>합계</td><td class="num">${t.n}</td><td class="num">${fmt(t.total)}</td><td class="num">${fmt(t.pay)}</td><td class="num">${fmt(t.other)}</td><td class="num">${fmt(t.rec)}</td><td class="num">${fmt(t.cut)}</td><td class="num">${fmt(t.net)}</td></tr></tfoot></table>`;
+    $('pivot').innerHTML = `<table style="min-width:860px"><thead><tr><th>클레임 유형</th><th class="num">건수</th><th class="num">총 클레임 금액</th><th class="num">당사 지불</th><th class="num">보험사·제3자 부담</th><th class="num">당사 회수</th><th class="num">보험 처리 계</th><th class="num">감액·미지급</th><th class="num">당사 순손실</th></tr></thead>
+      <tbody>${piv.map(([code, name, x]) => `<tr><td>${esc(code)} ${esc(name)}</td><td class="num">${x.n}</td><td class="num">${fmt(x.total)}</td><td class="num c-pay">${fmt(x.pay)}</td><td class="num c-ref">${fmt(x.other)}</td><td class="num c-rec">${fmt(x.rec)}</td><td class="num c-ref">${fmt(x.insAll)}</td><td class="num">${fmt(x.cut)}</td><td class="num"><b>${fmt(x.net)}</b></td></tr>`).join('') || '<tr><td colspan="9" style="color:var(--muted)">조건에 맞는 클레임이 없습니다.</td></tr>'}</tbody>
+      <tfoot><tr><td>합계</td><td class="num">${t.n}</td><td class="num">${fmt(t.total)}</td><td class="num">${fmt(t.pay)}</td><td class="num">${fmt(t.other)}</td><td class="num">${fmt(t.rec)}</td><td class="num">${fmt(t.insAll)}</td><td class="num">${fmt(t.cut)}</td><td class="num">${fmt(t.net)}</td></tr></tfoot></table>`;
     $('list').innerHTML = `<table style="min-width:1240px"><thead><tr><th>클레임 ID</th><th>IRR No.</th><th>제목</th><th>클레임 유형</th><th>청구인</th><th>책임 판단</th><th class="num">총 클레임 금액</th><th class="num">당사 지불</th><th class="num">보험사·제3자</th><th class="num">당사 회수</th><th class="num">당사 순손실</th><th>상태</th></tr></thead>
       <tbody>${list.map(c => { const k = C.calc(c); return `<tr class="click" data-id="${esc(c.id)}" tabindex="0"><td>${esc(c.id)}</td><td>${esc(c.irr)}</td><td>${esc(c.title)}</td><td>${esc(C.label(K.type, c.type))}</td><td>${esc(c.claimant)}</td><td>${esc(c.liability)}</td>
         <td class="num">${fmt(c.total)}</td><td class="num c-pay">${fmt(k.pay)}</td><td class="num c-ref">${fmt(k.ins + k.cust + k.partner)}</td><td class="num c-rec">${fmt(k.rec)}</td><td class="num"><b>${fmt(k.net)}</b></td><td><span class="st" data-s="${esc(c.status)}">${esc(c.status)}</span></td></tr>`; }).join('')}</tbody></table>`;
@@ -162,13 +162,13 @@ dialog::backdrop{background:rgba(24,34,45,.45)}
       <label class="w6">경위·비고${inp('story', d.story)}</label></div></div>`;
   }
   function paySec() {
-    return `<div class="sec pay"><div class="sec-h"><h4>지불 내역<span>돈이 나간 건마다 한 줄 · 보험사가 일부를 내고 차액을 당사가 냈다면 두 줄</span></h4><button type="button" class="btn sm out" data-a="addPay">+ 지불 추가</button></div>
+    return `<div class="sec pay"><div class="sec-h"><h4>지불 내역<span>돈이 나간 건마다 한 줄 · 당사 보험사가 직접 보냈으면 지불 주체를 당사 보험사로(당사 지불 0) · 보험사가 일부를 내고 차액을 당사가 냈다면 두 줄</span></h4><button type="button" class="btn sm out" data-a="addPay">+ 지불 추가</button></div>
       ${d.pays.length ? `<div class="scroll"><table style="min-width:860px"><thead><tr><th style="width:150px">지불 주체</th><th style="width:250px">지불 수단</th><th class="num" style="width:150px">금액</th><th style="width:120px">일자</th><th>증빙번호</th><th style="width:56px"></th></tr></thead><tbody>
       ${d.pays.map((x, i) => `<tr data-k="pays" data-i="${i}"><td>${sel('payer', K.payer, x.payer)}</td><td>${sel('method', K.payMethod, x.payer === '당사' ? x.method : 'P1', x.payer === '당사' ? '' : ' disabled')}${x.payer === '당사' ? '' : `<small style="color:var(--muted)">${x.payer === '당사 보험사' ? '보험사가 청구인에게 직접 지급' : '당사를 거치지 않고 직접 납부·지급'}</small>`}</td>
         <td>${money('amount', x.amount)}</td><td>${inp('date', x.date)}</td><td>${inp('ref', x.ref, ' placeholder="송금번호, 크레딧 노트, 인보이스"')}</td><td><button type="button" class="btn sm del" data-a="delPay" data-i="${i}">삭제</button></td></tr>`).join('')}</tbody></table></div>` : '<div class="empty">아직 지불 내역이 없습니다. 지급 거절·협의 중이면 비워 둡니다.</div>'}</div>`;
   }
   function recSec() {
-    return `<div class="sec rec"><div class="sec-h"><h4>회수 내역<span>당사가 돌려받은 건마다 한 줄</span></h4><button type="button" class="btn sm out" data-a="addRec">+ 회수 추가</button></div>
+    return `<div class="sec rec"><div class="sec-h"><h4>회수 내역<span>당사가 돌려받은 건마다 한 줄 · 당사가 먼저 내고 보험으로 받았으면 보험금 수령</span></h4><button type="button" class="btn sm out" data-a="addRec">+ 회수 추가</button></div>
       ${d.recs.length ? `<div class="scroll"><table style="min-width:860px"><thead><tr><th style="width:150px">회수처</th><th style="width:250px">회수 수단</th><th class="num" style="width:150px">금액</th><th style="width:120px">일자</th><th>증빙번호</th><th style="width:56px"></th></tr></thead><tbody>
       ${d.recs.map((x, i) => `<tr data-k="recs" data-i="${i}"><td>${sel('from', K.recFrom, x.from)}</td><td>${sel('method', K.recMethod, x.method)}</td><td>${money('amount', x.amount)}</td><td>${inp('date', x.date)}</td><td>${inp('ref', x.ref, ' placeholder="입금번호, 매입 인보이스, 보험 청구번호"')}</td><td><button type="button" class="btn sm del" data-a="delRec" data-i="${i}">삭제</button></td></tr>`).join('')}</tbody></table></div>` : '<div class="empty">회수한 금액이 없으면 비워 둡니다.</div>'}</div>`;
   }

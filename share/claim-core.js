@@ -61,17 +61,18 @@ window.ClaimCore = (() => {
     };
     o.pay = o.payP1 + o.payP2 + o.payP3; o.rec = o.recR1 + o.recR2 + o.recR3;
     o.net = o.pay - o.rec;
+    o.insAll = o.ins + o.recR3;  // 보험 처리 계: 보험사가 직접 보낸 돈 + 당사가 내고 보험금으로 받은 돈 (경로와 무관하게 같은 숫자)
     o.cut = c.total - (o.pay + o.ins + o.cust + o.partner);
     return o;
   }
   // 엑셀 시트 행
   const CLAIM_COLS = ['IRR No.', '클레임 ID', '클레임 유형', '청구인 구분', '청구인', '원청구인', '원청구 금액', '과태료 부과 대상', '책임 판단', '상태', '접수일', '종결일', '통화', '총 클레임 금액',
     '당사 지불_손해배상금', '당사 지불_인보이스 차감', '당사 지불_운영원가', '당사 지불 계', '당사 보험사 보상', '고객 직접 부담', '협력사 직접 부담',
-    '당사 회수_손해배상금 환입', '당사 회수_매입 할인', '당사 회수_보험금', '당사 회수 계', '당사 순손실', '감액·미지급'];
+    '당사 회수_손해배상금 환입', '당사 회수_매입 할인', '당사 회수_보험금', '당사 회수 계', '보험 처리 계', '당사 순손실', '감액·미지급'];
   function claimRow(c) {
     const k = calc(c);
     return [c.irr, c.id, label(CODES.type, c.type), c.claimant, c.claimantName || '', c.orig || '', c.origAmt || 0, c.type === 'FN' ? c.issuedTo : '', c.liability, c.status, c.date, c.closed || '', c.cur, c.total,
-      k.payP1, k.payP2, k.payP3, k.pay, k.ins, k.cust, k.partner, k.recR1, k.recR2, k.recR3, k.rec, k.net, k.cut];
+      k.payP1, k.payP2, k.payP3, k.pay, k.ins, k.cust, k.partner, k.recR1, k.recR2, k.recR3, k.rec, k.insAll, k.net, k.cut];
   }
   const LINE_COLS = ['클레임 ID', 'IRR No.', '클레임 유형', '구분', '일자', '지불 주체 / 회수처', '지급처 / 수령처', '수단 코드', '수단', '금액', '통화', '증빙', '당사 손익 반영'];
   function lineRows(c) {
