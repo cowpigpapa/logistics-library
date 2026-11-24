@@ -52,6 +52,9 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .sum .v.zero{color:#9A9A9A;font-weight:500}
 .sum.loss{background:#FCEDEE;border-left-color:#F2C6CA}.sum.loss .v{color:#B3121F}
 .sum.gain{background:#EAF2FC;border-left-color:#C5D9F2}.sum.gain .v{color:#1F5FBF}
+.nc{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 14px;border:1px solid #BDBDBD;border-radius:2px;background:#fff;font-size:14px;font-weight:500;color:#333;cursor:pointer;white-space:nowrap}
+.nc input{width:16px;height:16px;margin:0;accent-color:#444}
+.nc.on{border-color:#555;background:#EDEDED}
 .legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:#555;margin-top:10px;align-items:center}
 .sw{display:inline-block;width:14px;height:14px;border:1px solid #D0D0D0;vertical-align:-2px;margin-right:6px}
 
@@ -148,6 +151,10 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div class="sum"><span class="k">Insurer / 3rd party paid</span><span class="v neu zero">0.00</span></div>
 <div class="sum"><span class="k">LXP recovered</span><span class="v rec zero">0.00</span></div>
 <div class="sum loss"><span class="k">LXP net loss = LXP paid − LXP recovered</span><span class="v">5,855.98</span></div>
+</div>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+<span class="mk" style="font-size: 11px;">10</span>
+<label class="nc"><input type="checkbox"> No Claim</label>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
@@ -304,6 +311,23 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 </section>
 
 </div>
+<div class="part" style="padding-top:8px"><h2 class="big" style="font-size:18px">①-1 When No Claim is checked — Claim Result only</h2></div>
+<div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Segoe UI', Arial, sans-serif; color: #222; background: #F7F7F7;">
+<section aria-label="Claim Result — No Claim" style="padding: 0 0 22px; border-bottom: 2px solid #111;">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 16px;">
+<div style="display: flex; align-items: flex-end; gap: 10px;"><span class="tab">Claim Result</span></div>
+<div role="status" style="display: flex; align-items: center; gap: 8px; min-height: 36px; margin-bottom: 5px; padding: 0 16px; border: 1px solid #D0D0D0; border-radius: 6px; background: #EDEDED; color: #555; font-size: 13px; font-weight: 700; box-sizing: border-box; white-space: nowrap;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M5.6 5.6l12.8 12.8"></path></svg>No Claim — no cost</div>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+<span class="mk" style="font-size: 11px;">10</span>
+<label class="nc on"><input type="checkbox" checked> No Claim</label>
+</div>
+</div>
+<div style="background: #fff; padding: 16px; box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 12px; border: 1px dashed #C8C8C8; border-radius: 4px; background: #FAFAFA; padding: 18px 20px; color: #555; font-size: 14px; line-height: 1.6;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#777" stroke-width="2" aria-hidden="true" style="flex: none;"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7.5v.5"></path></svg><div><b style="color: #333;">This case is marked as having no cost.</b> The payment and recovery tables are collapsed and cannot be edited.<br>If a cost arises later, untick <b>No Claim</b> at the top right and enter it.</div></div>
+<p style="margin: 10px 0 0; font-size: 12px; color: #777;">History (Contents) entry example: [NCL] 2026-11-24 09:10:12 (PIC) No Claim checked</p>
+</div>
+</section>
+</div>
 
 <div class="part" style="padding-top:40px"><h2 class="big">② Developer spec</h2></div>
 <div style="max-width: 1600px; margin: 0 auto; box-sizing: border-box; padding: 32px 32px 56px; background: #F7F7F7; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; display: flex; flex-direction: column; gap: 24px;">
@@ -329,6 +353,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <tr><td><span class="tag chg">Change</span></td><td><span class="mk">6</span> Row delete</td><td>Per-row 'Delete' button → <b>+ / −</b> buttons at the table's top right</td></tr>
 <tr><td><span class="tag add">Add</span></td><td><span class="mk">7</span> Currency</td><td>Currency selector before Amount (KRW, USD, EUR)</td></tr>
 <tr><td><span class="tag add">Add</span></td><td><span class="mk">8</span> In USD</td><td>USD-converted amount shown right of Amount (automatic)</td></tr>
+<tr><td><span class="tag add">Add</span></td><td><span class="mk" style="font-size: 11px;">10</span> No Claim</td><td>Checkbox at the top right of Claim Result. When checked, tables collapse and a badge replaces the summary</td></tr>
 <tr><td><span class="tag del">Remove</span></td><td>Date column</td><td>In both tables</td></tr>
 <tr><td><span class="tag del">Excluded</span></td><td>Total claim, Reduction</td><td>① Total claim and ⑤ Reduction from the planning draft summary are not included</td></tr>
 <tr><td><span class="tag keep">Keep</span></td><td>Progress &amp; Result, CAPA</td><td>Text input, history (Contents), evidence files and buttons stay as they are</td></tr>
@@ -382,6 +407,20 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <li><b>+</b> : adds one empty row at the bottom. Suggested default Currency for a new row: USD.</li>
 <li><b>−</b> : deletes the checked rows. Disabled when no row is checked.</li>
 <li>Header checkbox selects / clears all rows in that table.</li>
+</ul>
+</section>
+
+<section class="sec">
+<h2><span class="mk" style="font-size: 11px;">10</span>7. No Claim</h2>
+<ul>
+<li>Position: <b>right end</b> of the Claim Result row (same place as other sections' buttons). Button-style checkbox with a border, like the other buttons: <span class="f">☐ No Claim</span>.</li>
+<li>When checked: the summary bar is replaced by a grey badge <b>'No Claim — no cost'</b>; the payment/recovery tables and + / − buttons collapse and a notice is shown (see 'When No Claim is checked').</li>
+<li>Can be checked <b>only when there are 0 payment and recovery rows</b>. Otherwise block it and show 'Delete the entered rows first'.</li>
+<li>Unchecking: allowed at any time; the empty tables reappear for input.</li>
+<li>If the tables are empty and No Claim is not checked: show a grey hint inside the table 'If there is no cost, tick No Claim at the top right'.</li>
+<li>Save · Result Close: blocked unless there is <b>at least one row</b> or <b>No Claim is checked</b> (prevents missing costs).</li>
+<li>Data: store Claim Y/N separately so 'No Claim' cases and 'cost not entered' cases can be counted apart.</li>
+<li>History (Contents): log check / uncheck as one line each (suggestion). E.g. <span class="f">[NCL] … No Claim checked</span></li>
 </ul>
 </section>
 
@@ -455,6 +494,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <li><b>'Estimated' label, liability decision (fully accepted – under negotiation) and status (received – closed) from the planning draft</b> — include on this screen or not, and where.</li>
 <li><b>Limiting recovery types by Recovered from</b> — the planning draft has no rule.</li>
 <li><b>Deleting SAP auto rows</b> — whether the − button may delete them.</li>
+<li><b>No Claim default</b> — always unchecked at first, or set automatically by irregularity type.</li>
 </ol>
 </section>
 

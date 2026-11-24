@@ -52,6 +52,9 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .sum .v.zero{color:#9A9A9A;font-weight:500}
 .sum.loss{background:#FCEDEE;border-left-color:#F2C6CA}.sum.loss .v{color:#B3121F}
 .sum.gain{background:#EAF2FC;border-left-color:#C5D9F2}.sum.gain .v{color:#1F5FBF}
+.nc{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 14px;border:1px solid #BDBDBD;border-radius:2px;background:#fff;font-size:14px;font-weight:500;color:#333;cursor:pointer;white-space:nowrap}
+.nc input{width:16px;height:16px;margin:0;accent-color:#444}
+.nc.on{border-color:#555;background:#EDEDED}
 .legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:#555;margin-top:10px;align-items:center}
 .sw{display:inline-block;width:14px;height:14px;border:1px solid #D0D0D0;vertical-align:-2px;margin-right:6px}
 
@@ -148,6 +151,10 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div class="sum"><span class="k">보험사·제3자 부담</span><span class="v neu zero">0.00</span></div>
 <div class="sum"><span class="k">당사회수</span><span class="v rec zero">0.00</span></div>
 <div class="sum loss"><span class="k">당사 순손실 = 당사지불 − 당사회수</span><span class="v">5,855.98</span></div>
+</div>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+<span class="mk" style="font-size: 11px;">10</span>
+<label class="nc"><input type="checkbox"> No Claim (비용 없음)</label>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
@@ -304,6 +311,23 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 </section>
 
 </div>
+<div class="part" style="padding-top:8px"><h2 class="big" style="font-size:18px">①-1 No Claim 체크 시 — Claim Result 부분</h2></div>
+<div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
+<section aria-label="Claim Result — No Claim" style="padding: 0 0 22px; border-bottom: 2px solid #111;">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 16px;">
+<div style="display: flex; align-items: flex-end; gap: 10px;"><span class="tab">Claim Result</span></div>
+<div role="status" style="display: flex; align-items: center; gap: 8px; min-height: 36px; margin-bottom: 5px; padding: 0 16px; border: 1px solid #D0D0D0; border-radius: 6px; background: #EDEDED; color: #555; font-size: 13px; font-weight: 700; box-sizing: border-box; white-space: nowrap;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M5.6 5.6l12.8 12.8"></path></svg>No Claim — 비용 없음</div>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+<span class="mk" style="font-size: 11px;">10</span>
+<label class="nc on"><input type="checkbox" checked> No Claim (비용 없음)</label>
+</div>
+</div>
+<div style="background: #fff; padding: 16px; box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 12px; border: 1px dashed #C8C8C8; border-radius: 4px; background: #FAFAFA; padding: 18px 20px; color: #555; font-size: 14px; line-height: 1.6;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#777" stroke-width="2" aria-hidden="true" style="flex: none;"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7.5v.5"></path></svg><div><b style="color: #333;">비용이 없는 건으로 표시되었습니다.</b> 지불내역·회수내역 표는 접혀 있고 입력할 수 없습니다.<br>비용이 생기면 오른쪽 위 <b>No Claim</b> 체크를 풀고 입력하세요.</div></div>
+<p style="margin: 10px 0 0; font-size: 12px; color: #777;">이력(Contents) 기록 예: [NCL] 2026-11-24 09:10:12 (담당자) No Claim 체크</p>
+</div>
+</section>
+</div>
 <div class="part" style="padding-top:40px" lang="en"><h2 class="big">①-EN 개선 화면 (English)</h2><p>위 개선 화면의 영문판입니다. LXP = LX Pantos.</p><div class="dl"><a href="/share/files/qms-claim-closure-en.pptx" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>PPT (English)</a><a href="/share/files/qms-claim-closure-en-mockup.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (English) · 번호 있음</a><a href="/share/files/qms-claim-closure-en-mockup-clean.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (English) · 번호 없음</a></div></div>
 <div lang="en" style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
 
@@ -373,6 +397,10 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 <div class="sum"><span class="k">Insurer / 3rd party paid</span><span class="v neu zero">0.00</span></div>
 <div class="sum"><span class="k">LXP recovered</span><span class="v rec zero">0.00</span></div>
 <div class="sum loss"><span class="k">LXP net loss = LXP paid − LXP recovered</span><span class="v">5,855.98</span></div>
+</div>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+<span class="mk" style="font-size: 11px;">10</span>
+<label class="nc"><input type="checkbox"> No Claim</label>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
@@ -529,6 +557,23 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 </section>
 
 </div>
+<div class="part" style="padding-top:8px" lang="en"><h2 class="big" style="font-size:18px">When No Claim is checked — Claim Result only</h2></div>
+<div lang="en" style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Segoe UI', Arial, sans-serif; color: #222; background: #F7F7F7;">
+<section aria-label="Claim Result — No Claim" style="padding: 0 0 22px; border-bottom: 2px solid #111;">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 16px;">
+<div style="display: flex; align-items: flex-end; gap: 10px;"><span class="tab">Claim Result</span></div>
+<div role="status" style="display: flex; align-items: center; gap: 8px; min-height: 36px; margin-bottom: 5px; padding: 0 16px; border: 1px solid #D0D0D0; border-radius: 6px; background: #EDEDED; color: #555; font-size: 13px; font-weight: 700; box-sizing: border-box; white-space: nowrap;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M5.6 5.6l12.8 12.8"></path></svg>No Claim — no cost</div>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+<span class="mk" style="font-size: 11px;">10</span>
+<label class="nc on"><input type="checkbox" checked> No Claim</label>
+</div>
+</div>
+<div style="background: #fff; padding: 16px; box-sizing: border-box;">
+<div style="display: flex; align-items: center; gap: 12px; border: 1px dashed #C8C8C8; border-radius: 4px; background: #FAFAFA; padding: 18px 20px; color: #555; font-size: 14px; line-height: 1.6;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#777" stroke-width="2" aria-hidden="true" style="flex: none;"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7.5v.5"></path></svg><div><b style="color: #333;">This case is marked as having no cost.</b> The payment and recovery tables are collapsed and cannot be edited.<br>If a cost arises later, untick <b>No Claim</b> at the top right and enter it.</div></div>
+<p style="margin: 10px 0 0; font-size: 12px; color: #777;">History (Contents) entry example: [NCL] 2026-11-24 09:10:12 (PIC) No Claim checked</p>
+</div>
+</section>
+</div>
 <div class="part" style="padding-top:40px"><h2 class="big">② 개발 사양</h2></div>
 <div style="max-width: 1600px; margin: 0 auto; box-sizing: border-box; padding: 32px 32px 56px; background: #F7F7F7; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; display: flex; flex-direction: column; gap: 24px;">
 
@@ -553,6 +598,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <tr><td><span class="tag chg">변경</span></td><td><span class="mk">6</span> 행 삭제</td><td>행마다 있던 '삭제' 버튼 → 표 오른쪽 위 <b>+ / −</b> 버튼</td></tr>
 <tr><td><span class="tag add">추가</span></td><td><span class="mk">7</span> Currency</td><td>금액 앞에 통화 선택 (KRW, USD, EUR)</td></tr>
 <tr><td><span class="tag add">추가</span></td><td><span class="mk">8</span> USD 환산</td><td>금액 오른쪽에 USD 환산 금액 표시 (자동)</td></tr>
+<tr><td><span class="tag add">추가</span></td><td><span class="mk" style="font-size: 11px;">10</span> No Claim</td><td>Claim Result 오른쪽 위 체크박스. 체크하면 표를 접고 요약 대신 배지</td></tr>
 <tr><td><span class="tag del">삭제</span></td><td>일자 컬럼</td><td>지불·회수 표 모두</td></tr>
 <tr><td><span class="tag del">제외</span></td><td>총 클레임, 감액</td><td>기획안 요약의 ① 총 클레임, ⑤ 감액은 넣지 않음</td></tr>
 <tr><td><span class="tag keep">유지</span></td><td>Progress &amp; Result, CAPA</td><td>내용 입력, 이력(Contents), 이행 증빙, 버튼 모두 현행 유지</td></tr>
@@ -606,6 +652,20 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <li><b>+</b> : 표 맨 아래에 빈 행 1개 추가. 새 행의 Currency 기본값은 USD 제안.</li>
 <li><b>−</b> : 체크한 행 삭제. 체크한 행이 없으면 비활성.</li>
 <li>머리글 체크박스로 그 표의 전체 선택 / 해제.</li>
+</ul>
+</section>
+
+<section class="sec">
+<h2><span class="mk" style="font-size: 11px;">10</span>7. No Claim (비용 없음)</h2>
+<ul>
+<li>위치: Claim Result 줄 <b>오른쪽 끝</b> (다른 섹션의 버튼 자리와 같음). 다른 버튼처럼 테두리 있는 버튼형 체크박스 <span class="f">☐ No Claim (비용 없음)</span>.</li>
+<li>체크하면: 요약 바 자리에 회색 배지 <b>'No Claim — 비용 없음'</b>, 지불·회수 표와 + / − 버튼은 접고 안내 문구 표시 (아래 'No Claim 체크 시' 화면).</li>
+<li>체크 조건: 지불·회수 행이 <b>0개일 때만</b>. 행이 있으면 체크를 막고 '입력된 행을 먼저 삭제하세요' 안내.</li>
+<li>체크 해제: 언제든 가능. 풀면 빈 표가 다시 보이고 바로 입력.</li>
+<li>표가 비어 있고 No Claim도 아닐 때: 표 안에 회색 안내 '비용이 없으면 오른쪽 위 No Claim을 체크하세요'.</li>
+<li>저장 · Result Close: <b>행 1개 이상</b> 또는 <b>No Claim 체크</b> 중 하나가 아니면 막음 (비용 누락 방지).</li>
+<li>데이터: Claim 여부(Y/N) 따로 저장 → 'No Claim 건수'와 '비용 미입력 건수'를 나눠 집계.</li>
+<li>이력(Contents): 체크·해제를 한 줄씩 남김 (제안). 예: <span class="f">[NCL] … No Claim 체크</span></li>
 </ul>
 </section>
 
@@ -679,6 +739,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <li><b>기획안의 'Estimated' 표시, 책임 판단(전액 인정 ~ 협의 중), 상태(접수 ~ 종결)</b> — 이번 화면에 넣을지, 넣으면 위치.</li>
 <li><b>회수처별 회수방법 제한</b> — 기획안에 규칙 없음.</li>
 <li><b>SAP 자동 행 삭제</b> — − 버튼으로 지울 수 있게 할지.</li>
+<li><b>No Claim 기본값</b> — 처음엔 항상 체크 안 함으로 할지, 사고 유형에 따라 자동으로 정할지.</li>
 </ol>
 </section>
 
