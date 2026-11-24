@@ -43,7 +43,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .chip{font-size:10px;font-weight:700;color:#1F4E9A;border:1px solid #1F4E9A;border-radius:3px;padding:0 4px;line-height:15px;flex:none}
 .mk{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:#1F4E9A;color:#fff;font-size:12px;font-weight:700;flex:none}
 .ibtn{width:30px;height:30px;border:1px solid #7A7A7A;border-radius:6px;background:#fff;color:#3A3A3A;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
-.sum{display:flex;align-items:center;gap:10px;padding:6px 18px;border-left:1px solid #E6E6E6}
+.sum{display:flex;align-items:center;gap:8px;padding:6px 14px;border-left:1px solid #E6E6E6}
 .sum .k{font-size:12px;color:#666;white-space:nowrap}
 .sum .v{font-size:15px;line-height:1;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
 .sum .v.pay{color:#A33A3A}
@@ -55,6 +55,14 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .nc{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 14px;border:1px solid #BDBDBD;border-radius:2px;background:#fff;font-size:14px;font-weight:500;color:#333;cursor:pointer;white-space:nowrap}
 .nc input{width:16px;height:16px;margin:0;accent-color:#444}
 .nc.on{border-color:#555;background:#EDEDED}
+.cs-h{margin:0;font-size:16px;font-weight:500;color:#222;display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
+.histbox{max-height:var(--hist-h,169px);overflow-y:auto;border-top:3px solid #D3202F}
+.histbox .hist{border-top:0}
+.histbox .hist th{position:sticky;top:0;z-index:1}
+.totin{width:100px;height:26px;border:1px solid #C9C9C9;border-radius:3px;padding:0 6px;font:inherit;font-size:14px;font-weight:700;text-align:right;font-variant-numeric:tabular-nums;color:#222;background:#fff;box-sizing:border-box}
+.totin::placeholder{font-weight:400;color:#AAA}
+.grid tr.fx td{background:#FAFAFA}
+.nil{color:#A0A0A0}
 .legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:#555;margin-top:10px;align-items:center}
 .sw{display:inline-block;width:14px;height:14px;border:1px solid #D0D0D0;vertical-align:-2px;margin-right:6px}
 
@@ -114,45 +122,49 @@ a{color:#B3121F}a:hover{color:#7E0C16}
  - Caused by careless clamp forklift handling
  - Improve handling quality through continuous operator training</div>
 
-<div class="mk-note" style="margin-top: 12px; border: 1px dashed #1F4E9A; background: #F2F6FC; color: #1F3F78; font-size: 13px; padding: 10px 12px; display: flex; align-items: center; gap: 10px;"><span class="mk">1</span>Existing Actual Loss Cost area removed (Compensation · Pay / Recovery / Loss Amount · Calculator · Sync Data) — costs are now entered in the Claim Result section below</div>
+<div class="mk-note" style="margin-top: 12px; border: 1px dashed #1F4E9A; background: #F2F6FC; color: #1F3F78; font-size: 13px; padding: 10px 12px; display: flex; align-items: center; gap: 10px;"><span class="mk">1</span>Existing Actual Loss Cost area removed (Compensation · Pay / Recovery / Loss Amount · Calculator · Sync Data) — costs are now entered in Claim Settlement below</div>
 
 </div>
 </div>
-<div style="min-width: 0;">
+<div style="min-width: 0; display: flex; flex-direction: column;">
 <div style="display: flex; align-items: flex-end; justify-content: flex-end; gap: 10px; min-height: 46px;">
 <button class="btn" type="button" style="margin-bottom: 6px;">Request Re-submission</button>
 <button class="btn" type="button" style="margin-bottom: 6px;">Confirm</button>
 </div>
-<div class="panel">
-<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;"><span class="lbl">Confirm Date :</span><span class="fld ro" style="width: 168px;"></span></div>
+<div class="panel" style="flex: 1;">
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;"><span class="lbl">Confirm Date :</span><span class="fld ro" style="width: 168px;"></span><span class="mk" style="margin-left: auto; font-size: 11px;">12</span></div>
+<div class="histbox">
 <table class="hist">
 <thead><tr><th>Contents</th></tr></thead>
 <tbody>
 <tr><td>[REQ] 2026-11-23 10:32:40 (PIC) Request Confirmation</td></tr>
 <tr><td>[REG] 2026-11-23 10:32:33 (PIC) Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping) - Caused by careless clamp forklift handling - Improve handling quality through continuous operator training</td></tr>
 <tr><td>[REG] 2026-11-23 10:31:53 (PIC) Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping) - Caused by careless clamp forklift handling</td></tr>
+<tr><td>[REG] 2026-11-23 10:30:12 (PIC) Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping)</td></tr>
 </tbody>
 </table>
 </div>
 </div>
 </div>
+</div>
 </section>
 
-<section aria-label="Claim Result" style="padding: 30px 0 22px; border-bottom: 2px solid #111;">
-<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 16px;">
-<div style="display: flex; align-items: flex-end; gap: 10px;">
-<span class="tab">Claim Result</span>
-<span class="mk" style="margin-bottom: 12px;">2</span>
+<section aria-label="Claim Settlement" style="padding: 30px 0 22px; border-bottom: 2px solid #111;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
+<div style="display: flex; align-items: center; gap: 8px;">
+<h2 class="cs-h"><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
+<span class="mk">2</span>
 </div>
-<div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; margin-bottom: 5px; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
+<div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
 <div style="display: flex; align-items: center; gap: 8px; padding: 0 14px; background: #333; color: #fff; font-size: 13px; font-weight: 700; white-space: nowrap;">
 <span class="mk" style="background: #fff; color: #1F4E9A;">3</span>Summary (USD)</div>
+<div class="sum tot"><span class="k">Total claim cost</span><input class="totin" inputmode="decimal" value="5,855.98" placeholder="Enter" aria-label="Total claim cost (USD)"><span class="mk" style="width: 18px; height: 18px; font-size: 10px;">11</span></div>
 <div class="sum"><span class="k">LXP paid</span><span class="v pay">5,855.98</span></div>
-<div class="sum"><span class="k">Insurer / 3rd party paid</span><span class="v neu zero">0.00</span></div>
+<div class="sum"><span class="k">Insurer / 3rd party</span><span class="v neu zero">0.00</span></div>
 <div class="sum"><span class="k">LXP recovered</span><span class="v rec zero">0.00</span></div>
-<div class="sum loss"><span class="k">LXP net loss = LXP paid − LXP recovered</span><span class="v">5,855.98</span></div>
+<div class="sum loss"><span class="k">LXP net loss (paid − recovered)</span><span class="v">5,855.98</span></div>
 </div>
-<div style="margin-left: auto; display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
 <span class="mk" style="font-size: 11px;">10</span>
 <label class="nc"><input type="checkbox"> No Claim</label>
 </div>
@@ -163,7 +175,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
 <div style="min-width: 0;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Payments<span class="mk">4</span></h2>
-<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">Enter one row per payment. If the insurer paid part and LXP paid the rest, enter two rows.</p>
+<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">P1–P3 show SAP amounts only. Add other payments one row at a time with +.</p>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 <span class="mk">6</span>
@@ -184,17 +196,35 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <th>Remark</th>
 </tr></thead>
 <tbody>
-<tr>
-<td style="text-align: center;"><input type="checkbox" aria-label="Select row 1"></td>
-<td><select class="cell" aria-label="Paid by"><option>LXP</option><option>LXP insurer</option><option>Vendor</option><option>Customer</option></select></td>
-<td><select class="cell" aria-label="Payment type"><option>P1 Compensation (51029010)</option><option>P2 Penalty (51017180)</option><option>P3 DEM/DET/STG</option><option>P4 Selling / Buying</option></select></td>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">LXP</div></td>
+<td><div class="rocell">P1 Compensation (51029010)</div></td>
 <td><div class="rocell">USD</div></td>
 <td><div class="rocell num">5,855.98</div></td>
 <td><div class="usd">5,855.98</div></td>
-<td><div class="rocell"><span class="chip">SAP</span>4400000813, 4400000847</div></td>
+<td><div class="rocell">4400000813, 4400000847</div></td>
+</tr>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">LXP</div></td>
+<td><div class="rocell">P2 Penalty (51017180)</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">LXP</div></td>
+<td><div class="rocell">P3 DEM/DET/STG</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
 </tr>
 <tr>
-<td style="text-align: center;"><input type="checkbox" aria-label="Select row 2"></td>
+<td style="text-align: center;"><input type="checkbox" aria-label="Select row 4"></td>
 <td><select class="cell" aria-label="Paid by"><option>LXP insurer</option><option>LXP</option><option>Vendor</option><option>Customer</option></select></td>
 <td><select class="cell" aria-label="Payment type"><option>P5 Paid by insurer / 3rd party</option></select></td>
 <td><select class="cell" aria-label="Currency"><option>KRW</option><option>USD</option><option>EUR</option></select></td>
@@ -206,8 +236,9 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </table>
 </div>
 <div class="legend">
-<span><span class="sw" style="background: #EFEFEF;"></span>Auto-filled from SAP — read-only (P1·P2)</span>
-<span><span style="color: #1E6B34; font-weight: 700; margin-right: 6px;">0.00</span>In USD — Amount × FX rate, auto-calculated</span>
+<span><span class="sw" style="background: #EFEFEF;"></span>SAP amounts — always shown, cannot edit or delete (P1·P2·P3)</span>
+<span>Rows added with +: LXP → P4 · others → P5</span>
+<span><span style="color: #1E6B34; font-weight: 700; margin-right: 6px;">0.00</span>In USD — auto-calculated</span>
 <span class="mk">9</span>
 </div>
 </div>
@@ -216,7 +247,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
 <div style="min-width: 0;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Recoveries<span class="mk">5</span></h2>
-<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">Enter one row per amount LXP recovered, including insurance reimbursement of LXP payments.</p>
+<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">R1–R2 show SAP amounts only. Add other recoveries with + (R4 · R5).</p>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 <button class="ibtn" type="button" aria-label="Add recovery row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
@@ -225,10 +256,9 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </div>
 <div style="overflow-x: auto;">
 <table class="grid">
-<colgroup><col style="width: 30px;"><col style="width: 124px;"><col><col style="width: 88px;"><col style="width: 78px;"><col style="width: 76px;"><col style="width: 104px;"></colgroup>
+<colgroup><col style="width: 30px;"><col><col style="width: 88px;"><col style="width: 78px;"><col style="width: 76px;"><col style="width: 104px;"></colgroup>
 <thead><tr>
 <th><input type="checkbox" aria-label="Select all recovery rows"></th>
-<th><span class="req">*</span>Recovered from</th>
 <th><span class="req">*</span>Recovery type</th>
 <th><span class="req">*</span>Currency</th>
 <th><span class="req">*</span>Amount</th>
@@ -236,10 +266,25 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <th>Remark</th>
 </tr></thead>
 <tbody>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">R1 Compensation (51029010)</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">R2 Penalty (51017180)</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
 <tr>
-<td style="text-align: center;"><input type="checkbox" aria-label="Select row 1"></td>
-<td><select class="cell" aria-label="Recovered from"><option>Vendor</option><option>LXP insurer</option><option>Carrier (ocean / air)</option><option>Trucker / Warehouse</option><option>Customer</option></select></td>
-<td><select class="cell" aria-label="Recovery type"><option>R4 Selling / Buying</option><option>R1 Compensation (51029010)</option><option>R2 Penalty (51017180)</option><option>R3 DEM/DET/STG</option><option>R5 Other</option></select></td>
+<td style="text-align: center;"><input type="checkbox" aria-label="Select row 3"></td>
+<td><select class="cell" aria-label="Recovery type"><option>R4 Selling / Buying</option><option>R5 Other</option></select></td>
 <td><select class="cell" aria-label="Currency"><option>USD</option><option>KRW</option><option>EUR</option></select></td>
 <td><input class="cell" style="text-align: right;" placeholder="Amount" aria-label="Amount"></td>
 <td><div class="auto">Auto</div></td>
@@ -249,8 +294,8 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </table>
 </div>
 <div class="legend">
-<span><span class="sw" style="background: #EFEFEF;"></span>Auto-filled from SAP — read-only (R1·R2)</span>
-<span><span class="sw" style="background: #fff; border-color: #D3202F;"></span>Voucher no. required for R4</span>
+<span><span class="sw" style="background: #EFEFEF;"></span>SAP amounts — always shown, cannot edit or delete (R1·R2)</span>
+<span><span class="sw" style="background: #fff; border-color: #D3202F;"></span>Voucher no. required for P4 · R4</span>
 </div>
 </div>
 
@@ -311,13 +356,13 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 </section>
 
 </div>
-<div class="part" style="padding-top:8px"><h2 class="big" style="font-size:18px">①-1 When No Claim is checked — Claim Result only</h2></div>
+<div class="part" style="padding-top:8px"><h2 class="big" style="font-size:18px">①-1 When No Claim is checked — Claim Settlement only</h2></div>
 <div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Segoe UI', Arial, sans-serif; color: #222; background: #F7F7F7;">
-<section aria-label="Claim Result — No Claim" style="padding: 0 0 22px; border-bottom: 2px solid #111;">
-<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 16px;">
-<div style="display: flex; align-items: flex-end; gap: 10px;"><span class="tab">Claim Result</span></div>
-<div role="status" style="display: flex; align-items: center; gap: 8px; min-height: 36px; margin-bottom: 5px; padding: 0 16px; border: 1px solid #D0D0D0; border-radius: 6px; background: #EDEDED; color: #555; font-size: 13px; font-weight: 700; box-sizing: border-box; white-space: nowrap;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M5.6 5.6l12.8 12.8"></path></svg>No Claim — no cost</div>
-<div style="margin-left: auto; display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+<section aria-label="Claim Settlement — No Claim" style="padding: 0 0 22px; border-bottom: 2px solid #111;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
+<div style="display: flex; align-items: center; gap: 8px;"><h2 class="cs-h"><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2></div>
+<div role="status" style="display: flex; align-items: center; gap: 8px; min-height: 36px; padding: 0 16px; border: 1px solid #D0D0D0; border-radius: 6px; background: #EDEDED; color: #555; font-size: 13px; font-weight: 700; box-sizing: border-box; white-space: nowrap;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M5.6 5.6l12.8 12.8"></path></svg>No Claim — no cost</div>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
 <span class="mk" style="font-size: 11px;">10</span>
 <label class="nc on"><input type="checkbox" checked> No Claim</label>
 </div>
@@ -334,7 +379,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 
 <header style="display: flex; flex-direction: column; gap: 6px; padding-bottom: 18px; border-bottom: 2px solid #111;">
 <h1 style="margin: 0; font-size: 28px; font-weight: 700;">Irregularity Closure — Cost Payment &amp; Recovery Input Redesign</h1>
-<p style="margin: 0; font-size: 14px; color: #555;">For: developers · Baseline: current Irregularity Closure screen · Written 2026-11-24 · Blue numbers match the markers on the redesigned screen · LXP = LX Pantos (our company)</p>
+<p style="margin: 0; font-size: 14px; color: #555;">For: developers · Baseline: current Irregularity Closure screen · Written 2026-11-24 (revision 2) · Blue numbers match the markers on the redesigned screen · LXP = LX Pantos (our company)</p>
 </header>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 24px; align-items: start;">
@@ -344,19 +389,23 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <section class="sec">
 <h2>1. Summary of changes</h2>
 <table class="t">
-<thead><tr><th>Change</th><th>Item</th><th>Details</th></tr></thead>
+<thead><tr><th>Type</th><th>Item</th><th>Details</th></tr></thead>
 <tbody>
 <tr><td><span class="tag del">Remove</span></td><td><span class="mk">1</span> Actual Loss Cost</td><td>Remove the whole cost area inside Progress &amp; Result: compensation selector, Currency, Pay / Recovery / LX Pantos Loss Amount, Calculator, Sync Data</td></tr>
-<tr><td><span class="tag add">New</span></td><td><span class="mk">2</span> Claim Result section</td><td>Placed between Progress &amp; Result and CAPA</td></tr>
-<tr><td><span class="tag add">New</span></td><td><span class="mk">3</span> Summary bar</td><td>One row to the right of the red Claim Result tab</td></tr>
-<tr><td><span class="tag chg">Change</span></td><td><span class="mk">4</span><span class="mk">5</span> Payment &amp; recovery tables</td><td>Stacked → side by side (payments left, recoveries right)</td></tr>
-<tr><td><span class="tag chg">Change</span></td><td><span class="mk">6</span> Row delete</td><td>Per-row 'Delete' button → <b>+ / −</b> buttons at the table's top right</td></tr>
-<tr><td><span class="tag add">Add</span></td><td><span class="mk">7</span> Currency</td><td>Currency selector before Amount (KRW, USD, EUR)</td></tr>
-<tr><td><span class="tag add">Add</span></td><td><span class="mk">8</span> In USD</td><td>USD-converted amount shown right of Amount (automatic)</td></tr>
-<tr><td><span class="tag add">Add</span></td><td><span class="mk" style="font-size: 11px;">10</span> No Claim</td><td>Checkbox at the top right of Claim Result. When checked, tables collapse and a badge replaces the summary</td></tr>
-<tr><td><span class="tag del">Remove</span></td><td>Date column</td><td>In both tables</td></tr>
-<tr><td><span class="tag del">Excluded</span></td><td>Total claim, Reduction</td><td>① Total claim and ⑤ Reduction from the planning draft summary are not included</td></tr>
-<tr><td><span class="tag keep">Keep</span></td><td>Progress &amp; Result, CAPA</td><td>Text input, history (Contents), evidence files and buttons stay as they are</td></tr>
+<tr><td><span class="tag add">New</span></td><td><span class="mk">2</span> Claim Settlement</td><td>Between Progress &amp; Result and CAPA. <b>No red tab</b> — a text title styled like the old 'Actual Loss Cost' label: <span class="f">* Claim Settlement ⓘ</span></td></tr>
+<tr><td><span class="tag add">New</span></td><td><span class="mk">3</span> Summary bar</td><td>One line to the right of the Claim Settlement title</td></tr>
+<tr><td><span class="tag add">Add</span></td><td><span class="mk" style="font-size: 11px;">11</span> Total claim cost</td><td>First summary cell. A temporary input in this mockup (see 5)</td></tr>
+<tr><td><span class="tag chg">Change</span></td><td><span class="mk">4</span><span class="mk">5</span> Payment / recovery tables</td><td>Stacked → side by side (payments left, recoveries right)</td></tr>
+<tr><td><span class="tag chg">Change</span></td><td><span class="mk">9</span> SAP rows</td><td>Payments P1·P2·P3 and recoveries R1·R2 are fixed rows that are <b>always shown</b>. They show the looked-up amount only and cannot be edited or deleted</td></tr>
+<tr><td><span class="tag del">Remove</span></td><td>Recovered-from column</td><td>Removed from the recovery table</td></tr>
+<tr><td><span class="tag chg">Change</span></td><td><span class="mk">6</span> Add / delete rows</td><td>Per-row 'Delete' button → <b>+ / −</b> at the top right of each table. + adds only P4·P5 (payments) and R4·R5 (recoveries)</td></tr>
+<tr><td><span class="tag add">Add</span></td><td><span class="mk">7</span> Currency</td><td>Currency selector before the amount (KRW, USD, EUR)</td></tr>
+<tr><td><span class="tag add">Add</span></td><td><span class="mk">8</span> In USD</td><td>USD-converted amount to the right of the amount (auto)</td></tr>
+<tr><td><span class="tag add">Add</span></td><td><span class="mk" style="font-size: 11px;">10</span> No Claim</td><td>Checkbox at the top right of Claim Settlement. When checked, tables collapse and a badge replaces the summary</td></tr>
+<tr><td><span class="tag chg">Change</span></td><td><span class="mk" style="font-size: 11px;">12</span> PR history</td><td>History on the right of Progress &amp; Result shows 3 rows and scrolls when longer. Height matches the left side</td></tr>
+<tr><td><span class="tag del">Remove</span></td><td>Date column, SAP chip</td><td>Date column in both tables; the 'SAP' chip in Remark</td></tr>
+<tr><td><span class="tag del">Exclude</span></td><td>Reduction</td><td>Summary item ⑤ Reduction from the planning draft is not included</td></tr>
+<tr><td><span class="tag keep">Keep</span></td><td>Progress &amp; Result, CAPA</td><td>Content input, history (Contents), evidence and buttons stay as today</td></tr>
 </tbody>
 </table>
 </section>
@@ -364,37 +413,39 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <section class="sec">
 <h2>2. Layout</h2>
 <ul>
-<li>Whole screen: 3 stacked sections — Progress &amp; Result → <b>Claim Result</b> → CAPA. Keep the black divider lines between sections.</li>
-<li>Progress &amp; Result, CAPA: current <b>Split screen</b> 50:50 (input left, history right), unchanged.</li>
-<li>Claim Result header: red <b>Claim Result</b> tab + summary bar on its right (black 'Summary (USD)' label + 4 cells), shown as a separate card with a small gap above the cost panel.</li>
-<li>Claim Result body: <b>Split screen</b> 50:50 — payments left, recoveries right. Both tables use the same columns and widths.</li>
+<li>Whole screen: three stacked sections — Progress &amp; Result → <b>Claim Settlement</b> → CAPA. Keep the black dividers between sections.</li>
+<li>Progress &amp; Result and CAPA: current <b>split screen</b> 50:50 (input left, history right), unchanged.</li>
+<li><span class="mk" style="font-size: 11px;">12</span> History (Contents) on the right of Progress &amp; Result: fixed height showing the header + <b>3 rows</b>; longer lists scroll vertically (header stays). The bottom of the right panel lines up with the left panel.</li>
+<li>Claim Settlement header: instead of a red tab, the text title <b>* Claim Settlement ⓘ</b> (same look as the old Actual Loss Cost label) + the summary bar to its right (black 'Summary (USD)' label + 5 cells) + No Claim at the far right. The summary bar is a separate card with a small gap above the tables.</li>
+<li>Claim Settlement body: <b>split screen</b> 50:50 — payments left, recoveries right.</li>
 <li>Above each table: title and guidance on the left, <b>+ / −</b> buttons on the right.</li>
-<li>Below about 1,150px screen width, payments and recoveries stack vertically and the tables scroll horizontally.</li>
-<li>Suggested column widths (px): Select 30 · Party 124 · Type (rest) · Currency 88 · Amount 78 · In USD 76 · Remark 104 (at 1,600px screen width).</li>
+<li>Below about 1,150px width, the tables stack (payments, then recoveries) and scroll horizontally.</li>
+<li>Suggested column widths (px, at 1,600px screen width): payments — Select 30 · Paid by 124 · Type (rest) · Currency 88 · Amount 78 · In USD 76 · Remark 104. Recoveries — no party column; Type takes the rest.</li>
 </ul>
 </section>
 
 <section class="sec">
-<h2>5. Summary calculation (USD)</h2>
+<h2>5. Summary calculation (in USD)</h2>
 <table class="t">
 <thead><tr><th>Item</th><th>Calculation</th></tr></thead>
 <tbody>
-<tr><td><b>LXP paid</b></td><td>Sum of In USD for payment rows where Paid by = LXP (P1–P4)</td></tr>
-<tr><td><b>Insurer / 3rd party paid</b></td><td>Sum of In USD for payment rows where Paid by = LXP insurer, Vendor or Customer (P5)</td></tr>
-<tr><td><b>LXP recovered</b></td><td>Sum of In USD for all recovery rows (R1–R5)</td></tr>
+<tr><td><span class="mk" style="width: 18px; height: 18px; font-size: 10px;">11</span> <b>Total claim cost</b></td><td>Total claim amount of the case. Shows the value of the existing total-cost input at the top of the real screen. <b>In this mockup it is entered here temporarily</b> — if that works, this cell can become the input (see 8)</td></tr>
+<tr><td><b>LXP paid</b></td><td>Sum in USD of payment rows where Paid by = LXP (P1–P4)</td></tr>
+<tr><td><b>Insurer / 3rd party</b></td><td>Sum in USD of payment rows paid by LXP insurer, vendor or customer (P5)</td></tr>
+<tr><td><b>LXP recovered</b></td><td>Sum in USD of all recovery rows (R1·R2·R4·R5)</td></tr>
 <tr><td><b>LXP net loss</b></td><td><span class="f">LXP paid − LXP recovered</span> · if negative (more recovered), relabel as 'LXP net gain' and show the absolute value</td></tr>
 </tbody>
 </table>
 <ul style="margin-top: 12px;">
-<li>Format: USD, thousands separator, 2 decimals.</li>
-<li>Recalculate immediately when a row is added, changed or deleted.</li>
-<li>Insurer / 3rd party paid is not part of the LXP net loss (same as the planning draft formula).</li>
+<li>Display: USD, thousands separators, 2 decimals.</li>
+<li>Recalculate immediately when rows are added, edited or deleted, or SAP results change.</li>
+<li>Insurer / 3rd party and total claim cost are not part of the LXP net loss.</li>
 </ul>
 <h3>Summary colour rules</h3>
 <table class="t">
 <thead><tr><th>Cell</th><th>Colour</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td><b>LXP paid</b></td><td>Muted red text, no background</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP paid</span><b style="color: #A33A3A; font-variant-numeric: tabular-nums;">5,855.98</b></span></td></tr><tr><td><b>Insurer / 3rd party paid</b></td><td>Dark grey text (neutral)</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">Insurer / 3rd party</span><b style="color: #444; font-variant-numeric: tabular-nums;">1,200.00</b></span></td></tr><tr><td><b>LXP recovered</b></td><td>Blue text, no background</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP recovered</span><b style="color: #1F5FBF; font-variant-numeric: tabular-nums;">800.00</b></span></td></tr><tr><td><b>LXP net loss (paid &gt; recovered)</b></td><td>Red text + light red background</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #F2C6CA; border-radius: 4px; background: #FCEDEE; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP net loss</span><b style="color: #B3121F; font-variant-numeric: tabular-nums;">5,055.98</b></span></td></tr><tr><td><b>LXP net gain (recovered &gt; paid)</b></td><td>Blue text + light blue background; label changes to 'LXP net gain'</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #C5D9F2; border-radius: 4px; background: #EAF2FC; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP net gain</span><b style="color: #1F5FBF; font-variant-numeric: tabular-nums;">300.00</b></span></td></tr><tr><td><b>Zero amount</b></td><td>Grey text, regular weight (all cells)</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP recovered</span><b style="color: #9A9A9A; font-variant-numeric: tabular-nums;">0.00</b></span></td></tr>
+<tr><td><b>Total claim cost</b></td><td>White input, black bold text (reference value, no colour)</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">Total claim cost</span><b style="color: #222; font-variant-numeric: tabular-nums;">5,855.98</b></span></td></tr><tr><td><b>LXP paid</b></td><td>Muted red text, no background</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP paid</span><b style="color: #A33A3A; font-variant-numeric: tabular-nums;">5,855.98</b></span></td></tr><tr><td><b>Insurer / 3rd party</b></td><td>Dark grey text (neutral)</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">Insurer / 3rd party</span><b style="color: #444; font-variant-numeric: tabular-nums;">1,200.00</b></span></td></tr><tr><td><b>LXP recovered</b></td><td>Blue text, no background</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP recovered</span><b style="color: #1F5FBF; font-variant-numeric: tabular-nums;">800.00</b></span></td></tr><tr><td><b>LXP net loss (paid &gt; recovered)</b></td><td>Red text + light red background</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #F2C6CA; border-radius: 4px; background: #FCEDEE; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP net loss</span><b style="color: #B3121F; font-variant-numeric: tabular-nums;">5,055.98</b></span></td></tr><tr><td><b>LXP net gain (recovered &gt; paid)</b></td><td>Blue text + light blue background; label changes to 'LXP net gain'</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #C5D9F2; border-radius: 4px; background: #EAF2FC; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP net gain</span><b style="color: #1F5FBF; font-variant-numeric: tabular-nums;">300.00</b></span></td></tr><tr><td><b>Zero amount</b></td><td>Grey text, regular weight (all cells)</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP recovered</span><b style="color: #9A9A9A; font-variant-numeric: tabular-nums;">0.00</b></span></td></tr>
 </tbody>
 </table>
 <ul style="margin-top: 12px;"><li>The first three cells colour the text only; only the result cell gets a background, so the eye goes to the result first.</li><li>If the net amount is 0, show it grey and keep the 'LXP net loss' label.</li><li>The result label (net loss / net gain) changes too, so the state is not shown by colour alone.</li></ul>
@@ -404,21 +455,24 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <h2><span class="mk">6</span>+ / − buttons</h2>
 <ul>
 <li>Position: top right of each table (payments and recoveries separately).</li>
-<li><b>+</b> : adds one empty row at the bottom. Suggested default Currency for a new row: USD.</li>
-<li><b>−</b> : deletes the checked rows. Disabled when no row is checked.</li>
-<li>Header checkbox selects / clears all rows in that table.</li>
+<li><b>Payments +</b> : adds a row below the fixed rows (P1–P3), i.e. from row 4. Paid by defaults to 'LXP' → Payment type <b>P4</b> is set automatically. Changing Paid by to LXP insurer, vendor or customer sets <b>P5</b>.</li>
+<li><b>Recoveries +</b> : adds a row below the fixed rows (R1·R2). Recovery type is chosen from <b>R4 / R5</b>.</li>
+<li>New rows default to USD.</li>
+<li><b>−</b> : deletes the ticked rows; disabled when none is ticked. Fixed rows have no checkbox and cannot be deleted.</li>
+<li>Header checkbox selects / clears only the rows added with +; disabled when there are none.</li>
 </ul>
 </section>
 
 <section class="sec">
 <h2><span class="mk" style="font-size: 11px;">10</span>7. No Claim</h2>
 <ul>
-<li>Position: <b>right end</b> of the Claim Result row (same place as other sections' buttons). Button-style checkbox with a border, like the other buttons: <span class="f">☐ No Claim</span>.</li>
-<li>When checked: the summary bar is replaced by a grey badge <b>'No Claim — no cost'</b>; the payment/recovery tables and + / − buttons collapse and a notice is shown (see 'When No Claim is checked').</li>
-<li>Can be checked <b>only when no row has an amount (incl. SAP auto-fill)</b>. Otherwise the checkbox is disabled and hovering shows why. Empty rows without an amount are removed automatically when it is checked.</li>
-<li>Unchecking: allowed at any time; the empty tables reappear for input. While checked, <b>'+ Add payment / + Add recovery'</b> in the notice box <b>clears No Claim automatically</b> and adds a row.</li>
-<li>If the tables are empty and No Claim is not checked: show a grey hint inside the table 'If there is no cost, tick No Claim at the top right'.</li>
-<li>Save · Result Close: blocked unless there is <b>at least one row</b> or <b>No Claim is checked</b> (prevents missing costs).</li>
+<li>Position: <b>right end</b> of the Claim Settlement row (same place as other sections' buttons). Button-style checkbox with a border: <span class="f">☐ No Claim</span>.</li>
+<li>When checked: the summary bar is replaced by a grey badge <b>'No Claim — no cost'</b>; the tables and + / − buttons collapse and a notice is shown (see 'When No Claim is checked' above).</li>
+<li>Can be checked <b>only when there is no cost amount at all</b> — SAP amounts (P1–P3, R1·R2), amounts in rows added with +, and total claim cost must all be empty. Otherwise the checkbox is disabled and hovering shows why.</li>
+<li>On check: added rows without an amount are removed. Fixed rows stay and collapse with the tables.</li>
+<li>Unchecking: allowed at any time. While checked, <b>'+ Add payment / + Add recovery'</b> in the notice box <b>clears No Claim automatically</b> and adds a row.</li>
+<li>If there is no cost and No Claim is not checked: a grey hint below the payment table 'If there is no cost, tick No Claim at the top right'.</li>
+<li>Save · Result Close: blocked unless there is <b>at least one row with an amount</b> or <b>No Claim is checked</b> (prevents missing costs).</li>
 <li>Data: store Claim Y/N separately so 'No Claim' cases and 'cost not entered' cases can be counted apart.</li>
 <li>History (Contents): log check / uncheck as one line each (suggestion). E.g. <span class="f">[NCL] … No Claim checked</span></li>
 </ul>
@@ -429,71 +483,63 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <div style="display: flex; flex-direction: column; gap: 24px; min-width: 0;">
 
 <section class="sec">
-<h2>3. Table columns (same order in both tables)</h2>
+<h2>3. Table columns</h2>
 <table class="t">
 <thead><tr><th>#</th><th>Payments</th><th>Recoveries</th><th>Input</th><th>Notes</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>☐ Select</td><td>☐ Select</td><td>Checkbox</td><td>Target of the − button</td></tr>
-<tr><td>2</td><td>*Paid by</td><td>*Recovered from</td><td>Dropdown</td><td>Values in section 4</td></tr>
-<tr><td>3</td><td>*Payment type</td><td>*Recovery type</td><td>Dropdown</td><td>Payment types are limited by Paid by</td></tr>
-<tr><td>4</td><td colspan="2"><span class="mk">7</span> *Currency (new)</td><td>Dropdown</td><td>KRW, USD, EUR</td></tr>
-<tr><td>5</td><td colspan="2">*Amount</td><td>Number</td><td>Manual or SAP auto-fill, depending on type</td></tr>
-<tr><td>6</td><td colspan="2"><span class="mk">8</span> In USD (new)</td><td>Automatic, read-only</td><td><span class="f">Amount × FX rate</span>, 2 decimals, green text. Equals Amount for USD rows. Shows 'Auto' until an amount is entered</td></tr>
-<tr><td>7</td><td colspan="2">Remark (evidence no. etc.)</td><td>Text</td><td>Required or SAP auto-fill, depending on type</td></tr>
+<tr><td>1</td><td>☐ Select</td><td>☐ Select</td><td>Checkbox</td><td>Only on rows added with +. Empty on fixed rows</td></tr>
+<tr><td>2</td><td>*Paid by</td><td>— (none)</td><td>Dropdown</td><td>The Recovered-from column is removed</td></tr>
+<tr><td>3</td><td>*Payment type</td><td>*Recovery type</td><td>Dropdown</td><td>See 4</td></tr>
+<tr><td>4</td><td colspan="2"><span class="mk">7</span> *Currency (new)</td><td>Dropdown</td><td>KRW, USD, EUR. Fixed rows show the looked-up value</td></tr>
+<tr><td>5</td><td colspan="2">*Amount</td><td>Number</td><td>Fixed rows: looked-up amount (read-only). Added rows: manual</td></tr>
+<tr><td>6</td><td colspan="2"><span class="mk">8</span> In USD (new)</td><td>Auto, read-only</td><td><span class="f">Amount × FX rate</span>, 2 decimals, green. 'Auto' before an amount is entered; '—' on fixed rows without an amount</td></tr>
+<tr><td>7</td><td colspan="2">Remark</td><td>Text</td><td>Fixed rows: looked-up voucher numbers etc. in grey (no 'SAP' chip). Added rows: manual; voucher no. required for P4·R4</td></tr>
 </tbody>
 </table>
-<p style="margin: 10px 0 0; font-size: 13px; color: #555;">* = required. The old 'Date' column and the per-row 'Delete' column are removed.</p>
+<p style="margin: 10px 0 0; font-size: 13px; color: #555;">* = required. The old 'Date' column and per-row 'Delete' column are removed.</p>
 </section>
 
 <section class="sec">
-<h2>4. Dropdown values and input rules</h2>
-<h3 style="margin-top: 0;">Paid by → Payment type</h3>
+<h2>4. Rows and input rules</h2>
+<h3 style="margin-top: 0;">Payments</h3>
 <table class="t">
-<thead><tr><th>Paid by</th><th>Allowed payment types</th></tr></thead>
+<thead><tr><th>Row</th><th>Paid by</th><th>Payment type</th><th>Amount · Remark</th></tr></thead>
 <tbody>
-<tr><td>LXP</td><td>P1 – P4</td></tr>
-<tr><td>LXP insurer · Vendor · Customer</td><td>P5 (only one option, so auto-select is suggested)</td></tr>
+<tr><td>Fixed 1</td><td>LXP</td><td>P1 Compensation (51029010)</td><td><span class="mk" style="width: 18px; height: 18px; font-size: 10px;">9</span> From SAP, cannot edit or delete</td></tr>
+<tr><td>Fixed 2</td><td>LXP</td><td>P2 Penalty (51017180)</td><td>From SAP, cannot edit or delete</td></tr>
+<tr><td>Fixed 3</td><td>LXP</td><td>P3 DEM/DET/STG</td><td>Looked-up DEM/DET/STG amount, cannot edit or delete</td></tr>
+<tr><td rowspan="2">Row 4 on (+)</td><td>LXP</td><td>P4 Selling / Buying (auto)</td><td>Manual, <b>voucher no. required</b></td></tr>
+<tr><td>LXP insurer · Vendor · Customer</td><td>P5 Paid by insurer / 3rd party (auto)</td><td>Manual</td></tr>
 </tbody>
 </table>
-<h3>Payment types</h3>
+<h3>Recoveries</h3>
 <table class="t">
-<thead><tr><th>Code</th><th>Name (account)</th><th>Amount · Remark</th></tr></thead>
+<thead><tr><th>Row</th><th>Recovery type</th><th>Amount · Remark</th></tr></thead>
 <tbody>
-<tr><td>P1</td><td>Compensation paid (51029010)</td><td><span class="mk" style="width: 18px; height: 18px; font-size: 10px;">9</span> Auto-filled from SAP, read-only</td></tr>
-<tr><td>P2</td><td>Penalty paid (51017180)</td><td>Auto-filled from SAP, read-only</td></tr>
-<tr><td>P3</td><td>DEM/DET/STG</td><td>Manual DEM/DET/STG amount (for auto-generated cases, enter the I/F amount)</td></tr>
-<tr><td>P4</td><td>Selling / Buying</td><td>Manual, <b>voucher no. required</b></td></tr>
-<tr><td>P5</td><td>Paid by insurer / 3rd party</td><td>Manual</td></tr>
-</tbody>
-</table>
-<h3>Recovered from</h3>
-<p style="margin: 0;">LXP insurer · Vendor · Carrier (ocean / air) · Trucker / Warehouse · Customer</p>
-<h3>Recovery types</h3>
-<table class="t">
-<thead><tr><th>Code</th><th>Name (account)</th><th>Amount · Remark</th></tr></thead>
-<tbody>
-<tr><td>R1</td><td>Compensation recovered (51029010)</td><td>Auto-filled from SAP, read-only</td></tr>
-<tr><td>R2</td><td>Penalty recovered (51017180)</td><td>Auto-filled from SAP, read-only</td></tr>
-<tr><td>R3</td><td>DEM/DET/STG</td><td>Manual DEM/DET/STG amount (for auto-generated cases, enter the I/F amount)</td></tr>
-<tr><td>R4</td><td>Selling / Buying</td><td>Manual, <b>voucher no. required</b></td></tr>
-<tr><td>R5</td><td>Other</td><td>Manual (only for accounts other than compensation)</td></tr>
+<tr><td>Fixed 1</td><td>R1 Compensation (51029010)</td><td>From SAP, cannot edit or delete</td></tr>
+<tr><td>Fixed 2</td><td>R2 Penalty (51017180)</td><td>From SAP, cannot edit or delete</td></tr>
+<tr><td rowspan="2">Row 3 on (+)</td><td>R4 Selling / Buying</td><td>Manual, <b>voucher no. required</b></td></tr>
+<tr><td>R5 Other</td><td>Manual (only for accounts other than compensation)</td></tr>
 </tbody>
 </table>
 <ul style="margin-top: 12px;">
-<li>SAP auto rows (P1·P2·R1·R2): lock Currency · Amount · Remark in grey and show an 'SAP' chip (suggestion).</li>
-<li>On save: if a * field is empty, or the Remark (voucher no.) of a P4·R4 row is empty, block saving and outline that field in red.</li>
+<li>Fixed rows are always shown, even with no looked-up amount; the amount cell then shows '—'.</li>
+<li>Currency · Amount · Remark on fixed rows are locked in grey.</li>
+<li>On save: if a required (*) field of an added row is empty, or the Remark (voucher no.) of P4·R4 is empty, block saving and outline the field in red.</li>
 </ul>
 </section>
 
 <section class="sec q">
 <h2>8. To confirm before development</h2>
 <ol>
-<li><b>FX rate source and base date</b> — with the Date column gone, a base date for the USD conversion must be set (e.g. input date, voucher date, irregularity date).</li>
-<li><b>Migrating existing Actual Loss Cost data</b> — whether to move the old Pay Amount into one payment row and Recovery Amount into one recovery row.</li>
-<li><b>Sync Data (SAP import)</b> — fill P1·P2·R1·R2 in real time, or on a button click.</li>
-<li><b>'Estimated' label, liability decision (fully accepted – under negotiation) and status (received – closed) from the planning draft</b> — include on this screen or not, and where.</li>
-<li><b>Limiting recovery types by Recovered from</b> — the planning draft has no rule.</li>
-<li><b>Deleting SAP auto rows</b> — whether the − button may delete them.</li>
+<li><b>FX source and reference date</b> — with no Date column, a reference date for the USD conversion is needed (e.g. entry date, voucher date, irregularity date).</li>
+<li><b>Where total claim cost is entered</b> — keep the existing input at the top of the screen and only show it in the summary, or make this summary cell the input. Entering it in two places lets the values drift, so use one.</li>
+<li><b>When SAP is looked up</b> — load P1–P3 · R1 · R2 automatically when the screen opens, or with a button.</li>
+<li><b>Source of P3 DEM/DET/STG</b> — previously manual (I/F only for auto-created cases). Since only looked-up amounts are shown now, confirm the I/F coverage.</li>
+<li><b>R3 DEM/DET/STG recovery</b> — not in the recovery + options (R4·R5). Add as a fixed row or option if needed.</li>
+<li><b>Recovered-from information</b> — the column is removed; write it in Remark if needed?</li>
+<li><b>Migrating existing Actual Loss Cost data</b> — move the old Pay Amount into P1 or an added row, and Recovery Amount into R1 or an added row?</li>
+<li><b>'Estimated' flag, liability decision (fully accepted ~ under negotiation), status (received ~ closed) from the planning draft</b> — include on this screen, and where?</li>
 <li><b>No Claim default</b> — always unchecked at first, or set automatically by irregularity type.</li>
 </ol>
 </section>
@@ -505,71 +551,88 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 document.getElementById('mk').addEventListener('change', e => document.body.classList.toggle('hide-mk', !e.target.checked));
 </script>
 <script>
-/* Claim Result 시연 로직 — 새 기능(지불·회수 표, + / −, 요약, No Claim)만 동작. 기존 화면 버튼은 동작하지 않음. */
+/* Claim Settlement 시연 로직 — 새 기능(지불·회수 표, + / −, 요약, 전체 클레임 비용, No Claim, PR 이력)만 동작. 기존 화면 버튼은 동작하지 않음. */
 (function () {
   'use strict';
   var FX = { USD: 1, KRW: 1 / 1400, EUR: 1.08 };
-  var SAP_TYPES = ['P1', 'P2', 'R1', 'R2'];
   var VOUCHER_TYPES = ['P4', 'R4'];
   var T = {
     ko: {
-      parties: { LXP: '당사', INS: '당사 보험사', VEN: '협력사', CUS: '고객사', CAR: '선사·항공사', TRK: '운송사·창고' },
+      parties: { LXP: '당사', INS: '당사 보험사', VEN: '협력사', CUS: '고객사' },
       types: { P1: 'P1 손해배상금 지급 (51029010)', P2: 'P2 과태료 지급 (51017180)', P3: 'P3 체화료', P4: 'P4 Selling / Buying', P5: 'P5 보험사·제3자 지불',
-               R1: 'R1 손해배상금 환입 (51029010)', R2: 'R2 과태료 환입 (51017180)', R3: 'R3 체화료', R4: 'R4 Selling / Buying', R5: 'R5 기타' },
-      choose: '선택', amount: '금액 입력', auto: '자동 계산', remark: '증빙번호 등', voucher: '전표번호 (필수)', sapWait: 'SAP 조회 중…',
-      emptyHint: '입력된 비용이 없습니다. 비용이 없으면 오른쪽 위 No Claim을 체크하세요.',
-      ncDisabled: '금액이 들어간 행(SAP 자동 포함)이 있어 No Claim을 선택할 수 없습니다.',
+               R1: 'R1 손해배상금 환입 (51029010)', R2: 'R2 과태료 환입 (51017180)', R4: 'R4 Selling / Buying', R5: 'R5 기타' },
+      choose: '선택', amount: '금액 입력', auto: '자동 계산', remark: '증빙번호 등', voucher: '전표번호 (필수)',
+      emptyHint: '조회·입력된 비용이 없습니다. 비용이 없으면 오른쪽 위 No Claim을 체크하세요.',
+      ncDisabled: '비용 금액(SAP 조회, 입력 행, 전체 클레임 비용)이 있어 No Claim을 선택할 수 없습니다.',
       badge: 'No Claim — 비용 없음',
       notice: '<b style="color:#333">비용이 없는 건으로 표시되었습니다.</b> 지불내역·회수내역 표는 접혀 있습니다.<br>비용이 생기면 아래 버튼으로 바로 추가하세요. No Claim은 자동으로 해제됩니다.',
       addPay: '+ 지불 추가', addRec: '+ 회수 추가',
       lossK: '당사 순손실 = 당사지불 − 당사회수', gainK: '당사 순이익 = 당사회수 − 당사지불',
       histOn: 'No Claim 체크', histOff: 'No Claim 해제', who: '담당자',
-      demo: '시연', demoNote: '아래 Claim Result는 실제로 눌러 볼 수 있습니다', reset: '처음 상태로', empty: '비용 없는 상태로', check: '저장 검사',
+      demo: '시연', demoNote: '아래 Claim Settlement는 실제로 눌러 볼 수 있습니다', reset: '처음 상태로', empty: '비용 없는 상태로', sap: 'SAP 회수 조회 예시 (R1)', check: '저장 검사',
       fx: '예시 환율: 1 USD = 1,400 KRW · 1 EUR = 1.08 USD',
       ok: '저장 가능 — 필수 항목이 모두 입력되었습니다.', okNc: '저장 가능 — No Claim 건입니다.',
-      errRows: '저장 불가 — 비용 행을 입력하거나 No Claim을 체크하세요.', errFields: function (n) { return '저장 불가 — 빨간 칸 ' + n + '곳을 채우세요.'; }
+      errRows: '저장 불가 — 비용 금액이 없습니다. 금액을 입력하거나 No Claim을 체크하세요.', errFields: function (n) { return '저장 불가 — 빨간 칸 ' + n + '곳을 채우세요.'; }
     },
     en: {
-      parties: { LXP: 'LXP', INS: 'LXP insurer', VEN: 'Vendor', CUS: 'Customer', CAR: 'Carrier (ocean / air)', TRK: 'Trucker / Warehouse' },
+      parties: { LXP: 'LXP', INS: 'LXP insurer', VEN: 'Vendor', CUS: 'Customer' },
       types: { P1: 'P1 Compensation (51029010)', P2: 'P2 Penalty (51017180)', P3: 'P3 DEM/DET/STG', P4: 'P4 Selling / Buying', P5: 'P5 Paid by insurer / 3rd party',
-               R1: 'R1 Compensation (51029010)', R2: 'R2 Penalty (51017180)', R3: 'R3 DEM/DET/STG', R4: 'R4 Selling / Buying', R5: 'R5 Other' },
-      choose: 'Select', amount: 'Amount', auto: 'Auto', remark: 'Evidence no.', voucher: 'Voucher no.', sapWait: 'Loading SAP…',
-      emptyHint: 'No cost entered. If there is no cost, tick No Claim at the top right.',
-      ncDisabled: 'A row with an amount (incl. SAP auto-fill) exists, so No Claim cannot be selected.',
+               R1: 'R1 Compensation (51029010)', R2: 'R2 Penalty (51017180)', R4: 'R4 Selling / Buying', R5: 'R5 Other' },
+      choose: 'Select', amount: 'Amount', auto: 'Auto', remark: 'Evidence no.', voucher: 'Voucher no.',
+      emptyHint: 'No cost found or entered. If there is no cost, tick No Claim at the top right.',
+      ncDisabled: 'A cost amount exists (SAP, entered row or total claim cost), so No Claim cannot be selected.',
       badge: 'No Claim — no cost',
       notice: '<b style="color:#333">This case is marked as having no cost.</b> The payment and recovery tables are collapsed.<br>If a cost arises, add it with the buttons below. No Claim is cleared automatically.',
       addPay: '+ Add payment', addRec: '+ Add recovery',
-      lossK: 'LXP net loss = LXP paid − LXP recovered', gainK: 'LXP net gain = LXP recovered − LXP paid',
+      lossK: 'LXP net loss (paid − recovered)', gainK: 'LXP net gain (recovered − paid)',
       histOn: 'No Claim checked', histOff: 'No Claim cleared', who: 'PIC',
-      demo: 'Demo', demoNote: 'The Claim Result below is clickable', reset: 'Reset', empty: 'Start with no cost', check: 'Check save',
+      demo: 'Demo', demoNote: 'The Claim Settlement below is clickable', reset: 'Reset', empty: 'Start with no cost', sap: 'SAP recovery example (R1)', check: 'Check save',
       fx: 'Example FX: 1 USD = 1,400 KRW · 1 EUR = 1.08 USD',
       ok: 'Can save — all required fields are filled.', okNc: 'Can save — No Claim case.',
-      errRows: 'Cannot save — enter a cost row or tick No Claim.', errFields: function (n) { return 'Cannot save — fill the ' + n + ' red field(s).'; }
+      errRows: 'Cannot save — no cost amount. Enter an amount or tick No Claim.', errFields: function (n) { return 'Cannot save — fill the ' + n + ' red field(s).'; }
     }
   };
+  function fixed(type, cur, amt, remark) { return { fixed: true, party: 'LXP', type: type, cur: cur, amt: amt, remark: remark }; }
   var INITIAL = {
-    pay: [
-      { party: 'LXP', type: 'P1', cur: 'USD', amt: 5855.98, remark: '4400000813, 4400000847' },
-      { party: 'INS', type: 'P5', cur: 'KRW', amt: null, remark: '' }
-    ],
-    rec: [ { party: 'VEN', type: 'R4', cur: 'USD', amt: null, remark: '' } ],
+    total: 5855.98,
+    pay: [ fixed('P1', 'USD', 5855.98, '4400000813, 4400000847'), fixed('P2', '', null, ''), fixed('P3', '', null, ''),
+           { party: 'INS', type: 'P5', cur: 'KRW', amt: null, remark: '' } ],
+    rec: [ fixed('R1', '', null, ''), fixed('R2', '', null, ''), { type: 'R4', cur: 'USD', amt: null, remark: '' } ],
+    noClaim: false
+  };
+  var EMPTY = {
+    total: null,
+    pay: [ fixed('P1', '', null, ''), fixed('P2', '', null, ''), fixed('P3', '', null, '') ],
+    rec: [ fixed('R1', '', null, ''), fixed('R2', '', null, '') ],
     noClaim: false
   };
   function clone(o) { return JSON.parse(JSON.stringify(o)); }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function fmt(n) { return Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
   function num(v) { var n = parseFloat(String(v).replace(/,/g, '')); return isFinite(n) && n > 0 ? n : null; }
-  function isSap(r) { return SAP_TYPES.indexOf(r.type) >= 0; }
   function usd(r) { return r.amt ? r.amt * FX[r.cur] : 0; }
   function now() { var d = new Date(), p = function (x) { return ('0' + x).slice(-2); };
     return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()) + ' ' + p(d.getHours()) + ':' + p(d.getMinutes()) + ':' + p(d.getSeconds()); }
+
+  // PR history: exactly 3 rows visible, the rest scrolls
+  function fitHistory() {
+    document.querySelectorAll('.histbox').forEach(function (box) {
+      var th = box.querySelector('thead tr'), rows = box.querySelectorAll('tbody tr');
+      if (!th || !rows.length) return;
+      var h = th.getBoundingClientRect().height;
+      for (var i = 0; i < Math.min(3, rows.length); i++) h += rows[i].getBoundingClientRect().height;
+      h += parseFloat(getComputedStyle(box).borderTopWidth) || 0;
+      box.style.setProperty('--hist-h', Math.ceil(h) + 'px');
+    });
+  }
 
   function setup(section) {
     var L = T[(section.closest('[lang]') || document.documentElement).getAttribute('lang') === 'en' ? 'en' : 'ko'];
     var root = section.parentElement;
     var st = clone(INITIAL);
     var head = section.children[0], body = section.children[1];
-    var sums = section.querySelectorAll('.sum');
+    var sums = section.querySelectorAll('.sum:not(.tot)');
+    var tot = section.querySelector('.totin');
     var group = section.querySelector('[role="group"]');
     var nc = section.querySelector('label.nc'), ncIn = nc.querySelector('input');
     var tables = section.querySelectorAll('table.grid');
@@ -585,6 +648,7 @@ document.getElementById('mk').addEventListener('change', e => document.body.clas
     bar.innerHTML = '<b>' + L.demo + '</b><span>' + L.demoNote + '</span>' +
       '<button type="button" data-demo="reset" class="btn" style="height:28px;font-size:13px;color:#333">' + L.reset + '</button>' +
       '<button type="button" data-demo="empty" class="btn" style="height:28px;font-size:13px;color:#333">' + L.empty + '</button>' +
+      '<button type="button" data-demo="sap" class="btn" style="height:28px;font-size:13px;color:#333">' + L.sap + '</button>' +
       '<button type="button" data-demo="check" class="btn" style="height:28px;font-size:13px">' + L.check + '</button>' +
       '<span data-msg style="font-weight:700"></span><span style="margin-left:auto;color:#8a7536">' + L.fx + '</span>';
     section.parentElement.insertBefore(bar, section);
@@ -592,7 +656,7 @@ document.getElementById('mk').addEventListener('change', e => document.body.clas
 
     var badge = document.createElement('div');
     badge.setAttribute('role', 'status');
-    badge.setAttribute('style', 'display:none;align-items:center;gap:8px;min-height:36px;margin-bottom:5px;padding:0 16px;border:1px solid #D0D0D0;border-radius:6px;background:#EDEDED;color:#555;font-size:13px;font-weight:700;box-sizing:border-box;white-space:nowrap');
+    badge.setAttribute('style', 'display:none;align-items:center;gap:8px;min-height:36px;padding:0 16px;border:1px solid #D0D0D0;border-radius:6px;background:#EDEDED;color:#555;font-size:13px;font-weight:700;box-sizing:border-box;white-space:nowrap');
     badge.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M5.6 5.6l12.8 12.8"></path></svg>' + L.badge;
     group.parentElement.insertBefore(badge, group.nextSibling);
 
@@ -603,58 +667,68 @@ document.getElementById('mk').addEventListener('change', e => document.body.clas
       '<button type="button" class="btn" data-add="pay">' + L.addPay + '</button><button type="button" class="btn" data-add="rec">' + L.addRec + '</button></div>';
     body.parentElement.insertBefore(notice, body.nextSibling);
 
-    function hasCost() { return st.pay.concat(st.rec).some(function (r) { return isSap(r) || r.amt; }); }
+    function rows() { return st.pay.concat(st.rec); }
+    function hasCost() { return !!st.total || rows().some(function (r) { return r.amt; }); }
     function log(text) {
       if (!hist) return;
       var tr = document.createElement('tr');
       tr.innerHTML = '<td style="color:#1F4E9A">[NCL] ' + now() + ' (' + L.who + ') ' + text + '</td>';
       hist.insertBefore(tr, hist.firstChild);
+      var box = hist.closest('.histbox'); if (box) box.scrollTop = 0;
     }
     function opts(list, sel, labels, withChoose) {
       return (withChoose ? '<option value=""' + (sel ? '' : ' selected') + '>' + L.choose + '</option>' : '') +
         list.map(function (v) { return '<option value="' + v + '"' + (v === sel ? ' selected' : '') + '>' + esc(labels[v] || v) + '</option>'; }).join('');
     }
     function errStyle(r, f) { return r.err && r.err[f] ? 'outline:2px solid #D3202F;outline-offset:-1px;' : ''; }
+    function usdCell(r) { return '<td data-usd>' + (r.amt ? '<div class="usd">' + fmt(usd(r)) + '</div>' : '<div class="auto">' + (r.fixed ? '—' : L.auto) + '</div>') + '</td>'; }
     function rowHTML(k, r, i) {
-      var parties = k === 'pay' ? ['LXP', 'INS', 'VEN', 'CUS'] : ['INS', 'VEN', 'CAR', 'TRK', 'CUS'];
-      var types = k === 'pay' ? (r.party === 'LXP' ? ['P1', 'P2', 'P3', 'P4'] : ['P5']) : ['R1', 'R2', 'R3', 'R4', 'R5'];
-      var sap = isSap(r), a = ' data-k="' + k + '" data-i="' + i + '"';
-      var h = '<tr>';
-      h += '<td style="text-align:center"><input type="checkbox"' + a + ' data-f="sel"' + (r.sel ? ' checked' : '') + '></td>';
-      h += '<td><select class="cell" style="' + errStyle(r, 'party') + '"' + a + ' data-f="party">' + opts(parties, r.party, L.parties, !r.party) + '</select></td>';
-      h += '<td><select class="cell" style="' + errStyle(r, 'type') + '"' + a + ' data-f="type">' + opts(types, r.type, L.types, !r.type) + '</select></td>';
-      if (sap) {
-        h += '<td><div class="rocell">' + r.cur + '</div></td>';
-        h += '<td><div class="rocell num">' + (r.loading ? '<span style="font-size:11px">' + L.sapWait + '</span>' : (r.amt ? fmt(r.amt) : '')) + '</div></td>';
-      } else {
-        h += '<td><select class="cell"' + a + ' data-f="cur">' + opts(['KRW', 'USD', 'EUR'], r.cur, {}, false) + '</select></td>';
-        h += '<td><input class="cell" inputmode="decimal" style="text-align:right;' + errStyle(r, 'amt') + '" placeholder="' + L.amount + '" value="' + (r.amt ? fmt(r.amt) : '') + '"' + a + ' data-f="amt"></td>';
+      var a = ' data-k="' + k + '" data-i="' + i + '"';
+      if (r.fixed) {   // SAP 조회 행: 항상 표시, 수정·삭제 불가
+        var h = '<tr class="fx"><td></td>';
+        if (k === 'pay') h += '<td><div class="rocell">' + L.parties.LXP + '</div></td>';
+        h += '<td><div class="rocell">' + esc(L.types[r.type]) + '</div></td>';
+        h += '<td><div class="rocell">' + (r.amt ? r.cur : '') + '</div></td>';
+        h += '<td><div class="rocell num' + (r.amt ? '' : ' nil') + '">' + (r.amt ? fmt(r.amt) : '—') + '</div></td>';
+        h += usdCell(r);
+        h += '<td><div class="rocell" title="' + esc(r.remark) + '">' + esc(r.remark) + '</div></td>';
+        return h + '</tr>';
       }
-      h += '<td data-usd>' + (r.amt ? '<div class="usd">' + fmt(usd(r)) + '</div>' : '<div class="auto">' + L.auto + '</div>') + '</td>';
-      if (sap) {
-        h += '<td><div class="rocell"><span class="chip">SAP</span>' + esc(r.loading ? '' : r.remark) + '</div></td>';
+      var h = '<tr><td style="text-align:center"><input type="checkbox"' + a + ' data-f="sel"' + (r.sel ? ' checked' : '') + '></td>';
+      if (k === 'pay') {
+        h += '<td><select class="cell" style="' + errStyle(r, 'party') + '"' + a + ' data-f="party">' + opts(['LXP', 'INS', 'VEN', 'CUS'], r.party, L.parties, !r.party) + '</select></td>';
+        var types = r.party ? [r.party === 'LXP' ? 'P4' : 'P5'] : [];
+        h += '<td><select class="cell" style="' + errStyle(r, 'type') + '"' + a + ' data-f="type">' + opts(types, r.type, L.types, !r.type) + '</select></td>';
       } else {
-        var need = VOUCHER_TYPES.indexOf(r.type) >= 0;
-        var red = need && !r.remark ? 'border-color:#D3202F;' : '';
-        h += '<td><input class="cell" style="' + red + errStyle(r, 'remark') + '" placeholder="' + (need ? L.voucher : L.remark) + '" value="' + esc(r.remark) + '"' + a + ' data-f="remark"></td>';
+        h += '<td><select class="cell" style="' + errStyle(r, 'type') + '"' + a + ' data-f="type">' + opts(['R4', 'R5'], r.type, L.types, !r.type) + '</select></td>';
       }
+      h += '<td><select class="cell"' + a + ' data-f="cur">' + opts(['KRW', 'USD', 'EUR'], r.cur, {}, false) + '</select></td>';
+      h += '<td><input class="cell" inputmode="decimal" style="text-align:right;' + errStyle(r, 'amt') + '" placeholder="' + L.amount + '" value="' + (r.amt ? fmt(r.amt) : '') + '"' + a + ' data-f="amt"></td>';
+      h += usdCell(r);
+      var need = VOUCHER_TYPES.indexOf(r.type) >= 0;
+      var red = need && !r.remark ? 'border-color:#D3202F;' : '';
+      h += '<td><input class="cell" style="' + red + errStyle(r, 'remark') + '" placeholder="' + (need ? L.voucher : L.remark) + '" value="' + esc(r.remark) + '"' + a + ' data-f="remark"></td>';
       return h + '</tr>';
     }
     function renderTables() {
       ['pay', 'rec'].forEach(function (k) {
-        tb[k].innerHTML = st[k].length ? st[k].map(function (r, i) { return rowHTML(k, r, i); }).join('')
-          : '<tr><td colspan="7" style="text-align:center;color:#888;padding:16px 8px;font-size:12px;background:#FCFCFC">' + L.emptyHint + '</td></tr>';
+        var cols = k === 'pay' ? 7 : 6;
+        tb[k].innerHTML = st[k].map(function (r, i) { return rowHTML(k, r, i); }).join('') +
+          (k === 'pay' && !hasCost() ? '<tr data-hint><td colspan="' + cols + '" style="text-align:center;color:#888;padding:12px 8px;font-size:12px;background:#FCFCFC">' + L.emptyHint + '</td></tr>' : '');
       });
+      if (document.activeElement !== tot) tot.value = st.total ? fmt(st.total) : '';
       updateControls();
       updateSummary();
     }
     function updateControls() {
       ['pay', 'rec'].forEach(function (k) {
-        var anySel = st[k].some(function (r) { return r.sel; });
+        var free = st[k].filter(function (r) { return !r.fixed; });
+        var anySel = free.some(function (r) { return r.sel; });
         btn[k].del.disabled = !anySel;
         btn[k].del.style.opacity = anySel ? '' : '0.4';
         btn[k].del.style.cursor = anySel ? 'pointer' : 'not-allowed';
-        allBox[k].checked = st[k].length > 0 && st[k].every(function (r) { return r.sel; });
+        allBox[k].disabled = !free.length;
+        allBox[k].checked = free.length > 0 && free.every(function (r) { return r.sel; });
       });
       var block = hasCost() && !st.noClaim;
       ncIn.checked = st.noClaim;
@@ -667,6 +741,8 @@ document.getElementById('mk').addEventListener('change', e => document.body.clas
       badge.style.display = st.noClaim ? 'flex' : 'none';
       body.style.display = st.noClaim ? 'none' : 'grid';
       notice.style.display = st.noClaim ? 'block' : 'none';
+      var hint = tb.pay.querySelector('[data-hint]');
+      if (hint && hasCost()) hint.remove();
     }
     function setV(el, value, cls) { el.textContent = fmt(value); el.className = 'v ' + cls + (value ? '' : ' zero'); }
     function updateSummary() {
@@ -681,29 +757,23 @@ document.getElementById('mk').addEventListener('change', e => document.body.clas
       v(3).textContent = fmt(Math.abs(net));
       v(3).className = 'v' + (net ? '' : ' zero');
     }
-    function newRow(k) { return { party: k === 'pay' ? 'LXP' : '', type: '', cur: 'USD', amt: null, remark: '' }; }
+    function newRow(k) { return k === 'pay' ? { party: 'LXP', type: 'P4', cur: 'USD', amt: null, remark: '' } : { type: '', cur: 'USD', amt: null, remark: '' }; }
     function addRow(k) {
       if (st.noClaim) { st.noClaim = false; log(L.histOff); }
       st[k].push(newRow(k));
       msg.textContent = '';
       renderTables();
     }
-    function sapFetch(r) {
-      r.loading = true; r.cur = 'USD'; r.amt = null; r.remark = '';
-      setTimeout(function () {
-        r.loading = false;
-        r.amt = /1$/.test(r.type) ? 1250 : 300;
-        r.remark = '44000009' + (10 + Math.floor(Math.random() * 89));
-        renderTables();
-      }, 700);
-    }
 
     section.addEventListener('change', function (e) {
       var t = e.target, k = t.getAttribute('data-k'), f = t.getAttribute('data-f');
+      if (t === tot) { st.total = num(tot.value); tot.value = st.total ? fmt(st.total) : ''; renderTables(); return; }
       if (t === ncIn) {
         if (ncIn.checked) {
           if (hasCost()) { ncIn.checked = false; return; }
-          st.pay = []; st.rec = []; st.noClaim = true; log(L.histOn);
+          st.pay = st.pay.filter(function (r) { return r.fixed; });
+          st.rec = st.rec.filter(function (r) { return r.fixed; });
+          st.noClaim = true; log(L.histOn);
         } else { st.noClaim = false; log(L.histOff); }
         msg.textContent = '';
         renderTables();
@@ -711,29 +781,21 @@ document.getElementById('mk').addEventListener('change', e => document.body.clas
       }
       if (t === allBox.pay || t === allBox.rec) {
         var kk = t === allBox.pay ? 'pay' : 'rec';
-        st[kk].forEach(function (r) { r.sel = t.checked; });
+        st[kk].forEach(function (r) { if (!r.fixed) r.sel = t.checked; });
         renderTables();
         return;
       }
       if (!k) return;
       var r = st[k][+t.getAttribute('data-i')];
+      if (!r || r.fixed) return;
       if (r.err) delete r.err[f];
       if (f === 'sel') { r.sel = t.checked; updateControls(); return; }
-      if (f === 'party') {
+      if (f === 'party') {   // 당사 → P4 만, 그 외 → P5 만
         r.party = t.value;
-        if (k === 'pay') {
-          if (r.party && r.party !== 'LXP') {
-            if (isSap(r)) { r.amt = null; r.remark = ''; r.cur = 'USD'; }
-            r.type = 'P5';
-          }
-          else if (r.type === 'P5') r.type = '';
-        }
+        r.type = r.party ? (r.party === 'LXP' ? 'P4' : 'P5') : '';
+        if (r.err) delete r.err.type;
       }
-      if (f === 'type') {
-        var wasSap = isSap(r);
-        r.type = t.value;
-        if (isSap(r)) sapFetch(r); else if (wasSap) { r.amt = null; r.remark = ''; }
-      }
+      if (f === 'type') r.type = t.value;
       if (f === 'cur') r.cur = t.value;
       if (f === 'amt') r.amt = num(t.value);
       if (f === 'remark') r.remark = t.value.trim();
@@ -741,6 +803,7 @@ document.getElementById('mk').addEventListener('change', e => document.body.clas
     });
     section.addEventListener('input', function (e) {
       var t = e.target, k = t.getAttribute('data-k'), f = t.getAttribute('data-f');
+      if (t === tot) { st.total = num(tot.value); updateControls(); return; }
       if (!k || (f !== 'amt' && f !== 'remark')) return;
       var r = st[k][+t.getAttribute('data-i')];
       if (f === 'amt') {
@@ -759,7 +822,7 @@ document.getElementById('mk').addEventListener('change', e => document.body.clas
       else if (b === btn.rec.add) addRow('rec');
       else if (b === btn.pay.del || b === btn.rec.del) {
         var k = b === btn.pay.del ? 'pay' : 'rec';
-        st[k] = st[k].filter(function (r) { return !r.sel; });
+        st[k] = st[k].filter(function (r) { return r.fixed || !r.sel; });
         renderTables();
       } else if (b.hasAttribute('data-add')) addRow(b.getAttribute('data-add'));
     });
@@ -768,30 +831,39 @@ document.getElementById('mk').addEventListener('change', e => document.body.clas
       if (!b) return;
       var a = b.getAttribute('data-demo');
       if (a === 'reset') { st = clone(INITIAL); msg.textContent = ''; renderTables(); }
-      if (a === 'empty') { st = { pay: [], rec: [], noClaim: false }; msg.textContent = ''; renderTables(); }
+      if (a === 'empty') { st = clone(EMPTY); msg.textContent = ''; renderTables(); }
+      if (a === 'sap') {
+        if (st.noClaim) { st.noClaim = false; log(L.histOff); }
+        var r1 = st.rec[0]; r1.cur = 'USD'; r1.amt = 6000; r1.remark = '4400000921';
+        msg.textContent = ''; renderTables();
+      }
       if (a === 'check') {
         var n = 0;
         ['pay', 'rec'].forEach(function (k) {
           st[k].forEach(function (r) {
+            if (r.fixed) return;
             r.err = {};
-            if (!r.party) r.err.party = 1;
+            if (k === 'pay' && !r.party) r.err.party = 1;
             if (!r.type) r.err.type = 1;
-            if (!isSap(r) && !r.amt) r.err.amt = 1;
+            if (!r.amt) r.err.amt = 1;
             if (VOUCHER_TYPES.indexOf(r.type) >= 0 && !r.remark) r.err.remark = 1;
             n += Object.keys(r.err).length;
           });
         });
         renderTables();
-        var rows = st.pay.length + st.rec.length;
+        var anyAmt = rows().some(function (r) { return r.amt; });
         if (st.noClaim) { msg.style.color = '#1E6B34'; msg.textContent = L.okNc; }
-        else if (!rows) { msg.style.color = '#B3121F'; msg.textContent = L.errRows; }
         else if (n) { msg.style.color = '#B3121F'; msg.textContent = L.errFields(n); }
+        else if (!anyAmt) { msg.style.color = '#B3121F'; msg.textContent = L.errRows; }
         else { msg.style.color = '#1E6B34'; msg.textContent = L.ok; }
       }
     });
     renderTables();
   }
-  document.querySelectorAll('section[aria-label="Claim Result"]').forEach(setup);
+  document.querySelectorAll('section[aria-label="Claim Settlement"]').forEach(setup);
+  fitHistory();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitHistory);
+  window.addEventListener('resize', fitHistory);
 })();
 
 </script>
