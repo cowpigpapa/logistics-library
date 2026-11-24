@@ -628,13 +628,14 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 
     // demo bar (not part of the real screen)
     var bar = document.createElement('div');
-    bar.setAttribute('style', 'display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:22px 0 -8px;padding:8px 12px;border:1px dashed #E0B84A;background:#FFF8E1;border-radius:4px;font-size:13px;color:#5c4a12');
+    bar.setAttribute('style', 'display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 20px;padding:8px 12px;border:1px dashed #E0B84A;background:#FFF8E1;border-radius:4px;font-size:13px;color:#5c4a12');
     bar.innerHTML = '<b>' + L.demo + '</b><span>' + L.demoNote + '</span>' +
       '<button type="button" data-demo="reset" class="btn" style="height:28px;font-size:13px;color:#333">' + L.reset + '</button>' +
       '<button type="button" data-demo="empty" class="btn" style="height:28px;font-size:13px;color:#333">' + L.empty + '</button>' +
       '<button type="button" data-demo="check" class="btn" style="height:28px;font-size:13px">' + L.check + '</button>' +
       '<span data-msg style="font-weight:700"></span><span style="margin-left:auto;color:#8a7536">' + L.fx + '</span>';
-    section.parentElement.insertBefore(bar, section);
+    bar.setAttribute('data-demo-bar', '');
+    root.insertBefore(bar, root.firstElementChild);   // 맨 위 (Irregularity Closure 제목 위)
     var msg = bar.querySelector('[data-msg]');
 
     // source data panel (temporary, demo only): top-of-screen total + SAP / CY Cost KPI lookups
