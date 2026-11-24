@@ -60,6 +60,9 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .histbox .hist{border-top:0}
 .histbox .hist th{position:sticky;top:0;z-index:1}
 .totin{width:100px;height:26px;border:1px solid #C9C9C9;border-radius:3px;padding:0 6px;font:inherit;font-size:14px;font-weight:700;text-align:right;font-variant-numeric:tabular-nums;color:#222;background:#fff;box-sizing:border-box}
+.totin.isauto{color:#8A8A8A;font-weight:500}
+.totin:disabled{background:#F3F3F3;color:#9A9A9A}
+.totauto{font-size:11px;font-weight:700;color:#6B6B6B;background:#EFEFEF;border-radius:3px;padding:1px 5px;white-space:nowrap}
 .totin::placeholder{font-weight:400;color:#AAA}
 .grid tr.fx td{background:#FAFAFA}
 .nil{color:#A0A0A0}
@@ -156,7 +159,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
 <div style="display: flex; align-items: center; gap: 8px; padding: 0 14px; background: #333; color: #fff; font-size: 13px; font-weight: 700; white-space: nowrap;">
 Summary (USD)</div>
-<div class="sum tot"><span class="k">Total claim cost</span><input class="totin" inputmode="decimal" value="5,855.98" placeholder="Enter" aria-label="Total claim cost (USD)"></div>
+<div class="sum tot"><span class="k">Total claim cost</span><input class="totin isauto" inputmode="decimal" value="5,855.98" placeholder="Enter" aria-label="Total claim cost (USD)"><span class="totauto" title="Not entered → LXP paid + insurer / 3rd party">Auto</span></div>
 <div class="sum"><span class="k">LXP paid</span><span class="v pay">5,855.98</span></div>
 <div class="sum"><span class="k">Insurer / 3rd party</span><span class="v neu zero">0.00</span></div>
 <div class="sum"><span class="k">LXP recovered</span><span class="v rec zero">0.00</span></div>
@@ -355,7 +358,15 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <section aria-label="Claim Settlement — No Claim" style="padding: 0 0 22px; border-bottom: 2px solid #111;">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
 <div style="display: flex; align-items: center; gap: 8px;"><h2 class="cs-h"><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2></div>
-<div role="status" style="display: flex; align-items: center; gap: 8px; min-height: 36px; padding: 0 16px; border: 1px solid #D0D0D0; border-radius: 6px; background: #EDEDED; color: #555; font-size: 13px; font-weight: 700; box-sizing: border-box; white-space: nowrap;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M5.6 5.6l12.8 12.8"></path></svg>No Claim — no cost</div>
+<div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
+<div style="display: flex; align-items: center; gap: 8px; padding: 0 14px; background: #333; color: #fff; font-size: 13px; font-weight: 700; white-space: nowrap;">
+Summary (USD)</div>
+<div class="sum tot"><span class="k">Total claim cost</span><input class="totin" inputmode="decimal" value="0.00" disabled placeholder="Enter" aria-label="Total claim cost (USD)"></div>
+<div class="sum"><span class="k">LXP paid</span><span class="v pay zero">0.00</span></div>
+<div class="sum"><span class="k">Insurer / 3rd party</span><span class="v neu zero">0.00</span></div>
+<div class="sum"><span class="k">LXP recovered</span><span class="v rec zero">0.00</span></div>
+<div class="sum"><span class="k">LXP net loss (paid − recovered)</span><span class="v zero">0.00</span></div>
+</div>
 <div style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
 
 <label class="nc on"><input type="checkbox" checked> No Claim</label>
@@ -395,7 +406,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <tr><td><span class="tag chg">Change</span></td><td> Add / delete rows</td><td>Per-row 'Delete' button → <b>+ / −</b> at the top right of each table. + adds only P4·P5 (payments) and R4·R5 (recoveries)</td></tr>
 <tr><td><span class="tag add">Add</span></td><td> Currency</td><td>Currency selector before the amount (KRW, USD, EUR)</td></tr>
 <tr><td><span class="tag add">Add</span></td><td> In USD</td><td>USD-converted amount to the right of the amount (auto)</td></tr>
-<tr><td><span class="tag add">Add</span></td><td> No Claim</td><td>Checkbox at the top right of Claim Settlement. When checked, tables collapse and a badge replaces the summary</td></tr>
+<tr><td><span class="tag add">Add</span></td><td> No Claim</td><td>Checkbox at the top right of Claim Settlement. When checked, tables collapse and the summary stays with all cells at 0</td></tr>
 <tr><td><span class="tag chg">Change</span></td><td> PR history</td><td>History on the right of Progress &amp; Result shows 3 rows and scrolls when longer. Height matches the left side</td></tr>
 <tr><td><span class="tag del">Remove</span></td><td>Date column, SAP chip</td><td>Date column in both tables; the 'SAP' chip in Remark</td></tr>
 <tr><td><span class="tag del">Exclude</span></td><td>Reduction</td><td>Summary item ⑤ Reduction from the planning draft is not included</td></tr>
@@ -423,7 +434,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <table class="t">
 <thead><tr><th>Item</th><th>Calculation</th></tr></thead>
 <tbody>
-<tr><td> <b>Total claim cost</b></td><td>Total claim amount of the case. Shows the value of the existing total-cost input at the top of the real screen. <b>In this mockup it is entered here temporarily</b> — if that works, this cell can become the input (see 8)</td></tr>
+<tr><td> <b>Total claim cost</b></td><td>Total claim amount of the case. Shows the value of the existing total-cost input at the top of the real screen. <b>If not entered, it is filled with LXP paid + insurer / 3rd party</b> in grey with an 'Auto' tag (an entered value wins). 0 when No Claim is checked. <b>In this mockup it is entered here temporarily</b> — if that works, this cell can become the input (see 8)</td></tr>
 <tr><td><b>LXP paid</b></td><td>Sum in USD of payment rows where Paid by = LXP (P1–P4)</td></tr>
 <tr><td><b>Insurer / 3rd party</b></td><td>Sum in USD of payment rows paid by LXP insurer, vendor or customer (P5)</td></tr>
 <tr><td><b>LXP recovered</b></td><td>Sum in USD of all recovery rows (R1·R2·R4·R5)</td></tr>
@@ -462,8 +473,8 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <h2>7. No Claim</h2>
 <ul>
 <li>Position: <b>right end</b> of the Claim Settlement row (same place as other sections' buttons). Button-style checkbox with a border: <span class="f">☐ No Claim</span>.</li>
-<li>When checked: the summary bar is replaced by a grey badge <b>'No Claim — no cost'</b>; the tables and + / − buttons collapse and a notice is shown (see 'When No Claim is checked' above).</li>
-<li>Can be checked <b>only when there is no cost amount at all</b> — looked-up amounts (P1·P2·R1·R2 from SAP, P3 from CY Cost KPI), amounts in rows added with +, and total claim cost must all be empty. Otherwise the checkbox is disabled and hovering shows why.</li>
+<li>When checked: <b>the summary bar stays</b> with every cell at 0.00 (total claim cost 0 and locked); the tables and + / − buttons collapse and a notice is shown (see 'When No Claim is checked' above).</li>
+<li>Can be checked <b>only when there is no cost amount at all</b> — looked-up amounts (P1·P2·R1·R2 from SAP, P3 from CY Cost KPI), amounts in rows added with +, and an entered total claim cost must all be empty. Otherwise the checkbox is disabled and hovering shows why.</li>
 <li>On check: added rows without an amount are removed. Fixed rows stay and collapse with the tables.</li>
 <li>Unchecking: allowed at any time. While checked, <b>'+ Add payment / + Add recovery'</b> in the notice box <b>clears No Claim automatically</b> and adds a row.</li>
 <li>If an SAP / CY Cost KPI amount or a total claim cost arrives while checked: No Claim is <b>cleared automatically</b> and logged as 'No Claim cleared automatically (amount received)' (suggestion).</li>
@@ -566,7 +577,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       histOn: 'No Claim 체크', histOff: 'No Claim 해제', who: '담당자',
       demo: '시연', demoNote: '아래 Claim Settlement는 실제로 눌러 볼 수 있습니다', reset: '처음 상태로', empty: '비용 없는 상태로', check: '저장 검사',
       srcTitle: '원천 데이터 (임시 입력)', srcNote: '실제로는 화면 위쪽 칸, SAP, CY Cost KPI에서 들어오는 값입니다. 여기서 바꾸면 아래 화면에 바로 반영됩니다.',
-      srcTotal: '전체 클레임 비용 (화면 위쪽 칸)', srcPay: '지급 조회 — P1·P2 SAP · P3 CY Cost KPI', srcRec: '회수 조회 — R1·R2 SAP', srcVoucher: '전표번호', srcRef: '참조번호', histAuto: 'No Claim 자동 해제 (조회 금액 들어옴)',
+      srcTotal: '전체 클레임 비용 (화면 위쪽 칸)', srcPay: '지급 조회 — P1·P2 SAP · P3 CY Cost KPI', srcRec: '회수 조회 — R1·R2 SAP', srcVoucher: '전표번호', srcRef: '참조번호', srcAuto: '미입력 → 자동', histAuto: 'No Claim 자동 해제 (조회 금액 들어옴)',
       fx: '예시 환율: 1 USD = 1,400 KRW · 1 EUR = 1.08 USD',
       ok: '저장 가능 — 필수 항목이 모두 입력되었습니다.', okNc: '저장 가능 — No Claim 건입니다.',
       errRows: '저장 불가 — 비용 금액이 없습니다. 금액을 입력하거나 No Claim을 체크하세요.', errFields: function (n) { return '저장 불가 — 빨간 칸 ' + n + '곳을 채우세요.'; }
@@ -585,7 +596,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       histOn: 'No Claim checked', histOff: 'No Claim cleared', who: 'PIC',
       demo: 'Demo', demoNote: 'The Claim Settlement below is clickable', reset: 'Reset', empty: 'Start with no cost', check: 'Check save',
       srcTitle: 'Source data (temporary input)', srcNote: 'In the real system these come from the field at the top of the screen, SAP and CY Cost KPI. Changes here update the screen below right away.',
-      srcTotal: 'Total claim cost (top of screen)', srcPay: 'Payment lookup — P1·P2 SAP · P3 CY Cost KPI', srcRec: 'Recovery lookup — R1·R2 SAP', srcVoucher: 'Voucher no.', srcRef: 'Ref no.', histAuto: 'No Claim cleared automatically (amount received)',
+      srcTotal: 'Total claim cost (top of screen)', srcPay: 'Payment lookup — P1·P2 SAP · P3 CY Cost KPI', srcRec: 'Recovery lookup — R1·R2 SAP', srcVoucher: 'Voucher no.', srcRef: 'Ref no.', srcAuto: 'Empty → auto', histAuto: 'No Claim cleared automatically (amount received)',
       fx: 'Example FX: 1 USD = 1,400 KRW · 1 EUR = 1.08 USD',
       ok: 'Can save — all required fields are filled.', okNc: 'Can save — No Claim case.',
       errRows: 'Cannot save — no cost amount. Enter an amount or tick No Claim.', errFields: function (n) { return 'Cannot save — fill the ' + n + ' red field(s).'; }
@@ -593,7 +604,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
   };
   function fixed(type, cur, amt, remark) { return { fixed: true, party: 'LXP', type: type, cur: cur, amt: amt, remark: remark }; }
   var INITIAL = {
-    total: 5855.98,
+    total: null,   // 미입력 → 당사지불 + 보험사·제3자 부담 자동
     pay: [ fixed('P1', 'USD', 5855.98, '4400000813, 4400000847'), fixed('P2', '', null, ''), fixed('P3', '', null, ''),
            { party: 'INS', type: 'P5', cur: 'KRW', amt: null, remark: '' } ],
     rec: [ fixed('R1', '', null, ''), fixed('R2', '', null, ''), { type: 'R4', cur: 'USD', amt: null, remark: '' } ],
@@ -669,7 +680,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
     src.innerHTML = '<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin-bottom:8px"><b>' + L.srcTitle + '</b><span style="font-size:12px;color:#8a7536">' + L.srcNote + '</span></div>' +
       '<div style="display:flex;flex-wrap:wrap;gap:10px 28px;align-items:flex-start">' +
       srcBlock(L.srcTotal, '<div style="display:flex;align-items:center;gap:6px"><span style="' + IN + 'display:inline-flex;align-items:center;background:#F3EBD0">USD</span>' +
-        '<input data-src="total" inputmode="decimal" placeholder="' + L.amount + '" style="' + IN + 'width:120px;text-align:right"></div>', '0 0 auto') +
+        '<input data-src="total" inputmode="decimal" placeholder="' + L.srcAuto + '" style="' + IN + 'width:120px;text-align:right"></div>', '0 0 auto') +
       srcBlock(L.srcPay, srcRow('P1') + srcRow('P2') + srcRow('P3')) +
       srcBlock(L.srcRec, srcRow('R1') + srcRow('R2')) + '</div>';
     bar.appendChild(src);
@@ -703,11 +714,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
     src.addEventListener('input', onSource);
     src.addEventListener('change', onSource);
 
-    var badge = document.createElement('div');
-    badge.setAttribute('role', 'status');
-    badge.setAttribute('style', 'display:none;align-items:center;gap:8px;min-height:36px;padding:0 16px;border:1px solid #D0D0D0;border-radius:6px;background:#EDEDED;color:#555;font-size:13px;font-weight:700;box-sizing:border-box;white-space:nowrap');
-    badge.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M5.6 5.6l12.8 12.8"></path></svg>' + L.badge;
-    group.parentElement.insertBefore(badge, group.nextSibling);
+    var autoTag = section.querySelector('.totauto');
 
     var notice = document.createElement('div');
     notice.setAttribute('style', 'display:none;background:#fff;padding:16px;box-sizing:border-box');
@@ -765,7 +772,6 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
         tb[k].innerHTML = st[k].map(function (r, i) { return rowHTML(k, r, i); }).join('') +
           (k === 'pay' && !hasCost() ? '<tr data-hint><td colspan="' + cols + '" style="text-align:center;color:#888;padding:12px 8px;font-size:12px;background:#FCFCFC">' + L.emptyHint + '</td></tr>' : '');
       });
-      if (document.activeElement !== tot) tot.value = st.total ? fmt(st.total) : '';
       syncSource();
       updateControls();
       updateSummary();
@@ -787,8 +793,6 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       nc.style.opacity = block ? '0.45' : '';
       nc.style.cursor = block ? 'not-allowed' : 'pointer';
       nc.title = block ? L.ncDisabled : '';
-      group.style.display = st.noClaim ? 'none' : 'flex';
-      badge.style.display = st.noClaim ? 'flex' : 'none';
       body.style.display = st.noClaim ? 'none' : 'grid';
       notice.style.display = st.noClaim ? 'block' : 'none';
       var hint = tb.pay.querySelector('[data-hint]');
@@ -806,6 +810,18 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       sums[3].querySelector('.k').textContent = net < 0 ? L.gainK : L.lossK;
       v(3).textContent = fmt(Math.abs(net));
       v(3).className = 'v' + (net ? '' : ' zero');
+      autoTotal = Math.round((paid + ins) * 100) / 100;
+      updateTotal(false);
+    }
+    // 전체 클레임 비용: 직접 입력 값 > (미입력) 당사지불 + 보험사·제3자 부담 자동, No Claim이면 0
+    var autoTotal = 0;
+    function updateTotal(force) {
+      var isAuto = !st.noClaim && !st.total;
+      tot.disabled = st.noClaim;
+      tot.classList.toggle('isauto', isAuto);
+      if (autoTag) autoTag.style.display = isAuto ? '' : 'none';
+      if (!force && document.activeElement === tot) return;
+      tot.value = st.noClaim ? fmt(0) : st.total ? fmt(st.total) : fmt(autoTotal);
     }
     function newRow(k) { return k === 'pay' ? { party: 'LXP', type: 'P4', cur: 'USD', amt: null, remark: '' } : { type: '', cur: 'USD', amt: null, remark: '' }; }
     function addRow(k) {
@@ -817,7 +833,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 
     section.addEventListener('change', function (e) {
       var t = e.target, k = t.getAttribute('data-k'), f = t.getAttribute('data-f');
-      if (t === tot) { st.total = num(tot.value); tot.value = st.total ? fmt(st.total) : ''; renderTables(); return; }
+      if (t === tot) { st.total = num(tot.value); renderTables(); updateTotal(true); return; }
       if (t === ncIn) {
         if (ncIn.checked) {
           if (hasCost()) { ncIn.checked = false; return; }
@@ -851,9 +867,10 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       if (f === 'remark') r.remark = t.value.trim();
       renderTables();
     });
+    tot.addEventListener('focus', function () { if (tot.classList.contains('isauto')) tot.select(); });
     section.addEventListener('input', function (e) {
       var t = e.target, k = t.getAttribute('data-k'), f = t.getAttribute('data-f');
-      if (t === tot) { st.total = num(tot.value); updateControls(); return; }
+      if (t === tot) { st.total = num(tot.value); tot.classList.toggle('isauto', !st.total); if (autoTag) autoTag.style.display = st.total ? 'none' : ''; updateControls(); return; }
       if (!k || (f !== 'amt' && f !== 'remark')) return;
       var r = st[k][+t.getAttribute('data-i')];
       if (f === 'amt') {
