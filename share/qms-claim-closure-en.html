@@ -55,6 +55,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .nc{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 14px;border:1px solid #BDBDBD;border-radius:2px;background:#fff;font-size:14px;font-weight:500;color:#333;cursor:pointer;white-space:nowrap}
 .nc input{width:16px;height:16px;margin:0;accent-color:#444}
 .nc.on{border-color:#555;background:#EDEDED}
+.tree{flex:none;width:16px;height:38px;margin:-36px 8px 0 14px;border-left:2px solid #D3202F;border-bottom:2px solid #D3202F;border-bottom-left-radius:4px;box-sizing:border-box}
 .cs-h{margin:0;font-size:16px;font-weight:500;color:#222;display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
 .histbox{max-height:var(--hist-h,169px);overflow-y:auto;border-top:3px solid #D3202F}
 .histbox .hist{border-top:0}
@@ -107,7 +108,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </div>
 </header>
 
-<section aria-label="Progress and Result" style="padding: 30px 0 22px; border-bottom: 2px solid #111;">
+<section aria-label="Progress and Result" style="padding: 30px 0 0;">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 24px;">
 <div style="min-width: 0; display: flex; flex-direction: column;">
 <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px;">
@@ -151,10 +152,10 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </div>
 </section>
 
-<section aria-label="Claim Settlement" style="padding: 30px 0 22px; border-bottom: 2px solid #111;">
+<section aria-label="Claim Settlement" style="padding: 12px 0 22px; border-bottom: 2px solid #111;">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
 <div style="display: flex; align-items: center; gap: 8px;">
-<h2 class="cs-h"><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
+<h2 class="cs-h"><span class="tree" aria-hidden="true"></span><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
 
 </div>
 <div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
@@ -395,7 +396,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <section class="sec">
 <h2>2. Layout</h2>
 <ul>
-<li>Whole screen: three stacked sections — Progress &amp; Result → <b>Claim Settlement</b> → CAPA. Keep the black dividers between sections.</li>
+<li>Whole screen: three stacked sections — Progress &amp; Result → <b>Claim Settlement</b> → CAPA. <b>Progress &amp; Result and Claim Settlement are one set</b>: no black divider between them, and a red └ connector before the Claim Settlement title. The black divider stays only between Claim Settlement and CAPA.</li>
 <li>Progress &amp; Result and CAPA: current <b>split screen</b> 50:50 (input left, history right), unchanged.</li>
 <li> History (Contents) on the right of Progress &amp; Result: fixed height showing the header + <b>3 rows</b>; longer lists scroll vertically (header stays). The bottom of the right panel lines up with the left panel.</li>
 <li>Claim Settlement header: instead of a red tab, the text title <b>* Claim Settlement ⓘ</b> (same look as the old Actual Loss Cost label) + the summary bar to its right (black 'Summary (USD)' label + 5 cells) + No Claim at the far right. The summary bar is a separate card with a small gap above the tables.</li>
