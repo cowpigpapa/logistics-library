@@ -173,7 +173,7 @@ Summary (USD)</div>
 <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
 <div style="min-width: 0;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Payments</h2>
-<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">P1–P3 show SAP amounts only. Add other payments one row at a time with +.</p>
+<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">P1·P2 show SAP amounts and P3 shows the CY Cost KPI amount only. Add other payments with +.</p>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 
@@ -234,7 +234,7 @@ Summary (USD)</div>
 </table>
 </div>
 <div class="legend">
-<span><span class="sw" style="background: #EFEFEF;"></span>SAP amounts — always shown, cannot edit or delete (P1·P2·P3)</span>
+<span><span class="sw" style="background: #EFEFEF;"></span>Looked-up amounts — always shown, cannot edit or delete (P1·P2 SAP · P3 CY Cost KPI)</span>
 <span>Rows added with +: LXP → P4 · others → P5</span>
 <span><span style="color: #1E6B34; font-weight: 700; margin-right: 6px;">0.00</span>In USD — auto-calculated</span>
 
@@ -394,7 +394,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <tr><td><span class="tag add">New</span></td><td> Summary bar</td><td>One line to the right of the Claim Settlement title</td></tr>
 <tr><td><span class="tag add">Add</span></td><td> Total claim cost</td><td>First summary cell. A temporary input in this mockup (see 5)</td></tr>
 <tr><td><span class="tag chg">Change</span></td><td> Payment / recovery tables</td><td>Stacked → side by side (payments left, recoveries right)</td></tr>
-<tr><td><span class="tag chg">Change</span></td><td> SAP rows</td><td>Payments P1·P2·P3 and recoveries R1·R2 are fixed rows that are <b>always shown</b>. They show the looked-up amount only and cannot be edited or deleted</td></tr>
+<tr><td><span class="tag chg">Change</span></td><td> Looked-up rows</td><td>Payments P1·P2 (SAP) · P3 (CY Cost KPI) and recoveries R1·R2 (SAP) are fixed rows that are <b>always shown</b>. They show the looked-up amount only and cannot be edited or deleted</td></tr>
 <tr><td><span class="tag del">Remove</span></td><td>Recovered-from column</td><td>Removed from the recovery table</td></tr>
 <tr><td><span class="tag chg">Change</span></td><td> Add / delete rows</td><td>Per-row 'Delete' button → <b>+ / −</b> at the top right of each table. + adds only P4·P5 (payments) and R4·R5 (recoveries)</td></tr>
 <tr><td><span class="tag add">Add</span></td><td> Currency</td><td>Currency selector before the amount (KRW, USD, EUR)</td></tr>
@@ -436,9 +436,9 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 </table>
 <ul style="margin-top: 12px;">
 <li>Display: USD, thousands separators, 2 decimals.</li>
-<li>Recalculate immediately when rows are added, edited or deleted, or SAP results change.</li>
+<li>Recalculate immediately when rows are added, edited or deleted, or SAP / CY Cost KPI results change.</li>
 <li>Insurer / 3rd party and total claim cost are not part of the LXP net loss.</li>
-<li>The yellow <b>'Source data (temporary input)'</b> box on the mockup page is for the demo only. It stands in for the total-cost field at the top of the screen and the SAP / I/F lookups, and is not part of the real screen.</li>
+<li>The yellow <b>'Source data (temporary input)'</b> box on the mockup page is for the demo only. It stands in for the total-cost field at the top of the screen and the SAP / CY Cost KPI lookups, and is not part of the real screen.</li>
 </ul>
 <h3>Summary colour rules</h3>
 <table class="t">
@@ -467,10 +467,10 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <ul>
 <li>Position: <b>right end</b> of the Claim Settlement row (same place as other sections' buttons). Button-style checkbox with a border: <span class="f">☐ No Claim</span>.</li>
 <li>When checked: the summary bar is replaced by a grey badge <b>'No Claim — no cost'</b>; the tables and + / − buttons collapse and a notice is shown (see 'When No Claim is checked' above).</li>
-<li>Can be checked <b>only when there is no cost amount at all</b> — SAP amounts (P1–P3, R1·R2), amounts in rows added with +, and total claim cost must all be empty. Otherwise the checkbox is disabled and hovering shows why.</li>
+<li>Can be checked <b>only when there is no cost amount at all</b> — looked-up amounts (P1·P2·R1·R2 from SAP, P3 from CY Cost KPI), amounts in rows added with +, and total claim cost must all be empty. Otherwise the checkbox is disabled and hovering shows why.</li>
 <li>On check: added rows without an amount are removed. Fixed rows stay and collapse with the tables.</li>
 <li>Unchecking: allowed at any time. While checked, <b>'+ Add payment / + Add recovery'</b> in the notice box <b>clears No Claim automatically</b> and adds a row.</li>
-<li>If an SAP / I/F amount or a total claim cost arrives while checked: No Claim is <b>cleared automatically</b> and logged as 'No Claim cleared automatically (amount received)' (suggestion).</li>
+<li>If an SAP / CY Cost KPI amount or a total claim cost arrives while checked: No Claim is <b>cleared automatically</b> and logged as 'No Claim cleared automatically (amount received)' (suggestion).</li>
 <li>If there is no cost and No Claim is not checked: a grey hint below the payment table 'If there is no cost, tick No Claim at the top right'.</li>
 <li>Save · Result Close: blocked unless there is <b>at least one row with an amount</b> or <b>No Claim is checked</b> (prevents missing costs).</li>
 <li>Data: store Claim Y/N separately so 'No Claim' cases and 'cost not entered' cases can be counted apart.</li>
@@ -507,7 +507,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <tbody>
 <tr><td>Fixed 1</td><td>LXP</td><td>P1 Compensation (51029010)</td><td> From SAP, cannot edit or delete</td></tr>
 <tr><td>Fixed 2</td><td>LXP</td><td>P2 Penalty (51017180)</td><td>From SAP, cannot edit or delete</td></tr>
-<tr><td>Fixed 3</td><td>LXP</td><td>P3 DEM/DET/STG</td><td>Looked-up DEM/DET/STG amount, cannot edit or delete</td></tr>
+<tr><td>Fixed 3</td><td>LXP</td><td>P3 DEM/DET/STG</td><td>From <b>CY Cost KPI</b>, cannot edit or delete</td></tr>
 <tr><td rowspan="2">Row 4 on (+)</td><td>LXP</td><td>P4 Selling / Buying (auto)</td><td>Manual, <b>voucher no. required</b></td></tr>
 <tr><td>LXP insurer · Vendor · Customer</td><td>P5 Paid by insurer / 3rd party (auto)</td><td>Manual</td></tr>
 </tbody>
@@ -534,8 +534,8 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <ol>
 <li><b>FX source and reference date</b> — with no Date column, a reference date for the USD conversion is needed (e.g. entry date, voucher date, irregularity date).</li>
 <li><b>Where total claim cost is entered</b> — keep the existing input at the top of the screen and only show it in the summary, or make this summary cell the input. Entering it in two places lets the values drift, so use one.</li>
-<li><b>When SAP is looked up</b> — load P1–P3 · R1 · R2 automatically when the screen opens, or with a button.</li>
-<li><b>Source of P3 DEM/DET/STG</b> — previously manual (I/F only for auto-created cases). Since only looked-up amounts are shown now, confirm the I/F coverage.</li>
+<li><b>When amounts are looked up</b> — load SAP (P1·P2·R1·R2) and CY Cost KPI (P3) automatically when the screen opens, or with a button.</li>
+<li><b>P3 CY Cost KPI link</b> — which amount to take (DEM/DET/STG total or per item), its currency, and which reference number to show in Remark.</li>
 <li><b>R3 DEM/DET/STG recovery</b> — not in the recovery + options (R4·R5). Add as a fixed row or option if needed.</li>
 <li><b>Recovered-from information</b> — the column is removed; write it in Remark if needed?</li>
 <li><b>Migrating existing Actual Loss Cost data</b> — move the old Pay Amount into P1 or an added row, and Recovery Amount into R1 or an added row?</li>
@@ -562,15 +562,15 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
                R1: 'R1 손해배상금 환입 (51029010)', R2: 'R2 과태료 환입 (51017180)', R4: 'R4 Selling / Buying', R5: 'R5 기타' },
       choose: '선택', amount: '금액 입력', auto: '자동 계산', remark: '증빙번호 등', voucher: '전표번호 (필수)',
       emptyHint: '조회·입력된 비용이 없습니다. 비용이 없으면 오른쪽 위 No Claim을 체크하세요.',
-      ncDisabled: '비용 금액(SAP 조회, 입력 행, 전체 클레임 비용)이 있어 No Claim을 선택할 수 없습니다.',
+      ncDisabled: '비용 금액(SAP · CY Cost KPI 조회, 입력 행, 전체 클레임 비용)이 있어 No Claim을 선택할 수 없습니다.',
       badge: 'No Claim — 비용 없음',
       notice: '<b style="color:#333">비용이 없는 건으로 표시되었습니다.</b> 지불내역·회수내역 표는 접혀 있습니다.<br>비용이 생기면 아래 버튼으로 바로 추가하세요. No Claim은 자동으로 해제됩니다.',
       addPay: '+ 지불 추가', addRec: '+ 회수 추가',
       lossK: '당사 순손실 = 당사지불 − 당사회수', gainK: '당사 순이익 = 당사회수 − 당사지불',
       histOn: 'No Claim 체크', histOff: 'No Claim 해제', who: '담당자',
       demo: '시연', demoNote: '아래 Claim Settlement는 실제로 눌러 볼 수 있습니다', reset: '처음 상태로', empty: '비용 없는 상태로', check: '저장 검사',
-      srcTitle: '원천 데이터 (임시 입력)', srcNote: '실제로는 화면 위쪽 칸과 SAP · I/F에서 들어오는 값입니다. 여기서 바꾸면 아래 화면에 바로 반영됩니다.',
-      srcTotal: '전체 클레임 비용 (화면 위쪽 칸)', srcPay: '지불 조회 (SAP · I/F)', srcRec: '회수 조회 (SAP)', srcVoucher: '전표번호', histAuto: 'No Claim 자동 해제 (조회 금액 들어옴)',
+      srcTitle: '원천 데이터 (임시 입력)', srcNote: '실제로는 화면 위쪽 칸, SAP, CY Cost KPI에서 들어오는 값입니다. 여기서 바꾸면 아래 화면에 바로 반영됩니다.',
+      srcTotal: '전체 클레임 비용 (화면 위쪽 칸)', srcPay: '지급 조회 — P1·P2 SAP · P3 CY Cost KPI', srcRec: '회수 조회 — R1·R2 SAP', srcVoucher: '전표번호', srcRef: '참조번호', histAuto: 'No Claim 자동 해제 (조회 금액 들어옴)',
       fx: '예시 환율: 1 USD = 1,400 KRW · 1 EUR = 1.08 USD',
       ok: '저장 가능 — 필수 항목이 모두 입력되었습니다.', okNc: '저장 가능 — No Claim 건입니다.',
       errRows: '저장 불가 — 비용 금액이 없습니다. 금액을 입력하거나 No Claim을 체크하세요.', errFields: function (n) { return '저장 불가 — 빨간 칸 ' + n + '곳을 채우세요.'; }
@@ -581,15 +581,15 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
                R1: 'R1 Compensation (51029010)', R2: 'R2 Penalty (51017180)', R4: 'R4 Selling / Buying', R5: 'R5 Other' },
       choose: 'Select', amount: 'Amount', auto: 'Auto', remark: 'Evidence no.', voucher: 'Voucher no.',
       emptyHint: 'No cost found or entered. If there is no cost, tick No Claim at the top right.',
-      ncDisabled: 'A cost amount exists (SAP, entered row or total claim cost), so No Claim cannot be selected.',
+      ncDisabled: 'A cost amount exists (SAP / CY Cost KPI, entered row or total claim cost), so No Claim cannot be selected.',
       badge: 'No Claim — no cost',
       notice: '<b style="color:#333">This case is marked as having no cost.</b> The payment and recovery tables are collapsed.<br>If a cost arises, add it with the buttons below. No Claim is cleared automatically.',
       addPay: '+ Add payment', addRec: '+ Add recovery',
       lossK: 'LXP net loss (paid − recovered)', gainK: 'LXP net gain (recovered − paid)',
       histOn: 'No Claim checked', histOff: 'No Claim cleared', who: 'PIC',
       demo: 'Demo', demoNote: 'The Claim Settlement below is clickable', reset: 'Reset', empty: 'Start with no cost', check: 'Check save',
-      srcTitle: 'Source data (temporary input)', srcNote: 'In the real system these come from the field at the top of the screen and from SAP / I/F. Changes here update the screen below right away.',
-      srcTotal: 'Total claim cost (top of screen)', srcPay: 'Payment lookup (SAP · I/F)', srcRec: 'Recovery lookup (SAP)', srcVoucher: 'Voucher no.', histAuto: 'No Claim cleared automatically (amount received)',
+      srcTitle: 'Source data (temporary input)', srcNote: 'In the real system these come from the field at the top of the screen, SAP and CY Cost KPI. Changes here update the screen below right away.',
+      srcTotal: 'Total claim cost (top of screen)', srcPay: 'Payment lookup — P1·P2 SAP · P3 CY Cost KPI', srcRec: 'Recovery lookup — R1·R2 SAP', srcVoucher: 'Voucher no.', srcRef: 'Ref no.', histAuto: 'No Claim cleared automatically (amount received)',
       fx: 'Example FX: 1 USD = 1,400 KRW · 1 EUR = 1.08 USD',
       ok: 'Can save — all required fields are filled.', okNc: 'Can save — No Claim case.',
       errRows: 'Cannot save — no cost amount. Enter an amount or tick No Claim.', errFields: function (n) { return 'Cannot save — fill the ' + n + ' red field(s).'; }
@@ -656,14 +656,14 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
     section.parentElement.insertBefore(bar, section);
     var msg = bar.querySelector('[data-msg]');
 
-    // source data panel (temporary, demo only): top-of-screen total + SAP / I/F lookups
+    // source data panel (temporary, demo only): top-of-screen total + SAP / CY Cost KPI lookups
     var IN = 'height:28px;border:1px solid #D6C48A;border-radius:3px;background:#fff;font:inherit;font-size:13px;padding:0 6px;box-sizing:border-box;';
     function srcRow(type) {
       return '<div style="display:grid;grid-template-columns:minmax(90px,1fr) 62px minmax(70px,100px) minmax(80px,120px);gap:6px;align-items:center">' +
         '<span style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="' + esc(L.types[type]) + '">' + esc(L.types[type]) + '</span>' +
         '<select data-src="' + type + '" data-f="cur" style="' + IN + '">' + ['USD', 'KRW', 'EUR'].map(function (c) { return '<option>' + c + '</option>'; }).join('') + '</select>' +
         '<input data-src="' + type + '" data-f="amt" inputmode="decimal" placeholder="' + L.amount + '" style="' + IN + 'text-align:right">' +
-        '<input data-src="' + type + '" data-f="remark" placeholder="' + L.srcVoucher + '" style="' + IN + '"></div>';
+        '<input data-src="' + type + '" data-f="remark" placeholder="' + (type === 'P3' ? L.srcRef : L.srcVoucher) + '" style="' + IN + '"></div>';
     }
     function srcBlock(title, inner, flex) {
       return '<div style="flex:' + (flex || '1 1 440px') + ';min-width:0;display:flex;flex-direction:column;gap:6px"><b style="font-size:12px">' + title + '</b>' + inner + '</div>';
@@ -737,7 +737,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
     function usdCell(r) { return '<td data-usd>' + (r.amt ? '<div class="usd">' + fmt(usd(r)) + '</div>' : '<div class="auto">' + (r.fixed ? '—' : L.auto) + '</div>') + '</td>'; }
     function rowHTML(k, r, i) {
       var a = ' data-k="' + k + '" data-i="' + i + '"';
-      if (r.fixed) {   // SAP 조회 행: 항상 표시, 수정·삭제 불가
+      if (r.fixed) {   // 조회 행 (P1·P2·R1·R2 SAP, P3 CY Cost KPI): 항상 표시, 수정·삭제 불가
         var h = '<tr class="fx"><td></td>';
         if (k === 'pay') h += '<td><div class="rocell">' + L.parties.LXP + '</div></td>';
         h += '<td><div class="rocell">' + esc(L.types[r.type]) + '</div></td>';
