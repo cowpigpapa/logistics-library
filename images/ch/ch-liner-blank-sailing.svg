@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">결항·기항지 생략·서비스 조정이 수출 부킹에 미치는 흐름</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">한국 법령에는 정의가 없는 업계 용어입니다(미국 46 CFR 542.1(b)는 기항지 생략도 blank sailing에 포함). 처리와 비용 부담은 선사 공지, 부킹 조건, B/L 약관이 정합니다.</text>
+
+<!-- row 1: events -->
+<rect x="48" y="118" width="508" height="150" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="68" y="152" font-size="18" font-weight="800" fill="#e4572e">블랭크 세일링(결항)</text>
+<text x="68" y="182" font-size="15" font-weight="600" fill="#1d2a3a">정한 주차의 항차를 통째로 운항하지 않음.</text>
+<text x="68" y="208" font-size="15" font-weight="600" fill="#1d2a3a">그 주 모든 기항지에서 배가 비고, 부킹은</text>
+<text x="68" y="234" font-size="15" font-weight="600" fill="#1d2a3a">다른 배로 옮겨야 함.</text>
+<rect x="582" y="118" width="508" height="150" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="602" y="152" font-size="18" font-weight="800" fill="#e4572e">기항지 생략(옴니션, port omission)</text>
+<text x="602" y="182" font-size="15" font-weight="600" fill="#1d2a3a">항차는 운항하되 일부 항만에 들르지 않음.</text>
+<text x="602" y="208" font-size="15" font-weight="600" fill="#1d2a3a">생략된 항만의 수출 화물은 다른 배로, 수입</text>
+<text x="602" y="234" font-size="15" font-weight="600" fill="#1d2a3a">화물은 다른 항에서 양하된 뒤 추가 운송.</text>
+<rect x="1116" y="118" width="508" height="150" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="1136" y="152" font-size="18" font-weight="800" fill="#e4572e">서비스 조정</text>
+<text x="1136" y="182" font-size="15" font-weight="600" fill="#1d2a3a">서비스 통합·중단, 기항 순서·요일 변경,</text>
+<text x="1136" y="208" font-size="15" font-weight="600" fill="#1d2a3a">선박 교체. 얼라이언스 재편 때 한꺼번에</text>
+<text x="1136" y="234" font-size="15" font-weight="600" fill="#1d2a3a">생기기도 함.</text>
+
+<path d="M302 268 L760 316" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M836 268 L836 312" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M1370 268 L912 316" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+<!-- row 2: notice -->
+<rect x="436" y="316" width="800" height="62" rx="12" fill="#1d2a3a"/>
+<text x="836" y="354" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">선사 공지 → 부킹 명의자(포워더)에게 변경 통지 → 받은 시각과 사유를 서면으로 보관</text>
+<path d="M600 378 L300 422" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M836 378 L836 418" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M1072 378 L1370 422" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+<!-- row 3: booking options -->
+<rect x="48" y="424" width="508" height="118" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="68" y="456" font-size="17" font-weight="800" fill="#1d2a3a">가. 같은 서비스의 다음 항차로 이월</text>
+<text x="68" y="486" font-size="15" font-weight="600" fill="#1d2a3a">주간 서비스면 대개 1주 늦어짐. 다음 항차가</text>
+<text x="68" y="512" font-size="15" font-weight="600" fill="#1d2a3a">이미 차 있으면 한 번 더 밀릴 수 있음.</text>
+<rect x="582" y="424" width="508" height="118" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="602" y="456" font-size="17" font-weight="800" fill="#1d2a3a">나. 다른 서비스·제휴 선사 선박으로 대체</text>
+<text x="602" y="486" font-size="15" font-weight="600" fill="#1d2a3a">반입 터미널, 환적항, 운송 기간이 바뀔 수 있음.</text>
+<text x="602" y="512" font-size="15" font-weight="600" fill="#1d2a3a">새 선명·항차를 부킹 확인서로 다시 받음.</text>
+<rect x="1116" y="424" width="508" height="118" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1136" y="456" font-size="17" font-weight="800" fill="#1d2a3a">다. 부킹 취소 뒤 다른 선사에 새 부킹</text>
+<text x="1136" y="486" font-size="15" font-weight="600" fill="#1d2a3a">운임·할증료 적용일이 바뀔 수 있음. 장기 계약</text>
+<text x="1136" y="512" font-size="15" font-weight="600" fill="#1d2a3a">물량 실적에서 빠지는지 확인(스페이스 계약 문서).</text>
+
+<!-- row 4: what to redo -->
+<rect x="48" y="566" width="776" height="210" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<rect x="48" y="566" width="776" height="46" rx="12" fill="#1f8a5b"/>
+<rect x="48" y="592" width="776" height="20" fill="#1f8a5b"/>
+<text x="68" y="597" font-size="17" font-weight="800" fill="#ffffff">포워더가 다시 받고 다시 알릴 것</text>
+<text x="68" y="642" font-size="15" font-weight="600" fill="#1d2a3a">· 새 선명·항차, 출항 예정일(ETD)과 도착 예정일(ETA), 환적항</text>
+<text x="68" y="672" font-size="15" font-weight="600" fill="#1d2a3a">· 새 마감 네 가지: 선적지시서(SI)·화물 반입(CY)·VGM 제출·수출신고수리</text>
+<text x="68" y="702" font-size="15" font-weight="600" fill="#1d2a3a">· 화주·운송사에 새 일정을 서면으로 알리고, 컨테이너 반출일을 조정</text>
+<text x="68" y="732" font-size="15" font-weight="600" fill="#1d2a3a">· 수입 측 해외 파트너와 수하인에게 바뀐 도착 예정일을 알림</text>
+<text x="68" y="762" font-size="14" font-weight="600" fill="#5f6b78">마감과 롤오버 비용의 부담 주체는 스페이스 계약 문서 6절을 보십시오.</text>
+
+<rect x="848" y="566" width="776" height="210" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<rect x="848" y="566" width="776" height="46" rx="12" fill="#e4572e"/>
+<rect x="848" y="592" width="776" height="20" fill="#e4572e"/>
+<text x="868" y="597" font-size="17" font-weight="800" fill="#ffffff">비용과 기한</text>
+<text x="868" y="642" font-size="15" font-weight="600" fill="#1d2a3a">· 이미 터미널에 반입된 컨테이너는 대기 중 Demurrage·보관료가 생길 수</text>
+<text x="882" y="666" font-size="15" font-weight="600" fill="#1d2a3a">있음 → 선사에 무료 기간 연장·면제를 서면으로 요청</text>
+<text x="868" y="698" font-size="15" font-weight="600" fill="#1d2a3a">· 수출신고가 수리된 물품은 수리일부터 30일 이내 적재(관세법 제251조)</text>
+<text x="882" y="722" font-size="15" font-weight="600" fill="#1d2a3a">→ 넘길 것 같으면 기간 안에 적재기간 연장승인 신청</text>
+<text x="868" y="754" font-size="15" font-weight="600" fill="#1d2a3a">· 기항지 생략으로 생긴 추가 운송비 부담은 B/L 약관을 먼저 봄</text>
+
+<!-- row 5: legal -->
+<rect x="48" y="798" width="1576" height="96" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="68" y="832" font-size="15" font-weight="800" fill="#1d2a3a">규제 근거</text>
+<text x="168" y="832" font-size="15" font-weight="600" fill="#1d2a3a">미국 항로: 사전 통지가 없거나 부족한 결항·일정 변경, 확정 부킹 화주에게 도착에 영향을 주는 변경을 알리지 않는 것은</text>
+<text x="168" y="856" font-size="15" font-weight="600" fill="#1d2a3a">선적 거절과 연결될 때 불합리한 행위의 예시입니다(46 CFR 542.1(e)). 한국: 신고된 협약이 부당하게 운항 횟수를 줄여 경쟁을</text>
+<text x="168" y="880" font-size="15" font-weight="600" fill="#1d2a3a">실질적으로 제한하면 해양수산부장관이 시행 중지·변경 등을 명하고 공정거래위원회에 통보합니다(해운법 제29조 제5항 제3호).</text>
+</svg>

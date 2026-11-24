@@ -3,7 +3,7 @@
 (function () {
   const LIBRARY_ORIGIN = 'https://logistics.onharu.app';
   const BASE = '/library/bl-awb';
-  const DOCS_VERSION = '20261109-01';
+  const DOCS_VERSION = '20261125-01';
   const routed = location.pathname.startsWith(BASE);
   const link = id => (routed ? `${BASE}/${id}` : `${location.pathname}?doc=${id}`);
   const home = routed ? BASE : location.pathname;
@@ -34,9 +34,11 @@
   const DOCS = [
     { id: 'bl-basics', checked: '2026-10-28', tag: "B/L", level: 3, title: "B/L 기초 — 세 기능, 종류, 기재사항, House B/L과 AWB 비교", short: "B/L 기초", summary: "선하증권의 세 기능(운송계약 증거·화물 수령증·권리증권), 기명식·지시식·소지인식과 배서, 선적·수취, Clean·Foul, 통 B/L·복합운송 B/L, 상법 제853조 기재사항, 원본 3통의 의미(제857조), Master·House B/L 구조, 운임 표시와 부지 약관을 포워더 입장에서 정리하고, 인도 조건·처분권·신용장·책임 한도까지 B/L과 AWB를 한 표로 비교합니다." },
     { id: 'awb-basics', checked: '2026-10-28', tag: "AWB", level: 3, title: "AWB 기초 — 비유통 운송장, 원본 3부, 처분권, 번호 체계, e-AWB와 ONE Record", short: "AWB 기초", summary: "AWB가 권리증권이 아닌 이유, 원본 3부와 송하인 처분권, IATA 양식과 11자리 번호, Master·House AWB, e-AWB와 ONE Record, 신용장 거래의 은행 수하인과 UCP 600 제23조를 정리합니다." },
+    { id: 'bl-lc', checked: '2026-11-24', tag: "신용장", level: 3, title: "신용장과 운송서류 — 은행 서류 심사, 엄격일치, UCP 600 제19조~제27조, 본선 적재 표기, House B/L 서명, 지시식 수하인, 환적·분할선적, B/L 초안 대조와 하자 처리", short: "신용장과 운송서류", summary: "신용장 거래에서 운송서류가 은행 심사를 통과하려면 무엇이 맞아야 하는지 대법원 판결로 정리합니다. 독립·추상성과 엄격일치의 기준, UCP 600 제19조~제27조의 운송서류 조항 체계, 본선 적재 표기와 선적일, 포워더 발행 House B/L의 서명 요건, 지시식 수하인·통지처·원본 전통, 무고장·갑판 적재·환적·분할선적 문언을 다룹니다. B/L 초안 단계에서 신용장과 대조할 항목과, 조건과 서류가 어긋날 때 포워더·화주·은행이 각각 할 일을 역할별 점검표로 정리합니다." },
     { id: 'bl-deviation', checked: '2026-10-27', tag: "경로변경", level: 3, title: "운송 경로가 바뀌었을 때 추가 비용은 누가 내나 — 이로와 자유 약관, 장애 조항, 전쟁 위험 조항, 홍해·호르무즈, 매매계약과 적하보험", short: "경로 변경과 추가 비용", summary: "이로(deviation)에 대한 영국 보통법·헤이그-비스비 규칙 제4조 제4항·상법 제796조 제8호, 선사 B/L과 FIATA FBL의 자유 약관과 장애 조항(다른 경로·운송 중단·운송 포기), BIMCO VOYWAR 2025의 운임 조정, 홍해 우회 할증과 FMC·해운법의 적용 시점, 2026년 호르무즈 사태의 운송 종료 공지, 매매계약의 좌절과 CISG 제79조·인코텀스, ICC 제8.3·9·12조와 협회전쟁약관, 공동해손을 Renton·Tsakiroglou·The Polar 판결과 함께 정리합니다." },
     { id: 'bl-release', checked: '2026-10-28', tag: "인도", level: 3, title: "화물 인도 실무 — 원본 B/L, 서렌더, Sea Waybill, 보증도", short: "화물 인도 실무", summary: "원본 B/L 회수 인도와 상법 제857조~제861조, 서렌더(Telex Release)의 실무와 주의점, Sea Waybill의 성격(상법 제863조·제864조, CMI 규칙)과 인도, 수입화물선취보증서(L/G)·LOI 보증도의 위험, 기명식 B/L, 원본 분실 시 공시최고, D/O와 반출, 항공화물 도착 통지와 은행 수하인 화물 인도를 정리합니다." },
     { id: 'bl-lien', checked: '2026-10-27', tag: "유치권", level: 3, title: "운임을 못 받았을 때 화물을 잡을 수 있나 — 포워더·운송인의 유치권, 상사유치권, 보세화물 점유, 체화 공매", short: "운임 미수와 유치권", summary: "상법 제120조·제807조의 운송주선인·운송인 유치권과 민법·상사유치권의 차이, 다른 건 미수로 잡을 수 있는 조건, 보세창고 화물의 점유와 D/O, 해외 파트너 미수금, 체화 공매에서 유치권자의 권리와 폐기 비용, FBL·선사·BIFA 약관의 lien 조항, 미국·영국의 lien, 잘못 잡았을 때의 책임과 실무 절차를 판례와 함께 정리합니다." },
+    { id: 'bl-insolvency', checked: '2026-11-24', tag: "도산", level: 3, title: "운송인·해외 파트너가 도산했을 때 — 회생·파산과 포괄적 금지명령, 외국 도산 승인과 Chapter 15, 한진해운 사태, 화물 유치와 비용 대납·구상, 파트너 도산, 사전 대비", short: "운송인·파트너 도산", summary: "선사·항공사나 해외 파트너가 도산했을 때 채무자회생법의 회생·파산 절차, 포괄적 금지명령, 쌍방미이행 계약의 선택, 회생채권·공익채권·환취권의 구분과 외국 도산 절차 승인(미국 Chapter 15)을 정리합니다. 한진해운 사태의 공적 사실관계와, 포워더·화주가 낸 하역비·대체운송비를 파산관재인에게 청구한 판결들의 결론과 그 차이를 소개합니다. 터미널·창고가 화물을 유치할 때의 선택지, 해외 파트너 도산 때의 House B/L 효력, 사전 대비와 역할별 점검표를 담았습니다." },
     { id: 'bl-special', tag: "특수", level: 3, title: "특수 B/L과 전자화 — Switch·분할 B/L, 선적일 소급, 전자선하증권(eBL)", short: "특수 B/L과 전자화", summary: "Switch·분할·통합 B/L의 정상 절차와 P&I 권고, 선적일 소급과 LOI를 받은 무사고 B/L의 결과, 상법 제862조와 KTNET 등록, MLETR·영국 ETDA 2023, DCSA 2030 약속, IG 승인 eBL을 정리합니다." },
     { id: 'bl-multimodal', checked: '2026-10-28', tag: "복합운송", level: 3, title: "복합운송과 책임 구간 — 손해 구간을 알 때와 모를 때", short: "복합운송과 책임 구간", summary: "문 앞까지 맡은 포워더가 복합운송인이 되는 경우, 네트워크·단일 책임제, 손해 구간을 알 때와 모를 때 상법 제816조와 FBL 약관의 답, 구간에 따라 바뀌는 기한, 경로별 가상 예시를 정리합니다." },
     { id: 'bl-cmr', checked: '2026-10-26', tag: "CMR", level: 3, title: "CMR 운송장과 유럽 트럭 운송 — 적용 범위, 운송장과 처분권, kg당 8.33 SDR, 기한, 포워더의 지위", short: "CMR과 유럽 트럭 운송", summary: "국경을 넘는 유럽 트럭 운송에 강행 적용되는 CMR의 적용 범위와 당사국, 운송장 3통·유보·처분권, e-CMR, 운송인 면책과 kg당 8.33 SDR 한도 계산, 고의의 기준, 7일·21일·1년 기한과 관할, 연속 운송인, 포워더가 운송인이 되는 경우를 정리합니다." },
@@ -54,8 +56,8 @@
   const officialRow = o =>
     `<tr><td><b>${esc(o.title)}</b></td><td class="lib-publisher"><b>${esc(o.org)}</b><small>(${esc(o.kind)})</small></td><td class="lib-official-note">${lines(esc(o.note))}</td><td><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">열기 ↗</a></td></tr>`;
   const SECTIONS = [
-    { title: "B/L·AWB 기초", sub: "B/L 기초(AWB 비교표 포함) · AWB 기초 · 경로 변경과 추가 비용", docs: ["bl-basics", "awb-basics", "bl-deviation"] },
-    { title: "화물 인도와 특수 서류", sub: "화물 인도 실무 · 특수 B/L과 전자화 · 복합운송과 책임 구간 · 유럽 트럭 운송(CMR) · 운임 미수와 유치권 · 중국–유럽 철도(CIM·SMGS)", docs: ["bl-release", "bl-lien", "bl-special", "bl-multimodal", "bl-cmr", "bl-rail"] },
+    { title: "B/L·AWB 기초", sub: "B/L 기초(AWB 비교표 포함) · AWB 기초 · 신용장(UCP 600) 운송서류 심사 · 경로 변경과 추가 비용", docs: ["bl-basics", "awb-basics", "bl-lc", "bl-deviation"] },
+    { title: "화물 인도와 특수 서류", sub: "화물 인도 실무 · 특수 B/L과 전자화 · 복합운송과 책임 구간 · 유럽 트럭 운송(CMR) · 운임 미수와 유치권 · 운송인·파트너 도산 · 중국–유럽 철도(CIM·SMGS)", docs: ["bl-release", "bl-lien", "bl-insolvency", "bl-special", "bl-multimodal", "bl-cmr", "bl-rail"] },
     { title: "용선·전세기와 Sea & Air", sub: "항해·정기·선체용선 · 정박기간과 체선료 · FIO 조건 · BIMCO 서식 · 중량물 계약 · Sea & Air · 항공 전세기", docs: ["bl-charter", "bl-seaair"] }
   ];
   // 질문으로 찾기: 법령 이름을 몰라도 궁금한 것에서 문서를 찾아가게 한다.
@@ -64,8 +66,14 @@
     { name: "중국 화물을 배로 받아 인천에서 항공으로 보내요", ids: ["bl-seaair"] },
     { name: "화물기를 통째로 빌리려 해요", ids: ["bl-seaair"] },
     { name: "중국–유럽 철도로 보내면 책임과 서류는요", ids: ["bl-rail"] },
+    { name: "선사가 파산하면 실린 화물은 어떻게 되나요", ids: ["bl-insolvency"] },
+    { name: "터미널이 선사 미수금 때문에 화물을 안 내줘요", ids: ["bl-insolvency", "bl-lien"] },
+    { name: "해외 파트너가 부도났는데 House B/L은 어떻게 되나요", ids: ["bl-insolvency"] },
     { name: "운임을 못 받았는데 화물을 잡아도 되나요", ids: ["bl-lien"] },
     { name: "B/L과 AWB는 뭐가 다른가요", ids: ["bl-basics", "awb-basics"] },
+    { name: "신용장 건인데 B/L 초안에서 무엇을 대조해야 하나요", ids: ["bl-lc"] },
+    { name: "은행에서 B/L 하자라고 연락이 왔어요", ids: ["bl-lc"] },
+    { name: "House B/L도 신용장 네고에 쓸 수 있나요", ids: ["bl-lc", "bl-basics"] },
     { name: "신용장 거래인데 AWB 수하인은 누구로?", ids: ["awb-basics", "bl-release"] },
     { name: "서렌더 해 달라는데 뭘 하면 되나요", ids: ["bl-release"] },
     { name: "원본 B/L 없이 화물을 내줘도 되나요", ids: ["bl-release"] },

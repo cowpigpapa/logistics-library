@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="bm-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="24" width="1624" height="893" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="60" y="76" font-size="29" font-weight="800" fill="#1d2a3a">운송인 도산 시점에 화물이 어디 있나: 위치별 점유자·청구자·선택지</text>
+<text x="60" y="110" font-size="18" font-weight="600" fill="#5f6b78">해상 컨테이너 화물 기준. 실제 요구와 권리는 그 항만이 있는 나라의 법과 계약 조건에 따라 달라집니다</text>
+
+<!-- stage arrow strip -->
+<line x1="80" y1="150" x2="1592" y2="150" stroke="#1d2a3a" stroke-width="3" marker-end="url(#bm-ink)"/>
+
+<!-- Card 1 -->
+<rect x="60" y="168" width="370" height="560" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="60" y="168" width="370" height="62" rx="12" fill="#1f6fd1"/>
+<rect x="60" y="210" width="370" height="20" fill="#1f6fd1"/>
+<text x="80" y="208" font-size="21" font-weight="800" fill="#ffffff">① 선적 전 (출발지 터미널)</text>
+<text x="80" y="266" font-size="16" font-weight="800" fill="#1f6fd1">점유·통제</text>
+<text x="80" y="292" font-size="16" font-weight="500" fill="#1d2a3a">터미널 운영사, 선사가 지정한</text>
+<text x="80" y="316" font-size="16" font-weight="500" fill="#1d2a3a">CY. 부킹은 도산 선사 명의</text>
+<text x="80" y="362" font-size="16" font-weight="800" fill="#d9482b">비용을 청구하는 자</text>
+<text x="80" y="388" font-size="16" font-weight="500" fill="#1d2a3a">터미널의 반출·보관 비용,</text>
+<text x="80" y="412" font-size="16" font-weight="500" fill="#1d2a3a">선적 취소에 따른 비용</text>
+<text x="80" y="458" font-size="16" font-weight="800" fill="#1f8a5b">화주·포워더의 선택지</text>
+<text x="80" y="484" font-size="16" font-weight="500" fill="#1d2a3a">반출해 다른 선사로 다시 부킹</text>
+<text x="80" y="508" font-size="16" font-weight="500" fill="#1d2a3a">컨테이너는 선사·리스사 장비라</text>
+<text x="80" y="532" font-size="16" font-weight="500" fill="#1d2a3a">적출·재적입이 필요할 수 있음</text>
+<text x="80" y="556" font-size="16" font-weight="500" fill="#1d2a3a">이미 낸 운임은 도산채권으로</text>
+<text x="80" y="580" font-size="16" font-weight="500" fill="#1d2a3a">신고 대상이 됨</text>
+<rect x="76" y="616" width="338" height="94" rx="8" fill="#eef4fb"/>
+<text x="90" y="644" font-size="15" font-weight="700" fill="#1d2a3a">대응 수단이 가장 많은 단계</text>
+<text x="90" y="668" font-size="15" font-weight="500" fill="#34475c">선적 전이면 화물을 돌려받아</text>
+<text x="90" y="692" font-size="15" font-weight="500" fill="#34475c">다른 운송으로 바꿀 수 있습니다</text>
+
+<!-- Card 2 -->
+<rect x="450" y="168" width="370" height="560" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<rect x="450" y="168" width="370" height="62" rx="12" fill="#d9482b"/>
+<rect x="450" y="210" width="370" height="20" fill="#d9482b"/>
+<text x="470" y="208" font-size="21" font-weight="800" fill="#ffffff">② 선박 위 (항해·입항 대기)</text>
+<text x="470" y="266" font-size="16" font-weight="800" fill="#1f6fd1">점유·통제</text>
+<text x="470" y="292" font-size="16" font-weight="500" fill="#1d2a3a">운송인(선장). 빌린 배면</text>
+<text x="470" y="316" font-size="16" font-weight="500" fill="#1d2a3a">선박소유자도 이해관계자</text>
+<text x="470" y="362" font-size="16" font-weight="800" fill="#d9482b">비용을 청구하는 자</text>
+<text x="470" y="388" font-size="16" font-weight="500" fill="#1d2a3a">연료·예선·도선 등 선박 채권자</text>
+<text x="470" y="412" font-size="16" font-weight="500" fill="#1d2a3a">(선박 압류), 용선료를 못 받은</text>
+<text x="470" y="436" font-size="16" font-weight="500" fill="#1d2a3a">선박소유자(상법 제844조)</text>
+<text x="470" y="482" font-size="16" font-weight="800" fill="#1f8a5b">화주·포워더의 선택지</text>
+<text x="470" y="508" font-size="16" font-weight="500" fill="#1d2a3a">하역 항만·일정을 관리인과 현지</text>
+<text x="470" y="532" font-size="16" font-weight="500" fill="#1d2a3a">대리점에 서면으로 확인</text>
+<text x="470" y="556" font-size="16" font-weight="500" fill="#1d2a3a">압류 금지(Stay Order)가 있는</text>
+<text x="470" y="580" font-size="16" font-weight="500" fill="#1d2a3a">항만인지 확인</text>
+<rect x="466" y="616" width="338" height="94" rx="8" fill="#fdecea"/>
+<text x="480" y="644" font-size="15" font-weight="700" fill="#1d2a3a">가장 통제가 어려운 단계</text>
+<text x="480" y="668" font-size="15" font-weight="500" fill="#34475c">배가 압류를 피해 입항을 미루면</text>
+<text x="480" y="692" font-size="15" font-weight="500" fill="#34475c">화물도 선박 위에 억류됩니다</text>
+
+<!-- Card 3 -->
+<rect x="840" y="168" width="370" height="560" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2.5"/>
+<rect x="840" y="168" width="370" height="62" rx="12" fill="#b7791f"/>
+<rect x="840" y="210" width="370" height="20" fill="#b7791f"/>
+<text x="860" y="208" font-size="21" font-weight="800" fill="#ffffff">③ 하역 뒤 (양하·환적 터미널)</text>
+<text x="860" y="266" font-size="16" font-weight="800" fill="#1f6fd1">점유·통제</text>
+<text x="860" y="292" font-size="16" font-weight="500" fill="#1d2a3a">터미널 운영사·하역업자.</text>
+<text x="860" y="316" font-size="16" font-weight="500" fill="#1d2a3a">목적항이 아닌 곳일 수도 있음</text>
+<text x="860" y="362" font-size="16" font-weight="800" fill="#d9482b">비용을 청구하는 자</text>
+<text x="860" y="388" font-size="16" font-weight="500" fill="#1d2a3a">도산 선사가 안 낸 하역비·</text>
+<text x="860" y="412" font-size="16" font-weight="500" fill="#1d2a3a">보관료를 반출 조건으로 요구</text>
+<text x="860" y="458" font-size="16" font-weight="800" fill="#1f8a5b">화주·포워더의 선택지</text>
+<text x="860" y="484" font-size="16" font-weight="500" fill="#1d2a3a">대납하고 반출(영수증·근거 보관)</text>
+<text x="860" y="508" font-size="16" font-weight="500" fill="#1d2a3a">요구 근거가 그 화물 비용인지</text>
+<text x="860" y="532" font-size="16" font-weight="500" fill="#1d2a3a">서면으로 요구</text>
+<text x="860" y="556" font-size="16" font-weight="500" fill="#1d2a3a">환적이면 다른 선사로 대체 운송</text>
+<rect x="856" y="616" width="338" height="94" rx="8" fill="#fff7e6"/>
+<text x="870" y="644" font-size="15" font-weight="700" fill="#1d2a3a">대납 비용이 생기는 단계</text>
+<text x="870" y="668" font-size="15" font-weight="500" fill="#34475c">한진해운 비용 소송의 하역비·</text>
+<text x="870" y="692" font-size="15" font-weight="500" fill="#34475c">보관료·환적비가 여기서 생겼습니다</text>
+
+<!-- Card 4 -->
+<rect x="1230" y="168" width="370" height="560" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<rect x="1230" y="168" width="370" height="62" rx="12" fill="#1f8a5b"/>
+<rect x="1230" y="210" width="370" height="20" fill="#1f8a5b"/>
+<text x="1250" y="208" font-size="21" font-weight="800" fill="#ffffff">④ 도착지 창고·CFS·내륙</text>
+<text x="1250" y="266" font-size="16" font-weight="800" fill="#1f6fd1">점유·통제</text>
+<text x="1250" y="292" font-size="16" font-weight="500" fill="#1d2a3a">보세창고·CFS·트럭 회사.</text>
+<text x="1250" y="316" font-size="16" font-weight="500" fill="#1d2a3a">D/O 발행 주체가 관건</text>
+<text x="1250" y="362" font-size="16" font-weight="800" fill="#d9482b">비용을 청구하는 자</text>
+<text x="1250" y="388" font-size="16" font-weight="500" fill="#1d2a3a">창고 보관료·반출 비용, 선사가</text>
+<text x="1250" y="412" font-size="16" font-weight="500" fill="#1d2a3a">정산하지 않은 비용의 대납 요구</text>
+<text x="1250" y="458" font-size="16" font-weight="800" fill="#1f8a5b">화주·포워더의 선택지</text>
+<text x="1250" y="484" font-size="16" font-weight="500" fill="#1d2a3a">B/L 원본·서렌더 기록으로</text>
+<text x="1250" y="508" font-size="16" font-weight="500" fill="#1d2a3a">관리인·대리점에 D/O 요청</text>
+<text x="1250" y="532" font-size="16" font-weight="500" fill="#1d2a3a">창고·운송사와 직접 계약으로</text>
+<text x="1250" y="556" font-size="16" font-weight="500" fill="#1d2a3a">전환하고 비용 부담을 서면 확정</text>
+<rect x="1246" y="616" width="338" height="94" rx="8" fill="#eaf6f0"/>
+<text x="1260" y="644" font-size="15" font-weight="700" fill="#1d2a3a">House D/O는 포워더 몫</text>
+<text x="1260" y="668" font-size="15" font-weight="500" fill="#34475c">Master D/O가 안 나와도 House</text>
+<text x="1260" y="692" font-size="15" font-weight="500" fill="#34475c">D/O 통제는 포워더에게 남습니다</text>
+
+<!-- Bottom legal bar -->
+<rect x="60" y="752" width="1540" height="144" rx="12" fill="#1d2a3a"/>
+<text x="84" y="790" font-size="20" font-weight="800" fill="#ffffff">공통 원칙: 화물은 도산한 운송인의 재산이 아닙니다</text>
+<text x="84" y="822" font-size="17" font-weight="500" fill="#e7edf4">회생절차 개시와 파산선고는 채무자에게 속하지 않는 재산을 돌려받을 권리(환취권)에 영향을 주지 않습니다(채무자회생법 제70조·제407조).</text>
+<text x="84" y="850" font-size="17" font-weight="500" fill="#e7edf4">문제는 화물을 실제로 점유한 제3자입니다. 그가 화물을 유치할 권리가 있는지는 그 나라 법이 정하고,</text>
+<text x="84" y="878" font-size="17" font-weight="500" fill="#e7edf4">한국법에서는 민사유치권(그 화물에 관하여 생긴 채권)과 상사유치권(채무자 소유 물건)의 요건으로 따집니다.</text>
+</svg>

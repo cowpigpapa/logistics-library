@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d9482b"/></marker><marker id="aro" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e4572e"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48.0" y="66.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">B/L과 신용장 조건이 어긋날 때: 누가 무엇을 정하나</text>
+<text x="48.0" y="96.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">파랑은 포워더가 하는 일, 주황은 화주·수입자·은행이 정하는 일, 빨강은 하지 않는 것입니다. 은행 절차는 UCP 600 제14조·제16조와 대법원 판결을 단순화했습니다.</text>
+<rect x="586.0" y="116.0" width="500.0" height="76.0" rx="12" fill="#ffffff" stroke="#123d70" stroke-width="2.5"/>
+<text x="604.0" y="146.0" font-size="17" font-weight="800" fill="#123d70" text-anchor="start">B/L 초안을 신용장 사본과 대조</text>
+<text x="604.0" y="174.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">차이를 목록으로 정리해 화주에게 보낸다</text>
+<path d="M836 192 V214" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<rect x="611.0" y="218.0" width="450.0" height="60.0" rx="12" fill="#ffffff" stroke="#123d70" stroke-width="2.5"/>
+<text x="629.0" y="248.0" font-size="17" font-weight="800" fill="#123d70" text-anchor="start">차이의 원인을 먼저 나눈다</text>
+<path d="M611 248 H330 V300" stroke="#1f6fd1" stroke-width="3" fill="none" marker-end="url(#arb)"/>
+<path d="M930 278 V300" stroke="#e4572e" stroke-width="3" fill="none" marker-end="url(#aro)"/>
+<rect x="60.0" y="304.0" width="540.0" height="92.0" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="78.0" y="334.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">A. 기재 오류</text>
+<text x="78.0" y="362.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">B/L 글자가 화주 서류·선사 기록과 다르게 적힘(품번 오타, 은행명 철자,</text>
+<text x="78.0" y="384.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">통지처 주소 등)</text>
+<path d="M330.0 396 V416" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<rect x="60.0" y="420.0" width="540.0" height="70.0" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="78.0" y="450.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">원본 발행 전</text>
+<text x="78.0" y="478.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">초안을 화주 서류와 선사 기록대로 고쳐 다시 확인받는다</text>
+<path d="M330.0 490 V510" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<rect x="60.0" y="514.0" width="540.0" height="92.0" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="78.0" y="544.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">원본 발행 후</text>
+<text x="78.0" y="572.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">발행한 원본 전통을 회수해 정정(발행인 정정 인증)하거나 재발행한다. 회수</text>
+<text x="78.0" y="594.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">못 한 원본을 남기지 않는다</text>
+<path d="M330.0 606 V626" stroke="#1f6fd1" stroke-width="2.5" fill="none" marker-end="url(#arb)"/>
+<rect x="60.0" y="630.0" width="540.0" height="92.0" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="78.0" y="660.0" font-size="17" font-weight="800" fill="#1f6fd1" text-anchor="start">기록과 확인</text>
+<text x="78.0" y="688.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">회수·재발행 기록을 보관하고, 운송서류 정정 방식은 화주가 매입은행과</text>
+<text x="78.0" y="710.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">확인하게 한다</text>
+<rect x="640.0" y="304.0" width="580.0" height="92.0" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="658.0" y="334.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">B. 사실이 신용장 조건과 다름</text>
+<text x="658.0" y="362.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">선적일 경과, 환적, 분할선적, 항구 변경, 화물 외관 결함 등</text>
+<path d="M930.0 396 V416" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#aro)"/>
+<rect x="640.0" y="420.0" width="580.0" height="70.0" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="658.0" y="450.0" font-size="17" font-weight="800" fill="#e4572e" text-anchor="start">B/L은 사실대로 발행</text>
+<text x="658.0" y="478.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">포워더는 차이와 사실 자료(선사 적재 기록 등)를 화주에게 서면으로 알린다</text>
+<path d="M780 490 V532" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#aro)"/>
+<path d="M1080 490 V532" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#aro)"/>
+<rect x="640.0" y="536.0" width="280.0" height="150.0" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="658.0" y="566.0" font-size="16" font-weight="800" fill="#e4572e" text-anchor="start">조건변경(amendment)</text>
+<text x="658.0" y="594.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">화주가 수입자에게 요청, 수입자가</text>
+<text x="658.0" y="616.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">개설은행에 신청. 취소불능신용장은</text>
+<text x="658.0" y="638.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">수익자 동의 없이 바뀌지</text>
+<text x="658.0" y="660.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">않음(2008다88337)</text>
+<rect x="940.0" y="536.0" width="280.0" height="150.0" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="958.0" y="566.0" font-size="16" font-weight="800" fill="#e4572e" text-anchor="start">하자를 안고 제시</text>
+<text x="958.0" y="594.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">화주가 은행과 매입 조건을 정함.</text>
+<text x="958.0" y="616.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">개설은행은 개설의뢰인에게 하자</text>
+<text x="958.0" y="638.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">승인(waiver)을 물을 수 있음(제16조</text>
+<text x="958.0" y="660.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">b항)</text>
+<path d="M1080.0 686 V708" stroke="#e4572e" stroke-width="2.5" fill="none" marker-end="url(#aro)"/>
+<rect x="640.0" y="712.0" width="580.0" height="110.0" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="658.0" y="742.0" font-size="16" font-weight="800" fill="#e4572e" text-anchor="start">개설은행의 결정: 5은행영업일 안</text>
+<text x="658.0" y="770.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">지급하거나, 거절하는 하자를 하나하나 적어 통지(제16조 c항). 기간 뒤에는 처음에</text>
+<text x="658.0" y="792.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">적지 않은 새 하자로 거절할 수 없음(2000다60296)</text>
+<rect x="1250.0" y="304.0" width="374.0" height="518.0" rx="12" fill="#fff6f4" stroke="#d9482b" stroke-width="2.5"/>
+<text x="1270.0" y="340.0" font-size="19" font-weight="800" fill="#d9482b" text-anchor="start">하지 않는 것</text>
+<text x="1270.0" y="380.0" font-size="16" font-weight="800" fill="#d9482b" text-anchor="start">× 선적일 소급</text>
+<text x="1292.0" y="406.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">신용장 기한에 맞추려고 적재 표기 날짜를 앞당김</text>
+<text x="1270.0" y="444.0" font-size="16" font-weight="800" fill="#d9482b" text-anchor="start">× 사고 문언 삭제</text>
+<text x="1292.0" y="470.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">LOI를 받고 외관 결함 문구를 지움</text>
+<text x="1270.0" y="508.0" font-size="16" font-weight="800" fill="#d9482b" text-anchor="start">× Master B/L과 다른 기재</text>
+<text x="1292.0" y="534.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">선명·항구·날짜를 신용장에 맞춰 다르게 적음</text>
+<text x="1270.0" y="572.0" font-size="16" font-weight="800" fill="#d9482b" text-anchor="start">× B/L 두 벌</text>
+<text x="1292.0" y="598.0" font-size="14" font-weight="500" fill="#1d2a3a" text-anchor="start">은행용과 통관용을 따로 발행(2017다216776)</text>
+<text x="1270.0" y="642.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="start">은행은 서류만 보므로 통과될 수 있지만, 손해는</text>
+<text x="1270.0" y="662.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="start">B/L을 믿은 은행·수입자가 발행인에게 청구합니다.</text>
+<rect x="48.0" y="846.0" width="1576.0" height="56.0" rx="10" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="68.0" y="881.0" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="start">포워더가 고칠 수 있는 것은 B/L에 적는 글자뿐입니다. 사실이 조건과 다르면 조건변경과 하자 승인은 화주·수입자·은행이 정합니다.</text>
+</svg>

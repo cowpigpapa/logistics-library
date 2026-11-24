@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="24" width="1624" height="893" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="60" y="76" font-size="29" font-weight="800" fill="#1d2a3a">한진해운 사태 연표: 회생 신청부터 파산폐지까지</text>
+<text x="60" y="110" font-size="18" font-weight="600" fill="#5f6b78">법원 결정, 해양수산부·외교부·금융위원회 발표에 나온 날짜와 숫자만 적었습니다</text>
+
+<!-- Left column -->
+<rect x="60" y="134" width="760" height="46" rx="8" fill="#1f6fd1"/>
+<text x="80" y="165" font-size="20" font-weight="800" fill="#ffffff">2016년 8~9월: 신청 뒤 첫 3주</text>
+<line x1="92" y1="200" x2="92" y2="872" stroke="#9fb3c8" stroke-width="4"/>
+
+<circle cx="92" cy="214" r="9" fill="#1d2a3a"/>
+<text x="118" y="221" font-size="19" font-weight="800" fill="#1d2a3a">8. 30.</text>
+<text x="210" y="221" font-size="17" font-weight="600" fill="#1d2a3a">채권금융기관협의회가 지원 불가를 통보</text>
+
+<circle cx="92" cy="286" r="9" fill="#d9482b"/>
+<text x="118" y="293" font-size="19" font-weight="800" fill="#d9482b">8. 31.</text>
+<text x="210" y="293" font-size="17" font-weight="600" fill="#1d2a3a">서울중앙지법에 회생절차 개시 신청</text>
+<text x="210" y="319" font-size="16" font-weight="500" fill="#34475c">같은 날 보전처분과 포괄적 금지명령</text>
+
+<circle cx="92" cy="372" r="9" fill="#d9482b"/>
+<text x="118" y="379" font-size="19" font-weight="800" fill="#d9482b">9. 1.</text>
+<text x="210" y="379" font-size="17" font-weight="600" fill="#1d2a3a">회생절차 개시결정(2016회합100211)</text>
+<text x="210" y="405" font-size="16" font-weight="500" fill="#34475c">이후 선박·컨테이너 억류, 양하항 아닌 곳 하역, 부산 회항</text>
+
+<circle cx="92" cy="458" r="9" fill="#1d2a3a"/>
+<text x="118" y="465" font-size="19" font-weight="800" fill="#1d2a3a">9. 2.</text>
+<text x="210" y="465" font-size="17" font-weight="600" fill="#1d2a3a">미국 뉴저지 파산법원에 Chapter 15 승인 신청</text>
+<text x="210" y="491" font-size="16" font-weight="500" fill="#34475c">부산·인천 고박 작업 재개(밀린 작업비를 항만공사가 지급 보증)</text>
+<text x="210" y="515" font-size="16" font-weight="500" fill="#34475c">해양수산부 비상대응반, 물류업계와 비상운송 점검회의</text>
+
+<circle cx="92" cy="568" r="9" fill="#1d2a3a"/>
+<text x="118" y="575" font-size="19" font-weight="800" fill="#1d2a3a">9. 6.</text>
+<text x="210" y="575" font-size="17" font-weight="600" fill="#1d2a3a">미국 법원 임시 명령: 입항한 선박은 압류에서 보호</text>
+<text x="210" y="601" font-size="16" font-weight="500" fill="#34475c">다만 하역 뒤 출항은 다음 심리까지 보류</text>
+
+<circle cx="92" cy="654" r="9" fill="#1d2a3a"/>
+<text x="118" y="661" font-size="19" font-weight="800" fill="#1d2a3a">9. 9.</text>
+<text x="210" y="661" font-size="17" font-weight="600" fill="#1d2a3a">출항 제한 해제, 선박우선특권 채권자는 한국 절차로</text>
+<text x="210" y="687" font-size="16" font-weight="500" fill="#34475c">이날 확보된 자금은 미국행 13척 중 4척의 접안·하역 비용뿐</text>
+
+<circle cx="92" cy="740" r="9" fill="#1d2a3a"/>
+<text x="118" y="747" font-size="19" font-weight="800" fill="#1d2a3a">9. 20.</text>
+<text x="210" y="747" font-size="17" font-weight="600" fill="#1d2a3a">외교부 설명: 9개 부처 합동 TF 구성</text>
+<text x="210" y="773" font-size="16" font-weight="500" fill="#34475c">141척(컨테이너 97척, 벌크 44척) 중 30척 하역 완료</text>
+<text x="210" y="797" font-size="16" font-weight="500" fill="#34475c">Stay Order 발효국 위주로 거점항만을 정해 선박 집결·하역</text>
+<text x="210" y="821" font-size="16" font-weight="500" fill="#34475c">기선적 화물은 운송계약 당사자인 한진해운이 책임진다는 원칙</text>
+
+<!-- Right column -->
+<rect x="852" y="134" width="760" height="46" rx="8" fill="#1d2a3a"/>
+<text x="872" y="165" font-size="20" font-weight="800" fill="#ffffff">2016년 11월 이후: 하역 완료부터 파산폐지까지</text>
+<line x1="884" y1="200" x2="884" y2="872" stroke="#9fb3c8" stroke-width="4"/>
+
+<circle cx="884" cy="214" r="9" fill="#1f8a5b"/>
+<text x="910" y="221" font-size="19" font-weight="800" fill="#1f8a5b">2016. 11. 27.</text>
+<text x="1068" y="221" font-size="17" font-weight="600" fill="#1d2a3a">밴쿠버 하역을 끝으로 141척 하역 완료</text>
+<text x="1068" y="247" font-size="16" font-weight="500" fill="#34475c">대체선박 16척 투입</text>
+<text x="1068" y="271" font-size="16" font-weight="500" fill="#34475c">39.6만TEU 중 2.3만TEU(5.8%) 아직 미인도</text>
+<text x="1068" y="295" font-size="16" font-weight="500" fill="#34475c">중소화주·협력업체 금융 지원 694건, 3,837억 원</text>
+
+<circle cx="884" cy="350" r="9" fill="#d9482b"/>
+<text x="910" y="357" font-size="19" font-weight="800" fill="#d9482b">2017. 2. 2.</text>
+<text x="1068" y="357" font-size="17" font-weight="600" fill="#1d2a3a">회생절차 폐지</text>
+<text x="1068" y="383" font-size="16" font-weight="500" fill="#34475c">청산가치가 계속기업가치보다 높다는 판단</text>
+<text x="1068" y="407" font-size="16" font-weight="500" fill="#34475c">2. 3. 한진해운이 파산 신청</text>
+
+<circle cx="884" cy="462" r="9" fill="#d9482b"/>
+<text x="910" y="469" font-size="19" font-weight="800" fill="#d9482b">2017. 2. 17.</text>
+<text x="1068" y="469" font-size="17" font-weight="600" fill="#1d2a3a">서울중앙지법 파산선고</text>
+<text x="1068" y="495" font-size="16" font-weight="500" fill="#34475c">이 무렵 화물 39.6만TEU 중 38.7만TEU(97.7%)</text>
+<text x="1068" y="519" font-size="16" font-weight="500" fill="#34475c">화주에게 인도(금융위원회 2017. 2. 17. 자료)</text>
+
+<circle cx="884" cy="574" r="9" fill="#b7791f"/>
+<text x="910" y="581" font-size="19" font-weight="800" fill="#b7791f">2018~2021</text>
+<text x="1068" y="581" font-size="17" font-weight="600" fill="#1d2a3a">비용 소송 판결이 이어짐</text>
+<text x="1068" y="607" font-size="16" font-weight="500" fill="#34475c">터미널 사용료, 포워더·적하보험자의 하역비·</text>
+<text x="1068" y="631" font-size="16" font-weight="500" fill="#34475c">대체운송비 청구. 재단채권이냐 파산채권이냐가 쟁점</text>
+
+<circle cx="884" cy="686" r="9" fill="#1d2a3a"/>
+<text x="910" y="693" font-size="19" font-weight="800" fill="#1d2a3a">2025. 1. 23.</text>
+<text x="1068" y="693" font-size="17" font-weight="600" fill="#1d2a3a">서울회생법원 파산폐지 결정</text>
+<text x="1068" y="719" font-size="16" font-weight="500" fill="#34475c">환가액 약 4,771억 원이 재단채권</text>
+<text x="1068" y="743" font-size="16" font-weight="500" fill="#34475c">약 6,152억 원에도 못 미침(보도)</text>
+
+<rect x="910" y="782" width="690" height="96" rx="10" fill="#fff7e6" stroke="#b7791f" stroke-width="2"/>
+<text x="930" y="814" font-size="17" font-weight="800" fill="#1d2a3a">포워더에게 남는 교훈</text>
+<text x="930" y="842" font-size="16" font-weight="500" fill="#34475c">파산채권자에게 돌아간 배당은 없었습니다. 화물 반출을 위해</text>
+<text x="930" y="866" font-size="16" font-weight="500" fill="#34475c">낸 비용은 계약과 대납 근거를 남겨 화주와 먼저 정리합니다.</text>
+</svg>

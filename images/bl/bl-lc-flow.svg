@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d9482b"/></marker><marker id="aro" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e4572e"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48.0" y="66.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">신용장 거래에서 운송서류가 움직이는 길</text>
+<text x="48.0" y="96.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">주황 화살표는 운송서류(B/L 원본)의 이동, 회색 화살표는 신용장·화물·대금의 이동입니다. 번호는 일반적인 진행 순서입니다.</text>
+<rect x="60.0" y="150.0" width="300.0" height="120.0" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="78.0" y="184.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">수출자</text>
+<text x="78.0" y="208.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="start">수익자(beneficiary) · 수출지</text>
+<text x="78.0" y="234.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">물품을 싣고 서류를 갖춰</text>
+<rect x="686.0" y="150.0" width="300.0" height="120.0" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="704.0" y="184.0" font-size="20" font-weight="800" fill="#e4572e" text-anchor="start">포워더·운송인</text>
+<text x="704.0" y="208.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="start">신용장 당사자가 아님</text>
+<text x="704.0" y="234.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">House B/L·선사 B/L 발행</text>
+<rect x="1312.0" y="150.0" width="300.0" height="120.0" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="1330.0" y="184.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">수입자</text>
+<text x="1330.0" y="208.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="start">개설의뢰인(applicant) · 수입지</text>
+<text x="1330.0" y="234.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">대금을 내고 B/L을 받아</text>
+<rect x="60.0" y="520.0" width="300.0" height="150.0" rx="12" fill="#ffffff" stroke="#123d70" stroke-width="2.5"/>
+<text x="78.0" y="554.0" font-size="20" font-weight="800" fill="#123d70" text-anchor="start">통지·매입은행</text>
+<text x="78.0" y="578.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="start">지정은행(nominated bank) · 수출지</text>
+<text x="78.0" y="604.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">신용장 통지, 서류 심사</text>
+<text x="78.0" y="626.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">매입(대금 선지급)</text>
+<rect x="1312.0" y="520.0" width="300.0" height="150.0" rx="12" fill="#ffffff" stroke="#123d70" stroke-width="2.5"/>
+<text x="1330.0" y="554.0" font-size="20" font-weight="800" fill="#123d70" text-anchor="start">개설은행</text>
+<text x="1330.0" y="578.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="start">issuing bank · 수입지</text>
+<text x="1330.0" y="604.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">조건에 맞는 서류에</text>
+<text x="1330.0" y="626.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">지급을 약속</text>
+<text x="78.0" y="256.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">은행에 제시</text>
+<text x="704.0" y="256.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">도착지에서 B/L과 바꾸어 인도</text>
+<text x="1330.0" y="256.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">도착지에서 화물 인수</text>
+<path d="M210 150 V128 H1462 V150" stroke="#5f6b78" stroke-width="2" fill="none" stroke-dasharray="8 6"/>
+<text x="836.0" y="122.0" font-size="16" font-weight="700" fill="#5f6b78" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">① 매매계약(결제 조건: 신용장)</text>
+<path d="M360 186 H682" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="523.0" y="176.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">⑤ 화물 인도</text>
+<path d="M986 186 H1308" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="1149.0" y="176.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">화물 운송</text>
+<path d="M686 236 H364" stroke="#e4572e" stroke-width="3.5" fill="none" marker-end="url(#aro)"/>
+<text x="523.0" y="260.0" font-size="15" font-weight="800" fill="#e4572e" text-anchor="middle">⑥ B/L 원본 발행(전통)</text>
+<path d="M1312 236 H990" stroke="#e4572e" stroke-width="3.5" fill="none" marker-end="url(#aro)"/>
+<text x="1149.0" y="260.0" font-size="15" font-weight="800" fill="#e4572e" text-anchor="middle">⑪ B/L 제시 → 화물 인도</text>
+<path d="M130 520 V274" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="142.0" y="392.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="start">④ 신용장 통지</text>
+<path d="M300 270 V516" stroke="#e4572e" stroke-width="3.5" fill="none" marker-end="url(#aro)"/>
+<text x="312.0" y="372.0" font-size="15" font-weight="800" fill="#e4572e" text-anchor="start">⑦ B/L 등 서류 제시</text>
+<text x="312.0" y="394.0" font-size="14" font-weight="600" fill="#e4572e" text-anchor="start">선적일 후 21일 안,</text>
+<text x="312.0" y="414.0" font-size="14" font-weight="600" fill="#e4572e" text-anchor="start">유효기일 안(제14조 c항)</text>
+<path d="M1540 270 V516" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="1530.0" y="392.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="end">② 개설 신청</text>
+<path d="M1384 520 V274" stroke="#e4572e" stroke-width="3.5" fill="none" marker-end="url(#aro)"/>
+<text x="1374.0" y="382.0" font-size="15" font-weight="800" fill="#e4572e" text-anchor="end">⑩ 대금 결제 후</text>
+<text x="1374.0" y="404.0" font-size="15" font-weight="800" fill="#e4572e" text-anchor="end">B/L 원본 인도</text>
+<path d="M1312 556 H364" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="836.0" y="546.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">③ 신용장 개설·통지(SWIFT MT 700)</text>
+<path d="M360 606 H1308" stroke="#e4572e" stroke-width="3.5" fill="none" marker-end="url(#aro)"/>
+<text x="836.0" y="596.0" font-size="15" font-weight="800" fill="#e4572e" text-anchor="middle">⑧ B/L 등 서류 송부·상환 청구</text>
+<path d="M1312 656 H364" stroke="#5f6b78" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<text x="836.0" y="646.0" font-size="15" font-weight="700" fill="#5f6b78" text-anchor="middle">⑨ 서류 심사(제시 다음 날부터 최대 5은행영업일, 제14조 b항) 뒤 상환</text>
+<rect x="48.0" y="716.0" width="510.7" height="156.0" rx="12" fill="#ffffff" stroke="#e4572e" stroke-width="2.5"/>
+<text x="68.0" y="748.0" font-size="18" font-weight="800" fill="#e4572e" text-anchor="start">운송서류의 두 역할</text>
+<text x="68.0" y="784.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">① 선적 이행의 증거: 선적항·선적일·물품명세</text>
+<text x="68.0" y="814.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">② 은행의 담보: 은행이 지시식 B/L 원본을</text>
+<text x="68.0" y="844.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">    보유하는 동안 화물 인도를 통제</text>
+<rect x="580.7" y="716.0" width="510.7" height="156.0" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="600.7" y="748.0" font-size="18" font-weight="800" fill="#1f6fd1" text-anchor="start">은행은 서류 문면만 심사</text>
+<text x="600.7" y="784.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">화물 상태와 매매계약은 보지 않음(독립·추상성)</text>
+<text x="600.7" y="814.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">사기를 알았거나 의심할 이유가 있으면 예외</text>
+<text x="600.7" y="844.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">대법원 2017다216776 · 93다15632 · 2000다60296</text>
+<rect x="1113.3" y="716.0" width="510.7" height="156.0" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<text x="1133.3" y="748.0" font-size="18" font-weight="800" fill="#d9482b" text-anchor="start">포워더의 위치</text>
+<text x="1133.3" y="784.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">신용장 당사자가 아니라 운송서류 발행인</text>
+<text x="1133.3" y="814.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">B/L 한 줄이 수출자의 대금 회수를 좌우</text>
+<text x="1133.3" y="844.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">사실과 다른 기재의 책임은 발행인에게</text>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker><marker id="arb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d9482b"/></marker><marker id="aro" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e4572e"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f8a5b"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48.0" y="66.0" font-size="26" font-weight="800" fill="#1d2a3a" text-anchor="start">UCP 600 운송서류 조항 지도: 서류 이름이 아니라 덮는 운송으로 정해진다</text>
+<text x="48.0" y="96.0" font-size="16" font-weight="600" fill="#5f6b78" text-anchor="start">조항 요지를 단순화했습니다. 개별 신용장은 이 규정을 바꾸거나 배제할 수 있으므로 실제 기준은 신용장 문언입니다.</text>
+<rect x="48.0" y="118.0" width="170.0" height="74.0" rx="8" fill="#eef2f6" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="62.0" y="162.0" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">심사 항목</text>
+<rect x="221.0" y="118.0" width="228.3" height="74.0" rx="8" fill="#1f6fd1" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="335.2" y="150.0" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">제19조</text>
+<text x="335.2" y="176.0" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">복합운송서류</text>
+<rect x="455.3" y="118.0" width="228.3" height="74.0" rx="8" fill="#123d70" stroke="#123d70" stroke-width="1.5"/>
+<text x="569.5" y="150.0" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">제20조</text>
+<text x="569.5" y="176.0" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">선하증권(B/L)</text>
+<rect x="689.7" y="118.0" width="228.3" height="74.0" rx="8" fill="#123d70" stroke="#123d70" stroke-width="1.5"/>
+<text x="803.8" y="150.0" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">제21조</text>
+<text x="803.8" y="176.0" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">비유통 해상화물운송장</text>
+<rect x="924.0" y="118.0" width="228.3" height="74.0" rx="8" fill="#c77700" stroke="#c77700" stroke-width="1.5"/>
+<text x="1038.2" y="150.0" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">제22조</text>
+<text x="1038.2" y="176.0" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">용선계약 선하증권</text>
+<rect x="1158.3" y="118.0" width="228.3" height="74.0" rx="8" fill="#1f8a5b" stroke="#1f8a5b" stroke-width="1.5"/>
+<text x="1272.5" y="150.0" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">제23조</text>
+<text x="1272.5" y="176.0" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">항공운송서류</text>
+<rect x="1392.7" y="118.0" width="228.3" height="74.0" rx="8" fill="#5f6b78" stroke="#5f6b78" stroke-width="1.5"/>
+<text x="1506.8" y="150.0" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">제24조</text>
+<text x="1506.8" y="176.0" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">도로·철도·내수로</text>
+<rect x="48.0" y="200.0" width="170.0" height="80.0" rx="6" fill="#eef2f6" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="62.0" y="245.5" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">대상 운송</text>
+<rect x="221.0" y="200.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="233.0" y="234.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">두 가지 이상 운송 방법을</text>
+<text x="233.0" y="257.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">덮는 서류</text>
+<rect x="455.3" y="200.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="467.3" y="245.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">항구 간 해상운송</text>
+<rect x="689.7" y="200.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="701.7" y="234.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">원본 없이 인도하는</text>
+<text x="701.7" y="257.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">해상운송(SWB)</text>
+<rect x="924.0" y="200.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="936.0" y="234.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">용선계약에 따른다는 표시가</text>
+<text x="936.0" y="257.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">있는 B/L</text>
+<rect x="1158.3" y="200.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1170.3" y="245.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">공항 간 항공운송(AWB)</text>
+<rect x="1392.7" y="200.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1404.7" y="245.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">트럭(CMR)·철도·내수로</text>
+<rect x="48.0" y="286.0" width="170.0" height="80.0" rx="6" fill="#eef2f6" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="62.0" y="331.5" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">환적의 뜻</text>
+<rect x="221.0" y="286.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="233.0" y="320.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">운송수단을 바꿔 싣기</text>
+<text x="233.0" y="343.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">(운송 방법은 묻지 않음)</text>
+<rect x="455.3" y="286.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="467.3" y="320.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">적재항~양륙항 사이에서</text>
+<text x="467.3" y="343.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">선박을 바꿔 싣기</text>
+<rect x="689.7" y="286.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="701.7" y="320.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">제20조와 같음</text>
+<text x="701.7" y="343.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">(선박을 바꿔 싣기)</text>
+<rect x="924.0" y="286.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="936.0" y="331.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">환적 규정 없음</text>
+<rect x="1158.3" y="286.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1170.3" y="320.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">출발~도착 공항 사이에서</text>
+<text x="1170.3" y="343.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">항공기를 바꿔 싣기</text>
+<rect x="1392.7" y="286.0" width="228.3" height="80.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1404.7" y="320.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">같은 운송 방법 안에서</text>
+<text x="1404.7" y="343.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">운송수단을 바꿔 싣기</text>
+<rect x="48.0" y="372.0" width="170.0" height="120.0" rx="6" fill="#eef2f6" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="62.0" y="437.5" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">환적 수리</text>
+<rect x="221.0" y="372.0" width="228.3" height="120.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="233.0" y="414.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">한 서류가 전 구간을 덮으면</text>
+<text x="233.0" y="437.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">표시 가능, 신용장이</text>
+<text x="233.0" y="460.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">금지해도 수리</text>
+<rect x="455.3" y="372.0" width="228.3" height="120.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="467.3" y="403.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">한 B/L이 전 구간을 덮으면</text>
+<text x="467.3" y="426.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">가능, 금지해도</text>
+<text x="467.3" y="449.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">컨테이너·트레일러·LASH</text>
+<text x="467.3" y="472.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">바지면 수리</text>
+<rect x="689.7" y="372.0" width="228.3" height="120.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="701.7" y="437.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">제20조와 실질적으로 같음</text>
+<rect x="924.0" y="372.0" width="228.3" height="120.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="936.0" y="437.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">환적 규정 없음</text>
+<rect x="1158.3" y="372.0" width="228.3" height="120.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1170.3" y="426.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">한 서류가 전 구간을 덮으면</text>
+<text x="1170.3" y="449.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">가능, 금지해도 수리</text>
+<rect x="1392.7" y="372.0" width="228.3" height="120.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1404.7" y="426.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">한 서류가 전 구간을 덮으면</text>
+<text x="1404.7" y="449.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">가능, 금지해도 수리</text>
+<rect x="48.0" y="498.0" width="170.0" height="197.0" rx="6" fill="#eef2f6" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="62.0" y="602.0" font-size="16" font-weight="800" fill="#1d2a3a" text-anchor="start">함께 볼 점</text>
+<rect x="221.0" y="498.0" width="228.3" height="197.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="233.0" y="567.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">내륙 수탁 House B/L이</text>
+<text x="233.0" y="590.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">흔히 해당. 신용장의</text>
+<text x="233.0" y="613.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">장소에서 발송·수탁·본선</text>
+<text x="233.0" y="636.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">적재되었다는 표시</text>
+<rect x="455.3" y="498.0" width="228.3" height="197.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="467.3" y="556.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">운송인·선장 또는 그 지정</text>
+<text x="467.3" y="579.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">대리인의 서명, 신용장</text>
+<text x="467.3" y="602.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">적재항에서 본선 적재 표시.</text>
+<text x="467.3" y="625.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">용선계약 표시가 있으면</text>
+<text x="467.3" y="648.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">하자(2012다113438)</text>
+<rect x="689.7" y="498.0" width="228.3" height="197.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="701.7" y="590.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">근거리 해상, 원본 없이</text>
+<text x="701.7" y="613.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">수하인 확인으로 인도</text>
+<rect x="924.0" y="498.0" width="228.3" height="197.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="936.0" y="579.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">신용장이 요구하거나</text>
+<text x="936.0" y="602.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">허용할 때만 수리</text>
+<text x="936.0" y="625.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">(2012다113438)</text>
+<rect x="1158.3" y="498.0" width="228.3" height="197.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1170.3" y="579.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">House AWB. 권리증권이</text>
+<text x="1170.3" y="602.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">아니어서 은행을 수하인으로</text>
+<text x="1170.3" y="625.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">적는 경우가 많음</text>
+<rect x="1392.7" y="498.0" width="228.3" height="197.0" rx="6" fill="#ffffff" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1404.7" y="590.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">유럽 트럭(CMR)·</text>
+<text x="1404.7" y="613.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">중국–유럽 철도</text>
+<rect x="48.0" y="709.0" width="1576.0" height="188.0" rx="12" fill="#ffffff" stroke="#d9482b" stroke-width="2.5"/>
+<text x="68.0" y="741.0" font-size="17" font-weight="800" fill="#d9482b" text-anchor="start">모든 운송서류에 함께 적용</text>
+<text x="68.0" y="773.0" font-size="16" font-weight="800" fill="#123d70" text-anchor="start">제14조 c항</text>
+<text x="68.0" y="801.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">선적일 후 21일 안, 그리고 유효기일 안에 원본</text>
+<text x="68.0" y="823.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">운송서류를 제시</text>
+<text x="456.0" y="773.0" font-size="16" font-weight="800" fill="#123d70" text-anchor="start">제14조 l항</text>
+<text x="456.0" y="801.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">운송인·선주·선장·용선자가 아닌 자(포워더)도 요건을</text>
+<text x="456.0" y="823.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">갖추면 발행 가능</text>
+<text x="844.0" y="773.0" font-size="16" font-weight="800" fill="#123d70" text-anchor="start">제26조</text>
+<text x="844.0" y="801.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">갑판 적재 표시는 불가, '갑판에 적재될 수 있음'과 부지</text>
+<text x="844.0" y="823.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">문구는 수리</text>
+<text x="1232.0" y="773.0" font-size="16" font-weight="800" fill="#123d70" text-anchor="start">제27조</text>
+<text x="1232.0" y="801.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">하자 상태를 명시한 문구가 없으면 무고장,</text>
+<text x="1232.0" y="823.0" font-size="15" font-weight="500" fill="#1d2a3a" text-anchor="start">'clean'이라는 단어는 불필요</text>
+<text x="68.0" y="875.0" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="start">보험서류는 제28조로 따로 심사합니다. 제25조(특송·우편 영수증)는 이 그림에서 뺐습니다.</text>
+</svg>

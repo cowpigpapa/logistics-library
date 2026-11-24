@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="br-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker>
+<marker id="br-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#d9482b"/></marker>
+<marker id="br-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker>
+<marker id="br-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="24" width="1624" height="893" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="60" y="76" font-size="29" font-weight="800" fill="#1d2a3a">화물 반출을 위해 낸 비용은 누구에게 돌려받나: 대납과 구상의 흐름</text>
+<text x="60" y="110" font-size="18" font-weight="600" fill="#5f6b78">한진해운 사태에서 실제로 생긴 흐름과 한국 법원의 판단. 판결은 이필복(2022) 논문에 정리된 사건번호 기준입니다</text>
+
+<!-- Top: terminal -->
+<rect x="610" y="136" width="452" height="92" rx="12" fill="#fdecea" stroke="#d9482b" stroke-width="2.5"/>
+<text x="836" y="174" font-size="20" font-weight="800" fill="#1d2a3a" text-anchor="middle">터미널·하역업자·창고·대체 선사</text>
+<text x="836" y="206" font-size="16" font-weight="500" fill="#34475c" text-anchor="middle">도산 선사가 안 낸 하역비·보관료를 반출 조건으로</text>
+
+<!-- arrows terminal <-> forwarder -->
+<line x1="760" y1="232" x2="760" y2="320" stroke="#d9482b" stroke-width="3" marker-end="url(#br-red)"/>
+<text x="748" y="270" font-size="15" font-weight="700" fill="#d9482b" text-anchor="end">① 비용 청구</text>
+<line x1="912" y1="320" x2="912" y2="236" stroke="#1d2a3a" stroke-width="3" marker-end="url(#br-ink)"/>
+<text x="924" y="270" font-size="15" font-weight="700" fill="#1d2a3a">② 대납하고 화물 반출</text>
+<text x="924" y="292" font-size="14" font-weight="500" fill="#5f6b78">(화주가 직접 내기도 함)</text>
+
+<!-- Center: forwarder -->
+<rect x="610" y="324" width="452" height="150" rx="12" fill="#ffffff" stroke="#1d2a3a" stroke-width="2.5"/>
+<text x="836" y="362" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">포워더</text>
+<text x="836" y="394" font-size="16" font-weight="600" fill="#34475c" text-anchor="middle">자기 이름으로 선사와 운송계약(Master B/L)</text>
+<text x="836" y="422" font-size="16" font-weight="500" fill="#34475c" text-anchor="middle">주선인으로 남았나, 운송을 인수했나에 따라</text>
+<text x="836" y="446" font-size="16" font-weight="500" fill="#34475c" text-anchor="middle">화주에 대한 의무와 구상 근거가 달라짐</text>
+
+<!-- Left: shipper -->
+<rect x="60" y="324" width="400" height="150" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="260" y="362" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주(위탁자)</text>
+<text x="260" y="394" font-size="16" font-weight="500" fill="#34475c" text-anchor="middle">견적·부킹 조건, 운송 조건에</text>
+<text x="260" y="418" font-size="16" font-weight="500" fill="#34475c" text-anchor="middle">비용 부담 조항이 있는지가 출발점</text>
+
+<line x1="606" y1="400" x2="466" y2="400" stroke="#1f6fd1" stroke-width="3" marker-end="url(#br-blue)"/>
+<text x="536" y="388" font-size="14" font-weight="800" fill="#1f6fd1" text-anchor="middle">③ 화주에게 상환</text>
+<rect x="470" y="486" width="300" height="104" rx="8" fill="#eef4fb"/>
+<text x="484" y="512" font-size="14" font-weight="700" fill="#1d2a3a">주선인이면: 위임 비용상환</text>
+<text x="484" y="534" font-size="14" font-weight="500" fill="#34475c">(상법 제123조·제112조, 민법 제688조)</text>
+<text x="484" y="558" font-size="14" font-weight="700" fill="#1d2a3a">운송을 인수했으면: 운송 완수는</text>
+<text x="484" y="580" font-size="14" font-weight="500" fill="#34475c">자기 의무, 계약 조항이 없으면 부담</text>
+<line x1="536" y1="408" x2="536" y2="484" stroke="#1f6fd1" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+<!-- Right: insolvent carrier -->
+<rect x="1212" y="324" width="400" height="150" rx="12" fill="#f4f0fa" stroke="#6b4fa0" stroke-width="2.5"/>
+<text x="1412" y="362" font-size="21" font-weight="800" fill="#1d2a3a" text-anchor="middle">도산 운송인</text>
+<text x="1412" y="392" font-size="16" font-weight="600" fill="#34475c" text-anchor="middle">회생: 관리인 → 파산: 파산관재인</text>
+<text x="1412" y="420" font-size="15" font-weight="500" fill="#34475c" text-anchor="middle">재단채권이면 수시로 청구할 수 있고</text>
+<text x="1412" y="444" font-size="15" font-weight="500" fill="#34475c" text-anchor="middle">파산채권이면 신고하고 배당을 기다림</text>
+
+<line x1="1066" y1="400" x2="1206" y2="400" stroke="#6b4fa0" stroke-width="3" marker-end="url(#br-ink)"/>
+<text x="1136" y="388" font-size="14" font-weight="800" fill="#6b4fa0" text-anchor="middle">④ 운송인에게 청구</text>
+<line x1="1136" y1="408" x2="1136" y2="484" stroke="#6b4fa0" stroke-width="1.5" stroke-dasharray="4 4"/>
+<rect x="900" y="486" width="400" height="104" rx="8" fill="#f4f0fa"/>
+<text x="914" y="512" font-size="14" font-weight="700" fill="#1d2a3a">사무관리·부당이득이면 공익채권(제179조</text>
+<text x="914" y="534" font-size="14" font-weight="500" fill="#34475c">제1항 제6호) → 파산 뒤 재단채권</text>
+<text x="914" y="558" font-size="14" font-weight="700" fill="#1d2a3a">운송계약 불이행 손해배상이면</text>
+<text x="914" y="580" font-size="14" font-weight="500" fill="#34475c">회생채권(제118조·제121조) → 파산채권</text>
+
+<!-- Insurer -->
+<rect x="60" y="500" width="380" height="90" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<text x="250" y="536" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">적하보험자</text>
+<text x="250" y="566" font-size="15" font-weight="500" fill="#34475c" text-anchor="middle">증권 조건에 따라 보험금 지급 뒤 대위</text>
+<line x1="250" y1="478" x2="250" y2="496" stroke="#1f8a5b" stroke-width="2.5" marker-end="url(#br-green)"/>
+
+<!-- Judgments panel -->
+<rect x="60" y="614" width="1552" height="282" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<rect x="60" y="614" width="1552" height="46" rx="12" fill="#1d2a3a"/>
+<rect x="60" y="646" width="1552" height="14" fill="#1d2a3a"/>
+<text x="84" y="645" font-size="19" font-weight="800" fill="#ffffff">한진해운 파산관재인을 상대로 한 비용 청구, 법원의 결론(모두 확정)</text>
+
+<text x="84" y="694" font-size="16" font-weight="800" fill="#1d2a3a">적하보험자의 대위 청구</text>
+<text x="420" y="694" font-size="16" font-weight="500" fill="#34475c">화주의 대체운송비·보관료·환적비를 보험금으로 지급한 뒤 청구</text>
+<text x="1110" y="694" font-size="16" font-weight="700" fill="#d9482b">공익채권 아님, 소 각하</text>
+<text x="1330" y="694" font-size="14" font-weight="500" fill="#5f6b78">서울중앙지법 2017가합560034</text>
+
+<line x1="84" y1="712" x2="1588" y2="712" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="84" y="742" font-size="16" font-weight="800" fill="#1d2a3a">운송을 인수한 포워더</text>
+<text x="420" y="742" font-size="16" font-weight="500" fill="#34475c">하역비·대체운송비·환적비 청구. 화주에게 운송할 의무가 있어 사무관리 부정</text>
+<text x="1110" y="742" font-size="16" font-weight="700" fill="#d9482b">공익채권 아님, 소 각하</text>
+<text x="1330" y="742" font-size="14" font-weight="500" fill="#5f6b78">서울고법 2019나2057979</text>
+
+<line x1="84" y1="760" x2="1588" y2="760" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="84" y="790" font-size="16" font-weight="800" fill="#1d2a3a">주선인 지위로 본 포워더</text>
+<text x="420" y="790" font-size="16" font-weight="500" fill="#34475c">미국 서부 항구 하역비 등 대납. 사무관리 또는 부당이득으로 인정</text>
+<text x="1110" y="790" font-size="16" font-weight="700" fill="#1f8a5b">공익채권, 재단채권 지급</text>
+<text x="1330" y="790" font-size="14" font-weight="500" fill="#5f6b78">서울중앙지법 2017가합521596</text>
+
+<line x1="84" y1="808" x2="1588" y2="808" stroke="#e3e8ee" stroke-width="1.5"/>
+<text x="84" y="838" font-size="16" font-weight="800" fill="#1d2a3a">터미널 운영사의 사용료</text>
+<text x="420" y="838" font-size="16" font-weight="500" fill="#34475c">개시 후 터미널 서비스 비용은 재단채권이나, 화주·포워더 등이 이미 냄</text>
+<text x="1110" y="838" font-size="16" font-weight="700" fill="#5f6b78">청구 기각(이미 변제)</text>
+<text x="1330" y="838" font-size="14" font-weight="500" fill="#5f6b78">서울중앙지법 2017가합575142 등</text>
+
+<text x="84" y="878" font-size="15" font-weight="600" fill="#b7791f">비슷한 비용 청구에서도 결론이 갈렸습니다. 주선인으로 남았는지, 운송을 인수했는지가 판결문의 사실인정에서 달랐습니다.</text>
+</svg>

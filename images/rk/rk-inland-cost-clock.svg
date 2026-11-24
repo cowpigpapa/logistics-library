@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">운송이 멈추면 쌓이는 비용: 수입·수출 컨테이너의 시계 (5절)</text>
+<text x="40" y="92" font-size="17" font-weight="600" fill="#34475c" text-anchor="start">구조만 보인 그림입니다. 기산일, free time, 통합 여부는 선사·터미널 요율표로 확인합니다(금액 없음).</text>
+<text x="40" y="150" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="start">수입</text>
+<rect x="700" y="165" width="360" height="300" fill="#fdeeea" stroke="none" stroke-width="0" rx="0"/>
+<text x="880" y="190" font-size="16" font-weight="800" fill="#d9482b" text-anchor="middle">운송 중단: 터미널에서 반출하지 못함</text>
+<line x1="220" y1="430" x2="1620" y2="430" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#m1d2a3a)"/>
+<circle cx="260" cy="430" r="7" fill="#1d2a3a"/>
+<text x="260" y="460" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">양하</text>
+<circle cx="580" cy="430" r="7" fill="#1d2a3a"/>
+<text x="580" y="460" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">무료 기간 끝</text>
+<circle cx="1100" cy="430" r="7" fill="#1d2a3a"/>
+<text x="1100" y="460" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">터미널 반출</text>
+<circle cx="1480" cy="430" r="7" fill="#1d2a3a"/>
+<text x="1480" y="460" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">빈 컨테이너 반납</text>
+<rect x="260" y="215" width="840" height="34" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="6"/>
+<text x="272" y="238" font-size="15" font-weight="700" fill="#8a96a3" text-anchor="start">터미널 보관료: 양하부터 반출까지(터미널 무료 기간 뒤 과금)</text>
+<rect x="580" y="260" width="520" height="34" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="6"/>
+<text x="592" y="283" font-size="15" font-weight="700" fill="#d9482b" text-anchor="start">Demurrage(분리형): 터미널 안 적컨테이너</text>
+<rect x="1100" y="305" width="380" height="34" fill="#fdf2e6" stroke="#c46a12" stroke-width="2" rx="6"/>
+<text x="1112" y="328" font-size="15" font-weight="700" fill="#c46a12" text-anchor="start">Detention(분리형): 반출부터 반납까지</text>
+<rect x="260" y="350" width="1220" height="34" fill="#eef1f5" stroke="#1d2a3a" stroke-width="2" rx="6" stroke-dasharray="7 5"/>
+<text x="272" y="373" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="start">통합 D&amp;D를 쓰는 선사: 양하부터 빈 컨테이너 반납까지 한 시계</text>
+<text x="40" y="530" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="start">수출</text>
+<rect x="620" y="545" width="380" height="255" fill="#fdeeea" stroke="none" stroke-width="0" rx="0"/>
+<text x="810" y="570" font-size="16" font-weight="800" fill="#d9482b" text-anchor="middle">운송 중단: 터미널에 반입하지 못함</text>
+<line x1="220" y1="770" x2="1620" y2="770" stroke="#1d2a3a" stroke-width="2.5" marker-end="url(#m1d2a3a)"/>
+<circle cx="260" cy="770" r="7" fill="#1d2a3a"/>
+<text x="260" y="800" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">빈 컨테이너 반출</text>
+<circle cx="560" cy="770" r="7" fill="#1d2a3a"/>
+<text x="560" y="800" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">적입 완료</text>
+<circle cx="900" cy="770" r="7" fill="#1d2a3a"/>
+<text x="900" y="800" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">서류·CY 마감</text>
+<circle cx="1060" cy="770" r="7" fill="#1d2a3a"/>
+<text x="1060" y="800" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">터미널 반입</text>
+<circle cx="1420" cy="770" r="7" fill="#1d2a3a"/>
+<text x="1420" y="800" font-size="16" font-weight="700" fill="#1d2a3a" text-anchor="middle">다음 배선 선적</text>
+<rect x="260" y="600" width="800" height="34" fill="#fdf2e6" stroke="#c46a12" stroke-width="2" rx="6"/>
+<text x="272" y="623" font-size="15" font-weight="700" fill="#c46a12" text-anchor="start">Detention: 빈 컨테이너 반출부터 터미널 반입까지(free time 뒤 과금)</text>
+<rect x="1060" y="645" width="360" height="34" fill="#fdeeea" stroke="#d9482b" stroke-width="2" rx="6"/>
+<text x="1072" y="668" font-size="15" font-weight="700" fill="#d9482b" text-anchor="start">반입 뒤 선적까지 보관료·Demurrage</text>
+<rect x="900" y="690" width="520" height="34" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2" rx="6"/>
+<text x="912" y="713" font-size="15" font-weight="700" fill="#8a96a3" text-anchor="start">마감을 넘겨 롤오버: 다음 배선까지 대기</text>
+<rect x="40" y="830" width="1592" height="90" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="836.0" y="866.1" font-size="19" font-weight="800" fill="#1f6fd1" text-anchor="middle">포워더가 할 일</text>
+<text x="836.0" y="897.1" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">컨테이너마다 Last Free Day를 날짜로 계산 → 화주에게 서면 통지 → free time 연장·반입 일정 조정은 선사·터미널에 서면 요청 → 비용 부담은 계약 조항으로 정리</text>
+</svg>

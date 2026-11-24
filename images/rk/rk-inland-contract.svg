@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="m1d2a3a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1d2a3a"/></marker><marker id="m1f6fd1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f6fd1"/></marker><marker id="m1f8a5b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1f8a5b"/></marker><marker id="m8a96a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8a96a3"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<text x="40" y="58" font-size="25" font-weight="800" fill="#1d2a3a" text-anchor="start">컨테이너 내륙운송의 계약 관계: 화주에서 화물차주까지 (1절)</text>
+<text x="40" y="92" font-size="17" font-weight="600" fill="#34475c" text-anchor="start">화물자동차 운수사업법과 2026년 적용 안전운임 고시 기준. 화살표는 운송을 맡기는 방향입니다.</text>
+<rect x="40" y="190" width="250" height="150" fill="#eef1f5" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="165.0" y="245.7" font-size="22" font-weight="800" fill="#1d2a3a" text-anchor="middle">화주</text>
+<text x="165.0" y="276.7" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">수출입자</text>
+<text x="165.0" y="299.7" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">(자기 명의 화물)</text>
+<rect x="360" y="190" width="330" height="150" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="525.0" y="234.2" font-size="22" font-weight="800" fill="#1f6fd1" text-anchor="middle">포워더</text>
+<text x="525.0" y="265.2" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">국제물류주선업자</text>
+<text x="525.0" y="288.2" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">수출입화물 국내 운송 주선</text>
+<text x="525.0" y="311.2" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">제26조 준수사항 적용(제26조의2)</text>
+<rect x="770" y="190" width="300" height="150" fill="#f1f3f6" stroke="#8a96a3" stroke-width="2.5" rx="12" stroke-dasharray="8 6"/>
+<text x="920.0" y="233.2" font-size="19" font-weight="800" fill="#8a96a3" text-anchor="middle">운송주선사업자(있으면)</text>
+<text x="920.0" y="264.1" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">제24조 허가</text>
+<text x="920.0" y="287.1" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">다른 주선사업자에게 재계약·</text>
+<text x="920.0" y="310.1" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">수수료 받는 재의뢰 금지(제26조)</text>
+<rect x="1140" y="190" width="492" height="150" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1386.0" y="234.2" font-size="22" font-weight="800" fill="#1f8a5b" text-anchor="middle">운송사(일반 운송사업자)</text>
+<text x="1386.0" y="265.2" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">제3조 허가 · 연간 50% 이상 직접운송(제11조의2)</text>
+<text x="1386.0" y="288.2" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">운송물 손해는 상법 제135조 준용(제7조)</text>
+<text x="1386.0" y="311.2" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">적재물배상보험 가입 의무(제35조)</text>
+<line x1="290" y1="265" x2="354" y2="265" stroke="#1d2a3a" stroke-width="3" marker-end="url(#m1d2a3a)"/>
+<text x="322" y="250" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">계약</text>
+<line x1="690" y1="265" x2="764" y2="265" stroke="#8a96a3" stroke-width="3" marker-end="url(#m8a96a3)" stroke-dasharray="7 6"/>
+<line x1="1070" y1="265" x2="1134" y2="265" stroke="#8a96a3" stroke-width="3" marker-end="url(#m8a96a3)" stroke-dasharray="7 6"/>
+<path d="M525 190 L525 150 L1386 150 L1386 184" stroke="#1f6fd1" stroke-width="3" fill="none" marker-end="url(#m1f6fd1)" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="955" y="140" font-size="16" font-weight="700" fill="#1f6fd1" text-anchor="middle">운송사에 직접 위탁(가장 짧은 단계)</text>
+<rect x="760" y="470" width="280" height="140" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="900.0" y="520.0" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">소속 차량(직영)</text>
+<text x="900.0" y="551.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">운송사 소속 운전자</text>
+<text x="900.0" y="574.0" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">화물운송 종사자격(제8조)</text>
+<rect x="1070" y="470" width="290" height="140" fill="#fdf2e6" stroke="#c46a12" stroke-width="2.5" rx="12"/>
+<text x="1215.0" y="508.5" font-size="20" font-weight="800" fill="#c46a12" text-anchor="middle">위·수탁차주(지입)</text>
+<text x="1215.0" y="539.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">제40조 경영 위탁 계약</text>
+<text x="1215.0" y="562.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">계약 2년 이상, 계약서 교부</text>
+<text x="1215.0" y="585.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">6년까지 갱신 요구권(제40조의2)</text>
+<rect x="1390" y="470" width="242" height="140" fill="#e8f5ee" stroke="#1f8a5b" stroke-width="2.5" rx="12"/>
+<text x="1511.0" y="508.5" font-size="20" font-weight="800" fill="#1f8a5b" text-anchor="middle">다른 운송사업자</text>
+<text x="1511.0" y="539.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">또는 그 소속</text>
+<text x="1511.0" y="562.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">위·수탁차주</text>
+<text x="1511.0" y="585.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="middle">(제11조의2 제2항)</text>
+<path d="M1300 340 L1300 410 L900 410 L900 464" stroke="#1f8a5b" stroke-width="3" fill="none" marker-end="url(#m1f8a5b)" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1300" y1="340" x2="1300" y2="464" stroke="#1f8a5b" stroke-width="3" marker-end="url(#m1f8a5b)"/>
+<path d="M1300 410 L1511 410 L1511 464" stroke="#1f8a5b" stroke-width="3" fill="none" marker-end="url(#m1f8a5b)" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1080" y="400" font-size="15" font-weight="700" fill="#1f8a5b" text-anchor="middle">직접 운송 또는 법이 정한 상대에게만 위탁</text>
+<text x="760" y="645" font-size="16" font-weight="600" fill="#34475c" text-anchor="start">화물차주 = 개인 운송사업자 + 위·수탁차주(법 제2조 제11호). 받은 위탁 화물은 다시 넘기지 않음(제11조의2 제3항).</text>
+<rect x="40" y="400" width="650" height="210" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="58" y="450.5" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">포워더의 법적 지위</text>
+<text x="58" y="481.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 국제물류주선업 등록으로 수출입화물의 국내 운송 주선</text>
+<text x="58" y="504.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">  (운송주선사업 허가 불요, 법제처 10-0004)</text>
+<text x="58" y="527.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 화주에게는 계약 형태에 따라 운송주선인(상법 제115조)</text>
+<text x="58" y="550.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">  또는 운송인(상법 제135조)의 책임</text>
+<text x="58" y="573.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 안전운임 고시에서는 '화주'에 포함</text>
+<text x="58" y="596.5" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">  (운송주선사업 허가도 있으면 '운수사업자'에도 해당, 3절)</text>
+<rect x="40" y="690" width="1000" height="220" fill="#eef1f5" stroke="#1d2a3a" stroke-width="2.5" rx="12"/>
+<text x="58" y="756.6" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="start">안전운임 구조(특수자동차로 운송하는 수출입 컨테이너·시멘트, 2026~2028년)</text>
+<text x="58" y="787.6" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 안전운송운임: 화주가 운수사업자 또는 화물차주에게 지급하는 최소 운임</text>
+<text x="58" y="810.6" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 안전위탁운임: 운수사업자가 화물차주에게 지급하는 최소 운임</text>
+<text x="58" y="833.6" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 운수사업자 간 운임: 운수사업자가 다른 운송사업자에게 맡길 때의 최소 운임(고시)</text>
+<text x="58" y="856.6" font-size="16" font-weight="500" fill="#1d2a3a" text-anchor="start">· 고시는 국제물류주선업에 종사하는 자를 '화주'에 넣습니다(별표 1 제2호 가목)</text>
+<rect x="1080" y="690" width="552" height="220" fill="#eaf2fc" stroke="#1f6fd1" stroke-width="2.5" rx="12"/>
+<text x="1098" y="755.0" font-size="20" font-weight="800" fill="#1f6fd1" text-anchor="start">포워더가 확인할 것</text>
+<text x="1098" y="787.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">· 허가증·자동차등록증의 상호 일치</text>
+<text x="1098" y="811.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">· 직접 운송인지, 위탁 상대가 누구인지</text>
+<text x="1098" y="835.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">· 계약 운임이 안전운송운임 이상인지</text>
+<text x="1098" y="859.0" font-size="17" font-weight="500" fill="#1d2a3a" text-anchor="start">· 적재물배상보험 가입 증빙</text>
+</svg>

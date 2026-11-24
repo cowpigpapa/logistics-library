@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5f6b78"/></marker>
+</defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">허브 앤 스포크와 환적: 화물이 배를 갈아타는 곳에서 지연이 생기는 지점</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">일반 흐름도입니다. 실제 환적항과 연결 본선은 부킹 확인서와 선사 스케줄의 경로(routing)로 확인합니다.</text>
+
+<!-- direct -->
+<rect x="48" y="118" width="1576" height="110" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="72" y="152" font-size="18" font-weight="800" fill="#1d2a3a">직기항</text>
+<text x="72" y="178" font-size="14" font-weight="600" fill="#5f6b78">한 배로 끝까지</text>
+<rect x="260" y="136" width="230" height="70" rx="10" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="375" y="178" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">출발항</text>
+<path d="M490 171 L1150 171" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="820" y="160" font-size="16" font-weight="700" fill="#1f6fd1" text-anchor="middle">본선 한 척</text>
+<rect x="1150" y="136" width="230" height="70" rx="10" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1265" y="178" font-size="18" font-weight="800" fill="#1d2a3a" text-anchor="middle">도착항</text>
+<text x="1400" y="166" font-size="14" font-weight="600" fill="#1d2a3a">옮겨 싣는 단계가</text>
+<text x="1400" y="188" font-size="14" font-weight="600" fill="#1d2a3a">없어 연결 지연이 없음</text>
+
+<!-- transshipment -->
+<rect x="48" y="244" width="1576" height="330" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="72" y="278" font-size="18" font-weight="800" fill="#1d2a3a">환적 경유</text>
+<text x="72" y="304" font-size="14" font-weight="600" fill="#5f6b78">큰 배(본선)는 허브만 돌고, 작은 배(피더)가 주변 항만을 잇습니다</text>
+
+<rect x="72" y="340" width="200" height="80" rx="10" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="172" y="374" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">출발항</text>
+<text x="172" y="400" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="middle">지선항</text>
+<path d="M272 380 L408 380" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="340" y="368" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">피더</text>
+
+<rect x="408" y="324" width="500" height="112" rx="12" fill="#fdf0ec" stroke="#e4572e" stroke-width="2.5"/>
+<text x="658" y="352" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">허브 환적항</text>
+<rect x="424" y="366" width="140" height="54" rx="8" fill="#ffffff" stroke="#e4572e" stroke-width="1.5"/>
+<text x="494" y="399" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">양하</text>
+<rect x="588" y="366" width="140" height="54" rx="8" fill="#ffffff" stroke="#e4572e" stroke-width="1.5"/>
+<text x="658" y="390" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">장치</text>
+<text x="658" y="410" font-size="12" font-weight="600" fill="#5f6b78" text-anchor="middle">연결 본선 대기</text>
+<rect x="752" y="366" width="140" height="54" rx="8" fill="#ffffff" stroke="#e4572e" stroke-width="1.5"/>
+<text x="822" y="399" font-size="15" font-weight="700" fill="#1d2a3a" text-anchor="middle">본선 선적</text>
+<path d="M564 393 L586 393" stroke="#5f6b78" stroke-width="2" fill="none" marker-end="url(#ag)"/>
+<path d="M728 393 L750 393" stroke="#5f6b78" stroke-width="2" fill="none" marker-end="url(#ag)"/>
+
+<path d="M908 380 L1108 380" stroke="#1f6fd1" stroke-width="5" fill="none" marker-end="url(#ar)"/>
+<text x="1008" y="368" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">본선</text>
+<rect x="1108" y="340" width="220" height="80" rx="10" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1218" y="374" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">도착 허브</text>
+<text x="1218" y="400" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="middle">또는 도착항</text>
+<path d="M1328 380 L1404 380" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#ar)" stroke-dasharray="10 6"/>
+<text x="1366" y="368" font-size="14" font-weight="700" fill="#1f6fd1" text-anchor="middle">피더</text>
+<rect x="1404" y="340" width="200" height="80" rx="10" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1504" y="374" font-size="17" font-weight="800" fill="#1d2a3a" text-anchor="middle">최종 도착항</text>
+<text x="1504" y="400" font-size="14" font-weight="600" fill="#5f6b78" text-anchor="middle">필요한 경우</text>
+
+<!-- delay markers -->
+<circle cx="340" cy="458" r="16" fill="#e4572e"/>
+<text x="340" y="464" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+<circle cx="658" cy="458" r="16" fill="#e4572e"/>
+<text x="658" y="464" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+<circle cx="822" cy="458" r="16" fill="#e4572e"/>
+<text x="822" y="464" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+<circle cx="1366" cy="458" r="16" fill="#e4572e"/>
+<text x="1366" y="464" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="72" y="504" font-size="15" font-weight="600" fill="#1d2a3a"><tspan font-weight="800" fill="#e4572e">1</tspan> 피더 지연·결항으로 연결 본선을 놓침 → 같은 서비스의 다음 본선(대개 7일 뒤)</text>
+<text x="72" y="532" font-size="15" font-weight="600" fill="#1d2a3a"><tspan font-weight="800" fill="#e4572e">2</tspan> 환적항 혼잡·하역 지연으로 장치가 길어짐</text>
+<text x="860" y="504" font-size="15" font-weight="600" fill="#1d2a3a"><tspan font-weight="800" fill="#e4572e">3</tspan> 본선 선복 부족·선박 변경으로 환적 화물이 다음 배로 밀림(롤오버)</text>
+<text x="860" y="532" font-size="15" font-weight="600" fill="#1d2a3a"><tspan font-weight="800" fill="#e4572e">4</tspan> 도착 측 피더 연결에서 같은 일이 한 번 더 생길 수 있음</text>
+<text x="72" y="560" font-size="14" font-weight="600" fill="#5f6b78">한 번 연결을 놓치면 지연은 시간 단위가 아니라 서비스 주기(대개 주 단위)로 늘어납니다.</text>
+
+<!-- bottom -->
+<rect x="48" y="590" width="520" height="304" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="48" y="590" width="520" height="46" rx="12" fill="#1f6fd1"/>
+<rect x="48" y="616" width="520" height="20" fill="#1f6fd1"/>
+<text x="68" y="621" font-size="17" font-weight="800" fill="#ffffff">화주에게 생기는 일</text>
+<text x="68" y="666" font-size="15" font-weight="600" fill="#1d2a3a">· 도착 예정일이 늦어지고 수입 측 통관·내륙</text>
+<text x="82" y="690" font-size="15" font-weight="600" fill="#1d2a3a">운송·입고 일정을 다시 잡아야 함</text>
+<text x="68" y="722" font-size="15" font-weight="600" fill="#1d2a3a">· 리퍼 컨테이너는 환적항에서 전원 공급을</text>
+<text x="82" y="746" font-size="15" font-weight="600" fill="#1d2a3a">받으며 기다리는 시간이 늘어남</text>
+<text x="68" y="778" font-size="15" font-weight="600" fill="#1d2a3a">· FTA 협정관세는 제3국 환적 때 직접운송</text>
+<text x="82" y="802" font-size="15" font-weight="600" fill="#1d2a3a">요건과 증빙이 문제될 수 있음(FTA 문서)</text>
+<text x="68" y="834" font-size="15" font-weight="600" fill="#1d2a3a">· 선사는 B/L 약관에서 환적·경로 변경의</text>
+<text x="82" y="858" font-size="15" font-weight="600" fill="#1d2a3a">자유를 두는 경우가 많음(경로 변경 문서)</text>
+
+<rect x="588" y="590" width="560" height="304" rx="12" fill="#ffffff" stroke="#1f8a5b" stroke-width="2.5"/>
+<rect x="588" y="590" width="560" height="46" rx="12" fill="#1f8a5b"/>
+<rect x="588" y="616" width="560" height="20" fill="#1f8a5b"/>
+<text x="608" y="621" font-size="17" font-weight="800" fill="#ffffff">포워더가 서류로 확인할 것</text>
+<text x="608" y="666" font-size="15" font-weight="600" fill="#1d2a3a">· 부킹 확인서·선사 스케줄의 환적항, 연결 본선의</text>
+<text x="622" y="690" font-size="15" font-weight="600" fill="#1d2a3a">선명·항차, 스케줄상 환적 대기 일수</text>
+<text x="608" y="722" font-size="15" font-weight="600" fill="#1d2a3a">· 선사 화물 추적의 환적항 양하일·본선 선적일</text>
+<text x="608" y="754" font-size="15" font-weight="600" fill="#1d2a3a">· 선사의 연결 변경·선박 교체·기항지 생략 공지</text>
+<text x="608" y="786" font-size="15" font-weight="600" fill="#1d2a3a">· B/L 초안의 선적항·양하항·인도지와 선명·항차</text>
+<text x="608" y="818" font-size="15" font-weight="600" fill="#1d2a3a">· 화주 안내문에는 환적 여부와 환적항을 적고,</text>
+<text x="622" y="842" font-size="15" font-weight="600" fill="#1d2a3a">도착일은 "예정"으로 근거 날짜와 함께 적음</text>
+
+<rect x="1168" y="590" width="456" height="304" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1188" y="626" font-size="17" font-weight="800" fill="#1d2a3a">법령 정의와 통계</text>
+<text x="1188" y="658" font-size="14" font-weight="600" fill="#1d2a3a">관세법 제2조 제14호: 환적은 같은 세관</text>
+<text x="1188" y="680" font-size="14" font-weight="600" fill="#1d2a3a">관할구역에서 들어온 운송수단에서 나가는</text>
+<text x="1188" y="702" font-size="14" font-weight="600" fill="#1d2a3a">운송수단으로 물품을 옮겨 싣는 것.</text>
+<text x="1188" y="726" font-size="14" font-weight="600" fill="#1d2a3a">제15호: 복합환적은 다른 세관 관할구역으로</text>
+<text x="1188" y="748" font-size="14" font-weight="600" fill="#1d2a3a">운송해 옮겨 싣는 것.</text>
+<text x="1188" y="788" font-size="14" font-weight="800" fill="#1d2a3a">부산항 2025년(해양수산부 e-나라지표)</text>
+<text x="1188" y="814" font-size="14" font-weight="600" fill="#1d2a3a">전체 2,488만 TEU 가운데 환적 1,410만 TEU,</text>
+<text x="1188" y="838" font-size="14" font-weight="600" fill="#1d2a3a">수출입 1,079만 TEU. 환적이 절반을 넘어</text>
+<text x="1188" y="862" font-size="14" font-weight="600" fill="#1d2a3a">부산항 자체가 환적 허브입니다.</text>
+</svg>

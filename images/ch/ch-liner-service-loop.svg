@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6fd1"/></marker></defs>
+<rect width="1672" height="941" fill="#ffffff"/>
+<rect x="24" y="22" width="1624" height="897" fill="#fbfcfd" stroke="#c9d2dc" stroke-width="2" rx="16"/>
+<text x="48" y="66" font-size="26" font-weight="800" fill="#1d2a3a">주간 정기선 서비스(루프)의 구조: 회전 기간 21일, 선박 3척, 부산 매주 화요일</text>
+<text x="48" y="96" font-size="16" font-weight="600" fill="#5f6b78">가상 항로와 가상 일정입니다. 실제 서비스의 기항 순서·요일·회전 기간은 선사가 공개한 서비스별 스케줄로 확인합니다.</text>
+
+<!-- left panel -->
+<rect x="48" y="118" width="900" height="776" rx="12" fill="#ffffff" stroke="#c9d2dc" stroke-width="2"/>
+<text x="72" y="152" font-size="19" font-weight="800" fill="#1d2a3a">기항 순서(port rotation)와 기항일: D0은 부산 출항일</text>
+
+<!-- loop arrows -->
+<path d="M330 222 L650 222" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="490" y="210" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">항해 2일</text>
+<path d="M760 262 L760 432" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="778" y="352" font-size="15" font-weight="700" fill="#1f6fd1">항해 6일</text>
+<path d="M760 512 L760 662" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="778" y="592" font-size="15" font-weight="700" fill="#1f6fd1">2일</text>
+<path d="M650 702 L330 702" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="490" y="690" font-size="15" font-weight="700" fill="#1f6fd1" text-anchor="middle">2일</text>
+<path d="M220 662 L220 512" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="120" y="592" font-size="15" font-weight="700" fill="#1f6fd1">항해 6일</text>
+<path d="M220 432 L220 262" stroke="#1f6fd1" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="120" y="352" font-size="15" font-weight="700" fill="#1f6fd1">3일</text>
+
+<!-- port nodes -->
+<rect x="110" y="182" width="220" height="80" rx="12" fill="#1f6fd1"/>
+<text x="220" y="216" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">부산</text>
+<text x="220" y="244" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">D0 화요일 · D21 화요일</text>
+<rect x="650" y="182" width="220" height="80" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="760" y="216" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">중국 항만 A</text>
+<text x="760" y="244" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">D2 목요일</text>
+<rect x="650" y="432" width="220" height="80" rx="12" fill="#fdf0ec" stroke="#e4572e" stroke-width="2.5"/>
+<text x="760" y="466" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">동남아 환적항</text>
+<text x="760" y="494" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">D8 수요일</text>
+<rect x="650" y="662" width="220" height="80" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="760" y="696" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">동남아 항만 B</text>
+<text x="760" y="724" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">D10 금요일</text>
+<rect x="110" y="662" width="220" height="80" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="220" y="696" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">동남아 항만 C</text>
+<text x="220" y="724" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">D12 일요일</text>
+<rect x="110" y="432" width="220" height="80" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2.5"/>
+<text x="220" y="466" font-size="19" font-weight="800" fill="#1d2a3a" text-anchor="middle">중국 항만 D</text>
+<text x="220" y="494" font-size="15" font-weight="600" fill="#1d2a3a" text-anchor="middle">D18 토요일</text>
+
+<!-- ship markers -->
+<rect x="350" y="236" width="190" height="34" rx="17" fill="#1d2a3a"/>
+<text x="445" y="259" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">1호선: 오늘 부산 출항</text>
+<circle cx="760" cy="404" r="11" fill="#1d2a3a"/>
+<rect x="470" y="388" width="270" height="34" rx="17" fill="#1d2a3a"/>
+<text x="605" y="411" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">3호선: D7 지점, 14일 뒤 부산</text>
+<circle cx="220" cy="608" r="11" fill="#1d2a3a"/>
+<rect x="240" y="592" width="270" height="34" rx="17" fill="#1d2a3a"/>
+<text x="375" y="615" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">2호선: D14 지점, 7일 뒤 부산</text>
+
+<!-- center -->
+<text x="490" y="474" font-size="30" font-weight="800" fill="#1d2a3a" text-anchor="middle">회전 기간 21일</text>
+<text x="490" y="508" font-size="18" font-weight="700" fill="#1f6fd1" text-anchor="middle">선박 3척 × 7일 간격 = 21일</text>
+<text x="490" y="538" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">세 척이 7일씩 떨어져 같은 순서로 돌기 때문에</text>
+<text x="490" y="560" font-size="15" font-weight="600" fill="#5f6b78" text-anchor="middle">부산에는 매주 같은 요일에 배가 들어옵니다</text>
+
+<text x="72" y="800" font-size="15" font-weight="600" fill="#1d2a3a">항해 일수에는 항만 체류 시간이 포함된 것으로 보았습니다. 실제 서비스는 항해 속도·항만 체류·</text>
+<text x="72" y="824" font-size="15" font-weight="600" fill="#1d2a3a">여유일을 함께 계산해 선사가 정하며, 같은 항만을 두 번 기항하는 서비스도 있습니다.</text>
+<text x="72" y="862" font-size="15" font-weight="700" fill="#e4572e">주황색 칸: 다른 서비스의 화물을 옮겨 싣는 환적항(5절)</text>
+
+<!-- right panel -->
+<rect x="972" y="118" width="652" height="300" rx="12" fill="#ffffff" stroke="#1f6fd1" stroke-width="2.5"/>
+<rect x="972" y="118" width="652" height="50" rx="12" fill="#1f6fd1"/>
+<rect x="972" y="148" width="652" height="20" fill="#1f6fd1"/>
+<text x="994" y="151" font-size="19" font-weight="800" fill="#ffffff">부산에서 보면: 주마다 다른 배, 다른 항차</text>
+<text x="1000" y="202" font-size="15" font-weight="800" fill="#5f6b78">부산 출항일</text>
+<text x="1200" y="202" font-size="15" font-weight="800" fill="#5f6b78">선박</text>
+<text x="1380" y="202" font-size="15" font-weight="800" fill="#5f6b78">항차</text>
+<line x1="994" y1="214" x2="1602" y2="214" stroke="#c9d2dc" stroke-width="1.5"/>
+<text x="1000" y="244" font-size="16" font-weight="600" fill="#1d2a3a">1주차 화요일</text>
+<text x="1200" y="244" font-size="16" font-weight="700" fill="#1d2a3a">1호선</text>
+<text x="1380" y="244" font-size="16" font-weight="600" fill="#1d2a3a">이번 항차</text>
+<text x="1000" y="280" font-size="16" font-weight="600" fill="#1d2a3a">2주차 화요일</text>
+<text x="1200" y="280" font-size="16" font-weight="700" fill="#1d2a3a">2호선</text>
+<text x="1380" y="280" font-size="16" font-weight="600" fill="#1d2a3a">이번 항차</text>
+<text x="1000" y="316" font-size="16" font-weight="600" fill="#1d2a3a">3주차 화요일</text>
+<text x="1200" y="316" font-size="16" font-weight="700" fill="#1d2a3a">3호선</text>
+<text x="1380" y="316" font-size="16" font-weight="600" fill="#1d2a3a">이번 항차</text>
+<text x="1000" y="352" font-size="16" font-weight="600" fill="#1d2a3a">4주차 화요일</text>
+<text x="1200" y="352" font-size="16" font-weight="700" fill="#1d2a3a">1호선</text>
+<text x="1380" y="352" font-size="16" font-weight="600" fill="#1d2a3a">다음 항차</text>
+<text x="1000" y="396" font-size="14" font-weight="600" fill="#5f6b78">항차 번호를 붙이는 방식은 선사마다 다르므로 부킹 확인서의 표기를 씁니다.</text>
+
+<rect x="972" y="438" width="652" height="190" rx="12" fill="#eef4fc" stroke="#1f6fd1" stroke-width="2"/>
+<text x="994" y="474" font-size="18" font-weight="800" fill="#1d2a3a">투입 척수의 원리(주간 서비스)</text>
+<text x="994" y="508" font-size="17" font-weight="800" fill="#1f6fd1">필요 척수 = 회전 기간(일) ÷ 7일</text>
+<text x="994" y="542" font-size="15" font-weight="600" fill="#1d2a3a">나누어떨어지지 않으면 척수를 올림하고, 남는 날은 항해 속도를</text>
+<text x="994" y="566" font-size="15" font-weight="600" fill="#1d2a3a">낮추거나 항만 대기에 대비한 여유로 씁니다.</text>
+<text x="994" y="600" font-size="15" font-weight="600" fill="#1d2a3a">예) 회전 기간 24일 → 24 ÷ 7 = 3.4 → 4척, 남는 4일은 여유</text>
+
+<rect x="972" y="648" width="652" height="246" rx="12" fill="#fdf0ec" stroke="#e4572e" stroke-width="2"/>
+<text x="994" y="684" font-size="18" font-weight="800" fill="#1d2a3a">화주 설명에 쓰는 결론</text>
+<text x="994" y="718" font-size="15" font-weight="600" fill="#1d2a3a">· 한 척이 빠지고 대체선이 없으면 그 주 부산 기항이 비어</text>
+<text x="1008" y="742" font-size="15" font-weight="600" fill="#1d2a3a">결항(블랭크 세일링)이 됩니다(6절).</text>
+<text x="994" y="776" font-size="15" font-weight="600" fill="#1d2a3a">· 배를 놓치면 같은 서비스의 다음 배는 대개 7일 뒤입니다.</text>
+<text x="994" y="810" font-size="15" font-weight="600" fill="#1d2a3a">· 여러 선사가 같은 배의 공간을 나누면 선사마다 서비스</text>
+<text x="1008" y="834" font-size="15" font-weight="600" fill="#1d2a3a">이름과 항차 번호가 다를 수 있습니다(2절).</text>
+<text x="994" y="868" font-size="15" font-weight="600" fill="#1d2a3a">· 선박이 늦어지면 다음 기항지들의 도착일도 차례로 밀립니다.</text>
+</svg>
