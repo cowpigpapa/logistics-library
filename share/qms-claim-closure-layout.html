@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Closure 좌우 배치안 · Logistics Library</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;display=swap">
+<style>
+/* Irregularity Closure 배치 검토용 목업: PR | CAPA 좌우, Claim Settlement 아래 전체 폭. 버튼은 동작하지 않음. */
+*{box-sizing:border-box}
+body{margin:0;background:#F7F7F7}
+.lab-bar{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font-size:13px;color:#5c4a12;font-family:'Noto Sans KR','Malgun Gothic',sans-serif}
+.lab-bar a{color:#1f5fbf;font-weight:700;text-decoration:none}.lab-bar a:hover{text-decoration:underline}.lab-bar a[aria-current]{color:#5c4a12}
+.part{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;max-width:1600px;margin:0 auto;padding:28px 32px 0}
+.part h2.big{margin:0;font-size:22px;color:#222}.part p{margin:6px 0 0;font-size:14px;color:#555}
+.dl{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.dl a{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:1px solid #C9C9C9;border-radius:4px;background:#fff;color:#222;font-size:13px;font-weight:500;text-decoration:none}.dl a:hover{border-color:#D3202F;color:#B3121F}
+
+
+a{color:#B3121F}a:hover{color:#7E0C16}
+.btn{font:inherit;font-size:14px;color:#B3121F;background:#fff;border:1px solid #D2D2D2;border-radius:2px;padding:0 16px;height:34px;cursor:pointer;white-space:nowrap}
+.tab{display:inline-flex;align-items:center;justify-content:center;text-align:center;background:#D3202F;color:#fff;font-weight:700;font-size:15px;line-height:1.25;border-radius:4px 4px 0 0;padding:0 22px;min-height:46px;box-sizing:border-box;white-space:nowrap}
+.panel{background:#fff;border-radius:2px;padding:16px;box-sizing:border-box;min-width:0}
+.lbl{font-size:14px;font-weight:700;color:#222;white-space:nowrap}
+.fld{height:32px;border:1px solid #D6D6D6;background:#fff;padding:0 10px;font:inherit;font-size:14px;color:#222;box-sizing:border-box;border-radius:2px;display:inline-flex;align-items:center}
+.ro{background:#EFEFEF;color:#4F4F4F}
+.memo{border:1px solid #D6D6D6;background:#F4F4F4;padding:14px 12px;font-size:15px;line-height:1.6;white-space:pre-line;min-height:160px;box-sizing:border-box}
+.hist{width:100%;border-collapse:collapse;font-size:13px;border-top:3px solid #D3202F;table-layout:fixed}
+.hist th{background:#EDEDED;font-weight:500;padding:10px;border-bottom:1px solid #D2D2D2}
+.hist td{padding:11px 4px;border-bottom:1px solid #E3E3E3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.grid{width:100%;border-collapse:collapse;font-size:13px;border-top:3px solid #D3202F;table-layout:fixed;min-width:700px}
+.grid th{background:#EDEDED;font-weight:500;padding:9px 6px;border:1px solid #D6D6D6;border-top:0;text-align:center;color:#222;white-space:nowrap}
+.grid td{padding:6px 4px;border:1px solid #E0E0E0;vertical-align:middle;background:#fff}
+.cell{width:100%;height:30px;border:1px solid #D6D6D6;border-radius:2px;background:#fff;font:inherit;font-size:13px;color:#222;padding:0 8px;box-sizing:border-box}
+.rocell{height:30px;border:1px solid #DDDDDD;border-radius:2px;background:#EFEFEF;color:#4F4F4F;font-size:13px;padding:0 8px;box-sizing:border-box;display:flex;align-items:center;gap:6px;overflow:hidden;white-space:nowrap}
+.num{justify-content:flex-end;text-align:right;font-variant-numeric:tabular-nums}
+.usd{display:flex;justify-content:flex-end;align-items:center;height:30px;padding:0 8px;font-variant-numeric:tabular-nums;color:#1E6B34;font-weight:500}
+.auto{display:flex;justify-content:flex-end;align-items:center;height:30px;padding:0 8px;color:#6B6B6B;font-size:12px}
+.req{color:#D3202F}
+.chip{font-size:10px;font-weight:700;color:#1F4E9A;border:1px solid #1F4E9A;border-radius:3px;padding:0 4px;line-height:15px;flex:none}
+.mk{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:#1F4E9A;color:#fff;font-size:12px;font-weight:700;flex:none}
+.ibtn{width:30px;height:30px;border:1px solid #7A7A7A;border-radius:6px;background:#fff;color:#3A3A3A;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
+.sum{display:flex;align-items:center;gap:8px;padding:6px 14px;border-left:1px solid #E6E6E6}
+.sum .k{font-size:12px;color:#666;white-space:nowrap}
+.sum .v{font-size:15px;line-height:1;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sum .v.pay{color:#A33A3A}
+.sum .v.neu{color:#444}
+.sum .v.rec{color:#1F5FBF}
+.sum .v.zero{color:#9A9A9A;font-weight:500}
+.sum.loss{background:#FCEDEE;border-left-color:#F2C6CA}.sum.loss .v{color:#B3121F}
+.sum.gain{background:#EAF2FC;border-left-color:#C5D9F2}.sum.gain .v{color:#1F5FBF}
+.nc{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 14px;border:1px solid #BDBDBD;border-radius:2px;background:#fff;font-size:14px;font-weight:500;color:#333;cursor:pointer;white-space:nowrap}
+.nc input{width:16px;height:16px;margin:0;accent-color:#444}
+.nc.on{border-color:#555;background:#EDEDED}
+.tree{flex:none;width:16px;height:38px;margin:-36px 8px 0 14px;border-left:2px solid #D3202F;border-bottom:2px solid #D3202F;border-bottom-left-radius:4px;box-sizing:border-box}
+.cs-h{margin:0;font-size:16px;font-weight:500;color:#222;display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
+.histbox{max-height:var(--hist-h,169px);overflow-y:auto;border-top:3px solid #D3202F}
+.histbox .hist{border-top:0}
+.histbox .hist th{position:sticky;top:0;z-index:1}
+.totin{width:100px;height:26px;border:1px solid #C9C9C9;border-radius:3px;padding:0 6px;font:inherit;font-size:14px;font-weight:700;text-align:right;font-variant-numeric:tabular-nums;color:#222;background:#fff;box-sizing:border-box}
+.totin.isauto{color:#8A8A8A;font-weight:500}
+.totin:disabled{background:#F3F3F3;color:#9A9A9A}
+.totauto{visibility:visible;font-size:11px;font-weight:700;color:#6B6B6B;background:#EFEFEF;border-radius:3px;padding:1px 5px;white-space:nowrap}
+.totin::placeholder{font-weight:400;color:#AAA}
+.grid tr.fx td{background:#FAFAFA}
+.nil{color:#A0A0A0}
+.chip.cy{color:#8A5A00;border-color:#B07A1E}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:#555;margin-top:10px;align-items:center}
+.sw{display:inline-block;width:14px;height:14px;border:1px solid #D0D0D0;vertical-align:-2px;margin-right:6px}
+
+
+.lr{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(560px,100%),1fr));gap:24px;padding:30px 0 0}
+.col{min-width:0;display:flex;flex-direction:column}
+.colhead{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 10px;min-height:46px}
+.colhead .btns{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}
+.colhead .btn{margin-bottom:6px}
+.colpanel{flex:1;display:flex;flex-direction:column}
+.confirm{display:flex;align-items:center;gap:12px;margin:16px 0 10px;padding-top:14px;border-top:1px solid #EEEEEE}
+.histfill{flex:1 1 0px;height:0;min-height:169px;overflow-y:auto;border-top:3px solid #D3202F}
+.histfill .hist{border-top:0}.histfill .hist th{position:sticky;top:0;z-index:1}
+
+</style>
+</head>
+<body>
+<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>배치 검토용 목업 · 버튼은 동작하지 않음</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout" aria-current="page">좌우 배치안</a></div>
+<div class="part"><h2 class="big">좌우 배치안 — Progress &amp; Result | CAPA</h2><p>PR과 CAPA를 좌우 <b>스플릿</b>으로 놓고, 각 칸 안은 입력 → (이행 증빙) → 이력 순서. PR 이력 칸이 남는 높이를 채워 두 칸의 아래 끝이 맞습니다. Claim Settlement는 아래 전체 폭, PR에서 └ 선으로 이어짐.</p>
+<div class="dl"><a href="/share/files/qms-claim-closure-layout.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG</a></div></div>
+<div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
+<header style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 28px; padding-bottom: 16px; border-bottom: 2px solid #111;">
+<h1 style="margin: 0; font-size: 24px; font-weight: 700;">Irregularity Closure</h1>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px;">
+<label style="display: flex; align-items: center; gap: 10px;"><span class="lbl">BSC 적기등록 Y/N :</span><select class="fld" style="width: 108px;"><option>Y</option><option>N</option></select></label>
+<label style="display: flex; align-items: center; gap: 10px;"><span class="lbl">BSC 적기개선 Y/N :</span><select class="fld" style="width: 108px;"><option>Y</option><option>N</option></select></label>
+<div style="display: flex; align-items: center; gap: 10px;"><span class="lbl">Result Close Y/N :</span><span class="fld ro" style="width: 36px; justify-content: center;">N</span></div>
+<div style="display: flex; align-items: center; gap: 10px;"><span class="lbl">CAPA Close Y/N :</span><span class="fld ro" style="width: 36px; justify-content: center;">Y</span></div>
+</div>
+</header>
+<div class="lr">
+<section aria-label="Progress and Result" class="col">
+<div class="colhead"><span class="tab">Progress &amp; Result</span>
+<div class="btns"><button class="btn" type="button">Withdraw Request</button><button class="btn" type="button">Request Re-submission</button><button class="btn" type="button">Confirm</button></div></div>
+<div class="panel colpanel">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
+<a href="#" style="font-size: 14px; color: #6B6B6B; text-decoration: none; font-weight: 500;">(click here for sample)</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;">
+<span class="lbl">Due Date :</span><span class="fld" style="width: 136px; justify-content: space-between;">2026-12-14<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="1"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg></span>
+<span class="lbl">Last Update :</span><span class="fld ro" style="width: 168px;">2026-11-23 10:32:33</span>
+</div>
+</div>
+<div class="memo">지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생
+ - Clamp 지게차 작업 부주의에 따른 발생
+ - 작업자 지속 교육 통한 핸들링 품질 개선</div>
+<div class="confirm"><span class="lbl">Confirm Date :</span><span class="fld ro" style="width: 168px;"></span></div>
+<div class="histfill"><table class="hist">
+<thead><tr><th>Contents</th></tr></thead>
+<tbody>
+<tr><td>[REQ] 2026-11-23 10:32:40 (담당자) Request Confirmation</td></tr>
+<tr><td>[REG] 2026-11-23 10:32:33 (담당자) 지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생 - Clamp 지게차 작업 부주의에 따른 발생 - 작업자 지속 교육 통한 핸들링 품질 개선</td></tr>
+<tr><td>[REG] 2026-11-23 10:31:53 (담당자) 지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생 - Clamp 지게차 작업 부주의에 따른 발생</td></tr>
+<tr><td>[REG] 2026-11-23 10:30:12 (담당자) 지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생</td></tr>
+</tbody>
+</table></div>
+</div>
+</section>
+<section aria-label="Cause Analysis and Preventive Action" class="col">
+<div class="colhead"><span class="tab" style="font-size: 14px; padding: 6px 14px;">Cause Analysis &amp;<br>Preventive Action (CAPA)</span>
+<div class="btns"><button class="btn" type="button">Request Re-submission</button></div></div>
+<div class="panel colpanel">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
+<a href="#" style="font-size: 14px; color: #6B6B6B; text-decoration: none; font-weight: 500;">(click here for sample)</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;">
+<span class="lbl">Due Date :</span><span class="fld ro" style="width: 136px;">2026-12-23</span>
+<span class="lbl">Last Update :</span><span class="fld ro" style="width: 168px;">2026-11-23 10:31:53</span>
+</div>
+</div>
+<div class="memo">지게차 기사에 대한 주기적 파손 주의 교육 진행
+ - 현장 관리자의 전체 지게차 작업자 대상 교육 중
+
+SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin: 12px 0 8px;">
+<span style="display: inline-flex; align-items: center; gap: 4px;"><span class="req">*</span><span style="background: #2B2B2B; color: #fff; font-size: 14px; font-weight: 500; padding: 7px 26px; border-radius: 2px;">이행 증빙</span></span>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+<select class="fld" style="width: 168px;" aria-label="이동 위치"><option>- Irregularity Report</option></select>
+<button class="btn" type="button">Move</button>
+<button class="btn" type="button">선택 파일 다운로드</button>
+</div>
+</div>
+<table class="grid" style="min-width: 0;">
+<colgroup><col style="width: 64px;"><col style="width: 56px;"><col><col style="width: 160px;"><col style="width: 90px;"></colgroup>
+<thead><tr><th>번호</th><th><input type="checkbox" aria-label="파일 전체 선택"></th><th>파일명</th><th>등록일</th><th>다운로드</th></tr></thead>
+<tbody>
+<tr><td style="text-align: center;">1</td><td style="text-align: center;"><input type="checkbox" aria-label="파일 1 선택"></td><td style="text-align: center;">Damage prevention training 2026.10.07.pdf</td><td style="text-align: center;">2026-11-24 01:28:03</td><td style="text-align: center; color: #D3202F;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" role="img" aria-label="다운로드"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></td></tr>
+<tr><td style="text-align: center;">2</td><td style="text-align: center;"><input type="checkbox" aria-label="파일 2 선택"></td><td style="text-align: center;">Damage Prevention Training 2026.11.17.pptx</td><td style="text-align: center;">2026-11-24 01:28:06</td><td style="text-align: center; color: #D3202F;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" role="img" aria-label="다운로드"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></td></tr>
+</tbody>
+</table>
+<div class="confirm"><span class="lbl">Confirm Date :</span><span class="fld ro" style="width: 168px;">2026-11-24 08:51:40</span></div>
+<div class="histbox"><table class="hist">
+<thead><tr><th>Contents</th></tr></thead>
+<tbody>
+<tr><td style="color: #1E6B34;">[CFM] 2026-11-24 08:51:40 (확인자) Confirm</td></tr>
+<tr><td>[REQ] 2026-11-23 10:33:06 (담당자) Request Confirmation</td></tr>
+<tr><td>[REG] 2026-11-23 10:31:53 (담당자) 지게차 기사에 대한 주기적 파손 주의 교육 진행 - 현장 관리자의 전체 지게차 작업자 대상 교육 중 SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)</td></tr>
+</tbody>
+</table></div>
+</div>
+</section>
+</div>
+<section aria-label="Claim Settlement" style="padding: 12px 0 22px; ">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
+<div style="display: flex; align-items: center; gap: 8px;">
+<h2 class="cs-h"><span class="tree" aria-hidden="true"></span><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
+
+</div>
+<div role="group" aria-label="요약 (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
+<div style="display: flex; align-items: center; gap: 8px; padding: 0 14px; background: #333; color: #fff; font-size: 13px; font-weight: 700; white-space: nowrap;">
+요약 (USD)</div>
+<div class="sum tot"><span class="k">전체 클레임 비용</span><input class="totin isauto" inputmode="decimal" value="5,855.98" placeholder="입력" aria-label="전체 클레임 비용 (USD)"><span class="totauto" title="미입력 → 당사지불 + 보험사·제3자 부담">자동</span></div>
+<div class="sum"><span class="k">당사지불</span><span class="v pay">5,855.98</span></div>
+<div class="sum"><span class="k">보험사·제3자 부담</span><span class="v neu zero">0.00</span></div>
+<div class="sum"><span class="k">당사회수</span><span class="v rec zero">0.00</span></div>
+<div class="sum loss"><span class="k">당사 순손실 = 당사지불 − 당사회수</span><span class="v">5,855.98</span></div>
+</div>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
+
+<label class="nc"><input type="checkbox"> No Claim (비용 없음)</label>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
+
+<div style="min-width: 0;">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
+<h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">지불내역</h2>
+<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">P1·P2는 SAP, P3는 CY Cost KPI에서 조회한 금액만 보여 줍니다. 그 밖의 지불은 + 로 추가합니다.</p>
+</div>
+<div style="display: flex; align-items: center; gap: 6px; flex: none;">
+
+<button class="ibtn" type="button" aria-label="지불 행 추가"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+<button class="ibtn" type="button" aria-label="선택한 지불 행 삭제"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
+</div>
+</div>
+<div style="overflow-x: auto;">
+<table class="grid">
+<colgroup><col style="width: 30px;"><col style="width: 110px;"><col><col style="width: 80px;"><col style="width: 84px;"><col style="width: 84px;"><col style="width: 112px;"></colgroup>
+<thead><tr>
+<th><input type="checkbox" aria-label="지불 행 전체 선택"></th>
+<th><span class="req">*</span>지불주체</th>
+<th><span class="req">*</span>지불방법</th>
+<th><span style="display: inline-flex; align-items: center; gap: 4px;"><span class="req">*</span>Currency</span></th>
+<th><span class="req">*</span>금액</th>
+<th><span style="display: inline-flex; align-items: center; gap: 4px;">USD 환산</span></th>
+<th>Remark</th>
+</tr></thead>
+<tbody>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">당사</div></td>
+<td><div class="rocell"><span class="chip">SAP</span>P1 손해배상금 지급 (51029010)</div></td>
+<td><div class="rocell">USD</div></td>
+<td><div class="rocell num">5,855.98</div></td>
+<td><div class="usd">5,855.98</div></td>
+<td><div class="rocell">4400000813, 4400000847</div></td>
+</tr>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">당사</div></td>
+<td><div class="rocell"><span class="chip">SAP</span>P2 과태료 지급 (51017180)</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">당사</div></td>
+<td><div class="rocell"><span class="chip cy">KPI</span>P3 체화료</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr>
+<td style="text-align: center;"><input type="checkbox" aria-label="4행 선택"></td>
+<td><select class="cell" aria-label="지불주체"><option>당사 보험사</option><option>당사</option><option>협력사</option><option>고객사</option></select></td>
+<td><select class="cell" aria-label="지불방법"><option>P5 보험사·제3자 지불</option></select></td>
+<td><select class="cell" aria-label="Currency"><option>KRW</option><option>USD</option><option>EUR</option></select></td>
+<td><input class="cell" style="text-align: right;" placeholder="금액 입력" aria-label="금액"></td>
+<td><div class="auto">자동 계산</div></td>
+<td><input class="cell" placeholder="증빙번호 등" aria-label="Remark"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div style="min-width: 0;">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
+<h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">회수내역</h2>
+<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">R1·R2는 SAP에서 조회한 금액만 보여 줍니다. 그 밖의 회수는 + 로 추가합니다 (R4 · R5).</p>
+</div>
+<div style="display: flex; align-items: center; gap: 6px; flex: none;">
+<button class="ibtn" type="button" aria-label="회수 행 추가"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+<button class="ibtn" type="button" aria-label="선택한 회수 행 삭제"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
+</div>
+</div>
+<div style="overflow-x: auto;">
+<table class="grid">
+<colgroup><col style="width: 30px;"><col><col style="width: 80px;"><col style="width: 84px;"><col style="width: 84px;"><col style="width: 112px;"></colgroup>
+<thead><tr>
+<th><input type="checkbox" aria-label="회수 행 전체 선택"></th>
+<th><span class="req">*</span>회수방법</th>
+<th><span class="req">*</span>Currency</th>
+<th><span class="req">*</span>금액</th>
+<th>USD 환산</th>
+<th>Remark</th>
+</tr></thead>
+<tbody>
+<tr class="fx">
+<td></td>
+<td><div class="rocell"><span class="chip">SAP</span>R1 손해배상금 환입 (51029010)</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr class="fx">
+<td></td>
+<td><div class="rocell"><span class="chip">SAP</span>R2 과태료 환입 (51017180)</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr>
+<td style="text-align: center;"><input type="checkbox" aria-label="3행 선택"></td>
+<td><select class="cell" aria-label="회수방법"><option>R4 Selling / Buying</option><option>R5 기타</option></select></td>
+<td><select class="cell" aria-label="Currency"><option>USD</option><option>KRW</option><option>EUR</option></select></td>
+<td><input class="cell" style="text-align: right;" placeholder="금액 입력" aria-label="금액"></td>
+<td><div class="auto">자동 계산</div></td>
+<td><input class="cell" style="border-color: #D3202F;" placeholder="전표번호 (필수)" aria-label="Remark 전표번호"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="legend" style="grid-column: 1 / -1; margin-top: 0; padding-top: 10px; border-top: 1px solid #EEEEEE;">
+<span><span class="sw" style="background: #EFEFEF;"></span>조회 금액 — 항상 표시, 수정·삭제 불가 (<span class="chip" style="margin: 0 4px;">SAP</span>P1·P2·R1·R2 · <span class="chip cy" style="margin: 0 4px;">KPI</span>P3 CY Cost KPI)</span>
+<span><b>+ 지불 행</b>: 지불주체가 당사면 P4, 당사 보험사·협력사·고객사면 P5 자동</span>
+<span><b>+ 회수 행</b>: R4 또는 R5 선택</span>
+<span><span class="sw" style="background: #fff; border-color: #D3202F;"></span>P4·R4는 전표번호 필수</span>
+<span><span style="color: #1E6B34; font-weight: 700; margin-right: 6px;">0.00</span>USD 환산 — 자동 계산</span>
+</div>
+</div>
+</section>
+</div>
+</body>
+</html>
