@@ -14,7 +14,8 @@ body{margin:0;background:#F7F7F7}
 .lab-bar{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font-size:13px;color:#5c4a12;font-family:'Noto Sans KR','Malgun Gothic',sans-serif}
 .lab-bar a{color:#1f5fbf;font-weight:700;text-decoration:none}.lab-bar a:hover{text-decoration:underline}.lab-bar a[aria-current]{color:#5c4a12}
 .lab-bar label{margin-left:auto;display:inline-flex;align-items:center;gap:6px;cursor:pointer}
-.part{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;max-width:1440px;margin:0 auto;padding:28px 24px 0}
+.part{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;max-width:1600px;margin:0 auto;padding:28px 32px 0}
+.dl{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.dl a{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:1px solid #C9C9C9;border-radius:4px;background:#fff;color:#222;font-size:13px;font-weight:500;text-decoration:none}.dl a:hover{border-color:#D3202F;color:#B3121F}.dl svg{flex:none}
 .part h2.big{margin:0;font-size:22px;color:#222}.part p{margin:6px 0 0;font-size:14px;color:#555}
 .hide-mk .mk,.hide-mk .mk-note{display:none !important}
 
@@ -30,9 +31,9 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .hist{width:100%;border-collapse:collapse;font-size:13px;border-top:3px solid #D3202F;table-layout:fixed}
 .hist th{background:#EDEDED;font-weight:500;padding:10px;border-bottom:1px solid #D2D2D2}
 .hist td{padding:11px 4px;border-bottom:1px solid #E3E3E3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.grid{width:100%;border-collapse:collapse;font-size:13px;border-top:3px solid #D3202F;table-layout:fixed;min-width:720px}
+.grid{width:100%;border-collapse:collapse;font-size:13px;border-top:3px solid #D3202F;table-layout:fixed;min-width:700px}
 .grid th{background:#EDEDED;font-weight:500;padding:9px 6px;border:1px solid #D6D6D6;border-top:0;text-align:center;color:#222;white-space:nowrap}
-.grid td{padding:6px;border:1px solid #E0E0E0;vertical-align:middle;background:#fff}
+.grid td{padding:6px 4px;border:1px solid #E0E0E0;vertical-align:middle;background:#fff}
 .cell{width:100%;height:30px;border:1px solid #D6D6D6;border-radius:2px;background:#fff;font:inherit;font-size:13px;color:#222;padding:0 8px;box-sizing:border-box}
 .rocell{height:30px;border:1px solid #DDDDDD;border-radius:2px;background:#EFEFEF;color:#4F4F4F;font-size:13px;padding:0 8px;box-sizing:border-box;display:flex;align-items:center;gap:6px;overflow:hidden;white-space:nowrap}
 .num{justify-content:flex-end;text-align:right;font-variant-numeric:tabular-nums}
@@ -72,8 +73,8 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </head>
 <body>
 <div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>검토용 시안 · 금액과 이름은 예시</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure" aria-current="page">Closure 화면 개선안</a><label><input type="checkbox" id="mk" checked> 번호 표시</label></div>
-<div class="part"><h2 class="big">① 개선 화면 — Irregularity Closure</h2><p>파란 번호는 아래 개발 사양의 번호와 같습니다. 오른쪽 위 '번호 표시'로 끄고 켤 수 있습니다.</p></div>
-<div style="box-sizing: border-box; width: 100%; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
+<div class="part"><h2 class="big">① 개선 화면 — Irregularity Closure</h2><p>파란 번호는 아래 개발 사양의 번호와 같습니다. 오른쪽 위 '번호 표시'로 끄고 켤 수 있습니다.</p><div class="dl"><a href="/share/files/qms-claim-closure.pptx" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>PPT 다운로드</a><a href="/share/files/qms-claim-closure-mockup.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG · 번호 있음</a><a href="/share/files/qms-claim-closure-mockup-clean.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG · 번호 없음</a></div></div>
+<div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
 
 <header style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 28px; padding-bottom: 16px; border-bottom: 2px solid #111;">
 <h1 style="margin: 0; font-size: 24px; font-weight: 700;">Irregularity Closure</h1>
@@ -143,7 +144,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div class="sum" style="background: #FCEDEE;"><span class="k">당사 순손실 = 당사지불 − 당사회수</span><span class="v" style="color: #B3121F;">5,855.98</span></div>
 </div>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 24px; background: #fff; padding: 16px; box-sizing: border-box;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
 
 <div style="min-width: 0;">
 <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
@@ -159,7 +160,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </div>
 <div style="overflow-x: auto;">
 <table class="grid">
-<colgroup><col style="width: 34px;"><col style="width: 108px;"><col><col style="width: 78px;"><col style="width: 108px;"><col style="width: 108px;"><col style="width: 160px;"></colgroup>
+<colgroup><col style="width: 30px;"><col style="width: 110px;"><col><col style="width: 80px;"><col style="width: 84px;"><col style="width: 84px;"><col style="width: 112px;"></colgroup>
 <thead><tr>
 <th><input type="checkbox" aria-label="지불 행 전체 선택"></th>
 <th><span class="req">*</span>지불주체</th>
@@ -167,7 +168,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <th><span style="display: inline-flex; align-items: center; gap: 4px;"><span class="req">*</span>Currency<span class="mk" style="width: 18px; height: 18px; font-size: 10px;">7</span></span></th>
 <th><span class="req">*</span>금액</th>
 <th><span style="display: inline-flex; align-items: center; gap: 4px;">USD 환산<span class="mk" style="width: 18px; height: 18px; font-size: 10px;">8</span></span></th>
-<th>Remark (증빙번호 등)</th>
+<th>Remark</th>
 </tr></thead>
 <tbody>
 <tr>
@@ -211,7 +212,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </div>
 <div style="overflow-x: auto;">
 <table class="grid">
-<colgroup><col style="width: 34px;"><col style="width: 108px;"><col><col style="width: 78px;"><col style="width: 108px;"><col style="width: 108px;"><col style="width: 160px;"></colgroup>
+<colgroup><col style="width: 30px;"><col style="width: 110px;"><col><col style="width: 80px;"><col style="width: 84px;"><col style="width: 84px;"><col style="width: 112px;"></colgroup>
 <thead><tr>
 <th><input type="checkbox" aria-label="회수 행 전체 선택"></th>
 <th><span class="req">*</span>회수처</th>
@@ -219,7 +220,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <th><span class="req">*</span>Currency</th>
 <th><span class="req">*</span>금액</th>
 <th>USD 환산</th>
-<th>Remark (증빙번호 등)</th>
+<th>Remark</th>
 </tr></thead>
 <tbody>
 <tr>
@@ -229,7 +230,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <td><select class="cell" aria-label="Currency"><option>USD</option><option>KRW</option><option>EUR</option></select></td>
 <td><input class="cell" style="text-align: right;" placeholder="금액 입력" aria-label="금액"></td>
 <td><div class="auto">자동 계산</div></td>
-<td><input class="cell" style="border-color: #D3202F;" placeholder="전표번호 입력 (필수)" aria-label="Remark 전표번호"></td>
+<td><input class="cell" style="border-color: #D3202F;" placeholder="전표번호 (필수)" aria-label="Remark 전표번호"></td>
 </tr>
 </tbody>
 </table>
@@ -298,7 +299,7 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 
 </div>
 <div class="part" style="padding-top:40px"><h2 class="big">② 개발 사양</h2></div>
-<div style="max-width: 1440px; margin: 0 auto; box-sizing: border-box; padding: 32px 24px 56px; background: #F7F7F7; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; display: flex; flex-direction: column; gap: 24px;">
+<div style="max-width: 1600px; margin: 0 auto; box-sizing: border-box; padding: 32px 32px 56px; background: #F7F7F7; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; display: flex; flex-direction: column; gap: 24px;">
 
 <header style="display: flex; flex-direction: column; gap: 6px; padding-bottom: 18px; border-bottom: 2px solid #111;">
 <h1 style="margin: 0; font-size: 28px; font-weight: 700;">Irregularity Closure — 비용 지불·회수 입력 개선 사양</h1>
@@ -337,7 +338,7 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 <li>Claim Result 본문: <b>스플릿(Split screen)</b> 50:50 — 왼쪽 지불내역, 오른쪽 회수내역. 두 표의 컬럼 구성과 폭은 같게.</li>
 <li>각 표 위: 왼쪽 제목·안내 문구, 오른쪽 <b>+ / −</b> 버튼.</li>
 <li>화면 폭이 약 1,150px 보다 좁으면 지불 → 회수 순서로 위아래로 쌓이고, 표는 가로 스크롤.</li>
-<li>권장 컬럼 폭(px): 선택 34 · 주체 108 · 방법 나머지 · Currency 78 · 금액 108 · USD 환산 108 · Remark 160.</li>
+<li>권장 컬럼 폭(px): 선택 30 · 주체 110 · 방법 나머지 · Currency 80 · 금액 84 · USD 환산 84 · Remark 112 (화면 폭 1,600px 기준).</li>
 </ul>
 </section>
 
