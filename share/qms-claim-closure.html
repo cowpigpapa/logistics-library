@@ -46,6 +46,12 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .sum{display:flex;align-items:center;gap:10px;padding:6px 18px;border-left:1px solid #E6E6E6}
 .sum .k{font-size:12px;color:#666;white-space:nowrap}
 .sum .v{font-size:15px;line-height:1;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sum .v.pay{color:#A33A3A}
+.sum .v.neu{color:#444}
+.sum .v.rec{color:#1F5FBF}
+.sum .v.zero{color:#9A9A9A;font-weight:500}
+.sum.loss{background:#FCEDEE;border-left-color:#F2C6CA}.sum.loss .v{color:#B3121F}
+.sum.gain{background:#EAF2FC;border-left-color:#C5D9F2}.sum.gain .v{color:#1F5FBF}
 .legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:#555;margin-top:10px;align-items:center}
 .sw{display:inline-block;width:14px;height:14px;border:1px solid #D0D0D0;vertical-align:-2px;margin-right:6px}
 
@@ -138,10 +144,10 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div role="group" aria-label="요약 (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; margin-bottom: 5px; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
 <div style="display: flex; align-items: center; gap: 8px; padding: 0 14px; background: #333; color: #fff; font-size: 13px; font-weight: 700; white-space: nowrap;">
 <span class="mk" style="background: #fff; color: #1F4E9A;">3</span>요약 (USD)</div>
-<div class="sum"><span class="k">당사지불</span><span class="v">5,855.98</span></div>
-<div class="sum"><span class="k">보험사·제3자 부담</span><span class="v">0.00</span></div>
-<div class="sum"><span class="k">당사회수</span><span class="v">0.00</span></div>
-<div class="sum" style="background: #FCEDEE; border-left-color: #F2C6CA;"><span class="k">당사 순손실 = 당사지불 − 당사회수</span><span class="v" style="color: #B3121F;">5,855.98</span></div>
+<div class="sum"><span class="k">당사지불</span><span class="v pay">5,855.98</span></div>
+<div class="sum"><span class="k">보험사·제3자 부담</span><span class="v neu zero">0.00</span></div>
+<div class="sum"><span class="k">당사회수</span><span class="v rec zero">0.00</span></div>
+<div class="sum loss"><span class="k">당사 순손실 = 당사지불 − 당사회수</span><span class="v">5,855.98</span></div>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
@@ -363,10 +369,10 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 <div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; margin-bottom: 5px; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
 <div style="display: flex; align-items: center; gap: 8px; padding: 0 14px; background: #333; color: #fff; font-size: 13px; font-weight: 700; white-space: nowrap;">
 <span class="mk" style="background: #fff; color: #1F4E9A;">3</span>Summary (USD)</div>
-<div class="sum"><span class="k">LXP paid</span><span class="v">5,855.98</span></div>
-<div class="sum"><span class="k">Insurer / 3rd party paid</span><span class="v">0.00</span></div>
-<div class="sum"><span class="k">LXP recovered</span><span class="v">0.00</span></div>
-<div class="sum" style="background: #FCEDEE; border-left-color: #F2C6CA;"><span class="k">LXP net loss = LXP paid − LXP recovered</span><span class="v" style="color: #B3121F;">5,855.98</span></div>
+<div class="sum"><span class="k">LXP paid</span><span class="v pay">5,855.98</span></div>
+<div class="sum"><span class="k">Insurer / 3rd party paid</span><span class="v neu zero">0.00</span></div>
+<div class="sum"><span class="k">LXP recovered</span><span class="v rec zero">0.00</span></div>
+<div class="sum loss"><span class="k">LXP net loss = LXP paid − LXP recovered</span><span class="v">5,855.98</span></div>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
@@ -575,7 +581,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <tr><td><b>당사지불</b></td><td>지불내역 중 지불주체 = 당사 인 행(P1~P4)의 USD 환산 합계</td></tr>
 <tr><td><b>보험사·제3자 부담</b></td><td>지불내역 중 지불주체 = 당사 보험사·협력사·고객사 인 행(P5)의 USD 환산 합계</td></tr>
 <tr><td><b>당사회수</b></td><td>회수내역 전체(R1~R5)의 USD 환산 합계</td></tr>
-<tr><td><b>당사 순손실</b></td><td><span class="f">당사지불 − 당사회수</span> · 연한 빨강 배경, 빨간 숫자로 강조</td></tr>
+<tr><td><b>당사 순손실</b></td><td><span class="f">당사지불 − 당사회수</span> · 음수(회수가 더 많음)면 '당사 순이익'으로 이름을 바꾸고 절댓값 표시</td></tr>
 </tbody>
 </table>
 <ul style="margin-top: 12px;">
@@ -583,6 +589,14 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <li>행 추가·수정·삭제 시 바로 다시 계산.</li>
 <li>보험사·제3자 부담은 당사 순손실 계산에 들어가지 않음 (기획안 공식과 같음).</li>
 </ul>
+<h3>요약 색 규칙</h3>
+<table class="t">
+<thead><tr><th>칸</th><th>색</th><th>예</th></tr></thead>
+<tbody>
+<tr><td><b>당사지불</b></td><td>옅은 빨강 글씨, 배경 없음</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">당사지불</span><b style="color: #A33A3A; font-variant-numeric: tabular-nums;">5,855.98</b></span></td></tr><tr><td><b>보험사·제3자 부담</b></td><td>진한 회색 글씨 (중립)</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">보험사·제3자</span><b style="color: #444; font-variant-numeric: tabular-nums;">1,200.00</b></span></td></tr><tr><td><b>당사회수</b></td><td>파랑 글씨, 배경 없음</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">당사회수</span><b style="color: #1F5FBF; font-variant-numeric: tabular-nums;">800.00</b></span></td></tr><tr><td><b>당사 순손실 (지불 &gt; 회수)</b></td><td>빨강 글씨 + 연한 빨강 배경</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #F2C6CA; border-radius: 4px; background: #FCEDEE; white-space: nowrap;"><span style="font-size: 12px; color: #666;">당사 순손실</span><b style="color: #B3121F; font-variant-numeric: tabular-nums;">5,055.98</b></span></td></tr><tr><td><b>당사 순이익 (회수 &gt; 지불)</b></td><td>파랑 글씨 + 연한 파랑 배경, 이름도 '당사 순이익'으로 바꿈</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #C5D9F2; border-radius: 4px; background: #EAF2FC; white-space: nowrap;"><span style="font-size: 12px; color: #666;">당사 순이익</span><b style="color: #1F5FBF; font-variant-numeric: tabular-nums;">300.00</b></span></td></tr><tr><td><b>금액 0</b></td><td>회색 글씨, 보통 굵기 (모든 칸 공통)</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">당사회수</span><b style="color: #9A9A9A; font-variant-numeric: tabular-nums;">0.00</b></span></td></tr>
+</tbody>
+</table>
+<ul style="margin-top: 12px;"><li>앞의 세 칸은 글씨 색만, 결과 칸만 배경까지 칠해서 눈이 결과로 먼저 가게 함.</li><li>순손실 = 0 이면 회색, 이름은 '당사 순손실' 유지.</li><li>색만으로 구분하지 않도록 결과 칸은 이름(순손실/순이익)도 함께 바뀜.</li></ul>
 </section>
 
 <section class="sec">

@@ -46,6 +46,12 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .sum{display:flex;align-items:center;gap:10px;padding:6px 18px;border-left:1px solid #E6E6E6}
 .sum .k{font-size:12px;color:#666;white-space:nowrap}
 .sum .v{font-size:15px;line-height:1;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sum .v.pay{color:#A33A3A}
+.sum .v.neu{color:#444}
+.sum .v.rec{color:#1F5FBF}
+.sum .v.zero{color:#9A9A9A;font-weight:500}
+.sum.loss{background:#FCEDEE;border-left-color:#F2C6CA}.sum.loss .v{color:#B3121F}
+.sum.gain{background:#EAF2FC;border-left-color:#C5D9F2}.sum.gain .v{color:#1F5FBF}
 .legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:#555;margin-top:10px;align-items:center}
 .sw{display:inline-block;width:14px;height:14px;border:1px solid #D0D0D0;vertical-align:-2px;margin-right:6px}
 
@@ -138,10 +144,10 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; margin-bottom: 5px; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
 <div style="display: flex; align-items: center; gap: 8px; padding: 0 14px; background: #333; color: #fff; font-size: 13px; font-weight: 700; white-space: nowrap;">
 <span class="mk" style="background: #fff; color: #1F4E9A;">3</span>Summary (USD)</div>
-<div class="sum"><span class="k">LXP paid</span><span class="v">5,855.98</span></div>
-<div class="sum"><span class="k">Insurer / 3rd party paid</span><span class="v">0.00</span></div>
-<div class="sum"><span class="k">LXP recovered</span><span class="v">0.00</span></div>
-<div class="sum" style="background: #FCEDEE; border-left-color: #F2C6CA;"><span class="k">LXP net loss = LXP paid − LXP recovered</span><span class="v" style="color: #B3121F;">5,855.98</span></div>
+<div class="sum"><span class="k">LXP paid</span><span class="v pay">5,855.98</span></div>
+<div class="sum"><span class="k">Insurer / 3rd party paid</span><span class="v neu zero">0.00</span></div>
+<div class="sum"><span class="k">LXP recovered</span><span class="v rec zero">0.00</span></div>
+<div class="sum loss"><span class="k">LXP net loss = LXP paid − LXP recovered</span><span class="v">5,855.98</span></div>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
@@ -351,7 +357,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <tr><td><b>LXP paid</b></td><td>Sum of In USD for payment rows where Paid by = LXP (P1–P4)</td></tr>
 <tr><td><b>Insurer / 3rd party paid</b></td><td>Sum of In USD for payment rows where Paid by = LXP insurer, Vendor or Customer (P5)</td></tr>
 <tr><td><b>LXP recovered</b></td><td>Sum of In USD for all recovery rows (R1–R5)</td></tr>
-<tr><td><b>LXP net loss</b></td><td><span class="f">LXP paid − LXP recovered</span> · highlighted with light red background and red figure</td></tr>
+<tr><td><b>LXP net loss</b></td><td><span class="f">LXP paid − LXP recovered</span> · if negative (more recovered), relabel as 'LXP net gain' and show the absolute value</td></tr>
 </tbody>
 </table>
 <ul style="margin-top: 12px;">
@@ -359,6 +365,14 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <li>Recalculate immediately when a row is added, changed or deleted.</li>
 <li>Insurer / 3rd party paid is not part of the LXP net loss (same as the planning draft formula).</li>
 </ul>
+<h3>Summary colour rules</h3>
+<table class="t">
+<thead><tr><th>Cell</th><th>Colour</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td><b>LXP paid</b></td><td>Muted red text, no background</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP paid</span><b style="color: #A33A3A; font-variant-numeric: tabular-nums;">5,855.98</b></span></td></tr><tr><td><b>Insurer / 3rd party paid</b></td><td>Dark grey text (neutral)</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">Insurer / 3rd party</span><b style="color: #444; font-variant-numeric: tabular-nums;">1,200.00</b></span></td></tr><tr><td><b>LXP recovered</b></td><td>Blue text, no background</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP recovered</span><b style="color: #1F5FBF; font-variant-numeric: tabular-nums;">800.00</b></span></td></tr><tr><td><b>LXP net loss (paid &gt; recovered)</b></td><td>Red text + light red background</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #F2C6CA; border-radius: 4px; background: #FCEDEE; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP net loss</span><b style="color: #B3121F; font-variant-numeric: tabular-nums;">5,055.98</b></span></td></tr><tr><td><b>LXP net gain (recovered &gt; paid)</b></td><td>Blue text + light blue background; label changes to 'LXP net gain'</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #C5D9F2; border-radius: 4px; background: #EAF2FC; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP net gain</span><b style="color: #1F5FBF; font-variant-numeric: tabular-nums;">300.00</b></span></td></tr><tr><td><b>Zero amount</b></td><td>Grey text, regular weight (all cells)</td><td><span style="display: inline-flex; align-items: center; gap: 8px; padding: 3px 10px; border: 1px solid #DADADA; border-radius: 4px; background: #fff; white-space: nowrap;"><span style="font-size: 12px; color: #666;">LXP recovered</span><b style="color: #9A9A9A; font-variant-numeric: tabular-nums;">0.00</b></span></td></tr>
+</tbody>
+</table>
+<ul style="margin-top: 12px;"><li>The first three cells colour the text only; only the result cell gets a background, so the eye goes to the result first.</li><li>If the net amount is 0, show it grey and keep the 'LXP net loss' label.</li><li>The result label (net loss / net gain) changes too, so the state is not shown by colour alone.</li></ul>
 </section>
 
 <section class="sec">
