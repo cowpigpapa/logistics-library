@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Irregularity Closure cost input redesign · Logistics Library</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;display=swap">
+<style>
+/* Irregularity Closure cost payment/recovery input redesign: mockup on top, developer spec below. */
+*{box-sizing:border-box}
+body{margin:0;background:#F7F7F7}
+.lab-bar{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font-size:13px;color:#5c4a12;font-family:'Noto Sans KR','Malgun Gothic',sans-serif}
+.lab-bar a{color:#1f5fbf;font-weight:700;text-decoration:none}.lab-bar a:hover{text-decoration:underline}.lab-bar a[aria-current]{color:#5c4a12}
+.lab-bar label{margin-left:auto;display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.part{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;max-width:1600px;margin:0 auto;padding:28px 32px 0}
+.dl{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.dl a{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:1px solid #C9C9C9;border-radius:4px;background:#fff;color:#222;font-size:13px;font-weight:500;text-decoration:none}.dl a:hover{border-color:#D3202F;color:#B3121F}.dl svg{flex:none}
+.part h2.big{margin:0;font-size:22px;color:#222}.part p{margin:6px 0 0;font-size:14px;color:#555}
+.hide-mk .mk,.hide-mk .mk-note{display:none !important}
+
+
+a{color:#B3121F}a:hover{color:#7E0C16}
+.btn{font:inherit;font-size:14px;color:#B3121F;background:#fff;border:1px solid #D2D2D2;border-radius:2px;padding:0 16px;height:34px;cursor:pointer;white-space:nowrap}
+.tab{display:inline-flex;align-items:center;justify-content:center;text-align:center;background:#D3202F;color:#fff;font-weight:700;font-size:15px;line-height:1.25;border-radius:4px 4px 0 0;padding:0 22px;min-height:46px;box-sizing:border-box;white-space:nowrap}
+.panel{background:#fff;border-radius:2px;padding:16px;box-sizing:border-box;min-width:0}
+.lbl{font-size:14px;font-weight:700;color:#222;white-space:nowrap}
+.fld{height:32px;border:1px solid #D6D6D6;background:#fff;padding:0 10px;font:inherit;font-size:14px;color:#222;box-sizing:border-box;border-radius:2px;display:inline-flex;align-items:center}
+.ro{background:#EFEFEF;color:#4F4F4F}
+.memo{border:1px solid #D6D6D6;background:#F4F4F4;padding:14px 12px;font-size:15px;line-height:1.6;white-space:pre-line;min-height:160px;box-sizing:border-box}
+.hist{width:100%;border-collapse:collapse;font-size:13px;border-top:3px solid #D3202F;table-layout:fixed}
+.hist th{background:#EDEDED;font-weight:500;padding:10px;border-bottom:1px solid #D2D2D2}
+.hist td{padding:11px 4px;border-bottom:1px solid #E3E3E3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.grid{width:100%;border-collapse:collapse;font-size:13px;border-top:3px solid #D3202F;table-layout:fixed;min-width:700px}
+.grid th{background:#EDEDED;font-weight:500;padding:9px 6px;border:1px solid #D6D6D6;border-top:0;text-align:center;color:#222;white-space:nowrap}
+.grid td{padding:6px 4px;border:1px solid #E0E0E0;vertical-align:middle;background:#fff}
+.cell{width:100%;height:30px;border:1px solid #D6D6D6;border-radius:2px;background:#fff;font:inherit;font-size:13px;color:#222;padding:0 8px;box-sizing:border-box}
+.rocell{height:30px;border:1px solid #DDDDDD;border-radius:2px;background:#EFEFEF;color:#4F4F4F;font-size:13px;padding:0 8px;box-sizing:border-box;display:flex;align-items:center;gap:6px;overflow:hidden;white-space:nowrap}
+.num{justify-content:flex-end;text-align:right;font-variant-numeric:tabular-nums}
+.usd{display:flex;justify-content:flex-end;align-items:center;height:30px;padding:0 8px;font-variant-numeric:tabular-nums;color:#1E6B34;font-weight:500}
+.auto{display:flex;justify-content:flex-end;align-items:center;height:30px;padding:0 8px;color:#6B6B6B;font-size:12px}
+.req{color:#D3202F}
+.chip{font-size:10px;font-weight:700;color:#1F4E9A;border:1px solid #1F4E9A;border-radius:3px;padding:0 4px;line-height:15px;flex:none}
+.mk{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:#1F4E9A;color:#fff;font-size:12px;font-weight:700;flex:none}
+.ibtn{width:30px;height:30px;border:1px solid #7A7A7A;border-radius:6px;background:#fff;color:#3A3A3A;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
+.sum{display:flex;flex-direction:column;justify-content:center;gap:3px;padding:7px 20px;border-left:1px solid #E6E6E6;min-width:150px}
+.sum .k{font-size:12px;color:#666;white-space:nowrap}
+.sum .v{font-size:18px;line-height:1.2;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:#555;margin-top:10px;align-items:center}
+.sw{display:inline-block;width:14px;height:14px;border:1px solid #D0D0D0;vertical-align:-2px;margin-right:6px}
+
+
+
+a{color:#B3121F}a:hover{color:#7E0C16}
+.sec{background:#fff;border:1px solid #E2E2E2;border-radius:4px;padding:22px 24px;box-sizing:border-box}
+.sec h2{margin:0 0 14px;font-size:18px;font-weight:700;display:flex;align-items:center;gap:10px}
+.sec h3{margin:18px 0 8px;font-size:15px;font-weight:700}
+.sec p,.sec li{font-size:14px;line-height:1.65;color:#333}
+.sec ul,.sec ol{margin:0;padding-left:20px}
+.t{width:100%;border-collapse:collapse;font-size:13px;border-top:2px solid #D3202F}
+.t th{background:#F0F0F0;font-weight:700;text-align:left;padding:8px 10px;border-bottom:1px solid #D6D6D6;white-space:nowrap}
+.t td{padding:8px 10px;border-bottom:1px solid #E6E6E6;vertical-align:top;line-height:1.5;color:#2A2A2A}
+.mk{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:#1F4E9A;color:#fff;font-size:12px;font-weight:700;flex:none}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:1px 8px;border-radius:3px;white-space:nowrap}
+.del{background:#FCE4E6;color:#9E1020}
+.add{background:#E3EEFB;color:#1F4E9A}
+.keep{background:#EDEDED;color:#444}
+.chg{background:#FFF1D6;color:#7A4A00}
+.f{font-family:Consolas,'D2Coding',monospace;font-size:13px;background:#F5F5F5;padding:1px 6px;border-radius:3px}
+.q{border-left:0;background:#FFF8E8;border:1px solid #F0D9A8}
+
+</style>
+</head>
+<body>
+<div class="lab-bar"><b>QMS claim cost settlement design</b><span>Draft for review · amounts and names are examples</span><a href="/share/qms-claim-closure-en" aria-current="page">Closure redesign (EN)</a><a href="/share/qms-claim-closure" lang="ko">한국어</a><label><input type="checkbox" id="mk" checked> Show markers</label></div>
+<div class="part"><h2 class="big">① Redesigned screen — Irregularity Closure</h2><p>Blue numbers match the developer spec below. Turn them on or off with 'Show markers' at the top right.</p><div class="dl"><a href="/share/files/qms-claim-closure-en.pptx" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>Download PPT</a><a href="/share/files/qms-claim-closure-en-mockup.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG · with markers</a><a href="/share/files/qms-claim-closure-en-mockup-clean.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG · no markers</a></div></div>
+<div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
+
+<header style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 28px; padding-bottom: 16px; border-bottom: 2px solid #111;">
+<h1 style="margin: 0; font-size: 24px; font-weight: 700;">Irregularity Closure</h1>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px;">
+<label style="display: flex; align-items: center; gap: 10px;"><span class="lbl">BSC Timely Registration Y/N :</span><select class="fld" style="width: 108px;"><option>Y</option><option>N</option></select></label>
+<label style="display: flex; align-items: center; gap: 10px;"><span class="lbl">BSC Timely Improvement Y/N :</span><select class="fld" style="width: 108px;"><option>Y</option><option>N</option></select></label>
+<div style="display: flex; align-items: center; gap: 10px;"><span class="lbl">Result Close Y/N :</span><span class="fld ro" style="width: 36px; justify-content: center;">N</span></div>
+<div style="display: flex; align-items: center; gap: 10px;"><span class="lbl">CAPA Close Y/N :</span><span class="fld ro" style="width: 36px; justify-content: center;">Y</span></div>
+</div>
+</header>
+
+<section aria-label="Progress and Result" style="padding: 30px 0 22px; border-bottom: 2px solid #111;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 24px;">
+<div style="min-width: 0;">
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px;">
+<span class="tab">Progress &amp; Result</span>
+<button class="btn" type="button" style="margin-bottom: 6px;">Withdraw Request</button>
+</div>
+<div class="panel">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
+<a href="#" style="font-size: 14px; color: #6B6B6B; text-decoration: none; font-weight: 500;">(click here for sample)</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;">
+<span class="lbl">Due Date :</span><span class="fld" style="width: 136px; justify-content: space-between;">2026-12-14<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="1"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg></span>
+<span class="lbl">Last Update :</span><span class="fld ro" style="width: 168px;">2026-11-23 10:32:33</span>
+</div>
+</div>
+<div class="memo">Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping)
+ - Caused by careless clamp forklift handling
+ - Improve handling quality through continuous operator training</div>
+
+<div class="mk-note" style="margin-top: 12px; border: 1px dashed #1F4E9A; background: #F2F6FC; color: #1F3F78; font-size: 13px; padding: 10px 12px; display: flex; align-items: center; gap: 10px;"><span class="mk">1</span>Existing Actual Loss Cost area removed (Compensation · Pay / Recovery / Loss Amount · Calculator · Sync Data) — costs are now entered in the Claim Result section below</div>
+
+</div>
+</div>
+<div style="min-width: 0;">
+<div style="display: flex; align-items: flex-end; justify-content: flex-end; gap: 10px; min-height: 46px;">
+<button class="btn" type="button" style="margin-bottom: 6px;">Request Re-submission</button>
+<button class="btn" type="button" style="margin-bottom: 6px;">Confirm</button>
+</div>
+<div class="panel">
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;"><span class="lbl">Confirm Date :</span><span class="fld ro" style="width: 168px;"></span></div>
+<table class="hist">
+<thead><tr><th>Contents</th></tr></thead>
+<tbody>
+<tr><td>[REQ] 2026-11-23 10:32:40 (PIC) Request Confirmation</td></tr>
+<tr><td>[REG] 2026-11-23 10:32:33 (PIC) Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping) - Caused by careless clamp forklift handling - Improve handling quality through continuous operator training</td></tr>
+<tr><td>[REG] 2026-11-23 10:31:53 (PIC) Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping) - Caused by careless clamp forklift handling</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-label="Claim Result" style="padding: 30px 0 22px; border-bottom: 2px solid #111;">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 16px;">
+<div style="display: flex; align-items: flex-end; gap: 10px;">
+<span class="tab">Claim Result</span>
+<span class="mk" style="margin-bottom: 12px;">2</span>
+</div>
+<div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; margin-bottom: 8px; min-height: 52px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
+<div style="display: flex; align-items: center; gap: 8px; padding: 0 18px; background: #333; color: #fff; font-size: 13px; font-weight: 700; white-space: nowrap;">
+<span class="mk" style="background: #fff; color: #1F4E9A;">3</span>Summary (USD)</div>
+<div class="sum"><span class="k">LXP paid</span><span class="v">5,855.98</span></div>
+<div class="sum"><span class="k">Insurer / 3rd party paid</span><span class="v">0.00</span></div>
+<div class="sum"><span class="k">LXP recovered</span><span class="v">0.00</span></div>
+<div class="sum" style="background: #FCEDEE; border-left-color: #F2C6CA;"><span class="k">LXP net loss = LXP paid − LXP recovered</span><span class="v" style="color: #B3121F;">5,855.98</span></div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
+
+<div style="min-width: 0;">
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
+<div style="min-width: 0;">
+<h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Payments<span class="mk">4</span></h2>
+<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">Enter one row per payment. If the insurer paid part and LXP paid the rest, enter two rows.</p>
+</div>
+<div style="display: flex; align-items: center; gap: 6px; flex: none;">
+<span class="mk">6</span>
+<button class="ibtn" type="button" aria-label="Add payment row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+<button class="ibtn" type="button" aria-label="Delete selected payment rows"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
+</div>
+</div>
+<div style="overflow-x: auto;">
+<table class="grid">
+<colgroup><col style="width: 30px;"><col style="width: 124px;"><col><col style="width: 88px;"><col style="width: 78px;"><col style="width: 76px;"><col style="width: 104px;"></colgroup>
+<thead><tr>
+<th><input type="checkbox" aria-label="Select all payment rows"></th>
+<th><span class="req">*</span>Paid by</th>
+<th><span class="req">*</span>Payment type</th>
+<th><span style="display: inline-flex; align-items: center; gap: 4px;"><span class="req">*</span>Currency<span class="mk" style="width: 18px; height: 18px; font-size: 10px;">7</span></span></th>
+<th><span class="req">*</span>Amount</th>
+<th><span style="display: inline-flex; align-items: center; gap: 4px;">In USD<span class="mk" style="width: 18px; height: 18px; font-size: 10px;">8</span></span></th>
+<th>Remark</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><input type="checkbox" aria-label="Select row 1"></td>
+<td><select class="cell" aria-label="Paid by"><option>LXP</option><option>LXP insurer</option><option>Vendor</option><option>Customer</option></select></td>
+<td><select class="cell" aria-label="Payment type"><option>P1 Compensation (51029010)</option><option>P2 Penalty (51017180)</option><option>P3 DEM/DET/STG</option><option>P4 Selling / Buying</option></select></td>
+<td><div class="rocell">USD</div></td>
+<td><div class="rocell num">5,855.98</div></td>
+<td><div class="usd">5,855.98</div></td>
+<td><div class="rocell"><span class="chip">SAP</span>4400000813, 4400000847</div></td>
+</tr>
+<tr>
+<td style="text-align: center;"><input type="checkbox" aria-label="Select row 2"></td>
+<td><select class="cell" aria-label="Paid by"><option>LXP insurer</option><option>LXP</option><option>Vendor</option><option>Customer</option></select></td>
+<td><select class="cell" aria-label="Payment type"><option>P5 Paid by insurer / 3rd party</option></select></td>
+<td><select class="cell" aria-label="Currency"><option>KRW</option><option>USD</option><option>EUR</option></select></td>
+<td><input class="cell" style="text-align: right;" placeholder="Amount" aria-label="Amount"></td>
+<td><div class="auto">Auto</div></td>
+<td><input class="cell" placeholder="Evidence no." aria-label="Remark"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="legend">
+<span><span class="sw" style="background: #EFEFEF;"></span>Auto-filled from SAP — read-only (P1·P2)</span>
+<span><span style="color: #1E6B34; font-weight: 700; margin-right: 6px;">0.00</span>In USD — Amount × FX rate, auto-calculated</span>
+<span class="mk">9</span>
+</div>
+</div>
+
+<div style="min-width: 0;">
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
+<div style="min-width: 0;">
+<h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Recoveries<span class="mk">5</span></h2>
+<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">Enter one row per amount LXP recovered, including insurance reimbursement of LXP payments.</p>
+</div>
+<div style="display: flex; align-items: center; gap: 6px; flex: none;">
+<button class="ibtn" type="button" aria-label="Add recovery row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+<button class="ibtn" type="button" aria-label="Delete selected recovery rows"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
+</div>
+</div>
+<div style="overflow-x: auto;">
+<table class="grid">
+<colgroup><col style="width: 30px;"><col style="width: 124px;"><col><col style="width: 88px;"><col style="width: 78px;"><col style="width: 76px;"><col style="width: 104px;"></colgroup>
+<thead><tr>
+<th><input type="checkbox" aria-label="Select all recovery rows"></th>
+<th><span class="req">*</span>Recovered from</th>
+<th><span class="req">*</span>Recovery type</th>
+<th><span class="req">*</span>Currency</th>
+<th><span class="req">*</span>Amount</th>
+<th>In USD</th>
+<th>Remark</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><input type="checkbox" aria-label="Select row 1"></td>
+<td><select class="cell" aria-label="Recovered from"><option>Vendor</option><option>LXP insurer</option><option>Carrier (ocean / air)</option><option>Trucker / Warehouse</option><option>Customer</option></select></td>
+<td><select class="cell" aria-label="Recovery type"><option>R4 Selling / Buying</option><option>R1 Compensation (51029010)</option><option>R2 Penalty (51017180)</option><option>R3 DEM/DET/STG</option><option>R5 Other</option></select></td>
+<td><select class="cell" aria-label="Currency"><option>USD</option><option>KRW</option><option>EUR</option></select></td>
+<td><input class="cell" style="text-align: right;" placeholder="Amount" aria-label="Amount"></td>
+<td><div class="auto">Auto</div></td>
+<td><input class="cell" style="border-color: #D3202F;" placeholder="Voucher no." aria-label="Remark voucher number"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="legend">
+<span><span class="sw" style="background: #EFEFEF;"></span>Auto-filled from SAP — read-only (R1·R2)</span>
+<span><span class="sw" style="background: #fff; border-color: #D3202F;"></span>Voucher no. required for R4</span>
+</div>
+</div>
+
+</div>
+</section>
+
+<section aria-label="Cause Analysis and Preventive Action" style="padding: 30px 0 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 24px;">
+<div style="min-width: 0;">
+<span class="tab" style="font-size: 14px; padding: 6px 14px;">Cause Analysis &amp;<br>Preventive Action (CAPA)</span>
+<div class="panel">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
+<a href="#" style="font-size: 14px; color: #6B6B6B; text-decoration: none; font-weight: 500;">(click here for sample)</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;">
+<span class="lbl">Due Date :</span><span class="fld ro" style="width: 136px;">2026-12-23</span>
+<span class="lbl">Last Update :</span><span class="fld ro" style="width: 168px;">2026-11-23 10:31:53</span>
+</div>
+</div>
+<div class="memo">Periodic damage-prevention training for forklift drivers
+ - Site manager is training all forklift operators
+
+Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 11/13)</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin: 12px 0 8px;">
+<span style="display: inline-flex; align-items: center; gap: 4px;"><span class="req">*</span><span style="background: #2B2B2B; color: #fff; font-size: 14px; font-weight: 500; padding: 7px 26px; border-radius: 2px;">Evidence</span></span>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+<select class="fld" style="width: 168px;" aria-label="Move to"><option>- Irregularity Report</option></select>
+<button class="btn" type="button">Move</button>
+<button class="btn" type="button">Download selected</button>
+</div>
+</div>
+<table class="grid" style="min-width: 0;">
+<colgroup><col style="width: 64px;"><col style="width: 56px;"><col><col style="width: 200px;"><col style="width: 110px;"></colgroup>
+<thead><tr><th>No.</th><th><input type="checkbox" aria-label="Select all files"></th><th>File name</th><th>Uploaded</th><th>Download</th></tr></thead>
+<tbody>
+<tr><td style="text-align: center;">1</td><td style="text-align: center;"><input type="checkbox" aria-label="Select file 1"></td><td style="text-align: center;">Damage prevention training 2026.10.07.pdf</td><td style="text-align: center;">2026-11-24 01:28:03</td><td style="text-align: center; color: #D3202F;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" role="img" aria-label="Download"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></td></tr>
+<tr><td style="text-align: center;">2</td><td style="text-align: center;"><input type="checkbox" aria-label="Select file 2"></td><td style="text-align: center;">Damage Prevention Training 2026.11.17.pptx</td><td style="text-align: center;">2026-11-24 01:28:06</td><td style="text-align: center; color: #D3202F;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" role="img" aria-label="Download"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div style="min-width: 0;">
+<div style="display: flex; align-items: flex-end; justify-content: flex-end; min-height: 46px;">
+<button class="btn" type="button" style="margin-bottom: 6px;">Request Re-submission</button>
+</div>
+<div class="panel">
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;"><span class="lbl">Confirm Date :</span><span class="fld ro" style="width: 168px;">2026-11-24 08:51:40</span></div>
+<table class="hist">
+<thead><tr><th>Contents</th></tr></thead>
+<tbody>
+<tr><td style="color: #1E6B34;">[CFM] 2026-11-24 08:51:40 (Approver) Confirm</td></tr>
+<tr><td>[REQ] 2026-11-23 10:33:06 (PIC) Request Confirmation</td></tr>
+<tr><td>[REG] 2026-11-23 10:31:53 (PIC) Periodic damage-prevention training for forklift drivers - Site manager is training all forklift operators. Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 11/13)</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+<div class="part" style="padding-top:40px"><h2 class="big">② Developer spec</h2></div>
+<div style="max-width: 1600px; margin: 0 auto; box-sizing: border-box; padding: 32px 32px 56px; background: #F7F7F7; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; display: flex; flex-direction: column; gap: 24px;">
+
+<header style="display: flex; flex-direction: column; gap: 6px; padding-bottom: 18px; border-bottom: 2px solid #111;">
+<h1 style="margin: 0; font-size: 28px; font-weight: 700;">Irregularity Closure — Cost Payment &amp; Recovery Input Redesign</h1>
+<p style="margin: 0; font-size: 14px; color: #555;">For: developers · Baseline: current Irregularity Closure screen · Written 2026-11-24 · Blue numbers match the markers on the redesigned screen · LXP = LX Pantos (our company)</p>
+</header>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 24px; align-items: start;">
+
+<div style="display: flex; flex-direction: column; gap: 24px; min-width: 0;">
+
+<section class="sec">
+<h2>1. Summary of changes</h2>
+<table class="t">
+<thead><tr><th>Change</th><th>Item</th><th>Details</th></tr></thead>
+<tbody>
+<tr><td><span class="tag del">Remove</span></td><td><span class="mk">1</span> Actual Loss Cost</td><td>Remove the whole cost area inside Progress &amp; Result: compensation selector, Currency, Pay / Recovery / LX Pantos Loss Amount, Calculator, Sync Data</td></tr>
+<tr><td><span class="tag add">New</span></td><td><span class="mk">2</span> Claim Result section</td><td>Placed between Progress &amp; Result and CAPA</td></tr>
+<tr><td><span class="tag add">New</span></td><td><span class="mk">3</span> Summary bar</td><td>One row to the right of the red Claim Result tab</td></tr>
+<tr><td><span class="tag chg">Change</span></td><td><span class="mk">4</span><span class="mk">5</span> Payment &amp; recovery tables</td><td>Stacked → side by side (payments left, recoveries right)</td></tr>
+<tr><td><span class="tag chg">Change</span></td><td><span class="mk">6</span> Row delete</td><td>Per-row 'Delete' button → <b>+ / −</b> buttons at the table's top right</td></tr>
+<tr><td><span class="tag add">Add</span></td><td><span class="mk">7</span> Currency</td><td>Currency selector before Amount (KRW, USD, EUR)</td></tr>
+<tr><td><span class="tag add">Add</span></td><td><span class="mk">8</span> In USD</td><td>USD-converted amount shown right of Amount (automatic)</td></tr>
+<tr><td><span class="tag del">Remove</span></td><td>Date column</td><td>In both tables</td></tr>
+<tr><td><span class="tag del">Excluded</span></td><td>Total claim, Reduction</td><td>① Total claim and ⑤ Reduction from the planning draft summary are not included</td></tr>
+<tr><td><span class="tag keep">Keep</span></td><td>Progress &amp; Result, CAPA</td><td>Text input, history (Contents), evidence files and buttons stay as they are</td></tr>
+</tbody>
+</table>
+</section>
+
+<section class="sec">
+<h2>2. Layout</h2>
+<ul>
+<li>Whole screen: 3 stacked sections — Progress &amp; Result → <b>Claim Result</b> → CAPA. Keep the black divider lines between sections.</li>
+<li>Progress &amp; Result, CAPA: current <b>Split screen</b> 50:50 (input left, history right), unchanged.</li>
+<li>Claim Result header: red <b>Claim Result</b> tab + summary bar on its right (black 'Summary (USD)' label + 4 cells), shown as a separate card with a small gap above the cost panel.</li>
+<li>Claim Result body: <b>Split screen</b> 50:50 — payments left, recoveries right. Both tables use the same columns and widths.</li>
+<li>Above each table: title and guidance on the left, <b>+ / −</b> buttons on the right.</li>
+<li>Below about 1,150px screen width, payments and recoveries stack vertically and the tables scroll horizontally.</li>
+<li>Suggested column widths (px): Select 30 · Party 124 · Type (rest) · Currency 88 · Amount 78 · In USD 76 · Remark 104 (at 1,600px screen width).</li>
+</ul>
+</section>
+
+<section class="sec">
+<h2>5. Summary calculation (USD)</h2>
+<table class="t">
+<thead><tr><th>Item</th><th>Calculation</th></tr></thead>
+<tbody>
+<tr><td><b>LXP paid</b></td><td>Sum of In USD for payment rows where Paid by = LXP (P1–P4)</td></tr>
+<tr><td><b>Insurer / 3rd party paid</b></td><td>Sum of In USD for payment rows where Paid by = LXP insurer, Vendor or Customer (P5)</td></tr>
+<tr><td><b>LXP recovered</b></td><td>Sum of In USD for all recovery rows (R1–R5)</td></tr>
+<tr><td><b>LXP net loss</b></td><td><span class="f">LXP paid − LXP recovered</span> · highlighted with light red background and red figure</td></tr>
+</tbody>
+</table>
+<ul style="margin-top: 12px;">
+<li>Format: USD, thousands separator, 2 decimals.</li>
+<li>Recalculate immediately when a row is added, changed or deleted.</li>
+<li>Insurer / 3rd party paid is not part of the LXP net loss (same as the planning draft formula).</li>
+</ul>
+</section>
+
+<section class="sec">
+<h2><span class="mk">6</span>+ / − buttons</h2>
+<ul>
+<li>Position: top right of each table (payments and recoveries separately).</li>
+<li><b>+</b> : adds one empty row at the bottom. Suggested default Currency for a new row: USD.</li>
+<li><b>−</b> : deletes the checked rows. Disabled when no row is checked.</li>
+<li>Header checkbox selects / clears all rows in that table.</li>
+</ul>
+</section>
+
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 24px; min-width: 0;">
+
+<section class="sec">
+<h2>3. Table columns (same order in both tables)</h2>
+<table class="t">
+<thead><tr><th>#</th><th>Payments</th><th>Recoveries</th><th>Input</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>☐ Select</td><td>☐ Select</td><td>Checkbox</td><td>Target of the − button</td></tr>
+<tr><td>2</td><td>*Paid by</td><td>*Recovered from</td><td>Dropdown</td><td>Values in section 4</td></tr>
+<tr><td>3</td><td>*Payment type</td><td>*Recovery type</td><td>Dropdown</td><td>Payment types are limited by Paid by</td></tr>
+<tr><td>4</td><td colspan="2"><span class="mk">7</span> *Currency (new)</td><td>Dropdown</td><td>KRW, USD, EUR</td></tr>
+<tr><td>5</td><td colspan="2">*Amount</td><td>Number</td><td>Manual or SAP auto-fill, depending on type</td></tr>
+<tr><td>6</td><td colspan="2"><span class="mk">8</span> In USD (new)</td><td>Automatic, read-only</td><td><span class="f">Amount × FX rate</span>, 2 decimals, green text. Equals Amount for USD rows. Shows 'Auto' until an amount is entered</td></tr>
+<tr><td>7</td><td colspan="2">Remark (evidence no. etc.)</td><td>Text</td><td>Required or SAP auto-fill, depending on type</td></tr>
+</tbody>
+</table>
+<p style="margin: 10px 0 0; font-size: 13px; color: #555;">* = required. The old 'Date' column and the per-row 'Delete' column are removed.</p>
+</section>
+
+<section class="sec">
+<h2>4. Dropdown values and input rules</h2>
+<h3 style="margin-top: 0;">Paid by → Payment type</h3>
+<table class="t">
+<thead><tr><th>Paid by</th><th>Allowed payment types</th></tr></thead>
+<tbody>
+<tr><td>LXP</td><td>P1 – P4</td></tr>
+<tr><td>LXP insurer · Vendor · Customer</td><td>P5 (only one option, so auto-select is suggested)</td></tr>
+</tbody>
+</table>
+<h3>Payment types</h3>
+<table class="t">
+<thead><tr><th>Code</th><th>Name (account)</th><th>Amount · Remark</th></tr></thead>
+<tbody>
+<tr><td>P1</td><td>Compensation paid (51029010)</td><td><span class="mk" style="width: 18px; height: 18px; font-size: 10px;">9</span> Auto-filled from SAP, read-only</td></tr>
+<tr><td>P2</td><td>Penalty paid (51017180)</td><td>Auto-filled from SAP, read-only</td></tr>
+<tr><td>P3</td><td>DEM/DET/STG</td><td>Manual DEM/DET/STG amount (for auto-generated cases, enter the I/F amount)</td></tr>
+<tr><td>P4</td><td>Selling / Buying</td><td>Manual, <b>voucher no. required</b></td></tr>
+<tr><td>P5</td><td>Paid by insurer / 3rd party</td><td>Manual</td></tr>
+</tbody>
+</table>
+<h3>Recovered from</h3>
+<p style="margin: 0;">LXP insurer · Vendor · Carrier (ocean / air) · Trucker / Warehouse · Customer</p>
+<h3>Recovery types</h3>
+<table class="t">
+<thead><tr><th>Code</th><th>Name (account)</th><th>Amount · Remark</th></tr></thead>
+<tbody>
+<tr><td>R1</td><td>Compensation recovered (51029010)</td><td>Auto-filled from SAP, read-only</td></tr>
+<tr><td>R2</td><td>Penalty recovered (51017180)</td><td>Auto-filled from SAP, read-only</td></tr>
+<tr><td>R3</td><td>DEM/DET/STG</td><td>Manual DEM/DET/STG amount (for auto-generated cases, enter the I/F amount)</td></tr>
+<tr><td>R4</td><td>Selling / Buying</td><td>Manual, <b>voucher no. required</b></td></tr>
+<tr><td>R5</td><td>Other</td><td>Manual (only for accounts other than compensation)</td></tr>
+</tbody>
+</table>
+<ul style="margin-top: 12px;">
+<li>SAP auto rows (P1·P2·R1·R2): lock Currency · Amount · Remark in grey and show an 'SAP' chip (suggestion).</li>
+<li>On save: if a * field is empty, or the Remark (voucher no.) of a P4·R4 row is empty, block saving and outline that field in red.</li>
+</ul>
+</section>
+
+<section class="sec q">
+<h2>8. To confirm before development</h2>
+<ol>
+<li><b>FX rate source and base date</b> — with the Date column gone, a base date for the USD conversion must be set (e.g. input date, voucher date, irregularity date).</li>
+<li><b>Migrating existing Actual Loss Cost data</b> — whether to move the old Pay Amount into one payment row and Recovery Amount into one recovery row.</li>
+<li><b>Sync Data (SAP import)</b> — fill P1·P2·R1·R2 in real time, or on a button click.</li>
+<li><b>'Estimated' label, liability decision (fully accepted – under negotiation) and status (received – closed) from the planning draft</b> — include on this screen or not, and where.</li>
+<li><b>Limiting recovery types by Recovered from</b> — the planning draft has no rule.</li>
+<li><b>Deleting SAP auto rows</b> — whether the − button may delete them.</li>
+</ol>
+</section>
+
+</div>
+</div>
+</div>
+<script>
+document.getElementById('mk').addEventListener('change', e => document.body.classList.toggle('hide-mk', !e.target.checked));
+</script>
+</body>
+</html>

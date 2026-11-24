@@ -72,7 +72,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </style>
 </head>
 <body>
-<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>검토용 시안 · 금액과 이름은 예시</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure" aria-current="page">Closure 화면 개선안</a><label><input type="checkbox" id="mk" checked> 번호 표시</label></div>
+<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>검토용 시안 · 금액과 이름은 예시</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure" aria-current="page">Closure 화면 개선안</a><a href="/share/qms-claim-closure-en" lang="en">English</a><label><input type="checkbox" id="mk" checked> 번호 표시</label></div>
 <div class="part"><h2 class="big">① 개선 화면 — Irregularity Closure</h2><p>파란 번호는 아래 개발 사양의 번호와 같습니다. 오른쪽 위 '번호 표시'로 끄고 켤 수 있습니다.</p><div class="dl"><a href="/share/files/qms-claim-closure.pptx" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>PPT 다운로드</a><a href="/share/files/qms-claim-closure-mockup.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG · 번호 있음</a><a href="/share/files/qms-claim-closure-mockup-clean.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG · 번호 없음</a></div></div>
 <div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
 
@@ -334,7 +334,7 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 <ul>
 <li>화면 전체: 세로 3단 — Progress &amp; Result → <b>Claim Result</b> → CAPA. 섹션 사이 검은 구분선 유지.</li>
 <li>Progress &amp; Result, CAPA: 현행 <b>스플릿(Split screen)</b> 50:50 (왼쪽 입력, 오른쪽 이력) 그대로.</li>
-<li>Claim Result 머리: 빨간 탭 <b>Claim Result</b> + 오른쪽에 요약 바 (검은 '요약 (USD)' 라벨 + 4칸).</li>
+<li>Claim Result 머리: 빨간 탭 <b>Claim Result</b> + 오른쪽에 요약 바 (검은 '요약 (USD)' 라벨 + 4칸). 요약 바는 아래 비용 영역과 살짝 띄운 별도 카드로.</li>
 <li>Claim Result 본문: <b>스플릿(Split screen)</b> 50:50 — 왼쪽 지불내역, 오른쪽 회수내역. 두 표의 컬럼 구성과 폭은 같게.</li>
 <li>각 표 위: 왼쪽 제목·안내 문구, 오른쪽 <b>+ / −</b> 버튼.</li>
 <li>화면 폭이 약 1,150px 보다 좁으면 지불 → 회수 순서로 위아래로 쌓이고, 표는 가로 스크롤.</li>
