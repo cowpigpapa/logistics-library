@@ -897,6 +897,8 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
   document.querySelectorAll('section[aria-label="Claim Settlement"]').forEach(setup);
   fitHistory();
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitHistory);
+  if (document.fonts && document.fonts.addEventListener) document.fonts.addEventListener('loadingdone', fitHistory);
+  window.addEventListener('load', fitHistory);
   window.addEventListener('resize', fitHistory);
 })();
 

@@ -50,7 +50,7 @@ h1{margin:0;font-size:22px}
 </style>
 </head>
 <body>
-<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>배치 비교용 배치도</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-options" aria-current="page">배치 제안</a></div>
+<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>배치 비교용 배치도</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-sidebar">이력 사이드바안</a><a href="/share/qms-claim-closure-options" aria-current="page">배치 제안</a></div>
 <main>
 <h1>Irregularity Closure 배치 제안</h1>
 <p class="lead">배치만 비교하는 배치도입니다. 칸 크기는 대략적인 비율이고, 실제 입력 칸·버튼 모양은 지금 화면과 같습니다. 고민 지점인 <b>이행 증빙</b>을 어디에 두는지 함께 적었습니다.</p>
@@ -67,7 +67,7 @@ h1{margin:0;font-size:22px}
 <p class="evl"><b>이행 증빙</b> CAPA 칸 아래 글자 제목 + └ 선</p>
 <div class="pc"><div><h4 class="g">좋은 점</h4><ul><li>PR·CAPA를 한눈에 비교</li><li>이행 증빙이 아래로 빠져 두 칸 아래 끝이 맞음</li><li>세로 길이가 가장 짧음</li></ul></div><div><h4 class="n">아쉬운 점</h4><ul><li>Claim Settlement가 PR과 떨어져 '한 세트' 느낌이 약해짐</li><li>PR 이력에 빈 칸이 생길 수 있음</li></ul></div></div>
 </article><article class="opt">
-<header><span class="k">C</span><div><h3>이력 사이드바</h3><p class="pat">사이드바 레이아웃</p></div></header>
+<header><span class="k">C</span><div><h3>이력 사이드바</h3><p class="pat">사이드바 레이아웃</p></div><a class="go" href="/share/qms-claim-closure-sidebar">목업 보기 →</a></header>
 <div class="wf" style="grid-template-areas:'pri side' 'css side' 'pay side' 'rec side' 'cpi side' 'cpe side';grid-template-columns:2.3fr 1fr;grid-template-rows:56px 26px 46px 46px 56px 34px"><div class="b pr" style="grid-area:pri"><b>PR 입력</b></div><div class="b cs" style="grid-area:css"><b>Claim Settlement 요약 띠</b></div><div class="b cs2" style="grid-area:pay"><b>지불내역</b></div><div class="b cs2" style="grid-area:rec"><b>회수내역</b></div><div class="b capa" style="grid-area:cpi"><b>CAPA 입력</b></div><div class="b ev" style="grid-area:cpe"><b>이행 증빙</b></div><div class="b hist side" style="grid-area:side"><b>통합 이력 (오른쪽 고정)</b><span class="s">PR · CAPA · NCL 태그<br>필터 · Confirm Date<br>스크롤 시 따라옴</span></div></div>
 <p class="evl"><b>이행 증빙</b> CAPA 입력 바로 아래, 전체 폭</p>
 <div class="pc"><div><h4 class="g">좋은 점</h4><ul><li>이력을 한 곳에 모아 칸 높이를 맞출 필요가 없음</li><li>본문은 위→아래 입력 순서 그대로</li><li>PR → CS → CAPA 흐름이 자연스러움</li></ul></div><div><h4 class="n">아쉬운 점</h4><ul><li>이력 표시 방식이 지금과 달라짐 (개발 범위 큼)</li><li>본문 폭이 줄어 지불·회수 표는 세로로 쌓임</li></ul></div></div>
