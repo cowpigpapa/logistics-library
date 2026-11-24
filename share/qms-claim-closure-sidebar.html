@@ -75,38 +75,39 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .sw{display:inline-block;width:14px;height:14px;border:1px solid #D0D0D0;vertical-align:-2px;margin-right:6px}
 
 
-.sbl{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:24px;align-items:start;padding:30px 0 0}
-.mainc{min-width:0}
-.colhead{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 10px;min-height:46px}
-.colhead .btns{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}
-.colhead .btn{margin-bottom:6px}
-.confirm{display:flex;align-items:center;gap:12px;margin:14px 0 0}
 .flow{display:flex;flex-direction:column}
-.csw{margin-top:24px;padding-top:24px;border-top:2px solid #111}
-.flow.cs-top .csw{order:-1;margin-top:30px;padding-top:0;border-top:0}
-.flow.cs-top .sbl{margin-top:24px;border-top:2px solid #111}
-.pos{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-size:13px;color:#555}
-.pos .segb{display:inline-flex;border:1px solid #C9C9C9;border-radius:4px;overflow:hidden}
-.pos button{font:inherit;font-size:13px;height:32px;padding:0 14px;border:0;background:#fff;color:#444;cursor:pointer}
-.pos button+button{border-left:1px solid #C9C9C9}.pos button[aria-pressed="true"]{background:#333;color:#fff;font-weight:700}
-.pos button:focus-visible{outline:2px solid #1F4E9A;outline-offset:-2px}
-.capasec{margin-top:24px;padding-top:30px;border-top:2px solid #111}
-.evsec{background:#fff;padding:14px 16px 16px;border-top:1px solid #EEEEEE}
+.sbl{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,3fr);gap:20px;align-items:stretch;margin-top:24px}
+.flow.r64 .sbl{grid-template-columns:minmax(0,6fr) minmax(0,4fr)}
+.mainc{display:flex;flex-direction:column;gap:20px;min-width:0}
+.csw{margin-top:20px}
+.flow.cs-top .csw{order:-1;margin-top:24px}
+.flow.cs-top .sbl{margin-top:20px}
+.zone{background:#fff;border:1px solid #E3E3E3;border-radius:14px;padding:18px 20px 20px;box-shadow:0 1px 2px rgba(0,0,0,0.04),0 6px 16px rgba(0,0,0,0.04);min-width:0}
+.zhead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 10px;padding-bottom:14px;margin-bottom:16px;border-bottom:1px solid #EEEEEE}
+.zhead .btns{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}
+.zt{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:#fff;background:#D3202F;border-radius:8px;padding:7px 14px;line-height:1.25}
+.zt.dark{background:#333}.zt .cnt{font-size:12px;font-weight:500;opacity:.8}
+.zone .panel{padding:0;background:none}
+.zone section[aria-label="Claim Settlement"]{padding:0 !important;background:none !important;border:0 !important}
+.confirm{display:flex;align-items:center;gap:12px;margin:14px 0 0}
+.evsec{margin-top:18px;padding-top:16px;border-top:1px solid #EEEEEE}
 .evhead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px;margin-bottom:10px}
 .evbox{max-height:var(--ev-h,112px);overflow-y:auto;border:1px solid #DADADA}
 .evbox .grid{border:0}.evbox .grid th{position:sticky;top:0;z-index:1}
 .evbox .grid td:nth-child(3){white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.side{position:sticky;top:52px;align-self:start;padding-top:46px}
-.sidecard{background:#fff;border-top:3px solid #D3202F;border-radius:2px;padding:14px 16px 12px;display:flex;flex-direction:column;max-height:calc(100vh - 120px)}
-.sidehead{display:flex;align-items:baseline;gap:8px;margin-bottom:10px}
-.sidehead h2{margin:0;font-size:16px;font-weight:700}.sidehead .cnt{font-size:12px;color:#8A8A8A}
-.seg{display:flex;border:1px solid #D2D2D2;border-radius:4px;overflow:hidden;margin-bottom:12px}
-.seg button{flex:1;font:inherit;font-size:13px;height:32px;border:0;background:#fff;color:#555;cursor:pointer}
+.pos{display:inline-flex;align-items:center;gap:8px;margin:12px 16px 0 0;font-size:13px;color:#555}
+.pos .segb{display:inline-flex;border:1px solid #C9C9C9;border-radius:4px;overflow:hidden}
+.pos button{font:inherit;font-size:13px;height:32px;padding:0 14px;border:0;background:#fff;color:#444;cursor:pointer}
+.pos button+button{border-left:1px solid #C9C9C9}.pos button[aria-pressed="true"]{background:#333;color:#fff;font-weight:700}
+.pos button:focus-visible{outline:2px solid #1F4E9A;outline-offset:-2px}
+.side{display:flex;flex-direction:column}
+.seg{display:flex;border:1px solid #D2D2D2;border-radius:6px;overflow:hidden}
+.seg button{font:inherit;font-size:13px;height:32px;padding:0 12px;border:0;background:#fff;color:#555;cursor:pointer;white-space:nowrap}
 .seg button+button{border-left:1px solid #D2D2D2}
 .seg button[aria-pressed="true"]{background:#333;color:#fff;font-weight:700}
 .seg button:focus-visible{outline:2px solid #1F4E9A;outline-offset:-2px}
-.tl{list-style:none;margin:0;padding:0 2px 0 0;overflow-y:auto;flex:1 1 auto;min-height:0}
-.ti{position:relative;padding:0 0 14px 22px;cursor:pointer}
+.tl{list-style:none;margin:0;padding:0 4px 0 0;overflow-y:auto;flex:1 1 0px;height:0;min-height:240px}
+.ti{position:relative;padding:0 0 16px 22px;cursor:pointer}
 .ti::before{content:"";position:absolute;left:5px;top:12px;bottom:0;width:2px;background:#ECECEC}
 .ti:last-child::before{display:none}
 .ti .dot{position:absolute;left:0;top:4px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid #D3202F;box-sizing:border-box}
@@ -119,18 +120,17 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .who::before{content:"· "}
 .tx{margin:3px 0 0;font-size:13px;line-height:1.5;color:#222;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ti.open .tx{display:block}
-.ti:hover .tx{color:#000}
 .ti[hidden]{display:none}
-.sidenote{margin:8px 0 0;padding-top:8px;border-top:1px solid #EEEEEE;font-size:11.5px;color:#8A8A8A}
-@media (max-width:1100px){.sbl{grid-template-columns:minmax(0,1fr)}.side{position:static;padding-top:0}.sidecard{max-height:none}}
+.sidenote{margin:10px 0 0;padding-top:10px;border-top:1px solid #EEEEEE;font-size:11.5px;color:#8A8A8A}
+@media (max-width:1100px){.sbl,.flow.r64 .sbl{grid-template-columns:minmax(0,1fr)}.tl{flex:none;height:auto;min-height:0;max-height:420px}}
 
 </style>
 </head>
 <body>
 <div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>배치 검토용 목업 · 이력 필터만 동작</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-sidebar" aria-current="page">이력 사이드바안</a><a href="/share/qms-claim-closure-options">배치 제안</a></div>
-<div class="part"><h2 class="big">이력 사이드바안 — 배치 제안 C</h2><p><b>사이드바 레이아웃</b>: 왼쪽 본문은 PR → CAPA → 이행 증빙, 오른쪽 사이드바는 PR · CAPA 이력을 시간순으로 모은 통합 이력 (스크롤해도 따라옴, PR / CAPA 필터). 입력 칸과 이력이 나란히 있지 않으니 높이를 맞출 필요가 없고, 이행 증빙이 늘어도 구조가 깨지지 않습니다. <b>Claim Settlement는 전체 폭</b>으로 빼서 지불·회수 표를 한 줄에 놓고, 맨 아래(기본)와 맨 위 중 골라 볼 수 있습니다.</p>
-<div class="pos" role="group" aria-label="Claim Settlement 위치"><span>Claim Settlement 위치</span><span class="segb"><button type="button" data-pos="bottom" aria-pressed="true">맨 아래</button><button type="button" data-pos="top" aria-pressed="false">맨 위</button></span></div>
-<div class="dl"><a href="/share/files/qms-claim-closure-sidebar.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 아래)</a><a href="/share/files/qms-claim-closure-sidebar-top.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 위)</a></div></div>
+<div class="part"><h2 class="big">이력 사이드바안 — 배치 제안 C</h2><p><b>사이드바 레이아웃</b>: 왼쪽 본문은 PR → CAPA → 이행 증빙, 오른쪽 사이드바는 PR · CAPA 이력을 시간순으로 모은 통합 이력 (PR / CAPA 필터). 구역마다 둥근 상자로 나누고, 본문 : 이력 폭은 7 : 3 (6 : 4로 바꿔 볼 수 있음). 이력 상자는 본문 높이에 맞춰 늘어나고 넘치면 안에서 스크롤. 입력 칸과 이력이 나란히 있지 않으니 높이를 맞출 필요가 없고, 이행 증빙이 늘어도 구조가 깨지지 않습니다. <b>Claim Settlement는 전체 폭</b>으로 빼서 지불·회수 표를 한 줄에 놓고, 맨 아래(기본)와 맨 위 중 골라 볼 수 있습니다.</p>
+<div class="pos" role="group" aria-label="본문과 이력 비율" data-cls="r64"><span>본문 : 이력</span><span class="segb"><button type="button" data-on="0" aria-pressed="true">7 : 3</button><button type="button" data-on="1" aria-pressed="false">6 : 4</button></span></div><div class="pos" role="group" aria-label="Claim Settlement 위치" data-cls="cs-top"><span>Claim Settlement 위치</span><span class="segb"><button type="button" data-pos="bottom" data-on="0" aria-pressed="true">맨 아래</button><button type="button" data-pos="top" data-on="1" aria-pressed="false">맨 위</button></span></div>
+<div class="dl"><a href="/share/files/qms-claim-closure-sidebar.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 아래)</a><a href="/share/files/qms-claim-closure-sidebar-top.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 위)</a><a href="/share/files/qms-claim-closure-sidebar-64.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (6 : 4)</a></div></div>
 <div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
 <header style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 28px; padding-bottom: 16px; border-bottom: 2px solid #111;">
 <h1 style="margin: 0; font-size: 24px; font-weight: 700;">Irregularity Closure</h1>
@@ -144,8 +144,8 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div class="flow">
 <div class="sbl">
 <div class="mainc">
-<section aria-label="Progress and Result">
-<div class="colhead"><span class="tab">Progress &amp; Result</span>
+<section aria-label="Progress and Result" class="zone">
+<div class="zhead"><span class="zt">Progress &amp; Result</span>
 <div class="btns"><button class="btn" type="button">Withdraw Request</button><button class="btn" type="button">Request Re-submission</button><button class="btn" type="button">Confirm</button></div></div>
 <div class="panel">
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
@@ -161,8 +161,8 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <div class="confirm"><span class="lbl">Confirm Date :</span><span class="fld ro" style="width: 168px;"></span></div>
 </div>
 </section>
-<section aria-label="Cause Analysis and Preventive Action" class="capasec">
-<div class="colhead"><span class="tab" style="font-size: 14px; padding: 6px 14px;">Cause Analysis &amp;<br>Preventive Action (CAPA)</span>
+<section aria-label="Cause Analysis and Preventive Action" class="zone">
+<div class="zhead"><span class="zt">Cause Analysis &amp; Preventive Action (CAPA)</span>
 <div class="btns"><button class="btn" type="button">Request Re-submission</button></div></div>
 <div class="panel">
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
@@ -196,18 +196,16 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 </div>
 </section>
 </div>
-<aside class="side" aria-label="이력">
-<div class="sidecard">
-<div class="sidehead"><h2>이력</h2><span class="cnt">7건</span></div>
+<aside class="zone side" aria-label="이력">
+<div class="zhead"><span class="zt dark">이력<span class="cnt">7건</span></span>
 <div class="seg" role="group" aria-label="이력 필터">
 <button type="button" data-f="all" aria-pressed="true">전체 7</button><button type="button" data-f="PR" aria-pressed="false">PR 4</button><button type="button" data-f="CAPA" aria-pressed="false">CAPA 3</button>
-</div>
+</div></div>
 <ol class="tl"><li class="ti capa" data-k="CAPA"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg capa">CAPA</span><span class="code c-cfm">CFM</span><time>2026-11-24 08:51:40</time><span class="who">확인자</span></div><p class="tx" title="Confirm">Confirm</p></li><li class="ti capa" data-k="CAPA"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg capa">CAPA</span><span class="code c-req">REQ</span><time>2026-11-23 10:33:06</time><span class="who">담당자</span></div><p class="tx" title="Request Confirmation">Request Confirmation</p></li><li class="ti pr" data-k="PR"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg pr">PR</span><span class="code c-req">REQ</span><time>2026-11-23 10:32:40</time><span class="who">담당자</span></div><p class="tx" title="Request Confirmation">Request Confirmation</p></li><li class="ti pr" data-k="PR"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg pr">PR</span><span class="code c-reg">REG</span><time>2026-11-23 10:32:33</time><span class="who">담당자</span></div><p class="tx" title="지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생 - Clamp 지게차 작업 부주의에 따른 발생 - 작업자 지속 교육 통한 핸들링 품질 개선">지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생 - Clamp 지게차 작업 부주의에 따른 발생 - 작업자 지속 교육 통한 핸들링 품질 개선</p></li><li class="ti pr" data-k="PR"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg pr">PR</span><span class="code c-reg">REG</span><time>2026-11-23 10:31:53</time><span class="who">담당자</span></div><p class="tx" title="지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생 - Clamp 지게차 작업 부주의에 따른 발생">지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생 - Clamp 지게차 작업 부주의에 따른 발생</p></li><li class="ti capa" data-k="CAPA"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg capa">CAPA</span><span class="code c-reg">REG</span><time>2026-11-23 10:31:53</time><span class="who">담당자</span></div><p class="tx" title="지게차 기사에 대한 주기적 파손 주의 교육 진행 - 현장 관리자의 전체 지게차 작업자 대상 교육 중 SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)">지게차 기사에 대한 주기적 파손 주의 교육 진행 - 현장 관리자의 전체 지게차 작업자 대상 교육 중 SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)</p></li><li class="ti pr" data-k="PR"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg pr">PR</span><span class="code c-reg">REG</span><time>2026-11-23 10:30:12</time><span class="who">담당자</span></div><p class="tx" title="지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생">지게차 기사 오퍼레이션(입고, 적치/보관, 출하) 작업 시 핸들링 이슈에 따른 데미지 발생</p></li></ol>
 <p class="sidenote">PR · CAPA 이력을 시간순으로 한곳에 모음. 줄을 누르면 전체 내용.</p>
-</div>
 </aside>
 </div>
-<div class="csw"><section aria-label="Claim Settlement" style="background: #fff; padding: 14px 16px 16px;">
+<div class="csw zone"><section aria-label="Claim Settlement" style="background: #fff; padding: 14px 16px 16px; border-top: 1px solid #EEEEEE;">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
 <div style="display: flex; align-items: center; gap: 8px;">
 <h2 class="cs-h"><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
@@ -371,11 +369,12 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
   if (document.fonts && document.fonts.addEventListener) document.fonts.addEventListener('loadingdone', fit);
   window.addEventListener('load', fit);
-  var pos = document.querySelector('.pos');
-  if (pos) pos.addEventListener('click', function (e) {
-    var b = e.target.closest('button'); if (!b) return;
-    pos.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-    document.querySelector('.flow').classList.toggle('cs-top', b.dataset.pos === 'top');
+  document.querySelectorAll('.pos').forEach(function (g) {
+    g.addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      document.querySelector('.flow').classList.toggle(g.dataset.cls, b.dataset.on === '1');
+    });
   });
   var seg = document.querySelector('.seg');
   seg.addEventListener('click', function (e) {
