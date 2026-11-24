@@ -56,6 +56,11 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .nc input{width:16px;height:16px;margin:0;accent-color:#444}
 .nc.on{border-color:#555;background:#EDEDED}
 .tree{flex:none;width:16px;height:38px;margin:-36px 8px 0 14px;border-left:2px solid #D3202F;border-bottom:2px solid #D3202F;border-bottom-left-radius:4px;box-sizing:border-box}
+.qtip{position:relative;display:inline-flex;align-items:center;cursor:help;border-radius:50%}
+.qtip:focus-visible{outline:2px solid #1F4E9A;outline-offset:2px}
+.tipbox{display:none;position:absolute;left:-10px;top:calc(100% + 8px);z-index:30;width:max-content;max-width:340px;background:#2B2B2B;color:#fff;font-size:12px;font-weight:400;line-height:1.55;padding:8px 11px;border-radius:4px;box-shadow:0 4px 12px rgba(0,0,0,0.18);white-space:normal;text-align:left}
+.tipbox::before{content:"";position:absolute;left:14px;top:-5px;border:5px solid transparent;border-top:0;border-bottom-color:#2B2B2B}
+.qtip:hover .tipbox,.qtip:focus .tipbox{display:block}
 .cs-h{margin:0;font-size:16px;font-weight:500;color:#222;display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
 .histbox{max-height:var(--hist-h,169px);overflow-y:auto;border-top:3px solid #D3202F}
 .histbox .hist{border-top:0}
@@ -152,10 +157,10 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </div>
 </section>
 
-<section aria-label="Claim Settlement" style="padding: 12px 0 22px; border-bottom: 2px solid #111;">
+<section aria-label="Claim Settlement" style="background: #fff; padding: 14px 16px 16px; border-top: 1px solid #EEEEEE;">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
 <div style="display: flex; align-items: center; gap: 8px;">
-<h2 class="cs-h"><span class="tree" aria-hidden="true"></span><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
+<h2 class="cs-h"><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
 
 </div>
 <div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
@@ -172,13 +177,13 @@ Summary (USD)</div>
 <label class="nc"><input type="checkbox"> No Claim</label>
 </div>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 14px 0 0; box-sizing: border-box;">
 
 <div style="min-width: 0;">
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
-<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Payments</h2>
-<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">P1·P2 show SAP amounts and P3 shows the CY Cost KPI amount only. Add other payments with +.</p>
+<span class="qtip" tabindex="0" aria-label="About payments"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">P1·P2 show SAP amounts and P3 shows the CY Cost KPI amount only. Add other payments with +.</span></span>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 
@@ -242,9 +247,9 @@ Summary (USD)</div>
 
 <div style="min-width: 0;">
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
-<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Recoveries</h2>
-<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">R1–R2 show SAP amounts only. Add other recoveries with + (R4 · R5).</p>
+<span class="qtip" tabindex="0" aria-label="About recoveries"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">R1–R2 show SAP amounts only. Add other recoveries with + (R4 · R5).</span></span>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 <button class="ibtn" type="button" aria-label="Add recovery row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
@@ -302,7 +307,7 @@ Summary (USD)</div>
 </div>
 </section>
 
-<section aria-label="Cause Analysis and Preventive Action" style="padding: 30px 0 0;">
+<section aria-label="Cause Analysis and Preventive Action" style="padding: 30px 0 0; margin-top: 24px; border-top: 2px solid #111;">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 24px;">
 <div style="min-width: 0;">
 <span class="tab" style="font-size: 14px; padding: 6px 14px;">Cause Analysis &amp;<br>Preventive Action (CAPA)</span>
@@ -396,12 +401,12 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <section class="sec">
 <h2>2. Layout</h2>
 <ul>
-<li>Whole screen: three stacked sections — Progress &amp; Result → <b>Claim Settlement</b> → CAPA. <b>Progress &amp; Result and Claim Settlement are one set</b>: no black divider between them, and a red └ connector before the Claim Settlement title. The black divider stays only between Claim Settlement and CAPA.</li>
+<li>Whole screen: three stacked sections — Progress &amp; Result → <b>Claim Settlement</b> → CAPA. <b>Progress &amp; Result and Claim Settlement are one set</b>: Claim Settlement sits on white directly under the PR panels so it <b>reads as part of the PR box</b> (no connector line). The black divider stays only between Claim Settlement and CAPA.</li>
 <li>Progress &amp; Result and CAPA: current <b>split screen</b> 50:50 (input left, history right), unchanged.</li>
 <li> History (Contents) on the right of Progress &amp; Result: fixed height showing the header + <b>3 rows</b>; longer lists scroll vertically (header stays). The bottom of the right panel lines up with the left panel.</li>
 <li>Claim Settlement header: instead of a red tab, the text title <b>* Claim Settlement ⓘ</b> (same look as the old Actual Loss Cost label) + the summary bar to its right (black 'Summary (USD)' label + 5 cells) + No Claim at the far right. The summary bar is a separate card with a small gap above the tables.</li>
 <li>Claim Settlement body: <b>split screen</b> 50:50 — payments left, recoveries right.</li>
-<li>Above each table: one line of guidance right of the title, <b>+ / −</b> buttons at the far right.</li>
+<li>Above each table: a <b>?</b> icon right of the title shows the guidance in a tooltip box on hover or focus; <b>+ / −</b> buttons at the far right.</li>
 <li>Below about 1,150px width, the tables stack (payments, then recoveries) and scroll horizontally.</li>
 <li>Suggested column widths (px, at 1,600px screen width): payments — Select 30 · Paid by 124 · Type (rest) · Currency 88 · Amount 78 · In USD 76 · Remark 104. Recoveries — no party column; Type takes the rest.</li>
 </ul>

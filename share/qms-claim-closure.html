@@ -56,6 +56,11 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .nc input{width:16px;height:16px;margin:0;accent-color:#444}
 .nc.on{border-color:#555;background:#EDEDED}
 .tree{flex:none;width:16px;height:38px;margin:-36px 8px 0 14px;border-left:2px solid #D3202F;border-bottom:2px solid #D3202F;border-bottom-left-radius:4px;box-sizing:border-box}
+.qtip{position:relative;display:inline-flex;align-items:center;cursor:help;border-radius:50%}
+.qtip:focus-visible{outline:2px solid #1F4E9A;outline-offset:2px}
+.tipbox{display:none;position:absolute;left:-10px;top:calc(100% + 8px);z-index:30;width:max-content;max-width:340px;background:#2B2B2B;color:#fff;font-size:12px;font-weight:400;line-height:1.55;padding:8px 11px;border-radius:4px;box-shadow:0 4px 12px rgba(0,0,0,0.18);white-space:normal;text-align:left}
+.tipbox::before{content:"";position:absolute;left:14px;top:-5px;border:5px solid transparent;border-top:0;border-bottom-color:#2B2B2B}
+.qtip:hover .tipbox,.qtip:focus .tipbox{display:block}
 .cs-h{margin:0;font-size:16px;font-weight:500;color:#222;display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
 .histbox{max-height:var(--hist-h,169px);overflow-y:auto;border-top:3px solid #D3202F}
 .histbox .hist{border-top:0}
@@ -94,7 +99,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </style>
 </head>
 <body>
-<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>검토용 시안 · 금액과 이름은 예시</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure" aria-current="page">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-en" lang="en">English</a></div>
+<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>검토용 시안 · 금액과 이름은 예시</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure" aria-current="page">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-options">배치 제안</a><a href="/share/qms-claim-closure-en" lang="en">English</a></div>
 <div class="part"><h2 class="big">① 개선 화면 — Irregularity Closure</h2><div class="dl"><a href="/share/files/qms-claim-closure.pptx" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>PPT 다운로드</a><a href="/share/files/qms-claim-closure-mockup-clean.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG</a></div></div>
 <div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
 
@@ -152,10 +157,10 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </div>
 </section>
 
-<section aria-label="Claim Settlement" style="padding: 12px 0 22px; border-bottom: 2px solid #111;">
+<section aria-label="Claim Settlement" style="background: #fff; padding: 14px 16px 16px; border-top: 1px solid #EEEEEE;">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
 <div style="display: flex; align-items: center; gap: 8px;">
-<h2 class="cs-h"><span class="tree" aria-hidden="true"></span><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
+<h2 class="cs-h"><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
 
 </div>
 <div role="group" aria-label="요약 (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
@@ -172,13 +177,13 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 <label class="nc"><input type="checkbox"> No Claim (비용 없음)</label>
 </div>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 14px 0 0; box-sizing: border-box;">
 
 <div style="min-width: 0;">
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
-<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">지불내역</h2>
-<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">P1·P2는 SAP, P3는 CY Cost KPI에서 조회한 금액만 보여 줍니다. 그 밖의 지불은 + 로 추가합니다.</p>
+<span class="qtip" tabindex="0" aria-label="지불내역 안내"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">P1·P2는 SAP, P3는 CY Cost KPI에서 조회한 금액만 보여 줍니다. 그 밖의 지불은 + 로 추가합니다.</span></span>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 
@@ -242,9 +247,9 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 
 <div style="min-width: 0;">
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
-<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">회수내역</h2>
-<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">R1·R2는 SAP에서 조회한 금액만 보여 줍니다. 그 밖의 회수는 + 로 추가합니다 (R4 · R5).</p>
+<span class="qtip" tabindex="0" aria-label="회수내역 안내"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">R1·R2는 SAP에서 조회한 금액만 보여 줍니다. 그 밖의 회수는 + 로 추가합니다 (R4 · R5).</span></span>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 <button class="ibtn" type="button" aria-label="회수 행 추가"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
@@ -302,7 +307,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </div>
 </section>
 
-<section aria-label="Cause Analysis and Preventive Action" style="padding: 30px 0 0;">
+<section aria-label="Cause Analysis and Preventive Action" style="padding: 30px 0 0; margin-top: 24px; border-top: 2px solid #111;">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 24px;">
 <div style="min-width: 0;">
 <span class="tab" style="font-size: 14px; padding: 6px 14px;">Cause Analysis &amp;<br>Preventive Action (CAPA)</span>
@@ -413,10 +418,10 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 </div>
 </section>
 
-<section aria-label="Claim Settlement" style="padding: 12px 0 22px; border-bottom: 2px solid #111;">
+<section aria-label="Claim Settlement" style="background: #fff; padding: 14px 16px 16px; border-top: 1px solid #EEEEEE;">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
 <div style="display: flex; align-items: center; gap: 8px;">
-<h2 class="cs-h"><span class="tree" aria-hidden="true"></span><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
+<h2 class="cs-h"><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
 
 </div>
 <div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
@@ -433,13 +438,13 @@ Summary (USD)</div>
 <label class="nc"><input type="checkbox"> No Claim</label>
 </div>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 14px 0 0; box-sizing: border-box;">
 
 <div style="min-width: 0;">
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
-<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Payments</h2>
-<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">P1·P2 show SAP amounts and P3 shows the CY Cost KPI amount only. Add other payments with +.</p>
+<span class="qtip" tabindex="0" aria-label="About payments"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">P1·P2 show SAP amounts and P3 shows the CY Cost KPI amount only. Add other payments with +.</span></span>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 
@@ -503,9 +508,9 @@ Summary (USD)</div>
 
 <div style="min-width: 0;">
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
-<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Recoveries</h2>
-<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">R1–R2 show SAP amounts only. Add other recoveries with + (R4 · R5).</p>
+<span class="qtip" tabindex="0" aria-label="About recoveries"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">R1–R2 show SAP amounts only. Add other recoveries with + (R4 · R5).</span></span>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 <button class="ibtn" type="button" aria-label="Add recovery row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
@@ -563,7 +568,7 @@ Summary (USD)</div>
 </div>
 </section>
 
-<section aria-label="Cause Analysis and Preventive Action" style="padding: 30px 0 0;">
+<section aria-label="Cause Analysis and Preventive Action" style="padding: 30px 0 0; margin-top: 24px; border-top: 2px solid #111;">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 24px;">
 <div style="min-width: 0;">
 <span class="tab" style="font-size: 14px; padding: 6px 14px;">Cause Analysis &amp;<br>Preventive Action (CAPA)</span>
@@ -656,12 +661,12 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <section class="sec">
 <h2>2. 화면 배치</h2>
 <ul>
-<li>화면 전체: 세로 3단 — Progress &amp; Result → <b>Claim Settlement</b> → CAPA. <b>Progress &amp; Result와 Claim Settlement는 한 세트</b>: 둘 사이 검은 구분선 없음, Claim Settlement 제목 앞에 빨간 └ 연결선. 검은 구분선은 Claim Settlement와 CAPA 사이에만.</li>
+<li>화면 전체: 세로 3단 — Progress &amp; Result → <b>Claim Settlement</b> → CAPA. <b>Progress &amp; Result와 Claim Settlement는 한 세트</b>: Claim Settlement는 흰 바탕으로 PR 박스 바로 아래에 붙여 <b>PR 박스 안에 들어간 것처럼</b> 보이게 (연결선 없음). 검은 구분선은 Claim Settlement와 CAPA 사이에만.</li>
 <li>Progress &amp; Result, CAPA: 현행 <b>스플릿(Split screen)</b> 50:50 (왼쪽 입력, 오른쪽 이력) 그대로.</li>
 <li> Progress &amp; Result 오른쪽 이력(Contents): 머리글 + <b>3줄</b>이 보이는 높이로 고정, 넘치면 세로 스크롤 (머리글은 고정). 오른쪽 패널의 아래 끝은 왼쪽 패널과 맞춤.</li>
 <li>Claim Settlement 머리: 빨간 탭 대신 글자 제목 <b>* Claim Settlement ⓘ</b> (기존 Actual Loss Cost와 같은 모양) + 오른쪽에 요약 바 (검은 '요약 (USD)' 라벨 + 5칸) + 오른쪽 끝 No Claim. 요약 바는 아래 표 영역과 살짝 띄운 별도 카드.</li>
 <li>Claim Settlement 본문: <b>스플릿(Split screen)</b> 50:50 — 왼쪽 지불내역, 오른쪽 회수내역.</li>
-<li>각 표 위: 제목 오른쪽에 한 줄 안내, 맨 오른쪽 <b>+ / −</b> 버튼.</li>
+<li>각 표 위: 제목 오른쪽 <b>?</b> 아이콘 — 마우스를 올리거나 포커스하면 안내 문구를 툴팁 상자로 표시. 맨 오른쪽 <b>+ / −</b> 버튼.</li>
 <li>화면 폭이 약 1,150px 보다 좁으면 지불 → 회수 순서로 위아래로 쌓이고, 표는 가로 스크롤.</li>
 <li>권장 컬럼 폭(px, 화면 폭 1,600px 기준): 지불 — 선택 30 · 주체 110 · 방법 나머지 · Currency 80 · 금액 84 · USD 환산 84 · Remark 112. 회수 — 주체 컬럼 없이 방법이 나머지 폭.</li>
 </ul>

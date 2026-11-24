@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Closure 배치 제안 · Logistics Library</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;display=swap">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#F7F7F7;color:#222;font-family:'Noto Sans KR','Malgun Gothic',sans-serif}
+.lab-bar{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font-size:13px;color:#5c4a12}
+.lab-bar a{color:#1f5fbf;font-weight:700;text-decoration:none}.lab-bar a:hover{text-decoration:underline}.lab-bar a[aria-current]{color:#5c4a12}
+main{max-width:1280px;margin:0 auto;padding:28px 32px 56px}
+h1{margin:0;font-size:22px}
+.lead{margin:6px 0 0;font-size:14px;color:#555;line-height:1.6}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:14px 0 0;font-size:12px;color:#555}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{display:inline-block;width:14px;height:10px;border-radius:2px;border:1px solid transparent}
+.dl{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.dl a{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:1px solid #C9C9C9;border-radius:4px;background:#fff;color:#222;font-size:13px;font-weight:500;text-decoration:none}.dl a:hover{border-color:#D3202F;color:#B3121F}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(520px,100%),1fr));gap:20px;margin-top:22px}
+.opt{background:#fff;border:1px solid #E2E2E2;border-radius:8px;padding:18px 18px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.opt header{display:flex;align-items:flex-start;gap:12px}
+.opt header .k{flex:none;width:30px;height:30px;border-radius:50%;background:#222;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.opt h3{margin:0;font-size:17px}.pat{margin:2px 0 0;font-size:12px;color:#8A5A00;font-weight:700}
+.go{margin-left:auto;font-size:13px;color:#1f5fbf;font-weight:700;text-decoration:none;white-space:nowrap}.go:hover{text-decoration:underline}
+.wf{display:grid;gap:5px;padding:10px;background:#F1F1F1;border-radius:6px}
+.b{border-radius:3px;padding:4px 7px;font-size:11.5px;line-height:1.35;display:flex;flex-direction:column;justify-content:center;min-width:0;overflow:hidden;border:1px solid transparent}
+.b b{font-weight:700}.b .s{font-size:10.5px;opacity:.8}
+.pr,.sw.pr{background:#FBE3E5;border-color:#E9A3AA;color:#7A121C}
+.tab{background:#D3202F;color:#fff;font-size:10.5px;padding:1px 7px}
+.cs,.sw.cs{background:#2F2F2F;color:#fff}
+.cs2{background:#fff;border-color:#CFCFCF;color:#333}
+.capa,.sw.capa{background:#E2ECF8;border-color:#9DB8DD;color:#173E70}
+.ev,.sw.ev{background:#FFF1D6;border-color:#E2B866;color:#6A4A00}
+.hist,.sw.hist{background:#fff;border:1px dashed #9A9A9A;color:#555}
+.kpi,.sw.kpi{background:#E6F2EA;border-color:#8CC29F;color:#1E5A33}
+.empty{background:repeating-linear-gradient(45deg,#fff,#fff 4px,#F6D9DC 4px,#F6D9DC 8px);border:1px dashed #D3202F;color:#B3121F}
+.line{background:#111;padding:0;border-radius:0;height:2px;align-self:center}
+.card{justify-content:flex-start;padding-top:8px}
+.side{justify-content:flex-start;padding-top:8px}
+.evl{margin:0;font-size:13px;color:#444}.evl b{display:inline-block;margin-right:6px;padding:1px 6px;border-radius:3px;background:#FFF1D6;color:#6A4A00;font-size:12px}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pc h4{margin:0 0 4px;font-size:12px}.pc .g{color:#1E6B34}.pc .n{color:#B3121F}
+.pc ul{margin:0;padding-left:16px;font-size:13px;line-height:1.55;color:#333}
+.rec{margin-top:22px;background:#fff;border-left:4px solid #D3202F;border-radius:4px;padding:14px 18px;font-size:14px;line-height:1.7}
+.rec h2{margin:0 0 4px;font-size:16px}
+@media (max-width:560px){main{padding:20px 16px 40px}.pc{grid-template-columns:1fr}.b{font-size:10.5px}.b .s{display:none}}
+</style>
+</head>
+<body>
+<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>배치 비교용 배치도</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-options" aria-current="page">배치 제안</a></div>
+<main>
+<h1>Irregularity Closure 배치 제안</h1>
+<p class="lead">배치만 비교하는 배치도입니다. 칸 크기는 대략적인 비율이고, 실제 입력 칸·버튼 모양은 지금 화면과 같습니다. 고민 지점인 <b>이행 증빙</b>을 어디에 두는지 함께 적었습니다.</p>
+<div class="legend"><span><i class="sw pr"></i>Progress & Result</span><span><i class="sw cs"></i>Claim Settlement</span><span><i class="sw capa"></i>CAPA</span><span><i class="sw ev"></i>이행 증빙</span><span><i class="sw hist"></i>이력</span><span><i class="sw kpi"></i>요약·상태</span><span><i class="sw empty"></i>남는 빈 공간</span></div>
+<div class="dl"><a href="/share/files/qms-claim-closure-options.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG</a></div>
+<div class="grid"><article class="opt">
+<header><span class="k">A</span><div><h3>현재안 — 세로 3단</h3><p class="pat">스플릿 × 3단 (기준)</p></div></header>
+<div class="wf" style="grid-template-areas:'prt prt' 'pri prh' 'css css' 'pay rec' 'div div' 'cpi cph' 'cpe cph2';grid-template-columns:1fr 1fr;grid-template-rows:16px 74px 34px 70px 6px 74px 40px"><div class="b tab" style="grid-area:prt"><b>PR 탭 · 버튼</b></div><div class="b pr" style="grid-area:pri"><b>PR 입력</b><span class="s">Due · Last Update · 내용</span></div><div class="b hist" style="grid-area:prh"><b>PR 이력</b><span class="s">3줄 후 스크롤</span></div><div class="b cs" style="grid-area:css"><b>Claim Settlement 요약 띠</b><span class="s">PR 박스 안 · 흰 바탕</span></div><div class="b cs2" style="grid-area:pay"><b>지불내역</b></div><div class="b cs2" style="grid-area:rec"><b>회수내역</b></div><div class="b line" style="grid-area:div"><b></b></div><div class="b capa" style="grid-area:cpi"><b>CAPA 입력</b></div><div class="b hist" style="grid-area:cph"><b>CAPA 이력</b></div><div class="b ev" style="grid-area:cpe"><b>이행 증빙</b></div><div class="b empty" style="grid-area:cph2"><b>빈 공간</b></div></div>
+<p class="evl"><b>이행 증빙</b> CAPA 입력 칸 안, 내용 아래</p>
+<div class="pc"><div><h4 class="g">좋은 점</h4><ul><li>지금 개발된 화면과 가장 가까움</li><li>PR + Claim Settlement가 한 박스로 묶여 보임</li></ul></div><div><h4 class="n">아쉬운 점</h4><ul><li>이행 증빙 때문에 CAPA 왼쪽만 길어지고 오른쪽 이력 아래가 빔</li></ul></div></div>
+</article><article class="opt">
+<header><span class="k">B</span><div><h3>좌우 배치 — PR | CAPA</h3><p class="pat">스플릿</p></div><a class="go" href="/share/qms-claim-closure-layout">목업 보기 →</a></header>
+<div class="wf" style="grid-template-areas:'pri cpi' 'prh cph' 'prh cpe' 'css css' 'pay rec';grid-template-columns:1fr 1fr;grid-template-rows:74px 50px 40px 26px 70px"><div class="b pr" style="grid-area:pri"><b>PR 입력</b></div><div class="b capa" style="grid-area:cpi"><b>CAPA 입력</b></div><div class="b hist" style="grid-area:prh"><b>PR 이력</b><span class="s">오른쪽 끝까지 채움</span></div><div class="b hist" style="grid-area:cph"><b>CAPA 이력</b><span class="s">3줄 후 스크롤</span></div><div class="b ev" style="grid-area:cpe"><b>└ 이행 증빙</b><span class="s">2개 후 스크롤</span></div><div class="b cs" style="grid-area:css"><b>Claim Settlement 요약 띠 (전체 폭)</b></div><div class="b cs2" style="grid-area:pay"><b>지불내역</b></div><div class="b cs2" style="grid-area:rec"><b>회수내역</b></div></div>
+<p class="evl"><b>이행 증빙</b> CAPA 칸 아래 글자 제목 + └ 선</p>
+<div class="pc"><div><h4 class="g">좋은 점</h4><ul><li>PR·CAPA를 한눈에 비교</li><li>이행 증빙이 아래로 빠져 두 칸 아래 끝이 맞음</li><li>세로 길이가 가장 짧음</li></ul></div><div><h4 class="n">아쉬운 점</h4><ul><li>Claim Settlement가 PR과 떨어져 '한 세트' 느낌이 약해짐</li><li>PR 이력에 빈 칸이 생길 수 있음</li></ul></div></div>
+</article><article class="opt">
+<header><span class="k">C</span><div><h3>이력 사이드바</h3><p class="pat">사이드바 레이아웃</p></div></header>
+<div class="wf" style="grid-template-areas:'pri side' 'css side' 'pay side' 'rec side' 'cpi side' 'cpe side';grid-template-columns:2.3fr 1fr;grid-template-rows:56px 26px 46px 46px 56px 34px"><div class="b pr" style="grid-area:pri"><b>PR 입력</b></div><div class="b cs" style="grid-area:css"><b>Claim Settlement 요약 띠</b></div><div class="b cs2" style="grid-area:pay"><b>지불내역</b></div><div class="b cs2" style="grid-area:rec"><b>회수내역</b></div><div class="b capa" style="grid-area:cpi"><b>CAPA 입력</b></div><div class="b ev" style="grid-area:cpe"><b>이행 증빙</b></div><div class="b hist side" style="grid-area:side"><b>통합 이력 (오른쪽 고정)</b><span class="s">PR · CAPA · NCL 태그<br>필터 · Confirm Date<br>스크롤 시 따라옴</span></div></div>
+<p class="evl"><b>이행 증빙</b> CAPA 입력 바로 아래, 전체 폭</p>
+<div class="pc"><div><h4 class="g">좋은 점</h4><ul><li>이력을 한 곳에 모아 칸 높이를 맞출 필요가 없음</li><li>본문은 위→아래 입력 순서 그대로</li><li>PR → CS → CAPA 흐름이 자연스러움</li></ul></div><div><h4 class="n">아쉬운 점</h4><ul><li>이력 표시 방식이 지금과 달라짐 (개발 범위 큼)</li><li>본문 폭이 줄어 지불·회수 표는 세로로 쌓임</li></ul></div></div>
+</article><article class="opt">
+<header><span class="k">D</span><div><h3>상단 요약 + 카드 탭</h3><p class="pat">대시보드 + 카드 그리드 2열</p></div></header>
+<div class="wf" style="grid-template-areas:'kpi kpi' 'prc cpc' 'css css' 'pay rec';grid-template-columns:1fr 1fr;grid-template-rows:30px 96px 26px 70px"><div class="b kpi" style="grid-area:kpi"><b>상단 요약 띠 — Result / CAPA Close · Due · 당사 순손실 · No Claim</b></div><div class="b pr card" style="grid-area:prc"><b>PR 카드</b><span class="s">탭: 내용 | 이력 (4)</span></div><div class="b capa card" style="grid-area:cpc"><b>CAPA 카드</b><span class="s">탭: 내용 | 이행 증빙 (3) | 이력 (3)</span></div><div class="b cs" style="grid-area:css"><b>Claim Settlement 요약 띠</b></div><div class="b cs2" style="grid-area:pay"><b>지불내역</b></div><div class="b cs2" style="grid-area:rec"><b>회수내역</b></div></div>
+<p class="evl"><b>이행 증빙</b> CAPA 카드 안 탭</p>
+<div class="pc"><div><h4 class="g">좋은 점</h4><ul><li>카드 높이가 항상 같음 (탭으로 전환)</li><li>열자마자 상태·금액을 맨 위에서 확인</li><li>이행 증빙이 많아도 화면이 안 깨짐</li></ul></div><div><h4 class="n">아쉬운 점</h4><ul><li>이력·증빙을 보려면 탭을 한 번 눌러야 함</li><li>상단 요약 띠는 새로 만드는 영역</li></ul></div></div>
+</article></div>
+<section class="rec"><h2>제안</h2>
+지금 화면을 크게 바꾸지 않으려면 <b>B 스플릿</b>이 가장 가깝습니다. 다만 Claim Settlement가 PR과 떨어지는 점은 감안해야 합니다.<br>
+이력이 길어지는 건이 많다면 <b>C 사이드바 레이아웃</b>, 칸 높이를 항상 맞추고 싶다면 <b>D 대시보드 + 카드 그리드</b>를 추천합니다. 마음에 드는 안을 고르시면 실제 목업으로 만들어 드리겠습니다.
+</section>
+</main>
+</body>
+</html>
