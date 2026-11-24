@@ -62,7 +62,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .totin{width:100px;height:26px;border:1px solid #C9C9C9;border-radius:3px;padding:0 6px;font:inherit;font-size:14px;font-weight:700;text-align:right;font-variant-numeric:tabular-nums;color:#222;background:#fff;box-sizing:border-box}
 .totin.isauto{color:#8A8A8A;font-weight:500}
 .totin:disabled{background:#F3F3F3;color:#9A9A9A}
-.totauto{font-size:11px;font-weight:700;color:#6B6B6B;background:#EFEFEF;border-radius:3px;padding:1px 5px;white-space:nowrap}
+.totauto{visibility:visible;font-size:11px;font-weight:700;color:#6B6B6B;background:#EFEFEF;border-radius:3px;padding:1px 5px;white-space:nowrap}
 .totin::placeholder{font-weight:400;color:#AAA}
 .grid tr.fx td{background:#FAFAFA}
 .nil{color:#A0A0A0}
@@ -174,10 +174,10 @@ Summary (USD)</div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 16px; box-sizing: border-box;">
 
 <div style="min-width: 0;">
-<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
-<div style="min-width: 0;">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Payments</h2>
-<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">P1·P2 show SAP amounts and P3 shows the CY Cost KPI amount only. Add other payments with +.</p>
+<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">P1·P2 show SAP amounts and P3 shows the CY Cost KPI amount only. Add other payments with +.</p>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 
@@ -219,7 +219,7 @@ Summary (USD)</div>
 <tr class="fx">
 <td></td>
 <td><div class="rocell">LXP</div></td>
-<td><div class="rocell"><span class="chip cy">CY KPI</span>P3 DEM/DET/STG</div></td>
+<td><div class="rocell"><span class="chip cy">KPI</span>P3 DEM/DET/STG</div></td>
 <td><div class="rocell"></div></td>
 <td><div class="rocell num nil">—</div></td>
 <td><div class="auto">—</div></td>
@@ -240,10 +240,10 @@ Summary (USD)</div>
 </div>
 
 <div style="min-width: 0;">
-<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
-<div style="min-width: 0;">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px;">
 <h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Recoveries</h2>
-<p style="margin: 4px 0 0; font-size: 12px; color: #555; line-height: 1.5;">R1–R2 show SAP amounts only. Add other recoveries with + (R4 · R5).</p>
+<p style="margin: 0; font-size: 12px; color: #666; line-height: 1.5;">R1–R2 show SAP amounts only. Add other recoveries with + (R4 · R5).</p>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 <button class="ibtn" type="button" aria-label="Add recovery row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
@@ -292,7 +292,7 @@ Summary (USD)</div>
 </div>
 
 <div class="legend" style="grid-column: 1 / -1; margin-top: 0; padding-top: 10px; border-top: 1px solid #EEEEEE;">
-<span><span class="sw" style="background: #EFEFEF;"></span>Looked-up amounts — always shown, cannot edit or delete (<span class="chip" style="margin-right: 4px;">SAP</span>P1·P2·R1·R2 · <span class="chip cy" style="margin-right: 4px;">CY KPI</span>P3 CY Cost KPI)</span>
+<span><span class="sw" style="background: #EFEFEF;"></span>Looked-up amounts — always shown, cannot edit or delete (<span class="chip" style="margin: 0 4px;">SAP</span>P1·P2·R1·R2 · <span class="chip cy" style="margin: 0 4px;">KPI</span>P3 CY Cost KPI)</span>
 <span><b>+ payment row</b>: Paid by LXP → P4; LXP insurer / vendor / customer → P5 (auto)</span>
 <span><b>+ recovery row</b>: choose R4 or R5</span>
 <span><span class="sw" style="background: #fff; border-color: #D3202F;"></span>Voucher no. required for P4 · R4</span>
@@ -400,7 +400,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <li> History (Contents) on the right of Progress &amp; Result: fixed height showing the header + <b>3 rows</b>; longer lists scroll vertically (header stays). The bottom of the right panel lines up with the left panel.</li>
 <li>Claim Settlement header: instead of a red tab, the text title <b>* Claim Settlement ⓘ</b> (same look as the old Actual Loss Cost label) + the summary bar to its right (black 'Summary (USD)' label + 5 cells) + No Claim at the far right. The summary bar is a separate card with a small gap above the tables.</li>
 <li>Claim Settlement body: <b>split screen</b> 50:50 — payments left, recoveries right.</li>
-<li>Above each table: title and guidance on the left, <b>+ / −</b> buttons on the right.</li>
+<li>Above each table: one line of guidance right of the title, <b>+ / −</b> buttons at the far right.</li>
 <li>Below about 1,150px width, the tables stack (payments, then recoveries) and scroll horizontally.</li>
 <li>Suggested column widths (px, at 1,600px screen width): payments — Select 30 · Paid by 124 · Type (rest) · Currency 88 · Amount 78 · In USD 76 · Remark 104. Recoveries — no party column; Type takes the rest.</li>
 </ul>
@@ -411,7 +411,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <table class="t">
 <thead><tr><th>Item</th><th>Calculation</th></tr></thead>
 <tbody>
-<tr><td> <b>Total claim cost</b></td><td>Total claim amount of the case. Shows the value of the existing total-cost input at the top of the real screen. <b>If not entered, it is filled with LXP paid + insurer / 3rd party</b> in grey with an 'Auto' tag (an entered value wins). 0 when No Claim is checked. <b>In this mockup it is entered here temporarily</b> — if that works, this cell can become the input (see 8)</td></tr>
+<tr><td> <b>Total claim cost</b></td><td>Total claim amount of the case. Shows the value of the existing total-cost input at the top of the real screen. <b>If not entered, it is filled with LXP paid + insurer / 3rd party</b> in grey with an 'Auto' tag (an entered value wins). The tag's space is always reserved so the summary width never changes. 0 when No Claim is checked. <b>In this mockup it is entered here temporarily</b> — if that works, this cell can become the input (see 8)</td></tr>
 <tr><td><b>LXP paid</b></td><td>Sum in USD of payment rows where Paid by = LXP (P1–P4)</td></tr>
 <tr><td><b>Insurer / 3rd party</b></td><td>Sum in USD of payment rows paid by LXP insurer, vendor or customer (P5)</td></tr>
 <tr><td><b>LXP recovered</b></td><td>Sum in USD of all recovery rows (R1·R2·R4·R5)</td></tr>
@@ -455,7 +455,6 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 <li>Added rows without an amount stay on screen and are skipped when saving.</li>
 <li>Unchecking: allowed at any time. While checked, pressing <b>+</b> on a table <b>clears No Claim automatically</b>.</li>
 <li><b>Even after saving as No Claim</b>, if an SAP / CY Cost KPI amount arrives, No Claim is <b>cleared automatically</b> and logged as 'No Claim cleared automatically (cost amount received)'. Same when an amount is entered in an added row.</li>
-<li>If there is no cost and No Claim is not checked: a grey hint below the payment table 'If there is no cost, tick No Claim at the top right'.</li>
 <li>Save · Result Close: blocked unless there is <b>at least one row with an amount</b> or <b>No Claim is checked</b> (prevents missing costs).</li>
 <li>Data: store Claim Y/N separately so 'No Claim' cases and 'cost not entered' cases can be counted apart.</li>
 <li>History (Contents): log check / uncheck as one line each (suggestion). E.g. <span class="f">[NCL] … No Claim checked</span></li>
@@ -508,7 +507,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
 </table>
 <ul style="margin-top: 12px;">
 <li>Fixed rows are always shown, even with no looked-up amount; the amount cell then shows '—'.</li>
-<li>Fixed rows show their source before the type name: <span class="f">SAP</span> (P1·P2·R1·R2), <span class="f">CY KPI</span> (P3).</li>
+<li>Fixed rows show their source before the type name: <span class="f">SAP</span> (P1·P2·R1·R2), <span class="f">KPI</span> (P3, CY Cost KPI).</li>
 <li>Currency · Amount · Remark on fixed rows are locked in grey.</li>
 <li>On save: if a required (*) field of an added row is empty, or the Remark (voucher no.) of P4·R4 is empty, block saving and outline the field in red.</li>
 </ul>
@@ -546,7 +545,6 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       types: { P1: 'P1 손해배상금 지급 (51029010)', P2: 'P2 과태료 지급 (51017180)', P3: 'P3 체화료', P4: 'P4 Selling / Buying', P5: 'P5 보험사·제3자 지불',
                R1: 'R1 손해배상금 환입 (51029010)', R2: 'R2 과태료 환입 (51017180)', R4: 'R4 Selling / Buying', R5: 'R5 기타' },
       choose: '선택', amount: '금액 입력', auto: '자동 계산', remark: '증빙번호 등', voucher: '전표번호 (필수)',
-      emptyHint: '조회·입력된 비용이 없습니다. 비용이 없으면 오른쪽 위 No Claim을 체크하세요.',
       ncDisabled: '비용 금액(SAP · CY Cost KPI 조회, 입력 행, 전체 클레임 비용)이 있어 No Claim을 선택할 수 없습니다.',
       badge: 'No Claim — 비용 없음',
       lossK: '당사 순손실 = 당사지불 − 당사회수', gainK: '당사 순이익 = 당사회수 − 당사지불',
@@ -563,7 +561,6 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       types: { P1: 'P1 Compensation (51029010)', P2: 'P2 Penalty (51017180)', P3: 'P3 DEM/DET/STG', P4: 'P4 Selling / Buying', P5: 'P5 Paid by insurer / 3rd party',
                R1: 'R1 Compensation (51029010)', R2: 'R2 Penalty (51017180)', R4: 'R4 Selling / Buying', R5: 'R5 Other' },
       choose: 'Select', amount: 'Amount', auto: 'Auto', remark: 'Evidence no.', voucher: 'Voucher no.',
-      emptyHint: 'No cost found or entered. If there is no cost, tick No Claim at the top right.',
       ncDisabled: 'A cost amount exists (SAP / CY Cost KPI, entered row or total claim cost), so No Claim cannot be selected.',
       badge: 'No Claim — no cost',
       lossK: 'LXP net loss (paid − recovered)', gainK: 'LXP net gain (recovered − paid)',
@@ -717,7 +714,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       if (r.fixed) {   // 조회 행 (P1·P2·R1·R2 SAP, P3 CY Cost KPI): 항상 표시, 수정·삭제 불가
         var h = '<tr class="fx"><td></td>';
         if (k === 'pay') h += '<td><div class="rocell">' + L.parties.LXP + '</div></td>';
-        h += '<td><div class="rocell"><span class="chip' + (r.type === 'P3' ? ' cy">CY KPI' : '">SAP') + '</span>' + esc(L.types[r.type]) + '</div></td>';
+        h += '<td><div class="rocell"><span class="chip' + (r.type === 'P3' ? ' cy">KPI' : '">SAP') + '</span>' + esc(L.types[r.type]) + '</div></td>';
         h += '<td><div class="rocell">' + (r.amt ? r.cur : '') + '</div></td>';
         h += '<td><div class="rocell num' + (r.amt ? '' : ' nil') + '">' + (r.amt ? fmt(r.amt) : '—') + '</div></td>';
         h += usdCell(r);
@@ -743,8 +740,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
     function renderTables() {
       ['pay', 'rec'].forEach(function (k) {
         var cols = k === 'pay' ? 7 : 6;
-        tb[k].innerHTML = st[k].map(function (r, i) { return rowHTML(k, r, i); }).join('') +
-          (k === 'pay' && !hasCost() && !st.noClaim ? '<tr data-hint><td colspan="' + cols + '" style="text-align:center;color:#888;padding:12px 8px;font-size:12px;background:#FCFCFC">' + L.emptyHint + '</td></tr>' : '');
+        tb[k].innerHTML = st[k].map(function (r, i) { return rowHTML(k, r, i); }).join('');
       });
       syncSource();
       updateControls();
@@ -767,8 +763,6 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       nc.style.opacity = block ? '0.45' : '';
       nc.style.cursor = block ? 'not-allowed' : 'pointer';
       nc.title = block ? L.ncDisabled : '';
-      var hint = tb.pay.querySelector('[data-hint]');
-      if (hint && hasCost()) hint.remove();
     }
     function setV(el, value, cls) { el.textContent = fmt(value); el.className = 'v ' + cls + (value ? '' : ' zero'); }
     function updateSummary() {
@@ -791,7 +785,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
       var isAuto = !st.noClaim && !st.total;
       tot.disabled = st.noClaim;
       tot.classList.toggle('isauto', isAuto);
-      if (autoTag) autoTag.style.display = isAuto ? '' : 'none';
+      if (autoTag) autoTag.style.visibility = isAuto ? 'visible' : 'hidden';
       if (!force && document.activeElement === tot) return;
       tot.value = st.noClaim ? fmt(0) : st.total ? fmt(st.total) : fmt(autoTotal);
     }
@@ -841,7 +835,7 @@ Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 1
     tot.addEventListener('focus', function () { if (tot.classList.contains('isauto')) tot.select(); });
     section.addEventListener('input', function (e) {
       var t = e.target, k = t.getAttribute('data-k'), f = t.getAttribute('data-f');
-      if (t === tot) { st.total = num(tot.value); tot.classList.toggle('isauto', !st.total); if (autoTag) autoTag.style.display = st.total ? 'none' : ''; updateControls(); return; }
+      if (t === tot) { st.total = num(tot.value); tot.classList.toggle('isauto', !st.total); if (autoTag) autoTag.style.visibility = st.total ? 'hidden' : 'visible'; updateControls(); return; }
       if (!k || (f !== 'amt' && f !== 'remark')) return;
       var r = st[k][+t.getAttribute('data-i')];
       if (f === 'amt') {
