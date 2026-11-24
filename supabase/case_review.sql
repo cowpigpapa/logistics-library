@@ -45,3 +45,9 @@ revoke all on function public.get_case_review(text) from public;
 revoke all on function public.save_case_review(text, text, text, text, text) from public;
 grant execute on function public.get_case_review(text) to anon;
 grant execute on function public.save_case_review(text, text, text, text, text) to anon;
+
+-- 2026-11-15: Claude 1차 추천. 운영자가 고르지 않은 줄은 rec을 최종 판정으로 본다(s가 있으면 s가 우선).
+alter table public.case_review add column if not exists rec text not null default '' check (rec in ('', 'keep', 'hold', 'drop'));
+alter table public.case_review add column if not exists rec_doc text not null default '';
+alter table public.case_review add column if not exists rec_sure boolean not null default true;
+alter table public.case_review add column if not exists rec_why text not null default '';
