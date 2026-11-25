@@ -129,7 +129,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </style>
 </head>
 <body>
-<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>배치 검토용 목업 · 이력 필터만 동작</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-sidebar" aria-current="page">이력 사이드바안</a><a href="/share/qms-claim-closure-options">배치 제안</a><a href="/share/qms-claim-closure-sidebar-en" lang="en">English</a></div>
+<div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>배치 검토용 목업 · 이력 필터만 동작</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-sidebar" aria-current="page">이력 사이드바안</a><a href="/share/qms-claim-closure-options">배치 제안</a><a href="#en" lang="en">English</a></div>
 <div class="part"><h2 class="big">이력 사이드바안 — 배치 제안 C</h2><p><b>사이드바 레이아웃</b>: 왼쪽 본문은 PR → CAPA → 이행 증빙, 오른쪽 사이드바는 PR · CAPA 이력을 시간순으로 모은 통합 이력 (PR / CAPA 필터). 구역마다 둥근 상자로 나누고, 본문 : 이력 폭은 7 : 3 (6 : 4로 바꿔 볼 수 있음). 이력 상자는 본문 높이에 맞춰 늘어나고 넘치면 안에서 스크롤. 입력 칸과 이력이 나란히 있지 않으니 높이를 맞출 필요가 없고, 이행 증빙이 늘어도 구조가 깨지지 않습니다. <b>Claim Settlement는 전체 폭</b>으로 빼서 지불·회수 표를 한 줄에 놓고, 맨 아래(기본)와 맨 위 중 골라 볼 수 있습니다.</p>
 <div class="pos" role="group" aria-label="본문과 이력 비율" data-cls="r64"><span>본문 : 이력</span><span class="segb"><button type="button" data-on="0" aria-pressed="true">7 : 3</button><button type="button" data-on="1" aria-pressed="false">6 : 4</button></span></div><div class="pos" role="group" aria-label="Claim Settlement 위치" data-cls="cs-top"><span>Claim Settlement 위치</span><span class="segb"><button type="button" data-pos="bottom" data-on="0" aria-pressed="true">맨 아래</button><button type="button" data-pos="top" data-on="1" aria-pressed="false">맨 위</button></span></div>
 <div class="dl"><a href="/share/files/qms-claim-closure-sidebar.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 아래)</a><a href="/share/files/qms-claim-closure-sidebar-top.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 위)</a><a href="/share/files/qms-claim-closure-sidebar-64.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (6 : 4)</a></div></div>
@@ -356,6 +356,230 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 </section></div>
 </div>
 </div>
+<div class="part" id="en" style="padding-top:48px"><h2 class="big">C-EN 이력 사이드바안 (English)</h2><p>위 화면의 영문판입니다. 위쪽 본문 : 이력, Claim Settlement 위치 버튼이 영문판에도 같이 적용됩니다. LXP = LX Pantos.</p><div class="dl"><a href="/share/files/qms-claim-closure-sidebar-en.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (English · 맨 아래)</a><a href="/share/files/qms-claim-closure-sidebar-top-en.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (English · 맨 위)</a><a href="/share/files/qms-claim-closure-sidebar-64-en.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (English · 6 : 4)</a></div></div>
+<div lang="en" style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
+<header style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 28px; padding-bottom: 16px; border-bottom: 2px solid #111;">
+<h1 style="margin: 0; font-size: 24px; font-weight: 700;">Irregularity Closure</h1>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px;">
+<label style="display: flex; align-items: center; gap: 10px;"><span class="lbl">BSC Timely Registration Y/N :</span><select class="fld" style="width: 108px;"><option>Y</option><option>N</option></select></label>
+<label style="display: flex; align-items: center; gap: 10px;"><span class="lbl">BSC Timely Improvement Y/N :</span><select class="fld" style="width: 108px;"><option>Y</option><option>N</option></select></label>
+<div style="display: flex; align-items: center; gap: 10px;"><span class="lbl">Result Close Y/N :</span><span class="fld ro" style="width: 36px; justify-content: center;">N</span></div>
+<div style="display: flex; align-items: center; gap: 10px;"><span class="lbl">CAPA Close Y/N :</span><span class="fld ro" style="width: 36px; justify-content: center;">Y</span></div>
+</div>
+</header>
+<div class="flow">
+<div class="sbl">
+<div class="mainc">
+<section aria-label="Progress and Result" class="zone">
+<div class="zhead"><div class="zl"><span class="zt">Progress &amp; Result</span><div class="confirm"><span class="lbl">Confirm Date :</span><span class="fld ro" style="width: 168px;"></span></div></div>
+<div class="btns"><button class="btn" type="button">Withdraw Request</button><button class="btn" type="button">Request Re-submission</button><button class="btn" type="button">Confirm</button></div></div>
+<div class="panel">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
+<a href="#" style="font-size: 14px; color: #6B6B6B; text-decoration: none; font-weight: 500;">(click here for sample)</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;">
+<span class="lbl">Due Date :</span><span class="fld" style="width: 136px; justify-content: space-between;">2026-12-14<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="1"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg></span>
+<span class="lbl">Last Update :</span><span class="fld ro" style="width: 168px;">2026-11-23 10:32:33</span>
+</div>
+</div>
+<div class="memo">Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping)
+ - Caused by careless clamp forklift handling
+ - Improve handling quality through continuous operator training</div>
+</div>
+</section>
+<section aria-label="Cause Analysis and Preventive Action" class="zone">
+<div class="zhead"><div class="zl"><span class="zt">Cause Analysis &amp; Preventive Action (CAPA)</span><div class="confirm"><span class="lbl">Confirm Date :</span><span class="fld ro" style="width: 168px;">2026-11-24 08:51:40</span></div></div>
+<div class="btns"><button class="btn" type="button">Request Re-submission</button></div></div>
+<div class="panel">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
+<a href="#" style="font-size: 14px; color: #6B6B6B; text-decoration: none; font-weight: 500;">(click here for sample)</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;">
+<span class="lbl">Due Date :</span><span class="fld ro" style="width: 136px;">2026-12-23</span>
+<span class="lbl">Last Update :</span><span class="fld ro" style="width: 168px;">2026-11-23 10:31:53</span>
+</div>
+</div>
+<div class="memo">Periodic damage-prevention training for forklift drivers
+ - Site manager is training all forklift operators
+
+Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 11/13)</div>
+</div>
+<div class="evsec">
+<div class="evhead"><h2 class="cs-h"><span class="req">*</span>Evidence</h2><div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+<select class="fld" style="width: 168px;" aria-label="Move to"><option>- Irregularity Report</option></select>
+<button class="btn" type="button">Move</button>
+<button class="btn" type="button">Download selected</button>
+</div></div>
+<div class="evbox"><table class="grid" style="min-width: 0;">
+<colgroup><col style="width: 64px;"><col style="width: 56px;"><col><col style="width: 200px;"><col style="width: 110px;"></colgroup>
+<thead><tr><th>No.</th><th><input type="checkbox" aria-label="Select all files"></th><th>File name</th><th>Uploaded</th><th>Download</th></tr></thead>
+<tbody>
+<tr><td style="text-align: center;">1</td><td style="text-align: center;"><input type="checkbox" aria-label="Select file 1"></td><td style="text-align: center;">Damage prevention training 2026.10.07.pdf</td><td style="text-align: center;">2026-11-24 01:28:03</td><td style="text-align: center; color: #D3202F;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" role="img" aria-label="Download"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></td></tr>
+<tr><td style="text-align: center;">2</td><td style="text-align: center;"><input type="checkbox" aria-label="Select file 2"></td><td style="text-align: center;">Damage Prevention Training 2026.11.17.pptx</td><td style="text-align: center;">2026-11-24 01:28:06</td><td style="text-align: center; color: #D3202F;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" role="img" aria-label="Download"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></td></tr>
+<tr><td style="text-align: center;">3</td><td style="text-align: center;"><input type="checkbox" aria-label="Select file 3"></td><td style="text-align: center;">Damage Prevention Checklist 2026.11.20.xlsx</td><td style="text-align: center;">2026-11-24 01:28:09</td><td style="text-align: center; color: #D3202F;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" role="img" aria-label="Download"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></td></tr>
+</tbody>
+</table></div>
+</div>
+</section>
+</div>
+<aside class="zone side" aria-label="History">
+<div class="zhead"><span class="zt dark">History<span class="cnt">7</span></span>
+<div class="seg" role="group" aria-label="History filter">
+<button type="button" data-f="all" aria-pressed="true">All 7</button><button type="button" data-f="PR" aria-pressed="false">PR 4</button><button type="button" data-f="CAPA" aria-pressed="false">CAPA 3</button>
+</div></div>
+<ol class="tl"><li class="ti capa" data-k="CAPA"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg capa">CAPA</span><span class="code c-cfm">CFM</span><time>2026-11-24 08:51:40</time><span class="who">Approver</span></div><p class="tx" title="Confirm">Confirm</p></li><li class="ti capa" data-k="CAPA"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg capa">CAPA</span><span class="code c-req">REQ</span><time>2026-11-23 10:33:06</time><span class="who">PIC</span></div><p class="tx" title="Request Confirmation">Request Confirmation</p></li><li class="ti pr" data-k="PR"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg pr">PR</span><span class="code c-req">REQ</span><time>2026-11-23 10:32:40</time><span class="who">PIC</span></div><p class="tx" title="Request Confirmation">Request Confirmation</p></li><li class="ti pr" data-k="PR"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg pr">PR</span><span class="code c-reg">REG</span><time>2026-11-23 10:32:33</time><span class="who">PIC</span></div><p class="tx" title="Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping) - Caused by careless clamp forklift handling - Improve handling quality through continuous operator training">Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping) - Caused by careless clamp forklift handling - Improve handling quality through continuous operator training</p></li><li class="ti pr" data-k="PR"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg pr">PR</span><span class="code c-reg">REG</span><time>2026-11-23 10:31:53</time><span class="who">PIC</span></div><p class="tx" title="Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping) - Caused by careless clamp forklift handling">Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping) - Caused by careless clamp forklift handling</p></li><li class="ti capa" data-k="CAPA"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg capa">CAPA</span><span class="code c-reg">REG</span><time>2026-11-23 10:31:53</time><span class="who">PIC</span></div><p class="tx" title="Periodic damage-prevention training for forklift drivers - Site manager is training all forklift operators. Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 11/13)">Periodic damage-prevention training for forklift drivers - Site manager is training all forklift operators. Discussing repair of salvageable goods with the SCM team (meetings held 10/17, 11/13)</p></li><li class="ti pr" data-k="PR"><span class="dot" aria-hidden="true"></span><div class="tmeta"><span class="tg pr">PR</span><span class="code c-reg">REG</span><time>2026-11-23 10:30:12</time><span class="who">PIC</span></div><p class="tx" title="Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping)">Damage caused by handling issues during forklift operations (receiving, stacking/storage, shipping)</p></li></ol>
+<p class="sidenote">PR and CAPA history in one timeline. Click a row to see the full text.</p>
+</aside>
+</div>
+<div class="csw zone"><section aria-label="Claim Settlement" style="background: #fff; padding: 14px 16px 16px; border-top: 1px solid #EEEEEE;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 10px;">
+<div style="display: flex; align-items: center; gap: 8px;">
+<h2 class="cs-h"><span class="req">*</span>Claim Settlement<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="margin-left: 4px;"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg></h2>
+
+</div>
+<div role="group" aria-label="Summary (USD)" style="display: flex; flex-wrap: wrap; align-items: stretch; background: #fff; border: 1px solid #D8D8D8; border-radius: 6px; overflow: hidden; min-height: 36px; box-sizing: border-box; box-shadow: 0 1px 3px rgba(0,0,0,0.06);">
+<div style="display: flex; align-items: center; gap: 8px; padding: 0 14px; background: #333; color: #fff; font-size: 13px; font-weight: 700; white-space: nowrap;">
+Summary (USD)</div>
+<div class="sum tot"><span class="k">Total claim cost</span><input class="totin isauto" inputmode="decimal" value="5,855.98" placeholder="Enter" aria-label="Total claim cost (USD)"><span class="totauto" title="Not entered → LXP paid + insurer / 3rd party">Auto</span></div>
+<div class="sum"><span class="k">LXP paid</span><span class="v pay">5,855.98</span></div>
+<div class="sum"><span class="k">Insurer / 3rd party</span><span class="v neu zero">0.00</span></div>
+<div class="sum"><span class="k">LXP recovered</span><span class="v rec zero">0.00</span></div>
+<div class="sum loss"><span class="k">LXP net loss (paid − recovered)</span><span class="v">5,855.98</span></div>
+</div>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
+
+<label class="nc"><input type="checkbox"> No Claim</label>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 14px 0 0; box-sizing: border-box;">
+
+<div style="min-width: 0;">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px;">
+<h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Payments</h2>
+<span class="qtip" tabindex="0" aria-label="About payments"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">P1·P2 show SAP amounts and P3 shows the CY Cost KPI amount only. Add other payments with +.</span></span>
+</div>
+<div style="display: flex; align-items: center; gap: 6px; flex: none;">
+
+<button class="ibtn" type="button" aria-label="Add payment row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+<button class="ibtn" type="button" aria-label="Delete selected payment rows"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
+</div>
+</div>
+<div style="overflow-x: auto;">
+<table class="grid">
+<colgroup><col style="width: 30px;"><col style="width: 124px;"><col><col style="width: 88px;"><col style="width: 78px;"><col style="width: 76px;"><col style="width: 104px;"></colgroup>
+<thead><tr>
+<th><input type="checkbox" aria-label="Select all payment rows"></th>
+<th><span class="req">*</span>Paid by</th>
+<th><span class="req">*</span>Payment type</th>
+<th><span style="display: inline-flex; align-items: center; gap: 4px;"><span class="req">*</span>Currency</span></th>
+<th><span class="req">*</span>Amount</th>
+<th><span style="display: inline-flex; align-items: center; gap: 4px;">In USD</span></th>
+<th>Remark</th>
+</tr></thead>
+<tbody>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">LXP</div></td>
+<td><div class="rocell"><span class="chip">SAP</span>P1 Compensation (51029010)</div></td>
+<td><div class="rocell">USD</div></td>
+<td><div class="rocell num">5,855.98</div></td>
+<td><div class="usd">5,855.98</div></td>
+<td><div class="rocell">4400000813, 4400000847</div></td>
+</tr>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">LXP</div></td>
+<td><div class="rocell"><span class="chip">SAP</span>P2 Penalty (51017180)</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr class="fx">
+<td></td>
+<td><div class="rocell">LXP</div></td>
+<td><div class="rocell"><span class="chip cy">KPI</span>P3 DEM/DET/STG</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr>
+<td style="text-align: center;"><input type="checkbox" aria-label="Select row 4"></td>
+<td><select class="cell" aria-label="Paid by"><option>LXP insurer</option><option>LXP</option><option>Vendor</option><option>Customer</option></select></td>
+<td><select class="cell" aria-label="Payment type"><option>P5 Paid by insurer / 3rd party</option></select></td>
+<td><select class="cell" aria-label="Currency"><option>KRW</option><option>USD</option><option>EUR</option></select></td>
+<td><input class="cell" style="text-align: right;" placeholder="Amount" aria-label="Amount"></td>
+<td><div class="auto">Auto</div></td>
+<td><input class="cell" placeholder="Evidence no." aria-label="Remark"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div style="min-width: 0;">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px;">
+<div style="min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px;">
+<h2 style="margin: 0; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 8px;">Recoveries</h2>
+<span class="qtip" tabindex="0" aria-label="About recoveries"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">R1–R2 show SAP amounts only. Add other recoveries with + (R4 · R5).</span></span>
+</div>
+<div style="display: flex; align-items: center; gap: 6px; flex: none;">
+<button class="ibtn" type="button" aria-label="Add recovery row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+<button class="ibtn" type="button" aria-label="Delete selected recovery rows"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
+</div>
+</div>
+<div style="overflow-x: auto;">
+<table class="grid">
+<colgroup><col style="width: 30px;"><col><col style="width: 88px;"><col style="width: 78px;"><col style="width: 76px;"><col style="width: 104px;"></colgroup>
+<thead><tr>
+<th><input type="checkbox" aria-label="Select all recovery rows"></th>
+<th><span class="req">*</span>Recovery type</th>
+<th><span class="req">*</span>Currency</th>
+<th><span class="req">*</span>Amount</th>
+<th>In USD</th>
+<th>Remark</th>
+</tr></thead>
+<tbody>
+<tr class="fx">
+<td></td>
+<td><div class="rocell"><span class="chip">SAP</span>R1 Compensation (51029010)</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr class="fx">
+<td></td>
+<td><div class="rocell"><span class="chip">SAP</span>R2 Penalty (51017180)</div></td>
+<td><div class="rocell"></div></td>
+<td><div class="rocell num nil">—</div></td>
+<td><div class="auto">—</div></td>
+<td><div class="rocell"></div></td>
+</tr>
+<tr>
+<td style="text-align: center;"><input type="checkbox" aria-label="Select row 3"></td>
+<td><select class="cell" aria-label="Recovery type"><option>R4 Selling / Buying</option><option>R5 Other</option></select></td>
+<td><select class="cell" aria-label="Currency"><option>USD</option><option>KRW</option><option>EUR</option></select></td>
+<td><input class="cell" style="text-align: right;" placeholder="Amount" aria-label="Amount"></td>
+<td><div class="auto">Auto</div></td>
+<td><input class="cell" style="border-color: #D3202F;" placeholder="Voucher no." aria-label="Remark voucher number"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="legend" style="grid-column: 1 / -1; margin-top: 0; padding-top: 10px; border-top: 1px solid #EEEEEE;">
+<span><span class="sw" style="background: #EFEFEF;"></span>Looked-up amounts — always shown, cannot edit or delete (<span class="chip" style="margin: 0 4px;">SAP</span>P1·P2·R1·R2 · <span class="chip cy" style="margin: 0 4px;">KPI</span>P3 CY Cost KPI)</span>
+<span><b>+ payment row</b>: Paid by LXP → P4; LXP insurer / vendor / customer → P5 (auto)</span>
+<span><b>+ recovery row</b>: choose R4 or R5</span>
+<span><span class="sw" style="background: #fff; border-color: #D3202F;"></span>Voucher no. required for P4 · R4</span>
+<span><span style="color: #1E6B34; font-weight: 700; margin-right: 6px;">0.00</span>In USD — auto-calculated</span>
+</div>
+</div>
+</section></div>
+</div>
+</div>
 <script>
 (function () {
   function fit() {
@@ -373,17 +597,19 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
     g.addEventListener('click', function (e) {
       var b = e.target.closest('button'); if (!b) return;
       g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-      document.querySelector('.flow').classList.toggle(g.dataset.cls, b.dataset.on === '1');
+      document.querySelectorAll('.flow').forEach(function (f) { f.classList.toggle(g.dataset.cls, b.dataset.on === '1'); });
     });
   });
-  var seg = document.querySelector('.seg');
-  seg.addEventListener('click', function (e) {
-    var b = e.target.closest('button'); if (!b) return;
-    seg.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-    document.querySelectorAll('.tl .ti').forEach(function (li) { li.hidden = b.dataset.f !== 'all' && li.dataset.k !== b.dataset.f; });
-  });
-  document.querySelector('.tl').addEventListener('click', function (e) {
-    var li = e.target.closest('.ti'); if (li) li.classList.toggle('open');
+  document.querySelectorAll('.side').forEach(function (side) {
+    var seg = side.querySelector('.seg'), tl = side.querySelector('.tl');
+    seg.addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      seg.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      tl.querySelectorAll('.ti').forEach(function (li) { li.hidden = b.dataset.f !== 'all' && li.dataset.k !== b.dataset.f; });
+    });
+    tl.addEventListener('click', function (e) {
+      var li = e.target.closest('.ti'); if (li) li.classList.toggle('open');
+    });
   });
 })();
 </script>
