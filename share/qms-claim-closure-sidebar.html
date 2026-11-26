@@ -124,13 +124,34 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .ti.open .tx{display:block}
 .ti[hidden]{display:none}
 .sidenote{margin:10px 0 0;padding-top:10px;border-top:1px solid #EEEEEE;font-size:11.5px;color:#8A8A8A}
+.cform{margin-top:10px;background:#F6F6F6;border:1px solid #E3E3E3;border-radius:8px;padding:10px 14px 14px}
+.cf-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-size:13px;margin-bottom:8px;color:#222}
+.cf-note{font-size:12px;color:#8A8A8A}.cf-mode{font-size:12px;color:#1F4E9A;font-weight:700}
+.cf-g{display:grid;gap:8px 10px;align-items:end}
+.cf-g.pay{grid-template-columns:128px minmax(0,1fr) 84px 150px}
+.cf-g.rec{grid-template-columns:minmax(0,1fr) 84px 150px}
+.cf{display:flex;flex-direction:column;gap:4px;min-width:0;font-size:12px;font-weight:700;color:#444}
+.cf select,.cf input{height:32px;width:100%;border:1px solid #CFCFCF;border-radius:2px;background:#fff;font:inherit;font-size:13px;font-weight:400;color:#222;padding:0 8px;box-sizing:border-box}
+.cf input[data-f="amt"]{text-align:right;font-variant-numeric:tabular-nums}
+.cf .rocell{height:32px;font-weight:400}
+.cf input.need{border-color:#D3202F}
+.cf .bad{outline:2px solid #D3202F;outline-offset:-1px}
+.cf.wide{grid-column:1 / -2}
+.cf-b{display:flex;justify-content:flex-end;gap:6px}
+.cf-b .btn{height:32px;padding:0 14px}
+.btn.dark{background:#333;border-color:#333;color:#fff;font-weight:700}
+.cf-err{margin:8px 0 0;font-size:12px;color:#B3121F}
+.uc{height:30px;display:flex;align-items:center;padding:0 8px;font-size:13px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.uc.num{justify-content:flex-end;font-variant-numeric:tabular-nums}
+.grid tr.ur{cursor:pointer}.grid tr.ur:hover td{background:#FFF7F7}.grid tr.ur.sel td{background:#FDECEE}
+@media (max-width:640px){.cf-g.pay,.cf-g.rec{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.cf.wide,.cf-b{grid-column:1 / -1}}
 @media (max-width:1100px){.sbl,.flow.r64 .sbl{grid-template-columns:minmax(0,1fr)}.tl{flex:none;height:auto;min-height:0;max-height:420px}}
 
 </style>
 </head>
 <body>
 <div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>배치 검토용 목업 · 이력 필터만 동작</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-sidebar" aria-current="page">이력 사이드바안</a><a href="/share/qms-claim-closure-options">배치 제안</a><a href="#en" lang="en">English</a></div>
-<div class="part"><h2 class="big">이력 사이드바안 — 배치 제안 C</h2><p><b>사이드바 레이아웃</b>: 왼쪽 본문은 PR → CAPA → 이행 증빙, 오른쪽 사이드바는 PR · CAPA 이력을 시간순으로 모은 통합 이력 (PR / CAPA 필터). 구역마다 둥근 상자로 나누고, 본문 : 이력 폭은 7 : 3 (6 : 4로 바꿔 볼 수 있음). 이력 상자는 본문 높이에 맞춰 늘어나고 넘치면 안에서 스크롤. 입력 칸과 이력이 나란히 있지 않으니 높이를 맞출 필요가 없고, 이행 증빙이 늘어도 구조가 깨지지 않습니다. <b>Claim Settlement는 전체 폭</b>으로 빼서 지불·회수 표를 한 줄에 놓고, 맨 아래(기본)와 맨 위 중 골라 볼 수 있습니다.</p>
+<div class="part"><h2 class="big">이력 사이드바안 — 배치 제안 C</h2><p><b>사이드바 레이아웃</b>: 왼쪽 본문은 PR → CAPA → 이행 증빙, 오른쪽 사이드바는 PR · CAPA 이력을 시간순으로 모은 통합 이력 (PR / CAPA 필터). 구역마다 둥근 상자로 나누고, 본문 : 이력 폭은 7 : 3 (6 : 4로 바꿔 볼 수 있음). 이력 상자는 본문 높이에 맞춰 늘어나고 넘치면 안에서 스크롤. 입력 칸과 이력이 나란히 있지 않으니 높이를 맞출 필요가 없고, 이행 증빙이 늘어도 구조가 깨지지 않습니다. <b>Claim Settlement는 전체 폭</b>으로 빼서 지불·회수 표를 한 줄에 놓고, 맨 아래(기본)와 맨 위 중 골라 볼 수 있습니다. <b>지불·회수 표는 조회 전용</b>이고, 표 아래 입력폼(기존 Actual Loss Cost처럼 칸 입력, USD 칸 없음)으로 추가합니다. 입력한 행을 누르면 폼으로 불러와 수정, − 로 삭제. 요약 금액은 예시 환율로 다시 계산됩니다.</p>
 <div class="pos" role="group" aria-label="본문과 이력 비율" data-cls="r64"><span>본문 : 이력</span><span class="segb"><button type="button" data-on="0" aria-pressed="true">7 : 3</button><button type="button" data-on="1" aria-pressed="false">6 : 4</button></span></div><div class="pos" role="group" aria-label="Claim Settlement 위치" data-cls="cs-top"><span>Claim Settlement 위치</span><span class="segb"><button type="button" data-pos="bottom" data-on="0" aria-pressed="true">맨 아래</button><button type="button" data-pos="top" data-on="1" aria-pressed="false">맨 위</button></span></div>
 <div class="dl"><a href="/share/files/qms-claim-closure-sidebar.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 아래)</a><a href="/share/files/qms-claim-closure-sidebar-top.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 위)</a><a href="/share/files/qms-claim-closure-sidebar-64.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (6 : 4)</a></div></div>
 <div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
@@ -235,12 +256,11 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 
-<button class="ibtn" type="button" aria-label="지불 행 추가"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
 <button class="ibtn" type="button" aria-label="선택한 지불 행 삭제"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
 </div>
 </div>
 <div style="overflow-x: auto;">
-<table class="grid">
+<table class="grid" data-k="pay">
 <colgroup><col style="width: 30px;"><col style="width: 110px;"><col><col style="width: 80px;"><col style="width: 84px;"><col style="width: 84px;"><col style="width: 112px;"></colgroup>
 <thead><tr>
 <th><input type="checkbox" aria-label="지불 행 전체 선택"></th>
@@ -279,18 +299,10 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 <td><div class="auto">—</div></td>
 <td><div class="rocell"></div></td>
 </tr>
-<tr>
-<td style="text-align: center;"><input type="checkbox" aria-label="4행 선택"></td>
-<td><select class="cell" aria-label="지불주체"><option>당사 보험사</option><option>당사</option><option>협력사</option><option>고객사</option></select></td>
-<td><select class="cell" aria-label="지불방법"><option>P5 보험사·제3자 지불</option></select></td>
-<td><select class="cell" aria-label="Currency"><option>KRW</option><option>USD</option><option>EUR</option></select></td>
-<td><input class="cell" style="text-align: right;" placeholder="금액 입력" aria-label="금액"></td>
-<td><div class="auto">자동 계산</div></td>
-<td><input class="cell" placeholder="증빙번호 등" aria-label="Remark"></td>
-</tr>
 </tbody>
 </table>
 </div>
+<div class="cform" data-k="pay" role="group" aria-label="지불 입력"><div class="cf-h"><b>지불 입력</b><span class="cf-note">행을 누르면 여기로 불러와 수정</span><span class="cf-mode" aria-live="polite"></span></div><div class="cf-g pay"><label class="cf"><span><span class="req">*</span>지불주체</span><select data-f="party"><option value="">선택</option><option value="LXP">당사</option><option value="INS">당사 보험사</option><option value="VEN">협력사</option><option value="CUS">고객사</option></select></label><div class="cf"><span>지불방법</span><div class="rocell" data-f="type">—</div></div><label class="cf"><span><span class="req">*</span>Currency</span><select data-f="cur"><option>USD</option><option>KRW</option><option>EUR</option></select></label><label class="cf"><span><span class="req">*</span>금액</span><input data-f="amt" inputmode="decimal" placeholder="0.00"></label><label class="cf wide"><span>Remark</span><input data-f="remark" placeholder="증빙번호 등"></label><div class="cf-b"><button class="btn cf-cancel" type="button" hidden>취소</button><button class="btn dark cf-add" type="button">추가</button></div></div><p class="cf-err" role="alert" hidden></p></div>
 </div>
 
 <div style="min-width: 0;">
@@ -300,12 +312,11 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 <span class="qtip" tabindex="0" aria-label="회수내역 안내"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">R1·R2는 SAP에서 조회한 금액만 보여 줍니다. 그 밖의 회수는 + 로 추가합니다 (R4 · R5).</span></span>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
-<button class="ibtn" type="button" aria-label="회수 행 추가"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
 <button class="ibtn" type="button" aria-label="선택한 회수 행 삭제"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
 </div>
 </div>
 <div style="overflow-x: auto;">
-<table class="grid">
+<table class="grid" data-k="rec">
 <colgroup><col style="width: 30px;"><col><col style="width: 80px;"><col style="width: 84px;"><col style="width: 84px;"><col style="width: 112px;"></colgroup>
 <thead><tr>
 <th><input type="checkbox" aria-label="회수 행 전체 선택"></th>
@@ -332,23 +343,17 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 <td><div class="auto">—</div></td>
 <td><div class="rocell"></div></td>
 </tr>
-<tr>
-<td style="text-align: center;"><input type="checkbox" aria-label="3행 선택"></td>
-<td><select class="cell" aria-label="회수방법"><option>R4 Selling / Buying</option><option>R5 기타</option></select></td>
-<td><select class="cell" aria-label="Currency"><option>USD</option><option>KRW</option><option>EUR</option></select></td>
-<td><input class="cell" style="text-align: right;" placeholder="금액 입력" aria-label="금액"></td>
-<td><div class="auto">자동 계산</div></td>
-<td><input class="cell" style="border-color: #D3202F;" placeholder="전표번호 (필수)" aria-label="Remark 전표번호"></td>
-</tr>
 </tbody>
 </table>
 </div>
+<div class="cform" data-k="rec" role="group" aria-label="회수 입력"><div class="cf-h"><b>회수 입력</b><span class="cf-note">행을 누르면 여기로 불러와 수정</span><span class="cf-mode" aria-live="polite"></span></div><div class="cf-g rec"><label class="cf"><span><span class="req">*</span>회수방법</span><select data-f="type"><option value="">선택</option><option value="R4">R4 Selling / Buying</option><option value="R5">R5 기타</option></select></label><label class="cf"><span><span class="req">*</span>Currency</span><select data-f="cur"><option>USD</option><option>KRW</option><option>EUR</option></select></label><label class="cf"><span><span class="req">*</span>금액</span><input data-f="amt" inputmode="decimal" placeholder="0.00"></label><label class="cf wide"><span>Remark</span><input data-f="remark" placeholder="증빙번호 등"></label><div class="cf-b"><button class="btn cf-cancel" type="button" hidden>취소</button><button class="btn dark cf-add" type="button">추가</button></div></div><p class="cf-err" role="alert" hidden></p></div>
 </div>
 
 <div class="legend" style="grid-column: 1 / -1; margin-top: 0; padding-top: 10px; border-top: 1px solid #EEEEEE;">
+<span>표는 조회 전용 · 입력한 행을 누르면 입력폼에서 수정, − 로 삭제</span>
 <span><span class="sw" style="background: #EFEFEF;"></span>조회 금액 — 항상 표시, 수정·삭제 불가 (<span class="chip" style="margin: 0 4px;">SAP</span>P1·P2·R1·R2 · <span class="chip cy" style="margin: 0 4px;">KPI</span>P3 CY Cost KPI)</span>
-<span><b>+ 지불 행</b>: 지불주체가 당사면 P4, 당사 보험사·협력사·고객사면 P5 자동</span>
-<span><b>+ 회수 행</b>: R4 또는 R5 선택</span>
+<span><b>지불 입력</b>: 지불주체가 당사면 P4, 당사 보험사·협력사·고객사면 P5 자동</span>
+<span><b>회수 입력</b>: R4 또는 R5 선택</span>
 <span><span class="sw" style="background: #fff; border-color: #D3202F;"></span>P4·R4는 전표번호 필수</span>
 <span><span style="color: #1E6B34; font-weight: 700; margin-right: 6px;">0.00</span>USD 환산 — 자동 계산</span>
 </div>
@@ -459,12 +464,11 @@ Summary (USD)</div>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
 
-<button class="ibtn" type="button" aria-label="Add payment row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
 <button class="ibtn" type="button" aria-label="Delete selected payment rows"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
 </div>
 </div>
 <div style="overflow-x: auto;">
-<table class="grid">
+<table class="grid" data-k="pay">
 <colgroup><col style="width: 30px;"><col style="width: 124px;"><col><col style="width: 88px;"><col style="width: 78px;"><col style="width: 76px;"><col style="width: 104px;"></colgroup>
 <thead><tr>
 <th><input type="checkbox" aria-label="Select all payment rows"></th>
@@ -503,18 +507,10 @@ Summary (USD)</div>
 <td><div class="auto">—</div></td>
 <td><div class="rocell"></div></td>
 </tr>
-<tr>
-<td style="text-align: center;"><input type="checkbox" aria-label="Select row 4"></td>
-<td><select class="cell" aria-label="Paid by"><option>LXP insurer</option><option>LXP</option><option>Vendor</option><option>Customer</option></select></td>
-<td><select class="cell" aria-label="Payment type"><option>P5 Paid by insurer / 3rd party</option></select></td>
-<td><select class="cell" aria-label="Currency"><option>KRW</option><option>USD</option><option>EUR</option></select></td>
-<td><input class="cell" style="text-align: right;" placeholder="Amount" aria-label="Amount"></td>
-<td><div class="auto">Auto</div></td>
-<td><input class="cell" placeholder="Evidence no." aria-label="Remark"></td>
-</tr>
 </tbody>
 </table>
 </div>
+<div class="cform" data-k="pay" role="group" aria-label="Payment entry"><div class="cf-h"><b>Payment entry</b><span class="cf-note">Click a row to load it here for editing</span><span class="cf-mode" aria-live="polite"></span></div><div class="cf-g pay"><label class="cf"><span><span class="req">*</span>Paid by</span><select data-f="party"><option value="">Select</option><option value="LXP">LXP</option><option value="INS">LXP insurer</option><option value="VEN">Vendor</option><option value="CUS">Customer</option></select></label><div class="cf"><span>Payment type</span><div class="rocell" data-f="type">—</div></div><label class="cf"><span><span class="req">*</span>Currency</span><select data-f="cur"><option>USD</option><option>KRW</option><option>EUR</option></select></label><label class="cf"><span><span class="req">*</span>Amount</span><input data-f="amt" inputmode="decimal" placeholder="0.00"></label><label class="cf wide"><span>Remark</span><input data-f="remark" placeholder="Evidence no."></label><div class="cf-b"><button class="btn cf-cancel" type="button" hidden>Cancel</button><button class="btn dark cf-add" type="button">Add</button></div></div><p class="cf-err" role="alert" hidden></p></div>
 </div>
 
 <div style="min-width: 0;">
@@ -524,12 +520,11 @@ Summary (USD)</div>
 <span class="qtip" tabindex="0" aria-label="About recoveries"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8 1c0 1.7-2.4 2.1-2.4 3.7"></path><path d="M12 17.2v.3"></path></svg><span class="tipbox" role="tooltip">R1–R2 show SAP amounts only. Add other recoveries with + (R4 · R5).</span></span>
 </div>
 <div style="display: flex; align-items: center; gap: 6px; flex: none;">
-<button class="ibtn" type="button" aria-label="Add recovery row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
 <button class="ibtn" type="button" aria-label="Delete selected recovery rows"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
 </div>
 </div>
 <div style="overflow-x: auto;">
-<table class="grid">
+<table class="grid" data-k="rec">
 <colgroup><col style="width: 30px;"><col><col style="width: 88px;"><col style="width: 78px;"><col style="width: 76px;"><col style="width: 104px;"></colgroup>
 <thead><tr>
 <th><input type="checkbox" aria-label="Select all recovery rows"></th>
@@ -556,23 +551,17 @@ Summary (USD)</div>
 <td><div class="auto">—</div></td>
 <td><div class="rocell"></div></td>
 </tr>
-<tr>
-<td style="text-align: center;"><input type="checkbox" aria-label="Select row 3"></td>
-<td><select class="cell" aria-label="Recovery type"><option>R4 Selling / Buying</option><option>R5 Other</option></select></td>
-<td><select class="cell" aria-label="Currency"><option>USD</option><option>KRW</option><option>EUR</option></select></td>
-<td><input class="cell" style="text-align: right;" placeholder="Amount" aria-label="Amount"></td>
-<td><div class="auto">Auto</div></td>
-<td><input class="cell" style="border-color: #D3202F;" placeholder="Voucher no." aria-label="Remark voucher number"></td>
-</tr>
 </tbody>
 </table>
 </div>
+<div class="cform" data-k="rec" role="group" aria-label="Recovery entry"><div class="cf-h"><b>Recovery entry</b><span class="cf-note">Click a row to load it here for editing</span><span class="cf-mode" aria-live="polite"></span></div><div class="cf-g rec"><label class="cf"><span><span class="req">*</span>Recovery type</span><select data-f="type"><option value="">Select</option><option value="R4">R4 Selling / Buying</option><option value="R5">R5 Other</option></select></label><label class="cf"><span><span class="req">*</span>Currency</span><select data-f="cur"><option>USD</option><option>KRW</option><option>EUR</option></select></label><label class="cf"><span><span class="req">*</span>Amount</span><input data-f="amt" inputmode="decimal" placeholder="0.00"></label><label class="cf wide"><span>Remark</span><input data-f="remark" placeholder="Evidence no."></label><div class="cf-b"><button class="btn cf-cancel" type="button" hidden>Cancel</button><button class="btn dark cf-add" type="button">Add</button></div></div><p class="cf-err" role="alert" hidden></p></div>
 </div>
 
 <div class="legend" style="grid-column: 1 / -1; margin-top: 0; padding-top: 10px; border-top: 1px solid #EEEEEE;">
+<span>Tables are view-only · click an entered row to edit it in the form, − to delete</span>
 <span><span class="sw" style="background: #EFEFEF;"></span>Looked-up amounts — always shown, cannot edit or delete (<span class="chip" style="margin: 0 4px;">SAP</span>P1·P2·R1·R2 · <span class="chip cy" style="margin: 0 4px;">KPI</span>P3 CY Cost KPI)</span>
-<span><b>+ payment row</b>: Paid by LXP → P4; LXP insurer / vendor / customer → P5 (auto)</span>
-<span><b>+ recovery row</b>: choose R4 or R5</span>
+<span><b>Payment entry</b>: Paid by LXP → P4; LXP insurer / vendor / customer → P5 (auto)</span>
+<span><b>Recovery entry</b>: choose R4 or R5</span>
 <span><span class="sw" style="background: #fff; border-color: #D3202F;"></span>Voucher no. required for P4 · R4</span>
 <span><span style="color: #1E6B34; font-weight: 700; margin-right: 6px;">0.00</span>In USD — auto-calculated</span>
 </div>
@@ -593,6 +582,102 @@ Summary (USD)</div>
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
   if (document.fonts && document.fonts.addEventListener) document.fonts.addEventListener('loadingdone', fit);
   window.addEventListener('load', fit);
+  var FX = { USD: 1, KRW: 1 / 1400, EUR: 1.08 };
+  var TX = {
+    ko: { parties: { LXP: '당사', INS: '당사 보험사', VEN: '협력사', CUS: '고객사' },
+          types: { P4: 'P4 Selling / Buying', P5: 'P5 보험사·제3자 지불', R4: 'R4 Selling / Buying', R5: 'R5 기타' },
+          add: '추가', update: '수정', editing: function (n) { return n + '번 행 수정 중'; }, sel: '행 선택',
+          err: '빨간 칸을 채우세요.', voucher: 'P4 · R4는 Remark에 전표번호가 필요합니다.', ph: '증빙번호 등', vph: '전표번호 (필수)' },
+    en: { parties: { LXP: 'LXP', INS: 'LXP insurer', VEN: 'Vendor', CUS: 'Customer' },
+          types: { P4: 'P4 Selling / Buying', P5: 'P5 Paid by insurer / 3rd party', R4: 'R4 Selling / Buying', R5: 'R5 Other' },
+          add: 'Add', update: 'Update', editing: function (n) { return 'Editing row ' + n; }, sel: 'Select row',
+          err: 'Fill in the red fields.', voucher: 'P4 · R4 need a voucher no. in Remark.', ph: 'Evidence no.', vph: 'Voucher no. (required)' }
+  };
+  function fmt(n) { return Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+  function num(v) { var n = parseFloat(String(v).replace(/,/g, '')); return isFinite(n) && n > 0 ? n : null; }
+  function esc(v) { return String(v).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  document.querySelectorAll('.csw').forEach(function (cs) {
+    var L = TX[cs.closest('[lang="en"]') ? 'en' : 'ko'];
+    function recalc() {
+      var paid = 0, ins = 0, rec = 0;
+      cs.querySelectorAll('table[data-k] tbody tr').forEach(function (tr) {
+        var k = tr.closest('table').dataset.k, u = 0, party = 'LXP';
+        if (tr.classList.contains('ur')) { u = +tr.dataset.usd; party = tr.dataset.party || 'LXP'; }
+        else { var e = tr.querySelector('.usd'); u = e ? (num(e.textContent) || 0) : 0; }
+        if (k === 'rec') rec += u; else if (party === 'LXP') paid += u; else ins += u;
+      });
+      function put(sel, v) { var e = cs.querySelector(sel); if (e) { e.textContent = fmt(v); e.classList.toggle('zero', !v); } }
+      put('.sum .v.pay', paid); put('.sum .v.neu', ins); put('.sum .v.rec', rec); put('.sum.loss .v', paid - rec);
+      var t = cs.querySelector('.totin'); if (t && t.classList.contains('isauto')) t.value = fmt(paid + ins);
+    }
+    cs.querySelectorAll('.cform').forEach(function (f) {
+      var k = f.dataset.k, table = cs.querySelector('table[data-k="' + k + '"]'), tb = table.tBodies[0];
+      function q(n) { return f.querySelector('[data-f="' + n + '"]'); }
+      var party = q('party'), type = q('type'), cur = q('cur'), amt = q('amt'), remark = q('remark');
+      var add = f.querySelector('.cf-add'), cancel = f.querySelector('.cf-cancel'), err = f.querySelector('.cf-err'), mode = f.querySelector('.cf-mode');
+      var editing = null;
+      function typeVal() { return party ? (party.value ? (party.value === 'LXP' ? 'P4' : 'P5') : '') : type.value; }
+      function needV() { var t = typeVal(); return t === 'P4' || t === 'R4'; }
+      function sync() {
+        if (party) type.textContent = typeVal() ? L.types[typeVal()] : '—';
+        remark.placeholder = needV() ? L.vph : L.ph; remark.classList.toggle('need', needV());
+      }
+      function clear() { f.querySelectorAll('.bad').forEach(function (e) { e.classList.remove('bad'); }); err.hidden = true; }
+      function reset() {
+        if (editing) editing.classList.remove('sel');
+        editing = null;
+        if (party) party.value = ''; else type.value = '';
+        cur.value = 'USD'; amt.value = ''; remark.value = '';
+        add.textContent = L.add; cancel.hidden = true; mode.textContent = ''; clear(); sync();
+      }
+      function cells(r) {
+        var h = '<td style="text-align: center;"><input type="checkbox" aria-label="' + L.sel + '"></td>';
+        if (party) h += '<td><div class="uc">' + esc(L.parties[r.party]) + '</div></td>';
+        return h + '<td><div class="uc">' + esc(L.types[r.type]) + '</div></td><td><div class="uc">' + r.cur + '</div></td>' +
+          '<td><div class="uc num">' + fmt(r.amt) + '</div></td><td><div class="usd">' + fmt(r.usd) + '</div></td>' +
+          '<td><div class="uc" title="' + esc(r.remark) + '">' + esc(r.remark) + '</div></td>';
+      }
+      f.addEventListener('change', function (e) { e.target.classList.remove('bad'); sync(); });
+      f.addEventListener('input', function (e) { e.target.classList.remove('bad'); });
+      cancel.addEventListener('click', reset);
+      add.addEventListener('click', function () {
+        clear();
+        var t = typeVal(), a = num(amt.value), bad = [], vmiss = needV() && !remark.value.trim();
+        if (!t) bad.push(party || type);
+        if (!a) bad.push(amt);
+        if (vmiss) bad.push(remark);
+        if (bad.length) {
+          bad.forEach(function (e) { e.classList.add('bad'); });
+          err.textContent = L.err + (vmiss ? ' ' + L.voucher : ''); err.hidden = false; bad[0].focus(); return;
+        }
+        var r = { party: party ? party.value : '', type: t, cur: cur.value, amt: a, usd: a * FX[cur.value], remark: remark.value.trim() };
+        var tr = editing || document.createElement('tr');
+        tr.className = 'ur'; tr.innerHTML = cells(r);
+        ['party', 'type', 'cur', 'amt', 'usd', 'remark'].forEach(function (x) { tr.dataset[x] = r[x]; });
+        if (!editing) tb.appendChild(tr);
+        reset(); recalc();
+      });
+      tb.addEventListener('click', function (e) {
+        var tr = e.target.closest('tr.ur'); if (!tr || e.target.closest('input')) return;
+        reset(); editing = tr; tr.classList.add('sel');
+        if (party) party.value = tr.dataset.party; else type.value = tr.dataset.type;
+        cur.value = tr.dataset.cur; amt.value = fmt(+tr.dataset.amt); remark.value = tr.dataset.remark;
+        add.textContent = L.update; cancel.hidden = false; mode.textContent = L.editing([].indexOf.call(tb.rows, tr) + 1); sync();
+      });
+      var del = f.parentElement.querySelector('.ibtn');
+      if (del) del.addEventListener('click', function () {
+        tb.querySelectorAll('tr.ur').forEach(function (tr) {
+          if (tr.querySelector('input[type="checkbox"]').checked) { if (tr === editing) reset(); tr.remove(); }
+        });
+        recalc();
+      });
+      var all = table.tHead && table.tHead.querySelector('input[type="checkbox"]');
+      if (all) all.addEventListener('change', function () {
+        tb.querySelectorAll('tr.ur input[type="checkbox"]').forEach(function (c) { c.checked = all.checked; });
+      });
+      sync();
+    });
+  });
   document.querySelectorAll('.pos').forEach(function (g) {
     g.addEventListener('click', function (e) {
       var b = e.target.closest('button'); if (!b) return;
