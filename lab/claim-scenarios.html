@@ -7,40 +7,57 @@
 <title>정산 시나리오 입력 · 작업 중 · Logistics Library</title>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004-01">
 <style>
-/* 관리자 전용: 운영자가 실제 정산 사례를 적어 두면 Claude가 읽어 시안의 예시로 옮긴다(claim_scenario 표). 휴대폰에서도 쓰기 쉽게 한 줄로 쌓는다. */
-:root{--bg:#eef1f4;--paper:#fff;--ink:#18222d;--muted:#56626e;--line:#c3cbd3;--blue:#1f5fbf;--ok:#1a6648;--bad:#9a2f22;--f:'Malgun Gothic','Apple SD Gothic Neo',system-ui,sans-serif}
+/* 관리자 전용 (claim_scenario 표). 현재 코드표(P1~P5, R1·R2·R4·R5) 기준으로 실제 사례의 SAP · CY Cost KPI 값을 적어 두면
+   Claude가 화면 시안 예시로 옮긴다. pay / recover 칸에는 줄 목록을 JSON으로 저장하고, 1차 형식의 글은 memo로 옮겨 보존한다. */
+:root{--bg:#eef1f4;--paper:#fff;--ink:#18222d;--muted:#56626e;--line:#c3cbd3;--blue:#1f5fbf;--red:#D3202F;--ok:#1a6648;--bad:#9a2f22;--f:'Malgun Gothic','Apple SD Gothic Neo',system-ui,sans-serif}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 var(--f)}
 .lab-bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#fff8e1;border-bottom:1px solid #e9d9a6;font-size:13px;color:#5c4a12}
 .lab-bar a{color:var(--blue);font-weight:700;text-decoration:none}.lab-bar a[aria-current]{color:#5c4a12}
-.wrap{max-width:860px;margin:0 auto;padding:20px 16px 48px;display:grid;gap:16px}
+.wrap{max-width:980px;margin:0 auto;padding:20px 16px 48px;display:grid;gap:16px}
 h1{margin:0;font-size:21px}
 .lead{margin:4px 0 0;color:var(--muted)}
 .keyform{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:14px;border:1px solid var(--line);border-radius:8px;background:var(--paper)}
 .keyform input{flex:1 1 220px;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:6px;font:inherit}
-button{font:inherit;min-height:44px;padding:0 16px;border-radius:6px;border:1px solid var(--blue);background:var(--blue);color:#fff;font-weight:700;cursor:pointer}
+button{font:inherit;min-height:40px;padding:0 14px;border-radius:6px;border:1px solid var(--blue);background:var(--blue);color:#fff;font-weight:700;cursor:pointer}
 button.quiet{background:var(--paper);color:var(--blue)}
-.sc{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:grid;gap:10px}
+button.x{min-height:32px;width:32px;padding:0;border-color:var(--line);background:#fff;color:var(--bad);font-size:18px;line-height:1}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.sc{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:12px}
 .sc h2{margin:0;font-size:16px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
 .sc h2 small{font-size:12px;font-weight:400;color:var(--muted)}
 label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
-input.t,textarea{font:inherit;font-size:15px;color:var(--ink);width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:#fff}
-textarea{min-height:76px;resize:vertical}
-input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+input.t,textarea,select,.ln input{font:inherit;font-size:14.5px;color:var(--ink);width:100%;padding:7px 9px;border:1px solid var(--line);border-radius:6px;background:#fff}
+textarea{min-height:64px;resize:vertical}
+input:focus,textarea:focus,select:focus,button:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(620px,100%),1fr));gap:12px}
+.box{border:1px solid #DADFE4;border-radius:8px;padding:10px 12px;background:#FAFBFC}
+.box h3{margin:0 0 6px;font-size:14px;display:flex;justify-content:space-between;align-items:center}
+.ln{display:grid;grid-template-columns:minmax(0,1.3fr) 82px minmax(0,1fr) minmax(0,1.2fr) 32px;gap:6px;align-items:center;margin-top:6px}
+.ln .code{font-size:13px;font-weight:700;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ln .code i{font-style:normal;font-size:10.5px;color:#1F4E9A;border:1px solid #1F4E9A;border-radius:3px;padding:0 4px;margin-right:5px}
+.ln .code i.kpi{color:#8A5A00;border-color:#C08A1E;background:#FFF6E0}
+.ln input.amt{text-align:right}
+.ln input.need{border-color:var(--red)}
+.hd{display:grid;grid-template-columns:minmax(0,1.3fr) 82px minmax(0,1fr) minmax(0,1.2fr) 32px;gap:6px;font-size:12px;color:var(--muted)}
+.sum{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--muted);padding:8px 10px;background:#F4F6F8;border-radius:6px}
+.sum b{color:var(--ink);font-variant-numeric:tabular-nums}
+.legacy{font-size:13px;background:#FFF8E6;border:1px dashed #E0C27A;border-radius:6px;padding:8px 10px;white-space:pre-wrap}
 .saved{font-size:12.5px;color:var(--ok);min-height:1em}.saved.err{color:var(--bad)}
 .status{color:var(--muted);font-size:13.5px}
 .ex{font-size:13px;color:var(--muted);background:var(--paper);border:1px dashed var(--line);border-radius:8px;padding:12px 14px;margin:0}
 [hidden]{display:none!important}
+@media (max-width:560px){.ln,.hd{grid-template-columns:minmax(0,1fr) 76px minmax(0,1fr) 32px}.ln .ref,.hd .ref{grid-column:1 / -1;order:9}}
 </style>
 </head>
 <body>
-<div class="lab-bar"><a href="/lab">← 작업 중 목록</a><a href="/lab/claim-model">데이터 설계</a><a href="/lab/claim-screens">입력 화면 시안</a><a href="/lab/claim-scenarios" aria-current="page">시나리오 입력</a></div>
+<div class="lab-bar"><a href="/lab">← 작업 중 목록</a><a href="/share/qms-claim">설계·사양</a><a href="/share/qms-claim-closure-sidebar">화면 시안</a><a href="/lab/claim-scenarios" aria-current="page">시나리오 입력</a></div>
 <main class="wrap">
   <header>
     <h1>정산 시나리오 입력</h1>
-    <p class="lead">실제 처리했던 사례를 칸마다 적어 주세요. 적는 대로 저장됩니다. 다 적으시면 Claude에게 "시나리오 반영해"라고 하시면 익명화해서 입력 화면 시안의 예시로 넣습니다. 고객사·협력사 이름은 그대로 적으셔도 공개 페이지에는 빼고 옮깁니다.</p>
+    <p class="lead">실제 처리했던 사례의 SAP · CY Cost KPI 값과 직접 입력한 지불 · 회수를 현재 코드표대로 적어 주세요. 적는 대로 저장됩니다. 다 적으시면 위의 <b>Claude에게 보낼 내용 복사</b>를 눌러 대화창에 붙여 넣고 "시나리오 반영해"라고 하시면, 이름은 빼고 화면 시안의 예시로 옮깁니다.</p>
   </header>
-  <p class="ex">예시 · 제목: 항공 화물 분실 / 경위: 인천→프랑크푸르트 2개 포장 중 1개 분실 / 클레임: 고객 손해배상 3,000만원, 고객이 적하보험에서 3,000만원 수령 후 보험사가 당사에 구상 / 당사 지불: 책임제한 주장, 손해배상금 500만원 현금 지급 / 당사 회수: 없음</p>
+  <p class="ex">지불 P1 손해배상금 지급(SAP 51029010) · P2 과태료 지급(SAP 51017180) · P3 체화료(CY Cost KPI) · P4 당사 Selling / Buying(전표번호 필수) · P5 보험사 · 제3자 지불 / 회수 R1 손해배상금 환입(SAP) · R2 과태료 환입(SAP) · R4 Selling / Buying(전표번호 필수) · R5 기타. 금액이 없는 줄은 비워 두세요.</p>
 
   <form class="keyform" id="keyform" hidden>
     <label for="key" style="color:var(--ink)">관리자 키</label>
@@ -48,6 +65,7 @@ input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--blue);ou
     <button type="submit">열기</button>
     <span class="status" id="keymsg"></span>
   </form>
+  <div class="tools" id="tools" hidden><button type="button" id="copy">Claude에게 보낼 내용 복사</button><span class="status" id="copymsg"></span></div>
   <div id="list" hidden></div>
   <p class="status" id="status">관리자 키를 넣으면 입력 칸이 열립니다.</p>
 </main>
@@ -55,14 +73,16 @@ input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--blue);ou
 (() => {
   const RPC = 'https://yihsukyedtlsdbexthlu.supabase.co/rest/v1/rpc/';
   const API_KEY = 'sb_publishable_vgcDAWoOJRD8Xvp2p4Ew9A_exTmzuXM';
-  const F = [['title', '제목', 'input', '예: 항공 화물 분실'], ['situation', '사고 경위', 'textarea', '언제, 어디서, 무슨 일이 있었는지'],
-    ['claim', '클레임 (유형 · 청구인 · 총 클레임 금액)', 'textarea', '유형: 화물가액보상(직접보상) / 화물가액보상(보험사 구상) / 체화료(운영손실) / 과태료(누구 앞으로 나왔나) / 기타'],
-    ['pay', '지불 (누가 · 수단 · 금액)', 'textarea', '누가: 당사 / 당사 보험사 / 고객 / 협력사 · 수단: 손해배상금 / 인보이스 차감 / 운영원가(Selling·Buying)'],
-    ['recover', '당사 회수 (회수처 · 수단 · 금액)', 'textarea', '수단: 손해배상금 환입 / 매입 할인(Buying) / 보험금 수령 · 없으면 없음'],
-    ['memo', '기타 (화면에 꼭 있었으면 하는 것 등)', 'textarea', '']];
+  const FX = { USD: 1, KRW: 1 / 1400, EUR: 1.08 };
+  const FIXED = { pay: [['P1', 'SAP', '손해배상금 지급 (51029010)'], ['P2', 'SAP', '과태료 지급 (51017180)'], ['P3', 'KPI', '체화료 (DEM/DET/STG)']],
+                  rec: [['R1', 'SAP', '손해배상금 환입 (51029010)'], ['R2', 'SAP', '과태료 환입 (51017180)']] };
+  const PARTY = { LXP: '당사 → P4', INS: '당사 보험사 → P5', VEN: '협력사 → P5', CUS: '고객사 → P5' };
+  const RTYPE = { R4: 'R4 Selling / Buying', R5: 'R5 기타' };
   const store = { get: k => { try { return localStorage.getItem(k); } catch (_) { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch (_) {} }, del: k => { try { localStorage.removeItem(k); } catch (_) {} } };
   const $ = id => document.getElementById(id);
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const num = v => { const n = parseFloat(String(v || '').replace(/,/g, '')); return isFinite(n) ? n : 0; };
+  const fmt = n => n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   let key = store.get('ll-admin-key'), rows = [];
   const byId = new Map(), pending = new Map(), timers = {};
   async function rpc(name, body) {
@@ -71,36 +91,113 @@ input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--blue);ou
     if (!res.ok) throw new Error((data && data.message) || ('HTTP ' + res.status));
     return data;
   }
-  function render() {
-    $('list').innerHTML = rows.map((r, n) => `<section class="sc" data-id="${esc(r.id)}"><h2>시나리오 ${n + 1}<small>${r.updated_at ? '마지막 저장 ' + new Date(r.updated_at).toLocaleString('ko-KR') : '비어 있음'}</small></h2>
-      ${F.map(([f, l, tag, ph]) => `<label>${l}${tag === 'input' ? `<input class="t" data-f="${f}" value="${esc(r[f])}" placeholder="${esc(ph)}">` : `<textarea data-f="${f}" placeholder="${esc(ph)}">${esc(r[f])}</textarea>`}</label>`).join('')}
-      <div class="saved"></div></section>`).join('');
+  // pay / recover: JSON line lists. Older free text (1st draft format) is kept and moved into memo on the first save.
+  function parseLines(txt, k) {
+    let v = null; try { v = JSON.parse(txt || ''); } catch (_) {}
+    const fixed = FIXED[k].map(([c]) => ({ c, cur: 'USD', amt: '', ref: '' }));
+    if (!Array.isArray(v)) return { lines: fixed, legacy: (txt || '').trim() };
+    const lines = fixed.map(f => Object.assign(f, v.find(x => x.c === f.c) || {}));
+    v.filter(x => !FIXED[k].some(([c]) => c === x.c)).forEach(x => lines.push(x));
+    return { lines, legacy: '' };
+  }
+  function prep(r) {
+    const p = parseLines(r.pay, 'pay'), q = parseLines(r.recover, 'rec');
+    r._pay = p.lines; r._rec = q.lines;
+    r._legacy = [p.legacy && '[이전 입력 · 지불] ' + p.legacy, q.legacy && '[이전 입력 · 회수] ' + q.legacy].filter(Boolean).join('\n');
+  }
+  function lineHTML(k, x, i) {
+    const fixed = FIXED[k].find(([c]) => c === x.c);
+    const lead = fixed ? `<span class="code" title="${esc(fixed[2])}"><i class="${fixed[1] === 'KPI' ? 'kpi' : ''}">${fixed[1]}</i>${x.c} ${esc(fixed[2])}</span>`
+      : k === 'pay' ? `<select data-l="party" aria-label="지불주체">${Object.entries(PARTY).map(([v, t]) => `<option value="${v}"${x.party === v ? ' selected' : ''}>${t}</option>`).join('')}</select>`
+      : `<select data-l="c" aria-label="회수방법">${Object.entries(RTYPE).map(([v, t]) => `<option value="${v}"${x.c === v ? ' selected' : ''}>${t}</option>`).join('')}</select>`;
+    const need = !fixed && (x.c === 'P4' || x.c === 'R4') && num(x.amt) && !String(x.ref || '').trim();
+    return `<div class="ln" data-k="${k}" data-i="${i}">${lead}
+      <select data-l="cur" aria-label="Currency">${['USD', 'KRW', 'EUR'].map(c => `<option${x.cur === c ? ' selected' : ''}>${c}</option>`).join('')}</select>
+      <input class="amt" data-l="amt" inputmode="decimal" placeholder="금액" value="${esc(x.amt)}" aria-label="금액">
+      <input class="ref${need ? ' need' : ''}" data-l="ref" placeholder="${x.c === 'P4' || x.c === 'R4' ? '전표번호 (필수)' : fixed ? '전표 · 참조번호' : '증빙번호 등'}" value="${esc(x.ref)}" aria-label="전표 · 참조번호">
+      ${fixed ? '<span></span>' : '<button type="button" class="x" data-del aria-label="줄 삭제" title="줄 삭제">×</button>'}</div>`;
+  }
+  function sums(r) {
+    let paid = 0, ins = 0, rec = 0;
+    r._pay.forEach(x => { const u = num(x.amt) * (FX[x.cur] || 1); if (x.c === 'P5') ins += u; else paid += u; });
+    r._rec.forEach(x => { rec += num(x.amt) * (FX[x.cur] || 1); });
+    const net = paid - rec;
+    return `<span>전체 클레임 비용 <b>${fmt(paid + ins)}</b></span><span>당사지불 <b>${fmt(paid)}</b></span><span>보험사·제3자 부담 <b>${fmt(ins)}</b></span><span>당사회수 <b>${fmt(rec)}</b></span><span>${net < 0 ? '당사 순이익' : '당사 순손실'} <b>${fmt(Math.abs(net))}</b></span><span>(USD, 예시 환율)</span>`;
+  }
+  function card(r, n) {
+    const hd = '<div class="hd"><span>코드</span><span>Currency</span><span>금액</span><span class="ref">전표 · 참조번호</span><span></span></div>';
+    return `<section class="sc" data-id="${esc(r.id)}"><h2>시나리오 ${n + 1}<small>${r.updated_at ? '마지막 저장 ' + new Date(r.updated_at).toLocaleString('ko-KR') : '비어 있음'}</small></h2>
+      <label>제목<input class="t" data-f="title" value="${esc(r.title)}" placeholder="예: 해상 컨테이너 침수 — 고객 손해배상 + 선사 구상"></label>
+      <label>사고 경위<textarea data-f="situation" placeholder="언제, 어디서, 무슨 일이 있었는지 (부적합 No.는 끝 4자리만)">${esc(r.situation)}</textarea></label>
+      ${r._legacy ? `<div class="legacy" role="note"><b>1차 형식으로 적었던 내용</b> — 처음 저장할 때 아래 '기타'로 옮겨 보존합니다.\n${esc(r._legacy)}</div>` : ''}
+      <div class="two">
+        <div class="box"><h3>지불내역<button type="button" class="quiet" data-add="pay">+ 줄 추가 (P4 · P5)</button></h3>${hd}${r._pay.map((x, i) => lineHTML('pay', x, i)).join('')}</div>
+        <div class="box"><h3>회수내역<button type="button" class="quiet" data-add="rec">+ 줄 추가 (R4 · R5)</button></h3>${hd}${r._rec.map((x, i) => lineHTML('rec', x, i)).join('')}</div>
+      </div>
+      <div class="sum" data-sum>${sums(r)}</div>
+      <label>클레임 · 참고 (총 청구 금액, 청구인 구분, 책임 판단 등)<textarea data-f="claim">${esc(r.claim)}</textarea></label>
+      <label>기타 (화면에 꼭 있었으면 하는 것 등)<textarea data-f="memo">${esc(r.memo)}</textarea></label>
+      <div class="saved"></div></section>`;
+  }
+  function render() { $('list').innerHTML = rows.map(card).join(''); }
+  function rerender(sc) { const r = byId.get(sc.dataset.id); const n = rows.indexOf(r); sc.outerHTML = card(r, n); }
+  function pack(r) {
+    const keep = (k) => r['_' + k].filter((x, i) => FIXED[k === 'pay' ? 'pay' : 'rec'].some(([c]) => c === x.c) ? (num(x.amt) || String(x.ref || '').trim()) : true)
+      .map(x => { const o = { c: x.c, cur: x.cur, amt: x.amt, ref: x.ref }; if (x.party) o.party = x.party; return o; });
+    return { pay: JSON.stringify(keep('pay')), recover: JSON.stringify(keep('rec')) };
   }
   function save(id, el) {
     const r = byId.get(id), prev = pending.get(id) || Promise.resolve();
-    const next = prev.then(() => rpc('save_claim_scenario', { p_secret: key, p_id: id, p_title: r.title, p_situation: r.situation, p_claim: r.claim, p_pay: r.pay, p_recover: r.recover, p_memo: r.memo }))
-      .then(() => { el.classList.remove('err'); el.textContent = '저장됨'; setTimeout(() => { if (el.textContent === '저장됨') el.textContent = ''; }, 1500); })
+    if (r._legacy) { r.memo = (r._legacy + (r.memo ? '\n' + r.memo : '')).slice(0, 4000); r._legacy = ''; }
+    const p = pack(r);
+    const next = prev.then(() => rpc('save_claim_scenario', { p_secret: key, p_id: id, p_title: r.title, p_situation: r.situation, p_claim: r.claim, p_pay: p.pay, p_recover: p.recover, p_memo: r.memo }))
+      .then(t => { r.pay = p.pay; r.recover = p.recover; if (t) r.updated_at = t; el.classList.remove('err'); el.textContent = '저장됨'; setTimeout(() => { if (el.textContent === '저장됨') el.textContent = ''; }, 1500); })
       .catch(e => { el.classList.add('err'); el.textContent = '저장하지 못했습니다: ' + e.message; });
     pending.set(id, next);
   }
-  $('list').addEventListener('input', e => {
-    const f = e.target.dataset.f; if (!f) return;
-    const sc = e.target.closest('.sc'), r = byId.get(sc.dataset.id);
-    r[f] = e.target.value;
-    clearTimeout(timers[r.id]); timers[r.id] = setTimeout(() => save(r.id, sc.querySelector('.saved')), 700);
+  function later(sc) { const r = byId.get(sc.dataset.id); clearTimeout(timers[r.id]); timers[r.id] = setTimeout(() => save(r.id, sc.querySelector('.saved')), 700); }
+  function onEdit(e) {
+    const sc = e.target.closest('.sc'); if (!sc) return;
+    const r = byId.get(sc.dataset.id), f = e.target.dataset.f, l = e.target.dataset.l;
+    if (f) { r[f] = e.target.value; later(sc); return; }
+    if (!l) return;
+    const ln = e.target.closest('.ln'), x = r['_' + ln.dataset.k][+ln.dataset.i];
+    if (l === 'party') { x.party = e.target.value; x.c = x.party === 'LXP' ? 'P4' : 'P5'; } else x[l] = e.target.value;
+    if (e.type === 'change' && (l === 'party' || l === 'c')) { rerender(sc); later(document.querySelector(`.sc[data-id="${r.id}"]`)); return; }
+    const need = (x.c === 'P4' || x.c === 'R4') && num(x.amt) && !String(x.ref || '').trim();
+    const refEl = ln.querySelector('[data-l="ref"]'); if (refEl) refEl.classList.toggle('need', !!need);
+    sc.querySelector('[data-sum]').innerHTML = sums(r); later(sc);
+  }
+  $('list').addEventListener('input', onEdit);
+  $('list').addEventListener('change', onEdit);
+  $('list').addEventListener('click', e => {
+    const sc = e.target.closest('.sc'); if (!sc) return; const r = byId.get(sc.dataset.id);
+    const add = e.target.closest('[data-add]'), del = e.target.closest('[data-del]');
+    if (add) { const k = add.dataset.add; r['_' + k].push(k === 'pay' ? { c: 'P4', party: 'LXP', cur: 'USD', amt: '', ref: '' } : { c: 'R4', cur: 'USD', amt: '', ref: '' }); }
+    else if (del) { const ln = del.closest('.ln'); r['_' + ln.dataset.k].splice(+ln.dataset.i, 1); }
+    else return;
+    rerender(sc); later(document.querySelector(`.sc[data-id="${r.id}"]`));
+  });
+  $('copy').addEventListener('click', async () => {
+    const out = rows.filter(r => r.title || r.situation || r._pay.some(x => num(x.amt)) || r._rec.some(x => num(x.amt))).map((r, n) => {
+      const ln = (k) => r['_' + k].filter(x => num(x.amt) || String(x.ref || '').trim()).map(x => `${x.c}${x.party ? '(' + x.party + ')' : ''} ${x.cur} ${x.amt}${x.ref ? ' / ' + x.ref : ''}`).join('; ') || '없음';
+      return `[시나리오 ${n + 1}] ${r.title}\n경위: ${r.situation}\n지불: ${ln('pay')}\n회수: ${ln('rec')}\n클레임·참고: ${r.claim}\n기타: ${r.memo}`;
+    }).join('\n\n');
+    try { await navigator.clipboard.writeText(out); $('copymsg').textContent = '복사했습니다. 대화창에 붙여 넣으세요.'; }
+    catch (_) { $('copymsg').textContent = '복사하지 못했습니다. 브라우저 권한을 확인해 주세요.'; }
   });
   async function load() {
     $('status').textContent = '불러오는 중입니다.';
     try {
       rows = await rpc('get_claim_scenario', { p_secret: key });
-      byId.clear(); rows.forEach(r => byId.set(r.id, r));
+      byId.clear(); rows.forEach(r => { prep(r); byId.set(r.id, r); });
       store.set('ll-admin-key', key);
-      $('keyform').hidden = true; $('list').hidden = false; render();
+      $('keyform').hidden = true; $('list').hidden = false; $('tools').hidden = false; render();
       $('status').innerHTML = '적는 대로 저장됩니다. <button type="button" class="quiet" id="logout">키 지우기</button>';
       $('logout').onclick = () => { store.del('ll-admin-key'); location.reload(); };
     } catch (e) {
       store.del('ll-admin-key'); key = null;
-      $('keyform').hidden = false; $('list').hidden = true;
+      $('keyform').hidden = false; $('list').hidden = true; $('tools').hidden = true;
       $('keymsg').textContent = /not allowed/.test(e.message) ? '키가 맞지 않습니다.' : '불러오지 못했습니다: ' + e.message;
       $('status').textContent = '관리자 키를 넣으면 입력 칸이 열립니다.';
     }
