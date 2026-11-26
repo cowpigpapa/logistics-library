@@ -131,6 +131,11 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 .cf-g.rec{grid-template-columns:minmax(0,1.5fr) 76px 112px minmax(0,1fr)}
 .cf-foot{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:8px}.cf-foot .cf-b{margin-left:auto}
 .csw table[data-k="pay"] col:nth-child(4),.csw table[data-k="rec"] col:nth-child(3){width:112px !important}
+.sum.ncs{cursor:pointer;font-size:13px;font-weight:700;color:#333;background:#FAFAFA;gap:8px;margin:0}
+.sum.ncs input{width:16px;height:16px;margin:0;accent-color:#333;cursor:inherit}
+.sum.ncs.off{color:#ABABAB;cursor:not-allowed}
+.csw.nc-on .sum.ncs{background:#333;color:#fff}
+.csw.nc-on .grid,.csw.nc-on .cform{opacity:.45}
 .cform.editing{background:#FDF1F2;border-color:#EBB5BB}
 .grid tr.ur.flash td{animation:urflash 1.4s ease-out}@keyframes urflash{from{background:#FFF0B3}to{background:#fff}}
 .cf{display:flex;flex-direction:column;gap:3px;min-width:0;font-size:12px;font-weight:700;color:#555}
@@ -155,7 +160,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 </head>
 <body>
 <div class="lab-bar"><b>QMS 사고 비용 정산 설계안</b><span>배치 검토용 목업 · 이력 필터만 동작</span><a href="/share/qms-claim">데이터 설계</a><a href="/share/qms-claim-screens">입력 화면 시안</a><a href="/share/qms-claim-closure">Closure 화면 개선안</a><a href="/share/qms-claim-closure-layout">좌우 배치안</a><a href="/share/qms-claim-closure-sidebar" aria-current="page">이력 사이드바안</a><a href="/share/qms-claim-closure-options">배치 제안</a><a href="#en" lang="en">English</a></div>
-<div class="part"><h2 class="big">이력 사이드바안 — 배치 제안 C</h2><p><b>사이드바 레이아웃</b>: 왼쪽 본문은 PR → CAPA → 이행 증빙, 오른쪽 사이드바는 PR · CAPA 이력을 시간순으로 모은 통합 이력 (PR / CAPA 필터). 구역마다 둥근 상자로 나누고, 본문 : 이력 폭은 7 : 3 (6 : 4로 바꿔 볼 수 있음). 이력 상자는 본문 높이에 맞춰 늘어나고 넘치면 안에서 스크롤. 입력 칸과 이력이 나란히 있지 않으니 높이를 맞출 필요가 없고, 이행 증빙이 늘어도 구조가 깨지지 않습니다. <b>Claim Settlement는 전체 폭</b>으로 빼서 지불·회수 표를 한 줄에 놓고, 맨 아래(기본)와 맨 위 중 골라 볼 수 있습니다. <b>지불·회수 표는 조회 전용</b>(USD 환산은 표에서 자동 계산)이고, 표 바로 아래 한 줄 입력칸에 입력하고, 그 아래 오른쪽 버튼(추가·취소, Enter = 추가)으로 넣습니다. 입력한 행을 더블클릭하면 입력칸에 불러오고, 입력칸이 분홍으로 바뀌며 버튼이 수정·삭제·취소로 바뀝니다 (취소 또는 Esc → 신규). 버튼이 바뀌어도 입력칸 위치는 그대로입니다. 아래 비고는 없애고 규칙은 ? 툴팁과 입력칸 안내로 옮겼습니다. 지불방법은 지불주체로 정해지므로(당사 P4, 그 밖 P5) 따로 고르지 않고 목록에 함께 보여 줍니다. 요약 금액은 예시 환율로 다시 계산됩니다.</p>
+<div class="part"><h2 class="big">이력 사이드바안 — 배치 제안 C</h2><p><b>사이드바 레이아웃</b>: 왼쪽 본문은 PR → CAPA → 이행 증빙, 오른쪽 사이드바는 PR · CAPA 이력을 시간순으로 모은 통합 이력 (PR / CAPA 필터). 구역마다 둥근 상자로 나누고, 본문 : 이력 폭은 7 : 3 (6 : 4로 바꿔 볼 수 있음). 이력 상자는 본문 높이에 맞춰 늘어나고 넘치면 안에서 스크롤. 입력 칸과 이력이 나란히 있지 않으니 높이를 맞출 필요가 없고, 이행 증빙이 늘어도 구조가 깨지지 않습니다. <b>Claim Settlement는 전체 폭</b>으로 빼서 지불·회수 표를 한 줄에 놓고, 맨 아래(기본)와 맨 위 중 골라 볼 수 있습니다. <b>지불·회수 표는 조회 전용</b>(USD 환산은 표에서 자동 계산)이고, 표 바로 아래 한 줄 입력칸에 입력하고, 그 아래 오른쪽 버튼(추가·취소, Enter = 추가)으로 넣습니다. 입력한 행을 더블클릭하면 입력칸에 불러오고, 입력칸이 분홍으로 바뀌며 버튼이 수정·삭제·취소로 바뀝니다 (취소 또는 Esc → 신규). 버튼이 바뀌어도 입력칸 위치는 그대로입니다. <b>No Claim은 요약 줄 맨 끝 칸</b>으로 합쳤습니다 (금액이 있으면 고를 수 없고, 고르면 입력이 잠김). 아래 비고는 없애고 규칙은 ? 툴팁과 입력칸 안내로 옮겼습니다. 지불방법은 지불주체로 정해지므로(당사 P4, 그 밖 P5) 따로 고르지 않고 목록에 함께 보여 줍니다. 요약 금액은 예시 환율로 다시 계산됩니다.</p>
 <div class="pos" role="group" aria-label="본문과 이력 비율" data-cls="r64"><span>본문 : 이력</span><span class="segb"><button type="button" data-on="0" aria-pressed="true">7 : 3</button><button type="button" data-on="1" aria-pressed="false">6 : 4</button></span></div><div class="pos" role="group" aria-label="Claim Settlement 위치" data-cls="cs-top"><span>Claim Settlement 위치</span><span class="segb"><button type="button" data-pos="bottom" data-on="0" aria-pressed="true">맨 아래</button><button type="button" data-pos="top" data-on="1" aria-pressed="false">맨 위</button></span></div>
 <div class="dl"><a href="/share/files/qms-claim-closure-sidebar.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 아래)</a><a href="/share/files/qms-claim-closure-sidebar-top.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (맨 위)</a><a href="/share/files/qms-claim-closure-sidebar-64.jpg" download><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>JPG (6 : 4)</a></div></div>
 <div style="box-sizing: border-box; width: 100%; max-width: 1600px; margin: 0 auto; padding: 28px 32px 56px; font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: #222; background: #F7F7F7;">
@@ -244,10 +249,7 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 <div class="sum"><span class="k">보험사·제3자 부담</span><span class="v neu zero">0.00</span></div>
 <div class="sum"><span class="k">당사회수</span><span class="v rec zero">0.00</span></div>
 <div class="sum loss"><span class="k">당사 순손실</span><span class="v">5,855.98</span></div>
-</div>
-<div style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
-
-<label class="nc"><input type="checkbox"> No Claim (비용 없음)</label>
+<label class="sum ncs"><input type="checkbox"><span>No Claim (비용 없음)</span></label>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 14px 0 0; box-sizing: border-box;">
@@ -435,10 +437,7 @@ Summary (USD)</div>
 <div class="sum"><span class="k">Insurer / 3rd party</span><span class="v neu zero">0.00</span></div>
 <div class="sum"><span class="k">LXP recovered</span><span class="v rec zero">0.00</span></div>
 <div class="sum loss"><span class="k">LXP net loss</span><span class="v">5,855.98</span></div>
-</div>
-<div style="margin-left: auto; display: flex; align-items: center; gap: 8px;">
-
-<label class="nc"><input type="checkbox"> No Claim</label>
+<label class="sum ncs"><input type="checkbox"><span>No Claim</span></label>
 </div>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr)); gap: 20px; background: #fff; padding: 14px 0 0; box-sizing: border-box;">
@@ -556,10 +555,10 @@ Summary (USD)</div>
   var TX = {
     ko: { parties: { LXP: '당사', INS: '당사 보험사', VEN: '협력사', CUS: '고객사' },
           types: { P4: 'P4 Selling / Buying', P5: 'P5 보험사·제3자 지불', R4: 'R4 Selling / Buying', R5: 'R5 기타' },
-          hint: '더블클릭하면 수정·삭제', err: '빨간 칸을 채우세요.', voucher: 'P4 · R4는 Remark에 전표번호가 필요합니다.', ph: '증빙번호 등', vph: '전표번호 (필수)' },
+          ncOff: '지불·회수 금액이 있어서 No Claim을 고를 수 없습니다', hint: '더블클릭하면 수정·삭제', err: '빨간 칸을 채우세요.', voucher: 'P4 · R4는 Remark에 전표번호가 필요합니다.', ph: '증빙번호 등', vph: '전표번호 (필수)' },
     en: { parties: { LXP: 'LXP', INS: 'LXP insurer', VEN: 'Vendor', CUS: 'Customer' },
           types: { P4: 'P4 Selling / Buying', P5: 'P5 Paid by insurer / 3rd party', R4: 'R4 Selling / Buying', R5: 'R5 Other' },
-          hint: 'Double-click to edit or delete', err: 'Fill in the red fields.', voucher: 'P4 · R4 need a voucher no. in Remark.', ph: 'Evidence no.', vph: 'Voucher no. (required)' }
+          ncOff: 'No Claim is not available while payment or recovery amounts exist', hint: 'Double-click to edit or delete', err: 'Fill in the red fields.', voucher: 'P4 · R4 need a voucher no. in Remark.', ph: 'Evidence no.', vph: 'Voucher no. (required)' }
   };
   function fmt(n) { return Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
   function num(v) { var n = parseFloat(String(v).replace(/,/g, '')); return isFinite(n) && n > 0 ? n : null; }
@@ -577,7 +576,16 @@ Summary (USD)</div>
       function put(sel, v) { var e = cs.querySelector(sel); if (e) { e.textContent = fmt(v); e.classList.toggle('zero', !v); } }
       put('.sum .v.pay', paid); put('.sum .v.neu', ins); put('.sum .v.rec', rec); put('.sum.loss .v', paid - rec);
       var t = cs.querySelector('.totin'); if (t && t.classList.contains('isauto')) t.value = fmt(paid + ins);
+      if (nc) { var cost = paid + ins + rec > 0; nc.disabled = !nc.checked && cost; ncl.classList.toggle('off', nc.disabled); ncl.title = nc.disabled ? L.ncOff : ''; }
+      return paid + ins + rec;
     }
+    var nc = cs.querySelector('.sum.ncs input'), ncl = nc && nc.parentElement;
+    function setNC(on) {
+      nc.checked = on; cs.classList.toggle('nc-on', on);
+      cs.querySelectorAll('.cform select, .cform input, .cform button, .totin').forEach(function (e) { e.disabled = on; });
+      recalc();
+    }
+    if (nc) nc.addEventListener('change', function () { if (nc.checked && recalc() > 0) { nc.checked = false; recalc(); return; } setNC(nc.checked); });
     cs.querySelectorAll('.cform').forEach(function (f) {
       var k = f.dataset.k, tb = cs.querySelector('table[data-k="' + k + '"]').tBodies[0];
       function q(n) { return f.querySelector('[data-f="' + n + '"]'); }
@@ -644,6 +652,7 @@ Summary (USD)</div>
       });
       state(); sync();
     });
+    recalc();
   });
   document.querySelectorAll('.pos').forEach(function (g) {
     g.addEventListener('click', function (e) {
