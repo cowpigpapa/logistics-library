@@ -157,7 +157,7 @@ a{color:#B3121F}a:hover{color:#7E0C16}
 @media (max-width:640px){.cf-g.pay,.cf-g.rec{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.cf-g .cf-b{grid-column:1 / -1}}
 @media (max-width:1100px){.sbl,.flow.r64 .sbl{grid-template-columns:minmax(0,1fr)}.tl{flex:none;height:auto;min-height:0;max-height:420px}}
 
-:root{--ctl-h:32px;--btn-h:32px;--btn-px:14px;--zone-pad:18px;--gap:12px;--cell-py:6px;--fs:14px;--red:#D3202F;--ink:#222;--line:#E3E3E3}
+:root{--ctl-h:32px;--btn-h:32px;--btn-px:14px;--zone-pad:18px;--gap:12px;--cell-py:6px;--fs:14px;--main-w:1400px;--red:#D3202F;--ink:#222;--line:#E3E3E3}
 body{margin:0;background:#F2F3F5;color:var(--ink);font-family:'Noto Sans KR','Malgun Gothic',sans-serif}
 .lab-bar{position:static !important}
 .gnb{display:flex;align-items:center;gap:22px;height:52px;padding:0 20px;background:#fff;border-bottom:1px solid #E1E1E1}
@@ -175,6 +175,7 @@ body{margin:0;background:#F2F3F5;color:var(--ink);font-family:'Noto Sans KR','Ma
 .snb a{display:block;padding:7px 12px 7px 18px;border-radius:6px;color:#333;text-decoration:none}
 .snb a[aria-current]{background:#FDECEE;color:#B3121F;font-weight:700}
 .main{min-width:0}
+.content{max-width:var(--main-w);box-sizing:border-box}.actbar>*{max-width:calc(var(--main-w) - 48px)}
 .reg{font-size:var(--fs)}
 .actbar{position:sticky;top:0;z-index:15;background:#fff;border-bottom:1px solid #DDD;box-shadow:0 2px 8px rgba(0,0,0,.05);padding:10px 24px 0}
 .ab1{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
@@ -570,7 +571,7 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
 <div class="tune" id="tune" role="dialog" aria-label="화면 조절" hidden>
 <h3>화면 조절 <button type="button" class="ico" id="tune-close" aria-label="닫기">✕</button></h3>
 <div class="pre" role="group" aria-label="프리셋"><button type="button" data-p="촘촘" aria-pressed="false">촘촘</button><button type="button" data-p="보통" aria-pressed="true">보통</button><button type="button" data-p="넉넉" aria-pressed="false">넉넉</button></div>
-<label class="tr"><span>입력칸 높이</span><input type="range" data-v="ctl-h" min="26" max="40" step="1" value="32"><output>32px</output></label><label class="tr"><span>버튼 높이</span><input type="range" data-v="btn-h" min="26" max="40" step="1" value="32"><output>32px</output></label><label class="tr"><span>버튼 좌우 여백</span><input type="range" data-v="btn-px" min="8" max="22" step="1" value="14"><output>14px</output></label><label class="tr"><span>구역 안 여백</span><input type="range" data-v="zone-pad" min="10" max="28" step="1" value="18"><output>18px</output></label><label class="tr"><span>칸 사이 간격</span><input type="range" data-v="gap" min="6" max="22" step="1" value="12"><output>12px</output></label><label class="tr"><span>표 줄 위아래 여백</span><input type="range" data-v="cell-py" min="2" max="12" step="1" value="6"><output>6px</output></label><label class="tr"><span>글자 크기</span><input type="range" data-v="fs" min="12" max="16" step="0.5" value="14"><output>14px</output></label>
+<label class="tr"><span>입력칸 높이</span><input type="range" data-v="ctl-h" min="26" max="40" step="1" value="32"><output>32px</output></label><label class="tr"><span>버튼 높이</span><input type="range" data-v="btn-h" min="26" max="40" step="1" value="32"><output>32px</output></label><label class="tr"><span>버튼 좌우 여백</span><input type="range" data-v="btn-px" min="8" max="22" step="1" value="14"><output>14px</output></label><label class="tr"><span>구역 안 여백</span><input type="range" data-v="zone-pad" min="10" max="28" step="1" value="18"><output>18px</output></label><label class="tr"><span>칸 사이 간격</span><input type="range" data-v="gap" min="6" max="22" step="1" value="12"><output>12px</output></label><label class="tr"><span>표 줄 위아래 여백</span><input type="range" data-v="cell-py" min="2" max="12" step="1" value="6"><output>6px</output></label><label class="tr"><span>글자 크기</span><input type="range" data-v="fs" min="12" max="16" step="0.5" value="14"><output>14px</output></label><label class="tr"><span>본문 최대 폭</span><input type="range" data-v="main-w" min="960" max="1920" step="20" value="1400"><output>1400px</output></label>
 <p class="vals" aria-live="polite"></p>
 <div class="row"><button type="button" id="tune-reset">처음 값</button><button type="button" class="pri" id="tune-copy">값 복사</button></div>
 </div>
@@ -746,7 +747,7 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
   function toast(t) { var d = document.createElement('div'); d.className = 'toast'; d.setAttribute('role', 'status'); d.textContent = t; document.body.appendChild(d); setTimeout(function () { d.remove(); }, 1800); }
   document.getElementById('save').addEventListener('click', function () { toast('저장했습니다 (시안 — 실제 저장 안 함)'); });
   // screen tuning panel
-  var PRE = {"촘촘": [28, 28, 10, 12, 8, 3, 13], "보통": [32, 32, 14, 18, 12, 6, 14], "넉넉": [36, 36, 18, 24, 16, 9, 15]}, KEYS = ["ctl-h", "btn-h", "btn-px", "zone-pad", "gap", "cell-py", "fs"];
+  var PRE = {"촘촘": [28, 28, 10, 12, 8, 3, 13], "보통": [32, 32, 14, 18, 12, 6, 14], "넉넉": [36, 36, 18, 24, 16, 9, 15]}, KEYS = ["ctl-h", "btn-h", "btn-px", "zone-pad", "gap", "cell-py", "fs", "main-w"];
   var panel = document.getElementById('tune'), btn = document.getElementById('tunebtn'), ranges = [].slice.call(panel.querySelectorAll('input[type=range]'));
   var LS = 'qms-reg-tune';
   function apply(save) {
@@ -763,7 +764,7 @@ SCM팀 통한 수리 가능 제품 양품화 협의 (10/17, 11/13 협의 진행)
   panel.addEventListener('input', function (e) { if (e.target.type === 'range') { panel.querySelectorAll('.pre button').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); }); apply(true); } });
   panel.addEventListener('click', function (e) {
     var p = e.target.closest('[data-p]'); if (p) { preset(p.dataset.p); return; }
-    if (e.target.closest('#tune-reset')) { preset('보통'); return; }
+    if (e.target.closest('#tune-reset')) { var w = ranges[ranges.length - 1]; w.value = w.defaultValue; preset('보통'); return; }
     if (e.target.closest('#tune-close')) { panel.hidden = true; btn.setAttribute('aria-expanded', 'false'); return; }
     if (e.target.closest('#tune-copy')) { var t = '화면 조절 값: ' + panel.querySelector('.vals').textContent;
       (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { toast('값을 복사했습니다. 대화창에 붙여 넣으세요.'); }, function () { toast(t); }); }
